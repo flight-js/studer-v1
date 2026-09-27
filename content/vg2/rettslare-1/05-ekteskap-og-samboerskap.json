@@ -1,0 +1,81 @@
+{
+  "id": "ekteskap-og-samboerskap",
+  "fagId": "rettslare-1",
+  "trinnId": "vg2",
+  "name": "Ekteskap og samboerskap",
+  "intro": "Vilkårene for å inngå ekteskap, rettigheter og plikter mellom ektefeller, felleseie og særeie, separasjon og skilsmisse med likedeling og skjevdeling – og hvordan samboeres rettsstilling skiller seg fra ektefellers.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Å inngå ekteskap\n\n**Ekteskapsloven** stiller blant annet disse **vilkårene**:\n\n- Begge må ha fylt **18 år** – det gjelder uten unntak.\n- Ingen av dem kan være **gift** fra før.\n- De kan ikke være i **nær slekt** – foreldre og barn, besteforeldre og barnebarn, eller søsken.\n- Begge må gi **frivillig** samtykke og være til stede ved vigselen.\n\nFør vigselen blir vilkårene kontrollert ved **prøving**. Siden **2009** har par av **samme kjønn** kunnet gifte seg.\n\n## Rettigheter og plikter mellom ektefeller\n\n- **Underholdsplikt**: Ektefellene skal **forsørge** hverandre og bidra til familiens underhold etter **evne** – med penger eller arbeid i hjemmet.\n- **Rådighet**: Hver ektefelle råder som hovedregel over **sine egne** eiendeler. Men man kan ikke **selge** eller **pantsette** **felles bolig** uten den andres **samtykke**.\n- **Opplysningsplikt** om økonomien.\n- Ektefeller **arver** hverandre etter loven.\n\n## Felleseie og særeie\n\n- **Felleseie** er hovedregelen. Det betyr **ikke** at alt eies i fellesskap under ekteskapet, men at verdiene skal **deles** når ekteskapet oppløses.\n- **Særeie** avtales i en **ektepakt**, som må være **skriftlig**. Særeie holdes **utenfor** delingen.\n\n## Separasjon og skilsmisse\n\n- En ektefelle kan kreve **separasjon** uten å oppgi grunn.\n- Etter **ett år** som separert kan hver av dem kreve **skilsmisse**.\n- Etter **to års samlivsbrudd** kan man få skilsmisse direkte.\n- Ved **vold** eller **mishandling** kan man få skilsmisse med en gang.\n\nHar de felles barn under 16 år, må de gå til **mekling** først.\n\n## Deling ved skilsmisse\n\n- **Likedeling**: **Nettoverdiene** i felleseiet – eiendeler minus gjeld – deles **likt**.\n- **Skjevdeling**: Verdier som en ektefelle hadde **før** ekteskapet, eller som er mottatt som **arv** eller **gave** fra andre enn ektefellen, kan holdes utenfor delingen. Det må **dokumenteres**.\n\n**Eksempel**: Ali hadde 200 000 kr i banken da de giftet seg. Ved skilsmissen har han 500 000 kr og Sara 300 000 kr. Ali kan kreve skjevdeling av 200 000 kr. Deretter deles resten (300 000 + 300 000 = 600 000 kr) likt, så hver får 300 000 kr. Ali sitter da igjen med 500 000 kr, Sara med 300 000 kr.\n\n## Samboere\n\nSamboere har **mye svakere** rettigheter enn ektefeller:\n\n- Det finnes **ingen** felles samboerlov om deling. Hver eier **det de har kjøpt** – det avgjørende er **hvem som har betalt** eller står som eier.\n- Samboere har **ingen underholdsplikt** overfor hverandre.\n- **Arv**: Samboere **uten** felles barn arver **ikke** hverandre etter loven. Samboere **med** felles barn har en begrenset arverett.\n- **Husstandsfellesskapsloven** kan i noen tilfeller gi rett til å **overta** felles bolig og innbo.\n\nDerfor anbefales det at samboere skriver en **samboerkontrakt** og et **testament**.\n\n## Drøfting\n\nFlere og flere velger å være **samboere**. Bør samboere få **samme** rettigheter som ektefeller? Noen mener det vil beskytte den **økonomisk svakeste** parten. Andre mener at folk som ikke gifter seg, nettopp har **valgt** å stå friere.",
+  "flashcards": [
+    { "term": "Aldersgrense for ekteskap", "def": "18 år uten unntak." },
+    { "term": "Prøving", "def": "Kontroll av at vilkårene for ekteskap er oppfylt." },
+    { "term": "Likekjønnet ekteskap", "def": "Tillatt i Norge siden 2009." },
+    { "term": "Underholdsplikt", "def": "Ektefeller skal forsørge hverandre etter evne." },
+    { "term": "Felles bolig", "def": "Kan ikke selges eller pantsettes uten den andres samtykke." },
+    { "term": "Felleseie", "def": "Hovedregelen – verdiene deles ved oppløsning av ekteskapet." },
+    { "term": "Særeie", "def": "Verdier holdes utenfor delingen, avtales i ektepakt." },
+    { "term": "Ektepakt", "def": "Skriftlig avtale mellom ektefeller, for eksempel om særeie." },
+    { "term": "Separasjon", "def": "Kan kreves uten grunn; etter ett år kan man få skilsmisse." },
+    { "term": "Direkte skilsmisse", "def": "Etter to års samlivsbrudd eller ved vold." },
+    { "term": "Likedeling", "def": "Nettoverdiene i felleseiet deles likt." },
+    { "term": "Skjevdeling", "def": "Verdier fra før ekteskapet eller arv og gave holdes utenfor." },
+    { "term": "Samboeres eierskap", "def": "Hver eier det de har betalt for." },
+    { "term": "Husstandsfellesskapsloven", "def": "Kan gi rett til å overta felles bolig og innbo." },
+    { "term": "Samboerkontrakt", "def": "Avtale som regulerer samboernes økonomi." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken aldersgrense gjelder for å gifte seg i Norge?", "options": ["16 år", "18 år", "20 år", "18 år med unntak for 16-åringer"], "correct": 1, "explain": "Uten unntak." },
+    { "id": "q02", "text": "Hva betyr felleseie?", "options": ["At verdiene skal deles når ekteskapet oppløses", "At alt eies i fellesskap under ekteskapet", "At bare mannen eier", "At ingen eier noe"], "correct": 0, "explain": "Hver råder over sitt under ekteskapet." },
+    { "id": "q03", "text": "Hva er skjevdeling?", "options": ["At alt deles likt", "At bare gjeld deles", "At verdier fra før ekteskapet eller arv og gave holdes utenfor delingen", "At særeie deles"], "correct": 2, "explain": "Må dokumenteres." },
+    { "id": "q04", "text": "Når kan man kreve skilsmisse etter separasjon?", "options": ["Etter én måned", "Etter fem år", "Aldri", "Etter ett år"], "correct": 3, "explain": "Etter to års samlivsbrudd kan man få direkte skilsmisse." },
+    { "id": "q05", "text": "Kan en ektefelle selge felles bolig uten den andres samtykke?", "options": ["Nei", "Ja, alltid", "Ja, hvis den ene eier den", "Bare om sommeren"], "correct": 0, "explain": "Samtykke kreves." },
+    { "id": "q06", "text": "Arver samboere uten felles barn hverandre etter loven?", "options": ["Ja, alt", "Nei", "Ja, halvparten", "Bare boligen"], "correct": 1, "explain": "De må skrive testament." },
+    { "id": "q07", "text": "Hvordan avtales særeie?", "options": ["Muntlig", "På sosiale medier", "I en skriftlig ektepakt", "Det skjer automatisk"], "correct": 2, "explain": "Formkrav." },
+    { "id": "q08", "text": "Ali hadde 200 000 kr før ekteskapet, har 500 000 kr nå, og Sara har 300 000 kr. Hvor mye får Ali etter skjevdeling og likedeling?", "options": ["400 000 kr", "250 000 kr", "600 000 kr", "500 000 kr"], "correct": 3, "explain": "200 000 skjevdeles, 600 000 deles likt." },
+    { "id": "q09", "text": "Når kan man få skilsmisse med en gang?", "options": ["Ved vold eller mishandling", "Når man har kranglet", "Når man flytter", "Når man får barn"], "correct": 0, "explain": "Uten separasjon." },
+    { "id": "q10", "text": "Hva avgjør som hovedregel hvem som eier hva mellom samboere?", "options": ["Hvem som tjener mest", "Hvem som har betalt eller står som eier", "Hvem som har bodd lengst", "Loven deler alt likt"], "correct": 1, "explain": "Det finnes ingen samboerlov om deling." }
+  ],
+  "mindmap": {
+    "label": "Ekteskap og samboerskap",
+    "children": [
+      { "label": "Inngåelse", "children": [
+        { "label": "18 år" },
+        { "label": "Ikke gift, ikke nær slekt" },
+        { "label": "Frivillig samtykke" }
+      ] },
+      { "label": "Under ekteskapet", "children": [
+        { "label": "Underholdsplikt" },
+        { "label": "Rådighet og felles bolig" },
+        { "label": "Arverett" }
+      ] },
+      { "label": "Formuesordning", "children": [
+        { "label": "Felleseie" },
+        { "label": "Særeie og ektepakt" }
+      ] },
+      { "label": "Oppløsning", "children": [
+        { "label": "Separasjon og skilsmisse" },
+        { "label": "Likedeling" },
+        { "label": "Skjevdeling" }
+      ] },
+      { "label": "Samboere", "children": [
+        { "label": "Eierskap etter betaling" },
+        { "label": "Begrenset arv" },
+        { "label": "Samboerkontrakt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ektefeller arver hverandre etter loven.", "correct": true, "explain": "Etter arveloven." },
+      { "id": "m02", "type": "sant-usant", "text": "Samboere har underholdsplikt overfor hverandre.", "correct": false, "explain": "Det har bare ektefeller." },
+      { "id": "m03", "type": "sant-usant", "text": "Søsken kan ikke gifte seg med hverandre.", "correct": true, "explain": "Forbud mot ekteskap i nær slekt." },
+      { "id": "m04", "type": "sant-usant", "text": "Separasjon krever at man oppgir en grunn.", "correct": false, "explain": "Separasjon kan kreves uten grunn." },
+      { "id": "m05", "type": "flervalg", "text": "Hva anbefales for samboere som vil sikre hverandre?", "options": ["Ingenting", "Samboerkontrakt og testament", "Ektepakt", "Separasjon"], "correct": 1, "explain": "Loven gir dem svakt vern." },
+      { "id": "m06", "type": "flervalg", "text": "Hva deles likt ved likedeling?", "options": ["Nettoverdiene i felleseiet", "Bare gjelden", "Bare boligen", "Særeiet"], "correct": 0, "explain": "Eiendeler minus gjeld." },
+      { "id": "m07", "type": "flervalg", "text": "Siden når har par av samme kjønn kunnet gifte seg i Norge?", "options": ["1991", "1814", "2009", "2020"], "correct": 2, "explain": "Endring i ekteskapsloven." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "arbeidsrett",
+  "fagId": "rettslare-1",
+  "trinnId": "vg2",
+  "name": "Rettigheter og plikter i arbeidslivet",
+  "intro": "Sentrale regler i arbeidsmiljøloven og ferieloven: arbeidsavtale og fast ansettelse, prøvetid, arbeidstid og overtid, unge arbeidstakere, oppsigelse og avskjed, varsling og vern mot trakassering – og arbeidstakers plikter.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Arbeidsmiljøloven\n\n**Arbeidsmiljøloven** skal sikre et **trygt** og **fullt forsvarlig** arbeidsmiljø og **trygge ansettelsesforhold**. Reglene er i stor grad **ufravikelige** til arbeidstakerens fordel, fordi arbeidstakeren ofte er den **svakere** parten.\n\n## Å bli ansatt\n\n- **Arbeidsavtalen** skal være **skriftlig** og inneholde blant annet arbeidssted, arbeidsoppgaver, lønn, arbeidstid, oppsigelsesfrister og ferie.\n- **Fast ansettelse** er **hovedregelen**. **Midlertidig** ansettelse er bare lov i bestemte tilfeller, for eksempel ved **vikariat** eller arbeid av **midlertidig karakter**.\n- Arbeidsgiver kan avtale **prøvetid** på inntil **seks måneder**. I prøvetiden er oppsigelsestiden kortere, og kravet til begrunnelse noe lavere.\n\n## Arbeidstid og ferie\n\n- **Alminnelig arbeidstid** skal ikke overstige **9 timer per døgn** og **40 timer per uke**.\n- **Overtid** er arbeid utover dette og skal bare brukes ved **særlig og tidsavgrenset behov**. Overtid gir et tillegg på **minst 40 %** av timelønnen.\n- Arbeidstakere har rett til **pauser** og **hvile** mellom arbeidsøktene.\n- Etter **ferieloven** har alle rett til **25 virkedager** ferie i året.\n\n## Unge arbeidstakere\n\nDet er egne regler for arbeidstakere **under 18 år**. Barn under **15 år** kan som hovedregel bare utføre **lett arbeid** som ikke skader helse, utvikling eller skolegang, og ungdom kan ikke jobbe om **natten**. Arbeidstiden er også **begrenset** i skoleperioder.\n\n## Arbeidstakers plikter\n\n- **Arbeidsplikt**: å utføre arbeidet som avtalt.\n- **Lydighetsplikt**: å følge arbeidsgiverens **rimelige** instrukser – arbeidsgiver har **styringsrett**.\n- **Lojalitetsplikt**: ikke å skade arbeidsgiverens interesser.\n- **Medvirkningsplikt**: å bidra til et godt og sikkert arbeidsmiljø.\n\n## Oppsigelse og avskjed\n\n- En **oppsigelse** fra arbeidsgiver må være **saklig begrunnet** i **virksomhetens**, **arbeidsgiverens** eller **arbeidstakerens** forhold – for eksempel **nedbemanning** eller gjentatte brudd på arbeidsplikter. Den må være **skriftlig**.\n- Den vanlige **oppsigelsestiden** er **én måned**, men den blir lengre jo lenger man har vært ansatt og jo eldre man er.\n- **Avskjed** betyr at arbeidsforholdet **opphører straks**. Det krever **grovt pliktbrudd** eller **vesentlig mislighold**, som tyveri eller vold.\n- Arbeidstakeren kan selv si opp med oppsigelsestiden i avtalen.\n\nMener arbeidstakeren at oppsigelsen er **usaklig**, kan det kreves **forhandlinger** og deretter reises **søksmål**.\n\n## Varsling\n\nArbeidstakere har rett til å **varsle** om **kritikkverdige forhold** i virksomheten – for eksempel lovbrudd, fare for liv og helse, korrupsjon eller trakassering. Varslingen skal skje på en **forsvarlig** måte, for eksempel internt eller til en tilsynsmyndighet. **Gjengjeldelse** mot den som varsler, er **forbudt**.\n\n## Trakassering\n\nArbeidstakere skal ikke utsettes for **trakassering** eller annen **utilbørlig opptreden**. **Seksuell trakassering** er uønsket seksuell oppmerksomhet som er **plagsom**. Arbeidsgiveren har plikt til å **forebygge** og **følge opp** trakassering. Diskriminerende trakassering reguleres også av **likestillings- og diskrimineringsloven**.\n\n## Tilsyn\n\n**Arbeidstilsynet** fører tilsyn med at arbeidsmiljøloven følges, og **fagforeninger** og **verneombud** er viktige for å ivareta arbeidstakernes rettigheter.",
+  "flashcards": [
+    { "term": "Arbeidsmiljøloven", "def": "Skal sikre trygt arbeidsmiljø og trygge ansettelser." },
+    { "term": "Skriftlig arbeidsavtale", "def": "Pålagt – med arbeidssted, oppgaver, lønn og arbeidstid." },
+    { "term": "Fast ansettelse", "def": "Hovedregelen i norsk arbeidsliv." },
+    { "term": "Prøvetid", "def": "Inntil seks måneder." },
+    { "term": "Alminnelig arbeidstid", "def": "Høyst 9 timer per døgn og 40 timer per uke." },
+    { "term": "Overtidstillegg", "def": "Minst 40 % av timelønnen." },
+    { "term": "Ferie", "def": "25 virkedager i året etter ferieloven." },
+    { "term": "Styringsrett", "def": "Arbeidsgivers rett til å lede og fordele arbeidet." },
+    { "term": "Lojalitetsplikt", "def": "Plikt til ikke å skade arbeidsgiverens interesser." },
+    { "term": "Saklig oppsigelse", "def": "Begrunnet i virksomhetens, arbeidsgiverens eller arbeidstakerens forhold." },
+    { "term": "Oppsigelsestid", "def": "Som hovedregel én måned, lengre ved lang ansiennitet." },
+    { "term": "Avskjed", "def": "Arbeidsforholdet opphører straks ved grovt pliktbrudd." },
+    { "term": "Varsling", "def": "Å si fra om kritikkverdige forhold – gjengjeldelse er forbudt." },
+    { "term": "Seksuell trakassering", "def": "Uønsket seksuell oppmerksomhet som er plagsom." },
+    { "term": "Arbeidstilsynet", "def": "Fører tilsyn med arbeidsmiljøloven." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er hovedregelen for ansettelse i Norge?", "options": ["Midlertidig ansettelse", "Fast ansettelse", "Innleie", "Frilans"], "correct": 1, "explain": "Midlertidig bare i bestemte tilfeller." },
+    { "id": "q02", "text": "Hvor lang kan prøvetiden være?", "options": ["Inntil seks måneder", "Inntil ett år", "Inntil to uker", "Inntil tre år"], "correct": 0, "explain": "Etter arbeidsmiljøloven." },
+    { "id": "q03", "text": "Hvor stort er overtidstillegget minst?", "options": ["10 %", "25 %", "40 %", "100 %"], "correct": 2, "explain": "Av timelønnen." },
+    { "id": "q04", "text": "Hva er forskjellen på oppsigelse og avskjed?", "options": ["Det er det samme", "Avskjed krever ikke grunn", "Oppsigelse gjelder bare ledere", "Ved avskjed opphører arbeidsforholdet straks ved grovt pliktbrudd"], "correct": 3, "explain": "Oppsigelse har oppsigelsestid." },
+    { "id": "q05", "text": "Hvor mange virkedager ferie har arbeidstakere rett til?", "options": ["25", "15", "30", "20"], "correct": 0, "explain": "Etter ferieloven." },
+    { "id": "q06", "text": "Hva er varsling?", "options": ["Å si opp jobben", "Å si fra om kritikkverdige forhold i virksomheten", "Å klage på lønnen", "Å gi arbeidsgiveren tips om ferie"], "correct": 1, "explain": "Gjengjeldelse er forbudt." },
+    { "id": "q07", "text": "Hva er styringsrett?", "options": ["Arbeidstakers rett til å velge oppgaver", "Fagforeningens rett til å streike", "Arbeidsgivers rett til å lede og fordele arbeidet", "Statens rett til å styre bedrifter"], "correct": 2, "explain": "Innenfor lov og avtale." },
+    { "id": "q08", "text": "Hva kreves for at en oppsigelse skal være lovlig?", "options": ["At arbeidsgiver ikke liker arbeidstakeren", "At det er dårlig vær", "Ingenting", "At den er saklig begrunnet og skriftlig"], "correct": 3, "explain": "Ellers kan den kjennes ugyldig." },
+    { "id": "q09", "text": "Hva er alminnelig arbeidstid per uke etter loven?", "options": ["40 timer", "37,5 timer alltid", "50 timer", "30 timer"], "correct": 0, "explain": "Mange tariffavtaler har kortere arbeidstid." },
+    { "id": "q10", "text": "Hvilken plikt har arbeidsgiveren når det gjelder trakassering?", "options": ["Ingen plikt", "Å forebygge og følge opp trakassering", "Bare å føre logg", "Å la de ansatte løse det selv"], "correct": 1, "explain": "Et forsvarlig arbeidsmiljø." }
+  ],
+  "mindmap": {
+    "label": "Arbeidsrett",
+    "children": [
+      { "label": "Ansettelse", "children": [
+        { "label": "Skriftlig avtale" },
+        { "label": "Fast som hovedregel" },
+        { "label": "Prøvetid" }
+      ] },
+      { "label": "Arbeidstid", "children": [
+        { "label": "9 t / 40 t" },
+        { "label": "Overtid 40 %" },
+        { "label": "Ferie 25 dager" }
+      ] },
+      { "label": "Plikter", "children": [
+        { "label": "Arbeid og lydighet" },
+        { "label": "Lojalitet" },
+        { "label": "Medvirkning" }
+      ] },
+      { "label": "Avslutning", "children": [
+        { "label": "Saklig oppsigelse" },
+        { "label": "Oppsigelsestid" },
+        { "label": "Avskjed" }
+      ] },
+      { "label": "Vern", "children": [
+        { "label": "Varsling" },
+        { "label": "Trakassering" },
+        { "label": "Arbeidstilsynet" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange regler i arbeidsmiljøloven kan ikke fravikes til ugunst for arbeidstakeren.", "correct": true, "explain": "Arbeidstakeren er den svakere parten." },
+      { "id": "m02", "type": "sant-usant", "text": "Arbeidsgiver kan straffe en arbeidstaker som varsler forsvarlig.", "correct": false, "explain": "Gjengjeldelse er forbudt." },
+      { "id": "m03", "type": "sant-usant", "text": "Ungdom under 18 år kan som hovedregel ikke jobbe om natten.", "correct": true, "explain": "Egne regler for unge arbeidstakere." },
+      { "id": "m04", "type": "sant-usant", "text": "En oppsigelse kan gis muntlig.", "correct": false, "explain": "Den skal være skriftlig." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kan være saklig grunn til oppsigelse?", "options": ["At arbeidstakeren er gravid", "Nedbemanning på grunn av dårlig økonomi", "At arbeidstakeren har varslet", "At arbeidstakeren er medlem av en fagforening"], "correct": 1, "explain": "Virksomhetens forhold." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem fører tilsyn med arbeidsmiljøloven?", "options": ["Arbeidstilsynet", "Datatilsynet", "Forbrukerrådet", "Politiet"], "correct": 0, "explain": "Kan gi pålegg og reaksjoner." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken plikt har arbeidstakeren?", "options": ["Å velge egne arbeidsoppgaver", "Å bestemme lønnen", "Å være lojal mot arbeidsgiveren", "Å ansette nye kolleger"], "correct": 2, "explain": "Lojalitetsplikt." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

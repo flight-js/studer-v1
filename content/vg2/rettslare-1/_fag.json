@@ -1,0 +1,67 @@
+{
+  "id": "rettslare-1",
+  "trinnId": "vg2",
+  "name": "Rettslære 1",
+  "lareplan": {
+    "kode": "RTL01-05",
+    "url": "https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv889",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "reflektere over Noreg som rettsstat og vurdere maktfordeling, rettssikkerheit og legalitetsprinsippet i Noreg"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske og drøfte kva funksjon rettsreglane har i samfunnet"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske og bruke ulike rettskjelder for å løyse juridiske problemstillingar"
+      },
+      {
+        "nr": 4,
+        "tekst": "identifisere partar, krav, rettsleg grunnlag og juridisk problemstilling, og gjennomføre juridisk drøfting for å komme fram til ein konklusjon"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske prinsippet om barnets beste og bruke sentrale reglar i barnelova"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke reglar om rettar og plikter mellom ektefellar og mellom sambuarar, og reglar som gjeld ved inngåing og oppløysing av ekteskap"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjere greie for reglane om uskifte og bruke reglar om arv etter lov og testament"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjere greie for rettar og plikter i arbeidslivet og bruke sentrale reglar om inngåing og avslutting av arbeidsforhold, varsling og trakassering"
+      },
+      {
+        "nr": 9,
+        "tekst": "bruke sentrale reglar om likestilling og diskriminering i samfunnet"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske grunnprinsippa i avtaleretten og forskjellen mellom ulike typar kjøp, og bruke sentrale reglar om pliktene og rettane til kjøparen og seljaren i samband med forbrukarkjøp og angrerett"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske og drøfte dagsaktuelle eller rettshistoriske juridiske problemstillingar"
+      }
+    ]
+  },
+  "temaer": [
+    "rettsstaten",
+    "rettsreglenes-funksjon",
+    "rettskilder-og-juridisk-metode",
+    "barnets-beste-og-barneloven",
+    "ekteskap-og-samboerskap",
+    "arv-og-uskifte",
+    "arbeidsrett",
+    "likestilling-og-diskriminering",
+    "avtalerett-og-forbrukerkjop",
+    "aktuelle-og-rettshistoriske-saker"
+  ]
+}

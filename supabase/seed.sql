@@ -74,10 +74,10 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('matematikk-s1', 'vg2', 'Matematikk S1', 'MAT04-02', 'https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv295', '[{"nr":1,"tekst":"planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til samfunnsøkonomiske temaer og forhold, og analysere og presentere funn"},{"nr":2,"tekst":"uttrykke egne resonnementer ved hjelp av matematiske begreper og symbolspråk"},{"nr":3,"tekst":"forstå begrepene gjennomsnittlig og momentan vekstfart, grenseverdi og derivasjon, og bruke disse for å løse praktiske problemer"},{"nr":4,"tekst":"bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier"},{"nr":5,"tekst":"anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett"},{"nr":6,"tekst":"anvende derivasjon til å analysere og forstå optimaliseringsproblemer"},{"nr":7,"tekst":"utforske og gjøre rede for egenskapene ved potenser og logaritmer, og gi eksempler på reelle anvendelser av disse egenskapene"},{"nr":8,"tekst":"utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger"},{"nr":9,"tekst":"gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av funksjoner som ikke er kontinuerlige"},{"nr":10,"tekst":"utforske og forstå kombinatoriske forsøk med ordnede og uordnede utvalg"},{"nr":11,"tekst":"bruke digitale verktøy til å simulere og utforske utfall i stokastiske forsøk, og forstå begrepet stokastiske variabler"},{"nr":12,"tekst":"analysere et problem der sannsynlighet og kombinatorikk inngår, og bruke ulike strategier i problemløsingen"},{"nr":13,"tekst":"utforske og tolke binomiske og hypergeometriske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene"}]'::jsonb, 12),
   ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', 'INF01-03', 'https://www.udir.no/lk20/inf01-03/kompetansemaal-og-vurdering/kv977', '[{"nr":1,"tekst":"drøfte dagsaktuelle temaer knyttet til hvordan informasjonsteknologi påvirker individet og samfunnet"},{"nr":2,"tekst":"beskrive sentrale komponenter i datamaskiner og nettverk og gjøre rede for hvilken funksjon de har"},{"nr":3,"tekst":"gjøre rede for og vurdere hvordan ulike typer informasjon kan representeres digitalt og struktureres ved hjelp av ulike datalagringsmetoder"},{"nr":4,"tekst":"utvikle nettsider ved hjelp av markeringsspråk"},{"nr":5,"tekst":"lagre og hente fram data, presentere data på nettsider og reflektere over hvordan representasjonsform kan påvirke tolkningen"},{"nr":6,"tekst":"planlegge og lage nettsider som tar hensyn til brukervennlighet og universell utforming"},{"nr":7,"tekst":"utvikle prosedyreorienterte programmer med prosedyrer med og uten parametre og returverdier"},{"nr":8,"tekst":"beskrive ulike typer algoritmer og vurdere effektiviteten av egen programkode"},{"nr":9,"tekst":"utforske, strukturere og kommentere programkode"},{"nr":10,"tekst":"gjøre rede for gjeldende personvernregelverk og hvilke konsekvenser det har for utvikling av informasjonsteknologi"},{"nr":11,"tekst":"drøfte problemstillinger knyttet til innhenting, bruk og misbruk av data"},{"nr":12,"tekst":"bruke algoritmisk tenkning og programmering for å utforske en problemstilling og presentere resultatet"}]'::jsonb, 13),
   ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', 'TNF01-03', 'https://www.udir.no/lk20/tnf01-03/kompetansemaal-og-vurdering/kv975', '[{"nr":1,"tekst":"bruke kravspesifikasjon og arbeidstegninger i arbeid med å utvikle og teste funksjonelle produkter"},{"nr":2,"tekst":"utvikle og teste et produkt som inneholder en mikrokontroller, og vurdere muligheter for utvidelser og forbedringer"},{"nr":3,"tekst":"utforske og bruke analoge og digitale signaler fra sensorer og beskrive sensorenes ulike bruksområder"},{"nr":4,"tekst":"designe og lage et produkt som produserer empiriske data og presentere funn fra eget datamateriale"},{"nr":5,"tekst":"analysere datamateriale fra forsøk og reflektere over og teste om usikkerheten kan reduseres"},{"nr":6,"tekst":"bruke kvantitativ metode i forsøk og vurdere påliteligheten til resultatene"},{"nr":7,"tekst":"beskrive historisk utvikling av og virkemåten til et teknologisk produkt, og drøfte samfunnsnytten av dette"},{"nr":8,"tekst":"drøfte etiske problemstillinger knyttet til teknologisk utvikling"},{"nr":9,"tekst":"utforske hvordan en virksomhet arbeider med teknologi, og gjøre rede for virksomheten i et bærekraftsperspektiv"}]'::jsonb, 14),
-  ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', null, null, '[]'::jsonb, 15),
-  ('historie-og-filosofi-1', 'vg2', 'Historie og filosofi 1', null, null, '[]'::jsonb, 16),
-  ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', null, null, '[]'::jsonb, 17),
-  ('rettslare-1', 'vg2', 'Rettslære 1', null, null, '[]'::jsonb, 18),
+  ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', 'POS04-01', 'https://www.udir.no/lk20/pos04-01/kompetansemaal-og-vurdering/kv494', '[{"nr":1,"tekst":"finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"},{"nr":2,"tekst":"vurdere samfunnsvitenskapelige teorier, metoder og tenkemåter, og bruke disse for å utforske sosiale og kulturelle fenomener og gjennomføre samfunnsfaglige undersøkelser"},{"nr":3,"tekst":"gjøre rede for og reflektere over sosialisering som en livslang prosess"},{"nr":4,"tekst":"drøfte årsaker til sosiale avvik og reflektere over og vurdere individuelle og kollektive reaksjoner"},{"nr":5,"tekst":"drøfte ulike oppfatninger av begrepet kultur, og sammenligne kulturfenomener innad i og mellom kulturer"},{"nr":6,"tekst":"analysere hvordan kulturer er stabile og i endring, og drøfte utfordringer og muligheter som følger av kulturelt mangfold"},{"nr":7,"tekst":"gjøre rede for ulike former for makt og vurdere hvordan utøvelse av makt påvirker aktører, strukturer og handlinger"},{"nr":8,"tekst":"drøfte hvordan medier, kommunikasjon og samhandling endrer seg i takt med utvikling av ny teknologi"},{"nr":9,"tekst":"reflektere over årsaker til marginalisering i samfunnet og utforske og vurdere tiltak som kan motvirke utenforskap og fremme inkludering"},{"nr":10,"tekst":"utforske og reflektere over mangfold og variasjoner i ulike urfolks kulturer og samfunnsliv"},{"nr":11,"tekst":"drøfte betydningen av kulturforståelse og interkulturell kompetanse i et demokratisk og mangfoldig samfunn"},{"nr":12,"tekst":"bruke teorier om lagdeling og klasser for å drøfte sosial ulikhet"},{"nr":13,"tekst":"gjøre rede for forutsetninger for sosial mobilitet og drøfte konsekvenser av høy og lav sosial mobilitet i ulike samfunn og kulturer"},{"nr":14,"tekst":"drøfte konsekvenser av ulik organisering av arbeid og vurdere betydningen av arbeid og produksjon for individ og samfunn"},{"nr":15,"tekst":"vurdere ulike former for arbeidsdeling og drøfte sammenhenger mellom teknologi, produksjon og samfunnsendringer"},{"nr":16,"tekst":"vurdere hvordan politiske ideologier behandler makt- og fordelingsspørsmål, og drøfte oppfatninger av rettferdighet og fordeling"},{"nr":17,"tekst":"drøfte sammenhenger mellom sosiale prosesser og sosial ulikhet på individ- og samfunnsnivå, og muligheter for å skape bærekraftige samfunn"}]'::jsonb, 15),
+  ('historie-og-filosofi-1', 'vg2', 'Historie og filosofi 1', 'HIF01-04', 'https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv895', '[{"nr":1,"tekst":"anvende filosofisk samtale for å utforske oppfatninger, undersøke argumentasjon og vurdere gyldighet"},{"nr":2,"tekst":"bruke kilder av ulik art og opphav til å lage fortellinger og drøfte historiske og filosofiske problemstillinger"},{"nr":3,"tekst":"reflektere over hvordan tilgangen på kilder påvirker og begrenser hva vi kan vite om fortiden"},{"nr":4,"tekst":"gjøre rede for og drøfte kontinuitet og endring i maktstrukturer, frihetsbetingelser og statsdanning i ulike historiske perioder fra antikken til moderne tid og reflektere over forståelsen av makt, frihet og demokrati"},{"nr":5,"tekst":"utforske filosofi fra antikken til moderne tid og drøfte etikk, politisk filosofi, metafysikk og erkjennelsesteori"},{"nr":6,"tekst":"reflektere over hvordan religion og filosofi har blitt brukt til både å utfordre og å legitimere makt og samfunnsstrukturer, og lagt grunnlag for sannhets- og virkelighetsoppfatning, fra antikken til moderne tid"},{"nr":7,"tekst":"gjøre rede for og vurdere hvordan fortellinger er med på å skape mening og forklare hvem vi er eller ønsker å være"},{"nr":8,"tekst":"drøfte hvordan ulike historiesyn kan prege vår forståelse og fortolkning av fortiden og nåtiden"},{"nr":9,"tekst":"utforske sammenhenger mellom teknologiske, økonomiske og vitenskapelige endringer og vurdere betydningen disse endringene kan ha hatt for samfunnsstrukturer og menneskers livsvilkår og virkelighetsoppfatning"},{"nr":10,"tekst":"utforske forholdet mellom miljø og ressursbruk i et historisk perspektiv og reflektere over ulike oppfatninger om forholdet mellom mennesker, dyr og natur"},{"nr":11,"tekst":"gjøre rede for virkelighetsoppfatninger fra ulike tradisjoner og deler av verden og reflektere over hvordan mennesket og naturen har blitt verdsatt"}]'::jsonb, 16),
+  ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', 'POS05-02', 'https://www.udir.no/lk20/pos05-02/kompetansemaal-og-vurdering/kv891', '[{"nr":1,"tekst":"vurdere informasjon for å analysere faglige spørsmål og problemstillinger"},{"nr":2,"tekst":"bruke statsvitenskapelige teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"},{"nr":3,"tekst":"reflektere over hva det innebærer å være medborger, sammenligne ulike staters styreform og analysere demokratiets utvikling og utfordringer"},{"nr":4,"tekst":"utforske og analysere nasjonale og internasjonale saker eller konflikter i et statsvitenskapelig perspektiv"},{"nr":5,"tekst":"gjøre rede for maktforhold, konfliktdimensjoner og kanaler for politisk innflytelse i det norske politiske systemet og drøfte hvordan dette kommer til uttrykk i praktisk politikk"},{"nr":6,"tekst":"bruke samfunnsvitenskapelig metode for å analysere og drøfte velgeratferd og politisk deltakelse"},{"nr":7,"tekst":"utforske, analysere og drøfte dagsaktuelle problemstillinger knyttet til bærekraft og fordeling"},{"nr":8,"tekst":"drøfte rettighetene til urfolk og minoriteter nasjonalt og internasjonalt og problemstillinger knyttet til politisk innflytelse"},{"nr":9,"tekst":"vurdere menneskerettighetenes betydning for demokratiet og velferdsstaten"},{"nr":10,"tekst":"vurdere folkerettens rolle og betydning nasjonalt og internasjonalt"},{"nr":11,"tekst":"utforske institusjoner og aktører som overvåker og håndhever menneskerettighetene, og drøfte forholdet mellom statlig, mellomstatlig og overstatlig myndighetsutøvelse"},{"nr":12,"tekst":"gjøre rede for det norske politiske systemet lokalt og nasjonalt og drøfte hvilke utfordringer det norske demokratiet står overfor"},{"nr":13,"tekst":"utforske og drøfte hvordan det internasjonale politiske systemet håndterer problemstillinger knyttet til krig og fred, sikkerhet, samarbeid og konfliktløsing"}]'::jsonb, 17),
+  ('rettslare-1', 'vg2', 'Rettslære 1', 'RTL01-05', 'https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv889', '[{"nr":1,"tekst":"reflektere over Noreg som rettsstat og vurdere maktfordeling, rettssikkerheit og legalitetsprinsippet i Noreg"},{"nr":2,"tekst":"utforske og drøfte kva funksjon rettsreglane har i samfunnet"},{"nr":3,"tekst":"utforske og bruke ulike rettskjelder for å løyse juridiske problemstillingar"},{"nr":4,"tekst":"identifisere partar, krav, rettsleg grunnlag og juridisk problemstilling, og gjennomføre juridisk drøfting for å komme fram til ein konklusjon"},{"nr":5,"tekst":"utforske prinsippet om barnets beste og bruke sentrale reglar i barnelova"},{"nr":6,"tekst":"bruke reglar om rettar og plikter mellom ektefellar og mellom sambuarar, og reglar som gjeld ved inngåing og oppløysing av ekteskap"},{"nr":7,"tekst":"gjere greie for reglane om uskifte og bruke reglar om arv etter lov og testament"},{"nr":8,"tekst":"gjere greie for rettar og plikter i arbeidslivet og bruke sentrale reglar om inngåing og avslutting av arbeidsforhold, varsling og trakassering"},{"nr":9,"tekst":"bruke sentrale reglar om likestilling og diskriminering i samfunnet"},{"nr":10,"tekst":"utforske grunnprinsippa i avtaleretten og forskjellen mellom ulike typar kjøp, og bruke sentrale reglar om pliktene og rettane til kjøparen og seljaren i samband med forbrukarkjøp og angrerett"},{"nr":11,"tekst":"utforske og drøfte dagsaktuelle eller rettshistoriske juridiske problemstillingar"}]'::jsonb, 18),
   ('psykologi-1', 'vg2', 'Psykologi 1', null, null, '[]'::jsonb, 19),
   ('markedsforing-og-ledelse-1', 'vg2', 'Markedsføring og ledelse 1', null, null, '[]'::jsonb, 20),
   ('entreprenorskap-og-bedriftsutvikling-1', 'vg2', 'Entreprenørskap og bedriftsutvikling 1', null, null, '[]'::jsonb, 21),
@@ -40042,6 +40042,4572 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm07', 'flervalg', 'Hva er en fordel med automatisering i produksjon?', array['Flere ulykker', 'Mer svinn', 'Høyere effektivitet og jevnere kvalitet', 'Ingen fordeler']::text[], 2, 'Men den kan også endre arbeidsplassene.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'sosiologi-og-sosialantropologi' and slug not in ('samfunnsvitenskapelig-metode', 'sosiologiske-perspektiver', 'sosialisering', 'sosiale-avvik', 'kulturbegrepet', 'kulturendring-og-mangfold', 'makt', 'medier-og-samhandling', 'marginalisering-og-inkludering', 'urfolk', 'lagdeling-og-sosial-mobilitet', 'arbeid-og-produksjon', 'ideologi-rettferdighet-og-barekraft');
+
+-- Sosiologi og sosialantropologi: Samfunnsvitenskapelig metode og kildekritikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'sosiologi-og-sosialantropologi', 'samfunnsvitenskapelig-metode', 'Samfunnsvitenskapelig metode og kildekritikk', 'Hvordan sosiologer og sosialantropologer undersøker samfunnet – kvantitative og kvalitative metoder, feltarbeid og deltakende observasjon, kildekritikk, forskningsetikk og hvordan du gjennomfører en egen undersøkelse.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', '## To fag med ulik tradisjon
+
+**Sosiologi** studerer **samfunnet** og samspillet mellom mennesker – ofte i moderne samfunn og gjerne med store datamengder. **Sosialantropologi** studerer **kultur** og **sosialt liv** i alle slags samfunn, ofte gjennom lange **feltarbeid**. Begge fagene er **samfunnsvitenskaper**: De bygger på systematiske undersøkelser, ikke bare meninger.
+
+## Kvantitativ metode
+
+Kvantitative metoder gir **tall** som kan analyseres statistisk:
+
+- **Spørreundersøkelser** med faste svaralternativer
+- **Registerdata** og offisiell statistikk, for eksempel fra **SSB**
+
+**Styrker**: Kan si noe om **mange** og om hvor **utbredt** noe er, og gjør det mulig å sammenligne grupper.
+**Svakheter**: Gir lite innsikt i **hvorfor** folk mener og gjør som de gjør, og svarene avhenger av hvordan spørsmålene er formulert.
+
+Et **representativt utvalg** er viktig: Utvalget bør ligne befolkningen det skal si noe om.
+
+## Kvalitativ metode
+
+Kvalitative metoder gir **dybdekunnskap**:
+
+- **Intervju** – ofte åpne eller halvstrukturerte samtaler.
+- **Deltakende observasjon** – forskeren **deltar** i livet til dem som studeres, ofte over lang tid. Metoden ble grunnlagt av antropologen **Bronisław Malinowski**, som bodde på Trobriandøyene under første verdenskrig.
+- **Dokumentanalyse** – av tekster, bilder og innlegg i sosiale medier.
+
+**Styrker**: Gir forståelse av **meninger**, **erfaringer** og **sammenhenger** sett fra de involvertes side (et **innenfraperspektiv**).
+**Svakheter**: Få informanter gjør det vanskelig å **generalisere**, og forskerens nærhet kan påvirke resultatene.
+
+Mange undersøkelser **kombinerer** metodene.
+
+## Nærhet og distanse
+
+I feltarbeid må forskeren balansere **nærhet** – for å forstå – og **distanse** – for å kunne analysere. **Emisk** perspektiv er de involvertes egen forståelse, mens **etisk** perspektiv er forskerens analytiske blikk utenfra.
+
+## Kildekritikk
+
+Når du finner informasjon, spør:
+
+- **Hvem** står bak, og hva er **formålet**?
+- Er kilden **faglig** og **oppdatert**?
+- Bygger den på **undersøkelser** eller på **meninger**?
+- Stemmer den med **andre** kilder?
+
+Forskningsartikler som er **fagfellevurdert**, offentlig statistikk og faglitteratur er ofte gode kilder. Innlegg i sosiale medier og kommersielle nettsider må vurderes ekstra nøye.
+
+## Forskningsetikk
+
+- **Informert samtykke**: Deltakerne vet hva de deltar i, og kan trekke seg.
+- **Anonymitet** og **konfidensialitet**: Deltakerne skal ikke kunne gjenkjennes.
+- **Ikke skade**: Forskningen skal ikke utsette deltakerne for belastninger.
+- Personopplysninger må behandles etter **personvernregelverket**.
+
+## Egen undersøkelse – steg for steg
+
+1. **Problemstilling**: et tydelig, avgrenset spørsmål.
+2. **Teori** og tidligere forskning.
+3. **Valg av metode** – begrunn valget.
+4. **Innsamling** av data.
+5. **Analyse** og tolkning.
+6. **Drøfting** av resultater, svakheter og **gyldighet**.
+7. **Konklusjon**.', '{"label":"Samfunnsvitenskapelig metode","children":[{"label":"Fagene","children":[{"label":"Sosiologi"},{"label":"Sosialantropologi"}]},{"label":"Kvantitativ","children":[{"label":"Spørreundersøkelser"},{"label":"Registerdata"},{"label":"Representativt utvalg"}]},{"label":"Kvalitativ","children":[{"label":"Intervju"},{"label":"Deltakende observasjon"},{"label":"Dokumentanalyse"}]},{"label":"Kilder og etikk","children":[{"label":"Kildekritikk"},{"label":"Informert samtykke"},{"label":"Anonymitet"}]},{"label":"Egen undersøkelse","children":[{"label":"Problemstilling"},{"label":"Analyse og drøfting"},{"label":"Konklusjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Sosiologi', 'Studerer samfunnet og samspillet mellom mennesker.', 0),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Sosialantropologi', 'Studerer kultur og sosialt liv, ofte gjennom feltarbeid.', 1),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Kvantitativ metode', 'Gir tall som kan analyseres statistisk.', 2),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Kvalitativ metode', 'Gir dybdekunnskap om meninger og erfaringer.', 3),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Representativt utvalg', 'Utvalg som ligner befolkningen det skal si noe om.', 4),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Registerdata', 'Opplysninger fra offentlige registre, som hos SSB.', 5),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Deltakende observasjon', 'Forskeren deltar i livet til dem som studeres.', 6),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Bronisław Malinowski', 'Grunnla moderne feltarbeid på Trobriandøyene.', 7),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Halvstrukturert intervju', 'Samtale med temaer bestemt på forhånd, men åpne svar.', 8),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Emisk perspektiv', 'De involvertes egen forståelse.', 9),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Etisk perspektiv (metode)', 'Forskerens analytiske blikk utenfra.', 10),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Kildekritikk', 'Vurdering av hvem som står bak, formål og troverdighet.', 11),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Informert samtykke', 'Deltakerne vet hva de deltar i og kan trekke seg.', 12),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Anonymitet', 'Deltakerne skal ikke kunne gjenkjennes.', 13),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'Generalisere', 'Å trekke slutninger fra utvalget til en større gruppe.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q01', 'flervalg', 'Hva er en styrke ved kvantitativ metode?', array['Den gir dyp forståelse av enkeltpersoner', 'Den kan si noe om mange og om hvor utbredt noe er', 'Den krever ingen spørsmål', 'Den gir alltid sanne svar']::text[], 1, 'Men den forklarer lite om hvorfor.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q02', 'flervalg', 'Hva er deltakende observasjon?', array['At forskeren deltar i livet til dem som studeres', 'Et spørreskjema', 'En statistikkanalyse', 'Et telefonintervju']::text[], 0, 'Typisk for sosialantropologisk feltarbeid.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q03', 'flervalg', 'Hvem regnes som grunnleggeren av moderne feltarbeid?', array['Karl Marx', 'Émile Durkheim', 'Bronisław Malinowski', 'Max Weber']::text[], 2, 'Feltarbeid på Trobriandøyene.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q04', 'flervalg', 'Hva er en svakhet ved kvalitativ metode?', array['Den gir ingen dybdekunnskap', 'Den kan ikke brukes på mennesker', 'Den bruker for mange tall', 'Få informanter gjør det vanskelig å generalisere']::text[], 3, 'Til gjengjeld gir den dybde.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q05', 'flervalg', 'Hva betyr informert samtykke?', array['At deltakerne vet hva de deltar i og kan trekke seg', 'At forskeren bestemmer alt', 'At deltakerne får betalt', 'At navnene publiseres']::text[], 0, 'Et grunnleggende forskningsetisk krav.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q06', 'flervalg', 'Hva er et emisk perspektiv?', array['Forskerens analyse utenfra', 'De involvertes egen forståelse', 'Et statistisk perspektiv', 'Et historisk perspektiv']::text[], 1, 'Et innenfraperspektiv.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q07', 'flervalg', 'Hvorfor er et representativt utvalg viktig i en spørreundersøkelse?', array['Det gjør undersøkelsen billigere', 'Det gjør svarene kortere', 'Det gjør det mulig å si noe om hele befolkningen', 'Det er ikke viktig']::text[], 2, 'Utvalget må ligne befolkningen.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q08', 'flervalg', 'Hvilket spørsmål hører til kildekritikk?', array['Hvor mange ord har teksten?', 'Hvilken skrifttype er brukt?', 'Hvor lang er kilden?', 'Hvem står bak, og hva er formålet?']::text[], 3, 'Avsender og formål påvirker innholdet.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q09', 'flervalg', 'Hvorfor kombinerer mange forskere kvantitative og kvalitative metoder?', array['For å få både bredde og dybde', 'Fordi det er påbudt', 'For å slippe analyse', 'For å unngå kildekritikk']::text[], 0, 'Metodene utfyller hverandre.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'q10', 'flervalg', 'Hva er det første steget i en samfunnsfaglig undersøkelse?', array['Å skrive konklusjonen', 'Å formulere en tydelig problemstilling', 'Å samle inn data', 'Å velge skrifttype']::text[], 1, 'Problemstillingen styrer resten.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm01', 'sant-usant', 'Formuleringen av spørsmål kan påvirke svarene i en spørreundersøkelse.', array['Sant', 'Usant']::text[], 0, 'Ledende spørsmål gir skjeve svar.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm02', 'sant-usant', 'Kvalitative undersøkelser med få informanter kan alltid generaliseres til hele befolkningen.', array['Sant', 'Usant']::text[], 1, 'De gir dybde, men sjelden grunnlag for generalisering.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm03', 'sant-usant', 'I feltarbeid må forskeren balansere nærhet og distanse.', array['Sant', 'Usant']::text[], 0, 'Både for å forstå og for å analysere.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm04', 'sant-usant', 'Et innlegg i sosiale medier er alltid like troverdig som en forskningsartikkel.', array['Sant', 'Usant']::text[], 1, 'Fagfellevurdert forskning er som regel mer pålitelig.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm05', 'flervalg', 'Hvilken metode passer best for å finne ut hvor mange elever som jobber ved siden av skolen?', array['Deltakende observasjon', 'Spørreundersøkelse', 'Dybdeintervju med én elev', 'Dokumentanalyse av dikt']::text[], 1, 'Kvantitativ metode for utbredelse.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm06', 'flervalg', 'Hvilken metode passer best for å forstå hvordan det oppleves å flytte til et nytt land?', array['Kvalitative intervjuer', 'Registerdata', 'En enkel telling', 'En opinionsmåling']::text[], 0, 'Erfaringer krever dybde.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 'm07', 'flervalg', 'Hva innebærer anonymitet i forskning?', array['At forskeren er hemmelig', 'At ingen får lese resultatene', 'At deltakerne ikke skal kunne gjenkjennes', 'At det ikke brukes navn på fagene']::text[], 2, 'Et etisk krav.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:samfunnsvitenskapelig-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Teorier og perspektiver i samfunnsfagene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'sosiologi-og-sosialantropologi', 'sosiologiske-perspektiver', 'Teorier og perspektiver i samfunnsfagene', 'Klassiske og moderne tenkemåter i sosiologi og sosialantropologi – struktur og aktør, funksjonalisme, konfliktperspektiv og samhandlingsperspektiv – og hvordan du bruker teori til å forklare sosiale fenomener.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', '## Hvorfor teori?
+
+En **teori** er et sett begreper og antakelser som hjelper oss å **forklare** og **forstå** sosiale fenomener. Ulike teorier setter søkelyset på ulike sider av virkeligheten – som ulike **briller**. Ingen teori ser alt, og en god analyse bruker ofte flere.
+
+## Struktur og aktør
+
+- **Strukturperspektivet** legger vekt på hvordan samfunnets **rammer** – økonomi, klasser, normer, institusjoner – former menneskers valg.
+- **Aktørperspektivet** legger vekt på at mennesker **handler**, tar **valg** og kan **endre** samfunnet.
+
+Sosiologen **Anthony Giddens** har pekt på at struktur og aktør **påvirker hverandre**: Strukturene begrenser og muliggjør handlinger, men handlingene gjenskaper og endrer strukturene.
+
+## Makro og mikro
+
+- **Makronivå**: samfunnet som helhet – økonomi, stat, klasser.
+- **Mikronivå**: samhandling mellom enkeltmennesker og i små grupper.
+
+## Funksjonalisme
+
+Funksjonalismen ser samfunnet som en **helhet** der hver del har en **funksjon** som bidrar til **stabilitet**, omtrent som organene i en kropp. **Émile Durkheim** var opptatt av hva som holder samfunnet sammen – **sosial integrasjon** og **felles normer**. Hans studie av **selvmord** (1897) viste at selv noe så personlig henger sammen med **sosiale forhold**.
+
+**Kritikk**: Perspektivet sier lite om **konflikt** og **endring**, og kan få ulikhet til å se «nødvendig» ut.
+
+## Konfliktperspektivet
+
+Konfliktperspektivet ser samfunnet preget av **motstridende interesser** og **maktkamp** mellom grupper. **Karl Marx** mente at kampen mellom klasser – **borgerskapet**, som eier produksjonsmidlene, og **arbeiderklassen** – driver historien framover. Senere konfliktteorier ser også på konflikter knyttet til **kjønn**, **etnisitet** og **generasjoner**.
+
+**Kritikk**: Kan overse **samarbeid**, fellesskap og at mange konflikter løses fredelig.
+
+## Samhandlingsperspektivet
+
+Dette perspektivet ser på hvordan mennesker **skaper mening** i **samhandling** med hverandre (symbolsk interaksjonisme).
+
+- **George Herbert Mead**: Identiteten utvikles gjennom samspill med andre.
+- **Erving Goffman**: Hverdagslivet som **teater** – vi spiller roller på **scenen** og slapper av **bak scenen**.
+
+**Kritikk**: Kan overse de store **strukturene** og maktforholdene.
+
+## Max Weber – forståelse av handling
+
+**Max Weber** mente sosiologien må **forstå** meningen bak menneskers handlinger. Han skilte mellom ulike typer handling – for eksempel **formålsrasjonell** handling, **tradisjonell** handling og handling styrt av **følelser**. Han studerte også **byråkrati**, **makt** og hvordan **religion** kan påvirke økonomisk utvikling.
+
+## Bruke teori i en analyse
+
+Eksempel: **Hvorfor gjør barn av foreldre med høy utdanning det bedre på skolen?**
+
+- **Konfliktperspektiv**: Skolen belønner den kulturen og språkbruken som høyere klasser har med seg hjemmefra.
+- **Funksjonalisme**: Skolen sorterer elever til ulike posisjoner i arbeidslivet.
+- **Samhandling**: Lærerens forventninger kan påvirke elevens selvbilde og innsats.
+- **Aktør**: Elevene tar egne valg og kan bryte mønstre.
+
+Vurder hvilket perspektiv som **forklarer mest**, og hva hvert av dem **overser**.', '{"label":"Teorier og perspektiver","children":[{"label":"Grunnspenninger","children":[{"label":"Struktur og aktør"},{"label":"Makro og mikro"}]},{"label":"Funksjonalisme","children":[{"label":"Durkheim"},{"label":"Integrasjon og stabilitet"}]},{"label":"Konflikt","children":[{"label":"Marx"},{"label":"Klasse, kjønn, etnisitet"}]},{"label":"Samhandling","children":[{"label":"Mead"},{"label":"Goffman"}]},{"label":"Bruk","children":[{"label":"Weber og forståelse"},{"label":"Flere perspektiver"},{"label":"Hva overses?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:sosiologiske-perspektiver';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Teori', 'Begreper og antakelser som forklarer sosiale fenomener.', 0),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Strukturperspektiv', 'Samfunnets rammer former menneskers valg.', 1),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Aktørperspektiv', 'Mennesker handler, velger og kan endre samfunnet.', 2),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Anthony Giddens', 'Struktur og aktør påvirker hverandre.', 3),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Makronivå', 'Samfunnet som helhet.', 4),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Mikronivå', 'Samhandling mellom enkeltmennesker og små grupper.', 5),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Funksjonalisme', 'Hver del av samfunnet har en funksjon som gir stabilitet.', 6),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Émile Durkheim', 'Opptatt av sosial integrasjon; studerte selvmord (1897).', 7),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Konfliktperspektiv', 'Samfunnet preges av motstridende interesser og maktkamp.', 8),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Karl Marx', 'Klassekamp mellom borgerskap og arbeiderklasse.', 9),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Samhandlingsperspektiv', 'Mennesker skaper mening i samhandling.', 10),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'George Herbert Mead', 'Identitet utvikles i samspill med andre.', 11),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Erving Goffman', 'Hverdagslivet som teater med scene og bakscene.', 12),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Max Weber', 'Forstå meningen bak handlinger; byråkrati og makt.', 13),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'Formålsrasjonell handling', 'Handling rettet mot et mål med velvalgte midler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:sosiologiske-perspektiver';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q01', 'flervalg', 'Hva legger strukturperspektivet vekt på?', array['At mennesker velger helt fritt', 'At samfunnets rammer former menneskers valg', 'At alt er tilfeldig', 'At bare følelser styrer oss']::text[], 1, 'Aktørperspektivet vektlegger valg.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q02', 'flervalg', 'Hvem var opptatt av hva som holder samfunnet sammen, og studerte selvmord?', array['Émile Durkheim', 'Karl Marx', 'Erving Goffman', 'George Herbert Mead']::text[], 0, 'Studien kom i 1897.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q03', 'flervalg', 'Hva kjennetegner konfliktperspektivet?', array['Samfunnet er alltid i balanse', 'Alle har felles interesser', 'Samfunnet preges av motstridende interesser og maktkamp', 'Samfunnet består bare av individer']::text[], 2, 'Marx er en sentral teoretiker.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q04', 'flervalg', 'Hvem sammenlignet hverdagslivet med teater?', array['Max Weber', 'Karl Marx', 'Émile Durkheim', 'Erving Goffman']::text[], 3, 'Scene og bakscene.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q05', 'flervalg', 'Hva er en vanlig kritikk av funksjonalismen?', array['Den sier lite om konflikt og endring', 'Den handler bare om konflikt', 'Den ser bare på individer', 'Den bruker ikke begreper']::text[], 0, 'Den vektlegger stabilitet.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q06', 'flervalg', 'Hva er mikronivå?', array['Hele samfunnet', 'Samhandling mellom enkeltmennesker og små grupper', 'Verdensøkonomien', 'Staten']::text[], 1, 'Makronivå er samfunnet som helhet.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q07', 'flervalg', 'Hva mente Giddens om struktur og aktør?', array['Bare struktur betyr noe', 'Bare aktører betyr noe', 'De påvirker hverandre', 'De har ingenting med hverandre å gjøre']::text[], 2, 'Strukturer begrenser og muliggjør handling.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q08', 'flervalg', 'Hvordan kan konfliktperspektivet forklare at barn av høyt utdannede gjør det bedre på skolen?', array['Lærerne er strengere mot dem', 'Alle barn er like', 'Skolen er tilfeldig', 'Skolen belønner kulturen og språket høyere klasser har med hjemmefra']::text[], 3, 'Ulikhet reproduseres.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q09', 'flervalg', 'Hva var Max Weber særlig opptatt av?', array['Å forstå meningen bak menneskers handlinger', 'Bare økonomisk statistikk', 'Biologiske forklaringer', 'Sport']::text[], 0, 'Også byråkrati og makt.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'q10', 'flervalg', 'Hvorfor bør en analyse ofte bruke flere teorier?', array['Fordi det er påbudt', 'Fordi hver teori ser noen sider og overser andre', 'Fordi teorier er like', 'For å gjøre teksten lengre']::text[], 1, 'Teorier er som ulike briller.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm01', 'sant-usant', 'Durkheim viste at selvmord også henger sammen med sosiale forhold.', array['Sant', 'Usant']::text[], 0, 'Sosial integrasjon betyr noe.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm02', 'sant-usant', 'Samhandlingsperspektivet legger hovedvekten på store økonomiske strukturer.', array['Sant', 'Usant']::text[], 1, 'Det ser på mening skapt i samhandling.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm03', 'sant-usant', 'Marx skilte mellom borgerskapet og arbeiderklassen.', array['Sant', 'Usant']::text[], 0, 'Etter hvem som eier produksjonsmidlene.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm04', 'sant-usant', 'Én teori kan forklare alle sider ved et sosialt fenomen.', array['Sant', 'Usant']::text[], 1, 'Hver teori har sine blindsoner.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm05', 'flervalg', 'Hvilket perspektiv passer best til å analysere hvordan elever presenterer seg selv på sosiale medier?', array['Funksjonalisme', 'Samhandlingsperspektiv', 'Marxistisk klasseanalyse', 'Demografi']::text[], 1, 'Goffmans rollebegrep passer godt.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm06', 'flervalg', 'Hva er en kritikk av konfliktperspektivet?', array['Det kan overse samarbeid og fellesskap', 'Det ser bare stabilitet', 'Det handler bare om individer', 'Det er for positivt']::text[], 0, 'Mange konflikter løses fredelig.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 'm07', 'flervalg', 'Hva slags handling er det å studere hardt for å komme inn på medisin?', array['Tradisjonell', 'Følelsesstyrt', 'Formålsrasjonell', 'Tilfeldig']::text[], 2, 'Rettet mot et mål med velvalgte midler.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:sosiologiske-perspektiver', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Sosialisering gjennom hele livet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:sosialisering', 'sosiologi-og-sosialantropologi', 'sosialisering', 'Sosialisering gjennom hele livet', 'Hvordan vi blir en del av samfunnet gjennom primær- og sekundærsosialisering, normer, roller og sanksjoner, Meads teori om selvet og Goffmans rollespill – og hvorfor sosialisering er en livslang prosess.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:sosialisering', '## Hva er sosialisering?
+
+**Sosialisering** er prosessen der vi lærer **normer**, **verdier**, **språk** og **ferdigheter** som gjør oss i stand til å fungere i samfunnet. Gjennom sosialiseringen utvikler vi også **identiteten** vår – hvem vi er, og hvem vi vil være.
+
+Mennesket er ikke født ferdig. Arv gir **muligheter**, men miljøet former hvordan de utvikles.
+
+## Primær og sekundær sosialisering
+
+- **Primærsosialisering** skjer i de **første leveårene**, først og fremst i **familien**. Barnet lærer språk, grunnleggende normer, følelsesmessig tilknytning og tillit.
+- **Sekundærsosialisering** skjer **senere** gjennom barnehage, skole, venner, fritidsaktiviteter, arbeidsliv og **medier**. Her lærer vi å fylle ulike **roller** i samfunnet.
+
+Noen snakker også om **tertiær sosialisering** – når voksne lærer nye normer, for eksempel etter flytting til et nytt land.
+
+## Sosialiseringsagenter
+
+**Sosialiseringsagenter** er de som påvirker oss: **familie**, **skole**, **jevnaldrende**, **arbeidsplass**, **religiøse fellesskap** og **medier**. I dag er **sosiale medier** blitt en viktig agent, særlig for unge.
+
+## Normer, roller og sanksjoner
+
+- **Normer** er uskrevne eller skrevne regler for hvordan vi bør oppføre oss.
+- En **rolle** er forventningene som knyttes til en **posisjon** – elev, datter, trener, ansatt. Vi har mange roller samtidig, og de kan komme i **konflikt** med hverandre (**rollekonflikt**).
+- **Sanksjoner** er reaksjoner på atferd. **Positive** sanksjoner er ros og belønning, **negative** er kritikk og straff. **Formelle** sanksjoner kommer fra institusjoner, som bøter eller karakterer, mens **uformelle** kommer fra folk rundt oss, som et blikk eller utestenging.
+
+## Mead: selvet oppstår i samspill
+
+**George Herbert Mead** mente at **selvet** utvikles gjennom samspill med andre:
+
+- **Signifikante andre** – nære personer som foreldre – er de første vi speiler oss i.
+- Gjennom **lek** og **spill** lærer barnet å ta andres perspektiv.
+- Etter hvert tar vi opp i oss samfunnets forventninger – **den generaliserte andre**.
+
+Selvet har to sider: **«meg»** (me), som rommer de innlærte forventningene, og **«jeg»** (I), som er spontan og kreativ.
+
+## Goffman: roller og inntrykksstyring
+
+**Erving Goffman** sammenlignet livet med **teater**. På **scenen** – foran andre – spiller vi roller og prøver å gi et bestemt **inntrykk** (inntrykksstyring). **Bak scenen** kan vi slappe av. På sosiale medier velger mange nøye hva de viser fram.
+
+## En livslang prosess
+
+Sosialisering stopper ikke etter barndommen:
+
+- **Ungdom** forhandler om identitet mellom familie, venner og medier.
+- **Nye jobber**, **foreldreskap**, **flytting**, **samlivsbrudd** og **pensjonisttilværelse** krever nye roller og normer.
+- **Resosialisering** skjer når noen må lære helt nye normer, for eksempel etter soning eller i militæret.
+
+## Refleksjon
+
+Sosialisering kan både **fremme** og **begrense**: Den gir trygghet og tilhørighet, men kan også føre til press om å passe inn. Samtidig er vi ikke passive – vi **velger**, **forhandler** og kan **bryte** med normer.', '{"label":"Sosialisering","children":[{"label":"Faser","children":[{"label":"Primær"},{"label":"Sekundær"},{"label":"Tertiær og resosialisering"}]},{"label":"Agenter","children":[{"label":"Familie og skole"},{"label":"Venner"},{"label":"Medier"}]},{"label":"Begreper","children":[{"label":"Normer"},{"label":"Roller"},{"label":"Sanksjoner"}]},{"label":"Teorier","children":[{"label":"Mead: selvet"},{"label":"Goffman: teater"}]},{"label":"Livsløp","children":[{"label":"Ungdom"},{"label":"Voksenliv"},{"label":"Aktør og press"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:sosialisering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Sosialisering', 'Prosessen der vi lærer normer, verdier og ferdigheter for å fungere i samfunnet.', 0),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Primærsosialisering', 'Tidlig sosialisering, mest i familien.', 1),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Sekundærsosialisering', 'Senere sosialisering gjennom skole, venner, jobb og medier.', 2),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Tertiær sosialisering', 'Når voksne lærer nye normer, for eksempel etter flytting.', 3),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Sosialiseringsagent', 'Den som påvirker sosialiseringen, som familie og medier.', 4),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Norm', 'Regel for hvordan vi bør oppføre oss.', 5),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Rolle', 'Forventninger knyttet til en posisjon.', 6),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Rollekonflikt', 'Når forventningene i ulike roller kolliderer.', 7),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Positiv sanksjon', 'Ros eller belønning.', 8),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Uformell sanksjon', 'Reaksjon fra folk rundt oss, som et blikk eller utestenging.', 9),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Signifikante andre', 'Nære personer barnet speiler seg i.', 10),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Den generaliserte andre', 'Samfunnets forventninger slik vi har tatt dem opp i oss.', 11),
+  ('sosiologi-og-sosialantropologi:sosialisering', '«Jeg» og «meg» hos Mead', 'Den spontane siden og den innlærte siden av selvet.', 12),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Inntrykksstyring', 'Å prøve å gi andre et bestemt inntrykk (Goffman).', 13),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'Resosialisering', 'Å lære helt nye normer, for eksempel etter soning.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:sosialisering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q01', 'flervalg', 'Hvor skjer primærsosialiseringen først og fremst?', array['På skolen', 'I familien', 'På jobben', 'I sosiale medier']::text[], 1, 'I de første leveårene.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q02', 'flervalg', 'Hva er en rolle?', array['Forventninger knyttet til en posisjon', 'En type straff', 'En skriftlig lov', 'En personlighet']::text[], 0, 'For eksempel elev eller trener.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q03', 'flervalg', 'Hva er en uformell sanksjon?', array['En bot', 'En karakter', 'Et blikk eller utestenging fra folk rundt oss', 'En dom i retten']::text[], 2, 'Formelle sanksjoner kommer fra institusjoner.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q04', 'flervalg', 'Hva mente Mead med den generaliserte andre?', array['En bestemt person', 'En lærer', 'En venn', 'Samfunnets forventninger slik vi har tatt dem opp i oss']::text[], 3, 'Utvikles gjennom lek og spill.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q05', 'flervalg', 'Hva er inntrykksstyring ifølge Goffman?', array['Å prøve å gi andre et bestemt inntrykk', 'Å styre et land', 'Å lage reklame', 'Å skrive dagbok']::text[], 0, 'Vi spiller roller på scenen.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q06', 'flervalg', 'Hvorfor sies sosialisering å være livslang?', array['Fordi den bare skjer i barndommen', 'Fordi nye livsfaser krever nye roller og normer', 'Fordi den skjer i søvne', 'Fordi den er arvelig']::text[], 1, 'For eksempel ny jobb eller foreldreskap.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q07', 'flervalg', 'Hva er en rollekonflikt?', array['En krangel på scenen', 'At man ikke har noen roller', 'At forventningene i ulike roller kolliderer', 'At man bytter navn']::text[], 2, 'For eksempel mellom jobb og familie.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q08', 'flervalg', 'Hva er resosialisering?', array['Sosialisering av barn', 'Å gjenta et skoleår', 'Å bytte venner', 'Å lære helt nye normer, for eksempel etter soning']::text[], 3, 'Også i militæret.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q09', 'flervalg', 'Hvilken sosialiseringsagent har fått økt betydning for unge de siste årene?', array['Sosiale medier', 'Kirken', 'Brevvenner', 'Radio']::text[], 0, 'De påvirker normer og selvbilde.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'q10', 'flervalg', 'Hva er signifikante andre?', array['Alle mennesker i samfunnet', 'Nære personer barnet speiler seg i', 'Kjendiser', 'Lærere på videregående']::text[], 1, 'For eksempel foreldre.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm01', 'sant-usant', 'Vi kan ha mange roller samtidig.', array['Sant', 'Usant']::text[], 0, 'For eksempel elev, søster og lagkaptein.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm02', 'sant-usant', 'Sosialisering er ferdig når vi er ti år gamle.', array['Sant', 'Usant']::text[], 1, 'Den fortsetter gjennom hele livet.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm03', 'sant-usant', 'Ros er et eksempel på en positiv sanksjon.', array['Sant', 'Usant']::text[], 0, 'Den belønner ønsket atferd.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm04', 'sant-usant', 'Mennesker er passive mottakere av sosialisering.', array['Sant', 'Usant']::text[], 1, 'Vi velger, forhandler og kan bryte med normer.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm05', 'flervalg', 'Hvilken side av selvet er spontan og kreativ ifølge Mead?', array['«Meg»', '«Jeg»', 'Den generaliserte andre', 'Rollen']::text[], 1, '«Meg» rommer de innlærte forventningene.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm06', 'flervalg', 'Hva kalles det når en voksen lærer nye normer etter å ha flyttet til et annet land?', array['Tertiær sosialisering', 'Primærsosialisering', 'Avvik', 'Stempling']::text[], 0, 'Sosialisering i voksen alder.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:sosialisering', 'm07', 'flervalg', 'Hvilket eksempel passer med Goffmans «bak scenen»?', array['En presentasjon i klassen', 'Et jobbintervju', 'Å slappe av hjemme med nære venner', 'Å legge ut et nøye valgt bilde']::text[], 2, 'Der trenger vi ikke spille rollen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:sosialisering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Sosiale avvik og reaksjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'sosiologi-og-sosialantropologi', 'sosiale-avvik', 'Sosiale avvik og reaksjoner', 'Hva et sosialt avvik er, teorier om årsaker – anomi, press, sosialt lærte avvik og stempling – og hvordan individer og samfunnet reagerer, fra uformell sosial kontroll til straff og moralsk panikk.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', '## Hva er et avvik?
+
+Et **sosialt avvik** er atferd som bryter med **normene** i en gruppe eller et samfunn. Avvik er **relativt**: Det som er avvikende ett sted eller i én tid, kan være helt vanlig et annet sted eller i en annen tid. Tatoveringer, samboerskap og homofili har for eksempel gått fra å være avvik til å bli allment akseptert i Norge.
+
+Avvik kan være **kriminelle** (lovbrudd) eller **ikke-kriminelle** (for eksempel å snakke høyt i mobiltelefonen på stillekupé). Noen avvik blir sett på som **positive**, som varslere og nyskapende kunstnere.
+
+## Teorier om årsaker
+
+**Anomi (Durkheim)**: Når normene i samfunnet blir **uklare** eller svekkes, for eksempel i perioder med rask endring, kan folk miste retning. Det kan gi mer avvik.
+
+**Pressteori (Merton)**: Samfunnet setter **mål** – for eksempel suksess og penger – men ikke alle har **lovlige midler** til å nå dem. **Robert K. Merton** beskrev fem tilpasninger:
+
+- **Konformitet**: godtar både mål og midler.
+- **Innovasjon**: godtar målet, men bruker ulovlige midler, for eksempel svindel.
+- **Ritualisme**: gir opp målet, men følger reglene.
+- **Tilbaketrekning**: gir opp både mål og midler.
+- **Opprør**: erstatter mål og midler med nye.
+
+**Sosialt lært avvik**: Avvik læres som annen atferd – i **grupper** der avvikende normer er vanlige. Hvem du omgås, betyr noe.
+
+**Stemplingsteori (Becker)**: **Howard Becker** mente at avvik ikke bare er en egenskap ved handlingen, men et resultat av at andre **stempler** noen som avvikere. En som blir stemplet som «bråkmaker», kan begynne å se seg selv slik og handle deretter – en **selvoppfyllende profeti**. Skillet mellom **primæravvik** (en første normbrudd) og **sekundæravvik** (avvik som følge av stemplingen) er sentralt.
+
+**Sosial kontroll-teori**: Spørsmålet er ikke hvorfor noen bryter normer, men hvorfor de **fleste ikke gjør det**. Svaret er **bånd** til familie, skole, venner og aktiviteter – vi har noe å **tape**.
+
+## Individuelle reaksjoner
+
+- **Uformell sosial kontroll**: blikk, kommentarer, sladder, utestenging – eller ros.
+- **Formell sosial kontroll**: skolens regler, politi, domstoler og straff.
+
+## Kollektive reaksjoner
+
+Samfunnet reagerer også **samlet**:
+
+- **Lover** og **straff** – bøter, samfunnsstraff, fengsel. Norge legger stor vekt på **rehabilitering**, og norske fengsler er kjent for å legge til rette for tilbakeføring til samfunnet.
+- **Forebygging**: fritidstilbud, oppfølging i skolen, SLT-samarbeid mellom kommune og politi.
+- **Moralsk panikk**: Sosiologen **Stanley Cohen** beskrev hvordan medier og myndigheter kan **overdrive** en trussel fra en gruppe – «folkedjevler» – slik at reaksjonene blir sterkere enn problemet tilsier.
+
+## Drøfte reaksjoner
+
+Når du vurderer reaksjoner på avvik, spør:
+
+- Er reaksjonen **forholdsmessig**?
+- Virker den **forebyggende**, eller kan den føre til **mer** avvik gjennom stempling?
+- Tar den hensyn til **årsakene**?
+- Hvem har **makt** til å definere hva som er avvik?', '{"label":"Sosiale avvik","children":[{"label":"Begrep","children":[{"label":"Normbrudd"},{"label":"Relativt"},{"label":"Kriminelt og ikke-kriminelt"}]},{"label":"Årsaker","children":[{"label":"Anomi"},{"label":"Pressteori"},{"label":"Sosial læring"},{"label":"Stempling"}]},{"label":"Kontroll","children":[{"label":"Uformell"},{"label":"Formell"},{"label":"Sosiale bånd"}]},{"label":"Kollektive reaksjoner","children":[{"label":"Straff og rehabilitering"},{"label":"Forebygging"},{"label":"Moralsk panikk"}]},{"label":"Drøfting","children":[{"label":"Forholdsmessighet"},{"label":"Hvem definerer?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:sosiale-avvik';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Sosialt avvik', 'Atferd som bryter med normene i en gruppe eller et samfunn.', 0),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Avvik er relativt', 'Hva som regnes som avvik, varierer med tid og sted.', 1),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Anomi', 'Tilstand med uklare eller svekkede normer (Durkheim).', 2),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Pressteori', 'Avvik oppstår når mål ikke kan nås med lovlige midler (Merton).', 3),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Innovasjon (Merton)', 'Godtar målet, men bruker ulovlige midler.', 4),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Ritualisme (Merton)', 'Gir opp målet, men følger reglene.', 5),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Sosialt lært avvik', 'Avvik læres i grupper med avvikende normer.', 6),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Stemplingsteori', 'Avvik blir til når andre stempler noen som avvikere (Becker).', 7),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Primæravvik', 'Det første normbruddet.', 8),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Sekundæravvik', 'Avvik som følge av stemplingen.', 9),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Selvoppfyllende profeti', 'En forventning som gjør seg selv sann.', 10),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Sosial kontroll-teori', 'Bånd til andre hindrer de fleste i å bryte normer.', 11),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Formell sosial kontroll', 'Regler, politi, domstoler og straff.', 12),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Moralsk panikk', 'Overdreven reaksjon på en oppfattet trussel (Cohen).', 13),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'Rehabilitering', 'Å hjelpe lovbrytere tilbake til et liv uten kriminalitet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:sosiale-avvik';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q01', 'flervalg', 'Hva betyr det at avvik er relativt?', array['At avvik alltid er kriminelt', 'At hva som regnes som avvik, varierer med tid og sted', 'At alle avvik er like alvorlige', 'At avvik ikke finnes']::text[], 1, 'For eksempel tatoveringer og samboerskap.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q02', 'flervalg', 'Hvem utviklet stemplingsteorien?', array['Howard Becker', 'Émile Durkheim', 'Karl Marx', 'Max Weber']::text[], 0, 'Boka Outsiders.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q03', 'flervalg', 'Hva er innovasjon i Mertons pressteori?', array['Å gi opp både mål og midler', 'Å følge reglene uten mål', 'Å godta målet, men bruke ulovlige midler', 'Å finne nye mål og midler']::text[], 2, 'For eksempel svindel for å bli rik.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q04', 'flervalg', 'Hva er anomi?', array['En type straff', 'En sykdom', 'Et lovbrudd', 'En tilstand med uklare eller svekkede normer']::text[], 3, 'Durkheims begrep.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q05', 'flervalg', 'Hva sier sosial kontroll-teori?', array['Bånd til familie, skole og venner hindrer de fleste i å bryte normer', 'Alle bryter normer', 'Straff er eneste løsning', 'Avvik er arvelig']::text[], 0, 'Vi har noe å tape.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q06', 'flervalg', 'Hva er moralsk panikk?', array['Frykt for å bli straffet', 'En overdreven reaksjon på en oppfattet trussel fra en gruppe', 'En type psykisk lidelse', 'Et politisk parti']::text[], 1, 'Beskrevet av Stanley Cohen.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q07', 'flervalg', 'Hva er et sekundæravvik?', array['Det første normbruddet', 'Et lite avvik', 'Avvik som følge av stemplingen', 'Et positivt avvik']::text[], 2, 'Personen tar på seg avviksrollen.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q08', 'flervalg', 'Hvilket er et eksempel på uformell sosial kontroll?', array['En dom i retten', 'En bot fra politiet', 'En regel i skolereglementet', 'Et misbilligende blikk fra venner']::text[], 3, 'Reaksjoner fra folk rundt oss.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q09', 'flervalg', 'Hvilken teori legger vekt på at avvik læres i grupper?', array['Sosialt lært avvik', 'Anomi', 'Funksjonalisme', 'Pressteori']::text[], 0, 'Hvem du omgås, betyr noe.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'q10', 'flervalg', 'Hvorfor kan strenge reaksjoner noen ganger gi mer avvik?', array['Fordi straff alltid virker', 'Fordi stempling kan føre til at personen tar på seg avviksrollen', 'Fordi alle blir redde', 'Det kan de ikke']::text[], 1, 'Stemplingsteorien.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm01', 'sant-usant', 'Noe som var et avvik for 50 år siden, kan være vanlig i dag.', array['Sant', 'Usant']::text[], 0, 'Normer endrer seg.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm02', 'sant-usant', 'Alle avvik er kriminelle.', array['Sant', 'Usant']::text[], 1, 'Mange avvik bryter bare med uskrevne normer.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm03', 'sant-usant', 'Norske fengsler legger stor vekt på rehabilitering.', array['Sant', 'Usant']::text[], 0, 'Målet er tilbakeføring til samfunnet.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm04', 'sant-usant', 'Stemplingsteorien mener at avvik bare er en egenskap ved selve handlingen.', array['Sant', 'Usant']::text[], 1, 'Den legger vekt på andres reaksjoner.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm05', 'flervalg', 'Hvilken tilpasning hos Merton gir opp både mål og midler?', array['Konformitet', 'Tilbaketrekning', 'Innovasjon', 'Opprør']::text[], 1, 'For eksempel rusmisbruk og isolasjon.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm06', 'flervalg', 'Hvilket tiltak er forebyggende?', array['Gode fritidstilbud for unge', 'Lengre fengselsstraffer', 'Offentlig uthenging', 'Flere bøter']::text[], 0, 'Det styrker bånd og gir alternativer.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 'm07', 'flervalg', 'Hvem studerte moralsk panikk?', array['Howard Becker', 'Robert K. Merton', 'Stanley Cohen', 'Erving Goffman']::text[], 2, 'Begrepet «folkedjevler».', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:sosiale-avvik', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Kulturbegrepet og kultursammenligning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'sosiologi-og-sosialantropologi', 'kulturbegrepet', 'Kulturbegrepet og kultursammenligning', 'Ulike oppfatninger av kultur – fra finkultur til kultur som felles mening – etnosentrisme og kulturrelativisme, og hvordan antropologer sammenligner kulturfenomener som gaver, ritualer og slektskap innad i og mellom kulturer.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', '## Hva er kultur?
+
+Ordet **kultur** brukes på mange måter:
+
+- **Finkultur** (det humanistiske kulturbegrepet): kunst, litteratur, musikk og teater – «kultur» som noe man kan ha **mer eller mindre** av.
+- **Det beskrivende kulturbegrepet**: Antropologen **Edward B. Tylor** definerte i 1871 kultur som den **komplekse helheten** av kunnskap, tro, kunst, moral, lover, skikker og vaner mennesker tilegner seg som medlemmer av et samfunn. Etter dette synet har **alle** mennesker kultur.
+- **Kultur som mening**: **Clifford Geertz** så kultur som et **nett av meninger** som mennesker selv har spunnet, og som vi må **tolke** for å forstå handlinger.
+- **Kultur som prosess**: Moderne antropologer understreker at kultur ikke er en fast «ting», men noe som hele tiden **skapes**, **forhandles** og **endres** – og at det finnes stor **variasjon** innad i en kultur.
+
+Kultur er **lært**, **delt** og **overført** mellom generasjoner, i motsetning til det som er medfødt.
+
+## Etnosentrisme og kulturrelativisme
+
+- **Etnosentrisme** betyr å vurdere andre kulturer ut fra **egen** kultur som målestokk – ofte slik at ens egen kultur fremstår som den **rette**.
+- **Kulturrelativisme** betyr å forsøke å forstå handlinger ut fra **den kulturen de hører til i**. Som **metode** er dette viktig i antropologien. Som **moralsk standpunkt** – at alt er like riktig – er det omstridt, for eksempel når det gjelder menneskerettigheter.
+
+## Sammenligne kulturfenomener
+
+Antropologer sammenligner for å finne både **likheter** og **forskjeller** – og for å se sin egen kultur med nye øyne.
+
+**Gaver**: **Marcel Mauss** viste i «Gaven» (1925) at gaver skaper **forpliktelser**: plikten til å **gi**, å **ta imot** og å **gi tilbake**. Gaver bygger **relasjoner**. Det gjelder både seremonielle byttesystemer i Stillehavet og julegaver og bursdagsgaver i Norge.
+
+**Overgangsriter**: **Arnold van Gennep** beskrev ritualer som markerer overgang fra én status til en annen – med tre faser: **atskillelse**, **overgang** (en **liminal** fase «mellom») og **innlemmelse**. Eksempler er konfirmasjon, russetid, bryllup, begravelse og innvielsesritualer i mange kulturer.
+
+**Slektskap**: Hvem regnes som familie, og hvem arver? Noen samfunn regner slekt bare gjennom **mors** linje, andre gjennom **fars**, og i Norge gjennom **begge**. Storfamilie og kjernefamilie gir ulike rettigheter og plikter.
+
+**Mat**: Hva som regnes som spiselig, og hvem man spiser med, sier mye om verdier, religion og fellesskap.
+
+## Variasjon innad i kulturer
+
+Innenfor Norge finnes store forskjeller – mellom by og land, generasjoner, religiøse og etniske grupper, samer og majoritetsbefolkning. Begreper som **subkultur** brukes om grupper med egne normer og stil, for eksempel i musikk, gaming eller idrett.
+
+## Drøfting
+
+Et sterkt, fast kulturbegrep kan føre til **stereotypier** – at «alle» i en gruppe tenker likt. Et åpnere kulturbegrep gir rom for **individer**, **endring** og **blanding**, men kan gjøre det vanskelig å si noe generelt. Diskuter hvilket kulturbegrep som passer best til ulike formål.', '{"label":"Kulturbegrepet","children":[{"label":"Kulturbegreper","children":[{"label":"Finkultur"},{"label":"Tylor: kompleks helhet"},{"label":"Geertz: mening"},{"label":"Kultur som prosess"}]},{"label":"Holdninger","children":[{"label":"Etnosentrisme"},{"label":"Kulturrelativisme"}]},{"label":"Sammenligning","children":[{"label":"Gaver (Mauss)"},{"label":"Overgangsriter"},{"label":"Slektskap og mat"}]},{"label":"Variasjon","children":[{"label":"Innad i kulturer"},{"label":"Subkulturer"}]},{"label":"Drøfting","children":[{"label":"Stereotypier"},{"label":"Åpent eller fast begrep"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:kulturbegrepet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Finkultur', 'Kunst, litteratur og musikk – det humanistiske kulturbegrepet.', 0),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Det beskrivende kulturbegrepet', 'Kultur som den komplekse helheten av kunnskap, tro, skikker og vaner.', 1),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Edward B. Tylor', 'Definerte kultur som en kompleks helhet i 1871.', 2),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Clifford Geertz', 'Kultur som et nett av meninger som må tolkes.', 3),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Kultur som prosess', 'Kultur skapes, forhandles og endres hele tiden.', 4),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Etnosentrisme', 'Å vurdere andre kulturer ut fra egen kultur som målestokk.', 5),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Kulturrelativisme', 'Å forstå handlinger ut fra kulturen de hører til i.', 6),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Marcel Mauss', 'Skrev «Gaven» om gavers forpliktelser (1925).', 7),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Gavens tre plikter', 'Å gi, å ta imot og å gi tilbake.', 8),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Overgangsrite', 'Ritual som markerer overgang fra én status til en annen.', 9),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Arnold van Gennep', 'Beskrev overgangsriter med tre faser.', 10),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Liminal fase', 'Overgangsfasen «mellom» to statuser.', 11),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Slektskap', 'Hvem som regnes som familie, med rettigheter og plikter.', 12),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Subkultur', 'Gruppe med egne normer og stil innenfor en større kultur.', 13),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'Stereotypi', 'Forenklet og generaliserende bilde av en gruppe.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:kulturbegrepet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q01', 'flervalg', 'Hva kjennetegner det beskrivende kulturbegrepet?', array['Kultur er bare kunst og musikk', 'Alle mennesker har kultur – kunnskap, tro, skikker og vaner', 'Bare noen har kultur', 'Kultur er medfødt']::text[], 1, 'Tylors definisjon fra 1871.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q02', 'flervalg', 'Hva er etnosentrisme?', array['Å vurdere andre kulturer ut fra egen kultur som målestokk', 'Å studere etnisitet', 'Å respektere alle kulturer', 'Å reise mye']::text[], 0, 'Egen kultur fremstår som den rette.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q03', 'flervalg', 'Hva viste Marcel Mauss om gaver?', array['At gaver er gratis', 'At gaver bare finnes i Norge', 'At gaver skaper forpliktelser og relasjoner', 'At gaver er uviktige']::text[], 2, 'Å gi, ta imot og gi tilbake.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q04', 'flervalg', 'Hvilke tre faser har en overgangsrite ifølge van Gennep?', array['Fødsel, liv og død', 'Barn, ungdom og voksen', 'Start, midt og slutt', 'Atskillelse, overgang og innlemmelse']::text[], 3, 'Overgangen er en liminal fase.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q05', 'flervalg', 'Hvordan så Clifford Geertz på kultur?', array['Som et nett av meninger som må tolkes', 'Som biologi', 'Som økonomi', 'Som bare kunst']::text[], 0, 'Han la vekt på tolkning.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q06', 'flervalg', 'Hva er kulturrelativisme som metode?', array['At alle kulturer er like', 'Å forsøke å forstå handlinger ut fra kulturen de hører til i', 'Å dømme andre kulturer', 'Å kopiere andre kulturer']::text[], 1, 'Som moralsk standpunkt er det omstridt.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q07', 'flervalg', 'Hvilket er et eksempel på en overgangsrite i Norge?', array['Å handle mat', 'Å se på TV', 'Konfirmasjon', 'Å ta bussen']::text[], 2, 'Markerer overgang fra barn til ungdom.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q08', 'flervalg', 'Hvorfor kan et fast kulturbegrep føre til stereotypier?', array['Fordi det er for åpent', 'Fordi det bare handler om kunst', 'Fordi det er vitenskapelig', 'Fordi det kan få det til å se ut som om alle i en gruppe tenker likt']::text[], 3, 'Det skjuler variasjon og endring.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q09', 'flervalg', 'Hva er en subkultur?', array['En gruppe med egne normer og stil innenfor en større kultur', 'En kultur under vann', 'En mindre verdifull kultur', 'En utdødd kultur']::text[], 0, 'For eksempel i musikk eller gaming.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'q10', 'flervalg', 'Hva betyr det at kultur er lært?', array['At den er arvelig', 'At vi tilegner oss den gjennom sosialisering', 'At den bare læres på skolen', 'At den aldri endres']::text[], 1, 'Kultur er lært, delt og overført.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm01', 'sant-usant', 'Etter det beskrivende kulturbegrepet har alle mennesker kultur.', array['Sant', 'Usant']::text[], 0, 'Kultur er ikke bare finkultur.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm02', 'sant-usant', 'Kulturrelativisme som moralsk standpunkt er ukontroversielt.', array['Sant', 'Usant']::text[], 1, 'Det er omstridt, særlig i møte med menneskerettigheter.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm03', 'sant-usant', 'Julegaver kan analyseres med Mauss'' teori om gaver.', array['Sant', 'Usant']::text[], 0, 'De skaper forventninger om gjengjeld.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm04', 'sant-usant', 'Alle i Norge har nøyaktig samme kultur.', array['Sant', 'Usant']::text[], 1, 'Det er stor variasjon innad i Norge.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm05', 'flervalg', 'Hvilken fase i en overgangsrite er «mellom» to statuser?', array['Atskillelse', 'Den liminale fasen', 'Innlemmelse', 'Forberedelse']::text[], 1, 'Russetiden kan tolkes slik.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm06', 'flervalg', 'Hvem definerte kultur som en kompleks helhet i 1871?', array['Edward B. Tylor', 'Clifford Geertz', 'Marcel Mauss', 'Karl Marx']::text[], 0, 'En klassisk antropologisk definisjon.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 'm07', 'flervalg', 'Hvorfor sammenligner antropologer kulturer?', array['For å rangere dem', 'For å bevise at én er best', 'For å finne likheter og forskjeller og se egen kultur med nye øyne', 'For å gjøre alle like']::text[], 2, 'Sammenligning gir innsikt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:kulturbegrepet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Kulturendring, mangfold og interkulturell kompetanse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'sosiologi-og-sosialantropologi', 'kulturendring-og-mangfold', 'Kulturendring, mangfold og interkulturell kompetanse', 'Hvordan kulturer både er stabile og i endring gjennom innovasjon, spredning og globalisering, hvilke utfordringer og muligheter kulturelt mangfold gir, og hvorfor kulturforståelse og interkulturell kompetanse er viktig i et demokrati.', array[6, 11]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', '## Stabilitet og endring
+
+Kulturer er både **stabile** og i **endring**. Stabiliteten sikres gjennom **sosialisering**, **tradisjoner**, **ritualer** og **institusjoner** som familie, skole og religion. Samtidig endres kulturer hele tiden – noen ganger langsomt, andre ganger raskt.
+
+## Hvordan kulturer endres
+
+- **Innovasjon**: nye ideer, teknologier og praksiser oppstår innenfra.
+- **Diffusjon** (spredning): ideer, musikk, mat og språk spres fra én kultur til en annen.
+- **Migrasjon**: Mennesker tar med seg kultur når de flytter, og påvirkes av det nye stedet.
+- **Globalisering**: Handel, medier og internett knytter verden tettere sammen.
+- **Politiske og økonomiske endringer**, som industrialisering eller krig.
+
+## Globalisering – likhet eller mangfold?
+
+Noen mener globaliseringen fører til **homogenisering** – at verden blir likere, ofte etter vestlig mønster. Andre peker på at globale impulser blandes med lokale tradisjoner og gir **nye former**:
+
+- **Hybridisering** eller **kreolisering**: blanding av kulturelle elementer til noe nytt – for eksempel **K-pop**, norsk-somalisk musikk eller en pizza med lokale ingredienser.
+- **Glokalisering**: globale produkter tilpasses lokale forhold.
+
+Globalisering kan også føre til **reaksjoner**, der grupper legger ekstra vekt på **tradisjon** og egen identitet.
+
+## Kulturelt mangfold i Norge
+
+Norge har alltid hatt mangfold – samer, nasjonale minoriteter som kvener og skogfinner, og ulike regionale kulturer. De siste tiårene har **innvandring** gitt enda større mangfold i språk, religion og livsstil.
+
+**Muligheter**:
+
+- Nye **perspektiver**, ideer og kompetanse.
+- **Arbeidskraft** og innovasjon.
+- Rikere kulturliv, mat og musikk.
+
+**Utfordringer**:
+
+- **Fordommer** og **diskriminering**, for eksempel i arbeids- og boligmarkedet.
+- **Språkbarrierer** og misforståelser.
+- **Verdikonflikter**, for eksempel om kjønnsroller, religiøse uttrykk og ytringsfrihet.
+- Fare for **segregering** – at grupper lever atskilt.
+
+## Integrering og inkludering
+
+- **Assimilering**: minoriteten gir opp egen kultur og blir lik majoriteten. Norge førte en slik politikk overfor samer og kvener gjennom **fornorskningen**.
+- **Integrering**: deltakelse i felles samfunn, samtidig som man kan beholde deler av egen kultur.
+- **Segregering**: grupper lever atskilt.
+- **Multikulturalisme**: ulike kulturelle grupper anerkjennes og kan leve side om side med egne tradisjoner.
+
+## Interkulturell kompetanse
+
+**Interkulturell kompetanse** er evnen til å kommunisere og samhandle **godt** med mennesker med annen bakgrunn. Den består av
+
+- **kunnskap** om egen og andres kultur
+- **holdninger** preget av nysgjerrighet, åpenhet og respekt
+- **ferdigheter** som å lytte, stille spørsmål og tåle usikkerhet
+- **selvinnsikt**: å se at egen kultur også er «en kultur», ikke det «normale»
+
+## Hvorfor viktig i et demokrati?
+
+Et demokrati forutsetter at innbyggere med ulike verdier kan **snakke sammen**, **være uenige** på en respektfull måte og finne **felles løsninger**. Kulturforståelse motvirker fordommer og polarisering, og gjør det lettere å sikre at **alle** kan delta. Samtidig må mangfoldet balanseres mot **felles grunnverdier** som menneskerettigheter, likestilling og ytringsfrihet.', '{"label":"Kulturendring og mangfold","children":[{"label":"Stabilitet","children":[{"label":"Sosialisering"},{"label":"Tradisjoner og institusjoner"}]},{"label":"Endring","children":[{"label":"Innovasjon"},{"label":"Diffusjon"},{"label":"Migrasjon og globalisering"}]},{"label":"Globale prosesser","children":[{"label":"Homogenisering"},{"label":"Hybridisering"},{"label":"Glokalisering"}]},{"label":"Mangfold","children":[{"label":"Muligheter"},{"label":"Utfordringer"},{"label":"Assimilering, integrering, segregering"}]},{"label":"Kompetanse","children":[{"label":"Interkulturell kompetanse"},{"label":"Demokrati"},{"label":"Felles grunnverdier"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:kulturendring-og-mangfold';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Innovasjon (kultur)', 'Nye ideer og praksiser som oppstår innenfra.', 0),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Diffusjon', 'Spredning av kulturelle elementer mellom kulturer.', 1),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Globalisering', 'Handel, medier og internett knytter verden tettere sammen.', 2),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Homogenisering', 'At kulturer blir likere hverandre.', 3),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Hybridisering / kreolisering', 'Blanding av kulturelle elementer til noe nytt.', 4),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Glokalisering', 'Globale produkter tilpasses lokale forhold.', 5),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Nasjonale minoriteter', 'Blant annet kvener, skogfinner, jøder, romer og romanifolk.', 6),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Assimilering', 'Minoriteten gir opp egen kultur og blir lik majoriteten.', 7),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Fornorskning', 'Norsk assimileringspolitikk overfor samer og kvener.', 8),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Integrering', 'Deltakelse i felles samfunn mens man beholder deler av egen kultur.', 9),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Segregering', 'Grupper lever atskilt.', 10),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Multikulturalisme', 'Ulike kulturelle grupper anerkjennes side om side.', 11),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Interkulturell kompetanse', 'Evnen til god samhandling med mennesker med annen bakgrunn.', 12),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Verdikonflikt', 'Uenighet om grunnleggende verdier.', 13),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'Polarisering', 'At grupper beveger seg lenger fra hverandre i synspunkter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:kulturendring-og-mangfold';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q01', 'flervalg', 'Hva er diffusjon?', array['At kultur forsvinner', 'Spredning av kulturelle elementer mellom kulturer', 'At kultur blir arvelig', 'At et land lukker grensene']::text[], 1, 'For eksempel musikk og mat.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q02', 'flervalg', 'Hva er hybridisering?', array['Blanding av kulturelle elementer til noe nytt', 'At alle kulturer blir like', 'At en kultur dør ut', 'At en kultur holdes uendret']::text[], 0, 'For eksempel K-pop.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q03', 'flervalg', 'Hva var fornorskningen?', array['Norsk språkopplæring for turister', 'En integreringspolitikk', 'Norsk assimileringspolitikk overfor samer og kvener', 'En kulturfestival']::text[], 2, 'Minoritetene skulle bli lik majoriteten.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q04', 'flervalg', 'Hva er forskjellen på integrering og assimilering?', array['Det er det samme', 'Assimilering betyr å leve atskilt', 'Integrering betyr å gi opp egen kultur', 'Integrering innebærer deltakelse mens man beholder deler av egen kultur']::text[], 3, 'Assimilering betyr å bli lik majoriteten.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q05', 'flervalg', 'Hva er interkulturell kompetanse?', array['Evnen til god samhandling med mennesker med annen bakgrunn', 'Å kunne mange språk', 'Å ha reist mye', 'Å kjenne alle kulturer']::text[], 0, 'Kunnskap, holdninger og ferdigheter.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q06', 'flervalg', 'Hva hevder de som snakker om homogenisering?', array['At kulturer blandes til noe nytt', 'At verden blir likere, ofte etter vestlig mønster', 'At kulturer aldri endres', 'At lokale tradisjoner blir sterkere']::text[], 1, 'Et syn på globaliseringens virkninger.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q07', 'flervalg', 'Hvilken er en mulighet ved kulturelt mangfold?', array['Mer diskriminering', 'Språkbarrierer', 'Nye perspektiver, ideer og kompetanse', 'Segregering']::text[], 2, 'Mangfold kan gi innovasjon.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q08', 'flervalg', 'Hvorfor er kulturforståelse viktig i et demokrati?', array['Fordi alle må mene det samme', 'Fordi det gjør valg unødvendige', 'Fordi det fjerner all uenighet', 'Fordi innbyggere med ulike verdier må kunne snakke sammen og finne felles løsninger']::text[], 3, 'Det motvirker fordommer og polarisering.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q09', 'flervalg', 'Hva sikrer at kulturer er stabile?', array['Sosialisering, tradisjoner og institusjoner', 'Globalisering', 'Migrasjon', 'Internett']::text[], 0, 'Kultur overføres mellom generasjoner.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'q10', 'flervalg', 'Hva er glokalisering?', array['At alt blir lokalt', 'At globale produkter tilpasses lokale forhold', 'At lokale produkter forbys', 'At verden blir mindre']::text[], 1, 'For eksempel menyer tilpasset hvert land.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm01', 'sant-usant', 'Norge hadde kulturelt mangfold også før moderne innvandring.', array['Sant', 'Usant']::text[], 0, 'Samer og nasjonale minoriteter har lang historie her.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm02', 'sant-usant', 'Globalisering fører bare til at kulturer blir like.', array['Sant', 'Usant']::text[], 1, 'Den gir også blanding og nye former.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm03', 'sant-usant', 'Interkulturell kompetanse innebærer også å se at egen kultur er «en kultur».', array['Sant', 'Usant']::text[], 0, 'Selvinnsikt er en del av kompetansen.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm04', 'sant-usant', 'Kulturelt mangfold gir aldri verdikonflikter.', array['Sant', 'Usant']::text[], 1, 'Det kan oppstå uenighet om verdier.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm05', 'flervalg', 'Hvilken er en nasjonal minoritet i Norge?', array['Samer', 'Kvener', 'Svensker', 'Dansker']::text[], 1, 'Samer er urfolk, ikke nasjonal minoritet.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm06', 'flervalg', 'Hva innebærer segregering?', array['At grupper lever atskilt', 'At alle blandes', 'At minoriteten blir lik majoriteten', 'At alle deltar likt']::text[], 0, 'Kan gi lite kontakt og mer fordommer.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 'm07', 'flervalg', 'Hvilken holdning hører til interkulturell kompetanse?', array['Likegyldighet', 'Mistenksomhet', 'Nysgjerrighet, åpenhet og respekt', 'Overlegenhet']::text[], 2, 'Grunnlag for god samhandling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:kulturendring-og-mangfold', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Makt i samfunnet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:makt', 'sosiologi-og-sosialantropologi', 'makt', 'Makt i samfunnet', 'Ulike former for makt – fra Webers definisjon og legitim autoritet til Lukes'' tre dimensjoner, Foucaults disiplinmakt og Bourdieus kapitalformer – og hvordan maktutøvelse påvirker aktører, strukturer og handlinger.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:makt', '## Hva er makt?
+
+**Max Weber** definerte makt som **sjansen til å få gjennomført sin vilje**, også mot andres motstand. Makt finnes overalt – i familien, på skolen, i vennegjengen, i arbeidslivet, i politikken og mellom land.
+
+## Legitim makt – autoritet
+
+Når makt blir akseptert som **rettmessig**, kaller vi den **autoritet** eller **legitim makt**. Weber beskrev tre former:
+
+- **Tradisjonell** autoritet bygger på **skikk og vane**, for eksempel en konge eller en eldste i en landsby.
+- **Karismatisk** autoritet bygger på en leders **personlige egenskaper** og evne til å inspirere.
+- **Legal-rasjonell** autoritet bygger på **lover og regler**, som i et moderne byråkrati og et demokrati.
+
+## Maktens tre dimensjoner
+
+Statsviteren **Steven Lukes** skilte mellom tre dimensjoner:
+
+1. **Åpen makt**: Hvem vinner når det oppstår en **synlig konflikt** – for eksempel en avstemning?
+2. **Skjult makt**: Hvem bestemmer **hva som kommer på dagsordenen**, og hva som aldri blir diskutert?
+3. **Ideologisk makt**: Makten til å forme **hva folk ønsker og tenker** – slik at de ikke engang ser at de har interesser som kan være i konflikt med andres.
+
+## Foucault: makt er overalt
+
+**Michel Foucault** mente at makt ikke bare utøves ovenfra, men finnes i **relasjoner** og **kunnskap**. **Disiplinmakt** virker gjennom **overvåking** og **normalisering**: Vi retter oss etter normer fordi vi kan bli observert og vurdert – i skolen, på jobb og i sosiale medier. Han brukte bildet av **panoptikon**, et fengsel der fangene aldri vet om de blir sett.
+
+## Bourdieu: kapital og makt
+
+**Pierre Bourdieu** mente at makt henger sammen med ulike typer **kapital**:
+
+- **Økonomisk kapital**: penger og eiendom.
+- **Kulturell kapital**: utdanning, kunnskap, språk og smak.
+- **Sosial kapital**: nettverk og kontakter.
+- **Symbolsk kapital**: anseelse og status.
+
+De som har mye kapital, kan lettere definere hva som er «god smak» og «riktig oppførsel». Dette kan **reprodusere** ulikhet.
+
+## Makt i samfunnet
+
+- **Politisk makt**: Storting, regjering og domstoler – maktfordeling mellom de tre statsmaktene.
+- **Økonomisk makt**: store selskaper, investorer og eiere.
+- **Mediemakt**: medienes makt til å sette **dagsorden** og **vinkle** saker – og i dag også plattformenes algoritmer.
+- **Organisasjonsmakt**: fagforeninger, arbeidsgiverforeninger og interesseorganisasjoner.
+- **Kunnskapsmakt**: eksperter og forskere.
+
+## Aktører, strukturer og handlinger
+
+Makt kan virke gjennom **aktører** – personer og organisasjoner som bruker makt bevisst – og gjennom **strukturer**, som lover, økonomi og normer som gir noen fordeler uten at noen aktivt bestemmer det. Maktutøvelse påvirker hvilke **handlingsmuligheter** folk har.
+
+## Makt nedenfra
+
+Også de som har lite formell makt, kan påvirke: gjennom **demonstrasjoner**, **streik**, **sivil ulydighet**, **boikott** og **sosiale medier**. Eksempler er klimabevegelsen og Fosen-aksjonene i 2023, der unge samer og miljøaktivister protesterte mot vindkraftverk på Fosen.', '{"label":"Makt","children":[{"label":"Weber","children":[{"label":"Definisjon"},{"label":"Tradisjonell, karismatisk, legal-rasjonell"}]},{"label":"Lukes","children":[{"label":"Åpen"},{"label":"Skjult"},{"label":"Ideologisk"}]},{"label":"Foucault og Bourdieu","children":[{"label":"Disiplinmakt"},{"label":"Kapitalformer"}]},{"label":"Maktarenaer","children":[{"label":"Politikk"},{"label":"Økonomi"},{"label":"Medier"},{"label":"Organisasjoner"}]},{"label":"Makt nedenfra","children":[{"label":"Demonstrasjoner og streik"},{"label":"Sivil ulydighet"},{"label":"Sosiale medier"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:makt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:makt', 'Makt (Weber)', 'Sjansen til å få gjennomført sin vilje, også mot motstand.', 0),
+  ('sosiologi-og-sosialantropologi:makt', 'Autoritet', 'Makt som oppfattes som legitim.', 1),
+  ('sosiologi-og-sosialantropologi:makt', 'Tradisjonell autoritet', 'Bygger på skikk og vane.', 2),
+  ('sosiologi-og-sosialantropologi:makt', 'Karismatisk autoritet', 'Bygger på lederens personlige egenskaper.', 3),
+  ('sosiologi-og-sosialantropologi:makt', 'Legal-rasjonell autoritet', 'Bygger på lover og regler.', 4),
+  ('sosiologi-og-sosialantropologi:makt', 'Steven Lukes', 'Beskrev maktens tre dimensjoner.', 5),
+  ('sosiologi-og-sosialantropologi:makt', 'Åpen makt', 'Hvem vinner i en synlig konflikt.', 6),
+  ('sosiologi-og-sosialantropologi:makt', 'Skjult makt', 'Makten til å bestemme dagsordenen.', 7),
+  ('sosiologi-og-sosialantropologi:makt', 'Ideologisk makt', 'Makten til å forme hva folk ønsker og tenker.', 8),
+  ('sosiologi-og-sosialantropologi:makt', 'Disiplinmakt (Foucault)', 'Makt gjennom overvåking og normalisering.', 9),
+  ('sosiologi-og-sosialantropologi:makt', 'Panoptikon', 'Fengsel der fangene aldri vet om de blir sett.', 10),
+  ('sosiologi-og-sosialantropologi:makt', 'Kulturell kapital', 'Utdanning, kunnskap, språk og smak (Bourdieu).', 11),
+  ('sosiologi-og-sosialantropologi:makt', 'Sosial kapital', 'Nettverk og kontakter.', 12),
+  ('sosiologi-og-sosialantropologi:makt', 'Mediemakt', 'Makten til å sette dagsorden og vinkle saker.', 13),
+  ('sosiologi-og-sosialantropologi:makt', 'Sivil ulydighet', 'Åpent og ikkevoldelig lovbrudd for å påvirke.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:makt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:makt', 'q01', 'flervalg', 'Hvordan definerte Max Weber makt?', array['Evnen til å tjene penger', 'Sjansen til å få gjennomført sin vilje, også mot motstand', 'Retten til å stemme', 'Å være populær']::text[], 1, 'En klassisk definisjon.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:makt', 'q02', 'flervalg', 'Hvilken autoritet bygger på lover og regler?', array['Legal-rasjonell', 'Tradisjonell', 'Karismatisk', 'Ideologisk']::text[], 0, 'Typisk for moderne demokratier.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:makt', 'q03', 'flervalg', 'Hva er skjult makt ifølge Lukes?', array['Makt i en avstemning', 'Makt gjennom vold', 'Makten til å bestemme hva som kommer på dagsordenen', 'Makt over naturen']::text[], 2, 'Noen saker blir aldri diskutert.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:makt', 'q04', 'flervalg', 'Hva mente Foucault med disiplinmakt?', array['Straff med pisk', 'Makt bare hos kongen', 'Makt gjennom penger', 'Makt som virker gjennom overvåking og normalisering']::text[], 3, 'Vi retter oss etter normer fordi vi kan bli observert.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:makt', 'q05', 'flervalg', 'Hva er kulturell kapital hos Bourdieu?', array['Utdanning, kunnskap, språk og smak', 'Penger', 'Venner', 'Eiendom']::text[], 0, 'Kan gi fordeler i skole og arbeidsliv.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:makt', 'q06', 'flervalg', 'Hva er karismatisk autoritet?', array['Autoritet basert på lover', 'Autoritet basert på lederens personlige egenskaper', 'Autoritet basert på tradisjon', 'Autoritet basert på rikdom']::text[], 1, 'Evnen til å inspirere.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:makt', 'q07', 'flervalg', 'Hva er ideologisk makt?', array['Makt i en synlig konflikt', 'Makt over dagsordenen', 'Makten til å forme hva folk ønsker og tenker', 'Makt gjennom militæret']::text[], 2, 'Lukes'' tredje dimensjon.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:makt', 'q08', 'flervalg', 'Hvordan kan grupper med lite formell makt påvirke samfunnet?', array['De kan ikke påvirke', 'Bare ved å bli rike', 'Bare gjennom kongen', 'Gjennom demonstrasjoner, streik, boikott og sosiale medier']::text[], 3, 'Makt nedenfra.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:makt', 'q09', 'flervalg', 'Hva er mediemakt?', array['Makten til å sette dagsorden og vinkle saker', 'Makten til å vedta lover', 'Makten til å dømme', 'Makten til å kreve skatt']::text[], 0, 'Også plattformenes algoritmer.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:makt', 'q10', 'flervalg', 'Hvordan kan makt virke gjennom strukturer?', array['Bare gjennom bevisste beslutninger', 'Gjennom lover, økonomi og normer som gir noen fordeler uten at noen aktivt bestemmer det', 'Bare gjennom vold', 'Den kan ikke det']::text[], 1, 'Makt er ikke bare aktørers bevisste valg.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:makt', 'm01', 'sant-usant', 'Makt finnes også i familier og vennegjenger.', array['Sant', 'Usant']::text[], 0, 'Makt finnes i alle sosiale relasjoner.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:makt', 'm02', 'sant-usant', 'All makt er synlig og lett å oppdage.', array['Sant', 'Usant']::text[], 1, 'Skjult og ideologisk makt er vanskelig å se.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:makt', 'm03', 'sant-usant', 'Bourdieu mente at kapital kan bidra til å reprodusere ulikhet.', array['Sant', 'Usant']::text[], 0, 'De med mye kapital definerer hva som gir status.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:makt', 'm04', 'sant-usant', 'Foucault mente at makt bare utøves av staten.', array['Sant', 'Usant']::text[], 1, 'Han mente makt finnes i relasjoner overalt.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:makt', 'm05', 'flervalg', 'Hvilken kapitalform er et stort nettverk av kontakter?', array['Økonomisk kapital', 'Sosial kapital', 'Kulturell kapital', 'Symbolsk kapital']::text[], 1, 'Nettverk kan gi jobb og muligheter.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:makt', 'm06', 'flervalg', 'Hva er et eksempel på tradisjonell autoritet?', array['En konge som arver tronen', 'En valgt ordfører', 'En populær influenser', 'En dommer']::text[], 0, 'Bygger på skikk og vane.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:makt', 'm07', 'flervalg', 'Hvilket bilde brukte Foucault om disiplinmakt?', array['Pyramiden', 'Tårnet i Babel', 'Panoptikon', 'Labyrinten']::text[], 2, 'Fangene vet aldri om de blir sett.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:makt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Medier, kommunikasjon og samhandling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'sosiologi-og-sosialantropologi', 'medier-og-samhandling', 'Medier, kommunikasjon og samhandling', 'Hvordan ny teknologi har endret medier, kommunikasjon og samhandling – fra massemedier til sosiale medier, nettverkssamfunnet, selvpresentasjon, parasosiale relasjoner, algoritmer og ekkokamre.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', '## Fra massemedier til sosiale medier
+
+**Massemedier** som aviser, radio og TV sendte fra **få** til **mange**. Redaksjonene bestemte hva som var nyheter – de var **portvoktere**. Med internett og **sosiale medier** kan **alle** publisere, og kommunikasjonen går fra **mange til mange**.
+
+Denne endringen har gjort mediebildet mer **mangfoldig** og **demokratisk** – men også mer **fragmentert** og uoversiktlig.
+
+## Nettverkssamfunnet
+
+Sosiologen **Manuel Castells** beskrev **nettverkssamfunnet**: Økonomi, politikk og sosiale relasjoner organiseres i stadig større grad gjennom **digitale nettverk** som går på tvers av landegrenser. Informasjon og kontakter blir viktige kilder til **makt**.
+
+## Samhandling på nett
+
+Ny teknologi endrer **hvordan** vi møtes:
+
+- Vi kan holde kontakt med venner og familie **over store avstander**.
+- Vi danner **fellesskap** rundt interesser – gaming, musikk, identitet – uavhengig av hvor vi bor.
+- Mye kommunikasjon er **asynkron** (meldinger vi svarer på senere) og **tekstbasert**, slik at kroppsspråk og tonefall mangler. Det kan gi misforståelser, og derfor brukes emojier.
+
+## Selvpresentasjon
+
+**Erving Goffmans** teori om **inntrykksstyring** passer godt til sosiale medier. Vi viser fram en **redigert** versjon av oss selv på **scenen** – nøye utvalgte bilder og innlegg – mens det meste av hverdagen skjer **bak scenen**. Å sammenligne seg med andres redigerte liv kan gi **press** og dårligere selvbilde.
+
+## Parasosiale relasjoner
+
+En **parasosial relasjon** er en **ensidig** relasjon, der vi føler at vi kjenner en person – for eksempel en **influenser** – som ikke kjenner oss. Influensere bruker nærhet og ærlighet for å bygge tillit, noe som også gjør dem til effektive **reklamekanaler**. Reklame i sosiale medier skal **merkes** tydelig.
+
+## Algoritmer, ekkokamre og polarisering
+
+Plattformene bruker **algoritmer** som velger innhold ut fra hva vi har likt og sett før. Det kan gi
+
+- **filterbobler** – at vi mest ser innhold som passer til våre interesser
+- **ekkokamre** – at vi mest møter synspunkter som bekrefter våre egne
+- rask spredning av **feilinformasjon**, fordi sjokkerende innhold ofte får mest oppmerksomhet
+
+Forskerne er uenige om **hvor sterke** disse effektene er, men mange peker på at de kan bidra til **polarisering**.
+
+## Makt og medier
+
+De store **teknologiselskapene** har fått stor makt over offentligheten. Samtidig har **aktivister** og grupper uten tilgang til tradisjonelle medier fått nye muligheter til å bli hørt – som **#MeToo** og klimabevegelsen viser. Staten prøver å regulere, for eksempel gjennom EUs regler for digitale tjenester.
+
+## Hvordan påvirker det oss?
+
+- **Positivt**: tilhørighet, informasjon, deltakelse og kreativitet.
+- **Negativt**: **netthets**, press, søvnproblemer, konsentrasjonsvansker og personvernutfordringer.
+
+Mange snakker om behovet for **digital dømmekraft**: å kunne vurdere kilder, beskytte seg selv og oppføre seg ansvarlig på nett.', '{"label":"Medier og samhandling","children":[{"label":"Medieutvikling","children":[{"label":"Massemedier"},{"label":"Sosiale medier"},{"label":"Nettverkssamfunnet"}]},{"label":"Samhandling","children":[{"label":"Kontakt over avstand"},{"label":"Interessefellesskap"},{"label":"Asynkron tekst"}]},{"label":"Identitet","children":[{"label":"Inntrykksstyring"},{"label":"Parasosiale relasjoner"},{"label":"Sammenligning og press"}]},{"label":"Algoritmer","children":[{"label":"Filterbobler"},{"label":"Ekkokamre"},{"label":"Feilinformasjon"}]},{"label":"Makt og ansvar","children":[{"label":"Teknologiselskaper"},{"label":"Aktivisme"},{"label":"Digital dømmekraft"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:medier-og-samhandling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Massemedier', 'Aviser, radio og TV – kommunikasjon fra få til mange.', 0),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Portvokter', 'Redaksjon som bestemmer hva som blir nyheter.', 1),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Fra mange til mange', 'Kommunikasjon i sosiale medier der alle kan publisere.', 2),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Nettverkssamfunnet', 'Samfunn organisert gjennom digitale nettverk (Castells).', 3),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Asynkron kommunikasjon', 'Meldinger som besvares senere.', 4),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Inntrykksstyring på nett', 'Å vise fram en redigert versjon av seg selv.', 5),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Parasosial relasjon', 'Ensidig relasjon til for eksempel en influenser.', 6),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Influenser', 'Person med stor påvirkning og mange følgere i sosiale medier.', 7),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Algoritme (medier)', 'Velger innhold ut fra hva vi har likt og sett.', 8),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Filterboble', 'At vi mest ser innhold som passer våre interesser.', 9),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Ekkokammer', 'At vi mest møter synspunkter som bekrefter våre egne.', 10),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Polarisering', 'At grupper beveger seg lenger fra hverandre.', 11),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', '#MeToo', 'Eksempel på bevegelse som fikk gjennomslag via sosiale medier.', 12),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Netthets', 'Trakassering og hets på nett.', 13),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'Digital dømmekraft', 'Evnen til å opptre ansvarlig og kritisk på nett.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:medier-og-samhandling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q01', 'flervalg', 'Hva betyr det at redaksjoner var portvoktere?', array['At de passet dørene', 'At de bestemte hva som ble nyheter', 'At de solgte aviser', 'At de sensurerte alt']::text[], 1, 'I massemedienes tid.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q02', 'flervalg', 'Hvem beskrev nettverkssamfunnet?', array['Manuel Castells', 'Émile Durkheim', 'Karl Marx', 'Max Weber']::text[], 0, 'Digitale nettverk på tvers av grenser.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q03', 'flervalg', 'Hva er en parasosial relasjon?', array['Et vennskap i klassen', 'Et forhold mellom kolleger', 'En ensidig relasjon til en person som ikke kjenner oss', 'Et familieforhold']::text[], 2, 'For eksempel til en influenser.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q04', 'flervalg', 'Hva er et ekkokammer?', array['Et rom med ekko', 'En type podkast', 'En reklamekanal', 'Når vi mest møter synspunkter som bekrefter våre egne']::text[], 3, 'Kan bidra til polarisering.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q05', 'flervalg', 'Hvordan passer Goffmans teori til sosiale medier?', array['Vi viser fram en redigert versjon av oss selv', 'Vi viser alltid alt', 'Vi har ingen roller på nett', 'Sosiale medier har ingen publikum']::text[], 0, 'Inntrykksstyring.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q06', 'flervalg', 'Hvordan har sosiale medier endret kommunikasjonen?', array['Fra mange til få', 'Fra få til mange, til mange til mange', 'Fra muntlig til skriftlig bare', 'Ingen endring']::text[], 1, 'Alle kan publisere.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q07', 'flervalg', 'Hvorfor kan feilinformasjon spre seg raskt i sosiale medier?', array['Fordi alle er kildekritiske', 'Fordi redaksjonene sjekker alt', 'Fordi sjokkerende innhold ofte får mest oppmerksomhet', 'Fordi algoritmer fjerner alt']::text[], 2, 'Algoritmer belønner engasjement.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q08', 'flervalg', 'Hvilket er et positivt trekk ved sosiale medier?', array['Netthets', 'Søvnproblemer', 'Kroppspress', 'Nye fellesskap og muligheter for deltakelse']::text[], 3, 'Også for grupper uten tilgang til tradisjonelle medier.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q09', 'flervalg', 'Hva er en filterboble?', array['At vi mest ser innhold som passer våre interesser', 'En type såpe', 'Et personvernfilter', 'En reklameblokker']::text[], 0, 'Algoritmene tilpasser innholdet.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'q10', 'flervalg', 'Hva er digital dømmekraft?', array['Å dømme andre på nett', 'Evnen til å opptre ansvarlig og kritisk på nett', 'Å bruke mye tid på nett', 'Å kunne programmere']::text[], 1, 'Kildekritikk og nettvett.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm01', 'sant-usant', 'Reklame fra influensere skal merkes tydelig.', array['Sant', 'Usant']::text[], 0, 'Det er et krav i markedsføringsregelverket.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm02', 'sant-usant', 'Forskerne er helt enige om hvor sterk effekten av ekkokamre er.', array['Sant', 'Usant']::text[], 1, 'Det er faglig uenighet om styrken.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm03', 'sant-usant', 'Tekstbasert kommunikasjon mangler kroppsspråk og tonefall.', array['Sant', 'Usant']::text[], 0, 'Det kan gi misforståelser.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm04', 'sant-usant', 'Sosiale medier har bare negative konsekvenser.', array['Sant', 'Usant']::text[], 1, 'De gir også fellesskap og deltakelse.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm05', 'flervalg', 'Hvilken bevegelse fikk stor gjennomslagskraft via sosiale medier?', array['Arbeiderbevegelsen på 1800-tallet', '#MeToo', 'Reformasjonen', 'Hanseatene']::text[], 1, 'Fra 2017.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm06', 'flervalg', 'Hvem har fått stor makt over offentligheten i dag?', array['De store teknologiselskapene', 'Postvesenet', 'Telegrafen', 'Lokale bibliotek']::text[], 0, 'Gjennom plattformer og algoritmer.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 'm07', 'flervalg', 'Hva kan det føre til å sammenligne seg med andres redigerte liv på nett?', array['Bedre søvn', 'Mer tid', 'Press og dårligere selvbilde', 'Høyere inntekt']::text[], 2, 'Vi ser bare scenen, ikke bakscenen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:medier-og-samhandling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Marginalisering, utenforskap og inkludering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'sosiologi-og-sosialantropologi', 'marginalisering-og-inkludering', 'Marginalisering, utenforskap og inkludering', 'Hva marginalisering og utenforskap er, årsaker på individ- og samfunnsnivå – som fattigdom, frafall, helse og diskriminering – og hvordan tiltak kan motvirke utenforskap og fremme inkludering.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', '## Begreper
+
+- **Marginalisering** er en prosess der personer eller grupper blir skjøvet ut i **utkanten** av samfunnet og får **mindre tilgang** til goder som arbeid, utdanning, inntekt, bolig og innflytelse.
+- **Utenforskap** er tilstanden av å stå **utenfor** viktige fellesskap – for eksempel arbeidsliv, skole eller sosiale nettverk.
+- **Inkludering** betyr at alle får **delta** på like vilkår og blir **anerkjent** som en del av fellesskapet.
+
+## Hvem er utsatt?
+
+- Unge som **verken er i arbeid, utdanning eller opplæring** (på engelsk **NEET**).
+- Personer med **lav inntekt** og barn i **fattige familier**.
+- Personer med **psykiske** eller **fysiske** helseproblemer og **funksjonsnedsettelser**.
+- Noen **innvandrere** og deres barn, særlig de som møter språkbarrierer og diskriminering.
+- Personer med **rusproblemer**, tidligere innsatte og bostedsløse.
+
+Utenforskap kan også være **sosialt** – ensomhet – selv om man har jobb.
+
+## Årsaker på individnivå
+
+- **Helse**: sykdom og psykiske plager.
+- **Utdanning**: Å ikke fullføre videregående øker risikoen for å stå utenfor arbeidslivet.
+- **Familie og oppvekst**: vanskelige hjemmeforhold, lite støtte.
+- **Nettverk**: få kontakter som kan åpne dører.
+
+## Årsaker på samfunnsnivå
+
+- **Arbeidsmarkedet**: Det stilles stadig høyere krav til **kompetanse**, og det finnes færre jobber for dem uten utdanning.
+- **Økonomisk ulikhet** og **boligpriser**.
+- **Diskriminering**: Forskning har vist at søkere med utenlandskklingende navn i gjennomsnitt blir kalt inn til **færre intervjuer** enn søkere med norske navn og like kvalifikasjoner.
+- **Stigma**: Fordommer mot for eksempel psykisk sykdom eller trygdemottakere.
+- **Strukturer** i velferdsstaten som ikke fanger opp alle.
+
+Årsakene **forsterker** ofte hverandre – det kalles en **ond sirkel**: Dårlig helse kan gi frafall, som gir svak tilknytning til arbeidslivet, lav inntekt og ensomhet, som igjen forverrer helsen.
+
+## Konsekvenser
+
+- For **individet**: dårligere økonomi, helse og livskvalitet, ensomhet og tap av mestring.
+- For **samfunnet**: tapt arbeidskraft, økte utgifter til velferd og lavere **tillit** og **samhold**.
+
+## Tiltak
+
+**Utdanning**:
+
+- Tidlig innsats, oppfølging og alternative løp i skolen for å redusere **frafall**.
+- Rett til å fullføre videregående.
+
+**Arbeid**:
+
+- **NAV** med arbeidsrettede tiltak, lønnstilskudd og kvalifisering.
+- Modeller som **Individuell jobbstøtte (IPS)**, der personer med psykiske lidelser får hjelp til ordinært arbeid med tett oppfølging.
+
+**Økonomi og bolig**: sosialhjelp, bostøtte og startlån.
+
+**Fellesskap**: frivillige organisasjoner, idrett og kulturtilbud – ofte med **gratis** eller rimelig deltakelse.
+
+**Mot diskriminering**: lover som **likestillings- og diskrimineringsloven**, anonyme søknader og holdningsarbeid.
+
+## Drøfting
+
+Når du vurderer tiltak, kan du spørre om de retter seg mot **individet** eller mot **strukturene**, om de når dem som **trenger** dem mest, og om de gir **varig** endring. Mange mener at både **individuell oppfølging** og **endringer i samfunnet** trengs samtidig.', '{"label":"Marginalisering og inkludering","children":[{"label":"Begreper","children":[{"label":"Marginalisering"},{"label":"Utenforskap"},{"label":"Inkludering"}]},{"label":"Utsatte grupper","children":[{"label":"NEET"},{"label":"Lav inntekt"},{"label":"Helseproblemer"}]},{"label":"Årsaker","children":[{"label":"Individnivå"},{"label":"Samfunnsnivå"},{"label":"Ond sirkel"}]},{"label":"Konsekvenser","children":[{"label":"For individet"},{"label":"For samfunnet"}]},{"label":"Tiltak","children":[{"label":"Utdanning"},{"label":"NAV og IPS"},{"label":"Frivillighet"},{"label":"Mot diskriminering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:marginalisering-og-inkludering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Marginalisering', 'Prosess der personer skyves ut i utkanten og får mindre tilgang til goder.', 0),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Utenforskap', 'Å stå utenfor viktige fellesskap som arbeid og skole.', 1),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Inkludering', 'At alle kan delta på like vilkår og blir anerkjent.', 2),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'NEET', 'Unge som verken er i arbeid, utdanning eller opplæring.', 3),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Sosialt utenforskap', 'Ensomhet og mangel på nettverk.', 4),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Frafall', 'Å ikke fullføre videregående opplæring.', 5),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Diskriminering i arbeidslivet', 'Søkere med utenlandskklingende navn kalles inn til færre intervjuer.', 6),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Stigma', 'Negative fordommer knyttet til en egenskap eller gruppe.', 7),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Ond sirkel', 'Årsaker som forsterker hverandre.', 8),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Tidlig innsats', 'Hjelp tidlig for å forebygge problemer.', 9),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'NAV', 'Arbeids- og velferdsforvaltningen med arbeidsrettede tiltak.', 10),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Individuell jobbstøtte (IPS)', 'Hjelp til ordinært arbeid med tett oppfølging.', 11),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Likestillings- og diskrimineringsloven', 'Forbyr diskriminering på grunn av blant annet etnisitet og kjønn.', 12),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Frivillige organisasjoner', 'Viktige arenaer for fellesskap og inkludering.', 13),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'Strukturelle tiltak', 'Tiltak som endrer samfunnets rammer, ikke bare individet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:marginalisering-og-inkludering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q01', 'flervalg', 'Hva er marginalisering?', array['At noen blir rike', 'En prosess der personer skyves ut i utkanten og får mindre tilgang til goder', 'At noen flytter', 'En type sykdom']::text[], 1, 'Tilgang til arbeid, utdanning og innflytelse.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q02', 'flervalg', 'Hva står NEET for?', array['Unge som verken er i arbeid, utdanning eller opplæring', 'En type utdanning', 'Et NAV-tiltak', 'En diagnose']::text[], 0, 'En utsatt gruppe.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q03', 'flervalg', 'Hva har forskning vist om søkere med utenlandskklingende navn?', array['De får flere intervjuer', 'Det er ingen forskjell', 'De blir i gjennomsnitt kalt inn til færre intervjuer', 'De søker ikke jobb']::text[], 2, 'Selv med like kvalifikasjoner.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q04', 'flervalg', 'Hva er en ond sirkel i sammenheng med utenforskap?', array['En sosial aktivitet', 'En type tiltak', 'Et vennskap', 'At årsaker forsterker hverandre']::text[], 3, 'For eksempel helse, frafall og lav inntekt.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q05', 'flervalg', 'Hva er Individuell jobbstøtte (IPS)?', array['Hjelp til ordinært arbeid med tett oppfølging for personer med psykiske lidelser', 'En type sosialhjelp', 'En skole', 'En skatteordning']::text[], 0, 'Arbeid som del av behandlingen.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q06', 'flervalg', 'Hvilken er en årsak til utenforskap på samfunnsnivå?', array['Personlige interesser', 'Høye krav til kompetanse i arbeidsmarkedet', 'Hobbyer', 'Høyde']::text[], 1, 'Færre jobber uten utdanning.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q07', 'flervalg', 'Hvorfor er frafall fra videregående en risiko?', array['Det gir høyere lønn', 'Det har ingen betydning', 'Det øker risikoen for å stå utenfor arbeidslivet', 'Det gir flere venner']::text[], 2, 'Utdanning er viktig for arbeid.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q08', 'flervalg', 'Hva er en konsekvens av utenforskap for samfunnet?', array['Mer arbeidskraft', 'Lavere velferdsutgifter', 'Høyere tillit', 'Tapt arbeidskraft og økte velferdsutgifter']::text[], 3, 'Og svekket samhold.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q09', 'flervalg', 'Hva er stigma?', array['Negative fordommer knyttet til en egenskap eller gruppe', 'En medisin', 'En type skatt', 'En utdanning']::text[], 0, 'For eksempel mot psykisk sykdom.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'q10', 'flervalg', 'Hva er et strukturelt tiltak mot diskriminering?', array['Å be den diskriminerte endre navn', 'Lovverk og anonyme søknader', 'Å ignorere problemet', 'Individuell trening']::text[], 1, 'Endrer rammene, ikke bare individet.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm01', 'sant-usant', 'Man kan oppleve sosialt utenforskap selv om man har jobb.', array['Sant', 'Usant']::text[], 0, 'For eksempel ensomhet.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm02', 'sant-usant', 'Utenforskap skyldes bare individuelle valg.', array['Sant', 'Usant']::text[], 1, 'Også samfunnsforhold spiller inn.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm03', 'sant-usant', 'Frivillige organisasjoner kan bidra til inkludering.', array['Sant', 'Usant']::text[], 0, 'De gir fellesskap og nettverk.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm04', 'sant-usant', 'Diskriminering i arbeidslivet er ikke dokumentert i Norge.', array['Sant', 'Usant']::text[], 1, 'Forskning har dokumentert det.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm05', 'flervalg', 'Hvilket tiltak retter seg mot strukturene?', array['Samtale med én elev', 'Lover mot diskriminering', 'Personlig trening', 'Et motivasjonskurs']::text[], 1, 'Endrer samfunnets rammer.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm06', 'flervalg', 'Hvilken etat har hovedansvar for arbeidsrettede tiltak i Norge?', array['NAV', 'Skatteetaten', 'Politiet', 'Datatilsynet']::text[], 0, 'Arbeids- og velferdsforvaltningen.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 'm07', 'flervalg', 'Hva bør du vurdere når du drøfter tiltak mot utenforskap?', array['Bare prisen', 'Bare hvem som foreslo tiltaket', 'Om tiltakene når dem som trenger dem og gir varig endring', 'Bare hvor raskt de virker']::text[], 2, 'Og om de retter seg mot individ eller struktur.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:marginalisering-og-inkludering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Urfolk – mangfold og rettigheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:urfolk', 'sosiologi-og-sosialantropologi', 'urfolk', 'Urfolk – mangfold og rettigheter', 'Hva som kjennetegner urfolk, mangfoldet i urfolks kulturer og samfunnsliv i verden, samenes historie og rettigheter i Norge, og aktuelle spørsmål om land, språk, selvbestemmelse og forsoning.', array[10]::int[], 9, 'sjekkes', array['Sjekk tallet på urfolk i verden og status i Fosen-saken mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:urfolk', '## Hvem er urfolk?
+
+Det finnes rundt **476 millioner** urfolk i over **90 land**. Etter **ILO-konvensjon nr. 169** er urfolk folk som nedstammer fra dem som bodde i et område **før** koloniseringen eller dagens statsgrenser ble trukket, og som helt eller delvis har bevart egne **sosiale**, **økonomiske**, **kulturelle** og **politiske** institusjoner. **Selvidentifikasjon** – at folk selv regner seg som urfolk – er et grunnleggende kriterium.
+
+## Stort mangfold
+
+Urfolk er **svært ulike**:
+
+- **Inuitter** i Arktis har tradisjonelt levd av fangst av sel og hval.
+- **Maorier** i New Zealand er polynesiske folk; **Waitangi-traktaten** fra 1840 er grunnlaget for deres forhold til staten.
+- **Aboriginere** og **Torres Strait-øyboere** i Australia har en av verdens eldste sammenhengende kulturer.
+- Mange **urfolk i Amazonas** lever av jakt, fiske og svedjebruk i regnskogen.
+- **Samer** i Norge, Sverige, Finland og Russland.
+
+Mange urfolk bor i dag i **byer**, har moderne yrker og bruker ny teknologi – samtidig som de holder på språk, tradisjoner og tilknytning til land. Urfolkskultur er altså **ikke** noe som tilhører fortiden.
+
+## Felles erfaringer
+
+Mange urfolk deler erfaringer med
+
+- **kolonisering** og tap av **land** og **naturressurser**
+- **assimileringspolitikk**, som internatskoler der barn ble tatt fra familiene sine og måtte slutte å snakke eget språk
+- **diskriminering** og dårligere helse og levekår enn majoriteten
+- press fra **gruvedrift**, **energiutbygging** og **klimaendringer**
+
+## Samene
+
+**Samene** er urfolk i Norge. Det finnes flere **samiske språk**, blant annet **nordsamisk**, **lulesamisk** og **sørsamisk**. Samisk kultur omfatter blant annet **reindrift**, fiske, jordbruk, **joik**, **duodji** (håndverk) og **kofte**.
+
+**Fornorskningspolitikken** fra midten av 1800-tallet og langt ut på 1900-tallet skulle gjøre samer og kvener «norske». Samisk språk ble forbudt i skolen, og mange barn bodde på **internatskoler**. **Sannhets- og forsoningskommisjonen** la i **2023** fram en rapport om fornorskningen og uretten den førte til.
+
+**Altasaken** rundt 1980 ble et vendepunkt: Protestene mot utbyggingen av Alta-Kautokeino-vassdraget førte til at samenes rettigheter kom på dagsordenen.
+
+## Rettigheter
+
+- **Grunnloven § 108**: Staten skal legge forholdene til rette for at samene kan sikre og utvikle språket, kulturen og samfunnslivet sitt.
+- **Sametinget** (fra **1989**) er samenes folkevalgte organ.
+- Norge var i **1990** det første landet som ratifiserte **ILO-konvensjon 169**.
+- **FNs erklæring om urfolks rettigheter** (2007).
+- **Finnmarksloven** (2005) ga befolkningen i Finnmark, samer og andre, mer råderett over grunnen.
+- **6. februar** er **samefolkets dag**.
+
+## Aktuelle spørsmål
+
+**Fosen-saken**: I **2021** slo **Høyesterett** fast at vindkraftverk på Fosen krenket reindriftssamenes rett til kulturutøvelse etter FNs konvensjon om sivile og politiske rettigheter. Saken førte til store protester i **2023**.
+
+Andre spørsmål er **språkrevitalisering**, **representasjon** i media, retten til **konsultasjon** når staten tar beslutninger som berører samiske interesser, og hvordan **klimaendringer** påvirker reindriften.
+
+## Refleksjon
+
+Urfolks rettigheter reiser spørsmål om **likebehandling** og **særrettigheter**: Er det rettferdig at en gruppe har egne rettigheter? Tilhengere peker på at rettighetene skal **rette opp** tidligere urett og sikre at kulturen kan leve videre – i tråd med menneskerettighetene.', '{"label":"Urfolk","children":[{"label":"Definisjon","children":[{"label":"ILO 169"},{"label":"Selvidentifikasjon"}]},{"label":"Mangfold","children":[{"label":"Inuitter"},{"label":"Maorier"},{"label":"Aboriginere"},{"label":"Samer"}]},{"label":"Felles erfaringer","children":[{"label":"Kolonisering"},{"label":"Assimilering"},{"label":"Press på land"}]},{"label":"Samer i Norge","children":[{"label":"Språk og kultur"},{"label":"Fornorskning"},{"label":"Altasaken"}]},{"label":"Rettigheter","children":[{"label":"Grunnloven § 108"},{"label":"Sametinget"},{"label":"Fosen-saken"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:urfolk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:urfolk', 'Urfolk', 'Folk som bodde i et område før kolonisering eller statsgrenser, med egne institusjoner.', 0),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Antall urfolk i verden', 'Rundt 476 millioner i over 90 land.', 1),
+  ('sosiologi-og-sosialantropologi:urfolk', 'ILO-konvensjon 169', 'Internasjonal konvensjon om urfolks rettigheter; Norge ratifiserte først, i 1990.', 2),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Selvidentifikasjon', 'At folk selv regner seg som urfolk.', 3),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Waitangi-traktaten', 'Avtale fra 1840 mellom maorier og britene.', 4),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Samiske språk', 'Blant annet nordsamisk, lulesamisk og sørsamisk.', 5),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Duodji', 'Samisk håndverk.', 6),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Joik', 'Tradisjonell samisk sangform.', 7),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Fornorskning', 'Politikk for å gjøre samer og kvener «norske».', 8),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Sannhets- og forsoningskommisjonen', 'La fram rapport om fornorskningen i 2023.', 9),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Altasaken', 'Protester rundt 1980 som satte samenes rettigheter på dagsordenen.', 10),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Sametinget', 'Samenes folkevalgte organ fra 1989.', 11),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Grunnloven § 108', 'Staten skal legge til rette for samisk språk, kultur og samfunnsliv.', 12),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Samefolkets dag', '6. februar.', 13),
+  ('sosiologi-og-sosialantropologi:urfolk', 'Fosen-dommen', 'Høyesterett 2021: vindkraftverk krenket reindriftssamenes rettigheter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:urfolk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:urfolk', 'q01', 'flervalg', 'Hva er et grunnleggende kriterium for å være urfolk?', array['Å bo på landsbygda', 'Selvidentifikasjon og nedstamming fra folk som bodde der før statsgrensene', 'Å snakke engelsk', 'Å drive reindrift']::text[], 1, 'Etter ILO-konvensjon 169.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q02', 'flervalg', 'Når ble Sametinget opprettet?', array['1989', '1814', '1945', '2005']::text[], 0, 'Samenes folkevalgte organ.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q03', 'flervalg', 'Hva var fornorskningspolitikken?', array['Å lære turister norsk', 'En politikk for flere språk', 'En politikk for å gjøre samer og kvener «norske»', 'En handelsavtale']::text[], 2, 'Samisk ble blant annet forbudt i skolen.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q04', 'flervalg', 'Hva slo Høyesterett fast i Fosen-saken i 2021?', array['At vindkraft er ulovlig i Norge', 'At reindrift må avvikles', 'At Sametinget skal legges ned', 'At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse']::text[], 3, 'Etter FNs konvensjon om sivile og politiske rettigheter.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q05', 'flervalg', 'Hvilket land ratifiserte først ILO-konvensjon 169?', array['Norge', 'Sverige', 'Australia', 'USA']::text[], 0, 'I 1990.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q06', 'flervalg', 'Hvilken erfaring deler mange urfolk?', array['At de alltid har hatt full selvbestemmelse', 'Kolonisering, tap av land og assimileringspolitikk', 'At de ikke har egne språk', 'At de bare bor i Europa']::text[], 1, 'Også diskriminering.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q07', 'flervalg', 'Hva var Altasaken?', array['En fotballkamp', 'En handelsavtale', 'Protester mot utbyggingen av Alta-Kautokeino-vassdraget', 'En skolereform']::text[], 2, 'Et vendepunkt rundt 1980.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q08', 'flervalg', 'Hvorfor er det feil å se urfolkskultur som noe som bare tilhører fortiden?', array['Fordi urfolk ikke har tradisjoner', 'Fordi alle urfolk bor i storbyer', 'Fordi kulturen er forbudt', 'Fordi mange lever moderne liv samtidig som de holder på språk og tradisjoner']::text[], 3, 'Kultur er levende og i endring.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q09', 'flervalg', 'Hva la Sannhets- og forsoningskommisjonen fram i 2023?', array['En rapport om fornorskningen og uretten den førte til', 'En ny grunnlov', 'Et forslag om å legge ned Sametinget', 'En plan for vindkraft']::text[], 0, 'Om samer, kvener og skogfinner.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:urfolk', 'q10', 'flervalg', 'Hva sier Grunnloven § 108?', array['At samisk er forbudt', 'At staten skal legge til rette for samisk språk, kultur og samfunnsliv', 'At alle må snakke samisk', 'At samer ikke har stemmerett']::text[], 1, 'Tidligere § 110 a, fra 1988.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm01', 'sant-usant', 'Det finnes flere samiske språk.', array['Sant', 'Usant']::text[], 0, 'Blant annet nordsamisk, lulesamisk og sørsamisk.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm02', 'sant-usant', 'Alle urfolk lever av jakt og fangst.', array['Sant', 'Usant']::text[], 1, 'Urfolk har svært ulike levemåter, og mange bor i byer.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm03', 'sant-usant', '6. februar er samefolkets dag.', array['Sant', 'Usant']::text[], 0, 'Til minne om landsmøtet i Trondheim i 1917.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm04', 'sant-usant', 'Kvener er urfolk i Norge.', array['Sant', 'Usant']::text[], 1, 'Kvener er en nasjonal minoritet; samer er urfolk.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm05', 'flervalg', 'Hva er duodji?', array['En samisk sang', 'Samisk håndverk', 'Et samisk festmåltid', 'En samisk høytid']::text[], 1, 'Joik er sangformen.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm06', 'flervalg', 'Hvilken avtale er grunnlaget for maorienes forhold til staten i New Zealand?', array['Waitangi-traktaten', 'Finnmarksloven', 'ILO 169', 'Versailles-traktaten']::text[], 0, 'Fra 1840.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:urfolk', 'm07', 'flervalg', 'Hvilket argument brukes for særrettigheter for urfolk?', array['At urfolk er bedre enn andre', 'At særrettigheter er gratis', 'At de skal rette opp tidligere urett og sikre at kulturen kan leve videre', 'At majoriteten ikke har kultur']::text[], 2, 'I tråd med menneskerettighetene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:urfolk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Lagdeling, klasser og sosial mobilitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'sosiologi-og-sosialantropologi', 'lagdeling-og-sosial-mobilitet', 'Lagdeling, klasser og sosial mobilitet', 'Teorier om sosial lagdeling og klasser – Marx, Weber og Bourdieu – hvordan ulikhet måles, hva som er forutsetningene for sosial mobilitet, og hva høy og lav mobilitet betyr for individ og samfunn.', array[12, 13]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', '## Sosial lagdeling
+
+**Sosial lagdeling** betyr at samfunnet er delt i **lag** med ulik tilgang til **goder** som inntekt, formue, utdanning, makt og status. Lagdelingen er **systematisk** – den følger mønstre og går ofte i arv.
+
+Noen samfunn har **lukkede** systemer, der posisjonen er bestemt ved fødselen, som **kastesystemet** i India eller **standssamfunnet** i Europa før. Moderne samfunn har mer **åpne** klassesystemer, der det er mulig å bevege seg mellom lagene.
+
+## Marx: klasse og produksjonsmidler
+
+**Karl Marx** delte samfunnet i klasser etter forholdet til **produksjonsmidlene** – fabrikker, jord og maskiner. **Borgerskapet** eier dem, mens **arbeiderklassen** må selge arbeidskraften sin. Marx mente at forholdet er preget av **utbytting** og **konflikt**.
+
+## Weber: klasse, stand og parti
+
+**Max Weber** mente at lagdeling har tre dimensjoner:
+
+- **Klasse**: økonomisk posisjon på markedet – inntekt og ferdigheter.
+- **Stand**: **status** og anseelse – for eksempel yrkesprestisje eller livsstil.
+- **Parti**: **politisk makt** og innflytelse.
+
+Disse kan henge sammen, men trenger ikke: En prest kan ha høy status, men moderat inntekt.
+
+## Bourdieu: kapital og habitus
+
+**Pierre Bourdieu** mente at klasser skilles av ulike mengder **økonomisk**, **kulturell** og **sosial** kapital. **Habitus** er de vanene, smakene og måtene å tenke på som vi får gjennom oppveksten. Skolen belønner ofte den kulturelle kapitalen som barn fra høyere klasser har med seg, og kan dermed **reprodusere** ulikhet.
+
+## Måle ulikhet
+
+- **Inntekt**, **formue**, **utdanning** og **yrke**.
+- **Gini-koeffisienten** går fra 0 (alle har like mye) til 1 (én har alt). Norge har **lav** inntektsulikhet sammenlignet med de fleste land, men **formuesulikheten** er langt større enn inntektsulikheten.
+
+## Sosial mobilitet
+
+**Sosial mobilitet** er bevegelse mellom sosiale lag.
+
+- **Intergenerasjonell** mobilitet: forskjell mellom foreldres og barns posisjon.
+- **Intragenerasjonell** mobilitet: endring i løpet av én persons liv.
+- **Vertikal** mobilitet er bevegelse opp eller ned, **horisontal** mobilitet er bytte av posisjon på samme nivå.
+
+## Forutsetninger for høy mobilitet
+
+- **Gratis** og god **utdanning** for alle, og støtte gjennom **Lånekassen**.
+- **Små lønnsforskjeller** og en sterk **velferdsstat**.
+- **Lite diskriminering**.
+- Et **arbeidsmarked** med mange nye jobber.
+
+De nordiske landene har relativt **høy** mobilitet. **Great Gatsby-kurven** viser at land med **stor ulikhet** ofte har **lav** mobilitet: Jo lenger det er mellom trinnene på stigen, desto vanskeligere er det å klatre.
+
+Likevel finnes **sosial arv** også i Norge: Barn av foreldre med høy utdanning tar oftere høyere utdanning selv.
+
+## Konsekvenser
+
+**Høy mobilitet**:
+
+- Talenter **utnyttes** bedre.
+- Samfunnet oppleves som mer **rettferdig**, og tilliten er ofte høy.
+- Men den kan gi **press** om å lykkes – og få dem som faller nedover, til å føle at det er deres egen skyld (et **meritokratisk** syn).
+
+**Lav mobilitet**:
+
+- **Privilegier** går i arv, og talent går tapt.
+- Kan gi **frustrasjon**, konflikt og lav tillit.', '{"label":"Lagdeling og mobilitet","children":[{"label":"Lagdeling","children":[{"label":"Lukkede systemer"},{"label":"Åpne klassesystemer"}]},{"label":"Teorier","children":[{"label":"Marx"},{"label":"Weber"},{"label":"Bourdieu"}]},{"label":"Måling","children":[{"label":"Inntekt og formue"},{"label":"Gini-koeffisient"}]},{"label":"Mobilitet","children":[{"label":"Inter- og intragenerasjonell"},{"label":"Vertikal og horisontal"},{"label":"Great Gatsby-kurven"}]},{"label":"Konsekvenser","children":[{"label":"Høy mobilitet"},{"label":"Lav mobilitet"},{"label":"Sosial arv"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Sosial lagdeling', 'Samfunnet er delt i lag med ulik tilgang til goder.', 0),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Lukket lagdelingssystem', 'Posisjonen bestemmes ved fødselen, som i kastesystemet.', 1),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Produksjonsmidler', 'Fabrikker, jord og maskiner – grunnlaget for Marx'' klassebegrep.', 2),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Weber: klasse', 'Økonomisk posisjon på markedet.', 3),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Weber: stand', 'Status og anseelse.', 4),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Weber: parti', 'Politisk makt og innflytelse.', 5),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Habitus', 'Vaner, smak og tenkemåter fra oppveksten (Bourdieu).', 6),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Reproduksjon av ulikhet', 'At ulikhet videreføres fra generasjon til generasjon.', 7),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Gini-koeffisient', 'Mål på ulikhet fra 0 (lik) til 1 (maksimal ulikhet).', 8),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Intergenerasjonell mobilitet', 'Forskjell mellom foreldres og barns posisjon.', 9),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Intragenerasjonell mobilitet', 'Endring i løpet av én persons liv.', 10),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Vertikal mobilitet', 'Bevegelse opp eller ned i samfunnet.', 11),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Great Gatsby-kurven', 'Land med stor ulikhet har ofte lav mobilitet.', 12),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Sosial arv', 'At barn får lignende posisjon som foreldrene.', 13),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'Meritokrati', 'Samfunn der posisjon skal bygge på innsats og evner.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q01', 'flervalg', 'Hva bestemmer klasse ifølge Marx?', array['Status og livsstil', 'Forholdet til produksjonsmidlene', 'Politisk makt', 'Utdanning']::text[], 1, 'Borgerskap og arbeiderklasse.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q02', 'flervalg', 'Hvilke tre dimensjoner av lagdeling beskrev Weber?', array['Klasse, stand og parti', 'Kapital, habitus og felt', 'Makro, mikro og meso', 'Arbeid, bolig og helse']::text[], 0, 'Økonomi, status og politisk makt.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q03', 'flervalg', 'Hva er habitus?', array['En bolig', 'En type skatt', 'Vaner, smak og tenkemåter fra oppveksten', 'Et politisk parti']::text[], 2, 'Bourdieus begrep.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q04', 'flervalg', 'Hva viser Great Gatsby-kurven?', array['At rike land har høy mobilitet', 'At mobilitet er lik overalt', 'At ulikhet ikke har betydning', 'At land med stor ulikhet ofte har lav sosial mobilitet']::text[], 3, 'Lange trinn på stigen er vanskelige å klatre.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q05', 'flervalg', 'Hva er intergenerasjonell mobilitet?', array['Forskjell mellom foreldres og barns sosiale posisjon', 'Endring i løpet av ett liv', 'Flytting mellom land', 'Bytte av jobb på samme nivå']::text[], 0, 'Mellom generasjoner.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q06', 'flervalg', 'Hva måler Gini-koeffisienten?', array['Befolkningsvekst', 'Ulikhet i fordelingen av inntekt eller formue', 'Utdanningsnivå', 'Arbeidsledighet']::text[], 1, 'Fra 0 til 1.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q07', 'flervalg', 'Hvilken er en forutsetning for høy sosial mobilitet?', array['Dyr privatskole', 'Store lønnsforskjeller', 'Gratis og god utdanning for alle', 'Arv av yrke']::text[], 2, 'Gir like muligheter.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q08', 'flervalg', 'Hva er en mulig ulempe ved høy mobilitet i et meritokratisk samfunn?', array['Talent går tapt', 'Privilegier går i arv', 'Lav tillit', 'At de som faller nedover, kan føle at det er deres egen skyld']::text[], 3, 'Press om å lykkes.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q09', 'flervalg', 'Hvilket er et eksempel på et lukket lagdelingssystem?', array['Kastesystemet i India', 'Det norske utdanningssystemet', 'Et åpent arbeidsmarked', 'Et demokrati']::text[], 0, 'Posisjonen bestemmes ved fødselen.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'q10', 'flervalg', 'Hva er større i Norge: inntektsulikheten eller formuesulikheten?', array['Inntektsulikheten', 'Formuesulikheten', 'De er like', 'Det finnes ingen ulikhet']::text[], 1, 'Formue er mye skjevere fordelt.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm01', 'sant-usant', 'Status og inntekt trenger ikke å henge sammen.', array['Sant', 'Usant']::text[], 0, 'Weber skilte klasse og stand.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm02', 'sant-usant', 'Det finnes ingen sosial arv i Norge.', array['Sant', 'Usant']::text[], 1, 'Foreldres utdanning påvirker fortsatt barnas valg.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm03', 'sant-usant', 'De nordiske landene har relativt høy sosial mobilitet.', array['Sant', 'Usant']::text[], 0, 'Blant annet på grunn av gratis utdanning og små lønnsforskjeller.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm04', 'sant-usant', 'En Gini-koeffisient på 1 betyr at alle har like mye.', array['Sant', 'Usant']::text[], 1, '0 betyr full likhet; 1 betyr at én har alt.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm05', 'flervalg', 'Hvilken type mobilitet er det når en person går fra butikkmedarbeider til leder i samme bedrift?', array['Intergenerasjonell', 'Intragenerasjonell', 'Horisontal', 'Ingen mobilitet']::text[], 1, 'Endring i løpet av ett liv.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm06', 'flervalg', 'Hvordan kan skolen reprodusere ulikhet ifølge Bourdieu?', array['Ved å belønne den kulturelle kapitalen barn fra høyere klasser har med seg', 'Ved å være gratis', 'Ved å gi alle like karakterer', 'Ved å ha mange lærere']::text[], 0, 'Habitus og kulturell kapital.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 'm07', 'flervalg', 'Hva er en konsekvens av lav sosial mobilitet?', array['Bedre utnyttelse av talent', 'Høyere tillit', 'At privilegier går i arv og talent går tapt', 'Mindre ulikhet']::text[], 2, 'Kan gi frustrasjon og konflikt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:lagdeling-og-sosial-mobilitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Arbeid, arbeidsdeling og produksjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'sosiologi-og-sosialantropologi', 'arbeid-og-produksjon', 'Arbeid, arbeidsdeling og produksjon', 'Hva arbeid betyr for individ og samfunn, ulike former for arbeidsdeling fra Adam Smith og Durkheim til global arbeidsdeling, hvordan teknologi har endret produksjonen – fra samlebånd til automatisering og plattformarbeid – og konsekvenser av ulik organisering av arbeid.', array[14, 15]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', '## Hvorfor arbeid betyr så mye
+
+Arbeid gir **inntekt**, men også mye mer. Sosialpsykologen **Marie Jahoda** studerte arbeidsledige i den østerrikske byen Marienthal på 1930-tallet og fant at arbeid dekker viktige **skjulte behov**: **tidsstruktur** i hverdagen, **sosial kontakt** utenfor familien, **mål og mening**, **status** og **identitet**, og regelmessig **aktivitet**. Derfor kan arbeidsledighet gå ut over helse og selvfølelse, selv om man har økonomisk støtte.
+
+For **samfunnet** er arbeid grunnlaget for **verdiskaping**, **skatteinntekter** og **velferd**.
+
+## Arbeidsdeling
+
+**Arbeidsdeling** betyr at ulike personer eller grupper utfører ulike oppgaver.
+
+- **Adam Smith** beskrev i 1776 en **knappenålsfabrikk** der arbeidet var delt i mange små operasjoner. Produktiviteten økte enormt.
+- **Émile Durkheim** skilte mellom **mekanisk solidaritet** i enkle samfunn, der folk er **like** og holdes sammen av felles verdier, og **organisk solidaritet** i moderne samfunn, der folk er **avhengige av hverandre** fordi de gjør ulike ting – som organer i en kropp.
+- **Kjønnsbasert arbeidsdeling**: Tradisjonelt har kvinner hatt ansvar for omsorg og hjem, menn for lønnsarbeid. I Norge har dette endret seg mye, men mange yrker er fortsatt **kjønnsdelte**.
+- **Global arbeidsdeling**: Produksjon deles mellom land. Råvarer utvinnes ett sted, klær sys et annet og designes et tredje – i **globale verdikjeder**.
+
+## Teknologi og produksjon
+
+- **Den industrielle revolusjonen** flyttet produksjonen fra hjem og verksted til **fabrikker** med maskiner.
+- **Taylorisme**: **Frederick W. Taylor** delte arbeidet i enkle, tidsmålte operasjoner for å øke effektiviteten.
+- **Fordisme**: **Henry Ford** innførte **samlebåndet** i bilproduksjonen i 1913. Masseproduksjon ga billigere varer – men ensformig arbeid.
+- **Postfordisme**: Fra 1970-tallet ble produksjonen mer **fleksibel** og **kunnskapsbasert**, med vekt på kompetanse, teamarbeid og tilpasning til kunder.
+- **Automatisering og KI**: Roboter og programvare overtar stadig flere oppgaver – ikke bare fysisk arbeid, men også rutinepreget kontorarbeid.
+
+I Norge arbeider i dag **over tre av fire** i **tjenesteytende** næringer.
+
+## Marx og fremmedgjøring
+
+**Karl Marx** mente at arbeideren i kapitalismen blir **fremmedgjort**: fra produktet, fra arbeidsprosessen, fra andre mennesker og fra sin egen skapende evne. Kritikere av dagens arbeidsliv peker på lignende trekk i **ensformig** og **overvåket** arbeid.
+
+## Ulik organisering av arbeid
+
+- **Den norske modellen**: **trepartssamarbeid** mellom arbeidstakere, arbeidsgivere og staten, høy organisasjonsgrad, **arbeidsmiljøloven** og medbestemmelse. Det gir trygghet, små lønnsforskjeller og høy produktivitet.
+- **Plattformarbeid** (gig-økonomi), som matlevering og taxi via apper: **fleksibelt**, men ofte uten fast lønn, sykelønn og pensjon.
+- **Midlertidige** kontrakter og **innleie** kan gi bedriftene fleksibilitet, men arbeidstakerne mindre trygghet.
+- **Globale verdikjeder** kan gi billige varer, men også dårlige arbeidsforhold. Da **Rana Plaza**-bygningen i Bangladesh raste sammen i 2013, omkom over 1100 tekstilarbeidere.
+
+## Drøfting
+
+Når du drøfter arbeid, kan du se på **effektivitet** og **lønnsomhet**, men også på **trygghet**, **helse**, **medbestemmelse**, **likestilling** og **mening** for den enkelte – og på hvordan teknologi endrer **hvem** som får arbeid, og **hvilket** arbeid som finnes.', '{"label":"Arbeid og produksjon","children":[{"label":"Arbeidets betydning","children":[{"label":"Inntekt"},{"label":"Jahoda: skjulte funksjoner"},{"label":"Samfunnets velferd"}]},{"label":"Arbeidsdeling","children":[{"label":"Adam Smith"},{"label":"Durkheim"},{"label":"Kjønn og globalt"}]},{"label":"Teknologi","children":[{"label":"Taylorisme"},{"label":"Fordisme"},{"label":"Postfordisme og automatisering"}]},{"label":"Organisering","children":[{"label":"Den norske modellen"},{"label":"Plattformarbeid"},{"label":"Globale verdikjeder"}]},{"label":"Kritikk","children":[{"label":"Fremmedgjøring"},{"label":"Trygghet og helse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:arbeid-og-produksjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Marie Jahoda', 'Studerte arbeidsledige og beskrev arbeidets skjulte funksjoner.', 0),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Arbeidets skjulte funksjoner', 'Tidsstruktur, sosial kontakt, mening, status og aktivitet.', 1),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Arbeidsdeling', 'At ulike personer eller grupper utfører ulike oppgaver.', 2),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Adam Smith', 'Beskrev arbeidsdeling i en knappenålsfabrikk (1776).', 3),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Mekanisk solidaritet', 'Samhold fordi folk er like (Durkheim).', 4),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Organisk solidaritet', 'Samhold fordi folk er avhengige av hverandre (Durkheim).', 5),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Global arbeidsdeling', 'Produksjon fordelt mellom land i globale verdikjeder.', 6),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Taylorisme', 'Arbeid delt i enkle, tidsmålte operasjoner.', 7),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Fordisme', 'Masseproduksjon ved samlebånd, fra 1913.', 8),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Postfordisme', 'Fleksibel og kunnskapsbasert produksjon.', 9),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Fremmedgjøring', 'Arbeideren blir fremmed for produktet og seg selv (Marx).', 10),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Trepartssamarbeid', 'Samarbeid mellom arbeidstakere, arbeidsgivere og staten.', 11),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Plattformarbeid', 'Oppdrag via apper, fleksibelt, men ofte uten faste rettigheter.', 12),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Rana Plaza', 'Fabrikkollaps i Bangladesh 2013 der over 1100 omkom.', 13),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'Tjenesteytende næringer', 'Sysselsetter over tre av fire i Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:arbeid-og-produksjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q01', 'flervalg', 'Hva fant Marie Jahoda om arbeid?', array['At arbeid bare gir inntekt', 'At arbeid også dekker behov som tidsstruktur, sosial kontakt og mening', 'At arbeidsledige er lykkeligere', 'At arbeid er skadelig']::text[], 1, 'Studien i Marienthal.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q02', 'flervalg', 'Hva er organisk solidaritet?', array['Samhold fordi folk er avhengige av hverandre', 'Samhold fordi folk er like', 'Økologisk jordbruk', 'En fagforening']::text[], 0, 'Typisk for moderne samfunn.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q03', 'flervalg', 'Hva innførte Henry Ford i 1913?', array['Fagforeninger', 'Datamaskiner', 'Samlebåndet', 'Plattformarbeid']::text[], 2, 'Masseproduksjon av biler.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q04', 'flervalg', 'Hva mente Marx med fremmedgjøring?', array['Å flytte til utlandet', 'Å lære et nytt språk', 'Å bytte jobb', 'At arbeideren blir fremmed for produktet, arbeidet og seg selv']::text[], 3, 'Kritikk av arbeid i kapitalismen.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q05', 'flervalg', 'Hva kjennetegner den norske modellen?', array['Trepartssamarbeid, høy organisasjonsgrad og medbestemmelse', 'Ingen fagforeninger', 'Store lønnsforskjeller', 'Ingen arbeidsmiljølov']::text[], 0, 'Gir trygghet og små lønnsforskjeller.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q06', 'flervalg', 'Hva er en ulempe ved plattformarbeid?', array['For lite fleksibilitet', 'Ofte ingen fast lønn, sykelønn og pensjon', 'For mange faste stillinger', 'For høy lønn']::text[], 1, 'Arbeidstakeren bærer mye av risikoen.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q07', 'flervalg', 'Hva viste Adam Smiths knappenålsfabrikk?', array['At maskiner er farlige', 'At små fabrikker er best', 'At arbeidsdeling øker produktiviteten kraftig', 'At alle bør gjøre alt']::text[], 2, 'Fra 1776.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q08', 'flervalg', 'Hva skjedde ved Rana Plaza i 2013?', array['En stor streik i Norge', 'Innføringen av samlebåndet', 'En ny handelsavtale', 'En fabrikkbygning raste sammen, og over 1100 tekstilarbeidere omkom']::text[], 3, 'Satte søkelys på arbeidsforhold i globale verdikjeder.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q09', 'flervalg', 'Hva er postfordisme?', array['Fleksibel og kunnskapsbasert produksjon', 'Masseproduksjon ved samlebånd', 'Håndverksproduksjon i hjemmet', 'Jordbruk']::text[], 0, 'Fra 1970-tallet.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'q10', 'flervalg', 'Hvor mange i Norge arbeider i tjenesteytende næringer?', array['Under en av ti', 'Over tre av fire', 'Omtrent halvparten', 'Nesten ingen']::text[], 1, 'Tertiærnæringene dominerer.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm01', 'sant-usant', 'Arbeidsledighet kan gå ut over helsen selv om man har økonomisk støtte.', array['Sant', 'Usant']::text[], 0, 'Arbeid dekker mer enn økonomiske behov.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm02', 'sant-usant', 'Automatisering påvirker bare fysisk arbeid.', array['Sant', 'Usant']::text[], 1, 'Også rutinepreget kontorarbeid automatiseres.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm03', 'sant-usant', 'Mange yrker i Norge er fortsatt kjønnsdelte.', array['Sant', 'Usant']::text[], 0, 'For eksempel omsorg og bygg.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm04', 'sant-usant', 'Mekanisk solidaritet er typisk for moderne samfunn med mye spesialisering.', array['Sant', 'Usant']::text[], 1, 'Moderne samfunn preges av organisk solidaritet.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm05', 'flervalg', 'Hvem delte arbeidet i enkle, tidsmålte operasjoner?', array['Karl Marx', 'Frederick W. Taylor', 'Émile Durkheim', 'Marie Jahoda']::text[], 1, 'Taylorisme.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm06', 'flervalg', 'Hva er et trepartssamarbeid?', array['Samarbeid mellom arbeidstakere, arbeidsgivere og staten', 'Tre bedrifter som slår seg sammen', 'Tre fagforeninger', 'Tre land i en handelsavtale']::text[], 0, 'Kjernen i den norske modellen.', false, true, 15),
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 'm07', 'flervalg', 'Hva er en fordel ved globale verdikjeder for forbrukere?', array['Bedre arbeidsforhold overalt', 'Mindre transport', 'Billigere varer', 'Flere lokale arbeidsplasser alltid']::text[], 2, 'Men de kan gi dårlige arbeidsforhold.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:arbeid-og-produksjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosiologi og sosialantropologi: Ideologi, rettferdighet og bærekraftige samfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'sosiologi-og-sosialantropologi', 'ideologi-rettferdighet-og-barekraft', 'Ideologi, rettferdighet og bærekraftige samfunn', 'Hvordan liberalisme, sosialisme, konservatisme og grønn ideologi ser på makt og fordeling, ulike oppfatninger av rettferdighet – fra Rawls til Nozick – og hvordan sosial ulikhet henger sammen med muligheten for bærekraftige samfunn.', array[16, 17]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', '## Politiske ideologier
+
+En **ideologi** er et sammenhengende sett av ideer om hvordan samfunnet **er** og hvordan det **bør** være. Ideologiene gir ulike svar på spørsmål om **makt** og **fordeling**.
+
+**Liberalisme**
+
+- Vekt på **individets frihet** og **rettigheter**.
+- Et **fritt marked** fordeler goder effektivt.
+- Staten bør være **begrenset**, men sikre rettsstat og like muligheter.
+- Makt bør **spres** og begrenses gjennom maktfordeling.
+
+**Sosialisme** og **sosialdemokrati**
+
+- Vekt på **likhet** og **fellesskap**.
+- Markedet skaper **ulikhet**, og staten eller fellesskapet må **omfordele** gjennom skatt og velferd.
+- Økonomisk makt må balanseres med **arbeiderbevegelsens** og statens makt.
+
+**Konservatisme**
+
+- Vekt på **tradisjon**, **stabilitet** og **institusjoner** som familie, lokalsamfunn og religion.
+- Endringer bør skje **gradvis**.
+- Noe ulikhet regnes som naturlig, men sterke fellesskap skal ta vare på de svake.
+
+**Grønn ideologi** (økologisme)
+
+- Vekt på **naturens tålegrenser** og **framtidige generasjoner**.
+- Økonomisk vekst kan ikke fortsette uten grenser.
+- Fordeling også **mellom generasjoner** og mellom **rike og fattige land**.
+
+## Hva er rettferdig fordeling?
+
+Ulike **prinsipper** gir ulike svar:
+
+- **Likhet**: Alle får like mye.
+- **Behov**: De som trenger mest, får mest – som i helsevesenet.
+- **Fortjeneste**: De som yter mest, får mest – som i lønn etter innsats.
+- **Like muligheter**: Alle skal ha samme **start**, men resultatet kan bli ulikt.
+
+## To klassiske teorier
+
+**John Rawls** (1971) ba oss tenke oss bak et **uvitenhetens slør**: Hvilke regler ville vi valgt hvis vi **ikke visste** om vi ble født rik eller fattig, frisk eller syk? Han mente vi da ville velge **like friheter** for alle og bare godta ulikhet som kommer **de dårligst stilte** til gode (**forskjellsprinsippet**).
+
+**Robert Nozick** (1974) mente at en fordeling er rettferdig hvis den har oppstått gjennom **frivillige**, **rettmessige** handlinger – arbeid, handel og gaver. Omfordeling gjennom skatt kan da være **urettferdig**, fordi det tar det folk har ervervet på lovlig vis.
+
+## Ulikhet på individ- og samfunnsnivå
+
+**Sosiale prosesser** – som sosialisering, diskriminering, arv og nettverk – former ulikhet:
+
+- På **individnivå** påvirker ulikhet **helse**, **levealder**, **utdanning** og **livssjanser**. Det finnes en tydelig **sosial helsegradient**: Jo høyere utdanning og inntekt, desto bedre helse i gjennomsnitt.
+- På **samfunnsnivå** kan stor ulikhet svekke **tillit**, **samhold** og **demokratisk deltakelse**. Forskerne **Richard Wilkinson** og **Kate Pickett** har hevdet at land med mindre ulikhet har færre sosiale problemer.
+
+## Bærekraftige samfunn
+
+Et **bærekraftig samfunn** tar vare på **miljø**, **sosiale forhold** og **økonomi** – nå og for framtidige generasjoner. Sosial bærekraft handler om **rettferdig fordeling**, **inkludering** og **tillit**.
+
+Klimapolitikk reiser **fordelingsspørsmål**: Avgifter på drivstoff kan ramme folk med lav inntekt og lang reisevei hardest. Tanken om en **rettferdig omstilling** er at byrdene ved å kutte utslipp må fordeles slik at ikke de svakeste betaler mest. Samtidig rammer klimaendringene ofte de **fattigste** landene og menneskene hardest, selv om de har bidratt minst til utslippene.
+
+## Drøfting
+
+Når du drøfter fordelingsspørsmål, bruk **ideologier** og **rettferdighetsprinsipper** til å vise **ulike syn**, og vurder **konsekvensene** for ulike grupper – nå og i framtiden.', '{"label":"Ideologi, rettferdighet og bærekraft","children":[{"label":"Ideologier","children":[{"label":"Liberalisme"},{"label":"Sosialisme"},{"label":"Konservatisme"},{"label":"Grønn ideologi"}]},{"label":"Fordelingsprinsipper","children":[{"label":"Likhet"},{"label":"Behov"},{"label":"Fortjeneste"},{"label":"Like muligheter"}]},{"label":"Teorier","children":[{"label":"Rawls"},{"label":"Nozick"}]},{"label":"Ulikhet","children":[{"label":"Individnivå: helse og livssjanser"},{"label":"Samfunnsnivå: tillit og samhold"}]},{"label":"Bærekraft","children":[{"label":"Sosial bærekraft"},{"label":"Rettferdig omstilling"},{"label":"Globale forskjeller"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Ideologi', 'Sammenhengende ideer om hvordan samfunnet er og bør være.', 0),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Liberalisme', 'Individets frihet, fritt marked og begrenset stat.', 1),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Sosialisme / sosialdemokrati', 'Likhet, fellesskap og omfordeling gjennom skatt og velferd.', 2),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Konservatisme', 'Tradisjon, stabilitet og gradvis endring.', 3),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Grønn ideologi', 'Naturens tålegrenser og framtidige generasjoner.', 4),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Behovsprinsippet', 'De som trenger mest, får mest.', 5),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Fortjenesteprinsippet', 'De som yter mest, får mest.', 6),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Like muligheter', 'Alle skal ha samme start, men resultatet kan bli ulikt.', 7),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Uvitenhetens slør', 'Tankeeksperiment der vi ikke vet vår egen posisjon (Rawls).', 8),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Forskjellsprinsippet', 'Ulikhet godtas bare hvis den kommer de dårligst stilte til gode.', 9),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Robert Nozick', 'Rettferdig fordeling er resultat av frivillige, rettmessige handlinger.', 10),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Sosial helsegradient', 'Høyere utdanning og inntekt gir bedre helse i gjennomsnitt.', 11),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Wilkinson og Pickett', 'Hevdet at land med mindre ulikhet har færre sosiale problemer.', 12),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Sosial bærekraft', 'Rettferdig fordeling, inkludering og tillit.', 13),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'Rettferdig omstilling', 'Byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q01', 'flervalg', 'Hvilken ideologi legger mest vekt på individets frihet og et fritt marked?', array['Sosialisme', 'Liberalisme', 'Konservatisme', 'Grønn ideologi']::text[], 1, 'Med begrenset stat.', true, true, 0),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q02', 'flervalg', 'Hva er uvitenhetens slør hos Rawls?', array['Et tankeeksperiment der vi ikke vet vår egen posisjon i samfunnet', 'En type skatt', 'En religiøs skikk', 'En lov']::text[], 0, 'Vi velger regler uten å vite om vi blir rik eller fattig.', true, true, 1),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q03', 'flervalg', 'Hva sier forskjellsprinsippet?', array['Alle skal ha nøyaktig like mye', 'Ulikhet er alltid bra', 'Ulikhet godtas bare hvis den kommer de dårligst stilte til gode', 'Staten skal ikke fordele']::text[], 2, 'Rawls'' prinsipp.', true, true, 2),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q04', 'flervalg', 'Hvorfor kan Nozick mene at omfordeling gjennom skatt er urettferdig?', array['Fordi skatt er for lav', 'Fordi alle er like', 'Fordi staten er for liten', 'Fordi det tar det folk har ervervet på rettmessig vis']::text[], 3, 'Fokus på frivillige, rettmessige handlinger.', true, true, 3),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q05', 'flervalg', 'Hva er behovsprinsippet?', array['De som trenger mest, får mest', 'Alle får likt', 'De som yter mest, får mest', 'De eldste får mest']::text[], 0, 'Som i helsevesenet.', true, true, 4),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q06', 'flervalg', 'Hva er den sosiale helsegradienten?', array['At alle har lik helse', 'At høyere utdanning og inntekt gir bedre helse i gjennomsnitt', 'At rike blir syke oftere', 'At helse ikke har med samfunnet å gjøre']::text[], 1, 'Ulikhet påvirker helse.', true, true, 5),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q07', 'flervalg', 'Hva legger konservatismen vekt på?', array['Revolusjon', 'Et helt fritt marked uten tradisjoner', 'Tradisjon, stabilitet og gradvis endring', 'Avskaffelse av familien']::text[], 2, 'Institusjoner som familie og lokalsamfunn.', true, true, 6),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q08', 'flervalg', 'Hva betyr rettferdig omstilling i klimapolitikken?', array['At klimatiltak droppes', 'At rike land slipper å gjøre noe', 'At alle betaler likt uansett inntekt', 'At byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest']::text[], 3, 'Kobling mellom klima og fordeling.', true, true, 7),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q09', 'flervalg', 'Hvilken ideologi legger vekt på naturens tålegrenser og framtidige generasjoner?', array['Grønn ideologi', 'Liberalisme', 'Konservatisme', 'Sosialisme alene']::text[], 0, 'Også kalt økologisme.', true, false, 8),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'q10', 'flervalg', 'Hva hevdet Wilkinson og Pickett?', array['At ulikhet ikke har betydning', 'At land med mindre ulikhet har færre sosiale problemer', 'At rike land alltid er lykkeligst', 'At skatt bør avskaffes']::text[], 1, 'Ulikhet påvirker hele samfunnet.', true, false, 9),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm01', 'sant-usant', 'Klimaendringer rammer ofte de fattigste hardest.', array['Sant', 'Usant']::text[], 0, 'Selv om de har bidratt minst til utslippene.', false, true, 10),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm02', 'sant-usant', 'Alle ideologier er enige om hva rettferdig fordeling er.', array['Sant', 'Usant']::text[], 1, 'Ideologiene gir ulike svar.', false, true, 11),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm03', 'sant-usant', 'Avgifter på drivstoff kan ramme folk med lav inntekt og lang reisevei hardt.', array['Sant', 'Usant']::text[], 0, 'Et fordelingsspørsmål i klimapolitikken.', false, true, 12),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm04', 'sant-usant', 'Liberalismen mener staten bør ha kontroll over hele økonomien.', array['Sant', 'Usant']::text[], 1, 'Liberalismen vil ha begrenset stat og fritt marked.', false, true, 13),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm05', 'flervalg', 'Hvilket prinsipp brukes når lønn fastsettes etter innsats?', array['Behovsprinsippet', 'Fortjenesteprinsippet', 'Likhetsprinsippet', 'Forskjellsprinsippet']::text[], 1, 'De som yter mest, får mest.', false, true, 14),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm06', 'flervalg', 'Når utga John Rawls sin rettferdighetsteori?', array['1971', '1848', '1917', '2001']::text[], 0, '«A Theory of Justice».', false, true, 15),
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 'm07', 'flervalg', 'Hva hører til sosial bærekraft?', array['Bare lave utslipp', 'Bare økonomisk vekst', 'Rettferdig fordeling, inkludering og tillit', 'Bare teknologisk utvikling']::text[], 2, 'En av tre bærekraftsdimensjoner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosiologi-og-sosialantropologi:ideologi-rettferdighet-og-barekraft', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'historie-og-filosofi-1' and slug not in ('filosofisk-samtale-og-argumentasjon', 'kilder-og-historisk-kunnskap', 'antikkens-demokrati-og-makt', 'makt-i-middelalder-og-enevelde', 'opplysningstid-og-revolusjoner', 'antikkens-filosofi', 'metafysikk-og-erkjennelsesteori', 'etikk', 'religion-filosofi-og-makt', 'fortellinger-og-historiesyn', 'teknologi-vitenskap-og-samfunn', 'natur-og-virkelighetsoppfatninger');
+
+-- Historie og filosofi 1: Filosofisk samtale og argumentasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'historie-og-filosofi-1', 'filosofisk-samtale-og-argumentasjon', 'Filosofisk samtale og argumentasjon', 'Hvordan du bruker filosofisk samtale til å utforske spørsmål, hvordan et argument er bygd opp av premisser og konklusjon, forskjellen på gyldige og holdbare argumenter, og vanlige argumentasjonsfeil.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', '## Filosofi begynner med undring
+
+Filosofi betyr **kjærlighet til visdom**. Filosofiske spørsmål er **grunnleggende** og kan ikke løses bare med målinger eller oppslag: Hva er rettferdighet? Har vi fri vilje? Kan vi vite noe sikkert?
+
+## Den filosofiske samtalen
+
+**Sokrates** (ca. 470–399 f.Kr.) gikk rundt i Athen og stilte spørsmål til folk som mente de visste noe. Gjennom **spørsmål og svar** viste han at mange oppfatninger var uklare eller selvmotsigende. Metoden kalles den **sokratiske samtalen**.
+
+I en filosofisk samtale i klassen
+
+- tar dere utgangspunkt i et **åpent spørsmål**
+- **lytter** til hverandre og bygger videre på det andre sier
+- **avklarer begreper**: Hva mener vi med «frihet»?
+- tester påstander med **eksempler** og **moteksempler**
+- ber om **begrunnelser**: Hvorfor mener du det?
+
+Målet er ikke å **vinne**, men å **tenke bedre sammen** – og det er lov å endre mening.
+
+## Hva er et argument?
+
+Et **argument** består av **premisser** – påstander som gir grunner – og en **konklusjon** som skal følge av dem.
+
+**Premiss 1**: Alle mennesker er dødelige.
+**Premiss 2**: Sokrates er et menneske.
+**Konklusjon**: Altså er Sokrates dødelig.
+
+## Gyldig og holdbart
+
+- Et argument er **gyldig** når konklusjonen **følger logisk** av premissene – hvis premissene er sanne, **må** konklusjonen være sann.
+- Et argument er **holdbart** når det er gyldig **og** premissene faktisk er **sanne**.
+
+Et argument kan være gyldig med usanne premisser: «Alle fisker kan fly. Laksen er en fisk. Altså kan laksen fly.» Logikken er riktig, men premiss 1 er usant.
+
+Og et argument kan ha sanne premisser og konklusjon, men likevel være **ugyldig**: «Alle katter er dyr. Pusi er et dyr. Altså er Pusi en katt.» Konklusjonen følger ikke – Pusi kunne vært en hund.
+
+## Deduksjon og induksjon
+
+- **Deduktive** argumenter går fra det **generelle** til det **spesielle** og kan gi **sikker** konklusjon.
+- **Induktive** argumenter går fra **enkelttilfeller** til en **generell** konklusjon: «Alle svaner jeg har sett, er hvite, altså er alle svaner hvite.» Konklusjonen er bare **sannsynlig** – og kan motbevises av én svart svane.
+
+## Argumentasjonsfeil
+
+- **Stråmann**: å angripe en **forvrengt** versjon av motpartens syn.
+- **Personangrep** (ad hominem): å angripe **personen** i stedet for argumentet.
+- **Falskt dilemma**: å late som det bare finnes **to** alternativer.
+- **Glidebane**: å påstå at ett steg **uunngåelig** fører til en katastrofe.
+- **Sirkelargument**: konklusjonen er allerede **forutsatt** i premissene.
+- **Irrelevant autoritet**: å vise til en kjent person som ikke har **fagkunnskap** om saken.
+- **Forhastet generalisering**: å trekke en bred slutning av **få** tilfeller.
+
+## Vurdere argumenter
+
+Spør: Er begrepene **klare**? Er premissene **sanne**? Følger konklusjonen **logisk**? Finnes det **motargumenter**? Å kunne vurdere argumenter er viktig både i filosofi, historie og i et **demokrati**, der vi hele tiden møter påstander som skal overbevise oss.', '{"label":"Filosofisk samtale og argumentasjon","children":[{"label":"Samtalen","children":[{"label":"Sokrates"},{"label":"Åpne spørsmål"},{"label":"Begreper og moteksempler"}]},{"label":"Argumentet","children":[{"label":"Premisser"},{"label":"Konklusjon"}]},{"label":"Vurdering","children":[{"label":"Gyldig"},{"label":"Holdbart"}]},{"label":"Slutningstyper","children":[{"label":"Deduksjon"},{"label":"Induksjon"}]},{"label":"Feil","children":[{"label":"Stråmann"},{"label":"Ad hominem"},{"label":"Falskt dilemma"},{"label":"Glidebane"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Filosofi', 'Kjærlighet til visdom – utforsking av grunnleggende spørsmål.', 0),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Sokratisk samtale', 'Spørsmål og svar som prøver ut oppfatninger.', 1),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Begrepsavklaring', 'Å gjøre klart hva et ord betyr i samtalen.', 2),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Moteksempel', 'Eksempel som viser at en påstand ikke alltid gjelder.', 3),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Premiss', 'Påstand som gir grunn for konklusjonen.', 4),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Konklusjon', 'Påstanden som skal følge av premissene.', 5),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Gyldig argument', 'Konklusjonen følger logisk av premissene.', 6),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Holdbart argument', 'Gyldig og med sanne premisser.', 7),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Deduksjon', 'Fra det generelle til det spesielle – kan gi sikker konklusjon.', 8),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Induksjon', 'Fra enkelttilfeller til generell, sannsynlig konklusjon.', 9),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Stråmann', 'Å angripe en forvrengt versjon av motpartens syn.', 10),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Ad hominem', 'Å angripe personen i stedet for argumentet.', 11),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Falskt dilemma', 'Å late som det bare finnes to alternativer.', 12),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Glidebane', 'Å påstå at ett steg uunngåelig fører til katastrofe.', 13),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'Sirkelargument', 'Konklusjonen er forutsatt i premissene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q01', 'flervalg', 'Når er et argument gyldig?', array['Når premissene er sanne', 'Når konklusjonen følger logisk av premissene', 'Når mange er enige', 'Når det er langt']::text[], 1, 'Gyldighet handler om logikken.', true, true, 0),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q02', 'flervalg', 'Når er et argument holdbart?', array['Når det er gyldig og premissene er sanne', 'Når det er gyldig', 'Når konklusjonen er sann', 'Når det bruker eksempler']::text[], 0, 'Begge kravene må oppfylles.', true, true, 1),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q03', 'flervalg', '«Alle katter er dyr. Pusi er et dyr. Altså er Pusi en katt.» Hva er feil?', array['Premissene er usanne', 'Det er et sirkelargument', 'Konklusjonen følger ikke logisk av premissene', 'Ingenting']::text[], 2, 'Pusi kunne vært et annet dyr.', true, true, 2),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q04', 'flervalg', 'Hva er en stråmann?', array['Å angripe personen', 'Å vise til en autoritet', 'Å trekke konklusjon av få tilfeller', 'Å angripe en forvrengt versjon av motpartens syn']::text[], 3, 'Da blir motsynet lettere å avvise.', true, true, 3),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q05', 'flervalg', 'Hva kjennetegner et induktivt argument?', array['Det går fra enkelttilfeller til en generell, sannsynlig konklusjon', 'Det gir alltid sikker konklusjon', 'Det går fra generelt til spesielt', 'Det har ingen premisser']::text[], 0, 'Kan motbevises av ett moteksempel.', true, true, 4),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q06', 'flervalg', 'Hva er målet med en filosofisk samtale?', array['Å vinne diskusjonen', 'Å tenke bedre sammen og undersøke oppfatninger', 'Å bli enige så raskt som mulig', 'Å pugge svar']::text[], 1, 'Det er lov å endre mening.', true, true, 5),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q07', 'flervalg', '«Du kan ikke mene noe om skatt, du er jo bare 17.» Hvilken feil er dette?', array['Glidebane', 'Falskt dilemma', 'Personangrep (ad hominem)', 'Sirkelargument']::text[], 2, 'Angriper personen, ikke argumentet.', true, true, 6),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q08', 'flervalg', 'Hvem er kjent for å stille spørsmål som avslørte uklare oppfatninger i Athen?', array['Aristoteles', 'Platon', 'Descartes', 'Sokrates']::text[], 3, 'Den sokratiske metoden.', true, true, 7),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q09', 'flervalg', '«Enten er du med oss, eller så er du mot oss.» Hvilken feil er dette?', array['Falskt dilemma', 'Stråmann', 'Induksjon', 'Holdbart argument']::text[], 0, 'Det finnes flere alternativer.', true, false, 8),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'q10', 'flervalg', 'Hva er et moteksempel?', array['Et eksempel som støtter påstanden', 'Et eksempel som viser at en påstand ikke alltid gjelder', 'En konklusjon', 'Et premiss']::text[], 1, 'Én svart svane motbeviser «alle svaner er hvite».', true, false, 9),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm01', 'sant-usant', 'Et argument kan være gyldig selv om premissene er usanne.', array['Sant', 'Usant']::text[], 0, 'Gyldighet handler bare om logikken.', false, true, 10),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm02', 'sant-usant', 'Induktive argumenter gir alltid sikre konklusjoner.', array['Sant', 'Usant']::text[], 1, 'De gir bare sannsynlige konklusjoner.', false, true, 11),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm03', 'sant-usant', 'I en filosofisk samtale er det lov å endre mening.', array['Sant', 'Usant']::text[], 0, 'Målet er å tenke bedre.', false, true, 12),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm04', 'sant-usant', 'Å vise til en kjent skuespiller i et spørsmål om medisin er et sterkt argument.', array['Sant', 'Usant']::text[], 1, 'Det er irrelevant autoritet.', false, true, 13),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm05', 'flervalg', '«Tillater vi mobil i friminuttene, vil snart ingen lære noe på skolen.» Hvilken feil er dette?', array['Stråmann', 'Glidebane', 'Sirkelargument', 'Personangrep']::text[], 1, 'Påstått uunngåelig kjede av konsekvenser.', false, true, 14),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm06', 'flervalg', 'Hva betyr ordet filosofi?', array['Kjærlighet til visdom', 'Læren om tall', 'Kunsten å tale', 'Studiet av stjerner']::text[], 0, 'Fra gresk.', false, true, 15),
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 'm07', 'flervalg', 'Hvilket spørsmål er typisk filosofisk?', array['Hvor høyt er Galdhøpiggen?', 'Hva koster en bussbillett?', 'Hva er rettferdighet?', 'Når går toget?']::text[], 2, 'Kan ikke løses bare med oppslag.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:filosofisk-samtale-og-argumentasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Kilder og hva vi kan vite om fortiden
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'historie-og-filosofi-1', 'kilder-og-historisk-kunnskap', 'Kilder og hva vi kan vite om fortiden', 'Ulike typer kilder og kildekritikk, hvordan historikere lager fortellinger av kilder, og hvordan tilgangen på kilder – hva som er bevart, og hvem som fikk skrive – påvirker og begrenser hva vi kan vite om fortiden.', array[2, 3]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', '## Historie bygger på kilder
+
+Fortiden er **borte** – vi kan ikke gå tilbake og se. Det vi kan vite, bygger på **kilder**: spor og fortellinger som er bevart. Historikeren bruker kildene til å lage en **fortelling** om fortiden, men fortellingen er alltid en **tolkning**.
+
+## Typer kilder
+
+- **Skriftlige kilder**: brev, lover, dagbøker, aviser, sagaer, protokoller.
+- **Materielle kilder**: gjenstander, bygninger, graver, verktøy – ofte funnet av **arkeologer**.
+- **Muntlige kilder**: intervjuer, sagn og muntlig tradisjon.
+- **Bilder**, **kart**, film og lydopptak.
+- **Naturvitenskapelige spor**: pollen, iskjerner, DNA og årringer forteller om klima, sykdom og slektskap.
+
+**Primærkilder** stammer fra den tiden de handler om. **Sekundærkilder** er senere framstillinger, som lærebøker og forskningslitteratur.
+
+## Levning og beretning
+
+Samme kilde kan brukes på to måter:
+
+- Som **beretning**: Hva **forteller** kilden om det som skjedde?
+- Som **levning**: Hva **avslører** kilden om tiden og personen som laget den – uten at det var meningen?
+
+Et propagandaplakat fra andre verdenskrig er en dårlig beretning om hvordan krigen gikk, men en god levning som viser hvordan myndighetene ville påvirke folk.
+
+## Kildekritikk
+
+- **Hvem** har laget kilden, og **hvorfor**? Har opphavspersonen en **tendens** – en interesse i å framstille noe på en bestemt måte?
+- **Når** og **hvor** ble den laget? Nærhet i tid og sted gir ofte større troverdighet.
+- Er det en **førstehånds** eller **annenhånds** kilde?
+- Stemmer den med **andre kilder**? Er de **uavhengige** av hverandre?
+
+## Hva er bevart?
+
+Tilgangen på kilder er **ujevn**, og det påvirker hva vi kan vite:
+
+- **Materialer**: Stein, metall og pergament varer lenge, mens tre, tekstil og papir ofte råtner eller brenner.
+- **Hvem som kunne skrive**: I lange perioder kunne bare en liten **elite** – ofte menn i kirken eller hos kongen – skrive. Vanlige folk, kvinner, barn og **slaver** har etterlatt få skriftlige spor.
+- **Hva som ble tatt vare på**: Arkiver har brent, blitt ødelagt i krig eller **bevisst destruert**. Seierherrene har ofte hatt størst mulighet til å fortelle historien.
+- **Avstand**: De norrøne **sagaene** ble skrevet ned 200–300 år etter hendelsene de forteller om. Snorre Sturlason skrev kongesagaene rundt 1230.
+
+Dette kalles noen ganger **taushet i kildene**: At noe ikke nevnes, betyr ikke at det ikke fantes.
+
+## Nye metoder gir nye svar
+
+Arkeologi, **DNA-analyser** og **digitale** metoder har gitt ny kunnskap – for eksempel om vikingers reiser og slektskap, og om vanlige folks liv. Historikere stiller også **nye spørsmål** til gamle kilder, for eksempel om kjønn, miljø og minoriteter.
+
+## Fra kilder til fortelling
+
+Historikeren
+
+1. formulerer en **problemstilling**
+2. finner og **vurderer** kilder
+3. **tolker** og **setter sammen** opplysningene
+4. lager en **fortelling** som forklarer
+
+Ulike historikere kan lage **ulike fortellinger** av de samme kildene – derfor er historie et **drøftende** fag.', '{"label":"Kilder og historisk kunnskap","children":[{"label":"Kildetyper","children":[{"label":"Skriftlige"},{"label":"Materielle"},{"label":"Muntlige og bilder"},{"label":"Naturvitenskapelige"}]},{"label":"Bruk","children":[{"label":"Beretning"},{"label":"Levning"}]},{"label":"Kildekritikk","children":[{"label":"Hvem og hvorfor"},{"label":"Tid og sted"},{"label":"Uavhengige kilder"}]},{"label":"Tilgang","children":[{"label":"Materialer"},{"label":"Hvem kunne skrive"},{"label":"Taushet i kildene"}]},{"label":"Fortelling","children":[{"label":"Problemstilling"},{"label":"Tolkning"},{"label":"Nye spørsmål"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:kilder-og-historisk-kunnskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Kilde', 'Spor eller fortelling fra fortiden som gir kunnskap om den.', 0),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Primærkilde', 'Kilde fra den tiden den handler om.', 1),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Sekundærkilde', 'Senere framstilling, som en lærebok.', 2),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Materiell kilde', 'Gjenstand, bygning eller grav.', 3),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Muntlig kilde', 'Intervju, sagn eller muntlig tradisjon.', 4),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Beretning', 'Kilden brukt for hva den forteller om hendelser.', 5),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Levning', 'Kilden brukt for hva den avslører om tiden og opphavspersonen.', 6),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Tendens', 'Interesse i å framstille noe på en bestemt måte.', 7),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Førstehåndskilde', 'Laget av noen som selv opplevde hendelsen.', 8),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Uavhengige kilder', 'Kilder som ikke bygger på hverandre.', 9),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Taushet i kildene', 'At noe ikke nevnes, betyr ikke at det ikke fantes.', 10),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Sagaene', 'Norrøne fortellinger skrevet ned 200–300 år etter hendelsene.', 11),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Snorre Sturlason', 'Skrev kongesagaene rundt 1230.', 12),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Naturvitenskapelige spor', 'Pollen, iskjerner, DNA og årringer.', 13),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'Historisk fortelling', 'Historikerens tolkning bygd på kilder.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:kilder-og-historisk-kunnskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q01', 'flervalg', 'Hva er forskjellen på primær- og sekundærkilder?', array['Primærkilder er alltid sanne', 'Primærkilder stammer fra tiden de handler om, sekundærkilder er senere framstillinger', 'Sekundærkilder er eldre', 'Det er ingen forskjell']::text[], 1, 'Lærebøker er sekundærkilder.', true, true, 0),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q02', 'flervalg', 'Hva betyr det å bruke en kilde som levning?', array['Å se hva kilden avslører om tiden og opphavspersonen', 'Å se hva kilden forteller om hendelsene', 'Å kaste kilden', 'Å kopiere kilden']::text[], 0, 'For eksempel en propagandaplakat.', true, true, 1),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q03', 'flervalg', 'Hvorfor vet vi lite om vanlige folks liv i middelalderen fra skriftlige kilder?', array['De levde ikke interessante liv', 'Alt er bevart', 'Bare en liten elite kunne skrive', 'Kildene er hemmelige']::text[], 2, 'Tilgangen på kilder er ujevn.', true, true, 2),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q04', 'flervalg', 'Hva er tendens i en kilde?', array['At kilden er gammel', 'At kilden er lang', 'At kilden er på et annet språk', 'At opphavspersonen har interesse i å framstille noe på en bestemt måte']::text[], 3, 'Påvirker troverdigheten.', true, true, 3),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q05', 'flervalg', 'Hvor lang tid etter hendelsene ble sagaene skrevet ned?', array['200–300 år', 'Samme år', '10 år', '1000 år']::text[], 0, 'Det gjør dem usikre som beretninger.', true, true, 4),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q06', 'flervalg', 'Hva menes med taushet i kildene?', array['At kildene er skrevet i stillhet', 'At noe ikke nevnes, uten at det betyr at det ikke fantes', 'At kildene er ulovlige', 'At alle kilder er like']::text[], 1, 'Fravær av kilder er ikke bevis.', true, true, 5),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q07', 'flervalg', 'Hvilket materiale har størst sjanse til å bli bevart i tusenvis av år?', array['Tekstil', 'Papir', 'Stein', 'Tre']::text[], 2, 'Organiske materialer råtner lettere.', true, true, 6),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q08', 'flervalg', 'Hvorfor kan ulike historikere lage ulike fortellinger av de samme kildene?', array['Fordi kildene endrer seg', 'Fordi noen historikere lyver', 'Fordi fortiden forandrer seg', 'Fordi fortellingen er en tolkning, og de stiller ulike spørsmål']::text[], 3, 'Historie er et drøftende fag.', true, true, 7),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q09', 'flervalg', 'Hvilken ny metode har gitt kunnskap om vikingers slektskap og reiser?', array['DNA-analyser', 'Horoskoper', 'Meningsmålinger', 'Telefonintervjuer']::text[], 0, 'Naturvitenskapelige metoder.', true, false, 8),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'q10', 'flervalg', 'Hvorfor er det viktig at kilder er uavhengige av hverandre?', array['Fordi da er de lengre', 'Fordi to uavhengige kilder som stemmer overens, styrker troverdigheten', 'Fordi avhengige kilder er ulovlige', 'Det er ikke viktig']::text[], 1, 'Kilder som bygger på hverandre, gir ingen ekstra bekreftelse.', true, false, 9),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm01', 'sant-usant', 'Seierherrene har ofte hatt størst mulighet til å fortelle historien.', array['Sant', 'Usant']::text[], 0, 'Derfor er perspektivet viktig å vurdere.', false, true, 10),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm02', 'sant-usant', 'En kilde med tendens er ubrukelig.', array['Sant', 'Usant']::text[], 1, 'Den kan være en god levning.', false, true, 11),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm03', 'sant-usant', 'Pollen og iskjerner kan gi kunnskap om klimaet i fortiden.', array['Sant', 'Usant']::text[], 0, 'Naturvitenskapelige spor.', false, true, 12),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm04', 'sant-usant', 'En lærebok i historie er en primærkilde til vikingtiden.', array['Sant', 'Usant']::text[], 1, 'Den er en sekundærkilde.', false, true, 13),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm05', 'flervalg', 'Hva er en materiell kilde?', array['Et brev', 'Et sverd funnet i en grav', 'Et intervju', 'En dagbok']::text[], 1, 'En gjenstand.', false, true, 14),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm06', 'flervalg', 'Når skrev Snorre Sturlason kongesagaene?', array['Rundt 1230', 'Rundt 800', 'Rundt 1500', 'Rundt 1814']::text[], 0, 'Lenge etter vikingtiden.', false, true, 15),
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 'm07', 'flervalg', 'Hva er det første steget når historikeren skal lage en fortelling?', array['Å skrive konklusjonen', 'Å velge bilder', 'Å formulere en problemstilling', 'Å trykke boka']::text[], 2, 'Problemstillingen styrer valg av kilder.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:kilder-og-historisk-kunnskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Makt, frihet og demokrati i antikken
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'historie-og-filosofi-1', 'antikkens-demokrati-og-makt', 'Makt, frihet og demokrati i antikken', 'Bystatene i Hellas, det athenske demokratiet og hvem som fikk delta, Platons og Aristoteles'' syn på styreformer, og den romerske republikken og keiserdømmet – med refleksjon over hva makt, frihet og demokrati betydde da og nå.', array[4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', '## Bystatene i Hellas
+
+I antikkens Hellas fantes det ikke én stat, men hundrevis av **bystater** (**poleis**). Hver bystat hadde sitt eget styre. **Sparta** var styrt av en militær elite, mens **Athen** utviklet **demokratiet**.
+
+## Det athenske demokratiet
+
+Etter reformene til **Kleisthenes** rundt **508/507 f.Kr.** fikk borgerne i Athen makt til å styre selv. Demokratiet var på sitt mest utviklede i tiden rundt **Perikles** på 400-tallet f.Kr.
+
+- **Folkeforsamlingen** (ekklesia) var åpen for alle borgere og vedtok lover og avgjorde krig og fred.
+- **Rådet** forberedte sakene. Mange embeter ble fordelt ved **loddtrekning**.
+- **Folkedomstoler** med hundrevis av borgere dømte i saker.
+- **Ostrakisme**: Borgerne kunne stemme for å sende en farlig politiker i eksil i ti år.
+
+Det var et **direkte demokrati** – borgerne bestemte selv, uten valgte representanter.
+
+## Hvem var med?
+
+Bare **frie, voksne menn** med athenske foreldre var **borgere**. **Kvinner**, **slaver** og **metøker** (innflyttere) hadde ingen politiske rettigheter. Derfor var det bare et **mindretall** av innbyggerne som kunne delta. Demokratiet hvilte også på **slavearbeid**, som ga borgerne tid til politikk.
+
+## Frihet i antikken
+
+For grekerne betydde **frihet** først og fremst å **delta** i styringen av bystaten og ikke være **slave** eller underlagt en tyrann. Det moderne synet – at individet har **rettigheter** staten ikke kan krenke – vokste fram mye senere.
+
+## Filosofenes kritikk
+
+- **Platon** var **kritisk** til demokratiet. Han hadde sett at folkeforsamlingen dømte hans lærer **Sokrates** til døden i **399 f.Kr.** Platon mente at staten burde styres av **filosofkonger** med innsikt i det gode.
+- **Aristoteles** sammenlignet styreformer: styre av **én** (monarki eller tyranni), av **få** (aristokrati eller oligarki) og av **mange** (politeia eller demokrati). Den gode formen styrer for **alles beste**, den dårlige for **egen vinning**. Han mente en **blanding** var mest stabil.
+
+## Roma – republikk og keiserdømme
+
+**Den romerske republikken** (fra ca. 509 f.Kr.) hadde
+
+- to **konsuler** som ble valgt for ett år
+- **senatet**, der adelen hadde stor makt
+- **folkeforsamlinger** og **folketribuner** som skulle beskytte vanlige folk
+
+Republikken hadde **maktfordeling** og **tidsbegrensning** for å hindre at én person fikk for mye makt. Men borgerkriger og mektige generaler undergravde den. I **27 f.Kr.** ble **Augustus** den første **keiseren**, og makten ble samlet hos én person – selv om republikkens institusjoner formelt fortsatte.
+
+**Romersk rett** og idéen om **borgerrett** fikk stor betydning senere. I **212 e.Kr.** fikk alle frie innbyggere i riket romersk borgerrett.
+
+## Kontinuitet og endring
+
+Mange av antikkens ideer lever videre: **demokrati**, **republikk**, **senat**, **borger** og **maktfordeling**. Men innholdet har endret seg: Moderne demokrati er **representativt**, bygger på **allmenn stemmerett** og **menneskerettigheter**. Spørsmålet om **hvem** som regnes som en del av folket, har vært et hovedtema i demokratiets historie.', '{"label":"Antikkens makt og demokrati","children":[{"label":"Hellas","children":[{"label":"Bystater"},{"label":"Sparta og Athen"}]},{"label":"Athens demokrati","children":[{"label":"Kleisthenes og Perikles"},{"label":"Folkeforsamling og loddtrekning"},{"label":"Hvem var med?"}]},{"label":"Filosofene","children":[{"label":"Platon: filosofkonger"},{"label":"Aristoteles: styreformer"}]},{"label":"Roma","children":[{"label":"Republikk"},{"label":"Keiserdømme"},{"label":"Romersk rett"}]},{"label":"Kontinuitet og endring","children":[{"label":"Frihet da og nå"},{"label":"Direkte og representativt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:antikkens-demokrati-og-makt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Bystat (polis)', 'Selvstendig by med eget styre i antikkens Hellas.', 0),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Kleisthenes', 'Innførte demokratiske reformer i Athen rundt 508/507 f.Kr.', 1),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Perikles', 'Ledende politiker i Athens demokrati på 400-tallet f.Kr.', 2),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Folkeforsamlingen (ekklesia)', 'Forsamling av alle borgere som vedtok lover.', 3),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Loddtrekning', 'Metode for å fordele embeter i Athen.', 4),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Ostrakisme', 'Avstemning om å sende en politiker i eksil i ti år.', 5),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Direkte demokrati', 'Borgerne bestemmer selv uten valgte representanter.', 6),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Borgere i Athen', 'Frie, voksne menn med athenske foreldre.', 7),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Metøker', 'Innflyttere uten politiske rettigheter i Athen.', 8),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Filosofkonge', 'Platons ideal om hersker med innsikt i det gode.', 9),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Aristoteles'' styreformer', 'Styre av én, få eller mange – gode og dårlige former.', 10),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Konsuler', 'To ledere i den romerske republikken, valgt for ett år.', 11),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Senatet', 'Rådsforsamling der adelen hadde stor makt i Roma.', 12),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Augustus', 'Første romerske keiser fra 27 f.Kr.', 13),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'Romersk rett', 'Rettssystem som fikk stor betydning i Europa.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:antikkens-demokrati-og-makt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q01', 'flervalg', 'Hvem kunne delta i det athenske demokratiet?', array['Alle innbyggere', 'Frie, voksne menn med athenske foreldre', 'Bare adelen', 'Kvinner og menn']::text[], 1, 'Kvinner, slaver og metøker var utelukket.', true, true, 0),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q02', 'flervalg', 'Hva var ostrakisme?', array['Avstemning om å sende en politiker i eksil i ti år', 'En type skatt', 'En olympisk øvelse', 'Et tempel']::text[], 0, 'Stemmene ble risset i potteskår.', true, true, 1),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q03', 'flervalg', 'Hvorfor var Platon kritisk til demokratiet?', array['Fordi det var for strengt', 'Fordi det var for lite', 'Blant annet fordi folkeforsamlingen dømte Sokrates til døden', 'Fordi det var romersk']::text[], 2, 'Han ville ha filosofkonger.', true, true, 2),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q04', 'flervalg', 'Hva skilte en god og en dårlig styreform ifølge Aristoteles?', array['Antall ledere', 'Hvor rik staten var', 'Om lederne var menn', 'Om styret var for alles beste eller for egen vinning']::text[], 3, 'Han mente en blanding var mest stabil.', true, true, 3),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q05', 'flervalg', 'Hvem ble den første romerske keiseren?', array['Augustus', 'Julius Cæsar', 'Nero', 'Konstantin']::text[], 0, 'I 27 f.Kr.', true, true, 4),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q06', 'flervalg', 'Hva var et direkte demokrati i Athen?', array['Valgte representanter bestemte', 'Borgerne bestemte selv uten representanter', 'Kongen bestemte', 'Presteskapet bestemte']::text[], 1, 'Folkeforsamlingen.', true, true, 5),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q07', 'flervalg', 'Hvordan skulle den romerske republikken hindre maktmisbruk?', array['Ved å ha én konge', 'Ved å avskaffe senatet', 'Ved to konsuler valgt for ett år og maktfordeling', 'Ved å forby valg']::text[], 2, 'Tidsbegrensning og deling av makt.', true, true, 6),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q08', 'flervalg', 'Hva betydde frihet først og fremst for grekerne?', array['Individuelle rettigheter mot staten', 'Ytringsfrihet på nett', 'Fri handel', 'Å delta i styringen og ikke være slave']::text[], 3, 'Det moderne rettighetsbegrepet kom senere.', true, true, 7),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q09', 'flervalg', 'Hvordan skiller moderne demokrati seg fra det athenske?', array['Det er representativt og bygger på allmenn stemmerett', 'Det er direkte', 'Det utelukker kvinner', 'Det bruker loddtrekning til alt']::text[], 0, 'Og på menneskerettigheter.', true, false, 8),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'q10', 'flervalg', 'Når fikk alle frie innbyggere i Romerriket borgerrett?', array['509 f.Kr.', '212 e.Kr.', '27 f.Kr.', '1215']::text[], 1, 'En viktig utvidelse av borgerretten.', true, false, 9),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm01', 'sant-usant', 'Demokratiet i Athen hvilte blant annet på slavearbeid.', array['Sant', 'Usant']::text[], 0, 'Slavene ga borgerne tid til politikk.', false, true, 10),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm02', 'sant-usant', 'Kvinner hadde stemmerett i Athens folkeforsamling.', array['Sant', 'Usant']::text[], 1, 'Bare frie, voksne menn med athenske foreldre.', false, true, 11),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm03', 'sant-usant', 'Ord som senat og republikk stammer fra Roma.', array['Sant', 'Usant']::text[], 0, 'Antikkens begreper lever videre.', false, true, 12),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm04', 'sant-usant', 'Aristoteles mente at styre av én alltid er dårlig.', array['Sant', 'Usant']::text[], 1, 'Monarki kunne være godt hvis det styrte for alles beste.', false, true, 13),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm05', 'flervalg', 'Hvordan ble mange embeter fordelt i Athen?', array['Ved arv', 'Ved loddtrekning', 'Ved kjøp', 'Av kongen']::text[], 1, 'For å gi alle borgere samme sjanse.', false, true, 14),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm06', 'flervalg', 'Hvilken bystat var styrt av en militær elite?', array['Sparta', 'Athen', 'Korint', 'Roma']::text[], 0, 'Kjent for sitt krigerske samfunn.', false, true, 15),
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 'm07', 'flervalg', 'Når ble Sokrates dømt til døden?', array['508 f.Kr.', '27 f.Kr.', '399 f.Kr.', '212 e.Kr.']::text[], 2, 'Av en folkedomstol i Athen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:antikkens-demokrati-og-makt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Makt og statsdanning fra middelalder til enevelde
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'historie-og-filosofi-1', 'makt-i-middelalder-og-enevelde', 'Makt og statsdanning fra middelalder til enevelde', 'Føydalsamfunnet, kirkens og kongens makt i middelalderen, statsdanningen i Norge, Magna Carta og idéen om begrenset makt, og hvordan eneveldet samlet makten hos kongen – med søkelys på kontinuitet og endring i maktstrukturer og frihetsbetingelser.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', '## Føydalsamfunnet
+
+Etter at Vest-Romerriket gikk i oppløsning på 400-tallet, var makten i Europa lenge **spredt**. I **føydalsamfunnet** ga kongen jord (**len**) til stormenn – **vasaller** – mot at de lovet **troskap** og militær hjelp. Vasallene ga igjen jord videre. Nederst sto **bøndene**, mange av dem **livegne** – bundet til jorda og underlagt godseieren.
+
+Samfunnet ble ofte beskrevet som tre **stender**: **de som ber** (geistligheten), **de som kjemper** (adelen) og **de som arbeider** (bøndene). Hver skulle holde seg på sin plass – en ordning som ble begrunnet med at den var **gudgitt**.
+
+## Kirken og kongen
+
+**Kirken** var middelalderens mektigste institusjon, med jord, skatteinntekter (**tienden**), skoler og egen rettsvesen. Mellom **paven** og **kongene** var det ofte strid om hvem som hadde høyest makt. I **investiturstriden** på 1000-tallet kjempet paven og den tysk-romerske keiseren om retten til å utnevne biskoper.
+
+## Statsdanning i Norge
+
+- Ifølge tradisjonen samlet **Harald Hårfagre** store deler av landet på slutten av **800-tallet**.
+- **Olav Haraldsson** (Olav den hellige) falt på **Stiklestad** i **1030** og ble helgen. Kristendommen styrket kongens makt – kongen styrte «av Guds nåde».
+- **Kongedømmet** ble etter hvert **arvelig**, og **Magnus Lagabøte** ga landet en felles **landslov** i **1274**.
+- Norge gikk inn i **Kalmarunionen** i 1397 og ble senere en del av **Danmark-Norge**. Med **reformasjonen** i 1536/1537 overtok kongen kirkens jord og makt.
+
+**Statsdanning** betyr at en sentral makt får kontroll over et **territorium** gjennom **skatt**, **lover**, **hær** og **embetsmenn**.
+
+## Magna Carta – begrenset makt
+
+I **1215** tvang engelske baroner kong Johan uten Land til å godta **Magna Carta**. Dokumentet slo fast at også **kongen** måtte følge loven, og at frie menn ikke kunne fengsles uten **lovlig dom**. Det gjaldt i praksis bare en liten elite, men ble senere et **symbol** på rettsstat og begrenset makt.
+
+## Eneveldet
+
+På 1600-tallet samlet mange konger makten hos seg selv i **eneveldet**:
+
+- I Frankrike styrte **Ludvig 14.** (1643–1715) fra slottet i **Versailles**. Utsagnet «**Staten, det er meg**» er tillagt ham.
+- I **Danmark-Norge** ble eneveldet innført i **1660**, og **Kongeloven** fra **1665** ga kongen all makt – lovgivende, utøvende og dømmende.
+
+Eneveldet ble begrunnet med at kongen hadde makten fra **Gud** (**kongens guddommelige rett**). Samtidig bygde eneveldige konger opp **effektive stater** med byråkrati, faste skatter og stående hærer.
+
+## Suverene stater
+
+**Den westfalske freden** i **1648**, som avsluttet trettiårskrigen, blir ofte regnet som starten på et system av **suverene stater**: Hver stat bestemmer selv innenfor sine grenser, og andre stater skal ikke blande seg inn.
+
+## Kontinuitet og endring
+
+- **Endring**: Makten gikk fra å være **spredt** blant stormenn og kirke til å bli **samlet** i staten.
+- **Kontinuitet**: Makt ble gjennom hele perioden begrunnet med **religion** og **tradisjon**, og de fleste hadde **liten frihet** til å påvirke styret.
+- **Frihetsbetingelser**: For bøndene betydde frihet først og fremst å være **fri fra livegenskap**. I Norge var mange bønder **selveiende** eller leilendinger uten livegenskap, noe som skilte Norge fra store deler av Europa.', '{"label":"Middelalder og enevelde","children":[{"label":"Føydalsamfunnet","children":[{"label":"Len og vasaller"},{"label":"Livegne bønder"},{"label":"Tre stender"}]},{"label":"Kirke og konge","children":[{"label":"Tienden"},{"label":"Investiturstriden"},{"label":"Av Guds nåde"}]},{"label":"Norge","children":[{"label":"Rikssamling"},{"label":"Stiklestad 1030"},{"label":"Landsloven 1274"}]},{"label":"Begrenset og samlet makt","children":[{"label":"Magna Carta 1215"},{"label":"Enevelde 1660"},{"label":"Westfalen 1648"}]},{"label":"Kontinuitet og endring","children":[{"label":"Spredt til samlet makt"},{"label":"Religiøs legitimering"},{"label":"Frihet fra livegenskap"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:makt-i-middelalder-og-enevelde';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Føydalisme', 'Jord (len) mot troskap og militær hjelp.', 0),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Vasall', 'Stormann som fikk len mot å love troskap.', 1),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Livegen', 'Bonde bundet til jorda og underlagt godseieren.', 2),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'De tre stendene', 'De som ber, de som kjemper og de som arbeider.', 3),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Tienden', 'Skatt til kirken, en tidel av avlingen.', 4),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Investiturstriden', 'Strid på 1000-tallet mellom pave og keiser om utnevnelse av biskoper.', 5),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Stiklestad 1030', 'Olav Haraldsson falt og ble helgen.', 6),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Magnus Lagabøtes landslov', 'Felles lov for Norge fra 1274.', 7),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Statsdanning', 'En sentral makt får kontroll over et territorium.', 8),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Magna Carta', 'Dokument fra 1215 om at også kongen måtte følge loven.', 9),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Enevelde', 'All makt samlet hos kongen.', 10),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Kongeloven', 'Ga kongen i Danmark-Norge all makt (1665).', 11),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Kongens guddommelige rett', 'Idéen om at kongen har makten fra Gud.', 12),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Den westfalske freden', '1648 – start på systemet med suverene stater.', 13),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'Reformasjonen i Danmark-Norge', '1536/1537 – kongen overtok kirkens jord og makt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:makt-i-middelalder-og-enevelde';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q01', 'flervalg', 'Hva var føydalisme?', array['Et demokratisk system', 'Et system der jord (len) ble gitt mot troskap og militær hjelp', 'Et handelssystem', 'En religion']::text[], 1, 'Kongen, vasaller og bønder.', true, true, 0),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q02', 'flervalg', 'Hva slo Magna Carta fast i 1215?', array['At også kongen måtte følge loven', 'At alle fikk stemmerett', 'At kirken skulle avskaffes', 'At Norge ble selvstendig']::text[], 0, 'Et symbol på rettsstat.', true, true, 1),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q03', 'flervalg', 'Når ble eneveldet innført i Danmark-Norge?', array['1536', '1814', '1660', '1274']::text[], 2, 'Kongeloven kom i 1665.', true, true, 2),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q04', 'flervalg', 'Hvordan ble eneveldet begrunnet?', array['Med folkets vilje', 'Med økonomisk vekst', 'Med valg', 'Med at kongen hadde makten fra Gud']::text[], 3, 'Kongens guddommelige rett.', true, true, 3),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q05', 'flervalg', 'Hva blir den westfalske freden i 1648 ofte regnet som starten på?', array['Et system av suverene stater', 'Demokratiet', 'Føydalismen', 'Kalmarunionen']::text[], 0, 'Stater bestemmer innenfor egne grenser.', true, true, 4),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q06', 'flervalg', 'Hva handlet investiturstriden om?', array['Skatt på korn', 'Retten til å utnevne biskoper', 'Grensen mellom Norge og Sverige', 'Handel med silke']::text[], 1, 'Strid mellom pave og keiser.', true, true, 5),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q07', 'flervalg', 'Hva skjedde på Stiklestad i 1030?', array['Norge fikk grunnlov', 'Kalmarunionen startet', 'Olav Haraldsson falt og ble senere helgen', 'Magna Carta ble undertegnet']::text[], 2, 'Styrket kristendommen og kongemakten.', true, true, 6),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q08', 'flervalg', 'Hva er statsdanning?', array['Å lage et flagg', 'Å bygge et slott', 'Å skrive en bok', 'At en sentral makt får kontroll over et territorium']::text[], 3, 'Gjennom skatt, lover, hær og embetsmenn.', true, true, 7),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q09', 'flervalg', 'Hvilken endring i maktstrukturene skjedde fra middelalder til enevelde?', array['Makten gikk fra å være spredt til å bli samlet i staten', 'Makten ble spredt på flere', 'Kirken fikk all makt', 'Bøndene fikk makten']::text[], 0, 'Byråkrati, skatter og stående hærer.', true, false, 8),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'q10', 'flervalg', 'Hvilke tre stender beskrev middelaldersamfunnet?', array['Konger, prester og kjøpmenn', 'De som ber, de som kjemper og de som arbeider', 'Adel, borgere og slaver', 'Bønder, fiskere og håndverkere']::text[], 1, 'Ordningen ble begrunnet som gudgitt.', true, false, 9),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm01', 'sant-usant', 'Kirken var en av middelalderens mektigste institusjoner.', array['Sant', 'Usant']::text[], 0, 'Med jord, skatteinntekter og egen rettsvesen.', false, true, 10),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm02', 'sant-usant', 'Magna Carta ga alle innbyggere i England like rettigheter.', array['Sant', 'Usant']::text[], 1, 'I praksis gjaldt den en liten elite.', false, true, 11),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm03', 'sant-usant', 'Med reformasjonen overtok kongen i Danmark-Norge kirkens jord og makt.', array['Sant', 'Usant']::text[], 0, 'I 1536/1537.', false, true, 12),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm04', 'sant-usant', 'Norge hadde like utbredt livegenskap som store deler av Europa.', array['Sant', 'Usant']::text[], 1, 'Mange norske bønder var selveiende eller frie leilendinger.', false, true, 13),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm05', 'flervalg', 'Hvilken fransk konge er kjent som et symbol på eneveldet?', array['Karl den store', 'Ludvig 14.', 'Napoleon', 'Frans 1.']::text[], 1, 'Styrte fra Versailles.', false, true, 14),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm06', 'flervalg', 'Hva ga Magnus Lagabøte Norge i 1274?', array['En felles landslov', 'En grunnlov', 'En ny religion', 'Et parlament']::text[], 0, 'Derav tilnavnet Lagabøte.', false, true, 15),
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 'm07', 'flervalg', 'Hvilken union gikk Norge inn i i 1397?', array['EU', 'Unionen med Sverige', 'Kalmarunionen', 'Hansaforbundet']::text[], 2, 'Med Danmark og Sverige.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:makt-i-middelalder-og-enevelde', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Opplysningstid, revolusjoner og demokrati
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'historie-og-filosofi-1', 'opplysningstid-og-revolusjoner', 'Opplysningstid, revolusjoner og demokrati', 'Samfunnskontraktfilosofene Hobbes, Locke, Montesquieu og Rousseau, opplysningstidens idealer, den amerikanske og den franske revolusjonen, Grunnloven av 1814 og veien mot allmenn stemmerett – og hva frihet og demokrati har betydd for ulike grupper.', array[4, 5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', '## Hvor kommer statens makt fra?
+
+På 1600- og 1700-tallet begynte filosofer å spørre om statens makt kunne begrunnes uten å vise til **Gud** eller **tradisjon**. Svaret ble idéen om en **samfunnskontrakt**: Mennesker går sammen og gir staten makt for å få **trygghet** og **rettigheter**.
+
+## Samfunnskontraktfilosofene
+
+- **Thomas Hobbes** (*Leviathan*, 1651): I **naturtilstanden** uten stat ville livet være en «krig av alle mot alle». For å få fred gir folk makten til en **sterk suveren**. Hobbes forsvarte altså en sterk statsmakt.
+- **John Locke** (1689): Mennesker har **naturlige rettigheter** til **liv**, **frihet** og **eiendom**. Staten skal **beskytte** disse. Bryter staten kontrakten, har folket **rett til opprør**.
+- **Montesquieu** (1748): Makten må deles i **lovgivende**, **utøvende** og **dømmende** makt, som kontrollerer hverandre – **maktfordeling**.
+- **Jean-Jacques Rousseau** (*Samfunnspakten*, 1762): Staten skal bygge på **allmennviljen** – folkets felles vilje. Han la grunnlaget for idéen om **folkesuverenitet**.
+
+## Opplysningstiden
+
+**Opplysningstiden** på 1700-tallet satte **fornuften** i sentrum. **Immanuel Kant** oppfordret: «Ha mot til å bruke din egen forstand!» Opplysningsfilosofene kritiserte **kirkens** og **adelens** privilegier, krevde **ytringsfrihet** og **religionsfrihet**, og mente at vitenskap og utdanning kunne gi **framskritt**.
+
+## Revolusjonene
+
+**Den amerikanske revolusjonen**: I **uavhengighetserklæringen** av **1776** het det at alle mennesker er skapt **like** og har rett til liv, frihet og jakten på lykke – tydelig inspirert av Locke. **Grunnloven** av 1787 bygde på **maktfordeling**. Samtidig fortsatte **slaveriet**, og urfolk ble fordrevet.
+
+**Den franske revolusjonen** (fra **1789**) avskaffet adelens privilegier og vedtok **erklæringen om menneskets og borgerens rettigheter**. Slagordet var **frihet, likhet, brorskap**. Revolusjonen endte i terror og senere i Napoleons styre, men ideene spredte seg over hele Europa.
+
+Andre krevde at rettighetene skulle gjelde **flere**: **Olympe de Gouges** skrev en erklæring om **kvinnens** rettigheter i 1791, og slavene på **Haiti** gjorde opprør og vant selvstendighet i 1804.
+
+## Grunnloven av 1814
+
+På **Eidsvoll** vedtok riksforsamlingen **17. mai 1814** Norges **grunnlov**. Den bygde på **folkesuverenitet**, **maktfordeling** og **individuelle rettigheter**, og var en av de mest radikale i Europa. Men stemmeretten gjaldt bare en del av **mennene** – embetsmenn, bønder med jord og borgere i byene.
+
+## Veien mot demokrati
+
+- **1884**: **Parlamentarismen** – regjeringen må ha Stortingets tillit.
+- **1898**: Allmenn stemmerett for **menn**.
+- **1913**: Allmenn stemmerett for **kvinner**.
+
+## Refleksjon: frihet for hvem?
+
+Opplysningstidens idealer var **universelle** i ordene, men **begrenset** i praksis. Kvinner, arbeidere, slaver, samer og kolonifolk ble i lang tid holdt utenfor. Demokratiets historie kan leses som en **kamp for å utvide** hvem som regnes som en del av folket. Samtidig er det en diskusjon om hvordan **flertallets makt** skal balanseres mot **mindretallets rettigheter** – et spørsmål både Locke og Montesquieu var opptatt av.', '{"label":"Opplysningstid og revolusjoner","children":[{"label":"Samfunnskontrakt","children":[{"label":"Hobbes"},{"label":"Locke"},{"label":"Rousseau"}]},{"label":"Maktfordeling","children":[{"label":"Montesquieu"},{"label":"Tre statsmakter"}]},{"label":"Opplysningstiden","children":[{"label":"Fornuft"},{"label":"Ytrings- og religionsfrihet"},{"label":"Framskritt"}]},{"label":"Revolusjoner","children":[{"label":"USA 1776"},{"label":"Frankrike 1789"},{"label":"Haiti 1804"}]},{"label":"Norge","children":[{"label":"Grunnloven 1814"},{"label":"Parlamentarisme 1884"},{"label":"Stemmerett 1898 og 1913"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:opplysningstid-og-revolusjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Samfunnskontrakt', 'Idéen om at folk gir staten makt mot trygghet og rettigheter.', 0),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Thomas Hobbes', 'Leviathan (1651): sterk suveren mot «krig av alle mot alle».', 1),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Naturtilstanden', 'Tenkt tilstand uten stat.', 2),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'John Locke', 'Naturlige rettigheter til liv, frihet og eiendom; rett til opprør.', 3),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Montesquieu', 'Maktfordeling mellom lovgivende, utøvende og dømmende makt.', 4),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Jean-Jacques Rousseau', 'Samfunnspakten (1762) og allmennviljen.', 5),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Folkesuverenitet', 'At makten ligger hos folket.', 6),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Opplysningstiden', '1700-tallets tro på fornuft, frihet og framskritt.', 7),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', '«Ha mot til å bruke din egen forstand»', 'Kants oppfordring om opplysning.', 8),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Uavhengighetserklæringen 1776', 'Alle mennesker er skapt like med rett til liv, frihet og lykke.', 9),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Den franske revolusjonen', 'Fra 1789 – frihet, likhet, brorskap.', 10),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Olympe de Gouges', 'Skrev erklæringen om kvinnens rettigheter i 1791.', 11),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Grunnloven 1814', 'Folkesuverenitet, maktfordeling og rettigheter.', 12),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Parlamentarismen', 'Fra 1884: regjeringen må ha Stortingets tillit.', 13),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'Allmenn stemmerett i Norge', 'Menn 1898, kvinner 1913.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:opplysningstid-og-revolusjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q01', 'flervalg', 'Hva mente Hobbes om livet i naturtilstanden?', array['At det var fredelig', 'At det var en «krig av alle mot alle»', 'At det var et paradis', 'At det var demokratisk']::text[], 1, 'Derfor trengtes en sterk suveren.', true, true, 0),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q02', 'flervalg', 'Hvilke naturlige rettigheter la Locke vekt på?', array['Liv, frihet og eiendom', 'Arbeid, bolig og helse', 'Stemmerett og ytringsfrihet', 'Religion og tradisjon']::text[], 0, 'Staten skal beskytte dem.', true, true, 1),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q03', 'flervalg', 'Hva handler Montesquieus maktfordelingslære om?', array['At kongen skal ha all makt', 'At folket skal stemme om alt', 'At makten deles i lovgivende, utøvende og dømmende makt', 'At kirken skal styre']::text[], 2, 'Maktene kontrollerer hverandre.', true, true, 2),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q04', 'flervalg', 'Når fikk kvinner allmenn stemmerett i Norge?', array['1814', '1884', '1898', '1913']::text[], 3, 'Menn fikk det i 1898.', true, true, 3),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q05', 'flervalg', 'Hva var slagordet under den franske revolusjonen?', array['Frihet, likhet, brorskap', 'Gud, konge, fedreland', 'Fred, brød, jord', 'Én for alle, alle for én']::text[], 0, 'Fra 1789.', true, true, 4),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q06', 'flervalg', 'Hva er folkesuverenitet?', array['At kongen er suveren', 'At makten ligger hos folket', 'At kirken har makten', 'At adelen styrer']::text[], 1, 'Rousseau la grunnlaget.', true, true, 5),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q07', 'flervalg', 'Hvorfor kan man si at opplysningstidens idealer var begrenset i praksis?', array['Fordi de gjaldt alle', 'Fordi ingen trodde på dem', 'Fordi kvinner, slaver og mange andre ble holdt utenfor', 'Fordi de bare gjaldt i Asia']::text[], 2, 'Universelle i ord, men ikke i praksis.', true, true, 6),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q08', 'flervalg', 'Hva innebar parlamentarismen fra 1884?', array['At kvinner fikk stemmerett', 'At kongen fikk all makt', 'At Stortinget ble oppløst', 'At regjeringen må ha Stortingets tillit']::text[], 3, 'En viktig demokratisk reform.', true, true, 7),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q09', 'flervalg', 'Hvem gjorde opprør og vant selvstendighet i 1804?', array['Slavene på Haiti', 'Bøndene i Norge', 'Adelen i Frankrike', 'Kolonistene i Canada']::text[], 0, 'Rettighetene ble krevd av flere.', true, false, 8),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'q10', 'flervalg', 'Hvem hadde stemmerett etter Grunnloven av 1814?', array['Alle voksne', 'En del av mennene – embetsmenn, bønder med jord og borgere', 'Bare adelen', 'Bare kvinner']::text[], 1, 'Allmenn stemmerett kom senere.', true, false, 9),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm01', 'sant-usant', 'Den amerikanske uavhengighetserklæringen var inspirert av Locke.', array['Sant', 'Usant']::text[], 0, 'Liv, frihet og jakten på lykke.', false, true, 10),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm02', 'sant-usant', 'Hobbes forsvarte en svak stat med lite makt.', array['Sant', 'Usant']::text[], 1, 'Han forsvarte en sterk suveren.', false, true, 11),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm03', 'sant-usant', 'Grunnloven av 1814 var en av de mest radikale i Europa.', array['Sant', 'Usant']::text[], 0, 'Den bygde på folkesuverenitet og maktfordeling.', false, true, 12),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm04', 'sant-usant', 'Slaveriet ble avskaffet i USA samtidig med uavhengighetserklæringen i 1776.', array['Sant', 'Usant']::text[], 1, 'Slaveriet fortsatte lenge etter.', false, true, 13),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm05', 'flervalg', 'Hvem mente at folket har rett til opprør hvis staten bryter kontrakten?', array['Hobbes', 'Locke', 'Ludvig 14.', 'Platon']::text[], 1, 'Staten skal beskytte rettighetene.', false, true, 14),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm06', 'flervalg', 'Hvilken filosof skrev Samfunnspakten?', array['Rousseau', 'Montesquieu', 'Kant', 'Hobbes']::text[], 0, 'I 1762.', false, true, 15),
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 'm07', 'flervalg', 'Hvilket spørsmål er sentralt i demokratiets historie?', array['Hvilken farge flagget skal ha', 'Hvor slottet skal ligge', 'Hvem som regnes som en del av folket', 'Hvor mange dager det er i året']::text[], 2, 'Kampen for å utvide rettighetene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:opplysningstid-og-revolusjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Antikkens filosofi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:antikkens-filosofi', 'historie-og-filosofi-1', 'antikkens-filosofi', 'Antikkens filosofi', 'Fra naturfilosofene som søkte urstoffet, via Sokrates, Platons ideverden og Aristoteles'' empiriske filosofi, til hellenistiske retninger som stoisisme og epikureisme – og hvordan de ser på virkelighet, kunnskap og det gode liv.', array[5]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:antikkens-filosofi', '## Fra myte til logos
+
+Rundt **600 f.Kr.** begynte tenkere i greske kolonibyer å forklare verden med **fornuft** (logos) i stedet for **myter** om guder. De kalles **naturfilosofer** eller **førsokratikere**.
+
+- **Thales** mente at alt består av **vann**.
+- **Herakleitos** mente at **alt flyter** – verden er i stadig endring, og man kan ikke gå ut i den samme elva to ganger.
+- **Parmenides** mente tvert imot at endring er en **illusjon**; det som virkelig **er**, kan ikke bli til eller forgå.
+- **Demokrit** mente at alt består av små, udelelige **atomer** som beveger seg i tomrom.
+
+De stilte **metafysiske** spørsmål: Hva er virkeligheten egentlig laget av?
+
+## Sokrates
+
+**Sokrates** (ca. 470–399 f.Kr.) skrev ingenting selv. Vi kjenner ham gjennom **Platons** dialoger. Han flyttet søkelyset fra naturen til **mennesket** og **etikken**: Hva er et godt liv? Han mente at den som **vet** hva som er godt, også vil **gjøre** det godt, og at «det uransakede livet er ikke verdt å leve». Han ble dømt til døden for å ha **forført ungdommen** og ikke æret byens guder.
+
+## Platon
+
+**Platon** (ca. 427–347 f.Kr.) grunnla **Akademiet** i Athen.
+
+- **Idélæren**: Bak sanseverdenen, som hele tiden forandrer seg, finnes en evig og uforanderlig **idéverden**. Alle hester vi ser, er ufullkomne kopier av **idéen** «hest». Den høyeste idéen er **det gode**.
+- **Hulelignelsen**: Mennesker er som fanger i en hule som bare ser **skygger** på veggen og tror de er virkeligheten. Filosofen er den som tar seg ut og ser **sola** – sannheten.
+- **Sjelen** har tre deler: **fornuft**, **vilje** (mot) og **begjær**. I et rettferdig menneske styrer fornuften.
+- I **Staten** skal **filosofkonger** styre.
+
+## Aristoteles
+
+**Aristoteles** (384–322 f.Kr.) var elev av Platon og lærer for **Aleksander den store**.
+
+- Han mente at **formen** finnes **i tingene** selv, ikke i en egen idéverden. Kunnskap får vi ved å **observere** – han var mer **empirisk** enn Platon.
+- Han grunnla **logikken** og studerte alt fra dyr og planter til politikk og diktning.
+- Alt har et **formål** (telos). Menneskets formål er **eudaimonia** – et godt, blomstrende liv.
+- **Dydsetikk**: Et godt liv krever **dyder**, som mot og måtehold. Dyden ligger ofte i den **gylne middelvei** mellom to ytterpunkter – mot ligger mellom feighet og dumdristighet.
+- Mennesket er et **politisk dyr** (zoon politikon) som trenger fellesskapet.
+
+## Hellenistisk filosofi
+
+Etter Aleksander den store ble filosofien mer opptatt av hvordan den **enkelte** kan leve et godt liv i en usikker verden.
+
+- **Stoisismen**: Skill mellom det du **kan** og det du **ikke kan** kontrollere. Møt skjebnen med **sinnsro**, og lev i tråd med **fornuften** og naturen.
+- **Epikureismen**: Lykke er **fravær av smerte** og **indre ro**. Det gode liv er enkelt, med vennskap og måtehold – ikke vilt fråtseri.
+- **Skeptisismen**: Vi kan ikke vite noe sikkert, og bør derfor **holde tilbake** dommer.
+
+## Betydning
+
+Antikkens filosofi la grunnlaget for vestlig tenkning om **virkelighet** (metafysikk), **kunnskap** (erkjennelsesteori), **etikk** og **politikk** – og brukes i dag, for eksempel når stoisismen er populær som livsfilosofi.', '{"label":"Antikkens filosofi","children":[{"label":"Naturfilosofer","children":[{"label":"Thales"},{"label":"Herakleitos og Parmenides"},{"label":"Demokrit"}]},{"label":"Sokrates","children":[{"label":"Etikk"},{"label":"Samtalen"}]},{"label":"Platon","children":[{"label":"Idélæren"},{"label":"Hulelignelsen"},{"label":"Sjelens tre deler"}]},{"label":"Aristoteles","children":[{"label":"Empiri og logikk"},{"label":"Eudaimonia"},{"label":"Den gylne middelvei"}]},{"label":"Hellenisme","children":[{"label":"Stoisisme"},{"label":"Epikureisme"},{"label":"Skeptisisme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:antikkens-filosofi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Logos', 'Fornuft – forklaringer uten myter.', 0),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Førsokratikere', 'Naturfilosofer som søkte verdens urstoff.', 1),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Thales', 'Mente at alt består av vann.', 2),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Herakleitos', '«Alt flyter» – verden er i stadig endring.', 3),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Parmenides', 'Mente at endring er en illusjon.', 4),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Demokrit', 'Alt består av udelelige atomer.', 5),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Sokrates', 'Satte etikken i sentrum; «det uransakede livet er ikke verdt å leve».', 6),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Idélæren', 'Bak sanseverdenen finnes en evig idéverden (Platon).', 7),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Hulelignelsen', 'Fanger som tror skyggene er virkeligheten.', 8),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Platons sjelelære', 'Fornuft, vilje og begjær – fornuften skal styre.', 9),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Aristoteles', 'Empirisk filosof, grunnla logikken og dydsetikken.', 10),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Eudaimonia', 'Et godt, blomstrende liv.', 11),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Den gylne middelvei', 'Dyden ligger mellom to ytterpunkter.', 12),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Stoisisme', 'Sinnsro og skille mellom det vi kan og ikke kan kontrollere.', 13),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'Epikureisme', 'Lykke er fravær av smerte og indre ro.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:antikkens-filosofi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q01', 'flervalg', 'Hva var naturfilosofene opptatt av?', array['Politikk', 'Hva verden egentlig er laget av', 'Kunst', 'Religion']::text[], 1, 'De søkte urstoffet.', true, true, 0),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q02', 'flervalg', 'Hvem sa at «alt flyter»?', array['Herakleitos', 'Parmenides', 'Thales', 'Platon']::text[], 0, 'Verden er i stadig endring.', true, true, 1),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q03', 'flervalg', 'Hva handler Platons hulelignelse om?', array['Om å bygge hus', 'Om krig', 'Om mennesker som tror skyggene er virkeligheten', 'Om dyrelivet']::text[], 2, 'Filosofen ser sola – sannheten.', true, true, 2),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q04', 'flervalg', 'Hva er den gylne middelvei hos Aristoteles?', array['En handelsvei', 'Et politisk parti', 'En type logikk', 'At dyden ligger mellom to ytterpunkter']::text[], 3, 'Mot ligger mellom feighet og dumdristighet.', true, true, 3),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q05', 'flervalg', 'Hvordan skilte Aristoteles seg fra Platon?', array['Han mente formen finnes i tingene, og la vekt på observasjon', 'Han trodde mer på idéverdenen', 'Han var ikke interessert i kunnskap', 'Han skrev ingenting']::text[], 0, 'Mer empirisk.', true, true, 4),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q06', 'flervalg', 'Hva la stoikerne vekt på?', array['Maksimal nytelse', 'Sinnsro og å skille mellom det vi kan og ikke kan kontrollere', 'Å samle rikdom', 'Å unngå all fornuft']::text[], 1, 'Populært som livsfilosofi i dag.', true, true, 5),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q07', 'flervalg', 'Hva mente Epikur med lykke?', array['Fest og overflod', 'Makt over andre', 'Fravær av smerte og indre ro', 'Å bli berømt']::text[], 2, 'Et enkelt liv med vennskap.', true, true, 6),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q08', 'flervalg', 'Hvorfor kjenner vi Sokrates'' tanker hovedsakelig gjennom andre?', array['Fordi han skrev på et hemmelig språk', 'Fordi bøkene hans brant', 'Fordi han var analfabet', 'Fordi han ikke skrev noe selv – vi kjenner ham gjennom Platons dialoger']::text[], 3, 'Et kildeproblem.', true, true, 7),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q09', 'flervalg', 'Hva mente Demokrit at alt består av?', array['Atomer', 'Vann', 'Ild', 'Tall']::text[], 0, 'Små, udelelige partikler i tomrom.', true, false, 8),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'q10', 'flervalg', 'Hva betyr det at mennesket er et politisk dyr ifølge Aristoteles?', array['At alle bør være politikere', 'At mennesket trenger fellesskapet', 'At mennesker er dyr uten fornuft', 'At politikk er farlig']::text[], 1, 'Zoon politikon.', true, false, 9),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm01', 'sant-usant', 'Aristoteles var lærer for Aleksander den store.', array['Sant', 'Usant']::text[], 0, 'Han var også elev av Platon.', false, true, 10),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm02', 'sant-usant', 'Platon mente at sanseverdenen er den eneste virkeligheten.', array['Sant', 'Usant']::text[], 1, 'Han mente idéverdenen er den egentlige virkeligheten.', false, true, 11),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm03', 'sant-usant', 'Parmenides mente at endring er en illusjon.', array['Sant', 'Usant']::text[], 0, 'Motsatt av Herakleitos.', false, true, 12),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm04', 'sant-usant', 'Epikureerne anbefalte vilt fråtseri.', array['Sant', 'Usant']::text[], 1, 'De anbefalte et enkelt liv med måtehold.', false, true, 13),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm05', 'flervalg', 'Hvem grunnla Akademiet i Athen?', array['Aristoteles', 'Platon', 'Sokrates', 'Epikur']::text[], 1, 'Rundt 387 f.Kr.', false, true, 14),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm06', 'flervalg', 'Hvilken del av sjelen skal styre ifølge Platon?', array['Fornuften', 'Begjæret', 'Viljen', 'Kroppen']::text[], 0, 'Da er mennesket rettferdig.', false, true, 15),
+  ('historie-og-filosofi-1:antikkens-filosofi', 'm07', 'flervalg', 'Hvilket spørsmål er metafysisk?', array['Hva er et godt liv?', 'Hvordan bør staten styres?', 'Hva er virkeligheten egentlig laget av?', 'Hvordan skriver man et dikt?']::text[], 2, 'Metafysikk handler om virkelighetens natur.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:antikkens-filosofi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Metafysikk og erkjennelsesteori
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'historie-og-filosofi-1', 'metafysikk-og-erkjennelsesteori', 'Metafysikk og erkjennelsesteori', 'Grunnspørsmål om hva som finnes og hva vi kan vite – dualisme og materialisme, fri vilje og determinisme, rasjonalisme og empirisme, Descartes, Hume og Kant – og hva kunnskap egentlig er.', array[5]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', '## To grunnleggende disipliner
+
+- **Metafysikk** spør hva som **finnes**, og hva virkeligheten **egentlig** er.
+- **Erkjennelsesteori** (epistemologi) spør hva vi kan **vite**, og hvordan vi kan **begrunne** kunnskap.
+
+## Metafysiske spørsmål
+
+**Kropp og sjel**
+
+- **Dualisme**: Mennesket består av to ulike ting – en fysisk **kropp** og en ikke-fysisk **sjel** eller bevissthet. **René Descartes** var en kjent dualist.
+- **Materialisme** (fysikalisme): Alt som finnes, er **materie**. Bevisstheten er et resultat av prosesser i hjernen.
+- Et vanskelig spørsmål er hvordan **opplevelser** – smaken av sjokolade, følelsen av smerte – kan oppstå av fysiske prosesser.
+
+**Fri vilje**
+
+- **Determinisme**: Alt som skjer, er bestemt av tidligere årsaker. Da er det vanskelig å se hvordan vi kan velge fritt.
+- **Libertarianisme** (i filosofisk betydning): Vi har en **ekte** fri vilje som ikke er fullt bestemt av årsaker.
+- **Kompatibilisme**: Fri vilje og determinisme kan **forenes** – vi er frie når vi handler ut fra egne ønsker, uten ytre tvang.
+
+Spørsmålet har betydning for **ansvar**: Kan vi straffe noen for handlinger de ikke kunne latt være å gjøre?
+
+## Hva er kunnskap?
+
+En klassisk definisjon sier at kunnskap er **sann**, **begrunnet** **oppfatning**. Det er ikke nok å tro noe som tilfeldigvis er sant – vi må ha **gode grunner**.
+
+## Rasjonalisme
+
+**Rasjonalistene** mente at **fornuften** er den sikreste kilden til kunnskap.
+
+**Descartes** (1596–1650) ville finne noe han kunne vite **helt sikkert**. Han **tvilte** på alt – sansene kan bedra oss, og kanskje drømmer vi. Men én ting kunne han ikke tvile på: at **han tvilte**, altså tenkte. «**Jeg tenker, altså er jeg**» (cogito ergo sum). Derfra ville han bygge opp sikker kunnskap med fornuften, slik som i **matematikken**.
+
+## Empirisme
+
+**Empiristene** mente at all kunnskap kommer fra **erfaring** og **sansene**.
+
+- **John Locke**: Ved fødselen er sinnet som et **ubeskrevet blad** (tabula rasa).
+- **David Hume** (1711–1776) var kritisk: Vi ser aldri selve **årsakssammenhengen**, bare at én ting følger etter en annen. At sola har stått opp hver dag, **beviser** ikke at den står opp i morgen. Dette kalles **induksjonsproblemet**.
+
+## Kants syntese
+
+**Immanuel Kant** (1724–1804) prøvde å forene de to retningene. Kunnskap krever **både** sanseerfaring og fornuftens **former**: «Tanker uten innhold er tomme, anskuelser uten begreper er blinde.» Vi opplever verden gjennom **tid**, **rom** og **årsak** – men dette er måter **sinnet** ordner erfaringen på. Vi kan kjenne **fenomenene** – tingene slik de viser seg for oss – men ikke **tingen i seg selv**.
+
+## Betydning i dag
+
+Erkjennelsesteorien er viktig for **vitenskapen**: Hvordan kan vi vite at en teori er sann? Den er også aktuell i møte med **falske nyheter** og **KI**: Hvordan kan vi vite hva vi skal tro? Metafysiske spørsmål om bevissthet dukker opp når vi spør om maskiner kan **tenke**.', '{"label":"Metafysikk og erkjennelsesteori","children":[{"label":"Metafysikk","children":[{"label":"Dualisme"},{"label":"Materialisme"},{"label":"Fri vilje og determinisme"}]},{"label":"Kunnskap","children":[{"label":"Sann, begrunnet oppfatning"}]},{"label":"Rasjonalisme","children":[{"label":"Descartes"},{"label":"Metodisk tvil"},{"label":"Cogito"}]},{"label":"Empirisme","children":[{"label":"Locke: tabula rasa"},{"label":"Hume: induksjonsproblemet"}]},{"label":"Kant","children":[{"label":"Syntese"},{"label":"Fenomen og ting i seg selv"},{"label":"Betydning i dag"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:metafysikk-og-erkjennelsesteori';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Metafysikk', 'Læren om hva som finnes og hva virkeligheten er.', 0),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Erkjennelsesteori', 'Læren om hva vi kan vite og hvordan kunnskap begrunnes.', 1),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Dualisme', 'Mennesket består av kropp og en ikke-fysisk sjel.', 2),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Materialisme', 'Alt som finnes, er materie.', 3),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Determinisme', 'Alt som skjer, er bestemt av tidligere årsaker.', 4),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Kompatibilisme', 'Fri vilje og determinisme kan forenes.', 5),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Kunnskap (klassisk)', 'Sann, begrunnet oppfatning.', 6),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Rasjonalisme', 'Fornuften er den sikreste kilden til kunnskap.', 7),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Empirisme', 'All kunnskap kommer fra erfaring.', 8),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', '«Jeg tenker, altså er jeg»', 'Descartes'' sikre utgangspunkt.', 9),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Metodisk tvil', 'Descartes tvilte på alt for å finne noe sikkert.', 10),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Tabula rasa', 'Sinnet som et ubeskrevet blad ved fødselen (Locke).', 11),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Induksjonsproblemet', 'Tidligere erfaring beviser ikke hva som skjer i framtiden (Hume).', 12),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Fenomen og tingen i seg selv', 'Vi kjenner bare verden slik den viser seg for oss (Kant).', 13),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'Kants syntese', 'Kunnskap krever både erfaring og fornuftens former.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:metafysikk-og-erkjennelsesteori';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q01', 'flervalg', 'Hva studerer erkjennelsesteorien?', array['Hva som er moralsk riktig', 'Hva vi kan vite og hvordan kunnskap begrunnes', 'Hvordan staten bør styres', 'Hvordan kunst skapes']::text[], 1, 'Også kalt epistemologi.', true, true, 0),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q02', 'flervalg', 'Hva mener dualister?', array['At mennesket består av kropp og en ikke-fysisk sjel', 'At alt er materie', 'At ingenting finnes', 'At bare fornuften finnes']::text[], 0, 'Descartes er et eksempel.', true, true, 1),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q03', 'flervalg', 'Hva sa Descartes han ikke kunne tvile på?', array['At sansene er pålitelige', 'At verden finnes', 'At han tenkte – «jeg tenker, altså er jeg»', 'At Gud ikke finnes']::text[], 2, 'Selve tvilen er tenkning.', true, true, 2),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q04', 'flervalg', 'Hva er induksjonsproblemet?', array['At vi ikke kan regne', 'At sansene alltid lyver', 'At fornuften er upålitelig', 'At tidligere erfaring ikke beviser hva som skjer i framtiden']::text[], 3, 'Formulert av Hume.', true, true, 3),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q05', 'flervalg', 'Hva mente empiristene om kunnskap?', array['At den kommer fra erfaring og sansene', 'At den er medfødt', 'At den kommer fra Gud', 'At den ikke finnes']::text[], 0, 'Locke og Hume.', true, true, 4),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q06', 'flervalg', 'Hva er kompatibilisme?', array['At vi ikke har fri vilje', 'At fri vilje og determinisme kan forenes', 'At alt er tilfeldig', 'At kropp og sjel er ett']::text[], 1, 'Vi er frie når vi handler uten ytre tvang.', true, true, 5),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q07', 'flervalg', 'Hva mente Kant vi ikke kan kjenne?', array['Fenomenene', 'Matematikk', 'Tingen i seg selv', 'Tid og rom']::text[], 2, 'Vi kjenner bare verden slik den viser seg for oss.', true, true, 6),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q08', 'flervalg', 'Hva er den klassiske definisjonen av kunnskap?', array['Alt vi tror', 'Det flertallet mener', 'Det som står i bøker', 'Sann, begrunnet oppfatning']::text[], 3, 'Vi trenger gode grunner.', true, true, 7),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q09', 'flervalg', 'Hvorfor har spørsmålet om fri vilje betydning for ansvar?', array['Fordi det er vanskelig å holde noen ansvarlig hvis de ikke kunne handlet annerledes', 'Fordi det ikke har noen betydning', 'Fordi alle er ansvarlige for alt', 'Fordi ansvar bare gjelder dyr']::text[], 0, 'Knyttet til straff og skyld.', true, false, 8),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'q10', 'flervalg', 'Hva betyr tabula rasa?', array['At sinnet har medfødte ideer', 'At sinnet er et ubeskrevet blad ved fødselen', 'At fornuften er sikrest', 'At alt er bestemt']::text[], 1, 'Lockes empirisme.', true, false, 9),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm01', 'sant-usant', 'Kant prøvde å forene rasjonalisme og empirisme.', array['Sant', 'Usant']::text[], 0, 'Kunnskap krever både erfaring og begreper.', false, true, 10),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm02', 'sant-usant', 'Hume mente vi kan se årsakssammenhenger direkte.', array['Sant', 'Usant']::text[], 1, 'Vi ser bare at én ting følger etter en annen.', false, true, 11),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm03', 'sant-usant', 'Spørsmålet om maskiner kan tenke, har metafysiske sider.', array['Sant', 'Usant']::text[], 0, 'Det handler om hva bevissthet er.', false, true, 12),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm04', 'sant-usant', 'Å tro noe som tilfeldigvis er sant, er alltid kunnskap.', array['Sant', 'Usant']::text[], 1, 'Kunnskap krever også begrunnelse.', false, true, 13),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm05', 'flervalg', 'Hvem var kjent som rasjonalist?', array['John Locke', 'René Descartes', 'David Hume', 'Aristoteles alene']::text[], 1, 'Han stolte mest på fornuften.', false, true, 14),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm06', 'flervalg', 'Hva mener determinister?', array['At alt som skjer, er bestemt av tidligere årsaker', 'At alt er tilfeldig', 'At vi har ubegrenset fri vilje', 'At sjelen er udødelig']::text[], 0, 'Utfordrer idéen om fri vilje.', false, true, 15),
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 'm07', 'flervalg', 'Hva er metafysikk?', array['Læren om moral', 'Læren om samfunnet', 'Læren om hva som finnes og hva virkeligheten er', 'Læren om språk']::text[], 2, 'En av filosofiens hoveddisipliner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:metafysikk-og-erkjennelsesteori', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Etiske teorier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:etikk', 'historie-og-filosofi-1', 'etikk', 'Etiske teorier', 'De store etiske teoriene – dydsetikk, pliktetikk, konsekvensetikk og kontraktsetikk – med Aristoteles, Kant, Bentham og Mill, og hvordan du bruker dem til å drøfte etiske dilemmaer.', array[5]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:etikk', '## Hva er etikk?
+
+**Moral** er de oppfatningene og normene folk faktisk har om rett og galt. **Etikk** er den **systematiske refleksjonen** over moralen: Hvordan **bør** vi handle, og hvorfor? Etiske teorier gir ulike svar på hva som gjør en handling **riktig**.
+
+## Dydsetikk
+
+**Aristoteles** mente at etikken handler om hva slags **menneske** vi bør være. Målet er **eudaimonia** – et godt og blomstrende liv. Det oppnår vi ved å utvikle gode **karaktertrekk**, **dyder**, som **mot**, **rettferdighet**, **måtehold** og **klokskap**.
+
+- Dyder læres gjennom **øvelse** og **vane** – vi blir modige ved å handle modig.
+- Dyden ligger ofte i **den gylne middelvei**: Gavmildhet ligger mellom gjerrighet og ødselhet.
+- **Praktisk klokskap** hjelper oss å se hva som er riktig i den konkrete situasjonen.
+
+**Styrke**: Tar hele mennesket og livet på alvor. **Svakhet**: Gir lite konkret svar på hva vi skal gjøre i et vanskelig dilemma.
+
+## Pliktetikk
+
+**Immanuel Kant** mente at noen handlinger er **riktige** eller **gale i seg selv**, uansett konsekvenser. Det avgjørende er **viljen** og **pliktene** våre.
+
+Det **kategoriske imperativ** har blant annet to formuleringer:
+
+1. **Universaliserbarhet**: Handle bare etter en regel du kan ville skal gjelde for **alle**. Å lyve når det passer deg, kan ikke bli en allmenn regel – da ville ingen stole på noe som ble sagt.
+2. **Menneskeverd**: Behandle aldri mennesker **bare** som et **middel**, men alltid også som et **mål i seg selv**.
+
+**Styrke**: Gir et sterkt vern om **menneskeverd** og **rettigheter**. **Svakhet**: Kan virke **rigid** – er det virkelig galt å lyve for å redde et liv?
+
+## Konsekvensetikk
+
+Etter **konsekvensetikken** er en handling riktig hvis den gir de **beste konsekvensene**. Den mest kjente formen er **utilitarismen**:
+
+- **Jeremy Bentham** (1748–1832): Vi skal fremme **størst mulig lykke for flest mulig**, og regne ut summen av glede og smerte. Han mente også at dyrs lidelse teller.
+- **John Stuart Mill** (1806–1873) skilte mellom **høyere** og **lavere** gleder – det er bedre å være et utilfreds menneske enn en tilfreds gris.
+
+**Styrke**: Tar hensyn til **alle** som berøres, og er praktisk i politikk. **Svakhet**: Kan rettferdiggjøre å ofre **enkeltmennesker** for flertallets skyld, og konsekvenser er vanskelige å forutsi.
+
+## Kontraktsetikk
+
+**Kontraktsetikken** ser moralen som regler rasjonelle mennesker ville **blitt enige om** for å leve godt sammen. **John Rawls** foreslo at vi velger rettferdige regler bak et **uvitenhetens slør**, uten å vite hvem vi selv blir.
+
+## Bruke teoriene – et dilemma
+
+**Dilemma**: En lege kan redde fem pasienter ved å bruke organene fra én frisk person.
+
+- **Konsekvensetikk**: Fem liv mot ett kan tale for inngrepet – men tilliten til helsevesenet ville bryte sammen, noe som også er en konsekvens.
+- **Pliktetikk**: Å drepe et uskyldig menneske er å bruke det **bare som middel** – det er galt.
+- **Dydsetikk**: En god lege er **omsorgsfull** og **rettferdig**, ikke en som ofrer pasienter.
+
+En god drøfting **presenterer dilemmaet**, bruker **flere teorier**, **vurderer** styrker og svakheter og kommer fram til en **begrunnet** konklusjon.', '{"label":"Etiske teorier","children":[{"label":"Begreper","children":[{"label":"Moral"},{"label":"Etikk"},{"label":"Dilemma"}]},{"label":"Dydsetikk","children":[{"label":"Aristoteles"},{"label":"Dyder og vane"},{"label":"Praktisk klokskap"}]},{"label":"Pliktetikk","children":[{"label":"Kant"},{"label":"Universaliserbarhet"},{"label":"Menneskeverd"}]},{"label":"Konsekvensetikk","children":[{"label":"Bentham"},{"label":"Mill"},{"label":"Lykke for flest"}]},{"label":"Kontraktsetikk","children":[{"label":"Rawls"},{"label":"Uvitenhetens slør"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:etikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:etikk', 'Moral', 'Oppfatninger og normer folk har om rett og galt.', 0),
+  ('historie-og-filosofi-1:etikk', 'Etikk', 'Systematisk refleksjon over moralen.', 1),
+  ('historie-og-filosofi-1:etikk', 'Dydsetikk', 'Etikk som handler om å utvikle gode karaktertrekk.', 2),
+  ('historie-og-filosofi-1:etikk', 'Dyd', 'Godt karaktertrekk, som mot og rettferdighet.', 3),
+  ('historie-og-filosofi-1:etikk', 'Praktisk klokskap', 'Evnen til å se hva som er riktig i den konkrete situasjonen.', 4),
+  ('historie-og-filosofi-1:etikk', 'Pliktetikk', 'Noen handlinger er riktige eller gale i seg selv.', 5),
+  ('historie-og-filosofi-1:etikk', 'Det kategoriske imperativ', 'Kants grunnprinsipp for moral.', 6),
+  ('historie-og-filosofi-1:etikk', 'Universaliserbarhet', 'Handle bare etter en regel som kan gjelde for alle.', 7),
+  ('historie-og-filosofi-1:etikk', 'Menneskeverdsformuleringen', 'Behandle aldri mennesker bare som middel, men også som mål.', 8),
+  ('historie-og-filosofi-1:etikk', 'Konsekvensetikk', 'Riktig handling gir de beste konsekvensene.', 9),
+  ('historie-og-filosofi-1:etikk', 'Utilitarisme', 'Størst mulig lykke for flest mulig.', 10),
+  ('historie-og-filosofi-1:etikk', 'Jeremy Bentham', 'Grunnla utilitarismen; mente også dyrs lidelse teller.', 11),
+  ('historie-og-filosofi-1:etikk', 'John Stuart Mill', 'Skilte mellom høyere og lavere gleder.', 12),
+  ('historie-og-filosofi-1:etikk', 'Kontraktsetikk', 'Moral som regler rasjonelle mennesker ville blitt enige om.', 13),
+  ('historie-og-filosofi-1:etikk', 'Etisk dilemma', 'Valg der verdier eller plikter står mot hverandre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:etikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:etikk', 'q01', 'flervalg', 'Hva skiller etikk fra moral?', array['Det er det samme', 'Etikk er systematisk refleksjon over moralen', 'Moral er bare lover', 'Etikk handler bare om religion']::text[], 1, 'Moral er normene vi har.', true, true, 0),
+  ('historie-og-filosofi-1:etikk', 'q02', 'flervalg', 'Hva sier menneskeverdsformuleringen av det kategoriske imperativ?', array['Behandle aldri mennesker bare som et middel, men også som et mål', 'Gjør det som gir mest lykke', 'Følg flertallet', 'Lyv når det lønner seg']::text[], 0, 'Kants pliktetikk.', true, true, 1),
+  ('historie-og-filosofi-1:etikk', 'q03', 'flervalg', 'Hva er utilitarismens grunnprinsipp?', array['Følg pliktene uansett', 'Vær en god person', 'Størst mulig lykke for flest mulig', 'Gjør som tradisjonen sier']::text[], 2, 'Bentham og Mill.', true, true, 2),
+  ('historie-og-filosofi-1:etikk', 'q04', 'flervalg', 'Hvordan blir vi dydige ifølge Aristoteles?', array['Ved å lese regler', 'Ved å regne ut konsekvenser', 'Ved å følge ordrer', 'Gjennom øvelse og vane']::text[], 3, 'Vi blir modige ved å handle modig.', true, true, 3),
+  ('historie-og-filosofi-1:etikk', 'q05', 'flervalg', 'Hva er en vanlig kritikk av utilitarismen?', array['Den kan rettferdiggjøre å ofre enkeltmennesker for flertallet', 'Den tar ikke hensyn til konsekvenser', 'Den handler bare om karakter', 'Den er for opptatt av plikter']::text[], 0, 'Individets rettigheter kan bli overkjørt.', true, true, 4),
+  ('historie-og-filosofi-1:etikk', 'q06', 'flervalg', 'Hvorfor kan man ikke ville at løgn skal bli en allmenn regel ifølge Kant?', array['Fordi løgn er ulovlig', 'Fordi da ville ingen stole på noe som ble sagt', 'Fordi løgn gir dårlige konsekvenser', 'Fordi Gud forbyr det']::text[], 1, 'Universaliserbarhet.', true, true, 5),
+  ('historie-og-filosofi-1:etikk', 'q07', 'flervalg', 'Hva mente Mill med høyere og lavere gleder?', array['At alle gleder er like', 'At fysiske gleder er best', 'At noen gleder, som kunnskap og kunst, er mer verdifulle enn andre', 'At glede er uviktig']::text[], 2, 'Bedre utilfreds menneske enn tilfreds gris.', true, true, 6),
+  ('historie-og-filosofi-1:etikk', 'q08', 'flervalg', 'Hva er en svakhet ved dydsetikken?', array['Den tar ikke hensyn til mennesket', 'Den er for opptatt av regler', 'Den er for opptatt av konsekvenser', 'Den gir lite konkret svar i vanskelige dilemmaer']::text[], 3, 'Den handler mer om karakter enn handlingsregler.', true, true, 7),
+  ('historie-og-filosofi-1:etikk', 'q09', 'flervalg', 'Hvordan vil en pliktetiker vurdere å drepe én frisk person for å redde fem?', array['Som galt, fordi personen blir brukt bare som middel', 'Som riktig, fordi fem er flere enn én', 'Som likegyldig', 'Som et spørsmål om lov']::text[], 0, 'Menneskeverd står sentralt.', true, false, 8),
+  ('historie-og-filosofi-1:etikk', 'q10', 'flervalg', 'Hva er kontraktsetikk?', array['Etikk for forretningsavtaler', 'Moral som regler rasjonelle mennesker ville blitt enige om', 'Etikk basert på religion', 'Etikk basert på følelser']::text[], 1, 'Rawls'' uvitenhetens slør er et eksempel.', true, false, 9),
+  ('historie-og-filosofi-1:etikk', 'm01', 'sant-usant', 'Bentham mente at dyrs lidelse også teller moralsk.', array['Sant', 'Usant']::text[], 0, 'Evnen til å lide er det avgjørende.', false, true, 10),
+  ('historie-og-filosofi-1:etikk', 'm02', 'sant-usant', 'Pliktetikken vurderer handlinger bare ut fra konsekvensene.', array['Sant', 'Usant']::text[], 1, 'Det gjør konsekvensetikken.', false, true, 11),
+  ('historie-og-filosofi-1:etikk', 'm03', 'sant-usant', 'En god etisk drøfting bruker gjerne flere teorier.', array['Sant', 'Usant']::text[], 0, 'Teoriene belyser ulike sider.', false, true, 12),
+  ('historie-og-filosofi-1:etikk', 'm04', 'sant-usant', 'Aristoteles mente at dyder er medfødte og ikke kan læres.', array['Sant', 'Usant']::text[], 1, 'Dyder læres gjennom øvelse og vane.', false, true, 13),
+  ('historie-og-filosofi-1:etikk', 'm05', 'flervalg', 'Hvilken dyd ligger mellom gjerrighet og ødselhet?', array['Mot', 'Gavmildhet', 'Måtehold', 'Klokskap']::text[], 1, 'Den gylne middelvei.', false, true, 14),
+  ('historie-og-filosofi-1:etikk', 'm06', 'flervalg', 'Hvem formulerte det kategoriske imperativ?', array['Immanuel Kant', 'John Stuart Mill', 'Aristoteles', 'Jeremy Bentham']::text[], 0, 'Pliktetikkens grunnprinsipp.', false, true, 15),
+  ('historie-og-filosofi-1:etikk', 'm07', 'flervalg', 'Hvilken teori spør først og fremst hva slags menneske vi bør være?', array['Konsekvensetikk', 'Pliktetikk', 'Dydsetikk', 'Kontraktsetikk']::text[], 2, 'Fokus på karakter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:etikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Religion, filosofi og makt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'historie-og-filosofi-1', 'religion-filosofi-og-makt', 'Religion, filosofi og makt', 'Hvordan religion og filosofi gjennom historien både har legitimert og utfordret makt og samfunnsstrukturer – fra gudekonger og kirkens makt til reformasjonen, opplysningstiden og moderne frigjøringsbevegelser – og hvordan de har formet synet på sannhet og virkelighet.', array[6]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', '## Religion som legitimering av makt
+
+Gjennom det meste av historien har herskere begrunnet makten sin med **religion**:
+
+- I det gamle **Egypt** ble **faraoen** sett på som en **gud** eller gudenes sønn.
+- I **Kina** hadde keiseren **himmelens mandat** – så lenge han styrte godt. Katastrofer kunne tolkes som tegn på at han hadde mistet det.
+- I middelalderens Europa styrte kongene «**av Guds nåde**», og **kirken** kronet dem. Samfunnets inndeling i **stender** ble framstilt som **gudgitt**.
+- Eneveldige konger på 1600-tallet viste til **kongens guddommelige rett**.
+
+Når makt framstår som **hellig**, blir det vanskelig å protestere. Religionen kunne dermed gjøre ulikhet og undertrykkelse **legitim** – for eksempel ble slaveriet forsvart med bibelsitater.
+
+## Religion som utfordring til makt
+
+Religion har også gitt grunnlag for **kritikk** av makt:
+
+- De gammeltestamentlige **profetene** kritiserte konger som undertrykte de fattige.
+- **Martin Luther** utfordret **pavens** makt med sine **95 teser** i **1517**. **Reformasjonen** splittet kirken og endret maktforholdene i Europa.
+- **Hans Nielsen Hauge** skapte en lekmannsbevegelse i Norge rundt 1800 som utfordret embetsmennenes makt – og han ble fengslet for det.
+- **Martin Luther King** bygde borgerrettskampen i USA på kristen tro på at alle mennesker er **like verdifulle**.
+- **Frigjøringsteologien** i Latin-Amerika tolket kristendommen som et krav om rettferdighet for de fattige.
+
+## Filosofi som utfordring
+
+- **Sokrates** stilte kritiske spørsmål til makthaverne og ble dømt til døden i **399 f.Kr.**
+- **Opplysningsfilosofene** kritiserte kirkens og adelens privilegier og krevde **religionsfrihet** og **ytringsfrihet**.
+- **Karl Marx** kalte religionen «**folkets opium**»: Den kunne dempe smerten, men også få folk til å godta urettferdighet i håp om et bedre liv etter døden.
+- **Feministiske** filosofer har kritisert både religiøse og filosofiske tradisjoner for å gjøre **kvinner** underordnet.
+
+## Filosofi som legitimering
+
+Filosofi har også **forsvart** makt: **Aristoteles** mente noen mennesker var «**slaver av natur**», og **Hobbes** forsvarte en sterk, nærmest ubegrenset statsmakt. Rasistiske teorier på 1800-tallet ble presentert som vitenskap og filosofi og brukt til å rettferdiggjøre **kolonialisme**.
+
+## Sannhet og virkelighet
+
+Religion og filosofi har formet synet på hva som er **sant**:
+
+- I middelalderen var **åpenbaringen** – Bibelen og kirkens lære – den høyeste autoriteten. **Thomas Aquinas** mente at tro og fornuft **ikke** kunne motsi hverandre.
+- Da **Galileo Galilei** forsvarte at jorda går rundt sola, ble han dømt av kirken i **1633**. Konflikten viste at også spørsmål om **naturen** handlet om **makt** – hvem hadde retten til å definere sannheten?
+- Etter hvert ble **fornuft** og **vitenskap** hovedkilden til kunnskap om naturen, mens religion i større grad handler om **mening**, **verdier** og **tro**.
+
+## Refleksjon
+
+Se ikke på religion eller filosofi som enten **bare** undertrykkende eller **bare** frigjørende. De samme tradisjonene har blitt brukt på **begge** måter. Spør: **Hvem** bruker ideene, **hvordan**, og **hvem** tjener på det?', '{"label":"Religion, filosofi og makt","children":[{"label":"Legitimering","children":[{"label":"Farao og keiser"},{"label":"Av Guds nåde"},{"label":"Forsvar av slaveri"}]},{"label":"Religiøs kritikk","children":[{"label":"Profetene"},{"label":"Luther og reformasjonen"},{"label":"Hauge og King"}]},{"label":"Filosofisk kritikk","children":[{"label":"Sokrates"},{"label":"Opplysningstiden"},{"label":"Marx og feminisme"}]},{"label":"Sannhet","children":[{"label":"Åpenbaring"},{"label":"Aquinas"},{"label":"Galilei"}]},{"label":"Refleksjon","children":[{"label":"Begge veier"},{"label":"Hvem tjener på det?"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:religion-filosofi-og-makt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Legitimering', 'Å begrunne makt slik at den oppleves som rettmessig.', 0),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Faraoen', 'Egyptisk hersker sett på som gud eller gudenes sønn.', 1),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Himmelens mandat', 'Kinesisk idé om at keiseren styrte med himmelens godkjenning.', 2),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Av Guds nåde', 'Middelalderkongers begrunnelse for makten.', 3),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Profetene', 'Kritiserte konger som undertrykte de fattige.', 4),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Martin Luther', 'Utfordret pavens makt med 95 teser i 1517.', 5),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Reformasjonen', 'Splittet kirken og endret maktforholdene i Europa.', 6),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Hans Nielsen Hauge', 'Lekpredikant som utfordret embetsmennenes makt rundt 1800.', 7),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Martin Luther King', 'Borgerrettsleder med grunnlag i kristen tro.', 8),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Frigjøringsteologi', 'Kristendom som krav om rettferdighet for de fattige.', 9),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', '«Folkets opium»', 'Marx'' betegnelse på religion.', 10),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Slaver av natur', 'Aristoteles'' forsvar av slaveri.', 11),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Thomas Aquinas', 'Mente at tro og fornuft ikke kan motsi hverandre.', 12),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Galilei 1633', 'Dømt av kirken for å forsvare at jorda går rundt sola.', 13),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'Åpenbaring', 'Kunnskap som skal komme fra Gud, som i hellige skrifter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:religion-filosofi-og-makt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q01', 'flervalg', 'Hva betyr det at makt blir legitimert?', array['At den blir ulovlig', 'At den blir begrunnet slik at den oppleves som rettmessig', 'At den blir svakere', 'At den forsvinner']::text[], 1, 'Religion har ofte gjort dette.', true, true, 0),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q02', 'flervalg', 'Hva gjorde Martin Luther i 1517?', array['Utfordret pavens makt med 95 teser', 'Ble pave', 'Grunnla opplysningstiden', 'Kronet en konge']::text[], 0, 'Starten på reformasjonen.', true, true, 1),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q03', 'flervalg', 'Hva mente Marx med at religion er «folkets opium»?', array['At religion er ulovlig', 'At religion er en medisin mot sykdom', 'At religion kan dempe smerten, men få folk til å godta urettferdighet', 'At alle bør bli religiøse']::text[], 2, 'En kritikk av religionens rolle.', true, true, 2),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q04', 'flervalg', 'Hvorfor ble Galileo Galilei dømt i 1633?', array['For tyveri', 'For å ha startet en krig', 'For å ha kritisert kongen', 'For å ha forsvart at jorda går rundt sola']::text[], 3, 'Hvem hadde retten til å definere sannheten?', true, true, 3),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q05', 'flervalg', 'Hvordan har religion vært brukt til å utfordre makt?', array['Gjennom profeter, Luther og borgerrettsbevegelsen', 'Aldri', 'Bare gjennom kriger', 'Bare av konger']::text[], 0, 'Religion kan både legitimere og utfordre.', true, true, 4),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q06', 'flervalg', 'Hva var himmelens mandat i Kina?', array['En skatt', 'Idéen om at keiseren styrte med himmelens godkjenning så lenge han styrte godt', 'En religion', 'En lov om handel']::text[], 1, 'Katastrofer kunne tolkes som tap av mandatet.', true, true, 5),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q07', 'flervalg', 'Hvordan har filosofi blitt brukt til å legitimere makt?', array['Den har aldri gjort det', 'Bare i Kina', 'Aristoteles forsvarte slaveri, og rasistiske teorier rettferdiggjorde kolonialisme', 'Bare gjennom kunst']::text[], 2, 'Filosofi kan også forsvare urett.', true, true, 6),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q08', 'flervalg', 'Hvem utfordret embetsmennenes makt i Norge rundt 1800 og ble fengslet?', array['Henrik Ibsen', 'Martin Luther King', 'Olav den hellige', 'Hans Nielsen Hauge']::text[], 3, 'En lekmannsbevegelse.', true, true, 7),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q09', 'flervalg', 'Hva mente Thomas Aquinas om tro og fornuft?', array['At de ikke kan motsi hverandre', 'At bare tro gir kunnskap', 'At bare fornuft gir kunnskap', 'At begge er meningsløse']::text[], 0, 'Middelalderens syntese.', true, false, 8),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'q10', 'flervalg', 'Hvilket spørsmål bør du stille når du vurderer hvordan religion eller filosofi brukes?', array['Hvor gammel er ideen?', 'Hvem bruker ideene, hvordan, og hvem tjener på det?', 'Hvor mange tror på den?', 'Hvilket språk er den skrevet på?']::text[], 1, 'De samme ideene kan brukes på ulike måter.', true, false, 9),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm01', 'sant-usant', 'De samme religiøse tradisjonene har blitt brukt både til å legitimere og til å utfordre makt.', array['Sant', 'Usant']::text[], 0, 'Det avhenger av hvem som bruker dem og hvordan.', false, true, 10),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm02', 'sant-usant', 'Filosofi har bare blitt brukt til å kritisere makt.', array['Sant', 'Usant']::text[], 1, 'Filosofi har også forsvart makt og ulikhet.', false, true, 11),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm03', 'sant-usant', 'Frigjøringsteologien oppsto i Latin-Amerika.', array['Sant', 'Usant']::text[], 0, 'Med vekt på rettferdighet for de fattige.', false, true, 12),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm04', 'sant-usant', 'I middelalderen var vitenskapen den høyeste autoriteten for sannhet.', array['Sant', 'Usant']::text[], 1, 'Åpenbaringen og kirkens lære var den høyeste autoriteten.', false, true, 13),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm05', 'flervalg', 'Hva bygde Martin Luther King borgerrettskampen på?', array['Marxisme', 'Kristen tro på at alle mennesker er like verdifulle', 'Kongens guddommelige rett', 'Himmelens mandat']::text[], 1, 'Religion som utfordring til urett.', false, true, 14),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm06', 'flervalg', 'Hvem ble dømt til døden i Athen i 399 f.Kr.?', array['Sokrates', 'Platon', 'Aristoteles', 'Perikles']::text[], 0, 'For sine kritiske spørsmål.', false, true, 15),
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 'm07', 'flervalg', 'Hva har religion i større grad handlet om etter den vitenskapelige revolusjonen?', array['Om hvordan planetene beveger seg', 'Om fysikkens lover', 'Om mening, verdier og tro', 'Om kjemiske reaksjoner']::text[], 2, 'Vitenskapen tok over forklaringen av naturen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:religion-filosofi-og-makt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Fortellinger og historiesyn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'historie-og-filosofi-1', 'fortellinger-og-historiesyn', 'Fortellinger og historiesyn', 'Hvordan fortellinger om fortiden skaper mening og identitet – for nasjoner, grupper og enkeltmennesker – og hvordan ulike historiesyn, fra syklisk og lineært til marxistisk, strukturelt og postkolonialt, preger forståelsen av fortid og nåtid.', array[7, 8]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', '## Fortellinger skaper mening
+
+Mennesker forstår seg selv gjennom **fortellinger**. En fortelling velger ut hendelser, setter dem i **rekkefølge** og gir dem **mening**: Hvor kommer vi fra? Hvem er vi? Hvor skal vi?
+
+- **Individer** forteller om sitt eget liv.
+- **Familier** har historier som går i arv.
+- **Nasjoner** og **grupper** har felles fortellinger som skaper **identitet** og **fellesskap**.
+
+## Nasjonale fortellinger
+
+På **1800-tallet** var **nasjonalromantikken** sterk i Europa. I Norge ble **vikingtiden** og **middelalderens storhetstid** framstilt som gullalder, og tiden under Danmark som en «**firehundreårig natt**». **Snorres kongesagaer**, **folkeeventyr**, **bunader** og **1814** ble viktige i fortellingen om en egen norsk nasjon.
+
+Slike fortellinger kan skape **samhold** og **stolthet**, men de kan også
+
+- **utelate** grupper – som samer, kvener og innvandrere
+- **forenkle** eller **forskjønne** fortiden
+- brukes **politisk** til å skape skiller mellom «oss» og «dem»
+
+Et eksempel er fortellingen om Norge under **andre verdenskrig** som et land av **motstandsfolk**. Senere forskning har gitt et mer sammensatt bilde, blant annet om **samarbeid** med okkupanten og om **deportasjonen av norske jøder** i 1942.
+
+## Minnekultur
+
+**Minnekultur** er måten et samfunn **husker** på – gjennom monumenter, museer, merkedager, lærebøker og filmer. Hva som blir husket, og hva som blir **glemt**, sier mye om **makt** og **verdier** i samtiden.
+
+## Historiesyn
+
+Et **historiesyn** er et grunnsyn på hva som **driver** historien, og om den har en **retning**.
+
+- **Syklisk historiesyn**: Historien går i **sirkler** – riker vokser fram, blomstrer og faller. Vanlig i antikken og i mange tradisjoner.
+- **Lineært historiesyn**: Historien har en **begynnelse** og en **retning** mot et mål. Det **kristne** historiesynet går fra skapelsen mot dommedag.
+- **Framskrittstro**: Historien går mot stadig **bedre** tilstander gjennom fornuft, vitenskap og frihet – typisk for **opplysningstiden**. Kritikere peker på at 1900-tallets verdenskriger og folkemord viste at framskritt ikke er garantert.
+- **Marxistisk historiesyn** (**historisk materialisme**): **Økonomi** og **produksjonsforhold** driver historien, og **klassekamp** fører til endring.
+- **Strukturelt historiesyn**: Den franske **Annales-skolen**, med **Fernand Braudel**, la vekt på **langsomme** endringer i geografi, klima, økonomi og mentalitet – «den lange varigheten» – mer enn på konger og kriger.
+- **Aktørorientert historiesyn**: Enkeltpersoner og deres valg former historien – «store menn» eller vanlige folk.
+- **Postkolonialt perspektiv**: Kritiserer at historien lenge ble fortalt fra **europeernes** ståsted, og løfter fram perspektivene til de **koloniserte**.
+- **Kjønnsperspektiv**: Spør hvor **kvinnene** er i historien, og hvordan kjønn har formet samfunnet.
+
+## Hvordan historiesyn preger tolkningen
+
+Den **industrielle revolusjonen** kan fortelles som en historie om **framskritt** og velstand, som **utbytting** av arbeidere, som en **strukturell** endring i energibruk – eller, fra de koloniserte landenes side, som en tid da deres ressurser ble utnyttet. Historiesynet avgjør hvilke **spørsmål** vi stiller og hvilke **kilder** vi bruker.
+
+## Refleksjon
+
+Ingen fortelling kan være **helt nøytral**. Men noen fortellinger er **bedre begrunnet** enn andre. God historie er **åpen** om perspektivet sitt, bygger på **kilder** og tar hensyn til **flere stemmer**.', '{"label":"Fortellinger og historiesyn","children":[{"label":"Fortellinger","children":[{"label":"Individ og familie"},{"label":"Nasjon og gruppe"},{"label":"Identitet"}]},{"label":"Nasjonale fortellinger","children":[{"label":"Nasjonalromantikk"},{"label":"Andre verdenskrig"},{"label":"Hvem utelates?"}]},{"label":"Minnekultur","children":[{"label":"Monumenter og museer"},{"label":"Glemsel og makt"}]},{"label":"Historiesyn","children":[{"label":"Syklisk og lineært"},{"label":"Framskrittstro"},{"label":"Marxistisk og strukturelt"},{"label":"Postkolonialt og kjønn"}]},{"label":"Refleksjon","children":[{"label":"Ingen nøytral fortelling"},{"label":"Flere stemmer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:fortellinger-og-historiesyn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Fortelling', 'Utvalgte hendelser satt i rekkefølge og gitt mening.', 0),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Nasjonalromantikk', '1800-tallets dyrking av nasjonens fortid, folkekultur og natur.', 1),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', '«Firehundreårsnatten»', 'Nasjonalromantisk betegnelse på tiden under Danmark.', 2),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Minnekultur', 'Måten et samfunn husker på, gjennom monumenter, museer og merkedager.', 3),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Deportasjonen av norske jøder', 'Skjedde i 1942 under okkupasjonen.', 4),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Historiesyn', 'Grunnsyn på hva som driver historien og om den har retning.', 5),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Syklisk historiesyn', 'Historien går i sirkler.', 6),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Lineært historiesyn', 'Historien har begynnelse og retning mot et mål.', 7),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Framskrittstro', 'Historien går mot stadig bedre tilstander.', 8),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Historisk materialisme', 'Økonomi og klassekamp driver historien (Marx).', 9),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Annales-skolen', 'Vekt på langsomme strukturer som geografi og mentalitet.', 10),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Fernand Braudel', 'Historiker kjent for «den lange varigheten».', 11),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Aktørorientert historiesyn', 'Enkeltpersoners valg former historien.', 12),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Postkolonialt perspektiv', 'Løfter fram de kolonisertes perspektiver.', 13),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'Kjønnsperspektiv i historie', 'Spør hvor kvinnene er, og hvordan kjønn har formet samfunnet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:fortellinger-og-historiesyn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q01', 'flervalg', 'Hva gjør en fortelling om fortiden?', array['Gjengir alt som skjedde', 'Velger ut hendelser, setter dem i rekkefølge og gir dem mening', 'Er alltid nøytral', 'Erstatter kildene']::text[], 1, 'Den er alltid et utvalg.', true, true, 0),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q02', 'flervalg', 'Hva kjennetegner et syklisk historiesyn?', array['Historien går i sirkler', 'Historien går mot et mål', 'Økonomi driver historien', 'Alt blir stadig bedre']::text[], 0, 'Riker vokser, blomstrer og faller.', true, true, 1),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q03', 'flervalg', 'Hva mener historisk materialisme driver historien?', array['Store menn', 'Guds plan', 'Økonomi og klassekamp', 'Klimaet alene']::text[], 2, 'Marx'' historiesyn.', true, true, 2),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q04', 'flervalg', 'Hva la Annales-skolen vekt på?', array['Konger og kriger', 'Enkeltpersoners valg', 'Guddommelige inngrep', 'Langsomme strukturer som geografi, klima og mentalitet']::text[], 3, '«Den lange varigheten».', true, true, 3),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q05', 'flervalg', 'Hva er en fare ved nasjonale fortellinger?', array['At de kan utelate grupper og forenkle fortiden', 'At de alltid er for kompliserte', 'At de ikke skaper identitet', 'At de bare handler om andre land']::text[], 0, 'For eksempel samer og minoriteter.', true, true, 4),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q06', 'flervalg', 'Hva er minnekultur?', array['Hukommelsestrening', 'Måten et samfunn husker på, gjennom monumenter, museer og merkedager', 'En type kilde', 'Et historiesyn']::text[], 1, 'Hva som huskes og glemmes, sier noe om makt.', true, true, 5),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q07', 'flervalg', 'Hva kritiserer det postkoloniale perspektivet?', array['At historien er for kort', 'At det finnes for mange kilder', 'At historien lenge ble fortalt fra europeernes ståsted', 'At det finnes kvinner i historien']::text[], 2, 'Det løfter fram de kolonisertes perspektiver.', true, true, 6),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q08', 'flervalg', 'Hvorfor ble framskrittstroen kritisert på 1900-tallet?', array['Fordi det ble for mange oppfinnelser', 'Fordi folk sluttet å lese', 'Fordi vitenskapen stoppet opp', 'Fordi verdenskriger og folkemord viste at framskritt ikke er garantert']::text[], 3, 'Opplysningstidens optimisme ble utfordret.', true, true, 7),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q09', 'flervalg', 'Hvordan har synet på Norge under andre verdenskrig endret seg?', array['Det har blitt mer sammensatt, blant annet om samarbeid og jødedeportasjonen', 'Det har ikke endret seg', 'Alle var motstandsfolk', 'Krigen blir ikke lenger studert']::text[], 0, 'Ny forskning ga nye perspektiver.', true, false, 8),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'q10', 'flervalg', 'Hva kjennetegner god historiefortelling?', array['At den er helt nøytral', 'At den er åpen om perspektivet, bygger på kilder og tar hensyn til flere stemmer', 'At den bare har én stemme', 'At den unngår kilder']::text[], 1, 'Noen fortellinger er bedre begrunnet enn andre.', true, false, 9),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm01', 'sant-usant', 'Det kristne historiesynet er lineært.', array['Sant', 'Usant']::text[], 0, 'Fra skapelsen mot dommedag.', false, true, 10),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm02', 'sant-usant', 'Nasjonalromantikken la vekt på tiden under Danmark som en gullalder.', array['Sant', 'Usant']::text[], 1, 'Vikingtiden og middelalderen ble framstilt som gullalder.', false, true, 11),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm03', 'sant-usant', 'Historiesynet påvirker hvilke spørsmål historikeren stiller.', array['Sant', 'Usant']::text[], 0, 'Og hvilke kilder som brukes.', false, true, 12),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm04', 'sant-usant', 'Alle fortellinger om fortiden er like godt begrunnet.', array['Sant', 'Usant']::text[], 1, 'Noen bygger bedre på kilder enn andre.', false, true, 13),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm05', 'flervalg', 'Hvilket historiesyn legger vekt på enkeltpersoners valg?', array['Strukturelt', 'Aktørorientert', 'Syklisk', 'Historisk materialisme']::text[], 1, 'Store menn eller vanlige folk.', false, true, 14),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm06', 'flervalg', 'Hva var typisk for opplysningstidens historiesyn?', array['Framskrittstro', 'Syklisk syn', 'Historisk materialisme', 'Postkolonialisme']::text[], 0, 'Fornuft og vitenskap skulle gi framskritt.', false, true, 15),
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 'm07', 'flervalg', 'Hvilket perspektiv spør hvor kvinnene er i historien?', array['Det marxistiske', 'Det sykliske', 'Kjønnsperspektivet', 'Det nasjonalromantiske']::text[], 2, 'Kjønn som analysekategori.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:fortellinger-og-historiesyn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Teknologi, vitenskap og samfunnsendring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'historie-og-filosofi-1', 'teknologi-vitenskap-og-samfunn', 'Teknologi, vitenskap og samfunnsendring', 'Sammenhenger mellom teknologiske, økonomiske og vitenskapelige endringer – fra jordbruksrevolusjonen, boktrykkerkunsten og den vitenskapelige revolusjonen til den industrielle og den digitale revolusjonen – og hva de betydde for samfunn, levekår og virkelighetsoppfatning.', array[9]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', '## Store omveltninger
+
+Noen endringer har forandret **hele** menneskets levemåte. De viser at teknologi, økonomi og vitenskap **henger sammen** – og at endringene får følger for **makt**, **levekår** og hvordan vi forstår **verden**.
+
+## Jordbruksrevolusjonen
+
+For rundt **10 000 år siden** begynte mennesker i **Midtøsten** – den fruktbare halvmåne – å dyrke korn og temme dyr. Senere skjedde det samme uavhengig flere andre steder.
+
+- Folk ble **bofaste**, og befolkningen **økte**.
+- **Overskudd** av mat gjorde det mulig for noen å bli **håndverkere**, **prester** og **herskere**.
+- De første **byene**, **statene** og **skriftspråkene** vokste fram.
+- Men også **ulikhet**, **eiendom**, **krig** om jord og nye **sykdommer** fra husdyr.
+
+## Boktrykkerkunsten
+
+**Johann Gutenberg** utviklet trykking med **løse typer** rundt **1450**. Bøker ble **billigere** og spredte seg raskt.
+
+- **Reformasjonen** spredte seg fort gjennom trykte skrifter, og Bibelen ble oversatt til folkespråk.
+- Kunnskap ble mindre avhengig av **kirken** og klostrene.
+- **Lese- og skriveferdighet** økte, og vitenskapelige ideer kunne deles og kontrolleres av mange.
+
+## Den vitenskapelige revolusjonen
+
+På **1500- og 1600-tallet** endret synet på naturen seg radikalt:
+
+- **Nikolaus Kopernikus** (1543) plasserte **sola**, ikke jorda, i sentrum.
+- **Galileo Galilei** brukte **kikkert** og **eksperimenter**.
+- **Isaac Newton** (1687) beskrev bevegelse og tyngdekraft med **matematiske lover**.
+
+Naturen ble sett som en **maskin** som følger lover mennesker kan **oppdage**. **Observasjon**, **eksperiment** og **matematikk** ble grunnlaget for kunnskap. Mennesket var ikke lenger sentrum i et gudskapt univers – en endring i **virkelighetsoppfatning** som også utfordret kirkens autoritet.
+
+## Den industrielle revolusjonen
+
+Fra slutten av **1700-tallet** i **Storbritannia**:
+
+- **Dampmaskinen** og **kull** ga ny energi. **Fabrikker** erstattet håndverk.
+- **Jernbane** og **dampskip** gjorde transporten raskere.
+- Millioner flyttet fra landet til **byene** (**urbanisering**).
+
+**Levekår**: På kort sikt ofte **elendige** forhold – lange arbeidsdager, barnearbeid og trangboddhet. På lang sikt økte **velstand**, **levealder** og **utdanning**. Nye **klasser** oppsto: industriarbeidere og borgerskap. Det ga grunnlag for **fagbevegelse**, **sosialisme** og **velferdsstat**. Samtidig startet de store **utslippene** av CO₂.
+
+## Den digitale revolusjonen
+
+Fra andre halvdel av **1900-tallet**: **datamaskiner**, **internett**, **mobiltelefoner** og nå **kunstig intelligens**.
+
+- Informasjon deles **øyeblikkelig** over hele verden.
+- Nye **næringer** og arbeidsformer vokser fram, andre forsvinner.
+- Nye spørsmål om **personvern**, **overvåking**, **makt** hos teknologiselskaper og hva som er **sant**.
+
+## Mønstre
+
+- Endringene er **drevet** av både teknologi, økonomiske interesser og nye ideer – det er ikke bare teknologien som bestemmer (**teknologideterminisme** er omstridt).
+- De gir **vinnere** og **tapere**.
+- De endrer **hvordan vi tenker** om oss selv og verden.', '{"label":"Teknologi, vitenskap og samfunn","children":[{"label":"Jordbruk","children":[{"label":"Bofasthet"},{"label":"Byer og stater"},{"label":"Ulikhet"}]},{"label":"Boktrykk","children":[{"label":"Gutenberg"},{"label":"Reformasjonen"}]},{"label":"Vitenskap","children":[{"label":"Kopernikus"},{"label":"Galilei"},{"label":"Newton"}]},{"label":"Industri","children":[{"label":"Damp og fabrikker"},{"label":"Urbanisering"},{"label":"Nye klasser"}]},{"label":"Digitalt","children":[{"label":"Internett og KI"},{"label":"Personvern og makt"},{"label":"Vinnere og tapere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:teknologi-vitenskap-og-samfunn';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Jordbruksrevolusjonen', 'Overgang til jordbruk og husdyrhold for rundt 10 000 år siden.', 0),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Den fruktbare halvmåne', 'Området i Midtøsten der jordbruket først oppsto.', 1),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Overskudd av mat', 'Gjorde spesialisering, byer og stater mulig.', 2),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Johann Gutenberg', 'Utviklet trykking med løse typer rundt 1450.', 3),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Boktrykkerkunstens betydning', 'Raskere spredning av kunnskap og reformasjonen.', 4),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Den vitenskapelige revolusjonen', '1500- og 1600-tallets nye syn på naturen.', 5),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Kopernikus', 'Satte sola i sentrum (1543).', 6),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Isaac Newton', 'Beskrev bevegelse og tyngdekraft med matematiske lover (1687).', 7),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Mekanisk verdensbilde', 'Naturen som en maskin som følger lover.', 8),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Den industrielle revolusjonen', 'Fra slutten av 1700-tallet i Storbritannia – damp, fabrikker og urbanisering.', 9),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Dampmaskinen', 'Ga ny energi til fabrikker og transport.', 10),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Urbanisering', 'Flytting fra land til by.', 11),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Den digitale revolusjonen', 'Datamaskiner, internett, mobil og KI.', 12),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Teknologideterminisme', 'Omstridt syn om at teknologien alene bestemmer samfunnsutviklingen.', 13),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'Vinnere og tapere', 'Store endringer rammer grupper ulikt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:teknologi-vitenskap-og-samfunn';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q01', 'flervalg', 'Hva gjorde jordbruksrevolusjonen mulig?', array['Internett', 'Bofasthet, matoverskudd, byer og stater', 'Dampmaskiner', 'Trykte bøker']::text[], 1, 'Overskudd ga rom for spesialisering.', true, true, 0),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q02', 'flervalg', 'Når utviklet Gutenberg trykking med løse typer?', array['Rundt 1450', 'Rundt 1000', 'Rundt 1800', 'Rundt 1650']::text[], 0, 'Bøker ble billigere.', true, true, 1),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q03', 'flervalg', 'Hvordan påvirket boktrykkerkunsten reformasjonen?', array['Den stoppet den', 'Den hadde ingen betydning', 'Trykte skrifter spredte ideene raskt', 'Den gjorde kirken sterkere']::text[], 2, 'Bibelen ble oversatt til folkespråk.', true, true, 2),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q04', 'flervalg', 'Hva var nytt i den vitenskapelige revolusjonen?', array['Troen på at jorda er sentrum', 'At kirken bestemte alt', 'At naturen var uforståelig', 'Observasjon, eksperiment og matematikk som grunnlag for kunnskap']::text[], 3, 'Naturen følger lover.', true, true, 3),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q05', 'flervalg', 'Hvor startet den industrielle revolusjonen?', array['I Storbritannia', 'I Norge', 'I Kina', 'I USA']::text[], 0, 'Fra slutten av 1700-tallet.', true, true, 4),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q06', 'flervalg', 'Hvilke levekår hadde mange arbeidere under den tidlige industrialiseringen?', array['Korte arbeidsdager og god lønn', 'Lange arbeidsdager, barnearbeid og trangboddhet', 'Fri helsehjelp', 'Store boliger']::text[], 1, 'På lang sikt økte velstanden.', true, true, 5),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q07', 'flervalg', 'Hvordan endret den vitenskapelige revolusjonen virkelighetsoppfatningen?', array['Mennesket ble sentrum i universet', 'Alt ble forklart med myter', 'Naturen ble sett som en maskin som følger lover', 'Vitenskapen ble forbudt']::text[], 2, 'Et mekanisk verdensbilde.', true, true, 6),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q08', 'flervalg', 'Hvorfor er teknologideterminisme omstridt?', array['Fordi teknologi ikke finnes', 'Fordi alt skyldes religion', 'Fordi teknologi ikke har betydning', 'Fordi også økonomiske interesser og ideer driver endringene']::text[], 3, 'Teknologien alene bestemmer ikke.', true, true, 7),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q09', 'flervalg', 'Hvilken negativ følge fikk jordbruksrevolusjonen?', array['Mer ulikhet, krig om jord og nye sykdommer', 'Mindre befolkning', 'Færre byer', 'Mindre mat']::text[], 0, 'Endringer gir vinnere og tapere.', true, false, 8),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'q10', 'flervalg', 'Hvilket spørsmål har den digitale revolusjonen reist?', array['Om dampkraft', 'Om personvern, overvåking og makt hos teknologiselskaper', 'Om livegenskap', 'Om kongens guddommelige rett']::text[], 1, 'Og om hva som er sant.', true, false, 9),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm01', 'sant-usant', 'Den industrielle revolusjonen ga grunnlag for fagbevegelse og sosialisme.', array['Sant', 'Usant']::text[], 0, 'Nye klasser og nye konflikter.', false, true, 10),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm02', 'sant-usant', 'Jordbruket oppsto bare ett sted i verden.', array['Sant', 'Usant']::text[], 1, 'Det oppsto uavhengig flere steder.', false, true, 11),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm03', 'sant-usant', 'De store utslippene av CO₂ startet med industrialiseringen.', array['Sant', 'Usant']::text[], 0, 'Kull og senere olje ga energi.', false, true, 12),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm04', 'sant-usant', 'Den vitenskapelige revolusjonen styrket kirkens autoritet over naturkunnskapen.', array['Sant', 'Usant']::text[], 1, 'Den utfordret kirkens autoritet.', false, true, 13),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm05', 'flervalg', 'Hvem beskrev tyngdekraften med matematiske lover i 1687?', array['Galilei', 'Isaac Newton', 'Kopernikus', 'Gutenberg']::text[], 1, 'Principia.', false, true, 14),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm06', 'flervalg', 'Hva er urbanisering?', array['Flytting fra land til by', 'Bygging av slott', 'Nedleggelse av byer', 'Innføring av jordbruk']::text[], 0, 'Typisk for industrialiseringen.', false, true, 15),
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 'm07', 'flervalg', 'Hvilken energikilde drev dampmaskinene?', array['Vind', 'Vann', 'Kull', 'Sol']::text[], 2, 'Kull ga ny, stor energi.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:teknologi-vitenskap-og-samfunn', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Historie og filosofi 1: Natur, miljø og virkelighetsoppfatninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'historie-og-filosofi-1', 'natur-og-virkelighetsoppfatninger', 'Natur, miljø og virkelighetsoppfatninger', 'Forholdet mellom miljø og ressursbruk i et historisk perspektiv, ulike syn på forholdet mellom mennesker, dyr og natur, og virkelighetsoppfatninger fra ulike tradisjoner og deler av verden – og hvordan mennesket og naturen har blitt verdsatt.', array[10, 11]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', '## Miljø og ressursbruk i historien
+
+Mennesker har alltid **påvirket** naturen – men i svært ulik grad.
+
+- **Jegere og sankere** var avhengige av naturens rytmer, men bidro trolig til at store dyr som mammuter døde ut.
+- **Jordbruket** førte til **avskoging**, erosjon og omforming av landskap. Allerede i antikken ble store skoger rundt Middelhavet hugget.
+- Klimaet har også påvirket samfunnene: Under **den lille istid** (om lag 1300–1850) ga kalde perioder dårlige avlinger og sult i Europa.
+- Med **industrialiseringen** økte bruken av **kull** og senere **olje** kraftig, sammen med forurensning og utslipp.
+- Etter **1950** har veksten i befolkning, produksjon, energibruk og utslipp vært så rask at forskere snakker om **den store akselerasjonen** – og om en ny epoke, **antropocen**.
+
+## Mennesket, dyrene og naturen
+
+**Antroposentrisme** setter **mennesket** i sentrum: Naturen og dyrene har verdi fordi de er **nyttige** for oss.
+
+- **Aristoteles** mente at planter er til for dyrene, og dyrene for mennesket.
+- **Descartes** så dyr som **maskiner** uten bevissthet.
+- I **1. Mosebok** får mennesket i oppdrag å legge jorda under seg. Mange kristne tolker dette i dag som et **forvalteransvar** – å ta vare på skaperverket.
+
+**Utvidede syn**:
+
+- **Jeremy Bentham** mente at spørsmålet ikke er om dyr kan **tenke**, men om de kan **lide**. **Peter Singer** bygde videre på dette i *Animal Liberation* (1975).
+- **Biosentrisme**: Alt **levende** har verdi i seg selv.
+- **Økosentrisme**: **Økosystemer** og arter som helhet har verdi. Den norske filosofen **Arne Næss** utviklet **dypøkologien**, som legger vekt på at alt liv har **egenverdi**.
+
+## Virkelighetsoppfatninger fra ulike tradisjoner
+
+- **Buddhismen**: Alt henger sammen og er i **forandring**. Idéen om **karma** og respekt for alt levende gir mange buddhister et ønske om å **ikke skade**.
+- **Hinduismen**: Det guddommelige kan finnes i hele naturen; mange hinduer ser **kua** som hellig, og **ahimsa** – ikke-vold – er et viktig ideal.
+- **Daoismen** i Kina: Mennesket bør leve i **harmoni** med **dao**, naturens vei, og ikke kjempe mot den.
+- **Konfucianismen** legger vekt på **harmoni** i familie og samfunn og riktige relasjoner mellom mennesker.
+- **Urfolks** tradisjoner, som den **samiske**, ser ofte mennesket som **en del av** naturen, med **gjensidige forpliktelser**. Naturen gir, og mennesket skal ta bare det det trenger.
+- **Abrahamittiske religioner** – jødedom, kristendom og islam – ser naturen som **skapt** av Gud, og mennesket som **forvalter** med ansvar.
+- Det **moderne vitenskapelige** verdensbildet ser naturen som styrt av **naturlover** og gjenstand for utforskning.
+
+## Verdsetting av mennesker
+
+Synet på **mennesket** har også variert. Mange tradisjoner har gitt noen grupper **høyere verdi** enn andre – etter kjønn, kaste, klasse eller hudfarge. Idéen om at **alle** mennesker har **lik verdi**, har røtter i blant annet religion og opplysningsfilosofi, og ble nedfelt i **FNs menneskerettighetserklæring** i 1948.
+
+## Refleksjon
+
+Hvilket syn på naturen vi har, påvirker **politikken**: Skal en vassdragsutbygging vurderes bare ut fra **nytte** for mennesker, eller har naturen **egenverdi**? Og hvem skal bære kostnadene ved **klimaendringene**? Ulike tradisjoner kan gi **ressurser** til å tenke nytt om forholdet mellom mennesker og natur.', '{"label":"Natur og virkelighetsoppfatninger","children":[{"label":"Ressursbruk i historien","children":[{"label":"Jordbruk og avskoging"},{"label":"Den lille istid"},{"label":"Industrialisering og akselerasjon"}]},{"label":"Menneskesentrert","children":[{"label":"Aristoteles"},{"label":"Descartes"},{"label":"Forvalteransvar"}]},{"label":"Utvidede syn","children":[{"label":"Bentham og Singer"},{"label":"Biosentrisme"},{"label":"Dypøkologi"}]},{"label":"Tradisjoner","children":[{"label":"Buddhisme og hinduisme"},{"label":"Daoisme og konfucianisme"},{"label":"Urfolk og abrahamittiske religioner"}]},{"label":"Verdsetting","children":[{"label":"Lik verdi for alle"},{"label":"Naturens egenverdi"},{"label":"Klima og politikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'historie-og-filosofi-1:natur-og-virkelighetsoppfatninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Den lille istid', 'Kalde perioder om lag 1300–1850 med dårlige avlinger.', 0),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Den store akselerasjonen', 'Rask vekst i befolkning, produksjon og utslipp etter 1950.', 1),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Antropocen', 'Foreslått epoke der mennesket er den viktigste kraften på jorda.', 2),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Antroposentrisme', 'Mennesket i sentrum; naturen har verdi fordi den er nyttig.', 3),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Descartes om dyr', 'Så dyr som maskiner uten bevissthet.', 4),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Forvalteransvar', 'Å ta vare på skaperverket.', 5),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Bentham om dyr', 'Det avgjørende er om dyr kan lide.', 6),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Peter Singer', 'Skrev Animal Liberation (1975).', 7),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Biosentrisme', 'Alt levende har verdi i seg selv.', 8),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Økosentrisme', 'Økosystemer og arter som helhet har verdi.', 9),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Dypøkologi', 'Arne Næss'' filosofi om at alt liv har egenverdi.', 10),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Ahimsa', 'Ikke-vold – viktig ideal i hinduisme og buddhisme.', 11),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Dao', 'Naturens vei i daoismen.', 12),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'Samisk naturforståelse', 'Mennesket som del av naturen med gjensidige forpliktelser.', 13),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'FNs menneskerettighetserklæring', 'Slo fast i 1948 at alle mennesker har lik verdi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'historie-og-filosofi-1:natur-og-virkelighetsoppfatninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q01', 'flervalg', 'Hva er antroposentrisme?', array['At alt levende har lik verdi', 'At mennesket står i sentrum og naturen har verdi fordi den er nyttig', 'At økosystemer har egenverdi', 'At dyr er hellige']::text[], 1, 'Et menneskesentrert syn.', true, true, 0),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q02', 'flervalg', 'Hvordan så Descartes på dyr?', array['Som maskiner uten bevissthet', 'Som hellige vesener', 'Som like mye verdt som mennesker', 'Som guder']::text[], 0, 'Et syn som er sterkt kritisert i dag.', true, true, 1),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q03', 'flervalg', 'Hva mente Bentham var det avgjørende spørsmålet om dyr?', array['Om de kan tenke', 'Om de kan snakke', 'Om de kan lide', 'Om de er nyttige']::text[], 2, 'Grunnlag for dyreetikk.', true, true, 2),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q04', 'flervalg', 'Hva er dypøkologi?', array['Havforskning', 'En type jordbruk', 'Et økonomisk system', 'Arne Næss'' filosofi om at alt liv har egenverdi']::text[], 3, 'Et økosentrisk syn.', true, true, 3),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q05', 'flervalg', 'Hva legger daoismen vekt på?', array['Å leve i harmoni med naturens vei', 'Å beherske naturen', 'Å samle rikdom', 'Å bygge store byer']::text[], 0, 'Dao er naturens vei.', true, true, 4),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q06', 'flervalg', 'Hva kjennetegner mange urfolks naturforståelse?', array['At naturen er fiende', 'At mennesket er en del av naturen med gjensidige forpliktelser', 'At naturen bare er ressurser', 'At dyr ikke har verdi']::text[], 1, 'For eksempel i samisk tradisjon.', true, true, 5),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q07', 'flervalg', 'Hva er den store akselerasjonen?', array['Industrialiseringen i Storbritannia', 'Jordbruksrevolusjonen', 'Rask vekst i befolkning, produksjon og utslipp etter 1950', 'Den lille istid']::text[], 2, 'Grunnlag for begrepet antropocen.', true, true, 6),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q08', 'flervalg', 'Hvordan tolker mange kristne i dag oppdraget om å legge jorda under seg?', array['Som rett til å ødelegge naturen', 'Som et krav om å bo i byer', 'Som et forbud mot jordbruk', 'Som et forvalteransvar for skaperverket']::text[], 3, 'Å ta vare på naturen.', true, true, 7),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q09', 'flervalg', 'Hva er ahimsa?', array['Ikke-vold', 'En hellig elv', 'En gud', 'En type meditasjon']::text[], 0, 'Viktig i hinduisme og buddhisme.', true, false, 8),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'q10', 'flervalg', 'Hvordan kan synet på naturen påvirke politikken?', array['Det har ingen betydning', 'Det avgjør om naturinngrep vurderes bare ut fra nytte eller også ut fra naturens egenverdi', 'Det bestemmer skattesatsen', 'Det avgjør valgdagen']::text[], 1, 'For eksempel ved vassdragsutbygging.', true, false, 9),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm01', 'sant-usant', 'Mennesker påvirket naturen også lenge før industrialiseringen.', array['Sant', 'Usant']::text[], 0, 'Blant annet gjennom jordbruk og avskoging.', false, true, 10),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm02', 'sant-usant', 'Økosentrisme mener at bare mennesker har verdi.', array['Sant', 'Usant']::text[], 1, 'Økosentrisme gir økosystemer og arter verdi.', false, true, 11),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm03', 'sant-usant', 'Den lille istid ga dårlige avlinger og sult i Europa.', array['Sant', 'Usant']::text[], 0, 'Kalde perioder om lag 1300–1850.', false, true, 12),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm04', 'sant-usant', 'Idéen om at alle mennesker har lik verdi, har alltid vært selvsagt i alle kulturer.', array['Sant', 'Usant']::text[], 1, 'Mange tradisjoner har rangert mennesker ulikt.', false, true, 13),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm05', 'flervalg', 'I hvilken tradisjon ser mange kua som hellig?', array['Daoismen', 'Hinduismen', 'Konfucianismen', 'Stoisismen']::text[], 1, 'Knyttet til ahimsa.', false, true, 14),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm06', 'flervalg', 'Hvem skrev Animal Liberation i 1975?', array['Peter Singer', 'Arne Næss', 'Jeremy Bentham', 'René Descartes']::text[], 0, 'Bygde videre på Bentham.', false, true, 15),
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 'm07', 'flervalg', 'Hva er biosentrisme?', array['At mennesket står i sentrum', 'At bare økosystemer har verdi', 'At alt levende har verdi i seg selv', 'At naturen er en maskin']::text[], 2, 'Hvert levende vesen har egenverdi.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('historie-og-filosofi-1:natur-og-virkelighetsoppfatninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'politikk-og-menneskerettigheter' and slug not in ('statsvitenskapelige-teorier-og-kilder', 'demokrati-og-styreformer', 'det-norske-politiske-systemet', 'makt-konfliktlinjer-og-kanaler', 'valg-og-velgeratferd', 'barekraft-og-fordeling', 'urfolk-og-minoriteter', 'menneskerettigheter-demokrati-og-velferd', 'folkeretten', 'handhevelse-av-menneskerettigheter', 'krig-fred-og-internasjonal-politikk', 'demokratiets-utfordringer');
+
+-- Politikk og menneskerettigheter: Statsvitenskapelige teorier, modeller og kilder
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'politikk-og-menneskerettigheter', 'statsvitenskapelige-teorier-og-kilder', 'Statsvitenskapelige teorier, modeller og kilder', 'Hva statsvitenskap er, hvordan du vurderer informasjon om politikk, og hvordan modeller som Eastons systemmodell, Rokkans konfliktlinjer og teoriene realisme og liberalisme hjelper deg å analysere politiske saker og konflikter.', array[1, 2, 4]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', '## Hva er statsvitenskap?
+
+**Statsvitenskap** studerer **politikk** – hvordan samfunn fordeler **makt** og **goder**, og hvordan beslutninger tas. Den klassiske definisjonen av politikk er at den handler om **hvem som får hva, når og hvordan**. Fagfeltet omfatter blant annet **norsk politikk**, **sammenlignende politikk** mellom land og **internasjonal politikk**.
+
+## Vurdere informasjon
+
+Politisk informasjon er ofte **farget** av interesser. Spør:
+
+- **Hvem** er avsenderen – et parti, en interesseorganisasjon, en tenketank, et forskningsmiljø eller en redaksjon?
+- Hva er **formålet** – å informere, overbevise eller selge?
+- Er påstandene **dokumentert** med kilder og tall? Er tallene **sammenlignbare**?
+- Skilles det mellom **fakta** og **meninger**?
+- Hva sier **andre** uavhengige kilder?
+
+Gode kilder er ofte **offentlige dokumenter** (stortingsmeldinger, lovtekster), **statistikk** (SSB), **forskning** og **redaktørstyrte medier**. Faktasjekktjenester som **Faktisk.no** kan hjelpe.
+
+## Eastons systemmodell
+
+Statsviteren **David Easton** beskrev det politiske systemet som en **maskin** som tar imot **input** og gir **output**:
+
+1. **Input**: **krav** (ønsker om politikk) og **støtte** (tillit og oppslutning) fra samfunnet – via velgere, partier, organisasjoner og medier.
+2. **Omforming**: Storting, regjering og forvaltning behandler kravene.
+3. **Output**: **beslutninger** – lover, budsjetter og tiltak.
+4. **Tilbakekobling**: Beslutningene påvirker samfunnet, som gir nye krav og ny støtte.
+
+Modellen hjelper oss å se **hvordan** en sak går fra et krav til en beslutning.
+
+## Rokkans konfliktlinjer
+
+**Stein Rokkan** forklarte det norske partisystemet ut fra historiske **konfliktlinjer**:
+
+- **Sentrum–periferi**: hovedstaden mot distriktene.
+- **By–land**: næringsinteresser i by og på land.
+- **Kulturell**: språk (nynorsk og bokmål), religion og avholdssak.
+- **Arbeid–kapital**: arbeidere mot arbeidsgivere – grunnlaget for **høyre–venstre-aksen**.
+
+Senere har nye konfliktlinjer kommet til, som **miljø–vekst** og **innvandring og verdier**.
+
+## Teorier om internasjonal politikk
+
+- **Realisme**: Statene er de viktigste aktørene, og det finnes ingen verdensregjering (**anarki**). Stater søker **makt** og **sikkerhet** ut fra **egeninteresse**. Fred sikres best ved **maktbalanse**.
+- **Liberalisme** (idealisme): Samarbeid, **handel**, **demokrati** og **internasjonale institusjoner** som FN kan skape fred. Stater kan tjene på å samarbeide.
+- **Konstruktivisme**: **Ideer**, **identiteter** og **normer** former hvordan stater oppfatter hverandre og sine interesser.
+
+## Analysere en sak
+
+Når du analyserer en **nasjonal** eller **internasjonal** sak eller konflikt, kan du spørre:
+
+1. **Hva** handler saken om, og hva er **bakgrunnen**?
+2. Hvilke **aktører** er involvert, og hvilke **interesser** og **verdier** har de?
+3. Hvilke **maktressurser** har de – stemmer, penger, militær makt, kunnskap, medieoppmerksomhet?
+4. På hvilke **arenaer** skjer det – Stortinget, domstolene, media, FN?
+5. Hvilke **teorier** kan forklare det som skjer?
+6. Hva er mulige **løsninger** og konsekvenser?', '{"label":"Statsvitenskap","children":[{"label":"Fagfeltet","children":[{"label":"Hvem får hva?"},{"label":"Norsk, sammenlignende, internasjonal"}]},{"label":"Kilder","children":[{"label":"Avsender og formål"},{"label":"Fakta og meninger"},{"label":"Faktasjekk"}]},{"label":"Modeller","children":[{"label":"Eastons systemmodell"},{"label":"Rokkans konfliktlinjer"}]},{"label":"Internasjonal teori","children":[{"label":"Realisme"},{"label":"Liberalisme"},{"label":"Konstruktivisme"}]},{"label":"Saksanalyse","children":[{"label":"Aktører og interesser"},{"label":"Maktressurser"},{"label":"Arenaer og løsninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Statsvitenskap', 'Studiet av politikk, makt og beslutninger.', 0),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Politikk (klassisk definisjon)', 'Hvem som får hva, når og hvordan.', 1),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Faktasjekk', 'Kontroll av påstander mot kilder, for eksempel hos Faktisk.no.', 2),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Eastons systemmodell', 'Politisk system med input, omforming, output og tilbakekobling.', 3),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Input', 'Krav og støtte fra samfunnet.', 4),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Output', 'Beslutninger som lover og budsjetter.', 5),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Tilbakekobling', 'Beslutningene påvirker samfunnet og gir nye krav.', 6),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Stein Rokkan', 'Forklarte partisystemet ut fra konfliktlinjer.', 7),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Sentrum–periferi', 'Konfliktlinje mellom hovedstad og distrikter.', 8),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Arbeid–kapital', 'Konfliktlinje bak høyre–venstre-aksen.', 9),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Realisme', 'Stater søker makt og sikkerhet i et anarkisk system.', 10),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Anarki (internasjonal politikk)', 'At det ikke finnes noen verdensregjering.', 11),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Liberalisme (internasjonal politikk)', 'Samarbeid, handel og institusjoner kan skape fred.', 12),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Konstruktivisme', 'Ideer, identiteter og normer former stater.', 13),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'Maktressurser', 'Stemmer, penger, militær makt, kunnskap og oppmerksomhet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q01', 'flervalg', 'Hva er input i Eastons systemmodell?', array['Lover og budsjetter', 'Krav og støtte fra samfunnet', 'Domstolenes avgjørelser', 'Skatteinntekter']::text[], 1, 'Output er beslutningene.', true, true, 0),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q02', 'flervalg', 'Hva mener realister om internasjonal politikk?', array['At stater søker makt og sikkerhet i et system uten verdensregjering', 'At alle stater samarbeider', 'At ideer er viktigst', 'At FN styrer verden']::text[], 0, 'Maktbalanse sikrer fred.', true, true, 1),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q03', 'flervalg', 'Hvilken konfliktlinje ligger bak høyre–venstre-aksen?', array['Sentrum–periferi', 'By–land', 'Arbeid–kapital', 'Religion']::text[], 2, 'Arbeidere mot arbeidsgivere.', true, true, 2),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q04', 'flervalg', 'Hva legger liberalismen vekt på i internasjonal politikk?', array['Militær makt alene', 'Egeninteresse og konflikt', 'At stater aldri kan samarbeide', 'Samarbeid, handel, demokrati og institusjoner']::text[], 3, 'Stater kan tjene på samarbeid.', true, true, 3),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q05', 'flervalg', 'Hva er et godt spørsmål når du vurderer politisk informasjon?', array['Hvem er avsenderen, og hva er formålet?', 'Hvor mange bilder har saken?', 'Hvor lang er teksten?', 'Er det skrevet på nynorsk?']::text[], 0, 'Interesser farger informasjonen.', true, true, 4),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q06', 'flervalg', 'Hvem forklarte partisystemet ut fra historiske konfliktlinjer?', array['David Easton', 'Stein Rokkan', 'Max Weber', 'Thomas Hobbes']::text[], 1, 'Norsk statsviter.', true, true, 5),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q07', 'flervalg', 'Hva legger konstruktivismen vekt på?', array['Bare militær makt', 'Bare økonomi', 'Ideer, identiteter og normer', 'Bare geografi']::text[], 2, 'Hvordan stater oppfatter hverandre.', true, true, 6),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q08', 'flervalg', 'Hva er tilbakekobling i Eastons modell?', array['At lover oppheves', 'At velgere stemmer', 'At regjeringen går av', 'At beslutningene påvirker samfunnet og gir nye krav og ny støtte']::text[], 3, 'Systemet er dynamisk.', true, true, 7),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q09', 'flervalg', 'Hvilken nyere konfliktlinje har kommet til i norsk politikk?', array['Miljø–vekst', 'Konge–adel', 'Pave–keiser', 'Katolikk–protestant']::text[], 0, 'Også innvandring og verdier.', true, false, 8),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'q10', 'flervalg', 'Hvilken kilde er vanligvis mest pålitelig for norsk statistikk?', array['Et partiprogram', 'Statistisk sentralbyrå', 'En kommentar i sosiale medier', 'En reklame']::text[], 1, 'Offisiell statistikk.', true, false, 9),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm01', 'sant-usant', 'Nynorsk og bokmål hører til den kulturelle konfliktlinjen hos Rokkan.', array['Sant', 'Usant']::text[], 0, 'Sammen med religion og avholdssak.', false, true, 10),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm02', 'sant-usant', 'Realister mener at internasjonale institusjoner alene kan sikre fred.', array['Sant', 'Usant']::text[], 1, 'Det er et liberalistisk syn.', false, true, 11),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm03', 'sant-usant', 'Et partiprogram er en kilde med tydelig formål om å overbevise.', array['Sant', 'Usant']::text[], 0, 'Det må leses kritisk.', false, true, 12),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm04', 'sant-usant', 'Output i Eastons modell er krav fra velgerne.', array['Sant', 'Usant']::text[], 1, 'Output er beslutningene.', false, true, 13),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm05', 'flervalg', 'Hvilken teori passer best til å forklare at stater ruster opp når naboen gjør det?', array['Konstruktivisme', 'Realisme', 'Liberalisme', 'Funksjonalisme']::text[], 1, 'Sikkerhetsdilemma og maktbalanse.', false, true, 14),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm06', 'flervalg', 'Hva er en maktressurs?', array['Stemmer, penger eller medieoppmerksomhet', 'Et partiprogram uten støtte', 'En tom stol', 'En ferie']::text[], 0, 'Ressurser som gir påvirkning.', false, true, 15),
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 'm07', 'flervalg', 'Hvilken del av det politiske systemet står for omformingen i Eastons modell?', array['Velgerne', 'Mediene', 'Storting, regjering og forvaltning', 'Interesseorganisasjonene']::text[], 2, 'Der krav blir til beslutninger.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:statsvitenskapelige-teorier-og-kilder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Medborgerskap, demokrati og styreformer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'politikk-og-menneskerettigheter', 'demokrati-og-styreformer', 'Medborgerskap, demokrati og styreformer', 'Hva det innebærer å være medborger, ulike demokratimodeller, sammenligning av parlamentarisme, presidentstyre og autoritære regimer, og hvordan demokratiet har utviklet seg og møter utfordringer i verden.', array[3]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', '## Medborgerskap
+
+Å være **medborger** betyr å være et fullverdig medlem av et politisk fellesskap – med både **rettigheter** og **plikter**:
+
+- **Rettigheter**: stemmerett, ytringsfrihet, forsamlingsfrihet, rettssikkerhet og velferd.
+- **Plikter**: å følge lover, betale skatt og respektere andres rettigheter.
+- **Deltakelse**: å stemme, engasjere seg i organisasjoner, delta i debatter og gjøre seg opp en mening.
+
+Medborgerskap handler også om å **tolerere** uenighet og ta del i **fellesskapet**.
+
+## Hva er demokrati?
+
+Demokrati betyr **folkestyre**. Viktige kjennetegn er
+
+- **frie og hemmelige valg** med reelle alternativer
+- **allmenn stemmerett**
+- **ytrings-**, **organisasjons-** og **pressefrihet**
+- **rettsstat** med uavhengige domstoler
+- **maktfordeling** og **vern om mindretall**
+
+## Demokratimodeller
+
+- **Direkte demokrati**: Folket bestemmer selv, for eksempel gjennom **folkeavstemninger**. Sveits bruker dette mye.
+- **Representativt demokrati**: Folket velger **representanter** som tar beslutningene.
+- **Deltakerdemokrati**: Vekt på at borgerne deltar **aktivt** også mellom valgene.
+- **Deliberativt demokrati** (samtaledemokrati): Vekt på at beslutninger bygger på **offentlig samtale** og gode argumenter.
+
+## Demokratiske styreformer
+
+- **Parlamentarisme** (Norge, Storbritannia, Tyskland): Regjeringen må ha **nasjonalforsamlingens tillit** og kan felles ved mistillit. Den utøvende og lovgivende makten er tett knyttet sammen.
+- **Presidentstyre** (USA): **Presidenten** velges separat og kan ikke felles med mistillit. **Kongressen** og **presidenten** balanserer hverandre gjennom **«checks and balances»**.
+- **Semipresidentstyre** (Frankrike): både en direkte valgt **president** og en **statsminister** som må ha parlamentets tillit.
+- **Konstitusjonelt monarki**: Kongen er **statsoverhode**, men har symbolsk rolle – som i Norge.
+
+## Autoritære styreformer
+
+- **Autoritære regimer**: Makten er samlet hos én leder eller ett parti, og opposisjonen begrenses. Valg kan finnes, men er **ikke frie**.
+- **Totalitære regimer** prøver å kontrollere **alle** deler av samfunnet og menneskers tanker – som Sovjetunionen under Stalin og Nazi-Tyskland.
+- **Hybride regimer** har noen demokratiske trekk, men er ikke fullt frie.
+
+## Demokratiets utvikling
+
+Demokratiet har spredt seg i **bølger**: etter første verdenskrig, etter andre verdenskrig og etter at kommunismen falt rundt **1990**. I dag lever likevel en stor del av verdens befolkning i **autoritære** eller **hybride** regimer.
+
+Organisasjoner som **Freedom House** og forskningsprosjektet **V-Dem** har de siste årene registrert en **demokratisk tilbakegang** i mange land.
+
+## Utfordringer for demokratiet
+
+- **Polarisering** og synkende **tillit**.
+- **Desinformasjon** og påvirkning fra fremmede stater.
+- Ledere som svekker **domstoler**, **presse** og **opposisjon** gradvis.
+- **Lav valgdeltakelse** i noen grupper.
+- **Globale** problemer, som klima, som nasjonale demokratier har vanskelig for å løse alene.
+
+## Sammenligne land
+
+Når du sammenligner styreformer, se på **hvordan makten er fordelt**, **hvordan ledere velges og kan kontrolleres**, og **hvilke rettigheter** borgerne har.', '{"label":"Demokrati og styreformer","children":[{"label":"Medborgerskap","children":[{"label":"Rettigheter"},{"label":"Plikter"},{"label":"Deltakelse"}]},{"label":"Demokratimodeller","children":[{"label":"Direkte"},{"label":"Representativt"},{"label":"Deltaker og deliberativt"}]},{"label":"Demokratiske styreformer","children":[{"label":"Parlamentarisme"},{"label":"Presidentstyre"},{"label":"Semipresidentstyre"}]},{"label":"Ikke-demokratiske","children":[{"label":"Autoritære"},{"label":"Totalitære"},{"label":"Hybride"}]},{"label":"Utvikling","children":[{"label":"Demokratibølger"},{"label":"Tilbakegang"},{"label":"Utfordringer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:demokrati-og-styreformer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Medborgerskap', 'Fullverdig medlemskap i et politisk fellesskap med rettigheter og plikter.', 0),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Demokrati', 'Folkestyre.', 1),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Rettsstat', 'Staten er bundet av lover, og domstolene er uavhengige.', 2),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Direkte demokrati', 'Folket bestemmer selv, for eksempel ved folkeavstemning.', 3),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Representativt demokrati', 'Folket velger representanter som bestemmer.', 4),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Deliberativt demokrati', 'Beslutninger bygger på offentlig samtale og argumenter.', 5),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Parlamentarisme', 'Regjeringen må ha nasjonalforsamlingens tillit.', 6),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Presidentstyre', 'Presidenten velges separat og kan ikke felles med mistillit.', 7),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Checks and balances', 'Maktene i USA balanserer og kontrollerer hverandre.', 8),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Semipresidentstyre', 'Både valgt president og statsminister, som i Frankrike.', 9),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Konstitusjonelt monarki', 'Kongen er statsoverhode med symbolsk rolle.', 10),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Autoritært regime', 'Makten samlet hos én leder eller ett parti, uten frie valg.', 11),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Totalitært regime', 'Forsøker å kontrollere alle deler av samfunnet.', 12),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Hybrid regime', 'Noen demokratiske trekk, men ikke fullt fritt.', 13),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'Demokratisk tilbakegang', 'At demokratiet svekkes i mange land.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:demokrati-og-styreformer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q01', 'flervalg', 'Hva kjennetegner parlamentarisme?', array['Presidenten kan ikke felles', 'Regjeringen må ha nasjonalforsamlingens tillit', 'Kongen har all makt', 'Det finnes ingen valg']::text[], 1, 'Som i Norge.', true, true, 0),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q02', 'flervalg', 'Hva er et totalitært regime?', array['Et regime som prøver å kontrollere alle deler av samfunnet', 'Et demokrati med mange partier', 'Et land uten regjering', 'Et konstitusjonelt monarki']::text[], 0, 'For eksempel Sovjetunionen under Stalin.', true, true, 1),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q03', 'flervalg', 'Hvilket land har presidentstyre?', array['Norge', 'Storbritannia', 'USA', 'Tyskland']::text[], 2, 'Med checks and balances.', true, true, 2),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q04', 'flervalg', 'Hva er deliberativt demokrati?', array['Styre ved loddtrekning', 'Styre av eksperter', 'Styre av én leder', 'Demokrati som vektlegger offentlig samtale og gode argumenter']::text[], 3, 'Også kalt samtaledemokrati.', true, true, 3),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q05', 'flervalg', 'Hva innebærer medborgerskap?', array['Både rettigheter og plikter i et politisk fellesskap', 'Bare rettigheter', 'Bare plikter', 'Bare stemmerett']::text[], 0, 'Og deltakelse i fellesskapet.', true, true, 4),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q06', 'flervalg', 'Hva har Freedom House og V-Dem registrert de siste årene?', array['At alle land er blitt demokratier', 'En demokratisk tilbakegang i mange land', 'At diktaturer er avskaffet', 'At valg er forbudt']::text[], 1, 'Demokratiet er under press.', true, true, 5),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q07', 'flervalg', 'Hvilket land bruker direkte demokrati gjennom folkeavstemninger mye?', array['Kina', 'Russland', 'Sveits', 'Saudi-Arabia']::text[], 2, 'Folket stemmer over mange saker.', true, true, 6),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q08', 'flervalg', 'Hva er et hybrid regime?', array['Et fullt demokrati', 'Et totalitært regime', 'Et monarki', 'Et regime med noen demokratiske trekk, men som ikke er fullt fritt']::text[], 3, 'Valg kan finnes, men er ikke frie.', true, true, 7),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q09', 'flervalg', 'Hvilken utfordring møter mange demokratier i dag?', array['Polarisering og desinformasjon', 'For mye tillit', 'For mange frie valg', 'For lite ytringsfrihet i Norge']::text[], 0, 'Også svekket tillit.', true, false, 8),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'q10', 'flervalg', 'Hvilken rolle har kongen i et konstitusjonelt monarki?', array['All makt', 'Symbolsk rolle som statsoverhode', 'Leder regjeringen', 'Leder Stortinget']::text[], 1, 'Som i Norge.', true, false, 9),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm01', 'sant-usant', 'En amerikansk president kan ikke felles ved mistillit i Kongressen.', array['Sant', 'Usant']::text[], 0, 'Presidenten velges separat.', false, true, 10),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm02', 'sant-usant', 'Alle land med valg er demokratier.', array['Sant', 'Usant']::text[], 1, 'Valgene må være frie og ha reelle alternativer.', false, true, 11),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm03', 'sant-usant', 'Vern om mindretall er et kjennetegn på demokrati.', array['Sant', 'Usant']::text[], 0, 'Flertallet kan ikke gjøre hva det vil.', false, true, 12),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm04', 'sant-usant', 'Norge har presidentstyre.', array['Sant', 'Usant']::text[], 1, 'Norge har parlamentarisme og konstitusjonelt monarki.', false, true, 13),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm05', 'flervalg', 'Hvilket land har semipresidentstyre?', array['USA', 'Frankrike', 'Norge', 'Kina']::text[], 1, 'President og statsminister.', false, true, 14),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm06', 'flervalg', 'Når kom en stor demokratibølge etter at kommunismen falt?', array['Rundt 1990', 'Rundt 1850', 'Rundt 1920', 'Rundt 2020']::text[], 0, 'Mange land i Øst-Europa ble demokratier.', false, true, 15),
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 'm07', 'flervalg', 'Hva er en plikt som medborger?', array['Å stemme på et bestemt parti', 'Å være medlem av et parti', 'Å følge lover og betale skatt', 'Å delta i demonstrasjoner']::text[], 2, 'Rettigheter følges av plikter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:demokrati-og-styreformer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Det norske politiske systemet – nasjonalt og lokalt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'politikk-og-menneskerettigheter', 'det-norske-politiske-systemet', 'Det norske politiske systemet – nasjonalt og lokalt', 'Grunnloven og maktfordelingen, Stortinget, regjeringen og domstolene, parlamentarismen og regjeringsdannelse, og hvordan kommuner og fylkeskommuner styres gjennom lokaldemokratiet.', array[12]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', '## Grunnloven og maktfordelingen
+
+**Grunnloven** fra **1814** er Norges høyeste lov. Den bygger på **folkesuverenitet**, **maktfordeling** og **menneskerettigheter**. Makten er delt mellom tre statsmakter:
+
+- **Stortinget** – den **lovgivende** makten
+- **Regjeringen** – den **utøvende** makten
+- **Domstolene** – den **dømmende** makten
+
+**Kongen** er statsoverhode, men har i praksis en **symbolsk** rolle. Formelt fattes regjeringens vedtak i **statsråd** med kongen.
+
+## Stortinget
+
+Stortinget har **169 representanter**, valgt for **fire år** av gangen. Stortinget kan ikke oppløses før valgperioden er over. Stortingets viktigste oppgaver er å
+
+- **vedta lover**
+- vedta **statsbudsjettet** – bevilge penger og bestemme skatter
+- **kontrollere regjeringen**, for eksempel gjennom spørretimer, **kontroll- og konstitusjonskomiteen** og **Riksrevisjonen**
+
+Arbeidet skjer i **komiteer** som behandler sakene før de avgjøres i **plenum**.
+
+## Regjeringen og parlamentarismen
+
+Regjeringen ledes av **statsministeren** og består av **statsråder** som leder hvert sitt **departement**. Regjeringen **fremmer** lovforslag og budsjett og **gjennomfører** vedtakene gjennom **forvaltningen** – direktorater og etater som NAV og Skatteetaten.
+
+**Parlamentarismen** (fra **1884**) betyr at regjeringen må ha Stortingets **tillit**. Et flertall kan felle regjeringen med **mistillitsforslag**. Regjeringen kan også stille **kabinettsspørsmål** – true med å gå av hvis den ikke får flertall.
+
+- En **flertallsregjering** har støtte fra over halvparten av representantene.
+- En **mindretallsregjering** må søke støtte fra andre partier sak for sak. Mindretallsregjeringer har vært vanlige i Norge.
+- **Koalisjonsregjeringer** består av flere partier.
+
+## Domstolene
+
+Domstolene – **tingrett**, **lagmannsrett** og **Høyesterett** – dømmer i straffesaker og sivile saker. De er **uavhengige** av Storting og regjering. Høyesterett kan prøve om lover er i strid med **Grunnloven** eller **menneskerettighetene** (**prøvingsrett**).
+
+## Lokaldemokratiet
+
+Norge har **kommuner** og **fylkeskommuner** med egne folkevalgte organer, valgt hvert fjerde år ved **kommune- og fylkestingsvalg** – to år forskjøvet fra stortingsvalget.
+
+- **Kommunestyret** er kommunens øverste organ, og **ordføreren** leder det.
+- **Formannskapet** forbereder viktige saker.
+- **Fylkestinget** styrer fylkeskommunen.
+
+**Kommunene** har ansvar for blant annet **grunnskole**, **barnehager**, **helse- og omsorgstjenester**, **sosialtjenester** og **lokal planlegging**. **Fylkeskommunene** har ansvar for blant annet **videregående skole**, **kollektivtransport** og **fylkesveier**.
+
+Kommunene har **lokalt selvstyre**, men staten bestemmer mye gjennom **lover**, **rammetilskudd** og **øremerkede** midler.
+
+## Utfordringer
+
+- Stor **forskjell** mellom kommuner i størrelse og økonomi.
+- **Statlig styring** kan svekke det lokale selvstyret.
+- **Lavere valgdeltakelse** lokalt enn ved stortingsvalg.
+- Vansker med å **rekruttere** lokalpolitikere, blant annet på grunn av **netthets**.', '{"label":"Det norske politiske systemet","children":[{"label":"Grunnloven","children":[{"label":"1814"},{"label":"Maktfordeling"},{"label":"Kongen"}]},{"label":"Stortinget","children":[{"label":"169 representanter"},{"label":"Lover og budsjett"},{"label":"Kontroll"}]},{"label":"Regjeringen","children":[{"label":"Parlamentarisme"},{"label":"Flertall og mindretall"},{"label":"Forvaltning"}]},{"label":"Domstolene","children":[{"label":"Tre nivåer"},{"label":"Prøvingsrett"}]},{"label":"Lokaldemokrati","children":[{"label":"Kommuner"},{"label":"Fylkeskommuner"},{"label":"Utfordringer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:det-norske-politiske-systemet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Grunnloven', 'Norges høyeste lov fra 1814.', 0),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Lovgivende makt', 'Stortinget.', 1),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Utøvende makt', 'Regjeringen.', 2),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Dømmende makt', 'Domstolene.', 3),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Stortinget', '169 representanter valgt for fire år.', 4),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Statsbudsjettet', 'Stortingets vedtak om statens inntekter og utgifter.', 5),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Riksrevisjonen', 'Kontrollerer at statens penger brukes riktig.', 6),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Statsråd', 'Medlem av regjeringen som leder et departement.', 7),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Parlamentarisme i Norge', 'Fra 1884: regjeringen må ha Stortingets tillit.', 8),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Mistillitsforslag', 'Forslag om at regjeringen eller en statsråd skal gå av.', 9),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Kabinettsspørsmål', 'Regjeringen truer med å gå av hvis den ikke får flertall.', 10),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Mindretallsregjering', 'Regjering uten flertall på Stortinget.', 11),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Prøvingsrett', 'Domstolenes rett til å prøve lover mot Grunnloven.', 12),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Kommunestyret', 'Kommunens øverste folkevalgte organ.', 13),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'Rammetilskudd', 'Penger fra staten som kommunen selv fordeler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:det-norske-politiske-systemet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q01', 'flervalg', 'Hvor mange representanter har Stortinget?', array['150', '169', '200', '100']::text[], 1, 'Valgt for fire år.', true, true, 0),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q02', 'flervalg', 'Hva betyr parlamentarisme i Norge?', array['At regjeringen må ha Stortingets tillit', 'At kongen styrer', 'At domstolene lager lover', 'At folket stemmer over alle lover']::text[], 0, 'Innført i 1884.', true, true, 1),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q03', 'flervalg', 'Hvilken statsmakt er regjeringen?', array['Den lovgivende', 'Den dømmende', 'Den utøvende', 'Ingen']::text[], 2, 'Den gjennomfører vedtakene.', true, true, 2),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q04', 'flervalg', 'Hva er et kabinettsspørsmål?', array['Et spørsmål i spørretimen', 'Et lovforslag', 'Et budsjett', 'At regjeringen truer med å gå av hvis den ikke får flertall']::text[], 3, 'Et press på Stortinget.', true, true, 3),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q05', 'flervalg', 'Hvem har ansvar for videregående skole?', array['Fylkeskommunene', 'Kommunene', 'Staten alene', 'Private']::text[], 0, 'Kommunene har grunnskolen.', true, true, 4),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q06', 'flervalg', 'Hva er prøvingsretten?', array['Retten til å stemme', 'Domstolenes rett til å prøve om lover strider mot Grunnloven', 'Stortingets rett til å felle regjeringen', 'Kongens rett til å oppløse Stortinget']::text[], 1, 'Også mot menneskerettighetene.', true, true, 5),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q07', 'flervalg', 'Hva er en mindretallsregjering?', array['En regjering med flertall', 'En regjering av ett parti med alle mandatene', 'En regjering uten flertall på Stortinget', 'En regjering uten statsminister']::text[], 2, 'Må søke støtte sak for sak.', true, true, 6),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q08', 'flervalg', 'Hva er Stortingets viktigste oppgaver?', array['Å dømme i straffesaker', 'Å lede departementene', 'Å velge kongen', 'Å vedta lover og budsjett og kontrollere regjeringen']::text[], 3, 'Den lovgivende makten.', true, true, 7),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q09', 'flervalg', 'Hvem leder kommunestyret?', array['Ordføreren', 'Statsministeren', 'Statsforvalteren', 'Kongen']::text[], 0, 'Kommunestyret er kommunens øverste organ.', true, false, 8),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'q10', 'flervalg', 'Hvordan styrer staten kommunene?', array['Den gjør ikke det', 'Gjennom lover, rammetilskudd og øremerkede midler', 'Bare gjennom kongen', 'Bare gjennom domstolene']::text[], 1, 'Lokalt selvstyre har grenser.', true, false, 9),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm01', 'sant-usant', 'Stortinget kan ikke oppløses før valgperioden er over.', array['Sant', 'Usant']::text[], 0, 'Det skiller Norge fra mange andre land.', false, true, 10),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm02', 'sant-usant', 'Kongen tar de viktigste politiske beslutningene i Norge.', array['Sant', 'Usant']::text[], 1, 'Kongen har en symbolsk rolle.', false, true, 11),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm03', 'sant-usant', 'Mindretallsregjeringer har vært vanlige i Norge.', array['Sant', 'Usant']::text[], 0, 'De må søke støtte sak for sak.', false, true, 12),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm04', 'sant-usant', 'Kommunene har ansvar for videregående skole.', array['Sant', 'Usant']::text[], 1, 'Det har fylkeskommunene.', false, true, 13),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm05', 'flervalg', 'Hva gjør Riksrevisjonen?', array['Dømmer i straffesaker', 'Kontrollerer at statens penger brukes riktig', 'Leder regjeringen', 'Arrangerer valg']::text[], 1, 'Stortingets kontrollorgan.', false, true, 14),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm06', 'flervalg', 'Hva er Norges høyeste domstol?', array['Høyesterett', 'Lagmannsretten', 'Tingretten', 'Stortinget']::text[], 0, 'Øverste ankeinstans.', false, true, 15),
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 'm07', 'flervalg', 'Hvilken oppgave har kommunene?', array['Forsvaret', 'Utenrikspolitikken', 'Grunnskole og barnehager', 'Høyesterett']::text[], 2, 'Også helse- og omsorgstjenester.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:det-norske-politiske-systemet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Makt, konfliktlinjer og kanaler for innflytelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'politikk-og-menneskerettigheter', 'makt-konfliktlinjer-og-kanaler', 'Makt, konfliktlinjer og kanaler for innflytelse', 'Hvem som har makt i Norge, konfliktdimensjonene som former partiene, og de ulike kanalene for politisk innflytelse – parlamentarisk, korporativ, aksjon, media og rettslig – med eksempler fra praktisk politikk.', array[5]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', '## Makt i det norske systemet
+
+Formelt ligger makten hos **Stortinget**, **regjeringen** og **domstolene**. Men mange andre aktører påvirker politikken: **partier**, **interesseorganisasjoner**, **næringslivet**, **byråkratiet**, **medier**, **eksperter** og **aktivister**.
+
+Den store **Maktutredningen**, som ble avsluttet i **2003**, konkluderte med at **folkestyret** var svekket – fordi makt var flyttet fra folkevalgte til blant annet **markeder**, **domstoler**, **byråkrati**, **eksperter** og **internasjonale avtaler**.
+
+## Konfliktdimensjoner
+
+Norsk politikk kan beskrives langs flere **konfliktdimensjoner**:
+
+- **Økonomisk høyre–venstre**: Hvor mye skal **staten** styre, skattlegge og omfordele, og hvor mye skal overlates til **markedet**?
+- **Sentrum–periferi**: Hvor skal arbeidsplasser, sykehus, skoler og makt ligge – i byene eller i distriktene?
+- **Verdikonflikter**: innvandring, religion, familie, rus og likestilling.
+- **Miljø–vekst**: Hvor mye skal hensynet til **klima og natur** veie mot **økonomisk vekst** og arbeidsplasser, for eksempel i oljepolitikken?
+- **EU-spørsmålet**: nasjonal selvråderett mot europeisk samarbeid.
+
+Partiene plasserer seg ulikt på dimensjonene, og derfor kan de være enige i én sak og uenige i en annen.
+
+## Kanaler for innflytelse
+
+**1. Den parlamentariske kanalen**
+
+Påvirkning gjennom **valg**, **partier** og **folkevalgte**. Du kan stemme, melde deg inn i et parti, stille til valg eller kontakte politikere.
+
+**2. Den korporative kanalen**
+
+**Interesseorganisasjoner** – for eksempel **LO**, **NHO**, **Bondelaget** og miljøorganisasjoner – påvirker gjennom **høringer**, **utvalg** og **forhandlinger** med staten. **Trepartssamarbeidet** mellom arbeidstakere, arbeidsgivere og staten om lønn og arbeidsliv er et typisk eksempel. **Lobbyisme** er påvirkning av beslutningstakere på vegne av interesser.
+
+**3. Aksjonskanalen**
+
+**Demonstrasjoner**, **underskriftskampanjer**, **boikott** og **sivil ulydighet**. Eksempler er **Fosen-aksjonene** i 2023 og **skolestreikene for klima**. Aksjoner kan sette saker på dagsordenen raskt.
+
+**4. Mediekanalen**
+
+Gjennom **medieoppslag**, **debattinnlegg** og **sosiale medier** kan saker få oppmerksomhet og legge press på politikerne. Mediene har **dagsordenmakt**.
+
+**5. Den rettslige kanalen**
+
+Organisasjoner og enkeltpersoner kan gå til **domstolene** for å få prøvd om staten følger lover, **Grunnloven** og **menneskerettighetene**. **Klimasøksmålet** mot staten om oljeboring og **Fosen-dommen** i Høyesterett i 2021 er eksempler.
+
+## Hvem når fram?
+
+Ikke alle har like store **maktressurser**. Grupper med mye **penger**, gode **nettverk**, **kunnskap** og **organisering** har ofte lettere for å påvirke. Svake grupper kan likevel få gjennomslag gjennom **aksjoner**, **media** og **domstoler**.
+
+## Eksempel fra praktisk politikk
+
+Når Stortinget skal behandle en sak om **vindkraft**, kan **næringslivet** bruke den korporative kanalen, **miljøorganisasjoner** og **reindriftssamer** kan bruke aksjoner, media og domstoler, og **partiene** må veie hensyn langs flere konfliktdimensjoner: **klima**, **natur**, **distrikter**, **urfolksrettigheter** og **økonomi**.', '{"label":"Makt og kanaler","children":[{"label":"Makt","children":[{"label":"Formelle institusjoner"},{"label":"Andre aktører"},{"label":"Maktutredningen"}]},{"label":"Konfliktdimensjoner","children":[{"label":"Høyre–venstre"},{"label":"Sentrum–periferi"},{"label":"Verdier"},{"label":"Miljø–vekst"}]},{"label":"Kanaler","children":[{"label":"Parlamentarisk"},{"label":"Korporativ"},{"label":"Aksjon"},{"label":"Media og rettslig"}]},{"label":"Maktressurser","children":[{"label":"Penger og nettverk"},{"label":"Kunnskap og organisering"}]},{"label":"Praksis","children":[{"label":"Vindkraft"},{"label":"Fosen"},{"label":"Klimasøksmålet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Maktutredningen', 'Konkluderte i 2003 med at folkestyret var svekket.', 0),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Økonomisk høyre–venstre', 'Konflikt om statens og markedets rolle.', 1),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Sentrum–periferi', 'Konflikt mellom by og distrikt om ressurser og makt.', 2),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Verdikonflikt', 'Uenighet om innvandring, religion, familie og likestilling.', 3),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Miljø–vekst', 'Konflikt mellom klima- og naturhensyn og økonomisk vekst.', 4),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Parlamentarisk kanal', 'Påvirkning via valg, partier og folkevalgte.', 5),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Korporativ kanal', 'Påvirkning via organisasjoner, høringer og forhandlinger.', 6),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Trepartssamarbeid', 'Samarbeid mellom arbeidstakere, arbeidsgivere og staten.', 7),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Lobbyisme', 'Påvirkning av beslutningstakere på vegne av interesser.', 8),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Aksjonskanalen', 'Demonstrasjoner, kampanjer og sivil ulydighet.', 9),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Mediekanalen', 'Påvirkning gjennom medieoppslag og sosiale medier.', 10),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Dagsordenmakt', 'Makten til å bestemme hva som blir diskutert.', 11),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Rettslig kanal', 'Påvirkning ved å gå til domstolene.', 12),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Klimasøksmålet', 'Rettssak mot staten om oljeboring og miljørettigheter.', 13),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'Høring', 'Organisasjoner og andre får uttale seg om forslag.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q01', 'flervalg', 'Hva konkluderte Maktutredningen med i 2003?', array['At folkestyret var styrket', 'At folkestyret var svekket', 'At Stortinget hadde all makt', 'At media ikke har makt']::text[], 1, 'Makt var flyttet til blant annet markeder og domstoler.', true, true, 0),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q02', 'flervalg', 'Hva er den korporative kanalen?', array['Påvirkning via organisasjoner, høringer og forhandlinger', 'Påvirkning via valg', 'Påvirkning via demonstrasjoner', 'Påvirkning via domstolene']::text[], 0, 'For eksempel LO og NHO.', true, true, 1),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q03', 'flervalg', 'Hva er et eksempel på aksjonskanalen?', array['Å stemme ved valg', 'Å delta i en høring', 'Skolestreik for klima', 'Å gå til Høyesterett']::text[], 2, 'Aksjoner setter saker på dagsordenen.', true, true, 2),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q04', 'flervalg', 'Hva handler den økonomiske høyre–venstre-dimensjonen om?', array['Språk og religion', 'By og land', 'EU-medlemskap', 'Hvor mye staten skal styre og omfordele']::text[], 3, 'Stat mot marked.', true, true, 3),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q05', 'flervalg', 'Hva er den rettslige kanalen?', array['Å gå til domstolene for å prøve om staten følger loven', 'Å skrive debattinnlegg', 'Å melde seg inn i et parti', 'Å boikotte en bedrift']::text[], 0, 'For eksempel Fosen-saken.', true, true, 4),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q06', 'flervalg', 'Hvorfor kan partier være enige i én sak og uenige i en annen?', array['Fordi de ikke har program', 'Fordi de plasserer seg ulikt på flere konfliktdimensjoner', 'Fordi de alltid er enige', 'Fordi de bytter meninger tilfeldig']::text[], 1, 'Politikken er flerdimensjonal.', true, true, 5),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q07', 'flervalg', 'Hva er dagsordenmakt?', array['Makten til å vedta lover', 'Makten til å dømme', 'Makten til å bestemme hva som blir diskutert', 'Makten til å velge statsminister']::text[], 2, 'Mediene har mye av den.', true, true, 6),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q08', 'flervalg', 'Hvilke grupper har ofte lettest for å påvirke politikken?', array['Grupper uten organisering', 'Grupper uten nettverk', 'Grupper uten kunnskap', 'Grupper med mye penger, gode nettverk og god organisering']::text[], 3, 'Maktressurser er ulikt fordelt.', true, true, 7),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q09', 'flervalg', 'Hva er lobbyisme?', array['Påvirkning av beslutningstakere på vegne av interesser', 'Å sitte i Stortingets lobby', 'Å stemme ved valg', 'Å demonstrere']::text[], 0, 'En del av den korporative kanalen.', true, false, 8),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'q10', 'flervalg', 'Hvilken konfliktdimensjon handler om hvor sykehus og arbeidsplasser skal ligge?', array['Miljø–vekst', 'Sentrum–periferi', 'Verdikonflikter', 'EU-spørsmålet']::text[], 1, 'By mot distrikt.', true, false, 9),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm01', 'sant-usant', 'Interesseorganisasjoner kan påvirke politikken gjennom høringer.', array['Sant', 'Usant']::text[], 0, 'Den korporative kanalen.', false, true, 10),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm02', 'sant-usant', 'Bare folkevalgte har makt i Norge.', array['Sant', 'Usant']::text[], 1, 'Mange aktører påvirker politikken.', false, true, 11),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm03', 'sant-usant', 'Fosen-dommen i Høyesterett er et eksempel på den rettslige kanalen.', array['Sant', 'Usant']::text[], 0, 'Reindriftssamer fikk medhold i 2021.', false, true, 12),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm04', 'sant-usant', 'Aksjoner kan aldri påvirke politikken.', array['Sant', 'Usant']::text[], 1, 'De kan sette saker raskt på dagsordenen.', false, true, 13),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm05', 'flervalg', 'Hvilke organisasjoner er typiske parter i trepartssamarbeidet?', array['Amnesty og Redd Barna', 'LO og NHO sammen med staten', 'Partiene på Stortinget', 'Domstolene og politiet']::text[], 1, 'Arbeidstakere, arbeidsgivere og staten.', false, true, 14),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm06', 'flervalg', 'Hvilken kanal bruker du når du melder deg inn i et parti?', array['Den parlamentariske', 'Den korporative', 'Aksjonskanalen', 'Den rettslige']::text[], 0, 'Via partier og valg.', false, true, 15),
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 'm07', 'flervalg', 'Hvilken konfliktdimensjon er sentral i oljepolitikken?', array['Sentrum–periferi alene', 'Religion', 'Miljø–vekst', 'Språk']::text[], 2, 'Klima mot økonomi og arbeidsplasser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:makt-konfliktlinjer-og-kanaler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Valg, velgeratferd og politisk deltakelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'politikk-og-menneskerettigheter', 'valg-og-velgeratferd', 'Valg, velgeratferd og politisk deltakelse', 'Den norske valgordningen, forklaringer på hvorfor folk stemmer som de gjør, hvordan meningsmålinger og valgundersøkelser brukes, og hvordan samfunnsvitenskapelig metode kan analysere valgdeltakelse og politisk deltakelse.', array[6]::int[], 4, 'sjekkes', array['Sjekk valgdeltakelsen ved siste stortingsvalg og gjeldende regler for mandatfordeling (første delingstall) mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', '## Valgordningen
+
+Norge har **forholdstallsvalg**: Partiene får mandater omtrent i forhold til hvor mange stemmer de får. Ved stortingsvalg
+
+- velges **169** representanter fra **19 valgdistrikter**
+- fordeles **150 distriktsmandater** med **Sainte-Laguës metode** (med første delingstall 1,4)
+- fordeles **19 utjevningsmandater** – ett per valgdistrikt – for å gjøre resultatet mer rettferdig nasjonalt
+- må et parti få minst **4 %** av stemmene for å være med i fordelingen av utjevningsmandater (**sperregrensen**)
+
+Distrikter med spredt bosetting får **flere mandater** per innbygger enn byene, fordi også **areal** teller i fordelingen.
+
+## Hvorfor stemmer folk som de gjør?
+
+- **Sosiologiske forklaringer**: Velgeradferd henger sammen med **sosial bakgrunn** – yrke, klasse, utdanning, bosted, kjønn og alder. Før stemte arbeidere oftest på Arbeiderpartiet.
+- **Partiidentifikasjon**: Mange utvikler tidlig en **tilhørighet** til et parti, gjerne gjennom familien, og stemmer på det valg etter valg.
+- **Saksstemming**: Velgerne stemmer på partiet som har den beste politikken i **sakene** de er mest opptatt av, som klima, skatt eller helse.
+- **Retrospektiv stemmegivning**: Velgerne straffer eller belønner **regjeringen** for hvordan det har gått – for eksempel i økonomien.
+- **Ledere og kandidater**: Tillit til **partilederen** kan avgjøre.
+
+De siste tiårene har **klassestemmegivningen** blitt svakere, og flere velgere **bytter parti** fra valg til valg (**velgervandring**). Mange bestemmer seg **sent** i valgkampen.
+
+## Politisk deltakelse
+
+**Valgdeltakelsen** ved stortingsvalg har de siste valgene ligget på rundt **77–80 %**, og lavere ved kommunevalg. Deltakelsen er ofte lavere blant **unge**, personer med **lav utdanning** og inntekt og blant noen **innvandrergrupper**.
+
+Andre former for deltakelse er **partimedlemskap** (som har gått ned over tid), **organisasjonsarbeid**, **underskriftskampanjer**, **demonstrasjoner**, **forbrukermakt** og **politiske ytringer i sosiale medier**. Mange unge engasjerer seg mer i **saker** enn i **partier**.
+
+## Samfunnsvitenskapelig metode
+
+- **Valgundersøkelser**: Store **spørreundersøkelser** etter valget der forskere spør et representativt utvalg om hva de stemte og hvorfor.
+- **Meningsmålinger**: Et utvalg på omtrent **1000** personer gir en **feilmargin** på rundt **±3 prosentpoeng** for store partier. Små endringer fra én måling til neste er ofte bare **tilfeldig variasjon**.
+- **Valgstatistikk** fra SSB viser deltakelse etter alder, kjønn og bosted.
+- **Kvalitative intervjuer** kan gi innsikt i **hvorfor** folk ikke stemmer.
+
+Husk at det folk **sier** i undersøkelser, ikke alltid er det de **gjør**, og at utvalget må være **representativt**.
+
+## Drøfte deltakelse
+
+Lav valgdeltakelse kan svekke demokratiets **legitimitet** og gi skjev representasjon – politikerne lytter mest til dem som stemmer. Tiltak som er diskutert, er **stemmerett for 16-åringer** (prøvd ut i enkelte kommuner), **skolevalg** og **enklere forhåndsstemming**.', '{"label":"Valg og velgeratferd","children":[{"label":"Valgordning","children":[{"label":"Forholdstallsvalg"},{"label":"169 mandater, 19 distrikter"},{"label":"Sperregrense 4 %"}]},{"label":"Forklaringer","children":[{"label":"Sosial bakgrunn"},{"label":"Partiidentifikasjon"},{"label":"Saker og retrospektivt"}]},{"label":"Endringer","children":[{"label":"Svakere klassestemming"},{"label":"Velgervandring"}]},{"label":"Deltakelse","children":[{"label":"Valgdeltakelse"},{"label":"Andre former"},{"label":"Unge"}]},{"label":"Metode","children":[{"label":"Valgundersøkelser"},{"label":"Meningsmålinger og feilmargin"},{"label":"Intervjuer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:valg-og-velgeratferd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Forholdstallsvalg', 'Mandater fordeles omtrent i forhold til stemmene.', 0),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Valgdistrikter', '19 ved stortingsvalg.', 1),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Distriktsmandater', '150 mandater fordelt i valgdistriktene.', 2),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Utjevningsmandater', '19 mandater som gjør resultatet mer rettferdig nasjonalt.', 3),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Sperregrense', '4 % – grensen for å få utjevningsmandater.', 4),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Sainte-Laguës metode', 'Metode for å fordele mandater mellom partiene.', 5),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Sosiologisk forklaring', 'Stemmegivning henger sammen med sosial bakgrunn.', 6),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Partiidentifikasjon', 'Varig tilhørighet til et parti.', 7),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Saksstemming', 'Å stemme ut fra politikken i viktige saker.', 8),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Retrospektiv stemmegivning', 'Å belønne eller straffe regjeringen for resultatene.', 9),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Velgervandring', 'At velgere bytter parti fra valg til valg.', 10),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Valgundersøkelse', 'Stor spørreundersøkelse om hva og hvorfor folk stemte.', 11),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Feilmargin', 'Omtrent ±3 prosentpoeng ved utvalg på 1000.', 12),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Valgdeltakelse ved stortingsvalg', 'Rundt 77–80 % de siste valgene.', 13),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'Legitimitet', 'At styret oppleves som rettmessig.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:valg-og-velgeratferd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q01', 'flervalg', 'Hvor stor er sperregrensen for utjevningsmandater?', array['2 %', '4 %', '5 %', '10 %']::text[], 1, 'Partier under 4 % kan likevel vinne distriktsmandater.', true, true, 0),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q02', 'flervalg', 'Hva er formålet med utjevningsmandater?', array['Å gjøre resultatet mer rettferdig nasjonalt', 'Å gi flere mandater til store partier', 'Å gi kongen mandater', 'Å redusere antall partier']::text[], 0, 'Ett per valgdistrikt.', true, true, 1),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q03', 'flervalg', 'Hva er saksstemming?', array['Å stemme som foreldrene', 'Å stemme etter klasse', 'Å stemme ut fra politikken i viktige saker', 'Å stemme tilfeldig']::text[], 2, 'For eksempel klima eller skatt.', true, true, 2),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q04', 'flervalg', 'Hva er retrospektiv stemmegivning?', array['Å stemme på det nyeste partiet', 'Å stemme etter framtidige løfter', 'Å stemme blankt', 'Å belønne eller straffe regjeringen for hvordan det har gått']::text[], 3, 'Ser bakover.', true, true, 3),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q05', 'flervalg', 'Hvor stor er feilmarginen omtrent i en meningsmåling med 1000 personer?', array['±3 prosentpoeng', '±0,1 prosentpoeng', '±15 prosentpoeng', 'Ingen feilmargin']::text[], 0, 'Små endringer kan være tilfeldige.', true, true, 4),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q06', 'flervalg', 'Hva har skjedd med klassestemmegivningen de siste tiårene?', array['Den har blitt sterkere', 'Den har blitt svakere', 'Den er uendret', 'Den er forbudt']::text[], 1, 'Flere bytter parti.', true, true, 5),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q07', 'flervalg', 'Hvilke grupper har ofte lavere valgdeltakelse?', array['Eldre med høy utdanning', 'Pensjonister', 'Unge og personer med lav utdanning og inntekt', 'Politikere']::text[], 2, 'Gir skjev representasjon.', true, true, 6),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q08', 'flervalg', 'Hvorfor er lav valgdeltakelse et problem?', array['Det gjør valg dyrere', 'Det gir flere partier', 'Det gjør valget kortere', 'Det kan svekke legitimiteten og gi skjev representasjon']::text[], 3, 'Politikere lytter mest til velgerne.', true, true, 7),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q09', 'flervalg', 'Hva er partiidentifikasjon?', array['Varig tilhørighet til et parti', 'Et medlemskort', 'Et valgprogram', 'En meningsmåling']::text[], 0, 'Ofte formet gjennom familien.', true, false, 8),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'q10', 'flervalg', 'Hvorfor får distrikter med spredt bosetting flere mandater per innbygger?', array['Fordi de har flere partier', 'Fordi også areal teller i fordelingen', 'Fordi byene ikke stemmer', 'Fordi kongen bestemmer det']::text[], 1, 'Et distriktshensyn i valgordningen.', true, false, 9),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm01', 'sant-usant', 'Mange velgere bestemmer seg sent i valgkampen.', array['Sant', 'Usant']::text[], 0, 'Valgkampen har derfor stor betydning.', false, true, 10),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm02', 'sant-usant', 'En endring på ett prosentpoeng fra én meningsmåling til neste er alltid en reell endring.', array['Sant', 'Usant']::text[], 1, 'Den kan skyldes tilfeldig variasjon.', false, true, 11),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm03', 'sant-usant', 'Partimedlemskap har gått ned over tid.', array['Sant', 'Usant']::text[], 0, 'Mange engasjerer seg heller i saker.', false, true, 12),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm04', 'sant-usant', 'Et parti under sperregrensen kan aldri komme inn på Stortinget.', array['Sant', 'Usant']::text[], 1, 'Det kan vinne distriktsmandater.', false, true, 13),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm05', 'flervalg', 'Hvor mange distriktsmandater er det ved stortingsvalg?', array['19', '150', '169', '100']::text[], 1, 'I tillegg kommer 19 utjevningsmandater.', false, true, 14),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm06', 'flervalg', 'Hvilken metode gir innsikt i hvorfor noen lar være å stemme?', array['Kvalitative intervjuer', 'Valgresultatet alene', 'Mandatfordelingen', 'Sperregrensen']::text[], 0, 'Gir dybdekunnskap.', false, true, 15),
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'm07', 'flervalg', 'Hvilket tiltak er diskutert for å øke valgdeltakelsen blant unge?', array['Høyere stemmerettsalder', 'Færre valglokaler', 'Stemmerett for 16-åringer', 'Avskaffe skolevalg']::text[], 2, 'Prøvd ut i enkelte kommuner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Bærekraft og fordeling i politikken
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'politikk-og-menneskerettigheter', 'barekraft-og-fordeling', 'Bærekraft og fordeling i politikken', 'Dagsaktuelle problemstillinger om bærekraft og fordeling – klimapolitikk, olje og energi, ulikhet i Norge og globalt, fordeling mellom generasjoner og hvordan partiene ser på avveiningene.', array[7]::int[], 5, 'sjekkes', array['Sjekk gjeldende klimamål, handlingsregelen og skatteordninger mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', '## Tre dimensjoner
+
+**Bærekraftig utvikling** handler om å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Den har tre dimensjoner – **miljø**, **sosial** og **økonomi** – som ofte kommer i **konflikt** med hverandre. Derfor er bærekraft et **politisk** spørsmål.
+
+FN vedtok i **2015** de **17 bærekraftsmålene** med frist i **2030**.
+
+## Klimapolitikk
+
+- **Parisavtalen** (2015): Verdens land ble enige om å begrense oppvarmingen til godt under **2 °C**, og helst **1,5 °C**. Hvert land melder inn egne mål.
+- **Norges mål**: å kutte utslippene med minst **55 %** innen 2030 sammenlignet med 1990, og å bli et **lavutslippssamfunn** innen 2050. Målene står i **klimaloven**.
+- **Virkemidler**: **avgifter** på utslipp, **kvotehandel**, **forbud** og **påbud**, **subsidier** til elbiler og ny teknologi, og **forskning**.
+
+## Olje, gass og energi
+
+Olje og gass har gjort Norge **rikt**. Inntektene går til **Statens pensjonsfond utland** (oljefondet), og etter **handlingsregelen** kan staten over tid bruke omtrent **3 %** av fondet hvert år.
+
+Debatten handler om
+
+- **hvor raskt** oljevirksomheten skal trappes ned
+- **arbeidsplasser** og **distrikter** som er avhengige av næringen
+- **Europas energisikkerhet** etter Russlands angrep på Ukraina
+- **naturinngrep** ved utbygging av **vindkraft**, **kraftlinjer** og **vannkraft**
+
+## Fordeling i Norge
+
+Norge har **lav** inntektsulikhet sammenlignet med de fleste land, men ulikheten i **formue** er stor, og den har økt. Politiske virkemidler for fordeling er
+
+- **progressiv skatt**, der de med høy inntekt betaler en større andel
+- **formuesskatt** og **arveavgift** (arveavgiften ble fjernet i 2014)
+- **velferdsordninger** som barnetrygd, gratis skole og helsetjenester
+- **lønnsdannelse** gjennom trepartssamarbeidet
+
+Partiene er uenige om hvor mye som skal **omfordeles**, og hvordan skatt påvirker **arbeid** og **investeringer**.
+
+## Global fordeling
+
+- De **rikeste** landene har stått for størstedelen av de **historiske** utslippene, mens **fattige** land ofte rammes hardest av klimaendringene.
+- **Bistand**, **gjeldslette** og **klimafinansiering** er virkemidler.
+- Rettferdig **handel** og **arbeidsforhold** i globale verdikjeder.
+
+## Fordeling mellom generasjoner
+
+- Å spare oljeinntekter i fondet er en måte å dele rikdommen med **framtidige** generasjoner.
+- Utslipp i dag gir **kostnader** for de som kommer etter oss.
+- En **aldrende befolkning** gir økte utgifter til pensjon og omsorg.
+
+## Dilemmaer
+
+- **Klimaavgifter** kan ramme folk med **lav inntekt** og lang reisevei hardest – hvordan kan klimapolitikken bli **rettferdig**?
+- **Vindkraft** gir fornybar energi, men beslaglegger **natur** og kan krenke **urfolks rettigheter**.
+- **Arbeidsplasser** i dag mot **klima** i morgen.
+
+Når du drøfter, vis **ulike aktørers** interesser og verdier, bruk **fakta**, og vei hensynene mot hverandre.', '{"label":"Bærekraft og fordeling","children":[{"label":"Bærekraft","children":[{"label":"Tre dimensjoner"},{"label":"FNs 17 mål"}]},{"label":"Klima","children":[{"label":"Parisavtalen"},{"label":"Norges mål"},{"label":"Virkemidler"}]},{"label":"Olje og energi","children":[{"label":"Oljefondet"},{"label":"Handlingsregelen"},{"label":"Vindkraft og natur"}]},{"label":"Fordeling","children":[{"label":"Inntekt og formue"},{"label":"Skatt og velferd"},{"label":"Globalt"}]},{"label":"Generasjoner og dilemmaer","children":[{"label":"Framtidige generasjoner"},{"label":"Rettferdig omstilling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:barekraft-og-fordeling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Bærekraftig utvikling', 'Dekke dagens behov uten å ødelegge for framtidige generasjoner.', 0),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'FNs bærekraftsmål', '17 mål vedtatt i 2015 med frist i 2030.', 1),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Parisavtalen', '2015 – begrense oppvarmingen til godt under 2 °C, helst 1,5 °C.', 2),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Norges klimamål for 2030', 'Minst 55 % kutt fra 1990-nivå.', 3),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Klimaloven', 'Lov som fastsetter Norges klimamål.', 4),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Kvotehandel', 'Utslippstillatelser som kan kjøpes og selges.', 5),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Statens pensjonsfond utland', 'Oljefondet, der oljeinntektene spares.', 6),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Handlingsregelen', 'Staten kan over tid bruke omtrent 3 % av fondet per år.', 7),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Progressiv skatt', 'De med høy inntekt betaler en større andel.', 8),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Formuesskatt', 'Skatt på formue over et visst beløp.', 9),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Omfordeling', 'At staten flytter ressurser fra noen grupper til andre.', 10),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Klimafinansiering', 'Støtte fra rike land til klimatiltak i fattige land.', 11),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Generasjonsrettferdighet', 'Rettferdig fordeling mellom dagens og framtidige generasjoner.', 12),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Energisikkerhet', 'Sikker tilgang på energi.', 13),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'Rettferdig omstilling', 'Klimapolitikk som ikke rammer de svakeste hardest.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:barekraft-og-fordeling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q01', 'flervalg', 'Hva er målet i Parisavtalen?', array['Å øke oljeproduksjonen', 'Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C', 'Å stanse all handel', 'Å avskaffe FN']::text[], 1, 'Vedtatt i 2015.', true, true, 0),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q02', 'flervalg', 'Hva sier handlingsregelen?', array['At staten over tid kan bruke omtrent 3 % av oljefondet per år', 'At alt av oljefondet skal brukes', 'At oljefondet skal deles ut til alle', 'At oljeutvinningen skal stanse']::text[], 0, 'For å spare til framtiden.', true, true, 1),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q03', 'flervalg', 'Hva er progressiv skatt?', array['At alle betaler samme beløp', 'At de med lav inntekt betaler mest', 'At de med høy inntekt betaler en større andel', 'At bedrifter slipper skatt']::text[], 2, 'Et virkemiddel for omfordeling.', true, true, 2),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q04', 'flervalg', 'Hvorfor kan klimaavgifter reise fordelingsspørsmål?', array['Fordi de gjelder bare rike', 'Fordi de er gratis', 'Fordi de ikke påvirker noen', 'Fordi de kan ramme folk med lav inntekt og lang reisevei hardest']::text[], 3, 'Rettferdig omstilling.', true, true, 3),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q05', 'flervalg', 'Hvilket klimamål har Norge for 2030?', array['Minst 55 % kutt fra 1990-nivå', '10 % kutt', 'Ingen mål', 'Å doble utslippene']::text[], 0, 'Fastsatt i klimaloven.', true, true, 4),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q06', 'flervalg', 'Hvilket dilemma knytter seg til vindkraft?', array['At den gir mer utslipp', 'At den gir fornybar energi, men beslaglegger natur', 'At den er forbudt', 'At den ikke gir strøm']::text[], 1, 'Og kan krenke urfolks rettigheter.', true, true, 5),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q07', 'flervalg', 'Hvem rammes ofte hardest av klimaendringene globalt?', array['De rikeste landene', 'Oljeselskapene', 'Fattige land som har bidratt minst til utslippene', 'Ingen']::text[], 2, 'Et globalt fordelingsproblem.', true, true, 6),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q08', 'flervalg', 'Hvordan kan oljefondet ses som fordeling mellom generasjoner?', array['Fordi pengene brukes opp i dag', 'Fordi fondet gir penger bare til eldre', 'Fordi fondet er hemmelig', 'Fordi rikdommen spares og deles med framtidige generasjoner']::text[], 3, 'Generasjonsrettferdighet.', true, true, 7),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q09', 'flervalg', 'Hva er større i Norge – inntektsulikheten eller formuesulikheten?', array['Formuesulikheten', 'Inntektsulikheten', 'De er like', 'Det finnes ingen ulikhet']::text[], 0, 'Formue er skjevere fordelt.', true, false, 8),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'q10', 'flervalg', 'Hvilket virkemiddel er kvotehandel?', array['Et forbud', 'Et markedsbasert klimavirkemiddel der utslippstillatelser kjøpes og selges', 'En type bistand', 'En valgordning']::text[], 1, 'Gir en pris på utslipp.', true, false, 9),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm01', 'sant-usant', 'De tre dimensjonene av bærekraft kan komme i konflikt med hverandre.', array['Sant', 'Usant']::text[], 0, 'Derfor er bærekraft et politisk spørsmål.', false, true, 10),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm02', 'sant-usant', 'Norge har høyere inntektsulikhet enn de fleste land.', array['Sant', 'Usant']::text[], 1, 'Norge har lav inntektsulikhet sammenlignet med de fleste land.', false, true, 11),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm03', 'sant-usant', 'Partiene er uenige om hvor mye som skal omfordeles.', array['Sant', 'Usant']::text[], 0, 'En sentral høyre–venstre-konflikt.', false, true, 12),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm04', 'sant-usant', 'FNs bærekraftsmål ble vedtatt i 1990.', array['Sant', 'Usant']::text[], 1, 'De ble vedtatt i 2015.', false, true, 13),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm05', 'flervalg', 'Hvilket virkemiddel er et forbud eller påbud?', array['Kvotehandel', 'Krav om nullutslipp for nye ferger', 'Skattefradrag', 'Bistand']::text[], 1, 'Direkte regulering.', false, true, 14),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm06', 'flervalg', 'Hva er Statens pensjonsfond utland?', array['Oljefondet', 'En pensjonskasse for statsansatte', 'Et fond for bistand', 'Norges Banks valutareserve alene']::text[], 0, 'Der oljeinntektene spares.', false, true, 15),
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'm07', 'flervalg', 'Hva gjorde energisikkerhet i Europa mer aktuelt etter 2022?', array['Brexit', 'Finanskrisen', 'Russlands angrep på Ukraina', 'Covid-19']::text[], 2, 'Europa ble mindre avhengig av russisk gass.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Urfolks og minoriteters rettigheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'politikk-og-menneskerettigheter', 'urfolk-og-minoriteter', 'Urfolks og minoriteters rettigheter', 'Rettighetene til urfolk og minoriteter i Norge og internasjonalt – samer og nasjonale minoriteter, Sametinget og konsultasjonsordningen, ILO 169 og FN-erklæringen – og spørsmål om politisk innflytelse og særrettigheter.', array[8]::int[], 6, 'sjekkes', array['Sjekk status i Fosen-saken og gjeldende regler for konsultasjoner mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', '## Hvem er urfolk og minoriteter?
+
+- **Urfolk** er folk som nedstammer fra dem som bodde i et område **før** dagens statsgrenser ble trukket, og som har bevart egen kultur og egne institusjoner. **Samene** er urfolk i Norge.
+- **Nasjonale minoriteter** er grupper med **lang tilknytning** til landet. I Norge er det **kvener/norskfinner**, **skogfinner**, **jøder**, **rom** og **romanifolk/tatere**.
+- **Andre minoriteter** er blant annet innvandrere og deres etterkommere, religiøse minoriteter og seksuelle minoriteter.
+
+## Internasjonale rettigheter
+
+- **FNs konvensjon om sivile og politiske rettigheter (SP) artikkel 27**: Minoriteter har rett til å utøve sin **kultur**, sin **religion** og bruke sitt **språk**.
+- **ILO-konvensjon 169** om urfolk. Norge var det **første** landet som ratifiserte den, i **1990**. Den gir rett til **konsultasjon** og **deltakelse** i saker som berører urfolk, og rett til **land og ressurser**.
+- **FNs erklæring om urfolks rettigheter** (2007) slår fast retten til **selvbestemmelse**.
+- **Europarådets rammekonvensjon** om beskyttelse av nasjonale minoriteter og **minoritetsspråkpakten** gjelder også for Norge.
+
+## Samisk politisk innflytelse
+
+- **Grunnloven § 108** forplikter staten til å legge til rette for samisk **språk**, **kultur** og **samfunnsliv**.
+- **Sametinget** ble opprettet i **1989**. Det har **39** representanter valgt av dem som står i **samemanntallet**. Sametinget har ansvar for blant annet samisk språk og kultur og gir råd til staten, men har **begrenset** beslutningsmyndighet.
+- **Konsultasjonsordningen** – nå lovfestet i **sameloven** – pålegger statlige myndigheter, kommuner og fylkeskommuner å **konsultere** samiske interesser før de tar beslutninger som kan påvirke dem direkte.
+- **Finnmarksloven** (2005) overførte eierskap til grunnen i Finnmark til **Finnmarkseiendommen**, som styres av både Sametinget og Finnmark fylkeskommune.
+
+## Aktuelle saker
+
+- **Fosen-saken**: Høyesterett slo i **2021** fast at vindturbinene på Fosen krenket reindriftssamenes rett etter **SP artikkel 27**. Det tok lang tid før staten og reindriftssamene kom fram til løsninger, noe som førte til store **protester** i 2023.
+- **Sannhets- og forsoningskommisjonen** la i **2023** fram rapporten om **fornorskningspolitikken** og uretten den påførte samer, kvener og skogfinner.
+- **Språk**: Flere samiske språk og kvensk er **truet**, og det satses på **revitalisering**.
+
+## Internasjonale eksempler
+
+- Mange urfolk kjemper for rettigheter til **land** og **ressurser** mot gruvedrift, skogshogst og energiprosjekter, for eksempel i **Amazonas**.
+- **Minoriteter** utsettes i noen land for alvorlig undertrykkelse, som **rohingyaene** i Myanmar og **uigurene** i Kina.
+- **FNs permanente forum for urfolkssaker** gir urfolk en stemme i FN-systemet.
+
+## Drøfting
+
+**Særrettigheter** for urfolk og minoriteter er omdiskutert:
+
+- **For**: De skal rette opp **historisk urett**, sikre at små kulturer overlever mot et stort **flertall**, og er i tråd med **menneskerettighetene**.
+- **Mot**: Noen mener at alle borgere bør ha **like** rettigheter, og at særrettigheter kan skape **nye skiller**.
+
+Et viktig spørsmål er hvordan et **demokrati**, som styres av **flertallet**, kan sikre at **mindretall** blir hørt og ikke overkjøres.', '{"label":"Urfolk og minoriteter","children":[{"label":"Grupper","children":[{"label":"Samer"},{"label":"Nasjonale minoriteter"},{"label":"Andre minoriteter"}]},{"label":"Internasjonalt vern","children":[{"label":"SP artikkel 27"},{"label":"ILO 169"},{"label":"FNs urfolkserklæring"}]},{"label":"Samisk innflytelse","children":[{"label":"Grunnloven § 108"},{"label":"Sametinget"},{"label":"Konsultasjoner"}]},{"label":"Aktuelle saker","children":[{"label":"Fosen"},{"label":"Sannhetskommisjonen"},{"label":"Språk"}]},{"label":"Drøfting","children":[{"label":"Særrettigheter"},{"label":"Flertall og mindretall"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:urfolk-og-minoriteter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Urfolk i Norge', 'Samene.', 0),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Nasjonale minoriteter i Norge', 'Kvener/norskfinner, skogfinner, jøder, rom og romanifolk/tatere.', 1),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'SP artikkel 27', 'Minoriteters rett til egen kultur, religion og språk.', 2),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'ILO-konvensjon 169', 'Konvensjon om urfolk; Norge ratifiserte først, i 1990.', 3),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'FNs urfolkserklæring', 'Fra 2007 – slår fast retten til selvbestemmelse.', 4),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Rammekonvensjonen', 'Europarådets konvensjon om beskyttelse av nasjonale minoriteter.', 5),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Grunnloven § 108', 'Staten skal legge til rette for samisk språk, kultur og samfunnsliv.', 6),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Sametinget', 'Samenes folkevalgte organ fra 1989 med 39 representanter.', 7),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Samemanntallet', 'Registeret over dem som kan stemme ved sametingsvalg.', 8),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Konsultasjonsordningen', 'Plikt til å konsultere samiske interesser før beslutninger som berører dem.', 9),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Finnmarkseiendommen', 'Eier grunnen i Finnmark etter finnmarksloven (2005).', 10),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Fosen-saken', 'Høyesterett 2021: vindturbiner krenket reindriftssamenes rettigheter.', 11),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Språkrevitalisering', 'Arbeid for å styrke truede språk.', 12),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Særrettigheter', 'Rettigheter som gjelder bestemte grupper.', 13),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'Flertallsstyre og mindretallsvern', 'Demokratiets utfordring med å sikre at mindretall blir hørt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:urfolk-og-minoriteter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q01', 'flervalg', 'Hvilken gruppe er urfolk i Norge?', array['Kvener', 'Samer', 'Skogfinner', 'Romanifolk']::text[], 1, 'De andre er nasjonale minoriteter.', true, true, 0),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q02', 'flervalg', 'Hva sier SP artikkel 27?', array['At minoriteter har rett til egen kultur, religion og språk', 'At alle må snakke majoritetsspråket', 'At stater kan forby minoritetsspråk', 'At bare urfolk har rettigheter']::text[], 0, 'Brukt i Fosen-dommen.', true, true, 1),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q03', 'flervalg', 'Hva er konsultasjonsordningen?', array['En valgordning', 'En skatteordning', 'En plikt til å konsultere samiske interesser før beslutninger som berører dem', 'Et samisk parti']::text[], 2, 'Lovfestet i sameloven.', true, true, 2),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q04', 'flervalg', 'Hvor mange representanter har Sametinget?', array['169', '19', '100', '39']::text[], 3, 'Valgt av dem i samemanntallet.', true, true, 3),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q05', 'flervalg', 'Hva slo Høyesterett fast i Fosen-saken?', array['At vindturbinene krenket reindriftssamenes rettigheter', 'At vindkraft er forbudt', 'At Sametinget skal avskaffes', 'At reindrift er ulovlig']::text[], 0, 'I 2021.', true, true, 4),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q06', 'flervalg', 'Hvilket av disse er en nasjonal minoritet i Norge?', array['Samer', 'Kvener', 'Polakker', 'Svensker']::text[], 1, 'Med lang tilknytning til landet.', true, true, 5),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q07', 'flervalg', 'Hva er et argument for særrettigheter for urfolk?', array['At urfolk er bedre enn andre', 'At flertallet skal bestemme alt', 'At de retter opp historisk urett og sikrer at små kulturer overlever', 'At de gir økonomisk vekst']::text[], 2, 'I tråd med menneskerettighetene.', true, true, 6),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q08', 'flervalg', 'Hvilket land ratifiserte først ILO-konvensjon 169?', array['Sverige', 'Canada', 'Brasil', 'Norge']::text[], 3, 'I 1990.', true, true, 7),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q09', 'flervalg', 'Hva handlet rapporten fra Sannhets- og forsoningskommisjonen om?', array['Fornorskningspolitikken og uretten den påførte samer, kvener og skogfinner', 'Oljepolitikken', 'EU-medlemskap', 'Valgordningen']::text[], 0, 'Lagt fram i 2023.', true, false, 8),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'q10', 'flervalg', 'Hvilken utfordring har et demokrati når det gjelder minoriteter?', array['Å gi minoritetene all makt', 'Å sikre at mindretall blir hørt og ikke overkjøres av flertallet', 'Å avskaffe valg', 'Å forby minoritetsspråk']::text[], 1, 'Flertallsstyre og mindretallsvern.', true, false, 9),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm01', 'sant-usant', 'Sametinget har begrenset beslutningsmyndighet.', array['Sant', 'Usant']::text[], 0, 'Det gir også råd til staten.', false, true, 10),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm02', 'sant-usant', 'Jøder er urfolk i Norge.', array['Sant', 'Usant']::text[], 1, 'Jøder er en nasjonal minoritet.', false, true, 11),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm03', 'sant-usant', 'Flere samiske språk regnes som truet.', array['Sant', 'Usant']::text[], 0, 'Det satses på revitalisering.', false, true, 12),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm04', 'sant-usant', 'Alle er enige om at særrettigheter for minoriteter er riktig.', array['Sant', 'Usant']::text[], 1, 'Særrettigheter er omdiskutert.', false, true, 13),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm05', 'flervalg', 'Hvilken minoritet i Myanmar har vært utsatt for alvorlig undertrykkelse?', array['Uigurene', 'Rohingyaene', 'Kurderne', 'Maoriene']::text[], 1, 'Mange har flyktet til Bangladesh.', false, true, 14),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm06', 'flervalg', 'Hvem eier grunnen i Finnmark etter finnmarksloven?', array['Finnmarkseiendommen', 'Staten alene', 'Kongen', 'Reindriftsnæringen']::text[], 0, 'Styres av Sametinget og fylkeskommunen.', false, true, 15),
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'm07', 'flervalg', 'Når ble Sametinget opprettet?', array['1814', '1945', '1989', '2005']::text[], 2, 'Etter Altasaken.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Menneskerettigheter, demokrati og velferdsstat
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'politikk-og-menneskerettigheter', 'menneskerettigheter-demokrati-og-velferd', 'Menneskerettigheter, demokrati og velferdsstat', 'Hva menneskerettigheter er og hvordan de utviklet seg, sivile og politiske mot økonomiske, sosiale og kulturelle rettigheter, hvordan de er gjennomført i norsk rett – og hvilken betydning de har for demokratiet og velferdsstaten.', array[9]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', '## Hva er menneskerettigheter?
+
+**Menneskerettigheter** er grunnleggende rettigheter **alle** mennesker har, fordi de er mennesker. De er
+
+- **universelle** – de gjelder alle
+- **umistelige** – de kan ikke tas fra noen
+- **udelelige** – de henger sammen og er like viktige
+
+Menneskerettighetene beskytter **individet** mot **staten**, men pålegger også staten å **sikre** og **oppfylle** rettighetene.
+
+## Framvekst
+
+Ideene har røtter i blant annet **opplysningstiden** og revolusjonene på 1700-tallet. Etter **andre verdenskrig** og **Holocaust** ble det enighet om at verden trengte felles regler. **FNs verdenserklæring om menneskerettighetene** ble vedtatt **10. desember 1948**. Den er ikke juridisk bindende i seg selv, men har fått enorm betydning.
+
+Senere kom bindende **konvensjoner**:
+
+- **Den europeiske menneskerettskonvensjonen (EMK)**, 1950
+- **FNs konvensjon om sivile og politiske rettigheter (SP)** og **FNs konvensjon om økonomiske, sosiale og kulturelle rettigheter (ØSK)**, begge 1966
+- **Barnekonvensjonen** (1989), **kvinnediskrimineringskonvensjonen** (CEDAW) og konvensjonen mot **tortur**
+
+## To hovedtyper rettigheter
+
+**Sivile og politiske rettigheter** (**frihetsrettigheter**):
+
+- retten til **liv**, forbud mot **tortur** og **slaveri**
+- **ytringsfrihet**, **religionsfrihet**, **forsamlings-** og **organisasjonsfrihet**
+- **stemmerett** og rett til **rettferdig rettergang**
+
+Staten må først og fremst **la være** å krenke dem.
+
+**Økonomiske, sosiale og kulturelle rettigheter** (**velferdsrettigheter**):
+
+- rett til **arbeid**, **utdanning**, **helse**, **bolig** og **sosial trygghet**
+- rett til å delta i **kulturliv**
+
+Staten må **gjøre** noe aktivt – og rettighetene skal oppfylles **gradvis** etter statens ressurser.
+
+## Menneskerettigheter i norsk rett
+
+- **Grunnloven** fikk i **2014** et eget kapittel om menneskerettigheter.
+- **Menneskerettsloven** (1999) gjør EMK, SP, ØSK, Barnekonvensjonen og CEDAW til **norsk lov** med **forrang** foran annen lov.
+- **Domstolene** kan prøve om lover og vedtak er i strid med menneskerettighetene.
+
+## Betydning for demokratiet
+
+Demokrati er mer enn flertallsstyre. Uten **ytringsfrihet**, **pressefrihet**, **organisasjonsfrihet** og **frie valg** kan ikke folket gjøre seg opp en mening og kontrollere makthaverne. Menneskerettighetene **beskytter mindretall** mot flertallets overgrep og setter **grenser** for hva et flertall kan vedta.
+
+## Betydning for velferdsstaten
+
+Velferdsstaten kan ses som en måte å **oppfylle** de sosiale rettighetene: gratis **skole**, **helsehjelp**, **trygder** og **pensjon**. Menneskerettighetene gir også enkeltmennesker **krav** mot staten – for eksempel barns rett til **utdanning** og **helsehjelp**.
+
+## Spenninger
+
+- Når **domstoler** kan sette til side lover med henvisning til menneskerettighetene, flyttes makt fra **folkevalgte** til **dommere**. Noen kaller dette **rettsliggjøring** av politikken.
+- Rettigheter kan **kollidere** – for eksempel ytringsfrihet mot vern mot hat og diskriminering, eller privatliv mot sikkerhet.
+- **Kostnader**: Sosiale rettigheter krever ressurser, og politikerne må prioritere.', '{"label":"Menneskerettigheter","children":[{"label":"Kjennetegn","children":[{"label":"Universelle"},{"label":"Umistelige"},{"label":"Udelelige"}]},{"label":"Framvekst","children":[{"label":"Verdenserklæringen 1948"},{"label":"EMK, SP og ØSK"},{"label":"Barnekonvensjonen"}]},{"label":"Typer","children":[{"label":"Sivile og politiske"},{"label":"Økonomiske, sosiale og kulturelle"}]},{"label":"Norsk rett","children":[{"label":"Grunnloven 2014"},{"label":"Menneskerettsloven"},{"label":"Domstolene"}]},{"label":"Betydning","children":[{"label":"Demokrati"},{"label":"Velferdsstat"},{"label":"Spenninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Menneskerettigheter', 'Grunnleggende rettigheter alle har fordi de er mennesker.', 0),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Universelle', 'Gjelder alle mennesker.', 1),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Umistelige', 'Kan ikke tas fra noen.', 2),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Verdenserklæringen', 'FNs erklæring om menneskerettighetene, vedtatt 10. desember 1948.', 3),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'EMK', 'Den europeiske menneskerettskonvensjonen fra 1950.', 4),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'SP', 'FNs konvensjon om sivile og politiske rettigheter (1966).', 5),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'ØSK', 'FNs konvensjon om økonomiske, sosiale og kulturelle rettigheter (1966).', 6),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Barnekonvensjonen', 'FN-konvensjon om barns rettigheter fra 1989.', 7),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Sivile og politiske rettigheter', 'Frihetsrettigheter som ytringsfrihet og stemmerett.', 8),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Økonomiske, sosiale og kulturelle rettigheter', 'Velferdsrettigheter som utdanning, helse og bolig.', 9),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Menneskerettsloven', 'Gjør sentrale konvensjoner til norsk lov med forrang (1999).', 10),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Grunnlovens menneskerettighetskapittel', 'Kom i 2014.', 11),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Mindretallsvern', 'Beskyttelse av mindretall mot flertallets overgrep.', 12),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Rettsliggjøring', 'At makt flyttes fra folkevalgte til domstoler.', 13),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'Rettighetskollisjon', 'Når to rettigheter står mot hverandre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q01', 'flervalg', 'Når ble FNs verdenserklæring om menneskerettighetene vedtatt?', array['1814', '1948', '1966', '1999']::text[], 1, '10. desember 1948.', true, true, 0),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q02', 'flervalg', 'Hvilken rettighet er en sivil og politisk rettighet?', array['Ytringsfrihet', 'Rett til bolig', 'Rett til helse', 'Rett til arbeid']::text[], 0, 'En frihetsrettighet.', true, true, 1),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q03', 'flervalg', 'Hva gjør menneskerettsloven av 1999?', array['Avskaffer Grunnloven', 'Oppretter Sametinget', 'Gjør sentrale konvensjoner til norsk lov med forrang', 'Gir kongen mer makt']::text[], 2, 'EMK, SP, ØSK, Barnekonvensjonen og CEDAW.', true, true, 2),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q04', 'flervalg', 'Hvorfor er menneskerettighetene viktige for demokratiet?', array['De gir kongen makt', 'De avskaffer valg', 'De gjør flertallet allmektig', 'De sikrer ytringsfrihet, frie valg og vern om mindretall']::text[], 3, 'Demokrati er mer enn flertallsstyre.', true, true, 3),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q05', 'flervalg', 'Hvordan kan velferdsstaten ses i lys av menneskerettighetene?', array['Som en måte å oppfylle de sosiale rettighetene', 'Som et brudd på menneskerettighetene', 'Som uten sammenheng', 'Som bare en økonomisk ordning']::text[], 0, 'Skole, helse og trygd.', true, true, 4),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q06', 'flervalg', 'Hva er rettsliggjøring?', array['At flere lover blir vedtatt', 'At makt flyttes fra folkevalgte til domstoler', 'At domstolene blir nedlagt', 'At alle blir jurister']::text[], 1, 'En spenning mellom menneskerettigheter og demokrati.', true, true, 5),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q07', 'flervalg', 'Hva betyr at menneskerettighetene er udelelige?', array['At de bare gjelder én gruppe', 'At de kan deles ut', 'At de henger sammen og er like viktige', 'At de kan selges']::text[], 2, 'Universelle, umistelige og udelelige.', true, true, 6),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q08', 'flervalg', 'Hva må staten gjøre for å oppfylle sosiale rettigheter?', array['Ingenting', 'Bare la være å krenke dem', 'Forby dem', 'Gjøre noe aktivt, for eksempel sørge for skole og helsehjelp']::text[], 3, 'Oppfylles gradvis etter ressursene.', true, true, 7),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q09', 'flervalg', 'Når fikk Grunnloven et eget kapittel om menneskerettigheter?', array['2014', '1814', '1948', '1999']::text[], 0, 'Ved 200-årsjubileet.', true, false, 8),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'q10', 'flervalg', 'Hva er et eksempel på en rettighetskollisjon?', array['Stemmerett mot valgdeltakelse', 'Ytringsfrihet mot vern mot hat og diskriminering', 'Utdanning mot skole', 'Helse mot sykehus']::text[], 1, 'Rettigheter må noen ganger veies mot hverandre.', true, false, 9),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm01', 'sant-usant', 'Verdenserklæringen fra 1948 er ikke juridisk bindende i seg selv.', array['Sant', 'Usant']::text[], 0, 'Senere konvensjoner er bindende.', false, true, 10),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm02', 'sant-usant', 'Menneskerettighetene beskytter bare flertallet.', array['Sant', 'Usant']::text[], 1, 'De beskytter særlig mindretall og enkeltpersoner.', false, true, 11),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm03', 'sant-usant', 'Barnekonvensjonen er gjort til norsk lov med forrang.', array['Sant', 'Usant']::text[], 0, 'Gjennom menneskerettsloven.', false, true, 12),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm04', 'sant-usant', 'Rett til utdanning er en sivil og politisk rettighet.', array['Sant', 'Usant']::text[], 1, 'Det er en sosial rettighet.', false, true, 13),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm05', 'flervalg', 'Hvilken hendelse var en viktig bakgrunn for verdenserklæringen?', array['Den franske revolusjonen', 'Andre verdenskrig og Holocaust', 'Den kalde krigen', 'Kalmarunionen']::text[], 1, 'Verden trengte felles regler.', false, true, 14),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm06', 'flervalg', 'Hvilken konvensjon er europeisk?', array['EMK', 'SP', 'ØSK', 'CEDAW']::text[], 0, 'Den europeiske menneskerettskonvensjonen.', false, true, 15),
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 'm07', 'flervalg', 'Hva må staten først og fremst gjøre for å respektere sivile og politiske rettigheter?', array['Bygge sykehus', 'Gi alle bolig', 'La være å krenke dem', 'Innføre skatt']::text[], 2, 'For eksempel ikke sensurere eller torturere.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:menneskerettigheter-demokrati-og-velferd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Folkeretten
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:folkeretten', 'politikk-og-menneskerettigheter', 'folkeretten', 'Folkeretten', 'Hva folkeretten er og hvor den kommer fra – traktater, sedvanerett og FN-pakten – regler om maktbruk, krigens folkerett, havretten og internasjonale domstoler, og hvilken rolle folkeretten spiller nasjonalt og internasjonalt.', array[10]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:folkeretten', '## Hva er folkerett?
+
+**Folkeretten** er reglene som gjelder **mellom stater** – og i økende grad også for internasjonale organisasjoner og enkeltpersoner. Den regulerer blant annet **grenser**, **hav**, **krig**, **handel**, **miljø** og **menneskerettigheter**.
+
+## Kilder til folkeretten
+
+- **Traktater** (konvensjoner, avtaler): skriftlige avtaler mellom stater. De binder bare statene som har sluttet seg til dem – ved **ratifikasjon**.
+- **Sedvanerett**: regler som har blitt til gjennom fast **praksis** som statene oppfatter som **bindende**. Den gjelder for **alle** stater.
+- **Alminnelige rettsprinsipper**, som at avtaler skal holdes.
+
+## FN-pakten
+
+**FN-pakten** fra **1945** er folkerettens viktigste traktat.
+
+- **Voldsforbudet** (artikkel 2 nr. 4): Stater skal ikke bruke **makt** mot andre staters territorium eller uavhengighet.
+- **Unntak**: **selvforsvar** mot et væpnet angrep (artikkel 51) og maktbruk med **mandat fra Sikkerhetsrådet** (kapittel VII).
+- **Suverenitet**: Alle stater er **formelt like**, og andre stater skal ikke blande seg i deres **indre** anliggender.
+
+## Krigens folkerett
+
+**Den humanitære folkeretten** gjelder **under** væpnede konflikter. **Genèvekonvensjonene** (1949) beskytter **sivile**, **sårede** og **krigsfanger**. Viktige prinsipper er
+
+- **atskillelse**: angrep skal bare rettes mot **militære mål**, ikke sivile
+- **forholdsmessighet**: sivile tap skal ikke være **uforholdsmessige** sammenlignet med den militære fordelen
+- forbud mot **tortur** og visse **våpen**, som kjemiske våpen
+
+## Havretten
+
+**Havrettskonvensjonen** (1982) gir kyststater en **økonomisk sone** på inntil **200 nautiske mil**, der de har rett til fisk, olje og gass. Den har stor betydning for **Norge**.
+
+## Domstoler
+
+- **Den internasjonale domstolen (ICJ)** i Haag avgjør **tvister mellom stater**.
+- **Den internasjonale straffedomstolen (ICC)** i Haag, opprettet i **2002**, kan straffe **enkeltpersoner** for **folkemord**, **forbrytelser mot menneskeheten**, **krigsforbrytelser** og **aggresjon**. Stormakter som **USA**, **Russland** og **Kina** er ikke med.
+
+## Folkeretten i Norge
+
+Norge har et **dualistisk** system: Folkerettslige avtaler må som hovedregel gjøres til norsk lov før de kan brukes direkte i norske domstoler. Menneskerettighetene er gjennomført i **menneskerettsloven**, og **EØS-avtalen** er gjort til norsk lov. Norge har som **lite land** stor interesse av at **rett**, ikke **makt**, styrer internasjonal politikk.
+
+## Styrker og svakheter
+
+- **Styrker**: Folkeretten gir **forutsigbarhet**, beskytter **små stater**, gjør det mulig å løse konflikter **fredelig** og setter **normer** som stater og opinion kan vise til.
+- **Svakheter**: Det finnes ingen **verdenspoliti**. Håndhevelsen avhenger av statenes vilje. De fem faste medlemmene i **Sikkerhetsrådet** kan bruke **veto** og blokkere tiltak – også mot seg selv. Stormakter bryter noen ganger folkeretten uten at det får store følger, som da **Russland** angrep **Ukraina** i 2022.
+
+## Ansvaret for å beskytte
+
+Prinsippet om **ansvaret for å beskytte** (**R2P**, 2005) sier at stater har ansvar for å beskytte sin egen befolkning mot folkemord og massive overgrep. Svikter en stat, har det internasjonale samfunnet et **ansvar** – men bruk av makt krever fortsatt Sikkerhetsrådets godkjenning.', '{"label":"Folkeretten","children":[{"label":"Kilder","children":[{"label":"Traktater"},{"label":"Sedvanerett"},{"label":"Rettsprinsipper"}]},{"label":"FN-pakten","children":[{"label":"Voldsforbudet"},{"label":"Selvforsvar"},{"label":"Suverenitet"}]},{"label":"Områder","children":[{"label":"Krigens folkerett"},{"label":"Havretten"},{"label":"Menneskerettigheter"}]},{"label":"Domstoler","children":[{"label":"ICJ"},{"label":"ICC"}]},{"label":"Vurdering","children":[{"label":"Norge og dualisme"},{"label":"Styrker og svakheter"},{"label":"R2P"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:folkeretten';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:folkeretten', 'Folkerett', 'Reglene som gjelder mellom stater.', 0),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Traktat', 'Skriftlig avtale mellom stater.', 1),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Ratifikasjon', 'At en stat formelt slutter seg til en traktat.', 2),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Sedvanerett', 'Regler fra fast praksis som oppfattes som bindende.', 3),
+  ('politikk-og-menneskerettigheter:folkeretten', 'FN-pakten', 'Folkerettens viktigste traktat fra 1945.', 4),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Voldsforbudet', 'Stater skal ikke bruke makt mot andre stater (artikkel 2 nr. 4).', 5),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Selvforsvar (artikkel 51)', 'Unntak fra voldsforbudet ved væpnet angrep.', 6),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Suverenitet', 'Stater er formelt like og bestemmer over egne forhold.', 7),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Humanitær folkerett', 'Regler som gjelder under væpnede konflikter.', 8),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Genèvekonvensjonene', 'Beskytter sivile, sårede og krigsfanger (1949).', 9),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Forholdsmessighet', 'Sivile tap skal ikke være uforholdsmessige.', 10),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Havrettskonvensjonen', 'Gir kyststater økonomisk sone på inntil 200 nautiske mil.', 11),
+  ('politikk-og-menneskerettigheter:folkeretten', 'ICJ', 'Den internasjonale domstolen – tvister mellom stater.', 12),
+  ('politikk-og-menneskerettigheter:folkeretten', 'ICC', 'Den internasjonale straffedomstolen – straffer enkeltpersoner.', 13),
+  ('politikk-og-menneskerettigheter:folkeretten', 'Dualisme', 'Folkerett må gjøres til norsk lov for å brukes direkte i domstolene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:folkeretten';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:folkeretten', 'q01', 'flervalg', 'Hva er sedvanerett?', array['Skriftlige avtaler', 'Regler fra fast praksis som oppfattes som bindende', 'Nasjonale lover', 'Religiøse regler']::text[], 1, 'Gjelder for alle stater.', true, true, 0),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q02', 'flervalg', 'Hva sier voldsforbudet i FN-pakten?', array['At stater ikke skal bruke makt mot andre stater', 'At alle kriger er lovlige', 'At bare stormakter kan bruke makt', 'At FN har egen hær']::text[], 0, 'Artikkel 2 nr. 4.', true, true, 1),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q03', 'flervalg', 'Hva er unntakene fra voldsforbudet?', array['Økonomiske interesser', 'Religiøse grunner', 'Selvforsvar og mandat fra Sikkerhetsrådet', 'Grensetvister']::text[], 2, 'Artikkel 51 og kapittel VII.', true, true, 2),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q04', 'flervalg', 'Hvem kan ICC straffe?', array['Stater', 'Selskaper', 'FN', 'Enkeltpersoner for folkemord, krigsforbrytelser og lignende']::text[], 3, 'Opprettet i 2002.', true, true, 3),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q05', 'flervalg', 'Hva beskytter Genèvekonvensjonene?', array['Sivile, sårede og krigsfanger', 'Handelsavtaler', 'Fiskekvoter', 'Valg']::text[], 0, 'Humanitær folkerett.', true, true, 4),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q06', 'flervalg', 'Hva er en svakhet ved folkeretten?', array['Den har for mange domstoler', 'Det finnes ingen verdenspoliti, og vetoretten kan blokkere tiltak', 'Den gjelder bare små stater', 'Den har ingen regler']::text[], 1, 'Håndhevelse avhenger av statene.', true, true, 5),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q07', 'flervalg', 'Hva betyr det at Norge har et dualistisk system?', array['At Norge har to regjeringer', 'At Norge ikke følger folkeretten', 'At folkerettslige avtaler må gjøres til norsk lov før de brukes direkte i domstolene', 'At Norge har to språk']::text[], 2, 'For eksempel gjennom menneskerettsloven.', true, true, 6),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q08', 'flervalg', 'Hvor stor økonomisk sone gir havrettskonvensjonen kyststater?', array['12 nautiske mil', '50 nautiske mil', '1000 nautiske mil', 'Inntil 200 nautiske mil']::text[], 3, 'Rett til fisk, olje og gass.', true, true, 7),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q09', 'flervalg', 'Hvorfor har Norge stor interesse av en sterk folkerett?', array['Fordi små land tjener på at rett, ikke makt, styrer', 'Fordi Norge er en stormakt', 'Fordi Norge ikke har grenser', 'Fordi Norge ikke er med i FN']::text[], 0, 'Folkeretten beskytter små stater.', true, false, 8),
+  ('politikk-og-menneskerettigheter:folkeretten', 'q10', 'flervalg', 'Hva sier prinsippet om ansvaret for å beskytte (R2P)?', array['At stater kan angripe hvem de vil', 'At stater har ansvar for å beskytte egen befolkning, og verdenssamfunnet har ansvar hvis de svikter', 'At FN skal styre alle land', 'At krig er forbudt uten unntak']::text[], 1, 'Vedtatt i 2005.', true, false, 9),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm01', 'sant-usant', 'En traktat binder bare statene som har sluttet seg til den.', array['Sant', 'Usant']::text[], 0, 'Ved ratifikasjon.', false, true, 10),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm02', 'sant-usant', 'USA, Russland og Kina er medlemmer av ICC.', array['Sant', 'Usant']::text[], 1, 'Ingen av dem er med.', false, true, 11),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm03', 'sant-usant', 'Havrettskonvensjonen har stor betydning for Norge.', array['Sant', 'Usant']::text[], 0, 'På grunn av fisk, olje og gass.', false, true, 12),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm04', 'sant-usant', 'Under krig gjelder ingen regler.', array['Sant', 'Usant']::text[], 1, 'Den humanitære folkeretten gjelder.', false, true, 13),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm05', 'flervalg', 'Hvilken domstol avgjør tvister mellom stater?', array['ICC', 'ICJ', 'EMD', 'Høyesterett']::text[], 1, 'Den internasjonale domstolen i Haag.', false, true, 14),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm06', 'flervalg', 'Hva betyr prinsippet om atskillelse i krig?', array['At angrep bare skal rettes mot militære mål', 'At stater skal skille lag', 'At soldater skal skilles fra familien', 'At krig skal skje langt unna']::text[], 0, 'Sivile skal skånes.', false, true, 15),
+  ('politikk-og-menneskerettigheter:folkeretten', 'm07', 'flervalg', 'Når ble FN-pakten vedtatt?', array['1919', '1949', '1945', '1989']::text[], 2, 'Etter andre verdenskrig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:folkeretten', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Overvåking og håndhevelse av menneskerettighetene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'politikk-og-menneskerettigheter', 'handhevelse-av-menneskerettigheter', 'Overvåking og håndhevelse av menneskerettighetene', 'Institusjoner og aktører som overvåker og håndhever menneskerettighetene – FN-systemet, Europarådet og Den europeiske menneskerettsdomstolen, nasjonale institusjoner og frivillige organisasjoner – og forholdet mellom statlig, mellomstatlig og overstatlig myndighet.', array[11]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', '## Hvem passer på?
+
+Menneskerettighetene er bare verdt noe hvis de blir **fulgt**. Hovedansvaret ligger hos **statene** selv, men mange **institusjoner** og **aktører** overvåker og presser på.
+
+## FN-systemet
+
+- **FNs menneskerettighetsråd** i Genève har **47** medlemsland. Gjennom **Universell periodisk gjennomgang (UPR)** blir **alle** FNs medlemsland jevnlig vurdert av de andre statene.
+- **Traktatorganer**: Hver menneskerettskonvensjon har en **komité** av uavhengige eksperter – for eksempel **FNs barnekomité**. Statene må **rapportere** jevnlig, og komiteen gir **anbefalinger**. Noen komiteer kan også behandle **individklager**.
+- **FNs høykommissær for menneskerettigheter** leder arbeidet og kan kritisere stater offentlig.
+- **Spesialrapportører** undersøker bestemte temaer eller land.
+
+FN-systemet bygger mest på **dialog**, **rapportering** og **offentlig press**. Avgjørelsene er i hovedsak **ikke juridisk bindende**.
+
+## Europarådet og EMD
+
+**Europarådet** (46 medlemsland) står bak **Den europeiske menneskerettskonvensjonen (EMK)**. **Den europeiske menneskerettsdomstolen (EMD)** i **Strasbourg** behandler klager fra **enkeltpersoner** som mener staten har krenket rettighetene deres – etter at de har prøvd saken i nasjonale domstoler. EMDs dommer er **bindende** for statene.
+
+**Norge** har tapt flere saker i EMD, blant annet en rekke saker om **barnevern**, der domstolen kom fram til at norske myndigheter ikke hadde tatt nok hensyn til familiens rett til familieliv. Dommene førte til endringer i norsk barnevernspraksis.
+
+## EU
+
+**EU** har sitt eget **charter** om grunnleggende rettigheter, og **EU-domstolen** kan håndheve det. Norge er ikke med i EU, men er bundet av mye EU-rett gjennom **EØS-avtalen**.
+
+## Internasjonal straffedomstol
+
+**ICC** i Haag kan straffe **enkeltpersoner** for de alvorligste forbrytelsene, som folkemord og krigsforbrytelser – også **statsledere**.
+
+## Nasjonale institusjoner
+
+- **Domstolene**, med **Høyesterett** på toppen.
+- **Norges institusjon for menneskerettigheter (NIM)** overvåker menneskerettighetene i Norge og gir råd til Stortinget og regjeringen.
+- **Sivilombudet** behandler klager på forvaltningen.
+- **Likestillings- og diskrimineringsombudet** og **Barneombudet**.
+
+## Frivillige organisasjoner og medier
+
+Organisasjoner som **Amnesty International**, **Human Rights Watch** og **Redd Barna** dokumenterer brudd, driver **kampanjer** og legger **press** på regjeringer. **Journalister** og **varslere** avslører overgrep. Men i mange land blir menneskerettsforkjempere selv **forfulgt**.
+
+## Statlig, mellomstatlig og overstatlig
+
+- **Statlig** myndighet: Staten bestemmer selv innenfor sine grenser (**suverenitet**).
+- **Mellomstatlig** samarbeid: Statene samarbeider, men beholder **vetorett** og bestemmer selv om de vil følge anbefalinger – som i **FN**.
+- **Overstatlig** myndighet: Statene har gitt fra seg myndighet til et organ som kan fatte **bindende** vedtak – som **EMD** og deler av **EU**.
+
+**Drøfting**: Overstatlige organer kan gi **sterkere vern** av enkeltmennesker, men flytter makt bort fra **nasjonale** folkevalgte. Noen mener dette svekker **demokratiet**, andre at det er nødvendig for å beskytte **mindretall** mot flertall og stater mot seg selv.', '{"label":"Håndhevelse av menneskerettigheter","children":[{"label":"FN","children":[{"label":"Menneskerettighetsrådet og UPR"},{"label":"Traktatorganer"},{"label":"Høykommissæren"}]},{"label":"Europa","children":[{"label":"Europarådet og EMK"},{"label":"EMD"},{"label":"EU og EØS"}]},{"label":"Nasjonalt","children":[{"label":"Domstolene"},{"label":"NIM"},{"label":"Ombudene"}]},{"label":"Sivilsamfunn","children":[{"label":"Amnesty og HRW"},{"label":"Journalister og varslere"}]},{"label":"Myndighetsnivåer","children":[{"label":"Statlig"},{"label":"Mellomstatlig"},{"label":"Overstatlig"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'FNs menneskerettighetsråd', 'FN-organ i Genève med 47 medlemsland.', 0),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'UPR', 'Universell periodisk gjennomgang der alle FN-land vurderes jevnlig.', 1),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Traktatorgan', 'Ekspertkomité som overvåker en menneskerettskonvensjon.', 2),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'FNs barnekomité', 'Overvåker Barnekonvensjonen.', 3),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'FNs høykommissær for menneskerettigheter', 'Leder FNs menneskerettsarbeid.', 4),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Europarådet', 'Europeisk organisasjon bak EMK med 46 medlemsland.', 5),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'EMD', 'Den europeiske menneskerettsdomstolen i Strasbourg.', 6),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Individklage', 'Klage fra en enkeltperson om brudd på rettighetene.', 7),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Barnevernssakene i EMD', 'Norge tapte flere saker om retten til familieliv.', 8),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'NIM', 'Norges institusjon for menneskerettigheter.', 9),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Sivilombudet', 'Behandler klager på forvaltningen.', 10),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Amnesty International', 'Frivillig organisasjon som dokumenterer menneskerettsbrudd.', 11),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Mellomstatlig samarbeid', 'Statene samarbeider, men beholder vetorett.', 12),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Overstatlig myndighet', 'Organ som kan fatte vedtak som binder statene.', 13),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'Suverenitet', 'Staten bestemmer selv innenfor sine grenser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q01', 'flervalg', 'Hva er UPR?', array['En domstol', 'En gjennomgang der alle FN-land vurderes jevnlig av de andre', 'En hjelpeorganisasjon', 'En traktat']::text[], 1, 'Universell periodisk gjennomgang.', true, true, 0),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q02', 'flervalg', 'Hvor ligger Den europeiske menneskerettsdomstolen?', array['Strasbourg', 'Genève', 'Haag', 'Brussel']::text[], 0, 'Den hører til Europarådet.', true, true, 1),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q03', 'flervalg', 'Hva kjennetegner overstatlig myndighet?', array['At statene alltid har vetorett', 'At bare stormakter bestemmer', 'At et organ kan fatte vedtak som binder statene', 'At statene bestemmer alt selv']::text[], 2, 'For eksempel EMD.', true, true, 2),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q04', 'flervalg', 'Hvilke saker har Norge tapt flere av i EMD?', array['Fiskerisaker', 'Oljesaker', 'Skattesaker', 'Barnevernssaker']::text[], 3, 'Om retten til familieliv.', true, true, 3),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q05', 'flervalg', 'Hva gjør FNs traktatorganer?', array['Overvåker konvensjonene gjennom rapporter og anbefalinger', 'Straffer statsledere', 'Vedtar lover i Norge', 'Leder FNs hær']::text[], 0, 'For eksempel FNs barnekomité.', true, true, 4),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q06', 'flervalg', 'Er EMDs dommer bindende for statene?', array['Nei, bare anbefalinger', 'Ja', 'Bare for EU-land', 'Bare for stormakter']::text[], 1, 'Overstatlig myndighet.', true, true, 5),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q07', 'flervalg', 'Hva er NIM?', array['En FN-domstol', 'En frivillig organisasjon', 'Norges institusjon for menneskerettigheter', 'Et politisk parti']::text[], 2, 'Overvåker og gir råd.', true, true, 6),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q08', 'flervalg', 'Hva kjennetegner mellomstatlig samarbeid?', array['At et organ fatter bindende vedtak', 'At statene gir fra seg all makt', 'At det ikke finnes avtaler', 'At statene samarbeider, men beholder vetorett']::text[], 3, 'Som i FN.', true, true, 7),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q09', 'flervalg', 'Hvilken rolle har organisasjoner som Amnesty?', array['Dokumentere brudd og legge press på regjeringer', 'Dømme i straffesaker', 'Vedta lover', 'Lede FN']::text[], 0, 'Gjennom rapporter og kampanjer.', true, false, 8),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'q10', 'flervalg', 'Hva er et argument mot overstatlige organer?', array['At de gir sterkere vern', 'At de flytter makt bort fra nasjonale folkevalgte', 'At de beskytter mindretall', 'At de er billige']::text[], 1, 'Spenning mellom rettigheter og demokrati.', true, false, 9),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm01', 'sant-usant', 'Man må som hovedregel prøve saken i nasjonale domstoler før man klager til EMD.', array['Sant', 'Usant']::text[], 0, 'Nasjonale rettsmidler må brukes først.', false, true, 10),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm02', 'sant-usant', 'FNs menneskerettighetsråd kan avsi bindende dommer mot stater.', array['Sant', 'Usant']::text[], 1, 'FN-systemet bygger mest på dialog og press.', false, true, 11),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm03', 'sant-usant', 'Norge er bundet av mye EU-rett gjennom EØS-avtalen.', array['Sant', 'Usant']::text[], 0, 'Selv om Norge ikke er EU-medlem.', false, true, 12),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm04', 'sant-usant', 'Menneskerettsforkjempere er trygge i alle land.', array['Sant', 'Usant']::text[], 1, 'I mange land blir de forfulgt.', false, true, 13),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm05', 'flervalg', 'Hvilket organ behandler klager på den norske forvaltningen?', array['EMD', 'Sivilombudet', 'ICC', 'UPR']::text[], 1, 'Nasjonal klageordning.', false, true, 14),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm06', 'flervalg', 'Hvor mange medlemsland har FNs menneskerettighetsråd?', array['47', '15', '193', '5']::text[], 0, 'Valgt av FNs generalforsamling.', false, true, 15),
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 'm07', 'flervalg', 'Hvilken institusjon kan straffe statsledere for krigsforbrytelser?', array['Sivilombudet', 'FNs barnekomité', 'ICC', 'Europarådet']::text[], 2, 'Den internasjonale straffedomstolen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:handhevelse-av-menneskerettigheter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Krig, fred og internasjonalt samarbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'politikk-og-menneskerettigheter', 'krig-fred-og-internasjonal-politikk', 'Krig, fred og internasjonalt samarbeid', 'Hvordan det internasjonale systemet håndterer krig og fred, sikkerhet og samarbeid – FNs sikkerhetsråd, kollektiv sikkerhet og kollektivt forsvar i NATO, fredsbevaring, sanksjoner og mekling – og hvordan du analyserer en konflikt statsvitenskapelig.', array[13, 4]::int[], 10, 'sjekkes', array['Sjekk omtale av pågående konflikter (Ukraina m.fl.) og NATO-medlemskap mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', '## Et system uten verdensregjering
+
+I internasjonal politikk finnes ingen **verdensregjering** som kan tvinge statene. Likevel har statene bygd opp **institusjoner** og **regler** for å hindre krig og løse konflikter.
+
+## FN og Sikkerhetsrådet
+
+**FN** ble opprettet i **1945** for å bevare **internasjonal fred og sikkerhet**. **Sikkerhetsrådet** har hovedansvaret og kan vedta **bindende** tiltak – sanksjoner eller maktbruk.
+
+- **Fem faste medlemmer** med **vetorett**: **USA**, **Russland**, **Kina**, **Storbritannia** og **Frankrike**.
+- **Ti valgte medlemmer** for to år av gangen. Norge satt i rådet i **2021–2022**.
+
+Vetoretten gjør at stormaktene kan **blokkere** vedtak – også i konflikter der de selv er part. Derfor har Sikkerhetsrådet ofte vært **handlingslammet**, for eksempel i krigen i **Syria** og etter Russlands angrep på **Ukraina** i **2022**.
+
+## Kollektiv sikkerhet og kollektivt forsvar
+
+- **Kollektiv sikkerhet** betyr at **alle** stater står sammen mot den som bryter freden – tanken bak FN.
+- **Kollektivt forsvar** betyr at en gruppe **allierte** forsvarer hverandre. **NATO** ble opprettet i **1949**, og Norge var med fra starten. **Artikkel 5** sier at et angrep på ett medlem skal regnes som et angrep på **alle**. **Finland** (2023) og **Sverige** (2024) ble medlemmer etter Russlands fullskala invasjon av Ukraina.
+
+## Virkemidler for fred
+
+- **Diplomati** og **forhandlinger**.
+- **Mekling**: En tredjepart hjelper partene å komme fram til en avtale. Norge har vært tilrettelegger i blant annet **Oslo-avtalene** mellom Israel og PLO (1993) og fredsprosessen i **Colombia** (avtale i 2016).
+- **Sanksjoner**: økonomiske tiltak som handelsforbud eller frysing av formuer.
+- **Fredsbevarende operasjoner**: FN-soldater («blåhjelmer») overvåker våpenhviler og beskytter sivile.
+- **Nedrustning** og **våpenkontroll**, som avtaler om atomvåpen.
+- **Bistand** og **utvikling** som skal fjerne **årsaker** til konflikt, som fattigdom og ulikhet.
+
+## Hvorfor oppstår kriger?
+
+- **Realistisk** forklaring: kamp om **makt**, **territorium** og **sikkerhet**; frykt for hva andre stater vil gjøre (**sikkerhetsdilemmaet**).
+- **Liberal** forklaring: mangel på **demokrati**, **handel** og **institusjoner**. Tesen om **demokratisk fred** sier at demokratier sjelden kriger mot hverandre.
+- **Konstruktivistisk** forklaring: **identiteter**, **nasjonalisme** og **fiendebilder**.
+- **Interne** forhold: **borgerkriger** om etnisitet, religion, ressurser eller makt er i dag mer vanlige enn kriger mellom stater.
+
+## Analysere en konflikt
+
+Når du analyserer en **nasjonal** eller **internasjonal** konflikt, kan du bruke disse spørsmålene:
+
+1. **Bakgrunn**: Hva er de historiske og politiske årsakene?
+2. **Aktører**: stater, grupper, organisasjoner, stormakter.
+3. **Interesser og verdier**: sikkerhet, territorium, ressurser, identitet.
+4. **Maktforhold**: militært, økonomisk og diplomatisk.
+5. **Folkerett og menneskerettigheter**: Hvilke regler brytes?
+6. **Internasjonale reaksjoner**: FN, NATO, EU, sanksjoner, bistand.
+7. **Løsninger**: Hva kan gi varig fred?
+
+Bruk gjerne **realisme**, **liberalisme** og **konstruktivisme** for å få fram ulike forklaringer.', '{"label":"Krig og fred","children":[{"label":"FN","children":[{"label":"Sikkerhetsrådet"},{"label":"Vetorett"},{"label":"Kollektiv sikkerhet"}]},{"label":"NATO","children":[{"label":"Kollektivt forsvar"},{"label":"Artikkel 5"},{"label":"Nye medlemmer"}]},{"label":"Virkemidler","children":[{"label":"Diplomati og mekling"},{"label":"Sanksjoner"},{"label":"Fredsbevaring"}]},{"label":"Årsaker til krig","children":[{"label":"Realisme"},{"label":"Liberalisme"},{"label":"Konstruktivisme"}]},{"label":"Konfliktanalyse","children":[{"label":"Aktører og interesser"},{"label":"Folkerett"},{"label":"Løsninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'FN', 'Opprettet i 1945 for å bevare internasjonal fred og sikkerhet.', 0),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Sikkerhetsrådet', 'FN-organ som kan vedta bindende tiltak.', 1),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Faste medlemmer i Sikkerhetsrådet', 'USA, Russland, Kina, Storbritannia og Frankrike.', 2),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Vetorett', 'Rett for de faste medlemmene til å stanse et vedtak.', 3),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Kollektiv sikkerhet', 'Alle stater står sammen mot den som bryter freden.', 4),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Kollektivt forsvar', 'Allierte forsvarer hverandre, som i NATO.', 5),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'NATO', 'Forsvarsallianse opprettet i 1949.', 6),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Artikkel 5', 'Et angrep på ett NATO-land regnes som et angrep på alle.', 7),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Mekling', 'En tredjepart hjelper partene å komme fram til en avtale.', 8),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Oslo-avtalene', 'Avtale mellom Israel og PLO i 1993 med norsk tilrettelegging.', 9),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Sanksjoner', 'Økonomiske tiltak mot en stat eller personer.', 10),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Blåhjelmer', 'FN-soldater i fredsbevarende operasjoner.', 11),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Sikkerhetsdilemmaet', 'Når én stats opprustning gjør andre utrygge og får dem til å ruste opp.', 12),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Demokratisk fred', 'Tesen om at demokratier sjelden kriger mot hverandre.', 13),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'Borgerkrig', 'Krig innenfor en stat – i dag vanligere enn mellomstatlige kriger.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q01', 'flervalg', 'Hvilke land har vetorett i FNs sikkerhetsråd?', array['Alle FNs medlemsland', 'USA, Russland, Kina, Storbritannia og Frankrike', 'Norge og Sverige', 'EU-landene']::text[], 1, 'De fem faste medlemmene.', true, true, 0),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q02', 'flervalg', 'Hva sier NATOs artikkel 5?', array['At et angrep på ett medlem regnes som et angrep på alle', 'At NATO skal avskaffes', 'At alle medlemmer må ha atomvåpen', 'At NATO styrer FN']::text[], 0, 'Kollektivt forsvar.', true, true, 1),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q03', 'flervalg', 'Hvorfor har Sikkerhetsrådet ofte vært handlingslammet?', array['Fordi det har for få medlemmer', 'Fordi det ikke kan møtes', 'Fordi stormaktene kan bruke vetoretten', 'Fordi det ikke har penger']::text[], 2, 'Også i konflikter de selv er part i.', true, true, 2),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q04', 'flervalg', 'Hva er mekling?', array['Militær intervensjon', 'Handelsforbud', 'Nedrustning', 'At en tredjepart hjelper partene å komme fram til en avtale']::text[], 3, 'Norge har vært tilrettelegger i flere prosesser.', true, true, 3),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q05', 'flervalg', 'Hva er sikkerhetsdilemmaet?', array['At én stats opprustning gjør andre utrygge, så de også ruster opp', 'At FN har for lite penger', 'At demokratier ikke kriger', 'At sanksjoner alltid virker']::text[], 0, 'Et realistisk begrep.', true, true, 4),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q06', 'flervalg', 'Når ble Finland og Sverige med i NATO?', array['1949', '2023 og 2024', '1990', '2014']::text[], 1, 'Etter Russlands fullskala invasjon av Ukraina.', true, true, 5),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q07', 'flervalg', 'Hva sier tesen om demokratisk fred?', array['At alle land er fredelige', 'At diktaturer aldri kriger', 'At demokratier sjelden kriger mot hverandre', 'At krig er umulig']::text[], 2, 'En liberal forklaring.', true, true, 6),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q08', 'flervalg', 'Hva er forskjellen på kollektiv sikkerhet og kollektivt forsvar?', array['Det er det samme', 'Kollektivt forsvar gjelder alle stater', 'Kollektiv sikkerhet gjelder bare NATO', 'Kollektiv sikkerhet gjelder alle stater, kollektivt forsvar en gruppe allierte']::text[], 3, 'FN mot NATO.', true, true, 7),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q09', 'flervalg', 'Hvilken type krig er vanligst i dag?', array['Borgerkriger innenfor stater', 'Kriger mellom stormakter', 'Kolonikriger', 'Religionskriger i Europa']::text[], 0, 'Om etnisitet, ressurser eller makt.', true, false, 8),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'q10', 'flervalg', 'Hva gjør FNs fredsbevarende styrker?', array['Angriper land', 'Overvåker våpenhviler og beskytter sivile', 'Fører valgkamp', 'Driver handel']::text[], 1, 'Blåhjelmer.', true, false, 9),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm01', 'sant-usant', 'Norge var med i NATO fra starten i 1949.', array['Sant', 'Usant']::text[], 0, 'Som et av grunnleggerlandene.', false, true, 10),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm02', 'sant-usant', 'Det finnes en verdensregjering som kan tvinge alle stater.', array['Sant', 'Usant']::text[], 1, 'Det internasjonale systemet er anarkisk.', false, true, 11),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm03', 'sant-usant', 'Norge var tilrettelegger for fredsprosessen i Colombia.', array['Sant', 'Usant']::text[], 0, 'Avtalen kom i 2016.', false, true, 12),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm04', 'sant-usant', 'Sikkerhetsrådet har bare faste medlemmer.', array['Sant', 'Usant']::text[], 1, 'Det har også ti valgte medlemmer.', false, true, 13),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm05', 'flervalg', 'Hvilket tiltak er en sanksjon?', array['Mekling', 'Frysing av formuer', 'Fredsbevaring', 'Valgobservasjon']::text[], 1, 'Et økonomisk virkemiddel.', false, true, 14),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm06', 'flervalg', 'Når satt Norge sist i FNs sikkerhetsråd?', array['2021–2022', '1949–1950', '2001–2002 bare', 'Aldri']::text[], 0, 'Som valgt medlem.', false, true, 15),
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'm07', 'flervalg', 'Hvilken teori legger vekt på nasjonalisme og fiendebilder som årsak til konflikt?', array['Realisme', 'Liberalisme', 'Konstruktivisme', 'Funksjonalisme']::text[], 2, 'Identiteter og ideer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Politikk og menneskerettigheter: Utfordringer for det norske demokratiet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'politikk-og-menneskerettigheter', 'demokratiets-utfordringer', 'Utfordringer for det norske demokratiet', 'Hvilke utfordringer det norske demokratiet står overfor – tillit, deltakelse og representasjon, polarisering, desinformasjon og påvirkningsoperasjoner, netthets mot politikere, rettsliggjøring og internasjonalisering – og hva som kan styrke folkestyret.', array[12, 3]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', '## Et sterkt utgangspunkt
+
+Norge scorer **høyt** på internasjonale målinger av demokrati. Det skyldes blant annet **høy tillit** til hverandre og til institusjonene, **frie medier**, **lav korrupsjon** og **høy valgdeltakelse** sammenlignet med mange land. Likevel står demokratiet overfor flere **utfordringer**.
+
+## Deltakelse og representasjon
+
+- **Valgdeltakelsen** er lavere ved **kommunevalg** enn ved stortingsvalg, og lavere blant **unge**, personer med **lav inntekt** og noen **innvandrergrupper**.
+- Når noen grupper deltar mindre, blir de også **dårligere representert** – og politikken kan bli skjev.
+- **Partiene** har færre medlemmer enn før, og det kan være vanskelig å **rekruttere** folk til lokalpolitikken.
+
+## Tillit og polarisering
+
+Norge har høy tillit, men tilliten kan **svekkes** av for eksempel **skandaler**, opplevelse av at politikerne ikke lytter, eller økte forskjeller. **Polarisering** betyr at grupper beveger seg lenger fra hverandre og ser på meningsmotstandere som **fiender**. I Norge er polariseringen mindre enn i mange land, men **sosiale medier** kan forsterke den.
+
+## Desinformasjon og påvirkning
+
+- **Feilinformasjon** (ubevisst feil) og **desinformasjon** (bevisst villedende informasjon) sprer seg raskt på nett.
+- **Fremmede stater** kan forsøke å påvirke valg og debatt gjennom **falske kontoer**, **hacking** og **lekkasjer**. Norske myndigheter, som **PST**, advarer mot slike **påvirkningsoperasjoner**.
+- **KI** gjør det enklere å lage troverdige **falske bilder, video og lyd**.
+
+Tiltak er **kildekritikk** og **mediekunnskap**, sterke **redaktørstyrte medier**, **faktasjekk** og **sikre valgsystemer**.
+
+## Netthets og trusler
+
+Mange politikere – særlig **kvinner**, **unge** og politikere med **minoritetsbakgrunn** – opplever **netthets** og **trusler**. Det kan få folk til å **trekke seg** fra politikken eller la være å si hva de mener (**nedkjølingseffekt**). Det svekker både **ytringsfriheten** og **mangfoldet** blant folkevalgte.
+
+## Makt som flyttes
+
+- **Rettsliggjøring**: Flere politiske spørsmål avgjøres av **domstoler**, blant annet med henvisning til menneskerettighetene.
+- **Internasjonalisering**: Gjennom **EØS-avtalen** innfører Norge mange EU-regler uten å ha stemmerett i EU. Noen kaller dette et **demokratisk underskudd**.
+- **Ekspertvelde** og **byråkrati**: Mange beslutninger forberedes og tas av **fagfolk** og **forvaltning**.
+- **Markeder** og **store teknologiselskaper** har stor makt over økonomi og offentlighet.
+
+## Sentralisering og lokaldemokrati
+
+**Kommunereformer**, **statlige krav** og **øremerkede** midler kan svekke det **lokale selvstyret**. Samtidig må små kommuner ofte løse store oppgaver med få ressurser.
+
+## Hva kan styrke demokratiet?
+
+- God **samfunnsopplæring** og **skolevalg**.
+- Tiltak for å øke **deltakelsen**, som å gjøre det **enklere** å stemme.
+- **Åpenhet** i forvaltningen – **offentlighetsloven** gir innsyn i offentlige dokumenter.
+- Tiltak mot **netthets** og trusler.
+- **Frie medier** og støtte til **lokalaviser**.
+- **Medborgerskap** i hverdagen: å delta i organisasjoner, lokalsamfunn og debatter.
+
+## Drøfting
+
+Når du drøfter demokratiets utfordringer, kan du vurdere **hvor alvorlige** de er, **hvem** som rammes, hvilke **årsaker** som ligger bak, og hvilke **tiltak** som kan virke – og om tiltakene selv kan komme i konflikt med andre verdier, som **ytringsfrihet**.', '{"label":"Demokratiets utfordringer","children":[{"label":"Deltakelse","children":[{"label":"Valgdeltakelse"},{"label":"Representasjon"},{"label":"Rekruttering"}]},{"label":"Offentligheten","children":[{"label":"Tillit og polarisering"},{"label":"Desinformasjon"},{"label":"Netthets"}]},{"label":"Makt som flyttes","children":[{"label":"Rettsliggjøring"},{"label":"EØS"},{"label":"Eksperter og marked"}]},{"label":"Lokaldemokrati","children":[{"label":"Sentralisering"},{"label":"Statlig styring"}]},{"label":"Tiltak","children":[{"label":"Opplæring og deltakelse"},{"label":"Åpenhet og frie medier"},{"label":"Vern mot hets"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'politikk-og-menneskerettigheter:demokratiets-utfordringer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Tillit', 'Tro på at andre mennesker og institusjoner handler til felles beste.', 0),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Skjev representasjon', 'At noen grupper er dårligere representert blant folkevalgte.', 1),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Polarisering', 'At grupper beveger seg lenger fra hverandre og ser motstandere som fiender.', 2),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Feilinformasjon', 'Feil informasjon som spres uten vilje til å villede.', 3),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Desinformasjon', 'Bevisst villedende informasjon.', 4),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Påvirkningsoperasjon', 'Forsøk fra fremmede stater på å påvirke debatt og valg.', 5),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'PST', 'Politiets sikkerhetstjeneste, som advarer mot påvirkningsoperasjoner.', 6),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Netthets', 'Hets og trakassering på nett.', 7),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Nedkjølingseffekt', 'At folk lar være å ytre seg av frykt for reaksjoner.', 8),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Rettsliggjøring', 'At flere politiske spørsmål avgjøres av domstoler.', 9),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Demokratisk underskudd (EØS)', 'Norge innfører EU-regler uten stemmerett i EU.', 10),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Ekspertvelde', 'At fagfolk og byråkrati får stor makt over beslutninger.', 11),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Offentlighetsloven', 'Gir innsyn i offentlige dokumenter.', 12),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Lokalt selvstyre', 'Kommunenes rett til å bestemme over egne saker.', 13),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'Mediekunnskap', 'Evnen til å forstå og vurdere medier kritisk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'politikk-og-menneskerettigheter:demokratiets-utfordringer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q01', 'flervalg', 'Hva er forskjellen på feilinformasjon og desinformasjon?', array['Det er det samme', 'Desinformasjon er bevisst villedende, feilinformasjon er ubevisst feil', 'Feilinformasjon er alltid bevisst', 'Desinformasjon er alltid sann']::text[], 1, 'Hensikten skiller dem.', true, true, 0),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q02', 'flervalg', 'Hvorfor kalles EØS-avtalen noen ganger et demokratisk underskudd?', array['Fordi Norge innfører EU-regler uten stemmerett i EU', 'Fordi Norge ikke har valg', 'Fordi EU styrer Stortinget direkte', 'Fordi Norge har for mange partier']::text[], 0, 'Norge deltar ikke i vedtakene.', true, true, 1),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q03', 'flervalg', 'Hvilken konsekvens kan netthets mot politikere ha?', array['Flere vil stille til valg', 'Mer mangfold blant folkevalgte', 'At folk trekker seg fra politikken eller lar være å si hva de mener', 'Høyere valgdeltakelse']::text[], 2, 'En nedkjølingseffekt.', true, true, 2),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q04', 'flervalg', 'Hva er polarisering?', array['At alle blir enige', 'At det blir flere partier', 'At valgdeltakelsen øker', 'At grupper beveger seg lenger fra hverandre og ser motstandere som fiender']::text[], 3, 'Kan forsterkes av sosiale medier.', true, true, 3),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q05', 'flervalg', 'Hva gir offentlighetsloven?', array['Innsyn i offentlige dokumenter', 'Stemmerett', 'Rett til bolig', 'Rett til å demonstrere']::text[], 0, 'Åpenhet i forvaltningen.', true, true, 4),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q06', 'flervalg', 'Hvilken institusjon advarer mot påvirkningsoperasjoner fra fremmede stater?', array['NAV', 'PST', 'Skatteetaten', 'Sametinget']::text[], 1, 'Politiets sikkerhetstjeneste.', true, true, 5),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q07', 'flervalg', 'Hvorfor er lav valgdeltakelse i noen grupper et problem?', array['Det gjør valget kortere', 'Det gir flere mandater', 'Det kan gi skjev representasjon', 'Det øker tilliten']::text[], 2, 'Politikerne lytter mest til dem som stemmer.', true, true, 6),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q08', 'flervalg', 'Hva er rettsliggjøring?', array['At flere blir jurister', 'At det lages flere lover', 'At domstolene legges ned', 'At flere politiske spørsmål avgjøres av domstoler']::text[], 3, 'Makt flyttes fra folkevalgte.', true, true, 7),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q09', 'flervalg', 'Hva er et tiltak mot desinformasjon?', array['Kildekritikk, mediekunnskap og faktasjekk', 'Å stenge alle aviser', 'Å forby sosiale medier helt', 'Å slutte å stemme']::text[], 0, 'Og sterke redaktørstyrte medier.', true, false, 8),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'q10', 'flervalg', 'Hvorfor gjør KI desinformasjon til en større utfordring?', array['Fordi KI alltid sier sannheten', 'Fordi det blir enklere å lage troverdige falske bilder, video og lyd', 'Fordi KI ikke kan lage bilder', 'Fordi KI stopper all falsk informasjon']::text[], 1, 'Deepfakes.', true, false, 9),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm01', 'sant-usant', 'Norge scorer høyt på internasjonale målinger av demokrati.', array['Sant', 'Usant']::text[], 0, 'Men demokratiet har likevel utfordringer.', false, true, 10),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm02', 'sant-usant', 'Valgdeltakelsen er høyere ved kommunevalg enn ved stortingsvalg.', array['Sant', 'Usant']::text[], 1, 'Den er lavere ved kommunevalg.', false, true, 11),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm03', 'sant-usant', 'Tiltak mot netthets kan komme i konflikt med ytringsfriheten.', array['Sant', 'Usant']::text[], 0, 'Hensynene må veies.', false, true, 12),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm04', 'sant-usant', 'Partiene har flere medlemmer i dag enn før.', array['Sant', 'Usant']::text[], 1, 'Partimedlemskap har gått ned.', false, true, 13),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm05', 'flervalg', 'Hvilke politikere rammes ofte særlig av netthets?', array['Bare eldre menn', 'Kvinner, unge og politikere med minoritetsbakgrunn', 'Ingen', 'Bare ministre']::text[], 1, 'Det svekker mangfoldet.', false, true, 14),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm06', 'flervalg', 'Hva er et tiltak som kan styrke lokaldemokratiet?', array['Mer lokal handlefrihet og færre øremerkede midler', 'Å avskaffe kommunevalg', 'Å flytte alle beslutninger til staten', 'Å stenge lokalaviser']::text[], 0, 'Styrker det lokale selvstyret.', false, true, 15),
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 'm07', 'flervalg', 'Hva er en påvirkningsoperasjon?', array['En valgkampanje fra et norsk parti', 'En medisinsk operasjon', 'Et forsøk fra fremmede stater på å påvirke debatt og valg', 'En folkeavstemning']::text[], 2, 'For eksempel falske kontoer og hacking.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('politikk-og-menneskerettigheter:demokratiets-utfordringer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'rettslare-1' and slug not in ('rettsstaten', 'rettsreglenes-funksjon', 'rettskilder-og-juridisk-metode', 'barnets-beste-og-barneloven', 'ekteskap-og-samboerskap', 'arv-og-uskifte', 'arbeidsrett', 'likestilling-og-diskriminering', 'avtalerett-og-forbrukerkjop', 'aktuelle-og-rettshistoriske-saker');
+
+-- Rettslære 1: Norge som rettsstat
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:rettsstaten', 'rettslare-1', 'rettsstaten', 'Norge som rettsstat', 'Hva en rettsstat er, maktfordelingen mellom Stortinget, regjeringen og domstolene, legalitetsprinsippet og de viktigste rettssikkerhetsgarantiene – og hvordan de beskytter den enkelte mot vilkårlig maktbruk.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:rettsstaten', '## Hva er en rettsstat?
+
+En **rettsstat** er en stat der **myndighetene er bundet av lover**, og der innbyggerne er beskyttet mot **vilkårlig** maktbruk. Både borgerne og staten må følge loven. Motsetningen er en stat der makthaverne kan gjøre som de vil.
+
+Viktige kjennetegn er
+
+- **maktfordeling**
+- **legalitetsprinsippet**
+- **uavhengige domstoler**
+- **rettssikkerhet** og **menneskerettigheter**
+- **likhet for loven**
+
+## Maktfordeling
+
+**Grunnloven** deler statsmakten i tre:
+
+- **Stortinget** gir **lover** og bevilger penger (lovgivende makt).
+- **Regjeringen** styrer landet og gjennomfører lovene (utøvende makt).
+- **Domstolene** dømmer i konkrete saker (dømmende makt).
+
+Maktene **kontrollerer** hverandre. Domstolene kan for eksempel prøve om en lov er i strid med **Grunnloven** eller **menneskerettighetene** (**prøvingsrett**), og Stortinget kontrollerer regjeringen.
+
+## Legalitetsprinsippet
+
+**Legalitetsprinsippet** står i **Grunnloven § 113**: **Myndighetenes inngrep overfor den enkelte må ha grunnlag i lov.** Staten kan altså ikke ta fra deg eiendom, pålegge deg skatt, fengsle deg eller gripe inn i livet ditt på annen måte **uten** at det finnes en **lov** som gir hjemmel for det.
+
+På **strafferettens** område er prinsippet ekstra strengt: Etter **Grunnloven § 96** kan ingen dømmes **uten etter lov** – en handling må ha vært **straffbar** da den ble gjort. Lover kan heller ikke gis **tilbakevirkende** kraft til skade for den enkelte (**§ 97**).
+
+## Rettssikkerhet
+
+**Rettssikkerhet** betyr at den enkelte er beskyttet mot **overgrep** og **vilkårlighet**, og kan **forutberegne** sin rettsstilling. Viktige garantier er
+
+- **rett til rettferdig rettergang** for en uavhengig og upartisk domstol (Grunnloven § 95 og EMK artikkel 6)
+- **uskyldspresumsjonen**: Alle regnes som **uskyldige** til det motsatte er bevist
+- rett til **forsvarer** og til å **forklare seg**
+- rett til å **klage** på forvaltningsvedtak og få **begrunnelse**
+- **offentlighet** i rettergangen
+- **habilitet**: Dommere og saksbehandlere må ikke ha personlige interesser i saken
+
+## Likhet for loven
+
+Etter **Grunnloven § 98** er **alle like for loven**, og ingen skal utsettes for **usaklig** eller **uforholdsmessig** forskjellsbehandling.
+
+## Vurdering
+
+Norge regnes som en **sterk** rettsstat, men det finnes utfordringer:
+
+- **Lang saksbehandlingstid** i domstoler og forvaltning.
+- **Kostnader**: Ikke alle har råd til advokat, selv om **fri rettshjelp** finnes for noen.
+- **Norge har tapt saker** i Den europeiske menneskerettsdomstolen, blant annet om barnevern.
+- Balansen mellom **sikkerhet** og **personvern**, for eksempel ved overvåking.
+
+Et sentralt spørsmål er hvor mye makt **domstolene** skal ha overfor de **folkevalgte** – og hvordan rettsstaten kan beskytte **mindretall** mot flertallet.', '{"label":"Rettsstaten","children":[{"label":"Kjennetegn","children":[{"label":"Myndighetene bundet av lov"},{"label":"Likhet for loven"}]},{"label":"Maktfordeling","children":[{"label":"Storting"},{"label":"Regjering"},{"label":"Domstoler og prøvingsrett"}]},{"label":"Legalitetsprinsippet","children":[{"label":"Grl. § 113"},{"label":"Grl. § 96 og § 97"}]},{"label":"Rettssikkerhet","children":[{"label":"Rettferdig rettergang"},{"label":"Uskyldspresumsjonen"},{"label":"Klagerett og habilitet"}]},{"label":"Utfordringer","children":[{"label":"Saksbehandlingstid"},{"label":"Kostnader"},{"label":"Sikkerhet og personvern"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:rettsstaten';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:rettsstaten', 'Rettsstat', 'Stat der myndighetene er bundet av lover og borgerne vernes mot vilkårlighet.', 0),
+  ('rettslare-1:rettsstaten', 'Maktfordeling', 'Statsmakten deles mellom Stortinget, regjeringen og domstolene.', 1),
+  ('rettslare-1:rettsstaten', 'Lovgivende makt', 'Stortinget.', 2),
+  ('rettslare-1:rettsstaten', 'Utøvende makt', 'Regjeringen.', 3),
+  ('rettslare-1:rettsstaten', 'Dømmende makt', 'Domstolene.', 4),
+  ('rettslare-1:rettsstaten', 'Prøvingsrett', 'Domstolene kan prøve om lover strider mot Grunnloven.', 5),
+  ('rettslare-1:rettsstaten', 'Legalitetsprinsippet', 'Inngrep overfor den enkelte må ha grunnlag i lov (Grl. § 113).', 6),
+  ('rettslare-1:rettsstaten', 'Grunnloven § 96', 'Ingen kan dømmes uten etter lov.', 7),
+  ('rettslare-1:rettsstaten', 'Forbud mot tilbakevirkende lover', 'Grunnloven § 97.', 8),
+  ('rettslare-1:rettsstaten', 'Rettssikkerhet', 'Vern mot overgrep og vilkårlighet, og forutberegnelighet.', 9),
+  ('rettslare-1:rettsstaten', 'Uskyldspresumsjonen', 'Alle regnes som uskyldige til det motsatte er bevist.', 10),
+  ('rettslare-1:rettsstaten', 'Rettferdig rettergang', 'Rett til sak for en uavhengig og upartisk domstol.', 11),
+  ('rettslare-1:rettsstaten', 'Habilitet', 'At dommere og saksbehandlere ikke har personlige interesser i saken.', 12),
+  ('rettslare-1:rettsstaten', 'Grunnloven § 98', 'Alle er like for loven.', 13),
+  ('rettslare-1:rettsstaten', 'Fri rettshjelp', 'Offentlig støtte til advokat for noen grupper og sakstyper.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:rettsstaten';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:rettsstaten', 'q01', 'flervalg', 'Hva sier legalitetsprinsippet?', array['At alle skal betale skatt', 'At myndighetenes inngrep overfor den enkelte må ha grunnlag i lov', 'At kongen har all makt', 'At domstolene lager lover']::text[], 1, 'Grunnloven § 113.', true, true, 0),
+  ('rettslare-1:rettsstaten', 'q02', 'flervalg', 'Hva er uskyldspresumsjonen?', array['At alle regnes som uskyldige til det motsatte er bevist', 'At alle er skyldige til de beviser noe annet', 'At ingen kan dømmes', 'At dommeren alltid har rett']::text[], 0, 'En grunnleggende rettssikkerhetsgaranti.', true, true, 1),
+  ('rettslare-1:rettsstaten', 'q03', 'flervalg', 'Hvilken statsmakt er domstolene?', array['Den lovgivende', 'Den utøvende', 'Den dømmende', 'Ingen']::text[], 2, 'De dømmer i konkrete saker.', true, true, 2),
+  ('rettslare-1:rettsstaten', 'q04', 'flervalg', 'Hva sier Grunnloven § 96?', array['At alle er like for loven', 'At staten kan straffe uten lov', 'At lover kan gis tilbakevirkende kraft', 'At ingen kan dømmes uten etter lov']::text[], 3, 'Handlingen må ha vært straffbar da den ble gjort.', true, true, 3),
+  ('rettslare-1:rettsstaten', 'q05', 'flervalg', 'Hva er prøvingsretten?', array['Domstolenes rett til å prøve om lover strider mot Grunnloven', 'Stortingets rett til å felle regjeringen', 'Retten til å anke', 'Retten til å stemme']::text[], 0, 'Også mot menneskerettighetene.', true, true, 4),
+  ('rettslare-1:rettsstaten', 'q06', 'flervalg', 'Hva betyr habilitet?', array['At saken er rask', 'At dommere og saksbehandlere ikke har personlige interesser i saken', 'At partene er enige', 'At saken er offentlig']::text[], 1, 'Sikrer upartiskhet.', true, true, 5),
+  ('rettslare-1:rettsstaten', 'q07', 'flervalg', 'Hva betyr rettssikkerhet?', array['At politiet har mye makt', 'At straffene er strenge', 'At den enkelte er vernet mot overgrep og kan forutberegne sin rettsstilling', 'At det finnes mange advokater']::text[], 2, 'Beskyttelse mot vilkårlighet.', true, true, 6),
+  ('rettslare-1:rettsstaten', 'q08', 'flervalg', 'Hvilken utfordring har den norske rettsstaten?', array['At domstolene ikke er uavhengige', 'At det ikke finnes lover', 'At det ikke finnes Grunnlov', 'Lang saksbehandlingstid og kostnader for å føre sak']::text[], 3, 'Norge regnes likevel som en sterk rettsstat.', true, true, 7),
+  ('rettslare-1:rettsstaten', 'q09', 'flervalg', 'Hva sier Grunnloven § 98?', array['At alle er like for loven', 'At ingen kan dømmes uten lov', 'At kongen er ukrenkelig', 'At staten skal ha oljefond']::text[], 0, 'Forbud mot usaklig forskjellsbehandling.', true, false, 8),
+  ('rettslare-1:rettsstaten', 'q10', 'flervalg', 'Hvorfor er maktfordeling viktig i en rettsstat?', array['For å gjøre staten raskere', 'For at maktene skal kontrollere hverandre og hindre maktmisbruk', 'For å gi kongen mer makt', 'For å slippe valg']::text[], 1, 'Ingen skal ha all makt.', true, false, 9),
+  ('rettslare-1:rettsstaten', 'm01', 'sant-usant', 'I en rettsstat må også myndighetene følge loven.', array['Sant', 'Usant']::text[], 0, 'Det er selve kjernen i rettsstaten.', false, true, 10),
+  ('rettslare-1:rettsstaten', 'm02', 'sant-usant', 'Staten kan pålegge nye skatter uten lovhjemmel.', array['Sant', 'Usant']::text[], 1, 'Det krever grunnlag i lov.', false, true, 11),
+  ('rettslare-1:rettsstaten', 'm03', 'sant-usant', 'Retten til rettferdig rettergang står både i Grunnloven og i EMK.', array['Sant', 'Usant']::text[], 0, 'Grunnloven § 95 og EMK artikkel 6.', false, true, 12),
+  ('rettslare-1:rettsstaten', 'm04', 'sant-usant', 'En lov kan gi straff for handlinger som var lovlige da de ble gjort.', array['Sant', 'Usant']::text[], 1, 'Grunnloven forbyr tilbakevirkende straffelover.', false, true, 13),
+  ('rettslare-1:rettsstaten', 'm05', 'flervalg', 'Hvilken paragraf i Grunnloven inneholder legalitetsprinsippet?', array['§ 100', '§ 113', '§ 1', '§ 12']::text[], 1, 'Tatt inn i 2014.', false, true, 14),
+  ('rettslare-1:rettsstaten', 'm06', 'flervalg', 'Hva er en rettssikkerhetsgaranti i forvaltningen?', array['Rett til å klage og få begrunnelse', 'Rett til å velge saksbehandler', 'Rett til å slippe skatt', 'Rett til å bestemme lovene']::text[], 0, 'Forvaltningsloven sikrer dette.', false, true, 15),
+  ('rettslare-1:rettsstaten', 'm07', 'flervalg', 'Hvorfor kan fri rettshjelp være viktig for rettssikkerheten?', array['Fordi den gjør dommerne raskere', 'Fordi den fjerner behovet for domstoler', 'Fordi ikke alle har råd til advokat', 'Fordi den gir alltid seier i retten']::text[], 2, 'Lik tilgang til rettssystemet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:rettsstaten', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Rettsreglenes funksjon i samfunnet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:rettsreglenes-funksjon', 'rettslare-1', 'rettsreglenes-funksjon', 'Rettsreglenes funksjon i samfunnet', 'Hva som skiller rettsregler fra andre normer, hvilke funksjoner rettsreglene har – orden, konfliktløsning, vern og styring – og viktige inndelinger som offentlig rett og privatrett, strafferett og sivilrett, og preseptoriske og deklaratoriske regler.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:rettsreglenes-funksjon', '## Rettsregler og andre normer
+
+Samfunnet har mange **normer** – regler for hvordan vi bør oppføre oss. Noen er **moralske**, noen er **skikk og bruk**, og noen er **rettsregler**. Det som skiller **rettsreglene**, er at de er **vedtatt** eller anerkjent av staten og kan **håndheves** med **tvang** – for eksempel bot, fengsel, erstatning eller tvangsfullbyrdelse.
+
+Mange rettsregler bygger på **moral** (ikke drep, ikke stjel), men ikke all umoral er ulovlig – det er lov å være uhøflig.
+
+## Rettsreglenes funksjoner
+
+**1. Skape orden og forutsigbarhet**
+
+Regler gjør det mulig å **planlegge** livet: Du vet hva som gjelder når du inngår en avtale, kjøper en bolig eller begynner i jobb. Trafikkreglene gjør det mulig for millioner å ferdes trygt.
+
+**2. Løse konflikter fredelig**
+
+Når folk blir uenige, gir rettsreglene og **domstolene** en måte å løse konflikten **uten vold** eller selvtekt. Mange tvister løses ved **forlik** eller **mekling**, for eksempel i **forliksrådet** eller **konfliktrådet**.
+
+**3. Verne den svake part**
+
+Mange regler beskytter den som er i en **svakere** stilling: **forbrukere** mot næringsdrivende, **arbeidstakere** mot arbeidsgivere, **leietakere** mot utleiere og **barn** mot voksne. Slike regler er ofte **preseptoriske**.
+
+**4. Styre atferd og forebygge**
+
+Straff og andre sanksjoner skal **avskrekke** fra lovbrudd (**allmennprevensjon**) og hindre at den som er straffet, gjør det igjen (**individualprevensjon**).
+
+**5. Fordele goder og byrder**
+
+Lover om **skatt**, **trygd** og **arv** avgjør hvem som får og hvem som betaler.
+
+**6. Uttrykke verdier og endre samfunnet**
+
+Lover kan **signalisere** hva samfunnet mener er rett – og bidra til **endring**. Forbudet mot **fysisk avstraffelse** av barn og **diskrimineringsloven** er eksempler.
+
+## Viktige inndelinger
+
+**Offentlig rett og privatrett**
+
+- **Offentlig rett** regulerer forholdet mellom **staten** og **borgerne** og organiseringen av staten – for eksempel **statsrett**, **forvaltningsrett**, **skatterett** og **strafferett**.
+- **Privatrett** regulerer forholdet mellom **private parter** – for eksempel **avtalerett**, **familierett**, **arverett** og **arbeidsrett**.
+
+**Strafferett og sivilrett**
+
+- I **straffesaker** er det **påtalemyndigheten** (staten) som tar ut tiltale, og den tiltalte kan få **straff**.
+- I **sivile saker** står private parter mot hverandre, for eksempel om **erstatning** eller **penger**.
+
+**Preseptoriske og deklaratoriske regler**
+
+- **Preseptoriske** (ufravikelige) regler kan ikke **avtales bort** – for eksempel forbrukernes rettigheter ved kjøp.
+- **Deklaratoriske** (fravikelige) regler gjelder bare hvis partene **ikke har avtalt noe annet** – for eksempel mange regler i kjøpsloven mellom næringsdrivende.
+
+## Drøfting
+
+Rettsregler er **nødvendige**, men kan også være **for mange**, **for detaljerte** eller **utdaterte**. Noen mener at lovgivningen bør holde seg unna **privatlivet**, andre at den er viktig for å **beskytte** svake grupper. Når du drøfter en rettsregel, spør: Hvilken **funksjon** skal den ha, og **virker** den?', '{"label":"Rettsreglenes funksjon","children":[{"label":"Normer","children":[{"label":"Moral"},{"label":"Skikk og bruk"},{"label":"Rettsregler med tvang"}]},{"label":"Funksjoner","children":[{"label":"Orden og forutsigbarhet"},{"label":"Konfliktløsning"},{"label":"Vern av svak part"},{"label":"Styring og forebygging"}]},{"label":"Flere funksjoner","children":[{"label":"Fordeling"},{"label":"Uttrykke verdier"}]},{"label":"Inndelinger","children":[{"label":"Offentlig rett og privatrett"},{"label":"Strafferett og sivilrett"}]},{"label":"Regeltyper","children":[{"label":"Preseptoriske"},{"label":"Deklaratoriske"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:rettsreglenes-funksjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:rettsreglenes-funksjon', 'Rettsregel', 'Regel vedtatt eller anerkjent av staten som kan håndheves med tvang.', 0),
+  ('rettslare-1:rettsreglenes-funksjon', 'Norm', 'Regel for hvordan vi bør oppføre oss.', 1),
+  ('rettslare-1:rettsreglenes-funksjon', 'Forliksrådet', 'Lokalt organ som mekler og avgjør mindre sivile tvister.', 2),
+  ('rettslare-1:rettsreglenes-funksjon', 'Konfliktrådet', 'Tilbud om mekling mellom partene i en konflikt.', 3),
+  ('rettslare-1:rettsreglenes-funksjon', 'Selvtekt', 'Å ta seg til rette selv uten å gå gjennom rettssystemet.', 4),
+  ('rettslare-1:rettsreglenes-funksjon', 'Allmennprevensjon', 'Straff skal avskrekke andre fra å begå lovbrudd.', 5),
+  ('rettslare-1:rettsreglenes-funksjon', 'Individualprevensjon', 'Straff skal hindre at den straffede gjør det igjen.', 6),
+  ('rettslare-1:rettsreglenes-funksjon', 'Vern av svak part', 'Regler som beskytter forbrukere, arbeidstakere og leietakere.', 7),
+  ('rettslare-1:rettsreglenes-funksjon', 'Offentlig rett', 'Forholdet mellom staten og borgerne.', 8),
+  ('rettslare-1:rettsreglenes-funksjon', 'Privatrett', 'Forholdet mellom private parter.', 9),
+  ('rettslare-1:rettsreglenes-funksjon', 'Straffesak', 'Påtalemyndigheten mot en tiltalt – kan gi straff.', 10),
+  ('rettslare-1:rettsreglenes-funksjon', 'Sivil sak', 'Private parter mot hverandre, for eksempel om erstatning.', 11),
+  ('rettslare-1:rettsreglenes-funksjon', 'Påtalemyndigheten', 'Statens organ som tar ut tiltale.', 12),
+  ('rettslare-1:rettsreglenes-funksjon', 'Preseptorisk regel', 'Ufravikelig – kan ikke avtales bort.', 13),
+  ('rettslare-1:rettsreglenes-funksjon', 'Deklaratorisk regel', 'Fravikelig – gjelder hvis partene ikke har avtalt noe annet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:rettsreglenes-funksjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:rettsreglenes-funksjon', 'q01', 'flervalg', 'Hva skiller rettsregler fra andre normer?', array['At de er moralske', 'At de er vedtatt eller anerkjent av staten og kan håndheves med tvang', 'At de er skrevet ned', 'At alle er enige i dem']::text[], 1, 'Sanksjoner som bot eller fengsel.', true, true, 0),
+  ('rettslare-1:rettsreglenes-funksjon', 'q02', 'flervalg', 'Hva er allmennprevensjon?', array['At straff skal avskrekke andre fra lovbrudd', 'At den straffede skal behandles', 'At alle skal få lik straff', 'At straff skal være mild']::text[], 0, 'Individualprevensjon gjelder den straffede.', true, true, 1),
+  ('rettslare-1:rettsreglenes-funksjon', 'q03', 'flervalg', 'Hvilket rettsområde hører til privatretten?', array['Strafferett', 'Skatterett', 'Avtalerett', 'Forvaltningsrett']::text[], 2, 'Forholdet mellom private parter.', true, true, 2),
+  ('rettslare-1:rettsreglenes-funksjon', 'q04', 'flervalg', 'Hva er en preseptorisk regel?', array['En regel som gjelder hvis partene ikke har avtalt noe annet', 'En regel uten sanksjon', 'En moralsk regel', 'En regel som ikke kan avtales bort']::text[], 3, 'For eksempel forbrukervern.', true, true, 3),
+  ('rettslare-1:rettsreglenes-funksjon', 'q05', 'flervalg', 'Hvem tar ut tiltale i en straffesak?', array['Påtalemyndigheten', 'Fornærmede selv', 'Forliksrådet', 'Stortinget']::text[], 0, 'Staten er part.', true, true, 4),
+  ('rettslare-1:rettsreglenes-funksjon', 'q06', 'flervalg', 'Hvorfor er mange forbrukerregler preseptoriske?', array['For å beskytte næringsdrivende', 'For å verne forbrukeren som svakere part', 'For å gjøre handel dyrere', 'For å forenkle lovene']::text[], 1, 'Rettighetene kan ikke avtales bort.', true, true, 5),
+  ('rettslare-1:rettsreglenes-funksjon', 'q07', 'flervalg', 'Hva er en funksjon ved rettsregler?', array['Å skape kaos', 'Å gjøre livet uforutsigbart', 'Å løse konflikter fredelig', 'Å fjerne domstolene']::text[], 2, 'I stedet for vold og selvtekt.', true, true, 6),
+  ('rettslare-1:rettsreglenes-funksjon', 'q08', 'flervalg', 'Hva er en sivil sak?', array['En sak der staten tiltaler noen', 'En sak om trafikk', 'En sak i Stortinget', 'En sak der private parter står mot hverandre']::text[], 3, 'For eksempel om erstatning.', true, true, 7),
+  ('rettslare-1:rettsreglenes-funksjon', 'q09', 'flervalg', 'Hvilket er et eksempel på at lover kan endre samfunnet?', array['Forbudet mot fysisk avstraffelse av barn', 'Trafikkreglene', 'Reglene om bursdager', 'Reglene om mat']::text[], 0, 'Lover kan uttrykke og endre verdier.', true, false, 8),
+  ('rettslare-1:rettsreglenes-funksjon', 'q10', 'flervalg', 'Hva er en deklaratorisk regel?', array['En ufravikelig regel', 'En regel som gjelder hvis partene ikke har avtalt noe annet', 'En grunnlovsregel', 'En straffebestemmelse']::text[], 1, 'Fravikelig.', true, false, 9),
+  ('rettslare-1:rettsreglenes-funksjon', 'm01', 'sant-usant', 'Ikke all umoral er ulovlig.', array['Sant', 'Usant']::text[], 0, 'Det er for eksempel lov å være uhøflig.', false, true, 10),
+  ('rettslare-1:rettsreglenes-funksjon', 'm02', 'sant-usant', 'Strafferett hører til privatretten.', array['Sant', 'Usant']::text[], 1, 'Strafferett er offentlig rett.', false, true, 11),
+  ('rettslare-1:rettsreglenes-funksjon', 'm03', 'sant-usant', 'Mange tvister løses ved forlik eller mekling uten dom.', array['Sant', 'Usant']::text[], 0, 'For eksempel i forliksrådet.', false, true, 12),
+  ('rettslare-1:rettsreglenes-funksjon', 'm04', 'sant-usant', 'En forbruker kan avtale seg bort fra rettighetene i forbrukerkjøpsloven.', array['Sant', 'Usant']::text[], 1, 'Reglene er preseptoriske til fordel for forbrukeren.', false, true, 13),
+  ('rettslare-1:rettsreglenes-funksjon', 'm05', 'flervalg', 'Hvilket rettsområde regulerer forholdet mellom staten og borgerne?', array['Privatretten', 'Offentlig rett', 'Arveretten', 'Avtaleretten']::text[], 1, 'For eksempel skatterett og forvaltningsrett.', false, true, 14),
+  ('rettslare-1:rettsreglenes-funksjon', 'm06', 'flervalg', 'Hva er individualprevensjon?', array['At straffen skal hindre at den straffede gjør nye lovbrudd', 'At alle skal avskrekkes', 'At straffen skal være lik for alle', 'At fornærmede får erstatning']::text[], 0, 'Rettet mot den enkelte.', false, true, 15),
+  ('rettslare-1:rettsreglenes-funksjon', 'm07', 'flervalg', 'Hvilken lov verner svake grupper mot usaklig forskjellsbehandling?', array['Vegtrafikkloven', 'Skatteloven', 'Likestillings- og diskrimineringsloven', 'Arveloven']::text[], 2, 'Et eksempel på vern og verdier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:rettsreglenes-funksjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Rettskilder og juridisk metode
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'rettslare-1', 'rettskilder-og-juridisk-metode', 'Rettskilder og juridisk metode', 'De viktigste rettskildene – lov, forarbeider, rettspraksis, forvaltningspraksis, sedvane og reelle hensyn – og hvordan du bruker juridisk metode til å løse en oppgave: parter, krav, rettslig grunnlag, problemstilling, drøfting og konklusjon.', array[3, 4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:rettskilder-og-juridisk-metode', '## Hva er rettskilder?
+
+**Rettskilder** er de kildene jurister bruker for å finne ut **hva som er gjeldende rett** i en sak. De viktigste er
+
+1. **Lov**: **Grunnloven** står øverst. Deretter kommer **formelle lover** vedtatt av Stortinget, og **forskrifter** gitt av regjeringen eller et departement med hjemmel i lov. Lovene finner du på **Lovdata**.
+2. **Forarbeider**: dokumentene som ble laget da loven ble til – for eksempel **NOU-er** og **proposisjoner** (Prop. L). De forklarer **hensikten** med loven.
+3. **Rettspraksis**: tidligere **dommer**, særlig fra **Høyesterett**. En Høyesterettsdom er et **prejudikat** som legger føringer for senere saker.
+4. **Forvaltningspraksis**: hvordan offentlige myndigheter har praktisert reglene.
+5. **Sedvanerett**: regler som har blitt til gjennom lang og fast **praksis**.
+6. **Reelle hensyn**: vurderinger av hva som er **rimelig**, **rettferdig** og **hensiktsmessig**.
+7. **Juridisk teori**: fagbøker og artikler.
+
+I tillegg kommer **internasjonale** kilder, som **menneskerettighetene** og **EØS-retten**.
+
+## Tolking av lover
+
+Man starter med **ordlyden** – hva loven faktisk sier. Er ordlyden **uklar**, ser man på **formålet**, **forarbeidene** og **rettspraksis**. Lover har ofte **skjønnsmessige** uttrykk, som «rimelig tid» eller «saklig grunn», som må fylles ut i den enkelte saken.
+
+## Juridisk metode – steg for steg
+
+**1. Parter**: Hvem står mot hvem? For eksempel **kjøper** og **selger**.
+
+**2. Krav**: Hva vil parten **ha**? For eksempel **heving** av kjøpet eller **erstatning**.
+
+**3. Rettslig grunnlag**: Hvilken **regel** kan gi grunnlag for kravet? For eksempel reglene om **heving** i **forbrukerkjøpsloven**.
+
+**4. Problemstilling**: Hva er det **juridiske** spørsmålet? For eksempel: *Kan Ida heve kjøpet av mobiltelefonen?*
+
+**5. Rettsregel**: Hva sier regelen? Hvilke **vilkår** må være oppfylt? Tolk regelen ved hjelp av rettskildene.
+
+**6. Subsumsjon**: Anvend regelen på **faktum** – de konkrete opplysningene i saken. Er vilkårene oppfylt? Drøft **argumenter for og mot** når det er tvil.
+
+**7. Konklusjon**: Gi et klart **svar** på problemstillingen.
+
+## Et kort eksempel
+
+*Ida kjøpte en ny mobil i en butikk for tre måneder siden. Skjermen har sluttet å virke uten at hun har mistet den. Hun vil ha en ny telefon.*
+
+- **Parter**: Ida (forbruker) og butikken (selger).
+- **Krav**: omlevering – ny telefon.
+- **Rettslig grunnlag**: forbrukerkjøpsloven om mangel og omlevering.
+- **Problemstilling**: Har Ida krav på omlevering?
+- **Drøfting**: Er det en **mangel**? En ny telefon skal tåle vanlig bruk, så det er trolig en mangel. Har hun **reklamert** i tide? Tre måneder etter kjøpet er innenfor fristene. Etter forbrukerkjøpsloven kan forbrukeren som hovedregel **velge** mellom **retting** (reparasjon) og **omlevering**, men selgeren kan nekte hvis valget er umulig eller gir **urimelige kostnader**.
+- **Konklusjon**: Ida har som hovedregel krav på **omlevering**, med mindre det er urimelig kostbart for selgeren sammenlignet med retting.
+
+## Tips
+
+- Hold **faktum** og **jus** fra hverandre.
+- Vis **hvilken kilde** du bygger på.
+- Drøft der det er **tvil** – ikke der svaret er opplagt.
+- En konklusjon uten begrunnelse er lite verdt.', '{"label":"Rettskilder og metode","children":[{"label":"Rettskilder","children":[{"label":"Lov og forskrift"},{"label":"Forarbeider"},{"label":"Rettspraksis"},{"label":"Sedvane og reelle hensyn"}]},{"label":"Tolking","children":[{"label":"Ordlyd"},{"label":"Formål"},{"label":"Skjønnsmessige uttrykk"}]},{"label":"Metode","children":[{"label":"Parter og krav"},{"label":"Rettslig grunnlag"},{"label":"Problemstilling"}]},{"label":"Drøfting","children":[{"label":"Rettsregel og vilkår"},{"label":"Subsumsjon"},{"label":"Konklusjon"}]},{"label":"Tips","children":[{"label":"Faktum og jus"},{"label":"Kildebruk"},{"label":"Drøft der det er tvil"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:rettskilder-og-juridisk-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Rettskilde', 'Kilde jurister bruker for å finne gjeldende rett.', 0),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Grunnloven', 'Står øverst i rettskildehierarkiet.', 1),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Formell lov', 'Lov vedtatt av Stortinget.', 2),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Forskrift', 'Regel gitt av regjeringen eller departement med hjemmel i lov.', 3),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Forarbeider', 'Dokumenter fra lovens tilblivelse, som NOU og proposisjon.', 4),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Prejudikat', 'Høyesterettsdom som legger føringer for senere saker.', 5),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Forvaltningspraksis', 'Hvordan offentlige myndigheter praktiserer reglene.', 6),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Sedvanerett', 'Regler fra lang og fast praksis.', 7),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Reelle hensyn', 'Vurderinger av hva som er rimelig og rettferdig.', 8),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Lovdata', 'Nettsted med norske lover og forskrifter.', 9),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Ordlydstolking', 'Å ta utgangspunkt i hva loven faktisk sier.', 10),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Rettslig grunnlag', 'Regelen som kan gi grunnlag for kravet.', 11),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Juridisk problemstilling', 'Det rettslige spørsmålet saken reiser.', 12),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Subsumsjon', 'Å anvende rettsregelen på faktum.', 13),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'Faktum', 'De konkrete opplysningene i saken.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:rettskilder-og-juridisk-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q01', 'flervalg', 'Hvilken rettskilde står øverst?', array['Forskrifter', 'Grunnloven', 'Rettspraksis', 'Juridisk teori']::text[], 1, 'Andre regler må ikke stride mot den.', true, true, 0),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q02', 'flervalg', 'Hva er forarbeider?', array['Dokumenter fra lovens tilblivelse, som NOU og proposisjon', 'Tidligere dommer', 'Skikk og bruk', 'Fagbøker']::text[], 0, 'De forklarer hensikten med loven.', true, true, 1),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q03', 'flervalg', 'Hva er et prejudikat?', array['En lov', 'En forskrift', 'En Høyesterettsdom som legger føringer for senere saker', 'En avtale']::text[], 2, 'Rettspraksis.', true, true, 2),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q04', 'flervalg', 'Hva er subsumsjon?', array['Å finne partene', 'Å skrive konklusjonen', 'Å lese forarbeidene', 'Å anvende rettsregelen på faktum']::text[], 3, 'Er vilkårene oppfylt?', true, true, 3),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q05', 'flervalg', 'Hva er det første steget i juridisk metode?', array['Å finne partene', 'Å konkludere', 'Å lese dommer', 'Å skrive problemstillingen til slutt']::text[], 0, 'Hvem står mot hvem?', true, true, 4),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q06', 'flervalg', 'Hvor starter man når en lov skal tolkes?', array['Med reelle hensyn', 'Med ordlyden', 'Med juridisk teori', 'Med konklusjonen']::text[], 1, 'Deretter formål, forarbeider og praksis.', true, true, 5),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q07', 'flervalg', 'Hva er en forskrift?', array['En lov vedtatt av Stortinget', 'En dom', 'En regel gitt av regjeringen eller departement med hjemmel i lov', 'En avtale mellom privatpersoner']::text[], 2, 'Utfyller lovene.', true, true, 6),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q08', 'flervalg', 'Hva er en juridisk problemstilling i saken om Idas mobil?', array['Hvor mye kostet mobilen?', 'Hvilken farge har mobilen?', 'Hvor bor Ida?', 'Har Ida krav på omlevering?']::text[], 3, 'Det rettslige spørsmålet.', true, true, 7),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q09', 'flervalg', 'Hva er reelle hensyn?', array['Vurderinger av hva som er rimelig og rettferdig', 'Paragrafer i Grunnloven', 'Tidligere dommer', 'Stortingets vedtak']::text[], 0, 'En rettskilde med lavere vekt.', true, false, 8),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'q10', 'flervalg', 'Hvor finner du norske lover og forskrifter?', array['Wikipedia', 'Lovdata', 'Facebook', 'Aviser']::text[], 1, 'Den offisielle databasen.', true, false, 9),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm01', 'sant-usant', 'Lover har ofte skjønnsmessige uttrykk som må fylles ut i den enkelte sak.', array['Sant', 'Usant']::text[], 0, 'For eksempel «rimelig tid».', false, true, 10),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm02', 'sant-usant', 'En forskrift kan gå foran Grunnloven.', array['Sant', 'Usant']::text[], 1, 'Grunnloven står øverst.', false, true, 11),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm03', 'sant-usant', 'I juridisk metode bør du drøfte særlig der svaret er tvilsomt.', array['Sant', 'Usant']::text[], 0, 'Opplagte spørsmål trenger kort behandling.', false, true, 12),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm04', 'sant-usant', 'Menneskerettighetene er ikke en rettskilde i Norge.', array['Sant', 'Usant']::text[], 1, 'De er en viktig rettskilde, også gjennom menneskerettsloven.', false, true, 13),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm05', 'flervalg', 'Hva er kravet når en kjøper vil ha ny vare i stedet for en mangelfull?', array['Heving', 'Omlevering', 'Prisavslag', 'Erstatning']::text[], 1, 'Ny vare av samme slag.', false, true, 14),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm06', 'flervalg', 'Hvilken dokumenttype er et forarbeid?', array['NOU', 'Dom fra tingretten', 'Lovdata', 'Leserinnlegg']::text[], 0, 'Norges offentlige utredninger.', false, true, 15),
+  ('rettslare-1:rettskilder-og-juridisk-metode', 'm07', 'flervalg', 'Hva bør en konklusjon i en juridisk oppgave være?', array['Lang og uklar', 'Uten begrunnelse', 'Et klart svar på problemstillingen', 'En ny problemstilling']::text[], 2, 'Bygd på drøftingen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:rettskilder-og-juridisk-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Barnets beste og barneloven
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:barnets-beste-og-barneloven', 'rettslare-1', 'barnets-beste-og-barneloven', 'Barnets beste og barneloven', 'Prinsippet om barnets beste i Grunnloven og barnekonvensjonen, og sentrale regler i barneloven om farskap og morskap, foreldreansvar, fast bosted, samvær, barnets rett til å bli hørt, forsørgelse og mekling.', array[5]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:barnets-beste-og-barneloven', '## Barnets beste
+
+**Barnets beste** er et grunnleggende prinsipp i norsk rett:
+
+- **Grunnloven § 104**: Ved handlinger og avgjørelser som berører barn, skal **barnets beste** være et **grunnleggende hensyn**.
+- **Barnekonvensjonen artikkel 3** sier det samme, og konvensjonen gjelder som norsk lov med **forrang**.
+- **Barneloven § 48**: Avgjørelser om foreldreansvar, bosted og samvær skal **først og fremst** rette seg etter hva som er **best for barnet**.
+
+Hva som er barnets beste, må vurderes **konkret** i hver sak – for eksempel ut fra barnets **alder**, **tilknytning**, **stabilitet**, **meninger** og behov for **omsorg** og **trygghet**.
+
+## Hvem er foreldre?
+
+- **Morskap**: Kvinnen som **føder** barnet, er mor.
+- **Farskap**: Er mor **gift**, regnes **ektemannen** som far (**pater est-regelen**). Ellers kan faren **erkjenne** farskapet, eller det kan fastsettes ved **DNA-test** og dom.
+- **Medmorskap**: Ved **assistert befruktning** kan mors kvinnelige ektefelle eller samboer bli **medmor**.
+
+## Foreldreansvar
+
+**Foreldreansvar** er retten og plikten til å ta avgjørelser for barnet i **personlige forhold** – og å gi barnet **omsorg** og **omtanke**. Foreldrene skal ta stadig **mer hensyn** til barnets mening etter hvert som barnet blir eldre.
+
+- Gifte og samboende foreldre har **felles** foreldreansvar.
+- For barn født etter **1. januar 2020** har foreldre som **ikke** bor sammen, som hovedregel også **felles** foreldreansvar.
+- **Fysisk avstraffelse** og annen krenkende behandling av barn er **forbudt**.
+
+## Fast bosted og samvær
+
+Når foreldrene ikke bor sammen, må de avtale hvor barnet skal **bo fast** – hos én av dem eller hos begge (**delt fast bosted**). Den som har fast bosted, kan blant annet bestemme om barnet skal gå i **barnehage** og hvor i **Norge** barnet skal bo.
+
+Den andre forelderen har som hovedregel rett til **samvær**. Samvær er først og fremst **barnets rett**. **Vanlig samvær** er etter loven én ettermiddag i uka med overnatting, annenhver helg, 14 dager i sommerferien og annenhver jul eller påske.
+
+## Barnets rett til å bli hørt
+
+Etter **barneloven § 31** skal barn som er i stand til å danne seg egne synspunkter, få si sin **mening** før det tas avgjørelser om personlige forhold for dem. Barn fra **sju år** skal alltid få informasjon og anledning til å si meningen sin, og når barnet har fylt **tolv år**, skal meningen tillegges **stor vekt**. Fra **15 år** bestemmer barnet selv om valg av **utdanning** og om å melde seg inn i foreninger.
+
+## Forsørgelse
+
+Foreldrene har **fostringsplikt**: De skal forsørge barnet til det fyller **18 år**, og lenger hvis barnet fortsatt går i **videregående**. Den forelderen som ikke bor fast med barnet, betaler vanligvis **barnebidrag**.
+
+## Mekling
+
+Gifte og samboende foreldre med felles barn **under 16 år** må gå til **mekling** før de kan få separasjon eller skilsmisse, eller når samboere flytter fra hverandre. Formålet er å komme fram til en **avtale** om foreldreansvar, bosted og samvær som er **best for barnet**. Blir de ikke enige, kan saken bringes inn for **domstolen**.', '{"label":"Barnets beste og barneloven","children":[{"label":"Barnets beste","children":[{"label":"Grl. § 104"},{"label":"Barnekonvensjonen"},{"label":"Konkret vurdering"}]},{"label":"Foreldre","children":[{"label":"Morskap"},{"label":"Farskap"},{"label":"Medmorskap"}]},{"label":"Foreldreansvar","children":[{"label":"Felles som hovedregel"},{"label":"Forbud mot vold"}]},{"label":"Bosted og samvær","children":[{"label":"Fast bosted"},{"label":"Vanlig samvær"},{"label":"Mekling"}]},{"label":"Barnets stemme","children":[{"label":"Hørt fra 7 år"},{"label":"Stor vekt fra 12 år"},{"label":"Utdanning fra 15 år"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:barnets-beste-og-barneloven';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:barnets-beste-og-barneloven', 'Barnets beste', 'Grunnleggende hensyn i alle avgjørelser som berører barn.', 0),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Grunnloven § 104', 'Barnets beste skal være et grunnleggende hensyn.', 1),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Barnekonvensjonen artikkel 3', 'Barnets beste i internasjonal rett.', 2),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Pater est-regelen', 'Mors ektemann regnes som far.', 3),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Medmor', 'Mors kvinnelige ektefelle eller samboer ved assistert befruktning.', 4),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Foreldreansvar', 'Rett og plikt til å ta avgjørelser for barnet i personlige forhold.', 5),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Felles foreldreansvar', 'Hovedregelen for gifte og samboende – og for de fleste barn født etter 2020.', 6),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Fast bosted', 'Hvor barnet bor fast når foreldrene ikke bor sammen.', 7),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Delt fast bosted', 'Barnet bor fast hos begge foreldrene.', 8),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Samvær', 'Barnets rett til å være sammen med forelderen det ikke bor fast hos.', 9),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Vanlig samvær', 'Ettermiddag i uka, annenhver helg, 14 dager om sommeren, jul eller påske.', 10),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Barneloven § 31', 'Barnets rett til å bli hørt; stor vekt fra 12 år.', 11),
+  ('rettslare-1:barnets-beste-og-barneloven', '15 år', 'Barnet bestemmer selv valg av utdanning.', 12),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Fostringsplikt', 'Forsørgelse til 18 år, eller lenger under videregående.', 13),
+  ('rettslare-1:barnets-beste-og-barneloven', 'Mekling', 'Obligatorisk for foreldre med felles barn under 16 ved samlivsbrudd.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:barnets-beste-og-barneloven';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:barnets-beste-og-barneloven', 'q01', 'flervalg', 'Hvor står det at barnets beste skal være et grunnleggende hensyn?', array['Bare i barneloven', 'I Grunnloven § 104 og barnekonvensjonen artikkel 3', 'I straffeloven', 'I arveloven']::text[], 1, 'Også i barneloven § 48.', true, true, 0),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q02', 'flervalg', 'Hvem regnes som far når mor er gift?', array['Ektemannen', 'Den som betaler bidrag', 'Den som bor med barnet', 'Ingen før DNA-test']::text[], 0, 'Pater est-regelen.', true, true, 1),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q03', 'flervalg', 'Når skal barnets mening tillegges stor vekt etter barneloven?', array['Fra 3 år', 'Fra 7 år', 'Fra 12 år', 'Fra 18 år']::text[], 2, 'Barn fra sju år skal alltid få si meningen sin.', true, true, 2),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q04', 'flervalg', 'Hva er foreldreansvar?', array['Plikt til å betale barnebidrag', 'Retten til samvær', 'Retten til barnetrygd', 'Rett og plikt til å ta avgjørelser for barnet i personlige forhold']::text[], 3, 'Og å gi barnet omsorg.', true, true, 3),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q05', 'flervalg', 'Hvem har rett til samvær først og fremst?', array['Barnet', 'Mor', 'Far', 'Besteforeldrene']::text[], 0, 'Samvær er barnets rett.', true, true, 4),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q06', 'flervalg', 'Hvem må gå til mekling ved samlivsbrudd?', array['Alle par', 'Gifte og samboende foreldre med felles barn under 16 år', 'Bare gifte uten barn', 'Ingen']::text[], 1, 'For å avtale det som er best for barnet.', true, true, 5),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q07', 'flervalg', 'Hva kan den som har fast bosted, bestemme?', array['At barnet skal flytte til utlandet uten samtykke', 'At barnet ikke skal ha samvær', 'Blant annet om barnet skal gå i barnehage og hvor i Norge barnet skal bo', 'Hvem som er barnets far']::text[], 2, 'Flytting til utlandet krever samtykke fra begge med foreldreansvar.', true, true, 6),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q08', 'flervalg', 'Hvor lenge har foreldrene fostringsplikt?', array['Til barnet fyller 15', 'Til barnet fyller 16', 'For alltid', 'Til 18 år, eller lenger hvis barnet går i videregående']::text[], 3, 'Barneloven om forsørgelse.', true, true, 7),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q09', 'flervalg', 'Er fysisk avstraffelse av barn lov i Norge?', array['Nei, det er forbudt', 'Ja, i små doser', 'Ja, hvis foreldrene er enige', 'Bare for barn over 12']::text[], 0, 'Barneloven forbyr det.', true, false, 8),
+  ('rettslare-1:barnets-beste-og-barneloven', 'q10', 'flervalg', 'Fra hvilken alder bestemmer barnet selv valg av utdanning?', array['12 år', '15 år', '16 år', '18 år']::text[], 1, 'Og innmelding i foreninger.', true, false, 9),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm01', 'sant-usant', 'Hva som er barnets beste, må vurderes konkret i hver sak.', array['Sant', 'Usant']::text[], 0, 'Ut fra barnets situasjon og behov.', false, true, 10),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm02', 'sant-usant', 'Barn under sju år har aldri rett til å si sin mening.', array['Sant', 'Usant']::text[], 1, 'Også yngre barn som kan danne seg egne synspunkter, skal høres.', false, true, 11),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm03', 'sant-usant', 'Et barn kan ha delt fast bosted hos begge foreldrene.', array['Sant', 'Usant']::text[], 0, 'Hvis foreldrene avtaler det.', false, true, 12),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm04', 'sant-usant', 'Mekling er bare et tilbud og aldri obligatorisk.', array['Sant', 'Usant']::text[], 1, 'Den er obligatorisk for foreldre med felles barn under 16 ved samlivsbrudd.', false, true, 13),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm05', 'flervalg', 'Hvem kan bli medmor?', array['Mors søster', 'Mors kvinnelige ektefelle eller samboer ved assistert befruktning', 'Farmor', 'Barnets tante']::text[], 1, 'Etter barneloven.', false, true, 14),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm06', 'flervalg', 'Hva betaler forelderen som ikke bor fast med barnet, vanligvis?', array['Barnebidrag', 'Barnetrygd', 'Arveavgift', 'Skolepenger']::text[], 0, 'Et bidrag til forsørgelsen.', false, true, 15),
+  ('rettslare-1:barnets-beste-og-barneloven', 'm07', 'flervalg', 'Hvilken paragraf i barneloven gir barnet rett til å bli hørt?', array['§ 1', '§ 48', '§ 31', '§ 104']::text[], 2, '§ 48 handler om barnets beste.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:barnets-beste-og-barneloven', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Ekteskap og samboerskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:ekteskap-og-samboerskap', 'rettslare-1', 'ekteskap-og-samboerskap', 'Ekteskap og samboerskap', 'Vilkårene for å inngå ekteskap, rettigheter og plikter mellom ektefeller, felleseie og særeie, separasjon og skilsmisse med likedeling og skjevdeling – og hvordan samboeres rettsstilling skiller seg fra ektefellers.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:ekteskap-og-samboerskap', '## Å inngå ekteskap
+
+**Ekteskapsloven** stiller blant annet disse **vilkårene**:
+
+- Begge må ha fylt **18 år** – det gjelder uten unntak.
+- Ingen av dem kan være **gift** fra før.
+- De kan ikke være i **nær slekt** – foreldre og barn, besteforeldre og barnebarn, eller søsken.
+- Begge må gi **frivillig** samtykke og være til stede ved vigselen.
+
+Før vigselen blir vilkårene kontrollert ved **prøving**. Siden **2009** har par av **samme kjønn** kunnet gifte seg.
+
+## Rettigheter og plikter mellom ektefeller
+
+- **Underholdsplikt**: Ektefellene skal **forsørge** hverandre og bidra til familiens underhold etter **evne** – med penger eller arbeid i hjemmet.
+- **Rådighet**: Hver ektefelle råder som hovedregel over **sine egne** eiendeler. Men man kan ikke **selge** eller **pantsette** **felles bolig** uten den andres **samtykke**.
+- **Opplysningsplikt** om økonomien.
+- Ektefeller **arver** hverandre etter loven.
+
+## Felleseie og særeie
+
+- **Felleseie** er hovedregelen. Det betyr **ikke** at alt eies i fellesskap under ekteskapet, men at verdiene skal **deles** når ekteskapet oppløses.
+- **Særeie** avtales i en **ektepakt**, som må være **skriftlig**. Særeie holdes **utenfor** delingen.
+
+## Separasjon og skilsmisse
+
+- En ektefelle kan kreve **separasjon** uten å oppgi grunn.
+- Etter **ett år** som separert kan hver av dem kreve **skilsmisse**.
+- Etter **to års samlivsbrudd** kan man få skilsmisse direkte.
+- Ved **vold** eller **mishandling** kan man få skilsmisse med en gang.
+
+Har de felles barn under 16 år, må de gå til **mekling** først.
+
+## Deling ved skilsmisse
+
+- **Likedeling**: **Nettoverdiene** i felleseiet – eiendeler minus gjeld – deles **likt**.
+- **Skjevdeling**: Verdier som en ektefelle hadde **før** ekteskapet, eller som er mottatt som **arv** eller **gave** fra andre enn ektefellen, kan holdes utenfor delingen. Det må **dokumenteres**.
+
+**Eksempel**: Ali hadde 200 000 kr i banken da de giftet seg. Ved skilsmissen har han 500 000 kr og Sara 300 000 kr. Ali kan kreve skjevdeling av 200 000 kr. Deretter deles resten (300 000 + 300 000 = 600 000 kr) likt, så hver får 300 000 kr. Ali sitter da igjen med 500 000 kr, Sara med 300 000 kr.
+
+## Samboere
+
+Samboere har **mye svakere** rettigheter enn ektefeller:
+
+- Det finnes **ingen** felles samboerlov om deling. Hver eier **det de har kjøpt** – det avgjørende er **hvem som har betalt** eller står som eier.
+- Samboere har **ingen underholdsplikt** overfor hverandre.
+- **Arv**: Samboere **uten** felles barn arver **ikke** hverandre etter loven. Samboere **med** felles barn har en begrenset arverett.
+- **Husstandsfellesskapsloven** kan i noen tilfeller gi rett til å **overta** felles bolig og innbo.
+
+Derfor anbefales det at samboere skriver en **samboerkontrakt** og et **testament**.
+
+## Drøfting
+
+Flere og flere velger å være **samboere**. Bør samboere få **samme** rettigheter som ektefeller? Noen mener det vil beskytte den **økonomisk svakeste** parten. Andre mener at folk som ikke gifter seg, nettopp har **valgt** å stå friere.', '{"label":"Ekteskap og samboerskap","children":[{"label":"Inngåelse","children":[{"label":"18 år"},{"label":"Ikke gift, ikke nær slekt"},{"label":"Frivillig samtykke"}]},{"label":"Under ekteskapet","children":[{"label":"Underholdsplikt"},{"label":"Rådighet og felles bolig"},{"label":"Arverett"}]},{"label":"Formuesordning","children":[{"label":"Felleseie"},{"label":"Særeie og ektepakt"}]},{"label":"Oppløsning","children":[{"label":"Separasjon og skilsmisse"},{"label":"Likedeling"},{"label":"Skjevdeling"}]},{"label":"Samboere","children":[{"label":"Eierskap etter betaling"},{"label":"Begrenset arv"},{"label":"Samboerkontrakt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:ekteskap-og-samboerskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:ekteskap-og-samboerskap', 'Aldersgrense for ekteskap', '18 år uten unntak.', 0),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Prøving', 'Kontroll av at vilkårene for ekteskap er oppfylt.', 1),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Likekjønnet ekteskap', 'Tillatt i Norge siden 2009.', 2),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Underholdsplikt', 'Ektefeller skal forsørge hverandre etter evne.', 3),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Felles bolig', 'Kan ikke selges eller pantsettes uten den andres samtykke.', 4),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Felleseie', 'Hovedregelen – verdiene deles ved oppløsning av ekteskapet.', 5),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Særeie', 'Verdier holdes utenfor delingen, avtales i ektepakt.', 6),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Ektepakt', 'Skriftlig avtale mellom ektefeller, for eksempel om særeie.', 7),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Separasjon', 'Kan kreves uten grunn; etter ett år kan man få skilsmisse.', 8),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Direkte skilsmisse', 'Etter to års samlivsbrudd eller ved vold.', 9),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Likedeling', 'Nettoverdiene i felleseiet deles likt.', 10),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Skjevdeling', 'Verdier fra før ekteskapet eller arv og gave holdes utenfor.', 11),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Samboeres eierskap', 'Hver eier det de har betalt for.', 12),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Husstandsfellesskapsloven', 'Kan gi rett til å overta felles bolig og innbo.', 13),
+  ('rettslare-1:ekteskap-og-samboerskap', 'Samboerkontrakt', 'Avtale som regulerer samboernes økonomi.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:ekteskap-og-samboerskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:ekteskap-og-samboerskap', 'q01', 'flervalg', 'Hvilken aldersgrense gjelder for å gifte seg i Norge?', array['16 år', '18 år', '20 år', '18 år med unntak for 16-åringer']::text[], 1, 'Uten unntak.', true, true, 0),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q02', 'flervalg', 'Hva betyr felleseie?', array['At verdiene skal deles når ekteskapet oppløses', 'At alt eies i fellesskap under ekteskapet', 'At bare mannen eier', 'At ingen eier noe']::text[], 0, 'Hver råder over sitt under ekteskapet.', true, true, 1),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q03', 'flervalg', 'Hva er skjevdeling?', array['At alt deles likt', 'At bare gjeld deles', 'At verdier fra før ekteskapet eller arv og gave holdes utenfor delingen', 'At særeie deles']::text[], 2, 'Må dokumenteres.', true, true, 2),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q04', 'flervalg', 'Når kan man kreve skilsmisse etter separasjon?', array['Etter én måned', 'Etter fem år', 'Aldri', 'Etter ett år']::text[], 3, 'Etter to års samlivsbrudd kan man få direkte skilsmisse.', true, true, 3),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q05', 'flervalg', 'Kan en ektefelle selge felles bolig uten den andres samtykke?', array['Nei', 'Ja, alltid', 'Ja, hvis den ene eier den', 'Bare om sommeren']::text[], 0, 'Samtykke kreves.', true, true, 4),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q06', 'flervalg', 'Arver samboere uten felles barn hverandre etter loven?', array['Ja, alt', 'Nei', 'Ja, halvparten', 'Bare boligen']::text[], 1, 'De må skrive testament.', true, true, 5),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q07', 'flervalg', 'Hvordan avtales særeie?', array['Muntlig', 'På sosiale medier', 'I en skriftlig ektepakt', 'Det skjer automatisk']::text[], 2, 'Formkrav.', true, true, 6),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q08', 'flervalg', 'Ali hadde 200 000 kr før ekteskapet, har 500 000 kr nå, og Sara har 300 000 kr. Hvor mye får Ali etter skjevdeling og likedeling?', array['400 000 kr', '250 000 kr', '600 000 kr', '500 000 kr']::text[], 3, '200 000 skjevdeles, 600 000 deles likt.', true, true, 7),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q09', 'flervalg', 'Når kan man få skilsmisse med en gang?', array['Ved vold eller mishandling', 'Når man har kranglet', 'Når man flytter', 'Når man får barn']::text[], 0, 'Uten separasjon.', true, false, 8),
+  ('rettslare-1:ekteskap-og-samboerskap', 'q10', 'flervalg', 'Hva avgjør som hovedregel hvem som eier hva mellom samboere?', array['Hvem som tjener mest', 'Hvem som har betalt eller står som eier', 'Hvem som har bodd lengst', 'Loven deler alt likt']::text[], 1, 'Det finnes ingen samboerlov om deling.', true, false, 9),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm01', 'sant-usant', 'Ektefeller arver hverandre etter loven.', array['Sant', 'Usant']::text[], 0, 'Etter arveloven.', false, true, 10),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm02', 'sant-usant', 'Samboere har underholdsplikt overfor hverandre.', array['Sant', 'Usant']::text[], 1, 'Det har bare ektefeller.', false, true, 11),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm03', 'sant-usant', 'Søsken kan ikke gifte seg med hverandre.', array['Sant', 'Usant']::text[], 0, 'Forbud mot ekteskap i nær slekt.', false, true, 12),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm04', 'sant-usant', 'Separasjon krever at man oppgir en grunn.', array['Sant', 'Usant']::text[], 1, 'Separasjon kan kreves uten grunn.', false, true, 13),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm05', 'flervalg', 'Hva anbefales for samboere som vil sikre hverandre?', array['Ingenting', 'Samboerkontrakt og testament', 'Ektepakt', 'Separasjon']::text[], 1, 'Loven gir dem svakt vern.', false, true, 14),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm06', 'flervalg', 'Hva deles likt ved likedeling?', array['Nettoverdiene i felleseiet', 'Bare gjelden', 'Bare boligen', 'Særeiet']::text[], 0, 'Eiendeler minus gjeld.', false, true, 15),
+  ('rettslare-1:ekteskap-og-samboerskap', 'm07', 'flervalg', 'Siden når har par av samme kjønn kunnet gifte seg i Norge?', array['1991', '1814', '2009', '2020']::text[], 2, 'Endring i ekteskapsloven.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:ekteskap-og-samboerskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Arv, testament og uskifte
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:arv-og-uskifte', 'rettslare-1', 'arv-og-uskifte', 'Arv, testament og uskifte', 'Reglene i arveloven om hvem som arver etter loven, pliktdelsarv til barn, ektefellers og samboeres arverett, hvordan et gyldig testament lages, og hva det betyr å sitte i uskifte.', array[7]::int[], 5, 'sjekkes', array['Sjekk gjeldende grunnbeløp (G) og beløpsgrensene i arveloven mot Lovdata/NAV.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:arv-og-uskifte', '## Arveloven
+
+Når noen dør, går eiendelene – **dødsboet** – til **arvingene**. Reglene står i **arveloven**, som trådte i kraft i **2021**. Norge har **ingen arveavgift** – den ble fjernet i 2014.
+
+Mange beløp i loven er knyttet til **G** – **grunnbeløpet** i folketrygden, som justeres hvert år (rundt 130 000 kr i 2025).
+
+## Slektsarvinger – arvegangsklassene
+
+Slekt arver i **tre klasser**. En klasse arver bare hvis det **ikke** finnes arvinger i en klasse foran.
+
+1. **Livsarvinger**: barn, barnebarn og så videre. Er et barn død, går dets del til barnets barn.
+2. **Foreldre** og deres etterkommere – altså også **søsken**, nieser og nevøer.
+3. **Besteforeldre** og deres **barn** – tanter og onkler. **Fettere** og **kusiner** arver ikke etter loven.
+
+## Pliktdelsarv
+
+**Livsarvinger** har krav på **pliktdelsarv**: **to tredeler** av formuen, men **høyst 15 G** til hvert barn. Pliktdelen kan **ikke** tas fra dem ved testament. Resten kan arvelateren fordele fritt i et testament.
+
+## Ektefellens arverett
+
+- Med **livsarvinger**: Ektefellen arver **en firedel**, men **minst 4 G**.
+- Uten livsarvinger, men med **foreldre** eller deres etterkommere: **halvparten**, men **minst 6 G**.
+- Ellers arver ektefellen **alt**.
+
+Ektefellens minstearv går foran barnas pliktdelsarv.
+
+## Samboerens arverett
+
+Samboere som har, har hatt eller venter **felles barn**, arver **4 G** etter loven. Samboere **uten** felles barn arver **ingenting** etter loven – de må sikre hverandre med **testament**.
+
+## Testament
+
+Et **testament** er en erklæring om hvordan arven skal fordeles. For at det skal være **gyldig**, må det
+
+- være **skriftlig**
+- være **underskrevet** av arvelateren
+- ha **to vitner** som er til stede samtidig, vet at det er et testament og er over **18 år**
+- være laget av en person som er over **18 år** og i stand til å forstå hva det innebærer
+
+Vitnene kan **ikke** være personer som får arv etter testamentet, eller deres nære familie. Et testament kan ikke fjerne **pliktdelsarven** eller ektefellens **minstearv**.
+
+## Uskifte
+
+**Uskifte** betyr at den gjenlevende ektefellen **overtar hele boet** uten at arven fordeles til barna. Barna må **vente** til begge foreldrene er døde.
+
+- **Felles** barn kan **ikke** nekte uskifte.
+- **Særkullsbarn** – barn avdøde har med en annen – må **samtykke**.
+- Den som sitter i uskifte, kan bruke formuen, men kan ikke gi bort **fast eiendom** eller gaver i **misforhold** til formuen uten samtykke fra arvingene.
+- **Gifter** den gjenlevende seg igjen, må boet **skiftes** først.
+
+Samboere med felles barn kan ha rett til uskifte for **felles bolig** og **innbo**.
+
+## Eksempel
+
+Kari dør. Hun var gift med Per og hadde to barn med ham. Formuen er 3 millioner kroner. Per arver en firedel – 750 000 kr – som er mer enn 4 G. Barna deler resten. Men Per kan i stedet velge å sitte i **uskifte**, fordi barna er **felles**.', '{"label":"Arv og uskifte","children":[{"label":"Arvegangsklasser","children":[{"label":"Livsarvinger"},{"label":"Foreldre og søsken"},{"label":"Besteforeldre, tanter, onkler"}]},{"label":"Barn","children":[{"label":"Pliktdel 2/3"},{"label":"Høyst 15 G"}]},{"label":"Ektefelle og samboer","children":[{"label":"1/4, minst 4 G"},{"label":"1/2, minst 6 G"},{"label":"Samboer med barn: 4 G"}]},{"label":"Testament","children":[{"label":"Skriftlig og underskrevet"},{"label":"To vitner over 18"},{"label":"Grenser: pliktdel"}]},{"label":"Uskifte","children":[{"label":"Felles barn kan ikke nekte"},{"label":"Særkullsbarn må samtykke"},{"label":"Nytt ekteskap: skifte"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:arv-og-uskifte';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:arv-og-uskifte', 'Dødsbo', 'Eiendelene og gjelden etter den som er død.', 0),
+  ('rettslare-1:arv-og-uskifte', 'Arveloven', 'Ny lov i kraft fra 2021.', 1),
+  ('rettslare-1:arv-og-uskifte', 'Arveavgift', 'Fjernet i Norge i 2014.', 2),
+  ('rettslare-1:arv-og-uskifte', 'G', 'Grunnbeløpet i folketrygden, justeres hvert år.', 3),
+  ('rettslare-1:arv-og-uskifte', 'Første arvegangsklasse', 'Livsarvinger – barn og barnebarn.', 4),
+  ('rettslare-1:arv-og-uskifte', 'Andre arvegangsklasse', 'Foreldre og deres etterkommere, som søsken.', 5),
+  ('rettslare-1:arv-og-uskifte', 'Tredje arvegangsklasse', 'Besteforeldre og deres barn – ikke fettere og kusiner.', 6),
+  ('rettslare-1:arv-og-uskifte', 'Pliktdelsarv', 'To tredeler av formuen, høyst 15 G per barn.', 7),
+  ('rettslare-1:arv-og-uskifte', 'Ektefelle med livsarvinger', 'Arver en firedel, minst 4 G.', 8),
+  ('rettslare-1:arv-og-uskifte', 'Ektefelle uten livsarvinger', 'Arver halvparten, minst 6 G, hvis foreldre eller deres etterkommere lever.', 9),
+  ('rettslare-1:arv-og-uskifte', 'Samboer med felles barn', 'Arver 4 G etter loven.', 10),
+  ('rettslare-1:arv-og-uskifte', 'Gyldig testament', 'Skriftlig, underskrevet og med to vitner over 18 år.', 11),
+  ('rettslare-1:arv-og-uskifte', 'Uskifte', 'Gjenlevende ektefelle overtar hele boet uten skifte.', 12),
+  ('rettslare-1:arv-og-uskifte', 'Særkullsbarn', 'Barn avdøde har med en annen enn ektefellen.', 13),
+  ('rettslare-1:arv-og-uskifte', 'Skifte', 'Fordeling av arven mellom arvingene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:arv-og-uskifte';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:arv-og-uskifte', 'q01', 'flervalg', 'Hvor stor er pliktdelsarven til barn?', array['Halvparten av formuen', 'To tredeler av formuen, høyst 15 G per barn', 'Alt', 'En firedel']::text[], 1, 'Kan ikke tas bort ved testament.', true, true, 0),
+  ('rettslare-1:arv-og-uskifte', 'q02', 'flervalg', 'Hvor mye arver en ektefelle når det finnes livsarvinger?', array['En firedel, minst 4 G', 'Alt', 'Ingenting', 'Halvparten']::text[], 0, 'Minstearven går foran pliktdelen.', true, true, 1),
+  ('rettslare-1:arv-og-uskifte', 'q03', 'flervalg', 'Arver fettere og kusiner etter loven?', array['Ja, i første klasse', 'Ja, i andre klasse', 'Nei', 'Bare hvis de er over 18']::text[], 2, 'Tredje klasse stopper ved tanter og onkler.', true, true, 2),
+  ('rettslare-1:arv-og-uskifte', 'q04', 'flervalg', 'Hva kreves for et gyldig testament?', array['At det er muntlig', 'At det er publisert', 'At det har ett vitne', 'At det er skriftlig, underskrevet og har to vitner over 18 år']::text[], 3, 'Formkrav i arveloven.', true, true, 3),
+  ('rettslare-1:arv-og-uskifte', 'q05', 'flervalg', 'Hva er uskifte?', array['At gjenlevende ektefelle overtar hele boet uten skifte', 'At arven deles med en gang', 'At staten overtar boet', 'At barna overtar alt']::text[], 0, 'Barna må vente.', true, true, 4),
+  ('rettslare-1:arv-og-uskifte', 'q06', 'flervalg', 'Hvem må samtykke til uskifte?', array['Felles barn', 'Særkullsbarn', 'Naboene', 'Staten']::text[], 1, 'Felles barn kan ikke nekte.', true, true, 5),
+  ('rettslare-1:arv-og-uskifte', 'q07', 'flervalg', 'Hva arver en samboer uten felles barn etter loven?', array['4 G', 'Halvparten', 'Ingenting', 'Alt']::text[], 2, 'Må sikres med testament.', true, true, 6),
+  ('rettslare-1:arv-og-uskifte', 'q08', 'flervalg', 'Hva skjer hvis den som sitter i uskifte, gifter seg igjen?', array['Ingenting', 'Den nye ektefellen overtar', 'Barna mister arven', 'Boet må skiftes først']::text[], 3, 'Arven fordeles før nytt ekteskap.', true, true, 7),
+  ('rettslare-1:arv-og-uskifte', 'q09', 'flervalg', 'Kari etterlater 3 millioner kr, ektefelle og to felles barn. Hvor mye arver ektefellen?', array['750 000 kr', '1 500 000 kr', '3 000 000 kr', '0 kr']::text[], 0, 'En firedel, som er mer enn 4 G.', true, false, 8),
+  ('rettslare-1:arv-og-uskifte', 'q10', 'flervalg', 'Kan man ta fra barna pliktdelsarven i et testament?', array['Ja, alltid', 'Nei', 'Ja, hvis barna er voksne', 'Ja, hvis man har ektefelle']::text[], 1, 'Pliktdelen er vernet.', true, false, 9),
+  ('rettslare-1:arv-og-uskifte', 'm01', 'sant-usant', 'Norge har ikke arveavgift.', array['Sant', 'Usant']::text[], 0, 'Den ble fjernet i 2014.', false, true, 10),
+  ('rettslare-1:arv-og-uskifte', 'm02', 'sant-usant', 'Et vitne til testamentet kan være den som arver etter det.', array['Sant', 'Usant']::text[], 1, 'Vitnene kan ikke være arvinger etter testamentet.', false, true, 11),
+  ('rettslare-1:arv-og-uskifte', 'm03', 'sant-usant', 'Søsken arver bare hvis avdøde ikke hadde livsarvinger.', array['Sant', 'Usant']::text[], 0, 'Andre arvegangsklasse.', false, true, 12),
+  ('rettslare-1:arv-og-uskifte', 'm04', 'sant-usant', 'Den som sitter i uskifte, kan gi bort fast eiendom uten samtykke.', array['Sant', 'Usant']::text[], 1, 'Det krever samtykke fra arvingene.', false, true, 13),
+  ('rettslare-1:arv-og-uskifte', 'm05', 'flervalg', 'Hva er et særkullsbarn?', array['Et adoptivbarn', 'Et barn avdøde har med en annen enn ektefellen', 'Et barnebarn', 'Et fosterbarn']::text[], 1, 'Må samtykke til uskifte.', false, true, 14),
+  ('rettslare-1:arv-og-uskifte', 'm06', 'flervalg', 'Hvor mye arver en ektefelle uten livsarvinger, når avdødes foreldre lever?', array['Halvparten, minst 6 G', 'En firedel', 'Ingenting', '4 G']::text[], 0, 'Ellers arver ektefellen alt.', false, true, 15),
+  ('rettslare-1:arv-og-uskifte', 'm07', 'flervalg', 'Hva er G?', array['En type skatt', 'Et gebyr ved skifte', 'Grunnbeløpet i folketrygden', 'En arveklasse']::text[], 2, 'Justeres hvert år.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:arv-og-uskifte', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Rettigheter og plikter i arbeidslivet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:arbeidsrett', 'rettslare-1', 'arbeidsrett', 'Rettigheter og plikter i arbeidslivet', 'Sentrale regler i arbeidsmiljøloven og ferieloven: arbeidsavtale og fast ansettelse, prøvetid, arbeidstid og overtid, unge arbeidstakere, oppsigelse og avskjed, varsling og vern mot trakassering – og arbeidstakers plikter.', array[8]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:arbeidsrett', '## Arbeidsmiljøloven
+
+**Arbeidsmiljøloven** skal sikre et **trygt** og **fullt forsvarlig** arbeidsmiljø og **trygge ansettelsesforhold**. Reglene er i stor grad **ufravikelige** til arbeidstakerens fordel, fordi arbeidstakeren ofte er den **svakere** parten.
+
+## Å bli ansatt
+
+- **Arbeidsavtalen** skal være **skriftlig** og inneholde blant annet arbeidssted, arbeidsoppgaver, lønn, arbeidstid, oppsigelsesfrister og ferie.
+- **Fast ansettelse** er **hovedregelen**. **Midlertidig** ansettelse er bare lov i bestemte tilfeller, for eksempel ved **vikariat** eller arbeid av **midlertidig karakter**.
+- Arbeidsgiver kan avtale **prøvetid** på inntil **seks måneder**. I prøvetiden er oppsigelsestiden kortere, og kravet til begrunnelse noe lavere.
+
+## Arbeidstid og ferie
+
+- **Alminnelig arbeidstid** skal ikke overstige **9 timer per døgn** og **40 timer per uke**.
+- **Overtid** er arbeid utover dette og skal bare brukes ved **særlig og tidsavgrenset behov**. Overtid gir et tillegg på **minst 40 %** av timelønnen.
+- Arbeidstakere har rett til **pauser** og **hvile** mellom arbeidsøktene.
+- Etter **ferieloven** har alle rett til **25 virkedager** ferie i året.
+
+## Unge arbeidstakere
+
+Det er egne regler for arbeidstakere **under 18 år**. Barn under **15 år** kan som hovedregel bare utføre **lett arbeid** som ikke skader helse, utvikling eller skolegang, og ungdom kan ikke jobbe om **natten**. Arbeidstiden er også **begrenset** i skoleperioder.
+
+## Arbeidstakers plikter
+
+- **Arbeidsplikt**: å utføre arbeidet som avtalt.
+- **Lydighetsplikt**: å følge arbeidsgiverens **rimelige** instrukser – arbeidsgiver har **styringsrett**.
+- **Lojalitetsplikt**: ikke å skade arbeidsgiverens interesser.
+- **Medvirkningsplikt**: å bidra til et godt og sikkert arbeidsmiljø.
+
+## Oppsigelse og avskjed
+
+- En **oppsigelse** fra arbeidsgiver må være **saklig begrunnet** i **virksomhetens**, **arbeidsgiverens** eller **arbeidstakerens** forhold – for eksempel **nedbemanning** eller gjentatte brudd på arbeidsplikter. Den må være **skriftlig**.
+- Den vanlige **oppsigelsestiden** er **én måned**, men den blir lengre jo lenger man har vært ansatt og jo eldre man er.
+- **Avskjed** betyr at arbeidsforholdet **opphører straks**. Det krever **grovt pliktbrudd** eller **vesentlig mislighold**, som tyveri eller vold.
+- Arbeidstakeren kan selv si opp med oppsigelsestiden i avtalen.
+
+Mener arbeidstakeren at oppsigelsen er **usaklig**, kan det kreves **forhandlinger** og deretter reises **søksmål**.
+
+## Varsling
+
+Arbeidstakere har rett til å **varsle** om **kritikkverdige forhold** i virksomheten – for eksempel lovbrudd, fare for liv og helse, korrupsjon eller trakassering. Varslingen skal skje på en **forsvarlig** måte, for eksempel internt eller til en tilsynsmyndighet. **Gjengjeldelse** mot den som varsler, er **forbudt**.
+
+## Trakassering
+
+Arbeidstakere skal ikke utsettes for **trakassering** eller annen **utilbørlig opptreden**. **Seksuell trakassering** er uønsket seksuell oppmerksomhet som er **plagsom**. Arbeidsgiveren har plikt til å **forebygge** og **følge opp** trakassering. Diskriminerende trakassering reguleres også av **likestillings- og diskrimineringsloven**.
+
+## Tilsyn
+
+**Arbeidstilsynet** fører tilsyn med at arbeidsmiljøloven følges, og **fagforeninger** og **verneombud** er viktige for å ivareta arbeidstakernes rettigheter.', '{"label":"Arbeidsrett","children":[{"label":"Ansettelse","children":[{"label":"Skriftlig avtale"},{"label":"Fast som hovedregel"},{"label":"Prøvetid"}]},{"label":"Arbeidstid","children":[{"label":"9 t / 40 t"},{"label":"Overtid 40 %"},{"label":"Ferie 25 dager"}]},{"label":"Plikter","children":[{"label":"Arbeid og lydighet"},{"label":"Lojalitet"},{"label":"Medvirkning"}]},{"label":"Avslutning","children":[{"label":"Saklig oppsigelse"},{"label":"Oppsigelsestid"},{"label":"Avskjed"}]},{"label":"Vern","children":[{"label":"Varsling"},{"label":"Trakassering"},{"label":"Arbeidstilsynet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:arbeidsrett';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:arbeidsrett', 'Arbeidsmiljøloven', 'Skal sikre trygt arbeidsmiljø og trygge ansettelser.', 0),
+  ('rettslare-1:arbeidsrett', 'Skriftlig arbeidsavtale', 'Pålagt – med arbeidssted, oppgaver, lønn og arbeidstid.', 1),
+  ('rettslare-1:arbeidsrett', 'Fast ansettelse', 'Hovedregelen i norsk arbeidsliv.', 2),
+  ('rettslare-1:arbeidsrett', 'Prøvetid', 'Inntil seks måneder.', 3),
+  ('rettslare-1:arbeidsrett', 'Alminnelig arbeidstid', 'Høyst 9 timer per døgn og 40 timer per uke.', 4),
+  ('rettslare-1:arbeidsrett', 'Overtidstillegg', 'Minst 40 % av timelønnen.', 5),
+  ('rettslare-1:arbeidsrett', 'Ferie', '25 virkedager i året etter ferieloven.', 6),
+  ('rettslare-1:arbeidsrett', 'Styringsrett', 'Arbeidsgivers rett til å lede og fordele arbeidet.', 7),
+  ('rettslare-1:arbeidsrett', 'Lojalitetsplikt', 'Plikt til ikke å skade arbeidsgiverens interesser.', 8),
+  ('rettslare-1:arbeidsrett', 'Saklig oppsigelse', 'Begrunnet i virksomhetens, arbeidsgiverens eller arbeidstakerens forhold.', 9),
+  ('rettslare-1:arbeidsrett', 'Oppsigelsestid', 'Som hovedregel én måned, lengre ved lang ansiennitet.', 10),
+  ('rettslare-1:arbeidsrett', 'Avskjed', 'Arbeidsforholdet opphører straks ved grovt pliktbrudd.', 11),
+  ('rettslare-1:arbeidsrett', 'Varsling', 'Å si fra om kritikkverdige forhold – gjengjeldelse er forbudt.', 12),
+  ('rettslare-1:arbeidsrett', 'Seksuell trakassering', 'Uønsket seksuell oppmerksomhet som er plagsom.', 13),
+  ('rettslare-1:arbeidsrett', 'Arbeidstilsynet', 'Fører tilsyn med arbeidsmiljøloven.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:arbeidsrett';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:arbeidsrett', 'q01', 'flervalg', 'Hva er hovedregelen for ansettelse i Norge?', array['Midlertidig ansettelse', 'Fast ansettelse', 'Innleie', 'Frilans']::text[], 1, 'Midlertidig bare i bestemte tilfeller.', true, true, 0),
+  ('rettslare-1:arbeidsrett', 'q02', 'flervalg', 'Hvor lang kan prøvetiden være?', array['Inntil seks måneder', 'Inntil ett år', 'Inntil to uker', 'Inntil tre år']::text[], 0, 'Etter arbeidsmiljøloven.', true, true, 1),
+  ('rettslare-1:arbeidsrett', 'q03', 'flervalg', 'Hvor stort er overtidstillegget minst?', array['10 %', '25 %', '40 %', '100 %']::text[], 2, 'Av timelønnen.', true, true, 2),
+  ('rettslare-1:arbeidsrett', 'q04', 'flervalg', 'Hva er forskjellen på oppsigelse og avskjed?', array['Det er det samme', 'Avskjed krever ikke grunn', 'Oppsigelse gjelder bare ledere', 'Ved avskjed opphører arbeidsforholdet straks ved grovt pliktbrudd']::text[], 3, 'Oppsigelse har oppsigelsestid.', true, true, 3),
+  ('rettslare-1:arbeidsrett', 'q05', 'flervalg', 'Hvor mange virkedager ferie har arbeidstakere rett til?', array['25', '15', '30', '20']::text[], 0, 'Etter ferieloven.', true, true, 4),
+  ('rettslare-1:arbeidsrett', 'q06', 'flervalg', 'Hva er varsling?', array['Å si opp jobben', 'Å si fra om kritikkverdige forhold i virksomheten', 'Å klage på lønnen', 'Å gi arbeidsgiveren tips om ferie']::text[], 1, 'Gjengjeldelse er forbudt.', true, true, 5),
+  ('rettslare-1:arbeidsrett', 'q07', 'flervalg', 'Hva er styringsrett?', array['Arbeidstakers rett til å velge oppgaver', 'Fagforeningens rett til å streike', 'Arbeidsgivers rett til å lede og fordele arbeidet', 'Statens rett til å styre bedrifter']::text[], 2, 'Innenfor lov og avtale.', true, true, 6),
+  ('rettslare-1:arbeidsrett', 'q08', 'flervalg', 'Hva kreves for at en oppsigelse skal være lovlig?', array['At arbeidsgiver ikke liker arbeidstakeren', 'At det er dårlig vær', 'Ingenting', 'At den er saklig begrunnet og skriftlig']::text[], 3, 'Ellers kan den kjennes ugyldig.', true, true, 7),
+  ('rettslare-1:arbeidsrett', 'q09', 'flervalg', 'Hva er alminnelig arbeidstid per uke etter loven?', array['40 timer', '37,5 timer alltid', '50 timer', '30 timer']::text[], 0, 'Mange tariffavtaler har kortere arbeidstid.', true, false, 8),
+  ('rettslare-1:arbeidsrett', 'q10', 'flervalg', 'Hvilken plikt har arbeidsgiveren når det gjelder trakassering?', array['Ingen plikt', 'Å forebygge og følge opp trakassering', 'Bare å føre logg', 'Å la de ansatte løse det selv']::text[], 1, 'Et forsvarlig arbeidsmiljø.', true, false, 9),
+  ('rettslare-1:arbeidsrett', 'm01', 'sant-usant', 'Mange regler i arbeidsmiljøloven kan ikke fravikes til ugunst for arbeidstakeren.', array['Sant', 'Usant']::text[], 0, 'Arbeidstakeren er den svakere parten.', false, true, 10),
+  ('rettslare-1:arbeidsrett', 'm02', 'sant-usant', 'Arbeidsgiver kan straffe en arbeidstaker som varsler forsvarlig.', array['Sant', 'Usant']::text[], 1, 'Gjengjeldelse er forbudt.', false, true, 11),
+  ('rettslare-1:arbeidsrett', 'm03', 'sant-usant', 'Ungdom under 18 år kan som hovedregel ikke jobbe om natten.', array['Sant', 'Usant']::text[], 0, 'Egne regler for unge arbeidstakere.', false, true, 12),
+  ('rettslare-1:arbeidsrett', 'm04', 'sant-usant', 'En oppsigelse kan gis muntlig.', array['Sant', 'Usant']::text[], 1, 'Den skal være skriftlig.', false, true, 13),
+  ('rettslare-1:arbeidsrett', 'm05', 'flervalg', 'Hva kan være saklig grunn til oppsigelse?', array['At arbeidstakeren er gravid', 'Nedbemanning på grunn av dårlig økonomi', 'At arbeidstakeren har varslet', 'At arbeidstakeren er medlem av en fagforening']::text[], 1, 'Virksomhetens forhold.', false, true, 14),
+  ('rettslare-1:arbeidsrett', 'm06', 'flervalg', 'Hvem fører tilsyn med arbeidsmiljøloven?', array['Arbeidstilsynet', 'Datatilsynet', 'Forbrukerrådet', 'Politiet']::text[], 0, 'Kan gi pålegg og reaksjoner.', false, true, 15),
+  ('rettslare-1:arbeidsrett', 'm07', 'flervalg', 'Hvilken plikt har arbeidstakeren?', array['Å velge egne arbeidsoppgaver', 'Å bestemme lønnen', 'Å være lojal mot arbeidsgiveren', 'Å ansette nye kolleger']::text[], 2, 'Lojalitetsplikt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:arbeidsrett', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Likestilling og diskriminering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:likestilling-og-diskriminering', 'rettslare-1', 'likestilling-og-diskriminering', 'Likestilling og diskriminering', 'Likestillings- og diskrimineringsloven: hvilke grunnlag som er vernet, direkte og indirekte forskjellsbehandling, trakassering, lovlig forskjellsbehandling og positiv særbehandling, arbeidsgiveres plikter og hvordan saker håndheves av ombudet og Diskrimineringsnemnda.', array[9]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:likestilling-og-diskriminering', '## Grunnlaget
+
+**Grunnloven § 98** slår fast at alle er **like for loven**, og at ingen skal utsettes for **usaklig** eller **uforholdsmessig** forskjellsbehandling. Den viktigste loven er **likestillings- og diskrimineringsloven** fra **2018**. Formålet er å fremme **likestilling** og hindre **diskriminering**.
+
+## Vernede grunnlag
+
+Det er forbudt å diskriminere på grunn av
+
+- **kjønn**, **graviditet** og **permisjon** ved fødsel eller adopsjon
+- **omsorgsoppgaver**
+- **etnisitet** – blant annet nasjonal opprinnelse, avstamning, hudfarge og språk
+- **religion** og **livssyn**
+- **funksjonsnedsettelse**
+- **seksuell orientering**, **kjønnsidentitet** og **kjønnsuttrykk**
+- **alder**
+
+Forbudet gjelder også **kombinasjoner** av grunnlag, og det gjelder på **alle samfunnsområder** – arbeidsliv, utdanning, boligmarked, butikker og offentlige tjenester.
+
+## Former for diskriminering
+
+- **Direkte forskjellsbehandling**: Noen blir behandlet **dårligere** enn andre på grunn av et vernet grunnlag. Eksempel: En utleier nekter å leie ut til en person på grunn av hudfarge.
+- **Indirekte forskjellsbehandling**: En **tilsynelatende nøytral** regel eller praksis stiller noen **dårligere**. Eksempel: Et krav om «perfekt norsk» for en jobb der det ikke trengs, kan ramme personer med annen etnisk bakgrunn.
+- **Trakassering**: handlinger, unnlatelser eller ytringer som virker **krenkende**, **nedverdigende** eller **skremmende** og har sammenheng med et vernet grunnlag.
+- **Seksuell trakassering**: uønsket seksuell oppmerksomhet som er plagsom.
+- **Gjengjeldelse**: Det er forbudt å straffe noen for å ha **klaget** på diskriminering.
+
+## Lovlig forskjellsbehandling
+
+Ikke all forskjellsbehandling er ulovlig. Den er **lovlig** hvis den
+
+1. har et **saklig formål**
+2. er **nødvendig** for å oppnå formålet
+3. er **forholdsmessig** – ikke for inngripende overfor dem det gjelder
+
+Eksempel: Et krav om at en livredder må kunne svømme godt, er lovlig selv om det kan utelukke noen.
+
+**Positiv særbehandling** – å prioritere en underrepresentert gruppe – kan også være lovlig, for eksempel **kjønnspoeng** ved opptak til noen studier, så lenge det er **egnet** og **forholdsmessig** og opphører når formålet er nådd.
+
+## Plikter
+
+- Offentlige myndigheter og arbeidsgivere har en **aktivitetsplikt**: De skal arbeide **aktivt** og **planmessig** for likestilling og mot diskriminering.
+- Arbeidsgivere skal **forebygge** trakassering.
+- Det stilles krav om **universell utforming** og **individuell tilrettelegging** for personer med funksjonsnedsettelse.
+
+## Håndheving
+
+- **Likestillings- og diskrimineringsombudet (LDO)** gir **veiledning** og driver **pådriverarbeid**.
+- **Diskrimineringsnemnda** behandler **klager** og kan fatte **vedtak**, for eksempel om **oppreisning** og **erstatning** i arbeidslivssaker. Det er **gratis** å klage.
+- Saker kan også bringes inn for **domstolene**.
+
+**Delt bevisbyrde**: Hvis det er grunn til å tro at diskriminering har skjedd, må den som er anklaget, **sannsynliggjøre** at det ikke skjedde.
+
+## Drøfting
+
+Diskriminering skjer ofte **skjult** og er vanskelig å bevise. Tiltak som **anonyme** søknader, opplæring og **tilsyn** kan hjelpe. Samtidig kan det oppstå spenninger mellom **diskrimineringsvern** og andre rettigheter, som **religionsfrihet** og **ytringsfrihet**.', '{"label":"Likestilling og diskriminering","children":[{"label":"Grunnlag","children":[{"label":"Grl. § 98"},{"label":"Loven fra 2018"}]},{"label":"Vernede grunnlag","children":[{"label":"Kjønn og graviditet"},{"label":"Etnisitet og religion"},{"label":"Funksjonsnedsettelse, legning, alder"}]},{"label":"Former","children":[{"label":"Direkte"},{"label":"Indirekte"},{"label":"Trakassering og gjengjeldelse"}]},{"label":"Unntak","children":[{"label":"Saklig, nødvendig, forholdsmessig"},{"label":"Positiv særbehandling"}]},{"label":"Håndheving","children":[{"label":"LDO"},{"label":"Diskrimineringsnemnda"},{"label":"Delt bevisbyrde"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:likestilling-og-diskriminering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:likestilling-og-diskriminering', 'Grunnloven § 98', 'Alle er like for loven.', 0),
+  ('rettslare-1:likestilling-og-diskriminering', 'Likestillings- og diskrimineringsloven', 'Felles lov fra 2018 mot diskriminering.', 1),
+  ('rettslare-1:likestilling-og-diskriminering', 'Vernede grunnlag', 'Kjønn, etnisitet, religion, funksjonsnedsettelse, seksuell orientering, alder med flere.', 2),
+  ('rettslare-1:likestilling-og-diskriminering', 'Direkte forskjellsbehandling', 'Dårligere behandling på grunn av et vernet grunnlag.', 3),
+  ('rettslare-1:likestilling-og-diskriminering', 'Indirekte forskjellsbehandling', 'Tilsynelatende nøytral regel som stiller noen dårligere.', 4),
+  ('rettslare-1:likestilling-og-diskriminering', 'Trakassering (diskriminering)', 'Krenkende handlinger knyttet til et vernet grunnlag.', 5),
+  ('rettslare-1:likestilling-og-diskriminering', 'Gjengjeldelse', 'Å straffe noen for å ha klaget – forbudt.', 6),
+  ('rettslare-1:likestilling-og-diskriminering', 'Lovlig forskjellsbehandling', 'Saklig formål, nødvendig og forholdsmessig.', 7),
+  ('rettslare-1:likestilling-og-diskriminering', 'Positiv særbehandling', 'Prioritering av underrepresentert gruppe, for eksempel kjønnspoeng.', 8),
+  ('rettslare-1:likestilling-og-diskriminering', 'Aktivitetsplikt', 'Plikt for arbeidsgivere og myndigheter til å fremme likestilling.', 9),
+  ('rettslare-1:likestilling-og-diskriminering', 'Individuell tilrettelegging', 'Tilpasning for personer med funksjonsnedsettelse.', 10),
+  ('rettslare-1:likestilling-og-diskriminering', 'LDO', 'Likestillings- og diskrimineringsombudet – veiledning og pådriver.', 11),
+  ('rettslare-1:likestilling-og-diskriminering', 'Diskrimineringsnemnda', 'Behandler klager og fatter vedtak.', 12),
+  ('rettslare-1:likestilling-og-diskriminering', 'Oppreisning', 'Erstatning for ikke-økonomisk skade.', 13),
+  ('rettslare-1:likestilling-og-diskriminering', 'Delt bevisbyrde', 'Den anklagede må sannsynliggjøre at diskriminering ikke skjedde.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:likestilling-og-diskriminering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:likestilling-og-diskriminering', 'q01', 'flervalg', 'Hva er indirekte forskjellsbehandling?', array['Åpen diskriminering på grunn av kjønn', 'En tilsynelatende nøytral regel som stiller noen dårligere', 'Positiv særbehandling', 'Lovlig forskjellsbehandling']::text[], 1, 'For eksempel unødvendige språkkrav.', true, true, 0),
+  ('rettslare-1:likestilling-og-diskriminering', 'q02', 'flervalg', 'Hvilke vilkår må være oppfylt for at forskjellsbehandling skal være lovlig?', array['Saklig formål, nødvendig og forholdsmessig', 'At arbeidsgiver vil det', 'At flertallet er enig', 'At den er skriftlig']::text[], 0, 'Alle tre vilkårene må være oppfylt.', true, true, 1),
+  ('rettslare-1:likestilling-og-diskriminering', 'q03', 'flervalg', 'Hvem behandler klager på diskriminering og kan fatte vedtak?', array['Stortinget', 'Politiet', 'Diskrimineringsnemnda', 'Datatilsynet']::text[], 2, 'Gratis å klage.', true, true, 2),
+  ('rettslare-1:likestilling-og-diskriminering', 'q04', 'flervalg', 'Hva er positiv særbehandling?', array['Å behandle alle likt', 'Ulovlig diskriminering', 'Trakassering', 'Å prioritere en underrepresentert gruppe for å fremme likestilling']::text[], 3, 'Må være egnet og forholdsmessig.', true, true, 3),
+  ('rettslare-1:likestilling-og-diskriminering', 'q05', 'flervalg', 'Hvilket er et vernet grunnlag etter loven?', array['Alder', 'Favorittlag', 'Hårfarge som motepreferanse', 'Musikksmak']::text[], 0, 'Sammen med blant annet kjønn og etnisitet.', true, true, 4),
+  ('rettslare-1:likestilling-og-diskriminering', 'q06', 'flervalg', 'Hva betyr delt bevisbyrde?', array['At begge parter må betale', 'At den anklagede må sannsynliggjøre at diskriminering ikke skjedde, når det er grunn til å tro at den har skjedd', 'At ingen må bevise noe', 'At dommeren beviser alt']::text[], 1, 'Gjør det lettere for den som er diskriminert.', true, true, 5),
+  ('rettslare-1:likestilling-og-diskriminering', 'q07', 'flervalg', 'Hva er gjengjeldelse?', array['Erstatning', 'En klage', 'Å straffe noen for å ha klaget på diskriminering', 'Et vedtak']::text[], 2, 'Forbudt etter loven.', true, true, 6),
+  ('rettslare-1:likestilling-og-diskriminering', 'q08', 'flervalg', 'Hva er aktivitetsplikten?', array['Plikt til å trene', 'Plikt for ansatte til å delta på fester', 'Plikt for elever til å møte', 'Plikt for arbeidsgivere og myndigheter til å arbeide aktivt for likestilling']::text[], 3, 'Planmessig og aktivt.', true, true, 7),
+  ('rettslare-1:likestilling-og-diskriminering', 'q09', 'flervalg', 'Er et krav om at en livredder må kunne svømme godt, lovlig?', array['Ja, det har saklig formål, er nødvendig og forholdsmessig', 'Nei, det er alltid diskriminering', 'Bare for menn', 'Bare om sommeren']::text[], 0, 'Lovlig forskjellsbehandling.', true, false, 8),
+  ('rettslare-1:likestilling-og-diskriminering', 'q10', 'flervalg', 'Hva gjør Likestillings- og diskrimineringsombudet?', array['Dømmer i straffesaker', 'Gir veiledning og driver pådriverarbeid', 'Vedtar lover', 'Ansetter folk']::text[], 1, 'Nemnda fatter vedtak i klagesaker.', true, false, 9),
+  ('rettslare-1:likestilling-og-diskriminering', 'm01', 'sant-usant', 'Diskrimineringsforbudet gjelder også i boligmarkedet.', array['Sant', 'Usant']::text[], 0, 'Det gjelder på alle samfunnsområder.', false, true, 10),
+  ('rettslare-1:likestilling-og-diskriminering', 'm02', 'sant-usant', 'All forskjellsbehandling er ulovlig.', array['Sant', 'Usant']::text[], 1, 'Den kan være lovlig hvis vilkårene er oppfylt.', false, true, 11),
+  ('rettslare-1:likestilling-og-diskriminering', 'm03', 'sant-usant', 'Det er gratis å klage til Diskrimineringsnemnda.', array['Sant', 'Usant']::text[], 0, 'Senker terskelen for å klage.', false, true, 12),
+  ('rettslare-1:likestilling-og-diskriminering', 'm04', 'sant-usant', 'Diskriminering på grunn av flere grunnlag samtidig er ikke vernet.', array['Sant', 'Usant']::text[], 1, 'Kombinasjoner er også vernet.', false, true, 13),
+  ('rettslare-1:likestilling-og-diskriminering', 'm05', 'flervalg', 'En utleier nekter en person på grunn av hudfarge. Hva slags diskriminering er dette?', array['Indirekte forskjellsbehandling', 'Direkte forskjellsbehandling', 'Positiv særbehandling', 'Lovlig forskjellsbehandling']::text[], 1, 'Dårligere behandling på grunn av etnisitet.', false, true, 14),
+  ('rettslare-1:likestilling-og-diskriminering', 'm06', 'flervalg', 'Hvilket tiltak kan redusere diskriminering ved ansettelser?', array['Anonyme søknader', 'Krav om bilde i søknaden', 'Bare muntlige intervjuer', 'Kortere søknadsfrist']::text[], 0, 'Fjerner informasjon om grunnlag.', false, true, 15),
+  ('rettslare-1:likestilling-og-diskriminering', 'm07', 'flervalg', 'Hvilken rettighet kan komme i spenning med diskrimineringsvernet?', array['Retten til ferie', 'Retten til arv', 'Religionsfrihet', 'Retten til overtidstillegg']::text[], 2, 'Også ytringsfrihet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:likestilling-og-diskriminering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Avtalerett, forbrukerkjøp og angrerett
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'rettslare-1', 'avtalerett-og-forbrukerkjop', 'Avtalerett, forbrukerkjøp og angrerett', 'Grunnprinsippene i avtaleretten – avtalefrihet, tilbud og aksept og ugyldige avtaler – forskjellen mellom forbrukerkjøp og andre kjøp, og kjøperens og selgerens rettigheter og plikter ved mangler, reklamasjon og angrerett.', array[10]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:avtalerett-og-forbrukerkjop', '## Avtaleretten
+
+**Avtaleloven** fra **1918** gir reglene for hvordan avtaler blir til. Grunnprinsippene er
+
+- **Avtalefrihet**: Vi kan som hovedregel selv velge **om**, **med hvem** og **på hvilke vilkår** vi inngår avtaler.
+- **Avtaler skal holdes**: En inngått avtale er **bindende**.
+- **Formfrihet**: De fleste avtaler kan inngås **muntlig**, men det er lurt med **skriftlighet** for å kunne **bevise** innholdet. Noen avtaler, som testament og ektepakt, har **formkrav**.
+
+## Hvordan blir en avtale til?
+
+En avtale blir til ved **tilbud** og **aksept**. Den som gir et tilbud, er **bundet** av det når mottakeren har fått det. Aksepten må komme **i tide** og stemme **overens** med tilbudet. En **reklame** er som regel ikke et bindende tilbud, men en **oppfordring** til å gi tilbud.
+
+## Ugyldige avtaler
+
+En avtale kan være **ugyldig**, for eksempel ved
+
+- **tvang** eller **trusler**
+- **svik** – når den ene parten bevisst har gitt **uriktige opplysninger**
+- **utnytting** av noens nød, uerfarenhet eller avhengighet
+- **mindreårighet**: Personer **under 18 år** kan som hovedregel ikke inngå bindende avtaler om større verdier uten verges samtykke, men kan rå over egen arbeidsinntekt
+- **avtaleloven § 36**: Avtaler kan settes til side eller endres hvis det vil være **urimelig** å gjøre dem gjeldende
+
+## Typer kjøp
+
+- **Forbrukerkjøp**: Kjøperen er en **forbruker** (privatperson) og selgeren er **næringsdrivende**. Da gjelder **forbrukerkjøpsloven**, som er **ufravikelig** til fordel for forbrukeren.
+- **Kjøp mellom privatpersoner**, for eksempel på **Finn.no**: Da gjelder **kjøpsloven**. Reglene kan i stor grad **avtales bort**, og en vare solgt «**som den er**» gir kjøperen svakere vern.
+- **Handelskjøp** mellom næringsdrivende: også **kjøpsloven**.
+
+## Selgerens og kjøperens plikter
+
+- **Selgeren** skal levere en vare som er i samsvar med **avtalen**, i **rett tid** og uten **mangler**.
+- **Kjøperen** skal **betale** og **ta imot** varen.
+
+## Mangler og reklamasjon i forbrukerkjøp
+
+En vare har en **mangel** hvis den ikke er som **avtalt**, ikke passer til vanlig **bruk**, ikke er som **markedsført**, eller mangler nødvendig **informasjon**.
+
+Forbrukeren må **reklamere** – si fra til selgeren – innen **rimelig tid** etter at mangelen ble oppdaget. Reklamasjon innen **to måneder** er alltid i tide. Den **absolutte** fristen er **to år** etter kjøpet, men **fem år** for varer som er ment å vare **vesentlig lenger**, som mobiltelefoner, PC-er, hvitevarer og møbler.
+
+## Forbrukerens krav ved mangel
+
+- **Retting** (reparasjon) eller **omlevering** (ny vare) – forbrukeren kan som hovedregel velge, med mindre valget er umulig eller urimelig kostbart for selgeren
+- **Prisavslag**
+- **Heving** – å gå fra kjøpet – hvis mangelen ikke er **uvesentlig**
+- **Erstatning** for tap
+- **Holde tilbake** betalingen
+
+## Angrerett
+
+Etter **angrerettloven** har forbrukeren **14 dagers angrerett** ved kjøp på **internett**, på **telefon** og ved salg **utenfor faste forretningslokaler** – for eksempel på døra. Fristen løper fra varen er **mottatt**. I en **vanlig butikk** finnes det **ingen** lovfestet angrerett – men mange butikker gir **bytterett** frivillig.
+
+## Klage
+
+**Forbrukerrådet** gir råd og mekler i forbrukertvister, og **Forbrukerklageutvalget** kan behandle saker som ikke løses.', '{"label":"Avtalerett og forbrukerkjøp","children":[{"label":"Avtaleretten","children":[{"label":"Avtalefrihet"},{"label":"Tilbud og aksept"},{"label":"Ugyldighet og § 36"}]},{"label":"Kjøpstyper","children":[{"label":"Forbrukerkjøp"},{"label":"Privatkjøp"},{"label":"Handelskjøp"}]},{"label":"Mangel","children":[{"label":"Som avtalt og markedsført"},{"label":"Reklamasjon"},{"label":"To og fem år"}]},{"label":"Krav","children":[{"label":"Retting og omlevering"},{"label":"Prisavslag og heving"},{"label":"Erstatning"}]},{"label":"Angrerett","children":[{"label":"14 dager"},{"label":"Nett og dørsalg"},{"label":"Ikke i butikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:avtalerett-og-forbrukerkjop';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Avtaleloven', 'Lov fra 1918 om hvordan avtaler blir til.', 0),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Avtalefrihet', 'Retten til å velge om, med hvem og på hvilke vilkår man inngår avtaler.', 1),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Tilbud og aksept', 'Måten en avtale blir til på.', 2),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Svik', 'Bevisst uriktige opplysninger – kan gjøre avtalen ugyldig.', 3),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Avtaleloven § 36', 'Urimelige avtaler kan settes til side eller endres.', 4),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Forbrukerkjøp', 'Kjøp der forbruker kjøper fra næringsdrivende.', 5),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Forbrukerkjøpsloven', 'Ufravikelig lov til fordel for forbrukeren.', 6),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Kjøpsloven', 'Gjelder kjøp mellom privatpersoner og mellom næringsdrivende.', 7),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Mangel', 'Varen er ikke som avtalt, markedsført eller egnet til vanlig bruk.', 8),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Reklamasjon', 'Å si fra til selgeren om en mangel.', 9),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Reklamasjonsfrister i forbrukerkjøp', 'To år, eller fem år for varer ment å vare vesentlig lenger.', 10),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Retting og omlevering', 'Reparasjon eller ny vare.', 11),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Heving', 'Å gå fra kjøpet ved en mangel som ikke er uvesentlig.', 12),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Angrerett', '14 dager ved kjøp på nett, telefon og utenfor faste forretningslokaler.', 13),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'Forbrukerrådet', 'Gir råd og mekler i forbrukertvister.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:avtalerett-og-forbrukerkjop';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q01', 'flervalg', 'Hvordan blir en avtale til?', array['Bare ved signatur', 'Ved tilbud og aksept', 'Bare ved betaling', 'Bare hos advokat']::text[], 1, 'Muntlige avtaler er også bindende.', true, true, 0),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q02', 'flervalg', 'Hva er et forbrukerkjøp?', array['Når en forbruker kjøper fra en næringsdrivende', 'Kjøp mellom to privatpersoner', 'Kjøp mellom to bedrifter', 'Kjøp av bolig']::text[], 0, 'Da gjelder forbrukerkjøpsloven.', true, true, 1),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q03', 'flervalg', 'Hvor lang er reklamasjonsfristen for en mobiltelefon kjøpt i butikk?', array['14 dager', 'Seks måneder', 'Fem år', 'Ett år']::text[], 2, 'Varer ment å vare vesentlig lenger.', true, true, 2),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q04', 'flervalg', 'Har du lovfestet angrerett når du kjøper en genser i en vanlig butikk?', array['Ja, 14 dager', 'Ja, 30 dager', 'Ja, alltid', 'Nei, men mange butikker gir bytterett frivillig']::text[], 3, 'Angrerett gjelder fjernsalg og salg utenfor faste lokaler.', true, true, 3),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q05', 'flervalg', 'Hvilken lov gjelder når du kjøper en brukt sykkel fra en privatperson på Finn.no?', array['Kjøpsloven', 'Forbrukerkjøpsloven', 'Angrerettloven', 'Arbeidsmiljøloven']::text[], 0, 'Reglene kan i stor grad avtales bort.', true, true, 4),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q06', 'flervalg', 'Hva er heving?', array['Å reparere varen', 'Å gå fra kjøpet', 'Å få prisavslag', 'Å reklamere']::text[], 1, 'Krever at mangelen ikke er uvesentlig.', true, true, 5),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q07', 'flervalg', 'Når er reklamasjon alltid i tide i et forbrukerkjøp?', array['Innen to år', 'Innen fem år', 'Innen to måneder etter at mangelen ble oppdaget', 'Innen én uke']::text[], 2, 'Ellers «innen rimelig tid».', true, true, 6),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q08', 'flervalg', 'Hva kan gjøre en avtale ugyldig?', array['At den er muntlig', 'At den er kort', 'At den er dyr', 'Tvang, svik eller utnytting']::text[], 3, 'Også urimelighet etter § 36.', true, true, 7),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q09', 'flervalg', 'Hvor lang er angreretten ved kjøp på nett?', array['14 dager', '7 dager', '30 dager', 'Ingen angrerett']::text[], 0, 'Etter angrerettloven.', true, false, 8),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'q10', 'flervalg', 'Hva er avtalefrihet?', array['At avtaler aldri er bindende', 'Retten til å velge om, med hvem og på hvilke vilkår man inngår avtaler', 'At alle avtaler er gratis', 'At staten bestemmer alle avtaler']::text[], 1, 'Et grunnprinsipp i avtaleretten.', true, false, 9),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm01', 'sant-usant', 'Muntlige avtaler kan være bindende.', array['Sant', 'Usant']::text[], 0, 'Formfrihet er hovedregelen.', false, true, 10),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm02', 'sant-usant', 'En forbruker kan avtale seg bort fra reklamasjonsretten ved kjøp i butikk.', array['Sant', 'Usant']::text[], 1, 'Forbrukerkjøpsloven er ufravikelig.', false, true, 11),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm03', 'sant-usant', 'En reklame er som regel ikke et bindende tilbud.', array['Sant', 'Usant']::text[], 0, 'Den er en oppfordring til å gi tilbud.', false, true, 12),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm04', 'sant-usant', 'Angrefristen ved nettkjøp løper fra dagen du bestilte, uansett når varen kom.', array['Sant', 'Usant']::text[], 1, 'Den løper som hovedregel fra varen er mottatt.', false, true, 13),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm05', 'flervalg', 'Hvilket krav kan forbrukeren ha ved en mangel?', array['Straff for selgeren', 'Prisavslag', 'Gratis varer for alltid', 'Å få selgeren sparket']::text[], 1, 'Også retting, omlevering, heving og erstatning.', false, true, 14),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm06', 'flervalg', 'Hvem kan gi råd og mekle i forbrukertvister?', array['Forbrukerrådet', 'Datatilsynet', 'Arbeidstilsynet', 'Sametinget']::text[], 0, 'Forbrukerklageutvalget kan avgjøre saker.', false, true, 15),
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 'm07', 'flervalg', 'Hva betyr det at en vare selges «som den er» mellom privatpersoner?', array['At kjøperen har sterkere vern', 'At selgeren må gi fem års garanti', 'At kjøperen har svakere vern mot mangler', 'At kjøpet er ugyldig']::text[], 2, 'Men selgeren må fortsatt ikke holde tilbake viktig informasjon.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:avtalerett-og-forbrukerkjop', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 1: Aktuelle og rettshistoriske juridiske spørsmål
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'rettslare-1', 'aktuelle-og-rettshistoriske-saker', 'Aktuelle og rettshistoriske juridiske spørsmål', 'Viktige milepæler i norsk rettshistorie – fra landskapslovene og Magnus Lagabøtes landslov til Grunnloven og menneskerettighetene – og hvordan du utforsker og drøfter dagsaktuelle juridiske problemstillinger.', array[11]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', '## Hvorfor rettshistorie?
+
+Retten **endrer seg** med samfunnet. Ved å se på rettshistorien forstår vi bedre **hvorfor** reglene er som de er – og at det vi i dag tar for gitt, en gang var **omstridt**.
+
+## Milepæler i norsk rettshistorie
+
+- **Landskapslovene** i middelalderen, som **Gulatingsloven** og **Frostatingsloven**, ble vedtatt på **ting** der frie menn møttes. «**Med lov skal land bygges**» er et kjent uttrykk fra denne tiden.
+- **Magnus Lagabøtes landslov** fra **1274** ga hele Norge én felles lov – noe av det første i Europa.
+- **Christian 5.s Norske Lov** fra **1687** samlet lovene under **eneveldet**.
+- **Grunnloven** fra **1814** innførte **folkesuverenitet**, **maktfordeling** og **rettigheter** som ytringsfrihet og vern mot vilkårlig fengsling.
+- **Kvinners rettigheter**: Gifte kvinner ble **myndige** på slutten av 1800-tallet, og kvinner fikk **stemmerett** i **1913**.
+- **Dødsstraff** ble avskaffet i fredstid i **1902**, men brukt i **landssvikoppgjøret** etter andre verdenskrig. Den ble helt avskaffet i **1979**.
+- **Menneskerettsloven** (1999) og **Grunnlovens menneskerettighetskapittel** (2014) styrket menneskerettighetenes stilling.
+- **Diskriminering**: Homofili var straffbart i Norge fram til **1972**. I dag vernes seksuell orientering av diskrimineringsloven.
+
+## Dagsaktuelle problemstillinger
+
+Nye samfunnsforhold gir nye **juridiske** spørsmål:
+
+- **Kunstig intelligens**: Hvem har **ansvaret** når en KI-løsning gjør feil? Hvem har **opphavsretten** til innhold laget av KI, og er det lov å trene KI på andres verk?
+- **Personvern**: Hvor mye kan bedrifter og staten samle inn av **data** om oss?
+- **Barnevern**: Norge har tapt flere saker i **Den europeiske menneskerettsdomstolen** om retten til **familieliv**.
+- **Klima og miljø**: **Klimasøksmålet** om oljeboring og Grunnlovens miljøparagraf (**§ 112**).
+- **Urfolksrett**: **Fosen-saken**, der Høyesterett i 2021 kom fram til at vindkraftverk krenket reindriftssamenes rettigheter.
+- **Netthets** og **ytringsfrihet**: Hvor går grensen mellom lovlige og straffbare ytringer?
+
+## Slik drøfter du en juridisk problemstilling
+
+1. **Beskriv** saken og hvorfor den er aktuell.
+2. Finn **gjeldende rett**: Hvilke **lover**, **dommer** og **menneskerettigheter** er relevante?
+3. Løft fram **hensyn** som taler for ulike løsninger – for eksempel **rettssikkerhet**, **personvern**, **barnets beste**, **forutberegnelighet** eller **effektivitet**.
+4. Vurder **argumenter for og mot**.
+5. Skill mellom hva som **er** gjeldende rett (**de lege lata**) og hva som **bør** være gjeldende rett (**de lege ferenda**).
+6. Kom fram til en **begrunnet konklusjon**.
+
+## Kilder
+
+Bruk **Lovdata** for lover og dommer, **regjeringen.no** for forarbeider, og **redaktørstyrte medier** og **fagartikler** for å følge debatten. Vær **kildekritisk** til innlegg fra parter med **egeninteresse** i saken.
+
+## Refleksjon
+
+Rettshistorien viser at retten både **speiler** og **former** samfunnets verdier. Mange rettigheter vi har i dag, er resultat av **kamp** – og dagens juridiske debatter former morgendagens lover.', '{"label":"Aktuelle og rettshistoriske saker","children":[{"label":"Middelalder","children":[{"label":"Landskapslovene"},{"label":"Landsloven 1274"}]},{"label":"Enevelde og 1814","children":[{"label":"Norske Lov 1687"},{"label":"Grunnloven"}]},{"label":"Endringer","children":[{"label":"Kvinners rettigheter"},{"label":"Dødsstraff"},{"label":"Homofili 1972"}]},{"label":"Aktuelt","children":[{"label":"KI"},{"label":"Personvern"},{"label":"Klima og Fosen"},{"label":"Barnevern i EMD"}]},{"label":"Drøfting","children":[{"label":"Gjeldende rett"},{"label":"Hensyn og argumenter"},{"label":"Lata og ferenda"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-1:aktuelle-og-rettshistoriske-saker';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Landskapslovene', 'Middelalderlover som Gulatingsloven og Frostatingsloven.', 0),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', '«Med lov skal land bygges»', 'Kjent uttrykk fra middelalderens lovgivning.', 1),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Magnus Lagabøtes landslov', 'Felles lov for hele Norge fra 1274.', 2),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Christian 5.s Norske Lov', 'Samlet lovene under eneveldet i 1687.', 3),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Grunnloven 1814', 'Folkesuverenitet, maktfordeling og rettigheter.', 4),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Stemmerett for kvinner', 'Innført i Norge i 1913.', 5),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Dødsstraff', 'Avskaffet i fredstid i 1902 og helt i 1979.', 6),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Landssvikoppgjøret', 'Rettsoppgjøret etter andre verdenskrig.', 7),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Homofili avkriminalisert', 'I Norge i 1972.', 8),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Grunnloven § 112', 'Retten til et sunt miljø.', 9),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Klimasøksmålet', 'Rettssak om oljeboring og miljøparagrafen.', 10),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'De lege lata', 'Det som er gjeldende rett.', 11),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'De lege ferenda', 'Det som bør være gjeldende rett.', 12),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'KI og opphavsrett', 'Aktuelt spørsmål om rettigheter til innhold laget av KI.', 13),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'Juridisk drøfting', 'Gjeldende rett, hensyn, argumenter og begrunnet konklusjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-1:aktuelle-og-rettshistoriske-saker';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q01', 'flervalg', 'Hva var Magnus Lagabøtes landslov fra 1274?', array['Norges første grunnlov', 'En felles lov for hele Norge', 'En lov om arv bare', 'En handelsavtale']::text[], 1, 'Noe av det første i Europa.', true, true, 0),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q02', 'flervalg', 'Når fikk kvinner stemmerett i Norge?', array['1913', '1814', '1884', '1945']::text[], 0, 'Menn fikk allmenn stemmerett i 1898.', true, true, 1),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q03', 'flervalg', 'Når ble dødsstraff helt avskaffet i Norge?', array['1814', '1902', '1979', '2000']::text[], 2, 'I fredstid allerede i 1902.', true, true, 2),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q04', 'flervalg', 'Hva betyr de lege ferenda?', array['Det som er gjeldende rett', 'En type dom', 'En lov fra middelalderen', 'Det som bør være gjeldende rett']::text[], 3, 'De lege lata er gjeldende rett.', true, true, 3),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q05', 'flervalg', 'Hvilken paragraf i Grunnloven handler om retten til et sunt miljø?', array['§ 112', '§ 1', '§ 96', '§ 104']::text[], 0, 'Brukt i klimasøksmålet.', true, true, 4),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q06', 'flervalg', 'Hvilket juridisk spørsmål reiser kunstig intelligens?', array['Hvem som skal betale arveavgift', 'Hvem som har ansvaret og opphavsretten', 'Hvor mange dommere Høyesterett skal ha', 'Hvor gammel man må være for å gifte seg']::text[], 1, 'Et dagsaktuelt spørsmål.', true, true, 5),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q07', 'flervalg', 'Når ble homofili avkriminalisert i Norge?', array['1814', '1945', '1972', '2009']::text[], 2, 'I dag er seksuell orientering vernet mot diskriminering.', true, true, 6),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q08', 'flervalg', 'Hva hørte til Grunnloven av 1814?', array['Enevelde', 'Stemmerett for alle', 'Dødsstraff for alle lovbrudd', 'Folkesuverenitet og maktfordeling']::text[], 3, 'Og rettigheter som ytringsfrihet.', true, true, 7),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q09', 'flervalg', 'Hvor bør du finne lover og dommer når du drøfter en juridisk sak?', array['Lovdata', 'Sosiale medier', 'Reklame', 'Et partiprogram']::text[], 0, 'Den offisielle kilden.', true, false, 8),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'q10', 'flervalg', 'Hva viser rettshistorien om forholdet mellom rett og samfunn?', array['At retten aldri endres', 'At retten både speiler og former samfunnets verdier', 'At retten ikke har med verdier å gjøre', 'At bare dommere bestemmer']::text[], 1, 'Mange rettigheter er resultat av kamp.', true, false, 9),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm01', 'sant-usant', 'Dødsstraff ble brukt i landssvikoppgjøret etter andre verdenskrig.', array['Sant', 'Usant']::text[], 0, 'Selv om den var avskaffet i fredstid.', false, true, 10),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm02', 'sant-usant', 'Norge har aldri tapt saker i Den europeiske menneskerettsdomstolen.', array['Sant', 'Usant']::text[], 1, 'Norge har tapt flere saker, blant annet om barnevern.', false, true, 11),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm03', 'sant-usant', 'I en juridisk drøfting bør du skille mellom gjeldende rett og hva retten bør være.', array['Sant', 'Usant']::text[], 0, 'De lege lata og de lege ferenda.', false, true, 12),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm04', 'sant-usant', 'Landskapslovene ble vedtatt av kongen alene.', array['Sant', 'Usant']::text[], 1, 'De ble vedtatt på ting der frie menn møttes.', false, true, 13),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm05', 'flervalg', 'Hvilken lov samlet lovene under eneveldet?', array['Magnus Lagabøtes landslov', 'Christian 5.s Norske Lov', 'Grunnloven', 'Menneskerettsloven']::text[], 1, 'Fra 1687.', false, true, 14),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm06', 'flervalg', 'Hvilket hensyn er sentralt i barnevernssaker?', array['Barnets beste', 'Effektivitet alene', 'Kostnader alene', 'Ingen hensyn']::text[], 0, 'Veid mot retten til familieliv.', false, true, 15),
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 'm07', 'flervalg', 'Hvorfor bør du være kildekritisk til innlegg fra parter i en sak?', array['Fordi de alltid lyver', 'Fordi de er for korte', 'Fordi de kan ha egeninteresse i saken', 'Fordi de ikke er på Lovdata']::text[], 2, 'Sjekk mot flere kilder.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-1:aktuelle-og-rettshistoriske-saker', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

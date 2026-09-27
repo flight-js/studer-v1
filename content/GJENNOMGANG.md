@@ -637,6 +637,23 @@ Læreplan: [GFG01-03](https://www.udir.no/lk20/gfg01-03/kompetansemaal-og-vurder
   - Sjekk: Sjekk status og omtale av Fensfeltet (sjeldne jordartsmetaller) mot oppdaterte kilder.
 - 🟡 **Naturfarer, risiko og modellering** – utkast (485 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
+## Historie og filosofi 1 (vg2) – 12 av 12 temaer ferdig
+
+Læreplan: [HIF01-04](https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv895)
+
+- 🟡 **Filosofisk samtale og argumentasjon** – utkast (454 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kilder og hva vi kan vite om fortiden** – utkast (454 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Makt, frihet og demokrati i antikken** – utkast (447 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Makt og statsdanning fra middelalder til enevelde** – utkast (513 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Opplysningstid, revolusjoner og demokrati** – utkast (456 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Antikkens filosofi** – utkast (495 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Metafysikk og erkjennelsesteori** – utkast (462 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Etiske teorier** – utkast (506 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Religion, filosofi og makt** – utkast (459 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Fortellinger og historiesyn** – utkast (488 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teknologi, vitenskap og samfunnsendring** – utkast (418 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Natur, miljø og virkelighetsoppfatninger** – utkast (501 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
 ## Historie (vg2) – 9 av 9 temaer ferdig
 
 Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv84)
@@ -772,6 +789,62 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🟡 **Norsk, svensk, dansk og norrønt** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🔴 **Språksituasjonen i Norge og språkstriden** – sjekkes (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
   - Sjekk: Sjekk andelen elever med nynorsk som hovedmål og årstallet for når samnorsk formelt ble oppgitt.
+
+## Politikk og menneskerettigheter (vg2) – 12 av 12 temaer ferdig
+
+Læreplan: [POS05-02](https://www.udir.no/lk20/pos05-02/kompetansemaal-og-vurdering/kv891)
+
+- 🟡 **Statsvitenskapelige teorier, modeller og kilder** – utkast (419 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Medborgerskap, demokrati og styreformer** – utkast (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Det norske politiske systemet – nasjonalt og lokalt** – utkast (379 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Makt, konfliktlinjer og kanaler for innflytelse** – utkast (424 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🔴 **Valg, velgeratferd og politisk deltakelse** – sjekkes (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk valgdeltakelsen ved siste stortingsvalg og gjeldende regler for mandatfordeling (første delingstall) mot oppdaterte kilder.
+- 🔴 **Bærekraft og fordeling i politikken** – sjekkes (399 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk gjeldende klimamål, handlingsregelen og skatteordninger mot oppdaterte kilder.
+- 🔴 **Urfolks og minoriteters rettigheter** – sjekkes (465 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk status i Fosen-saken og gjeldende regler for konsultasjoner mot oppdaterte kilder.
+- 🟡 **Menneskerettigheter, demokrati og velferdsstat** – utkast (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Folkeretten** – utkast (465 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Overvåking og håndhevelse av menneskerettighetene** – utkast (429 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Krig, fred og internasjonalt samarbeid** – sjekkes (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk omtale av pågående konflikter (Ukraina m.fl.) og NATO-medlemskap mot oppdaterte kilder.
+- 🟡 **Utfordringer for det norske demokratiet** – utkast (462 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Rettslære 1 (vg2) – 10 av 10 temaer ferdig
+
+Læreplan: [RTL01-05](https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv889)
+
+- 🟡 **Norge som rettsstat** – utkast (383 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Rettsreglenes funksjon i samfunnet** – utkast (440 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Rettskilder og juridisk metode** – utkast (492 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Barnets beste og barneloven** – utkast (497 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ekteskap og samboerskap** – utkast (461 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Arv, testament og uskifte** – sjekkes (465 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk gjeldende grunnbeløp (G) og beløpsgrensene i arveloven mot Lovdata/NAV.
+- 🟡 **Rettigheter og plikter i arbeidslivet** – utkast (440 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Likestilling og diskriminering** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Avtalerett, forbrukerkjøp og angrerett** – utkast (493 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Aktuelle og rettshistoriske juridiske spørsmål** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
+## Sosiologi og sosialantropologi (vg2) – 13 av 13 temaer ferdig
+
+Læreplan: [POS04-01](https://www.udir.no/lk20/pos04-01/kompetansemaal-og-vurdering/kv494)
+
+- 🟡 **Samfunnsvitenskapelig metode og kildekritikk** – utkast (396 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teorier og perspektiver i samfunnsfagene** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Sosialisering gjennom hele livet** – utkast (443 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sosiale avvik og reaksjoner** – utkast (454 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kulturbegrepet og kultursammenligning** – utkast (463 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kulturendring, mangfold og interkulturell kompetanse** – utkast (440 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Makt i samfunnet** – utkast (448 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Medier, kommunikasjon og samhandling** – utkast (425 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Marginalisering, utenforskap og inkludering** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🔴 **Urfolk – mangfold og rettigheter** – sjekkes (493 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk tallet på urfolk i verden og status i Fosen-saken mot oppdaterte kilder.
+- 🟡 **Lagdeling, klasser og sosial mobilitet** – utkast (447 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Arbeid, arbeidsdeling og produksjon** – utkast (471 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Ideologi, rettferdighet og bærekraftige samfunn** – utkast (498 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
 ## Spansk (vg2) – 6 av 6 temaer ferdig
 

@@ -1,0 +1,82 @@
+{
+  "id": "avtalerett-og-forbrukerkjop",
+  "fagId": "rettslare-1",
+  "trinnId": "vg2",
+  "name": "Avtalerett, forbrukerkjøp og angrerett",
+  "intro": "Grunnprinsippene i avtaleretten – avtalefrihet, tilbud og aksept og ugyldige avtaler – forskjellen mellom forbrukerkjøp og andre kjøp, og kjøperens og selgerens rettigheter og plikter ved mangler, reklamasjon og angrerett.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Avtaleretten\n\n**Avtaleloven** fra **1918** gir reglene for hvordan avtaler blir til. Grunnprinsippene er\n\n- **Avtalefrihet**: Vi kan som hovedregel selv velge **om**, **med hvem** og **på hvilke vilkår** vi inngår avtaler.\n- **Avtaler skal holdes**: En inngått avtale er **bindende**.\n- **Formfrihet**: De fleste avtaler kan inngås **muntlig**, men det er lurt med **skriftlighet** for å kunne **bevise** innholdet. Noen avtaler, som testament og ektepakt, har **formkrav**.\n\n## Hvordan blir en avtale til?\n\nEn avtale blir til ved **tilbud** og **aksept**. Den som gir et tilbud, er **bundet** av det når mottakeren har fått det. Aksepten må komme **i tide** og stemme **overens** med tilbudet. En **reklame** er som regel ikke et bindende tilbud, men en **oppfordring** til å gi tilbud.\n\n## Ugyldige avtaler\n\nEn avtale kan være **ugyldig**, for eksempel ved\n\n- **tvang** eller **trusler**\n- **svik** – når den ene parten bevisst har gitt **uriktige opplysninger**\n- **utnytting** av noens nød, uerfarenhet eller avhengighet\n- **mindreårighet**: Personer **under 18 år** kan som hovedregel ikke inngå bindende avtaler om større verdier uten verges samtykke, men kan rå over egen arbeidsinntekt\n- **avtaleloven § 36**: Avtaler kan settes til side eller endres hvis det vil være **urimelig** å gjøre dem gjeldende\n\n## Typer kjøp\n\n- **Forbrukerkjøp**: Kjøperen er en **forbruker** (privatperson) og selgeren er **næringsdrivende**. Da gjelder **forbrukerkjøpsloven**, som er **ufravikelig** til fordel for forbrukeren.\n- **Kjøp mellom privatpersoner**, for eksempel på **Finn.no**: Da gjelder **kjøpsloven**. Reglene kan i stor grad **avtales bort**, og en vare solgt «**som den er**» gir kjøperen svakere vern.\n- **Handelskjøp** mellom næringsdrivende: også **kjøpsloven**.\n\n## Selgerens og kjøperens plikter\n\n- **Selgeren** skal levere en vare som er i samsvar med **avtalen**, i **rett tid** og uten **mangler**.\n- **Kjøperen** skal **betale** og **ta imot** varen.\n\n## Mangler og reklamasjon i forbrukerkjøp\n\nEn vare har en **mangel** hvis den ikke er som **avtalt**, ikke passer til vanlig **bruk**, ikke er som **markedsført**, eller mangler nødvendig **informasjon**.\n\nForbrukeren må **reklamere** – si fra til selgeren – innen **rimelig tid** etter at mangelen ble oppdaget. Reklamasjon innen **to måneder** er alltid i tide. Den **absolutte** fristen er **to år** etter kjøpet, men **fem år** for varer som er ment å vare **vesentlig lenger**, som mobiltelefoner, PC-er, hvitevarer og møbler.\n\n## Forbrukerens krav ved mangel\n\n- **Retting** (reparasjon) eller **omlevering** (ny vare) – forbrukeren kan som hovedregel velge, med mindre valget er umulig eller urimelig kostbart for selgeren\n- **Prisavslag**\n- **Heving** – å gå fra kjøpet – hvis mangelen ikke er **uvesentlig**\n- **Erstatning** for tap\n- **Holde tilbake** betalingen\n\n## Angrerett\n\nEtter **angrerettloven** har forbrukeren **14 dagers angrerett** ved kjøp på **internett**, på **telefon** og ved salg **utenfor faste forretningslokaler** – for eksempel på døra. Fristen løper fra varen er **mottatt**. I en **vanlig butikk** finnes det **ingen** lovfestet angrerett – men mange butikker gir **bytterett** frivillig.\n\n## Klage\n\n**Forbrukerrådet** gir råd og mekler i forbrukertvister, og **Forbrukerklageutvalget** kan behandle saker som ikke løses.",
+  "flashcards": [
+    { "term": "Avtaleloven", "def": "Lov fra 1918 om hvordan avtaler blir til." },
+    { "term": "Avtalefrihet", "def": "Retten til å velge om, med hvem og på hvilke vilkår man inngår avtaler." },
+    { "term": "Tilbud og aksept", "def": "Måten en avtale blir til på." },
+    { "term": "Svik", "def": "Bevisst uriktige opplysninger – kan gjøre avtalen ugyldig." },
+    { "term": "Avtaleloven § 36", "def": "Urimelige avtaler kan settes til side eller endres." },
+    { "term": "Forbrukerkjøp", "def": "Kjøp der forbruker kjøper fra næringsdrivende." },
+    { "term": "Forbrukerkjøpsloven", "def": "Ufravikelig lov til fordel for forbrukeren." },
+    { "term": "Kjøpsloven", "def": "Gjelder kjøp mellom privatpersoner og mellom næringsdrivende." },
+    { "term": "Mangel", "def": "Varen er ikke som avtalt, markedsført eller egnet til vanlig bruk." },
+    { "term": "Reklamasjon", "def": "Å si fra til selgeren om en mangel." },
+    { "term": "Reklamasjonsfrister i forbrukerkjøp", "def": "To år, eller fem år for varer ment å vare vesentlig lenger." },
+    { "term": "Retting og omlevering", "def": "Reparasjon eller ny vare." },
+    { "term": "Heving", "def": "Å gå fra kjøpet ved en mangel som ikke er uvesentlig." },
+    { "term": "Angrerett", "def": "14 dager ved kjøp på nett, telefon og utenfor faste forretningslokaler." },
+    { "term": "Forbrukerrådet", "def": "Gir råd og mekler i forbrukertvister." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan blir en avtale til?", "options": ["Bare ved signatur", "Ved tilbud og aksept", "Bare ved betaling", "Bare hos advokat"], "correct": 1, "explain": "Muntlige avtaler er også bindende." },
+    { "id": "q02", "text": "Hva er et forbrukerkjøp?", "options": ["Når en forbruker kjøper fra en næringsdrivende", "Kjøp mellom to privatpersoner", "Kjøp mellom to bedrifter", "Kjøp av bolig"], "correct": 0, "explain": "Da gjelder forbrukerkjøpsloven." },
+    { "id": "q03", "text": "Hvor lang er reklamasjonsfristen for en mobiltelefon kjøpt i butikk?", "options": ["14 dager", "Seks måneder", "Fem år", "Ett år"], "correct": 2, "explain": "Varer ment å vare vesentlig lenger." },
+    { "id": "q04", "text": "Har du lovfestet angrerett når du kjøper en genser i en vanlig butikk?", "options": ["Ja, 14 dager", "Ja, 30 dager", "Ja, alltid", "Nei, men mange butikker gir bytterett frivillig"], "correct": 3, "explain": "Angrerett gjelder fjernsalg og salg utenfor faste lokaler." },
+    { "id": "q05", "text": "Hvilken lov gjelder når du kjøper en brukt sykkel fra en privatperson på Finn.no?", "options": ["Kjøpsloven", "Forbrukerkjøpsloven", "Angrerettloven", "Arbeidsmiljøloven"], "correct": 0, "explain": "Reglene kan i stor grad avtales bort." },
+    { "id": "q06", "text": "Hva er heving?", "options": ["Å reparere varen", "Å gå fra kjøpet", "Å få prisavslag", "Å reklamere"], "correct": 1, "explain": "Krever at mangelen ikke er uvesentlig." },
+    { "id": "q07", "text": "Når er reklamasjon alltid i tide i et forbrukerkjøp?", "options": ["Innen to år", "Innen fem år", "Innen to måneder etter at mangelen ble oppdaget", "Innen én uke"], "correct": 2, "explain": "Ellers «innen rimelig tid»." },
+    { "id": "q08", "text": "Hva kan gjøre en avtale ugyldig?", "options": ["At den er muntlig", "At den er kort", "At den er dyr", "Tvang, svik eller utnytting"], "correct": 3, "explain": "Også urimelighet etter § 36." },
+    { "id": "q09", "text": "Hvor lang er angreretten ved kjøp på nett?", "options": ["14 dager", "7 dager", "30 dager", "Ingen angrerett"], "correct": 0, "explain": "Etter angrerettloven." },
+    { "id": "q10", "text": "Hva er avtalefrihet?", "options": ["At avtaler aldri er bindende", "Retten til å velge om, med hvem og på hvilke vilkår man inngår avtaler", "At alle avtaler er gratis", "At staten bestemmer alle avtaler"], "correct": 1, "explain": "Et grunnprinsipp i avtaleretten." }
+  ],
+  "mindmap": {
+    "label": "Avtalerett og forbrukerkjøp",
+    "children": [
+      { "label": "Avtaleretten", "children": [
+        { "label": "Avtalefrihet" },
+        { "label": "Tilbud og aksept" },
+        { "label": "Ugyldighet og § 36" }
+      ] },
+      { "label": "Kjøpstyper", "children": [
+        { "label": "Forbrukerkjøp" },
+        { "label": "Privatkjøp" },
+        { "label": "Handelskjøp" }
+      ] },
+      { "label": "Mangel", "children": [
+        { "label": "Som avtalt og markedsført" },
+        { "label": "Reklamasjon" },
+        { "label": "To og fem år" }
+      ] },
+      { "label": "Krav", "children": [
+        { "label": "Retting og omlevering" },
+        { "label": "Prisavslag og heving" },
+        { "label": "Erstatning" }
+      ] },
+      { "label": "Angrerett", "children": [
+        { "label": "14 dager" },
+        { "label": "Nett og dørsalg" },
+        { "label": "Ikke i butikk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Muntlige avtaler kan være bindende.", "correct": true, "explain": "Formfrihet er hovedregelen." },
+      { "id": "m02", "type": "sant-usant", "text": "En forbruker kan avtale seg bort fra reklamasjonsretten ved kjøp i butikk.", "correct": false, "explain": "Forbrukerkjøpsloven er ufravikelig." },
+      { "id": "m03", "type": "sant-usant", "text": "En reklame er som regel ikke et bindende tilbud.", "correct": true, "explain": "Den er en oppfordring til å gi tilbud." },
+      { "id": "m04", "type": "sant-usant", "text": "Angrefristen ved nettkjøp løper fra dagen du bestilte, uansett når varen kom.", "correct": false, "explain": "Den løper som hovedregel fra varen er mottatt." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket krav kan forbrukeren ha ved en mangel?", "options": ["Straff for selgeren", "Prisavslag", "Gratis varer for alltid", "Å få selgeren sparket"], "correct": 1, "explain": "Også retting, omlevering, heving og erstatning." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem kan gi råd og mekle i forbrukertvister?", "options": ["Forbrukerrådet", "Datatilsynet", "Arbeidstilsynet", "Sametinget"], "correct": 0, "explain": "Forbrukerklageutvalget kan avgjøre saker." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr det at en vare selges «som den er» mellom privatpersoner?", "options": ["At kjøperen har sterkere vern", "At selgeren må gi fem års garanti", "At kjøperen har svakere vern mot mangler", "At kjøpet er ugyldig"], "correct": 2, "explain": "Men selgeren må fortsatt ikke holde tilbake viktig informasjon." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

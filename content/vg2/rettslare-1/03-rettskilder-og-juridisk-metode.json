@@ -1,0 +1,83 @@
+{
+  "id": "rettskilder-og-juridisk-metode",
+  "fagId": "rettslare-1",
+  "trinnId": "vg2",
+  "name": "Rettskilder og juridisk metode",
+  "intro": "De viktigste rettskildene – lov, forarbeider, rettspraksis, forvaltningspraksis, sedvane og reelle hensyn – og hvordan du bruker juridisk metode til å løse en oppgave: parter, krav, rettslig grunnlag, problemstilling, drøfting og konklusjon.",
+  "kompetansemaal": [3, 4],
+  "sammendrag": "## Hva er rettskilder?\n\n**Rettskilder** er de kildene jurister bruker for å finne ut **hva som er gjeldende rett** i en sak. De viktigste er\n\n1. **Lov**: **Grunnloven** står øverst. Deretter kommer **formelle lover** vedtatt av Stortinget, og **forskrifter** gitt av regjeringen eller et departement med hjemmel i lov. Lovene finner du på **Lovdata**.\n2. **Forarbeider**: dokumentene som ble laget da loven ble til – for eksempel **NOU-er** og **proposisjoner** (Prop. L). De forklarer **hensikten** med loven.\n3. **Rettspraksis**: tidligere **dommer**, særlig fra **Høyesterett**. En Høyesterettsdom er et **prejudikat** som legger føringer for senere saker.\n4. **Forvaltningspraksis**: hvordan offentlige myndigheter har praktisert reglene.\n5. **Sedvanerett**: regler som har blitt til gjennom lang og fast **praksis**.\n6. **Reelle hensyn**: vurderinger av hva som er **rimelig**, **rettferdig** og **hensiktsmessig**.\n7. **Juridisk teori**: fagbøker og artikler.\n\nI tillegg kommer **internasjonale** kilder, som **menneskerettighetene** og **EØS-retten**.\n\n## Tolking av lover\n\nMan starter med **ordlyden** – hva loven faktisk sier. Er ordlyden **uklar**, ser man på **formålet**, **forarbeidene** og **rettspraksis**. Lover har ofte **skjønnsmessige** uttrykk, som «rimelig tid» eller «saklig grunn», som må fylles ut i den enkelte saken.\n\n## Juridisk metode – steg for steg\n\n**1. Parter**: Hvem står mot hvem? For eksempel **kjøper** og **selger**.\n\n**2. Krav**: Hva vil parten **ha**? For eksempel **heving** av kjøpet eller **erstatning**.\n\n**3. Rettslig grunnlag**: Hvilken **regel** kan gi grunnlag for kravet? For eksempel reglene om **heving** i **forbrukerkjøpsloven**.\n\n**4. Problemstilling**: Hva er det **juridiske** spørsmålet? For eksempel: *Kan Ida heve kjøpet av mobiltelefonen?*\n\n**5. Rettsregel**: Hva sier regelen? Hvilke **vilkår** må være oppfylt? Tolk regelen ved hjelp av rettskildene.\n\n**6. Subsumsjon**: Anvend regelen på **faktum** – de konkrete opplysningene i saken. Er vilkårene oppfylt? Drøft **argumenter for og mot** når det er tvil.\n\n**7. Konklusjon**: Gi et klart **svar** på problemstillingen.\n\n## Et kort eksempel\n\n*Ida kjøpte en ny mobil i en butikk for tre måneder siden. Skjermen har sluttet å virke uten at hun har mistet den. Hun vil ha en ny telefon.*\n\n- **Parter**: Ida (forbruker) og butikken (selger).\n- **Krav**: omlevering – ny telefon.\n- **Rettslig grunnlag**: forbrukerkjøpsloven om mangel og omlevering.\n- **Problemstilling**: Har Ida krav på omlevering?\n- **Drøfting**: Er det en **mangel**? En ny telefon skal tåle vanlig bruk, så det er trolig en mangel. Har hun **reklamert** i tide? Tre måneder etter kjøpet er innenfor fristene. Etter forbrukerkjøpsloven kan forbrukeren som hovedregel **velge** mellom **retting** (reparasjon) og **omlevering**, men selgeren kan nekte hvis valget er umulig eller gir **urimelige kostnader**.\n- **Konklusjon**: Ida har som hovedregel krav på **omlevering**, med mindre det er urimelig kostbart for selgeren sammenlignet med retting.\n\n## Tips\n\n- Hold **faktum** og **jus** fra hverandre.\n- Vis **hvilken kilde** du bygger på.\n- Drøft der det er **tvil** – ikke der svaret er opplagt.\n- En konklusjon uten begrunnelse er lite verdt.",
+  "flashcards": [
+    { "term": "Rettskilde", "def": "Kilde jurister bruker for å finne gjeldende rett." },
+    { "term": "Grunnloven", "def": "Står øverst i rettskildehierarkiet." },
+    { "term": "Formell lov", "def": "Lov vedtatt av Stortinget." },
+    { "term": "Forskrift", "def": "Regel gitt av regjeringen eller departement med hjemmel i lov." },
+    { "term": "Forarbeider", "def": "Dokumenter fra lovens tilblivelse, som NOU og proposisjon." },
+    { "term": "Prejudikat", "def": "Høyesterettsdom som legger føringer for senere saker." },
+    { "term": "Forvaltningspraksis", "def": "Hvordan offentlige myndigheter praktiserer reglene." },
+    { "term": "Sedvanerett", "def": "Regler fra lang og fast praksis." },
+    { "term": "Reelle hensyn", "def": "Vurderinger av hva som er rimelig og rettferdig." },
+    { "term": "Lovdata", "def": "Nettsted med norske lover og forskrifter." },
+    { "term": "Ordlydstolking", "def": "Å ta utgangspunkt i hva loven faktisk sier." },
+    { "term": "Rettslig grunnlag", "def": "Regelen som kan gi grunnlag for kravet." },
+    { "term": "Juridisk problemstilling", "def": "Det rettslige spørsmålet saken reiser." },
+    { "term": "Subsumsjon", "def": "Å anvende rettsregelen på faktum." },
+    { "term": "Faktum", "def": "De konkrete opplysningene i saken." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken rettskilde står øverst?", "options": ["Forskrifter", "Grunnloven", "Rettspraksis", "Juridisk teori"], "correct": 1, "explain": "Andre regler må ikke stride mot den." },
+    { "id": "q02", "text": "Hva er forarbeider?", "options": ["Dokumenter fra lovens tilblivelse, som NOU og proposisjon", "Tidligere dommer", "Skikk og bruk", "Fagbøker"], "correct": 0, "explain": "De forklarer hensikten med loven." },
+    { "id": "q03", "text": "Hva er et prejudikat?", "options": ["En lov", "En forskrift", "En Høyesterettsdom som legger føringer for senere saker", "En avtale"], "correct": 2, "explain": "Rettspraksis." },
+    { "id": "q04", "text": "Hva er subsumsjon?", "options": ["Å finne partene", "Å skrive konklusjonen", "Å lese forarbeidene", "Å anvende rettsregelen på faktum"], "correct": 3, "explain": "Er vilkårene oppfylt?" },
+    { "id": "q05", "text": "Hva er det første steget i juridisk metode?", "options": ["Å finne partene", "Å konkludere", "Å lese dommer", "Å skrive problemstillingen til slutt"], "correct": 0, "explain": "Hvem står mot hvem?" },
+    { "id": "q06", "text": "Hvor starter man når en lov skal tolkes?", "options": ["Med reelle hensyn", "Med ordlyden", "Med juridisk teori", "Med konklusjonen"], "correct": 1, "explain": "Deretter formål, forarbeider og praksis." },
+    { "id": "q07", "text": "Hva er en forskrift?", "options": ["En lov vedtatt av Stortinget", "En dom", "En regel gitt av regjeringen eller departement med hjemmel i lov", "En avtale mellom privatpersoner"], "correct": 2, "explain": "Utfyller lovene." },
+    { "id": "q08", "text": "Hva er en juridisk problemstilling i saken om Idas mobil?", "options": ["Hvor mye kostet mobilen?", "Hvilken farge har mobilen?", "Hvor bor Ida?", "Har Ida krav på omlevering?"], "correct": 3, "explain": "Det rettslige spørsmålet." },
+    { "id": "q09", "text": "Hva er reelle hensyn?", "options": ["Vurderinger av hva som er rimelig og rettferdig", "Paragrafer i Grunnloven", "Tidligere dommer", "Stortingets vedtak"], "correct": 0, "explain": "En rettskilde med lavere vekt." },
+    { "id": "q10", "text": "Hvor finner du norske lover og forskrifter?", "options": ["Wikipedia", "Lovdata", "Facebook", "Aviser"], "correct": 1, "explain": "Den offisielle databasen." }
+  ],
+  "mindmap": {
+    "label": "Rettskilder og metode",
+    "children": [
+      { "label": "Rettskilder", "children": [
+        { "label": "Lov og forskrift" },
+        { "label": "Forarbeider" },
+        { "label": "Rettspraksis" },
+        { "label": "Sedvane og reelle hensyn" }
+      ] },
+      { "label": "Tolking", "children": [
+        { "label": "Ordlyd" },
+        { "label": "Formål" },
+        { "label": "Skjønnsmessige uttrykk" }
+      ] },
+      { "label": "Metode", "children": [
+        { "label": "Parter og krav" },
+        { "label": "Rettslig grunnlag" },
+        { "label": "Problemstilling" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Rettsregel og vilkår" },
+        { "label": "Subsumsjon" },
+        { "label": "Konklusjon" }
+      ] },
+      { "label": "Tips", "children": [
+        { "label": "Faktum og jus" },
+        { "label": "Kildebruk" },
+        { "label": "Drøft der det er tvil" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Lover har ofte skjønnsmessige uttrykk som må fylles ut i den enkelte sak.", "correct": true, "explain": "For eksempel «rimelig tid»." },
+      { "id": "m02", "type": "sant-usant", "text": "En forskrift kan gå foran Grunnloven.", "correct": false, "explain": "Grunnloven står øverst." },
+      { "id": "m03", "type": "sant-usant", "text": "I juridisk metode bør du drøfte særlig der svaret er tvilsomt.", "correct": true, "explain": "Opplagte spørsmål trenger kort behandling." },
+      { "id": "m04", "type": "sant-usant", "text": "Menneskerettighetene er ikke en rettskilde i Norge.", "correct": false, "explain": "De er en viktig rettskilde, også gjennom menneskerettsloven." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er kravet når en kjøper vil ha ny vare i stedet for en mangelfull?", "options": ["Heving", "Omlevering", "Prisavslag", "Erstatning"], "correct": 1, "explain": "Ny vare av samme slag." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken dokumenttype er et forarbeid?", "options": ["NOU", "Dom fra tingretten", "Lovdata", "Leserinnlegg"], "correct": 0, "explain": "Norges offentlige utredninger." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør en konklusjon i en juridisk oppgave være?", "options": ["Lang og uklar", "Uten begrunnelse", "Et klart svar på problemstillingen", "En ny problemstilling"], "correct": 2, "explain": "Bygd på drøftingen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "rettsstaten",
+  "fagId": "rettslare-1",
+  "trinnId": "vg2",
+  "name": "Norge som rettsstat",
+  "intro": "Hva en rettsstat er, maktfordelingen mellom Stortinget, regjeringen og domstolene, legalitetsprinsippet og de viktigste rettssikkerhetsgarantiene – og hvordan de beskytter den enkelte mot vilkårlig maktbruk.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Hva er en rettsstat?\n\nEn **rettsstat** er en stat der **myndighetene er bundet av lover**, og der innbyggerne er beskyttet mot **vilkårlig** maktbruk. Både borgerne og staten må følge loven. Motsetningen er en stat der makthaverne kan gjøre som de vil.\n\nViktige kjennetegn er\n\n- **maktfordeling**\n- **legalitetsprinsippet**\n- **uavhengige domstoler**\n- **rettssikkerhet** og **menneskerettigheter**\n- **likhet for loven**\n\n## Maktfordeling\n\n**Grunnloven** deler statsmakten i tre:\n\n- **Stortinget** gir **lover** og bevilger penger (lovgivende makt).\n- **Regjeringen** styrer landet og gjennomfører lovene (utøvende makt).\n- **Domstolene** dømmer i konkrete saker (dømmende makt).\n\nMaktene **kontrollerer** hverandre. Domstolene kan for eksempel prøve om en lov er i strid med **Grunnloven** eller **menneskerettighetene** (**prøvingsrett**), og Stortinget kontrollerer regjeringen.\n\n## Legalitetsprinsippet\n\n**Legalitetsprinsippet** står i **Grunnloven § 113**: **Myndighetenes inngrep overfor den enkelte må ha grunnlag i lov.** Staten kan altså ikke ta fra deg eiendom, pålegge deg skatt, fengsle deg eller gripe inn i livet ditt på annen måte **uten** at det finnes en **lov** som gir hjemmel for det.\n\nPå **strafferettens** område er prinsippet ekstra strengt: Etter **Grunnloven § 96** kan ingen dømmes **uten etter lov** – en handling må ha vært **straffbar** da den ble gjort. Lover kan heller ikke gis **tilbakevirkende** kraft til skade for den enkelte (**§ 97**).\n\n## Rettssikkerhet\n\n**Rettssikkerhet** betyr at den enkelte er beskyttet mot **overgrep** og **vilkårlighet**, og kan **forutberegne** sin rettsstilling. Viktige garantier er\n\n- **rett til rettferdig rettergang** for en uavhengig og upartisk domstol (Grunnloven § 95 og EMK artikkel 6)\n- **uskyldspresumsjonen**: Alle regnes som **uskyldige** til det motsatte er bevist\n- rett til **forsvarer** og til å **forklare seg**\n- rett til å **klage** på forvaltningsvedtak og få **begrunnelse**\n- **offentlighet** i rettergangen\n- **habilitet**: Dommere og saksbehandlere må ikke ha personlige interesser i saken\n\n## Likhet for loven\n\nEtter **Grunnloven § 98** er **alle like for loven**, og ingen skal utsettes for **usaklig** eller **uforholdsmessig** forskjellsbehandling.\n\n## Vurdering\n\nNorge regnes som en **sterk** rettsstat, men det finnes utfordringer:\n\n- **Lang saksbehandlingstid** i domstoler og forvaltning.\n- **Kostnader**: Ikke alle har råd til advokat, selv om **fri rettshjelp** finnes for noen.\n- **Norge har tapt saker** i Den europeiske menneskerettsdomstolen, blant annet om barnevern.\n- Balansen mellom **sikkerhet** og **personvern**, for eksempel ved overvåking.\n\nEt sentralt spørsmål er hvor mye makt **domstolene** skal ha overfor de **folkevalgte** – og hvordan rettsstaten kan beskytte **mindretall** mot flertallet.",
+  "flashcards": [
+    { "term": "Rettsstat", "def": "Stat der myndighetene er bundet av lover og borgerne vernes mot vilkårlighet." },
+    { "term": "Maktfordeling", "def": "Statsmakten deles mellom Stortinget, regjeringen og domstolene." },
+    { "term": "Lovgivende makt", "def": "Stortinget." },
+    { "term": "Utøvende makt", "def": "Regjeringen." },
+    { "term": "Dømmende makt", "def": "Domstolene." },
+    { "term": "Prøvingsrett", "def": "Domstolene kan prøve om lover strider mot Grunnloven." },
+    { "term": "Legalitetsprinsippet", "def": "Inngrep overfor den enkelte må ha grunnlag i lov (Grl. § 113)." },
+    { "term": "Grunnloven § 96", "def": "Ingen kan dømmes uten etter lov." },
+    { "term": "Forbud mot tilbakevirkende lover", "def": "Grunnloven § 97." },
+    { "term": "Rettssikkerhet", "def": "Vern mot overgrep og vilkårlighet, og forutberegnelighet." },
+    { "term": "Uskyldspresumsjonen", "def": "Alle regnes som uskyldige til det motsatte er bevist." },
+    { "term": "Rettferdig rettergang", "def": "Rett til sak for en uavhengig og upartisk domstol." },
+    { "term": "Habilitet", "def": "At dommere og saksbehandlere ikke har personlige interesser i saken." },
+    { "term": "Grunnloven § 98", "def": "Alle er like for loven." },
+    { "term": "Fri rettshjelp", "def": "Offentlig støtte til advokat for noen grupper og sakstyper." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva sier legalitetsprinsippet?", "options": ["At alle skal betale skatt", "At myndighetenes inngrep overfor den enkelte må ha grunnlag i lov", "At kongen har all makt", "At domstolene lager lover"], "correct": 1, "explain": "Grunnloven § 113." },
+    { "id": "q02", "text": "Hva er uskyldspresumsjonen?", "options": ["At alle regnes som uskyldige til det motsatte er bevist", "At alle er skyldige til de beviser noe annet", "At ingen kan dømmes", "At dommeren alltid har rett"], "correct": 0, "explain": "En grunnleggende rettssikkerhetsgaranti." },
+    { "id": "q03", "text": "Hvilken statsmakt er domstolene?", "options": ["Den lovgivende", "Den utøvende", "Den dømmende", "Ingen"], "correct": 2, "explain": "De dømmer i konkrete saker." },
+    { "id": "q04", "text": "Hva sier Grunnloven § 96?", "options": ["At alle er like for loven", "At staten kan straffe uten lov", "At lover kan gis tilbakevirkende kraft", "At ingen kan dømmes uten etter lov"], "correct": 3, "explain": "Handlingen må ha vært straffbar da den ble gjort." },
+    { "id": "q05", "text": "Hva er prøvingsretten?", "options": ["Domstolenes rett til å prøve om lover strider mot Grunnloven", "Stortingets rett til å felle regjeringen", "Retten til å anke", "Retten til å stemme"], "correct": 0, "explain": "Også mot menneskerettighetene." },
+    { "id": "q06", "text": "Hva betyr habilitet?", "options": ["At saken er rask", "At dommere og saksbehandlere ikke har personlige interesser i saken", "At partene er enige", "At saken er offentlig"], "correct": 1, "explain": "Sikrer upartiskhet." },
+    { "id": "q07", "text": "Hva betyr rettssikkerhet?", "options": ["At politiet har mye makt", "At straffene er strenge", "At den enkelte er vernet mot overgrep og kan forutberegne sin rettsstilling", "At det finnes mange advokater"], "correct": 2, "explain": "Beskyttelse mot vilkårlighet." },
+    { "id": "q08", "text": "Hvilken utfordring har den norske rettsstaten?", "options": ["At domstolene ikke er uavhengige", "At det ikke finnes lover", "At det ikke finnes Grunnlov", "Lang saksbehandlingstid og kostnader for å føre sak"], "correct": 3, "explain": "Norge regnes likevel som en sterk rettsstat." },
+    { "id": "q09", "text": "Hva sier Grunnloven § 98?", "options": ["At alle er like for loven", "At ingen kan dømmes uten lov", "At kongen er ukrenkelig", "At staten skal ha oljefond"], "correct": 0, "explain": "Forbud mot usaklig forskjellsbehandling." },
+    { "id": "q10", "text": "Hvorfor er maktfordeling viktig i en rettsstat?", "options": ["For å gjøre staten raskere", "For at maktene skal kontrollere hverandre og hindre maktmisbruk", "For å gi kongen mer makt", "For å slippe valg"], "correct": 1, "explain": "Ingen skal ha all makt." }
+  ],
+  "mindmap": {
+    "label": "Rettsstaten",
+    "children": [
+      { "label": "Kjennetegn", "children": [
+        { "label": "Myndighetene bundet av lov" },
+        { "label": "Likhet for loven" }
+      ] },
+      { "label": "Maktfordeling", "children": [
+        { "label": "Storting" },
+        { "label": "Regjering" },
+        { "label": "Domstoler og prøvingsrett" }
+      ] },
+      { "label": "Legalitetsprinsippet", "children": [
+        { "label": "Grl. § 113" },
+        { "label": "Grl. § 96 og § 97" }
+      ] },
+      { "label": "Rettssikkerhet", "children": [
+        { "label": "Rettferdig rettergang" },
+        { "label": "Uskyldspresumsjonen" },
+        { "label": "Klagerett og habilitet" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Saksbehandlingstid" },
+        { "label": "Kostnader" },
+        { "label": "Sikkerhet og personvern" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I en rettsstat må også myndighetene følge loven.", "correct": true, "explain": "Det er selve kjernen i rettsstaten." },
+      { "id": "m02", "type": "sant-usant", "text": "Staten kan pålegge nye skatter uten lovhjemmel.", "correct": false, "explain": "Det krever grunnlag i lov." },
+      { "id": "m03", "type": "sant-usant", "text": "Retten til rettferdig rettergang står både i Grunnloven og i EMK.", "correct": true, "explain": "Grunnloven § 95 og EMK artikkel 6." },
+      { "id": "m04", "type": "sant-usant", "text": "En lov kan gi straff for handlinger som var lovlige da de ble gjort.", "correct": false, "explain": "Grunnloven forbyr tilbakevirkende straffelover." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken paragraf i Grunnloven inneholder legalitetsprinsippet?", "options": ["§ 100", "§ 113", "§ 1", "§ 12"], "correct": 1, "explain": "Tatt inn i 2014." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en rettssikkerhetsgaranti i forvaltningen?", "options": ["Rett til å klage og få begrunnelse", "Rett til å velge saksbehandler", "Rett til å slippe skatt", "Rett til å bestemme lovene"], "correct": 0, "explain": "Forvaltningsloven sikrer dette." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor kan fri rettshjelp være viktig for rettssikkerheten?", "options": ["Fordi den gjør dommerne raskere", "Fordi den fjerner behovet for domstoler", "Fordi ikke alle har råd til advokat", "Fordi den gir alltid seier i retten"], "correct": 2, "explain": "Lik tilgang til rettssystemet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
