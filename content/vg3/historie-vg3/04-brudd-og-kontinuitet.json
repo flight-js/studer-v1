@@ -1,0 +1,80 @@
+{
+  "id": "brudd-og-kontinuitet",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Brudd, kontinuitet og historisk betydning",
+  "intro": "Hvordan historikere deler inn fortiden i perioder, hva brudd og kontinuitet er, hvordan du drøfter i hvilken grad en periode var preget av endring eller videreføring – og hvilke kriterier som gjør en hendelse historisk betydningsfull.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Brudd og kontinuitet\n\n- Et **brudd** er en **plutselig** eller **dyp** endring – noe blir **fundamentalt** annerledes.\n- **Kontinuitet** betyr at noe **fortsetter** eller endrer seg **gradvis**.\n\nDe fleste perioder har **både** brudd og kontinuitet. Selv etter store omveltninger lever mye av det gamle videre – språk, vaner, eiendomsforhold, maktstrukturer og tro.\n\n## Periodisering\n\nHistorikere deler fortiden inn i **perioder**, som oldtiden, middelalderen, tidlig moderne tid og moderne tid. Periodene er **konstruksjoner** – de hjelper oss å få **oversikt**, men kan skjule at endringene ofte skjedde **gradvis** og **ulikt** i ulike deler av verden og samfunnet.\n\nNår et periodeskille settes ved en bestemt hendelse, som **1814** eller **1945**, sier det noe om hva historikeren mener var **viktigst**.\n\n## Eksempler til drøfting\n\n**1814 i Norge**\n\n- **Brudd**: Norge fikk egen **grunnlov**, **storting** og ble et eget **rike** i union med Sverige.\n- **Kontinuitet**: **Embetsmennene** styrte videre, bøndene levde som før, og det var fortsatt en **konge**.\n\n**Den industrielle revolusjonen**\n\n- **Brudd**: Maskiner, fabrikker og byer endret arbeidsliv og levekår **dramatisk**.\n- **Kontinuitet**: Endringene tok **flere generasjoner**, og mange levde lenge videre som **bønder**.\n\n**1945 i Norge**\n\n- **Brudd**: Krigen var over, **velferdsstaten** ble bygd ut, og Norge gikk inn i **NATO** i 1949.\n- **Kontinuitet**: Mange av politikerne og partiene fra 1930-tallet fortsatte, og **Arbeiderpartiets** politikk bygde videre på **kriseforliket** fra 1935.\n\n## Å drøfte «i hvilken grad»\n\nNår du skal drøfte i hvilken grad en periode var preget av brudd eller kontinuitet, kan du\n\n1. **definere** hva du mener med brudd og kontinuitet\n2. se på **ulike områder**: politikk, økonomi, kultur, religion og hverdagsliv\n3. vurdere **tempoet** og **omfanget** av endringene\n4. se på **hvem** som opplevde endring – ofte endret livet seg mer for noen grupper enn for andre\n5. **konkludere** med en nyansert vurdering\n\n## Hva gjør en hendelse betydningsfull?\n\nHistorikere har foreslått ulike **kriterier** for **historisk betydning**:\n\n- **Omfang**: Hvor mange mennesker ble berørt?\n- **Dybde**: Hvor **dypt** endret den folks liv?\n- **Varighet**: Hvor **lenge** varte virkningene?\n- **Relevans i dag**: Hjelper den oss å forstå **nåtiden**?\n- **Symbolverdi**: Blir den **husket** og brukt som symbol?\n- **Avslørende**: Viser den oss noe viktig om **tiden** den skjedde i?\n\nHva som regnes som **betydningsfullt**, kan endre seg over tid. Hendelser som tidligere ble oversett – som **kvinners** kamp for rettigheter eller **samenes** historie – har fått større plass etter hvert som samfunnet har endret seg.\n\n## Refleksjon\n\nÅ vurdere brudd, kontinuitet og betydning handler ikke om å finne **ett riktig svar**, men om å **begrunne** vurderingene med **fakta** og tydelige **kriterier**.",
+  "flashcards": [
+    { "term": "Brudd", "def": "Plutselig eller dyp endring." },
+    { "term": "Kontinuitet", "def": "At noe fortsetter eller endrer seg gradvis." },
+    { "term": "Periodisering", "def": "Inndeling av fortiden i perioder." },
+    { "term": "Periodeskille", "def": "Hendelse eller årstall som markerer overgang mellom perioder." },
+    { "term": "Konstruksjon", "def": "Noe mennesker har laget for å ordne virkeligheten." },
+    { "term": "1814 som brudd", "def": "Grunnlov, storting og eget rike." },
+    { "term": "1814 som kontinuitet", "def": "Embetsmennene styrte videre, og bøndene levde som før." },
+    { "term": "Kriseforliket 1935", "def": "Avtale mellom Arbeiderpartiet og Bondepartiet som la grunnlaget for ny politikk." },
+    { "term": "Historisk betydning", "def": "Hvor viktig en hendelse er, vurdert ut fra kriterier." },
+    { "term": "Omfang", "def": "Hvor mange som ble berørt." },
+    { "term": "Dybde", "def": "Hvor dypt en hendelse endret folks liv." },
+    { "term": "Varighet", "def": "Hvor lenge virkningene varte." },
+    { "term": "Relevans i dag", "def": "Om hendelsen hjelper oss å forstå nåtiden." },
+    { "term": "Symbolverdi", "def": "Om hendelsen blir husket og brukt som symbol." },
+    { "term": "Nyansert vurdering", "def": "Konklusjon som tar hensyn til flere sider." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er kontinuitet?", "options": ["En plutselig endring", "At noe fortsetter eller endrer seg gradvis", "En krig", "En revolusjon"], "correct": 1, "explain": "Motsatsen til brudd." },
+    { "id": "q02", "text": "Hva var et brudd i 1814?", "options": ["Norge fikk egen grunnlov og storting", "Bøndene levde som før", "Embetsmennene styrte videre", "Kongen forsvant"], "correct": 0, "explain": "Norge ble et eget rike." },
+    { "id": "q03", "text": "Hvorfor er perioder konstruksjoner?", "options": ["Fordi de er feil", "Fordi de er bestemt av kongen", "Fordi de er laget for å gi oversikt og kan skjule gradvise endringer", "Fordi de ikke brukes"], "correct": 2, "explain": "Endringer skjer ofte gradvis." },
+    { "id": "q04", "text": "Hvilket kriterium handler om hvor mange som ble berørt?", "options": ["Dybde", "Varighet", "Symbolverdi", "Omfang"], "correct": 3, "explain": "Et kriterium for historisk betydning." },
+    { "id": "q05", "text": "Hva var kontinuitet etter 1945 i Norge?", "options": ["Mange av politikerne og partiene fra 1930-tallet fortsatte", "Krigen fortsatte", "Norge gikk ut av NATO", "Kongen abdiserte"], "correct": 0, "explain": "Politikken bygde videre på kriseforliket." },
+    { "id": "q06", "text": "Hvorfor kan det som regnes som betydningsfullt, endre seg?", "options": ["Fordi fortiden endrer seg", "Fordi samfunnet og spørsmålene våre endrer seg", "Fordi kildene forsvinner", "Fordi historikere er uenige om årstall"], "correct": 1, "explain": "For eksempel samenes historie." },
+    { "id": "q07", "text": "Hvordan kan du drøfte i hvilken grad en periode var preget av brudd?", "options": ["Ved å se bare på politikk", "Ved å gi ett svar uten begrunnelse", "Ved å se på ulike områder, tempo og hvem som opplevde endring", "Ved å telle årstall"], "correct": 2, "explain": "Nyansert vurdering." },
+    { "id": "q08", "text": "Hva var kontinuitet under den industrielle revolusjonen?", "options": ["Fabrikkene", "Maskinene", "Byene", "At mange levde lenge videre som bønder"], "correct": 3, "explain": "Endringene tok generasjoner." },
+    { "id": "q09", "text": "Hva betyr kriteriet dybde?", "options": ["Hvor dypt en hendelse endret folks liv", "Hvor lenge den varte", "Hvor kjent den er", "Hvor mange bøker som er skrevet om den"], "correct": 0, "explain": "Et kriterium for historisk betydning." },
+    { "id": "q10", "text": "Har de fleste perioder både brudd og kontinuitet?", "options": ["Nei, bare brudd", "Ja", "Nei, bare kontinuitet", "Nei, ingen av delene"], "correct": 1, "explain": "Mye av det gamle lever videre." }
+  ],
+  "mindmap": {
+    "label": "Brudd og kontinuitet",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Brudd" },
+        { "label": "Kontinuitet" }
+      ] },
+      { "label": "Periodisering", "children": [
+        { "label": "Konstruksjoner" },
+        { "label": "Periodeskiller" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "1814" },
+        { "label": "Industriell revolusjon" },
+        { "label": "1945" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Ulike områder" },
+        { "label": "Tempo og omfang" },
+        { "label": "Hvem ble berørt" }
+      ] },
+      { "label": "Betydning", "children": [
+        { "label": "Omfang og dybde" },
+        { "label": "Varighet og relevans" },
+        { "label": "Symbolverdi" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Valget av periodeskille sier noe om hva historikeren mener var viktigst.", "correct": true, "explain": "Periodisering er en tolkning." },
+      { "id": "m02", "type": "sant-usant", "text": "Etter en revolusjon forsvinner alt det gamle med en gang.", "correct": false, "explain": "Mye lever videre." },
+      { "id": "m03", "type": "sant-usant", "text": "Endringer kan oppleves ulikt av ulike grupper i samfunnet.", "correct": true, "explain": "Derfor må man spørre hvem som opplevde endring." },
+      { "id": "m04", "type": "sant-usant", "text": "Det finnes alltid ett riktig svar på om en periode var preget av brudd.", "correct": false, "explain": "Vurderingen må begrunnes." },
+      { "id": "m05", "type": "flervalg", "text": "Når gikk Norge inn i NATO?", "options": ["1945", "1949", "1955", "1972"], "correct": 1, "explain": "Et brudd med tidligere nøytralitet." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket kriterium handler om hvor lenge virkningene varte?", "options": ["Varighet", "Omfang", "Symbolverdi", "Dybde"], "correct": 0, "explain": "Et kriterium for betydning." },
+      { "id": "m07", "type": "flervalg", "text": "Hva må du gjøre for å vurdere historisk betydning godt?", "options": ["Velge den mest kjente hendelsen", "Bruke bare egne følelser", "Begrunne med fakta og tydelige kriterier", "Se bare på kongene"], "correct": 2, "explain": "Kriterier gjør vurderingen etterprøvbar." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

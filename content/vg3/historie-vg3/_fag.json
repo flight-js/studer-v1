@@ -1,0 +1,95 @@
+{
+  "id": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Historie",
+  "lareplan": {
+    "kode": "HIS01-03",
+    "url": "https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurdering/kv85",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "reflektere over hvordan fortolkninger av fortiden er preget av nåtidsforståelse og forventninger til framtiden"
+      },
+      {
+        "nr": 2,
+        "tekst": "reflektere over hvordan fortiden brukes av ulike aktører og drøfte hensikten med denne historiebruken"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske fortiden ved å formulere problemstillinger, finne, vurdere og bruke ulikt materiale og presentere egne slutninger"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske en historisk person og diskutere hans eller hennes tenkning, handlingsrom og valg i lys av samtiden han eller hun levde i"
+      },
+      {
+        "nr": 5,
+        "tekst": "sammenligne ulike framstillinger av en hendelse og reflektere over at historiske framstillinger preges av opphavspersonens ståsted og kontekst"
+      },
+      {
+        "nr": 6,
+        "tekst": "drøfte i hvilken grad utviklingen i ulike perioder har vært preget av brudd eller kontinuitet, og vurdere hva som gjør en hendelse i fortiden betydningsfull"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for tanker og ideologier som har ligget til grunn for politiske omveltninger fra opplysningstiden til i dag og vurdere betydningen av disse for menneskers muligheter til demokratisk deltakelse"
+      },
+      {
+        "nr": 8,
+        "tekst": "reflektere over hvordan teknologiske omveltninger fra den industrielle revolusjonen til i dag har endret menneskers liv og formet forventninger til framtiden"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjøre rede for årsaker til at mennesker har migrert, og diskutere kulturmøtene sett fra ulike perspektiver."
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for årsaker til at kolonimakter underla seg landområder, og drøfte konsekvenser for mennesker og samfunn i land og områder som ble kolonisert"
+      },
+      {
+        "nr": 11,
+        "tekst": "drøfte bakgrunnen for verdenskrigene og et utvalg andre sentrale kriger eller konflikter, og reflektere over om fredsslutninger har bidratt til å skape fred og forsoning"
+      },
+      {
+        "nr": 12,
+        "tekst": "utforske menneskers handlingsrom og valgmuligheter i konfliktsituasjoner og vurdere konsekvenser av valgene de har tatt"
+      },
+      {
+        "nr": 13,
+        "tekst": "reflektere over hvordan ideologier og tankesett på 1900-tallet og fram til i dag har bidratt til undertrykkelse, terror og folkemord som holocaust"
+      },
+      {
+        "nr": 14,
+        "tekst": "analysere hvordan framstillinger av fortiden har blitt brukt i Norge for å skape nasjonal identitet og drøfte hvilke virkninger dette har hatt for ulike grupper"
+      },
+      {
+        "nr": 15,
+        "tekst": "utforske hvordan mennesker har arbeidet for myndiggjøring og frigjøring i norsk og samisk historie, og gjøre rede for hvordan de samtidig har bidratt til utviklingen av demokratiet"
+      },
+      {
+        "nr": 16,
+        "tekst": "gjøre rede for velferdsutviklingen i Norge på 1900-tallet og drøfte konsekvenser for menneskers liv"
+      },
+      {
+        "nr": 17,
+        "tekst": "vurdere hvordan mennesket har forholdt seg til naturen, forvaltet og brukt ressurser og bruke historiske perspektiver i samtale om bærekraftige løsninger"
+      }
+    ]
+  },
+  "temaer": [
+    "historiebruk-og-fortolkning",
+    "historisk-metode-og-framstillinger",
+    "personer-og-handlingsrom",
+    "brudd-og-kontinuitet",
+    "ideologier-og-politiske-omveltninger",
+    "teknologiske-omveltninger",
+    "migrasjon-og-kulturmoter",
+    "kolonialisme-og-imperialisme",
+    "verdenskrigene-og-fred",
+    "undertrykkelse-og-folkemord",
+    "nasjonal-identitet",
+    "myndiggjoring-og-frigjoring",
+    "velferdsstaten",
+    "menneske-natur-og-ressurser"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "nasjonal-identitet",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Historiebruk og nasjonal identitet i Norge",
+  "intro": "Hvordan framstillinger av fortiden har blitt brukt til å skape nasjonal identitet i Norge – fra nasjonalromantikken og 17. mai til bildet av okkupasjonstiden og oljenasjonen – og hvilke virkninger nasjonsbyggingen har hatt for samer, kvener, skogfinner, romanifolket og jøder.",
+  "kompetansemaal": [14],
+  "sammendrag": "## Nasjonsbygging\n\nEn **nasjon** er et **fellesskap** av mennesker som opplever at de hører sammen gjennom **historie**, **språk**, **kultur** og ofte et **territorium**. Nasjoner blir ikke bare født – de **bygges**. Historikeren **Benedict Anderson** kalte dem «**forestilte fellesskap**».\n\n## Nasjonalromantikken\n\nEtter **1814** hadde Norge fått egen grunnlov, men manglet en tydelig **nasjonal identitet**. På **1800-tallet** lette kunstnere og forskere etter det «**ekte norske**»:\n\n- **Historikere** som **P.A. Munch** skrev om **sagatiden** og middelalderen som en **storhetstid**. Dansketiden ble omtalt som en mørk «**firehundreårsnatt**».\n- **Asbjørnsen og Moe** samlet **folkeeventyr**, og **Landstad** samlet folkeviser.\n- **Ivar Aasen** samlet **dialekter** og lagde **landsmålet**, dagens nynorsk.\n- Malerne **Tidemand og Gude** malte **Brudeferden i Hardanger** – et idealisert bilde av bonde og natur.\n\n**Bonden** og **naturen** ble symboler på det norske.\n\n## Symboler og ritualer\n\n**17. mai** utviklet seg til en folkefest med **barnetog**, flagg og taler. Ski, friluftsliv, **dugnad** og vikingskip ble etter hvert en del av bildet av «det norske». Slike **symboler** og **ritualer** skaper **fellesskap**.\n\n## Okkupasjonstiden\n\nEtter **1945** ble **motstandskampen** en viktig del av den nasjonale fortellingen – bildet av et samlet folk som sto imot okkupantene. Senere forskning har **nyansert** bildet og vist at de fleste **tilpasset** seg, at mange **samarbeidet**, og at norske myndigheter deltok i **deportasjonen** av jøder.\n\n## Oljenasjonen\n\nEtter oljefunnene fra **1969** har fortellingen om Norge som et **rikt**, **likestilt** og **fredelig** land blitt viktig. **Fredsnasjonen** og **velferdsstaten** er sentrale deler av selvbildet.\n\n## Hvem ble holdt utenfor?\n\nNasjonsbyggingen bygde på en idé om **ett folk**, **ett språk** og **én kultur**. Det fikk alvorlige konsekvenser for grupper som ikke passet inn:\n\n- **Samene** ble utsatt for **fornorskingspolitikk**. Samisk språk ble fortrengt i skolen, mange barn ble sendt på **internatskoler**, og en lov fra **1902** gjorde det vanskelig for folk som ikke kunne **norsk**, å kjøpe **jord** i Finnmark.\n- **Kvener** og **skogfinner** ble også utsatt for fornorsking.\n- **Romanifolket**, også kalt **tatere**, ble utsatt for **tvangsassimilering** – barn ble tatt fra foreldrene, og mange ble utsatt for **tvangssterilisering**.\n- **Jøder** var utestengt fra riket gjennom **Grunnloven** fram til **1851**, og ble senere rammet av **antisemittisme** og holocaust.\n\n**Sannhets- og forsoningskommisjonen** la i **2023** fram en rapport om fornorskingspolitikken og uretten mot samer, kvener og skogfinner.\n\n## Nasjonal identitet i dag\n\nNorge er i dag et **mangfoldig** samfunn med **urfolk**, **nasjonale minoriteter** og mange med **innvandrerbakgrunn**. Det diskuteres hva «**norsk**» betyr, og om nasjonal identitet bør bygge på **felles verdier** som demokrati og likeverd, eller på **felles historie** og kultur.\n\n## Drøfting\n\nNasjonal identitet kan skape **samhold**, **tillit** og **fellesskap**. Men når fortellingen om nasjonen blir **for snever**, kan den **utelukke** og **undertrykke** dem som ikke passer inn. Å kjenne historien bak de nasjonale symbolene gjør det lettere å se **både** samholdet og **prisen** noen har betalt.",
+  "flashcards": [
+    { "term": "Nasjon", "def": "Fellesskap som opplever tilhørighet gjennom historie, språk og kultur." },
+    { "term": "Forestilte fellesskap", "def": "Benedict Andersons betegnelse på nasjoner." },
+    { "term": "Nasjonalromantikken", "def": "1800-tallets søken etter det «ekte norske»." },
+    { "term": "P.A. Munch", "def": "Historiker som framstilte sagatiden som en storhetstid." },
+    { "term": "Firehundreårsnatten", "def": "Negativ betegnelse på dansketiden." },
+    { "term": "Asbjørnsen og Moe", "def": "Samlet norske folkeeventyr." },
+    { "term": "Ivar Aasen", "def": "Laget landsmålet, dagens nynorsk." },
+    { "term": "Brudeferden i Hardanger", "def": "Tidemand og Gudes idealiserte maleri av bonde og natur." },
+    { "term": "Fornorskingspolitikk", "def": "Politikk for å gjøre samer, kvener og skogfinner norske." },
+    { "term": "Internatskoler", "def": "Skoler der mange samiske barn bodde borte fra familien." },
+    { "term": "Jordsalgsloven 1902", "def": "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark." },
+    { "term": "Romanifolket", "def": "Nasjonal minoritet, også kalt tatere, utsatt for tvangsassimilering." },
+    { "term": "Tvangsassimilering", "def": "Å tvinge en gruppe til å gi opp sin kultur." },
+    { "term": "Nasjonale minoriteter", "def": "Kvener, skogfinner, romanifolket, rom og jøder." },
+    { "term": "Fredsnasjonen", "def": "Del av Norges selvbilde etter 1945." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva mente Benedict Anderson med «forestilte fellesskap»?", "options": ["At nasjoner er falske", "At nasjoner bygges gjennom felles forestillinger om tilhørighet", "At nasjoner bare finnes i bøker", "At nasjoner er naturlige"], "correct": 1, "explain": "Nasjoner bygges." },
+    { "id": "q02", "text": "Hvilken periode framstilte nasjonalromantikerne som en storhetstid?", "options": ["Sagatiden og middelalderen", "Dansketiden", "Svenskeunionen", "Industrialiseringen"], "correct": 0, "explain": "Dansketiden ble kalt «firehundreårsnatten»." },
+    { "id": "q03", "text": "Hva ble symboler på det norske under nasjonalromantikken?", "options": ["Byen og fabrikken", "Kongen og adelen", "Bonden og naturen", "Kirken og presten"], "correct": 2, "explain": "For eksempel i Brudeferden i Hardanger." },
+    { "id": "q04", "text": "Hva gjorde jordsalgsloven fra 1902?", "options": ["Ga samene rett til jord", "Fjernet all skatt på jord", "Delte ut jord gratis", "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark"], "correct": 3, "explain": "Et virkemiddel i fornorskingen." },
+    { "id": "q05", "text": "Hvilken gruppe ble utsatt for tvangssterilisering og at barn ble tatt fra foreldrene?", "options": ["Romanifolket", "Embetsmennene", "Bøndene i Hardanger", "Handelsstanden"], "correct": 0, "explain": "Også kalt tatere." },
+    { "id": "q06", "text": "Hvordan har forskningen nyansert bildet av okkupasjonstiden?", "options": ["Den har vist at alle var i motstandsbevegelsen", "Den har vist at de fleste tilpasset seg og at mange samarbeidet", "Den har vist at okkupasjonen ikke skjedde", "Den har vist at Norge vant krigen alene"], "correct": 1, "explain": "Også norsk deltakelse i deportasjonen av jøder." },
+    { "id": "q07", "text": "Hvem laget landsmålet?", "options": ["P.A. Munch", "Henrik Wergeland", "Ivar Aasen", "Asbjørnsen"], "correct": 2, "explain": "Dagens nynorsk." },
+    { "id": "q08", "text": "Hva la Sannhets- og forsoningskommisjonen fram i 2023?", "options": ["En ny grunnlov", "En oljestrategi", "En rapport om 17. mai", "En rapport om fornorskingen av samer, kvener og skogfinner"], "correct": 3, "explain": "Om uretten som ble begått." },
+    { "id": "q09", "text": "Hva kan være en negativ virkning av en snever nasjonal fortelling?", "options": ["At den utelukker og undertrykker dem som ikke passer inn", "At den skaper samhold", "At den gir tillit", "At den gir fellesskap"], "correct": 0, "explain": "Nasjonsbyggingen hadde en pris." },
+    { "id": "q10", "text": "Når ble Grunnlovens forbud mot jøder opphevet?", "options": ["1814", "1851", "1905", "1945"], "correct": 1, "explain": "Etter blant annet Wergelands kamp." }
+  ],
+  "mindmap": {
+    "label": "Nasjonal identitet",
+    "children": [
+      { "label": "Nasjonsbygging", "children": [
+        { "label": "Forestilte fellesskap" },
+        { "label": "Symboler og ritualer" }
+      ] },
+      { "label": "Nasjonalromantikk", "children": [
+        { "label": "Sagatiden" },
+        { "label": "Eventyr og dialekter" },
+        { "label": "Bonde og natur" }
+      ] },
+      { "label": "Nyere fortellinger", "children": [
+        { "label": "Motstandskampen" },
+        { "label": "Oljenasjonen" },
+        { "label": "Fredsnasjonen" }
+      ] },
+      { "label": "Holdt utenfor", "children": [
+        { "label": "Samer, kvener, skogfinner" },
+        { "label": "Romanifolket" },
+        { "label": "Jøder" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "Mangfold" },
+        { "label": "Forsoning" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange samiske barn ble sendt på internatskoler.", "correct": true, "explain": "En del av fornorskingspolitikken." },
+      { "id": "m02", "type": "sant-usant", "text": "Nasjonal identitet oppstår av seg selv uten at noen bygger den.", "correct": false, "explain": "Nasjoner bygges." },
+      { "id": "m03", "type": "sant-usant", "text": "Nasjonal identitet kan skape både samhold og utenforskap.", "correct": true, "explain": "Derfor må den drøftes." },
+      { "id": "m04", "type": "sant-usant", "text": "Fornorskingspolitikken rammet bare samene.", "correct": false, "explain": "Også kvener og skogfinner." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem samlet norske folkeeventyr?", "options": ["Tidemand og Gude", "Asbjørnsen og Moe", "Ibsen og Bjørnson", "Munch og Aasen"], "correct": 1, "explain": "På 1840-tallet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva ble dansketiden omtalt som?", "options": ["Firehundreårsnatten", "Gullalderen", "Storhetstiden", "Frihetstiden"], "correct": 0, "explain": "Et negativt bilde fra nasjonalromantikken." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken debatt handler om nasjonal identitet i dag?", "options": ["Om vikingskip var store", "Om eventyr er sanne", "Om «norsk» bør bygge på felles verdier eller felles historie og kultur", "Om 17. mai skal flyttes"], "correct": 2, "explain": "Norge er et mangfoldig samfunn." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

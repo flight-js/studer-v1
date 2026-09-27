@@ -1,0 +1,81 @@
+{
+  "id": "ideologier-og-politiske-omveltninger",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Ideologier og politiske omveltninger",
+  "intro": "Tanker og ideologier bak politiske omveltninger fra opplysningstiden til i dag – liberalisme, konservatisme, nasjonalisme, sosialisme, kommunisme og fascisme – revolusjonene i 1776, 1789, 1848, 1917 og 1989, og betydningen for menneskers mulighet til demokratisk deltakelse.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Opplysningstiden\n\nPå **1700-tallet** mente **opplysningsfilosofene** at **fornuften** skulle styre, ikke tradisjon og kirke. **John Locke** hevdet at mennesker har **naturlige rettigheter** til liv, frihet og eiendom. **Montesquieu** foreslo **maktfordeling**, og **Rousseau** mente at makten tilhører **folket**. Tankene ble grunnlaget for moderne **demokrati**.\n\n## Revolusjonene på 1700-tallet\n\n- Den **amerikanske revolusjonen**: **Uavhengighetserklæringen** fra **1776** slo fast at alle mennesker er skapt like og har rett til liv, frihet og lykke. Men **slaver**, **urfolk** og **kvinner** ble holdt utenfor.\n- Den **franske revolusjonen** fra **1789** avskaffet eneveldet og adelens privilegier og innførte **erklæringen om menneskets og borgerens rettigheter**. Revolusjonen gikk over i **terror** og endte med Napoleons maktovertakelse.\n\nBegge revolusjonene inspirerte **Grunnloven** av 1814.\n\n## De store ideologiene\n\n- **Liberalismen** vektlegger **individets frihet**, ytringsfrihet, eiendomsrett og **fri handel**. Staten skal være begrenset.\n- **Konservatismen** vil bevare **tradisjoner** og **institusjoner** og endre samfunnet **gradvis**. **Edmund Burke** advarte mot revolusjonære brudd.\n- **Nasjonalismen** mener at hvert **folk** bør ha sin egen **stat**. Den bidro til frigjøring, men også til **konflikter** og krig.\n- **Sosialismen** vokste fram med **industrialiseringen** og vil ha **likhet** og at arbeiderne skal få en større del av verdiene. **Karl Marx** mente at historien drives av **klassekamp**. Sosialismen delte seg i **sosialdemokrater**, som ville endre samfunnet gjennom **valg** og reformer, og **kommunister**, som ville ha **revolusjon**.\n- **Fascismen** og **nazismen** på 1900-tallet avviste demokratiet og satte **nasjonen**, **føreren** og – i nazismen – **rasen** over individet.\n\n## Omveltninger på 1800- og 1900-tallet\n\n- **1848**: Revolusjoner i store deler av Europa krevde **demokrati** og nasjonal frihet. I Norge vokste **Thrane-bevegelsen** fram.\n- **1917**: **Den russiske revolusjonen** ga kommunistene makten. Resultatet ble et **ettpartistyre** og senere Stalins **diktatur**.\n- **1920- og 30-tallet**: Fascister og nazister tok makten i **Italia** og **Tyskland**.\n- **Avkoloniseringen** etter 1945 ga mange nye stater, ofte begrunnet i **nasjonalisme** og **menneskerettigheter**.\n- **1989**: **Berlinmuren** falt, og kommuniststyrene i Øst-Europa brøt sammen – mange land ble **demokratier**.\n- **Den arabiske våren** fra **2010–2011** krevde demokrati, men endte i flere land i **borgerkrig** eller nye **diktaturer**.\n\n## Demokratisk deltakelse\n\nIdeologiene har påvirket **hvem** som får delta:\n\n- Liberalismen ga **rettigheter**, men først bare for menn med eiendom.\n- **Arbeiderbevegelsen** og sosialismen kjempet fram **allmenn stemmerett** for menn – i Norge i **1898**.\n- **Kvinnebevegelsen** vant fram med **stemmerett** for kvinner i Norge i **1913**.\n- **Fascismen** og **kommunismen** i sovjetisk form **fjernet** frie valg.\n\n## Vurdering\n\nNår du vurderer en ideologi, kan du spørre hvilket **menneskesyn** den har, hvem den ga **makt** – og hvem den **utelukket**. Mange ideologier har både bidratt til **frigjøring** og blitt brukt til å rettferdiggjøre **undertrykkelse**.",
+  "flashcards": [
+    { "term": "Opplysningstiden", "def": "1700-tallets idéstrømning der fornuften skulle styre." },
+    { "term": "John Locke", "def": "Mente at mennesker har naturlige rettigheter til liv, frihet og eiendom." },
+    { "term": "Montesquieu", "def": "Foreslo maktfordeling." },
+    { "term": "Uavhengighetserklæringen", "def": "Den amerikanske erklæringen fra 1776." },
+    { "term": "Den franske revolusjonen", "def": "Omveltningen fra 1789 som avskaffet eneveldet." },
+    { "term": "Liberalisme", "def": "Ideologi som vektlegger individets frihet og begrenset stat." },
+    { "term": "Konservatisme", "def": "Ideologi som vil bevare tradisjoner og endre gradvis." },
+    { "term": "Nasjonalisme", "def": "Ideen om at hvert folk bør ha sin egen stat." },
+    { "term": "Sosialisme", "def": "Ideologi som vil ha likhet og mer til arbeiderne." },
+    { "term": "Karl Marx", "def": "Mente at historien drives av klassekamp." },
+    { "term": "Sosialdemokrati", "def": "Sosialisme gjennom valg og reformer." },
+    { "term": "Fascisme", "def": "Antidemokratisk ideologi som setter nasjonen og føreren over individet." },
+    { "term": "Den russiske revolusjonen", "def": "Kommunistene tok makten i Russland i 1917." },
+    { "term": "Berlinmurens fall", "def": "1989 – kommuniststyrene i Øst-Europa brøt sammen." },
+    { "term": "Den arabiske våren", "def": "Opprør for demokrati i arabiske land fra 2010–2011." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva mente John Locke?", "options": ["At kongen har guddommelig rett", "At mennesker har naturlige rettigheter til liv, frihet og eiendom", "At staten skal eie alt", "At nasjonen står over individet"], "correct": 1, "explain": "Viktig for liberalismen." },
+    { "id": "q02", "text": "Hvilken ideologi vil bevare tradisjoner og endre gradvis?", "options": ["Konservatismen", "Liberalismen", "Kommunismen", "Fascismen"], "correct": 0, "explain": "Edmund Burke er en sentral tenker." },
+    { "id": "q03", "text": "Hva skilte sosialdemokrater fra kommunister?", "options": ["Sosialdemokratene ville ha diktatur", "Kommunistene ville ha valg", "Sosialdemokratene ville endre samfunnet gjennom valg og reformer", "De var helt like"], "correct": 2, "explain": "Kommunistene ville ha revolusjon." },
+    { "id": "q04", "text": "Hvem ble holdt utenfor rettighetene i den amerikanske uavhengighetserklæringen?", "options": ["Rike menn", "Handelsmenn", "Soldater", "Slaver, urfolk og kvinner"], "correct": 3, "explain": "Idealene gjaldt ikke alle." },
+    { "id": "q05", "text": "Hva skjedde i 1917?", "options": ["Den russiske revolusjonen", "Den franske revolusjonen", "Berlinmuren falt", "Den amerikanske revolusjonen"], "correct": 0, "explain": "Kommunistene tok makten." },
+    { "id": "q06", "text": "Hva kjennetegner fascismen?", "options": ["Sterk støtte til frie valg", "Avvisning av demokratiet og vekt på nasjonen og føreren", "Fri handel og begrenset stat", "Gradvis endring"], "correct": 1, "explain": "Individet underordnes nasjonen." },
+    { "id": "q07", "text": "Når fikk kvinner stemmerett i Norge?", "options": ["1814", "1898", "1913", "1945"], "correct": 2, "explain": "Menn fikk allmenn stemmerett i 1898." },
+    { "id": "q08", "text": "Hva skjedde i Øst-Europa i 1989?", "options": ["Fascismen vant fram", "Russiske revolusjonen startet", "Nye kolonier ble opprettet", "Kommuniststyrene brøt sammen"], "correct": 3, "explain": "Berlinmuren falt." },
+    { "id": "q09", "text": "Hva mente Karl Marx drev historien framover?", "options": ["Klassekamp", "Religion", "Kongelig makt", "Været"], "correct": 0, "explain": "Grunnlaget for marxismen." },
+    { "id": "q10", "text": "Hvilken norsk bevegelse vokste fram i 1848?", "options": ["Kvinnebevegelsen", "Thrane-bevegelsen", "Målrørsla", "Motstandsbevegelsen"], "correct": 1, "explain": "En tidlig arbeiderbevegelse." }
+  ],
+  "mindmap": {
+    "label": "Ideologier og omveltninger",
+    "children": [
+      { "label": "Opplysningstid", "children": [
+        { "label": "Locke" },
+        { "label": "Montesquieu og Rousseau" }
+      ] },
+      { "label": "Revolusjoner", "children": [
+        { "label": "1776 og 1789" },
+        { "label": "1848" },
+        { "label": "1917" },
+        { "label": "1989 og 2011" }
+      ] },
+      { "label": "Ideologier", "children": [
+        { "label": "Liberalisme og konservatisme" },
+        { "label": "Nasjonalisme" },
+        { "label": "Sosialisme og kommunisme" },
+        { "label": "Fascisme" }
+      ] },
+      { "label": "Deltakelse", "children": [
+        { "label": "Stemmerett 1898" },
+        { "label": "Kvinner 1913" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Menneskesyn" },
+        { "label": "Frigjøring og undertrykkelse" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den franske revolusjonen gikk over i en periode med terror.", "correct": true, "explain": "Og endte med Napoleons maktovertakelse." },
+      { "id": "m02", "type": "sant-usant", "text": "Nasjonalismen har bare ført til fred.", "correct": false, "explain": "Den har også ført til konflikter og krig." },
+      { "id": "m03", "type": "sant-usant", "text": "Grunnloven av 1814 var inspirert av den amerikanske og den franske revolusjonen.", "correct": true, "explain": "Maktfordeling og folkesuverenitet." },
+      { "id": "m04", "type": "sant-usant", "text": "Den arabiske våren førte til stabile demokratier i alle land.", "correct": false, "explain": "Flere land fikk borgerkrig eller nye diktaturer." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem foreslo maktfordeling?", "options": ["Karl Marx", "Montesquieu", "Edmund Burke", "Napoleon"], "correct": 1, "explain": "Lovgivende, utøvende og dømmende makt." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken ideologi vektlegger fri handel og begrenset stat?", "options": ["Liberalismen", "Fascismen", "Kommunismen", "Konservatismen"], "correct": 0, "explain": "Individets frihet står sentralt." },
+      { "id": "m07", "type": "flervalg", "text": "Hva ble resultatet av den russiske revolusjonen?", "options": ["Et flerpartidemokrati", "Et konstitusjonelt monarki", "Et ettpartistyre og senere diktatur", "En liberal stat"], "correct": 2, "explain": "Stalins diktatur fulgte." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

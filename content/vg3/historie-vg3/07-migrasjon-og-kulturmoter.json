@@ -1,0 +1,82 @@
+{
+  "id": "migrasjon-og-kulturmoter",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Migrasjon og kulturmøter",
+  "intro": "Årsaker til at mennesker har migrert – push- og pull-faktorer, emigrasjonen fra Norge til Amerika, arbeidsinnvandring og flyktninger – og kulturmøtene sett fra perspektivene til dem som kom, og dem som tok imot.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Mennesker har alltid flyttet\n\n**Migrasjon** betyr at mennesker flytter fra ett sted til et annet for å bosette seg. Å flytte **ut** av et land kalles **emigrasjon**, å flytte **inn** kalles **immigrasjon**. Migrasjon har skjedd gjennom hele historien – fra de første menneskene som vandret ut av Afrika, til dagens flyktninger.\n\n## Årsaker\n\n**Push-faktorer** skyver folk **bort**:\n\n- fattigdom og **arbeidsløshet**\n- **krig**, forfølgelse og undertrykkelse\n- **naturkatastrofer** og klimaendringer\n- **befolkningsvekst** og mangel på jord\n\n**Pull-faktorer** trekker folk **til** et nytt sted:\n\n- **arbeid** og høyere lønn\n- **frihet** og sikkerhet\n- **familie** og nettverk som har reist før\n- **utdanning**\n\nMigrasjonen kan være **frivillig** eller **tvungen**. **Slavehandelen** over Atlanterhavet tvang millioner av afrikanere til Amerika.\n\n## Utvandringen fra Norge\n\nMellom **1825** og **1930** utvandret rundt **800 000** nordmenn, de fleste til **USA**. Det var en av de største utvandringene i Europa i forhold til folketallet.\n\n- **Push**: befolkningsvekst, lite jord, fattigdom og religiøs uenighet\n- **Pull**: billig jord i **Midtvesten**, jobber og brev fra slektninger – «**Amerika-brev**»\n\nUtvandrerne møtte et **nytt samfunn**, bygde egne kirker og aviser og ble etter hvert en del av det amerikanske samfunnet. Samtidig tok bosetterne jord som tilhørte **urfolk**.\n\n## Innvandring til Norge\n\n- På **1960- og 70-tallet** kom **arbeidsinnvandrere** fra blant annet **Pakistan**, **Tyrkia** og **Marokko**. I **1975** ble det innført **innvandringsstopp** for arbeidsinnvandrere, men familiegjenforening fortsatte.\n- **Flyktninger** har kommet fra blant annet **Vietnam**, **Chile**, **Balkan**, **Somalia**, **Syria** og **Ukraina**.\n- Etter at nye land ble med i **EU** i 2004, kom mange **arbeidsinnvandrere** fra **Polen** og **Litauen** gjennom **EØS-avtalen**.\n\nI dag har en stor del av befolkningen i Norge **innvandrerbakgrunn**.\n\n## Kulturmøter fra ulike perspektiver\n\nKulturmøter kan gi både **berikelse** og **konflikt**.\n\n**Fra perspektivet til dem som kom**:\n\n- savn etter **hjemlandet**, språkproblemer og **diskriminering**\n- ønsket om å bevare egen **kultur** og samtidig **delta** i det nye samfunnet\n- nye **muligheter** for utdanning og arbeid\n\n**Fra perspektivet til dem som tok imot**:\n\n- behov for **arbeidskraft** og nye impulser\n- noen opplevde det nye som en **trussel** mot egen kultur eller egne jobber\n- debatt om **integrering**, **assimilering** og **mangfold**\n\n**Barna** av innvandrere – andre generasjon – lever ofte med **flere kulturer** samtidig og utvikler nye **identiteter**.\n\n## Begreper\n\n- **Assimilering**: at minoriteten skal **tilpasse** seg helt og gi opp egen kultur\n- **Integrering**: at minoriteten **deltar** i samfunnet og samtidig beholder deler av sin kultur\n- **Segregering**: at gruppene lever **atskilt**\n\n## Refleksjon\n\nNorge har vært både et **utvandringsland** og et **innvandringsland**. Historien om nordmenn i Amerika kan gi perspektiv på hvordan det oppleves å være **ny** i et annet land.",
+  "flashcards": [
+    { "term": "Migrasjon", "def": "At mennesker flytter for å bosette seg et annet sted." },
+    { "term": "Emigrasjon", "def": "Utvandring fra et land." },
+    { "term": "Immigrasjon", "def": "Innvandring til et land." },
+    { "term": "Push-faktorer", "def": "Forhold som skyver folk bort, som fattigdom og krig." },
+    { "term": "Pull-faktorer", "def": "Forhold som trekker folk til et nytt sted, som arbeid og frihet." },
+    { "term": "Tvungen migrasjon", "def": "Flytting folk ikke har valgt selv, som slavehandelen." },
+    { "term": "Utvandringen til Amerika", "def": "Rundt 800 000 nordmenn utvandret mellom 1825 og 1930." },
+    { "term": "Amerika-brev", "def": "Brev fra utvandrere som lokket flere til å reise." },
+    { "term": "Arbeidsinnvandring", "def": "Innvandring for å ta arbeid." },
+    { "term": "Innvandringsstoppen 1975", "def": "Stans i arbeidsinnvandring til Norge." },
+    { "term": "Flyktning", "def": "Person som har flyktet fra krig eller forfølgelse." },
+    { "term": "Assimilering", "def": "Minoriteten skal gi opp egen kultur og tilpasse seg helt." },
+    { "term": "Integrering", "def": "Minoriteten deltar i samfunnet og beholder deler av sin kultur." },
+    { "term": "Segregering", "def": "Grupper lever atskilt." },
+    { "term": "Andre generasjon", "def": "Barn av innvandrere, født i det nye landet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en push-faktor?", "options": ["Høy lønn i et annet land", "Fattigdom og krig i hjemlandet", "Familie som har reist før", "Billig jord i Amerika"], "correct": 1, "explain": "Den skyver folk bort." },
+    { "id": "q02", "text": "Hvor mange nordmenn utvandret til Amerika mellom 1825 og 1930?", "options": ["Rundt 800 000", "Rundt 8000", "Rundt 80 000", "Rundt 8 millioner"], "correct": 0, "explain": "En av de største utvandringene i Europa i forhold til folketallet." },
+    { "id": "q03", "text": "Hva var Amerika-brev?", "options": ["Offisielle dokumenter", "Reklame fra staten", "Brev fra utvandrere som lokket flere til å reise", "Skattebrev"], "correct": 2, "explain": "En pull-faktor." },
+    { "id": "q04", "text": "Hva skjedde med arbeidsinnvandringen til Norge i 1975?", "options": ["Den ble doblet", "Den ble fri for alle", "Den startet", "Det ble innført innvandringsstopp"], "correct": 3, "explain": "Familiegjenforening fortsatte." },
+    { "id": "q05", "text": "Hva er integrering?", "options": ["At minoriteten deltar og beholder deler av sin kultur", "At minoriteten gir opp sin kultur helt", "At gruppene lever atskilt", "At alle flytter ut"], "correct": 0, "explain": "Skiller seg fra assimilering." },
+    { "id": "q06", "text": "Hva var slavehandelen over Atlanterhavet et eksempel på?", "options": ["Frivillig migrasjon", "Tvungen migrasjon", "Arbeidsinnvandring", "Turisme"], "correct": 1, "explain": "Millioner ble tvunget." },
+    { "id": "q07", "text": "Hvorfor kom mange arbeidsinnvandrere fra Polen etter 2004?", "options": ["På grunn av innvandringsstoppen", "På grunn av krig i Polen", "Fordi nye land ble med i EU og EØS-reglene ga fri bevegelse", "Fordi Norge ble med i EU"], "correct": 2, "explain": "Fri flyt av arbeidskraft." },
+    { "id": "q08", "text": "Hva tok de norske bosetterne i Amerika som tilhørte andre?", "options": ["Fabrikker", "Skip", "Byer", "Jord som tilhørte urfolk"], "correct": 3, "explain": "Et annet perspektiv på utvandringen." },
+    { "id": "q09", "text": "Hva er assimilering?", "options": ["At minoriteten skal gi opp egen kultur og tilpasse seg helt", "At minoriteten beholder alt", "At gruppene lever atskilt", "At majoriteten flytter"], "correct": 0, "explain": "Fornorskingspolitikken er et eksempel." },
+    { "id": "q10", "text": "Hva kan kulturmøter gi?", "options": ["Bare konflikt", "Både berikelse og konflikt", "Bare berikelse", "Ingen endring"], "correct": 1, "explain": "Avhenger av perspektiv og situasjon." }
+  ],
+  "mindmap": {
+    "label": "Migrasjon og kulturmøter",
+    "children": [
+      { "label": "Årsaker", "children": [
+        { "label": "Push" },
+        { "label": "Pull" },
+        { "label": "Frivillig og tvungen" }
+      ] },
+      { "label": "Utvandring", "children": [
+        { "label": "800 000 til Amerika" },
+        { "label": "Amerika-brev" },
+        { "label": "Urfolkenes jord" }
+      ] },
+      { "label": "Innvandring", "children": [
+        { "label": "Arbeidsinnvandring" },
+        { "label": "Flyktninger" },
+        { "label": "EØS" }
+      ] },
+      { "label": "Perspektiver", "children": [
+        { "label": "De som kom" },
+        { "label": "De som tok imot" },
+        { "label": "Andre generasjon" }
+      ] },
+      { "label": "Begreper", "children": [
+        { "label": "Assimilering" },
+        { "label": "Integrering" },
+        { "label": "Segregering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge har vært både et utvandringsland og et innvandringsland.", "correct": true, "explain": "Først utvandring, senere innvandring." },
+      { "id": "m02", "type": "sant-usant", "text": "Migrasjon er et nytt fenomen.", "correct": false, "explain": "Mennesker har alltid flyttet." },
+      { "id": "m03", "type": "sant-usant", "text": "Norske utvandrere bygde egne kirker og aviser i Amerika.", "correct": true, "explain": "De bevarte deler av kulturen sin." },
+      { "id": "m04", "type": "sant-usant", "text": "Innvandringsstoppen i 1975 stanset også familiegjenforening.", "correct": false, "explain": "Familiegjenforening fortsatte." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket land kom mange arbeidsinnvandrere fra på 1970-tallet?", "options": ["Polen", "Pakistan", "Sverige", "USA"], "correct": 1, "explain": "Også Tyrkia og Marokko." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en pull-faktor?", "options": ["Jobber og høyere lønn", "Krig", "Fattigdom", "Naturkatastrofer"], "correct": 0, "explain": "Trekker folk til et nytt sted." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr segregering?", "options": ["At alle blander seg", "At minoriteten gir opp sin kultur", "At grupper lever atskilt", "At folk utvandrer"], "correct": 2, "explain": "Motsatsen til integrering." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "historisk-metode-og-framstillinger",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Historisk metode og ulike framstillinger",
+  "intro": "Hvordan du utforsker fortiden: problemstillinger, primær- og sekundærkilder, kildekritikk og slutninger – og hvordan du sammenligner ulike framstillinger av samme hendelse og forstår at de preges av opphavspersonens ståsted og kontekst.",
+  "kompetansemaal": [3, 5],
+  "sammendrag": "## Å utforske fortiden\n\nHistorikere arbeider **systematisk**:\n\n1. **Problemstilling**: Still et **åpent** og **avgrenset** spørsmål, for eksempel «Hvorfor utvandret så mange fra Vestlandet på 1880-tallet?»\n2. **Finn materiale**: kilder og faglitteratur.\n3. **Vurder** materialet kritisk.\n4. **Bruk** materialet til å trekke **slutninger**.\n5. **Presenter** resultatet – og vær ærlig om **usikkerhet**.\n\nEn god problemstilling spør gjerne **hvorfor**, **hvordan** eller **i hvilken grad**, ikke bare **hva**.\n\n## Kilder og framstillinger\n\n- **Primærkilder** er fra den tiden som undersøkes: brev, dagbøker, lover, fotografier, avisartikler, gjenstander og intervjuer med øyenvitner.\n- **Sekundærkilder** eller **framstillinger** er skrevet **senere** av noen som har studert kildene, for eksempel historiebøker og dokumentarer.\n\nKilder kan være **skriftlige**, **muntlige**, **visuelle** og **materielle**.\n\n## Kildekritikk\n\n- **Opphav**: Hvem laget kilden, når og hvor?\n- **Formål**: Hvorfor ble den laget, og for hvem?\n- **Nærhet**: Var opphavspersonen **til stede**, eller er det andrehåndsinformasjon?\n- **Tendens**: Har kilden en **interesse** i å framstille noe på en bestemt måte?\n- **Samsvar**: Stemmer den med **andre** kilder?\n\nEn kilde kan brukes som en **beretning** – hva den forteller om hendelsen – eller som en **levning** – hva den avslører om **tiden** og **menneskene** som laget den. En propagandaplakat er en dårlig beretning om virkeligheten, men en god levning om regimets **tenkemåte**.\n\n## Å trekke slutninger\n\nEn god slutning er **begrunnet** i kildene og tar hensyn til **usikkerhet**. Bruk formuleringer som «kildene tyder på» eller «det er sannsynlig at». Vurder også **alternative** forklaringer.\n\n## Ulike framstillinger av samme hendelse\n\nSamme hendelse kan framstilles **svært ulikt**. Framstillingen preges av\n\n- **opphavspersonens ståsted**: nasjonalitet, politisk syn, kjønn, klasse og erfaringer\n- **konteksten**: når og hvor den ble laget, og hvilke **spørsmål** som var viktige da\n- **kildene** som var tilgjengelige\n- **formålet**: forskning, undervisning, underholdning eller politikk\n\n### Eksempel: Grunnloven av 1814\n\n- I **1800-tallets** nasjonale historieskrivning ble 1814 framstilt som en **heroisk** gjenfødelse av Norge.\n- Senere historikere har lagt mer vekt på **stormaktspolitikken** og **tilfeldighetene** rundt 1814.\n- Nyere framstillinger har også løftet fram at **jøder** var utestengt fra riket gjennom Grunnlovens paragraf 2, og at **kvinner** og mange menn ikke fikk stemmerett.\n\n### Eksempel: Columbus og Amerika\n\nI europeiske framstillinger ble **1492** lenge omtalt som «**oppdagelsen**» av Amerika. Fra **urfolkenes** perspektiv var det starten på **erobring**, sykdom og undertrykkelse.\n\n## Sammenligne framstillinger\n\nNår du sammenligner to framstillinger, kan du spørre:\n\n- Hvilke **fakta** er de enige om?\n- Hva **vektlegger** de ulikt, og hva **utelates**?\n- Hvilke **ord** og **bilder** brukes?\n- Hvordan kan **forskjellene** forklares ut fra ståsted og kontekst?\n\nAt framstillinger er ulike, betyr ikke at **alt** er like sant. Noen framstillinger bygger på **bedre** kilder og argumenter enn andre.",
+  "flashcards": [
+    { "term": "Problemstilling", "def": "Åpent og avgrenset spørsmål som styrer undersøkelsen." },
+    { "term": "Primærkilde", "def": "Kilde fra den tiden som undersøkes." },
+    { "term": "Sekundærkilde", "def": "Framstilling skrevet senere av noen som har studert kildene." },
+    { "term": "Kildekritikk", "def": "Vurdering av opphav, formål, nærhet, tendens og samsvar." },
+    { "term": "Tendens", "def": "At en kilde har interesse i å framstille noe på en bestemt måte." },
+    { "term": "Beretning", "def": "Kilden brukes for hva den forteller om en hendelse." },
+    { "term": "Levning", "def": "Kilden brukes for hva den avslører om tiden og menneskene som laget den." },
+    { "term": "Slutning", "def": "Konklusjon som er begrunnet i kildene." },
+    { "term": "Ståsted", "def": "Opphavspersonens bakgrunn, syn og erfaringer." },
+    { "term": "Kontekst", "def": "Tiden og situasjonen en framstilling ble laget i." },
+    { "term": "Nasjonal historieskrivning", "def": "Historie skrevet for å styrke nasjonal identitet." },
+    { "term": "Grunnlovens paragraf 2", "def": "Stengte jøder ute fra riket i 1814." },
+    { "term": "Materielle kilder", "def": "Gjenstander som bygninger, verktøy og klær." },
+    { "term": "Muntlige kilder", "def": "Intervjuer og fortellinger fra øyenvitner." },
+    { "term": "Alternativ forklaring", "def": "En annen mulig tolkning av kildene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken problemstilling er best?", "options": ["Hva er utvandring?", "Hvorfor utvandret så mange fra Vestlandet på 1880-tallet?", "Utvandring", "Når var 1880?"], "correct": 1, "explain": "Åpen og avgrenset." },
+    { "id": "q02", "text": "Hva er en primærkilde?", "options": ["En kilde fra den tiden som undersøkes", "En moderne historiebok", "En dokumentar", "Et leksikon"], "correct": 0, "explain": "For eksempel et brev." },
+    { "id": "q03", "text": "Hva betyr det å bruke en kilde som levning?", "options": ["Å se hva den forteller om en hendelse", "Å kaste den", "Å se hva den avslører om tiden og menneskene som laget den", "Å bare lese tittelen"], "correct": 2, "explain": "En propagandaplakat er en god levning." },
+    { "id": "q04", "text": "Hva er tendens i en kilde?", "options": ["At den er gammel", "At den er kort", "At den er muntlig", "At den har interesse i å framstille noe på en bestemt måte"], "correct": 3, "explain": "Viktig i kildekritikken." },
+    { "id": "q05", "text": "Hvordan ble 1814 framstilt i 1800-tallets nasjonale historieskrivning?", "options": ["Som en heroisk gjenfødelse av Norge", "Som en katastrofe", "Som uviktig", "Som en svensk seier"], "correct": 0, "explain": "Senere historikere har nyansert bildet." },
+    { "id": "q06", "text": "Hva ble 1492 lenge omtalt som i europeiske framstillinger?", "options": ["Erobringen", "Oppdagelsen av Amerika", "Starten på undertrykkelse", "En handelsreise"], "correct": 1, "explain": "Urfolkenes perspektiv er annerledes." },
+    { "id": "q07", "text": "Hva preger en historisk framstilling?", "options": ["Bare kildene", "Ingenting", "Opphavspersonens ståsted og kontekst", "Bare lengden"], "correct": 2, "explain": "Også formålet." },
+    { "id": "q08", "text": "Betyr ulike framstillinger at alt er like sant?", "options": ["Ja, alt er like sant", "Ja, historie er bare meninger", "Nei, historie kan ikke vites", "Nei, noen bygger på bedre kilder og argumenter"], "correct": 3, "explain": "Kvaliteten på begrunnelsen varierer." },
+    { "id": "q09", "text": "Hvordan bør du formulere en usikker slutning?", "options": ["«Kildene tyder på at …»", "«Det er helt sikkert at …»", "«Alle vet at …»", "«Det er umulig at …»"], "correct": 0, "explain": "Vær ærlig om usikkerhet." },
+    { "id": "q10", "text": "Hva ble jøder utsatt for i Grunnloven av 1814?", "options": ["De fikk stemmerett", "De ble utestengt fra riket", "De ble statsråder", "De fikk egne skoler"], "correct": 1, "explain": "Paragraf 2." }
+  ],
+  "mindmap": {
+    "label": "Metode og framstillinger",
+    "children": [
+      { "label": "Undersøkelse", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Materiale" },
+        { "label": "Slutninger" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Primær og sekundær" },
+        { "label": "Skriftlige, muntlige, materielle" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Opphav og formål" },
+        { "label": "Tendens og samsvar" },
+        { "label": "Beretning og levning" }
+      ] },
+      { "label": "Framstillinger", "children": [
+        { "label": "Ståsted" },
+        { "label": "Kontekst" },
+        { "label": "1814 og 1492" }
+      ] },
+      { "label": "Sammenligning", "children": [
+        { "label": "Enighet om fakta" },
+        { "label": "Ulik vektlegging" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Gjenstander kan være historiske kilder.", "correct": true, "explain": "Materielle kilder." },
+      { "id": "m02", "type": "sant-usant", "text": "En god problemstilling spør bare «hva».", "correct": false, "explain": "Hvorfor, hvordan og i hvilken grad gir mer." },
+      { "id": "m03", "type": "sant-usant", "text": "To framstillinger kan være enige om fakta, men vektlegge ulikt.", "correct": true, "explain": "Derfor må de sammenlignes." },
+      { "id": "m04", "type": "sant-usant", "text": "Sekundærkilder er alltid mindre verdifulle enn primærkilder.", "correct": false, "explain": "Gode framstillinger samler og tolker mange kilder." },
+      { "id": "m05", "type": "flervalg", "text": "Hva spør du om når du vurderer nærhet i en kilde?", "options": ["Hvor lang kilden er", "Om opphavspersonen var til stede", "Hvilken farge papiret har", "Hvem som eier kilden i dag"], "correct": 1, "explain": "Førstehånds eller andrehånds." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en sekundærkilde?", "options": ["En historiebok skrevet senere", "Et brev fra 1880", "En dagbok fra krigen", "En lov fra 1814"], "correct": 0, "explain": "En framstilling." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor kan to historikere framstille samme hendelse ulikt?", "options": ["Fordi den ene lyver alltid", "Fordi fortiden endrer seg", "Fordi de har ulikt ståsted, ulike kilder og ulik kontekst", "Fordi de har lest samme bok"], "correct": 2, "explain": "Framstillinger preges av mange faktorer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

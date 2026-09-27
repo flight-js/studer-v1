@@ -1,0 +1,81 @@
+{
+  "id": "personer-og-handlingsrom",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Historiske personer og handlingsrom",
+  "intro": "Hvordan du utforsker en historisk person og diskuterer tenkning, handlingsrom og valg i lys av samtiden – aktør og struktur, handlingsrom i konfliktsituasjoner som okkupasjonen, og hvordan valg fikk konsekvenser.",
+  "kompetansemaal": [4, 12],
+  "sammendrag": "## Aktør og struktur\n\nHistorien formes både av **enkeltmennesker** og av **strukturer**.\n\n- **Aktører** er personer eller grupper som **handler** og tar valg.\n- **Strukturer** er forhold som **begrenser** eller **muliggjør** handling: økonomi, lover, teknologi, religion, kjønnsroller, klasse og politiske systemer.\n\n**Handlingsrom** er de **mulighetene** en person faktisk hadde – det rommet der hen kunne velge. Handlingsrommet var ofte **mindre** for kvinner, fattige, minoriteter og slaver enn for rike menn med makt.\n\n## Å utforske en historisk person\n\nNår du undersøker en person, kan du spørre:\n\n1. **Bakgrunn**: familie, klasse, kjønn, utdanning og tro\n2. **Samtiden**: Hvilke ideer, konflikter og normer preget tiden?\n3. **Tenkning**: Hva mente personen, og hvor kom ideene fra?\n4. **Handlingsrom**: Hvilke muligheter og begrensninger hadde hen?\n5. **Valg**: Hva gjorde personen – og hva kunne hen gjort annerledes?\n6. **Konsekvenser**: Hva førte valgene til, på kort og lang sikt?\n7. **Ettermæle**: Hvordan har personen blitt framstilt senere – og hvorfor?\n\n## Eksempler\n\n**Elsa Laula Renberg** var en sørsamisk kvinne som tidlig på 1900-tallet organiserte samer og tok initiativ til det første samiske **landsmøtet** i Trondheim i **1917**. Handlingsrommet hennes var begrenset av både **fornorskingspolitikken** og tidens **kjønnsroller**, men hun utfordret dem.\n\n**Nelson Mandela** kjempet mot **apartheid** i Sør-Afrika, satt i fengsel i 27 år og ble landets første demokratisk valgte president i **1994**. Han valgte **forsoning** framfor hevn.\n\n## Handlingsrom i konfliktsituasjoner\n\nI kriger og konflikter blir valgene ekstra **vanskelige**, og konsekvensene kan være **liv eller død**. Under **okkupasjonen** av Norge 1940–1945 hadde folk ulike valg:\n\n- **Motstand**: sabotasje, illegale aviser, flyktninghjelp eller sivil ulydighet, som da mange **lærere** nektet å melde seg inn i nazistenes lærersamband i **1942**.\n- **Tilpasning**: de fleste levde videre og prøvde å klare seg i hverdagen.\n- **Samarbeid** eller **kollaborasjon**: noen meldte seg inn i **Nasjonal Samling** eller arbeidet for okkupantene – av overbevisning, for å tjene penger eller av frykt.\n\nMange befant seg i **gråsoner**. Å jobbe på et anlegg for tyskerne kunne handle om å **forsørge** familien.\n\nAndre eksempler er personer som **reddet jøder** under holocaust, **soldater** som nektet ordre, og sivile i dagens krigsområder.\n\n## Å vurdere valg\n\nNår vi vurderer valg i fortiden, må vi unngå å være **etterpåkloke**. Personene visste ikke hvordan det ville **gå**. Samtidig kan vi diskutere **ansvar**: Hadde de et reelt **valg**? Hvilke **verdier** styrte dem? Hva ble **konsekvensene** for andre?\n\n## Kontrafaktisk tenkning\n\n**Kontrafaktisk** tenkning spør «**hva om?**» – for eksempel hva som ville skjedd om en person hadde valgt annerledes. Slike spørsmål kan ikke besvares sikkert, men de hjelper oss å se hvor **viktige** ulike valg og tilfeldigheter var.",
+  "flashcards": [
+    { "term": "Aktør", "def": "Person eller gruppe som handler og tar valg." },
+    { "term": "Struktur", "def": "Forhold som begrenser eller muliggjør handling." },
+    { "term": "Handlingsrom", "def": "De mulighetene en person faktisk hadde." },
+    { "term": "Ettermæle", "def": "Hvordan en person blir husket og framstilt senere." },
+    { "term": "Elsa Laula Renberg", "def": "Sørsamisk forkjemper, tok initiativ til landsmøtet i 1917." },
+    { "term": "Nelson Mandela", "def": "Kjempet mot apartheid og ble Sør-Afrikas president i 1994." },
+    { "term": "Apartheid", "def": "Raseskillepolitikk i Sør-Afrika." },
+    { "term": "Motstand", "def": "Aktiv eller passiv kamp mot okkupanten." },
+    { "term": "Sivil ulydighet", "def": "Å bevisst bryte regler i protest, uten vold." },
+    { "term": "Lærerstriden 1942", "def": "Mange lærere nektet å melde seg inn i nazistenes lærersamband." },
+    { "term": "Tilpasning", "def": "Å leve videre og klare seg under okkupasjonen." },
+    { "term": "Kollaborasjon", "def": "Samarbeid med okkupanten." },
+    { "term": "Nasjonal Samling", "def": "Norsk nazistparti under ledelse av Vidkun Quisling." },
+    { "term": "Gråsone", "def": "Situasjon der det er uklart hva som er rett og galt." },
+    { "term": "Kontrafaktisk tenkning", "def": "Å spørre «hva om?» for å vurdere betydningen av valg." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er handlingsrom?", "options": ["Et rom i et museum", "De mulighetene en person faktisk hadde", "En type kilde", "En politisk ideologi"], "correct": 1, "explain": "Begrenset av strukturer." },
+    { "id": "q02", "text": "Hva er en struktur i historie?", "options": ["Forhold som begrenser eller muliggjør handling", "En bygning", "En enkeltperson", "En type krig"], "correct": 0, "explain": "For eksempel økonomi og lover." },
+    { "id": "q03", "text": "Hva tok Elsa Laula Renberg initiativ til?", "options": ["Sametinget i 1989", "Alta-aksjonen", "Det første samiske landsmøtet i 1917", "Grunnloven"], "correct": 2, "explain": "Holdt i Trondheim." },
+    { "id": "q04", "text": "Hva valgte Nelson Mandela etter at han ble løslatt?", "options": ["Hevn", "Eksil", "Krig", "Forsoning"], "correct": 3, "explain": "Han ble president i 1994." },
+    { "id": "q05", "text": "Hva var lærerstriden i 1942?", "options": ["At mange lærere nektet å melde seg inn i nazistenes lærersamband", "At lærerne streiket for høyere lønn", "At skolene ble stengt av regjeringen", "At lærerne meldte seg inn i NS"], "correct": 0, "explain": "Et eksempel på sivil ulydighet." },
+    { "id": "q06", "text": "Hva er kollaborasjon?", "options": ["Motstand", "Samarbeid med okkupanten", "Flukt", "Nøytralitet"], "correct": 1, "explain": "For eksempel medlemskap i NS." },
+    { "id": "q07", "text": "Hvorfor bør vi unngå å være etterpåkloke når vi vurderer valg?", "options": ["Fordi valg ikke har konsekvenser", "Fordi alle valgte riktig", "Fordi personene ikke visste hvordan det ville gå", "Fordi historien er ferdig"], "correct": 2, "explain": "Handlingene må forstås i samtiden." },
+    { "id": "q08", "text": "Hva er kontrafaktisk tenkning?", "options": ["Å sjekke fakta", "Å lese kilder", "Å skrive biografier", "Å spørre «hva om?»"], "correct": 3, "explain": "Viser betydningen av valg og tilfeldigheter." },
+    { "id": "q09", "text": "Hvilke grupper hadde ofte minst handlingsrom?", "options": ["Kvinner, fattige og minoriteter", "Rike menn med makt", "Konger", "Statsråder"], "correct": 0, "explain": "Strukturer begrenset valgene." },
+    { "id": "q10", "text": "Hva er en gråsone under okkupasjonen?", "options": ["Et område med tåke", "En situasjon der det er uklart hva som er rett og galt", "En militær sone", "Et fengsel"], "correct": 1, "explain": "For eksempel å jobbe for tyskerne for å forsørge familien." }
+  ],
+  "mindmap": {
+    "label": "Personer og handlingsrom",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Aktør" },
+        { "label": "Struktur" },
+        { "label": "Handlingsrom" }
+      ] },
+      { "label": "Undersøke en person", "children": [
+        { "label": "Bakgrunn og samtid" },
+        { "label": "Tenkning og valg" },
+        { "label": "Ettermæle" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Elsa Laula Renberg" },
+        { "label": "Nelson Mandela" }
+      ] },
+      { "label": "Okkupasjonen", "children": [
+        { "label": "Motstand" },
+        { "label": "Tilpasning" },
+        { "label": "Kollaborasjon og gråsoner" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Ikke etterpåklok" },
+        { "label": "Ansvar" },
+        { "label": "Kontrafaktisk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste nordmenn tilpasset seg og prøvde å klare seg under okkupasjonen.", "correct": true, "explain": "Motstand og kollaborasjon var mindretall." },
+      { "id": "m02", "type": "sant-usant", "text": "Strukturer spiller ingen rolle for enkeltmenneskers valg.", "correct": false, "explain": "De begrenser og muliggjør handling." },
+      { "id": "m03", "type": "sant-usant", "text": "En persons ettermæle kan endre seg over tid.", "correct": true, "explain": "Nye tider stiller nye spørsmål." },
+      { "id": "m04", "type": "sant-usant", "text": "Kontrafaktiske spørsmål kan besvares med full sikkerhet.", "correct": false, "explain": "De kan ikke besvares sikkert." },
+      { "id": "m05", "type": "flervalg", "text": "Hva var Nasjonal Samling?", "options": ["En motstandsgruppe", "Et norsk nazistparti", "En fagforening", "Et samisk parti"], "correct": 1, "explain": "Ledet av Vidkun Quisling." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på motstand under okkupasjonen?", "options": ["Illegale aviser", "Medlemskap i NS", "Å jobbe for okkupantene", "Å angi naboer"], "correct": 0, "explain": "Også sabotasje og flyktninghjelp." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor lenge satt Mandela i fengsel?", "options": ["2 år", "10 år", "27 år", "50 år"], "correct": 2, "explain": "Han ble løslatt i 1990." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

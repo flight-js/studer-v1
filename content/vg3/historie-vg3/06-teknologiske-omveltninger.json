@@ -1,0 +1,81 @@
+{
+  "id": "teknologiske-omveltninger",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Teknologiske omveltninger",
+  "intro": "Den industrielle revolusjonen, den andre industrielle revolusjonen med elektrisitet og olje, og den digitale revolusjonen – hvordan teknologiske omveltninger har endret arbeid, familieliv, byer og natur, og hvordan de har formet menneskers forventninger til framtiden.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Den industrielle revolusjonen\n\nDen **industrielle revolusjonen** startet i **Storbritannia** på **1700-tallet**. **Dampmaskinen**, forbedret av **James Watt**, gjorde det mulig å drive maskiner i **fabrikker**. **Tekstilindustrien** var først ute, og etter hvert kom **jernbaner** og **dampskip**.\n\nKonsekvenser:\n\n- Produksjonen flyttet fra **hjemmet** og **gården** til **fabrikken**.\n- **Urbanisering**: Folk flyttet til byene, der det oppstod trange og **usunne** arbeiderboliger.\n- **Arbeidsdagene** var lange, og **barnearbeid** var vanlig.\n- En ny **arbeiderklasse** og et nytt **borgerskap** vokste fram, og **arbeiderbevegelsen** kjempet for bedre kår.\n- **Tid** ble viktigere: Klokka og fabrikkfløyta styrte dagen.\n\nI Norge kom industrialiseringen noe senere, fra **midten av 1800-tallet**, med tekstilfabrikker, sagbruk og etter hvert **vannkraft**.\n\n## Den andre industrielle revolusjonen\n\nFra slutten av **1800-tallet** kom **elektrisitet**, **forbrenningsmotoren**, **kjemisk industri**, **telefon** og **radio**. I Norge ga **vannkraften** grunnlag for kraftkrevende industri som **Norsk Hydro**, grunnlagt i **1905**.\n\n**Samlebåndet**, kjent fra Fords bilfabrikk, gjorde **masseproduksjon** mulig. Biler og husholdningsmaskiner endret **hverdagen**. **Vaskemaskiner** og **kjøleskap** gjorde husarbeidet lettere og bidro til at flere **kvinner** kunne ta lønnsarbeid.\n\n## Den digitale revolusjonen\n\nFra andre halvdel av **1900-tallet** kom **datamaskinen**, **internett** og senere **smarttelefonen**. **Automatisering** og **digitalisering** har endret nesten alle yrker. I dag endrer **kunstig intelligens** måten vi arbeider, lærer og kommuniserer på.\n\nKonsekvenser:\n\n- Informasjon og kommunikasjon er blitt **raskere** og **globalt** tilgjengelig.\n- Nye **jobber** oppstår, mens andre forsvinner.\n- **Sosiale medier** har endret hvordan vi møtes, debatterer og får **nyheter**.\n- Nye utfordringer: **personvern**, **overvåking**, **desinformasjon** og **skjermtid**.\n\n## Natur og miljø\n\nTeknologien ga økt **velstand**, men også økt bruk av **kull**, **olje** og **gass**. **Forurensning** og **klimaendringer** er langsiktige følger av industrialiseringen. Samtidig kan ny teknologi – som **fornybar energi** – være en del av løsningen.\n\n## Forventninger til framtiden\n\nTeknologiske omveltninger har skapt både **optimisme** og **frykt**:\n\n- Mange trodde på **fremskrittet** – at teknologi ville gi et stadig bedre liv. Verdensutstillingene på 1800-tallet viste stolt fram nye oppfinnelser.\n- Andre fryktet **arbeidsløshet**. **Maskinstormerne** i England ødela maskiner som tok jobbene deres.\n- **Atombomben** i **1945** viste at teknologi også kunne **utslette** menneskeheten.\n- I dag diskuteres det om **kunstig intelligens** vil løse store problemer eller skape nye.\n\nForventningene til framtiden henger sammen med **erfaringene** fra fortiden – og ofte med hvem som **tjener** og hvem som **taper** på endringene.\n\n## Vurdering\n\nNår du vurderer en teknologisk omveltning, kan du spørre hvordan den endret **arbeid**, **familieliv**, **makt** og **natur** – og for **hvem**. Teknologi er aldri bare teknisk; den former **samfunnet**, og samfunnet former teknologien.",
+  "flashcards": [
+    { "term": "Den industrielle revolusjonen", "def": "Overgangen til fabrikkproduksjon med maskiner, startet i Storbritannia på 1700-tallet." },
+    { "term": "Dampmaskinen", "def": "Maskin som ble forbedret av James Watt og drev fabrikker og transport." },
+    { "term": "Urbanisering", "def": "At folk flytter fra landet til byene." },
+    { "term": "Arbeiderklassen", "def": "Lønnsarbeidere i fabrikker og industri." },
+    { "term": "Barnearbeid", "def": "Barn som arbeidet, vanlig i tidlig industri." },
+    { "term": "Den andre industrielle revolusjonen", "def": "Elektrisitet, forbrenningsmotor og kjemisk industri fra slutten av 1800-tallet." },
+    { "term": "Vannkraft", "def": "Grunnlaget for norsk kraftkrevende industri." },
+    { "term": "Norsk Hydro", "def": "Industriselskap grunnlagt i 1905 basert på vannkraft." },
+    { "term": "Samlebånd", "def": "Produksjonsmetode som gjorde masseproduksjon mulig." },
+    { "term": "Den digitale revolusjonen", "def": "Datamaskiner, internett og smarttelefoner." },
+    { "term": "Automatisering", "def": "Maskiner og programmer overtar arbeid mennesker gjorde." },
+    { "term": "Maskinstormere", "def": "Arbeidere i England som ødela maskiner som tok jobbene deres." },
+    { "term": "Fremskrittstro", "def": "Troen på at teknologi gir et stadig bedre liv." },
+    { "term": "Desinformasjon", "def": "Bevisst falsk informasjon som spres." },
+    { "term": "Verdensutstillingene", "def": "Utstillinger på 1800-tallet som viste fram nye oppfinnelser." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor startet den industrielle revolusjonen?", "options": ["I Norge", "I Storbritannia", "I USA", "I Kina"], "correct": 1, "explain": "På 1700-tallet." },
+    { "id": "q02", "text": "Hvilken bransje var først ute med fabrikker?", "options": ["Tekstilindustrien", "Bilindustrien", "Dataindustrien", "Oljeindustrien"], "correct": 0, "explain": "Dampdrevne vevstoler." },
+    { "id": "q03", "text": "Hva ga grunnlag for kraftkrevende industri i Norge?", "options": ["Kull", "Olje", "Vannkraft", "Atomkraft"], "correct": 2, "explain": "For eksempel Norsk Hydro." },
+    { "id": "q04", "text": "Hva gjorde samlebåndet mulig?", "options": ["Håndverk", "Hjemmeproduksjon", "Barnearbeid", "Masseproduksjon"], "correct": 3, "explain": "Kjent fra Fords bilfabrikk." },
+    { "id": "q05", "text": "Hvem var maskinstormerne?", "options": ["Arbeidere som ødela maskiner som tok jobbene deres", "Oppfinnere", "Fabrikkeiere", "Politikere"], "correct": 0, "explain": "Uttrykk for frykt for arbeidsløshet." },
+    { "id": "q06", "text": "Hvordan bidro husholdningsmaskiner til endring?", "options": ["De økte husarbeidet", "De gjorde at flere kvinner kunne ta lønnsarbeid", "De skapte arbeidsløshet i fabrikkene", "De forbød kvinner å jobbe"], "correct": 1, "explain": "Lettere husarbeid." },
+    { "id": "q07", "text": "Hva viste atombomben i 1945?", "options": ["At krig var over for alltid", "At teknologi alltid er positiv", "At teknologi også kunne utslette menneskeheten", "At fremskritt er umulig"], "correct": 2, "explain": "Endret forventningene til framtiden." },
+    { "id": "q08", "text": "Hva er en utfordring ved den digitale revolusjonen?", "options": ["For lite informasjon", "For langsom kommunikasjon", "Færre nyheter", "Personvern og desinformasjon"], "correct": 3, "explain": "Også overvåking og skjermtid." },
+    { "id": "q09", "text": "Hvilken langsiktig følge har industrialiseringen for miljøet?", "options": ["Klimaendringer", "Mindre forurensning", "Flere skoger", "Kaldere klima"], "correct": 0, "explain": "Økt bruk av kull, olje og gass." },
+    { "id": "q10", "text": "Hvilken oppfinnelse fikk James Watt æren for å forbedre?", "options": ["Telefonen", "Dampmaskinen", "Datamaskinen", "Bilen"], "correct": 1, "explain": "Viktig for den industrielle revolusjonen." }
+  ],
+  "mindmap": {
+    "label": "Teknologiske omveltninger",
+    "children": [
+      { "label": "Industriell revolusjon", "children": [
+        { "label": "Dampmaskin og fabrikk" },
+        { "label": "Urbanisering" },
+        { "label": "Arbeiderklassen" }
+      ] },
+      { "label": "Andre industrielle", "children": [
+        { "label": "Elektrisitet og motor" },
+        { "label": "Vannkraft i Norge" },
+        { "label": "Samlebånd" }
+      ] },
+      { "label": "Digital", "children": [
+        { "label": "Internett og mobil" },
+        { "label": "Automatisering" },
+        { "label": "Kunstig intelligens" }
+      ] },
+      { "label": "Følger", "children": [
+        { "label": "Arbeid og familie" },
+        { "label": "Miljø og klima" }
+      ] },
+      { "label": "Forventninger", "children": [
+        { "label": "Fremskrittstro" },
+        { "label": "Frykt og maskinstormere" },
+        { "label": "Atombomben" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I Norge kom industrialiseringen senere enn i Storbritannia.", "correct": true, "explain": "Fra midten av 1800-tallet." },
+      { "id": "m02", "type": "sant-usant", "text": "Teknologiske omveltninger har bare skapt optimisme.", "correct": false, "explain": "De har også skapt frykt." },
+      { "id": "m03", "type": "sant-usant", "text": "Klokka og fabrikkfløyta fikk større betydning i industrisamfunnet.", "correct": true, "explain": "Tid ble viktigere." },
+      { "id": "m04", "type": "sant-usant", "text": "Den digitale revolusjonen har ikke endret arbeidslivet.", "correct": false, "explain": "Nesten alle yrker er endret." },
+      { "id": "m05", "type": "flervalg", "text": "Når ble Norsk Hydro grunnlagt?", "options": ["1814", "1905", "1945", "1969"], "correct": 1, "explain": "Samme år som unionsoppløsningen." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kjennetegnet arbeidsforholdene i tidlig industri?", "options": ["Lange arbeidsdager og barnearbeid", "Korte dager og høy lønn", "Hjemmekontor", "Fire dagers arbeidsuke"], "correct": 0, "explain": "Arbeiderbevegelsen kjempet for bedre kår." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål bør du stille når du vurderer en teknologisk omveltning?", "options": ["Hvor stor maskinen var", "Hvem som oppfant den alene", "Hvem som tjente og tapte på endringene", "Hvilken farge den hadde"], "correct": 2, "explain": "Teknologi former samfunnet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

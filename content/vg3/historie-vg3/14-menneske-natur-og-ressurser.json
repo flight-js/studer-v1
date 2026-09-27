@@ -1,0 +1,82 @@
+{
+  "id": "menneske-natur-og-ressurser",
+  "fagId": "historie-vg3",
+  "trinnId": "vg3",
+  "name": "Mennesket, naturen og ressursene i historien",
+  "intro": "Hvordan mennesker har forholdt seg til naturen og forvaltet ressurser – fra fangst og jordbruk via industrialisering, hvalfangst og oljealder til naturvernbevegelsen og klimapolitikken – og hvordan historiske erfaringer kan brukes i samtaler om bærekraftige løsninger.",
+  "kompetansemaal": [17],
+  "sammendrag": "## Tidlige samfunn\n\n**Jegere og sankere** levde av det naturen ga, og måtte flytte etter dyr og årstider. Med **jordbruket** begynte mennesker å **forme** naturen: skog ble ryddet, dyr ble temmet, og landskapet endret seg.\n\nI mange samfunn fantes regler for **felles** bruk av **utmark**, **beiter** og **fiskeplasser**. **Samisk** reindrift og tradisjonell kunnskap bygger på erfaringer med å bruke naturen over lang tid uten å tømme den.\n\n## Utnyttelse av ressurser\n\n- **Fiske** har vært grunnlaget for bosetting langs kysten i tusen år, for eksempel **Lofotfisket**.\n- **Trelasthandelen** fra 1500-tallet ga store inntekter, men førte også til **hogst** av mye skog.\n- **Hvalfangst**: Norske hvalfangere var ledende på 1900-tallet. **Overbeskatning** gjorde at bestandene av blant annet **blåhval** ble dramatisk redusert.\n- **Silda**: Den norske vårgytende silda nesten **kollapset** på slutten av 1960-tallet på grunn av overfiske. Etter strenge **reguleringer** kom bestanden tilbake.\n\n## Industrialisering og forurensning\n\nIndustrialiseringen ga velstand, men også **forurensning** av luft, vann og jord. **Vannkraftutbygging** endret mange elver og fosser. På **1970-tallet** førte **sur nedbør** fra industri i andre land til at fisken døde i mange elver og innsjøer på **Sørlandet**.\n\n## Oljealderen\n\nFunnet av **Ekofisk** i **1969** gjorde Norge til en **oljenasjon**. Oljeinntektene har gitt stor **velstand**, men utvinning og bruk av olje og gass bidrar til **klimaendringer**. Utblåsningen på **Bravo**-plattformen i **1977** viste risikoen for **oljeutslipp**.\n\n## Naturvern og miljøbevegelse\n\n- **Naturvernloven** kom i **1970**.\n- Samme år protesterte aktivister mot utbyggingen av **Mardøla**-fossen – en av de første store miljøaksjonene i Norge.\n- Norge fikk et eget **Miljøverndepartement** i **1972**.\n- **Alta-saken** (1979–1981) handlet både om **natur** og **samiske rettigheter**.\n- **Brundtland-kommisjonen** la i **1987** fram rapporten **Vår felles framtid**, som definerte **bærekraftig utvikling**.\n\n## Internasjonalt samarbeid\n\nHistorien har eksempler på at samarbeid **virker**:\n\n- **Montrealprotokollen** fra **1987** forbød stoffer som ødela **ozonlaget**, og ozonlaget er i ferd med å **reparere** seg.\n- Internasjonale avtaler reduserte **sur nedbør** i Europa.\n\n**Klimaendringene** er vanskeligere fordi utslippene er knyttet til nesten all **økonomisk aktivitet**. **Parisavtalen** fra **2015** har som mål å begrense oppvarmingen til godt under **2 grader**.\n\n## Historiske perspektiver på bærekraft\n\nHistorien kan hjelpe oss i samtaler om bærekraft:\n\n- **Overbeskatning** av felles ressurser – hval, sild og skog – viser hva som skjer når ingen tar ansvar.\n- **Reguleringer** og **fredning** kan få ressurser til å komme tilbake.\n- **Internasjonale avtaler** kan løse globale problemer når landene deler kostnadene.\n- **Teknologi** kan både skape og løse miljøproblemer.\n- **Tradisjonell kunnskap**, som samisk naturforståelse, kan gi viktige perspektiver.\n\n## Drøfting\n\nDet er ofte **konflikt** mellom **arbeidsplasser**, **velstand** og **naturvern** – som i debattene om vindkraft, gruveavfall og oljeleting. Historien viser at slike konflikter ikke er **nye**, og at løsningene ofte krever **kompromisser**, **kunnskap** og **langsiktig** tenkning.",
+  "flashcards": [
+    { "term": "Jegere og sankere", "def": "Mennesker som levde av det naturen ga." },
+    { "term": "Utmark", "def": "Beite- og skogområder utenfor innmarka, ofte brukt i fellesskap." },
+    { "term": "Overbeskatning", "def": "At en ressurs brukes raskere enn den fornyes." },
+    { "term": "Hvalfangst", "def": "Norsk storindustri på 1900-tallet som reduserte hvalbestandene kraftig." },
+    { "term": "Sildekollapsen", "def": "Den norske vårgytende silda nesten forsvant på slutten av 1960-tallet." },
+    { "term": "Sur nedbør", "def": "Nedbør forurenset av industriutslipp som drepte fisk på Sørlandet." },
+    { "term": "Ekofisk", "def": "Oljefeltet som ble funnet i 1969." },
+    { "term": "Bravo-utblåsningen", "def": "Oljeutslipp i Nordsjøen i 1977." },
+    { "term": "Naturvernloven", "def": "Lov fra 1970 om vern av natur." },
+    { "term": "Mardøla-aksjonen", "def": "Miljøaksjon i 1970 mot utbygging av en foss." },
+    { "term": "Miljøverndepartementet", "def": "Opprettet i 1972." },
+    { "term": "Vår felles framtid", "def": "Brundtland-kommisjonens rapport fra 1987." },
+    { "term": "Montrealprotokollen", "def": "Avtale fra 1987 som forbød stoffer som ødela ozonlaget." },
+    { "term": "Fredning", "def": "Forbud mot å fange eller bruke en art eller et område." },
+    { "term": "Tradisjonell kunnskap", "def": "Erfaringsbasert kunnskap om naturen, for eksempel samisk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skjedde da mennesker begynte med jordbruk?", "options": ["De sluttet å påvirke naturen", "De begynte å forme naturen ved å rydde skog og temme dyr", "De ble jegere", "De flyttet oftere"], "correct": 1, "explain": "Landskapet endret seg." },
+    { "id": "q02", "text": "Hva skjedde med den norske vårgytende silda på slutten av 1960-tallet?", "options": ["Den nesten kollapset på grunn av overfiske", "Den ble dobbelt så stor", "Den flyttet til Afrika", "Den ble fredet for alltid"], "correct": 0, "explain": "Kom tilbake etter strenge reguleringer." },
+    { "id": "q03", "text": "Hva førte sur nedbør til på Sørlandet?", "options": ["Flere fisk", "Mer skog", "Fiskedød i elver og innsjøer", "Bedre avlinger"], "correct": 2, "explain": "Utslipp fra industri i andre land." },
+    { "id": "q04", "text": "Når ble Ekofisk funnet?", "options": ["1945", "1972", "1987", "1969"], "correct": 3, "explain": "Norge ble en oljenasjon." },
+    { "id": "q05", "text": "Hva forbød Montrealprotokollen?", "options": ["Stoffer som ødela ozonlaget", "Hvalfangst", "Oljeboring", "Kullkraft"], "correct": 0, "explain": "Et eksempel på vellykket samarbeid." },
+    { "id": "q06", "text": "Hva handlet Mardøla-aksjonen i 1970 om?", "options": ["Hvalfangst", "Utbygging av en foss", "Oljeboring", "Gruvedrift"], "correct": 1, "explain": "En av de første store miljøaksjonene." },
+    { "id": "q07", "text": "Hva definerte Brundtland-kommisjonen i 1987?", "options": ["Parlamentarismen", "Velferdsstaten", "Bærekraftig utvikling", "Oljefondet"], "correct": 2, "explain": "I rapporten Vår felles framtid." },
+    { "id": "q08", "text": "Hva lærer vi av overbeskatningen av hval, sild og skog?", "options": ["At ressurser aldri tar slutt", "At teknologi alltid løser problemer", "At reguleringer er unødvendige", "Hva som skjer når ingen tar ansvar for felles ressurser"], "correct": 3, "explain": "Allmenningens tragedie." },
+    { "id": "q09", "text": "Hvorfor er klimaendringene vanskeligere å løse enn ozonproblemet?", "options": ["Fordi utslippene er knyttet til nesten all økonomisk aktivitet", "Fordi ingen bryr seg", "Fordi klimaet ikke endrer seg", "Fordi det ikke finnes avtaler"], "correct": 0, "explain": "Omstillingen er mye større." },
+    { "id": "q10", "text": "Hva handlet Alta-saken om?", "options": ["Bare olje", "Både natur og samiske rettigheter", "Hvalfangst", "Sur nedbør"], "correct": 1, "explain": "1979–1981." }
+  ],
+  "mindmap": {
+    "label": "Mennesket og naturen",
+    "children": [
+      { "label": "Tidlige samfunn", "children": [
+        { "label": "Fangst og jordbruk" },
+        { "label": "Felles utmark" },
+        { "label": "Samisk kunnskap" }
+      ] },
+      { "label": "Ressursbruk", "children": [
+        { "label": "Fiske og trelast" },
+        { "label": "Hvalfangst" },
+        { "label": "Sildekollaps" }
+      ] },
+      { "label": "Industri og olje", "children": [
+        { "label": "Forurensning" },
+        { "label": "Sur nedbør" },
+        { "label": "Ekofisk og Bravo" }
+      ] },
+      { "label": "Vern", "children": [
+        { "label": "Naturvernloven 1970" },
+        { "label": "Mardøla og Alta" },
+        { "label": "Brundtland 1987" }
+      ] },
+      { "label": "Bærekraft", "children": [
+        { "label": "Montrealprotokollen" },
+        { "label": "Parisavtalen" },
+        { "label": "Lærdommer fra historien" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Ozonlaget er i ferd med å reparere seg etter Montrealprotokollen.", "correct": true, "explain": "Et eksempel på at samarbeid virker." },
+      { "id": "m02", "type": "sant-usant", "text": "Konflikter mellom arbeidsplasser og naturvern er et helt nytt fenomen.", "correct": false, "explain": "Historien viser at de ikke er nye." },
+      { "id": "m03", "type": "sant-usant", "text": "Reguleringer og fredning kan få ressurser til å komme tilbake.", "correct": true, "explain": "For eksempel silda." },
+      { "id": "m04", "type": "sant-usant", "text": "Norge fikk eget miljøverndepartement først i 2000.", "correct": false, "explain": "Det kom i 1972." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken hvalart ble dramatisk redusert av overbeskatning?", "options": ["Nise", "Blåhval", "Spekkhogger", "Vågehval"], "correct": 1, "explain": "Hvalfangsten på 1900-tallet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva viste Bravo-utblåsningen i 1977?", "options": ["Risikoen for oljeutslipp", "At oljen var tom", "At fisket økte", "At olje ikke forurenser"], "correct": 0, "explain": "En ulykke i Nordsjøen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket perspektiv kan tradisjonell samisk kunnskap gi?", "options": ["At naturen er uten verdi", "At ressurser er uendelige", "Erfaring med å bruke naturen over lang tid uten å tømme den", "At reindrift er ny"], "correct": 2, "explain": "Viktig i samtaler om bærekraft." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
