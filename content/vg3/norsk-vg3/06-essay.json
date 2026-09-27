@@ -1,0 +1,80 @@
+{
+  "id": "essay",
+  "fagId": "norsk-vg3",
+  "trinnId": "vg3",
+  "name": "Essay",
+  "intro": "Hva et essay er, sjangerens opphav hos Montaigne, kjennetegn som den personlige stemmen og den utforskende tankegangen, forskjellen fra fagartikkel og kåseri – og hvordan du skriver et essay som utforsker og reflekterer over innholdet i tekster.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er et essay?\n\nOrdet **essay** kommer fra fransk og betyr «**forsøk**». Et essay er en tekst der skriveren **utforsker** et tema, **undrer** seg og **prøver ut** tanker. Målet er ikke nødvendigvis å komme fram til ett svar, men å gi leseren **ny innsikt** og få hen til å **tenke selv**.\n\nSjangeren fikk navnet sitt fra franskmannen **Michel de Montaigne**, som i **1580** ga ut boka **Essais**. Der skrev han om alt fra vennskap og død til sine egne vaner.\n\n## Kjennetegn\n\n- **Personlig stemme**: Skriveren bruker gjerne «**jeg**» og viser sin egen **undring**.\n- **Utforskende**: Teksten stiller **spørsmål** og prøver ut **ulike perspektiver**.\n- **Bevegelse** mellom det **konkrete** og det **allmenne**: fra en egen opplevelse eller en tekst til store spørsmål om livet og samfunnet – og tilbake igjen.\n- **Assosiativ** tankegang – men med en **rød tråd**.\n- **Litterært språk**: bilder, sammenligninger, variasjon i setningslengde og gjerne **humor** og **ironi**.\n- **Åpen** eller **ettertenksom** avslutning.\n\n## Essay, fagartikkel og kåseri\n\n| | Essay | Fagartikkel | Kåseri |\n|---|---|---|---|\n| Mål | utforske og reflektere | greie ut og drøfte | underholde |\n| Stemme | personlig | saklig | personlig og humoristisk |\n| Struktur | fri, med rød tråd | fast og tydelig | fri |\n| Avslutning | ofte åpen | konklusjon | poeng |\n\n## Et essay om tekster\n\nI norskfaget skal du skrive essay som **utforsker** og **reflekterer over** innholdet i tekster. Det kan for eksempel være et essay om **frihet** med utgangspunkt i Ibsens **Et dukkehjem**, eller om **ensomhet** med utgangspunkt i et modernistisk dikt.\n\nSlik kan du jobbe:\n\n1. **Les** teksten eller tekstene nøye og noter hva som gjør inntrykk.\n2. Finn et **tema** eller et **spørsmål** som engasjerer deg, for eksempel «Hva vil det si å være fri?».\n3. **Koble** teksten til egne erfaringer, samfunnet i dag og gjerne andre tekster, filmer eller hendelser.\n4. **Utforsk** ulike sider – også de som går imot det du selv først mente.\n5. **Bruk** korte **sitater** fra teksten, og vis hvordan de får deg til å tenke videre.\n\n## Oppbygning\n\n- **Inngang**: Start gjerne **konkret** – med en situasjon, et bilde, et sitat eller et spørsmål – som vekker leserens nysgjerrighet.\n- **Hoveddel**: La tankene **bevege** seg. Hvert avsnitt kan åpne et nytt **perspektiv**, men sørg for at leseren kan følge tråden.\n- **Avslutning**: Knytt gjerne tilbake til inngangen, og vis hvordan tankene har **utviklet** seg. Avslutningen kan være et **åpent spørsmål**.\n\n## Tips\n\n- Lag en **tittel** som vekker nysgjerrighet.\n- Skriv **ærlig** – undringen skal være ekte.\n- Unngå å bare **referere** handlingen. Essayet skal handle om det teksten får deg til å **tenke**.\n- Oppgi **kilder** når du bruker andres tekster og tanker.\n- **Les høyt** for å høre om språket flyter.\n\nEt godt essay kjennetegnes av **refleksjon**, **nysgjerrighet** og **språklig bevissthet** – det viser at du **tenker**, ikke bare at du **vet**.",
+  "flashcards": [
+    { "term": "Essay", "def": "Utforskende og reflekterende tekst med personlig stemme." },
+    { "term": "Forsøk", "def": "Betydningen av ordet essay." },
+    { "term": "Michel de Montaigne", "def": "Franskmann som ga ut Essais i 1580." },
+    { "term": "Personlig stemme", "def": "Skriveren bruker «jeg» og viser egen undring." },
+    { "term": "Utforskende tekst", "def": "Tekst som prøver ut tanker og perspektiver." },
+    { "term": "Konkret og allment", "def": "Essayet beveger seg mellom egne erfaringer og store spørsmål." },
+    { "term": "Assosiativ tankegang", "def": "Tankene går fra det ene til det andre – med en rød tråd." },
+    { "term": "Rød tråd", "def": "Sammenhengen som leseren kan følge gjennom teksten." },
+    { "term": "Åpen avslutning", "def": "Teksten ender med refleksjon eller et spørsmål, ikke en fast konklusjon." },
+    { "term": "Fagartikkel", "def": "Saklig tekst som greier ut og drøfter med konklusjon." },
+    { "term": "Kåseri", "def": "Personlig og humoristisk tekst som skal underholde." },
+    { "term": "Inngang", "def": "Konkret start som vekker nysgjerrighet." },
+    { "term": "Referat", "def": "Gjenfortelling – bør ikke dominere et essay." },
+    { "term": "Refleksjon", "def": "Å tenke gjennom og vurdere noe fra flere sider." },
+    { "term": "Perspektiv", "def": "En måte å se et tema på." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr ordet essay?", "options": ["Fortelling", "Forsøk", "Artikkel", "Dikt"], "correct": 1, "explain": "Fra fransk." },
+    { "id": "q02", "text": "Hvem ga sjangeren navnet sitt?", "options": ["Michel de Montaigne", "Henrik Ibsen", "Georg Brandes", "Aristoteles"], "correct": 0, "explain": "Essais kom ut i 1580." },
+    { "id": "q03", "text": "Hva kjennetegner et essay?", "options": ["Saklig stil uten jeg", "Fast oppsett med metode og resultater", "Personlig stemme og utforskende tankegang", "Bare humor"], "correct": 2, "explain": "Skriveren undrer seg." },
+    { "id": "q04", "text": "Hvordan avsluttes et essay ofte?", "options": ["Med en kildeliste alene", "Med en fast konklusjon", "Med en reklame", "Åpent eller ettertenksomt"], "correct": 3, "explain": "Fagartikkelen har konklusjon." },
+    { "id": "q05", "text": "Hva er forskjellen på et essay og en fagartikkel?", "options": ["Essayet utforsker personlig, fagartikkelen greier ut saklig", "Det er ingen forskjell", "Fagartikkelen er alltid morsom", "Essayet har alltid tabeller"], "correct": 0, "explain": "Ulike formål og stemmer." },
+    { "id": "q06", "text": "Hva bør du unngå i et essay om en tekst?", "options": ["Å bruke sitater", "Å bare referere handlingen", "Å stille spørsmål", "Å bruke jeg"], "correct": 1, "explain": "Essayet skal handle om det teksten får deg til å tenke." },
+    { "id": "q07", "text": "Hvordan kan et essay starte?", "options": ["Med en innholdsfortegnelse", "Med en definisjon fra en ordbok alltid", "Konkret, med en situasjon, et bilde eller et spørsmål", "Med konklusjonen"], "correct": 2, "explain": "Vekk leserens nysgjerrighet." },
+    { "id": "q08", "text": "Hva betyr at essayet beveger seg mellom det konkrete og det allmenne?", "options": ["At det bare handler om detaljer", "At det bare handler om store spørsmål", "At det bytter sjanger", "At det går fra en opplevelse eller tekst til store spørsmål og tilbake"], "correct": 3, "explain": "Et typisk kjennetegn." },
+    { "id": "q09", "text": "Hva er en rød tråd?", "options": ["Sammenhengen leseren kan følge gjennom teksten", "En type sitat", "En tittel", "En kildehenvisning"], "correct": 0, "explain": "Viktig også i et assosiativt essay." },
+    { "id": "q10", "text": "Hvorfor bør du utforske sider som går imot det du selv mente?", "options": ["For å gjøre teksten lengre", "For å vise refleksjon og flere perspektiver", "Fordi det er et krav i kåseri", "For å slippe å konkludere"], "correct": 1, "explain": "Et essay prøver ut tanker." }
+  ],
+  "mindmap": {
+    "label": "Essay",
+    "children": [
+      { "label": "Opphav", "children": [
+        { "label": "Forsøk" },
+        { "label": "Montaigne 1580" }
+      ] },
+      { "label": "Kjennetegn", "children": [
+        { "label": "Personlig stemme" },
+        { "label": "Utforskende" },
+        { "label": "Konkret og allment" }
+      ] },
+      { "label": "Sammenligning", "children": [
+        { "label": "Fagartikkel" },
+        { "label": "Kåseri" }
+      ] },
+      { "label": "Essay om tekster", "children": [
+        { "label": "Finn et spørsmål" },
+        { "label": "Koble til samtiden" },
+        { "label": "Bruk sitater" }
+      ] },
+      { "label": "Oppbygning", "children": [
+        { "label": "Konkret inngang" },
+        { "label": "Tankebevegelse" },
+        { "label": "Åpen avslutning" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et essay kan bruke bilder, sammenligninger og ironi.", "correct": true, "explain": "Språket er ofte litterært." },
+      { "id": "m02", "type": "sant-usant", "text": "Et essay må alltid ende med ett klart svar.", "correct": false, "explain": "Avslutningen er ofte åpen." },
+      { "id": "m03", "type": "sant-usant", "text": "Også i et essay bør du oppgi kilder når du bruker andres tekster.", "correct": true, "explain": "Etterrettelig kildebruk." },
+      { "id": "m04", "type": "sant-usant", "text": "Et essay skal ikke ha noen sammenheng mellom avsnittene.", "correct": false, "explain": "Det trenger en rød tråd." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket tema kan passe for et essay om Et dukkehjem?", "options": ["Hvor mange sider stykket har", "Hva det vil si å være fri", "Når Ibsen ble født", "Hvor stykket ble trykket"], "correct": 1, "explain": "Et åpent spørsmål som kan utforskes." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken sjanger har som mål å underholde med humor?", "options": ["Kåseri", "Fagartikkel", "Essay", "Rapport"], "correct": 0, "explain": "Essayet utforsker og reflekterer." },
+      { "id": "m07", "type": "flervalg", "text": "Hva viser et godt essay?", "options": ["At du kan mange årstall", "At du har lest mange sider", "At du tenker, reflekterer og er språklig bevisst", "At du kan referere handlingen"], "correct": 2, "explain": "Refleksjon og nysgjerrighet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

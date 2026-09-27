@@ -1,0 +1,81 @@
+{
+  "id": "realismen",
+  "fagId": "norsk-vg3",
+  "trinnId": "vg3",
+  "name": "Realismen og det moderne gjennombruddet",
+  "intro": "Realismen i norsk litteratur fra 1850 til 1890: det moderne gjennombruddet, problemlitteraturen og de fire store – Ibsen, Bjørnson, Kielland og Lie – og Camilla Collett, med vekt på hvordan tekstene framstiller menneske og samfunn.",
+  "kompetansemaal": [1, 2],
+  "sammendrag": "## Bakgrunn\n\nPå midten av 1800-tallet endret Norge seg raskt. **Industrialisering**, **urbanisering**, **jernbane** og **dampskip** skapte et nytt samfunn. Samtidig vokste **naturvitenskapen**, og **Charles Darwin** utfordret gamle forestillinger om mennesket. Mange mente at litteraturen ikke lenger skulle **idealisere** som i romantikken, men skildre **virkeligheten** slik den var.\n\n## Det moderne gjennombruddet\n\nDen danske kritikeren **Georg Brandes** holdt en rekke forelesninger i **1871**. Han krevde at litteraturen skulle «**sette problemer under debatt**». Dette ble startskuddet for **det moderne gjennombruddet** i Norden.\n\nLitteraturen ble **problemlitteratur** som tok opp\n\n- **kvinners** stilling og **ekteskapet**\n- **dobbeltmoral** og **sedelighet**\n- **religion** og kirkens makt\n- **klasseforskjeller** og fattigdom\n\n## Kjennetegn ved realismen\n\n- **Hverdagslige** personer og miljøer, ofte i **borgerskapet**\n- **Objektiv** fortellemåte der forfatteren holder seg i bakgrunnen\n- **Troverdige** personer og **detaljerte** miljøskildringer\n- **Kritikk** av samfunnet og dets institusjoner\n- Språk som ligger nær **dagligtalen**\n- Personene formes av **arv** og **miljø**\n\n## Camilla Collett\n\n**Camilla Collett** regnes som en forløper. Romanen **Amtmandens Døttre** (1854–55) kritiserer at unge kvinner ble giftet bort uten å få følge sine egne følelser. Den regnes som Norges første **tendensroman** og en tidlig **kvinnesaksroman**.\n\n## De fire store\n\n**Henrik Ibsen** skrev samtidsdramaer som avslørte **løgnen** i det borgerlige livet. I **Et dukkehjem** (1879) forlater **Nora** mann og barn for å finne ut hvem hun selv er. Slutten skapte **skandale** i hele Europa. **Gengangere** (1881) handler om arvelig sykdom og dobbeltmoral, og **En folkefiende** (1882) om en lege som blir stemplet som samfunnets fiende fordi han forteller sannheten.\n\n**Bjørnstjerne Bjørnson** skrev bondefortellinger, dramaer og debattinnlegg. Skuespillet **En hanske** (1883) krever at menn skal leve like **seksuelt rent** før ekteskapet som kvinner. Bjørnson fikk **Nobelprisen** i 1903.\n\n**Alexander Kielland** skrev **ironiske** og elegante noveller og romaner fra **Stavanger**. I **Garman & Worse** (1880) kritiserer han **embetsstanden** og **kirken**.\n\n**Jonas Lie** skrev om familieliv og ekteskap, blant annet i **Familjen paa Gilje** (1883).\n\n## Menneske, natur og samfunn\n\nI realismen står **mennesket i samfunnet** i sentrum. Naturen spiller en mindre rolle enn i romantikken. Personene er **bundet** av sosiale **normer**, **penger**, **klasse** og **kjønn**, og konflikten ligger ofte mellom **individets** ønske om frihet og samfunnets **krav**.\n\n## Realismen og vår tid\n\nMange av spørsmålene er fortsatt aktuelle: **likestilling**, **ytringsfrihet**, **ærlighet** og forholdet mellom **individ** og **fellesskap**. Når du leser en realistisk tekst, kan du spørre hvordan konflikten ville sett ut i **dag** – og hva som har endret seg.",
+  "flashcards": [
+    { "term": "Realismen", "def": "Litterær retning som vil skildre virkeligheten slik den er." },
+    { "term": "Georg Brandes", "def": "Dansk kritiker som i 1871 krevde at litteraturen skulle sette problemer under debatt." },
+    { "term": "Det moderne gjennombruddet", "def": "Overgangen til realistisk problemlitteratur i Norden fra 1870-tallet." },
+    { "term": "Problemlitteratur", "def": "Litteratur som tar opp samfunnsproblemer til debatt." },
+    { "term": "Objektiv fortellemåte", "def": "Forfatteren holder seg i bakgrunnen og kommenterer lite." },
+    { "term": "Dobbeltmoral", "def": "Ulike moralske krav til ulike grupper, for eksempel kvinner og menn." },
+    { "term": "Camilla Collett", "def": "Forløper for realismen, skrev Amtmandens Døttre." },
+    { "term": "Amtmandens Døttre", "def": "Roman fra 1854–55 om kvinners rett til å velge ektefelle." },
+    { "term": "Et dukkehjem", "def": "Ibsens drama fra 1879 der Nora forlater mann og barn." },
+    { "term": "Gengangere", "def": "Ibsens drama fra 1881 om arvelig sykdom og dobbeltmoral." },
+    { "term": "En folkefiende", "def": "Ibsens drama fra 1882 om en mann som forteller en ubehagelig sannhet." },
+    { "term": "En hanske", "def": "Bjørnsons drama fra 1883 om lik seksualmoral for kvinner og menn." },
+    { "term": "Alexander Kielland", "def": "Ironisk realist fra Stavanger, skrev Garman & Worse." },
+    { "term": "Jonas Lie", "def": "Realist som skrev Familjen paa Gilje." },
+    { "term": "Tendensroman", "def": "Roman som vil påvirke leserens syn på en sak." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva krevde Georg Brandes i 1871?", "options": ["At litteraturen skulle idealisere naturen", "At litteraturen skulle sette problemer under debatt", "At litteraturen skulle skrives på nynorsk", "At litteraturen skulle handle om fortiden"], "correct": 1, "explain": "Startskuddet for det moderne gjennombruddet." },
+    { "id": "q02", "text": "Hva kjennetegner realismen?", "options": ["Hverdagslige personer og samfunnskritikk", "Drømmer og mystikk", "Helter fra sagatiden", "Bare naturskildringer"], "correct": 0, "explain": "Litteraturen skulle skildre virkeligheten." },
+    { "id": "q03", "text": "Hvem skrev Amtmandens Døttre?", "options": ["Henrik Ibsen", "Amalie Skram", "Camilla Collett", "Jonas Lie"], "correct": 2, "explain": "En forløper for realismen." },
+    { "id": "q04", "text": "Hva skjer på slutten av Et dukkehjem?", "options": ["Nora dør", "Helmer forlater Nora", "Familien flytter", "Nora forlater mann og barn"], "correct": 3, "explain": "Slutten skapte skandale i Europa." },
+    { "id": "q05", "text": "Hva handler Bjørnsons En hanske om?", "options": ["Lik seksualmoral for kvinner og menn", "Et slag i middelalderen", "Arvelig sykdom", "Industrialisering"], "correct": 0, "explain": "En del av sedelighetsdebatten." },
+    { "id": "q06", "text": "Hvilken forfatter skrev ironiske romaner fra Stavanger?", "options": ["Jonas Lie", "Alexander Kielland", "Henrik Ibsen", "Bjørnstjerne Bjørnson"], "correct": 1, "explain": "For eksempel Garman & Worse." },
+    { "id": "q07", "text": "Hva står i sentrum i realismen?", "options": ["Naturen", "Guds plan", "Mennesket i samfunnet", "Nasjonens storhet"], "correct": 2, "explain": "Naturen spiller en mindre rolle enn i romantikken." },
+    { "id": "q08", "text": "Hvilken samfunnsendring påvirket realismen?", "options": ["Reformasjonen", "Svartedauden", "Vikingtiden", "Industrialisering og ny naturvitenskap"], "correct": 3, "explain": "Darwin utfordret gamle forestillinger." },
+    { "id": "q09", "text": "Hva handler En folkefiende om?", "options": ["En lege som blir stemplet som fiende fordi han forteller sannheten", "En kvinne som forlater familien", "En bonde som arver en gård", "En prest som mister troen"], "correct": 0, "explain": "Om sannhet mot flertallets interesser." },
+    { "id": "q10", "text": "Hvilken norsk realist fikk Nobelprisen i 1903?", "options": ["Henrik Ibsen", "Bjørnstjerne Bjørnson", "Alexander Kielland", "Jonas Lie"], "correct": 1, "explain": "Bjørnson var også en aktiv samfunnsdebattant." }
+  ],
+  "mindmap": {
+    "label": "Realismen",
+    "children": [
+      { "label": "Bakgrunn", "children": [
+        { "label": "Industrialisering" },
+        { "label": "Naturvitenskap og Darwin" },
+        { "label": "Brandes 1871" }
+      ] },
+      { "label": "Kjennetegn", "children": [
+        { "label": "Hverdagsliv" },
+        { "label": "Objektiv forteller" },
+        { "label": "Samfunnskritikk" }
+      ] },
+      { "label": "Temaer", "children": [
+        { "label": "Kvinnesak og ekteskap" },
+        { "label": "Dobbeltmoral" },
+        { "label": "Religion og klasse" }
+      ] },
+      { "label": "Forfattere", "children": [
+        { "label": "Camilla Collett" },
+        { "label": "Ibsen og Bjørnson" },
+        { "label": "Kielland og Lie" }
+      ] },
+      { "label": "I dag", "children": [
+        { "label": "Likestilling" },
+        { "label": "Individ og fellesskap" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I realismen formes personene av arv og miljø.", "correct": true, "explain": "Påvirket av naturvitenskapen." },
+      { "id": "m02", "type": "sant-usant", "text": "Realismen idealiserte naturen og fortiden.", "correct": false, "explain": "Det gjorde romantikken." },
+      { "id": "m03", "type": "sant-usant", "text": "Amtmandens Døttre regnes som en tidlig kvinnesaksroman.", "correct": true, "explain": "Collett kritiserte arrangerte ekteskap." },
+      { "id": "m04", "type": "sant-usant", "text": "I realismen kommenterer forfatteren ofte handlingen direkte.", "correct": false, "explain": "Fortellemåten er objektiv." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem skrev Familjen paa Gilje?", "options": ["Kielland", "Jonas Lie", "Ibsen", "Collett"], "correct": 1, "explain": "Om familieliv og ekteskap." },
+      { "id": "m06", "type": "flervalg", "text": "Hva handler Gengangere om?", "options": ["Arvelig sykdom og dobbeltmoral", "En lege og et kurbad", "Kvinners stemmerett", "En reise til Amerika"], "correct": 0, "explain": "Ibsen, 1881." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles litteratur som tar opp samfunnsproblemer til debatt?", "options": ["Heltedikt", "Eventyr", "Problemlitteratur", "Nyromantikk"], "correct": 2, "explain": "Typisk for det moderne gjennombruddet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "fagartikkel-og-kildebruk",
+  "fagId": "norsk-vg3",
+  "trinnId": "vg3",
+  "name": "Fagartikkel, kildebruk og språklige formkrav",
+  "intro": "Hvordan du orienterer deg i faglitteratur, vurderer kilder kritisk og skriver en fagartikkel som greier ut og drøfter et norskfaglig emne – med etterrettelig kildebruk, presist og nyansert språk og riktig rettskriving på hovedmål og sidemål.",
+  "kompetansemaal": [9, 8],
+  "sammendrag": "## Hva er en fagartikkel?\n\nEn **fagartikkel** **greier ut** om og **drøfter** et faglig emne. Den skal være **saklig**, **strukturert** og bygge på **kilder**. Målet er å gi leseren **innsikt** og vise en **begrunnet** vurdering – ikke å underholde eller overtale.\n\n## Orientere seg i faglitteratur\n\n- Start bredt i **leksikon** og **fagbøker** for å få oversikt.\n- Bruk **bibliotekets** søketjenester og databaser for å finne bøker og artikler.\n- Les **innholdsfortegnelser**, **sammendrag** og **stikkordregistre** for å finne det som er relevant.\n- Noter **kilden** med en gang du finner noe nyttig.\n\n## Kildekritikk\n\nSpør alltid:\n\n- **Hvem** står bak? Har avsenderen **kompetanse**?\n- **Når** ble kilden laget? Er den **oppdatert**?\n- **Hvorfor** er den laget – for å informere, selge eller påvirke?\n- **Hvordan** er den dokumentert – med henvisninger?\n- Stemmer opplysningene med **andre** kilder?\n\n**Kunstig intelligens** kan gi svar som høres riktige ut, men inneholder **feil** eller **oppdiktede** kilder. Sjekk alltid opplysninger mot **pålitelige** kilder, og vær åpen om hvordan du har brukt slike verktøy.\n\n## Etterrettelig kildebruk\n\n- **Sitat**: nøyaktig gjengivelse av andres ord i **anførselstegn**, med henvisning.\n- **Parafrase**: andres tanker med **dine egne ord** – også med henvisning.\n- **Kildehenvisning** i teksten, for eksempel etter **APA-stilen**: (Etternavn, år, s. 12).\n- **Litteraturliste** til slutt med alle kildene.\n\nÅ bruke andres tekst eller tanker uten å oppgi kilden er **plagiat** og regnes som **fusk**.\n\n## Oppbygning\n\n1. **Tittel** som sier hva artikkelen handler om\n2. **Innledning** med bakgrunn og en tydelig **problemstilling**\n3. **Hoveddel** der du **greier ut** – forklarer begreper, fakta og sammenhenger – og **drøfter** – vurderer ulike **sider** og **argumenter**\n4. **Avslutning** med en **konklusjon** som svarer på problemstillingen\n5. **Litteraturliste**\n\nBruk **mellomtitler** og tydelige **avsnitt** med **temasetninger**.\n\n## Drøfting\n\nÅ drøfte betyr å **se en sak fra flere sider**. Bruk uttrykk som «på den ene siden … på den andre siden», «et motargument er» og «samlet sett». Vis at du **veier** argumentene mot hverandre før du konkluderer.\n\n## Presist og nyansert språk\n\n- Bruk **fagbegreper** riktig, for eksempel *motiv*, *tema*, *synsvinkel* og *epoke*.\n- **Nyanser** påstandene: «trolig», «kan tyde på», «i stor grad».\n- Unngå **muntlige** uttrykk og **overdrivelser**.\n- Varier **setningslengden**, men prioriter **klarhet**.\n\n## Formkrav på hovedmål og sidemål\n\nDu skal mestre **rettskrivingen** på både **bokmål** og **nynorsk**. Vanlige utfordringer:\n\n- **Nynorsk**: *eg*, *ikkje*, *kva*, *kven*, *kvifor*, *mykje*, *berre* og riktig **bøying** av substantiv og verb\n- **Bokmål**: *og* og *å*, **dobbel konsonant** og **særskriving** – *sjokoladekake*, ikke *sjokolade kake*\n- **Tegnsetting**: komma mellom helsetninger og etter leddsetninger først i setningen\n\nBruk **ordbok** – for eksempel Språkrådets og Universitetet i Bergens ordbøker – når du er usikker, og **les korrektur** til slutt.",
+  "flashcards": [
+    { "term": "Fagartikkel", "def": "Saklig tekst som greier ut om og drøfter et faglig emne." },
+    { "term": "Greie ut", "def": "Å forklare begreper, fakta og sammenhenger." },
+    { "term": "Drøfte", "def": "Å vurdere en sak fra flere sider før man konkluderer." },
+    { "term": "Problemstilling", "def": "Spørsmålet artikkelen skal svare på." },
+    { "term": "Kildekritikk", "def": "Vurdering av hvem, når, hvorfor og hvordan en kilde er laget." },
+    { "term": "Sitat", "def": "Nøyaktig gjengivelse av andres ord i anførselstegn." },
+    { "term": "Parafrase", "def": "Andres tanker gjengitt med egne ord." },
+    { "term": "Kildehenvisning", "def": "Opplysning i teksten om hvor noe er hentet fra." },
+    { "term": "APA-stilen", "def": "Vanlig henvisningsstil: (Etternavn, år, s. 12)." },
+    { "term": "Litteraturliste", "def": "Oversikt over alle kildene til slutt i teksten." },
+    { "term": "Plagiat", "def": "Å bruke andres tekst eller tanker uten å oppgi kilden." },
+    { "term": "Temasetning", "def": "Setning som forteller hva avsnittet handler om." },
+    { "term": "Nyansert språk", "def": "Språk som viser grader av sikkerhet, som «trolig»." },
+    { "term": "Særskriving", "def": "Feil der sammensatte ord deles, som «sjokolade kake»." },
+    { "term": "Sidemål", "def": "Den av bokmål og nynorsk som ikke er hovedmålet ditt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er formålet med en fagartikkel?", "options": ["Å underholde", "Å greie ut og drøfte et faglig emne", "Å selge et produkt", "Å fortelle en fiktiv historie"], "correct": 1, "explain": "Saklig og kildebasert." },
+    { "id": "q02", "text": "Hva er en parafrase?", "options": ["Andres tanker gjengitt med egne ord", "Et ordrett sitat", "En litteraturliste", "En overskrift"], "correct": 0, "explain": "Krever også kildehenvisning." },
+    { "id": "q03", "text": "Hva er plagiat?", "options": ["Å bruke mange kilder", "Å sitere riktig", "Å bruke andres tekst eller tanker uten å oppgi kilden", "Å skrive på sidemål"], "correct": 2, "explain": "Regnes som fusk." },
+    { "id": "q04", "text": "Hva betyr det å drøfte?", "options": ["Å referere", "Å gi én mening uten begrunnelse", "Å liste opp fakta", "Å se en sak fra flere sider før man konkluderer"], "correct": 3, "explain": "Veie argumenter mot hverandre." },
+    { "id": "q05", "text": "Hvorfor må du sjekke opplysninger fra kunstig intelligens?", "options": ["Fordi de kan inneholde feil eller oppdiktede kilder", "Fordi de alltid er riktige", "Fordi det er forbudt å lese dem", "Fordi de er for korte"], "correct": 0, "explain": "Sjekk mot pålitelige kilder." },
+    { "id": "q06", "text": "Hvilket ord er riktig nynorsk?", "options": ["Ikke", "Ikkje", "Hva", "Jeg"], "correct": 1, "explain": "Også eg, kva og kven." },
+    { "id": "q07", "text": "Hva er særskriving?", "options": ["Å skrive med stor forbokstav", "Å bruke komma", "At sammensatte ord deles feil", "Å bytte mellom bokmål og nynorsk"], "correct": 2, "explain": "Sjokoladekake, ikke sjokolade kake." },
+    { "id": "q08", "text": "Hvor står problemstillingen i en fagartikkel?", "options": ["I litteraturlisten", "I avslutningen", "Etter kildene", "I innledningen"], "correct": 3, "explain": "Avslutningen svarer på den." },
+    { "id": "q09", "text": "Hvilket uttrykk gjør en påstand mer nyansert?", "options": ["«Kan tyde på»", "«Alle vet at»", "«Det er helt sikkert»", "«Aldri noensinne»"], "correct": 0, "explain": "Viser grad av sikkerhet." },
+    { "id": "q10", "text": "Hvordan ser en henvisning etter APA-stilen ut i teksten?", "options": ["[1]", "(Etternavn, år, s. 12)", "Fotnote uten navn", "Bare tittelen"], "correct": 1, "explain": "Full referanse står i litteraturlisten." }
+  ],
+  "mindmap": {
+    "label": "Fagartikkel og kildebruk",
+    "children": [
+      { "label": "Fagartikkel", "children": [
+        { "label": "Greie ut" },
+        { "label": "Drøfte" },
+        { "label": "Konkludere" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Faglitteratur og bibliotek" },
+        { "label": "Kildekritikk" },
+        { "label": "KI med forsiktighet" }
+      ] },
+      { "label": "Etterrettelighet", "children": [
+        { "label": "Sitat og parafrase" },
+        { "label": "Henvisning og litteraturliste" },
+        { "label": "Plagiat" }
+      ] },
+      { "label": "Språk", "children": [
+        { "label": "Fagbegreper" },
+        { "label": "Nyanser" },
+        { "label": "Temasetninger" }
+      ] },
+      { "label": "Formkrav", "children": [
+        { "label": "Nynorsk" },
+        { "label": "Bokmål" },
+        { "label": "Tegnsetting" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Også en parafrase må ha kildehenvisning.", "correct": true, "explain": "Tankene er fortsatt andres." },
+      { "id": "m02", "type": "sant-usant", "text": "En fagartikkel bør bruke mye muntlig språk og overdrivelser.", "correct": false, "explain": "Språket skal være presist og saklig." },
+      { "id": "m03", "type": "sant-usant", "text": "Det er lurt å notere kilden med en gang du finner noe nyttig.", "correct": true, "explain": "Da slipper du å lete etterpå." },
+      { "id": "m04", "type": "sant-usant", "text": "«Kvifor» er bokmål.", "correct": false, "explain": "Det er nynorsk – bokmål har «hvorfor»." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket spørsmål hører til kildekritikk?", "options": ["Hvor lang er kilden?", "Hvem står bak, og hvorfor er kilden laget?", "Hvilken farge har nettsiden?", "Hvor mange bilder har den?"], "correct": 1, "explain": "Også når og hvordan." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gir tydelige avsnitt i en fagartikkel?", "options": ["Temasetninger og mellomtitler", "Lange setninger uten punktum", "Mange utropstegn", "Ingen overskrifter"], "correct": 0, "explain": "Gjør teksten lett å følge." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket uttrykk passer i en drøfting?", "options": ["«Alle er enige om»", "«Det er ingen tvil»", "«På den ene siden … på den andre siden»", "«Punktum finale»"], "correct": 2, "explain": "Viser flere sider." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

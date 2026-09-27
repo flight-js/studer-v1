@@ -1,0 +1,79 @@
+{
+  "id": "samtidslitteratur",
+  "fagId": "norsk-vg3",
+  "trinnId": "vg3",
+  "name": "Samtidslitteratur fra 1980 til i dag",
+  "intro": "Tendenser i norsk litteratur fra 1980 til i dag: postmodernisme, oppvekstromaner, Jon Fosses minimalisme, autofiksjon med Karl Ove Knausgård og Vigdis Hjorth, nye stemmer fra flerkulturelle miljøer, klimalitteratur og nye medier – lest i lys av egen samtid.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Mangfold i stedet for retninger\n\nEtter 1980 er det vanskeligere å dele litteraturen inn i klare **retninger**. Mange stiler lever **side om side**. Likevel kan vi se noen tydelige **tendenser**.\n\n## Postmodernisme\n\nPå **1980-tallet** kom **postmodernismen**. Den er skeptisk til at det finnes **én sannhet** og leker med **sjangre**, **fortellere** og **virkelighet**. Teksten kan kommentere seg selv – **metafiksjon**.\n\n**Jan Kjærstad** skrev **Homo falsus** (1984), der fortelleren leker med leserens forventninger. Senere skrev han en trilogi om TV-profilen **Jonas Wergeland**, som viser at et menneske kan fortelles på **mange måter**.\n\n## Fortellinger om oppvekst og historie\n\n- **Lars Saabye Christensen** skrev **Beatles** (1984) om fire gutter som vokser opp i Oslo på 1960- og 70-tallet, og **Halvbroren** (2001).\n- **Herbjørg Wassmo** skrev om jenta **Tora** i **Huset med den blinde glassveranda** (1981), om krigsbarn og overgrep, og senere **Dinas bok** (1989).\n- **Roy Jacobsen** skrev **De usynlige** (2013) om livet på en liten øy på Helgeland.\n\n## Jon Fosse\n\n**Jon Fosse** skriver på **nynorsk** – dramatikk, lyrikk og prosa. Stilen er **minimalistisk**: korte setninger, mange **gjentakelser** og **pauser**. Tekstene handler om **eksistensielle** spørsmål – kjærlighet, død, tro og det som ikke kan sies. Fosse fikk **Nobelprisen** i **2023**.\n\n## Autofiksjon\n\n**Autofiksjon** er litteratur der grensen mellom **virkelighet** og **fiksjon** blir utydelig. Forfatteren skriver om **sitt eget** liv, men i romanform.\n\n- **Karl Ove Knausgård** skrev romanverket **Min kamp** (2009–2011) i seks bind om sitt eget liv, familie og far. Bøkene skapte debatt om hva det er **lov** å skrive om **virkelige** personer.\n- **Vigdis Hjorth** skrev **Arv og miljø** (2016) om en familiekonflikt som lesere knyttet til hennes egen familie.\n\n## Nye stemmer\n\nNorge har blitt et mer **flerkulturelt** samfunn, og litteraturen speiler det.\n\n- **Maria Navarro Skaranger** skrev **Alle utlendinger har lukka gardiner** (2015) på et språk nær **ungdomsspråket** i Groruddalen.\n- **Zeshan Shakar** skrev **Tante Ulrikkes vei** (2017) om to unge menn i en drabantby i Oslo.\n\nTekstene tar opp **identitet**, **tilhørighet**, **fordommer** og **klasse**.\n\n## Klima og framtid\n\n**Maja Lunde** skrev **Bienes historie** (2015), som knytter sammen tre tider og spør hva som skjer hvis **biene** forsvinner. **Klimalitteraturen** handler om menneskets forhold til **naturen** og ansvaret for **framtiden**.\n\n## Nye medier og former\n\nLitteraturen møter leserne på nye måter: **lydbøker**, **strømmetjenester**, **podkaster**, **spoken word** og **korte dikt** i sosiale medier. **Sakprosa** har fått stor plass, og grensen mellom **sjangre** er flytende.\n\n## Å lese samtidslitteratur\n\nNår du leser en samtidstekst, kan du spørre:\n\n- Hvilke **samfunnsspørsmål** tar teksten opp?\n- Hvordan framstilles **mennesket** – som fritt, splittet eller formet av omgivelsene?\n- Hva betyr **formen** – språket, fortelleren og strukturen?\n- Hvordan kan teksten forstås i lys av **din egen samtid**?",
+  "flashcards": [
+    { "term": "Postmodernisme", "def": "Retning som er skeptisk til én sannhet og leker med sjangre og fortellere." },
+    { "term": "Metafiksjon", "def": "Tekst som kommenterer seg selv som tekst." },
+    { "term": "Jan Kjærstad", "def": "Postmodernistisk forfatter, skrev Homo falsus og Wergeland-trilogien." },
+    { "term": "Beatles", "def": "Lars Saabye Christensens oppvekstroman fra 1984." },
+    { "term": "Herbjørg Wassmo", "def": "Skrev Tora-bøkene og Dinas bok." },
+    { "term": "Jon Fosse", "def": "Nynorskforfatter med minimalistisk stil, Nobelprisen 2023." },
+    { "term": "Minimalisme", "def": "Stil med korte setninger, gjentakelser og pauser." },
+    { "term": "Autofiksjon", "def": "Litteratur der grensen mellom eget liv og fiksjon viskes ut." },
+    { "term": "Min kamp", "def": "Knausgårds romanverk i seks bind (2009–2011)." },
+    { "term": "Arv og miljø", "def": "Vigdis Hjorths roman fra 2016 om en familiekonflikt." },
+    { "term": "Alle utlendinger har lukka gardiner", "def": "Maria Navarro Skarangers roman fra 2015." },
+    { "term": "Tante Ulrikkes vei", "def": "Zeshan Shakars roman fra 2017 om unge menn i en drabantby." },
+    { "term": "Bienes historie", "def": "Maja Lundes klimaroman fra 2015." },
+    { "term": "Klimalitteratur", "def": "Litteratur om menneskets forhold til naturen og framtiden." },
+    { "term": "Spoken word", "def": "Poesi skrevet for å framføres muntlig." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva kjennetegner postmodernismen?", "options": ["Tro på én sannhet", "Lek med sjangre, fortellere og virkelighet", "Nøkterne skildringer av arbeidslivet", "Nasjonalromantikk"], "correct": 1, "explain": "Også metafiksjon." },
+    { "id": "q02", "text": "Hva er autofiksjon?", "options": ["Litteratur der grensen mellom eget liv og fiksjon viskes ut", "Science fiction", "Litteratur om biler", "Rene biografier uten fiksjon"], "correct": 0, "explain": "For eksempel Knausgårds Min kamp." },
+    { "id": "q03", "text": "Hvem fikk Nobelprisen i litteratur i 2023?", "options": ["Karl Ove Knausgård", "Vigdis Hjorth", "Jon Fosse", "Jan Kjærstad"], "correct": 2, "explain": "Han skriver på nynorsk." },
+    { "id": "q04", "text": "Hva kjennetegner Jon Fosses stil?", "options": ["Lange, kompliserte setninger", "Mye humor og ironi", "Mange fremmedord", "Korte setninger, gjentakelser og pauser"], "correct": 3, "explain": "Minimalistisk." },
+    { "id": "q05", "text": "Hvilken debatt skapte Min kamp?", "options": ["Om hva det er lov å skrive om virkelige personer", "Om nynorsk", "Om klima", "Om rim i lyrikken"], "correct": 0, "explain": "Knausgård skrev om egen familie." },
+    { "id": "q06", "text": "Hva tar Tante Ulrikkes vei opp?", "options": ["Livet i middelalderen", "Identitet og klasse blant unge i en drabantby", "Biene som forsvinner", "En konflikt på en øy"], "correct": 1, "explain": "Zeshan Shakar, 2017." },
+    { "id": "q07", "text": "Hvilken roman er et eksempel på klimalitteratur?", "options": ["Beatles", "Homo falsus", "Bienes historie", "Min kamp"], "correct": 2, "explain": "Maja Lunde, 2015." },
+    { "id": "q08", "text": "Hva er metafiksjon?", "options": ["En sann historie", "En type dikt", "En film", "En tekst som kommenterer seg selv som tekst"], "correct": 3, "explain": "Typisk for postmodernismen." },
+    { "id": "q09", "text": "Hvilket språk bruker Maria Navarro Skaranger i Alle utlendinger har lukka gardiner?", "options": ["Et språk nær ungdomsspråket i Groruddalen", "Gammelnorsk", "Høytidelig riksmål", "Engelsk"], "correct": 0, "explain": "Nær muntlig ungdomsspråk." },
+    { "id": "q10", "text": "Hvorfor er det vanskelig å dele samtidslitteraturen inn i retninger?", "options": ["Fordi det skrives lite", "Fordi mange stiler lever side om side", "Fordi all litteratur er lik", "Fordi bare lyrikk skrives"], "correct": 1, "explain": "Mangfold preger samtiden." }
+  ],
+  "mindmap": {
+    "label": "Samtidslitteratur",
+    "children": [
+      { "label": "Postmodernisme", "children": [
+        { "label": "Kjærstad" },
+        { "label": "Metafiksjon" }
+      ] },
+      { "label": "Oppvekst og historie", "children": [
+        { "label": "Saabye Christensen" },
+        { "label": "Wassmo" },
+        { "label": "Roy Jacobsen" }
+      ] },
+      { "label": "Fosse", "children": [
+        { "label": "Minimalisme" },
+        { "label": "Nobelprisen 2023" }
+      ] },
+      { "label": "Autofiksjon", "children": [
+        { "label": "Knausgård" },
+        { "label": "Vigdis Hjorth" }
+      ] },
+      { "label": "Nye stemmer og temaer", "children": [
+        { "label": "Flerkulturelle miljøer" },
+        { "label": "Klimalitteratur" },
+        { "label": "Nye medier" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sakprosa har fått stor plass i samtidslitteraturen.", "correct": true, "explain": "Grensen mellom sjangre er flytende." },
+      { "id": "m02", "type": "sant-usant", "text": "Min kamp består av tre bind.", "correct": false, "explain": "Den består av seks bind." },
+      { "id": "m03", "type": "sant-usant", "text": "Jon Fosse skriver både drama, lyrikk og prosa.", "correct": true, "explain": "Alt på nynorsk." },
+      { "id": "m04", "type": "sant-usant", "text": "Samtidslitteraturen tar ikke opp spørsmål om identitet og tilhørighet.", "correct": false, "explain": "Det er sentrale temaer." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem skrev Huset med den blinde glassveranda?", "options": ["Vigdis Hjorth", "Herbjørg Wassmo", "Maja Lunde", "Linn Ullmann"], "correct": 1, "explain": "Om jenta Tora." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken roman handler om fire gutter i Oslo på 1960- og 70-tallet?", "options": ["Beatles", "De usynlige", "Arv og miljø", "Dinas bok"], "correct": 0, "explain": "Lars Saabye Christensen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et godt spørsmål når du leser en samtidstekst?", "options": ["Hvor mange sider har den?", "Hva kostet den?", "Hvordan kan teksten forstås i lys av min egen samtid?", "Hvilken farge har omslaget?"], "correct": 2, "explain": "Knytt teksten til samtiden." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

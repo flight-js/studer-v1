@@ -1,0 +1,65 @@
+{
+  "id": "norsk-vg3",
+  "trinnId": "vg3",
+  "name": "Norsk",
+  "lareplan": {
+    "kode": "NOR01-08",
+    "url": "https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1114",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "analysere og tolke romaner, noveller, drama, lyrikk og sakprosa på bokmål og nynorsk fra 1850 til i dag og reflektere over tekstene i lys av den kulturhistoriske konteksten og egen samtid"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske og reflektere over hvordan tekster fra den realistiske og den modernistiske tradisjonen framstiller menneske, natur og samfunn"
+      },
+      {
+        "nr": 3,
+        "tekst": "skrive essay som utforsker og reflekterer over innhold i tekster"
+      },
+      {
+        "nr": 4,
+        "tekst": "skrive litterære tolkninger og sammenligninger"
+      },
+      {
+        "nr": 5,
+        "tekst": "analysere uttrykksformer i sammensatte tekster i ulike medier og vurdere samspillet mellom dem"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke fagkunnskap og presist fagspråk i utforskende samtaler, diskusjoner og muntlige presentasjoner om norskfaglige emner"
+      },
+      {
+        "nr": 7,
+        "tekst": "skrive retoriske analyser og tolkninger av sakprosatekster"
+      },
+      {
+        "nr": 8,
+        "tekst": "mestre språklige formkrav på hovedmål og sidemål og skrive tekster med etterrettelig kildebruk og et presist og nyansert språk"
+      },
+      {
+        "nr": 9,
+        "tekst": "orientere seg i faglitteratur, vurdere kilder kritisk og skrive fagartikler som greier ut om og drøfter norskfaglige emner"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for endringer i talespråk i Norge i dag og reflektere over sammenhenger mellom språk, kultur og identitet"
+      }
+    ]
+  },
+  "temaer": [
+    "realismen",
+    "naturalismen-og-nyromantikken",
+    "mellomkrigstiden",
+    "modernismen-etter-1945",
+    "samtidslitteratur",
+    "essay",
+    "litterar-tolkning-og-sammenligning",
+    "retorisk-analyse-av-sakprosa",
+    "sammensatte-tekster",
+    "fagartikkel-og-kildebruk",
+    "muntlig-fordypning",
+    "talesprak-i-endring"
+  ]
+}
