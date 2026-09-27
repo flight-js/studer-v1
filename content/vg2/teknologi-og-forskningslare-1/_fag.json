@@ -1,0 +1,58 @@
+{
+  "id": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Teknologi og forskningslære 1",
+  "lareplan": {
+    "kode": "TNF01-03",
+    "url": "https://www.udir.no/lk20/tnf01-03/kompetansemaal-og-vurdering/kv975",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke kravspesifikasjon og arbeidstegninger i arbeid med å utvikle og teste funksjonelle produkter"
+      },
+      {
+        "nr": 2,
+        "tekst": "utvikle og teste et produkt som inneholder en mikrokontroller, og vurdere muligheter for utvidelser og forbedringer"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske og bruke analoge og digitale signaler fra sensorer og beskrive sensorenes ulike bruksområder"
+      },
+      {
+        "nr": 4,
+        "tekst": "designe og lage et produkt som produserer empiriske data og presentere funn fra eget datamateriale"
+      },
+      {
+        "nr": 5,
+        "tekst": "analysere datamateriale fra forsøk og reflektere over og teste om usikkerheten kan reduseres"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke kvantitativ metode i forsøk og vurdere påliteligheten til resultatene"
+      },
+      {
+        "nr": 7,
+        "tekst": "beskrive historisk utvikling av og virkemåten til et teknologisk produkt, og drøfte samfunnsnytten av dette"
+      },
+      {
+        "nr": 8,
+        "tekst": "drøfte etiske problemstillinger knyttet til teknologisk utvikling"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske hvordan en virksomhet arbeider med teknologi, og gjøre rede for virksomheten i et bærekraftsperspektiv"
+      }
+    ]
+  },
+  "temaer": [
+    "kravspesifikasjon-og-arbeidstegninger",
+    "mikrokontrollere",
+    "sensorer-og-signaler",
+    "produkt-som-samler-data",
+    "dataanalyse-og-usikkerhet",
+    "kvantitativ-metode",
+    "teknologihistorie-mobiltelefonen",
+    "teknologi-og-etikk",
+    "virksomhet-og-barekraft"
+  ]
+}

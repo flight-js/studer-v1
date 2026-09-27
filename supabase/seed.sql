@@ -67,13 +67,13 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('spansk-vg2', 'vg2', 'Spansk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966', '[{"nr":1,"tekst":"lytte til og forstå tydelig tale om personlige og faglig relevante emner og aktuelle saker"},{"nr":2,"tekst":"samtale i en rekke dagligdagse situasjoner om kjente og faglig relevante emner"},{"nr":3,"tekst":"muntlig forklare faglig relevante emner, skildre opplevelser, hendelser og planer, og begrunne meninger, også spontant"},{"nr":4,"tekst":"lese og forstå ulike typer tekster, også autentiske, om personlige og faglig relevante emner og aktuelle saker"},{"nr":5,"tekst":"skrive ulike teksttyper om personlige og faglig relevante emner, og uttrykke og begrunne egne meninger, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke grunnleggende språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og gjøre rede for mangfold, samfunnsforhold og historiske hendelser i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og presentere kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gjøre rede for egne opplevelser"}]'::jsonb, 5),
   ('kinesisk-vg2', 'vg2', 'Kinesisk', 'FSP01-04', 'https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv965', '[{"nr":1,"tekst":"lytte til og forstå enkel og tydelig tale om personlige og dagligdagse emner"},{"nr":2,"tekst":"delta i enkle samtaler i dagligdagse situasjoner om aktiviteter og kjente emner"},{"nr":3,"tekst":"muntlig fortelle om dagligliv og opplevelser og uttrykke meninger, også spontant"},{"nr":4,"tekst":"lese og forstå tilpassede og enklere autentiske tekster om personlige og dagligdagse emner"},{"nr":5,"tekst":"skrive enkle tekster om dagligliv og opplevelser som forteller, beskriver og informerer, med og uten hjelpemidler"},{"nr":6,"tekst":"bruke enkle språklige strukturer, regler for uttale og rettskriving og språkets offisielle alfabet eller tegn for å kommunisere på en situasjonstilpasset måte"},{"nr":7,"tekst":"bruke relevante lærings- og kommunikasjonsstrategier, digitale ressurser og erfaringer fra tidligere språklæring i læringsprosessen"},{"nr":8,"tekst":"utforske og beskrive levemåter, tradisjoner og geografi i områder der språket snakkes, og se sammenhenger med egen bakgrunn"},{"nr":9,"tekst":"utforske og beskrive kunstneriske og kulturelle uttrykk fra områder der språket snakkes, og gi uttrykk for egne opplevelser"}]'::jsonb, 6),
   ('kjemi-1', 'vg2', 'Kjemi 1', 'KJE01-02', 'https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurdering/kv532', '[{"nr":1,"kort":"Kjemisk terminologi og navnsetting","tekst":"forstå og bruke kjemisk terminologi og regler for navnsetting i faglig kommunikasjon"},{"nr":2,"kort":"Forsøk, usikkerhet og feilkilder","tekst":"planlegge og gjennomføre forsøk, estimere usikkerhet og vurdere feilkilder, presentere resultater og argumentere for gyldigheten av resultater og konklusjoner"},{"nr":3,"kort":"Sikkerhetsdatablad og HMS","tekst":"bruke informasjon fra sikkerhetsdatablad til å gjøre vurderinger knyttet til helse, miljø og sikkerhet i praktisk arbeid"},{"nr":4,"kort":"Data, simuleringer og beregninger","tekst":"bruke data, simuleringer og beregninger i tolkninger og til å trekke konklusjoner"},{"nr":5,"kort":"Modeller, styrker og begrensninger","tekst":"bruke modeller til å forklare observasjoner og kjemiske fenomener, og argumentere for modellenes styrker og begrensinger"},{"nr":6,"kort":"Periodesystemet og periodiske trender","tekst":"gjøre rede for oppbygningen av periodesystemet, og bruke kjerneladning og elektronkonfigurasjon til å forklare periodiske trender"},{"nr":7,"kort":"Kjemisk binding, molekylgeometri og struktur","tekst":"gjøre rede for kjemisk binding som elektrostatiske krefter som virker mellom partikler, og bruke dette til å forklare molekylgeometri og organiske og uorganiske stoffers struktur, sammensetning og egenskaper"},{"nr":8,"kort":"Beregninger på reaksjoner og reaksjonstyper","tekst":"utforske og gjøre beregninger på kjemiske reaksjoner, og bruke observasjoner og teoretiske vurderinger til å identifisere reaksjonstype"},{"nr":9,"kort":"Konsentrasjon og ulike enheter","tekst":"gjøre beregninger med ulike enheter for konsentrasjon og bruke stoffkonsentrasjon i vurderinger av vann- og luftkvalitet"},{"nr":10,"kort":"Volumetrisk og gravimetrisk titreranalyse","tekst":"gjennomføre volumetrisk og gravimetrisk titreranalyse og drøfte bruk av titreranalyse"},{"nr":11,"kort":"Atomets oppbygning, spektre og spektroskopi","tekst":"gjøre rede for sammenhengen mellom atomets oppbygning og grunnstoffers absorbsjons- og emisjonsspektre og bruke spektroskopiske metoder i kvalitativ og kvantitativ analyse"},{"nr":12,"kort":"Entalpi og entalpiendringer","tekst":"gjøre rede for entalpi og bruke beregninger og forsøk til å utforske entalpiendringer i reaksjoner"},{"nr":13,"kort":"Kollisjonsteori, reaksjonsfart og likevekt","tekst":"gjøre rede for kollisjonsteori og utforske faktorer som påvirker reaksjonsfart og kjemisk likevekt"},{"nr":14,"kort":"Løselighet: ladning, polaritet og temperatur","tekst":"utforske løseligheten til stoffer, og gjøre rede for betydningen av ladning, polaritet og temperatur for løselighet"},{"nr":15,"kort":"Syre, base, protolyse og pH","tekst":"gjøre rede for begrepene syre, base, protolyse og pH, og utforske egenskapene til sterke og svake syrer og baser"},{"nr":16,"kort":"Grønn kjemi og bærekraft","tekst":"gjøre rede for prinsipper for grønn kjemi og drøfte hvordan bruk av prinsippene kan bidra til bærekraftig utvikling"},{"nr":17,"kort":"Kilder og kildekritikk","tekst":"presentere kjemifaglig innhold fra ulike kilder, kritisk vurdere kildene og bruke relevant teori til å drøfte innholdet"}]'::jsonb, 7),
-  ('fysikk-1', 'vg2', 'Fysikk 1', null, null, '[]'::jsonb, 8),
-  ('biologi-1', 'vg2', 'Biologi 1', null, null, '[]'::jsonb, 9),
-  ('geofag-1', 'vg2', 'Geofag 1', null, null, '[]'::jsonb, 10),
-  ('matematikk-r1', 'vg2', 'Matematikk R1', null, null, '[]'::jsonb, 11),
-  ('matematikk-s1', 'vg2', 'Matematikk S1', null, null, '[]'::jsonb, 12),
-  ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', null, null, '[]'::jsonb, 13),
-  ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', null, null, '[]'::jsonb, 14),
+  ('fysikk-1', 'vg2', 'Fysikk 1', 'FYS01-02', 'https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurdering/kv466', '[{"nr":1,"tekst":"planlegge og gjennomføre forsøk, analysere data og trekke konklusjoner"},{"nr":2,"tekst":"vurdere, bruke og lage modeller til å beskrive og forutsi fysiske fenomener"},{"nr":3,"tekst":"vurdere ulike påstander og argumenter om energi og klima i samfunnsaktuelle problemsstillinger"},{"nr":4,"tekst":"utforske, analysere og beskrive rettlinjet bevegelse"},{"nr":5,"tekst":"forstå sammenhenger mellom krefter, bevegelse og energi, og bruke dem til å gjøre beregninger"},{"nr":6,"tekst":"bruke numeriske metoder og programmering til å modellere og utforske bevegelse i situasjoner der akselerasjonen ikke er konstant"},{"nr":7,"tekst":"forstå og gjøre rede for konsekvenser av at bevegelsesmengde og energi er bevart, og bruke dette i beregninger"},{"nr":8,"tekst":"utforske hvordan energi kan gå fra en form til en annen, og vurdere energikvalitet og virkningsgrad i slike overganger"},{"nr":9,"tekst":"gjøre rede for sammenhengene mellom ladning, spenning og elektrisk energi og utforske effektomsetning i elektriske kretser"},{"nr":10,"tekst":"forstå begrepet temperatur og forklare hvordan tilført varme til et system fører til temperaturendring i dette systemet"},{"nr":11,"tekst":"utforske, sammenligne og beskrive stråling fra legemer med ulik temperatur og overflate"},{"nr":12,"tekst":"bruke modeller av strålingsbalansen til jorda til å gjøre beregninger, og vurdere hvordan endringer på jordoverflaten og i atmosfæren påvirker denne balansen"},{"nr":13,"tekst":"beskrive ulike atommodeller og drøfte hvordan observerbare effekter støtter eller utfordrer dem"},{"nr":14,"tekst":"forstå begrepet fusjon og vurdere hvordan ulike grunnstoff kan dannes når stjerner lever, kolliderer og dør"}]'::jsonb, 8),
+  ('biologi-1', 'vg2', 'Biologi 1', 'BIO01-02', 'https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv538', '[{"nr":1,"tekst":"planleggje og gjennomføre undersøkingar, samle, behandle og tolke data, og presentere resultat og funn"},{"nr":2,"tekst":"utforske korleis dei taksonomiske kriteria har endra seg i tråd med den teknologiske utviklinga, og samanlikne organismar med omsyn til fellestrekk og variasjon"},{"nr":3,"tekst":"utforske samanhengar mellom anatomi og fysiologi og gjere greie for prinsippa for livsprosessane i organismar"},{"nr":4,"tekst":"gjere greie for korleis utvalde reguleringsmekanismar styrer homeostase hos mennesket, og undersøkje korleis livsstil kan påverke disse mekanismane"},{"nr":5,"tekst":"utforske samanhengar mellom cellestrukturar og -funksjonar og gjere greie for korleis cellulære membranar dannar grunnlag for kommunikasjon mellom celler"},{"nr":6,"tekst":"samanlikne korleis ulike celler deler seg, og gjere greie for kvifor regulering av celledeling er viktig for vekst og reparasjon"},{"nr":7,"tekst":"gjere greie for korleis virale og mikrobielle sjukdommar oppstår, spreier seg og blir nedkjempa"},{"nr":8,"tekst":"drøfte korleis vaksinar førebyggjer og vernar mot sjukdom på individ- og populasjonsnivå"},{"nr":9,"tekst":"gjere greie for bruk av antibiotika og drøfte moglege konsekvensar"},{"nr":10,"tekst":"utforske abiotiske og biotiske faktorar i eit økosystem, drøfte samanhengar som forklarer det biologiske mangfaldet og reflekter over naturens eigenverdi"},{"nr":11,"tekst":"utforske kva konsekvensar endringar i klima og arealutnytting kan ha for det biologiske mangfaldet, og drøfte tiltak for ei meir berekraftig forvaltning"}]'::jsonb, 9),
+  ('geofag-1', 'vg2', 'Geofag 1', 'GFG01-03', 'https://www.udir.no/lk20/gfg01-03/kompetansemaal-og-vurdering/kv972', '[{"nr":1,"tekst":"gjøre rede for vekselvirkninger mellom de ulike jordsystemene og hvordan disse kan påvirke geosfæren og hydrosfæren"},{"nr":2,"tekst":"gjøre rede for bevegelser i jordas indre og hvilke konsekvenser de har for jordskorpa og jordoverflaten"},{"nr":3,"tekst":"utforske ulike mineralgrupper, bergartsgrupper og sedimenter, og tolke hvor de passer inn i bergartssyklusen"},{"nr":4,"tekst":"gjøre rede for ulike metoder som brukes for å datere bergarter, og bruke metoder for å identifisere relativ alder"},{"nr":5,"tekst":"utforske berggrunn, løsmasser og jordarter lokalt, og tolke observasjonene for å beskrive områdets geologiske historie og betydning for lokale ressurser"},{"nr":6,"tekst":"sammenligne ulike landformer og gjøre rede for hvordan de dannes og endres under påvirkning av jordsystemene og menneskelig aktivitet"},{"nr":7,"tekst":"gjøre rede for det hydrologiske kretsløpet med vekt på ferskvann og utforske og presentere hvordan det påvirkes av menneskelig aktivitet"},{"nr":8,"tekst":"vurdere hvordan ulike lokale og globale ferskvannsressurser kan utnyttes på en bærekraftig måte"},{"nr":9,"tekst":"gjøre rede for danning, kartlegging og utvinning av geologiske ressurser nasjonalt og globalt og drøfte konsekvenser av å utvinne og utnytte disse i et bærekraftsperspektiv"},{"nr":10,"tekst":"gjøre rede for ulike naturfarer knyttet til geosfæren og hydrosfæren, og vurdere hvordan mennesker kan forebygge og tilpasse seg disse farene"},{"nr":11,"tekst":"utforske en naturfare knyttet til geosfæren eller hydrosfæren i et bestemt geografisk område og vurdere risiko ved hjelp av modellering"},{"nr":12,"tekst":"gjennomføre geofaglig feltarbeid knyttet til geosfæren eller hydrosfæren, bearbeide og tolke de innsamlede dataene og presentere resultatene"}]'::jsonb, 10),
+  ('matematikk-r1', 'vg2', 'Matematikk R1', 'MAT03-02', 'https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv293', '[{"nr":1,"tekst":"planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til naturvitenskapelige temaer og forhold, og analysere og presentere funn"},{"nr":2,"tekst":"forstå begrepene vekstfart, grenseverdi, derivasjon og kontinuitet, og bruke disse for å løse praktiske problemer"},{"nr":3,"tekst":"bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier"},{"nr":4,"tekst":"bestemme den deriverte i et punkt geometrisk, algebraisk og ved numeriske metoder, og gi eksempler på funksjoner som ikke er deriverbare i gitte punkter"},{"nr":5,"tekst":"analysere og tolke ulike funksjoner ved å bruke derivasjon"},{"nr":6,"tekst":"anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett"},{"nr":7,"tekst":"utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger"},{"nr":8,"tekst":"modellere og analysere eksponentiell og logistisk vekst i reelle datasett"},{"nr":9,"tekst":"gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av diskontinuerlige funksjoner"},{"nr":10,"tekst":"utforske, analysere og derivere ulike funksjoner og deres omvendte funksjoner, og gjøre rede for egenskaper til og sammenhenger mellom slike funksjoner"},{"nr":11,"tekst":"anvende parameterframstillinger til linjer og bruke parameterframstillinger til å løse naturvitenskapelige problemer"},{"nr":12,"tekst":"forstå begrepet vektor og regneregler for vektorer i planet, og bruke vektorer til å beregne ulike størrelser i planet"}]'::jsonb, 11),
+  ('matematikk-s1', 'vg2', 'Matematikk S1', 'MAT04-02', 'https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv295', '[{"nr":1,"tekst":"planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til samfunnsøkonomiske temaer og forhold, og analysere og presentere funn"},{"nr":2,"tekst":"uttrykke egne resonnementer ved hjelp av matematiske begreper og symbolspråk"},{"nr":3,"tekst":"forstå begrepene gjennomsnittlig og momentan vekstfart, grenseverdi og derivasjon, og bruke disse for å løse praktiske problemer"},{"nr":4,"tekst":"bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier"},{"nr":5,"tekst":"anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett"},{"nr":6,"tekst":"anvende derivasjon til å analysere og forstå optimaliseringsproblemer"},{"nr":7,"tekst":"utforske og gjøre rede for egenskapene ved potenser og logaritmer, og gi eksempler på reelle anvendelser av disse egenskapene"},{"nr":8,"tekst":"utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger"},{"nr":9,"tekst":"gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av funksjoner som ikke er kontinuerlige"},{"nr":10,"tekst":"utforske og forstå kombinatoriske forsøk med ordnede og uordnede utvalg"},{"nr":11,"tekst":"bruke digitale verktøy til å simulere og utforske utfall i stokastiske forsøk, og forstå begrepet stokastiske variabler"},{"nr":12,"tekst":"analysere et problem der sannsynlighet og kombinatorikk inngår, og bruke ulike strategier i problemløsingen"},{"nr":13,"tekst":"utforske og tolke binomiske og hypergeometriske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene"}]'::jsonb, 12),
+  ('informasjonsteknologi-1', 'vg2', 'Informasjonsteknologi 1', 'INF01-03', 'https://www.udir.no/lk20/inf01-03/kompetansemaal-og-vurdering/kv977', '[{"nr":1,"tekst":"drøfte dagsaktuelle temaer knyttet til hvordan informasjonsteknologi påvirker individet og samfunnet"},{"nr":2,"tekst":"beskrive sentrale komponenter i datamaskiner og nettverk og gjøre rede for hvilken funksjon de har"},{"nr":3,"tekst":"gjøre rede for og vurdere hvordan ulike typer informasjon kan representeres digitalt og struktureres ved hjelp av ulike datalagringsmetoder"},{"nr":4,"tekst":"utvikle nettsider ved hjelp av markeringsspråk"},{"nr":5,"tekst":"lagre og hente fram data, presentere data på nettsider og reflektere over hvordan representasjonsform kan påvirke tolkningen"},{"nr":6,"tekst":"planlegge og lage nettsider som tar hensyn til brukervennlighet og universell utforming"},{"nr":7,"tekst":"utvikle prosedyreorienterte programmer med prosedyrer med og uten parametre og returverdier"},{"nr":8,"tekst":"beskrive ulike typer algoritmer og vurdere effektiviteten av egen programkode"},{"nr":9,"tekst":"utforske, strukturere og kommentere programkode"},{"nr":10,"tekst":"gjøre rede for gjeldende personvernregelverk og hvilke konsekvenser det har for utvikling av informasjonsteknologi"},{"nr":11,"tekst":"drøfte problemstillinger knyttet til innhenting, bruk og misbruk av data"},{"nr":12,"tekst":"bruke algoritmisk tenkning og programmering for å utforske en problemstilling og presentere resultatet"}]'::jsonb, 13),
+  ('teknologi-og-forskningslare-1', 'vg2', 'Teknologi og forskningslære 1', 'TNF01-03', 'https://www.udir.no/lk20/tnf01-03/kompetansemaal-og-vurdering/kv975', '[{"nr":1,"tekst":"bruke kravspesifikasjon og arbeidstegninger i arbeid med å utvikle og teste funksjonelle produkter"},{"nr":2,"tekst":"utvikle og teste et produkt som inneholder en mikrokontroller, og vurdere muligheter for utvidelser og forbedringer"},{"nr":3,"tekst":"utforske og bruke analoge og digitale signaler fra sensorer og beskrive sensorenes ulike bruksområder"},{"nr":4,"tekst":"designe og lage et produkt som produserer empiriske data og presentere funn fra eget datamateriale"},{"nr":5,"tekst":"analysere datamateriale fra forsøk og reflektere over og teste om usikkerheten kan reduseres"},{"nr":6,"tekst":"bruke kvantitativ metode i forsøk og vurdere påliteligheten til resultatene"},{"nr":7,"tekst":"beskrive historisk utvikling av og virkemåten til et teknologisk produkt, og drøfte samfunnsnytten av dette"},{"nr":8,"tekst":"drøfte etiske problemstillinger knyttet til teknologisk utvikling"},{"nr":9,"tekst":"utforske hvordan en virksomhet arbeider med teknologi, og gjøre rede for virksomheten i et bærekraftsperspektiv"}]'::jsonb, 14),
   ('sosiologi-og-sosialantropologi', 'vg2', 'Sosiologi og sosialantropologi', null, null, '[]'::jsonb, 15),
   ('historie-og-filosofi-1', 'vg2', 'Historie og filosofi 1', null, null, '[]'::jsonb, 16),
   ('politikk-og-menneskerettigheter', 'vg2', 'Politikk og menneskerettigheter', null, null, '[]'::jsonb, 17),
@@ -32593,6 +32593,7455 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('kjemi-1:gronn-kjemi', 'm08', 'sant-usant', 'En lav E-faktor betyr at prosessen gir mye avfall.', array['Sant', 'Usant']::text[], 1, 'Det er omvendt. E-faktoren er avfall delt på produkt, så en lav verdi betyr lite avfall per kilo produkt.', false, true, 19);
 insert into public.miniprover (tema_id, minutter) values
   ('kjemi-1:gronn-kjemi', 20)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'fysikk-1' and slug not in ('forsok-og-modeller', 'rettlinjet-bevegelse', 'krefter-og-newtons-lover', 'numeriske-metoder', 'energi-og-virkningsgrad', 'bevegelsesmengde', 'elektrisitet', 'varme-og-temperatur', 'straling-og-klima', 'atommodeller-og-fusjon');
+
+-- Fysikk 1: Forsøk, målinger og modeller i fysikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:forsok-og-modeller', 'fysikk-1', 'forsok-og-modeller', 'Forsøk, målinger og modeller i fysikk', 'Hvordan du planlegger og gjennomfører fysikkforsøk, håndterer måleusikkerhet, gjeldende siffer og feilkilder, analyserer data med grafer og regresjon, og vurderer, bruker og lager modeller av fysiske fenomener.', array[1, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:forsok-og-modeller', '## Fysikk er en eksperimentell vitenskap
+
+Fysikken bygger på **målinger**. En god forsøksrapport viser **hypotese**, **utstyr**, **framgangsmåte**, **resultater**, **analyse** og **konklusjon**.
+
+## Planlegge et forsøk
+
+- Hva er **problemstillingen**?
+- Hvilken **uavhengig variabel** endrer du, og hvilken **avhengig variabel** måler du?
+- Hvilke variabler må **holdes konstante**?
+- Hvor mange **målinger** trenger du for et pålitelig resultat?
+
+## Måleusikkerhet
+
+Ingen måling er helt nøyaktig. **Måleusikkerheten** angis ofte som ± : *l = (2,45 ± 0,01) m*.
+
+- **Tilfeldige feil** varierer fra måling til måling, for eksempel reaksjonstid ved bruk av stoppeklokke. De reduseres ved å ta **gjennomsnittet** av mange målinger.
+- **Systematiske feil** påvirker alle målinger likt, for eksempel en vekt som ikke er nullstilt. De oppdages ved å **kontrollere utstyret** og sammenligne med kjente verdier.
+- **Relativ usikkerhet** = usikkerhet / måleverdi, ofte i prosent.
+
+## Gjeldende siffer
+
+Svaret bør ikke ha flere **gjeldende siffer** enn den minst nøyaktige målingen. 2,4 m / 1,23 s = 1,951… m/s → **2,0 m/s** (to gjeldende siffer). Bruk **standardform** for svært store og små tall: 0,000 45 = 4,5 · 10⁻⁴.
+
+## SI-enheter
+
+Grunnenheter er blant annet **meter** (m), **kilogram** (kg), **sekund** (s), **ampere** (A) og **kelvin** (K). Avledede enheter som **newton** (N = kg·m/s²) og **joule** (J = N·m) er bygd av dem. Sjekk alltid at enhetene i en beregning **stemmer**.
+
+## Analysere data
+
+- Lag **tabell** og **graf** med den uavhengige variabelen på **x-aksen**.
+- Bruk **regresjon** i regneark eller GeoGebra for å finne sammenhengen. En **lineær** sammenheng gir en rett linje; **stigningstallet** har ofte en fysisk betydning, som en fart eller en konstant.
+- Noen ganger lønner det seg å **linearisere**: Hvis s = ½at², gir en graf av s mot t² en rett linje med stigningstall a/2.
+
+## Modeller
+
+En **modell** er en forenklet beskrivelse som kan **forklare** og **forutsi**. Eksempler er **modellen av fritt fall uten luftmotstand**, **atommodeller** og **klimamodeller**. En god modell
+
+- stemmer med **målinger**
+- kan gi **testbare forutsigelser**
+- har et tydelig **gyldighetsområde** – modellen for fritt fall uten luftmotstand passer for en stein, men ikke for en fallskjerm
+
+Når målinger ikke stemmer med modellen, må vi vurdere om det skyldes **feil i målingene** eller om modellen må **forbedres**.', '{"label":"Forsøk og modeller","children":[{"label":"Planlegging","children":[{"label":"Problemstilling"},{"label":"Variabler"},{"label":"Antall målinger"}]},{"label":"Usikkerhet","children":[{"label":"Tilfeldige feil"},{"label":"Systematiske feil"},{"label":"Relativ usikkerhet"}]},{"label":"Tall og enheter","children":[{"label":"Gjeldende siffer"},{"label":"SI-enheter"},{"label":"Standardform"}]},{"label":"Analyse","children":[{"label":"Tabell og graf"},{"label":"Regresjon"},{"label":"Linearisering"}]},{"label":"Modeller","children":[{"label":"Forklare og forutsi"},{"label":"Gyldighetsområde"},{"label":"Forbedre modellen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:forsok-og-modeller';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:forsok-og-modeller', 'Uavhengig variabel', 'Det du endrer i et forsøk.', 0),
+  ('fysikk-1:forsok-og-modeller', 'Avhengig variabel', 'Det du måler i et forsøk.', 1),
+  ('fysikk-1:forsok-og-modeller', 'Måleusikkerhet', 'Hvor nøyaktig en måling er, angitt med ±.', 2),
+  ('fysikk-1:forsok-og-modeller', 'Tilfeldig feil', 'Feil som varierer fra måling til måling – reduseres med gjennomsnitt.', 3),
+  ('fysikk-1:forsok-og-modeller', 'Systematisk feil', 'Feil som påvirker alle målinger likt, som en vekt som ikke er nullstilt.', 4),
+  ('fysikk-1:forsok-og-modeller', 'Relativ usikkerhet', 'Usikkerhet delt på måleverdien, ofte i prosent.', 5),
+  ('fysikk-1:forsok-og-modeller', 'Gjeldende siffer', 'Siffer som sier noe om nøyaktigheten i et tall.', 6),
+  ('fysikk-1:forsok-og-modeller', 'SI-grunnenheter', 'Blant annet meter, kilogram, sekund, ampere og kelvin.', 7),
+  ('fysikk-1:forsok-og-modeller', 'Newton (N)', 'kg·m/s²', 8),
+  ('fysikk-1:forsok-og-modeller', 'Joule (J)', 'N·m', 9),
+  ('fysikk-1:forsok-og-modeller', 'Regresjon', 'Å finne funksjonen som passer best til måledata.', 10),
+  ('fysikk-1:forsok-og-modeller', 'Linearisere', 'Å velge akser slik at sammenhengen blir en rett linje.', 11),
+  ('fysikk-1:forsok-og-modeller', 'Modell', 'Forenklet beskrivelse som kan forklare og forutsi.', 12),
+  ('fysikk-1:forsok-og-modeller', 'Gyldighetsområde', 'Situasjonene der modellen gir gode resultater.', 13),
+  ('fysikk-1:forsok-og-modeller', 'Standardform', 'a · 10ⁿ med 1 ≤ a < 10.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:forsok-og-modeller';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:forsok-og-modeller', 'q01', 'flervalg', 'Hva er en systematisk feil?', array['En feil som varierer tilfeldig', 'En feil som påvirker alle målinger likt', 'En regnefeil', 'En feil i rapporten']::text[], 1, 'For eksempel en vekt som ikke er nullstilt.', true, true, 0),
+  ('fysikk-1:forsok-og-modeller', 'q02', 'flervalg', 'Hvordan reduserer du tilfeldige feil?', array['Ved å ta gjennomsnittet av mange målinger', 'Ved å bruke færre målinger', 'Ved å runde av mer', 'Ved å endre enheten']::text[], 0, 'Tilfeldige variasjoner jevner seg ut.', true, true, 1),
+  ('fysikk-1:forsok-og-modeller', 'q03', 'flervalg', '2,4 m / 1,23 s = 1,951… m/s. Hvordan bør svaret oppgis?', array['1,951 m/s', '1,95 m/s', '2,0 m/s', '2 m/s']::text[], 2, '2,4 har to gjeldende siffer.', true, true, 2),
+  ('fysikk-1:forsok-og-modeller', 'q04', 'flervalg', 'Hvordan kan newton skrives med grunnenheter?', array['kg·m', 'kg/s', 'm/s²', 'kg·m/s²']::text[], 3, 'F = ma gir kg·m/s².', true, true, 3),
+  ('fysikk-1:forsok-og-modeller', 'q05', 'flervalg', 'Du vil undersøke sammenhengen s = ½at². Hva bør du plotte for å få en rett linje?', array['s mot t²', 's mot t', 't mot a', 's mot 1/t']::text[], 0, 'Stigningstallet blir a/2.', true, true, 4),
+  ('fysikk-1:forsok-og-modeller', 'q06', 'flervalg', 'Hva kjennetegner en god modell?', array['Den er alltid helt nøyaktig', 'Den stemmer med målinger og gir testbare forutsigelser', 'Den er komplisert', 'Den kan ikke testes']::text[], 1, 'Den har også et tydelig gyldighetsområde.', true, true, 5),
+  ('fysikk-1:forsok-og-modeller', 'q07', 'flervalg', 'Hva er relativ usikkerhet?', array['Usikkerheten i meter', 'Den største målingen', 'Usikkerheten delt på måleverdien', 'Gjennomsnittet']::text[], 2, 'Ofte oppgitt i prosent.', true, true, 6),
+  ('fysikk-1:forsok-og-modeller', 'q08', 'flervalg', 'Hvorfor passer ikke modellen for fritt fall uten luftmotstand for en fallskjerm?', array['Fordi tyngdekraften er annerledes', 'Fordi fallskjermen er for tung', 'Fordi modellen er feil for alle ting', 'Fordi luftmotstanden er stor og ikke kan ses bort fra']::text[], 3, 'Fallskjermen er utenfor modellens gyldighetsområde.', true, true, 7),
+  ('fysikk-1:forsok-og-modeller', 'q09', 'flervalg', 'Hvilken akse bør den uavhengige variabelen stå på?', array['x-aksen', 'y-aksen', 'Begge', 'Den skal ikke i grafen']::text[], 0, 'Den avhengige variabelen står på y-aksen.', true, false, 8),
+  ('fysikk-1:forsok-og-modeller', 'q10', 'flervalg', 'Hvordan skrives 0,000 45 på standardform?', array['45 · 10⁻⁵', '4,5 · 10⁻⁴', '4,5 · 10⁴', '0,45 · 10⁻³']::text[], 1, 'Tallet foran skal være mellom 1 og 10.', true, false, 9),
+  ('fysikk-1:forsok-og-modeller', 'm01', 'sant-usant', 'Ingen måling er helt nøyaktig.', array['Sant', 'Usant']::text[], 0, 'Alle målinger har en usikkerhet.', false, true, 10),
+  ('fysikk-1:forsok-og-modeller', 'm02', 'sant-usant', 'Svaret på en beregning bør ha flere gjeldende siffer enn målingene.', array['Sant', 'Usant']::text[], 1, 'Svaret bør ikke være mer nøyaktig enn den minst nøyaktige målingen.', false, true, 11),
+  ('fysikk-1:forsok-og-modeller', 'm03', 'sant-usant', 'Stigningstallet til en lineær graf har ofte en fysisk betydning.', array['Sant', 'Usant']::text[], 0, 'For eksempel fart i en s-t-graf.', false, true, 12),
+  ('fysikk-1:forsok-og-modeller', 'm04', 'sant-usant', 'Kilogram er ikke en SI-grunnenhet.', array['Sant', 'Usant']::text[], 1, 'Kilogram er grunnenheten for masse.', false, true, 13),
+  ('fysikk-1:forsok-og-modeller', 'm05', 'flervalg', 'Hva er en typisk tilfeldig feil?', array['En linjal som mangler de første millimeterne', 'Reaksjonstid ved bruk av stoppeklokke', 'En vekt som viser 5 g for mye', 'Feil enhet']::text[], 1, 'Den varierer fra gang til gang.', false, true, 14),
+  ('fysikk-1:forsok-og-modeller', 'm06', 'flervalg', 'Hvordan kan joule skrives?', array['N·m', 'N/m', 'kg/s', 'W/s']::text[], 0, 'Arbeid er kraft ganger vei.', false, true, 15),
+  ('fysikk-1:forsok-og-modeller', 'm07', 'flervalg', 'Hva bør du gjøre når målingene ikke stemmer med modellen?', array['Slette målingene', 'Endre konklusjonen uten å undersøke', 'Vurdere om det skyldes målefeil eller om modellen må forbedres', 'Ignorere avviket']::text[], 2, 'Slik utvikler fysikken seg.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:forsok-og-modeller', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Rettlinjet bevegelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:rettlinjet-bevegelse', 'fysikk-1', 'rettlinjet-bevegelse', 'Rettlinjet bevegelse', 'Posisjon, forflytning, fart og akselerasjon, grafer for bevegelse, de fire bevegelseslikningene for konstant akselerasjon og fritt fall – med regneeksempler.', array[4]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:rettlinjet-bevegelse', '## Grunnbegreper
+
+- **Posisjon** (s): hvor et legeme er, målt fra et **nullpunkt**.
+- **Forflytning** (Δs): endring i posisjon – kan være **negativ**.
+- **Fart** (v): hvor raskt posisjonen endres. **Gjennomsnittsfart** = Δs / Δt. Enhet **m/s**.
+- **Akselerasjon** (a): hvor raskt farten endres, a = Δv / Δt. Enhet **m/s²**.
+
+Fart og akselerasjon har **retning**. Vi velger en **positiv retning**, og da kan fart og akselerasjon være negative. Negativ akselerasjon kan bety **oppbremsing** – men ikke alltid: Det avhenger av fartens retning.
+
+## Grafer
+
+- I en **s-t-graf** er **stigningstallet** lik **farten**. En rett linje betyr konstant fart.
+- I en **v-t-graf** er **stigningstallet** lik **akselerasjonen**, og **arealet under grafen** er lik **forflytningen**.
+- I en **a-t-graf** er arealet under grafen lik **endringen i fart**.
+
+## Bevegelseslikningene
+
+Når **akselerasjonen er konstant**, gjelder:
+
+1. **v = v₀ + at**
+2. **s = v₀t + ½at²**
+3. **v² − v₀² = 2as**
+4. **s = ½(v₀ + v)t**
+
+Her er v₀ startfarten, v farten etter tiden t, og s forflytningen. Velg likningen som inneholder de **kjente** størrelsene og den **ukjente** du skal finne.
+
+**Eksempel**: En bil starter fra ro og akselererer med 2,0 m/s² i 5,0 s.
+
+- v = 0 + 2,0 · 5,0 = **10 m/s**
+- s = 0 + ½ · 2,0 · 5,0² = **25 m**
+
+## Fritt fall
+
+Nær jordoverflaten faller alle legemer med samme akselerasjon når vi ser bort fra luftmotstand: **g ≈ 9,81 m/s²**, rettet nedover.
+
+**Eksempel**: En stein slippes fra 20 m høyde. Hvor lang tid bruker den?
+
+20 = ½ · 9,81 · t² → t = √(2 · 20 / 9,81) ≈ **2,0 s**
+
+Farten når den treffer bakken: v = √(2 · 9,81 · 20) ≈ **20 m/s** (19,8 m/s).
+
+## Loddrett kast
+
+Kaster du en ball rett opp med startfart v₀, er akselerasjonen **−g** hele tiden (med positiv retning oppover). På **toppen** er farten **null**, men akselerasjonen er fortsatt −g. Tiden opp er t = v₀/g.
+
+## Framgangsmåte
+
+1. Tegn en **figur** og velg **positiv retning**.
+2. Skriv opp **kjente** og **ukjente** størrelser.
+3. Velg riktig **likning** og løs.
+4. Sjekk **enhet** og om svaret er **rimelig**.', '{"label":"Rettlinjet bevegelse","children":[{"label":"Begreper","children":[{"label":"Posisjon og forflytning"},{"label":"Fart"},{"label":"Akselerasjon"}]},{"label":"Grafer","children":[{"label":"s-t: stigning = v"},{"label":"v-t: stigning = a"},{"label":"v-t: areal = s"}]},{"label":"Likninger","children":[{"label":"v = v₀ + at"},{"label":"s = v₀t + ½at²"},{"label":"v² − v₀² = 2as"},{"label":"s = ½(v₀ + v)t"}]},{"label":"Fritt fall","children":[{"label":"g ≈ 9,81 m/s²"},{"label":"Loddrett kast"}]},{"label":"Framgangsmåte","children":[{"label":"Figur og positiv retning"},{"label":"Kjente og ukjente"},{"label":"Sjekk svaret"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:rettlinjet-bevegelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:rettlinjet-bevegelse', 'Forflytning', 'Endring i posisjon, Δs – kan være negativ.', 0),
+  ('fysikk-1:rettlinjet-bevegelse', 'Gjennomsnittsfart', 'Δs / Δt', 1),
+  ('fysikk-1:rettlinjet-bevegelse', 'Akselerasjon', 'a = Δv / Δt, enhet m/s².', 2),
+  ('fysikk-1:rettlinjet-bevegelse', 'Stigningstall i s-t-graf', 'Farten.', 3),
+  ('fysikk-1:rettlinjet-bevegelse', 'Stigningstall i v-t-graf', 'Akselerasjonen.', 4),
+  ('fysikk-1:rettlinjet-bevegelse', 'Areal under v-t-graf', 'Forflytningen.', 5),
+  ('fysikk-1:rettlinjet-bevegelse', 'v = v₀ + at', 'Første bevegelseslikning.', 6),
+  ('fysikk-1:rettlinjet-bevegelse', 's = v₀t + ½at²', 'Andre bevegelseslikning.', 7),
+  ('fysikk-1:rettlinjet-bevegelse', 'v² − v₀² = 2as', 'Tidløs bevegelseslikning.', 8),
+  ('fysikk-1:rettlinjet-bevegelse', 's = ½(v₀ + v)t', 'Forflytning fra gjennomsnittsfart.', 9),
+  ('fysikk-1:rettlinjet-bevegelse', 'g', 'Tyngdeakselerasjonen, ca. 9,81 m/s².', 10),
+  ('fysikk-1:rettlinjet-bevegelse', 'Fritt fall', 'Fall der bare tyngdekraften virker.', 11),
+  ('fysikk-1:rettlinjet-bevegelse', 'Toppunkt i loddrett kast', 'Farten er null, men akselerasjonen er fortsatt −g.', 12),
+  ('fysikk-1:rettlinjet-bevegelse', 'Positiv retning', 'Retningen vi velger som positiv for fart og akselerasjon.', 13),
+  ('fysikk-1:rettlinjet-bevegelse', 'Konstant akselerasjon', 'Forutsetningen for bevegelseslikningene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:rettlinjet-bevegelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:rettlinjet-bevegelse', 'q01', 'flervalg', 'Hva er stigningstallet i en v-t-graf?', array['Farten', 'Akselerasjonen', 'Forflytningen', 'Tiden']::text[], 1, 'a = Δv/Δt.', true, true, 0),
+  ('fysikk-1:rettlinjet-bevegelse', 'q02', 'flervalg', 'Hva er arealet under en v-t-graf?', array['Forflytningen', 'Akselerasjonen', 'Farten', 'Massen']::text[], 0, 'Fart ganger tid gir strekning.', true, true, 1),
+  ('fysikk-1:rettlinjet-bevegelse', 'q03', 'flervalg', 'En bil starter fra ro med a = 2,0 m/s². Hva er farten etter 5,0 s?', array['2,5 m/s', '7,0 m/s', '10 m/s', '25 m/s']::text[], 2, 'v = at = 2,0 · 5,0.', true, true, 2),
+  ('fysikk-1:rettlinjet-bevegelse', 'q04', 'flervalg', 'Hvor langt har bilen kjørt etter 5,0 s med a = 2,0 m/s² fra ro?', array['10 m', '50 m', '12,5 m', '25 m']::text[], 3, 's = ½ · 2,0 · 5,0² = 25 m.', true, true, 3),
+  ('fysikk-1:rettlinjet-bevegelse', 'q05', 'flervalg', 'Hvor stor er tyngdeakselerasjonen ved jordoverflaten?', array['Omtrent 9,81 m/s²', 'Omtrent 1 m/s²', 'Omtrent 98 m/s²', 'Omtrent 3,0 · 10⁸ m/s²']::text[], 0, 'Rettet nedover.', true, true, 4),
+  ('fysikk-1:rettlinjet-bevegelse', 'q06', 'flervalg', 'Hva er farten og akselerasjonen på toppen av et loddrett kast?', array['Begge er null', 'Farten er null, akselerasjonen er −g', 'Farten er størst, akselerasjonen null', 'Begge er størst']::text[], 1, 'Tyngdekraften virker hele tiden.', true, true, 5),
+  ('fysikk-1:rettlinjet-bevegelse', 'q07', 'flervalg', 'Hvilken likning bruker du når du ikke kjenner tiden?', array['v = v₀ + at', 's = v₀t + ½at²', 'v² − v₀² = 2as', 's = ½(v₀ + v)t']::text[], 2, 'Den inneholder ikke t.', true, true, 6),
+  ('fysikk-1:rettlinjet-bevegelse', 'q08', 'flervalg', 'En stein slippes fra 20 m. Omtrent hvor lang tid bruker den til bakken (uten luftmotstand)?', array['1,0 s', '4,1 s', '0,5 s', '2,0 s']::text[], 3, 't = √(2 · 20/9,81) ≈ 2,0 s.', true, true, 7),
+  ('fysikk-1:rettlinjet-bevegelse', 'q09', 'flervalg', 'Hva er forutsetningen for å bruke bevegelseslikningene?', array['Konstant akselerasjon', 'Konstant posisjon', 'Ingen tyngdekraft', 'At farten er null']::text[], 0, 'Ellers må man bruke andre metoder.', true, false, 8),
+  ('fysikk-1:rettlinjet-bevegelse', 'q10', 'flervalg', 'Hva er stigningstallet i en s-t-graf?', array['Akselerasjonen', 'Farten', 'Tiden', 'Kraften']::text[], 1, 'v = Δs/Δt.', true, false, 9),
+  ('fysikk-1:rettlinjet-bevegelse', 'm01', 'sant-usant', 'Uten luftmotstand faller en tung og en lett stein like raskt.', array['Sant', 'Usant']::text[], 0, 'Begge har akselerasjonen g.', false, true, 10),
+  ('fysikk-1:rettlinjet-bevegelse', 'm02', 'sant-usant', 'Negativ akselerasjon betyr alltid at legemet bremser.', array['Sant', 'Usant']::text[], 1, 'Det avhenger av fartens retning.', false, true, 11),
+  ('fysikk-1:rettlinjet-bevegelse', 'm03', 'sant-usant', 'Forflytning kan være negativ.', array['Sant', 'Usant']::text[], 0, 'Den har retning.', false, true, 12),
+  ('fysikk-1:rettlinjet-bevegelse', 'm04', 'sant-usant', 'En rett, skrå linje i en s-t-graf betyr konstant akselerasjon.', array['Sant', 'Usant']::text[], 1, 'Det betyr konstant fart.', false, true, 13),
+  ('fysikk-1:rettlinjet-bevegelse', 'm05', 'flervalg', 'En stein slippes fra 20 m. Omtrent hvor stor fart har den når den treffer bakken?', array['10 m/s', '20 m/s', '40 m/s', '200 m/s']::text[], 1, 'v = √(2 · 9,81 · 20) ≈ 20 m/s.', false, true, 14),
+  ('fysikk-1:rettlinjet-bevegelse', 'm06', 'flervalg', 'Hva er enheten for akselerasjon?', array['m/s²', 'm/s', 'N', 'kg·m/s']::text[], 0, 'Endring i fart per sekund.', false, true, 15),
+  ('fysikk-1:rettlinjet-bevegelse', 'm07', 'flervalg', 'En ball kastes rett opp med 15 m/s. Omtrent hvor lang tid tar det til toppen?', array['0,65 s', '3,0 s', '1,5 s', '15 s']::text[], 2, 't = v₀/g = 15/9,81 ≈ 1,5 s.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:rettlinjet-bevegelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Krefter og Newtons lover
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:krefter-og-newtons-lover', 'fysikk-1', 'krefter-og-newtons-lover', 'Krefter og Newtons lover', 'Newtons tre lover, vanlige krefter – tyngdekraft, normalkraft, friksjon, luftmotstand og snordrag – kraftdiagrammer, summen av krefter og beregninger på skråplan og i heiser.', array[5]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:krefter-og-newtons-lover', '## Kraft
+
+En **kraft** er en påvirkning som kan endre et legemes **bevegelse** eller **form**. Kraft har både **størrelse** og **retning** (en vektor) og måles i **newton** (N).
+
+## Newtons tre lover
+
+**Newtons 1. lov** (treghetsloven): Hvis **summen av kreftene** på et legeme er **null**, er legemet i **ro** eller beveger seg med **konstant fart** i en **rett linje**.
+
+**Newtons 2. lov**: **ΣF = m · a**. Summen av kreftene er lik massen ganger akselerasjonen, og akselerasjonen har samme retning som kraftsummen.
+
+**Newtons 3. lov**: Når legeme A virker på legeme B med en kraft, virker B på A med en **like stor**, **motsatt rettet** kraft. Kreftene virker på **hvert sitt legeme** – derfor opphever de ikke hverandre.
+
+## Vanlige krefter
+
+- **Tyngdekraft**: **G = m · g**. En person på 70 kg har G = 70 · 9,81 ≈ **687 N**.
+- **Normalkraft** (N): kraft fra et underlag, **vinkelrett** på underlaget.
+- **Friksjon** (R): motvirker bevegelse langs et underlag. **R = μ · N**, der μ er **friksjonstallet**.
+- **Luftmotstand** (L): øker med farten, ofte tilnærmet L = k · v².
+- **Snordrag** (S): kraft fra en snor eller et tau.
+
+## Kraftdiagram
+
+Tegn **alle kreftene** som virker **på** legemet, som piler fra et punkt. Deretter finner du **kraftsummen** i hver retning.
+
+**Eksempel**: En kloss på 5,0 kg dras bortover et bord med μ = 0,30. Normalkraften er N = mg = 5,0 · 9,81 ≈ 49 N, og friksjonen er R = 0,30 · 49 ≈ **15 N**. Drar du med 20 N, blir ΣF = 20 − 15 = 5 N, og a = 5/5,0 = **1,0 m/s²**.
+
+## Skråplan
+
+På et **skråplan** med helningsvinkel α deler vi tyngdekraften i to komponenter:
+
+- **langs** planet: **G · sin α**
+- **vinkelrett** på planet: **G · cos α**, som balanseres av normalkraften
+
+Uten friksjon blir akselerasjonen nedover planet **a = g · sin α**.
+
+## Heis
+
+Når en heis **akselererer oppover**, må normalkraften fra gulvet være **større** enn tyngden: N − mg = ma → N = m(g + a). Du føler deg **tyngre**. Når heisen akselererer nedover, føler du deg **lettere**. Ved **fritt fall** blir normalkraften **null** – vektløshet.
+
+## Framgangsmåte
+
+1. Tegn **kraftdiagram**.
+2. Velg **positiv retning** – helst i akselerasjonens retning.
+3. Sett opp **ΣF = ma** i hver retning.
+4. Løs og kontroller **enheter** og **rimelighet**.', '{"label":"Krefter og Newtons lover","children":[{"label":"Newtons lover","children":[{"label":"1: treghet"},{"label":"2: ΣF = ma"},{"label":"3: kraft og motkraft"}]},{"label":"Krefter","children":[{"label":"G = mg"},{"label":"Normalkraft"},{"label":"Friksjon R = μN"},{"label":"Luftmotstand"}]},{"label":"Kraftdiagram","children":[{"label":"Alle krefter på legemet"},{"label":"Positiv retning"}]},{"label":"Skråplan","children":[{"label":"G sin α"},{"label":"G cos α"},{"label":"a = g sin α"}]},{"label":"Heis","children":[{"label":"Tyngre ved akselerasjon opp"},{"label":"Vektløshet"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:krefter-og-newtons-lover';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:krefter-og-newtons-lover', 'Kraft', 'Påvirkning som kan endre bevegelse eller form, målt i newton.', 0),
+  ('fysikk-1:krefter-og-newtons-lover', 'Newtons 1. lov', 'ΣF = 0 gir ro eller konstant fart i rett linje.', 1),
+  ('fysikk-1:krefter-og-newtons-lover', 'Newtons 2. lov', 'ΣF = m · a', 2),
+  ('fysikk-1:krefter-og-newtons-lover', 'Newtons 3. lov', 'Kraft og motkraft er like store, motsatt rettet og virker på hvert sitt legeme.', 3),
+  ('fysikk-1:krefter-og-newtons-lover', 'Tyngdekraft', 'G = m · g', 4),
+  ('fysikk-1:krefter-og-newtons-lover', 'Normalkraft', 'Kraft fra underlaget, vinkelrett på underlaget.', 5),
+  ('fysikk-1:krefter-og-newtons-lover', 'Friksjon', 'R = μ · N – motvirker bevegelse langs underlaget.', 6),
+  ('fysikk-1:krefter-og-newtons-lover', 'Friksjonstall μ', 'Tall som beskriver hvor stor friksjonen er mellom to flater.', 7),
+  ('fysikk-1:krefter-og-newtons-lover', 'Luftmotstand', 'Øker med farten, ofte L = k · v².', 8),
+  ('fysikk-1:krefter-og-newtons-lover', 'Snordrag', 'Kraft fra en snor eller et tau.', 9),
+  ('fysikk-1:krefter-og-newtons-lover', 'Kraftdiagram', 'Figur som viser alle kreftene som virker på et legeme.', 10),
+  ('fysikk-1:krefter-og-newtons-lover', 'Skråplan: langs planet', 'G · sin α', 11),
+  ('fysikk-1:krefter-og-newtons-lover', 'Skråplan: vinkelrett på planet', 'G · cos α', 12),
+  ('fysikk-1:krefter-og-newtons-lover', 'Heis som akselererer opp', 'N = m(g + a) – man føler seg tyngre.', 13),
+  ('fysikk-1:krefter-og-newtons-lover', 'Vektløshet', 'Normalkraften er null, som i fritt fall.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:krefter-og-newtons-lover';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:krefter-og-newtons-lover', 'q01', 'flervalg', 'Hva sier Newtons 2. lov?', array['Kraft og motkraft er like store', 'ΣF = m · a', 'Alt faller like fort', 'Energi er bevart']::text[], 1, 'Akselerasjonen har samme retning som kraftsummen.', true, true, 0),
+  ('fysikk-1:krefter-og-newtons-lover', 'q02', 'flervalg', 'Hva er tyngdekraften på en person på 70 kg?', array['Omtrent 687 N', '70 N', 'Omtrent 7 N', 'Omtrent 6870 N']::text[], 0, 'G = 70 · 9,81.', true, true, 1),
+  ('fysikk-1:krefter-og-newtons-lover', 'q03', 'flervalg', 'Hvorfor opphever ikke kraft og motkraft (Newtons 3. lov) hverandre?', array['Fordi de er ulike store', 'Fordi de har samme retning', 'Fordi de virker på hvert sitt legeme', 'Fordi de er fiktive']::text[], 2, 'Bare krefter på samme legeme kan summeres.', true, true, 2),
+  ('fysikk-1:krefter-og-newtons-lover', 'q04', 'flervalg', 'En kloss på 5,0 kg dras på et bord med μ = 0,30. Hvor stor er friksjonen?', array['1,5 N', '5,0 N', '49 N', 'Omtrent 15 N']::text[], 3, 'R = μ · mg = 0,30 · 49 N.', true, true, 3),
+  ('fysikk-1:krefter-og-newtons-lover', 'q05', 'flervalg', 'Hva sier Newtons 1. lov?', array['Når ΣF = 0, er legemet i ro eller har konstant fart', 'Alle legemer akselererer', 'Kraft er masse ganger fart', 'Friksjon er alltid null']::text[], 0, 'Kalles også treghetsloven.', true, true, 4),
+  ('fysikk-1:krefter-og-newtons-lover', 'q06', 'flervalg', 'Hva er komponenten av tyngdekraften langs et skråplan med vinkel α?', array['G · cos α', 'G · sin α', 'G · tan α', 'G']::text[], 1, 'G · cos α står vinkelrett på planet.', true, true, 5),
+  ('fysikk-1:krefter-og-newtons-lover', 'q07', 'flervalg', 'En heis akselererer oppover. Hvordan er normalkraften fra gulvet?', array['Mindre enn tyngden', 'Lik null', 'Større enn tyngden', 'Lik tyngden']::text[], 2, 'N = m(g + a).', true, true, 6),
+  ('fysikk-1:krefter-og-newtons-lover', 'q08', 'flervalg', 'En kloss på 5,0 kg dras med 20 N, og friksjonen er 15 N. Hva er akselerasjonen?', array['4,0 m/s²', '3,0 m/s²', '7,0 m/s²', '1,0 m/s²']::text[], 3, 'ΣF = 5 N, a = 5/5,0.', true, true, 7),
+  ('fysikk-1:krefter-og-newtons-lover', 'q09', 'flervalg', 'Hvilken retning har normalkraften?', array['Vinkelrett på underlaget', 'Langs underlaget', 'Alltid rett ned', 'I bevegelsesretningen']::text[], 0, 'Den virker ut fra underlaget.', true, false, 8),
+  ('fysikk-1:krefter-og-newtons-lover', 'q10', 'flervalg', 'Hva skjer med normalkraften i fritt fall?', array['Den dobles', 'Den blir null', 'Den blir lik tyngden', 'Den blir negativ']::text[], 1, 'Det oppleves som vektløshet.', true, false, 9),
+  ('fysikk-1:krefter-og-newtons-lover', 'm01', 'sant-usant', 'Et legeme kan bevege seg med konstant fart selv om summen av kreftene er null.', array['Sant', 'Usant']::text[], 0, 'Newtons 1. lov.', false, true, 10),
+  ('fysikk-1:krefter-og-newtons-lover', 'm02', 'sant-usant', 'Luftmotstanden er uavhengig av farten.', array['Sant', 'Usant']::text[], 1, 'Luftmotstanden øker med farten.', false, true, 11),
+  ('fysikk-1:krefter-og-newtons-lover', 'm03', 'sant-usant', 'Uten friksjon er akselerasjonen ned et skråplan g · sin α.', array['Sant', 'Usant']::text[], 0, 'Komponenten av tyngden langs planet gir akselerasjonen.', false, true, 12),
+  ('fysikk-1:krefter-og-newtons-lover', 'm04', 'sant-usant', 'Kraft måles i joule.', array['Sant', 'Usant']::text[], 1, 'Kraft måles i newton.', false, true, 13),
+  ('fysikk-1:krefter-og-newtons-lover', 'm05', 'flervalg', 'En bil på 1200 kg akselererer med 3,0 m/s². Hva er kraftsummen?', array['400 N', '3600 N', '1203 N', '36 000 N']::text[], 1, 'ΣF = 1200 · 3,0.', false, true, 14),
+  ('fysikk-1:krefter-og-newtons-lover', 'm06', 'flervalg', 'Hva er μ i R = μ · N?', array['Friksjonstallet', 'Massen', 'Normalkraften', 'Farten']::text[], 0, 'Det avhenger av flatene.', false, true, 15),
+  ('fysikk-1:krefter-og-newtons-lover', 'm07', 'flervalg', 'Hva skal et kraftdiagram vise?', array['Kreftene legemet virker med på andre', 'Bare tyngdekraften', 'Alle kreftene som virker på legemet', 'Farten til legemet']::text[], 2, 'Kreftene på legemet bestemmer akselerasjonen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:krefter-og-newtons-lover', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Numeriske metoder og programmering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:numeriske-metoder', 'fysikk-1', 'numeriske-metoder', 'Numeriske metoder og programmering', 'Hvordan du bruker Eulers metode og et enkelt program til å beregne bevegelse når akselerasjonen ikke er konstant – for eksempel fall med luftmotstand og terminalfart.', array[6]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:numeriske-metoder', '## Når likningene ikke strekker til
+
+Bevegelseslikningene gjelder bare når **akselerasjonen er konstant**. I virkeligheten endrer ofte kreftene seg underveis. En fallskjermhopper får **større luftmotstand** jo raskere hopperen faller, og da **avtar akselerasjonen**. Slike problemer løser vi med **numeriske metoder**: Vi deler tiden opp i **små tidssteg** og regner ut bevegelsen steg for steg.
+
+## Eulers metode
+
+Ideen er at akselerasjonen og farten er **tilnærmet konstante** i et kort tidssteg **Δt**. For hvert steg gjør vi dette:
+
+1. Finn **kraftsummen** ΣF ut fra nåværende fart og posisjon.
+2. Finn **akselerasjonen**: a = ΣF / m.
+3. Oppdater **farten**: v_ny = v + a · Δt.
+4. Oppdater **posisjonen**: s_ny = s + v · Δt.
+5. Oppdater **tiden**: t_ny = t + Δt.
+
+Gjenta til ønsket tid er nådd.
+
+## Fall med luftmotstand
+
+For et legeme som faller, med positiv retning nedover:
+
+**ΣF = mg − kv²**
+
+her er k en **luftmotstandskonstant** som avhenger av form, areal og luftens tetthet.
+
+I starten er farten liten, luftmotstanden liten og akselerasjonen nær **g**. Etter hvert øker luftmotstanden til den er **like stor som tyngden**. Da er ΣF = 0, og legemet faller med konstant **terminalfart**:
+
+mg = kv_t² → **v_t = √(mg / k)**
+
+**Eksempel**: En hopper med m = 80 kg og k = 0,25 kg/m får v_t = √(80 · 9,81 / 0,25) ≈ **56 m/s**, omtrent 200 km/t.
+
+## Et enkelt program
+
+```python
+m, k, g = 80, 0.25, 9.81
+dt = 0.01                  # tidssteg i sekunder
+t, s, v = 0, 0, 0
+while t < 20:
+    a = (m*g - k*v**2) / m
+    v = v + a*dt
+    s = s + v*dt
+    t = t + dt
+print(round(v, 1))         # nær terminalfarten
+```
+
+Programmet kan utvides med lister som lagrer t, s og v, slik at du kan **plotte** grafene.
+
+## Tidssteget
+
+- Et **mindre** tidssteg gir **mer nøyaktig** resultat, men flere beregninger.
+- Et **for stort** tidssteg kan gi tydelige **feil**.
+- Test gjerne ved å **halvere** Δt: Hvis resultatet nesten ikke endres, er tidssteget lite nok.
+
+## Vurdere resultatet
+
+Sammenlign med det du vet: Uten luftmotstand (k = 0) skal programmet gi samme svar som bevegelseslikningene. Farten skal nærme seg **terminalfarten**, men ikke gå forbi den. Numeriske metoder er en **modell**, og kvaliteten avhenger av om kreftene er riktig beskrevet.', '{"label":"Numeriske metoder","children":[{"label":"Hvorfor","children":[{"label":"Ikke-konstant akselerasjon"},{"label":"Kreftene endres"}]},{"label":"Eulers metode","children":[{"label":"a = ΣF/m"},{"label":"v + aΔt"},{"label":"s + vΔt"}]},{"label":"Luftmotstand","children":[{"label":"mg − kv²"},{"label":"Terminalfart"},{"label":"√(mg/k)"}]},{"label":"Program","children":[{"label":"Løkke"},{"label":"Lister og plott"}]},{"label":"Kvalitet","children":[{"label":"Lite tidssteg"},{"label":"Halvere Δt"},{"label":"Kontroll med k = 0"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:numeriske-metoder';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:numeriske-metoder', 'Numerisk metode', 'Å løse et problem steg for steg med små tidssteg.', 0),
+  ('fysikk-1:numeriske-metoder', 'Eulers metode', 'Oppdaterer fart og posisjon med v + aΔt og s + vΔt.', 1),
+  ('fysikk-1:numeriske-metoder', 'Tidssteg Δt', 'Den lille tiden vi antar at a og v er konstante i.', 2),
+  ('fysikk-1:numeriske-metoder', 'Ikke-konstant akselerasjon', 'Når kreftene endrer seg underveis – krever numeriske metoder.', 3),
+  ('fysikk-1:numeriske-metoder', 'Luftmotstand kv²', 'Modell der luftmotstanden øker med kvadratet av farten.', 4),
+  ('fysikk-1:numeriske-metoder', 'Luftmotstandskonstant k', 'Avhenger av form, areal og luftens tetthet.', 5),
+  ('fysikk-1:numeriske-metoder', 'Terminalfart', 'Konstant fart når luftmotstanden er like stor som tyngden.', 6),
+  ('fysikk-1:numeriske-metoder', 'v_t = √(mg / k)', 'Formel for terminalfart med luftmotstand kv².', 7),
+  ('fysikk-1:numeriske-metoder', 'Løkke (while)', 'Gjentar beregningene til en betingelse ikke lenger er oppfylt.', 8),
+  ('fysikk-1:numeriske-metoder', 'Mindre tidssteg', 'Mer nøyaktig, men flere beregninger.', 9),
+  ('fysikk-1:numeriske-metoder', 'Halvere Δt', 'Test av om tidssteget er lite nok.', 10),
+  ('fysikk-1:numeriske-metoder', 'Kontroll med k = 0', 'Programmet skal gi samme svar som bevegelseslikningene.', 11),
+  ('fysikk-1:numeriske-metoder', 'a = ΣF / m', 'Newtons 2. lov brukt i hvert tidssteg.', 12),
+  ('fysikk-1:numeriske-metoder', 'Plotte resultater', 'Lagre t, s og v i lister og tegne grafer.', 13),
+  ('fysikk-1:numeriske-metoder', 'Fallskjermhopper', 'Klassisk eksempel på bevegelse med ikke-konstant akselerasjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:numeriske-metoder';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:numeriske-metoder', 'q01', 'flervalg', 'Når trenger vi numeriske metoder for bevegelse?', array['Når akselerasjonen er konstant', 'Når akselerasjonen ikke er konstant', 'Når legemet er i ro', 'Aldri']::text[], 1, 'Bevegelseslikningene forutsetter konstant akselerasjon.', true, true, 0),
+  ('fysikk-1:numeriske-metoder', 'q02', 'flervalg', 'Hvordan oppdateres farten i Eulers metode?', array['v_ny = v + a · Δt', 'v_ny = a / Δt', 'v_ny = s · Δt', 'v_ny = v − s']::text[], 0, 'Endringen i fart er a · Δt.', true, true, 1),
+  ('fysikk-1:numeriske-metoder', 'q03', 'flervalg', 'Hva er terminalfart?', array['Den største akselerasjonen', 'Farten i starten', 'Konstant fart når luftmotstand og tyngde er like store', 'Farten uten luftmotstand']::text[], 2, 'Da er ΣF = 0.', true, true, 2),
+  ('fysikk-1:numeriske-metoder', 'q04', 'flervalg', 'Hva er kraftsummen på et fallende legeme med luftmotstand kv² (positiv retning ned)?', array['mg + kv²', 'kv²', 'mg', 'mg − kv²']::text[], 3, 'Luftmotstanden virker mot bevegelsen.', true, true, 3),
+  ('fysikk-1:numeriske-metoder', 'q05', 'flervalg', 'Hva skjer med akselerasjonen til en fallskjermhopper før utløsning?', array['Den avtar mot null', 'Den øker', 'Den er konstant lik g', 'Den blir negativ med en gang']::text[], 0, 'Luftmotstanden øker med farten.', true, true, 4),
+  ('fysikk-1:numeriske-metoder', 'q06', 'flervalg', 'Hva er terminalfarten for m = 80 kg og k = 0,25 kg/m?', array['Omtrent 18 m/s', 'Omtrent 56 m/s', 'Omtrent 320 m/s', 'Omtrent 9,8 m/s']::text[], 1, '√(80 · 9,81 / 0,25) ≈ 56 m/s.', true, true, 5),
+  ('fysikk-1:numeriske-metoder', 'q07', 'flervalg', 'Hva skjer hvis tidssteget er for stort?', array['Programmet går raskere og blir mer nøyaktig', 'Ingenting', 'Resultatet kan få tydelige feil', 'Farten blir alltid null']::text[], 2, 'Tilnærmingen om konstant a blir dårligere.', true, true, 6),
+  ('fysikk-1:numeriske-metoder', 'q08', 'flervalg', 'Hvordan kan du teste om programmet ditt er riktig?', array['Bruke større tidssteg', 'Fjerne løkken', 'Endre massen', 'Sette k = 0 og sammenligne med bevegelseslikningene']::text[], 3, 'Da skal svarene stemme.', true, true, 7),
+  ('fysikk-1:numeriske-metoder', 'q09', 'flervalg', 'Hvordan oppdateres posisjonen i Eulers metode?', array['s_ny = s + v · Δt', 's_ny = v / Δt', 's_ny = a · s', 's_ny = s − a']::text[], 0, 'Endringen i posisjon er v · Δt.', true, false, 8),
+  ('fysikk-1:numeriske-metoder', 'q10', 'flervalg', 'Hvordan finner du akselerasjonen i hvert tidssteg?', array['a = v · t', 'a = ΣF / m', 'a = m · g alltid', 'a = s / t']::text[], 1, 'Newtons 2. lov.', true, false, 9),
+  ('fysikk-1:numeriske-metoder', 'm01', 'sant-usant', 'Et mindre tidssteg gir vanligvis et mer nøyaktig resultat.', array['Sant', 'Usant']::text[], 0, 'Men programmet må gjøre flere beregninger.', false, true, 10),
+  ('fysikk-1:numeriske-metoder', 'm02', 'sant-usant', 'Ved terminalfart er akselerasjonen lik g.', array['Sant', 'Usant']::text[], 1, 'Ved terminalfart er akselerasjonen null.', false, true, 11),
+  ('fysikk-1:numeriske-metoder', 'm03', 'sant-usant', 'Luftmotstandskonstanten k avhenger blant annet av formen på legemet.', array['Sant', 'Usant']::text[], 0, 'Også av areal og luftens tetthet.', false, true, 12),
+  ('fysikk-1:numeriske-metoder', 'm04', 'sant-usant', 'Eulers metode gir alltid helt eksakte svar.', array['Sant', 'Usant']::text[], 1, 'Den gir en tilnærming som avhenger av tidssteget.', false, true, 13),
+  ('fysikk-1:numeriske-metoder', 'm05', 'flervalg', 'Hvor stor er akselerasjonen i starten av et fall fra ro med luftmotstand?', array['Null', 'Omtrent g', '2g', 'Negativ']::text[], 1, 'Farten og dermed luftmotstanden er null i starten.', false, true, 14),
+  ('fysikk-1:numeriske-metoder', 'm06', 'flervalg', 'Hva skjer med terminalfarten hvis k blir større, for eksempel når fallskjermen åpnes?', array['Den blir mindre', 'Den blir større', 'Den er uendret', 'Den blir lik g']::text[], 0, 'v_t = √(mg/k).', false, true, 15),
+  ('fysikk-1:numeriske-metoder', 'm07', 'flervalg', 'Hva gjør linjen «t = t + dt» i programmet?', array['Beregner farten', 'Beregner kraften', 'Øker tiden med ett tidssteg', 'Stopper programmet']::text[], 2, 'Løkken går til t når sluttiden.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:numeriske-metoder', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Arbeid, energi, effekt og virkningsgrad
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:energi-og-virkningsgrad', 'fysikk-1', 'energi-og-virkningsgrad', 'Arbeid, energi, effekt og virkningsgrad', 'Arbeid, kinetisk og potensiell energi, bevaring av mekanisk energi, arbeid–energi-setningen, effekt, energikvalitet og virkningsgrad – med regneeksempler.', array[5, 8]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:energi-og-virkningsgrad', '## Arbeid
+
+Når en kraft flytter et legeme, gjør kraften et **arbeid**:
+
+**W = F · s · cos α**
+
+her er α vinkelen mellom kraften og bevegelsesretningen. Enheten er **joule** (J). Drar du en kasse med 50 N i 10 m i bevegelsesretningen, er arbeidet 500 J. En kraft **vinkelrett** på bevegelsen gjør **ikke** noe arbeid, og friksjon gjør **negativt** arbeid.
+
+## Kinetisk og potensiell energi
+
+- **Kinetisk energi** (bevegelsesenergi): **Eₖ = ½mv²**. En ball på 0,50 kg med fart 12 m/s har Eₖ = ½ · 0,50 · 12² = **36 J**.
+- **Potensiell energi** (stillingsenergi) i tyngdefeltet: **Eₚ = mgh**. En kasse på 2,0 kg løftet 3,0 m får Eₚ = 2,0 · 9,81 · 3,0 ≈ **59 J**.
+
+Høyden h måles fra et **nullnivå** vi velger selv.
+
+## Bevaring av mekanisk energi
+
+Den **mekaniske energien** er E = Eₖ + Eₚ. Hvis bare **tyngdekraften** gjør arbeid (ingen friksjon eller luftmotstand), er den **bevart**:
+
+**½mv₀² + mgh₀ = ½mv² + mgh**
+
+**Eksempel**: En ball faller fra 5,0 m. Farten ved bakken: mgh = ½mv² → v = √(2gh) = √(2 · 9,81 · 5,0) ≈ **9,9 m/s**. Massen forsvinner fra likningen.
+
+## Arbeid–energi-setningen
+
+Arbeidet som **summen av kreftene** gjør, er lik endringen i kinetisk energi: **W_ΣF = ΔEₖ**. Når friksjon virker, går mekanisk energi over til **indre energi** (varme) – den forsvinner ikke, men **omformes**.
+
+## Effekt
+
+**Effekt** er arbeid eller energi per tid:
+
+**P = W / t**, enhet **watt** (W = J/s).
+
+En motor som gjør 600 J arbeid på 3,0 s, har effekten **200 W**. For et legeme med konstant fart gjelder også P = F · v.
+
+## Energiprinsippet og energikvalitet
+
+Energi kan **verken skapes eller forsvinne**, bare **omformes**. Likevel sier vi at energi «brukes opp», fordi den går over til former med **lavere kvalitet**:
+
+- **Høy kvalitet**: elektrisk energi, mekanisk energi, kjemisk energi – lett å omforme til andre former.
+- **Lav kvalitet**: varme ved lav temperatur – vanskelig å utnytte.
+
+All energiomforming ender til slutt som **spredt varme**.
+
+## Virkningsgrad
+
+**Virkningsgraden** η forteller hvor stor del av den tilførte energien som blir **nyttig**:
+
+**η = nyttig energi / tilført energi**
+
+En motor som får 500 J og leverer 400 J mekanisk arbeid, har η = 400/500 = **0,80 = 80 %**. Resten blir varme. Typiske virkningsgrader:
+
+- elektromotor: ofte over 90 %
+- bensinmotor: rundt 25–35 %
+- vannkraftverk: rundt 90 %
+- glødepære: bare noen få prosent som lys
+
+Virkningsgraden kan **aldri** bli over 100 %.', '{"label":"Energi og virkningsgrad","children":[{"label":"Arbeid","children":[{"label":"W = Fs cos α"},{"label":"Negativt arbeid"}]},{"label":"Energiformer","children":[{"label":"Eₖ = ½mv²"},{"label":"Eₚ = mgh"},{"label":"Indre energi"}]},{"label":"Bevaring","children":[{"label":"Mekanisk energi"},{"label":"Arbeid–energi-setningen"},{"label":"Energiprinsippet"}]},{"label":"Effekt","children":[{"label":"P = W/t"},{"label":"Watt"}]},{"label":"Kvalitet","children":[{"label":"Høy og lav kvalitet"},{"label":"Virkningsgrad η"},{"label":"Aldri over 100 %"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:energi-og-virkningsgrad';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:energi-og-virkningsgrad', 'Arbeid', 'W = F · s · cos α, målt i joule.', 0),
+  ('fysikk-1:energi-og-virkningsgrad', 'Kinetisk energi', 'Eₖ = ½mv²', 1),
+  ('fysikk-1:energi-og-virkningsgrad', 'Potensiell energi', 'Eₚ = mgh', 2),
+  ('fysikk-1:energi-og-virkningsgrad', 'Nullnivå', 'Høyden vi velger at Eₚ = 0.', 3),
+  ('fysikk-1:energi-og-virkningsgrad', 'Mekanisk energi', 'E = Eₖ + Eₚ', 4),
+  ('fysikk-1:energi-og-virkningsgrad', 'Bevaring av mekanisk energi', 'Gjelder når bare tyngdekraften gjør arbeid.', 5),
+  ('fysikk-1:energi-og-virkningsgrad', 'Arbeid–energi-setningen', 'Arbeidet til kraftsummen er lik ΔEₖ.', 6),
+  ('fysikk-1:energi-og-virkningsgrad', 'Indre energi', 'Energien til partiklene i et stoff – øker ved friksjon.', 7),
+  ('fysikk-1:energi-og-virkningsgrad', 'Effekt', 'P = W / t, målt i watt.', 8),
+  ('fysikk-1:energi-og-virkningsgrad', 'Watt', 'J/s', 9),
+  ('fysikk-1:energi-og-virkningsgrad', 'Energiprinsippet', 'Energi kan verken skapes eller forsvinne, bare omformes.', 10),
+  ('fysikk-1:energi-og-virkningsgrad', 'Energikvalitet', 'Hvor lett energien kan omformes til andre former.', 11),
+  ('fysikk-1:energi-og-virkningsgrad', 'Virkningsgrad', 'η = nyttig energi / tilført energi', 12),
+  ('fysikk-1:energi-og-virkningsgrad', 'Fart etter fall fra høyden h', 'v = √(2gh) uten luftmotstand.', 13),
+  ('fysikk-1:energi-og-virkningsgrad', 'Negativt arbeid', 'Når kraften virker mot bevegelsen, som friksjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:energi-og-virkningsgrad';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:energi-og-virkningsgrad', 'q01', 'flervalg', 'Hva er den kinetiske energien til en ball på 0,50 kg med fart 12 m/s?', array['6,0 J', '36 J', '72 J', '3,0 J']::text[], 1, '½ · 0,50 · 12² = 36 J.', true, true, 0),
+  ('fysikk-1:energi-og-virkningsgrad', 'q02', 'flervalg', 'Når er den mekaniske energien bevart?', array['Når bare tyngdekraften gjør arbeid', 'Alltid', 'Når friksjonen er stor', 'Når farten er konstant']::text[], 0, 'Friksjon omformer mekanisk energi til varme.', true, true, 1),
+  ('fysikk-1:energi-og-virkningsgrad', 'q03', 'flervalg', 'Omtrent hvor stor fart har en ball som har falt 5,0 m fra ro, uten luftmotstand?', array['5,0 m/s', '49 m/s', '9,9 m/s', '98 m/s']::text[], 2, 'v = √(2 · 9,81 · 5,0).', true, true, 2),
+  ('fysikk-1:energi-og-virkningsgrad', 'q04', 'flervalg', 'En motor gjør 600 J arbeid på 3,0 s. Hva er effekten?', array['1800 W', '600 W', '0,005 W', '200 W']::text[], 3, 'P = W/t.', true, true, 3),
+  ('fysikk-1:energi-og-virkningsgrad', 'q05', 'flervalg', 'En motor får tilført 500 J og leverer 400 J nyttig arbeid. Hva er virkningsgraden?', array['80 %', '125 %', '20 %', '100 %']::text[], 0, '400/500 = 0,80.', true, true, 4),
+  ('fysikk-1:energi-og-virkningsgrad', 'q06', 'flervalg', 'Hvilken energiform har lavest kvalitet?', array['Elektrisk energi', 'Varme ved lav temperatur', 'Mekanisk energi', 'Kjemisk energi']::text[], 1, 'Den er vanskeligst å utnytte.', true, true, 5),
+  ('fysikk-1:energi-og-virkningsgrad', 'q07', 'flervalg', 'Hvor mye arbeid gjør en kraft som står vinkelrett på bevegelsen?', array['F · s', 'Negativt arbeid', 'Null', 'Dobbelt så mye']::text[], 2, 'cos 90° = 0.', true, true, 6),
+  ('fysikk-1:energi-og-virkningsgrad', 'q08', 'flervalg', 'Hva sier arbeid–energi-setningen?', array['Arbeid er alltid null', 'Eₚ = mgh', 'Energi kan skapes', 'Arbeidet til kraftsummen er lik endringen i kinetisk energi']::text[], 3, 'W_ΣF = ΔEₖ.', true, true, 7),
+  ('fysikk-1:energi-og-virkningsgrad', 'q09', 'flervalg', 'Hva er den potensielle energien til 2,0 kg løftet 3,0 m?', array['Omtrent 59 J', '6,0 J', 'Omtrent 29 J', 'Omtrent 590 J']::text[], 0, '2,0 · 9,81 · 3,0.', true, false, 8),
+  ('fysikk-1:energi-og-virkningsgrad', 'q10', 'flervalg', 'Hva skjer med mekanisk energi når friksjon virker?', array['Den forsvinner helt', 'Den omformes til indre energi (varme)', 'Den øker', 'Den blir til masse']::text[], 1, 'Energiprinsippet gjelder fortsatt.', true, false, 9),
+  ('fysikk-1:energi-og-virkningsgrad', 'm01', 'sant-usant', 'Farten etter et fritt fall avhenger ikke av massen.', array['Sant', 'Usant']::text[], 0, 'Massen forsvinner fra mgh = ½mv².', false, true, 10),
+  ('fysikk-1:energi-og-virkningsgrad', 'm02', 'sant-usant', 'En god motor kan ha virkningsgrad over 100 %.', array['Sant', 'Usant']::text[], 1, 'Da måtte energi blitt skapt.', false, true, 11),
+  ('fysikk-1:energi-og-virkningsgrad', 'm03', 'sant-usant', 'Friksjon gjør negativt arbeid.', array['Sant', 'Usant']::text[], 0, 'Den virker mot bevegelsen.', false, true, 12),
+  ('fysikk-1:energi-og-virkningsgrad', 'm04', 'sant-usant', 'En bensinmotor har høyere virkningsgrad enn en elektromotor.', array['Sant', 'Usant']::text[], 1, 'Elektromotorer har ofte over 90 %, bensinmotorer rundt 25–35 %.', false, true, 13),
+  ('fysikk-1:energi-og-virkningsgrad', 'm05', 'flervalg', 'Hva er enheten for effekt?', array['Joule', 'Watt', 'Newton', 'Kilogram']::text[], 1, '1 W = 1 J/s.', false, true, 14),
+  ('fysikk-1:energi-og-virkningsgrad', 'm06', 'flervalg', 'Hvor mye arbeid gjør du når du drar en kasse 10 m med 50 N i bevegelsesretningen?', array['500 J', '5 J', '60 J', '0,2 J']::text[], 0, 'W = 50 · 10.', false, true, 15),
+  ('fysikk-1:energi-og-virkningsgrad', 'm07', 'flervalg', 'Hva skjer med den kinetiske energien hvis farten dobles?', array['Den dobles', 'Den halveres', 'Den blir fire ganger så stor', 'Den er uendret']::text[], 2, 'Eₖ er proporsjonal med v².', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:energi-og-virkningsgrad', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Bevegelsesmengde, impuls og støt
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:bevegelsesmengde', 'fysikk-1', 'bevegelsesmengde', 'Bevegelsesmengde, impuls og støt', 'Bevegelsesmengde og impuls, loven om bevaring av bevegelsesmengde, elastiske og uelastiske støt, rekyl og hvordan kollisjonssikkerhet bygger på fysikk.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:bevegelsesmengde', '## Bevegelsesmengde
+
+**Bevegelsesmengden** til et legeme er massen ganger farten:
+
+**p = m · v**, enhet **kg·m/s**.
+
+Bevegelsesmengde er en **vektor** – den har samme retning som farten. En lastebil og en sykkel med samme fart har svært ulik bevegelsesmengde.
+
+## Impuls
+
+Når en kraft virker i en tid, gir den legemet en **impuls**:
+
+**I = F · Δt = Δp**
+
+Impulsen er lik **endringen i bevegelsesmengde** (impulsloven). Enheten er **N·s**, som er det samme som kg·m/s.
+
+**Eksempel**: En fotball blir sparket med en gjennomsnittlig kraft på 500 N i 0,020 s. Impulsen blir I = 500 · 0,020 = **10 N·s**, og ballen får en endring i bevegelsesmengde på 10 kg·m/s.
+
+## Kollisjonssikkerhet
+
+For en gitt endring i bevegelsesmengde gir **lengre tid** **mindre kraft**: F = Δp / Δt. Derfor har biler **kollisjonssoner** og **kollisjonsputer**, og derfor bøyer du knærne når du lander etter et hopp. Hjelmer og fallunderlag virker på samme måte.
+
+## Bevaring av bevegelsesmengde
+
+I et **isolert system** – der ytre krefter kan ses bort fra – er den **samlede bevegelsesmengden bevart**:
+
+**m₁v₁ + m₂v₂ = m₁v₁'' + m₂v₂''**
+
+Dette følger av **Newtons 3. lov**: Kreftene mellom legemene er like store og motsatt rettet, og virker like lenge, så impulsene opphever hverandre.
+
+## Typer støt
+
+- **Fullstendig elastisk støt**: Både bevegelsesmengde og **kinetisk energi** er bevart. Nær elastisk er for eksempel støt mellom biljardkuler.
+- **Uelastisk støt**: Bevegelsesmengden er bevart, men noe kinetisk energi går over til varme, lyd og deformasjon.
+- **Fullstendig uelastisk støt**: Legemene **henger sammen** etter støtet.
+
+**Eksempel**: En vogn på 2,0 kg med fart 3,0 m/s kolliderer med en vogn på 1,0 kg i ro, og de henger sammen.
+
+2,0 · 3,0 + 0 = (2,0 + 1,0) · v → v = **2,0 m/s**
+
+Kinetisk energi før: ½ · 2,0 · 3,0² = 9,0 J. Etter: ½ · 3,0 · 2,0² = 6,0 J. **3,0 J** er omformet til andre energiformer.
+
+## Rekyl og eksplosjoner
+
+Når noe **skytes ut** eller **sprenges**, er den samlede bevegelsesmengden null før og etter. En kule på 0,010 kg med fart 400 m/s fra et gevær på 4,0 kg gir geværet en rekylfart:
+
+0 = 0,010 · 400 + 4,0 · v → v = **−1,0 m/s** (motsatt retning).
+
+Samme prinsipp driver **raketter**: Gassen skytes bakover, og raketten får bevegelsesmengde framover.
+
+## Framgangsmåte
+
+1. Velg **positiv retning**.
+2. Skriv opp bevegelsesmengden **før** og **etter** – husk fortegn.
+3. Sett dem like og løs.
+4. Sjekk **kinetisk energi** hvis du skal avgjøre hvilken type støt det er.', '{"label":"Bevegelsesmengde","children":[{"label":"Begreper","children":[{"label":"p = mv"},{"label":"I = FΔt"},{"label":"Impulsloven"}]},{"label":"Sikkerhet","children":[{"label":"Kollisjonspute"},{"label":"Lengre tid – mindre kraft"}]},{"label":"Bevaring","children":[{"label":"Isolert system"},{"label":"Newtons 3. lov"}]},{"label":"Støt","children":[{"label":"Elastisk"},{"label":"Uelastisk"},{"label":"Fullstendig uelastisk"}]},{"label":"Rekyl","children":[{"label":"Gevær"},{"label":"Rakett"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:bevegelsesmengde';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:bevegelsesmengde', 'Bevegelsesmengde', 'p = m · v, enhet kg·m/s.', 0),
+  ('fysikk-1:bevegelsesmengde', 'Impuls', 'I = F · Δt, enhet N·s.', 1),
+  ('fysikk-1:bevegelsesmengde', 'Impulsloven', 'Impulsen er lik endringen i bevegelsesmengde.', 2),
+  ('fysikk-1:bevegelsesmengde', 'Isolert system', 'System der ytre krefter kan ses bort fra.', 3),
+  ('fysikk-1:bevegelsesmengde', 'Bevaring av bevegelsesmengde', 'Samlet p er lik før og etter i et isolert system.', 4),
+  ('fysikk-1:bevegelsesmengde', 'Fullstendig elastisk støt', 'Både p og kinetisk energi er bevart.', 5),
+  ('fysikk-1:bevegelsesmengde', 'Uelastisk støt', 'p er bevart, men noe Eₖ går tapt til andre former.', 6),
+  ('fysikk-1:bevegelsesmengde', 'Fullstendig uelastisk støt', 'Legemene henger sammen etter støtet.', 7),
+  ('fysikk-1:bevegelsesmengde', 'Rekyl', 'Bakoverbevegelse når noe skytes ut forover.', 8),
+  ('fysikk-1:bevegelsesmengde', 'Kollisjonspute', 'Øker tiden for stansen og reduserer kraften.', 9),
+  ('fysikk-1:bevegelsesmengde', 'F = Δp / Δt', 'Lengre tid gir mindre kraft.', 10),
+  ('fysikk-1:bevegelsesmengde', 'Rakettprinsippet', 'Gass skytes bakover, raketten får p framover.', 11),
+  ('fysikk-1:bevegelsesmengde', 'Vektor', 'Størrelse med både tallverdi og retning.', 12),
+  ('fysikk-1:bevegelsesmengde', 'Sammenheng med Newtons 3. lov', 'Like store, motsatte impulser mellom legemene.', 13),
+  ('fysikk-1:bevegelsesmengde', 'N·s', 'Samme enhet som kg·m/s.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:bevegelsesmengde';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:bevegelsesmengde', 'q01', 'flervalg', 'Hva er bevegelsesmengde?', array['Masse ganger akselerasjon', 'Masse ganger fart', 'Kraft ganger vei', 'Fart delt på tid']::text[], 1, 'p = m · v.', true, true, 0),
+  ('fysikk-1:bevegelsesmengde', 'q02', 'flervalg', 'En ball sparkes med 500 N i 0,020 s. Hva er impulsen?', array['10 N·s', '25 000 N·s', '500 N·s', '0,04 N·s']::text[], 0, 'I = F · Δt.', true, true, 1),
+  ('fysikk-1:bevegelsesmengde', 'q03', 'flervalg', 'En vogn på 2,0 kg (3,0 m/s) kolliderer med en vogn på 1,0 kg i ro, og de henger sammen. Hva blir farten?', array['3,0 m/s', '1,0 m/s', '2,0 m/s', '1,5 m/s']::text[], 2, '6,0 kg·m/s / 3,0 kg.', true, true, 2),
+  ('fysikk-1:bevegelsesmengde', 'q04', 'flervalg', 'Hva kjennetegner et fullstendig elastisk støt?', array['Legemene henger sammen', 'Bare energien er bevart', 'Ingenting er bevart', 'Både bevegelsesmengde og kinetisk energi er bevart']::text[], 3, 'Ingen kinetisk energi går tapt.', true, true, 3),
+  ('fysikk-1:bevegelsesmengde', 'q05', 'flervalg', 'Hvorfor reduserer en kollisjonspute skadene?', array['Den øker tiden for stansen, slik at kraften blir mindre', 'Den øker farten', 'Den fjerner bevegelsesmengden', 'Den øker massen']::text[], 0, 'F = Δp / Δt.', true, true, 4),
+  ('fysikk-1:bevegelsesmengde', 'q06', 'flervalg', 'Når er bevegelsesmengden bevart?', array['Alltid for hvert legeme', 'I et isolert system', 'Bare i elastiske støt', 'Bare når farten er null']::text[], 1, 'Ytre krefter må kunne ses bort fra.', true, true, 5),
+  ('fysikk-1:bevegelsesmengde', 'q07', 'flervalg', 'En kule på 0,010 kg skytes ut med 400 m/s fra et gevær på 4,0 kg. Hva blir rekylfarten?', array['4,0 m/s', '0,10 m/s', '1,0 m/s motsatt vei', '400 m/s']::text[], 2, '0,010 · 400 / 4,0.', true, true, 6),
+  ('fysikk-1:bevegelsesmengde', 'q08', 'flervalg', 'Hvor mye kinetisk energi går tapt i støtet mellom vognene på 2,0 kg og 1,0 kg?', array['0 J', '9,0 J', '6,0 J', '3,0 J']::text[], 3, '9,0 J før, 6,0 J etter.', true, true, 7),
+  ('fysikk-1:bevegelsesmengde', 'q09', 'flervalg', 'Hvilken lov ligger bak bevaring av bevegelsesmengde?', array['Newtons 3. lov', 'Ohms lov', 'Wiens lov', 'Hookes lov']::text[], 0, 'Like store, motsatt rettede krefter.', true, false, 8),
+  ('fysikk-1:bevegelsesmengde', 'q10', 'flervalg', 'Hva er enheten for bevegelsesmengde?', array['kg·m/s²', 'kg·m/s', 'J', 'W']::text[], 1, 'Samme som N·s.', true, false, 9),
+  ('fysikk-1:bevegelsesmengde', 'm01', 'sant-usant', 'Bevegelsesmengde har retning.', array['Sant', 'Usant']::text[], 0, 'Den er en vektor med samme retning som farten.', false, true, 10),
+  ('fysikk-1:bevegelsesmengde', 'm02', 'sant-usant', 'I et fullstendig uelastisk støt er bevegelsesmengden ikke bevart.', array['Sant', 'Usant']::text[], 1, 'Bevegelsesmengden er bevart; det er kinetisk energi som går tapt.', false, true, 11),
+  ('fysikk-1:bevegelsesmengde', 'm03', 'sant-usant', 'En rakett kan akselerere i verdensrommet uten noe å skyve mot.', array['Sant', 'Usant']::text[], 0, 'Den skyver gass bakover og får bevegelsesmengde framover.', false, true, 12),
+  ('fysikk-1:bevegelsesmengde', 'm04', 'sant-usant', 'Kortere bremsetid gir mindre kraft ved en kollisjon.', array['Sant', 'Usant']::text[], 1, 'Kortere tid gir større kraft.', false, true, 13),
+  ('fysikk-1:bevegelsesmengde', 'm05', 'flervalg', 'Hva er bevegelsesmengden til en bil på 1000 kg med fart 20 m/s?', array['50 kg·m/s', '20 000 kg·m/s', '200 000 kg·m/s', '1020 kg·m/s']::text[], 1, 'p = 1000 · 20.', false, true, 14),
+  ('fysikk-1:bevegelsesmengde', 'm06', 'flervalg', 'Hvorfor bøyer du knærne når du lander etter et hopp?', array['For å øke tiden stansen tar og redusere kraften', 'For å øke farten', 'For å øke bevegelsesmengden', 'For å hoppe høyere']::text[], 0, 'F = Δp / Δt.', false, true, 15),
+  ('fysikk-1:bevegelsesmengde', 'm07', 'flervalg', 'Hva er samlet bevegelsesmengde før et gevær avfyres?', array['Lik kulens', 'Lik geværets', 'Null', 'Uendelig']::text[], 2, 'Alt er i ro før skuddet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:bevegelsesmengde', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Elektrisitet og kretser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:elektrisitet', 'fysikk-1', 'elektrisitet', 'Elektrisitet og kretser', 'Ladning, strøm, spenning og resistans, Ohms lov, serie- og parallellkobling, Kirchhoffs lover, elektrisk effekt og energi – og hvordan du regner på enkle kretser.', array[9]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:elektrisitet', '## Ladning
+
+**Elektrisk ladning** Q måles i **coulomb** (C). Elektronet har ladningen **−e**, der e = 1,60 · 10⁻¹⁹ C er **elementærladningen**. Like ladninger frastøter hverandre, ulike tiltrekker hverandre. Ladning er **bevart**: Den kan flyttes, men ikke skapes eller forsvinne.
+
+## Strøm, spenning og resistans
+
+- **Strøm** I er ladning som passerer per tid: **I = Q / t**, enhet **ampere** (A). Vi regner strømretningen fra **pluss til minus**, selv om elektronene går motsatt vei.
+- **Spenning** U er energi per ladning: **U = W / Q**, enhet **volt** (V = J/C). Spenningen fra et batteri «dytter» ladningene rundt i kretsen.
+- **Resistans** R er hvor mye en komponent hindrer strømmen, enhet **ohm** (Ω).
+
+## Ohms lov
+
+For en **ohmsk** leder (for eksempel en resistor ved konstant temperatur) gjelder:
+
+**U = R · I**
+
+**Eksempel**: En resistor på 4,0 Ω kobles til 12 V. Strømmen blir I = 12 / 4,0 = **3,0 A**.
+
+Resistansen i en ledning øker med **lengden** og minker med **tverrsnittsarealet**: R = ρL / A, der ρ er **resistiviteten** til materialet.
+
+## Serie- og parallellkobling
+
+- **Seriekobling**: Samme strøm gjennom alle komponentene. Resistansene legges sammen: **R = R₁ + R₂**. 2,0 Ω og 4,0 Ω i serie gir **6,0 Ω**.
+- **Parallellkobling**: Samme spenning over alle greinene. **1/R = 1/R₁ + 1/R₂**. 2,0 Ω og 4,0 Ω i parallell gir R ≈ **1,3 Ω** – mindre enn den minste.
+
+Husene våre har **parallellkobling**, slik at hvert apparat får full spenning og kan slås av og på uavhengig av de andre.
+
+## Kirchhoffs lover
+
+1. **Strømloven**: Summen av strømmene **inn** i et forgreningspunkt er lik summen av strømmene **ut**. (Ladning er bevart.)
+2. **Spenningsloven**: Rundt en lukket sløyfe er summen av spenningsøkninger lik summen av spenningsfall. (Energi er bevart.)
+
+## Effekt og energi
+
+**Elektrisk effekt** er energi per tid:
+
+**P = U · I** = R · I² = U² / R
+
+Resistoren på 4,0 Ω ved 12 V har P = 12 · 3,0 = **36 W**.
+
+**Elektrisk energi** er **E = P · t**. Strømregningen oppgis i **kilowattimer**: 1 kWh = 1000 W · 3600 s = **3,6 MJ**. En vannkoker på 2,0 kW som står på i 3,0 minutter, bruker 2,0 kW · 0,050 t = **0,10 kWh**.
+
+## Måleinstrumenter
+
+- **Amperemeter** kobles i **serie** og skal ha svært liten resistans.
+- **Voltmeter** kobles i **parallell** over komponenten og skal ha svært stor resistans.
+
+## Sikkerhet
+
+**Sikringer** bryter kretsen når strømmen blir for stor, og **jordfeilbrytere** bryter når strøm lekker ut av kretsen. Det er **strømmen gjennom kroppen** som er farlig – selv noen titalls milliampere gjennom hjertet kan være livsfarlig.', '{"label":"Elektrisitet","children":[{"label":"Grunnbegreper","children":[{"label":"Ladning Q"},{"label":"Strøm I = Q/t"},{"label":"Spenning U = W/Q"}]},{"label":"Resistans","children":[{"label":"Ohms lov U = RI"},{"label":"R = ρL/A"}]},{"label":"Kretser","children":[{"label":"Serie"},{"label":"Parallell"},{"label":"Kirchhoffs lover"}]},{"label":"Effekt og energi","children":[{"label":"P = UI"},{"label":"E = Pt"},{"label":"kWh"}]},{"label":"Praksis","children":[{"label":"Amperemeter og voltmeter"},{"label":"Sikring og jordfeilbryter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:elektrisitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:elektrisitet', 'Elementærladning e', '1,60 · 10⁻¹⁹ C', 0),
+  ('fysikk-1:elektrisitet', 'Coulomb (C)', 'Enhet for elektrisk ladning.', 1),
+  ('fysikk-1:elektrisitet', 'Strøm', 'I = Q / t, målt i ampere.', 2),
+  ('fysikk-1:elektrisitet', 'Spenning', 'U = W / Q, energi per ladning, målt i volt.', 3),
+  ('fysikk-1:elektrisitet', 'Resistans', 'Hvor mye en komponent hindrer strømmen, målt i ohm.', 4),
+  ('fysikk-1:elektrisitet', 'Ohms lov', 'U = R · I', 5),
+  ('fysikk-1:elektrisitet', 'Resistivitet', 'Materialegenskap i R = ρL / A.', 6),
+  ('fysikk-1:elektrisitet', 'Seriekobling', 'Samme strøm; R = R₁ + R₂.', 7),
+  ('fysikk-1:elektrisitet', 'Parallellkobling', 'Samme spenning; 1/R = 1/R₁ + 1/R₂.', 8),
+  ('fysikk-1:elektrisitet', 'Kirchhoffs strømlov', 'Strøm inn i et punkt = strøm ut.', 9),
+  ('fysikk-1:elektrisitet', 'Kirchhoffs spenningslov', 'Spenningsøkninger = spenningsfall rundt en sløyfe.', 10),
+  ('fysikk-1:elektrisitet', 'Elektrisk effekt', 'P = U · I', 11),
+  ('fysikk-1:elektrisitet', 'Kilowattime', '1 kWh = 3,6 MJ', 12),
+  ('fysikk-1:elektrisitet', 'Amperemeter', 'Kobles i serie, liten resistans.', 13),
+  ('fysikk-1:elektrisitet', 'Voltmeter', 'Kobles i parallell, stor resistans.', 14),
+  ('fysikk-1:elektrisitet', 'Jordfeilbryter', 'Bryter kretsen når strøm lekker ut.', 15);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:elektrisitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:elektrisitet', 'q01', 'flervalg', 'En resistor på 4,0 Ω kobles til 12 V. Hva blir strømmen?', array['48 A', '3,0 A', '0,33 A', '16 A']::text[], 1, 'I = U/R.', true, true, 0),
+  ('fysikk-1:elektrisitet', 'q02', 'flervalg', 'Hva er den samlede resistansen til 2,0 Ω og 4,0 Ω i serie?', array['6,0 Ω', '1,3 Ω', '8,0 Ω', '2,0 Ω']::text[], 0, 'R = R₁ + R₂.', true, true, 1),
+  ('fysikk-1:elektrisitet', 'q03', 'flervalg', 'Hva er den samlede resistansen til 2,0 Ω og 4,0 Ω i parallell?', array['6,0 Ω', '3,0 Ω', 'Omtrent 1,3 Ω', '8,0 Ω']::text[], 2, '1/R = 1/2 + 1/4 = 3/4.', true, true, 2),
+  ('fysikk-1:elektrisitet', 'q04', 'flervalg', 'Hva er spenning?', array['Ladning per tid', 'Motstand mot strøm', 'Effekt per tid', 'Energi per ladning']::text[], 3, 'U = W/Q, volt = J/C.', true, true, 3),
+  ('fysikk-1:elektrisitet', 'q05', 'flervalg', 'Hvor mye energi bruker en vannkoker på 2,0 kW i 3,0 minutter?', array['0,10 kWh', '6,0 kWh', '1,0 kWh', '0,033 kWh']::text[], 0, '2,0 kW · 0,050 t.', true, true, 4),
+  ('fysikk-1:elektrisitet', 'q06', 'flervalg', 'Hvordan skal et voltmeter kobles?', array['I serie', 'I parallell over komponenten', 'Uten ledninger', 'Mellom to batterier']::text[], 1, 'Det måler spenningsforskjellen over komponenten.', true, true, 5),
+  ('fysikk-1:elektrisitet', 'q07', 'flervalg', 'Hva sier Kirchhoffs strømlov?', array['U = RI', 'Spenningen er lik overalt', 'Strømmen inn i et forgreningspunkt er lik strømmen ut', 'Strømmen øker i hvert punkt']::text[], 2, 'Ladning er bevart.', true, true, 6),
+  ('fysikk-1:elektrisitet', 'q08', 'flervalg', 'Hva er effekten i en resistor når U = 12 V og I = 3,0 A?', array['4,0 W', '15 W', '0,25 W', '36 W']::text[], 3, 'P = U · I.', true, true, 7),
+  ('fysikk-1:elektrisitet', 'q09', 'flervalg', 'Hvorfor er husene våre koblet i parallell?', array['Slik at hvert apparat får full spenning og kan styres for seg', 'For å spare ledninger', 'For å øke resistansen', 'For å få samme strøm overalt']::text[], 0, 'Apparatene er uavhengige av hverandre.', true, false, 8),
+  ('fysikk-1:elektrisitet', 'q10', 'flervalg', 'Hvor mange joule er 1 kWh?', array['1000 J', '3,6 MJ', '3600 J', '60 kJ']::text[], 1, '1000 W · 3600 s.', true, false, 9),
+  ('fysikk-1:elektrisitet', 'm01', 'sant-usant', 'I en seriekobling går samme strøm gjennom alle komponentene.', array['Sant', 'Usant']::text[], 0, 'Det finnes bare én vei for strømmen.', false, true, 10),
+  ('fysikk-1:elektrisitet', 'm02', 'sant-usant', 'Den samlede resistansen i en parallellkobling er større enn den største enkeltresistansen.', array['Sant', 'Usant']::text[], 1, 'Den er mindre enn den minste.', false, true, 11),
+  ('fysikk-1:elektrisitet', 'm03', 'sant-usant', 'Et amperemeter skal ha svært liten resistans.', array['Sant', 'Usant']::text[], 0, 'Ellers påvirker det strømmen det skal måle.', false, true, 12),
+  ('fysikk-1:elektrisitet', 'm04', 'sant-usant', 'Elektronene i en ledning beveger seg fra pluss til minus.', array['Sant', 'Usant']::text[], 1, 'Elektronene går fra minus til pluss; strømretningen er definert motsatt.', false, true, 13),
+  ('fysikk-1:elektrisitet', 'm05', 'flervalg', 'Hva skjer med resistansen i en ledning hvis lengden dobles?', array['Den halveres', 'Den dobles', 'Den er uendret', 'Den firedobles']::text[], 1, 'R = ρL/A.', false, true, 14),
+  ('fysikk-1:elektrisitet', 'm06', 'flervalg', 'Hva er enheten for spenning?', array['Volt', 'Ampere', 'Ohm', 'Watt']::text[], 0, '1 V = 1 J/C.', false, true, 15),
+  ('fysikk-1:elektrisitet', 'm07', 'flervalg', 'Hva gjør en sikring?', array['Øker spenningen', 'Lagrer energi', 'Bryter kretsen når strømmen blir for stor', 'Måler effekten']::text[], 2, 'Den hindrer overoppheting og brann.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:elektrisitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Varme, temperatur og indre energi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:varme-og-temperatur', 'fysikk-1', 'varme-og-temperatur', 'Varme, temperatur og indre energi', 'Forskjellen på temperatur, varme og indre energi, kelvinskalaen, spesifikk varmekapasitet, faseoverganger, varmetransport og termodynamikkens første og andre lov.', array[10]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:varme-og-temperatur', '## Temperatur
+
+Alle stoffer består av partikler i **bevegelse**. **Temperaturen** er et mål på den **gjennomsnittlige kinetiske energien** til partiklene. Jo varmere, desto raskere beveger de seg.
+
+I fysikken bruker vi ofte **kelvinskalaen**: **T = t + 273** (mer nøyaktig 273,15). **Det absolutte nullpunktet**, 0 K = −273,15 °C, er den laveste temperaturen som er mulig. En temperaturendring på 1 K er like stor som 1 °C.
+
+## Indre energi og varme
+
+- **Indre energi** U er den samlede energien til alle partiklene i et stoff – både bevegelsesenergi og energi knyttet til kreftene mellom dem.
+- **Varme** Q er energi som overføres **på grunn av en temperaturforskjell**. Varme er altså energi **i overføring**, ikke noe et legeme «har».
+
+**Termodynamikkens første lov**: Endringen i indre energi er lik tilført varme pluss arbeid gjort **på** systemet:
+
+**ΔU = Q + W**
+
+Dette er energiprinsippet brukt på varme. Du kan varme opp hendene både ved å holde dem over en ovn (varme) og ved å gni dem mot hverandre (arbeid).
+
+## Spesifikk varmekapasitet
+
+Den **spesifikke varmekapasiteten** c forteller hvor mye energi som trengs for å varme opp 1 kg av et stoff med 1 K:
+
+**Q = c · m · ΔT**
+
+Vann har en svært høy verdi: c ≈ **4180 J/(kg·K)**. Det er derfor havet jevner ut temperaturen langs kysten.
+
+**Eksempel**: Å varme 1,0 kg vann fra 20 °C til 100 °C krever Q = 4180 · 1,0 · 80 ≈ **3,3 · 10⁵ J** (334 kJ).
+
+## Faseoverganger
+
+Når et stoff **smelter** eller **fordamper**, går energien med til å bryte bindinger mellom partiklene, og **temperaturen er konstant** under overgangen.
+
+- **Spesifikk smeltevarme** for is: l_s ≈ 334 kJ/kg. Å smelte 0,50 kg is ved 0 °C krever 0,50 · 334 ≈ **167 kJ**.
+- **Spesifikk fordampningsvarme** for vann: l_f ≈ 2,26 MJ/kg – nesten sju ganger så mye.
+
+Når damp **kondenserer** eller vann **fryser**, frigjøres den samme energien.
+
+## Varmetransport
+
+- **Varmeledning**: Energi overføres gjennom et stoff ved at partikler støter mot hverandre. Metaller leder godt, luft og isopor dårlig.
+- **Konveksjon** (strømning): Varm væske eller gass stiger og fører energi med seg, som i en panelovn eller i havstrømmer.
+- **Stråling**: Alle legemer sender ut elektromagnetisk stråling – slik får vi energi fra sola gjennom tomt rom.
+
+## Termodynamikkens andre lov
+
+Varme går **av seg selv** bare fra **varmt til kaldt**. For å flytte varme fra kaldt til varmt må vi tilføre **arbeid** – slik fungerer et **kjøleskap** og en **varmepumpe**. Loven forklarer også hvorfor ingen varmekraftmaskin kan omforme all varme til arbeid, og hvorfor energikvaliteten synker.', '{"label":"Varme og temperatur","children":[{"label":"Begreper","children":[{"label":"Temperatur"},{"label":"Indre energi"},{"label":"Varme"}]},{"label":"Kelvin","children":[{"label":"T = t + 273"},{"label":"Absolutt nullpunkt"}]},{"label":"Beregninger","children":[{"label":"Q = cmΔT"},{"label":"Smeltevarme"},{"label":"Fordampningsvarme"}]},{"label":"Varmetransport","children":[{"label":"Ledning"},{"label":"Konveksjon"},{"label":"Stråling"}]},{"label":"Termodynamikk","children":[{"label":"1. lov: ΔU = Q + W"},{"label":"2. lov: varmt til kaldt"},{"label":"Varmepumpe"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:varme-og-temperatur';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:varme-og-temperatur', 'Temperatur', 'Mål på partiklenes gjennomsnittlige kinetiske energi.', 0),
+  ('fysikk-1:varme-og-temperatur', 'Kelvin', 'T = t + 273,15', 1),
+  ('fysikk-1:varme-og-temperatur', 'Absolutt nullpunkt', '0 K = −273,15 °C, laveste mulige temperatur.', 2),
+  ('fysikk-1:varme-og-temperatur', 'Indre energi', 'Samlet energi til alle partiklene i et stoff.', 3),
+  ('fysikk-1:varme-og-temperatur', 'Varme', 'Energi som overføres på grunn av temperaturforskjell.', 4),
+  ('fysikk-1:varme-og-temperatur', 'Termodynamikkens 1. lov', 'ΔU = Q + W', 5),
+  ('fysikk-1:varme-og-temperatur', 'Spesifikk varmekapasitet', 'Energi for å varme 1 kg med 1 K; Q = cmΔT.', 6),
+  ('fysikk-1:varme-og-temperatur', 'c for vann', 'Omtrent 4180 J/(kg·K).', 7),
+  ('fysikk-1:varme-og-temperatur', 'Spesifikk smeltevarme for is', 'Omtrent 334 kJ/kg.', 8),
+  ('fysikk-1:varme-og-temperatur', 'Spesifikk fordampningsvarme for vann', 'Omtrent 2,26 MJ/kg.', 9),
+  ('fysikk-1:varme-og-temperatur', 'Faseovergang', 'Temperaturen er konstant mens stoffet smelter eller fordamper.', 10),
+  ('fysikk-1:varme-og-temperatur', 'Varmeledning', 'Energioverføring ved at partikler støter mot hverandre.', 11),
+  ('fysikk-1:varme-og-temperatur', 'Konveksjon', 'Varm væske eller gass strømmer og fører energi med seg.', 12),
+  ('fysikk-1:varme-og-temperatur', 'Varmestråling', 'Elektromagnetisk stråling fra alle legemer.', 13),
+  ('fysikk-1:varme-og-temperatur', 'Termodynamikkens 2. lov', 'Varme går av seg selv bare fra varmt til kaldt.', 14),
+  ('fysikk-1:varme-og-temperatur', 'Varmepumpe', 'Flytter varme fra kaldt til varmt ved hjelp av arbeid.', 15);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:varme-og-temperatur';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:varme-og-temperatur', 'q01', 'flervalg', 'Hva er temperatur et mål på?', array['Hvor mye varme et legeme har', 'Partiklenes gjennomsnittlige kinetiske energi', 'Massen til et stoff', 'Trykket i en gass']::text[], 1, 'Varme er energi i overføring.', true, true, 0),
+  ('fysikk-1:varme-og-temperatur', 'q02', 'flervalg', 'Hvor mye energi trengs for å varme 1,0 kg vann fra 20 °C til 100 °C?', array['Omtrent 334 kJ', 'Omtrent 84 J', 'Omtrent 4,2 kJ', 'Omtrent 2,26 MJ']::text[], 0, 'Q = 4180 · 1,0 · 80.', true, true, 1),
+  ('fysikk-1:varme-og-temperatur', 'q03', 'flervalg', 'Hva er 27 °C i kelvin?', array['27 K', '−246 K', '300 K', '373 K']::text[], 2, 'T = 27 + 273.', true, true, 2),
+  ('fysikk-1:varme-og-temperatur', 'q04', 'flervalg', 'Hva skjer med temperaturen mens is smelter?', array['Den stiger jevnt', 'Den synker', 'Den svinger', 'Den er konstant']::text[], 3, 'Energien går til å bryte bindinger.', true, true, 3),
+  ('fysikk-1:varme-og-temperatur', 'q05', 'flervalg', 'Hva sier termodynamikkens første lov?', array['ΔU = Q + W', 'Varme går fra kaldt til varmt', 'Q = cmΔT', 'Temperaturen er alltid konstant']::text[], 0, 'Energiprinsippet brukt på varme.', true, true, 4),
+  ('fysikk-1:varme-og-temperatur', 'q06', 'flervalg', 'Hvilken form for varmetransport skjer gjennom tomt rom?', array['Varmeledning', 'Stråling', 'Konveksjon', 'Kondensasjon']::text[], 1, 'Slik får vi energi fra sola.', true, true, 5),
+  ('fysikk-1:varme-og-temperatur', 'q07', 'flervalg', 'Hvor mye energi trengs for å smelte 0,50 kg is ved 0 °C?', array['334 kJ', '2,1 kJ', 'Omtrent 167 kJ', '1,13 MJ']::text[], 2, '0,50 · 334 kJ.', true, true, 6),
+  ('fysikk-1:varme-og-temperatur', 'q08', 'flervalg', 'Hva sier termodynamikkens andre lov?', array['Energi kan skapes', 'All varme kan omformes til arbeid', 'Temperaturen er alltid 0 K', 'Varme går av seg selv bare fra varmt til kaldt']::text[], 3, 'Kjøleskap og varmepumper må tilføres arbeid.', true, true, 7),
+  ('fysikk-1:varme-og-temperatur', 'q09', 'flervalg', 'Hvorfor jevner havet ut temperaturen langs kysten?', array['Vann har høy spesifikk varmekapasitet', 'Vann leder ikke varme', 'Vann er alltid 4 °C', 'Havet reflekterer alt sollys']::text[], 0, 'Det trengs mye energi for å endre temperaturen.', true, false, 8),
+  ('fysikk-1:varme-og-temperatur', 'q10', 'flervalg', 'Hva er konveksjon?', array['Stråling fra varme legemer', 'Varm væske eller gass som strømmer og fører energi med seg', 'At partikler støter mot hverandre i et fast stoff', 'At et stoff smelter']::text[], 1, 'For eksempel i en panelovn.', true, false, 9),
+  ('fysikk-1:varme-og-temperatur', 'm01', 'sant-usant', 'En temperaturendring på 1 K er like stor som en endring på 1 °C.', array['Sant', 'Usant']::text[], 0, 'Skalaene har samme gradstørrelse.', false, true, 10),
+  ('fysikk-1:varme-og-temperatur', 'm02', 'sant-usant', 'Et legeme inneholder varme.', array['Sant', 'Usant']::text[], 1, 'Et legeme har indre energi; varme er energi i overføring.', false, true, 11),
+  ('fysikk-1:varme-og-temperatur', 'm03', 'sant-usant', 'Det krever mer energi å fordampe 1 kg vann enn å smelte 1 kg is.', array['Sant', 'Usant']::text[], 0, '2,26 MJ mot 334 kJ.', false, true, 12),
+  ('fysikk-1:varme-og-temperatur', 'm04', 'sant-usant', 'Luft er en god varmeleder.', array['Sant', 'Usant']::text[], 1, 'Luft leder varme dårlig – derfor isolerer ull og isopor.', false, true, 13),
+  ('fysikk-1:varme-og-temperatur', 'm05', 'flervalg', 'Du gnir hendene mot hverandre og de blir varme. Hva skjer?', array['Varme tilføres fra lufta', 'Arbeid øker den indre energien', 'Temperaturen synker', 'Energi forsvinner']::text[], 1, 'ΔU = Q + W med W > 0.', false, true, 14),
+  ('fysikk-1:varme-og-temperatur', 'm06', 'flervalg', 'Hva er det absolutte nullpunktet?', array['−273,15 °C', '0 °C', '−100 °C', '−459 °C']::text[], 0, '0 K.', false, true, 15),
+  ('fysikk-1:varme-og-temperatur', 'm07', 'flervalg', 'Hvordan kan en varmepumpe hente varme fra kald uteluft?', array['Den skaper energi', 'Varmen går av seg selv fra kaldt til varmt', 'Den bruker arbeid (elektrisk energi) til å flytte varmen', 'Den bruker ingen energi']::text[], 2, 'Termodynamikkens andre lov krever tilført arbeid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:varme-og-temperatur', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Stråling, strålingsbalanse og klima
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:straling-og-klima', 'fysikk-1', 'straling-og-klima', 'Stråling, strålingsbalanse og klima', 'Stråling fra legemer, Wiens forskyvningslov og Stefan–Boltzmanns lov, jordas strålingsbalanse og drivhuseffekten – og hvordan du vurderer påstander om energi og klima med fysikk.', array[11, 12, 3]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:straling-og-klima', '## Alle legemer stråler
+
+Alle legemer med temperatur over det absolutte nullpunktet sender ut **elektromagnetisk stråling**. Et idealisert legeme som absorberer all stråling som treffer det, kalles et **svart legeme**. Sola og jorda kan i stor grad beskrives slik.
+
+Strålingen fordeler seg over mange **bølgelengder**, men har en **topp** som avhenger av temperaturen.
+
+## Wiens forskyvningslov
+
+**λ_maks · T = b**, der b = 2,90 · 10⁻³ m·K.
+
+Jo **varmere**, desto **kortere** bølgelengde har toppen:
+
+- **Sola**, med overflatetemperatur rundt 5800 K: λ_maks ≈ 2,90 · 10⁻³ / 5800 ≈ **500 nm** – synlig lys.
+- **Jorda**, rundt 288 K: λ_maks ≈ **10 µm** – **infrarød** stråling.
+
+Et glødende jern går fra rødt til gulhvitt når det blir varmere.
+
+## Stefan–Boltzmanns lov
+
+Den utstrålte **effekten per areal** (intensiteten) fra et svart legeme er
+
+**I = σ · T⁴**, der σ = 5,67 · 10⁻⁸ W/(m²·K⁴).
+
+Fordi temperaturen står i **fjerde potens**, gir en **dobling** av temperaturen **16 ganger** så mye stråling.
+
+## Jordas strålingsbalanse
+
+Sola gir omtrent **1361 W/m²** på en flate vinkelrett på strålene utenfor atmosfæren (**solarkonstanten**). Omtrent **30 %** reflekteres av skyer, is og lyse flater – dette er **albedoen**. Fordi jorda er en roterende kule, blir innstrålingen fordelt over et areal som er **fire ganger** større enn tverrsnittet:
+
+Absorbert: 1361 · (1 − 0,30) / 4 ≈ **238 W/m²**
+
+I likevekt må jorda stråle ut like mye som den tar imot. Med Stefan–Boltzmanns lov: σT⁴ = 238 → **T ≈ 255 K**, altså rundt **−18 °C**. Den faktiske gjennomsnittstemperaturen ved bakken er omtrent **288 K (15 °C)**.
+
+## Drivhuseffekten
+
+Forskjellen på rundt 33 K skyldes **drivhuseffekten**. **Drivhusgasser** som vanndamp, **CO₂** og metan slipper det meste av sollyset gjennom, men **absorberer** infrarød stråling fra bakken og sender den ut igjen i **alle retninger** – også ned mot bakken. Uten den naturlige drivhuseffekten ville jorda vært en isklode.
+
+Når vi slipper ut mer CO₂ ved å brenne kull, olje og gass, **forsterkes** drivhuseffekten. Jorda tar da imot litt mer energi enn den stråler ut, og temperaturen stiger til en ny likevekt. **Tilbakekoblinger** kan forsterke endringen: Når is smelter, synker albedoen og mer sollys absorberes. Varmere luft kan holde mer vanndamp, som også er en drivhusgass.
+
+## Vurdere påstander om energi og klima
+
+Fysikken gir verktøy for å sjekke påstander:
+
+- Er **tallene** og **enhetene** rimelige? Blandes effekt (W) og energi (kWh)?
+- Stemmer påstanden med **energiprinsippet** og virkningsgrader?
+- Hvem står bak, og er påstanden i tråd med **forskningen**, for eksempel rapportene fra **FNs klimapanel (IPCC)**?
+- Skilles det mellom **vær** (kort tid) og **klima** (gjennomsnitt over minst 30 år)?', '{"label":"Stråling og klima","children":[{"label":"Strålingslover","children":[{"label":"Svart legeme"},{"label":"Wien: λT = b"},{"label":"Stefan–Boltzmann: σT⁴"}]},{"label":"Sol og jord","children":[{"label":"Sola ≈ 500 nm"},{"label":"Jorda ≈ 10 µm"}]},{"label":"Strålingsbalanse","children":[{"label":"1361 W/m²"},{"label":"Albedo 30 %"},{"label":"255 K mot 288 K"}]},{"label":"Drivhuseffekt","children":[{"label":"CO₂, vanndamp, metan"},{"label":"Forsterket drivhuseffekt"},{"label":"Tilbakekoblinger"}]},{"label":"Vurdere påstander","children":[{"label":"Tall og enheter"},{"label":"IPCC"},{"label":"Vær og klima"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:straling-og-klima';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:straling-og-klima', 'Svart legeme', 'Idealisert legeme som absorberer all stråling som treffer det.', 0),
+  ('fysikk-1:straling-og-klima', 'Wiens forskyvningslov', 'λ_maks · T = 2,90 · 10⁻³ m·K', 1),
+  ('fysikk-1:straling-og-klima', 'Stefan–Boltzmanns lov', 'I = σT⁴', 2),
+  ('fysikk-1:straling-og-klima', 'σ', '5,67 · 10⁻⁸ W/(m²·K⁴)', 3),
+  ('fysikk-1:straling-og-klima', 'Solas strålingstopp', 'Rundt 500 nm – synlig lys.', 4),
+  ('fysikk-1:straling-og-klima', 'Jordas strålingstopp', 'Rundt 10 µm – infrarød stråling.', 5),
+  ('fysikk-1:straling-og-klima', 'Solarkonstanten', 'Omtrent 1361 W/m² utenfor atmosfæren.', 6),
+  ('fysikk-1:straling-og-klima', 'Albedo', 'Andelen sollys som reflekteres – for jorda rundt 30 %.', 7),
+  ('fysikk-1:straling-og-klima', 'Absorbert solstråling i snitt', 'Omtrent 238 W/m².', 8),
+  ('fysikk-1:straling-og-klima', 'Jorda uten drivhuseffekt', 'Rundt 255 K, altså −18 °C.', 9),
+  ('fysikk-1:straling-og-klima', 'Drivhuseffekten', 'Drivhusgasser absorberer infrarød stråling og sender noe tilbake mot bakken.', 10),
+  ('fysikk-1:straling-og-klima', 'Drivhusgasser', 'Vanndamp, CO₂ og metan med flere.', 11),
+  ('fysikk-1:straling-og-klima', 'Tilbakekobling', 'Prosess som forsterker eller demper en endring, som is–albedo.', 12),
+  ('fysikk-1:straling-og-klima', 'IPCC', 'FNs klimapanel, som sammenstiller klimaforskningen.', 13),
+  ('fysikk-1:straling-og-klima', 'Vær og klima', 'Vær er kortsiktig; klima er gjennomsnitt over minst 30 år.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:straling-og-klima';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:straling-og-klima', 'q01', 'flervalg', 'Hva sier Wiens forskyvningslov?', array['Varmere legemer stråler ved lengre bølgelengder', 'Varmere legemer har strålingstopp ved kortere bølgelengder', 'Alle legemer stråler likt', 'Stråling avhenger ikke av temperatur']::text[], 1, 'λ_maks · T = konstant.', true, true, 0),
+  ('fysikk-1:straling-og-klima', 'q02', 'flervalg', 'Hvor mye mer stråler et legeme hvis den absolutte temperaturen dobles?', array['16 ganger', '2 ganger', '4 ganger', '8 ganger']::text[], 0, 'I = σT⁴, og 2⁴ = 16.', true, true, 1),
+  ('fysikk-1:straling-og-klima', 'q03', 'flervalg', 'Hvilken type stråling sender jorda hovedsakelig ut?', array['Ultrafiolett', 'Synlig lys', 'Infrarød', 'Røntgen']::text[], 2, 'λ_maks ≈ 10 µm.', true, true, 2),
+  ('fysikk-1:straling-og-klima', 'q04', 'flervalg', 'Hva er albedo?', array['Mengden CO₂ i lufta', 'Temperaturen ved bakken', 'Solas overflatetemperatur', 'Andelen innkommende sollys som reflekteres']::text[], 3, 'For jorda omtrent 30 %.', true, true, 3),
+  ('fysikk-1:straling-og-klima', 'q05', 'flervalg', 'Hvilken temperatur ville jorda hatt uten drivhuseffekt, ifølge den enkle strålingsbalansen?', array['Rundt −18 °C', 'Rundt 15 °C', 'Rundt −100 °C', 'Rundt 0 °C']::text[], 0, 'σT⁴ = 238 W/m² gir T ≈ 255 K.', true, true, 4),
+  ('fysikk-1:straling-og-klima', 'q06', 'flervalg', 'Hvorfor deler vi på 4 i strålingsbalansen?', array['Fordi det er fire årstider', 'Fordi jordas overflate er fire ganger så stor som tverrsnittet som fanger sollyset', 'Fordi albedoen er 25 %', 'Fordi sola har fire lag']::text[], 1, 'Areal kule 4πr², tverrsnitt πr².', true, true, 5),
+  ('fysikk-1:straling-og-klima', 'q07', 'flervalg', 'Hva gjør drivhusgassene?', array['Stopper sollyset', 'Reflekterer alt lys', 'Absorberer infrarød stråling og sender noe tilbake mot bakken', 'Lager ozon']::text[], 2, 'De er nesten gjennomsiktige for sollys.', true, true, 6),
+  ('fysikk-1:straling-og-klima', 'q08', 'flervalg', 'Hvorfor kan smeltende is forsterke oppvarmingen?', array['Is lager CO₂', 'Is er varm', 'Vann reflekterer mer enn is', 'Albedoen synker, så mer sollys absorberes']::text[], 3, 'En positiv tilbakekobling.', true, true, 7),
+  ('fysikk-1:straling-og-klima', 'q09', 'flervalg', 'Hvor mye stråling fra sola treffer en flate vinkelrett på strålene utenfor atmosfæren?', array['Omtrent 1361 W/m²', 'Omtrent 238 W/m²', 'Omtrent 5800 W/m²', 'Omtrent 100 W/m²']::text[], 0, 'Solarkonstanten.', true, false, 8),
+  ('fysikk-1:straling-og-klima', 'q10', 'flervalg', 'Hva er forskjellen på vær og klima?', array['Det er det samme', 'Vær er kortsiktig, klima er gjennomsnitt over minst 30 år', 'Klima gjelder bare temperatur', 'Vær varer i 30 år']::text[], 1, 'En kald vinter motbeviser ikke global oppvarming.', true, false, 9),
+  ('fysikk-1:straling-og-klima', 'm01', 'sant-usant', 'Uten den naturlige drivhuseffekten ville jorda vært mye kaldere.', array['Sant', 'Usant']::text[], 0, 'Rundt −18 °C i stedet for 15 °C.', false, true, 10),
+  ('fysikk-1:straling-og-klima', 'm02', 'sant-usant', 'CO₂ absorberer mest av det synlige sollyset.', array['Sant', 'Usant']::text[], 1, 'CO₂ absorberer infrarød stråling fra jorda.', false, true, 11),
+  ('fysikk-1:straling-og-klima', 'm03', 'sant-usant', 'Alle legemer over 0 K sender ut elektromagnetisk stråling.', array['Sant', 'Usant']::text[], 0, 'Mengde og bølgelengde avhenger av temperaturen.', false, true, 12),
+  ('fysikk-1:straling-og-klima', 'm04', 'sant-usant', 'En kald vinter i Norge viser at global oppvarming ikke skjer.', array['Sant', 'Usant']::text[], 1, 'Én vinter er vær; klima er gjennomsnitt over lang tid og hele kloden.', false, true, 13),
+  ('fysikk-1:straling-og-klima', 'm05', 'flervalg', 'Hva er λ_maks for et legeme på 290 K?', array['1,0 µm', '10 µm', '100 nm', '1,0 mm']::text[], 1, '2,90 · 10⁻³ / 290 = 1,0 · 10⁻⁵ m.', false, true, 14),
+  ('fysikk-1:straling-og-klima', 'm06', 'flervalg', 'En påstand blander W og kWh. Hva er feilen?', array['Effekt og energi blandes', 'Masse og vekt blandes', 'Temperatur og varme blandes', 'Det er ingen feil']::text[], 0, 'Watt er effekt, kWh er energi.', false, true, 15),
+  ('fysikk-1:straling-og-klima', 'm07', 'flervalg', 'Hvilken gass er den viktigste naturlige drivhusgassen?', array['Nitrogen', 'Oksygen', 'Vanndamp', 'Argon']::text[], 2, 'Nitrogen og oksygen absorberer nesten ikke infrarød stråling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:straling-og-klima', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Fysikk 1: Atommodeller, spektre og fusjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('fysikk-1:atommodeller-og-fusjon', 'fysikk-1', 'atommodeller-og-fusjon', 'Atommodeller, spektre og fusjon', 'Hvordan atommodellen har utviklet seg fra Dalton til Bohr og kvantefysikken, fotoner og linjespektre, fotoelektrisk effekt, og hvordan fusjon i stjerner og eksplosjoner har dannet grunnstoffene.', array[13, 14]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('fysikk-1:atommodeller-og-fusjon', '## Atommodeller gjennom tidene
+
+Atommodellen er et godt eksempel på hvordan **modeller** endres når nye forsøk gir nye resultater.
+
+- **Dalton** (rundt 1800): Alt stoff består av små, udelelige **atomer**.
+- **Thomson** (1897) oppdaget **elektronet**. Han foreslo en modell der negative elektroner satt i en jevnt fordelt positiv masse – «rosinbollemodellen».
+- **Rutherford** (1911) sendte alfapartikler mot tynn **gullfolie**. De fleste gikk rett gjennom, men noen få ble kastet tilbake. Konklusjon: Atomet er for det meste **tomrom**, med en liten, tung, positiv **kjerne**.
+- **Bohr** (1913): Elektronene kan bare ha bestemte **energinivåer**. Modellen forklarte **linjespekteret** til hydrogen.
+- **Kvantemekanisk modell**: Elektronene beskrives som **sannsynlighetsskyer** (orbitaler), ikke som små planeter i baner.
+
+## Fotoner
+
+Lys består av **fotoner** – energipakker med energien
+
+**E = h · f = h · c / λ**
+
+der **h = 6,63 · 10⁻³⁴ J·s** er Plancks konstant. Et foton med bølgelengde 500 nm har E ≈ **4,0 · 10⁻¹⁹ J**. Kortere bølgelengde betyr mer energi per foton.
+
+Den **fotoelektriske effekten** viste at lys oppfører seg som partikler: Lys kan slå løs elektroner fra et metall, men bare hvis **frekvensen** er høy nok – uansett hvor sterkt lyset er. **Einstein** forklarte dette i 1905.
+
+## Linjespektre
+
+Når et elektron **faller** fra et høyere til et lavere energinivå, sendes det ut et foton med energi lik **forskjellen** mellom nivåene. Fordi nivåene er bestemte, får vi bare bestemte bølgelengder – et **emisjonsspekter** med lyse linjer. En kald gass foran en lyskilde **absorberer** de samme bølgelengdene og gir mørke linjer – et **absorpsjonsspekter**.
+
+For hydrogen er energinivåene **Eₙ = −B / n²**, med B = 2,18 · 10⁻¹⁸ J. Overgangen fra n = 3 til n = 2 gir et foton med bølgelengde **656 nm** – rødt lys.
+
+Hvert grunnstoff har sitt eget **spektrale fingeravtrykk**. Slik vet vi hva stjernene består av – **helium** ble faktisk oppdaget i solspekteret før det ble funnet på jorda.
+
+## Fusjon
+
+I **fusjon** smelter lette kjerner sammen til tyngre. I sola blir **hydrogen** til **helium** – netto blir fire hydrogenkjerner til én heliumkjerne. Heliumkjernen har litt **mindre masse** enn de fire protonene til sammen, og massedifferansen blir til energi etter **Einsteins formel**:
+
+**E = m · c²**
+
+Omtrent 0,7 % av massen omformes. Sola omformer rundt fire millioner tonn masse til energi hvert sekund.
+
+## Hvordan grunnstoffene ble dannet
+
+- **Big Bang** dannet nesten bare **hydrogen** og **helium** (og litt litium).
+- I **stjerner** fusjoneres lettere grunnstoffer til tyngre: karbon, oksygen, silisium – helt opp til **jern**.
+- Fusjon forbi jern **frigjør ikke** energi, fordi jern har den mest stabile kjernen. Derfor stopper energiproduksjonen der.
+- Grunnstoffer **tyngre enn jern** dannes blant annet i **supernovaer** og når **nøytronstjerner kolliderer**. En slik kollisjon ble observert i 2017, og den viste at det dannes blant annet gull og platina.
+
+Karbonet i kroppen din og jernet i blodet ditt ble altså laget i stjerner – vi består bokstavelig talt av **stjernestøv**.', '{"label":"Atommodeller og fusjon","children":[{"label":"Atommodeller","children":[{"label":"Dalton"},{"label":"Thomson"},{"label":"Rutherford"},{"label":"Bohr"},{"label":"Kvantemekanikk"}]},{"label":"Fotoner","children":[{"label":"E = hf"},{"label":"Fotoelektrisk effekt"}]},{"label":"Spektre","children":[{"label":"Emisjon"},{"label":"Absorpsjon"},{"label":"Fingeravtrykk"}]},{"label":"Fusjon","children":[{"label":"H → He"},{"label":"E = mc²"}]},{"label":"Grunnstoffdannelse","children":[{"label":"Big Bang"},{"label":"Stjerner opp til jern"},{"label":"Supernovaer og nøytronstjerner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'fysikk-1:atommodeller-og-fusjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('fysikk-1:atommodeller-og-fusjon', 'Thomsons modell', 'Elektroner i en jevnt fordelt positiv masse – rosinbollemodellen (1897).', 0),
+  ('fysikk-1:atommodeller-og-fusjon', 'Rutherfords gullfolieforsøk', 'Viste at atomet har en liten, tung, positiv kjerne (1911).', 1),
+  ('fysikk-1:atommodeller-og-fusjon', 'Bohrs atommodell', 'Elektroner i bestemte energinivåer (1913).', 2),
+  ('fysikk-1:atommodeller-og-fusjon', 'Kvantemekanisk modell', 'Elektroner som sannsynlighetsskyer (orbitaler).', 3),
+  ('fysikk-1:atommodeller-og-fusjon', 'Foton', 'Energipakke av lys med E = hf.', 4),
+  ('fysikk-1:atommodeller-og-fusjon', 'Plancks konstant h', '6,63 · 10⁻³⁴ J·s', 5),
+  ('fysikk-1:atommodeller-og-fusjon', 'Fotoelektrisk effekt', 'Lys slår løs elektroner bare over en viss frekvens – forklart av Einstein i 1905.', 6),
+  ('fysikk-1:atommodeller-og-fusjon', 'Emisjonsspekter', 'Lyse linjer fra elektroner som faller til lavere energinivå.', 7),
+  ('fysikk-1:atommodeller-og-fusjon', 'Absorpsjonsspekter', 'Mørke linjer der kald gass har absorbert bestemte bølgelengder.', 8),
+  ('fysikk-1:atommodeller-og-fusjon', 'Hydrogenets energinivåer', 'Eₙ = −B / n², B = 2,18 · 10⁻¹⁸ J', 9),
+  ('fysikk-1:atommodeller-og-fusjon', 'Fusjon', 'Lette kjerner smelter sammen til tyngre og frigjør energi.', 10),
+  ('fysikk-1:atommodeller-og-fusjon', 'E = mc²', 'Masse kan omformes til energi.', 11),
+  ('fysikk-1:atommodeller-og-fusjon', 'Jern', 'Grensen for energigivende fusjon i stjerner.', 12),
+  ('fysikk-1:atommodeller-og-fusjon', 'Supernova', 'Eksploderende stjerne der tunge grunnstoffer dannes.', 13),
+  ('fysikk-1:atommodeller-og-fusjon', 'Nøytronstjernekollisjon', 'Danner tunge grunnstoffer som gull – observert i 2017.', 14);
+delete from public.quiz_sporsmal where tema_id = 'fysikk-1:atommodeller-og-fusjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('fysikk-1:atommodeller-og-fusjon', 'q01', 'flervalg', 'Hva viste Rutherfords gullfolieforsøk?', array['At atomet er udelelig', 'At atomet har en liten, tung, positiv kjerne', 'At elektroner finnes', 'At lys er partikler']::text[], 1, 'Noen få alfapartikler ble kastet tilbake.', true, true, 0),
+  ('fysikk-1:atommodeller-og-fusjon', 'q02', 'flervalg', 'Hva var det nye i Bohrs atommodell?', array['At elektronene bare kan ha bestemte energinivåer', 'At atomet er en rosinbolle', 'At atomet er udelelig', 'At kjernen er negativ']::text[], 0, 'Den forklarte hydrogenets linjespekter.', true, true, 1),
+  ('fysikk-1:atommodeller-og-fusjon', 'q03', 'flervalg', 'Hva skjer når et elektron faller til et lavere energinivå?', array['Det absorberer et foton', 'Atomet blir alltid ionisert', 'Det sendes ut et foton med energi lik forskjellen mellom nivåene', 'Kjernen deler seg']::text[], 2, 'Slik oppstår emisjonsspekteret.', true, true, 2),
+  ('fysikk-1:atommodeller-og-fusjon', 'q04', 'flervalg', 'Hvilken formel gir energien til et foton?', array['E = mgh', 'E = ½mv²', 'E = UIt', 'E = hf']::text[], 3, 'h er Plancks konstant.', true, true, 3),
+  ('fysikk-1:atommodeller-og-fusjon', 'q05', 'flervalg', 'Hva skjer i fusjonen i sola?', array['Hydrogen blir til helium', 'Uran spaltes', 'Jern blir til gull', 'Helium blir til hydrogen']::text[], 0, 'Massedifferansen blir energi.', true, true, 4),
+  ('fysikk-1:atommodeller-og-fusjon', 'q06', 'flervalg', 'Hvorfor stopper energigivende fusjon i stjerner ved jern?', array['Fordi jern er magnetisk', 'Fordi jern har den mest stabile kjernen, så videre fusjon krever energi', 'Fordi stjernen blir for kald', 'Fordi jern er tyngst av alle']::text[], 1, 'Tyngre grunnstoffer dannes på andre måter.', true, true, 5),
+  ('fysikk-1:atommodeller-og-fusjon', 'q07', 'flervalg', 'Hvor dannes grunnstoffer som gull?', array['I Big Bang', 'I vanlige stjerner som sola', 'I supernovaer og kollisjoner mellom nøytronstjerner', 'I jordas kjerne']::text[], 2, 'En nøytronstjernekollisjon ble observert i 2017.', true, true, 6),
+  ('fysikk-1:atommodeller-og-fusjon', 'q08', 'flervalg', 'Hva viste den fotoelektriske effekten?', array['At lys bare er bølger', 'At atomet har en kjerne', 'At jern er stabilt', 'At lys oppfører seg som partikler (fotoner)']::text[], 3, 'Frekvensen, ikke lysstyrken, avgjør om elektroner slås løs.', true, true, 7),
+  ('fysikk-1:atommodeller-og-fusjon', 'q09', 'flervalg', 'Hvordan vet vi hva stjernene består av?', array['Fra linjene i spekteret deres', 'Fra romsonder som har landet der', 'Fra fargen på natthimmelen', 'Vi vet det ikke']::text[], 0, 'Hvert grunnstoff har sitt spektrale fingeravtrykk.', true, false, 8),
+  ('fysikk-1:atommodeller-og-fusjon', 'q10', 'flervalg', 'Hvilke grunnstoffer ble i hovedsak dannet i Big Bang?', array['Karbon og oksygen', 'Hydrogen og helium', 'Jern og nikkel', 'Gull og platina']::text[], 1, 'Pluss litt litium.', true, false, 9),
+  ('fysikk-1:atommodeller-og-fusjon', 'm01', 'sant-usant', 'Atomet er for det meste tomrom.', array['Sant', 'Usant']::text[], 0, 'Det viste Rutherfords forsøk.', false, true, 10),
+  ('fysikk-1:atommodeller-og-fusjon', 'm02', 'sant-usant', 'Rødt lys har mer energi per foton enn blått lys.', array['Sant', 'Usant']::text[], 1, 'Blått lys har kortere bølgelengde og mer energi per foton.', false, true, 11),
+  ('fysikk-1:atommodeller-og-fusjon', 'm03', 'sant-usant', 'Helium ble oppdaget i solspekteret før det ble funnet på jorda.', array['Sant', 'Usant']::text[], 0, 'Navnet kommer av det greske ordet for sol.', false, true, 12),
+  ('fysikk-1:atommodeller-og-fusjon', 'm04', 'sant-usant', 'I fusjon er massen etterpå større enn før.', array['Sant', 'Usant']::text[], 1, 'Massen blir litt mindre, og differansen blir energi.', false, true, 13),
+  ('fysikk-1:atommodeller-og-fusjon', 'm05', 'flervalg', 'Hvilken bølgelengde har fotonet fra overgangen n = 3 til n = 2 i hydrogen?', array['122 nm', '656 nm', '486 nm', '1875 nm']::text[], 1, 'Den røde linjen i hydrogenspekteret.', false, true, 14),
+  ('fysikk-1:atommodeller-og-fusjon', 'm06', 'flervalg', 'Hvem oppdaget elektronet?', array['Thomson', 'Rutherford', 'Bohr', 'Dalton']::text[], 0, 'I 1897.', false, true, 15),
+  ('fysikk-1:atommodeller-og-fusjon', 'm07', 'flervalg', 'Hva betyr det at vi består av «stjernestøv»?', array['At vi lyser i mørket', 'At vi kommer fra månen', 'At grunnstoffene i kroppen ble dannet i stjerner', 'At vi består av helium']::text[], 2, 'Karbon, oksygen og jern er laget ved fusjon og eksplosjoner.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('fysikk-1:atommodeller-og-fusjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'biologi-1' and slug not in ('biologisk-metode', 'systematikk-og-klassifisering', 'anatomi-og-fysiologi', 'homeostase', 'cellen-og-cellekommunikasjon', 'celledeling', 'sykdommer-og-immunforsvaret', 'vaksiner', 'antibiotika-og-resistens', 'okosystemer-og-mangfold', 'klima-arealbruk-og-mangfold');
+
+-- Biologi 1: Biologisk metode og undersøkelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:biologisk-metode', 'biologi-1', 'biologisk-metode', 'Biologisk metode og undersøkelser', 'Hvordan du planlegger og gjennomfører undersøkelser i laboratoriet og i felt, bruker kontrollgrupper og replikater, behandler og tolker data og presenterer resultatene i en rapport.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:biologisk-metode', '## Hvordan biologer finner ut ting
+
+Biologien bygger på **observasjoner** og **undersøkelser**. Mye forskning følger den **hypotetisk-deduktive metoden**:
+
+1. **Observasjon** og **problemstilling**: Hva lurer du på?
+2. **Hypotese**: en mulig, **testbar** forklaring.
+3. **Prediksjon**: Hva forventer du å se hvis hypotesen stemmer?
+4. **Forsøk** eller **undersøkelse** som tester prediksjonen.
+5. **Analyse** og **konklusjon**: Blir hypotesen styrket eller svekket?
+
+En hypotese kan **aldri bevises** helt, men den kan **styrkes** av mange forsøk – eller **forkastes**.
+
+## Planlegge forsøk
+
+- **Uavhengig variabel**: det du endrer, for eksempel temperatur.
+- **Avhengig variabel**: det du måler, for eksempel hvor mye gass som dannes.
+- **Kontrollerte variabler**: alt annet som må holdes likt.
+- **Kontrollgruppe**: en gruppe som ikke får behandlingen, slik at du har noe å sammenligne med.
+- **Replikater**: flere gjentak av hvert forsøk, fordi levende organismer **varierer**.
+
+**Eksempel**: Du undersøker hvordan temperaturen påvirker enzymet **katalase**, som bryter ned hydrogenperoksid til vann og oksygen. Du måler oksygenmengden ved fem temperaturer, med tre replikater ved hver.
+
+## Feltarbeid
+
+I felt undersøker vi organismer i sitt **naturlige miljø**:
+
+- **Ruteanalyse**: Du legger ut ruter på for eksempel 1 m × 1 m og registrerer arter og antall.
+- **Transekt**: en linje gjennom et område der du registrerer hvordan arter og **abiotiske faktorer** endrer seg, for eksempel fra fjæra og opp.
+- **Fangst–gjenfangst**: for å anslå størrelsen på en dyrebestand.
+
+Rutene bør plasseres **tilfeldig** for å unngå at du velger de «beste» stedene.
+
+## Behandle og tolke data
+
+- Regn ut **gjennomsnitt** og se på **spredningen**, for eksempel med **standardavvik**.
+- Framstill data i **tabeller** og **grafer**: søylediagram for kategorier, linjediagram eller punktdiagram for sammenhenger.
+- Skill mellom **korrelasjon** og **årsakssammenheng**: At to ting varierer sammen, betyr ikke at den ene forårsaker den andre.
+- Vurder **feilkilder** og **usikkerhet**: Er forskjellen mellom gruppene større enn den tilfeldige variasjonen?
+
+## Presentere funn
+
+En **forsøksrapport** har ofte delene **innledning** (teori og hypotese), **materiale og metode**, **resultater**, **diskusjon** og **konklusjon**. Resultatene skal presenteres **nøkternt**, mens tolkningen kommer i diskusjonen. I forskningen blir resultater **fagfellevurdert** før de publiseres.
+
+## Etikk
+
+Undersøkelser med **levende organismer** krever omtanke: Ikke skad dyr og planter unødvendig, følg regler for **dyreforsøk**, og ta hensyn til **personvern** når mennesker deltar.', '{"label":"Biologisk metode","children":[{"label":"Metode","children":[{"label":"Hypotese"},{"label":"Prediksjon"},{"label":"Forsøk og konklusjon"}]},{"label":"Forsøk","children":[{"label":"Variabler"},{"label":"Kontrollgruppe"},{"label":"Replikater"}]},{"label":"Felt","children":[{"label":"Ruteanalyse"},{"label":"Transekt"},{"label":"Fangst–gjenfangst"}]},{"label":"Data","children":[{"label":"Gjennomsnitt og standardavvik"},{"label":"Grafer"},{"label":"Korrelasjon og årsak"}]},{"label":"Formidling og etikk","children":[{"label":"Rapport"},{"label":"Fagfellevurdering"},{"label":"Dyrevelferd og personvern"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:biologisk-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:biologisk-metode', 'Hypotetisk-deduktiv metode', 'Observasjon, hypotese, prediksjon, forsøk og konklusjon.', 0),
+  ('biologi-1:biologisk-metode', 'Hypotese', 'En mulig, testbar forklaring.', 1),
+  ('biologi-1:biologisk-metode', 'Prediksjon', 'Hva du forventer å se hvis hypotesen stemmer.', 2),
+  ('biologi-1:biologisk-metode', 'Uavhengig variabel', 'Det du endrer i forsøket.', 3),
+  ('biologi-1:biologisk-metode', 'Avhengig variabel', 'Det du måler i forsøket.', 4),
+  ('biologi-1:biologisk-metode', 'Kontrollgruppe', 'Gruppe som ikke får behandlingen, til sammenligning.', 5),
+  ('biologi-1:biologisk-metode', 'Replikat', 'Gjentak av forsøket for å få mer pålitelige data.', 6),
+  ('biologi-1:biologisk-metode', 'Katalase', 'Enzym som bryter ned hydrogenperoksid til vann og oksygen.', 7),
+  ('biologi-1:biologisk-metode', 'Ruteanalyse', 'Registrering av arter i ruter med fast størrelse.', 8),
+  ('biologi-1:biologisk-metode', 'Transekt', 'Linje der du registrerer endringer i arter og miljø.', 9),
+  ('biologi-1:biologisk-metode', 'Fangst–gjenfangst', 'Metode for å anslå størrelsen på en dyrebestand.', 10),
+  ('biologi-1:biologisk-metode', 'Standardavvik', 'Mål på spredningen i dataene.', 11),
+  ('biologi-1:biologisk-metode', 'Korrelasjon', 'At to størrelser varierer sammen – ikke nødvendigvis årsak.', 12),
+  ('biologi-1:biologisk-metode', 'Fagfellevurdering', 'Andre forskere vurderer arbeidet før det publiseres.', 13),
+  ('biologi-1:biologisk-metode', 'Feilkilde', 'Noe som kan ha påvirket resultatet uten at det var meningen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:biologisk-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:biologisk-metode', 'q01', 'flervalg', 'Hva er en hypotese?', array['Et bevist faktum', 'En mulig, testbar forklaring', 'Et måleresultat', 'En konklusjon']::text[], 1, 'Hypotesen testes gjennom prediksjoner.', true, true, 0),
+  ('biologi-1:biologisk-metode', 'q02', 'flervalg', 'Hvorfor bruker vi replikater?', array['Fordi levende organismer varierer', 'For å spare tid', 'For å slippe kontrollgruppe', 'For å bevise hypotesen']::text[], 0, 'Flere gjentak gir mer pålitelige resultater.', true, true, 1),
+  ('biologi-1:biologisk-metode', 'q03', 'flervalg', 'Hva er en kontrollgruppe?', array['Gruppen med størst effekt', 'Gruppen som kontrollerer forsøket', 'En gruppe som ikke får behandlingen', 'En gruppe med flere variabler']::text[], 2, 'Den gir et sammenligningsgrunnlag.', true, true, 2),
+  ('biologi-1:biologisk-metode', 'q04', 'flervalg', 'Du undersøker hvordan temperaturen påvirker katalase. Hva er den uavhengige variabelen?', array['Oksygenmengden', 'Mengden enzym', 'Tiden', 'Temperaturen']::text[], 3, 'Det er den du endrer.', true, true, 3),
+  ('biologi-1:biologisk-metode', 'q05', 'flervalg', 'Hva er et transekt?', array['En linje der du registrerer hvordan arter og miljø endrer seg', 'En type mikroskop', 'En statistisk test', 'En rute på 1 m²']::text[], 0, 'For eksempel fra fjæra og opp.', true, true, 4),
+  ('biologi-1:biologisk-metode', 'q06', 'flervalg', 'Hva betyr det at to variabler er korrelert?', array['At den ene forårsaker den andre', 'At de varierer sammen', 'At de er like store', 'At forsøket er feil']::text[], 1, 'Korrelasjon er ikke det samme som årsak.', true, true, 5),
+  ('biologi-1:biologisk-metode', 'q07', 'flervalg', 'Hvorfor bør ruter i en ruteanalyse plasseres tilfeldig?', array['Fordi det går raskere', 'For å finne flest arter', 'For å unngå at du velger de «beste» stedene', 'Fordi det er påbudt']::text[], 2, 'Tilfeldig plassering gir mer representative data.', true, true, 6),
+  ('biologi-1:biologisk-metode', 'q08', 'flervalg', 'Hvilken del av rapporten tolker resultatene?', array['Materiale og metode', 'Resultater', 'Innledning', 'Diskusjon']::text[], 3, 'Resultatdelen skal være nøktern.', true, true, 7),
+  ('biologi-1:biologisk-metode', 'q09', 'flervalg', 'Kan en hypotese bevises helt?', array['Nei, men den kan styrkes eller forkastes', 'Ja, med ett forsøk', 'Ja, hvis læreren er enig', 'Nei, hypoteser kan ikke testes']::text[], 0, 'Nye data kan alltid endre bildet.', true, false, 8),
+  ('biologi-1:biologisk-metode', 'q10', 'flervalg', 'Hva måler standardavviket?', array['Gjennomsnittet', 'Spredningen i dataene', 'Den største verdien', 'Antall målinger']::text[], 1, 'Stort standardavvik betyr stor variasjon.', true, false, 9),
+  ('biologi-1:biologisk-metode', 'm01', 'sant-usant', 'Fangst–gjenfangst brukes for å anslå størrelsen på en dyrebestand.', array['Sant', 'Usant']::text[], 0, 'Andelen merkede dyr i andre fangst gir et anslag.', false, true, 10),
+  ('biologi-1:biologisk-metode', 'm02', 'sant-usant', 'Resultatdelen i en rapport skal inneholde tolkninger og meninger.', array['Sant', 'Usant']::text[], 1, 'Tolkningen hører hjemme i diskusjonen.', false, true, 11),
+  ('biologi-1:biologisk-metode', 'm03', 'sant-usant', 'Katalase bryter ned hydrogenperoksid.', array['Sant', 'Usant']::text[], 0, 'Produktene er vann og oksygen.', false, true, 12),
+  ('biologi-1:biologisk-metode', 'm04', 'sant-usant', 'Ett enkelt forsøk er nok til å bevise en hypotese.', array['Sant', 'Usant']::text[], 1, 'Hypoteser kan styrkes, men ikke bevises endelig.', false, true, 13),
+  ('biologi-1:biologisk-metode', 'm05', 'flervalg', 'Hvilket diagram passer best for å vise antall individer av fem ulike arter?', array['Linjediagram', 'Søylediagram', 'Punktdiagram', 'Sektordiagram med tid']::text[], 1, 'Artene er kategorier.', false, true, 14),
+  ('biologi-1:biologisk-metode', 'm06', 'flervalg', 'Hva er en kontrollert variabel?', array['Noe som holdes likt i alle forsøkene', 'Det du måler', 'Det du endrer', 'Resultatet']::text[], 0, 'Ellers kan den påvirke resultatet.', false, true, 15),
+  ('biologi-1:biologisk-metode', 'm07', 'flervalg', 'Hva er fagfellevurdering?', array['At elever retter hverandres prøver', 'At forskeren vurderer seg selv', 'At andre forskere vurderer arbeidet før publisering', 'At en avis omtaler forskningen']::text[], 2, 'Det sikrer kvaliteten.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:biologisk-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Systematikk og klassifisering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:systematikk-og-klassifisering', 'biologi-1', 'systematikk-og-klassifisering', 'Systematikk og klassifisering', 'Hvordan vi ordner livets mangfold – fra Linnés system og taksonomiske nivåer til tre domener og slektstrær basert på DNA – og hvordan ny teknologi har endret kriteriene.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:systematikk-og-klassifisering', '## Hvorfor klassifisere?
+
+Det finnes millioner av arter på jorda, og de fleste er ennå ikke beskrevet. **Systematikk** er faget som **navngir**, **ordner** og finner **slektskapet** mellom organismer. **Taksonomi** er læren om å beskrive og navngi arter.
+
+## Linnés system
+
+Den svenske naturforskeren **Carl von Linné** innførte på 1700-tallet **binomial nomenklatur** – et vitenskapelig navn i to deler: **slekt** og **artsepitet**, som *Homo sapiens* (menneske) og *Picea abies* (gran). Slik unngår vi forvirring med lokale navn.
+
+Organismene ordnes i **taksonomiske nivåer**: **domene – rike – rekke – klasse – orden – familie – slekt – art**. Jo lavere nivå, desto nærmere beslektet.
+
+## Hva er en art?
+
+Etter det **biologiske artsbegrepet** er en art en gruppe individer som kan få **fruktbart avkom** sammen. Hest og esel kan få muldyr, men muldyret er vanligvis sterilt – derfor er de to arter. Begrepet passer dårlig for organismer som formerer seg ukjønnet, som bakterier, og for utdødde arter.
+
+## Kriteriene har endret seg med teknologien
+
+- **Før mikroskopet** ble organismer delt inn etter **utseende** (morfologi): planter og dyr.
+- **Lysmikroskopet** (1600-tallet) avslørte **encellede** organismer.
+- **Elektronmikroskopet** (1900-tallet) viste forskjellen på **prokaryote** celler uten cellekjerne og **eukaryote** celler med cellekjerne og organeller.
+- **DNA-sekvensering** gjør det mulig å sammenligne **gener** direkte. På 1970-tallet viste **Carl Woese** at prokaryotene består av to svært ulike grupper. I dag deler vi livet inn i **tre domener**: **bakterier**, **arker** (arkebakterier) og **eukaryoter**.
+
+## Slektstrær
+
+Moderne systematikk bygger på **evolusjon**: Grupper skal helst bestå av en **felles stamform** og **alle** dens etterkommere. Slektskapet vises i **fylogenetiske trær**, der hvert forgreningspunkt er en felles stamform.
+
+DNA har gitt flere overraskelser:
+
+- **Sopp** er nærmere i slekt med **dyr** enn med planter.
+- **Hvalene** har sine nærmeste levende slektninger blant **flodhestene**.
+- **Fuglene** er etterkommere av dinosaurer.
+
+## Fellestrekk og variasjon
+
+Alle organismer har **fellestrekk** som viser felles opphav: celler, DNA som arvestoff, den samme **genetiske koden** og ATP som energibærer. Samtidig er det enorm **variasjon** i størrelse, form, levested og levesett.
+
+Likheter kan også skyldes **konvergent evolusjon**: Vingene til flaggermus og insekter har samme funksjon, men har utviklet seg uavhengig av hverandre. Slike **analoge** trekk sier ikke noe om nært slektskap, i motsetning til **homologe** trekk med felles opphav, som armen til mennesket og luffen til hvalen.', '{"label":"Systematikk","children":[{"label":"Linné","children":[{"label":"Binomial nomenklatur"},{"label":"Taksonomiske nivåer"}]},{"label":"Art","children":[{"label":"Fruktbart avkom"},{"label":"Svakheter ved begrepet"}]},{"label":"Teknologi","children":[{"label":"Morfologi"},{"label":"Mikroskop"},{"label":"DNA-sekvensering"}]},{"label":"Tre domener","children":[{"label":"Bakterier"},{"label":"Arker"},{"label":"Eukaryoter"}]},{"label":"Slektskap","children":[{"label":"Fylogenetiske trær"},{"label":"Homologe og analoge trekk"},{"label":"Fellestrekk og variasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:systematikk-og-klassifisering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:systematikk-og-klassifisering', 'Systematikk', 'Faget som navngir, ordner og finner slektskap mellom organismer.', 0),
+  ('biologi-1:systematikk-og-klassifisering', 'Taksonomi', 'Læren om å beskrive og navngi arter.', 1),
+  ('biologi-1:systematikk-og-klassifisering', 'Binomial nomenklatur', 'Vitenskapelig navn i to deler: slekt og artsepitet.', 2),
+  ('biologi-1:systematikk-og-klassifisering', 'Carl von Linné', 'Svensk naturforsker som innførte systemet på 1700-tallet.', 3),
+  ('biologi-1:systematikk-og-klassifisering', 'Taksonomiske nivåer', 'Domene, rike, rekke, klasse, orden, familie, slekt, art.', 4),
+  ('biologi-1:systematikk-og-klassifisering', 'Biologisk artsbegrep', 'Individer som kan få fruktbart avkom sammen.', 5),
+  ('biologi-1:systematikk-og-klassifisering', 'Prokaryot celle', 'Celle uten cellekjerne, som bakterier og arker.', 6),
+  ('biologi-1:systematikk-og-klassifisering', 'Eukaryot celle', 'Celle med cellekjerne og organeller.', 7),
+  ('biologi-1:systematikk-og-klassifisering', 'Tre domener', 'Bakterier, arker og eukaryoter.', 8),
+  ('biologi-1:systematikk-og-klassifisering', 'Carl Woese', 'Viste med genanalyser at arkene er et eget domene.', 9),
+  ('biologi-1:systematikk-og-klassifisering', 'Fylogenetisk tre', 'Slektstre som viser evolusjonært slektskap.', 10),
+  ('biologi-1:systematikk-og-klassifisering', 'Felles stamform', 'Forgreningspunkt i slektstreet.', 11),
+  ('biologi-1:systematikk-og-klassifisering', 'Homologe trekk', 'Trekk med felles opphav, som menneskearm og hvalluffe.', 12),
+  ('biologi-1:systematikk-og-klassifisering', 'Analoge trekk', 'Lik funksjon utviklet uavhengig, som vinger hos insekter og flaggermus.', 13),
+  ('biologi-1:systematikk-og-klassifisering', 'Konvergent evolusjon', 'At ulike grupper utvikler like trekk uavhengig av hverandre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:systematikk-og-klassifisering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:systematikk-og-klassifisering', 'q01', 'flervalg', 'Hva er binomial nomenklatur?', array['Et system med tre riker', 'Et vitenskapelig navn i to deler', 'En metode for DNA-analyse', 'En type slektstre']::text[], 1, 'For eksempel Homo sapiens.', true, true, 0),
+  ('biologi-1:systematikk-og-klassifisering', 'q02', 'flervalg', 'Hva er de tre domenene?', array['Bakterier, arker og eukaryoter', 'Planter, dyr og sopp', 'Virus, bakterier og sopp', 'Fisk, fugler og pattedyr']::text[], 0, 'Inndelingen bygger på genanalyser.', true, true, 1),
+  ('biologi-1:systematikk-og-klassifisering', 'q03', 'flervalg', 'Hvorfor regnes hest og esel som to arter?', array['De har ulik farge', 'De lever på ulike kontinenter', 'Avkommet (muldyret) er vanligvis sterilt', 'De spiser forskjellig mat']::text[], 2, 'Biologisk artsbegrep: fruktbart avkom.', true, true, 2),
+  ('biologi-1:systematikk-og-klassifisering', 'q04', 'flervalg', 'Hvilken teknologi viste forskjellen på prokaryote og eukaryote celler tydelig?', array['Lupen', 'Kikkerten', 'Røntgen', 'Elektronmikroskopet']::text[], 3, 'Det viste cellens indre strukturer.', true, true, 3),
+  ('biologi-1:systematikk-og-klassifisering', 'q05', 'flervalg', 'Hvilken gruppe er sopp nærmest i slekt med?', array['Dyr', 'Planter', 'Bakterier', 'Arker']::text[], 0, 'DNA-analyser viser dette.', true, true, 4),
+  ('biologi-1:systematikk-og-klassifisering', 'q06', 'flervalg', 'Hva viser et fylogenetisk tre?', array['Hvor artene lever', 'Evolusjonært slektskap', 'Næringskjeder', 'Hvor store artene er']::text[], 1, 'Forgreningspunktene er felles stamformer.', true, true, 5),
+  ('biologi-1:systematikk-og-klassifisering', 'q07', 'flervalg', 'Hvilket par er et eksempel på analoge trekk?', array['Menneskearm og hvalluffe', 'Hundens og ulvens tenner', 'Vinger hos insekter og flaggermus', 'Fuglevinge og dinosaurforbein']::text[], 2, 'Samme funksjon, uavhengig opphav.', true, true, 6),
+  ('biologi-1:systematikk-og-klassifisering', 'q08', 'flervalg', 'Hvilket taksonomisk nivå er lavest?', array['Familie', 'Rike', 'Klasse', 'Art']::text[], 3, 'Domene er høyest, art lavest.', true, true, 7),
+  ('biologi-1:systematikk-og-klassifisering', 'q09', 'flervalg', 'Hvilket fellestrekk viser at alt liv har felles opphav?', array['Den samme genetiske koden', 'At alle har cellekjerne', 'At alle kan fotosyntese', 'At alle har bein']::text[], 0, 'Også DNA som arvestoff og ATP.', true, false, 8),
+  ('biologi-1:systematikk-og-klassifisering', 'q10', 'flervalg', 'Hvilke dyr er hvalenes nærmeste levende slektninger?', array['Haier', 'Flodhester', 'Seler', 'Sjøkuer']::text[], 1, 'Det viser DNA-analyser.', true, false, 9),
+  ('biologi-1:systematikk-og-klassifisering', 'm01', 'sant-usant', 'Fuglene regnes som etterkommere av dinosaurer.', array['Sant', 'Usant']::text[], 0, 'Det viser både fossiler og slektskapsanalyser.', false, true, 10),
+  ('biologi-1:systematikk-og-klassifisering', 'm02', 'sant-usant', 'Bakterier og arker har cellekjerne.', array['Sant', 'Usant']::text[], 1, 'De er prokaryote og mangler cellekjerne.', false, true, 11),
+  ('biologi-1:systematikk-og-klassifisering', 'm03', 'sant-usant', 'Vitenskapelige navn gjør det lettere å forstå hverandre på tvers av språk.', array['Sant', 'Usant']::text[], 0, 'Lokale navn varierer.', false, true, 12),
+  ('biologi-1:systematikk-og-klassifisering', 'm04', 'sant-usant', 'Linné brukte DNA for å klassifisere arter.', array['Sant', 'Usant']::text[], 1, 'Linné levde på 1700-tallet og brukte utseende.', false, true, 13),
+  ('biologi-1:systematikk-og-klassifisering', 'm05', 'flervalg', 'Hva er slektsnavnet i Picea abies?', array['abies', 'Picea', 'Pinaceae', 'Plantae']::text[], 1, 'Første del er slekten.', false, true, 14),
+  ('biologi-1:systematikk-og-klassifisering', 'm06', 'flervalg', 'Hva er homologe trekk?', array['Trekk med felles evolusjonært opphav', 'Trekk med lik funksjon, men ulikt opphav', 'Trekk som bare finnes hos planter', 'Ervervede egenskaper']::text[], 0, 'For eksempel skjelettet i menneskearm og hvalluffe.', false, true, 15),
+  ('biologi-1:systematikk-og-klassifisering', 'm07', 'flervalg', 'Hvorfor passer det biologiske artsbegrepet dårlig for bakterier?', array['De er for små', 'De lever i vann', 'De formerer seg ukjønnet', 'De har ikke DNA']::text[], 2, 'Begrepet bygger på kjønnet formering.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:systematikk-og-klassifisering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Anatomi, fysiologi og livsprosesser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:anatomi-og-fysiologi', 'biologi-1', 'anatomi-og-fysiologi', 'Anatomi, fysiologi og livsprosesser', 'Sammenhengen mellom oppbygning og funksjon hos planter og dyr: celleånding og fotosyntese, gassutveksling, transport og fordøyelse – og hvorfor store overflater er så viktige.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:anatomi-og-fysiologi', '## Oppbygning og funksjon
+
+**Anatomi** handler om hvordan organismer er **bygd opp**, mens **fysiologi** handler om hvordan de **fungerer**. De henger tett sammen: Formen på et organ er tilpasset oppgaven det skal gjøre.
+
+Alle organismer må gjennomføre de samme **livsprosessene**: skaffe **energi** og **byggesteiner**, **utveksle gasser**, **transportere** stoffer, skille ut **avfall**, **reagere** på omgivelsene, **vokse** og **formere seg**.
+
+## Energi: celleånding og fotosyntese
+
+**Fotosyntesen** i kloroplastene hos planter og alger bygger opp glukose ved hjelp av lysenergi:
+
+6 CO₂ + 6 H₂O + lysenergi → C₆H₁₂O₆ + 6 O₂
+
+**Celleåndingen** i mitokondriene hos nesten alle eukaryoter bryter ned glukose og lagrer energien i **ATP**:
+
+C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energi
+
+Legg merke til at planter har **både** fotosyntese og celleånding.
+
+## Overflate og volum
+
+Stoffer må inn og ut gjennom **overflater**. Når en organisme blir større, øker volumet **raskere** enn overflaten. Derfor har store organismer utviklet **store indre overflater**:
+
+- **Lungeblærer** (alveoler) i lungene gir en samlet overflate på flere titalls kvadratmeter.
+- **Tarmtotter** og mikrovilli i tynntarmen øker opptaksflaten.
+- **Gjellelameller** hos fisk og **rothår** hos planter gjør det samme.
+
+## Gassutveksling
+
+Gasser går inn og ut ved **diffusjon** – fra høy til lav konsentrasjon. Ulike grupper løser dette ulikt:
+
+- **Pattedyr** puster med **lunger**.
+- **Fisk** har **gjeller**, der blod og vann strømmer i **motsatt retning** (motstrømsprinsippet), slik at mest mulig oksygen tas opp.
+- **Insekter** har **trakéer** – rør som leder luft direkte inn til cellene.
+- **Planter** har **spalteåpninger** på bladene som kan åpnes og lukkes.
+
+## Transport
+
+- Mennesket har et **lukket blodkretsløp** der hjertet pumper blodet gjennom **arterier**, **kapillærer** og **vener**. Pattedyr og fugler har et **dobbelt** kretsløp: ett gjennom lungene og ett gjennom kroppen.
+- Mange insekter har et **åpent** kretsløp der væsken skvulper fritt rundt organene.
+- Planter har **ledningsvev**: **Vedvev** (xylem) frakter vann og mineraler opp fra røttene, og **silvev** (floem) frakter sukker fra bladene til resten av planten.
+
+## Fordøyelse
+
+I **fordøyelseskanalen** blir store næringsmolekyler brutt ned av **enzymer** til små molekyler som kan tas opp: **Karbohydrater** blir til enkle sukkerarter, **proteiner** til aminosyrer og **fett** til fettsyrer og glyserol. Opptaket skjer hovedsakelig i **tynntarmen**. **Planteetere** har ofte lange tarmer og hjelp fra **mikroorganismer** til å bryte ned cellulose, mens **rovdyr** har kortere tarmer.', '{"label":"Anatomi og fysiologi","children":[{"label":"Energi","children":[{"label":"Fotosyntese"},{"label":"Celleånding"},{"label":"ATP"}]},{"label":"Overflater","children":[{"label":"Lungeblærer"},{"label":"Tarmtotter"},{"label":"Rothår og gjeller"}]},{"label":"Gassutveksling","children":[{"label":"Lunger"},{"label":"Gjeller"},{"label":"Trakéer"},{"label":"Spalteåpninger"}]},{"label":"Transport","children":[{"label":"Lukket og åpent kretsløp"},{"label":"Xylem og floem"}]},{"label":"Fordøyelse","children":[{"label":"Enzymer"},{"label":"Tynntarmen"},{"label":"Plante- og kjøttetere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:anatomi-og-fysiologi';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:anatomi-og-fysiologi', 'Anatomi', 'Hvordan organismer er bygd opp.', 0),
+  ('biologi-1:anatomi-og-fysiologi', 'Fysiologi', 'Hvordan organismer fungerer.', 1),
+  ('biologi-1:anatomi-og-fysiologi', 'Fotosyntese', '6 CO₂ + 6 H₂O + lys → C₆H₁₂O₆ + 6 O₂, i kloroplastene.', 2),
+  ('biologi-1:anatomi-og-fysiologi', 'Celleånding', 'Glukose + oksygen → CO₂ + vann + energi (ATP), i mitokondriene.', 3),
+  ('biologi-1:anatomi-og-fysiologi', 'ATP', 'Cellenes energibærer.', 4),
+  ('biologi-1:anatomi-og-fysiologi', 'Overflate–volum-forhold', 'Volumet vokser raskere enn overflaten når organismen blir større.', 5),
+  ('biologi-1:anatomi-og-fysiologi', 'Lungeblærer (alveoler)', 'Små blærer i lungene som gir stor overflate for gassutveksling.', 6),
+  ('biologi-1:anatomi-og-fysiologi', 'Tarmtotter', 'Utposninger i tynntarmen som øker opptaksflaten.', 7),
+  ('biologi-1:anatomi-og-fysiologi', 'Motstrømsprinsippet', 'Blod og vann strømmer motsatt vei i gjellene.', 8),
+  ('biologi-1:anatomi-og-fysiologi', 'Trakéer', 'Luftrør som leder luft direkte til cellene hos insekter.', 9),
+  ('biologi-1:anatomi-og-fysiologi', 'Spalteåpninger', 'Åpninger i bladene for gassutveksling.', 10),
+  ('biologi-1:anatomi-og-fysiologi', 'Lukket blodkretsløp', 'Blodet holdes inne i blodårer.', 11),
+  ('biologi-1:anatomi-og-fysiologi', 'Dobbelt kretsløp', 'Ett kretsløp gjennom lungene og ett gjennom kroppen.', 12),
+  ('biologi-1:anatomi-og-fysiologi', 'Vedvev (xylem)', 'Frakter vann og mineraler opp fra røttene.', 13),
+  ('biologi-1:anatomi-og-fysiologi', 'Silvev (floem)', 'Frakter sukker fra bladene til resten av planten.', 14),
+  ('biologi-1:anatomi-og-fysiologi', 'Diffusjon', 'Stoffer beveger seg fra høy til lav konsentrasjon.', 15);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:anatomi-og-fysiologi';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:anatomi-og-fysiologi', 'q01', 'flervalg', 'Hva er forskjellen på anatomi og fysiologi?', array['Det er det samme', 'Anatomi er oppbygning, fysiologi er funksjon', 'Anatomi gjelder planter, fysiologi dyr', 'Fysiologi er oppbygning, anatomi er funksjon']::text[], 1, 'De henger tett sammen.', true, true, 0),
+  ('biologi-1:anatomi-og-fysiologi', 'q02', 'flervalg', 'Hvor foregår celleåndingen?', array['I mitokondriene', 'I kloroplastene', 'I cellekjernen', 'I celleveggen']::text[], 0, 'Energien lagres i ATP.', true, true, 1),
+  ('biologi-1:anatomi-og-fysiologi', 'q03', 'flervalg', 'Hvorfor har store organismer store indre overflater?', array['For å bli tyngre', 'For å se større ut', 'Fordi volumet vokser raskere enn overflaten', 'Fordi de har færre celler']::text[], 2, 'Stoffutvekslingen må skje gjennom overflater.', true, true, 2),
+  ('biologi-1:anatomi-og-fysiologi', 'q04', 'flervalg', 'Hva gjør vedvevet (xylem) i planter?', array['Frakter sukker nedover', 'Lager fotosyntese', 'Lukker spalteåpningene', 'Frakter vann og mineraler opp fra røttene']::text[], 3, 'Silvevet frakter sukker.', true, true, 3),
+  ('biologi-1:anatomi-og-fysiologi', 'q05', 'flervalg', 'Hva er motstrømsprinsippet i gjellene?', array['Blod og vann strømmer i motsatt retning', 'Vann strømmer inn og ut samme vei', 'Blodet står stille', 'Fisken svømmer baklengs']::text[], 0, 'Det gir effektivt oksygenopptak.', true, true, 4),
+  ('biologi-1:anatomi-og-fysiologi', 'q06', 'flervalg', 'Hvordan får insekter oksygen til cellene?', array['Med lunger', 'Gjennom trakéer', 'Med gjeller', 'Gjennom blodet i et lukket kretsløp']::text[], 1, 'Rør leder luft direkte inn.', true, true, 5),
+  ('biologi-1:anatomi-og-fysiologi', 'q07', 'flervalg', 'Hvor tas det meste av næringen opp hos mennesket?', array['I magesekken', 'I tykktarmen', 'I tynntarmen', 'I spiserøret']::text[], 2, 'Tarmtottene gir stor overflate.', true, true, 6),
+  ('biologi-1:anatomi-og-fysiologi', 'q08', 'flervalg', 'Hva er et dobbelt blodkretsløp?', array['To hjerter', 'Blod som går begge veier i samme åre', 'Et åpent og et lukket kretsløp', 'Ett kretsløp gjennom lungene og ett gjennom kroppen']::text[], 3, 'Pattedyr og fugler har det.', true, true, 7),
+  ('biologi-1:anatomi-og-fysiologi', 'q09', 'flervalg', 'Har planter celleånding?', array['Ja, i tillegg til fotosyntese', 'Nei, bare fotosyntese', 'Bare om natten', 'Bare i røttene']::text[], 0, 'Alle levende planteceller trenger ATP.', true, false, 8),
+  ('biologi-1:anatomi-og-fysiologi', 'q10', 'flervalg', 'Hva blir proteiner brutt ned til i fordøyelsen?', array['Glukose', 'Aminosyrer', 'Fettsyrer', 'Nukleotider']::text[], 1, 'Enzymer bryter ned proteinene.', true, false, 9),
+  ('biologi-1:anatomi-og-fysiologi', 'm01', 'sant-usant', 'Gasser går inn og ut av celler ved diffusjon.', array['Sant', 'Usant']::text[], 0, 'Fra høy til lav konsentrasjon.', false, true, 10),
+  ('biologi-1:anatomi-og-fysiologi', 'm02', 'sant-usant', 'Silvevet frakter vann opp fra røttene.', array['Sant', 'Usant']::text[], 1, 'Det er vedvevet; silvevet frakter sukker.', false, true, 11),
+  ('biologi-1:anatomi-og-fysiologi', 'm03', 'sant-usant', 'Planteetere får ofte hjelp fra mikroorganismer til å bryte ned cellulose.', array['Sant', 'Usant']::text[], 0, 'For eksempel i vomma hos kyr.', false, true, 12),
+  ('biologi-1:anatomi-og-fysiologi', 'm04', 'sant-usant', 'Mange insekter har et lukket blodkretsløp som mennesket.', array['Sant', 'Usant']::text[], 1, 'Mange insekter har et åpent kretsløp.', false, true, 13),
+  ('biologi-1:anatomi-og-fysiologi', 'm05', 'flervalg', 'Hvilket stoff dannes i fotosyntesen?', array['Karbondioksid', 'Glukose', 'ATP fra oksygen', 'Nitrogen']::text[], 1, 'Og oksygen som biprodukt.', false, true, 14),
+  ('biologi-1:anatomi-og-fysiologi', 'm06', 'flervalg', 'Hvor kan planter regulere gassutvekslingen?', array['I spalteåpningene', 'I røttene', 'I blomstene', 'I frøene']::text[], 0, 'De kan åpnes og lukkes.', false, true, 15),
+  ('biologi-1:anatomi-og-fysiologi', 'm07', 'flervalg', 'Hva blir fett brutt ned til?', array['Aminosyrer', 'Glukose', 'Fettsyrer og glyserol', 'Vitaminer']::text[], 2, 'Enzymet lipase gjør jobben.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:anatomi-og-fysiologi', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Homeostase og regulering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:homeostase', 'biologi-1', 'homeostase', 'Homeostase og regulering', 'Hvordan nervesystemet og hormonsystemet holder kroppens indre miljø stabilt gjennom negativ tilbakekobling – med temperatur, blodsukker og væskebalanse som eksempler – og hvordan livsstil påvirker reguleringen.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:homeostase', '## Et stabilt indre miljø
+
+**Homeostase** betyr at kroppen holder det **indre miljøet** – temperatur, blodsukker, vanninnhold, pH og mer – innenfor **snevre grenser**, selv om omgivelsene endrer seg. Cellene og enzymene fungerer bare godt under stabile forhold.
+
+## Negativ tilbakekobling
+
+De fleste reguleringer skjer ved **negativ tilbakekobling**:
+
+1. En **sensor** (reseptor) registrerer en endring.
+2. Et **kontrollsenter**, ofte i hjernen, sammenligner med **settpunktet**.
+3. En **effektor** – en muskel eller kjertel – gjør en endring som **motvirker** avviket.
+
+Når verdien er tilbake ved settpunktet, **dempes** responsen. Det fungerer som en termostat.
+
+Mer sjelden finnes **positiv tilbakekobling**, som **forsterker** en endring – for eksempel under en **fødsel**, der hormonet oksytocin gir sterkere rier, som igjen gir mer oksytocin.
+
+## To styringssystemer
+
+- **Nervesystemet** sender elektriske signaler langs nerveceller. Det er **raskt** og **kortvarig**.
+- **Hormonsystemet** sender **hormoner** med blodet fra kjertler. Det er **langsommere**, men virker **lenger**. Hormonene påvirker bare celler med riktige **reseptorer**.
+
+**Hypothalamus** i hjernen binder de to systemene sammen.
+
+## Temperatur
+
+Kroppstemperaturen holdes rundt **37 °C**. Hypothalamus får signaler fra temperatursensorer.
+
+- **For varmt**: Vi **svetter**, og blodårene i huden **utvider** seg slik at mer varme avgis.
+- **For kaldt**: Blodårene i huden **trekker seg sammen**, vi **skjelver**, og hårene reiser seg («gåsehud»).
+
+## Blodsukker
+
+Bukspyttkjertelen regulerer blodsukkeret, som hos friske fastende personer ligger på omtrent **4–6 mmol/L**.
+
+- Etter et måltid stiger blodsukkeret. **Betacellene** skiller ut **insulin**, som får cellene til å ta opp glukose og leveren til å lagre den som **glykogen**. Blodsukkeret synker.
+- Når blodsukkeret blir lavt, skiller **alfacellene** ut **glukagon**, som får leveren til å bryte ned glykogen. Blodsukkeret stiger.
+
+## Væskebalanse
+
+Når kroppen mangler vann, skiller hypofysen ut **ADH** (antidiuretisk hormon). Det får **nyrene** til å holde tilbake vann, og urinen blir mørkere og mer konsentrert. **Alkohol hemmer ADH**, og derfor tisser man mer og kan bli dehydrert.
+
+## Livsstil og regulering
+
+- **Diabetes type 1** er en **autoimmun** sykdom der immunforsvaret ødelegger betacellene. Den behandles med insulin og skyldes **ikke** livsstil.
+- **Diabetes type 2** skyldes at cellene reagerer **dårligere** på insulin (insulinresistens). Arv spiller inn, men **fysisk inaktivitet**, **overvekt** og kosthold øker risikoen. **Mosjon** gjør cellene mer følsomme for insulin.
+- **Langvarig stress** gir høye nivåer av stresshormonet **kortisol**, som kan påvirke søvn, blodsukker og immunforsvar.
+- **Søvn**, **kosthold** og **fysisk aktivitet** påvirker altså kroppens evne til å holde balansen.', '{"label":"Homeostase","children":[{"label":"Tilbakekobling","children":[{"label":"Sensor–kontrollsenter–effektor"},{"label":"Negativ"},{"label":"Positiv"}]},{"label":"Styringssystemer","children":[{"label":"Nervesystemet"},{"label":"Hormonsystemet"},{"label":"Hypothalamus"}]},{"label":"Eksempler","children":[{"label":"Temperatur"},{"label":"Blodsukker"},{"label":"Væskebalanse"}]},{"label":"Blodsukker","children":[{"label":"Insulin"},{"label":"Glukagon"},{"label":"Glykogen"}]},{"label":"Livsstil","children":[{"label":"Diabetes type 1 og 2"},{"label":"Stress og kortisol"},{"label":"Søvn, kosthold, mosjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:homeostase';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:homeostase', 'Homeostase', 'Kroppen holder det indre miljøet stabilt.', 0),
+  ('biologi-1:homeostase', 'Negativ tilbakekobling', 'Responsen motvirker avviket fra settpunktet.', 1),
+  ('biologi-1:homeostase', 'Positiv tilbakekobling', 'Responsen forsterker endringen, som under fødsel.', 2),
+  ('biologi-1:homeostase', 'Sensor, kontrollsenter, effektor', 'De tre leddene i en regulering.', 3),
+  ('biologi-1:homeostase', 'Settpunkt', 'Verdien kroppen prøver å holde, som 37 °C.', 4),
+  ('biologi-1:homeostase', 'Nervesystemet', 'Raske, kortvarige elektriske signaler.', 5),
+  ('biologi-1:homeostase', 'Hormonsystemet', 'Langsommere, langvarige signaler med blodet.', 6),
+  ('biologi-1:homeostase', 'Hypothalamus', 'Del av hjernen som styrer blant annet temperatur og binder nerve- og hormonsystemet sammen.', 7),
+  ('biologi-1:homeostase', 'Insulin', 'Hormon fra betacellene som senker blodsukkeret.', 8),
+  ('biologi-1:homeostase', 'Glukagon', 'Hormon fra alfacellene som øker blodsukkeret.', 9),
+  ('biologi-1:homeostase', 'Glykogen', 'Lagringsform for glukose i lever og muskler.', 10),
+  ('biologi-1:homeostase', 'ADH', 'Hormon som får nyrene til å holde tilbake vann.', 11),
+  ('biologi-1:homeostase', 'Diabetes type 1', 'Autoimmun sykdom der betacellene ødelegges.', 12),
+  ('biologi-1:homeostase', 'Diabetes type 2', 'Insulinresistens; risikoen øker med inaktivitet og overvekt.', 13),
+  ('biologi-1:homeostase', 'Kortisol', 'Stresshormon som ved langvarig stress kan påvirke mange reguleringer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:homeostase';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:homeostase', 'q01', 'flervalg', 'Hva er homeostase?', array['At kroppen vokser', 'At kroppen holder det indre miljøet stabilt', 'At hjertet slår', 'At kroppen bekjemper sykdom']::text[], 1, 'For eksempel temperatur og blodsukker.', true, true, 0),
+  ('biologi-1:homeostase', 'q02', 'flervalg', 'Hva kjennetegner negativ tilbakekobling?', array['Responsen motvirker avviket', 'Responsen forsterker endringen', 'Det skjer ingen respons', 'Settpunktet endres hele tiden']::text[], 0, 'Som en termostat.', true, true, 1),
+  ('biologi-1:homeostase', 'q03', 'flervalg', 'Hvilket hormon senker blodsukkeret?', array['Glukagon', 'Adrenalin', 'Insulin', 'ADH']::text[], 2, 'Det skilles ut fra betacellene.', true, true, 2),
+  ('biologi-1:homeostase', 'q04', 'flervalg', 'Hva skjer når kroppen blir for varm?', array['Vi skjelver', 'Blodårene i huden trekker seg sammen', 'Vi får gåsehud', 'Vi svetter og blodårene i huden utvider seg']::text[], 3, 'Mer varme avgis.', true, true, 3),
+  ('biologi-1:homeostase', 'q05', 'flervalg', 'Hva er forskjellen på nervesystemet og hormonsystemet?', array['Nervesystemet er raskt og kortvarig, hormonsystemet langsommere og langvarig', 'Hormonsystemet er alltid raskest', 'De virker på samme måte', 'Nervesystemet bruker blodet']::text[], 0, 'De samarbeider gjennom hypothalamus.', true, true, 4),
+  ('biologi-1:homeostase', 'q06', 'flervalg', 'Hvorfor tisser man mer når man drikker alkohol?', array['Alkohol øker blodsukkeret', 'Alkohol hemmer ADH', 'Alkohol er vann', 'Alkohol stimulerer insulin']::text[], 1, 'Nyrene holder tilbake mindre vann.', true, true, 5),
+  ('biologi-1:homeostase', 'q07', 'flervalg', 'Hva skyldes diabetes type 1?', array['For mye sukker', 'Lite mosjon', 'At immunforsvaret ødelegger betacellene', 'For mye insulin']::text[], 2, 'Den er autoimmun og skyldes ikke livsstil.', true, true, 6),
+  ('biologi-1:homeostase', 'q08', 'flervalg', 'Hvordan kan mosjon påvirke blodsukkerreguleringen?', array['Den ødelegger betacellene', 'Den stopper glukagon', 'Den hemmer ADH', 'Den gjør cellene mer følsomme for insulin']::text[], 3, 'Det reduserer risikoen for type 2-diabetes.', true, true, 7),
+  ('biologi-1:homeostase', 'q09', 'flervalg', 'Hva er et eksempel på positiv tilbakekobling?', array['Oksytocin under fødsel', 'Svetting', 'Insulin etter et måltid', 'Skjelving']::text[], 0, 'Endringen forsterkes til fødselen er over.', true, false, 8),
+  ('biologi-1:homeostase', 'q10', 'flervalg', 'Hva gjør glukagon?', array['Senker blodsukkeret', 'Får leveren til å bryte ned glykogen, slik at blodsukkeret stiger', 'Holder tilbake vann', 'Øker kroppstemperaturen']::text[], 1, 'Skilles ut fra alfacellene.', true, false, 9),
+  ('biologi-1:homeostase', 'm01', 'sant-usant', 'Hormoner påvirker bare celler som har riktige reseptorer.', array['Sant', 'Usant']::text[], 0, 'Derfor virker hvert hormon på bestemte målceller.', false, true, 10),
+  ('biologi-1:homeostase', 'm02', 'sant-usant', 'Diabetes type 1 skyldes hovedsakelig usunn livsstil.', array['Sant', 'Usant']::text[], 1, 'Den er autoimmun.', false, true, 11),
+  ('biologi-1:homeostase', 'm03', 'sant-usant', 'Leveren kan lagre glukose som glykogen.', array['Sant', 'Usant']::text[], 0, 'Insulin stimulerer lagringen.', false, true, 12),
+  ('biologi-1:homeostase', 'm04', 'sant-usant', 'Skjelving er kroppens måte å kvitte seg med varme på.', array['Sant', 'Usant']::text[], 1, 'Skjelving produserer varme når kroppen er for kald.', false, true, 13),
+  ('biologi-1:homeostase', 'm05', 'flervalg', 'Hvilken kjertel skiller ut insulin?', array['Skjoldbruskkjertelen', 'Bukspyttkjertelen', 'Binyrene', 'Hypofysen']::text[], 1, 'Fra betacellene.', false, true, 14),
+  ('biologi-1:homeostase', 'm06', 'flervalg', 'Hva gjør ADH?', array['Får nyrene til å holde tilbake vann', 'Senker blodsukkeret', 'Øker hjerterytmen', 'Starter fødselen']::text[], 0, 'Antidiuretisk hormon.', false, true, 15),
+  ('biologi-1:homeostase', 'm07', 'flervalg', 'Hvilket stresshormon kan påvirke søvn og blodsukker ved langvarig stress?', array['Insulin', 'Oksytocin', 'Kortisol', 'ADH']::text[], 2, 'Det skilles ut fra binyrene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:homeostase', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Cellen, membraner og cellekommunikasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:cellen-og-cellekommunikasjon', 'biologi-1', 'cellen-og-cellekommunikasjon', 'Cellen, membraner og cellekommunikasjon', 'Cellens organeller og hva de gjør, oppbygningen av cellemembranen, transport gjennom membranen og hvordan celler kommuniserer med signalmolekyler og reseptorer.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:cellen-og-cellekommunikasjon', '## Cellen – livets minste enhet
+
+Alle organismer består av **celler**. **Prokaryote** celler (bakterier og arker) er små og mangler cellekjerne; DNA-et ligger fritt i cellen. **Eukaryote** celler er større og har **cellekjerne** og **organeller** omgitt av membraner.
+
+## Organeller og funksjon
+
+- **Cellekjernen** inneholder **DNA** og styrer cellen.
+- **Ribosomer** lager **proteiner** etter oppskriften i DNA.
+- **Endoplasmatisk nettverk** (ER): Det **ru** ER har ribosomer og lager proteiner som skal ut av cellen eller inn i membraner; det **glatte** ER lager blant annet lipider.
+- **Golgiapparatet** bearbeider, sorterer og pakker proteiner i **vesikler**.
+- **Mitokondriene** står for **celleåndingen** og lager ATP.
+- **Lysosomer** bryter ned avfall og gamle cellebestanddeler.
+- **Planteceller** har i tillegg **cellevegg** av cellulose, **kloroplaster** for fotosyntese og en stor **vakuole**.
+
+Struktur henger sammen med funksjon: **Muskelceller** har mange mitokondrier, og celler som lager mye protein, som i bukspyttkjertelen, har mye ru ER.
+
+## Cellemembranen
+
+Cellemembranen er et **dobbeltlag av fosfolipider**. Fosfolipidene har et **vannelskende** hode og to **vannskyende** haler, og halene vender innover. I membranen sitter **proteiner** som fungerer som kanaler, pumper, reseptorer og identitetsmerker. Modellen kalles **væske-mosaikk-modellen**, fordi molekylene kan bevege seg sideveis.
+
+Membranen er **selektivt permeabel**: Små, upolare molekyler som O₂ og CO₂ slipper lett gjennom, mens ioner og store molekyler trenger hjelp.
+
+## Transport gjennom membranen
+
+- **Diffusjon**: fra høy til lav konsentrasjon, uten energi.
+- **Osmose**: diffusjon av **vann** gjennom en membran.
+- **Fasilitert diffusjon**: gjennom **kanal-** eller **bærerproteiner**, fortsatt uten energi.
+- **Aktiv transport**: **mot** konsentrasjonsforskjellen, med energi fra **ATP**. **Natrium-kalium-pumpen** er et viktig eksempel.
+- **Endocytose** og **eksocytose**: Store partikler tas inn eller sendes ut i **vesikler**.
+
+## Kommunikasjon mellom celler
+
+I en flercellet organisme må cellene **samarbeide**. De kommuniserer med **signalmolekyler**, som **hormoner** og **signalstoffer** (nevrotransmittere).
+
+1. En celle sender ut et **signalmolekyl**.
+2. Molekylet binder seg til en **reseptor** med passende form på **målcellen** – som en nøkkel i en lås.
+3. Bindingen setter i gang en **signalkjede** inne i cellen.
+4. Cellen gir en **respons**, for eksempel ved å aktivere et gen eller et enzym.
+
+**Vannløselige** signalmolekyler, som insulin, binder seg til reseptorer i **membranen**. **Fettløselige** hormoner, som østrogen og testosteron, kan gå gjennom membranen og binde seg til reseptorer **inne i cellen**.
+
+**Eksempel**: Når insulin binder seg til reseptoren sin, blir flere **glukosetransportører** flyttet til membranen, og cellen tar opp mer glukose.
+
+Mellom **nerveceller** skjer kommunikasjonen i **synapser**, der signalstoffer krysser en smal spalte og binder seg til reseptorer på neste celle.', '{"label":"Cellen og kommunikasjon","children":[{"label":"Celletyper","children":[{"label":"Prokaryot"},{"label":"Eukaryot"},{"label":"Plantecelle"}]},{"label":"Organeller","children":[{"label":"Kjerne og ribosomer"},{"label":"ER og golgi"},{"label":"Mitokondrier"}]},{"label":"Membranen","children":[{"label":"Fosfolipid-dobbeltlag"},{"label":"Proteiner"},{"label":"Selektivt permeabel"}]},{"label":"Transport","children":[{"label":"Diffusjon og osmose"},{"label":"Fasilitert diffusjon"},{"label":"Aktiv transport"},{"label":"Endo- og eksocytose"}]},{"label":"Kommunikasjon","children":[{"label":"Signalmolekyl"},{"label":"Reseptor"},{"label":"Signalkjede og respons"},{"label":"Synapse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:cellen-og-cellekommunikasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Prokaryot celle', 'Liten celle uten cellekjerne.', 0),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Eukaryot celle', 'Celle med cellekjerne og membranomsluttede organeller.', 1),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Ribosom', 'Lager proteiner.', 2),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Ru ER', 'Endoplasmatisk nettverk med ribosomer – lager proteiner.', 3),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Golgiapparatet', 'Bearbeider, sorterer og pakker proteiner i vesikler.', 4),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Mitokondrie', 'Står for celleåndingen og lager ATP.', 5),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Lysosom', 'Bryter ned avfall i cellen.', 6),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Fosfolipid-dobbeltlag', 'Grunnstrukturen i cellemembranen.', 7),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Væske-mosaikk-modellen', 'Membranen er en bevegelig mosaikk av lipider og proteiner.', 8),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Selektivt permeabel', 'Slipper noen stoffer gjennom, men ikke andre.', 9),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Osmose', 'Diffusjon av vann gjennom en membran.', 10),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Fasilitert diffusjon', 'Diffusjon gjennom kanal- eller bærerproteiner uten energi.', 11),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Aktiv transport', 'Transport mot konsentrasjonsforskjellen med energi fra ATP.', 12),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Natrium-kalium-pumpen', 'Membranprotein som pumper ioner aktivt.', 13),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Reseptor', 'Protein som et signalmolekyl binder seg til.', 14),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'Synapse', 'Koblingen mellom to nerveceller.', 15);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:cellen-og-cellekommunikasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q01', 'flervalg', 'Hvilken organelle lager ATP gjennom celleånding?', array['Ribosomet', 'Mitokondrien', 'Golgiapparatet', 'Lysosomet']::text[], 1, 'Muskelceller har mange mitokondrier.', true, true, 0),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q02', 'flervalg', 'Hva er cellemembranen bygd opp av?', array['Et dobbeltlag av fosfolipider med proteiner', 'Cellulose', 'Bare proteiner', 'DNA']::text[], 0, 'Væske-mosaikk-modellen.', true, true, 1),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q03', 'flervalg', 'Hva kjennetegner aktiv transport?', array['Den skjer fra høy til lav konsentrasjon uten energi', 'Den gjelder bare vann', 'Den skjer mot konsentrasjonsforskjellen og krever ATP', 'Den skjer bare i planter']::text[], 2, 'For eksempel natrium-kalium-pumpen.', true, true, 2),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q04', 'flervalg', 'Hva er osmose?', array['Transport av store partikler i vesikler', 'Aktiv transport av ioner', 'Nedbryting av avfall', 'Diffusjon av vann gjennom en membran']::text[], 3, 'Vann går mot høyere konsentrasjon av oppløste stoffer.', true, true, 3),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q05', 'flervalg', 'Hvor binder insulin seg på målcellen?', array['Til en reseptor i cellemembranen', 'Til DNA i cellekjernen', 'Til mitokondriene', 'Til celleveggen']::text[], 0, 'Insulin er vannløselig.', true, true, 4),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q06', 'flervalg', 'Hvilke strukturer har planteceller, men ikke dyreceller?', array['Mitokondrier og ribosomer', 'Cellevegg og kloroplaster', 'Cellekjerne og lysosomer', 'Cellemembran og ER']::text[], 1, 'Og en stor vakuole.', true, true, 5),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q07', 'flervalg', 'Hva gjør golgiapparatet?', array['Lager ATP', 'Lagrer DNA', 'Bearbeider, sorterer og pakker proteiner', 'Lager fotosyntese']::text[], 2, 'Proteinene sendes videre i vesikler.', true, true, 6),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q08', 'flervalg', 'Hvorfor kan fettløselige hormoner binde seg til reseptorer inne i cellen?', array['Fordi de er veldig store', 'Fordi de har egne kanaler', 'Fordi de bruker aktiv transport', 'Fordi de kan gå gjennom fosfolipid-dobbeltlaget']::text[], 3, 'Membranen har en fettaktig kjerne.', true, true, 7),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q09', 'flervalg', 'Hvilke stoffer slipper lettest gjennom cellemembranen?', array['Små, upolare molekyler som O₂ og CO₂', 'Store proteiner', 'Ioner', 'Glukose uten hjelp']::text[], 0, 'De løser seg i lipidlaget.', true, false, 8),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'q10', 'flervalg', 'Hvor skjer kommunikasjonen mellom to nerveceller?', array['I mitokondriene', 'I synapsen', 'I cellekjernen', 'I blodet']::text[], 1, 'Signalstoffer krysser en smal spalte.', true, false, 9),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm01', 'sant-usant', 'Prokaryote celler mangler cellekjerne.', array['Sant', 'Usant']::text[], 0, 'DNA-et ligger fritt i cellen.', false, true, 10),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm02', 'sant-usant', 'Fasilitert diffusjon krever energi fra ATP.', array['Sant', 'Usant']::text[], 1, 'Den skjer med konsentrasjonsforskjellen, uten energi.', false, true, 11),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm03', 'sant-usant', 'Celler som lager mye protein, har gjerne mye ru ER.', array['Sant', 'Usant']::text[], 0, 'Struktur henger sammen med funksjon.', false, true, 12),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm04', 'sant-usant', 'Alle hormoner påvirker alle celler i kroppen.', array['Sant', 'Usant']::text[], 1, 'Bare celler med riktig reseptor påvirkes.', false, true, 13),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm05', 'flervalg', 'Hva skjer når insulin binder seg til reseptoren sin?', array['Cellen deler seg', 'Flere glukosetransportører flyttes til membranen', 'Cellen dør', 'Membranen løses opp']::text[], 1, 'Cellen tar opp mer glukose.', false, true, 14),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm06', 'flervalg', 'Hvordan tar en hvit blodcelle inn en bakterie?', array['Ved endocytose', 'Ved osmose', 'Ved diffusjon', 'Gjennom en ionekanal']::text[], 0, 'Store partikler tas inn i vesikler.', false, true, 15),
+  ('biologi-1:cellen-og-cellekommunikasjon', 'm07', 'flervalg', 'Hva gjør lysosomene?', array['Lager proteiner', 'Lager ATP', 'Bryter ned avfall i cellen', 'Lagrer DNA']::text[], 2, 'De inneholder nedbrytende enzymer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:cellen-og-cellekommunikasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Celledeling og cellesyklus
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:celledeling', 'biologi-1', 'celledeling', 'Celledeling og cellesyklus', 'Todeling hos bakterier, cellesyklusen, mitose og meiose hos eukaryoter, hvordan celledelingen reguleres – og hva som skjer når reguleringen svikter, som ved kreft.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:celledeling', '## Hvorfor celler deler seg
+
+Celler deler seg for at organismer skal kunne **vokse**, **reparere** skader, erstatte **gamle celler** og **formere seg**. Hver dag lager kroppen din milliarder av nye celler, for eksempel i huden, tarmen og beinmargen.
+
+## Todeling hos prokaryoter
+
+Bakterier deler seg ved **todeling**: Det ringformede DNA-et **kopieres**, cellen vokser, og den snøres av på midten til to like celler. Under gode forhold kan noen bakterier dele seg omtrent hvert **20. minutt**, og derfor kan en infeksjon utvikle seg raskt.
+
+## Cellesyklusen hos eukaryoter
+
+En eukaryot celle går gjennom **cellesyklusen**:
+
+- **Interfase** – den lengste delen: Cellen **vokser** (G1), **kopierer DNA-et** (S) og **forbereder** delingen (G2).
+- **Mitose** – kjernedeling.
+- **Cytokinese** – selve cellen deles i to.
+
+Mange celler, som nerveceller, går ut av syklusen og deler seg sjelden eller aldri.
+
+## Mitose
+
+Mitosen gir to **genetisk like** datterceller med samme kromosomtall som morcellen. Hos mennesket er det **46 kromosomer** (23 par).
+
+1. **Profase**: Kromosomene kveiles opp og blir synlige; kjernemembranen brytes ned.
+2. **Metafase**: Kromosomene stiller seg på **midtplanet**.
+3. **Anafase**: **Søsterkromatidene** trekkes fra hverandre mot hver sin pol.
+4. **Telofase**: Nye kjernemembraner dannes.
+
+Mitose brukes til **vekst**, **reparasjon** og **ukjønnet formering**. Hos planter dannes en **celleplate** mellom dattercellene, fordi de har cellevegg.
+
+## Meiose
+
+**Meiose** lager **kjønnsceller** og består av **to delinger**. Resultatet er **fire** celler med **halvt** kromosomtall – **haploide** celler med 23 kromosomer hos mennesket. Når egg og sædcelle smelter sammen, blir kromosomtallet 46 igjen.
+
+Meiosen gir **genetisk variasjon** på to måter:
+
+- **Overkrysning**: Homologe kromosomer bytter biter.
+- **Tilfeldig fordeling**: Hvilke kromosomer fra mor og far som havner i hver kjønnscelle, er tilfeldig.
+
+## Regulering av celledelingen
+
+Cellesyklusen har **kontrollpunkter** der cellen «sjekker» at alt er i orden før den går videre – for eksempel at DNA-et er riktig kopiert. Proteiner som **sykliner** driver syklusen framover, mens andre proteiner kan **stoppe** den. Proteinet **p53** stopper delingen ved DNA-skade og kan sette i gang **apoptose** – programmert celledød.
+
+## Når reguleringen svikter
+
+**Kreft** oppstår når celler deler seg **ukontrollert**. Årsaken er **mutasjoner** i gener som styrer celledelingen:
+
+- **Proto-onkogener** fremmer vanligvis deling. Muterte blir de til **onkogener** – som en gasspedal som har låst seg.
+- **Tumorsuppressorgener**, som genet for p53, bremser vanligvis deling. Muterte fungerer de som **bremser som svikter**.
+
+Vanligvis må **flere** mutasjoner samles før en celle blir til en kreftcelle. **Røyking**, **UV-stråling** og enkelte **virus** øker risikoen for mutasjoner.', '{"label":"Celledeling","children":[{"label":"Prokaryoter","children":[{"label":"Todeling"}]},{"label":"Cellesyklus","children":[{"label":"Interfase: G1, S, G2"},{"label":"Mitose"},{"label":"Cytokinese"}]},{"label":"Mitose","children":[{"label":"Profase"},{"label":"Metafase"},{"label":"Anafase"},{"label":"Telofase"}]},{"label":"Meiose","children":[{"label":"Fire haploide celler"},{"label":"Overkrysning"},{"label":"Tilfeldig fordeling"}]},{"label":"Regulering","children":[{"label":"Kontrollpunkter"},{"label":"p53 og apoptose"},{"label":"Kreft"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:celledeling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:celledeling', 'Todeling', 'Bakteriers celledeling til to like celler.', 0),
+  ('biologi-1:celledeling', 'Cellesyklus', 'Interfase, mitose og cytokinese.', 1),
+  ('biologi-1:celledeling', 'Interfase', 'Cellen vokser, kopierer DNA og forbereder deling.', 2),
+  ('biologi-1:celledeling', 'Mitose', 'Kjernedeling som gir to genetisk like celler.', 3),
+  ('biologi-1:celledeling', 'Cytokinese', 'Delingen av selve cellen.', 4),
+  ('biologi-1:celledeling', 'Profase', 'Kromosomene kveiles opp, kjernemembranen brytes ned.', 5),
+  ('biologi-1:celledeling', 'Metafase', 'Kromosomene stiller seg på midtplanet.', 6),
+  ('biologi-1:celledeling', 'Anafase', 'Søsterkromatidene trekkes mot hver sin pol.', 7),
+  ('biologi-1:celledeling', 'Telofase', 'Nye kjernemembraner dannes.', 8),
+  ('biologi-1:celledeling', 'Meiose', 'To delinger som gir fire haploide kjønnsceller.', 9),
+  ('biologi-1:celledeling', 'Haploid', 'Med halvt kromosomtall, 23 hos mennesket.', 10),
+  ('biologi-1:celledeling', 'Overkrysning', 'Homologe kromosomer bytter biter i meiosen.', 11),
+  ('biologi-1:celledeling', 'Kontrollpunkt', 'Sted i cellesyklusen der cellen sjekker at alt er i orden.', 12),
+  ('biologi-1:celledeling', 'Apoptose', 'Programmert celledød.', 13),
+  ('biologi-1:celledeling', 'Onkogen', 'Mutert gen som driver ukontrollert deling – en låst gasspedal.', 14),
+  ('biologi-1:celledeling', 'Tumorsuppressorgen', 'Gen som bremser deling, som genet for p53.', 15);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:celledeling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:celledeling', 'q01', 'flervalg', 'Hva er resultatet av mitose?', array['Fire haploide celler', 'To genetisk like celler', 'To celler med halvt kromosomtall', 'Én stor celle']::text[], 1, 'Brukes til vekst og reparasjon.', true, true, 0),
+  ('biologi-1:celledeling', 'q02', 'flervalg', 'Hva er resultatet av meiose?', array['Fire haploide kjønnsceller', 'To like kroppsceller', 'Én diploid celle', 'Åtte celler']::text[], 0, 'Kromosomtallet halveres.', true, true, 1),
+  ('biologi-1:celledeling', 'q03', 'flervalg', 'Når kopieres DNA-et i cellesyklusen?', array['I metafasen', 'I cytokinesen', 'I interfasen (S-fasen)', 'I telofasen']::text[], 2, 'Før selve delingen.', true, true, 2),
+  ('biologi-1:celledeling', 'q04', 'flervalg', 'Hva skjer i anafasen?', array['Kjernemembranen dannes', 'Kromosomene kveiles opp', 'Cellen vokser', 'Søsterkromatidene trekkes mot hver sin pol']::text[], 3, 'Hver dattercelle får en kopi.', true, true, 3),
+  ('biologi-1:celledeling', 'q05', 'flervalg', 'Hvordan deler bakterier seg?', array['Ved todeling', 'Ved meiose', 'Ved mitose med kjernemembran', 'Ved sporedannelse alltid']::text[], 0, 'Det ringformede DNA-et kopieres først.', true, true, 4),
+  ('biologi-1:celledeling', 'q06', 'flervalg', 'Hva er apoptose?', array['Ukontrollert celledeling', 'Programmert celledød', 'Kopiering av DNA', 'Overkrysning']::text[], 1, 'Skadde celler kan fjerne seg selv.', true, true, 5),
+  ('biologi-1:celledeling', 'q07', 'flervalg', 'Hva gjør p53?', array['Driver celledelingen fram', 'Lager nye kromosomer', 'Stopper delingen ved DNA-skade', 'Bryter ned cellemembranen']::text[], 2, 'Det er et tumorsuppressorprotein.', true, true, 6),
+  ('biologi-1:celledeling', 'q08', 'flervalg', 'Hva er et onkogen?', array['Et gen som bremser deling', 'Et gen for kjønnsceller', 'Et virus', 'Et mutert gen som driver ukontrollert deling']::text[], 3, 'Som en låst gasspedal.', true, true, 7),
+  ('biologi-1:celledeling', 'q09', 'flervalg', 'Hvilke to prosesser i meiosen gir genetisk variasjon?', array['Overkrysning og tilfeldig fordeling av kromosomer', 'Todeling og cytokinese', 'Apoptose og mitose', 'Interfase og telofase']::text[], 0, 'Derfor er søsken forskjellige.', true, false, 8),
+  ('biologi-1:celledeling', 'q10', 'flervalg', 'Hvor mange kromosomer har en kjønnscelle hos mennesket?', array['46', '23', '92', '12']::text[], 1, 'Halvparten av 46.', true, false, 9),
+  ('biologi-1:celledeling', 'm01', 'sant-usant', 'Interfasen er den lengste delen av cellesyklusen.', array['Sant', 'Usant']::text[], 0, 'Cellen vokser og kopierer DNA.', false, true, 10),
+  ('biologi-1:celledeling', 'm02', 'sant-usant', 'Mitose gir genetisk variasjon.', array['Sant', 'Usant']::text[], 1, 'Mitose gir like celler; meiose gir variasjon.', false, true, 11),
+  ('biologi-1:celledeling', 'm03', 'sant-usant', 'Vanligvis må flere mutasjoner samles før en celle blir en kreftcelle.', array['Sant', 'Usant']::text[], 0, 'Derfor øker risikoen med alderen.', false, true, 12),
+  ('biologi-1:celledeling', 'm04', 'sant-usant', 'Planteceller deler seg ved at cellen snøres av på midten, som dyreceller.', array['Sant', 'Usant']::text[], 1, 'Planteceller danner en celleplate fordi de har cellevegg.', false, true, 13),
+  ('biologi-1:celledeling', 'm05', 'flervalg', 'Hvor stiller kromosomene seg i metafasen?', array['Ved polene', 'På midtplanet', 'Utenfor cellen', 'I kjernemembranen']::text[], 1, 'Derfra trekkes de fra hverandre.', false, true, 14),
+  ('biologi-1:celledeling', 'm06', 'flervalg', 'Hvilken faktor øker risikoen for mutasjoner i hudceller?', array['UV-stråling', 'Mosjon', 'Søvn', 'Vann']::text[], 0, 'UV kan skade DNA.', false, true, 15),
+  ('biologi-1:celledeling', 'm07', 'flervalg', 'Hva brukes mitose til?', array['Bare til å lage kjønnsceller', 'Bare hos bakterier', 'Vekst, reparasjon og ukjønnet formering', 'Å halvere kromosomtallet']::text[], 2, 'Kjønnsceller lages ved meiose.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:celledeling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Smittsomme sykdommer og immunforsvaret
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:sykdommer-og-immunforsvaret', 'biologi-1', 'sykdommer-og-immunforsvaret', 'Smittsomme sykdommer og immunforsvaret', 'Hvordan virus og bakterier gir sykdom og spres, og hvordan kroppens forsvar – fra hud og slimhinner til antistoffer, T-celler og hukommelsesceller – bekjemper dem.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:sykdommer-og-immunforsvaret', '## Sykdomsfremkallende organismer
+
+Mikroorganismer som gir sykdom, kalles **patogener**. De viktigste er **bakterier**, **virus**, **sopp** og **parasitter**.
+
+- **Bakterier** er prokaryote **celler** som kan formere seg på egen hånd. De kan gi sykdom ved å **skade vev** eller lage **giftstoffer** (toksiner). Eksempler er streptokokker, salmonella og tuberkulose.
+- **Virus** er **ikke celler**. De består av arvestoff (DNA eller RNA) i en **proteinkapsel** og kan bare formere seg **inne i vertsceller**. Eksempler er influensa, koronavirus, HPV og HIV.
+
+## Hvordan virus formerer seg
+
+1. Viruset **fester seg** til reseptorer på en vertscelle.
+2. Arvestoffet kommer **inn** i cellen.
+3. Cellens maskineri blir brukt til å **kopiere** virusets arvestoff og lage **virusproteiner**.
+4. Nye viruspartikler **settes sammen**.
+5. De **frigjøres** og kan infisere nye celler – ofte blir vertscellen ødelagt.
+
+## Smitteveier
+
+- **Dråpe- og luftsmitte**: hosting og nysing (influensa, meslinger).
+- **Kontaktsmitte**: via hender og overflater.
+- **Mat og vann**: salmonella, norovirus.
+- **Blod og seksuell kontakt**: HIV, hepatitt B.
+- **Vektorer**: dyr som overfører smitte, som **flått** (borreliose) og **mygg** (malaria).
+
+**Zoonoser** er sykdommer som smitter mellom dyr og mennesker.
+
+## Kroppens forsvar
+
+**Førstelinjeforsvaret** hindrer patogener i å komme inn: **hud**, **slimhinner**, **flimmerhår**, **magesyre** og enzymer i tårer og spytt.
+
+Det **medfødte immunforsvaret** reagerer raskt og likt på alle inntrengere:
+
+- **Betennelse**: Blodårene utvider seg, og området blir rødt, varmt og hovent.
+- **Fagocytter** («eterceller»), som makrofager, **spiser** inntrengere.
+- **Feber** kan hemme formeringen til patogenene.
+
+Det **ervervede immunforsvaret** er **spesifikt** og retter seg mot bestemte **antigener** – molekyler på overflaten av patogenet:
+
+- **B-celler** blir til **plasmaceller** som lager **antistoffer**. Antistoffene binder seg til antigenet og merker patogenet for ødeleggelse.
+- **T-hjelpeceller** koordinerer forsvaret og aktiverer B-celler og andre T-celler.
+- **Drepende T-celler** dreper **infiserte** kroppsceller.
+- **Hukommelsesceller** blir igjen etter infeksjonen.
+
+## Immunitet
+
+Første gang du møter et patogen, tar det noen dager før forsvaret er i gang – **primærresponsen**. Neste gang reagerer hukommelsescellene **raskt og kraftig** – **sekundærresponsen** – og ofte merker du ikke at du er smittet. Du er da **immun**.
+
+## Når forsvaret svekkes
+
+**HIV** angriper **T-hjelpecellene**. Uten behandling svekkes hele immunforsvaret, og vanlige infeksjoner kan bli livstruende (**aids**). Moderne medisiner kan holde viruset nede slik at man kan leve et langt liv.
+
+## Forebygging
+
+**Håndvask**, **god hygiene**, **trygg mat og vann**, **kondom**, **isolering** av syke og **vaksiner** begrenser smittespredning.', '{"label":"Sykdom og immunforsvar","children":[{"label":"Patogener","children":[{"label":"Bakterier"},{"label":"Virus"},{"label":"Sopp og parasitter"}]},{"label":"Smitte","children":[{"label":"Dråper og luft"},{"label":"Kontakt, mat, blod"},{"label":"Vektorer"}]},{"label":"Medfødt forsvar","children":[{"label":"Hud og slimhinner"},{"label":"Betennelse"},{"label":"Fagocytter"}]},{"label":"Ervervet forsvar","children":[{"label":"B-celler og antistoffer"},{"label":"T-hjelpeceller"},{"label":"Drepende T-celler"}]},{"label":"Immunitet","children":[{"label":"Hukommelsesceller"},{"label":"Primær- og sekundærrespons"},{"label":"HIV og aids"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:sykdommer-og-immunforsvaret';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Patogen', 'Mikroorganisme som gir sykdom.', 0),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Bakterie', 'Prokaryot celle som kan formere seg på egen hånd.', 1),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Virus', 'Arvestoff i en proteinkapsel som bare formerer seg i vertsceller.', 2),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Toksin', 'Giftstoff som enkelte bakterier lager.', 3),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Vektor', 'Dyr som overfører smitte, som flått og mygg.', 4),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Zoonose', 'Sykdom som smitter mellom dyr og mennesker.', 5),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Førstelinjeforsvaret', 'Hud, slimhinner, flimmerhår og magesyre.', 6),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Betennelse', 'Rødhet, varme og hevelse når forsvaret aktiveres.', 7),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Fagocytt', 'Hvit blodcelle som spiser inntrengere.', 8),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Antigen', 'Molekyl som immunforsvaret gjenkjenner.', 9),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Antistoff', 'Protein fra plasmaceller som binder seg til antigener.', 10),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'T-hjelpecelle', 'Koordinerer og aktiverer immunforsvaret.', 11),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Drepende T-celle', 'Dreper infiserte kroppsceller.', 12),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Hukommelsescelle', 'Husker patogenet og gir rask respons neste gang.', 13),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'Sekundærrespons', 'Rask og kraftig respons ved nytt møte med samme patogen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:sykdommer-og-immunforsvaret';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q01', 'flervalg', 'Hva er den viktigste forskjellen på virus og bakterier?', array['Virus er større', 'Virus er ikke celler og formerer seg bare i vertsceller', 'Bakterier har ikke arvestoff', 'Virus kan behandles med antibiotika']::text[], 1, 'Bakterier er selvstendige celler.', true, true, 0),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q02', 'flervalg', 'Hva lager plasmacellene?', array['Antistoffer', 'Toksiner', 'Virus', 'Hormoner']::text[], 0, 'De utvikles fra B-celler.', true, true, 1),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q03', 'flervalg', 'Hvilken celle dreper infiserte kroppsceller?', array['B-cellen', 'Den røde blodcellen', 'Den drepende T-cellen', 'Plasmacellen']::text[], 2, 'Slik stoppes virusformeringen.', true, true, 2),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q04', 'flervalg', 'Hva er en vektor i smittesammenheng?', array['En type antistoff', 'Et virus', 'En hvit blodcelle', 'Et dyr som overfører smitte']::text[], 3, 'For eksempel flått og mygg.', true, true, 3),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q05', 'flervalg', 'Hvorfor blir du ofte ikke syk andre gang du møter samme patogen?', array['Hukommelsescellene gir en rask og kraftig respons', 'Patogenet er svakere', 'Huden er tykkere', 'Du har feber']::text[], 0, 'Sekundærresponsen.', true, true, 4),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q06', 'flervalg', 'Hvilke celler angriper HIV?', array['Røde blodceller', 'T-hjelpeceller', 'Nerveceller', 'Hudceller']::text[], 1, 'Hele immunforsvaret svekkes.', true, true, 5),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q07', 'flervalg', 'Hva hører til førstelinjeforsvaret?', array['Antistoffer', 'T-celler', 'Hud og slimhinner', 'Hukommelsesceller']::text[], 2, 'Det hindrer patogener i å komme inn.', true, true, 6),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q08', 'flervalg', 'Hva er et antigen?', array['Et legemiddel', 'En hvit blodcelle', 'Et hormon', 'Et molekyl som immunforsvaret gjenkjenner']::text[], 3, 'Ofte på overflaten av patogenet.', true, true, 7),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q09', 'flervalg', 'Hva er en zoonose?', array['En sykdom som smitter mellom dyr og mennesker', 'En sykdom bare hos planter', 'En arvelig sykdom', 'En sykdom uten symptomer']::text[], 0, 'Mange nye sykdommer har kommet fra dyr.', true, false, 8),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'q10', 'flervalg', 'Hva gjør fagocyttene?', array['Lager antistoffer', 'Spiser inntrengere', 'Frakter oksygen', 'Lager hormoner']::text[], 1, 'De er del av det medfødte forsvaret.', true, false, 9),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm01', 'sant-usant', 'Virus kan bare formere seg inne i levende celler.', array['Sant', 'Usant']::text[], 0, 'De bruker cellens maskineri.', false, true, 10),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm02', 'sant-usant', 'Det medfødte immunforsvaret retter seg mot helt bestemte antigener.', array['Sant', 'Usant']::text[], 1, 'Det reagerer likt på alle inntrengere; det ervervede er spesifikt.', false, true, 11),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm03', 'sant-usant', 'Borreliose smitter med flått.', array['Sant', 'Usant']::text[], 0, 'Flåtten er en vektor.', false, true, 12),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm04', 'sant-usant', 'Primærresponsen er raskere enn sekundærresponsen.', array['Sant', 'Usant']::text[], 1, 'Sekundærresponsen er raskest takket være hukommelsescellene.', false, true, 13),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm05', 'flervalg', 'Hvilken sykdom skyldes et virus?', array['Tuberkulose', 'Influensa', 'Salmonellose', 'Borreliose']::text[], 1, 'De andre skyldes bakterier.', false, true, 14),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm06', 'flervalg', 'Hva er tegn på betennelse?', array['Rødhet, varme og hevelse', 'Blekhet og kulde', 'Kløe alene', 'Ingen symptomer']::text[], 0, 'Blodårene utvider seg.', false, true, 15),
+  ('biologi-1:sykdommer-og-immunforsvaret', 'm07', 'flervalg', 'Hvordan smitter norovirus ofte?', array['Med flått', 'Gjennom blodoverføring', 'Via mat, vann og kontakt', 'Gjennom sollys']::text[], 2, 'God håndhygiene er viktig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:sykdommer-og-immunforsvaret', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Vaksiner – vern for individ og samfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:vaksiner', 'biologi-1', 'vaksiner', 'Vaksiner – vern for individ og samfunn', 'Hvordan vaksiner lærer immunforsvaret å kjenne igjen et patogen, ulike typer vaksiner, flokkimmunitet, bivirkninger og etiske spørsmål rundt vaksinasjon.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:vaksiner', '## Prinsippet bak vaksiner
+
+En **vaksine** «øver» immunforsvaret uten at du blir syk. Vaksinen inneholder **antigener** fra et patogen – eller en oppskrift på dem. Immunforsvaret gjennomfører en **primærrespons** og danner **hukommelsesceller**. Hvis du senere blir smittet av det ekte patogenet, kommer en rask og kraftig **sekundærrespons**, og du blir ikke syk eller bare lite syk.
+
+Noen vaksiner må gis i flere doser eller fornyes med **oppfriskningsdoser** for å gi god og varig beskyttelse.
+
+## Typer vaksiner
+
+- **Levende, svekkede vaksiner**: Patogenet er svekket slik at det ikke gir sykdom hos friske. Eksempel: vaksinen mot **meslinger, kusma og røde hunder** (MMR).
+- **Inaktiverte vaksiner**: drepte patogener, for eksempel mot polio slik den gis i Norge.
+- **Subenhetsvaksiner**: bare deler av patogenet, som et overflateprotein. Eksempel: **HPV** og hepatitt B.
+- **Toksoidvaksiner**: ufarliggjort toksin, som mot **stivkrampe** og difteri.
+- **mRNA-vaksiner**: inneholder en oppskrift som får kroppens egne celler til å lage et **virusprotein** en kort tid. De ble tatt i bruk i stor skala mot **covid-19**. mRNA-en brytes raskt ned og endrer ikke arvestoffet vårt.
+
+## Vern på individnivå
+
+Den som er vaksinert, har **lavere risiko** for å bli syk og for å få **alvorlig sykdom**. Ingen vaksine gir 100 % beskyttelse, men mange gir svært god beskyttelse.
+
+## Vern på populasjonsnivå: flokkimmunitet
+
+Når en stor nok andel av befolkningen er immun, får smitten vanskelig for å spre seg. Det kalles **flokkimmunitet**, og den beskytter også dem som **ikke kan vaksineres** – nyfødte, svært syke og personer med svekket immunforsvar.
+
+Hvor stor andel som trengs, avhenger av hvor **smittsom** sykdommen er. Det **basale reproduksjonstallet** R₀ er hvor mange én smittet i gjennomsnitt smitter i en befolkning uten immunitet. Terskelen for flokkimmunitet er omtrent **1 − 1/R₀**. Meslinger er svært smittsomt (R₀ rundt 12–18), og derfor trengs det en vaksinasjonsdekning på **rundt 95 %**.
+
+## Suksesshistorier
+
+- **Kopper** ble erklært **utryddet** av Verdens helseorganisasjon (WHO) i **1980** etter en global vaksinasjonskampanje.
+- **Polio** er nesten utryddet.
+- I Norge tilbys vaksiner gratis gjennom **barnevaksinasjonsprogrammet**, som er **frivillig**, og oppslutningen er høy.
+
+## Bivirkninger og sikkerhet
+
+**Vanlige bivirkninger** er milde og kortvarige: ømhet, lett feber og tretthet. **Alvorlige** bivirkninger er **sjeldne**. Vaksiner testes i store **kliniske studier** før godkjenning og **overvåkes** etter at de er tatt i bruk.
+
+Påstanden om at MMR-vaksinen gir autisme kom fra en studie fra **1998** som senere ble **trukket tilbake**, og store studier har ikke funnet noen slik sammenheng. Likevel førte påstanden til lavere vaksinasjonsdekning og **meslingutbrudd** i flere land.
+
+## Etiske spørsmål
+
+- Bør vaksiner være **frivillige** eller **påbudt**?
+- Hvordan veier vi **individets rett** til å bestemme mot **fellesskapets** behov for flokkimmunitet?
+- Hvordan kan vaksiner **fordeles rettferdig** mellom rike og fattige land?', '{"label":"Vaksiner","children":[{"label":"Prinsipp","children":[{"label":"Antigen"},{"label":"Hukommelsesceller"},{"label":"Oppfriskningsdoser"}]},{"label":"Typer","children":[{"label":"Levende svekket"},{"label":"Inaktivert"},{"label":"Subenhet og toksoid"},{"label":"mRNA"}]},{"label":"Populasjon","children":[{"label":"Flokkimmunitet"},{"label":"R₀ og terskel"}]},{"label":"Resultater","children":[{"label":"Kopper utryddet"},{"label":"Barnevaksinasjonsprogrammet"}]},{"label":"Sikkerhet og etikk","children":[{"label":"Bivirkninger"},{"label":"Frivillighet"},{"label":"Global fordeling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:vaksiner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:vaksiner', 'Vaksine', 'Øver immunforsvaret med antigener uten at du blir syk.', 0),
+  ('biologi-1:vaksiner', 'Oppfriskningsdose', 'Ny dose som forsterker eller forlenger beskyttelsen.', 1),
+  ('biologi-1:vaksiner', 'Levende, svekket vaksine', 'Svekket patogen, som i MMR-vaksinen.', 2),
+  ('biologi-1:vaksiner', 'Inaktivert vaksine', 'Inneholder drepte patogener.', 3),
+  ('biologi-1:vaksiner', 'Subenhetsvaksine', 'Bare deler av patogenet, som et overflateprotein.', 4),
+  ('biologi-1:vaksiner', 'Toksoidvaksine', 'Ufarliggjort toksin, som mot stivkrampe.', 5),
+  ('biologi-1:vaksiner', 'mRNA-vaksine', 'Oppskrift som får cellene til å lage et virusprotein en kort tid.', 6),
+  ('biologi-1:vaksiner', 'Flokkimmunitet', 'Nok immune til at smitten får vanskelig for å spre seg.', 7),
+  ('biologi-1:vaksiner', 'R₀', 'Hvor mange én smittet i snitt smitter i en befolkning uten immunitet.', 8),
+  ('biologi-1:vaksiner', 'Terskel for flokkimmunitet', 'Omtrent 1 − 1/R₀.', 9),
+  ('biologi-1:vaksiner', 'Meslinger', 'Svært smittsom sykdom som krever rundt 95 % vaksinasjonsdekning.', 10),
+  ('biologi-1:vaksiner', 'Kopper', 'Erklært utryddet av WHO i 1980.', 11),
+  ('biologi-1:vaksiner', 'Barnevaksinasjonsprogrammet', 'Gratis og frivillige vaksiner til barn i Norge.', 12),
+  ('biologi-1:vaksiner', 'Klinisk studie', 'Stor utprøving av en vaksine før godkjenning.', 13),
+  ('biologi-1:vaksiner', 'MMR', 'Vaksine mot meslinger, kusma og røde hunder.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:vaksiner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:vaksiner', 'q01', 'flervalg', 'Hvordan beskytter en vaksine mot sykdom?', array['Den dreper alle bakterier i kroppen', 'Den gjør at kroppen danner hukommelsesceller', 'Den erstatter immunforsvaret', 'Den gir antibiotika']::text[], 1, 'Da kommer en rask sekundærrespons ved smitte.', true, true, 0),
+  ('biologi-1:vaksiner', 'q02', 'flervalg', 'Hva er flokkimmunitet?', array['At nok personer er immune til at smitten får vanskelig for å spre seg', 'At alle er syke samtidig', 'At dyr er vaksinert', 'At én person er immun']::text[], 0, 'Den beskytter også dem som ikke kan vaksineres.', true, true, 1),
+  ('biologi-1:vaksiner', 'q03', 'flervalg', 'Hvorfor trengs det så høy vaksinasjonsdekning mot meslinger?', array['Fordi vaksinen er svak', 'Fordi meslinger er ufarlig', 'Fordi meslinger er svært smittsomt', 'Fordi det bare finnes i Norge']::text[], 2, 'R₀ rundt 12–18 gir terskel rundt 95 %.', true, true, 2),
+  ('biologi-1:vaksiner', 'q04', 'flervalg', 'Hva inneholder en mRNA-vaksine?', array['Levende virus', 'Antibiotika', 'Drepte bakterier', 'En oppskrift som får cellene til å lage et virusprotein']::text[], 3, 'mRNA-en brytes raskt ned.', true, true, 3),
+  ('biologi-1:vaksiner', 'q05', 'flervalg', 'Hvilken sykdom er erklært utryddet?', array['Kopper', 'Meslinger', 'Influensa', 'Stivkrampe']::text[], 0, 'WHO erklærte det i 1980.', true, true, 4),
+  ('biologi-1:vaksiner', 'q06', 'flervalg', 'Hvilken type vaksine er MMR?', array['mRNA-vaksine', 'Levende, svekket vaksine', 'Toksoidvaksine', 'Inaktivert vaksine']::text[], 1, 'Patogenene er svekket.', true, true, 5),
+  ('biologi-1:vaksiner', 'q07', 'flervalg', 'Hva er terskelen for flokkimmunitet når R₀ = 4?', array['25 %', '50 %', '75 %', '96 %']::text[], 2, '1 − 1/4 = 0,75.', true, true, 6),
+  ('biologi-1:vaksiner', 'q08', 'flervalg', 'Hva skjedde med studien fra 1998 som koblet MMR-vaksinen til autisme?', array['Den ble bekreftet', 'Den førte til nobelpris', 'Den ble aldri lest', 'Den ble trukket tilbake, og sammenhengen er ikke funnet i store studier']::text[], 3, 'Likevel førte den til meslingutbrudd.', true, true, 7),
+  ('biologi-1:vaksiner', 'q09', 'flervalg', 'Hvem beskyttes særlig av flokkimmunitet?', array['De som ikke kan vaksineres', 'Bare de vaksinerte', 'Bare helsepersonell', 'Ingen']::text[], 0, 'For eksempel nyfødte og personer med svekket immunforsvar.', true, false, 8),
+  ('biologi-1:vaksiner', 'q10', 'flervalg', 'Hvilke bivirkninger er vanligst etter vaksinasjon?', array['Alvorlige og varige', 'Milde og kortvarige, som ømhet og lett feber', 'Ingen i det hele tatt', 'Autisme']::text[], 1, 'Alvorlige bivirkninger er sjeldne.', true, false, 9),
+  ('biologi-1:vaksiner', 'm01', 'sant-usant', 'Barnevaksinasjonsprogrammet i Norge er frivillig.', array['Sant', 'Usant']::text[], 0, 'Oppslutningen er likevel høy.', false, true, 10),
+  ('biologi-1:vaksiner', 'm02', 'sant-usant', 'mRNA-vaksiner endrer arvestoffet vårt.', array['Sant', 'Usant']::text[], 1, 'mRNA-en går ikke inn i cellekjernen og brytes raskt ned.', false, true, 11),
+  ('biologi-1:vaksiner', 'm03', 'sant-usant', 'Vaksiner overvåkes også etter at de er godkjent.', array['Sant', 'Usant']::text[], 0, 'Slik oppdages sjeldne bivirkninger.', false, true, 12),
+  ('biologi-1:vaksiner', 'm04', 'sant-usant', 'Alle vaksiner gir 100 % beskyttelse.', array['Sant', 'Usant']::text[], 1, 'Ingen vaksine er helt perfekt, men mange gir svært god beskyttelse.', false, true, 13),
+  ('biologi-1:vaksiner', 'm05', 'flervalg', 'Hva slags vaksine brukes mot stivkrampe?', array['mRNA-vaksine', 'Toksoidvaksine', 'Levende, svekket vaksine', 'Ingen vaksine finnes']::text[], 1, 'Toksinet er gjort ufarlig.', false, true, 14),
+  ('biologi-1:vaksiner', 'm06', 'flervalg', 'Hva måler R₀?', array['Hvor mange én smittet i snitt smitter i en befolkning uten immunitet', 'Hvor mange som dør', 'Hvor mange som er vaksinert', 'Hvor lenge man er syk']::text[], 0, 'Høy R₀ betyr svært smittsom.', false, true, 15),
+  ('biologi-1:vaksiner', 'm07', 'flervalg', 'Hvilket etisk spørsmål er sentralt i vaksinedebatten?', array['Om vaksiner smaker godt', 'Om vaksiner er dyre å produsere', 'Hvordan individets rett veies mot fellesskapets behov', 'Om vaksiner bør gis til planter']::text[], 2, 'Også rettferdig global fordeling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:vaksiner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Antibiotika og antibiotikaresistens
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:antibiotika-og-resistens', 'biologi-1', 'antibiotika-og-resistens', 'Antibiotika og antibiotikaresistens', 'Hva antibiotika er og hvordan de virker, hvorfor de ikke virker mot virus, hvordan bakterier blir resistente gjennom mutasjoner, genoverføring og seleksjon – og hva vi kan gjøre for å bremse utviklingen.', array[9]::int[], 8, 'sjekkes', array['Sjekk anslaget om over én million dødsfall direkte forårsaket av resistente bakterier i 2019 mot nyeste tall (GRAM/Lancet).']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:antibiotika-og-resistens', '## Hva er antibiotika?
+
+**Antibiotika** er legemidler som **dreper** bakterier eller **hemmer** veksten deres. **Alexander Fleming** oppdaget i **1928** at muggsoppen *Penicillium* laget et stoff som drepte bakterier – **penicillin**. Fra 1940-tallet ble antibiotika tatt i bruk i stor skala, og infeksjoner som tidligere kunne være dødelige, ble lette å behandle.
+
+## Hvordan antibiotika virker
+
+Antibiotika angriper strukturer som **bakterier har**, men som **våre celler mangler** eller har i en annen form. Derfor skader de bakteriene uten å skade oss (**selektiv toksisitet**). Ulike antibiotika:
+
+- hindrer bakteriene i å bygge **celleveggen** – slik virker **penicillin**
+- hemmer bakterienes **ribosomer** og dermed **proteinsyntesen**
+- hindrer **kopiering av DNA**
+
+**Smalspektrede** antibiotika virker mot få typer bakterier, mens **bredspektrede** virker mot mange – og rammer derfor også flere av de nyttige bakteriene i tarmen.
+
+## Antibiotika virker ikke mot virus
+
+Virus har verken cellevegg, ribosomer eller eget stoffskifte. Derfor har antibiotika **ingen effekt** på forkjølelse, influensa eller covid-19. Å bruke antibiotika mot virusinfeksjoner gir bare **bivirkninger** og øker faren for resistens.
+
+## Hvordan resistens oppstår
+
+**Antibiotikaresistens** betyr at bakterier ikke lenger blir drept eller hemmet av et antibiotikum.
+
+1. **Mutasjoner**: Tilfeldige endringer i DNA kan gi en bakterie en egenskap som beskytter den – for eksempel et enzym som bryter ned antibiotikumet.
+2. **Horisontal genoverføring**: Bakterier kan **dele gener** med hverandre, også mellom ulike arter. Resistensgener ligger ofte på små DNA-ringer, **plasmider**, som kan overføres ved **konjugasjon**.
+3. **Naturlig seleksjon**: Når vi bruker antibiotika, dør de følsomme bakteriene, mens de **resistente overlever** og formerer seg. Jo **mer** antibiotika som brukes, desto sterkere blir seleksjonen.
+
+Fordi bakterier formerer seg svært raskt, kan resistens spre seg på kort tid.
+
+## Konsekvenser
+
+**Multiresistente bakterier**, som **MRSA** (meticillinresistente *Staphylococcus aureus*), er motstandsdyktige mot flere antibiotika. Verdens helseorganisasjon regner antibiotikaresistens som en av de **største truslene** mot global helse. Uten virksomme antibiotika blir:
+
+- vanlige infeksjoner vanskeligere å behandle
+- **operasjoner**, **kreftbehandling** og **for tidlig fødte barn** mer risikable
+- sykehusopphold lengre og dyrere
+
+Forskere har anslått at resistente bakterier var den direkte årsaken til over én million dødsfall i verden i 2019.
+
+## Tiltak
+
+- Bruk antibiotika **bare når det trengs**, og bare mot bakterieinfeksjoner.
+- Følg **legens anvisning** – ikke bruk rester eller andres medisiner.
+- Velg **smalspektrede** antibiotika når det er mulig. Norge bruker for eksempel mye vanlig penicillin.
+- **Smittevern** og **håndhygiene** på sykehus og sykehjem.
+- **Vaksiner** forebygger infeksjoner og dermed behovet for antibiotika.
+- Begrense bruken i **husdyrhold** og **fiskeoppdrett**. I Norge er bruken lav, blant annet fordi vaksiner har gjort oppdrettsfisken friskere.
+- Forske fram **nye antibiotika** og alternativer, som bakterieetende virus (**bakteriofager**).
+
+Norge har **lav forekomst** av resistente bakterier sammenlignet med mange andre land, men resistens sprer seg over landegrensene.', '{"label":"Antibiotika og resistens","children":[{"label":"Antibiotika","children":[{"label":"Fleming og penicillin"},{"label":"Selektiv toksisitet"},{"label":"Smal- og bredspektret"}]},{"label":"Virkemåte","children":[{"label":"Cellevegg"},{"label":"Ribosomer"},{"label":"DNA-kopiering"}]},{"label":"Resistens","children":[{"label":"Mutasjoner"},{"label":"Plasmider"},{"label":"Seleksjon"}]},{"label":"Konsekvenser","children":[{"label":"MRSA"},{"label":"Operasjoner og kreft"},{"label":"Global trussel"}]},{"label":"Tiltak","children":[{"label":"Riktig bruk"},{"label":"Smittevern og vaksiner"},{"label":"Husdyr og oppdrett"},{"label":"Ny forskning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:antibiotika-og-resistens';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:antibiotika-og-resistens', 'Antibiotika', 'Legemidler som dreper eller hemmer bakterier.', 0),
+  ('biologi-1:antibiotika-og-resistens', 'Alexander Fleming', 'Oppdaget penicillin i 1928.', 1),
+  ('biologi-1:antibiotika-og-resistens', 'Selektiv toksisitet', 'Skader bakterier uten å skade våre celler.', 2),
+  ('biologi-1:antibiotika-og-resistens', 'Penicillin', 'Hindrer bakteriene i å bygge cellevegg.', 3),
+  ('biologi-1:antibiotika-og-resistens', 'Smalspektret antibiotikum', 'Virker mot få typer bakterier.', 4),
+  ('biologi-1:antibiotika-og-resistens', 'Bredspektret antibiotikum', 'Virker mot mange typer bakterier, også nyttige tarmbakterier.', 5),
+  ('biologi-1:antibiotika-og-resistens', 'Antibiotikaresistens', 'Bakterier tåler antibiotikumet.', 6),
+  ('biologi-1:antibiotika-og-resistens', 'Horisontal genoverføring', 'Bakterier deler gener med hverandre.', 7),
+  ('biologi-1:antibiotika-og-resistens', 'Plasmid', 'Liten DNA-ring som ofte bærer resistensgener.', 8),
+  ('biologi-1:antibiotika-og-resistens', 'Konjugasjon', 'Overføring av plasmider mellom bakterier.', 9),
+  ('biologi-1:antibiotika-og-resistens', 'Seleksjon', 'Resistente bakterier overlever og formerer seg når antibiotika brukes.', 10),
+  ('biologi-1:antibiotika-og-resistens', 'MRSA', 'Meticillinresistente gule stafylokokker.', 11),
+  ('biologi-1:antibiotika-og-resistens', 'Multiresistent bakterie', 'Motstandsdyktig mot flere antibiotika.', 12),
+  ('biologi-1:antibiotika-og-resistens', 'Bakteriofag', 'Virus som angriper bakterier – mulig alternativ til antibiotika.', 13),
+  ('biologi-1:antibiotika-og-resistens', 'Antibiotika mot virus', 'Har ingen effekt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:antibiotika-og-resistens';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:antibiotika-og-resistens', 'q01', 'flervalg', 'Hvorfor virker ikke antibiotika mot virus?', array['Virus er for store', 'Virus mangler strukturene antibiotika angriper, som cellevegg og ribosomer', 'Virus er alltid resistente', 'Antibiotika blir brutt ned av virus']::text[], 1, 'Virus bruker vertscellens maskineri.', true, true, 0),
+  ('biologi-1:antibiotika-og-resistens', 'q02', 'flervalg', 'Hvordan virker penicillin?', array['Hindrer bakteriene i å bygge cellevegg', 'Ødelegger virus', 'Styrker immunforsvaret', 'Bryter ned DNA i våre celler']::text[], 0, 'Våre celler har ikke cellevegg.', true, true, 1),
+  ('biologi-1:antibiotika-og-resistens', 'q03', 'flervalg', 'Hva er horisontal genoverføring?', array['At gener arves fra foreldre', 'At bakterier dør', 'At bakterier deler gener med hverandre', 'At mennesker får nye gener']::text[], 2, 'Ofte via plasmider.', true, true, 2),
+  ('biologi-1:antibiotika-og-resistens', 'q04', 'flervalg', 'Hvorfor fører mye bruk av antibiotika til mer resistens?', array['Antibiotika lager nye bakterier', 'Antibiotika gjør bakteriene større', 'Antibiotika skader immunforsvaret', 'De følsomme bakteriene dør, og de resistente overlever og formerer seg']::text[], 3, 'Naturlig seleksjon.', true, true, 3),
+  ('biologi-1:antibiotika-og-resistens', 'q05', 'flervalg', 'Hvem oppdaget penicillin?', array['Alexander Fleming', 'Louis Pasteur', 'Charles Darwin', 'Robert Koch']::text[], 0, 'I 1928.', true, true, 4),
+  ('biologi-1:antibiotika-og-resistens', 'q06', 'flervalg', 'Hva er MRSA?', array['Et virus', 'Multiresistente gule stafylokokker', 'Et nytt antibiotikum', 'En vaksine']::text[], 1, 'Motstandsdyktig mot flere antibiotika.', true, true, 5),
+  ('biologi-1:antibiotika-og-resistens', 'q07', 'flervalg', 'Hvorfor bør man velge smalspektrede antibiotika når det er mulig?', array['De er alltid billigere', 'De virker også mot virus', 'De rammer færre nyttige bakterier og gir mindre seleksjon for resistens', 'De har ingen bivirkninger']::text[], 2, 'Bredspektrede påvirker hele tarmfloraen.', true, true, 6),
+  ('biologi-1:antibiotika-og-resistens', 'q08', 'flervalg', 'Hvilken behandling blir mer risikabel uten virksomme antibiotika?', array['Forkjølelse', 'Brilleutprøving', 'Tannpuss', 'Operasjoner og kreftbehandling']::text[], 3, 'De krever ofte forebygging og behandling av infeksjoner.', true, true, 7),
+  ('biologi-1:antibiotika-og-resistens', 'q09', 'flervalg', 'Hva er et plasmid?', array['En liten DNA-ring i bakterier', 'Et virus', 'En del av cellemembranen', 'Et antibiotikum']::text[], 0, 'Kan overføres mellom bakterier.', true, false, 8),
+  ('biologi-1:antibiotika-og-resistens', 'q10', 'flervalg', 'Hvordan kan vaksiner bidra mot antibiotikaresistens?', array['De dreper resistente bakterier direkte', 'De forebygger infeksjoner og dermed behovet for antibiotika', 'De inneholder antibiotika', 'De gjør ingen forskjell']::text[], 1, 'Mindre bruk gir mindre seleksjon.', true, false, 9),
+  ('biologi-1:antibiotika-og-resistens', 'm01', 'sant-usant', 'Resistensgener kan overføres mellom ulike bakteriearter.', array['Sant', 'Usant']::text[], 0, 'Gjennom horisontal genoverføring.', false, true, 10),
+  ('biologi-1:antibiotika-og-resistens', 'm02', 'sant-usant', 'Antibiotika hjelper mot influensa.', array['Sant', 'Usant']::text[], 1, 'Influensa skyldes virus.', false, true, 11),
+  ('biologi-1:antibiotika-og-resistens', 'm03', 'sant-usant', 'Norge har lav forekomst av resistente bakterier sammenlignet med mange land.', array['Sant', 'Usant']::text[], 0, 'Blant annet på grunn av forsiktig bruk.', false, true, 12),
+  ('biologi-1:antibiotika-og-resistens', 'm04', 'sant-usant', 'Det er lurt å spare på rester av antibiotika til neste gang du blir syk.', array['Sant', 'Usant']::text[], 1, 'Følg legens anvisning og ikke bruk rester.', false, true, 13),
+  ('biologi-1:antibiotika-og-resistens', 'm05', 'flervalg', 'Hvorfor kan resistens spre seg raskt?', array['Bakterier lever lenge', 'Bakterier formerer seg svært raskt', 'Bakterier er store', 'Bakterier har cellekjerne']::text[], 1, 'Mange generasjoner på kort tid.', false, true, 14),
+  ('biologi-1:antibiotika-og-resistens', 'm06', 'flervalg', 'Hvorfor bruker norsk fiskeoppdrett lite antibiotika i dag?', array['Vaksiner har gjort fisken friskere', 'Fisk kan ikke få bakterieinfeksjoner', 'Antibiotika er forbudt i all matproduksjon', 'Laks tåler ikke antibiotika']::text[], 0, 'Vaksinering av oppdrettsfisk.', false, true, 15),
+  ('biologi-1:antibiotika-og-resistens', 'm07', 'flervalg', 'Hva er en bakteriofag?', array['En bakterie som spiser virus', 'En hvit blodcelle', 'Et virus som angriper bakterier', 'Et antibiotikum fra sopp']::text[], 2, 'Mulig alternativ behandling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:antibiotika-og-resistens', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Økosystemer og biologisk mangfold
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:okosystemer-og-mangfold', 'biologi-1', 'okosystemer-og-mangfold', 'Økosystemer og biologisk mangfold', 'Abiotiske og biotiske faktorer, samspill mellom arter, næringsnett og energistrøm, hva som forklarer biologisk mangfold – og spørsmålet om naturen har verdi i seg selv.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:okosystemer-og-mangfold', '## Hva er et økosystem?
+
+Et **økosystem** består av alle **organismene** i et område og det **fysiske miljøet** de lever i. Eksempler er en innsjø, en granskog og et korallrev. Alle individene av én art i et område utgjør en **populasjon**, og alle populasjonene sammen er et **samfunn**.
+
+## Abiotiske og biotiske faktorer
+
+**Abiotiske faktorer** er de ikke-levende forholdene: **lys**, **temperatur**, **vann**, **næringsstoffer**, **pH**, **jordsmonn** og **vind**. Hver art har et **toleranseområde** for hver faktor. Den faktoren som er mest i **underskudd**, blir den **begrensende faktoren** – for eksempel nitrogen i mange skoger og fosfor i mange innsjøer.
+
+**Biotiske faktorer** er påvirkningene fra andre organismer:
+
+- **Konkurranse** om mat, lys eller plass – mellom individer av samme art eller mellom ulike arter.
+- **Predasjon**: Et rovdyr spiser byttedyr, og bestandene påvirker hverandre.
+- **Symbiose**: tett samliv. **Mutualisme** er til gjensidig nytte, som **sopprot** (mykorrhiza) mellom sopp og trær. **Parasittisme** er til nytte for parasitten og skade for verten.
+
+Hver art har sin **nisje** – sin «rolle» i økosystemet, med levested, næring og samspill.
+
+## Energi og stoff
+
+- **Produsenter** (planter og alger) fanger lysenergi i fotosyntesen.
+- **Konsumenter** spiser andre organismer: planteetere, rovdyr og altetere.
+- **Nedbrytere** (bakterier og sopp) bryter ned dødt materiale og frigjør næringsstoffer.
+
+Organismene er knyttet sammen i **næringskjeder** og **næringsnett** med flere **trofiske nivåer**. Bare omtrent **10 %** av energien går videre fra ett nivå til det neste; resten brukes til livsprosesser og avgis som varme. Derfor er det få topprovdyr. **Energien strømmer** gjennom økosystemet, mens **stoffene** – karbon, nitrogen og fosfor – går i **kretsløp**.
+
+## Hva forklarer det biologiske mangfoldet?
+
+**Biologisk mangfold** omfatter mangfold av **gener**, **arter** og **økosystemer**. Mangfoldet er størst i **tropiske regnskoger** og på **korallrev**. Viktige forklaringer er:
+
+- **Evolusjon** og **artsdannelse** over lang tid
+- **Varierte leveområder** med mange nisjer
+- **Stabilt klima** og mye **energi** fra sola
+- **Moderate forstyrrelser**, som gir plass til nye arter uten å ødelegge alt
+- **Nøkkelarter**, som har stor betydning for andre arter. **Beveren** lager dammer som skaper nye leveområder.
+
+Et artsrikt økosystem er ofte mer **robust** mot endringer.
+
+## Naturens verdi
+
+Naturen gir oss **økosystemtjenester**: mat, rent vann, pollinering, flomdemping, karbonlagring og opplevelser. Dette er naturens **nytteverdi** for mennesker.
+
+Mange mener at naturen også har en **egenverdi** – at arter og økosystemer har verdi **i seg selv**, uavhengig av nytten for oss. Den norske filosofen **Arne Næss** utviklet **dypøkologien**, som legger vekt på at alt liv har verdi. Spørsmålet om naturens egenverdi påvirker hvordan vi begrunner **vern** og hvordan vi veier naturen mot andre interesser.', '{"label":"Økosystemer og mangfold","children":[{"label":"Faktorer","children":[{"label":"Abiotiske"},{"label":"Biotiske"},{"label":"Begrensende faktor"}]},{"label":"Samspill","children":[{"label":"Konkurranse"},{"label":"Predasjon"},{"label":"Symbiose"}]},{"label":"Energi og stoff","children":[{"label":"Produsenter, konsumenter, nedbrytere"},{"label":"Næringsnett"},{"label":"10 %-regelen"}]},{"label":"Mangfold","children":[{"label":"Gener, arter, økosystemer"},{"label":"Nisjer og evolusjon"},{"label":"Nøkkelarter"}]},{"label":"Verdi","children":[{"label":"Økosystemtjenester"},{"label":"Egenverdi"},{"label":"Dypøkologi"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:okosystemer-og-mangfold';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:okosystemer-og-mangfold', 'Økosystem', 'Organismene i et område og det fysiske miljøet de lever i.', 0),
+  ('biologi-1:okosystemer-og-mangfold', 'Populasjon', 'Alle individene av én art i et område.', 1),
+  ('biologi-1:okosystemer-og-mangfold', 'Abiotiske faktorer', 'Ikke-levende forhold som lys, temperatur og vann.', 2),
+  ('biologi-1:okosystemer-og-mangfold', 'Biotiske faktorer', 'Påvirkninger fra andre organismer.', 3),
+  ('biologi-1:okosystemer-og-mangfold', 'Toleranseområde', 'Området en art tåler for en miljøfaktor.', 4),
+  ('biologi-1:okosystemer-og-mangfold', 'Begrensende faktor', 'Faktoren som er mest i underskudd.', 5),
+  ('biologi-1:okosystemer-og-mangfold', 'Mutualisme', 'Samliv til gjensidig nytte, som sopprot.', 6),
+  ('biologi-1:okosystemer-og-mangfold', 'Parasittisme', 'Samliv der parasitten har nytte og verten skade.', 7),
+  ('biologi-1:okosystemer-og-mangfold', 'Nisje', 'En arts rolle i økosystemet.', 8),
+  ('biologi-1:okosystemer-og-mangfold', 'Nedbrytere', 'Bakterier og sopp som bryter ned dødt materiale.', 9),
+  ('biologi-1:okosystemer-og-mangfold', 'Trofisk nivå', 'Trinn i næringskjeden.', 10),
+  ('biologi-1:okosystemer-og-mangfold', '10 %-regelen', 'Omtrent 10 % av energien går videre til neste trofiske nivå.', 11),
+  ('biologi-1:okosystemer-og-mangfold', 'Biologisk mangfold', 'Mangfold av gener, arter og økosystemer.', 12),
+  ('biologi-1:okosystemer-og-mangfold', 'Nøkkelart', 'Art med stor betydning for andre arter, som beveren.', 13),
+  ('biologi-1:okosystemer-og-mangfold', 'Økosystemtjenester', 'Goder naturen gir oss, som pollinering og rent vann.', 14),
+  ('biologi-1:okosystemer-og-mangfold', 'Egenverdi', 'At naturen har verdi i seg selv.', 15);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:okosystemer-og-mangfold';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:okosystemer-og-mangfold', 'q01', 'flervalg', 'Hvilken av disse er en abiotisk faktor?', array['Konkurranse', 'Temperatur', 'Predasjon', 'Parasittisme']::text[], 1, 'Abiotiske faktorer er ikke-levende.', true, true, 0),
+  ('biologi-1:okosystemer-og-mangfold', 'q02', 'flervalg', 'Hva er mutualisme?', array['Samliv til gjensidig nytte', 'At ett dyr spiser et annet', 'At arter konkurrerer', 'At en parasitt skader verten']::text[], 0, 'For eksempel sopprot mellom sopp og trær.', true, true, 1),
+  ('biologi-1:okosystemer-og-mangfold', 'q03', 'flervalg', 'Omtrent hvor mye energi går videre fra ett trofisk nivå til det neste?', array['100 %', '50 %', '10 %', '1 ‰']::text[], 2, 'Resten brukes til livsprosesser og blir varme.', true, true, 2),
+  ('biologi-1:okosystemer-og-mangfold', 'q04', 'flervalg', 'Hva er en begrensende faktor?', array['Den faktoren det er mest av', 'Et rovdyr', 'En art som begrenser andre', 'Den faktoren som er mest i underskudd']::text[], 3, 'Den bestemmer veksten.', true, true, 3),
+  ('biologi-1:okosystemer-og-mangfold', 'q05', 'flervalg', 'Hvorfor er beveren en nøkkelart?', array['Den lager dammer som skaper nye leveområder', 'Den er det største dyret', 'Den spiser alle fisker', 'Den er utryddet']::text[], 0, 'Mange arter drar nytte av dammene.', true, true, 4),
+  ('biologi-1:okosystemer-og-mangfold', 'q06', 'flervalg', 'Hva gjør nedbryterne?', array['Fanger lysenergi', 'Bryter ned dødt materiale og frigjør næringsstoffer', 'Spiser rovdyr', 'Lager oksygen']::text[], 1, 'Bakterier og sopp.', true, true, 5),
+  ('biologi-1:okosystemer-og-mangfold', 'q07', 'flervalg', 'Hvor er det biologiske mangfoldet størst?', array['I polarområdene', 'I ørkener', 'I tropiske regnskoger og på korallrev', 'På høyfjellet']::text[], 2, 'Mye energi, stabilt klima og mange nisjer.', true, true, 6),
+  ('biologi-1:okosystemer-og-mangfold', 'q08', 'flervalg', 'Hva betyr det at naturen har egenverdi?', array['At naturen kan selges', 'At naturen bare er verdt det vi kan bruke', 'At naturen er gratis', 'At naturen har verdi i seg selv, uavhengig av nytten for oss']::text[], 3, 'Knyttet blant annet til dypøkologien.', true, true, 7),
+  ('biologi-1:okosystemer-og-mangfold', 'q09', 'flervalg', 'Hva er forskjellen på energi og stoffer i et økosystem?', array['Energien strømmer gjennom, mens stoffene går i kretsløp', 'Begge går i kretsløp', 'Energien går i kretsløp, stoffene forsvinner', 'Det er ingen forskjell']::text[], 0, 'Energien tapes som varme.', true, false, 8),
+  ('biologi-1:okosystemer-og-mangfold', 'q10', 'flervalg', 'Hvem utviklet dypøkologien?', array['Carl von Linné', 'Arne Næss', 'Charles Darwin', 'Rachel Carson']::text[], 1, 'En norsk filosof.', true, false, 9),
+  ('biologi-1:okosystemer-og-mangfold', 'm01', 'sant-usant', 'Et artsrikt økosystem er ofte mer robust mot endringer.', array['Sant', 'Usant']::text[], 0, 'Flere arter kan overta viktige roller.', false, true, 10),
+  ('biologi-1:okosystemer-og-mangfold', 'm02', 'sant-usant', 'Energien i et økosystem går i kretsløp akkurat som karbon.', array['Sant', 'Usant']::text[], 1, 'Energien strømmer gjennom og tapes som varme.', false, true, 11),
+  ('biologi-1:okosystemer-og-mangfold', 'm03', 'sant-usant', 'Pollinering er et eksempel på en økosystemtjeneste.', array['Sant', 'Usant']::text[], 0, 'Mange matplanter er avhengige av insekter.', false, true, 12),
+  ('biologi-1:okosystemer-og-mangfold', 'm04', 'sant-usant', 'Parasittisme er til nytte for begge parter.', array['Sant', 'Usant']::text[], 1, 'Verten tar skade.', false, true, 13),
+  ('biologi-1:okosystemer-og-mangfold', 'm05', 'flervalg', 'Hvorfor er det få topprovdyr i et økosystem?', array['De formerer seg ikke', 'Det er lite energi igjen på de øverste trofiske nivåene', 'De spiser hverandre', 'De trenger ikke mat']::text[], 1, 'Bare omtrent 10 % går videre per nivå.', false, true, 14),
+  ('biologi-1:okosystemer-og-mangfold', 'm06', 'flervalg', 'Hvilke tre nivåer omfatter biologisk mangfold?', array['Gener, arter og økosystemer', 'Planter, dyr og sopp', 'Land, hav og luft', 'Celler, organer og kropper']::text[], 0, 'Alle tre er viktige for naturen.', false, true, 15),
+  ('biologi-1:okosystemer-og-mangfold', 'm07', 'flervalg', 'Hva er en nisje?', array['Et hull i et tre', 'En gruppe arter', 'En arts rolle i økosystemet', 'Et naturreservat']::text[], 2, 'Levested, næring og samspill.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:okosystemer-og-mangfold', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Biologi 1: Klima, arealbruk og truet mangfold
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('biologi-1:klima-arealbruk-og-mangfold', 'biologi-1', 'klima-arealbruk-og-mangfold', 'Klima, arealbruk og truet mangfold', 'Hvordan arealendringer, klimaendringer og andre påvirkninger truer det biologiske mangfoldet i Norge og verden – og hvilke tiltak som kan gi en mer bærekraftig forvaltning.', array[11]::int[], 10, 'sjekkes', array['Sjekk tallet på truede arter mot nyeste Norsk rødliste for arter (2021-utgaven er brukt; en ny utgave kan være publisert).', 'Sjekk IPBES-anslaget og Naturavtalens mål mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('biologi-1:klima-arealbruk-og-mangfold', '## Et mangfold under press
+
+Arter har alltid dødd ut, men i dag skjer det **mye raskere** enn det naturlige tempoet. Naturpanelet **IPBES** anslo i 2019 at rundt **én million arter** er truet av utryddelse. De viktigste årsakene er:
+
+1. **Arealendringer** – den største trusselen på land
+2. **Direkte utnytting**, som overfiske og jakt
+3. **Klimaendringer**
+4. **Forurensning**
+5. **Fremmede arter**
+
+## Arealbruk
+
+Når natur blir til **veier**, **boligfelt**, **hyttefelt**, **jordbruksland**, **industri** eller **energianlegg**, forsvinner leveområder. Det kalles **nedbygging**. Selv når noe natur blir igjen, kan den bli **fragmentert** – delt opp i små biter. Små, isolerte bestander er mer sårbare for tilfeldigheter og **innavl**, og mange dyr trenger store sammenhengende områder.
+
+I Norge er for eksempel **myr** et viktig tema. Myrene har mange spesialiserte arter og lagrer store mengder **karbon**. Når myr dreneres eller bygges ned, forsvinner både leveområder og karbonlager. Også **villreinen** er avhengig av store, uforstyrrede fjellområder.
+
+## Klimaendringer
+
+Når klimaet blir varmere, påvirkes artene på flere måter:
+
+- **Utbredelsen flytter seg** nordover og **oppover** i fjellet. Arter som allerede lever høyt og nordlig, som **fjellplanter** og **fjellrev**, kan få mindre plass.
+- **Tidspunkter forskyves**: Våren kommer tidligere, og når planter blomstrer eller insekter klekkes før fuglene har fått unger, kan næringen **mangle** når den trengs mest.
+- **Havet** blir varmere og **surere** fordi det tar opp CO₂. Det kan skade koraller, skjell og plankton, og fiskeslag som **makrell** og **torsk** endrer utbredelse.
+- **Ekstremvær**, tørke og skogbranner kan ramme økosystemer hardt.
+
+Klima og arealbruk **forsterker** hverandre: En art som må flytte på seg på grunn av klimaet, kommer ikke langt i et oppstykket landskap.
+
+## Rødlista og Fremmedartslista
+
+**Artsdatabanken** vurderer hvor truet artene i Norge er. **Norsk rødliste for arter 2021** vurderte rundt **2750 arter** som **truet**. **Fremmedartslista** vurderer arter som er spredt til Norge ved menneskers hjelp, som **stillehavsøsters** og **hagelupin**, og hvor stor økologisk risiko de utgjør.
+
+## Tiltak for en bærekraftig forvaltning
+
+- **Vern**: nasjonalparker, naturreservater og marine verneområder.
+- **Restaurering**: gjenopprette ødelagt natur, for eksempel ved å **tette grøfter** i myr og åpne opp **elver**.
+- **Bedre arealplanlegging**: Kommunene kan bygge på allerede berørte områder og unngå nedbygging av verdifull natur.
+- **Grønne korridorer** som binder leveområder sammen.
+- **Bekjempe fremmede arter**.
+- **Redusere klimagassutslipp**, som også reduserer presset på naturen.
+- **Bærekraftig høsting** av fisk, skog og vilt.
+
+I **Naturavtalen** fra **2022** ble verdens land enige om blant annet å bevare **30 %** av land- og havområdene innen **2030** og å restaurere ødelagt natur. Det er en utfordring å følge opp målene, fordi natur ofte må veies mot andre interesser, som **fornybar energi**, **boliger** og **arbeidsplasser**.', '{"label":"Klima, arealbruk og mangfold","children":[{"label":"Trusler","children":[{"label":"Arealendringer"},{"label":"Klimaendringer"},{"label":"Fremmede arter"},{"label":"Forurensning og overhøsting"}]},{"label":"Arealbruk","children":[{"label":"Nedbygging"},{"label":"Fragmentering"},{"label":"Myr og villrein"}]},{"label":"Klima","children":[{"label":"Utbredelse flytter seg"},{"label":"Tidsforskyvning"},{"label":"Havforsuring"}]},{"label":"Kunnskap","children":[{"label":"Rødlista"},{"label":"Fremmedartslista"},{"label":"IPBES"}]},{"label":"Tiltak","children":[{"label":"Vern og restaurering"},{"label":"Arealplanlegging"},{"label":"Naturavtalen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'biologi-1:klima-arealbruk-og-mangfold';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('biologi-1:klima-arealbruk-og-mangfold', 'IPBES', 'Naturpanelet – FNs kunnskapsorgan for natur og mangfold.', 0),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Største trussel på land', 'Arealendringer.', 1),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Nedbygging', 'Når natur blir til veier, bygninger og anlegg.', 2),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Fragmentering', 'At natur deles opp i små, isolerte biter.', 3),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Innavl', 'Paring mellom nære slektninger – et problem i små bestander.', 4),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Myr', 'Våtmark med spesialiserte arter som lagrer mye karbon.', 5),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Utbredelse flytter seg', 'Arter flytter nordover og oppover når klimaet blir varmere.', 6),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Havforsuring', 'Havet blir surere fordi det tar opp CO₂.', 7),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Artsdatabanken', 'Vurderer hvor truet artene i Norge er.', 8),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Rødlista', 'Oversikt over arter med risiko for å dø ut i Norge.', 9),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Fremmedartslista', 'Vurdering av arter spredt til Norge med menneskers hjelp.', 10),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Fremmed art', 'Art spredt utenfor sitt naturlige område med menneskers hjelp, som stillehavsøsters.', 11),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Restaurering', 'Å gjenopprette ødelagt natur.', 12),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Grønne korridorer', 'Naturstriper som binder leveområder sammen.', 13),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'Naturavtalen (2022)', 'Mål om å bevare 30 % av land og hav innen 2030.', 14);
+delete from public.quiz_sporsmal where tema_id = 'biologi-1:klima-arealbruk-og-mangfold';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q01', 'flervalg', 'Hva er den største trusselen mot mangfoldet på land ifølge IPBES?', array['Klimaendringer', 'Arealendringer', 'Fremmede arter', 'Jakt']::text[], 1, 'Nedbygging og ødeleggelse av leveområder.', true, true, 0),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q02', 'flervalg', 'Hva er fragmentering?', array['At natur deles opp i små, isolerte biter', 'At arter blir større', 'At isen smelter', 'At havet blir surere']::text[], 0, 'Små bestander blir mer sårbare.', true, true, 1),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q03', 'flervalg', 'Hvorfor er myr viktig?', array['Den har ingen arter', 'Den gir mye tømmer', 'Den har spesialiserte arter og lagrer mye karbon', 'Den er lett å bygge på']::text[], 2, 'Nedbygging slipper ut karbon.', true, true, 2),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q04', 'flervalg', 'Hvordan påvirker et varmere klima utbredelsen til arter?', array['Artene flytter sørover', 'Ingenting skjer', 'Alle arter får mer plass', 'Artene flytter nordover og oppover i fjellet']::text[], 3, 'Fjellarter kan få mindre plass.', true, true, 3),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q05', 'flervalg', 'Hva er havforsuring?', array['At havet blir surere fordi det tar opp CO₂', 'At havet blir saltere', 'At havet fryser', 'At havet får mer oksygen']::text[], 0, 'Det kan skade koraller og skjell.', true, true, 4),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q06', 'flervalg', 'Hva vurderer Fremmedartslista?', array['Truede norske arter', 'Arter spredt til Norge med menneskers hjelp og risikoen de utgjør', 'Utdødde arter', 'Fiskekvoter']::text[], 1, 'For eksempel stillehavsøsters og hagelupin.', true, true, 5),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q07', 'flervalg', 'Hvordan kan man restaurere en drenert myr?', array['Plante gran', 'Bygge veier', 'Tette grøftene', 'Brenne den']::text[], 2, 'Da kommer vannet tilbake.', true, true, 6),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q08', 'flervalg', 'Hvorfor forsterker klimaendringer og arealbruk hverandre?', array['De gjør det ikke', 'Arealbruk gir alltid kaldere klima', 'Klimaendringer stopper nedbygging', 'Arter som må flytte, kommer ikke langt i et oppstykket landskap']::text[], 3, 'Grønne korridorer kan hjelpe.', true, true, 7),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q09', 'flervalg', 'Hva er et av hovedmålene i Naturavtalen fra 2022?', array['Å bevare 30 % av land- og havområdene innen 2030', 'Å stanse all fiske', 'Å bygge flere veier', 'Å plante 30 % mer skog i Norge']::text[], 0, 'Ofte kalt 30 × 30.', true, false, 8),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'q10', 'flervalg', 'Hvilken art er avhengig av store, uforstyrrede fjellområder i Norge?', array['Brunrotte', 'Villrein', 'Stillehavsøsters', 'Hagelupin']::text[], 1, 'Veier og hytter fragmenterer leveområdene.', true, false, 9),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm01', 'sant-usant', 'Små, isolerte bestander er mer sårbare for innavl.', array['Sant', 'Usant']::text[], 0, 'Det er få individer å pare seg med.', false, true, 10),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm02', 'sant-usant', 'Arter dør ut i samme tempo i dag som før mennesket påvirket naturen.', array['Sant', 'Usant']::text[], 1, 'Tempoet er i dag mye høyere.', false, true, 11),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm03', 'sant-usant', 'Tidligere vår kan gi mangel på mat når fugleungene trenger den.', array['Sant', 'Usant']::text[], 0, 'Insektene kan klekkes før ungene.', false, true, 12),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm04', 'sant-usant', 'Utbygging av fornybar energi har aldri konsekvenser for naturen.', array['Sant', 'Usant']::text[], 1, 'Også fornybar energi krever areal og må veies mot naturhensyn.', false, true, 13),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm05', 'flervalg', 'Hvilken institusjon lager Norsk rødliste for arter?', array['Statistisk sentralbyrå', 'Artsdatabanken', 'Folkehelseinstituttet', 'Meteorologisk institutt']::text[], 1, 'Den vurderer risiko for utdøing.', false, true, 14),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm06', 'flervalg', 'Hva er en grønn korridor?', array['En naturstripe som binder leveområder sammen', 'En sykkelvei', 'Et drivhus', 'En type fremmed art']::text[], 0, 'Den gjør det lettere for arter å flytte seg.', false, true, 15),
+  ('biologi-1:klima-arealbruk-og-mangfold', 'm07', 'flervalg', 'Hvilken art står på Fremmedartslista?', array['Villrein', 'Fjellrev', 'Hagelupin', 'Bever']::text[], 2, 'Den fortrenger stedegne planter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('biologi-1:klima-arealbruk-og-mangfold', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'geofag-1' and slug not in ('jordsystemene', 'platetektonikk', 'mineraler-og-bergarter', 'geologisk-tid-og-datering', 'lokal-geologi-og-feltarbeid', 'landformer', 'vannets-kretslop', 'ferskvannsressurser', 'geologiske-ressurser', 'naturfarer');
+
+-- Geofag 1: Jordsystemene og samspillet mellom dem
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:jordsystemene', 'geofag-1', 'jordsystemene', 'Jordsystemene og samspillet mellom dem', 'Geosfæren, hydrosfæren, atmosfæren, kryosfæren og biosfæren – energikildene som driver dem, og hvordan vekselvirkningene mellom systemene former fjell, jord og vann.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:jordsystemene', '## Jorda som system
+
+Geofag ser på jorda som et **system** av deler som hele tiden **påvirker hverandre**. Vi deler gjerne inn i fem **jordsystemer** (sfærer):
+
+- **Geosfæren**: den faste jorda – bergarter, løsmasser og jordas indre.
+- **Hydrosfæren**: alt vannet – hav, innsjøer, elver og grunnvann.
+- **Kryosfæren**: vann i fast form – isbreer, sjøis, snø og permafrost. Den regnes ofte som en del av hydrosfæren.
+- **Atmosfæren**: lufta rundt jorda.
+- **Biosfæren**: alt liv, også mennesket.
+
+## Energikildene
+
+Systemene drives av to hovedkilder til energi:
+
+- **Sola** driver vær, vind, havstrømmer og vannets kretsløp.
+- **Jordas indre varme**, som kommer fra radioaktiv nedbrytning og restvarme fra jordas dannelse, driver **platebevegelser**, **vulkanisme** og **jordskjelv**.
+
+**Tyngdekraften** får vann til å renne nedover og skred til å gå.
+
+## Vekselvirkninger
+
+Det interessante skjer der systemene møtes. Noen eksempler:
+
+- **Forvitring**: Regn, frost og gasser fra atmosfæren bryter ned bergarter i geosfæren. Vann som fryser i sprekker, sprenger fjellet (**frostsprengning**).
+- **Biologisk forvitring**: Røtter vokser inn i sprekker, og lav og mikroorganismer løser opp mineraler. Slik dannes **jordsmonn**, der biosfæren og geosfæren møtes.
+- **Erosjon og avsetning**: Elver, isbreer og bølger fra hydrosfæren og kryosfæren graver ut daler og fjorder og legger igjen sand, grus og leire.
+- **Vulkanutbrudd**: Gasser og aske fra geosfæren sendes opp i atmosfæren. Store utbrudd kan **kjøle ned** klimaet i noen år, fordi svovelpartikler reflekterer sollys.
+- **Karbonets kretsløp**: CO₂ fra atmosfæren løses i havet, blir til skall hos organismer og kan til slutt bli **kalkstein** i geosfæren – et karbonlager over millioner av år.
+- **Istider og landheving**: Under siste istid presset en tykk iskappe jordskorpa ned. Etter at isen smeltet, har landet steget – og i deler av Norge stiger det fortsatt. Det kalles **isostatisk landheving**.
+
+## Tilbakekoblinger
+
+Endringer i ett system kan **forsterke** eller **dempe** endringer i et annet. Når snø og is smelter, blir overflaten mørkere og tar opp mer solenergi – det forsterker oppvarmingen. Slike **tilbakekoblinger** gjør jordsystemet komplisert å forutsi.
+
+## Tidsskala og romskala
+
+Noen prosesser går **raskt**, som et skred på noen sekunder. Andre går **svært langsomt**, som dannelsen av en fjellkjede over titalls millioner år. Geofaget må derfor tenke i både **korte** og **ekstremt lange** tidsperspektiver – fra minutter til milliarder av år.
+
+## Mennesket som geologisk kraft
+
+Mennesket flytter i dag mer stein og jord enn elvene gjør, endrer atmosfæren med klimagasser og regulerer vassdrag. Derfor mener mange at vi har fått en ny geologisk epoke, **antropocen** – menneskets tid. Begrepet er likevel omdiskutert blant geologer.', '{"label":"Jordsystemene","children":[{"label":"Sfærer","children":[{"label":"Geosfæren"},{"label":"Hydrosfæren"},{"label":"Kryosfæren"},{"label":"Atmosfæren"},{"label":"Biosfæren"}]},{"label":"Energi","children":[{"label":"Sola"},{"label":"Indre varme"},{"label":"Tyngdekraft"}]},{"label":"Vekselvirkninger","children":[{"label":"Forvitring"},{"label":"Erosjon og avsetning"},{"label":"Vulkanutbrudd"},{"label":"Karbonets kretsløp"}]},{"label":"Endringer","children":[{"label":"Tilbakekoblinger"},{"label":"Landheving"}]},{"label":"Tid og menneske","children":[{"label":"Korte og lange tidsskalaer"},{"label":"Antropocen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:jordsystemene';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:jordsystemene', 'Geosfæren', 'Den faste jorda – bergarter, løsmasser og jordas indre.', 0),
+  ('geofag-1:jordsystemene', 'Hydrosfæren', 'Alt vannet på jorda.', 1),
+  ('geofag-1:jordsystemene', 'Kryosfæren', 'Vann i fast form: is, snø og permafrost.', 2),
+  ('geofag-1:jordsystemene', 'Atmosfæren', 'Lufta rundt jorda.', 3),
+  ('geofag-1:jordsystemene', 'Biosfæren', 'Alt liv på jorda.', 4),
+  ('geofag-1:jordsystemene', 'Jordas indre varme', 'Driver platebevegelser, vulkanisme og jordskjelv.', 5),
+  ('geofag-1:jordsystemene', 'Solenergi', 'Driver vær, havstrømmer og vannets kretsløp.', 6),
+  ('geofag-1:jordsystemene', 'Forvitring', 'Nedbryting av bergarter der de ligger.', 7),
+  ('geofag-1:jordsystemene', 'Frostsprengning', 'Vann fryser i sprekker og sprenger fjellet.', 8),
+  ('geofag-1:jordsystemene', 'Erosjon', 'Materiale løsnes og fraktes bort av vann, is eller vind.', 9),
+  ('geofag-1:jordsystemene', 'Jordsmonn', 'Øverste lag der geosfæren og biosfæren møtes.', 10),
+  ('geofag-1:jordsystemene', 'Isostatisk landheving', 'Landet stiger etter at en tung iskappe har smeltet.', 11),
+  ('geofag-1:jordsystemene', 'Tilbakekobling', 'Endring som forsterker eller demper seg selv via andre systemer.', 12),
+  ('geofag-1:jordsystemene', 'Karbonets kretsløp', 'Karbon flyttes mellom luft, hav, liv og bergarter.', 13),
+  ('geofag-1:jordsystemene', 'Antropocen', 'Foreslått epoke der mennesket er en geologisk kraft.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:jordsystemene';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:jordsystemene', 'q01', 'flervalg', 'Hva er hydrosfæren?', array['Lufta rundt jorda', 'Alt vannet på jorda', 'Alt liv', 'Jordas kjerne']::text[], 1, 'Hav, innsjøer, elver og grunnvann.', true, true, 0),
+  ('geofag-1:jordsystemene', 'q02', 'flervalg', 'Hva driver platebevegelser og vulkanisme?', array['Jordas indre varme', 'Solenergi', 'Vind', 'Tidevann']::text[], 0, 'Fra radioaktiv nedbrytning og restvarme.', true, true, 1),
+  ('geofag-1:jordsystemene', 'q03', 'flervalg', 'Hva er frostsprengning?', array['At isbreer smelter', 'At lava fryser', 'At vann fryser i sprekker og sprenger fjellet', 'At snø blir til is']::text[], 2, 'En form for mekanisk forvitring.', true, true, 2),
+  ('geofag-1:jordsystemene', 'q04', 'flervalg', 'Hvorfor kan store vulkanutbrudd kjøle ned klimaet?', array['Lava er kald', 'De stopper vinden', 'De slukker sola', 'Svovelpartikler i atmosfæren reflekterer sollys']::text[], 3, 'Effekten varer gjerne noen år.', true, true, 3),
+  ('geofag-1:jordsystemene', 'q05', 'flervalg', 'Hvorfor stiger landet i deler av Norge?', array['Isostatisk landheving etter istida', 'Vulkanisme', 'Havet synker på grunn av fordampning', 'Jordskjelv']::text[], 0, 'Skorpa hever seg etter at vekten av isen forsvant.', true, true, 4),
+  ('geofag-1:jordsystemene', 'q06', 'flervalg', 'Hvordan kan karbon havne i geosfæren?', array['Gjennom vulkanutbrudd', 'Ved at skall av organismer blir til kalkstein', 'Ved frostsprengning', 'Gjennom landheving']::text[], 1, 'Kalkstein er et langsiktig karbonlager.', true, true, 5),
+  ('geofag-1:jordsystemene', 'q07', 'flervalg', 'Hva hører til kryosfæren?', array['Elver og innsjøer', 'Skyer', 'Isbreer, snø og permafrost', 'Grunnvann']::text[], 2, 'Vann i fast form.', true, true, 6),
+  ('geofag-1:jordsystemene', 'q08', 'flervalg', 'Hvorfor forsterker smelting av snø og is oppvarmingen?', array['Smeltevann er varmt', 'Is lager CO₂', 'Isen gir fra seg varme', 'Mørkere overflate tar opp mer solenergi']::text[], 3, 'En positiv tilbakekobling.', true, true, 7),
+  ('geofag-1:jordsystemene', 'q09', 'flervalg', 'Hvor dannes jordsmonn?', array['Der geosfæren og biosfæren møtes', 'I jordas kjerne', 'I atmosfæren', 'På havbunnen i dyphavet']::text[], 0, 'Forvitring og organisk materiale samvirker.', true, false, 8),
+  ('geofag-1:jordsystemene', 'q10', 'flervalg', 'Hva betyr antropocen?', array['Istiden', 'Menneskets tid – en foreslått geologisk epoke', 'Dinosaurenes tid', 'En type bergart']::text[], 1, 'Mennesket er blitt en geologisk kraft.', true, false, 9),
+  ('geofag-1:jordsystemene', 'm01', 'sant-usant', 'Røtter som vokser inn i sprekker, er et eksempel på biologisk forvitring.', array['Sant', 'Usant']::text[], 0, 'Biosfæren påvirker geosfæren.', false, true, 10),
+  ('geofag-1:jordsystemene', 'm02', 'sant-usant', 'Sola driver platebevegelsene.', array['Sant', 'Usant']::text[], 1, 'Det er jordas indre varme som driver dem.', false, true, 11),
+  ('geofag-1:jordsystemene', 'm03', 'sant-usant', 'Geologiske prosesser kan gå både på sekunder og over millioner av år.', array['Sant', 'Usant']::text[], 0, 'Fra skred til fjellkjededannelse.', false, true, 12),
+  ('geofag-1:jordsystemene', 'm04', 'sant-usant', 'Alle geologer er enige om at antropocen er en offisiell epoke.', array['Sant', 'Usant']::text[], 1, 'Begrepet er omdiskutert.', false, true, 13),
+  ('geofag-1:jordsystemene', 'm05', 'flervalg', 'Hva får vann til å renne nedover og skred til å gå?', array['Solenergi', 'Tyngdekraften', 'Magnetfeltet', 'Jordrotasjonen']::text[], 1, 'Tyngdekraften er en viktig drivkraft.', false, true, 14),
+  ('geofag-1:jordsystemene', 'm06', 'flervalg', 'Hvilket eksempel viser samspill mellom hydrosfæren og geosfæren?', array['En elv som graver ut en dal', 'Vind over havet', 'Fotosyntese', 'Nordlys']::text[], 0, 'Erosjon og avsetning.', false, true, 15),
+  ('geofag-1:jordsystemene', 'm07', 'flervalg', 'Hvor kommer jordas indre varme fra?', array['Fra sola', 'Fra vulkaner alene', 'Fra radioaktiv nedbrytning og restvarme fra dannelsen', 'Fra havstrømmer']::text[], 2, 'Den driver prosessene i geosfæren.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:jordsystemene', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Jordas indre og platetektonikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:platetektonikk', 'geofag-1', 'platetektonikk', 'Jordas indre og platetektonikk', 'Jordas lagdeling, fra kontinentaldrift til platetektonikk, drivkreftene bak platebevegelsene, de tre typene plategrenser og hva de betyr for jordskjelv, vulkaner og fjellkjeder – også i Norge.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:platetektonikk', '## Jordas oppbygning
+
+Jorda er lagdelt:
+
+- **Jordskorpa**: tynnest under havet (havbunnsskorpe, omtrent 5–10 km, mest basalt) og tykkest under kontinentene (kontinental skorpe, omtrent 30–70 km, mye granitt).
+- **Mantelen**: varm, fast bergart som likevel kan **flyte svært langsomt** over lang tid.
+- **Ytre kjerne**: **flytende** jern og nikkel. Bevegelsene her skaper **jordas magnetfelt**.
+- **Indre kjerne**: fast jern og nikkel på grunn av det enorme trykket.
+
+Skorpa og øverste del av mantelen danner den stive **litosfæren**, som er delt i **plater**. Under ligger den mer plastiske **astenosfæren**.
+
+## Fra kontinentaldrift til platetektonikk
+
+**Alfred Wegener** foreslo i **1912** at kontinentene har vært samlet i ett superkontinent, **Pangea**, og har drevet fra hverandre. Bevisene var at **kystlinjene** passer sammen, og at like **fossiler**, **bergarter** og **isspor** finnes på kontinenter som i dag ligger langt fra hverandre. Han kunne likevel ikke forklare **hva** som flyttet kontinentene.
+
+På **1960-tallet** viste undersøkelser av havbunnen at ny havbunn dannes ved **midthavsryggene**, og at bergartene har **magnetiske striper** som er speilvendt på hver side av ryggen. Dette ble grunnlaget for teorien om **platetektonikk**.
+
+## Drivkrefter
+
+Platene beveger seg noen **centimeter i året** – omtrent like raskt som neglene dine vokser. Drivkreftene er
+
+- **konveksjon** i mantelen, drevet av jordas indre varme
+- at tunge plater **synker** ned i mantelen og **trekker** resten av platen etter seg
+- at platene **glir** ned fra de høye midthavsryggene
+
+## Tre typer plategrenser
+
+**Divergente grenser** – platene beveger seg **fra hverandre**. Magma strømmer opp og danner ny skorpe. Eksempel: **Den midtatlantiske ryggen**, som går gjennom **Island**.
+
+**Konvergente grenser** – platene beveger seg **mot hverandre**:
+
+- Havbunnsplate mot kontinentalplate: Den tunge havbunnsplaten **subduseres** (dykker ned). Det gir **dyphavsgrøfter**, kraftige **jordskjelv** og **vulkaner**, som i **Andes** og **Japan**.
+- Kontinent mot kontinent: Ingen av platene synker, og skorpa **presses opp** til høye fjellkjeder, som **Himalaya**.
+
+**Transforme grenser** – platene **glir forbi** hverandre. Spenninger bygger seg opp og utløses i jordskjelv. Eksempel: **San Andreas-forkastningen** i California.
+
+Noen vulkaner ligger midt på plater, over **varme flekker** i mantelen – som **Hawaii**.
+
+## Norge og platetektonikken
+
+- Den **kaledonske fjellkjeden** ble dannet for rundt 400–430 millioner år siden, da kontinentene **Baltika** og **Laurentia** kolliderte. Restene av den finner vi i de norske fjellene i dag.
+- For rundt **55 millioner år** siden begynte **Nord-Atlanteren** å åpne seg mellom Norge og Grønland.
+- Norge ligger i dag **langt fra** plategrensene, men har likevel **moderate jordskjelv**, blant annet fordi spenninger fra Den midtatlantiske ryggen og landhevingen etter istida forplanter seg inn i skorpa.', '{"label":"Platetektonikk","children":[{"label":"Jordas lag","children":[{"label":"Skorpe"},{"label":"Mantel"},{"label":"Ytre og indre kjerne"}]},{"label":"Historie","children":[{"label":"Wegener og Pangea"},{"label":"Havbunnsspredning"}]},{"label":"Drivkrefter","children":[{"label":"Konveksjon"},{"label":"Synkende plater"}]},{"label":"Plategrenser","children":[{"label":"Divergent"},{"label":"Konvergent"},{"label":"Transform"},{"label":"Varme flekker"}]},{"label":"Norge","children":[{"label":"Kaledonidene"},{"label":"Nord-Atlanteren åpnes"},{"label":"Moderate jordskjelv"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:platetektonikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:platetektonikk', 'Havbunnsskorpe', 'Tynn skorpe, 5–10 km, mest basalt.', 0),
+  ('geofag-1:platetektonikk', 'Kontinental skorpe', 'Tykk skorpe, 30–70 km, mye granitt.', 1),
+  ('geofag-1:platetektonikk', 'Mantelen', 'Varm, fast bergart som flyter svært langsomt.', 2),
+  ('geofag-1:platetektonikk', 'Ytre kjerne', 'Flytende jern og nikkel som skaper magnetfeltet.', 3),
+  ('geofag-1:platetektonikk', 'Litosfæren', 'Stiv skorpe og øverste mantel, delt i plater.', 4),
+  ('geofag-1:platetektonikk', 'Astenosfæren', 'Plastisk lag i mantelen under litosfæren.', 5),
+  ('geofag-1:platetektonikk', 'Alfred Wegener', 'Foreslo kontinentaldrift i 1912.', 6),
+  ('geofag-1:platetektonikk', 'Pangea', 'Superkontinentet der kontinentene var samlet.', 7),
+  ('geofag-1:platetektonikk', 'Magnetiske striper', 'Speilvendte striper på hver side av midthavsryggene.', 8),
+  ('geofag-1:platetektonikk', 'Divergent grense', 'Plater beveger seg fra hverandre, ny skorpe dannes.', 9),
+  ('geofag-1:platetektonikk', 'Konvergent grense', 'Plater beveger seg mot hverandre.', 10),
+  ('geofag-1:platetektonikk', 'Subduksjon', 'En tung plate dykker ned under en annen.', 11),
+  ('geofag-1:platetektonikk', 'Transform grense', 'Plater glir forbi hverandre.', 12),
+  ('geofag-1:platetektonikk', 'Varm flekk', 'Varmt område i mantelen som gir vulkaner midt på plater, som Hawaii.', 13),
+  ('geofag-1:platetektonikk', 'Den kaledonske fjellkjeden', 'Dannet ved kollisjon mellom Baltika og Laurentia.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:platetektonikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:platetektonikk', 'q01', 'flervalg', 'Hvilket lag skaper jordas magnetfelt?', array['Skorpa', 'Den ytre kjernen', 'Den indre kjernen', 'Astenosfæren']::text[], 1, 'Flytende jern og nikkel i bevegelse.', true, true, 0),
+  ('geofag-1:platetektonikk', 'q02', 'flervalg', 'Hva skjer ved en divergent plategrense?', array['Platene beveger seg fra hverandre og ny skorpe dannes', 'Platene kolliderer', 'Platene glir forbi hverandre', 'En plate dykker ned']::text[], 0, 'For eksempel Den midtatlantiske ryggen.', true, true, 1),
+  ('geofag-1:platetektonikk', 'q03', 'flervalg', 'Hvordan ble Himalaya dannet?', array['Ved en varm flekk', 'Ved en divergent grense', 'Ved at to kontinentalplater kolliderte', 'Ved erosjon']::text[], 2, 'Skorpa ble presset opp.', true, true, 2),
+  ('geofag-1:platetektonikk', 'q04', 'flervalg', 'Hvilket bevis førte til teorien om platetektonikk på 1960-tallet?', array['Kystlinjene', 'Fossiler av dinosaurer', 'Vulkaner på Island', 'Magnetiske striper på havbunnen']::text[], 3, 'De viste havbunnsspredning.', true, true, 3),
+  ('geofag-1:platetektonikk', 'q05', 'flervalg', 'Hvor raskt beveger platene seg?', array['Noen centimeter i året', 'Noen meter i året', 'Noen kilometer i året', 'De står stille']::text[], 0, 'Omtrent like raskt som neglene vokser.', true, true, 4),
+  ('geofag-1:platetektonikk', 'q06', 'flervalg', 'Hva kjennetegner en subduksjonssone?', array['Ny havbunn dannes', 'Dyphavsgrøfter, kraftige jordskjelv og vulkaner', 'Platene glir forbi hverandre uten jordskjelv', 'Ingen geologisk aktivitet']::text[], 1, 'Som i Andes og Japan.', true, true, 5),
+  ('geofag-1:platetektonikk', 'q07', 'flervalg', 'Hvilken type plategrense er San Andreas-forkastningen?', array['Divergent', 'Konvergent', 'Transform', 'Varm flekk']::text[], 2, 'Platene glir forbi hverandre.', true, true, 6),
+  ('geofag-1:platetektonikk', 'q08', 'flervalg', 'Hvordan ble den kaledonske fjellkjeden dannet?', array['Da Atlanterhavet åpnet seg', 'Ved en varm flekk under Norge', 'Under istida', 'Ved en kollisjon mellom Baltika og Laurentia']::text[], 3, 'For rundt 400–430 millioner år siden.', true, true, 7),
+  ('geofag-1:platetektonikk', 'q09', 'flervalg', 'Hvorfor er den indre kjernen fast, selv om den er svært varm?', array['På grunn av det enorme trykket', 'Fordi den er kald', 'Fordi den består av stein', 'Fordi den er hul']::text[], 0, 'Trykket hindrer smelting.', true, false, 8),
+  ('geofag-1:platetektonikk', 'q10', 'flervalg', 'Hva manglet Wegener i teorien sin?', array['Bevis fra fossiler', 'En forklaring på hva som flyttet kontinentene', 'Kart over kystlinjene', 'Kunnskap om Pangea']::text[], 1, 'Platetektonikken ga forklaringen.', true, false, 9),
+  ('geofag-1:platetektonikk', 'm01', 'sant-usant', 'Havbunnsskorpa er tynnere enn den kontinentale skorpa.', array['Sant', 'Usant']::text[], 0, '5–10 km mot 30–70 km.', false, true, 10),
+  ('geofag-1:platetektonikk', 'm02', 'sant-usant', 'Norge ligger på en aktiv plategrense.', array['Sant', 'Usant']::text[], 1, 'Norge ligger langt fra plategrensene.', false, true, 11),
+  ('geofag-1:platetektonikk', 'm03', 'sant-usant', 'Island ligger på Den midtatlantiske ryggen.', array['Sant', 'Usant']::text[], 0, 'Derfor er det mye vulkanisme der.', false, true, 12),
+  ('geofag-1:platetektonikk', 'm04', 'sant-usant', 'Den ytre kjernen er fast.', array['Sant', 'Usant']::text[], 1, 'Den ytre kjernen er flytende.', false, true, 13),
+  ('geofag-1:platetektonikk', 'm05', 'flervalg', 'Hva forklarer vulkanene på Hawaii?', array['En subduksjonssone', 'En varm flekk i mantelen', 'En transform grense', 'Kollisjon mellom kontinenter']::text[], 1, 'Hawaii ligger midt på en plate.', false, true, 14),
+  ('geofag-1:platetektonikk', 'm06', 'flervalg', 'Når begynte Nord-Atlanteren å åpne seg mellom Norge og Grønland?', array['For rundt 55 millioner år siden', 'For 10 000 år siden', 'For 4 milliarder år siden', 'For 1 million år siden']::text[], 0, 'Grønland og Norge har drevet fra hverandre siden.', false, true, 15),
+  ('geofag-1:platetektonikk', 'm07', 'flervalg', 'Hva er litosfæren?', array['Den flytende kjernen', 'Atmosfærens nederste lag', 'Skorpa og øverste mantel, delt i plater', 'Havbunnens sedimenter']::text[], 2, 'Den er stiv.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:platetektonikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Mineraler, bergarter og sedimenter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:mineraler-og-bergarter', 'geofag-1', 'mineraler-og-bergarter', 'Mineraler, bergarter og sedimenter', 'Hva mineraler er og hvordan du kjenner dem igjen, de viktigste mineralgruppene, magmatiske, sedimentære og metamorfe bergarter, kornstørrelser i sedimenter og bergartssyklusen.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:mineraler-og-bergarter', '## Mineraler
+
+Et **mineral** er et naturlig, fast og uorganisk stoff med en bestemt **kjemisk sammensetning** og en ordnet **krystallstruktur**. Bergarter er bygd opp av ett eller flere mineraler.
+
+### Mineralgrupper
+
+- **Silikater** – bygd av silisium og oksygen. De utgjør det meste av jordskorpa. Eksempler: **kvarts**, **feltspat**, **glimmer**, olivin.
+- **Karbonater** – for eksempel **kalkspat** (CaCO₃).
+- **Oksider** – for eksempel magnetitt og hematitt (jernmalm).
+- **Sulfider** – for eksempel kobberkis og blyglans.
+- **Halogenider** – for eksempel steinsalt.
+- **Grunnstoffer** – for eksempel gull og grafitt.
+
+### Å kjenne igjen mineraler
+
+- **Hardhet** etter **Mohs skala** fra 1 (talk) til 10 (diamant). Kvarts har hardhet 7 og riper glass.
+- **Glans**, **farge** og **strekfarge** – fargen på pulveret når mineralet gnis mot uglasert porselen.
+- **Spaltning**: Glimmer kan flakes i tynne blad.
+- **Syretest**: Kalkspat **bruser** i fortynnet saltsyre.
+
+## Tre bergartsgrupper
+
+**Magmatiske bergarter** dannes når **magma** størkner.
+
+- **Dypbergarter** størkner **langsomt** dypt i jorda og får **store krystaller**: **granitt** (lys) og **gabbro** (mørk). Norges nasjonalbergart, **larvikitt**, er en dypbergart.
+- **Dagbergarter** størkner **raskt** på overflaten og blir **finkornede**: **basalt**.
+
+**Sedimentære bergarter** dannes av **sedimenter** som avsettes i **lag**, presses sammen og sementeres.
+
+- **Sandstein**, **leirskifer** og **konglomerat** av bergartsbiter.
+- **Kalkstein**, ofte av skall fra organismer.
+- Her finner vi **fossiler**.
+
+**Metamorfe bergarter** dannes når eksisterende bergarter **omdannes** av høyt **trykk** og høy **temperatur** – uten å smelte.
+
+- Granitt kan bli til **gneis**, som er båndet. Gneis er svært vanlig i Norge.
+- Kalkstein blir til **marmor**.
+- Sandstein blir til **kvartsitt**, og leirskifer til **glimmerskifer**.
+
+## Sedimenter og kornstørrelse
+
+Sedimenter deles inn etter **kornstørrelse**:
+
+- **leire**: under 0,002 mm
+- **silt**: 0,002–0,06 mm
+- **sand**: 0,06–2 mm
+- **grus**: 2–64 mm
+- **stein** og **blokk**: større
+
+Jo **raskere** vannet renner, desto **større** korn kan det frakte. Derfor avsettes grus i strie elver og leire i rolig vann. Sedimenter som er **sortert** etter størrelse, forteller at vann har fraktet dem; **usorterte** sedimenter er ofte avsatt av is.
+
+## Bergartssyklusen
+
+Bergartene er del av et evig **kretsløp**:
+
+1. **Magma** størkner til magmatiske bergarter.
+2. Bergartene **forvitres** og **eroderes** til sedimenter.
+3. Sedimentene blir til **sedimentære bergarter**.
+4. Ved **fjellkjededannelse** eller **begravning** omdannes de til **metamorfe bergarter**.
+5. Hvis temperaturen blir høy nok, **smelter** de og blir magma igjen.
+
+Syklusen kan ta **snarveier** – for eksempel kan en granitt forvitre direkte, eller en metamorf bergart løftes opp og eroderes. **Platetektonikken** holder syklusen i gang.', '{"label":"Mineraler og bergarter","children":[{"label":"Mineraler","children":[{"label":"Silikater"},{"label":"Karbonater og oksider"},{"label":"Sulfider og grunnstoffer"}]},{"label":"Identifisering","children":[{"label":"Hardhet"},{"label":"Strek og glans"},{"label":"Syretest"}]},{"label":"Bergarter","children":[{"label":"Magmatiske"},{"label":"Sedimentære"},{"label":"Metamorfe"}]},{"label":"Sedimenter","children":[{"label":"Leire, silt, sand, grus"},{"label":"Sortert og usortert"}]},{"label":"Bergartssyklusen","children":[{"label":"Størkning"},{"label":"Forvitring og avsetning"},{"label":"Omdanning og smelting"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:mineraler-og-bergarter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:mineraler-og-bergarter', 'Mineral', 'Naturlig, fast, uorganisk stoff med bestemt sammensetning og krystallstruktur.', 0),
+  ('geofag-1:mineraler-og-bergarter', 'Silikater', 'Mineraler av silisium og oksygen – det meste av jordskorpa.', 1),
+  ('geofag-1:mineraler-og-bergarter', 'Mohs skala', 'Hardhetsskala fra 1 (talk) til 10 (diamant).', 2),
+  ('geofag-1:mineraler-og-bergarter', 'Strekfarge', 'Fargen på mineralpulveret mot uglasert porselen.', 3),
+  ('geofag-1:mineraler-og-bergarter', 'Syretest', 'Kalkspat bruser i fortynnet saltsyre.', 4),
+  ('geofag-1:mineraler-og-bergarter', 'Dypbergart', 'Magmatisk bergart som størkner langsomt og får store krystaller.', 5),
+  ('geofag-1:mineraler-og-bergarter', 'Dagbergart', 'Magmatisk bergart som størkner raskt og blir finkornet.', 6),
+  ('geofag-1:mineraler-og-bergarter', 'Granitt', 'Lys dypbergart av kvarts, feltspat og glimmer.', 7),
+  ('geofag-1:mineraler-og-bergarter', 'Basalt', 'Mørk, finkornet dagbergart.', 8),
+  ('geofag-1:mineraler-og-bergarter', 'Larvikitt', 'Norges nasjonalbergart – en dypbergart.', 9),
+  ('geofag-1:mineraler-og-bergarter', 'Sedimentær bergart', 'Dannet av sedimenter i lag, ofte med fossiler.', 10),
+  ('geofag-1:mineraler-og-bergarter', 'Metamorf bergart', 'Omdannet av trykk og temperatur uten å smelte.', 11),
+  ('geofag-1:mineraler-og-bergarter', 'Gneis', 'Båndet metamorf bergart, svært vanlig i Norge.', 12),
+  ('geofag-1:mineraler-og-bergarter', 'Sand', 'Kornstørrelse 0,06–2 mm.', 13),
+  ('geofag-1:mineraler-og-bergarter', 'Leire', 'Kornstørrelse under 0,002 mm.', 14),
+  ('geofag-1:mineraler-og-bergarter', 'Bergartssyklusen', 'Kretsløpet mellom magmatiske, sedimentære og metamorfe bergarter.', 15);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:mineraler-og-bergarter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:mineraler-og-bergarter', 'q01', 'flervalg', 'Hvilken mineralgruppe utgjør det meste av jordskorpa?', array['Karbonater', 'Silikater', 'Sulfider', 'Halogenider']::text[], 1, 'Kvarts og feltspat er silikater.', true, true, 0),
+  ('geofag-1:mineraler-og-bergarter', 'q02', 'flervalg', 'Hvorfor har granitt store krystaller?', array['Den størknet langsomt dypt i jorda', 'Den størknet raskt på overflaten', 'Den er dannet av sedimenter', 'Den er omdannet av trykk']::text[], 0, 'Krystallene fikk tid til å vokse.', true, true, 1),
+  ('geofag-1:mineraler-og-bergarter', 'q03', 'flervalg', 'Hva blir kalkstein til ved metamorfose?', array['Gneis', 'Kvartsitt', 'Marmor', 'Basalt']::text[], 2, 'Kalkspaten krystalliserer om.', true, true, 2),
+  ('geofag-1:mineraler-og-bergarter', 'q04', 'flervalg', 'Hvilket mineral bruser i fortynnet saltsyre?', array['Kvarts', 'Glimmer', 'Feltspat', 'Kalkspat']::text[], 3, 'Karbonatet frigjør CO₂.', true, true, 3),
+  ('geofag-1:mineraler-og-bergarter', 'q05', 'flervalg', 'Hvilken bergartsgruppe kan inneholde fossiler?', array['Sedimentære bergarter', 'Dypbergarter', 'Dagbergarter', 'Ingen']::text[], 0, 'Organismer blir begravd i sedimentene.', true, true, 4),
+  ('geofag-1:mineraler-og-bergarter', 'q06', 'flervalg', 'Hva er kornstørrelsen til sand?', array['Under 0,002 mm', '0,06–2 mm', '2–64 mm', 'Over 64 mm']::text[], 1, 'Mindre korn er silt og leire.', true, true, 5),
+  ('geofag-1:mineraler-og-bergarter', 'q07', 'flervalg', 'Hva forteller usorterte sedimenter ofte?', array['At de er avsatt i rolig vann', 'At de er avsatt av vind', 'At de er avsatt av is', 'At de er magmatiske']::text[], 2, 'Isen avsetter alle størrelser om hverandre.', true, true, 6),
+  ('geofag-1:mineraler-og-bergarter', 'q08', 'flervalg', 'Hvilken hardhet har kvarts på Mohs skala?', array['1', '3', '10', '7']::text[], 3, 'Kvarts riper glass.', true, true, 7),
+  ('geofag-1:mineraler-og-bergarter', 'q09', 'flervalg', 'Hva er gneis?', array['En båndet metamorf bergart', 'En finkornet dagbergart', 'En sedimentær bergart', 'Et mineral']::text[], 0, 'Svært vanlig i Norge.', true, false, 8),
+  ('geofag-1:mineraler-og-bergarter', 'q10', 'flervalg', 'Hva skjer i bergartssyklusen når en bergart smelter?', array['Den blir til sediment', 'Den blir magma som senere kan størkne til en magmatisk bergart', 'Den blir marmor', 'Den forsvinner']::text[], 1, 'Syklusen starter på nytt.', true, false, 9),
+  ('geofag-1:mineraler-og-bergarter', 'm01', 'sant-usant', 'Metamorfe bergarter dannes uten at bergarten smelter.', array['Sant', 'Usant']::text[], 0, 'Trykk og temperatur omdanner mineralene.', false, true, 10),
+  ('geofag-1:mineraler-og-bergarter', 'm02', 'sant-usant', 'Basalt er en grovkornet dypbergart.', array['Sant', 'Usant']::text[], 1, 'Basalt er en finkornet dagbergart.', false, true, 11),
+  ('geofag-1:mineraler-og-bergarter', 'm03', 'sant-usant', 'Raskt rennende vann kan frakte større korn enn sakte rennende vann.', array['Sant', 'Usant']::text[], 0, 'Derfor avsettes leire i rolig vann.', false, true, 12),
+  ('geofag-1:mineraler-og-bergarter', 'm04', 'sant-usant', 'Diamant er det mykeste mineralet på Mohs skala.', array['Sant', 'Usant']::text[], 1, 'Diamant er det hardeste; talk er det mykeste.', false, true, 13),
+  ('geofag-1:mineraler-og-bergarter', 'm05', 'flervalg', 'Hva er Norges nasjonalbergart?', array['Gneis', 'Larvikitt', 'Marmor', 'Sandstein']::text[], 1, 'En dypbergart fra Vestfold.', false, true, 14),
+  ('geofag-1:mineraler-og-bergarter', 'm06', 'flervalg', 'Hvilket mineral kan flakes i tynne blad?', array['Glimmer', 'Kvarts', 'Kalkspat', 'Magnetitt']::text[], 0, 'Det har god spaltning i én retning.', false, true, 15),
+  ('geofag-1:mineraler-og-bergarter', 'm07', 'flervalg', 'Hva blir sandstein til ved metamorfose?', array['Marmor', 'Gneis', 'Kvartsitt', 'Granitt']::text[], 2, 'Kvartskornene vokser sammen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:mineraler-og-bergarter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Geologisk tid og datering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:geologisk-tid-og-datering', 'geofag-1', 'geologisk-tid-og-datering', 'Geologisk tid og datering', 'Hvordan geologer finner relativ alder med prinsipper som superposisjon og gjennomskjæring, hvordan radiometrisk datering og halveringstid gir absolutt alder, og hvordan den geologiske tidsskalaen er bygd opp.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:geologisk-tid-og-datering', '## Dyp tid
+
+Jorda er omtrent **4,6 milliarder år** gammel. Det er vanskelig å forestille seg: Hvis hele jordas historie var ett døgn, ville mennesket først dukke opp noen få sekunder før midnatt. For å forstå en så lang historie trenger vi to typer datering.
+
+## Relativ datering
+
+**Relativ datering** forteller hva som er **eldst og yngst**, men ikke hvor gammelt noe er i år. Viktige prinsipper:
+
+- **Superposisjon**: I en uforstyrret lagrekke er de **nederste** lagene **eldst**.
+- **Opprinnelig horisontalitet**: Sedimenter avsettes i **vannrette** lag. Er lagene foldet eller skråstilt, har det skjedd noe **etter** avsetningen.
+- **Gjennomskjæring**: En **gang** eller en **forkastning** som skjærer gjennom lag, er **yngre** enn lagene den skjærer.
+- **Inneslutninger**: Biter av en bergart inne i en annen er **eldre** enn bergarten rundt.
+- **Fossilsuksesjon**: Fossiler opptrer i en fast rekkefølge. **Ledefossiler** – arter som levde kort tid, men var utbredt – gjør det mulig å **korrelere** lag på ulike steder.
+- **Diskordans**: et brudd i lagrekka, der lag har blitt erodert bort før nye ble avsatt. Den viser et **hull** i historien.
+
+**Eksempel**: Du ser tre sedimentlag A (nederst), B og C, og en gang som skjærer gjennom A og B, men ikke C. Rekkefølgen blir A – B – gangen – C.
+
+## Absolutt datering
+
+**Absolutt datering** gir alderen i **år**. Den viktigste metoden er **radiometrisk datering**:
+
+- Noen grunnstoffer har **radioaktive isotoper** som brytes ned til **datterisotoper** i et fast tempo.
+- **Halveringstiden** er tiden det tar før **halvparten** av mor-isotopen er brutt ned. Etter én halveringstid er 50 % igjen, etter to 25 %, etter tre 12,5 %.
+- Ved å måle forholdet mellom mor- og datterisotoper kan vi regne ut **når bergarten ble dannet**.
+
+Ulike metoder passer for ulike aldre:
+
+- **Uran–bly** har halveringstider på hundrevis av millioner til milliarder år og brukes på svært gamle bergarter, ofte i mineralet **zirkon**.
+- **Kalium–argon** brukes særlig på vulkanske bergarter.
+- **Karbon-14** har en halveringstid på rundt **5730 år** og brukes på **organisk materiale** opp til omtrent 50 000 år.
+
+Radiometrisk datering fungerer best på **magmatiske** bergarter, fordi «klokka» starter når magmaen størkner. Sedimentære bergarter dateres ofte **indirekte** – for eksempel med vulkanske askelag over og under.
+
+Andre metoder er **årringer** i trær, **varv** (årlige lag i innsjøsedimenter) og **iskjerner** med årlige snølag.
+
+## Den geologiske tidsskalaen
+
+Jordas historie er delt i **eoner**, **æraer**, **perioder** og **epoker**. Grensene er ofte satt ved store endringer i livet:
+
+- **Prekambrium**: fra jordas dannelse til for rundt 540 millioner år siden – det meste av jordas historie.
+- **Paleozoikum** (oldtiden): mangfold av liv i havet, de første landplantene og -dyrene.
+- **Mesozoikum** (middelalderen): dinosaurenes tid.
+- **Kenozoikum** (nytiden): pattedyrenes tid, de siste 66 millionene år.
+
+To store **masseutryddelser** markerer grensene: ved slutten av **perm** for rundt 252 millioner år siden og ved slutten av **kritt** for 66 millioner år siden, da et stort **meteorittnedslag** bidro til at dinosaurene (unntatt fuglene) døde ut.', '{"label":"Geologisk tid","children":[{"label":"Relativ datering","children":[{"label":"Superposisjon"},{"label":"Gjennomskjæring"},{"label":"Inneslutninger"},{"label":"Ledefossiler"}]},{"label":"Absolutt datering","children":[{"label":"Halveringstid"},{"label":"Uran–bly"},{"label":"Karbon-14"}]},{"label":"Andre metoder","children":[{"label":"Årringer"},{"label":"Varv"},{"label":"Iskjerner"}]},{"label":"Tidsskalaen","children":[{"label":"Prekambrium"},{"label":"Paleo-, meso-, kenozoikum"}]},{"label":"Store hendelser","children":[{"label":"Perm–trias"},{"label":"Kritt–paleogen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:geologisk-tid-og-datering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:geologisk-tid-og-datering', 'Jordas alder', 'Omtrent 4,6 milliarder år.', 0),
+  ('geofag-1:geologisk-tid-og-datering', 'Relativ datering', 'Hva som er eldst og yngst, uten alder i år.', 1),
+  ('geofag-1:geologisk-tid-og-datering', 'Absolutt datering', 'Alder i år.', 2),
+  ('geofag-1:geologisk-tid-og-datering', 'Superposisjon', 'De nederste lagene er eldst.', 3),
+  ('geofag-1:geologisk-tid-og-datering', 'Gjennomskjæring', 'Det som skjærer gjennom lag, er yngre enn lagene.', 4),
+  ('geofag-1:geologisk-tid-og-datering', 'Inneslutninger', 'Biter inne i en bergart er eldre enn bergarten rundt.', 5),
+  ('geofag-1:geologisk-tid-og-datering', 'Ledefossil', 'Fossil av en kortlivet, utbredt art som brukes til å korrelere lag.', 6),
+  ('geofag-1:geologisk-tid-og-datering', 'Diskordans', 'Brudd i lagrekka som viser erosjon og et hull i historien.', 7),
+  ('geofag-1:geologisk-tid-og-datering', 'Halveringstid', 'Tiden det tar før halvparten av en radioaktiv isotop er brutt ned.', 8),
+  ('geofag-1:geologisk-tid-og-datering', 'Uran–bly-datering', 'Brukes på svært gamle bergarter, ofte i zirkon.', 9),
+  ('geofag-1:geologisk-tid-og-datering', 'Karbon-14', 'Halveringstid rundt 5730 år, for organisk materiale.', 10),
+  ('geofag-1:geologisk-tid-og-datering', 'Varv', 'Årlige lag i innsjøsedimenter.', 11),
+  ('geofag-1:geologisk-tid-og-datering', 'Prekambrium', 'Fra jordas dannelse til for rundt 540 millioner år siden.', 12),
+  ('geofag-1:geologisk-tid-og-datering', 'Kenozoikum', 'Pattedyrenes tid, de siste 66 millioner år.', 13),
+  ('geofag-1:geologisk-tid-og-datering', 'Masseutryddelse', 'Når svært mange arter dør ut på kort geologisk tid.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:geologisk-tid-og-datering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:geologisk-tid-og-datering', 'q01', 'flervalg', 'Hva sier superposisjonsprinsippet?', array['De øverste lagene er eldst', 'De nederste lagene er eldst i en uforstyrret lagrekke', 'Alle lag er like gamle', 'Lag avsettes skrått']::text[], 1, 'Nye lag legges oppå de gamle.', true, true, 0),
+  ('geofag-1:geologisk-tid-og-datering', 'q02', 'flervalg', 'En gang skjærer gjennom lag A og B, men ikke C. Hva er rekkefølgen?', array['A – B – gangen – C', 'Gangen – A – B – C', 'C – B – A – gangen', 'A – gangen – B – C']::text[], 0, 'Gangen er yngre enn lagene den skjærer.', true, true, 1),
+  ('geofag-1:geologisk-tid-og-datering', 'q03', 'flervalg', 'Hvor mye er igjen av en radioaktiv isotop etter to halveringstider?', array['50 %', '0 %', '25 %', '12,5 %']::text[], 2, 'Halvparten av halvparten.', true, true, 2),
+  ('geofag-1:geologisk-tid-og-datering', 'q04', 'flervalg', 'Hvilken metode brukes på organisk materiale opp til rundt 50 000 år?', array['Uran–bly', 'Kalium–argon', 'Superposisjon', 'Karbon-14']::text[], 3, 'Halveringstiden er rundt 5730 år.', true, true, 3),
+  ('geofag-1:geologisk-tid-og-datering', 'q05', 'flervalg', 'Hva er et ledefossil?', array['Et fossil av en kortlivet, utbredt art som brukes til å korrelere lag', 'Det eldste fossilet som finnes', 'Et fossil av en dinosaur', 'Et fossil som leder vann']::text[], 0, 'Det gjør det mulig å sammenligne lag på ulike steder.', true, true, 4),
+  ('geofag-1:geologisk-tid-og-datering', 'q06', 'flervalg', 'Hvorfor fungerer radiometrisk datering best på magmatiske bergarter?', array['De inneholder fossiler', '«Klokka» starter når magmaen størkner', 'De er alltid yngst', 'De har ikke isotoper']::text[], 1, 'Sedimentære bergarter dateres ofte indirekte.', true, true, 5),
+  ('geofag-1:geologisk-tid-og-datering', 'q07', 'flervalg', 'Hvor gammel er jorda?', array['Rundt 6000 år', 'Rundt 66 millioner år', 'Rundt 4,6 milliarder år', 'Rundt 13,8 milliarder år']::text[], 2, '13,8 milliarder år er universets alder.', true, true, 6),
+  ('geofag-1:geologisk-tid-og-datering', 'q08', 'flervalg', 'Hva er en diskordans?', array['Et fossil', 'En type radioaktiv isotop', 'En vulkansk gang', 'Et brudd i lagrekka som viser et hull i historien']::text[], 3, 'Lag er erodert bort før nye ble avsatt.', true, true, 7),
+  ('geofag-1:geologisk-tid-og-datering', 'q09', 'flervalg', 'Hvilken æra kalles dinosaurenes tid?', array['Mesozoikum', 'Paleozoikum', 'Kenozoikum', 'Prekambrium']::text[], 0, 'Den endte for 66 millioner år siden.', true, false, 8),
+  ('geofag-1:geologisk-tid-og-datering', 'q10', 'flervalg', 'Hva er varv?', array['Radioaktive isotoper', 'Årlige lag i innsjøsedimenter', 'Fossiler', 'Vulkanske ganger']::text[], 1, 'De kan telles som årringer.', true, false, 9),
+  ('geofag-1:geologisk-tid-og-datering', 'm01', 'sant-usant', 'Biter av en bergart inne i en annen er eldre enn bergarten rundt.', array['Sant', 'Usant']::text[], 0, 'Prinsippet om inneslutninger.', false, true, 10),
+  ('geofag-1:geologisk-tid-og-datering', 'm02', 'sant-usant', 'Karbon-14 egner seg godt til å datere 100 millioner år gamle bergarter.', array['Sant', 'Usant']::text[], 1, 'Karbon-14 kan bare brukes opp til rundt 50 000 år.', false, true, 11),
+  ('geofag-1:geologisk-tid-og-datering', 'm03', 'sant-usant', 'Prekambrium utgjør det meste av jordas historie.', array['Sant', 'Usant']::text[], 0, 'Fra 4,6 milliarder til rundt 540 millioner år siden.', false, true, 12),
+  ('geofag-1:geologisk-tid-og-datering', 'm04', 'sant-usant', 'Skråstilte sedimentlag ble avsatt skrått.', array['Sant', 'Usant']::text[], 1, 'Sedimenter avsettes vannrett og skråstilles senere.', false, true, 13),
+  ('geofag-1:geologisk-tid-og-datering', 'm05', 'flervalg', 'Hva markerer slutten av kritt for 66 millioner år siden?', array['Jordas dannelse', 'En masseutryddelse der et meteorittnedslag bidro', 'Den første istida', 'Menneskets opprinnelse']::text[], 1, 'Dinosaurene, unntatt fuglene, døde ut.', false, true, 14),
+  ('geofag-1:geologisk-tid-og-datering', 'm06', 'flervalg', 'Hvilket mineral brukes ofte ved uran–bly-datering?', array['Zirkon', 'Kalkspat', 'Glimmer', 'Gips']::text[], 0, 'Zirkon er svært motstandsdyktig.', false, true, 15),
+  ('geofag-1:geologisk-tid-og-datering', 'm07', 'flervalg', 'Hvor mye er igjen etter tre halveringstider?', array['33 %', '25 %', '12,5 %', '3 %']::text[], 2, '½ · ½ · ½ = ⅛.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:geologisk-tid-og-datering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Lokal geologi og feltarbeid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'geofag-1', 'lokal-geologi-og-feltarbeid', 'Lokal geologi og feltarbeid', 'Hvordan du undersøker berggrunn, løsmasser og jordsmonn der du bor, tolker observasjonene til en geologisk historie – og planlegger, gjennomfører og presenterer et geofaglig feltarbeid.', array[5, 12]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:lokal-geologi-og-feltarbeid', '## Berggrunn og løsmasser
+
+**Berggrunnen** er det faste fjellet. Over den ligger ofte **løsmasser** – løst materiale som sand, grus, leire og stein. I Norge ble de fleste løsmassene avsatt **under og etter siste istid**. De viktigste typene er:
+
+- **Morene**: **usortert** blanding av alt fra leire til store blokker, avsatt direkte av **isbreen**. Den dekker store deler av landet.
+- **Breelvavsetninger**: **sortert** og **lagdelt** sand og grus, avsatt av smeltevann fra breen. De er viktige **grus- og grunnvannsressurser**.
+- **Havavsetninger** (marin leire): finkornet materiale avsatt i havet da landet lå lavere enn i dag.
+- **Elveavsetninger**: sortert materiale avsatt av elver, for eksempel på elvesletter og i deltaer.
+- **Torv** og **myr**: organisk materiale.
+
+## Marin grense
+
+**Marin grense** er det høyeste nivået havet nådde etter istida, før landhevingen. Den varierer fra noen titalls meter på kysten til **over 200 meter** i Oslo-området. Under marin grense kan det finnes **marin leire** – som gir god jordbruksjord, men kan også inneholde **kvikkleire**.
+
+## Jordsmonn
+
+Øverst dannes **jordsmonn** gjennom forvitring og nedbrytning av planterester. I barskog er **podsol** vanlig, med et blekt, utvasket lag under humuslaget. Jordsmonnet avhenger av **løsmassene**, **klimaet** og **vegetasjonen**.
+
+## Tolke den geologiske historien
+
+Slik kan du lese landskapet der du bor:
+
+- **Skuringsstriper** i berget viser hvilken vei isen beveget seg.
+- **Morenerygger** viser hvor brefronten sto.
+- **Strandlinjer** og **skjellbanker** høyt over havet viser **landheving**.
+- **Bergartene** forteller om eldre hendelser, som fjellkjededannelse eller vulkanisme.
+
+Sammen gir dette en **geologisk historie** – fra dannelsen av berggrunnen for hundrevis av millioner år siden til istida og landhevingen.
+
+## Lokale ressurser
+
+Geologien bestemmer hvilke **ressurser** området har: **grus og pukk** til bygg og vei, **grunnvann** i breelvavsetninger, **jordbruksjord** på marin leire, **naturstein** og **mineraler**. Den påvirker også **naturfarer**, som kvikkleireskred.
+
+## Kartverktøy
+
+**Norges geologiske undersøkelse (NGU)** har digitale kart over **berggrunn**, **løsmasser**, **grunnvann** og **marin grense**. Slike kart er et godt utgangspunkt før feltarbeidet.
+
+## Feltarbeid steg for steg
+
+1. **Planlegging**: Formuler en **problemstilling**, studer kart og vurder **sikkerhet** – for eksempel ras, vann og vær.
+2. **Utstyr**: feltbok, GPS eller mobil, kompass, lupe, geologhammer, målebånd, prøveposer og fortynnet saltsyre.
+3. **Innsamling**: Beskriv lokaliteten nøyaktig, ta **bilder med målestokk**, noter observasjoner og ta **prøver**.
+4. **Bearbeiding**: Analyser prøvene – for eksempel **kornfordeling** ved sikting – og lag **tabeller**, **profiler** og **kart**.
+5. **Tolkning**: Hva forteller dataene om prosessene og historien? Hvilke **feilkilder** og usikkerheter finnes?
+6. **Presentasjon**: rapport, poster eller digital fortelling med tydelige figurer og kildehenvisninger.
+
+Husk å vise **respekt** for natur og grunneiere, og ikke ta prøver i verneområder.', '{"label":"Lokal geologi og feltarbeid","children":[{"label":"Løsmasser","children":[{"label":"Morene"},{"label":"Breelvavsetninger"},{"label":"Havavsetninger"},{"label":"Elveavsetninger og torv"}]},{"label":"Landheving","children":[{"label":"Marin grense"},{"label":"Kvikkleire"}]},{"label":"Lese landskapet","children":[{"label":"Skuringsstriper"},{"label":"Morenerygger"},{"label":"Strandlinjer"}]},{"label":"Ressurser","children":[{"label":"Grus og grunnvann"},{"label":"Jordbruksjord"},{"label":"NGU-kart"}]},{"label":"Feltarbeid","children":[{"label":"Planlegging og sikkerhet"},{"label":"Innsamling"},{"label":"Bearbeiding og tolkning"},{"label":"Presentasjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:lokal-geologi-og-feltarbeid';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Berggrunn', 'Det faste fjellet.', 0),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Løsmasser', 'Løst materiale over berggrunnen, som sand, grus og leire.', 1),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Morene', 'Usortert materiale avsatt direkte av isbreen.', 2),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Breelvavsetning', 'Sortert, lagdelt sand og grus fra smeltevann.', 3),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Havavsetning', 'Finkornet materiale avsatt i havet, som marin leire.', 4),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Marin grense', 'Det høyeste nivået havet nådde etter istida.', 5),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Kvikkleire', 'Marin leire som kan bli flytende når den forstyrres.', 6),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Podsol', 'Jordsmonn i barskog med blekt, utvasket lag.', 7),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Skuringsstriper', 'Riper i berget som viser isens bevegelsesretning.', 8),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Morenerygg', 'Viser hvor brefronten sto.', 9),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Skjellbanker høyt over havet', 'Tegn på landheving.', 10),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'NGU', 'Norges geologiske undersøkelse – lager geologiske kart.', 11),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Kornfordeling', 'Fordelingen av kornstørrelser, ofte målt ved sikting.', 12),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Feltbok', 'Notatbok for observasjoner i felt.', 13),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'Bilde med målestokk', 'Foto med noe av kjent størrelse for å vise dimensjoner.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:lokal-geologi-og-feltarbeid';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q01', 'flervalg', 'Hva kjennetegner en morene?', array['Sortert og lagdelt sand', 'Usortert blanding av leire, sand, stein og blokker', 'Bare leire', 'Organisk materiale']::text[], 1, 'Isen avsetter alt om hverandre.', true, true, 0),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q02', 'flervalg', 'Hva er marin grense?', array['Det høyeste nivået havet nådde etter istida', 'Grensen mellom Norge og havet i dag', 'Grensen for fiskerisone', 'Høyeste flomnivå']::text[], 0, 'Den varierer fra sted til sted.', true, true, 1),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q03', 'flervalg', 'Hvorfor er breelvavsetninger viktige ressurser?', array['De inneholder gull', 'De er gode til jordbruk alltid', 'De er viktige kilder til grus og grunnvann', 'De hindrer skred']::text[], 2, 'Sortert materiale med god gjennomstrømning.', true, true, 2),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q04', 'flervalg', 'Hva viser skuringsstriper?', array['Hvor gammelt berget er', 'Landhevingen', 'Hvor havet sto', 'Hvilken vei isen beveget seg']::text[], 3, 'Stein i isen ripet opp berget.', true, true, 3),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q05', 'flervalg', 'Hvor kan det finnes kvikkleire?', array['Under marin grense', 'På toppen av fjell', 'I morene over tregrensen', 'I vulkansk aske']::text[], 0, 'Kvikkleire er marin leire.', true, true, 4),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q06', 'flervalg', 'Hva forteller skjellbanker høyt over havet?', array['At det har vært vulkanutbrudd', 'At landet har hevet seg', 'At havet har steget', 'At isen har vært der nylig']::text[], 1, 'Skjellene ble avsatt i havet.', true, true, 5),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q07', 'flervalg', 'Hvorfor tar du bilder med målestokk i felt?', array['For å spare tid', 'For at bildet skal bli penere', 'For å vise størrelsen på det du fotograferer', 'For å finne retning']::text[], 2, 'Ellers er det vanskelig å tolke bildet.', true, true, 6),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q08', 'flervalg', 'Hvor finner du digitale kart over løsmasser i Norge?', array['Hos Statistisk sentralbyrå', 'Hos Meteorologisk institutt', 'Hos Folkehelseinstituttet', 'Hos Norges geologiske undersøkelse (NGU)']::text[], 3, 'Også berggrunn og grunnvann.', true, true, 7),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q09', 'flervalg', 'Hva er det første steget i et feltarbeid?', array['Planlegging med problemstilling, kart og sikkerhetsvurdering', 'Å ta prøver', 'Å skrive rapporten', 'Å sikte prøvene']::text[], 0, 'God planlegging gir bedre data.', true, false, 8),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'q10', 'flervalg', 'Hva er podsol?', array['En type morene', 'Jordsmonn i barskog med blekt, utvasket lag', 'En bergart', 'En type kvikkleire']::text[], 1, 'Vanlig i norsk barskog.', true, false, 9),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm01', 'sant-usant', 'De fleste løsmassene i Norge ble avsatt under og etter siste istid.', array['Sant', 'Usant']::text[], 0, 'Isen og smeltevannet flyttet store mengder materiale.', false, true, 10),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm02', 'sant-usant', 'Marin grense ligger like høyt over havet overalt i Norge.', array['Sant', 'Usant']::text[], 1, 'Den varierer fra noen titalls meter til over 200 meter.', false, true, 11),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm03', 'sant-usant', 'Marin leire kan gi god jordbruksjord.', array['Sant', 'Usant']::text[], 0, 'Mange viktige jordbruksområder ligger under marin grense.', false, true, 12),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm04', 'sant-usant', 'Det er greit å ta bergartsprøver i verneområder.', array['Sant', 'Usant']::text[], 1, 'Verneområder har egne regler, og natur skal behandles med respekt.', false, true, 13),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm05', 'flervalg', 'Hvilken metode brukes for å finne kornfordelingen i en prøve?', array['Syretest', 'Sikting', 'Radiometrisk datering', 'Kompassmåling']::text[], 1, 'Prøven ristes gjennom sikter med ulik maskevidde.', false, true, 14),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm06', 'flervalg', 'Hva viser en morenerygg?', array['Hvor brefronten sto', 'Hvor havet sto', 'Hvor elva rant', 'Hvor vulkanen var']::text[], 0, 'Isen skjøv opp materiale foran seg.', false, true, 15),
+  ('geofag-1:lokal-geologi-og-feltarbeid', 'm07', 'flervalg', 'Hvilket utstyr bruker du for å teste om en bergart inneholder kalkspat?', array['Kompass', 'Lupe', 'Fortynnet saltsyre', 'Målebånd']::text[], 2, 'Kalkspat bruser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:lokal-geologi-og-feltarbeid', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Landformer og landskapsprosesser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:landformer', 'geofag-1', 'landformer', 'Landformer og landskapsprosesser', 'Indre og ytre krefter som former landskapet, forvitring og erosjon, landformer skapt av is, elver, hav og vind – med norske eksempler – og hvordan mennesket endrer landformene.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:landformer', '## Indre og ytre krefter
+
+Landskapet formes av to typer krefter:
+
+- **Endogene** (indre) krefter bygger opp: platebevegelser, fjellkjededannelse og vulkanisme.
+- **Eksogene** (ytre) krefter bryter ned: **forvitring**, **erosjon**, **transport** og **avsetning** med vann, is, vind og tyngdekraft.
+
+## Forvitring
+
+- **Mekanisk forvitring** knuser fjellet uten å endre mineralene, for eksempel **frostsprengning**. Den er vanlig i kalde strøk med mange fryse–tine-sykluser.
+- **Kjemisk forvitring** løser opp eller endrer mineralene. Regnvann med litt kullsyre løser **kalkstein** og kan danne **karst** med grotter og slukhull.
+- **Biologisk forvitring** skyldes planter og organismer.
+
+## Isbreer
+
+Det norske landskapet er i stor grad formet av **isbreer** gjennom mange istider:
+
+- **U-daler** med bratte sider og flat bunn, der breer har gravd ut tidligere elvedaler.
+- **Fjorder** er U-daler som er fylt av havet. **Sognefjorden** er Norges lengste og dypeste, med over 200 km lengde og over 1300 m dybde.
+- **Botner**: skålformede forsenkninger i fjellsider der små breer har gravd seg inn. Mellom botner dannes skarpe **egger** og spisse **horn**.
+- **Morener** og **endemorener**, som **Ra-trinnet** i Sør-Norge, viser hvor brefronten sto.
+- **Eskere** er lange grusrygger avsatt av smeltevannselver i tunneler under isen.
+
+## Elver
+
+- I **bratte** områder graver elva ned og danner **V-daler** og gjel.
+- I **flatere** områder slynger elva seg i **meandere**. Den eroderer i yttersvingen og avsetter i innersvingen.
+- Der elva møter en innsjø eller havet, avsettes materialet i et **delta**.
+- **Elveterrasser** viser at elva har gravd seg ned i sine egne avsetninger, ofte på grunn av landheving.
+
+## Hav og kyst
+
+Bølger eroderer **klippekyster** og avsetter **strender** der energien er lav. Langs norskekysten finnes **strandflaten**, en lav, flat bremme med tusenvis av øyer, holmer og skjær.
+
+## Vind
+
+Vind kan frakte sand og danne **sanddyner**, som på Jæren og Lista. I Norge er vindens rolle mindre enn i ørkenområder.
+
+## Norske landskapstyper
+
+- **Vidder**, som Hardangervidda: gamle, flate overflater hevet opp og slipt av is.
+- **Alpint landskap**, som Lofoten og Sunnmøre: spisse tinder formet av mange små breer.
+- **Fjordlandskap** på Vestlandet.
+
+## Menneskelig påvirkning
+
+Mennesker endrer landformene med
+
+- **masseuttak** av grus og pukk og **utfylling** i sjø og vassdrag
+- **elveforbygning**, kanalisering og demninger, som endrer erosjon og avsetning nedstrøms
+- **avskoging** og jordbruk, som øker erosjonen
+- **veier**, **tunneler** og **bebyggelse**
+
+Noen tiltak **reduserer** naturfarer, andre kan **øke** dem – for eksempel når en rettet elv får større fart og flommer lenger nede.', '{"label":"Landformer","children":[{"label":"Krefter","children":[{"label":"Endogene"},{"label":"Eksogene"}]},{"label":"Forvitring","children":[{"label":"Mekanisk"},{"label":"Kjemisk og karst"},{"label":"Biologisk"}]},{"label":"Is","children":[{"label":"U-dal og fjord"},{"label":"Botn, egg, horn"},{"label":"Morener og eskere"}]},{"label":"Elver, hav og vind","children":[{"label":"V-dal og meandere"},{"label":"Delta og terrasser"},{"label":"Strandflaten"},{"label":"Sanddyner"}]},{"label":"Mennesket","children":[{"label":"Masseuttak og utfylling"},{"label":"Elveforbygning"},{"label":"Avskoging"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:landformer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:landformer', 'Endogene krefter', 'Indre krefter som bygger opp, som platebevegelser.', 0),
+  ('geofag-1:landformer', 'Eksogene krefter', 'Ytre krefter som bryter ned, som vann og is.', 1),
+  ('geofag-1:landformer', 'Mekanisk forvitring', 'Knusing av fjell uten kjemisk endring, som frostsprengning.', 2),
+  ('geofag-1:landformer', 'Kjemisk forvitring', 'Oppløsning eller endring av mineraler.', 3),
+  ('geofag-1:landformer', 'Karst', 'Landskap med grotter og slukhull i kalkstein.', 4),
+  ('geofag-1:landformer', 'U-dal', 'Dal med bratte sider og flat bunn, gravd ut av is.', 5),
+  ('geofag-1:landformer', 'Fjord', 'U-dal fylt av havet.', 6),
+  ('geofag-1:landformer', 'Botn', 'Skålformet forsenkning gravd ut av en liten bre.', 7),
+  ('geofag-1:landformer', 'Egg og horn', 'Skarpe rygger og spisse topper mellom botner.', 8),
+  ('geofag-1:landformer', 'Esker', 'Lang grusrygg avsatt av smeltevann under isen.', 9),
+  ('geofag-1:landformer', 'V-dal', 'Dal gravd ut av en elv.', 10),
+  ('geofag-1:landformer', 'Meander', 'Elveslynge som eroderer i yttersvingen og avsetter i innersvingen.', 11),
+  ('geofag-1:landformer', 'Delta', 'Avsetning der en elv munner ut i innsjø eller hav.', 12),
+  ('geofag-1:landformer', 'Strandflaten', 'Lav, flat bremme langs norskekysten med mange øyer og skjær.', 13),
+  ('geofag-1:landformer', 'Ra-trinnet', 'Stor endemorene i Sør-Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:landformer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:landformer', 'q01', 'flervalg', 'Hva er forskjellen på endogene og eksogene krefter?', array['Endogene bryter ned, eksogene bygger opp', 'Endogene bygger opp, eksogene bryter ned', 'Begge bygger opp', 'Det er ingen forskjell']::text[], 1, 'Indre krefter mot ytre krefter.', true, true, 0),
+  ('geofag-1:landformer', 'q02', 'flervalg', 'Hvordan dannes en fjord?', array['En U-dal gravd ut av is blir fylt av havet', 'En elv graver en V-dal', 'Vinden blåser bort sand', 'Et jordskjelv åpner en sprekk']::text[], 0, 'Sognefjorden er et eksempel.', true, true, 1),
+  ('geofag-1:landformer', 'q03', 'flervalg', 'Hvor eroderer en meandrerende elv mest?', array['I innersvingen', 'Midt i elva', 'I yttersvingen', 'Ved kilden']::text[], 2, 'Vannet går raskest i yttersvingen.', true, true, 2),
+  ('geofag-1:landformer', 'q04', 'flervalg', 'Hva er en esker?', array['En spiss fjelltopp', 'En skålformet forsenkning', 'Et delta', 'En lang grusrygg avsatt av smeltevann under isen']::text[], 3, 'Smeltevannselver rant i tunneler under isen.', true, true, 3),
+  ('geofag-1:landformer', 'q05', 'flervalg', 'Hvilken type forvitring er frostsprengning?', array['Mekanisk', 'Kjemisk', 'Biologisk', 'Vulkansk']::text[], 0, 'Isen sprenger fjellet i biter.', true, true, 4),
+  ('geofag-1:landformer', 'q06', 'flervalg', 'Hvilken dalform er typisk for elveerosjon?', array['U-dal', 'V-dal', 'Botn', 'Fjord']::text[], 1, 'Isen lager U-daler.', true, true, 5),
+  ('geofag-1:landformer', 'q07', 'flervalg', 'Hva er karst?', array['En type morene', 'Et vulkansk landskap', 'Et landskap med grotter og slukhull i kalkstein', 'En type sanddyne']::text[], 2, 'Dannes ved kjemisk forvitring.', true, true, 6),
+  ('geofag-1:landformer', 'q08', 'flervalg', 'Hvordan kan kanalisering av en elv øke flomfaren nedstrøms?', array['Vannet blir kaldere', 'Elva tørker ut', 'Elva får flere svinger', 'Vannet får større fart og kommer raskere nedover']::text[], 3, 'Rettede elver mister naturlig demping.', true, true, 7),
+  ('geofag-1:landformer', 'q09', 'flervalg', 'Hva kjennetegner et alpint landskap som i Lofoten?', array['Spisse tinder formet av mange små breer', 'Flate vidder', 'Store sanddyner', 'Brede elvesletter']::text[], 0, 'Botner, egger og horn.', true, false, 8),
+  ('geofag-1:landformer', 'q10', 'flervalg', 'Hva forteller elveterrasser ofte?', array['At havet har steget', 'At elva har gravd seg ned i egne avsetninger, ofte på grunn av landheving', 'At det har vært vulkanutbrudd', 'At elva er ny']::text[], 1, 'Terrassene er gamle elvesletter.', true, false, 9),
+  ('geofag-1:landformer', 'm01', 'sant-usant', 'Sognefjorden er Norges lengste fjord.', array['Sant', 'Usant']::text[], 0, 'Over 200 km lang.', false, true, 10),
+  ('geofag-1:landformer', 'm02', 'sant-usant', 'Vind er den viktigste landskapsformende kraften i Norge.', array['Sant', 'Usant']::text[], 1, 'Is og vann har vært mye viktigere.', false, true, 11),
+  ('geofag-1:landformer', 'm03', 'sant-usant', 'Hardangervidda er et eksempel på et viddelandskap.', array['Sant', 'Usant']::text[], 0, 'En gammel, flat overflate slipt av is.', false, true, 12),
+  ('geofag-1:landformer', 'm04', 'sant-usant', 'En elv avsetter mest materiale i yttersvingen.', array['Sant', 'Usant']::text[], 1, 'Den avsetter i innersvingen.', false, true, 13),
+  ('geofag-1:landformer', 'm05', 'flervalg', 'Hvor finner du sanddyner i Norge?', array['På Hardangervidda', 'På Jæren og Lista', 'I Sognefjorden', 'I Lofoten']::text[], 1, 'Der vind har god tilgang på sand.', false, true, 14),
+  ('geofag-1:landformer', 'm06', 'flervalg', 'Hva er Ra-trinnet?', array['En stor endemorene i Sør-Norge', 'En fjord', 'En vulkan', 'Et delta']::text[], 0, 'Den viser hvor brefronten sto.', false, true, 15),
+  ('geofag-1:landformer', 'm07', 'flervalg', 'Hvilken menneskelig aktivitet øker ofte erosjonen?', array['Planting av skog', 'Vern av myr', 'Avskoging', 'Restaurering av elver']::text[], 2, 'Røttene holder på jorda.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:landformer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Det hydrologiske kretsløpet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:vannets-kretslop', 'geofag-1', 'vannets-kretslop', 'Det hydrologiske kretsløpet', 'Hvordan vannet på jorda er fordelt, prosessene i vannets kretsløp, nedbørfelt og vannbalanse, grunnvann – og hvordan menneskelig aktivitet endrer vannets vei.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:vannets-kretslop', '## Vannet på jorda
+
+Omtrent **97,5 %** av alt vann på jorda er **saltvann** i havet. Bare rundt **2,5 %** er **ferskvann**, og av dette er
+
+- nesten **70 %** bundet i **isbreer** og snø
+- rundt **30 %** **grunnvann**
+- **under 1 %** i innsjøer, elver, jordfuktighet og atmosfæren
+
+Det ferskvannet vi lettest kan bruke, er altså en svært liten del av det totale vannet.
+
+## Prosessene i kretsløpet
+
+Vannets kretsløp drives av **solenergi** og **tyngdekraft**:
+
+- **Fordampning** fra hav, innsjøer og bakke, og **transpirasjon** fra planter – til sammen **evapotranspirasjon**.
+- **Kondensasjon**: Vanndampen avkjøles og danner skyer.
+- **Nedbør** som regn, snø eller hagl.
+- **Infiltrasjon**: Vann siver ned i jorda.
+- **Perkolasjon**: Vann siver videre ned til **grunnvannet**.
+- **Avrenning** på overflaten og i elver til havet.
+
+Vannet kan bli **lagret** i ulike **magasiner** – hav, isbreer, innsjøer, snø, grunnvann og atmosfæren – i svært ulik tid. Et vannmolekyl blir i atmosfæren i omtrent **ti dager**, men kan bli værende i dype grunnvannsmagasiner eller isbreer i **tusenvis av år**. Dette kalles **oppholdstid**.
+
+## Nedbørfelt og vannbalanse
+
+Et **nedbørfelt** er hele området som drenerer til et bestemt punkt i en elv. Grensene går langs **vannskillene** – de høyeste punktene i terrenget.
+
+**Vannbalanselikningen** for et nedbørfelt er
+
+**N = F + A + ΔM**
+
+der N er nedbør, F er fordampning, A er avrenning og ΔM er endring i magasin, for eksempel snø eller grunnvann. Over flere år er ΔM ofte nær null.
+
+## Grunnvann
+
+**Grunnvann** er vann som fyller porer og sprekker i løsmasser og berggrunn. Overflaten kalles **grunnvannsspeilet**. Løsmasser med god **porøsitet** og **permeabilitet**, som sand og grus, gir gode **akviferer** – grunnvannsmagasiner vi kan hente vann fra. Leire holder mye vann, men slipper det nesten ikke gjennom.
+
+## Menneskelig påvirkning
+
+- **Tette flater**: Asfalt og tak hindrer infiltrasjon. Regnet renner raskt av, og byer får oftere **overvannsflom**.
+- **Avskoging** gir mindre transpirasjon, raskere avrenning og mer erosjon.
+- **Drenering av myr og jordbruksland** endrer hvor raskt vannet renner av.
+- **Vassdragsregulering**: Demninger til **vannkraft** jevner ut vannføringen og endrer livet i elvene.
+- **Uttak av grunnvann** kan senke grunnvannsspeilet.
+- **Klimaendringer**: I Norge gir et varmere klima **mer nedbør**, **kraftigere regnskyll**, **mindre snø** i lavlandet og **krympende breer**. Det endrer når på året flommene kommer.
+
+## Tiltak i byene
+
+**Blågrønne løsninger** tar vare på regnvannet der det faller: **grønne tak**, **regnbed**, **gjenåpnede bekker** og **permeable dekker**. Tretrinnsstrategien går ut på å **infiltrere** små nedbørmengder, **forsinke og fordrøye** større mengder og sikre **trygge flomveier** for de største.', '{"label":"Vannets kretsløp","children":[{"label":"Fordeling","children":[{"label":"97,5 % saltvann"},{"label":"Is og grunnvann"},{"label":"Under 1 % i elver og sjøer"}]},{"label":"Prosesser","children":[{"label":"Evapotranspirasjon"},{"label":"Kondensasjon og nedbør"},{"label":"Infiltrasjon og avrenning"}]},{"label":"Nedbørfelt","children":[{"label":"Vannskille"},{"label":"N = F + A + ΔM"}]},{"label":"Grunnvann","children":[{"label":"Grunnvannsspeil"},{"label":"Akvifer"},{"label":"Permeabilitet"}]},{"label":"Mennesket","children":[{"label":"Tette flater"},{"label":"Regulering"},{"label":"Klimaendringer"},{"label":"Blågrønne løsninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:vannets-kretslop';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:vannets-kretslop', 'Andel saltvann', 'Omtrent 97,5 % av alt vann på jorda.', 0),
+  ('geofag-1:vannets-kretslop', 'Andel ferskvann', 'Rundt 2,5 %, mest i is og grunnvann.', 1),
+  ('geofag-1:vannets-kretslop', 'Evapotranspirasjon', 'Fordampning pluss transpirasjon fra planter.', 2),
+  ('geofag-1:vannets-kretslop', 'Infiltrasjon', 'Vann siver ned i jorda.', 3),
+  ('geofag-1:vannets-kretslop', 'Perkolasjon', 'Vann siver videre ned til grunnvannet.', 4),
+  ('geofag-1:vannets-kretslop', 'Avrenning', 'Vann som renner på overflaten og i elver.', 5),
+  ('geofag-1:vannets-kretslop', 'Oppholdstid', 'Hvor lenge vannet blir i et magasin.', 6),
+  ('geofag-1:vannets-kretslop', 'Nedbørfelt', 'Området som drenerer til et punkt i en elv.', 7),
+  ('geofag-1:vannets-kretslop', 'Vannskille', 'Grensen mellom to nedbørfelt.', 8),
+  ('geofag-1:vannets-kretslop', 'Vannbalanse', 'N = F + A + ΔM', 9),
+  ('geofag-1:vannets-kretslop', 'Grunnvannsspeil', 'Overflaten av grunnvannet.', 10),
+  ('geofag-1:vannets-kretslop', 'Akvifer', 'Grunnvannsmagasin vi kan hente vann fra.', 11),
+  ('geofag-1:vannets-kretslop', 'Permeabilitet', 'Hvor lett vann strømmer gjennom et materiale.', 12),
+  ('geofag-1:vannets-kretslop', 'Overvannsflom', 'Flom i byer når regnet ikke kan infiltreres.', 13),
+  ('geofag-1:vannets-kretslop', 'Blågrønne løsninger', 'Grønne tak, regnbed og åpne bekker som tar vare på regnvannet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:vannets-kretslop';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:vannets-kretslop', 'q01', 'flervalg', 'Hvor mye av vannet på jorda er ferskvann?', array['Omtrent 50 %', 'Omtrent 2,5 %', 'Omtrent 25 %', 'Omtrent 97,5 %']::text[], 1, 'Resten er saltvann i havet.', true, true, 0),
+  ('geofag-1:vannets-kretslop', 'q02', 'flervalg', 'Hvor finnes mesteparten av ferskvannet?', array['I isbreer og snø', 'I elver', 'I innsjøer', 'I atmosfæren']::text[], 0, 'Nesten 70 % av ferskvannet.', true, true, 1),
+  ('geofag-1:vannets-kretslop', 'q03', 'flervalg', 'Hva er evapotranspirasjon?', array['Nedbør og avrenning', 'Vann som siver ned', 'Fordampning pluss transpirasjon fra planter', 'Kondensasjon i skyer']::text[], 2, 'Vannet går tilbake til atmosfæren.', true, true, 2),
+  ('geofag-1:vannets-kretslop', 'q04', 'flervalg', 'Hva er et nedbørfelt?', array['Et område med mye regn', 'En innsjø', 'Et grunnvannsmagasin', 'Området som drenerer til et punkt i en elv']::text[], 3, 'Grensene går langs vannskillene.', true, true, 3),
+  ('geofag-1:vannets-kretslop', 'q05', 'flervalg', 'Hva står A for i vannbalanselikningen N = F + A + ΔM?', array['Avrenning', 'Atmosfære', 'Akvifer', 'Areal']::text[], 0, 'N er nedbør, F fordampning.', true, true, 4),
+  ('geofag-1:vannets-kretslop', 'q06', 'flervalg', 'Hvorfor får byer oftere overvannsflom?', array['Det regner mer i byer', 'Tette flater hindrer infiltrasjon', 'Byer ligger alltid lavt', 'Grunnvannet er høyere']::text[], 1, 'Regnet renner raskt av.', true, true, 5),
+  ('geofag-1:vannets-kretslop', 'q07', 'flervalg', 'Hvilket materiale gir en god akvifer?', array['Leire', 'Massivt granitt uten sprekker', 'Sand og grus', 'Asfalt']::text[], 2, 'God porøsitet og permeabilitet.', true, true, 6),
+  ('geofag-1:vannets-kretslop', 'q08', 'flervalg', 'Hvordan påvirker klimaendringer vannets kretsløp i Norge?', array['Mindre nedbør og flere breer', 'Ingen endring', 'Mer snø i lavlandet', 'Mer nedbør, kraftigere regnskyll og krympende breer']::text[], 3, 'Flommene endrer tidspunkt.', true, true, 7),
+  ('geofag-1:vannets-kretslop', 'q09', 'flervalg', 'Omtrent hvor lenge blir et vannmolekyl i atmosfæren?', array['Omtrent ti dager', 'Ett år', 'Hundre år', 'Tusen år']::text[], 0, 'Grunnvann og is kan lagre vann mye lenger.', true, false, 8),
+  ('geofag-1:vannets-kretslop', 'q10', 'flervalg', 'Hva er et regnbed?', array['En type seng', 'En blågrønn løsning der regnvann får infiltrere', 'En demning', 'En type akvifer']::text[], 1, 'Det demper overvann i byer.', true, false, 9),
+  ('geofag-1:vannets-kretslop', 'm01', 'sant-usant', 'Vannets kretsløp drives av solenergi og tyngdekraft.', array['Sant', 'Usant']::text[], 0, 'Sola fordamper vann, tyngdekraften får det til å renne.', false, true, 10),
+  ('geofag-1:vannets-kretslop', 'm02', 'sant-usant', 'Leire slipper vann lett gjennom.', array['Sant', 'Usant']::text[], 1, 'Leire har lav permeabilitet.', false, true, 11),
+  ('geofag-1:vannets-kretslop', 'm03', 'sant-usant', 'Vassdragsregulering jevner ut vannføringen i elvene.', array['Sant', 'Usant']::text[], 0, 'Vann lagres i magasiner og slippes ut ved behov.', false, true, 12),
+  ('geofag-1:vannets-kretslop', 'm04', 'sant-usant', 'Avskoging gir langsommere avrenning.', array['Sant', 'Usant']::text[], 1, 'Avskoging gir raskere avrenning og mer erosjon.', false, true, 13),
+  ('geofag-1:vannets-kretslop', 'm05', 'flervalg', 'Hva er tredje trinn i tretrinnsstrategien for overvann?', array['Infiltrere', 'Sikre trygge flomveier for de største mengdene', 'Fordampe', 'Pumpe ut alt vann']::text[], 1, 'Først infiltrere, så fordrøye, så flomveier.', false, true, 14),
+  ('geofag-1:vannets-kretslop', 'm06', 'flervalg', 'Hva er et vannskille?', array['Grensen mellom to nedbørfelt', 'En demning', 'Et grunnvannsspeil', 'En elvemunning']::text[], 0, 'Går langs de høyeste punktene.', false, true, 15),
+  ('geofag-1:vannets-kretslop', 'm07', 'flervalg', 'Hva kalles vann som siver ned til grunnvannet?', array['Kondensasjon', 'Transpirasjon', 'Perkolasjon', 'Avrenning']::text[], 2, 'Etter infiltrasjonen i jorda.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:vannets-kretslop', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Ferskvann som ressurs
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:ferskvannsressurser', 'geofag-1', 'ferskvannsressurser', 'Ferskvann som ressurs', 'Hvordan ferskvann brukes til drikkevann, jordbruk, industri og energi i Norge og verden, hvorfor vannmangel og konflikter oppstår, og hva bærekraftig vannforvaltning innebærer.', array[8]::int[], 7, 'sjekkes', array['Sjekk andelene for drikkevann fra overflatevann og vannkraftens andel av strømproduksjonen i Norge mot nyeste tall (FHI/NVE/SSB).']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:ferskvannsressurser', '## Hva brukes ferskvannet til?
+
+På verdensbasis brukes rundt **70 %** av ferskvannet som tas ut, til **jordbruk** – mest **vanning**. Resten går til **industri** og **husholdninger**. Vann brukes også til **energi**: som kjølevann i kraftverk og direkte i **vannkraft**.
+
+## Norge – et vannrikt land
+
+Norge har mye nedbør og mange innsjøer og elver.
+
+- Rundt **90 %** av befolkningen får **drikkevann** fra **overflatevann** – innsjøer og elver. Resten kommer fra **grunnvann**.
+- **Vannkraft** står for omtrent **90 %** av strømproduksjonen.
+- Vannet må likevel **beskyttes**: Nedbørfeltet til drikkevannskilder må holdes rent, og **ledningsnettet** er mange steder gammelt, slik at mye vann **lekker** ut.
+
+## Vannmangel i verden
+
+Mange land har **vannstress** – de bruker en stor del av det fornybare vannet de har. Årsakene er
+
+- **tørt klima** og ujevn fordeling av nedbøren over året
+- **befolkningsvekst** og **urbanisering**
+- **vanning** i stor skala
+- **forurensning** som gjør vannet ubrukelig
+- **klimaendringer** som gir mer tørke noen steder og smelter breene som mange elver er avhengige av
+
+**Aralsjøen** i Sentral-Asia er et kjent eksempel: Fra 1960-tallet ble elvene som renner til sjøen, brukt til å vanne bomullsåkre. Sjøen krympet dramatisk, fiskeriene brøt sammen, og saltstøv fra den tørre sjøbunnen ga helseproblemer.
+
+Mange steder pumpes **grunnvann** opp raskere enn det fornyes. Da synker grunnvannsspeilet, brønner tørker ut, og bakken kan **synke** (setninger).
+
+## Vann over grenser
+
+Mange store elver renner gjennom flere land, som **Nilen**, **Mekong** og **Eufrat og Tigris**. Når et land oppstrøms bygger **demninger**, kan land nedstrøms få mindre vann. Et eksempel er striden om den store demningen Etiopia har bygd på Den blå Nilen, som Egypt har vært bekymret for. Slike konflikter krever **avtaler** og **samarbeid**.
+
+## Virtuelt vann
+
+**Virtuelt vann** er vannet som er brukt til å lage en vare. Å produsere **1 kg storfekjøtt** krever i gjennomsnitt rundt **15 000 liter** vann, mens 1 kg grønnsaker krever langt mindre. Når Norge importerer mat og klær, «importerer» vi også vann fra andre land – kanskje fra områder med vannmangel.
+
+## Bærekraftig vannforvaltning
+
+- **Effektiv vanning**, som **dryppvanning**, som gir vann direkte til røttene.
+- **Reparere lekkasjer** i ledningsnettet.
+- **Gjenbruk** av renset avløpsvann til vanning og industri.
+- **Beskytte nedbørfelt** og **rense avløp**.
+- **Avsalting** av sjøvann – men det krever mye **energi**.
+- **Samarbeid** om grenseoverskridende vassdrag.
+- **Helhetlig forvaltning**: I Norge skal vannforskriften sørge for god **økologisk** og **kjemisk** tilstand i elver, innsjøer, grunnvann og kystvann.
+
+FN har som bærekraftsmål (mål 6) at alle skal ha tilgang til **rent vann** og **gode sanitærforhold**.', '{"label":"Ferskvannsressurser","children":[{"label":"Bruk","children":[{"label":"Jordbruk 70 %"},{"label":"Industri og husholdning"},{"label":"Energi"}]},{"label":"Norge","children":[{"label":"Overflatevann"},{"label":"Vannkraft"},{"label":"Lekkasjer"}]},{"label":"Vannmangel","children":[{"label":"Vannstress"},{"label":"Aralsjøen"},{"label":"Overpumping"}]},{"label":"Over grenser","children":[{"label":"Nilen og Mekong"},{"label":"Virtuelt vann"}]},{"label":"Bærekraft","children":[{"label":"Dryppvanning"},{"label":"Gjenbruk og rensing"},{"label":"Vannforskriften"},{"label":"Bærekraftsmål 6"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:ferskvannsressurser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:ferskvannsressurser', 'Jordbrukets andel av vannuttaket', 'Rundt 70 % på verdensbasis.', 0),
+  ('geofag-1:ferskvannsressurser', 'Overflatevann', 'Vann i innsjøer og elver – hovedkilden til drikkevann i Norge.', 1),
+  ('geofag-1:ferskvannsressurser', 'Vannkraft i Norge', 'Omtrent 90 % av strømproduksjonen.', 2),
+  ('geofag-1:ferskvannsressurser', 'Vannstress', 'Når et land bruker en stor del av det fornybare vannet sitt.', 3),
+  ('geofag-1:ferskvannsressurser', 'Aralsjøen', 'Sjø som krympet dramatisk på grunn av vanning av bomull.', 4),
+  ('geofag-1:ferskvannsressurser', 'Overpumping av grunnvann', 'Grunnvannsspeilet synker og bakken kan synke.', 5),
+  ('geofag-1:ferskvannsressurser', 'Setninger', 'At bakken synker, for eksempel når grunnvann tas ut.', 6),
+  ('geofag-1:ferskvannsressurser', 'Grenseoverskridende vassdrag', 'Elver som renner gjennom flere land, som Nilen.', 7),
+  ('geofag-1:ferskvannsressurser', 'Virtuelt vann', 'Vannet som er brukt til å lage en vare.', 8),
+  ('geofag-1:ferskvannsressurser', '1 kg storfekjøtt', 'Krever rundt 15 000 liter vann.', 9),
+  ('geofag-1:ferskvannsressurser', 'Dryppvanning', 'Vanning direkte til røttene med lite tap.', 10),
+  ('geofag-1:ferskvannsressurser', 'Avsalting', 'Å fjerne salt fra sjøvann – krever mye energi.', 11),
+  ('geofag-1:ferskvannsressurser', 'Vannforskriften', 'Norsk regelverk for god tilstand i vann.', 12),
+  ('geofag-1:ferskvannsressurser', 'Bærekraftsmål 6', 'Rent vann og gode sanitærforhold for alle.', 13),
+  ('geofag-1:ferskvannsressurser', 'Lekkasje i ledningsnett', 'Stort vanntap mange steder i Norge.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:ferskvannsressurser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:ferskvannsressurser', 'q01', 'flervalg', 'Hva brukes mesteparten av ferskvannsuttaket i verden til?', array['Husholdninger', 'Jordbruk', 'Industri', 'Svømmebassenger']::text[], 1, 'Rundt 70 %, mest vanning.', true, true, 0),
+  ('geofag-1:ferskvannsressurser', 'q02', 'flervalg', 'Hvor får de fleste i Norge drikkevannet sitt fra?', array['Overflatevann fra innsjøer og elver', 'Avsalting', 'Grunnvann alene', 'Regnvann fra taket']::text[], 0, 'Rundt 90 % fra overflatevann.', true, true, 1),
+  ('geofag-1:ferskvannsressurser', 'q03', 'flervalg', 'Hvorfor krympet Aralsjøen?', array['Et jordskjelv', 'Økt nedbør', 'Elvene ble brukt til å vanne bomullsåkre', 'Isbreer smeltet']::text[], 2, 'Fra 1960-tallet.', true, true, 2),
+  ('geofag-1:ferskvannsressurser', 'q04', 'flervalg', 'Hva er virtuelt vann?', array['Vann i dataspill', 'Grunnvann', 'Vann i atmosfæren', 'Vannet som er brukt til å lage en vare']::text[], 3, 'For eksempel mat og klær.', true, true, 3),
+  ('geofag-1:ferskvannsressurser', 'q05', 'flervalg', 'Hva kan skje når grunnvann pumpes opp raskere enn det fornyes?', array['Grunnvannsspeilet synker og bakken kan synke', 'Det blir mer grunnvann', 'Havet synker', 'Ingenting']::text[], 0, 'Brønner kan tørke ut.', true, true, 4),
+  ('geofag-1:ferskvannsressurser', 'q06', 'flervalg', 'Hvorfor kan demninger skape konflikter mellom land?', array['De lager støy', 'Land nedstrøms kan få mindre vann', 'De øker nedbøren', 'De gir for mye fisk']::text[], 1, 'For eksempel langs Nilen.', true, true, 5),
+  ('geofag-1:ferskvannsressurser', 'q07', 'flervalg', 'Hva er en ulempe med avsalting?', array['Vannet blir salt', 'Det gir for mye vann', 'Det krever mye energi', 'Det virker bare i Norge']::text[], 2, 'Og saltlaken må tas hånd om.', true, true, 6),
+  ('geofag-1:ferskvannsressurser', 'q08', 'flervalg', 'Hvilket tiltak gir mer effektiv vanning?', array['Å vanne midt på dagen i sola', 'Oversvømmelse av åkrene', 'Å bruke mer vann', 'Dryppvanning']::text[], 3, 'Vannet går direkte til røttene.', true, true, 7),
+  ('geofag-1:ferskvannsressurser', 'q09', 'flervalg', 'Hvor stor del av strømproduksjonen i Norge er vannkraft?', array['Omtrent 90 %', 'Omtrent 10 %', 'Omtrent 50 %', 'Omtrent 30 %']::text[], 0, 'Norge har mange regulerte vassdrag.', true, false, 8),
+  ('geofag-1:ferskvannsressurser', 'q10', 'flervalg', 'Hva handler FNs bærekraftsmål 6 om?', array['Fornybar energi', 'Rent vann og gode sanitærforhold', 'Livet i havet', 'Klima']::text[], 1, 'Tilgang for alle.', true, false, 9),
+  ('geofag-1:ferskvannsressurser', 'm01', 'sant-usant', 'Når Norge importerer mat, importerer vi også virtuelt vann.', array['Sant', 'Usant']::text[], 0, 'Vann brukt til produksjonen i andre land.', false, true, 10),
+  ('geofag-1:ferskvannsressurser', 'm02', 'sant-usant', 'Norge har ingen utfordringer med drikkevann.', array['Sant', 'Usant']::text[], 1, 'Gammelt ledningsnett og lekkasjer er en utfordring.', false, true, 11),
+  ('geofag-1:ferskvannsressurser', 'm03', 'sant-usant', 'Klimaendringer kan gi mindre vann i elver som er avhengige av smeltende breer.', array['Sant', 'Usant']::text[], 0, 'Når breene er borte, forsvinner smeltevannet.', false, true, 12),
+  ('geofag-1:ferskvannsressurser', 'm04', 'sant-usant', 'Grønnsaker krever mer vann per kilo enn storfekjøtt.', array['Sant', 'Usant']::text[], 1, 'Storfekjøtt krever langt mer vann.', false, true, 13),
+  ('geofag-1:ferskvannsressurser', 'm05', 'flervalg', 'Hvilket av disse gir vannstress?', array['Våtere klima', 'Befolkningsvekst og storstilt vanning', 'Færre mennesker', 'Bedre rensing']::text[], 1, 'Etterspørselen øker.', false, true, 14),
+  ('geofag-1:ferskvannsressurser', 'm06', 'flervalg', 'Hva skal vannforskriften i Norge sørge for?', array['God økologisk og kjemisk tilstand i vann', 'Lavere strømpris', 'Mer vannkraft', 'Flere demninger']::text[], 0, 'Helhetlig forvaltning av vannet.', false, true, 15),
+  ('geofag-1:ferskvannsressurser', 'm07', 'flervalg', 'Hvilken elv har vært kilde til uenighet mellom Etiopia og Egypt?', array['Mekong', 'Donau', 'Nilen', 'Amazonas']::text[], 2, 'På grunn av en stor demning på Den blå Nilen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:ferskvannsressurser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Geologiske ressurser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:geologiske-ressurser', 'geofag-1', 'geologiske-ressurser', 'Geologiske ressurser', 'Hvordan malmer, industrimineraler, byggeråstoffer, olje og gass dannes, hvordan de kartlegges og utvinnes i Norge og verden – og hvilke konsekvenser utvinningen har i et bærekraftsperspektiv.', array[9]::int[], 8, 'sjekkes', array['Sjekk status og omtale av Fensfeltet (sjeldne jordartsmetaller) mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:geologiske-ressurser', '## Typer geologiske ressurser
+
+- **Metaller** fra **malm** – bergart med så mye av et metall at det lønner seg å utvinne det: jern, kobber, nikkel, sink, gull og **sjeldne jordartsmetaller**.
+- **Industrimineraler**: kalk, kvarts, olivin, grafitt og nefelinsyenitt, som brukes i blant annet stål, glass, papir og elektronikk.
+- **Byggeråstoffer**: **sand**, **grus** og **pukk**. Målt i tonn er dette den største geologiske ressursen vi bruker.
+- **Naturstein**: for eksempel larvikitt og skifer.
+- **Energiressurser**: **olje**, **gass**, **kull** og **uran**, i tillegg til **jordvarme**.
+- **Grunnvann**.
+
+## Hvordan ressursene dannes
+
+- **Magmatiske prosesser**: Når magma avkjøles, kan tunge mineraler samles i egne lag, for eksempel nikkel og krom.
+- **Varme væsker** (hydrotermale løsninger) sirkulerer i sprekker og feller ut metaller som kobber, sink og gull i **ganger**.
+- **Sedimentære prosesser** kan samle tunge mineraler i elvesand, eller danne kull av plantemateriale.
+- **Olje og gass** dannes av **organisk materiale**, som plankton, som blir begravd i finkornede sedimenter. Ved temperaturer på rundt **60–120 °C** omdannes det til olje. Oljen og gassen **vandrer** oppover til en porøs **reservoarbergart**, som sandstein, og blir fanget under en tett **takbergart** i en **felle**.
+
+## Kartlegging
+
+- **Geologiske kart** over berggrunn og løsmasser, som hos **NGU**.
+- **Geofysiske målinger** fra fly, skip eller bakken: magnetiske målinger, tyngdemålinger og **seismikk**, der lydbølger sendes ned og reflekteres fra lagene. Seismikk er viktigst i leting etter olje og gass.
+- **Geokjemiske analyser** av stein, jord og bekkesand.
+- **Boring** med **kjerneprøver** som bekrefter hva som finnes.
+
+## Utvinning
+
+Malm og mineraler hentes ut i **dagbrudd** eller **gruver** under jorda. Malmen **knuses** og **oppredes**, slik at de verdifulle mineralene skilles fra resten. Olje og gass hentes ut med brønner fra **plattformer** eller **havbunnsanlegg**.
+
+## Norge
+
+- **Olje og gass** fra norsk sokkel har siden 1970-tallet vært Norges viktigste eksportvare og har finansiert **Statens pensjonsfond utland**.
+- Norge har lang **gruvehistorie**, som kobberverket på **Røros** og sølvverket på **Kongsberg**.
+- **Fensfeltet** i Telemark har store forekomster av **sjeldne jordartsmetaller**, som trengs i magneter til vindturbiner og elbiler.
+- Det tas også ut mye **pukk** og **grus**, og Norge eksporterer blant annet pukk og industrimineraler.
+
+## Konsekvenser og bærekraft
+
+**Fordeler**: arbeidsplasser, inntekter og råstoffer til samfunnet. Mange metaller er nødvendige for **det grønne skiftet** – til batterier, solceller, vindturbiner og strømnett.
+
+**Ulemper**:
+
+- **naturinngrep** i leveområder og landskap
+- **gruveavfall**; plassering i sjø (sjødeponi) eller på land er ofte omstridt
+- **avrenning** av tungmetaller og syre fra gamle gruver
+- konflikt med **reindrift**, **friluftsliv** og **fiske**
+- **klimagassutslipp** når fossile brensler brennes
+
+Tiltak for mer bærekraftig bruk er **gjenvinning** av metaller (**sirkulærøkonomi**), mindre avfall, strenge **miljøkrav**, god **arealplanlegging** og at lokalsamfunn og samiske interesser blir hørt.', '{"label":"Geologiske ressurser","children":[{"label":"Typer","children":[{"label":"Metaller og malm"},{"label":"Industrimineraler"},{"label":"Sand, grus, pukk"},{"label":"Olje, gass, kull"}]},{"label":"Dannelse","children":[{"label":"Magmatisk"},{"label":"Hydrotermal"},{"label":"Sedimentær"},{"label":"Reservoar og felle"}]},{"label":"Kartlegging","children":[{"label":"Geologiske kart"},{"label":"Seismikk og geofysikk"},{"label":"Boring"}]},{"label":"Norge","children":[{"label":"Norsk sokkel"},{"label":"Røros og Kongsberg"},{"label":"Fensfeltet"}]},{"label":"Bærekraft","children":[{"label":"Grønt skifte"},{"label":"Avfall og avrenning"},{"label":"Gjenvinning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:geologiske-ressurser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:geologiske-ressurser', 'Malm', 'Bergart med nok metall til at det lønner seg å utvinne.', 0),
+  ('geofag-1:geologiske-ressurser', 'Industrimineraler', 'Mineraler som kalk, kvarts og olivin brukt i industrien.', 1),
+  ('geofag-1:geologiske-ressurser', 'Byggeråstoffer', 'Sand, grus og pukk – største ressurs målt i tonn.', 2),
+  ('geofag-1:geologiske-ressurser', 'Hydrotermale løsninger', 'Varme væsker som feller ut metaller i sprekker.', 3),
+  ('geofag-1:geologiske-ressurser', 'Reservoarbergart', 'Porøs bergart der olje og gass samles, som sandstein.', 4),
+  ('geofag-1:geologiske-ressurser', 'Takbergart', 'Tett bergart som hindrer olje og gass i å lekke opp.', 5),
+  ('geofag-1:geologiske-ressurser', 'Felle', 'Struktur der olje og gass fanges.', 6),
+  ('geofag-1:geologiske-ressurser', 'Oljevinduet', 'Omtrent 60–120 °C, der organisk materiale blir til olje.', 7),
+  ('geofag-1:geologiske-ressurser', 'Seismikk', 'Lydbølger som kartlegger lagene i undergrunnen.', 8),
+  ('geofag-1:geologiske-ressurser', 'Kjerneprøve', 'Borekjerne som viser hva som finnes i dypet.', 9),
+  ('geofag-1:geologiske-ressurser', 'Dagbrudd', 'Utvinning i et åpent brudd på overflaten.', 10),
+  ('geofag-1:geologiske-ressurser', 'Oppredning', 'Å skille verdifulle mineraler fra resten av malmen.', 11),
+  ('geofag-1:geologiske-ressurser', 'Sjeldne jordartsmetaller', 'Metaller til magneter i vindturbiner og elbiler, funnet blant annet i Fensfeltet.', 12),
+  ('geofag-1:geologiske-ressurser', 'Sjødeponi', 'Plassering av gruveavfall i sjøen – ofte omstridt.', 13),
+  ('geofag-1:geologiske-ressurser', 'Sirkulærøkonomi', 'Gjenbruk og gjenvinning av materialer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:geologiske-ressurser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:geologiske-ressurser', 'q01', 'flervalg', 'Hva er malm?', array['All stein i en gruve', 'Bergart med nok metall til at det lønner seg å utvinne', 'Et industrimineral', 'Olje i berggrunnen']::text[], 1, 'Om noe er malm, avhenger også av prisen.', true, true, 0),
+  ('geofag-1:geologiske-ressurser', 'q02', 'flervalg', 'Hvilken geologisk ressurs brukes mest målt i tonn?', array['Sand, grus og pukk', 'Gull', 'Kobber', 'Uran']::text[], 0, 'Til veier, betong og bygg.', true, true, 1),
+  ('geofag-1:geologiske-ressurser', 'q03', 'flervalg', 'Hvor samles olje og gass?', array['I takbergarten', 'I granitt', 'I en porøs reservoarbergart under en tett takbergart', 'I morene']::text[], 2, 'Fanget i en felle.', true, true, 2),
+  ('geofag-1:geologiske-ressurser', 'q04', 'flervalg', 'Hvilken metode er viktigst i leting etter olje og gass?', array['Syretest', 'Skuringsstriper', 'Radiometrisk datering', 'Seismikk']::text[], 3, 'Lydbølger reflekteres fra lagene.', true, true, 3),
+  ('geofag-1:geologiske-ressurser', 'q05', 'flervalg', 'Hva dannes olje av?', array['Organisk materiale som plankton', 'Magma', 'Kalkstein', 'Vulkansk aske']::text[], 0, 'Det omdannes ved 60–120 °C.', true, true, 4),
+  ('geofag-1:geologiske-ressurser', 'q06', 'flervalg', 'Hvorfor er Fensfeltet i Telemark interessant?', array['Det har mye olje', 'Det har store forekomster av sjeldne jordartsmetaller', 'Det er Norges største grusforekomst', 'Det har mye gull']::text[], 1, 'Viktig for det grønne skiftet.', true, true, 5),
+  ('geofag-1:geologiske-ressurser', 'q07', 'flervalg', 'Hva er en miljøulempe ved gamle gruver?', array['De gir for mye grunnvann', 'De hindrer skred', 'Avrenning av tungmetaller og syre', 'De gir mer skog']::text[], 2, 'Som ved enkelte gamle kobbergruver.', true, true, 6),
+  ('geofag-1:geologiske-ressurser', 'q08', 'flervalg', 'Hvorfor trengs mer mineralutvinning i det grønne skiftet?', array['For å brenne mer kull', 'For å lage mer plast', 'For å bygge flere oljeplattformer', 'Batterier, vindturbiner og strømnett krever mange metaller']::text[], 3, 'Gjenvinning kan dekke noe av behovet.', true, true, 7),
+  ('geofag-1:geologiske-ressurser', 'q09', 'flervalg', 'Hva er en kjerneprøve?', array['En borekjerne som viser hva som finnes i dypet', 'En prøve fra jordas kjerne', 'En seismisk måling', 'En vannprøve']::text[], 0, 'Den bekrefter tolkningene.', true, false, 8),
+  ('geofag-1:geologiske-ressurser', 'q10', 'flervalg', 'Hva er et tiltak for mer bærekraftig bruk av metaller?', array['Mer engangsbruk', 'Gjenvinning og sirkulærøkonomi', 'Flere sjødeponier', 'Mindre miljøkrav']::text[], 1, 'Metaller kan brukes om igjen mange ganger.', true, false, 9),
+  ('geofag-1:geologiske-ressurser', 'm01', 'sant-usant', 'Olje og gass har vært Norges viktigste eksportvare siden 1970-tallet.', array['Sant', 'Usant']::text[], 0, 'Inntektene går til Statens pensjonsfond utland.', false, true, 10),
+  ('geofag-1:geologiske-ressurser', 'm02', 'sant-usant', 'Takbergarten må være porøs slik at oljen kan lekke opp.', array['Sant', 'Usant']::text[], 1, 'Takbergarten må være tett for å fange oljen.', false, true, 11),
+  ('geofag-1:geologiske-ressurser', 'm03', 'sant-usant', 'Røros er kjent for gammel kobbergruvedrift.', array['Sant', 'Usant']::text[], 0, 'Kobberverket drev i flere hundre år.', false, true, 12),
+  ('geofag-1:geologiske-ressurser', 'm04', 'sant-usant', 'Gruvedrift kan aldri komme i konflikt med reindrift.', array['Sant', 'Usant']::text[], 1, 'Gruver kan ta viktige beiteområder.', false, true, 13),
+  ('geofag-1:geologiske-ressurser', 'm05', 'flervalg', 'Hva betyr oppredning?', array['Å bore etter olje', 'Å skille verdifulle mineraler fra resten av malmen', 'Å lage kart', 'Å deponere avfall']::text[], 1, 'Etter knusing.', false, true, 14),
+  ('geofag-1:geologiske-ressurser', 'm06', 'flervalg', 'Hvilken bergart er en typisk reservoarbergart?', array['Sandstein', 'Leirskifer', 'Granitt', 'Marmor']::text[], 0, 'Den har mange porer.', false, true, 15),
+  ('geofag-1:geologiske-ressurser', 'm07', 'flervalg', 'Hva er sjødeponi?', array['En oljeplattform', 'En havn for malmskip', 'Plassering av gruveavfall i sjøen', 'Et havbunnsanlegg for gass']::text[], 2, 'Det er ofte omstridt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:geologiske-ressurser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Geofag 1: Naturfarer, risiko og modellering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('geofag-1:naturfarer', 'geofag-1', 'naturfarer', 'Naturfarer, risiko og modellering', 'Skred, flom, jordskjelv, vulkanutbrudd og tsunamier – hvordan de oppstår, hvordan vi vurderer risiko med kart og modeller, og hvordan samfunnet kan forebygge og tilpasse seg.', array[10, 11]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('geofag-1:naturfarer', '## Naturfarer i geosfæren og hydrosfæren
+
+En **naturfare** er en naturlig prosess som kan skade mennesker, bygninger og infrastruktur. Den blir en **naturkatastrofe** først når den rammer et samfunn hardt.
+
+## Skred
+
+Skred skjer når **tyngdekraften** blir sterkere enn kreftene som holder massene på plass. Typer i Norge:
+
+- **Steinsprang** og **steinskred**: stein og blokker som løsner fra bratte fjellsider.
+- **Fjellskred**: enorme fjellpartier som raser ut. Hvis de faller i en fjord eller innsjø, kan de lage en **flodbølge**. I **Tafjord** i **1934** omkom 40 mennesker på denne måten. Ustabile fjellpartier, som **Åknes** i Storfjorden, blir derfor **overvåket** døgnet rundt.
+- **Jordskred** og **flomskred**: løsmasser mettet med vann, ofte etter kraftig regn.
+- **Snøskred**: utløses ofte av nysnø, vind og svake lag i snødekket.
+- **Kvikkleireskred**: Kvikkleire er marin leire der saltet er vasket ut. Når den forstyrres – for eksempel av en elv som eroderer eller av gravearbeid – kan den bli **flytende**. Skredet i **Gjerdrum** i **2020** krevde 11 liv.
+
+## Flom og stormflo
+
+**Flom** skyldes kraftig regn, snøsmelting eller en kombinasjon. **Stormflo** er høy vannstand langs kysten på grunn av vind og lavtrykk, særlig når den faller sammen med springflo. Et varmere klima gir **kraftigere regnskyll** og **høyere havnivå**.
+
+## Jordskjelv, vulkaner og tsunamier
+
+Disse farene henger sammen med **plategrensene**. **Tsunamier** oppstår når havbunnen plutselig forskyves ved et jordskjelv, eller når et stort skred eller et vulkanutbrudd fortrenger vann. Tsunamien i **Indiahavet i 2004** tok over 200 000 liv, og jordskjelvet og tsunamien i **Japan i 2011** førte også til ulykken ved atomkraftverket i Fukushima.
+
+## Risiko
+
+**Risiko** handler om både **sannsynlighet** og **konsekvens**:
+
+**Risiko = sannsynlighet × konsekvens**
+
+Et lite skred i et ubebodd område gir lav risiko, mens et sjeldent skred over en skole gir høy risiko. **Sårbarheten** avhenger av hvor mange som bor der, byggeskikk, beredskap og økonomi. Samme jordskjelv kan derfor få svært ulike følger i et rikt og et fattig land.
+
+## Kartlegging og modellering
+
+- **Aktsomhetskart** viser områder der en fare **kan** finnes.
+- **Faresonekart** er mer detaljerte og viser hvor ofte en hendelse kan ventes – for eksempel skred med en årlig sannsynlighet på **1/1000**.
+- **Modeller** beregner hvor langt et skred kan gå (**utløpslengde**), hvor høy en flodbølge blir, eller hvilke områder som oversvømmes ved en gitt vannføring. Modellene bruker **terrengdata**, målinger og **scenarioer**.
+
+Når du vurderer risikoen i et område, kan du bruke kart fra **NVE** og **NGU**, lage egne **scenarioer** og vurdere hvilke bygninger og veier som ligger utsatt. Husk at modeller er **forenklinger** med **usikkerhet**.
+
+## Forebygging og tilpasning
+
+- **Arealplanlegging**: ikke bygge i fareområder. Byggteknisk forskrift krever større sikkerhet for bygg der mange oppholder seg.
+- **Sikringstiltak**: skredvoller, fangnett, bolter, snøskjermer, **erosjonssikring** langs elver og **flomvoller**.
+- **Overvåking og varsling**: **varsom.no** gir daglige varsler om snøskred, jordskred og flom.
+- **Beredskap**: evakueringsplaner, øvelser og informasjon til befolkningen.
+- **Klimatilpasning**: større kulverter, blågrønne løsninger og oppdaterte faresonekart.', '{"label":"Naturfarer","children":[{"label":"Skred","children":[{"label":"Steinsprang og fjellskred"},{"label":"Jord- og flomskred"},{"label":"Snøskred"},{"label":"Kvikkleireskred"}]},{"label":"Vann","children":[{"label":"Flom"},{"label":"Stormflo"},{"label":"Tsunami"}]},{"label":"Risiko","children":[{"label":"Sannsynlighet × konsekvens"},{"label":"Sårbarhet"}]},{"label":"Kart og modeller","children":[{"label":"Aktsomhetskart"},{"label":"Faresonekart"},{"label":"Utløpslengde og scenarioer"}]},{"label":"Tiltak","children":[{"label":"Arealplanlegging"},{"label":"Sikring"},{"label":"Varsling og beredskap"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'geofag-1:naturfarer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('geofag-1:naturfarer', 'Naturfare', 'Naturlig prosess som kan skade mennesker og samfunn.', 0),
+  ('geofag-1:naturfarer', 'Steinsprang', 'Enkeltsteiner som løsner fra bratte fjellsider.', 1),
+  ('geofag-1:naturfarer', 'Fjellskred', 'Store fjellpartier som raser ut og kan gi flodbølger.', 2),
+  ('geofag-1:naturfarer', 'Tafjord 1934', 'Fjellskred og flodbølge der 40 omkom.', 3),
+  ('geofag-1:naturfarer', 'Åknes', 'Ustabilt fjellparti i Storfjorden som overvåkes døgnet rundt.', 4),
+  ('geofag-1:naturfarer', 'Kvikkleire', 'Marin leire med utvasket salt som kan bli flytende.', 5),
+  ('geofag-1:naturfarer', 'Gjerdrum 2020', 'Kvikkleireskred som krevde 11 liv.', 6),
+  ('geofag-1:naturfarer', 'Stormflo', 'Høy vannstand på grunn av vind og lavtrykk.', 7),
+  ('geofag-1:naturfarer', 'Tsunami', 'Flodbølge når havbunnen forskyves eller vann fortrenges.', 8),
+  ('geofag-1:naturfarer', 'Risiko', 'Sannsynlighet × konsekvens.', 9),
+  ('geofag-1:naturfarer', 'Sårbarhet', 'Hvor utsatt et samfunn er for skade.', 10),
+  ('geofag-1:naturfarer', 'Aktsomhetskart', 'Viser områder der en fare kan finnes.', 11),
+  ('geofag-1:naturfarer', 'Faresonekart', 'Detaljert kart med sannsynlighet for hendelser.', 12),
+  ('geofag-1:naturfarer', 'Utløpslengde', 'Hvor langt et skred kan gå.', 13),
+  ('geofag-1:naturfarer', 'varsom.no', 'Nettsted med varsler om skred og flom.', 14);
+delete from public.quiz_sporsmal where tema_id = 'geofag-1:naturfarer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('geofag-1:naturfarer', 'q01', 'flervalg', 'Hva er risiko?', array['Bare sannsynligheten for en hendelse', 'Sannsynlighet × konsekvens', 'Antall skred i året', 'Hvor stor en naturfare er']::text[], 1, 'Både hvor ofte og hvor alvorlig.', true, true, 0),
+  ('geofag-1:naturfarer', 'q02', 'flervalg', 'Hva er kvikkleire?', array['Marin leire med utvasket salt som kan bli flytende', 'Leire fra vulkaner', 'Morene', 'Sand som flyter']::text[], 0, 'Den finnes under marin grense.', true, true, 1),
+  ('geofag-1:naturfarer', 'q03', 'flervalg', 'Hva skjedde i Tafjord i 1934?', array['Et jordskjelv', 'Et kvikkleireskred', 'Et fjellskred som ga en flodbølge', 'En vulkan']::text[], 2, '40 mennesker omkom.', true, true, 2),
+  ('geofag-1:naturfarer', 'q04', 'flervalg', 'Hva viser et faresonekart?', array['Hvor det bor flest folk', 'Veiene i et område', 'Berggrunnen', 'Hvor ofte en hendelse kan ventes i et område']::text[], 3, 'For eksempel skred med årlig sannsynlighet 1/1000.', true, true, 3),
+  ('geofag-1:naturfarer', 'q05', 'flervalg', 'Hvordan oppstår en tsunami?', array['Når havbunnen plutselig forskyves eller store mengder vann fortrenges', 'Når det blåser mye', 'Når tidevannet er høyt', 'Når isen smelter']::text[], 0, 'Ofte ved jordskjelv i subduksjonssoner.', true, true, 4),
+  ('geofag-1:naturfarer', 'q06', 'flervalg', 'Hvorfor overvåkes Åknes?', array['Det er en vulkan', 'Et fjellskred der kan gi en farlig flodbølge i fjorden', 'Det er et flomområde', 'Det har kvikkleire']::text[], 1, 'Bevegelsene måles døgnet rundt.', true, true, 5),
+  ('geofag-1:naturfarer', 'q07', 'flervalg', 'Hvor finner du daglige varsler om snøskred og flom i Norge?', array['NGU', 'SSB', 'varsom.no', 'Artsdatabanken']::text[], 2, 'Drevet av NVE.', true, true, 6),
+  ('geofag-1:naturfarer', 'q08', 'flervalg', 'Hvorfor kan samme jordskjelv få ulike følger i ulike land?', array['Jordskjelv er alltid like sterke', 'Tyngdekraften er ulik', 'Havet er ulikt', 'Sårbarheten varierer med byggeskikk, beredskap og økonomi']::text[], 3, 'Rike land har ofte bedre bygg og beredskap.', true, true, 7),
+  ('geofag-1:naturfarer', 'q09', 'flervalg', 'Hva er et viktig forebyggende tiltak i arealplanleggingen?', array['Ikke bygge i fareområder', 'Bygge nærmere elva', 'Fjerne all skog', 'Bygge på kvikkleire']::text[], 0, 'Det billigste tiltaket er ofte å bygge et annet sted.', true, false, 8),
+  ('geofag-1:naturfarer', 'q10', 'flervalg', 'Hva beregner en skredmodell ofte?', array['Bergartens alder', 'Utløpslengden – hvor langt skredet kan gå', 'Mengden olje', 'Havtemperaturen']::text[], 1, 'Bygger på terrengdata og scenarioer.', true, false, 9),
+  ('geofag-1:naturfarer', 'm01', 'sant-usant', 'Kraftig regn kan utløse jordskred og flomskred.', array['Sant', 'Usant']::text[], 0, 'Vannmettede løsmasser mister stabilitet.', false, true, 10),
+  ('geofag-1:naturfarer', 'm02', 'sant-usant', 'Et aktsomhetskart viser nøyaktig hvor og når et skred vil gå.', array['Sant', 'Usant']::text[], 1, 'Det viser bare hvor en fare kan finnes.', false, true, 11),
+  ('geofag-1:naturfarer', 'm03', 'sant-usant', 'Et varmere klima kan gi flere jordskred i Norge.', array['Sant', 'Usant']::text[], 0, 'Kraftigere regnskyll øker faren.', false, true, 12),
+  ('geofag-1:naturfarer', 'm04', 'sant-usant', 'Modeller av naturfarer er helt uten usikkerhet.', array['Sant', 'Usant']::text[], 1, 'Modeller er forenklinger med usikkerhet.', false, true, 13),
+  ('geofag-1:naturfarer', 'm05', 'flervalg', 'Hva kan utløse et kvikkleireskred?', array['Sterk sol', 'Erosjon fra en elv eller gravearbeid', 'Snøfall på fjellet', 'Nordlys']::text[], 1, 'Leira forstyrres og blir flytende.', false, true, 14),
+  ('geofag-1:naturfarer', 'm06', 'flervalg', 'Hva er stormflo?', array['Høy vannstand på grunn av vind og lavtrykk', 'En tsunami', 'En elveflom', 'Et snøskred']::text[], 0, 'Særlig farlig ved springflo.', false, true, 15),
+  ('geofag-1:naturfarer', 'm07', 'flervalg', 'Hvilket tiltak er et sikringstiltak mot steinsprang?', array['Flere hytter under fjellsiden', 'Fjerne varsling', 'Fangnett og skredvoller', 'Mer gravearbeid']::text[], 2, 'De stopper steinen før den treffer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('geofag-1:naturfarer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-r1' and slug not in ('grenseverdier', 'kontinuitet', 'den-deriverte', 'derivasjonsregler', 'funksjonsdrofting', 'potenser-og-logaritmer', 'eksponentiell-og-logistisk-vekst', 'omvendte-funksjoner', 'modellering-og-optimering', 'vektorer', 'parameterframstillinger');
+
+-- Matematikk R1: Grenseverdier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:grenseverdier', 'matematikk-r1', 'grenseverdier', 'Grenseverdier', 'Hva en grenseverdi er, ensidige grenseverdier, strategier for å bestemme grenseverdier – innsetting, faktorisering, tabell og høyeste potens – og hvordan grenseverdier brukes til asymptoter, momentan vekstfart og tallet e.', array[3, 2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:grenseverdier', '## Hva er en grenseverdi?
+
+Når x nærmer seg et tall a, kan funksjonsverdiene f(x) nærme seg et bestemt tall L. Da skriver vi
+
+**lim ₓ→ₐ f(x) = L**
+
+Grenseverdien handler om hva som skjer **nær** a – ikke nødvendigvis **i** a. Funksjonen trenger ikke engang være definert for x = a.
+
+## Ensidige grenseverdier
+
+Vi kan la x nærme seg a **fra venstre** (x < a) eller **fra høyre** (x > a). Grenseverdien **eksisterer** bare hvis de to ensidige grenseverdiene er **like**.
+
+**Eksempel**: For f(x) = 1/x går f(x) mot −∞ når x nærmer seg 0 fra venstre, og mot +∞ fra høyre. Grenseverdien i 0 eksisterer ikke.
+
+## Strategier
+
+**1. Innsetting.** Er funksjonen «snill» i punktet, setter du bare inn: lim ₓ→₃ (x² + 1) = 10.
+
+**2. Faktorisering og forkorting.** Gir innsetting «0/0», må du omforme:
+
+lim ₓ→₂ (x² − 4)/(x − 2) = lim ₓ→₂ (x − 2)(x + 2)/(x − 2) = lim ₓ→₂ (x + 2) = **4**
+
+**3. Tabell og graf.** Regn ut f(x) for x-verdier stadig nærmere a, for eksempel med regneark eller CAS, og se hva verdiene nærmer seg. Dette gir en god **antakelse**, men er ikke et bevis.
+
+**4. Grenser mot uendelig.** Del teller og nevner med den **høyeste potensen** av x i nevneren:
+
+lim ₓ→∞ (3x² + 1)/(x² − 5) = lim ₓ→∞ (3 + 1/x²)/(1 − 5/x²) = **3**
+
+fordi 1/x² → 0 når x → ∞.
+
+## Asymptoter
+
+- En **vannrett asymptote** y = L finnes når f(x) → L når x → ±∞. Funksjonen over har den vannrette asymptoten y = 3.
+- En **loddrett asymptote** x = a finnes når f(x) → ±∞ når x → a, typisk der nevneren er null, men ikke telleren.
+
+## Anvendelser
+
+**Momentan vekstfart**: Den deriverte er definert som en grenseverdi – den gjennomsnittlige vekstfarten over et stadig kortere intervall:
+
+f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h
+
+**Tallet e**: Når n vokser, nærmer (1 + 1/n)ⁿ seg tallet **e ≈ 2,718**. Tallet dukker opp ved kontinuerlig renteberegning og i mange vekstmodeller.
+
+**Langsiktig oppførsel**: Grenseverdier forteller hvordan en modell oppfører seg på lang sikt, for eksempel at en populasjon i en logistisk modell nærmer seg **bæreevnen**, eller at en fallskjermhopper nærmer seg **terminalfarten**.
+
+## Vanlige feil
+
+- Å tro at «0/0» betyr at grenseverdien er 0 eller ikke finnes. Det betyr bare at du må **omforme** uttrykket.
+- Å glemme å sjekke **begge sider** når funksjonen er delt eller har en nevner som blir null.', '{"label":"Grenseverdier","children":[{"label":"Begrep","children":[{"label":"lim ₓ→ₐ f(x)"},{"label":"Ensidige grenser"}]},{"label":"Strategier","children":[{"label":"Innsetting"},{"label":"Faktorisering"},{"label":"Tabell og graf"},{"label":"Høyeste potens"}]},{"label":"Asymptoter","children":[{"label":"Vannrett"},{"label":"Loddrett"}]},{"label":"Anvendelser","children":[{"label":"Den deriverte"},{"label":"Tallet e"},{"label":"Langsiktig oppførsel"}]},{"label":"Feller","children":[{"label":"0/0 er ikke svaret"},{"label":"Sjekk begge sider"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:grenseverdier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:grenseverdier', 'Grenseverdi', 'Tallet f(x) nærmer seg når x nærmer seg a.', 0),
+  ('matematikk-r1:grenseverdier', 'lim ₓ→ₐ f(x) = L', 'Skrivemåte for grenseverdi.', 1),
+  ('matematikk-r1:grenseverdier', 'Venstre grenseverdi', 'x nærmer seg a fra verdier mindre enn a.', 2),
+  ('matematikk-r1:grenseverdier', 'Høyre grenseverdi', 'x nærmer seg a fra verdier større enn a.', 3),
+  ('matematikk-r1:grenseverdier', 'Når eksisterer grenseverdien?', 'Når venstre og høyre grenseverdi er like.', 4),
+  ('matematikk-r1:grenseverdier', '«0/0»', 'Ubestemt form – uttrykket må omformes.', 5),
+  ('matematikk-r1:grenseverdier', 'Faktorisering og forkorting', 'Strategi når innsetting gir 0/0.', 6),
+  ('matematikk-r1:grenseverdier', 'Høyeste potens', 'Del teller og nevner med den ved grenser mot uendelig.', 7),
+  ('matematikk-r1:grenseverdier', 'lim ₓ→∞ 1/x', '0', 8),
+  ('matematikk-r1:grenseverdier', 'Vannrett asymptote', 'y = L når f(x) → L når x → ±∞.', 9),
+  ('matematikk-r1:grenseverdier', 'Loddrett asymptote', 'x = a når f(x) → ±∞ når x → a.', 10),
+  ('matematikk-r1:grenseverdier', 'Tallet e', 'Grenseverdien av (1 + 1/n)ⁿ, omtrent 2,718.', 11),
+  ('matematikk-r1:grenseverdier', 'Den deriverte som grenseverdi', 'f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h', 12),
+  ('matematikk-r1:grenseverdier', 'Tabellmetoden', 'Gir en antakelse om grenseverdien, men ikke et bevis.', 13),
+  ('matematikk-r1:grenseverdier', 'lim ₓ→₂ (x² − 4)/(x − 2)', '4', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:grenseverdier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:grenseverdier', 'q01', 'flervalg', 'Hva er lim ₓ→₂ (x² − 4)/(x − 2)?', array['0', '4', '2', 'Den finnes ikke']::text[], 1, 'Faktoriser og forkort: lim (x + 2) = 4.', true, true, 0),
+  ('matematikk-r1:grenseverdier', 'q02', 'flervalg', 'Hva er lim ₓ→∞ (3x² + 1)/(x² − 5)?', array['3', '0', '−1/5', '∞']::text[], 0, 'Del med x².', true, true, 1),
+  ('matematikk-r1:grenseverdier', 'q03', 'flervalg', 'Når eksisterer lim ₓ→ₐ f(x)?', array['Alltid', 'Når f(a) er definert', 'Når venstre og høyre grenseverdi er like', 'Når f(a) = 0']::text[], 2, 'De ensidige grenseverdiene må stemme overens.', true, true, 2),
+  ('matematikk-r1:grenseverdier', 'q04', 'flervalg', 'Hva betyr det når innsetting gir «0/0»?', array['Grenseverdien er 0', 'Grenseverdien finnes ikke', 'Grenseverdien er 1', 'Uttrykket må omformes før vi kan konkludere']::text[], 3, 'Det er en ubestemt form.', true, true, 3),
+  ('matematikk-r1:grenseverdier', 'q05', 'flervalg', 'Hvilken vannrett asymptote har f(x) = (2x + 1)/(x − 3)?', array['y = 2', 'y = 3', 'y = −1/3', 'Ingen']::text[], 0, 'Forholdet mellom koeffisientene foran x.', true, true, 4),
+  ('matematikk-r1:grenseverdier', 'q06', 'flervalg', 'Hvilken loddrett asymptote har f(x) = (2x + 1)/(x − 3)?', array['x = 2', 'x = 3', 'x = −1/2', 'Ingen']::text[], 1, 'Nevneren er null for x = 3, men ikke telleren.', true, true, 5),
+  ('matematikk-r1:grenseverdier', 'q07', 'flervalg', 'Hva nærmer (1 + 1/n)ⁿ seg når n → ∞?', array['1', '∞', 'e ≈ 2,718', '0']::text[], 2, 'Slik kan tallet e defineres.', true, true, 6),
+  ('matematikk-r1:grenseverdier', 'q08', 'flervalg', 'Hvorfor finnes ikke lim ₓ→₀ 1/x?', array['Fordi 1/0 = 0', 'Fordi funksjonen er konstant', 'Fordi grenseverdien er 1', 'Fordi venstre grense er −∞ og høyre grense er +∞']::text[], 3, 'De ensidige grensene er ulike.', true, true, 7),
+  ('matematikk-r1:grenseverdier', 'q09', 'flervalg', 'Hva er lim ₓ→₃ (x² + 1)?', array['10', '9', '4', 'Den finnes ikke']::text[], 0, 'Innsetting: 9 + 1.', true, false, 8),
+  ('matematikk-r1:grenseverdier', 'q10', 'flervalg', 'Hvilken grenseverdi definerer den deriverte f′(a)?', array['lim ₓ→∞ f(x)', 'lim ₕ→₀ (f(a + h) − f(a))/h', 'lim ₕ→₀ f(h)', 'lim ₓ→ₐ f(x) · x']::text[], 1, 'Momentan vekstfart som grense av gjennomsnittlig vekstfart.', true, false, 9),
+  ('matematikk-r1:grenseverdier', 'm01', 'sant-usant', 'En funksjon kan ha en grenseverdi i et punkt der den ikke er definert.', array['Sant', 'Usant']::text[], 0, 'For eksempel (x² − 4)/(x − 2) i x = 2.', false, true, 10),
+  ('matematikk-r1:grenseverdier', 'm02', 'sant-usant', 'En tabell med funksjonsverdier beviser hva grenseverdien er.', array['Sant', 'Usant']::text[], 1, 'Den gir en antakelse, ikke et bevis.', false, true, 11),
+  ('matematikk-r1:grenseverdier', 'm03', 'sant-usant', 'lim ₓ→∞ 1/x² = 0.', array['Sant', 'Usant']::text[], 0, 'Nevneren vokser uten grense.', false, true, 12),
+  ('matematikk-r1:grenseverdier', 'm04', 'sant-usant', 'En rasjonal funksjon har alltid loddrett asymptote der nevneren er null.', array['Sant', 'Usant']::text[], 1, 'Ikke hvis også telleren er null der og faktoren kan forkortes.', false, true, 13),
+  ('matematikk-r1:grenseverdier', 'm05', 'flervalg', 'Hva er lim ₓ→₁ (x² − 1)/(x − 1)?', array['0', '2', '1', 'Den finnes ikke']::text[], 1, '(x − 1)(x + 1)/(x − 1) = x + 1 → 2.', false, true, 14),
+  ('matematikk-r1:grenseverdier', 'm06', 'flervalg', 'Hva er lim ₓ→∞ (5x + 2)/(x + 7)?', array['5', '2/7', '0', '∞']::text[], 0, 'Del med x.', false, true, 15),
+  ('matematikk-r1:grenseverdier', 'm07', 'flervalg', 'En logistisk modell har bæreevne K. Hva er grenseverdien til populasjonen når t → ∞?', array['0', '∞', 'K', 'K/2']::text[], 2, 'Populasjonen nærmer seg bæreevnen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:grenseverdier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Kontinuitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:kontinuitet', 'matematikk-r1', 'kontinuitet', 'Kontinuitet', 'Når en funksjon er kontinuerlig eller diskontinuerlig i et punkt, delt definerte funksjoner, hvordan du bestemmer en parameter som gjør funksjonen kontinuerlig, skjæringssetningen og eksempler på nyttige diskontinuerlige funksjoner.', array[9]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:kontinuitet', '## Intuitivt
+
+En funksjon er **kontinuerlig** i et intervall hvis du kan tegne grafen **uten å løfte blyanten**. Et **sprang** eller et **hull** i grafen gir en **diskontinuitet**.
+
+## Presis definisjon
+
+f er kontinuerlig i x = a hvis tre krav er oppfylt:
+
+1. **f(a) er definert.**
+2. **lim ₓ→ₐ f(x) eksisterer** – venstre og høyre grenseverdi er like.
+3. **lim ₓ→ₐ f(x) = f(a).**
+
+Svikter ett av kravene, er f **diskontinuerlig** i a.
+
+## Kontinuerlige funksjoner
+
+**Polynomfunksjoner**, **eksponentialfunksjoner** og **logaritmefunksjoner** er kontinuerlige i hele definisjonsmengden sin. En **rasjonal funksjon** er også kontinuerlig overalt der den er **definert**. f(x) = 1/x er altså kontinuerlig i sin definisjonsmengde, men har et brudd i grafen i x = 0, der den ikke er definert.
+
+Summer, produkter og sammensetninger av kontinuerlige funksjoner er kontinuerlige.
+
+## Delt definerte funksjoner
+
+Det er i **skjøten** mellom delene at du må sjekke kontinuiteten.
+
+**Eksempel 1**: f(x) = x + 1 for x < 2 og f(x) = x² for x ≥ 2.
+
+- Venstre grense: 2 + 1 = 3
+- Høyre grense: 2² = 4
+
+Grensene er ulike, så f er **diskontinuerlig** i x = 2. Grafen har et **sprang**.
+
+**Eksempel 2 – bestemme en parameter**: f(x) = x² for x ≤ 2 og f(x) = ax − 2 for x > 2. For at f skal være kontinuerlig, må de to delene møtes:
+
+2² = a · 2 − 2 → 4 = 2a − 2 → **a = 3**
+
+## Kontinuitet og deriverbarhet
+
+En funksjon som er **deriverbar** i et punkt, er også **kontinuerlig** der. Det motsatte gjelder ikke: f(x) = |x| er kontinuerlig i 0, men har en **knekk** og er ikke deriverbar der.
+
+## Skjæringssetningen
+
+Hvis f er **kontinuerlig** på [a, b] og f(a) og f(b) har **motsatt fortegn**, har f **minst ett nullpunkt** mellom a og b.
+
+Dette er grunnlaget for **halveringsmetoden**: Du halverer intervallet gang på gang og beholder den halvdelen der fortegnet skifter. Slik kan en datamaskin finne nullpunkter med ønsket nøyaktighet.
+
+**Eksempel**: f(x) = x³ + x − 1 gir f(0) = −1 og f(1) = 1. Siden f er kontinuerlig, har den et nullpunkt mellom 0 og 1.
+
+## Nyttige diskontinuerlige funksjoner
+
+Mange situasjoner i hverdagen beskrives best med **sprang**:
+
+- **Parkeringsavgift** per påbegynt time: Prisen hopper når en ny time begynner.
+- **Porto** som avhenger av vektklasser.
+- **Trinnskatt**: Skattesatsen for hver ekstra krone hopper når inntekten passerer et trinn.
+- **Avrunding** til nærmeste hele tall.
+- **Av/på-funksjoner** i fysikk og teknologi, som strøm som slås på ved et bestemt tidspunkt.
+
+I slike modeller er det viktig å vite hvilken verdi funksjonen har **i selve spranget** – for eksempel om 60 minutter koster én eller to timer.', '{"label":"Kontinuitet","children":[{"label":"Definisjon","children":[{"label":"f(a) definert"},{"label":"Grenseverdien finnes"},{"label":"lim = f(a)"}]},{"label":"Funksjonstyper","children":[{"label":"Polynomer"},{"label":"Eksponential og logaritme"},{"label":"Rasjonale i Df"}]},{"label":"Delt definerte","children":[{"label":"Sjekk skjøten"},{"label":"Bestem parameter"}]},{"label":"Sammenhenger","children":[{"label":"Deriverbar ⇒ kontinuerlig"},{"label":"|x| har knekk"},{"label":"Skjæringssetningen"}]},{"label":"Anvendelser","children":[{"label":"Parkering og porto"},{"label":"Trinnskatt"},{"label":"Halveringsmetoden"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:kontinuitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:kontinuitet', 'Kontinuerlig (intuitivt)', 'Grafen kan tegnes uten å løfte blyanten.', 0),
+  ('matematikk-r1:kontinuitet', 'Krav 1 for kontinuitet i a', 'f(a) er definert.', 1),
+  ('matematikk-r1:kontinuitet', 'Krav 2 for kontinuitet i a', 'lim ₓ→ₐ f(x) eksisterer.', 2),
+  ('matematikk-r1:kontinuitet', 'Krav 3 for kontinuitet i a', 'lim ₓ→ₐ f(x) = f(a).', 3),
+  ('matematikk-r1:kontinuitet', 'Diskontinuitet', 'Et punkt der minst ett av kravene svikter.', 4),
+  ('matematikk-r1:kontinuitet', 'Sprang', 'Venstre og høyre grenseverdi er ulike.', 5),
+  ('matematikk-r1:kontinuitet', 'Delt definert funksjon', 'Funksjon med ulike uttrykk på ulike intervaller.', 6),
+  ('matematikk-r1:kontinuitet', 'Skjøt', 'Punktet der delene i en delt funksjon møtes.', 7),
+  ('matematikk-r1:kontinuitet', 'Kontinuerlige funksjonstyper', 'Polynomer, eksponential- og logaritmefunksjoner i sin definisjonsmengde.', 8),
+  ('matematikk-r1:kontinuitet', 'Deriverbar ⇒ kontinuerlig', 'Gjelder alltid, men ikke omvendt.', 9),
+  ('matematikk-r1:kontinuitet', '|x| i x = 0', 'Kontinuerlig, men ikke deriverbar (knekk).', 10),
+  ('matematikk-r1:kontinuitet', 'Skjæringssetningen', 'Kontinuerlig f med fortegnsskifte på [a, b] har et nullpunkt der.', 11),
+  ('matematikk-r1:kontinuitet', 'Halveringsmetoden', 'Numerisk metode som halverer intervallet med fortegnsskifte.', 12),
+  ('matematikk-r1:kontinuitet', 'Parkeringsavgift per påbegynt time', 'Eksempel på en diskontinuerlig funksjon.', 13),
+  ('matematikk-r1:kontinuitet', 'Trinnskatt', 'Skattesatsen for ekstra inntekt hopper ved hvert trinn.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:kontinuitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:kontinuitet', 'q01', 'flervalg', 'f(x) = x + 1 for x < 2 og x² for x ≥ 2. Er f kontinuerlig i x = 2?', array['Ja, fordi f(2) er definert', 'Nei, venstre grense er 3 og høyre grense er 4', 'Ja, fordi begge deler er polynomer', 'Nei, fordi f(2) ikke er definert']::text[], 1, 'Grafen har et sprang.', true, true, 0),
+  ('matematikk-r1:kontinuitet', 'q02', 'flervalg', 'f(x) = x² for x ≤ 2 og ax − 2 for x > 2. Hvilken a gjør f kontinuerlig?', array['a = 3', 'a = 2', 'a = 1', 'a = 4']::text[], 0, '4 = 2a − 2.', true, true, 1),
+  ('matematikk-r1:kontinuitet', 'q03', 'flervalg', 'Hvilken funksjon er kontinuerlig, men ikke deriverbar i x = 0?', array['f(x) = x²', 'f(x) = 1/x', 'f(x) = |x|', 'f(x) = eˣ']::text[], 2, 'Grafen har en knekk.', true, true, 2),
+  ('matematikk-r1:kontinuitet', 'q04', 'flervalg', 'Hva sier skjæringssetningen?', array['Alle funksjoner har nullpunkter', 'En deriverbar funksjon er kontinuerlig', 'Grenseverdier er alltid definert', 'En kontinuerlig funksjon med fortegnsskifte på [a, b] har et nullpunkt der']::text[], 3, 'Grunnlaget for halveringsmetoden.', true, true, 3),
+  ('matematikk-r1:kontinuitet', 'q05', 'flervalg', 'Hvilket av disse er et eksempel på en diskontinuerlig funksjon i hverdagen?', array['Parkeringsavgift per påbegynt time', 'Temperaturen gjennom et døgn', 'Høyden til en voksende plante', 'Posisjonen til en bil']::text[], 0, 'Prisen hopper ved hver ny time.', true, true, 4),
+  ('matematikk-r1:kontinuitet', 'q06', 'flervalg', 'Hvilke tre krav må være oppfylt for at f skal være kontinuerlig i a?', array['f(a) = 0, f′(a) = 0 og f″(a) = 0', 'f(a) definert, lim ₓ→ₐ f(x) finnes og lim ₓ→ₐ f(x) = f(a)', 'f er et polynom', 'f er voksende rundt a']::text[], 1, 'Alle tre må gjelde.', true, true, 5),
+  ('matematikk-r1:kontinuitet', 'q07', 'flervalg', 'f(x) = x³ + x − 1. Hva kan du slutte av at f(0) = −1 og f(1) = 1?', array['At f har et toppunkt', 'At f ikke har nullpunkter', 'At f har et nullpunkt mellom 0 og 1', 'At f(0,5) = 0']::text[], 2, 'f er kontinuerlig og skifter fortegn.', true, true, 6),
+  ('matematikk-r1:kontinuitet', 'q08', 'flervalg', 'Er f(x) = 1/x kontinuerlig i definisjonsmengden sin?', array['Nei, den er aldri kontinuerlig', 'Bare for x > 0', 'Nei, den har sprang overalt', 'Ja, men den er ikke definert i x = 0']::text[], 3, 'Bruddet ligger utenfor definisjonsmengden.', true, true, 7),
+  ('matematikk-r1:kontinuitet', 'q09', 'flervalg', 'Hva gjelder alltid?', array['Deriverbar i a ⇒ kontinuerlig i a', 'Kontinuerlig i a ⇒ deriverbar i a', 'Kontinuerlig ⇒ voksende', 'Diskontinuerlig ⇒ deriverbar']::text[], 0, 'Det motsatte gjelder ikke.', true, false, 8),
+  ('matematikk-r1:kontinuitet', 'q10', 'flervalg', 'Hvor må du sjekke kontinuiteten til en delt definert funksjon?', array['Bare i x = 0', 'I skjøtene mellom delene', 'Der funksjonen er størst', 'Ingen steder']::text[], 1, 'Hver del er ofte kontinuerlig for seg.', true, false, 9),
+  ('matematikk-r1:kontinuitet', 'm01', 'sant-usant', 'Alle polynomfunksjoner er kontinuerlige.', array['Sant', 'Usant']::text[], 0, 'Overalt på tallinjen.', false, true, 10),
+  ('matematikk-r1:kontinuitet', 'm02', 'sant-usant', 'En kontinuerlig funksjon er alltid deriverbar.', array['Sant', 'Usant']::text[], 1, '|x| er et moteksempel.', false, true, 11),
+  ('matematikk-r1:kontinuitet', 'm03', 'sant-usant', 'Halveringsmetoden bygger på skjæringssetningen.', array['Sant', 'Usant']::text[], 0, 'Den beholder intervallet med fortegnsskifte.', false, true, 12),
+  ('matematikk-r1:kontinuitet', 'm04', 'sant-usant', 'Hvis venstre og høyre grenseverdi er ulike, er funksjonen kontinuerlig.', array['Sant', 'Usant']::text[], 1, 'Da har grafen et sprang.', false, true, 13),
+  ('matematikk-r1:kontinuitet', 'm05', 'flervalg', 'f(x) = 2x for x < 1 og x + k for x ≥ 1. Hvilken k gjør f kontinuerlig?', array['k = 2', 'k = 1', 'k = 0', 'k = −1']::text[], 1, '2 · 1 = 1 + k.', false, true, 14),
+  ('matematikk-r1:kontinuitet', 'm06', 'flervalg', 'Hvilken funksjon er diskontinuerlig i x = 0?', array['f(x) = 1 for x < 0 og f(x) = 2 for x ≥ 0', 'f(x) = x²', 'f(x) = |x|', 'f(x) = eˣ']::text[], 0, 'Grafen hopper fra 1 til 2.', false, true, 15),
+  ('matematikk-r1:kontinuitet', 'm07', 'flervalg', 'Hvorfor er kontinuitet viktig for skjæringssetningen?', array['Fordi alle funksjoner er kontinuerlige', 'Fordi den bare gjelder polynomer', 'Fordi en funksjon med sprang kan skifte fortegn uten å ha nullpunkt', 'Fordi den krever deriverbarhet']::text[], 2, 'Grafen kan «hoppe over» x-aksen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:kontinuitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Den deriverte – definisjon og tolkning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:den-deriverte', 'matematikk-r1', 'den-deriverte', 'Den deriverte – definisjon og tolkning', 'Vekstfart og den deriverte som grenseverdi, hvordan du bestemmer f′(a) geometrisk, algebraisk og numerisk, tangentlikningen, og eksempler på funksjoner som ikke er deriverbare i et punkt.', array[2, 4]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:den-deriverte', '## Fra gjennomsnittlig til momentan vekstfart
+
+Den **gjennomsnittlige vekstfarten** fra x = a til x = a + h er stigningstallet til **sekanten**:
+
+(f(a + h) − f(a)) / h
+
+Når h går mot 0, nærmer sekanten seg **tangenten** i punktet. Grenseverdien er den **momentane vekstfarten** – den **deriverte**:
+
+**f′(a) = lim ₕ→₀ (f(a + h) − f(a)) / h**
+
+Hvis grenseverdien finnes, sier vi at f er **deriverbar** i a.
+
+## Tre måter å bestemme f′(a)
+
+### Geometrisk
+
+f′(a) er **stigningstallet til tangenten** i punktet (a, f(a)). Du kan tegne tangenten på grafen og lese av stigningstallet, eller bruke kommandoen Tangent i GeoGebra.
+
+### Algebraisk
+
+Bruk definisjonen. **Eksempel**: f(x) = x².
+
+(f(a + h) − f(a)) / h = ((a + h)² − a²) / h = (2ah + h²) / h = 2a + h
+
+Når h → 0, får vi **f′(a) = 2a**. For a = 3 er f′(3) = **6**.
+
+### Numerisk
+
+Velg en liten h og regn ut brøken:
+
+(f(3 + 0,001) − f(3)) / 0,001 = (9,006001 − 9) / 0,001 = **6,001**
+
+Den **symmetriske** differansen (f(a + h) − f(a − h)) / (2h) er ofte mer nøyaktig. Numeriske metoder er nyttige når vi bare har **måledata** eller en funksjon som er vanskelig å derivere.
+
+## Tangentlikningen
+
+Tangenten i (a, f(a)) har likningen
+
+**y − f(a) = f′(a)(x − a)**
+
+For f(x) = x² i a = 3: y − 9 = 6(x − 3), altså **y = 6x − 9**.
+
+## Tolkning i praksis
+
+Den deriverte har **enheten** «y-enhet per x-enhet»:
+
+- Er s(t) posisjon i meter og t tid i sekunder, er s′(t) **farten** i m/s.
+- Er K(x) kostnaden i kroner ved produksjon av x enheter, er K′(x) **grensekostnaden** – omtrent hva én ekstra enhet koster.
+- Er T(t) temperaturen i °C etter t timer, forteller T′(2) = −1,5 at temperaturen **synker** med omtrent 1,5 °C per time akkurat da.
+
+## Når er en funksjon ikke deriverbar?
+
+- **Knekk**: f(x) = |x| i x = 0. Fra venstre er stigningstallet −1, fra høyre +1, så grenseverdien finnes ikke.
+- **Sprang**: En funksjon som er **diskontinuerlig** i et punkt, er ikke deriverbar der.
+- **Loddrett tangent**: f(x) = ∛x i x = 0. Tangenten står loddrett, og stigningstallet blir uendelig.
+
+Husk: **Deriverbar ⇒ kontinuerlig**, men en kontinuerlig funksjon trenger ikke være deriverbar.', '{"label":"Den deriverte","children":[{"label":"Vekstfart","children":[{"label":"Sekant: gjennomsnittlig"},{"label":"Tangent: momentan"}]},{"label":"Definisjon","children":[{"label":"lim ₕ→₀ (f(a+h) − f(a))/h"}]},{"label":"Bestemme f′(a)","children":[{"label":"Geometrisk"},{"label":"Algebraisk"},{"label":"Numerisk"}]},{"label":"Tolkning","children":[{"label":"Tangentlikning"},{"label":"Fart"},{"label":"Grensekostnad"}]},{"label":"Ikke deriverbar","children":[{"label":"Knekk"},{"label":"Sprang"},{"label":"Loddrett tangent"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:den-deriverte';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:den-deriverte', 'Gjennomsnittlig vekstfart', '(f(a + h) − f(a))/h – stigningstallet til sekanten.', 0),
+  ('matematikk-r1:den-deriverte', 'Momentan vekstfart', 'Den deriverte – stigningstallet til tangenten.', 1),
+  ('matematikk-r1:den-deriverte', 'Definisjonen av f′(a)', 'lim ₕ→₀ (f(a + h) − f(a))/h', 2),
+  ('matematikk-r1:den-deriverte', 'Deriverbar i a', 'Grenseverdien som definerer f′(a), finnes.', 3),
+  ('matematikk-r1:den-deriverte', 'Geometrisk tolkning', 'f′(a) er stigningstallet til tangenten i (a, f(a)).', 4),
+  ('matematikk-r1:den-deriverte', 'Numerisk derivasjon', 'Regn ut differansebrøken med en liten h.', 5),
+  ('matematikk-r1:den-deriverte', 'Symmetrisk differanse', '(f(a + h) − f(a − h))/(2h)', 6),
+  ('matematikk-r1:den-deriverte', 'Tangentlikningen', 'y − f(a) = f′(a)(x − a)', 7),
+  ('matematikk-r1:den-deriverte', 'f(x) = x²', 'f′(a) = 2a', 8),
+  ('matematikk-r1:den-deriverte', 'Tangent til x² i x = 3', 'y = 6x − 9', 9),
+  ('matematikk-r1:den-deriverte', 's′(t)', 'Fart, når s er posisjon.', 10),
+  ('matematikk-r1:den-deriverte', 'Grensekostnad', 'K′(x) – omtrent kostnaden for én ekstra enhet.', 11),
+  ('matematikk-r1:den-deriverte', 'Knekk', 'Punkt der funksjonen ikke er deriverbar, som |x| i 0.', 12),
+  ('matematikk-r1:den-deriverte', 'Loddrett tangent', 'Stigningstallet blir uendelig, som for ∛x i 0.', 13),
+  ('matematikk-r1:den-deriverte', 'Enheten til f′', 'y-enhet per x-enhet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:den-deriverte';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:den-deriverte', 'q01', 'flervalg', 'Hvordan er f′(a) definert?', array['(f(b) − f(a))/(b − a)', 'lim ₕ→₀ (f(a + h) − f(a))/h', 'f(a)/a', 'lim ₓ→∞ f(x)']::text[], 1, 'Grenseverdien av sekantens stigningstall.', true, true, 0),
+  ('matematikk-r1:den-deriverte', 'q02', 'flervalg', 'Hva er f′(3) når f(x) = x²?', array['6', '9', '3', '2']::text[], 0, 'f′(a) = 2a.', true, true, 1),
+  ('matematikk-r1:den-deriverte', 'q03', 'flervalg', 'Hva er tangenten til f(x) = x² i x = 3?', array['y = 3x', 'y = 6x', 'y = 6x − 9', 'y = 2x + 3']::text[], 2, 'y − 9 = 6(x − 3).', true, true, 2),
+  ('matematikk-r1:den-deriverte', 'q04', 'flervalg', 'Hva er den geometriske tolkningen av f′(a)?', array['Arealet under grafen', 'Funksjonsverdien i a', 'Stigningstallet til sekanten', 'Stigningstallet til tangenten i (a, f(a))']::text[], 3, 'Den momentane vekstfarten.', true, true, 3),
+  ('matematikk-r1:den-deriverte', 'q05', 'flervalg', 'Hvorfor er ikke f(x) = |x| deriverbar i x = 0?', array['Grafen har en knekk, og stigningstallet er −1 fra venstre og 1 fra høyre', 'f(0) er ikke definert', 'Funksjonen er ikke kontinuerlig', 'Tangenten er vannrett']::text[], 0, 'Grenseverdien finnes ikke.', true, true, 4),
+  ('matematikk-r1:den-deriverte', 'q06', 'flervalg', 'Hva gir den numeriske beregningen (f(3,001) − f(3))/0,001 for f(x) = x²?', array['6', '6,001', '9', '5,999']::text[], 1, '(9,006001 − 9)/0,001.', true, true, 5),
+  ('matematikk-r1:den-deriverte', 'q07', 'flervalg', 's(t) er posisjonen i meter etter t sekunder. Hva er s′(t)?', array['Akselerasjonen', 'Strekningen', 'Farten i m/s', 'Tiden']::text[], 2, 'Endring i posisjon per sekund.', true, true, 6),
+  ('matematikk-r1:den-deriverte', 'q08', 'flervalg', 'T(t) er temperaturen i °C etter t timer, og T′(2) = −1,5. Hva betyr det?', array['Temperaturen er −1,5 °C', 'Temperaturen er 2 °C', 'Temperaturen stiger med 1,5 °C per time', 'Temperaturen synker med omtrent 1,5 °C per time ved t = 2']::text[], 3, 'Negativ derivert betyr synkende.', true, true, 7),
+  ('matematikk-r1:den-deriverte', 'q09', 'flervalg', 'Hvorfor er ikke f(x) = ∛x deriverbar i x = 0?', array['Tangenten er loddrett', 'Funksjonen har et sprang', 'f(0) er ikke definert', 'Funksjonen er konstant']::text[], 0, 'Stigningstallet blir uendelig.', true, false, 8),
+  ('matematikk-r1:den-deriverte', 'q10', 'flervalg', 'Når er numerisk derivasjon særlig nyttig?', array['Når vi har et enkelt polynom', 'Når vi bare har måledata', 'Aldri', 'Når f er konstant']::text[], 1, 'Da har vi ikke noe funksjonsuttrykk å derivere.', true, false, 9),
+  ('matematikk-r1:den-deriverte', 'm01', 'sant-usant', 'En funksjon som er diskontinuerlig i et punkt, er ikke deriverbar der.', array['Sant', 'Usant']::text[], 0, 'Deriverbarhet krever kontinuitet.', false, true, 10),
+  ('matematikk-r1:den-deriverte', 'm02', 'sant-usant', 'Den gjennomsnittlige vekstfarten er stigningstallet til tangenten.', array['Sant', 'Usant']::text[], 1, 'Den er stigningstallet til sekanten.', false, true, 11),
+  ('matematikk-r1:den-deriverte', 'm03', 'sant-usant', 'Den symmetriske differansen gir ofte et mer nøyaktig numerisk svar.', array['Sant', 'Usant']::text[], 0, 'Feilene fra hver side opphever hverandre delvis.', false, true, 12),
+  ('matematikk-r1:den-deriverte', 'm04', 'sant-usant', 'Den deriverte har alltid samme enhet som funksjonsverdien.', array['Sant', 'Usant']::text[], 1, 'Enheten er y-enhet per x-enhet.', false, true, 13),
+  ('matematikk-r1:den-deriverte', 'm05', 'flervalg', 'Hva er den gjennomsnittlige vekstfarten til f(x) = x² fra x = 1 til x = 3?', array['2', '4', '8', '9']::text[], 1, '(9 − 1)/(3 − 1) = 4.', false, true, 14),
+  ('matematikk-r1:den-deriverte', 'm06', 'flervalg', 'Hva er f′(a) for f(x) = 5x + 2, ut fra definisjonen?', array['5', '2', '5a', '7']::text[], 0, '(5(a + h) + 2 − 5a − 2)/h = 5.', false, true, 15),
+  ('matematikk-r1:den-deriverte', 'm07', 'flervalg', 'K(x) er kostnaden ved å lage x enheter. Hva forteller K′(100) = 40?', array['At 100 enheter koster 40 kr', 'At kostnaden er 100 kr', 'At enhet nummer 101 koster omtrent 40 kr ekstra', 'At kostnaden synker']::text[], 2, 'Grensekostnaden.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:den-deriverte', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Derivasjonsregler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:derivasjonsregler', 'matematikk-r1', 'derivasjonsregler', 'Derivasjonsregler', 'Regler for å derivere potensfunksjoner, eksponential- og logaritmefunksjoner, og produkt-, kvotient- og kjerneregelen – med gjennomregnede eksempler.', array[4, 10]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:derivasjonsregler', '## Grunnregler
+
+- **Konstant**: (k)′ = 0
+- **Potens**: (xⁿ)′ = n · xⁿ⁻¹ – gjelder for alle reelle n
+- **Konstant faktor**: (k · f)′ = k · f′
+- **Sum og differanse**: (f ± g)′ = f′ ± g′
+
+**Eksempel**: f(x) = 3x⁴ − 2x + 5 gir **f′(x) = 12x³ − 2**.
+
+Potensregelen gjelder også for røtter og brøker:
+
+- √x = x^½ gir (√x)′ = ½ · x^(−½) = **1/(2√x)**
+- 1/x = x⁻¹ gir (1/x)′ = −x⁻² = **−1/x²**
+
+## Eksponential- og logaritmefunksjoner
+
+- **(eˣ)′ = eˣ** – funksjonen er sin egen deriverte!
+- **(aˣ)′ = aˣ · ln a**
+- **(ln x)′ = 1/x** for x > 0
+
+At eˣ er lik sin egen deriverte, betyr at vekstfarten til eˣ alltid er lik funksjonsverdien. Det gjør e til det naturlige grunntallet for vekstmodeller.
+
+## Produktregelen
+
+**(u · v)′ = u′ · v + u · v′**
+
+**Eksempel**: f(x) = x² · eˣ
+
+f′(x) = 2x · eˣ + x² · eˣ = **eˣ(x² + 2x)**
+
+## Kvotientregelen
+
+**(u / v)′ = (u′ · v − u · v′) / v²**
+
+**Eksempel**: f(x) = ln x / x
+
+f′(x) = ((1/x) · x − ln x · 1) / x² = **(1 − ln x) / x²**
+
+## Kjerneregelen
+
+For en **sammensatt** funksjon g(u(x)) deriverer vi den **ytre** funksjonen og ganger med den deriverte av **kjernen** u:
+
+**(g(u))′ = g′(u) · u′**
+
+**Eksempler**:
+
+- f(x) = (2x + 1)⁵. Kjernen er u = 2x + 1 med u′ = 2. f′(x) = 5(2x + 1)⁴ · 2 = **10(2x + 1)⁴**
+- f(x) = e³ˣ. Kjernen er 3x. f′(x) = e³ˣ · 3 = **3e³ˣ**
+- f(x) = ln(x² + 1). Kjernen er x² + 1. f′(x) = (1/(x² + 1)) · 2x = **2x / (x² + 1)**
+
+## Strategi
+
+1. **Se på strukturen**: Er uttrykket en sum, et produkt, en brøk eller en sammensatt funksjon?
+2. **Skriv om** hvis det forenkler: √x = x^½ og 5/x² = 5x⁻².
+3. **Deriver** med riktig regel – ofte må du kombinere flere.
+4. **Forenkle** svaret, gjerne ved å faktorisere ut felles faktorer, som eˣ.
+
+## Kontroll med CAS
+
+I GeoGebra CAS gir kommandoen **Derivert(f)** den deriverte. Bruk den til å **kontrollere** – men på prøve uten hjelpemidler må du kunne reglene. Du kan også sjekke et svar ved å sammenligne med en **numerisk** beregning av den deriverte i ett punkt.', '{"label":"Derivasjonsregler","children":[{"label":"Grunnregler","children":[{"label":"Konstant"},{"label":"Potens"},{"label":"Sum og faktor"}]},{"label":"Spesielle funksjoner","children":[{"label":"eˣ"},{"label":"aˣ"},{"label":"ln x"}]},{"label":"Sammensatte uttrykk","children":[{"label":"Produktregelen"},{"label":"Kvotientregelen"},{"label":"Kjerneregelen"}]},{"label":"Strategi","children":[{"label":"Se strukturen"},{"label":"Skriv om"},{"label":"Forenkle"}]},{"label":"Kontroll","children":[{"label":"CAS"},{"label":"Numerisk sjekk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:derivasjonsregler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:derivasjonsregler', '(xⁿ)′', 'n · xⁿ⁻¹', 0),
+  ('matematikk-r1:derivasjonsregler', '(k)′', '0', 1),
+  ('matematikk-r1:derivasjonsregler', '(eˣ)′', 'eˣ', 2),
+  ('matematikk-r1:derivasjonsregler', '(aˣ)′', 'aˣ · ln a', 3),
+  ('matematikk-r1:derivasjonsregler', '(ln x)′', '1/x', 4),
+  ('matematikk-r1:derivasjonsregler', '(√x)′', '1/(2√x)', 5),
+  ('matematikk-r1:derivasjonsregler', '(1/x)′', '−1/x²', 6),
+  ('matematikk-r1:derivasjonsregler', 'Produktregelen', '(u · v)′ = u′v + uv′', 7),
+  ('matematikk-r1:derivasjonsregler', 'Kvotientregelen', '(u/v)′ = (u′v − uv′)/v²', 8),
+  ('matematikk-r1:derivasjonsregler', 'Kjerneregelen', '(g(u))′ = g′(u) · u′', 9),
+  ('matematikk-r1:derivasjonsregler', '(x² · eˣ)′', 'eˣ(x² + 2x)', 10),
+  ('matematikk-r1:derivasjonsregler', '((2x + 1)⁵)′', '10(2x + 1)⁴', 11),
+  ('matematikk-r1:derivasjonsregler', '(e³ˣ)′', '3e³ˣ', 12),
+  ('matematikk-r1:derivasjonsregler', '(ln(x² + 1))′', '2x/(x² + 1)', 13),
+  ('matematikk-r1:derivasjonsregler', '(ln x / x)′', '(1 − ln x)/x²', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:derivasjonsregler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:derivasjonsregler', 'q01', 'flervalg', 'Hva er f′(x) når f(x) = 3x⁴ − 2x + 5?', array['12x³ − 2x', '12x³ − 2', '3x³ − 2', '12x⁴ − 2']::text[], 1, 'Deriver ledd for ledd.', true, true, 0),
+  ('matematikk-r1:derivasjonsregler', 'q02', 'flervalg', 'Hva er den deriverte av eˣ?', array['eˣ', 'x · eˣ⁻¹', '1/x', 'e']::text[], 0, 'eˣ er sin egen deriverte.', true, true, 1),
+  ('matematikk-r1:derivasjonsregler', 'q03', 'flervalg', 'Hva er den deriverte av x² · eˣ?', array['2x · eˣ', 'x² · eˣ', 'eˣ(x² + 2x)', '2eˣ']::text[], 2, 'Produktregelen.', true, true, 2),
+  ('matematikk-r1:derivasjonsregler', 'q04', 'flervalg', 'Hva er den deriverte av (2x + 1)⁵?', array['5(2x + 1)⁴', '(2x + 1)⁴', '2(2x + 1)⁵', '10(2x + 1)⁴']::text[], 3, 'Kjerneregelen: gang med kjernens deriverte, 2.', true, true, 3),
+  ('matematikk-r1:derivasjonsregler', 'q05', 'flervalg', 'Hva er den deriverte av ln x?', array['1/x', 'ln x', 'x', 'eˣ']::text[], 0, 'For x > 0.', true, true, 4),
+  ('matematikk-r1:derivasjonsregler', 'q06', 'flervalg', 'Hva er den deriverte av √x?', array['2√x', '1/(2√x)', '√x/2', 'x^(3/2)']::text[], 1, '√x = x^½.', true, true, 5),
+  ('matematikk-r1:derivasjonsregler', 'q07', 'flervalg', 'Hva er den deriverte av ln(x² + 1)?', array['1/(x² + 1)', '2x · ln(x² + 1)', '2x/(x² + 1)', '1/(2x)']::text[], 2, 'Kjerneregelen med kjerne x² + 1.', true, true, 6),
+  ('matematikk-r1:derivasjonsregler', 'q08', 'flervalg', 'Hvilken regel brukes for å derivere en brøk u/v?', array['Produktregelen', 'Potensregelen', 'Kjerneregelen alene', 'Kvotientregelen']::text[], 3, '(u′v − uv′)/v².', true, true, 7),
+  ('matematikk-r1:derivasjonsregler', 'q09', 'flervalg', 'Hva er den deriverte av e³ˣ?', array['3e³ˣ', 'e³ˣ', '3xe³ˣ⁻¹', 'e³']::text[], 0, 'Kjernen 3x har deriverte 3.', true, false, 8),
+  ('matematikk-r1:derivasjonsregler', 'q10', 'flervalg', 'Hva er den deriverte av 2ˣ?', array['x · 2ˣ⁻¹', '2ˣ · ln 2', '2ˣ', '2x']::text[], 1, '(aˣ)′ = aˣ ln a.', true, false, 9),
+  ('matematikk-r1:derivasjonsregler', 'm01', 'sant-usant', 'Potensregelen gjelder også når eksponenten er negativ eller en brøk.', array['Sant', 'Usant']::text[], 0, 'For eksempel x⁻¹ og x^½.', false, true, 10),
+  ('matematikk-r1:derivasjonsregler', 'm02', 'sant-usant', 'Den deriverte av et produkt er produktet av de deriverte.', array['Sant', 'Usant']::text[], 1, 'Bruk produktregelen: u′v + uv′.', false, true, 11),
+  ('matematikk-r1:derivasjonsregler', 'm03', 'sant-usant', '(1/x)′ = −1/x².', array['Sant', 'Usant']::text[], 0, 'x⁻¹ gir −x⁻².', false, true, 12),
+  ('matematikk-r1:derivasjonsregler', 'm04', 'sant-usant', 'Den deriverte av e²ˣ er e²ˣ.', array['Sant', 'Usant']::text[], 1, 'Kjerneregelen gir 2e²ˣ.', false, true, 13),
+  ('matematikk-r1:derivasjonsregler', 'm05', 'flervalg', 'Hva er den deriverte av ln x / x?', array['1/x²', '(1 − ln x)/x²', '(ln x − 1)/x²', '1/(x · ln x)']::text[], 1, 'Kvotientregelen.', false, true, 14),
+  ('matematikk-r1:derivasjonsregler', 'm06', 'flervalg', 'Hva er den deriverte av 5/x²?', array['−10/x³', '10/x³', '5/(2x)', '−5/x']::text[], 0, '5x⁻² gir −10x⁻³.', false, true, 15),
+  ('matematikk-r1:derivasjonsregler', 'm07', 'flervalg', 'Hvilken regel trenger du for f(x) = e^(x²)?', array['Kvotientregelen', 'Produktregelen', 'Kjerneregelen', 'Ingen regel']::text[], 2, 'f′(x) = 2x · e^(x²).', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:derivasjonsregler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Funksjonsdrøfting med derivasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:funksjonsdrofting', 'matematikk-r1', 'funksjonsdrofting', 'Funksjonsdrøfting med derivasjon', 'Hvordan du bruker den deriverte og den andrederiverte til å finne hvor en funksjon vokser og avtar, topp- og bunnpunkter, vendepunkter og krumning – og hvordan du tolker resultatene.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:funksjonsdrofting', '## Den deriverte og monotoni
+
+- f′(x) > 0 på et intervall ⇒ f er **voksende** der.
+- f′(x) < 0 på et intervall ⇒ f er **avtakende** der.
+- f′(x) = 0 ⇒ **vannrett tangent** – et mulig **ekstremalpunkt**.
+
+## Fortegnslinje
+
+En **fortegnslinje** for f′ viser hvor den deriverte er positiv og negativ. Faktoriser f′ og tegn én linje for hver faktor.
+
+**Eksempel**: f(x) = x³ − 3x.
+
+f′(x) = 3x² − 3 = 3(x − 1)(x + 1)
+
+- f′(x) > 0 for x < −1 og for x > 1 → f **vokser**
+- f′(x) < 0 for −1 < x < 1 → f **avtar**
+
+## Ekstremalpunkter
+
+- Der f′ skifter fra **+ til −**, har f et **toppunkt**.
+- Der f′ skifter fra **− til +**, har f et **bunnpunkt**.
+- Der f′ = 0 **uten** fortegnsskifte, har grafen et **terrassepunkt** – som f(x) = x³ i x = 0.
+
+For f(x) = x³ − 3x:
+
+- **Toppunkt** i (−1, f(−1)) = **(−1, 2)**
+- **Bunnpunkt** i (1, f(1)) = **(1, −2)**
+
+## Den andrederiverte og krumning
+
+Den **andrederiverte** f″ forteller hvordan **stigningstallet** endrer seg:
+
+- f″(x) > 0 ⇒ grafen **krummer oppover** (som en skål, konveks).
+- f″(x) < 0 ⇒ grafen **krummer nedover** (som en hatt, konkav).
+- Der f″ **skifter fortegn**, har grafen et **vendepunkt**.
+
+For f(x) = x³ − 3x er f″(x) = 6x. Den skifter fortegn i x = 0, så **(0, 0)** er et vendepunkt. Der er stigningstallet minst – den deriverte har et bunnpunkt.
+
+**Andrederiverttesten**: Er f′(a) = 0 og f″(a) < 0, er a et toppunkt; er f″(a) > 0, er a et bunnpunkt. f″(−1) = −6 bekrefter toppunktet i x = −1.
+
+## Lokale og globale ekstremalpunkter
+
+Et **lokalt** toppunkt er høyest i nærheten, et **globalt** toppunkt er høyest i hele definisjonsmengden. På et **lukket intervall** [a, b] må du også sjekke **endepunktene**: Den største verdien kan ligge i et endepunkt.
+
+## Fullstendig drøfting
+
+1. **Definisjonsmengde**
+2. **Nullpunkter** og skjæring med y-aksen
+3. **Asymptoter** (for rasjonale funksjoner)
+4. **f′** og fortegnslinje → monotoni og ekstremalpunkter
+5. **f″** og fortegnslinje → krumning og vendepunkter
+6. **Skisse** av grafen og **kontroll** med digitalt verktøy
+
+## Tolkning
+
+I en modell har punktene en **betydning**. Er f(t) antall besøkende på et nettsted etter t timer, forteller toppunktet **når** trafikken er størst, og vendepunktet **når** den øker **raskest**.', '{"label":"Funksjonsdrøfting","children":[{"label":"f′","children":[{"label":"Voksende og avtakende"},{"label":"Fortegnslinje"}]},{"label":"Ekstremalpunkter","children":[{"label":"Toppunkt"},{"label":"Bunnpunkt"},{"label":"Terrassepunkt"}]},{"label":"f″","children":[{"label":"Krumning"},{"label":"Vendepunkt"},{"label":"Andrederiverttesten"}]},{"label":"Lokalt og globalt","children":[{"label":"Endepunkter"}]},{"label":"Fullstendig drøfting","children":[{"label":"Df og nullpunkter"},{"label":"Asymptoter"},{"label":"Skisse og tolkning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:funksjonsdrofting';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:funksjonsdrofting', 'f′(x) > 0', 'f er voksende.', 0),
+  ('matematikk-r1:funksjonsdrofting', 'f′(x) < 0', 'f er avtakende.', 1),
+  ('matematikk-r1:funksjonsdrofting', 'f′(a) = 0', 'Vannrett tangent – mulig ekstremalpunkt.', 2),
+  ('matematikk-r1:funksjonsdrofting', 'Fortegnslinje', 'Viser hvor et uttrykk er positivt og negativt.', 3),
+  ('matematikk-r1:funksjonsdrofting', 'Toppunkt', 'f′ skifter fra + til −.', 4),
+  ('matematikk-r1:funksjonsdrofting', 'Bunnpunkt', 'f′ skifter fra − til +.', 5),
+  ('matematikk-r1:funksjonsdrofting', 'Terrassepunkt', 'f′ = 0 uten fortegnsskifte, som x³ i 0.', 6),
+  ('matematikk-r1:funksjonsdrofting', 'f″(x) > 0', 'Grafen krummer oppover (konveks).', 7),
+  ('matematikk-r1:funksjonsdrofting', 'f″(x) < 0', 'Grafen krummer nedover (konkav).', 8),
+  ('matematikk-r1:funksjonsdrofting', 'Vendepunkt', 'Der f″ skifter fortegn.', 9),
+  ('matematikk-r1:funksjonsdrofting', 'Andrederiverttesten', 'f′(a) = 0 og f″(a) < 0 gir toppunkt; f″(a) > 0 gir bunnpunkt.', 10),
+  ('matematikk-r1:funksjonsdrofting', 'Globalt toppunkt', 'Høyeste verdi i hele definisjonsmengden.', 11),
+  ('matematikk-r1:funksjonsdrofting', 'Lukket intervall', 'Sjekk også endepunktene.', 12),
+  ('matematikk-r1:funksjonsdrofting', 'f(x) = x³ − 3x', 'Toppunkt (−1, 2), bunnpunkt (1, −2), vendepunkt (0, 0).', 13),
+  ('matematikk-r1:funksjonsdrofting', 'Vendepunkt i en modell', 'Der veksten er raskest eller langsomst.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:funksjonsdrofting';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:funksjonsdrofting', 'q01', 'flervalg', 'Hva betyr det at f′(x) < 0 på et intervall?', array['f er voksende', 'f er avtakende', 'f har vendepunkt', 'f er konstant']::text[], 1, 'Stigningstallet er negativt.', true, true, 0),
+  ('matematikk-r1:funksjonsdrofting', 'q02', 'flervalg', 'f(x) = x³ − 3x. Hvor har f toppunkt?', array['(−1, 2)', '(1, −2)', '(0, 0)', '(−1, −2)']::text[], 0, 'f′ skifter fra + til − i x = −1.', true, true, 1),
+  ('matematikk-r1:funksjonsdrofting', 'q03', 'flervalg', 'Hva kjennetegner et vendepunkt?', array['f′ = 0', 'f = 0', 'f″ skifter fortegn', 'f′ skifter fra + til −']::text[], 2, 'Krumningen endrer seg.', true, true, 2),
+  ('matematikk-r1:funksjonsdrofting', 'q04', 'flervalg', 'f′(a) = 0 og f″(a) > 0. Hva har f i x = a?', array['Et toppunkt', 'Et vendepunkt', 'Et terrassepunkt', 'Et bunnpunkt']::text[], 3, 'Grafen krummer oppover.', true, true, 3),
+  ('matematikk-r1:funksjonsdrofting', 'q05', 'flervalg', 'Hva har f(x) = x³ i x = 0?', array['Et terrassepunkt', 'Et toppunkt', 'Et bunnpunkt', 'En asymptote']::text[], 0, 'f′ = 0, men ingen fortegnsskifte.', true, true, 4),
+  ('matematikk-r1:funksjonsdrofting', 'q06', 'flervalg', 'Hvorfor må du sjekke endepunktene på et lukket intervall?', array['Fordi f′ alltid er null der', 'Fordi den største eller minste verdien kan ligge der', 'Fordi funksjonen ikke er definert der', 'Det trenger du ikke']::text[], 1, 'Globale ekstremalverdier kan ligge i endepunktene.', true, true, 5),
+  ('matematikk-r1:funksjonsdrofting', 'q07', 'flervalg', 'Hva er f″(x) for f(x) = x³ − 3x?', array['3x²', '3x² − 3', '6x', '6']::text[], 2, 'Deriver f′(x) = 3x² − 3.', true, true, 6),
+  ('matematikk-r1:funksjonsdrofting', 'q08', 'flervalg', 'f(t) er antall besøkende på et nettsted. Hva forteller vendepunktet?', array['Når det er flest besøkende', 'Når det er færrest besøkende', 'Når nettstedet åpner', 'Når antallet øker raskest (eller langsomst)']::text[], 3, 'Vekstfarten har et ekstremalpunkt der.', true, true, 7),
+  ('matematikk-r1:funksjonsdrofting', 'q09', 'flervalg', 'Hva betyr f″(x) < 0?', array['Grafen krummer nedover', 'Grafen krummer oppover', 'f er avtakende', 'f er negativ']::text[], 0, 'Stigningstallet minker.', true, false, 8),
+  ('matematikk-r1:funksjonsdrofting', 'q10', 'flervalg', 'Hvordan faktoriseres f′(x) = 3x² − 3?', array['3(x − 1)²', '3(x − 1)(x + 1)', '3x(x − 1)', '(3x − 1)(x + 3)']::text[], 1, 'Konjugatsetningen.', true, false, 9),
+  ('matematikk-r1:funksjonsdrofting', 'm01', 'sant-usant', 'I et vendepunkt har den deriverte et ekstremalpunkt.', array['Sant', 'Usant']::text[], 0, 'Stigningstallet er størst eller minst der.', false, true, 10),
+  ('matematikk-r1:funksjonsdrofting', 'm02', 'sant-usant', 'Alle punkter der f′ = 0, er topp- eller bunnpunkter.', array['Sant', 'Usant']::text[], 1, 'Det kan også være terrassepunkter.', false, true, 11),
+  ('matematikk-r1:funksjonsdrofting', 'm03', 'sant-usant', 'Et lokalt toppunkt trenger ikke være det globale toppunktet.', array['Sant', 'Usant']::text[], 0, 'Det kan finnes høyere verdier andre steder.', false, true, 12),
+  ('matematikk-r1:funksjonsdrofting', 'm04', 'sant-usant', 'f″(x) > 0 betyr at f er voksende.', array['Sant', 'Usant']::text[], 1, 'Det betyr at grafen krummer oppover.', false, true, 13),
+  ('matematikk-r1:funksjonsdrofting', 'm05', 'flervalg', 'f(x) = x² − 4x. Hvor har f bunnpunkt?', array['(4, 0)', '(2, −4)', '(0, 0)', '(−2, 12)']::text[], 1, 'f′(x) = 2x − 4 = 0 gir x = 2, f(2) = −4.', false, true, 14),
+  ('matematikk-r1:funksjonsdrofting', 'm06', 'flervalg', 'f(x) = −x² + 6x. Hva er den største verdien til f?', array['9', '6', '3', '36']::text[], 0, 'f′ = −2x + 6 = 0 gir x = 3, f(3) = 9.', false, true, 15),
+  ('matematikk-r1:funksjonsdrofting', 'm07', 'flervalg', 'Hvor har f(x) = x³ − 6x² vendepunkt?', array['x = 0', 'x = 4', 'x = 2', 'x = 6']::text[], 2, 'f″(x) = 6x − 12 = 0 gir x = 2.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:funksjonsdrofting', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Potenser, logaritmer og likninger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:potenser-og-logaritmer', 'matematikk-r1', 'potenser-og-logaritmer', 'Potenser, logaritmer og likninger', 'Potensreglene, briggske og naturlige logaritmer, logaritmereglene og strategier for å løse eksponentiallikninger og logaritmelikninger – med anvendelser som pH og desibel.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:potenser-og-logaritmer', '## Potensregler
+
+For a > 0 og alle reelle m og n:
+
+- aᵐ · aⁿ = aᵐ⁺ⁿ
+- aᵐ / aⁿ = aᵐ⁻ⁿ
+- (aᵐ)ⁿ = aᵐ·ⁿ
+- (a · b)ⁿ = aⁿ · bⁿ
+- a⁰ = 1
+- a⁻ⁿ = 1 / aⁿ
+- a^(1/n) = ⁿ√a, for eksempel 8^(1/3) = 2
+
+## Logaritmer
+
+Logaritmen svarer på spørsmålet: **Hvilken eksponent må grunntallet opphøyes i?**
+
+- **Briggske logaritmer** (grunntall 10): lg x = y betyr 10ʸ = x. lg 1000 = **3**.
+- **Naturlige logaritmer** (grunntall e): ln x = y betyr eʸ = x. ln e = **1**.
+
+Noen verdier å huske: lg 1 = ln 1 = 0, lg 10 = 1, og logaritmen er bare definert for **x > 0**.
+
+Logaritmen og eksponentialfunksjonen **opphever** hverandre:
+
+10^(lg x) = x, lg(10ˣ) = x, e^(ln x) = x og ln(eˣ) = x
+
+## Logaritmereglene
+
+- lg(a · b) = lg a + lg b
+- lg(a / b) = lg a − lg b
+- lg(aⁿ) = n · lg a
+
+De samme reglene gjelder for ln. Reglene følger direkte av potensreglene.
+
+## Eksponentiallikninger
+
+**1. Samme grunntall**: 2ˣ = 32 = 2⁵ gir **x = 5**.
+
+**2. Isoler potensen først**: 3 · 2ˣ = 48 gir 2ˣ = 16, så **x = 4**.
+
+**3. Ta logaritmen på begge sider**: 5ˣ = 20
+
+lg 5ˣ = lg 20 → x · lg 5 = lg 20 → x = lg 20 / lg 5 ≈ **1,86**
+
+**4. Med e**: eˣ = 7 gir x = ln 7 ≈ **1,95**.
+
+**5. Andregradslikning i eˣ**: e²ˣ − 3eˣ + 2 = 0. Sett u = eˣ: u² − 3u + 2 = 0 gir u = 1 eller u = 2, altså **x = 0** eller **x = ln 2**.
+
+## Logaritmelikninger
+
+**1. Bruk definisjonen**: lg x = 2 gir x = 10² = **100**.
+
+**2. Slå sammen med reglene**: lg x + lg(x + 3) = 1
+
+lg(x(x + 3)) = 1 → x² + 3x = 10 → x² + 3x − 10 = 0 → x = 2 eller x = −5
+
+Logaritmen er bare definert for positive tall, så **x = 2** er eneste løsning. **Sett alltid prøve** på løsningene!
+
+## Anvendelser
+
+- **pH** = −lg[H₃O⁺]. En løsning med [H₃O⁺] = 10⁻³ mol/L har pH = **3**. Én enhet lavere pH betyr **ti ganger** så sur løsning.
+- **Lydnivå** i desibel er en logaritmisk skala: 10 dB mer betyr ti ganger så stor lydintensitet.
+- **Richterskalaen** for jordskjelv er også logaritmisk.
+- **Tid i vekstmodeller**: Hvor lang tid tar det før et beløp dobles? Da må du løse en eksponentiallikning.', '{"label":"Potenser og logaritmer","children":[{"label":"Potensregler","children":[{"label":"aᵐ · aⁿ"},{"label":"(aᵐ)ⁿ"},{"label":"Negative og brøkeksponenter"}]},{"label":"Logaritmer","children":[{"label":"lg – grunntall 10"},{"label":"ln – grunntall e"},{"label":"Opphever eksponentialfunksjonen"}]},{"label":"Regler","children":[{"label":"Produkt → sum"},{"label":"Kvotient → differanse"},{"label":"Potens → faktor"}]},{"label":"Likninger","children":[{"label":"Samme grunntall"},{"label":"Ta logaritmen"},{"label":"Substitusjon u = eˣ"},{"label":"Sett prøve"}]},{"label":"Anvendelser","children":[{"label":"pH"},{"label":"Desibel"},{"label":"Doblingstid"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:potenser-og-logaritmer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:potenser-og-logaritmer', 'aᵐ · aⁿ', 'aᵐ⁺ⁿ', 0),
+  ('matematikk-r1:potenser-og-logaritmer', '(aᵐ)ⁿ', 'aᵐ·ⁿ', 1),
+  ('matematikk-r1:potenser-og-logaritmer', 'a⁻ⁿ', '1/aⁿ', 2),
+  ('matematikk-r1:potenser-og-logaritmer', 'a^(1/n)', 'ⁿ√a', 3),
+  ('matematikk-r1:potenser-og-logaritmer', 'lg x = y', '10ʸ = x', 4),
+  ('matematikk-r1:potenser-og-logaritmer', 'ln x = y', 'eʸ = x', 5),
+  ('matematikk-r1:potenser-og-logaritmer', 'lg 1000', '3', 6),
+  ('matematikk-r1:potenser-og-logaritmer', 'ln e', '1', 7),
+  ('matematikk-r1:potenser-og-logaritmer', 'lg(a · b)', 'lg a + lg b', 8),
+  ('matematikk-r1:potenser-og-logaritmer', 'lg(a / b)', 'lg a − lg b', 9),
+  ('matematikk-r1:potenser-og-logaritmer', 'lg(aⁿ)', 'n · lg a', 10),
+  ('matematikk-r1:potenser-og-logaritmer', 'e^(ln x)', 'x', 11),
+  ('matematikk-r1:potenser-og-logaritmer', 'Løse 5ˣ = 20', 'x = lg 20 / lg 5 ≈ 1,86', 12),
+  ('matematikk-r1:potenser-og-logaritmer', 'Logaritmens definisjonsmengde', 'x > 0', 13),
+  ('matematikk-r1:potenser-og-logaritmer', 'pH', '−lg[H₃O⁺]', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:potenser-og-logaritmer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:potenser-og-logaritmer', 'q01', 'flervalg', 'Hva er lg 1000?', array['100', '3', '30', '10']::text[], 1, '10³ = 1000.', true, true, 0),
+  ('matematikk-r1:potenser-og-logaritmer', 'q02', 'flervalg', 'Løs 3 · 2ˣ = 48.', array['x = 4', 'x = 8', 'x = 16', 'x = 3']::text[], 0, '2ˣ = 16 = 2⁴.', true, true, 1),
+  ('matematikk-r1:potenser-og-logaritmer', 'q03', 'flervalg', 'Løs 5ˣ = 20.', array['x = 4', 'x = 0,25', 'x ≈ 1,86', 'x ≈ 2,5']::text[], 2, 'x = lg 20 / lg 5.', true, true, 2),
+  ('matematikk-r1:potenser-og-logaritmer', 'q04', 'flervalg', 'Hva er lg(a · b)?', array['lg a · lg b', 'lg a − lg b', 'lg(a + b)', 'lg a + lg b']::text[], 3, 'Logaritmen av et produkt er summen.', true, true, 3),
+  ('matematikk-r1:potenser-og-logaritmer', 'q05', 'flervalg', 'Løs lg x + lg(x + 3) = 1.', array['x = 2', 'x = −5', 'x = 2 eller x = −5', 'x = 10']::text[], 0, 'x = −5 er ikke gyldig, fordi logaritmen krever positive tall.', true, true, 4),
+  ('matematikk-r1:potenser-og-logaritmer', 'q06', 'flervalg', 'Løs eˣ = 7.', array['x = 7/e', 'x = ln 7', 'x = lg 7', 'x = e⁷']::text[], 1, 'ln på begge sider.', true, true, 5),
+  ('matematikk-r1:potenser-og-logaritmer', 'q07', 'flervalg', 'Hva er 8^(1/3)?', array['8/3', '24', '2', '512']::text[], 2, 'Kubikkroten av 8.', true, true, 6),
+  ('matematikk-r1:potenser-og-logaritmer', 'q08', 'flervalg', 'Løs e²ˣ − 3eˣ + 2 = 0.', array['x = 1 eller x = 2', 'x = 0', 'x = ln 3', 'x = 0 eller x = ln 2']::text[], 3, 'Sett u = eˣ: u = 1 eller u = 2.', true, true, 7),
+  ('matematikk-r1:potenser-og-logaritmer', 'q09', 'flervalg', 'Hva er pH i en løsning med [H₃O⁺] = 10⁻³ mol/L?', array['3', '−3', '0,001', '7']::text[], 0, 'pH = −lg 10⁻³.', true, false, 8),
+  ('matematikk-r1:potenser-og-logaritmer', 'q10', 'flervalg', 'Hva er lg(aⁿ)?', array['(lg a)ⁿ', 'n · lg a', 'lg a + n', 'lg(n · a)']::text[], 1, 'Eksponenten kan flyttes foran.', true, false, 9),
+  ('matematikk-r1:potenser-og-logaritmer', 'm01', 'sant-usant', 'ln 1 = 0.', array['Sant', 'Usant']::text[], 0, 'e⁰ = 1.', false, true, 10),
+  ('matematikk-r1:potenser-og-logaritmer', 'm02', 'sant-usant', 'lg(−10) = −1.', array['Sant', 'Usant']::text[], 1, 'Logaritmen er ikke definert for negative tall.', false, true, 11),
+  ('matematikk-r1:potenser-og-logaritmer', 'm03', 'sant-usant', 'En løsning med pH 3 er ti ganger så sur som en løsning med pH 4.', array['Sant', 'Usant']::text[], 0, 'pH-skalaen er logaritmisk.', false, true, 12),
+  ('matematikk-r1:potenser-og-logaritmer', 'm04', 'sant-usant', 'lg(a + b) = lg a + lg b.', array['Sant', 'Usant']::text[], 1, 'Det gjelder for produktet a · b, ikke summen.', false, true, 13),
+  ('matematikk-r1:potenser-og-logaritmer', 'm05', 'flervalg', 'Løs lg x = 2.', array['x = 20', 'x = 100', 'x = 2/10', 'x = 0,01']::text[], 1, 'x = 10².', false, true, 14),
+  ('matematikk-r1:potenser-og-logaritmer', 'm06', 'flervalg', 'Hva er 2⁻³?', array['1/8', '−8', '−6', '8']::text[], 0, '1/2³.', false, true, 15),
+  ('matematikk-r1:potenser-og-logaritmer', 'm07', 'flervalg', 'Løs 2ˣ = 32.', array['x = 16', 'x = 6', 'x = 5', 'x = 4']::text[], 2, '2⁵ = 32.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:potenser-og-logaritmer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Eksponentiell og logistisk vekst
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'matematikk-r1', 'eksponentiell-og-logistisk-vekst', 'Eksponentiell og logistisk vekst', 'Eksponentielle modeller med vekstfaktor og med e, doblings- og halveringstid, logistisk vekst med bæreevne, og hvordan du lager, analyserer og vurderer slike modeller for reelle datasett.', array[8]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', '## Eksponentiell vekst
+
+Når en størrelse endrer seg med en **fast prosent** per tidsenhet, er veksten **eksponentiell**:
+
+**f(t) = a · bᵗ**
+
+der a er **startverdien** og b er **vekstfaktoren**. Vekst på 5 % per år gir b = 1,05, og nedgang på 10 % gir b = 0,90.
+
+Modellen kan også skrives med **e**:
+
+**f(t) = a · eᵏᵗ**, der k = ln b
+
+Fordi (eᵏᵗ)′ = k · eᵏᵗ, får vi
+
+**f′(t) = k · f(t)**
+
+Vekstfarten er altså **proporsjonal med størrelsen** selv. Jo flere bakterier, desto raskere vokser kulturen.
+
+## Doblingstid og halveringstid
+
+**Doblingstiden** T finner du ved å løse bᵀ = 2:
+
+T = ln 2 / ln b
+
+Med 5 % årlig vekst er T = ln 2 / ln 1,05 ≈ **14,2 år**. Med 10 % årlig nedgang er **halveringstiden** ln 0,5 / ln 0,9 ≈ **6,6 år**.
+
+## Grenser for eksponentiell vekst
+
+Ingen vekst kan fortsette eksponentielt for alltid. Før eller siden blir det mangel på **mat**, **plass** eller **kunder**. Da passer en **logistisk modell** bedre.
+
+## Logistisk vekst
+
+**N(t) = K / (1 + a · e⁻ᵏᵗ)**
+
+- **K** er **bæreevnen** – verdien N nærmer seg når t → ∞.
+- **a** bestemmer startverdien: N(0) = K / (1 + a).
+- **k** bestemmer hvor raskt veksten skjer.
+
+Grafen er **S-formet**: Først vokser den nesten eksponentielt, så flater den ut mot K.
+
+**Vendepunktet** ligger der **N = K/2**. Der er vekstfarten **størst**.
+
+**Eksempel**: K = 1000, a = 9 og k = 0,5 gir N(0) = 1000/10 = **100**. N = 500 når a · e⁻⁰,⁵ᵗ = 1, altså e⁻⁰,⁵ᵗ = 1/9, som gir t = ln 9 / 0,5 ≈ **4,4**.
+
+Logistisk vekst oppfyller **N′ = k · N · (1 − N/K)**: Når N er liten, er veksten nesten eksponentiell, og når N nærmer seg K, går veksten mot null.
+
+## Eksempler fra virkeligheten
+
+- **Bakterier** i en næringsløsning
+- **Smittespredning** i starten av en epidemi
+- **Utbredelse av ny teknologi**, som andelen som har smarttelefon
+- **Dyrebestander** i et område med begrenset mat
+
+## Modellering av datasett
+
+1. **Plott** dataene og se på formen: Vokser de jevnt prosentvis, eller flater de ut?
+2. Bruk **regresjon** i GeoGebra eller regneark, for eksempel RegEksp og RegLogist.
+3. **Tolk parameterne**: Hva er startverdien, vekstfaktoren eller bæreevnen?
+4. Bruk den **deriverte** til å finne vekstfarten og når den er størst.
+5. **Vurder** modellen: Hvor godt passer den? Gir den **urimelige** svar langt fram i tid? En modell kan passe godt på dataene og likevel gi feil når den brukes til **ekstrapolering**.', '{"label":"Eksponentiell og logistisk vekst","children":[{"label":"Eksponentiell","children":[{"label":"a · bᵗ"},{"label":"a · eᵏᵗ"},{"label":"f′ = kf"}]},{"label":"Tider","children":[{"label":"Doblingstid"},{"label":"Halveringstid"}]},{"label":"Logistisk","children":[{"label":"K/(1 + a · e⁻ᵏᵗ)"},{"label":"Bæreevne"},{"label":"Vendepunkt ved K/2"}]},{"label":"Eksempler","children":[{"label":"Bakterier"},{"label":"Smitte"},{"label":"Ny teknologi"}]},{"label":"Modellering","children":[{"label":"Regresjon"},{"label":"Tolke parametere"},{"label":"Vurdere modellen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:eksponentiell-og-logistisk-vekst';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Eksponentiell modell', 'f(t) = a · bᵗ', 0),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Vekstfaktor', 'b = 1 + p for vekst og 1 − p for nedgang.', 1),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Modell med e', 'f(t) = a · eᵏᵗ, der k = ln b', 2),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'f′(t) = k · f(t)', 'Vekstfarten er proporsjonal med størrelsen.', 3),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Doblingstid', 'T = ln 2 / ln b', 4),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Doblingstid ved 5 % vekst', 'Omtrent 14,2 år.', 5),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Halveringstid', 'Tiden det tar før størrelsen er halvert.', 6),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Logistisk modell', 'N(t) = K / (1 + a · e⁻ᵏᵗ)', 7),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Bæreevne K', 'Verdien den logistiske modellen nærmer seg.', 8),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'N(0) i logistisk modell', 'K / (1 + a)', 9),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Vendepunkt i logistisk vekst', 'N = K/2, der vekstfarten er størst.', 10),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'N′ = kN(1 − N/K)', 'Differensiallikningen for logistisk vekst.', 11),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'S-kurve', 'Formen på grafen ved logistisk vekst.', 12),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'RegLogist', 'GeoGebra-kommando for logistisk regresjon.', 13),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'Ekstrapolering', 'Å bruke modellen utenfor dataområdet – kan gi feil.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:eksponentiell-og-logistisk-vekst';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q01', 'flervalg', 'Hva er vekstfaktoren ved 10 % nedgang per år?', array['1,10', '0,90', '0,10', '−0,10']::text[], 1, '1 − 0,10.', true, true, 0),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q02', 'flervalg', 'Hva er doblingstiden ved 5 % årlig vekst?', array['Omtrent 14,2 år', '20 år', '5 år', 'Omtrent 7,2 år']::text[], 0, 'ln 2 / ln 1,05.', true, true, 1),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q03', 'flervalg', 'Hva betyr f′(t) = k · f(t)?', array['Vekstfarten er konstant', 'Funksjonen er lineær', 'Vekstfarten er proporsjonal med størrelsen', 'Funksjonen er avtakende']::text[], 2, 'Kjennetegn på eksponentiell vekst.', true, true, 2),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q04', 'flervalg', 'Hva er K i den logistiske modellen N(t) = K/(1 + a · e⁻ᵏᵗ)?', array['Startverdien', 'Vekstfaktoren', 'Tiden til vendepunktet', 'Bæreevnen']::text[], 3, 'N nærmer seg K når t → ∞.', true, true, 3),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q05', 'flervalg', 'Hvor er vekstfarten størst i logistisk vekst?', array['Når N = K/2', 'Når N = 0', 'Når N = K', 'I starten']::text[], 0, 'Vendepunktet.', true, true, 4),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q06', 'flervalg', 'K = 1000 og a = 9. Hva er N(0)?', array['1000', '100', '111', '9']::text[], 1, '1000/(1 + 9).', true, true, 5),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q07', 'flervalg', 'Hvilken form har grafen ved logistisk vekst?', array['Rett linje', 'Parabel', 'S-kurve', 'Sirkel']::text[], 2, 'Først rask vekst, så utflating.', true, true, 6),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q08', 'flervalg', 'Hvorfor kan ikke eksponentiell vekst fortsette for alltid i naturen?', array['Fordi e er et irrasjonalt tall', 'Fordi vekstfaktoren alltid er under 1', 'Fordi den deriverte er null', 'Fordi ressurser som mat og plass er begrenset']::text[], 3, 'Derfor passer ofte en logistisk modell bedre.', true, true, 7),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q09', 'flervalg', 'Hvordan skrives f(t) = 200 · 1,05ᵗ med e?', array['200 · e^(t · ln 1,05)', '200 · e^(1,05t)', '200 · e^(0,05)', 'e^(200t)']::text[], 0, 'k = ln 1,05 ≈ 0,0488.', true, false, 8),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'q10', 'flervalg', 'Hva er en fare ved å bruke en modell til ekstrapolering?', array['Det er ingen fare', 'Modellen kan gi urimelige svar utenfor dataområdet', 'Modellen blir alltid lineær', 'Dataene forsvinner']::text[], 1, 'Vurder alltid gyldighetsområdet.', true, false, 9),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm01', 'sant-usant', 'I starten ligner logistisk vekst på eksponentiell vekst.', array['Sant', 'Usant']::text[], 0, 'Når N er liten, er N/K nær null.', false, true, 10),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm02', 'sant-usant', 'En logistisk modell kan vokse forbi bæreevnen på lang sikt.', array['Sant', 'Usant']::text[], 1, 'Modellen nærmer seg K.', false, true, 11),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm03', 'sant-usant', 'Halveringstiden ved 10 % årlig nedgang er omtrent 6,6 år.', array['Sant', 'Usant']::text[], 0, 'ln 0,5 / ln 0,9.', false, true, 12),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm04', 'sant-usant', 'En modell som passer godt på dataene, gir alltid gode prognoser langt fram i tid.', array['Sant', 'Usant']::text[], 1, 'Ekstrapolering kan gi feil.', false, true, 13),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm05', 'flervalg', 'K = 1000, a = 9 og k = 0,5. Omtrent når er N = 500?', array['t ≈ 2,2', 't ≈ 4,4', 't ≈ 9', 't ≈ 18']::text[], 1, 't = ln 9 / 0,5.', false, true, 14),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm06', 'flervalg', 'Hva er k når b = 1,05?', array['Omtrent 0,049', '0,05', '1,05', 'Omtrent 2,86']::text[], 0, 'k = ln 1,05.', false, true, 15),
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 'm07', 'flervalg', 'Hvilken GeoGebra-kommando gir en eksponentiell modell?', array['RegLin', 'RegPoly', 'RegEksp', 'RegSin']::text[], 2, 'Eksponentiell regresjon.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:eksponentiell-og-logistisk-vekst', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Omvendte funksjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:omvendte-funksjoner', 'matematikk-r1', 'omvendte-funksjoner', 'Omvendte funksjoner', 'Når en funksjon har en omvendt funksjon, hvordan du finner den, speiling om linjen y = x, sammenhengen mellom eˣ og ln x, og hvordan du deriverer omvendte funksjoner.', array[10]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:omvendte-funksjoner', '## Hva er en omvendt funksjon?
+
+En funksjon f tar en x-verdi og gir en y-verdi. Den **omvendte funksjonen** f⁻¹ går **motsatt vei**: Den tar y-verdien og gir tilbake x-verdien.
+
+**f(a) = b ⇔ f⁻¹(b) = a**
+
+Derfor gjelder f⁻¹(f(x)) = x og f(f⁻¹(x)) = x.
+
+**Merk**: f⁻¹ betyr ikke 1/f.
+
+## Når finnes en omvendt funksjon?
+
+f har en omvendt funksjon bare hvis hver y-verdi kommer fra **nøyaktig én** x-verdi – funksjonen er **én-entydig**. Det gjelder for eksempel når f er **strengt voksende** eller **strengt avtakende**.
+
+f(x) = x² har ingen omvendt funksjon på hele tallinjen, fordi både x = 2 og x = −2 gir 4. **Begrenser** vi definisjonsmengden til x ≥ 0, blir den omvendte funksjonen **√x**.
+
+## Definisjons- og verdimengde
+
+Definisjonsmengden og verdimengden **bytter plass**:
+
+**D(f⁻¹) = V(f)** og **V(f⁻¹) = D(f)**
+
+## Slik finner du f⁻¹
+
+1. Skriv y = f(x).
+2. Løs likningen med hensyn på x.
+3. Bytt navn på variablene, slik at f⁻¹ blir en funksjon av x.
+
+**Eksempel**: f(x) = 2x + 3. y = 2x + 3 gir x = (y − 3)/2, så **f⁻¹(x) = (x − 3)/2**.
+
+**Praktisk eksempel**: Omregning fra celsius til fahrenheit er F = 1,8C + 32. Den omvendte funksjonen er C = (F − 32)/1,8.
+
+## Grafen
+
+Grafen til f⁻¹ er grafen til f **speilet om linjen y = x**. Punktet (a, b) på f blir til (b, a) på f⁻¹.
+
+## eˣ og ln x
+
+f(x) = eˣ og g(x) = ln x er **omvendte funksjoner** av hverandre:
+
+- e^(ln x) = x for x > 0
+- ln(eˣ) = x for alle x
+- eˣ har definisjonsmengde ℝ og verdimengde ⟨0, →⟩ – for ln x er det motsatt.
+- Grafene er speilbilder om y = x: eˣ går gjennom (0, 1), ln x gjennom (1, 0).
+
+På samme måte er 10ˣ og lg x omvendte funksjoner.
+
+## Derivasjon av omvendte funksjoner
+
+Hvis y₀ = f(x₀) og f′(x₀) ≠ 0, er
+
+**(f⁻¹)′(y₀) = 1 / f′(x₀)**
+
+Stigningstallene er **omvendte**, fordi tangentene også speiles om y = x.
+
+**Eksempel**: f(x) = x³ + x er strengt voksende. f(1) = 2 og f′(x) = 3x² + 1, så f′(1) = 4. Da er **(f⁻¹)′(2) = 1/4** – uten at vi kjenner et uttrykk for f⁻¹!
+
+**Utledning av (ln x)′**: Deriver begge sider av e^(ln x) = x med kjerneregelen:
+
+e^(ln x) · (ln x)′ = 1 → x · (ln x)′ = 1 → **(ln x)′ = 1/x**
+
+## Anvendelser
+
+Omvendte funksjoner brukes når vi kjenner **resultatet** og vil finne **årsaken**: Hvor lang tid tar det før en investering når et bestemt beløp? Hvilken konsentrasjon gir en bestemt pH? Hvilken temperatur i celsius svarer til 100 °F?', '{"label":"Omvendte funksjoner","children":[{"label":"Begrep","children":[{"label":"f(a) = b ⇔ f⁻¹(b) = a"},{"label":"Ikke 1/f"}]},{"label":"Vilkår","children":[{"label":"Én-entydig"},{"label":"Strengt monoton"},{"label":"Begrense Df"}]},{"label":"Finne f⁻¹","children":[{"label":"Løs for x"},{"label":"D og V bytter plass"},{"label":"Speiling om y = x"}]},{"label":"eˣ og ln x","children":[{"label":"Opphever hverandre"},{"label":"(0, 1) og (1, 0)"}]},{"label":"Derivasjon","children":[{"label":"(f⁻¹)′ = 1/f′"},{"label":"Utlede (ln x)′"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:omvendte-funksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:omvendte-funksjoner', 'Omvendt funksjon', 'f⁻¹ går motsatt vei: f(a) = b ⇔ f⁻¹(b) = a.', 0),
+  ('matematikk-r1:omvendte-funksjoner', 'f⁻¹(f(x))', 'x', 1),
+  ('matematikk-r1:omvendte-funksjoner', 'f⁻¹ og 1/f', 'Ikke det samme.', 2),
+  ('matematikk-r1:omvendte-funksjoner', 'Én-entydig funksjon', 'Hver y-verdi kommer fra nøyaktig én x-verdi.', 3),
+  ('matematikk-r1:omvendte-funksjoner', 'Strengt monoton', 'Strengt voksende eller avtakende – har omvendt funksjon.', 4),
+  ('matematikk-r1:omvendte-funksjoner', 'x² for x ≥ 0', 'Har den omvendte funksjonen √x.', 5),
+  ('matematikk-r1:omvendte-funksjoner', 'D(f⁻¹)', 'V(f)', 6),
+  ('matematikk-r1:omvendte-funksjoner', 'V(f⁻¹)', 'D(f)', 7),
+  ('matematikk-r1:omvendte-funksjoner', 'Finne f⁻¹', 'Løs y = f(x) med hensyn på x og bytt navn på variablene.', 8),
+  ('matematikk-r1:omvendte-funksjoner', 'f(x) = 2x + 3', 'f⁻¹(x) = (x − 3)/2', 9),
+  ('matematikk-r1:omvendte-funksjoner', 'Grafen til f⁻¹', 'Grafen til f speilet om y = x.', 10),
+  ('matematikk-r1:omvendte-funksjoner', 'eˣ og ln x', 'Omvendte funksjoner av hverandre.', 11),
+  ('matematikk-r1:omvendte-funksjoner', '(f⁻¹)′(y₀)', '1 / f′(x₀), der y₀ = f(x₀)', 12),
+  ('matematikk-r1:omvendte-funksjoner', 'f(x) = x³ + x', '(f⁻¹)′(2) = 1/4', 13),
+  ('matematikk-r1:omvendte-funksjoner', 'Celsius fra fahrenheit', 'C = (F − 32)/1,8', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:omvendte-funksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:omvendte-funksjoner', 'q01', 'flervalg', 'Hva er f⁻¹(x) når f(x) = 2x + 3?', array['(x + 3)/2', '(x − 3)/2', '1/(2x + 3)', '2x − 3']::text[], 1, 'Løs y = 2x + 3 for x.', true, true, 0),
+  ('matematikk-r1:omvendte-funksjoner', 'q02', 'flervalg', 'Hvordan henger grafene til f og f⁻¹ sammen?', array['De er speilbilder om linjen y = x', 'De er speilbilder om x-aksen', 'De er like', 'De er parallelle']::text[], 0, '(a, b) blir til (b, a).', true, true, 1),
+  ('matematikk-r1:omvendte-funksjoner', 'q03', 'flervalg', 'Hvorfor har ikke f(x) = x² en omvendt funksjon på hele tallinjen?', array['Fordi den er et polynom', 'Fordi den ikke er kontinuerlig', 'Fordi to x-verdier gir samme y-verdi', 'Fordi den er voksende']::text[], 2, 'For eksempel gir både 2 og −2 verdien 4.', true, true, 2),
+  ('matematikk-r1:omvendte-funksjoner', 'q04', 'flervalg', 'Hvilken funksjon er den omvendte til eˣ?', array['1/eˣ', 'e⁻ˣ', 'lg x', 'ln x']::text[], 3, 'e^(ln x) = x.', true, true, 3),
+  ('matematikk-r1:omvendte-funksjoner', 'q05', 'flervalg', 'f(x) = x³ + x. Hva er (f⁻¹)′(2)?', array['1/4', '4', '2', '1/2']::text[], 0, 'f(1) = 2 og f′(1) = 4.', true, true, 4),
+  ('matematikk-r1:omvendte-funksjoner', 'q06', 'flervalg', 'Hva er definisjonsmengden til f⁻¹?', array['D(f)', 'V(f)', 'Alltid ℝ', 'Alltid x > 0']::text[], 1, 'Definisjons- og verdimengde bytter plass.', true, true, 5),
+  ('matematikk-r1:omvendte-funksjoner', 'q07', 'flervalg', 'Hvilket punkt ligger på grafen til ln x?', array['(0, 1)', '(0, 0)', '(1, 0)', '(e, 0)']::text[], 2, 'Speilbildet av (0, 1) på eˣ.', true, true, 6),
+  ('matematikk-r1:omvendte-funksjoner', 'q08', 'flervalg', 'Når har en funksjon garantert en omvendt funksjon?', array['Når den er kontinuerlig', 'Når den har et toppunkt', 'Når den er et polynom', 'Når den er strengt voksende eller strengt avtakende']::text[], 3, 'Da er den én-entydig.', true, true, 7),
+  ('matematikk-r1:omvendte-funksjoner', 'q09', 'flervalg', 'Hva betyr f⁻¹(x)?', array['Den omvendte funksjonen til f', '1/f(x)', 'f(x) − 1', 'f(−x)']::text[], 0, 'Ikke forveksle med 1/f.', true, false, 8),
+  ('matematikk-r1:omvendte-funksjoner', 'q10', 'flervalg', 'Hvilken omvendt funksjon får x² når definisjonsmengden begrenses til x ≥ 0?', array['1/x²', '√x', 'x/2', 'ln x']::text[], 1, '√(x²) = x for x ≥ 0.', true, false, 9),
+  ('matematikk-r1:omvendte-funksjoner', 'm01', 'sant-usant', '10ˣ og lg x er omvendte funksjoner.', array['Sant', 'Usant']::text[], 0, '10^(lg x) = x.', false, true, 10),
+  ('matematikk-r1:omvendte-funksjoner', 'm02', 'sant-usant', 'Verdimengden til ln x er x > 0.', array['Sant', 'Usant']::text[], 1, 'Verdimengden er alle reelle tall; definisjonsmengden er x > 0.', false, true, 11),
+  ('matematikk-r1:omvendte-funksjoner', 'm03', 'sant-usant', 'Vi kan finne den deriverte av f⁻¹ i et punkt uten å kjenne uttrykket for f⁻¹.', array['Sant', 'Usant']::text[], 0, '(f⁻¹)′(y₀) = 1/f′(x₀).', false, true, 12),
+  ('matematikk-r1:omvendte-funksjoner', 'm04', 'sant-usant', 'Alle funksjoner har en omvendt funksjon.', array['Sant', 'Usant']::text[], 1, 'Funksjonen må være én-entydig.', false, true, 13),
+  ('matematikk-r1:omvendte-funksjoner', 'm05', 'flervalg', 'Omtrent hvilken celsiustemperatur svarer til 100 °F?', array['−12 °C', '38 °C', '56 °C', '212 °C']::text[], 1, '(100 − 32)/1,8 ≈ 37,8.', false, true, 14),
+  ('matematikk-r1:omvendte-funksjoner', 'm06', 'flervalg', 'Hva er f⁻¹(x) når f(x) = eˣ⁺¹?', array['ln x − 1', 'ln(x − 1)', 'e^(x − 1)', '1/(ln x)']::text[], 0, 'y = eˣ⁺¹ gir x + 1 = ln y.', false, true, 15),
+  ('matematikk-r1:omvendte-funksjoner', 'm07', 'flervalg', 'Punktet (3, 7) ligger på grafen til f. Hvilket punkt ligger på grafen til f⁻¹?', array['(3, 7)', '(−3, −7)', '(7, 3)', '(1/3, 1/7)']::text[], 2, 'Koordinatene bytter plass.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:omvendte-funksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Modellering, datasett og optimering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:modellering-og-optimering', 'matematikk-r1', 'modellering-og-optimering', 'Modellering, datasett og optimering', 'Hvordan du planlegger et selvstendig arbeid med reelle naturvitenskapelige datasett, velger og tilpasser modeller, bruker derivasjon til å tolke modellene og løser optimeringsproblemer.', array[1, 6]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:modellering-og-optimering', '## Et selvstendig arbeid med data
+
+I R1 skal du kunne arbeide med **reelle datasett** knyttet til naturvitenskap. Et godt arbeid følger gjerne disse stegene:
+
+1. **Problemstilling**: Hva vil du finne ut? For eksempel hvordan temperaturen, en dyrebestand eller CO₂-innholdet i lufta har endret seg.
+2. **Datainnsamling**: Finn data fra **pålitelige kilder**, som Statistisk sentralbyrå, Meteorologisk institutt eller forskningsinstitusjoner, eller mål selv. Noter **kilde** og **enheter**.
+3. **Bearbeiding**: Rydd i dataene, velg passende **variabler** og plott dem.
+4. **Modellvalg**: Velg modelltype ut fra **formen** på dataene og det du vet om fenomenet.
+5. **Analyse**: Bruk modellen og derivasjon til å svare på problemstillingen.
+6. **Vurdering**: Hvor god er modellen, og hvor langt kan du stole på den?
+7. **Presentasjon**: Tydelige grafer, forklaringer og konklusjon.
+
+## Velge modell
+
+- **Lineær** – jevn endring per tidsenhet.
+- **Polynom** – når grafen har topp- eller bunnpunkter. Unngå for høy grad; den kan passe dataene perfekt, men oppføre seg urimelig utenfor dem.
+- **Eksponentiell** – fast prosentvis endring.
+- **Logistisk** – vekst som flater ut mot en grense.
+- **Potens** – for eksempel sammenhenger i geometri og fysikk.
+
+Bruk **regresjon** for å finne modellen som passer best. Se på **residualene** – avvikene mellom data og modell. Er de tilfeldig fordelt, passer modelltypen godt; følger de et mønster, bør du vurdere en annen modell.
+
+## Tolke modellen med derivasjon
+
+- **f′(t)** er **vekstfarten** – for eksempel antall individer per år. Husk **enheten**.
+- **Ekstremalpunkter** viser når noe er størst eller minst.
+- **Vendepunkter** viser når endringen er **raskest**.
+
+## Optimering
+
+Mange problemer handler om å finne den **beste** løsningen: størst volum, minst materialbruk eller høyest fortjeneste.
+
+1. Velg en **variabel** og skriv den størrelsen som skal optimeres, som en **funksjon** av den.
+2. Finn **definisjonsmengden** ut fra situasjonen.
+3. **Deriver** og løs f′(x) = 0.
+4. Sjekk at du har et **maksimum** eller **minimum** – og sjekk endepunktene.
+5. **Svar** på spørsmålet med enheter.
+
+**Eksempel 1 – eske**: Av en kvadratisk plate på 30 cm × 30 cm skjærer vi ut kvadrater med side x i hjørnene og bretter opp en eske uten lokk.
+
+V(x) = x(30 − 2x)², 0 < x < 15
+
+V′(x) = (30 − 2x)(30 − 6x) = 0 gir x = 5 (x = 15 gir null volum). Største volum er V(5) = 5 · 20² = **2000 cm³**.
+
+**Eksempel 2 – inngjerding**: Med 100 m gjerde skal du lage en rektangulær innhegning inntil en vegg. Sidene vinkelrett på veggen er x, og siden parallelt med veggen er 100 − 2x.
+
+A(x) = x(100 − 2x), A′(x) = 100 − 4x = 0 gir x = 25. Største areal er 25 · 50 = **1250 m²**.
+
+## Vurdere modeller
+
+En modell er en **forenkling**. Diskuter
+
+- hvor godt modellen passer dataene
+- om den gir **rimelige** svar utenfor dataområdet
+- hvilke **forutsetninger** den bygger på
+- hvilke **feilkilder** som finnes i dataene', '{"label":"Modellering og optimering","children":[{"label":"Arbeidsprosess","children":[{"label":"Problemstilling"},{"label":"Data og kilder"},{"label":"Presentasjon"}]},{"label":"Modellvalg","children":[{"label":"Lineær og polynom"},{"label":"Eksponentiell"},{"label":"Logistisk"},{"label":"Residualer"}]},{"label":"Tolkning","children":[{"label":"Vekstfart"},{"label":"Ekstremalpunkter"},{"label":"Vendepunkter"}]},{"label":"Optimering","children":[{"label":"Funksjon av én variabel"},{"label":"f′ = 0"},{"label":"Endepunkter"}]},{"label":"Vurdering","children":[{"label":"Forutsetninger"},{"label":"Gyldighetsområde"},{"label":"Feilkilder"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:modellering-og-optimering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:modellering-og-optimering', 'Problemstilling', 'Hva arbeidet skal finne ut.', 0),
+  ('matematikk-r1:modellering-og-optimering', 'Pålitelig kilde', 'For eksempel SSB, Meteorologisk institutt eller forskningsinstitusjoner.', 1),
+  ('matematikk-r1:modellering-og-optimering', 'Regresjon', 'Å finne modellen som passer best til dataene.', 2),
+  ('matematikk-r1:modellering-og-optimering', 'Residual', 'Avviket mellom datapunkt og modell.', 3),
+  ('matematikk-r1:modellering-og-optimering', 'Mønster i residualene', 'Tegn på at modelltypen passer dårlig.', 4),
+  ('matematikk-r1:modellering-og-optimering', 'Polynom av høy grad', 'Kan passe dataene perfekt, men oppføre seg urimelig utenfor dem.', 5),
+  ('matematikk-r1:modellering-og-optimering', 'f′(t) i en modell', 'Vekstfarten, med enhet per tidsenhet.', 6),
+  ('matematikk-r1:modellering-og-optimering', 'Vendepunkt i en modell', 'Når endringen er raskest.', 7),
+  ('matematikk-r1:modellering-og-optimering', 'Optimering', 'Å finne størst eller minst verdi, ofte med derivasjon.', 8),
+  ('matematikk-r1:modellering-og-optimering', 'Steg 1 i optimering', 'Skriv størrelsen som skal optimeres, som en funksjon av én variabel.', 9),
+  ('matematikk-r1:modellering-og-optimering', 'Definisjonsmengde i optimering', 'Bestemmes av situasjonen, for eksempel 0 < x < 15.', 10),
+  ('matematikk-r1:modellering-og-optimering', 'Eske av 30 cm-plate', 'Største volum 2000 cm³ ved x = 5 cm.', 11),
+  ('matematikk-r1:modellering-og-optimering', 'Innhegning med 100 m gjerde mot vegg', 'Største areal 1250 m² ved x = 25 m.', 12),
+  ('matematikk-r1:modellering-og-optimering', 'Sjekk endepunktene', 'Største eller minste verdi kan ligge i endepunktene.', 13),
+  ('matematikk-r1:modellering-og-optimering', 'Forutsetninger', 'Det modellen bygger på – må vurderes.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:modellering-og-optimering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:modellering-og-optimering', 'q01', 'flervalg', 'Hva forteller et tydelig mønster i residualene?', array['At modellen er perfekt', 'At modelltypen kanskje passer dårlig', 'At dataene er feil', 'At regresjonen er ugyldig']::text[], 1, 'Tilfeldige residualer tyder på god modelltype.', true, true, 0),
+  ('matematikk-r1:modellering-og-optimering', 'q02', 'flervalg', 'Hvilken modelltype passer til data som vokser mot en øvre grense?', array['Logistisk', 'Lineær', 'Eksponentiell', 'Andregrads polynom med positiv x²-koeffisient']::text[], 0, 'Den har en bæreevne.', true, true, 1),
+  ('matematikk-r1:modellering-og-optimering', 'q03', 'flervalg', 'Hva er største volum for en eske laget av en 30 cm × 30 cm plate?', array['1000 cm³', '4500 cm³', '2000 cm³', '900 cm³']::text[], 2, 'V(5) = 5 · 20².', true, true, 2),
+  ('matematikk-r1:modellering-og-optimering', 'q04', 'flervalg', 'Hva er største areal for en innhegning med 100 m gjerde mot en vegg?', array['625 m²', '2500 m²', '5000 m²', '1250 m²']::text[], 3, 'x = 25 gir 25 · 50.', true, true, 3),
+  ('matematikk-r1:modellering-og-optimering', 'q05', 'flervalg', 'Hvorfor kan et polynom av høy grad være en dårlig modell?', array['Det kan oppføre seg urimelig utenfor dataområdet', 'Det passer aldri dataene', 'Det kan ikke deriveres', 'Det er alltid lineært']::text[], 0, 'Det kan svinge kraftig.', true, true, 4),
+  ('matematikk-r1:modellering-og-optimering', 'q06', 'flervalg', 'Hva er det første steget i et optimeringsproblem?', array['Derivere', 'Skrive størrelsen som skal optimeres, som en funksjon av én variabel', 'Tegne grafen', 'Sette x = 0']::text[], 1, 'Deretter kan du derivere.', true, true, 5),
+  ('matematikk-r1:modellering-og-optimering', 'q07', 'flervalg', 'N(t) er antall fisk etter t år. Hva er enheten til N′(t)?', array['Fisk', 'År', 'Fisk per år', 'År per fisk']::text[], 2, 'y-enhet per x-enhet.', true, true, 6),
+  ('matematikk-r1:modellering-og-optimering', 'q08', 'flervalg', 'Hvorfor må du sjekke endepunktene i et optimeringsproblem?', array['Fordi f′ alltid er null der', 'Fordi modellen ikke gjelder der', 'Fordi de alltid gir minst verdi', 'Fordi største eller minste verdi kan ligge der']::text[], 3, 'Globale ekstremalverdier kan ligge i endepunktene.', true, true, 7),
+  ('matematikk-r1:modellering-og-optimering', 'q09', 'flervalg', 'Hvilken kilde er god for norske befolkningsdata?', array['Statistisk sentralbyrå', 'En tilfeldig blogg', 'Et reklameinnslag', 'En gammel lærebok uten kildehenvisning']::text[], 0, 'Offisiell statistikk.', true, false, 8),
+  ('matematikk-r1:modellering-og-optimering', 'q10', 'flervalg', 'Hva viser et vendepunkt i en modell av en populasjon?', array['Når populasjonen er størst', 'Når populasjonen vokser raskest', 'Når populasjonen er null', 'Når modellen slutter å gjelde']::text[], 1, 'Vekstfarten har et maksimum.', true, false, 9),
+  ('matematikk-r1:modellering-og-optimering', 'm01', 'sant-usant', 'En modell er alltid en forenkling av virkeligheten.', array['Sant', 'Usant']::text[], 0, 'Derfor må forutsetningene vurderes.', false, true, 10),
+  ('matematikk-r1:modellering-og-optimering', 'm02', 'sant-usant', 'Det er ikke nødvendig å oppgi kilder for dataene.', array['Sant', 'Usant']::text[], 1, 'Kilder må alltid oppgis.', false, true, 11),
+  ('matematikk-r1:modellering-og-optimering', 'm03', 'sant-usant', 'I eskeeksempelet er definisjonsmengden 0 < x < 15.', array['Sant', 'Usant']::text[], 0, 'Ellers blir en side null eller negativ.', false, true, 12),
+  ('matematikk-r1:modellering-og-optimering', 'm04', 'sant-usant', 'Løsningen av f′(x) = 0 gir alltid et maksimum.', array['Sant', 'Usant']::text[], 1, 'Det kan også være et minimum eller terrassepunkt.', false, true, 13),
+  ('matematikk-r1:modellering-og-optimering', 'm05', 'flervalg', 'En bedrift har fortjenesten P(x) = −2x² + 80x − 300. Hvilken x gir størst fortjeneste?', array['x = 40', 'x = 20', 'x = 80', 'x = 15']::text[], 1, 'P′(x) = −4x + 80 = 0.', false, true, 14),
+  ('matematikk-r1:modellering-og-optimering', 'm06', 'flervalg', 'Hvilken modell passer for data som øker med omtrent 3 % per år?', array['Eksponentiell', 'Lineær', 'Logistisk', 'Konstant']::text[], 0, 'Fast prosentvis vekst.', false, true, 15),
+  ('matematikk-r1:modellering-og-optimering', 'm07', 'flervalg', 'Hva er V′(x) for V(x) = x(30 − 2x)²?', array['(30 − 2x)²', '−4x(30 − 2x)', '(30 − 2x)(30 − 6x)', '30 − 6x']::text[], 2, 'Produkt- og kjerneregelen, deretter faktorisering.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:modellering-og-optimering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Vektorer i planet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:vektorer', 'matematikk-r1', 'vektorer', 'Vektorer i planet', 'Hva en vektor er, vektorer på koordinatform, regneregler, lengde, parallelle vektorer, skalarproduktet og vinkler – og hvordan vektorer brukes til krefter, fart og arbeid.', array[12]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:vektorer', '## Hva er en vektor?
+
+En **vektor** har både **lengde** og **retning**. Den tegnes som en **pil**. To vektorer er **like** hvis de har samme lengde og samme retning, uansett hvor de starter. **Skalarer** har bare størrelse, som masse og temperatur, mens **forflytning**, **fart** og **kraft** er vektorer.
+
+Vektoren fra A til B skrives **AB⃗**.
+
+## Koordinatform
+
+I et koordinatsystem skrives en vektor som **[x, y]**. Fra A(1, 2) til B(4, 6) er
+
+**AB⃗ = [4 − 1, 6 − 2] = [3, 4]**
+
+«Sluttpunkt minus startpunkt.»
+
+## Regneregler
+
+- **Sum**: [a, b] + [c, d] = [a + c, b + d]. Geometrisk legger vi vektorene **etter hverandre**.
+- **Differanse**: [a, b] − [c, d] = [a − c, b − d].
+- **Multiplikasjon med tall**: t · [a, b] = [ta, tb]. Vektoren blir t ganger så lang; er t negativ, snur retningen.
+- **Nullvektoren** er [0, 0].
+
+## Lengde
+
+Lengden (absoluttverdien) av u⃗ = [a, b] finner vi med Pytagoras:
+
+**|u⃗| = √(a² + b²)**
+
+|[3, 4]| = √(9 + 16) = **5**. Avstanden mellom A og B er altså 5.
+
+## Parallelle vektorer
+
+u⃗ og v⃗ er **parallelle** hvis det finnes et tall t slik at **u⃗ = t · v⃗**. [2, 6] og [1, 3] er parallelle, fordi [2, 6] = 2 · [1, 3].
+
+## Skalarproduktet
+
+Skalarproduktet gir et **tall**, ikke en vektor:
+
+**u⃗ · v⃗ = |u⃗| · |v⃗| · cos θ**
+
+der θ er vinkelen mellom vektorene. På koordinatform:
+
+**[a, b] · [c, d] = ac + bd**
+
+**Viktig**: u⃗ · v⃗ = 0 betyr at vektorene står **vinkelrett** på hverandre (når ingen av dem er nullvektoren).
+
+**Eksempel**: [3, 4] · [4, −3] = 12 − 12 = **0**, så vektorene er vinkelrette.
+
+**Vinkel mellom vektorer**: For [1, 0] og [1, 1] er
+
+cos θ = (1 · 1 + 0 · 1) / (1 · √2) = 1/√2, så **θ = 45°**.
+
+## Anvendelser
+
+- **Krefter**: Summen av kreftene på et legeme er **vektorsummen**. Kraftene [3, 0] N og [0, 4] N gir en kraftsum med størrelse 5 N.
+- **Fart**: En båt som krysser en elv, får en fart som er summen av båtens fart i vannet og strømmens fart.
+- **Arbeid**: Arbeidet en kraft gjør, er skalarproduktet av kraften og forflytningen: **W = F⃗ · s⃗**. Kraften [3, 4] N langs forflytningen [2, 0] m gir W = 6 + 0 = **6 J**.
+- **Geometri**: Vektorer kan vise at linjer er parallelle eller vinkelrette, og finne **midtpunkter**: Midtpunktet mellom A(1, 2) og B(4, 6) er (2,5; 4).', '{"label":"Vektorer","children":[{"label":"Begrep","children":[{"label":"Lengde og retning"},{"label":"Vektor og skalar"}]},{"label":"Koordinatform","children":[{"label":"[x, y]"},{"label":"Slutt minus start"}]},{"label":"Regning","children":[{"label":"Sum og differanse"},{"label":"Tall ganger vektor"},{"label":"Lengde √(a² + b²)"}]},{"label":"Skalarprodukt","children":[{"label":"ac + bd"},{"label":"|u||v| cos θ"},{"label":"Vinkelrett når 0"}]},{"label":"Anvendelser","children":[{"label":"Krefter"},{"label":"Fart"},{"label":"Arbeid"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:vektorer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:vektorer', 'Vektor', 'Størrelse med både lengde og retning.', 0),
+  ('matematikk-r1:vektorer', 'Skalar', 'Størrelse med bare tallverdi, som masse.', 1),
+  ('matematikk-r1:vektorer', 'AB⃗ på koordinatform', 'Sluttpunkt minus startpunkt.', 2),
+  ('matematikk-r1:vektorer', 'Fra A(1, 2) til B(4, 6)', '[3, 4]', 3),
+  ('matematikk-r1:vektorer', 'Vektorsum', '[a, b] + [c, d] = [a + c, b + d]', 4),
+  ('matematikk-r1:vektorer', 't · [a, b]', '[ta, tb]', 5),
+  ('matematikk-r1:vektorer', 'Lengden av [a, b]', '√(a² + b²)', 6),
+  ('matematikk-r1:vektorer', '|[3, 4]|', '5', 7),
+  ('matematikk-r1:vektorer', 'Parallelle vektorer', 'u⃗ = t · v⃗ for et tall t.', 8),
+  ('matematikk-r1:vektorer', 'Skalarprodukt', 'u⃗ · v⃗ = |u⃗| · |v⃗| · cos θ', 9),
+  ('matematikk-r1:vektorer', 'Skalarprodukt på koordinatform', '[a, b] · [c, d] = ac + bd', 10),
+  ('matematikk-r1:vektorer', 'u⃗ · v⃗ = 0', 'Vektorene står vinkelrett på hverandre.', 11),
+  ('matematikk-r1:vektorer', 'Vinkel mellom [1, 0] og [1, 1]', '45°', 12),
+  ('matematikk-r1:vektorer', 'Arbeid som skalarprodukt', 'W = F⃗ · s⃗', 13),
+  ('matematikk-r1:vektorer', 'Nullvektoren', '[0, 0]', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:vektorer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:vektorer', 'q01', 'flervalg', 'Hva er AB⃗ når A(1, 2) og B(4, 6)?', array['[5, 8]', '[3, 4]', '[−3, −4]', '[4, 3]']::text[], 1, 'Sluttpunkt minus startpunkt.', true, true, 0),
+  ('matematikk-r1:vektorer', 'q02', 'flervalg', 'Hva er lengden av [3, 4]?', array['5', '7', '25', '12']::text[], 0, '√(9 + 16).', true, true, 1),
+  ('matematikk-r1:vektorer', 'q03', 'flervalg', 'Hva er [3, 4] · [4, −3]?', array['[12, −12]', '25', '0', '24']::text[], 2, '12 − 12 = 0 – vektorene er vinkelrette.', true, true, 2),
+  ('matematikk-r1:vektorer', 'q04', 'flervalg', 'Når står to vektorer (ulik nullvektoren) vinkelrett på hverandre?', array['Når de er like lange', 'Når summen er null', 'Når de er parallelle', 'Når skalarproduktet er null']::text[], 3, 'cos 90° = 0.', true, true, 3),
+  ('matematikk-r1:vektorer', 'q05', 'flervalg', 'Er [2, 6] og [1, 3] parallelle?', array['Ja, fordi [2, 6] = 2 · [1, 3]', 'Nei, de har ulik lengde', 'Nei, skalarproduktet er ikke null', 'Bare hvis de starter i samme punkt']::text[], 0, 'Den ene er et tall ganger den andre.', true, true, 4),
+  ('matematikk-r1:vektorer', 'q06', 'flervalg', 'Hva er vinkelen mellom [1, 0] og [1, 1]?', array['30°', '45°', '60°', '90°']::text[], 1, 'cos θ = 1/√2.', true, true, 5),
+  ('matematikk-r1:vektorer', 'q07', 'flervalg', 'Kraften [3, 4] N virker langs forflytningen [2, 0] m. Hvor stort er arbeidet?', array['10 J', '14 J', '6 J', '0 J']::text[], 2, 'W = 3 · 2 + 4 · 0.', true, true, 6),
+  ('matematikk-r1:vektorer', 'q08', 'flervalg', 'Hva er resultatet av et skalarprodukt?', array['En vektor', 'En matrise', 'En vinkel alltid', 'Et tall']::text[], 3, 'Derav navnet skalar.', true, true, 7),
+  ('matematikk-r1:vektorer', 'q09', 'flervalg', 'Hva er [2, −1] + [3, 5]?', array['[5, 4]', '[6, −5]', '[−1, −6]', '[5, 6]']::text[], 0, 'Legg sammen koordinatene hver for seg.', true, false, 8),
+  ('matematikk-r1:vektorer', 'q10', 'flervalg', 'Hva skjer med en vektor som multipliseres med −2?', array['Den blir halvparten så lang', 'Den blir dobbelt så lang og snur retning', 'Den forsvinner', 'Den dreies 90°']::text[], 1, 'Negativt tall snur retningen.', true, false, 9),
+  ('matematikk-r1:vektorer', 'm01', 'sant-usant', 'To vektorer med samme lengde og retning er like, uansett hvor de starter.', array['Sant', 'Usant']::text[], 0, 'En vektor er bestemt av lengde og retning.', false, true, 10),
+  ('matematikk-r1:vektorer', 'm02', 'sant-usant', 'Temperatur er en vektor.', array['Sant', 'Usant']::text[], 1, 'Temperatur er en skalar.', false, true, 11),
+  ('matematikk-r1:vektorer', 'm03', 'sant-usant', 'Kraftene [3, 0] N og [0, 4] N gir en kraftsum med størrelse 5 N.', array['Sant', 'Usant']::text[], 0, '|[3, 4]| = 5.', false, true, 12),
+  ('matematikk-r1:vektorer', 'm04', 'sant-usant', 'Skalarproduktet av to parallelle vektorer er alltid null.', array['Sant', 'Usant']::text[], 1, 'Det er vinkelrette vektorer som gir null.', false, true, 13),
+  ('matematikk-r1:vektorer', 'm05', 'flervalg', 'Hva er midtpunktet mellom A(1, 2) og B(4, 6)?', array['(3, 4)', '(2,5; 4)', '(5, 8)', '(1,5; 2)']::text[], 1, 'Gjennomsnittet av koordinatene.', false, true, 14),
+  ('matematikk-r1:vektorer', 'm06', 'flervalg', 'For hvilken t er [t, 2] vinkelrett på [4, −2]?', array['t = 1', 't = −1', 't = 4', 't = 0']::text[], 0, '4t − 4 = 0.', false, true, 15),
+  ('matematikk-r1:vektorer', 'm07', 'flervalg', 'Hva er lengden av [−6, 8]?', array['2', '14', '10', '100']::text[], 2, '√(36 + 64).', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:vektorer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk R1: Parameterframstillinger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-r1:parameterframstillinger', 'matematikk-r1', 'parameterframstillinger', 'Parameterframstillinger', 'Parameterframstilling av linjer med retningsvektor, å sjekke om punkter ligger på en linje, skjæringspunkter, kurver beskrevet med parameter, og hvordan dette brukes til bevegelse, fart og skrått kast.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-r1:parameterframstillinger', '## Linje med retningsvektor
+
+En linje er bestemt av **ett punkt** P(x₀, y₀) og en **retningsvektor** r⃗ = [a, b]. Alle punkter på linjen kan skrives
+
+**x = x₀ + a · t**
+**y = y₀ + b · t**
+
+Tallet t kalles **parameteren**. Hver verdi av t gir ett punkt på linjen.
+
+**Eksempel**: Linjen gjennom A(1, 2) og B(4, 6) har retningsvektor AB⃗ = [3, 4]:
+
+x = 1 + 3t, y = 2 + 4t
+
+t = 0 gir A, t = 1 gir B, og t = 0,5 gir midtpunktet (2,5; 4).
+
+## Ligger punktet på linjen?
+
+Sett punktets koordinater inn og se om **samme t** passer i begge likningene.
+
+**Eksempel**: Ligger (7, 10) på linjen over? 1 + 3t = 7 gir t = 2. Da er y = 2 + 4 · 2 = 10. **Ja**, punktet ligger på linjen.
+
+## Skjæringspunkt mellom to linjer
+
+Bruk **ulike parametere** for de to linjene, for eksempel t og s, og sett koordinatene like:
+
+l: x = 1 + 3t, y = 2 + 4t og m: x = 7 − s, y = 2 + s
+
+1 + 3t = 7 − s og 2 + 4t = 2 + s. Fra den andre er s = 4t, som gir 1 + 3t = 7 − 4t, altså t = 6/7. Skjæringspunktet blir (1 + 18/7, 2 + 24/7) = **(25/7, 38/7)**.
+
+**Parallelle linjer** har parallelle retningsvektorer. De skjærer hverandre ikke, med mindre de er samme linje.
+
+## Fra parameterform til y = ax + b
+
+Løs den ene likningen for t og sett inn i den andre. Fra x = 1 + 3t får vi t = (x − 1)/3, og y = 2 + 4(x − 1)/3 = (4/3)x + 2/3. Stigningstallet er **b/a = 4/3**.
+
+## Bevegelse og kurver
+
+Når t er **tid**, beskriver parameterframstillingen en **bane**:
+
+**r⃗(t) = [x(t), y(t)]** – posisjonsvektoren
+
+- **Farten** er den deriverte: v⃗(t) = r⃗′(t) = [x′(t), y′(t)]
+- **Banefarten** er lengden |v⃗(t)|
+- **Akselerasjonen** er a⃗(t) = v⃗′(t)
+
+For en linje med konstant fart er v⃗ = [a, b] hele tiden, og banefarten er √(a² + b²).
+
+## Skrått kast
+
+En ball sparkes med startfart v₀ = 20 m/s i vinkelen α = 30° med bakken. Uten luftmotstand er
+
+x(t) = v₀ cos α · t ≈ 17,3t
+y(t) = v₀ sin α · t − ½ g t² = 10t − 4,905t²
+
+- Ballen lander når y = 0: t = 10/4,905 ≈ **2,04 s**.
+- Lengden på kastet: x(2,04) ≈ **35 m**.
+- Største høyde: v_y = 10 − 9,81t = 0 gir t ≈ 1,02 s og y ≈ **5,1 m**.
+
+## Andre kurver
+
+Med parameter kan vi også beskrive kurver som ikke er grafer av funksjoner, for eksempel en **sirkel**: x = r cos t, y = r sin t. Også to båter eller fly kan modelleres: Kolliderer de, må de være på **samme sted** ved **samme t**.', '{"label":"Parameterframstillinger","children":[{"label":"Linjer","children":[{"label":"Punkt og retningsvektor"},{"label":"x = x₀ + at, y = y₀ + bt"}]},{"label":"Oppgavetyper","children":[{"label":"Punkt på linjen?"},{"label":"Skjæringspunkt"},{"label":"Til y = ax + b"}]},{"label":"Bevegelse","children":[{"label":"Posisjonsvektor"},{"label":"Fartsvektor og banefart"},{"label":"Akselerasjon"}]},{"label":"Skrått kast","children":[{"label":"x = v₀ cos α t"},{"label":"y = v₀ sin α t − ½gt²"}]},{"label":"Andre kurver","children":[{"label":"Sirkel"},{"label":"Kollisjoner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-r1:parameterframstillinger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-r1:parameterframstillinger', 'Parameterframstilling av linje', 'x = x₀ + at, y = y₀ + bt', 0),
+  ('matematikk-r1:parameterframstillinger', 'Retningsvektor', 'Vektor som angir linjens retning, som [a, b].', 1),
+  ('matematikk-r1:parameterframstillinger', 'Parameter', 'Tallet t som gir ett punkt på linjen for hver verdi.', 2),
+  ('matematikk-r1:parameterframstillinger', 'Linjen gjennom A(1, 2) og B(4, 6)', 'x = 1 + 3t, y = 2 + 4t', 3),
+  ('matematikk-r1:parameterframstillinger', 'Ligger punktet på linjen?', 'Samme t må passe i begge likningene.', 4),
+  ('matematikk-r1:parameterframstillinger', 'Skjæringspunkt mellom linjer', 'Bruk ulike parametere og sett koordinatene like.', 5),
+  ('matematikk-r1:parameterframstillinger', 'Parallelle linjer', 'Har parallelle retningsvektorer.', 6),
+  ('matematikk-r1:parameterframstillinger', 'Stigningstall fra [a, b]', 'b/a', 7),
+  ('matematikk-r1:parameterframstillinger', 'Posisjonsvektor', 'r⃗(t) = [x(t), y(t)]', 8),
+  ('matematikk-r1:parameterframstillinger', 'Fartsvektor', 'v⃗(t) = r⃗′(t)', 9),
+  ('matematikk-r1:parameterframstillinger', 'Banefart', '|v⃗(t)|', 10),
+  ('matematikk-r1:parameterframstillinger', 'Skrått kast, x(t)', 'v₀ cos α · t', 11),
+  ('matematikk-r1:parameterframstillinger', 'Skrått kast, y(t)', 'v₀ sin α · t − ½gt²', 12),
+  ('matematikk-r1:parameterframstillinger', 'Sirkel med parameter', 'x = r cos t, y = r sin t', 13),
+  ('matematikk-r1:parameterframstillinger', 'Kollisjon', 'Samme sted ved samme t.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-r1:parameterframstillinger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-r1:parameterframstillinger', 'q01', 'flervalg', 'Hva er en parameterframstilling av linjen gjennom A(1, 2) med retningsvektor [3, 4]?', array['x = 3 + t, y = 4 + 2t', 'x = 1 + 3t, y = 2 + 4t', 'y = 3x + 4', 'x = 1 + 4t, y = 2 + 3t']::text[], 1, 'Startpunkt pluss t ganger retningsvektor.', true, true, 0),
+  ('matematikk-r1:parameterframstillinger', 'q02', 'flervalg', 'Ligger (7, 10) på linjen x = 1 + 3t, y = 2 + 4t?', array['Ja, t = 2 passer i begge', 'Nei', 'Bare hvis t = 7', 'Det kan ikke avgjøres']::text[], 0, 'x = 7 gir t = 2, og da er y = 10.', true, true, 1),
+  ('matematikk-r1:parameterframstillinger', 'q03', 'flervalg', 'Hva er stigningstallet til linjen med retningsvektor [3, 4]?', array['3/4', '12', '4/3', '7']::text[], 2, 'b/a.', true, true, 2),
+  ('matematikk-r1:parameterframstillinger', 'q04', 'flervalg', 'Hvorfor bruker vi ulike parametere når vi finner skjæringspunktet mellom to linjer?', array['For at regningen skal bli kortere', 'Fordi linjene er parallelle', 'Fordi t alltid er tid', 'Fordi punktet kan nås ved ulike parameterverdier på de to linjene']::text[], 3, 't og s er uavhengige.', true, true, 3),
+  ('matematikk-r1:parameterframstillinger', 'q05', 'flervalg', 'Hvordan finner du fartsvektoren når posisjonen er r⃗(t) = [x(t), y(t)]?', array['Deriver hver koordinat', 'Integrer', 'Del på t', 'Ta lengden']::text[], 0, 'v⃗(t) = [x′(t), y′(t)].', true, true, 4),
+  ('matematikk-r1:parameterframstillinger', 'q06', 'flervalg', 'En ball sparkes med 20 m/s i 30° vinkel. Omtrent når lander den (uten luftmotstand)?', array['1,0 s', '2,0 s', '4,1 s', '0,5 s']::text[], 1, '10t − 4,905t² = 0 gir t ≈ 2,04 s.', true, true, 5),
+  ('matematikk-r1:parameterframstillinger', 'q07', 'flervalg', 'Hva er banefarten når v⃗ = [3, 4] m/s?', array['7 m/s', '12 m/s', '5 m/s', '1 m/s']::text[], 2, '|[3, 4]| = 5.', true, true, 6),
+  ('matematikk-r1:parameterframstillinger', 'q08', 'flervalg', 'Hvilken parameterframstilling beskriver en sirkel med radius r om origo?', array['x = rt, y = rt', 'x = r + t, y = r − t', 'x = t, y = t²', 'x = r cos t, y = r sin t']::text[], 3, 'cos² t + sin² t = 1.', true, true, 7),
+  ('matematikk-r1:parameterframstillinger', 'q09', 'flervalg', 'Hvilket punkt gir t = 0,5 på linjen x = 1 + 3t, y = 2 + 4t?', array['(2,5; 4)', '(4, 6)', '(1, 2)', '(3, 4)']::text[], 0, 'Midtpunktet mellom A og B.', true, false, 8),
+  ('matematikk-r1:parameterframstillinger', 'q10', 'flervalg', 'Omtrent hvor høyt når ballen som sparkes med 20 m/s i 30° vinkel?', array['10 m', '5,1 m', '20 m', '2 m']::text[], 1, 'v_y = 10 m/s gir h = 10²/(2 · 9,81).', true, false, 9),
+  ('matematikk-r1:parameterframstillinger', 'm01', 'sant-usant', 'En linje har mange ulike parameterframstillinger.', array['Sant', 'Usant']::text[], 0, 'Du kan velge ulike startpunkter og retningsvektorer.', false, true, 10),
+  ('matematikk-r1:parameterframstillinger', 'm02', 'sant-usant', 'To linjer med parallelle retningsvektorer skjærer hverandre alltid i ett punkt.', array['Sant', 'Usant']::text[], 1, 'De er parallelle eller sammenfallende.', false, true, 11),
+  ('matematikk-r1:parameterframstillinger', 'm03', 'sant-usant', 'I et skrått kast uten luftmotstand er farten i x-retningen konstant.', array['Sant', 'Usant']::text[], 0, 'Ingen kraft virker vannrett.', false, true, 12),
+  ('matematikk-r1:parameterframstillinger', 'm04', 'sant-usant', 'To båter kolliderer hvis banene deres krysser hverandre.', array['Sant', 'Usant']::text[], 1, 'De må være på samme sted ved samme tid.', false, true, 13),
+  ('matematikk-r1:parameterframstillinger', 'm05', 'flervalg', 'Hvilken retningsvektor har linjen y = 2x + 1?', array['[2, 1]', '[1, 2]', '[1, 1]', '[0, 2]']::text[], 1, 'Stigningstall 2 = b/a med a = 1, b = 2.', false, true, 14),
+  ('matematikk-r1:parameterframstillinger', 'm06', 'flervalg', 'Hva er y(t) i et skrått kast med startfart i y-retning 10 m/s?', array['10t − 4,905t²', '10t + 4,905t²', '10 − 9,81t', '4,905t²']::text[], 0, 'y = v₀y · t − ½gt².', false, true, 15),
+  ('matematikk-r1:parameterframstillinger', 'm07', 'flervalg', 'Hva er akselerasjonsvektoren i et skrått kast uten luftmotstand?', array['[0, 0]', '[9,81, 0]', '[0, −9,81] m/s²', '[v₀, 0]']::text[], 2, 'Bare tyngdekraften virker.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-r1:parameterframstillinger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'matematikk-s1' and slug not in ('algebra-og-resonnement', 'grenseverdier-og-kontinuitet', 'vekstfart-og-derivasjon', 'funksjonsanalyse-med-derivasjon', 'okonomisk-optimering', 'potenser-og-logaritmer', 'modellering-med-samfunnsdata', 'kombinatorikk', 'sannsynlighet-og-simulering', 'binomisk-fordeling', 'hypergeometrisk-fordeling');
+
+-- Matematikk S1: Algebra og matematiske resonnementer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:algebra-og-resonnement', 'matematikk-s1', 'algebra-og-resonnement', 'Algebra og matematiske resonnementer', 'Symbolspråk og logiske tegn, faktorisering og rasjonale uttrykk, likningssett, andregradsulikheter og rasjonale ulikheter med fortegnslinje – og hvordan du fører enkle bevis.', array[2]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:algebra-og-resonnement', '## Matematisk symbolspråk
+
+Matematikk er et **presist språk**. Noen viktige tegn:
+
+- **⇒** «medfører»: x = 2 ⇒ x² = 4. Det motsatte gjelder ikke, for x² = 4 kan også bety x = −2.
+- **⇔** «er ekvivalent med»: x + 3 = 5 ⇔ x = 2.
+- **∈** «er element i»: 3 ∈ ℕ.
+- **Intervaller**: [2, 5⟩ betyr alle tall fra og med 2 til 5, men ikke 5.
+
+Bruk tegnene **riktig**: ⇔ skal bare stå mellom utsagn som er sanne for nøyaktig de samme verdiene.
+
+## Faktorisering
+
+- **Felles faktor**: 6x² + 9x = 3x(2x + 3)
+- **Kvadratsetningene og konjugatsetningen**: x² − 9 = (x − 3)(x + 3)
+- **Andregradsuttrykk**: Finn nullpunktene x₁ og x₂, og skriv ax² + bx + c = a(x − x₁)(x − x₂). Eksempel: x² − 5x + 6 = **(x − 2)(x − 3)**.
+
+## Rasjonale uttrykk
+
+Faktoriser teller og nevner og **forkort** felles faktorer:
+
+(x² − 9) / (x² + 3x) = (x − 3)(x + 3) / (x(x + 3)) = **(x − 3) / x**
+
+Husk at uttrykket bare er definert når nevneren ikke er null – her er x ≠ 0 og x ≠ −3.
+
+## Likningssett
+
+To likninger med to ukjente kan løses med **innsettingsmetoden** eller **addisjonsmetoden**.
+
+2x + y = 7 og x − y = 2. Legger vi sammen, får vi 3x = 9, altså **x = 3** og **y = 1**.
+
+Grafisk er løsningen **skjæringspunktet** mellom to linjer.
+
+## Andregradsulikheter
+
+1. Flytt alt over på én side.
+2. **Faktoriser**.
+3. Lag **fortegnslinje** for hver faktor og for produktet.
+4. Les av svaret.
+
+**Eksempel**: x² − x − 6 < 0 ⇔ (x − 3)(x + 2) < 0. Produktet er negativt mellom nullpunktene, så **−2 < x < 3**.
+
+## Rasjonale ulikheter
+
+(x − 1) / (x + 2) ≥ 0: Telleren er null i x = 1 og nevneren i x = −2. Fortegnslinjen gir **x < −2 eller x ≥ 1**. x = −2 er ikke med, fordi vi ikke kan dele på null. **Gang aldri** med et uttrykk med x uten å vite fortegnet – bruk fortegnslinje i stedet.
+
+## Enkle bevis
+
+Et **bevis** viser at noe gjelder **alltid**, ikke bare i noen eksempler.
+
+**Påstand**: Summen av to oddetall er et partall.
+
+**Bevis**: To oddetall kan skrives 2m + 1 og 2n + 1, der m og n er hele tall. Summen er 2m + 2n + 2 = **2(m + n + 1)**, som er delelig med 2. ∎
+
+**Påstand**: Summen av tre påfølgende hele tall er delelig med 3.
+
+**Bevis**: n + (n + 1) + (n + 2) = 3n + 3 = **3(n + 1)**. ∎
+
+Et **moteksempel** er nok til å vise at en påstand er **usann**: «Alle primtall er oddetall» motbevises av tallet 2.', '{"label":"Algebra og resonnement","children":[{"label":"Symbolspråk","children":[{"label":"⇒ og ⇔"},{"label":"∈ og intervaller"}]},{"label":"Faktorisering","children":[{"label":"Felles faktor"},{"label":"Konjugatsetningen"},{"label":"Nullpunktsmetoden"}]},{"label":"Uttrykk og likninger","children":[{"label":"Rasjonale uttrykk"},{"label":"Likningssett"}]},{"label":"Ulikheter","children":[{"label":"Andregrads"},{"label":"Rasjonale"},{"label":"Fortegnslinje"}]},{"label":"Bevis","children":[{"label":"Generelt argument"},{"label":"Moteksempel"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:algebra-og-resonnement';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:algebra-og-resonnement', '⇒', 'Medfører – gjelder bare én vei.', 0),
+  ('matematikk-s1:algebra-og-resonnement', '⇔', 'Er ekvivalent med – gjelder begge veier.', 1),
+  ('matematikk-s1:algebra-og-resonnement', '[2, 5⟩', 'Fra og med 2 til, men ikke med, 5.', 2),
+  ('matematikk-s1:algebra-og-resonnement', 'Konjugatsetningen', 'a² − b² = (a − b)(a + b)', 3),
+  ('matematikk-s1:algebra-og-resonnement', 'Faktorisering av ax² + bx + c', 'a(x − x₁)(x − x₂), der x₁ og x₂ er nullpunktene.', 4),
+  ('matematikk-s1:algebra-og-resonnement', 'x² − 5x + 6', '(x − 2)(x − 3)', 5),
+  ('matematikk-s1:algebra-og-resonnement', 'Forkorting', 'Del teller og nevner med samme faktor.', 6),
+  ('matematikk-s1:algebra-og-resonnement', 'Definisjonsmengde for brøkuttrykk', 'Nevneren kan ikke være null.', 7),
+  ('matematikk-s1:algebra-og-resonnement', 'Addisjonsmetoden', 'Legg sammen likningene slik at én ukjent forsvinner.', 8),
+  ('matematikk-s1:algebra-og-resonnement', 'Grafisk løsning av likningssett', 'Skjæringspunktet mellom linjene.', 9),
+  ('matematikk-s1:algebra-og-resonnement', 'Fortegnslinje', 'Viser hvor faktorer og produkt er positive og negative.', 10),
+  ('matematikk-s1:algebra-og-resonnement', 'x² − x − 6 < 0', '−2 < x < 3', 11),
+  ('matematikk-s1:algebra-og-resonnement', 'Bevis', 'Argument som viser at noe gjelder alltid.', 12),
+  ('matematikk-s1:algebra-og-resonnement', 'Moteksempel', 'Ett eksempel som viser at en påstand er usann.', 13),
+  ('matematikk-s1:algebra-og-resonnement', 'Oddetall på generell form', '2n + 1, der n er et helt tall.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:algebra-og-resonnement';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:algebra-og-resonnement', 'q01', 'flervalg', 'Hvordan faktoriseres x² − 5x + 6?', array['(x + 2)(x + 3)', '(x − 2)(x − 3)', '(x − 1)(x − 6)', '(x − 6)(x + 1)']::text[], 1, 'Nullpunktene er 2 og 3.', true, true, 0),
+  ('matematikk-s1:algebra-og-resonnement', 'q02', 'flervalg', 'Løs x² − x − 6 < 0.', array['−2 < x < 3', 'x < −2 eller x > 3', 'x > 3', '−3 < x < 2']::text[], 0, '(x − 3)(x + 2) er negativt mellom nullpunktene.', true, true, 1),
+  ('matematikk-s1:algebra-og-resonnement', 'q03', 'flervalg', 'Forenkle (x² − 9)/(x² + 3x).', array['(x + 3)/x', '−3', '(x − 3)/x', 'x − 3']::text[], 2, 'Faktoriser og forkort x + 3.', true, true, 2),
+  ('matematikk-s1:algebra-og-resonnement', 'q04', 'flervalg', 'Løs likningssettet 2x + y = 7 og x − y = 2.', array['x = 2, y = 3', 'x = 1, y = 5', 'x = 4, y = −1', 'x = 3, y = 1']::text[], 3, 'Addisjon gir 3x = 9.', true, true, 3),
+  ('matematikk-s1:algebra-og-resonnement', 'q05', 'flervalg', 'Hvilket utsagn er riktig?', array['x = 2 ⇒ x² = 4', 'x² = 4 ⇒ x = 2', 'x² = 4 ⇔ x = 2', 'x = 2 ⇔ x² = 4']::text[], 0, 'x² = 4 kan også gi x = −2.', true, true, 4),
+  ('matematikk-s1:algebra-og-resonnement', 'q06', 'flervalg', 'Løs (x − 1)/(x + 2) ≥ 0.', array['x ≥ 1', 'x < −2 eller x ≥ 1', '−2 < x ≤ 1', 'x ≤ −2 eller x ≥ 1']::text[], 1, 'x = −2 gir null i nevneren og er ikke med.', true, true, 5),
+  ('matematikk-s1:algebra-og-resonnement', 'q07', 'flervalg', 'Hvordan viser du at en påstand er usann?', array['Med mange eksempler der den stemmer', 'Med en graf', 'Med ett moteksempel', 'Det kan ikke vises']::text[], 2, 'Ett moteksempel er nok.', true, true, 6),
+  ('matematikk-s1:algebra-og-resonnement', 'q08', 'flervalg', 'Hvorfor er summen av tre påfølgende hele tall delelig med 3?', array['Fordi tallene er odde', 'Fordi det gjelder for 1, 2 og 3', 'Fordi summen er et primtall', 'Fordi n + (n + 1) + (n + 2) = 3(n + 1)']::text[], 3, 'Et generelt bevis.', true, true, 7),
+  ('matematikk-s1:algebra-og-resonnement', 'q09', 'flervalg', 'Hva betyr intervallet [2, 5⟩?', array['Fra og med 2 til, men ikke med, 5', 'Mellom 2 og 5, uten endepunktene', 'Fra og med 2 til og med 5', 'Bare tallene 2 og 5']::text[], 0, 'Hakeparentes inkluderer, spiss parentes ekskluderer.', true, false, 8),
+  ('matematikk-s1:algebra-og-resonnement', 'q10', 'flervalg', 'Hvilken faktorisering er riktig?', array['6x² + 9x = 3(2x² + 9x)', '6x² + 9x = 3x(2x + 3)', '6x² + 9x = 6x(x + 9)', '6x² + 9x = x(6 + 9x)']::text[], 1, 'Felles faktor 3x.', true, false, 9),
+  ('matematikk-s1:algebra-og-resonnement', 'm01', 'sant-usant', 'Summen av to oddetall er alltid et partall.', array['Sant', 'Usant']::text[], 0, '(2m + 1) + (2n + 1) = 2(m + n + 1).', false, true, 10),
+  ('matematikk-s1:algebra-og-resonnement', 'm02', 'sant-usant', 'Mange eksempler der en påstand stemmer, er et bevis.', array['Sant', 'Usant']::text[], 1, 'Et bevis må vise at det gjelder alltid.', false, true, 11),
+  ('matematikk-s1:algebra-og-resonnement', 'm03', 'sant-usant', '(x² − 9)/(x² + 3x) er ikke definert for x = −3.', array['Sant', 'Usant']::text[], 0, 'Nevneren blir null.', false, true, 12),
+  ('matematikk-s1:algebra-og-resonnement', 'm04', 'sant-usant', 'Du kan alltid gange begge sider av en ulikhet med x + 2.', array['Sant', 'Usant']::text[], 1, 'Er x + 2 negativ, snur ulikhetstegnet – bruk fortegnslinje.', false, true, 13),
+  ('matematikk-s1:algebra-og-resonnement', 'm05', 'flervalg', 'Hvordan faktoriseres x² − 16?', array['(x − 4)²', '(x − 4)(x + 4)', '(x − 8)(x + 2)', 'x(x − 16)']::text[], 1, 'Konjugatsetningen.', false, true, 14),
+  ('matematikk-s1:algebra-og-resonnement', 'm06', 'flervalg', 'Hvilket tall er et moteksempel til «alle primtall er oddetall»?', array['2', '3', '9', '1']::text[], 0, '2 er et partall og et primtall.', false, true, 15),
+  ('matematikk-s1:algebra-og-resonnement', 'm07', 'flervalg', 'Løs x² − 4x ≥ 0.', array['0 ≤ x ≤ 4', 'x ≥ 4', 'x ≤ 0 eller x ≥ 4', 'x ≤ −4 eller x ≥ 0']::text[], 2, 'x(x − 4) ≥ 0 utenfor nullpunktene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:algebra-og-resonnement', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Grenseverdier og kontinuitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'matematikk-s1', 'grenseverdier-og-kontinuitet', 'Grenseverdier og kontinuitet', 'Hva grenseverdier er og hvordan du bestemmer dem, grenser mot uendelig og asymptoter, kontinuitet og sprang – med anvendelser fra økonomi som enhetskostnad, mengderabatt, parkering og trinnskatt.', array[4, 9]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:grenseverdier-og-kontinuitet', '## Grenseverdier
+
+**lim ₓ→ₐ f(x) = L** betyr at f(x) kommer så nær L vi vil, når x kommer nær nok a. Grenseverdien sier noe om hva som skjer **nær** a, ikke nødvendigvis **i** a.
+
+Grenseverdien **finnes** bare hvis grensen fra **venstre** og fra **høyre** er like.
+
+## Strategier
+
+- **Sett inn** når funksjonen er definert og «snill» i punktet: lim ₓ→₂ (3x + 1) = 7.
+- **Faktoriser og forkort** når innsetting gir «0/0»:
+
+lim ₓ→₃ (x² − 9)/(x − 3) = lim ₓ→₃ (x + 3) = **6**
+
+- **Tabell eller graf**: Regn ut verdier nær a i regneark eller GeoGebra. Det gir en god antakelse.
+- **Mot uendelig**: Del teller og nevner med den høyeste potensen av x.
+
+## En økonomisk anvendelse
+
+En bedrift har faste kostnader på 500 kr og variable kostnader på 20 kr per enhet. **Enhetskostnaden** er
+
+E(x) = (500 + 20x) / x = 500/x + 20
+
+Når x → ∞, går 500/x → 0, så **lim ₓ→∞ E(x) = 20**. Jo mer som produseres, desto mindre betyr de faste kostnadene, men enhetskostnaden kommer aldri under 20 kr. Linjen y = 20 er en **vannrett asymptote**.
+
+## Kontinuitet
+
+f er **kontinuerlig** i x = a hvis
+
+1. f(a) er definert
+2. lim ₓ→ₐ f(x) finnes
+3. lim ₓ→ₐ f(x) = f(a)
+
+Intuitivt kan grafen tegnes **uten å løfte blyanten**. Polynomfunksjoner er kontinuerlige overalt.
+
+## Delt definerte funksjoner
+
+Sjekk **skjøten** mellom delene.
+
+**Eksempel**: f(x) = 2x + 1 for x < 3 og f(x) = ax − 2 for x ≥ 3. Kontinuitet krever 2 · 3 + 1 = 3a − 2, altså 7 = 3a − 2 og **a = 3**.
+
+## Diskontinuerlige funksjoner i økonomi
+
+Mange priser og avgifter har **sprang**:
+
+- **Parkering** til 30 kr per påbegynt time: Prisen hopper fra 30 til 60 kr etter nøyaktig én time.
+- **Mengderabatt**: En vare koster 100 kr per stykk ved kjøp av under 50 stykk og 80 kr per stykk ved 50 eller flere. 49 stykk koster 4900 kr, men 50 stykk bare 4000 kr! Den totale prisen har et **sprang** ved x = 50.
+- **Trinnskatt**: Satsen for ekstra inntekt øker i trinn.
+- **Porto** etter vektklasser og **strømnettleie** etter kapasitetstrinn.
+
+I slike modeller er det viktig å presisere hvilken verdi funksjonen har **i selve spranget** – for eksempel om grensen gjelder «under 50» eller «50 eller mer».
+
+## Resonnement med grenseverdier
+
+Grenseverdier lar oss **argumentere** for langsiktig oppførsel: Hva skjer med enhetskostnaden når produksjonen blir svært stor? Hva skjer med et lån når nedbetalingstiden blir svært lang? Det er også grunnlaget for **den deriverte**, som er grenseverdien av den gjennomsnittlige vekstfarten.', '{"label":"Grenser og kontinuitet","children":[{"label":"Grenseverdi","children":[{"label":"Venstre og høyre"},{"label":"Nær a, ikke i a"}]},{"label":"Strategier","children":[{"label":"Innsetting"},{"label":"Faktorisering"},{"label":"Tabell og graf"},{"label":"Høyeste potens"}]},{"label":"Økonomi","children":[{"label":"Enhetskostnad"},{"label":"Asymptote y = 20"}]},{"label":"Kontinuitet","children":[{"label":"Tre krav"},{"label":"Skjøt og parameter"}]},{"label":"Sprang i praksis","children":[{"label":"Parkering"},{"label":"Mengderabatt"},{"label":"Trinnskatt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:grenseverdier-og-kontinuitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Grenseverdi', 'Verdien f(x) nærmer seg når x nærmer seg a.', 0),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Når finnes grenseverdien?', 'Når venstre og høyre grense er like.', 1),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', '«0/0» ved innsetting', 'Faktoriser og forkort.', 2),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'lim ₓ→₃ (x² − 9)/(x − 3)', '6', 3),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Grense mot uendelig', 'Del med høyeste potens av x.', 4),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Enhetskostnad', 'E(x) = K(x)/x', 5),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'lim ₓ→∞ (500/x + 20)', '20', 6),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Vannrett asymptote', 'Linjen y = L når f(x) → L når x → ∞.', 7),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Kontinuerlig i a', 'f(a) definert, grensen finnes og er lik f(a).', 8),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Skjøt', 'Punktet der delene i en delt funksjon møtes.', 9),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Sprang', 'Venstre og høyre grense er ulike.', 10),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Parkering per påbegynt time', 'Diskontinuerlig pris.', 11),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Mengderabatt', 'Kan gi sprang i total pris.', 12),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Trinnskatt', 'Satsen for ekstra inntekt øker i trinn.', 13),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'Polynomfunksjoner', 'Kontinuerlige overalt.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:grenseverdier-og-kontinuitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q01', 'flervalg', 'Hva er lim ₓ→₃ (x² − 9)/(x − 3)?', array['0', '6', '3', 'Den finnes ikke']::text[], 1, 'Forkort til x + 3.', true, true, 0),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q02', 'flervalg', 'Hva nærmer enhetskostnaden E(x) = 500/x + 20 seg når x → ∞?', array['20', '0', '500', '520']::text[], 0, '500/x → 0.', true, true, 1),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q03', 'flervalg', 'f(x) = 2x + 1 for x < 3 og ax − 2 for x ≥ 3. Hvilken a gjør f kontinuerlig?', array['a = 1', 'a = 2', 'a = 3', 'a = 7']::text[], 2, '7 = 3a − 2.', true, true, 2),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q04', 'flervalg', 'Når finnes lim ₓ→ₐ f(x)?', array['Alltid', 'Bare når f(a) = 0', 'Bare for polynomer', 'Når venstre og høyre grense er like']::text[], 3, 'De ensidige grensene må stemme.', true, true, 3),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q05', 'flervalg', 'Hvorfor er parkering til 30 kr per påbegynt time en diskontinuerlig funksjon?', array['Prisen hopper når en ny time begynner', 'Prisen er konstant', 'Prisen synker over tid', 'Den er et polynom']::text[], 0, 'Grafen har sprang.', true, true, 4),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q06', 'flervalg', 'En vare koster 100 kr/stk under 50 stk og 80 kr/stk fra 50 stk. Hva koster 50 stk?', array['5000 kr', '4000 kr', '4900 kr', '4080 kr']::text[], 1, '50 · 80 kr.', true, true, 5),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q07', 'flervalg', 'Hva kjennetegner en kontinuerlig funksjon intuitivt?', array['Den er alltid voksende', 'Den er et polynom', 'Grafen kan tegnes uten å løfte blyanten', 'Den har asymptoter']::text[], 2, 'Ingen sprang eller hull.', true, true, 6),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q08', 'flervalg', 'Hva er den vannrette asymptoten til E(x) = 500/x + 20?', array['x = 0', 'y = 500', 'y = 0', 'y = 20']::text[], 3, 'E(x) → 20.', true, true, 7),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q09', 'flervalg', 'Hva er lim ₓ→₂ (3x + 1)?', array['7', '6', '5', 'Den finnes ikke']::text[], 0, 'Innsetting.', true, false, 8),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'q10', 'flervalg', 'Hvilken funksjonstype er kontinuerlig overalt?', array['Trinnfunksjoner', 'Polynomfunksjoner', 'Rasjonale funksjoner', 'Delt definerte funksjoner']::text[], 1, 'For eksempel x² + 3x − 1.', true, false, 9),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm01', 'sant-usant', 'Med mengderabatt kan det være billigere å kjøpe flere enheter enn færre.', array['Sant', 'Usant']::text[], 0, '50 stk kan koste mindre enn 49 stk.', false, true, 10),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm02', 'sant-usant', 'En funksjon må være definert i a for å ha en grenseverdi der.', array['Sant', 'Usant']::text[], 1, 'Grenseverdien handler om verdier nær a.', false, true, 11),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm03', 'sant-usant', 'Faste kostnader betyr mindre per enhet jo mer som produseres.', array['Sant', 'Usant']::text[], 0, '500/x går mot 0.', false, true, 12),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm04', 'sant-usant', 'En delt definert funksjon er alltid diskontinuerlig.', array['Sant', 'Usant']::text[], 1, 'Den er kontinuerlig hvis delene møtes i skjøten.', false, true, 13),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm05', 'flervalg', 'Hva er lim ₓ→∞ (4x + 3)/(2x − 1)?', array['−3', '2', '4', '∞']::text[], 1, 'Del med x: 4/2.', false, true, 14),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm06', 'flervalg', 'Hva koster 49 stk når prisen er 100 kr/stk under 50 stk?', array['4900 kr', '3920 kr', '4000 kr', '5000 kr']::text[], 0, '49 · 100 kr.', false, true, 15),
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 'm07', 'flervalg', 'Hva er lim ₓ→₁ (x² − 1)/(x − 1)?', array['0', '1', '2', 'Den finnes ikke']::text[], 2, 'Forkort til x + 1.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:grenseverdier-og-kontinuitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Vekstfart og derivasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:vekstfart-og-derivasjon', 'matematikk-s1', 'vekstfart-og-derivasjon', 'Vekstfart og derivasjon', 'Gjennomsnittlig og momentan vekstfart, den deriverte som grenseverdi, derivasjonsregler for polynomer, tangentlikningen og hvordan den deriverte tolkes i økonomi og samfunn – for eksempel som grensekostnad.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:vekstfart-og-derivasjon', '## Gjennomsnittlig vekstfart
+
+Den **gjennomsnittlige vekstfarten** til f fra x = a til x = b er
+
+**(f(b) − f(a)) / (b − a)**
+
+Det er stigningstallet til **sekanten** gjennom de to punktene.
+
+**Eksempel**: f(x) = x² − 4x + 3 fra x = 1 til x = 4: (f(4) − f(1)) / 3 = (3 − 0) / 3 = **1**.
+
+## Momentan vekstfart
+
+Den **momentane vekstfarten** i ett punkt er stigningstallet til **tangenten**. Vi finner den som en **grenseverdi**:
+
+**f′(a) = lim ₕ→₀ (f(a + h) − f(a)) / h**
+
+Dette er **den deriverte** av f i a.
+
+**Eksempel**: f(x) = x². (f(a + h) − f(a))/h = (2ah + h²)/h = 2a + h → **2a** når h → 0.
+
+## Derivasjonsregler for polynomer
+
+- (k)′ = 0
+- (x)′ = 1
+- (xⁿ)′ = n · xⁿ⁻¹
+- (k · f)′ = k · f′
+- (f + g)′ = f′ + g′
+
+**Eksempel**: f(x) = x² − 4x + 3 gir **f′(x) = 2x − 4**, og f′(3) = **2**.
+
+## Tangentlikningen
+
+y − f(a) = f′(a)(x − a)
+
+For f(x) = x² − 4x + 3 i x = 3: f(3) = 0 og f′(3) = 2, så tangenten er **y = 2x − 6**.
+
+## Tolkning i økonomi og samfunn
+
+Den deriverte har **enheten** y-enhet per x-enhet.
+
+- **Grensekostnad**: Er K(x) kostnaden i kroner ved å produsere x enheter, er K′(x) omtrent hva **én enhet til** koster. For K(x) = 0,5x² + 20x + 800 er K′(x) = x + 20, og K′(40) = **60 kr per enhet**.
+- **Grenseinntekt**: I′(x) er omtrent hvor mye inntekten øker ved å selge én enhet til.
+- **Befolkning**: Er P(t) folketallet etter t år, er P′(t) endringen i **personer per år**.
+- **Salg**: Er S(t) salget i tusen enheter, forteller S′(5) = −2 at salget **synker** med omtrent 2000 enheter per år ved t = 5.
+
+## Fortegnet sier mye
+
+- f′(x) > 0: f **vokser**
+- f′(x) < 0: f **avtar**
+- f′(x) = 0: **vannrett tangent** – mulig topp- eller bunnpunkt
+
+## Digitale verktøy
+
+I GeoGebra gir **f′(x)** eller **Derivert(f)** den deriverte, og **Tangent(3, f)** tegner tangenten. Du kan også finne en **numerisk** tilnærming ved å regne ut (f(a + 0,001) − f(a)) / 0,001.
+
+## Vanlige feil
+
+- Å blande **gjennomsnittlig** og **momentan** vekstfart.
+- Å glemme **enheten** i tolkningen.
+- Å tro at f′(a) er det samme som f(a): Det ene er **verdien**, det andre er **endringen**.', '{"label":"Vekstfart og derivasjon","children":[{"label":"Vekstfart","children":[{"label":"Gjennomsnittlig – sekant"},{"label":"Momentan – tangent"}]},{"label":"Definisjon","children":[{"label":"Grenseverdi"}]},{"label":"Regler","children":[{"label":"(xⁿ)′ = nxⁿ⁻¹"},{"label":"Konstant og sum"},{"label":"Tangentlikning"}]},{"label":"Tolkning","children":[{"label":"Grensekostnad"},{"label":"Grenseinntekt"},{"label":"Befolkning og salg"}]},{"label":"Fortegn","children":[{"label":"Vokser"},{"label":"Avtar"},{"label":"Vannrett tangent"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:vekstfart-og-derivasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Gjennomsnittlig vekstfart', '(f(b) − f(a))/(b − a) – stigningstallet til sekanten.', 0),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Momentan vekstfart', 'Stigningstallet til tangenten – den deriverte.', 1),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Definisjonen av f′(a)', 'lim ₕ→₀ (f(a + h) − f(a))/h', 2),
+  ('matematikk-s1:vekstfart-og-derivasjon', '(xⁿ)′', 'n · xⁿ⁻¹', 3),
+  ('matematikk-s1:vekstfart-og-derivasjon', '(k)′', '0', 4),
+  ('matematikk-s1:vekstfart-og-derivasjon', '(k · f)′', 'k · f′', 5),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'f(x) = x² − 4x + 3', 'f′(x) = 2x − 4', 6),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Tangentlikningen', 'y − f(a) = f′(a)(x − a)', 7),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Grensekostnad', 'K′(x) – omtrent kostnaden for én enhet til.', 8),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Grenseinntekt', 'I′(x) – omtrent økningen i inntekt ved én enhet til.', 9),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'K(x) = 0,5x² + 20x + 800', 'K′(40) = 60 kr per enhet.', 10),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'P′(t) for folketall', 'Endring i personer per år.', 11),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'f′(x) > 0', 'f vokser.', 12),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'f′(x) = 0', 'Vannrett tangent.', 13),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'Enheten til f′', 'y-enhet per x-enhet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:vekstfart-og-derivasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q01', 'flervalg', 'Hva er den gjennomsnittlige vekstfarten til f(x) = x² − 4x + 3 fra x = 1 til x = 4?', array['3', '1', '0', '4']::text[], 1, '(3 − 0)/3.', true, true, 0),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q02', 'flervalg', 'Hva er f′(x) når f(x) = x² − 4x + 3?', array['2x − 4', 'x − 4', '2x + 3', '2x² − 4']::text[], 0, 'Deriver ledd for ledd.', true, true, 1),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q03', 'flervalg', 'Hva er tangenten til f(x) = x² − 4x + 3 i x = 3?', array['y = 2x', 'y = 3x − 9', 'y = 2x − 6', 'y = x − 3']::text[], 2, 'f(3) = 0 og f′(3) = 2.', true, true, 2),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q04', 'flervalg', 'Hva er grensekostnaden?', array['Den totale kostnaden', 'De faste kostnadene', 'Kostnaden per enhet i snitt', 'K′(x) – omtrent kostnaden for én enhet til']::text[], 3, 'Den momentane vekstfarten til kostnaden.', true, true, 3),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q05', 'flervalg', 'K(x) = 0,5x² + 20x + 800. Hva er K′(40)?', array['60', '40', '20', '2400']::text[], 0, 'K′(x) = x + 20.', true, true, 4),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q06', 'flervalg', 'Hva er den momentane vekstfarten geometrisk?', array['Stigningstallet til sekanten', 'Stigningstallet til tangenten', 'Arealet under grafen', 'Funksjonsverdien']::text[], 1, 'Tangenten i punktet.', true, true, 5),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q07', 'flervalg', 'S(t) er salget i tusen enheter, og S′(5) = −2. Hva betyr det?', array['Salget er −2 tusen', 'Salget stiger med 2000 per år', 'Salget synker med omtrent 2000 enheter per år ved t = 5', 'Salget er 5 tusen']::text[], 2, 'Negativ derivert betyr nedgang.', true, true, 6),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q08', 'flervalg', 'Hva er den deriverte av f(x) = 5x³?', array['5x²', '15x³', '3x²', '15x²']::text[], 3, '5 · 3x².', true, true, 7),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q09', 'flervalg', 'Hva betyr f′(x) = 0?', array['Tangenten er vannrett', 'f(x) = 0', 'f er avtakende', 'f er ikke definert']::text[], 0, 'Mulig topp- eller bunnpunkt.', true, false, 8),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'q10', 'flervalg', 'Hva er enheten til P′(t) når P er folketall og t er år?', array['Personer', 'Personer per år', 'År', 'Prosent']::text[], 1, 'y-enhet per x-enhet.', true, false, 9),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm01', 'sant-usant', 'Den deriverte av en konstant er null.', array['Sant', 'Usant']::text[], 0, 'En konstant endrer seg ikke.', false, true, 10),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm02', 'sant-usant', 'f(a) og f′(a) er det samme.', array['Sant', 'Usant']::text[], 1, 'f(a) er verdien, f′(a) er endringen.', false, true, 11),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm03', 'sant-usant', 'Grenseinntekten er den deriverte av inntektsfunksjonen.', array['Sant', 'Usant']::text[], 0, 'I′(x).', false, true, 12),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm04', 'sant-usant', 'Gjennomsnittlig vekstfart er stigningstallet til tangenten.', array['Sant', 'Usant']::text[], 1, 'Det er stigningstallet til sekanten.', false, true, 13),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm05', 'flervalg', 'Hva er den deriverte av f(x) = −3x² + 12x − 7?', array['−3x + 12', '−6x + 12', '−6x² + 12', '6x − 12']::text[], 1, '−3 · 2x + 12.', false, true, 14),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm06', 'flervalg', 'Hva gir f′(a) = lim ₕ→₀ (f(a + h) − f(a))/h for f(x) = x²?', array['2a', 'a²', '2', 'a']::text[], 0, '(2ah + h²)/h = 2a + h → 2a.', false, true, 15),
+  ('matematikk-s1:vekstfart-og-derivasjon', 'm07', 'flervalg', 'Hvilken GeoGebra-kommando tegner tangenten til f i x = 3?', array['Derivert(f)', 'Ekstremalpunkt(f)', 'Tangent(3, f)', 'Nullpunkt(f)']::text[], 2, 'Tangent(punkt, funksjon).', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:vekstfart-og-derivasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Funksjonsanalyse med derivasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'matematikk-s1', 'funksjonsanalyse-med-derivasjon', 'Funksjonsanalyse med derivasjon', 'Hvordan du bruker fortegnslinje for den deriverte til å finne hvor en funksjon vokser og avtar, topp- og bunnpunkter, vendepunkter – og hvordan du tolker disse punktene i modeller av reelle data.', array[5]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', '## Den deriverte forteller hvordan grafen går
+
+- f′(x) > 0 ⇒ f **vokser**
+- f′(x) < 0 ⇒ f **avtar**
+- f′(x) = 0 ⇒ **vannrett tangent**
+
+## Fortegnslinje for f′
+
+1. Deriver f.
+2. **Faktoriser** f′.
+3. Tegn en fortegnslinje for hver faktor og for produktet.
+4. Les av hvor f′ er positiv og negativ.
+
+## Et fullstendig eksempel
+
+f(x) = x³ − 6x² + 9x + 1
+
+f′(x) = 3x² − 12x + 9 = 3(x² − 4x + 3) = **3(x − 1)(x − 3)**
+
+- For x < 1 er begge faktorene negative, så f′ > 0 → f **vokser**.
+- For 1 < x < 3 er f′ < 0 → f **avtar**.
+- For x > 3 er f′ > 0 → f **vokser**.
+
+**Toppunkt**: f′ skifter fra + til − i x = 1. f(1) = 1 − 6 + 9 + 1 = 5, så toppunktet er **(1, 5)**.
+
+**Bunnpunkt**: f′ skifter fra − til + i x = 3. f(3) = 27 − 54 + 27 + 1 = 1, så bunnpunktet er **(3, 1)**.
+
+## Vendepunkt
+
+Den **andrederiverte** f″ forteller om grafen krummer **opp** (f″ > 0) eller **ned** (f″ < 0). Der f″ **skifter fortegn**, har grafen et **vendepunkt**.
+
+f″(x) = 6x − 12, som er null i x = 2. f(2) = 8 − 24 + 18 + 1 = 3, så vendepunktet er **(2, 3)**. Der **avtar** funksjonen raskest.
+
+## Terrassepunkt
+
+Hvis f′ = 0 **uten** fortegnsskifte, er punktet verken topp- eller bunnpunkt, men et **terrassepunkt**. Eksempel: f(x) = x³ i x = 0.
+
+## Lokale og globale ekstremalpunkter
+
+Når definisjonsmengden er et **lukket intervall**, kan den største eller minste verdien ligge i et **endepunkt**. Regn derfor alltid ut f i endepunktene også.
+
+For f(x) = x³ − 6x² + 9x + 1 på [0, 5] er f(0) = 1 og f(5) = 125 − 150 + 45 + 1 = 21. Den **største verdien** er altså 21 i endepunktet x = 5, ikke 5 i toppunktet.
+
+## Tolke modeller
+
+Funksjonsanalyse gir svar på praktiske spørsmål:
+
+- **Når** var arbeidsledigheten høyest?
+- **Når** vokste salget raskest? (vendepunktet)
+- **Hvor stor** var den største verdien?
+
+Når modellen er laget fra **reelle data**, må du vurdere om punktene er **rimelige** – og om modellen gjelder utenfor perioden dataene dekker.
+
+## Digitale verktøy
+
+I GeoGebra finner du topp- og bunnpunkter med **Ekstremalpunkt(f)** og vendepunkter med **Vendepunkt(f)**. I CAS kan du løse **f′(x) = 0** direkte. Husk likevel å **begrunne** svaret, for eksempel med en fortegnslinje.', '{"label":"Funksjonsanalyse","children":[{"label":"f′","children":[{"label":"Vokser og avtar"},{"label":"Fortegnslinje"}]},{"label":"Punkter","children":[{"label":"Toppunkt"},{"label":"Bunnpunkt"},{"label":"Terrassepunkt"}]},{"label":"f″","children":[{"label":"Krumning"},{"label":"Vendepunkt"}]},{"label":"Globalt","children":[{"label":"Endepunkter"},{"label":"Største og minste verdi"}]},{"label":"Modeller","children":[{"label":"Tolke punktene"},{"label":"Vurdere gyldighet"},{"label":"GeoGebra"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:funksjonsanalyse-med-derivasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'f′(x) > 0', 'f vokser.', 0),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'f′(x) < 0', 'f avtar.', 1),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Toppunkt', 'f′ skifter fra + til −.', 2),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Bunnpunkt', 'f′ skifter fra − til +.', 3),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Terrassepunkt', 'f′ = 0 uten fortegnsskifte.', 4),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Fortegnslinje', 'Viser hvor f′ er positiv og negativ.', 5),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'f″(x) > 0', 'Grafen krummer opp.', 6),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'f″(x) < 0', 'Grafen krummer ned.', 7),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Vendepunkt', 'Der f″ skifter fortegn – raskest økning eller nedgang.', 8),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'f(x) = x³ − 6x² + 9x + 1', 'Topp (1, 5), bunn (3, 1), vendepunkt (2, 3).', 9),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'f′(x) = 3(x − 1)(x − 3)', 'Nullpunkter i x = 1 og x = 3.', 10),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Lukket intervall', 'Sjekk også endepunktene.', 11),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Globalt maksimum', 'Største verdi i hele definisjonsmengden.', 12),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Ekstremalpunkt(f)', 'GeoGebra-kommando for topp- og bunnpunkter.', 13),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'Vendepunkt(f)', 'GeoGebra-kommando for vendepunkter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:funksjonsanalyse-med-derivasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q01', 'flervalg', 'Hvordan faktoriseres f′(x) = 3x² − 12x + 9?', array['3(x + 1)(x + 3)', '3(x − 1)(x − 3)', '(3x − 1)(x − 9)', '3(x − 2)²']::text[], 1, 'x² − 4x + 3 = (x − 1)(x − 3).', true, true, 0),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q02', 'flervalg', 'f(x) = x³ − 6x² + 9x + 1. Hva er toppunktet?', array['(1, 5)', '(3, 1)', '(2, 3)', '(0, 1)']::text[], 0, 'f′ skifter fra + til − i x = 1.', true, true, 1),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q03', 'flervalg', 'Hva er vendepunktet til f(x) = x³ − 6x² + 9x + 1?', array['(1, 5)', '(3, 1)', '(2, 3)', '(0, 1)']::text[], 2, 'f″(x) = 6x − 12 = 0 gir x = 2.', true, true, 2),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q04', 'flervalg', 'Hva skjer i et vendepunkt?', array['f′ = 0 alltid', 'Funksjonen har sin største verdi', 'Funksjonen skifter fortegn', 'Krumningen endrer seg, og endringen er raskest eller langsomst']::text[], 3, 'f″ skifter fortegn.', true, true, 3),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q05', 'flervalg', 'Hva er den største verdien til f(x) = x³ − 6x² + 9x + 1 på [0, 5]?', array['21', '5', '1', '3']::text[], 0, 'f(5) = 21 er større enn toppunktets 5.', true, true, 4),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q06', 'flervalg', 'Hva har f(x) = x³ i x = 0?', array['Toppunkt', 'Terrassepunkt', 'Bunnpunkt', 'Asymptote']::text[], 1, 'f′ = 0 uten fortegnsskifte.', true, true, 5),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q07', 'flervalg', 'Hvor avtar f(x) = x³ − 6x² + 9x + 1?', array['x < 1', 'x > 3', '1 < x < 3', 'Overalt']::text[], 2, 'f′ < 0 mellom nullpunktene.', true, true, 6),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q08', 'flervalg', 'En modell viser salget av en vare. Hva forteller vendepunktet?', array['Når salget var størst', 'Når salget var minst', 'Når varen ble lansert', 'Når salget vokste eller sank raskest']::text[], 3, 'f′ har et ekstremalpunkt der.', true, true, 7),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q09', 'flervalg', 'Hvorfor bør du begrunne svaret med fortegnslinje, selv om GeoGebra finner punktet?', array['For å vise at det er et topp- eller bunnpunkt', 'Fordi GeoGebra alltid tar feil', 'Fordi fortegnslinjer er påbudt i alle oppgaver', 'Det er ikke nødvendig']::text[], 0, 'Argumentasjonen er en del av løsningen.', true, false, 8),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'q10', 'flervalg', 'Hva betyr f″(x) > 0?', array['f vokser', 'Grafen krummer opp', 'f er positiv', 'f har toppunkt']::text[], 1, 'Stigningstallet øker.', true, false, 9),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm01', 'sant-usant', 'Den største verdien på et lukket intervall kan ligge i et endepunkt.', array['Sant', 'Usant']::text[], 0, 'Derfor må endepunktene sjekkes.', false, true, 10),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm02', 'sant-usant', 'Alle punkter med f′(x) = 0 er toppunkter.', array['Sant', 'Usant']::text[], 1, 'De kan også være bunn- eller terrassepunkter.', false, true, 11),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm03', 'sant-usant', 'I vendepunktet til f har f′ et ekstremalpunkt.', array['Sant', 'Usant']::text[], 0, 'Vekstfarten er størst eller minst der.', false, true, 12),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm04', 'sant-usant', 'En modell laget fra data gjelder alltid langt utenfor dataperioden.', array['Sant', 'Usant']::text[], 1, 'Gyldigheten må vurderes.', false, true, 13),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm05', 'flervalg', 'f(x) = −x² + 8x − 7. Hva er toppunktet?', array['(8, −7)', '(4, 9)', '(4, 23)', '(−4, −55)']::text[], 1, 'f′(x) = −2x + 8 = 0 gir x = 4, f(4) = 9.', false, true, 14),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm06', 'flervalg', 'Hvor vokser f(x) = x² − 6x?', array['x > 3', 'x < 3', 'x > 6', 'Overalt']::text[], 0, 'f′(x) = 2x − 6 > 0 for x > 3.', false, true, 15),
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 'm07', 'flervalg', 'Hva er f″(x) når f(x) = x³ − 6x² + 9x + 1?', array['3x² − 12x + 9', '6x', '6x − 12', '6']::text[], 2, 'Deriver f′ én gang til.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:funksjonsanalyse-med-derivasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Optimering i økonomi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:okonomisk-optimering', 'matematikk-s1', 'okonomisk-optimering', 'Optimering i økonomi', 'Kostnads-, inntekts- og overskuddsfunksjoner, grensekostnad og grenseinntekt, største overskudd, minste enhetskostnad og optimal pris – og hvordan derivasjon brukes til å løse slike problemer.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:okonomisk-optimering', '## Tre sentrale funksjoner
+
+- **Kostnadsfunksjonen K(x)**: hva det koster å produsere x enheter. Den består av **faste kostnader** (husleie, maskiner) og **variable kostnader** (råvarer, lønn per enhet).
+- **Inntektsfunksjonen I(x)**: hva bedriften får inn. Med fast pris p er I(x) = p · x.
+- **Overskuddsfunksjonen O(x) = I(x) − K(x)**.
+
+I eksemplene bruker vi
+
+**K(x) = 0,5x² + 20x + 800** og en pris på **100 kr** per enhet.
+
+## Grensekostnad og grenseinntekt
+
+- **Grensekostnaden K′(x)** er omtrent hva det koster å lage **én enhet til**. Her er K′(x) = x + 20.
+- **Grenseinntekten I′(x)** er omtrent hvor mye inntekten øker ved å selge én enhet til. Her er I′(x) = 100.
+
+## Største overskudd
+
+O(x) = 100x − (0,5x² + 20x + 800) = −0,5x² + 80x − 800
+
+O′(x) = −x + 80 = 0 gir **x = 80**. Overskuddet blir
+
+O(80) = −0,5 · 6400 + 6400 − 800 = **2400 kr**
+
+Legg merke til at K′(80) = 100 = I′(80). Overskuddet er størst når **grensekostnaden er lik grenseinntekten**. Så lenge en ekstra enhet gir mer inntekt enn den koster, lønner det seg å produsere mer.
+
+## Minste enhetskostnad
+
+**Enhetskostnaden** er gjennomsnittlig kostnad per enhet:
+
+E(x) = K(x) / x = 0,5x + 20 + 800/x
+
+E′(x) = 0,5 − 800/x² = 0 gir x² = 1600, altså **x = 40**, og E(40) = 20 + 20 + 20 = **60 kr**.
+
+Det er ingen tilfeldighet at K′(40) = 60: Enhetskostnaden er **lavest** der **grensekostnaden er lik enhetskostnaden**.
+
+## Pris som avhenger av antall
+
+Ofte må prisen **senkes** for å selge flere. Hvis prisen er p(x) = 200 − 2x, blir inntekten
+
+I(x) = (200 − 2x) · x = 200x − 2x²
+
+I′(x) = 200 − 4x = 0 gir x = 50 og p = 100 kr. **Største inntekt** er I(50) = **5000 kr**. Merk at største **inntekt** ikke er det samme som største **overskudd** – kostnadene må også tas med.
+
+## Framgangsmåte
+
+1. Still opp funksjonen som skal optimeres.
+2. Finn **definisjonsmengden** – for eksempel kan x ikke være negativ eller større enn kapasiteten.
+3. **Deriver** og løs f′(x) = 0.
+4. Vis med **fortegnslinje** at du har et maksimum eller minimum, og sjekk **endepunktene**.
+5. **Svar** i sammenheng, med enheter.
+
+## Andre optimeringsproblemer
+
+Derivasjon brukes også til å finne **minst materialbruk** for en emballasje, **størst areal** innenfor et gitt gjerde eller **optimal lagerstørrelse**. Framgangsmåten er den samme.
+
+## Vurdering
+
+Modellene er **forenklinger**. I virkeligheten kan etterspørselen endre seg, kapasiteten være begrenset og produksjonen skje i hele partier. Diskuter derfor om svaret er **realistisk**.', '{"label":"Økonomisk optimering","children":[{"label":"Funksjoner","children":[{"label":"K(x)"},{"label":"I(x)"},{"label":"O = I − K"}]},{"label":"Grenser","children":[{"label":"Grensekostnad K′"},{"label":"Grenseinntekt I′"}]},{"label":"Optimum","children":[{"label":"Maks overskudd: K′ = I′"},{"label":"Min enhetskostnad: K′ = E"},{"label":"Maks inntekt"}]},{"label":"Framgangsmåte","children":[{"label":"Definisjonsmengde"},{"label":"f′ = 0 og fortegnslinje"},{"label":"Endepunkter"}]},{"label":"Vurdering","children":[{"label":"Forenklinger"},{"label":"Kapasitet og etterspørsel"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:okonomisk-optimering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:okonomisk-optimering', 'Kostnadsfunksjon K(x)', 'Hva det koster å produsere x enheter.', 0),
+  ('matematikk-s1:okonomisk-optimering', 'Faste kostnader', 'Kostnader som ikke avhenger av produksjonen, som husleie.', 1),
+  ('matematikk-s1:okonomisk-optimering', 'Variable kostnader', 'Kostnader som øker med produksjonen.', 2),
+  ('matematikk-s1:okonomisk-optimering', 'Inntektsfunksjon', 'I(x) = p · x ved fast pris.', 3),
+  ('matematikk-s1:okonomisk-optimering', 'Overskudd', 'O(x) = I(x) − K(x)', 4),
+  ('matematikk-s1:okonomisk-optimering', 'Grensekostnad', 'K′(x) – kostnaden for én enhet til.', 5),
+  ('matematikk-s1:okonomisk-optimering', 'Grenseinntekt', 'I′(x) – inntekten for én enhet til.', 6),
+  ('matematikk-s1:okonomisk-optimering', 'Største overskudd', 'Når K′(x) = I′(x).', 7),
+  ('matematikk-s1:okonomisk-optimering', 'Enhetskostnad', 'E(x) = K(x)/x', 8),
+  ('matematikk-s1:okonomisk-optimering', 'Minste enhetskostnad', 'Når K′(x) = E(x).', 9),
+  ('matematikk-s1:okonomisk-optimering', 'K(x) = 0,5x² + 20x + 800, pris 100 kr', 'Største overskudd 2400 kr ved x = 80.', 10),
+  ('matematikk-s1:okonomisk-optimering', 'Minste enhetskostnad i eksempelet', '60 kr ved x = 40.', 11),
+  ('matematikk-s1:okonomisk-optimering', 'p(x) = 200 − 2x', 'Største inntekt 5000 kr ved x = 50.', 12),
+  ('matematikk-s1:okonomisk-optimering', 'Største inntekt og største overskudd', 'Ikke det samme – kostnadene må med.', 13),
+  ('matematikk-s1:okonomisk-optimering', 'Definisjonsmengde i optimering', 'Bestemmes av situasjonen, som kapasitet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:okonomisk-optimering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:okonomisk-optimering', 'q01', 'flervalg', 'Hvordan er overskuddet definert?', array['K(x) − I(x)', 'I(x) − K(x)', 'I(x) · K(x)', 'K(x)/x']::text[], 1, 'Inntekt minus kostnad.', true, true, 0),
+  ('matematikk-s1:okonomisk-optimering', 'q02', 'flervalg', 'K(x) = 0,5x² + 20x + 800 og prisen er 100 kr. Hvilken x gir størst overskudd?', array['x = 80', 'x = 40', 'x = 100', 'x = 20']::text[], 0, 'O′(x) = −x + 80 = 0.', true, true, 1),
+  ('matematikk-s1:okonomisk-optimering', 'q03', 'flervalg', 'Hva er det største overskuddet i eksempelet?', array['3200 kr', '6400 kr', '2400 kr', '800 kr']::text[], 2, 'O(80) = −3200 + 6400 − 800.', true, true, 2),
+  ('matematikk-s1:okonomisk-optimering', 'q04', 'flervalg', 'Når er overskuddet størst?', array['Når K(x) = 0', 'Når I(x) er størst', 'Når x er størst mulig', 'Når grensekostnaden er lik grenseinntekten']::text[], 3, 'K′(x) = I′(x).', true, true, 3),
+  ('matematikk-s1:okonomisk-optimering', 'q05', 'flervalg', 'Hva er enhetskostnaden?', array['K(x)/x', 'K′(x)', 'I(x) − K(x)', 'K(x) · x']::text[], 0, 'Gjennomsnittlig kostnad per enhet.', true, true, 4),
+  ('matematikk-s1:okonomisk-optimering', 'q06', 'flervalg', 'Hvilken x gir minst enhetskostnad når K(x) = 0,5x² + 20x + 800?', array['x = 80', 'x = 40', 'x = 20', 'x = 1600']::text[], 1, 'E′(x) = 0,5 − 800/x² = 0.', true, true, 5),
+  ('matematikk-s1:okonomisk-optimering', 'q07', 'flervalg', 'Prisen er p(x) = 200 − 2x. Hva er største inntekt?', array['10 000 kr', '2500 kr', '5000 kr', '200 kr']::text[], 2, 'x = 50 gir I = 100 · 50.', true, true, 6),
+  ('matematikk-s1:okonomisk-optimering', 'q08', 'flervalg', 'Hva er grensekostnaden?', array['De faste kostnadene', 'Den totale kostnaden', 'Gjennomsnittskostnaden', 'Omtrent kostnaden for å lage én enhet til']::text[], 3, 'K′(x).', true, true, 7),
+  ('matematikk-s1:okonomisk-optimering', 'q09', 'flervalg', 'Hvorfor er største inntekt ikke alltid det samme som største overskudd?', array['Fordi kostnadene også påvirker overskuddet', 'Fordi inntekten alltid er null', 'Fordi prisen er fast', 'Det er alltid det samme']::text[], 0, 'O = I − K.', true, false, 8),
+  ('matematikk-s1:okonomisk-optimering', 'q10', 'flervalg', 'Hva er K′(x) når K(x) = 0,5x² + 20x + 800?', array['0,5x + 20', 'x + 20', 'x² + 20', '20']::text[], 1, '0,5 · 2x + 20.', true, false, 9),
+  ('matematikk-s1:okonomisk-optimering', 'm01', 'sant-usant', 'Enhetskostnaden er lavest der grensekostnaden er lik enhetskostnaden.', array['Sant', 'Usant']::text[], 0, 'I eksempelet er begge 60 kr ved x = 40.', false, true, 10),
+  ('matematikk-s1:okonomisk-optimering', 'm02', 'sant-usant', 'Husleie er en variabel kostnad.', array['Sant', 'Usant']::text[], 1, 'Husleie er en fast kostnad.', false, true, 11),
+  ('matematikk-s1:okonomisk-optimering', 'm03', 'sant-usant', 'Hvis en ekstra enhet gir mer inntekt enn den koster, lønner det seg å øke produksjonen.', array['Sant', 'Usant']::text[], 0, 'Da øker overskuddet.', false, true, 12),
+  ('matematikk-s1:okonomisk-optimering', 'm04', 'sant-usant', 'Svaret på et optimeringsproblem trenger ikke å vurderes opp mot virkeligheten.', array['Sant', 'Usant']::text[], 1, 'Modellene er forenklinger som må vurderes.', false, true, 13),
+  ('matematikk-s1:okonomisk-optimering', 'm05', 'flervalg', 'O(x) = −x² + 60x − 500. Hvilken x gir størst overskudd?', array['x = 60', 'x = 30', 'x = 500', 'x = 10']::text[], 1, 'O′(x) = −2x + 60 = 0.', false, true, 14),
+  ('matematikk-s1:okonomisk-optimering', 'm06', 'flervalg', 'Hva er I(x) når prisen er p(x) = 200 − 2x?', array['200x − 2x²', '200 − 2x', '200x − 2x', '(200 − 2x)²']::text[], 0, 'Pris ganger antall.', false, true, 15),
+  ('matematikk-s1:okonomisk-optimering', 'm07', 'flervalg', 'Hva er E(40) når K(x) = 0,5x² + 20x + 800?', array['40 kr', '100 kr', '60 kr', '2400 kr']::text[], 2, '(800 + 800 + 800)/40.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:okonomisk-optimering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Potenser, logaritmer og anvendelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:potenser-og-logaritmer', 'matematikk-s1', 'potenser-og-logaritmer', 'Potenser, logaritmer og anvendelser', 'Potensregler og logaritmeregler, hvordan du løser eksponential- og logaritmelikninger, og hvordan logaritmer brukes i rente, doblingstid, pH, desibel og jordskjelvskalaer.', array[7, 8]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:potenser-og-logaritmer', '## Potenser
+
+- aᵐ · aⁿ = aᵐ⁺ⁿ og aᵐ / aⁿ = aᵐ⁻ⁿ
+- (aᵐ)ⁿ = aᵐ·ⁿ
+- a⁰ = 1 og a⁻ⁿ = 1/aⁿ
+- a^(1/n) = ⁿ√a
+
+Potenser brukes til å beskrive **prosentvis vekst**: Et beløp på 10 000 kr med 3 % årlig rente vokser til 10 000 · 1,03ᵗ kroner etter t år.
+
+## Logaritmer
+
+**lg x** er det tallet 10 må opphøyes i for å få x:
+
+lg 100 = 2, lg 1000 = 3, lg 1 = 0 og lg 0,01 = −2
+
+Egenskaper:
+
+- lg x er bare definert for **x > 0**.
+- lg x < 0 når 0 < x < 1.
+- **10^(lg x) = x** og **lg(10ˣ) = x** – logaritmen og potensen opphever hverandre.
+
+## Logaritmereglene
+
+- lg(a · b) = lg a + lg b
+- lg(a / b) = lg a − lg b
+- lg(aˣ) = x · lg a
+
+Den siste regelen er nøkkelen til å løse eksponentiallikninger: Den flytter **eksponenten ned**.
+
+## Eksponentiallikninger
+
+**Doblingstid**: Hvor lenge tar det før et beløp dobles med 5 % rente?
+
+1,05ˣ = 2 → x · lg 1,05 = lg 2 → x = lg 2 / lg 1,05 ≈ **14,2 år**
+
+**Et gitt beløp**: 10 000 · 1,03ˣ = 15 000
+
+1,03ˣ = 1,5 → x = lg 1,5 / lg 1,03 ≈ **13,7 år**
+
+Framgangsmåte: **Isoler potensen**, ta **lg** på begge sider, og bruk **lg(aˣ) = x · lg a**.
+
+## Logaritmelikninger
+
+- lg x = 3 gir x = 10³ = **1000**.
+- lg x − lg 2 = 1 gir lg(x/2) = 1, så x/2 = 10 og **x = 20**.
+
+Sett alltid **prøve** – løsninger som gir logaritmen av et negativt tall, må forkastes.
+
+## Logaritmiske skalaer
+
+Når tall spenner over mange tierpotenser, er **logaritmiske skalaer** praktiske:
+
+- **pH = −lg[H₃O⁺]**: pH 3 er **ti ganger** så surt som pH 4.
+- **Desibel**: 10 dB mer betyr ti ganger så stor lydintensitet. 20 dB mer betyr hundre ganger.
+- **Jordskjelv**: På magnitudeskalaen betyr én enhet mer omtrent **ti ganger** så store utslag på seismografen og rundt **30 ganger** så mye energi.
+- **Grafer**: Med **logaritmisk akse** blir eksponentiell vekst en **rett linje**. Det er nyttig for å vise for eksempel smittetall eller datakraft over tid.
+
+## Andre anvendelser
+
+- **Legemidler**: Mengden virkestoff i kroppen avtar ofte eksponentielt, og logaritmer gir **halveringstiden**.
+- **Inflasjon**: Hvor lenge tar det før prisene er doblet med 2 % årlig prisvekst? lg 2 / lg 1,02 ≈ 35 år.
+- **Økonomisk vekst** og **befolkningsvekst** over lang tid.', '{"label":"Potenser og logaritmer","children":[{"label":"Potenser","children":[{"label":"Regneregler"},{"label":"Prosentvis vekst"}]},{"label":"Logaritmer","children":[{"label":"lg x"},{"label":"x > 0"},{"label":"Opphever 10ˣ"}]},{"label":"Regler","children":[{"label":"Produkt → sum"},{"label":"Kvotient → differanse"},{"label":"Potens → faktor"}]},{"label":"Likninger","children":[{"label":"Doblingstid"},{"label":"Logaritmelikninger"},{"label":"Sett prøve"}]},{"label":"Skalaer","children":[{"label":"pH"},{"label":"Desibel"},{"label":"Jordskjelv"},{"label":"Logaritmisk akse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:potenser-og-logaritmer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:potenser-og-logaritmer', 'aᵐ · aⁿ', 'aᵐ⁺ⁿ', 0),
+  ('matematikk-s1:potenser-og-logaritmer', 'a⁻ⁿ', '1/aⁿ', 1),
+  ('matematikk-s1:potenser-og-logaritmer', 'lg x', 'Tallet 10 må opphøyes i for å få x.', 2),
+  ('matematikk-s1:potenser-og-logaritmer', 'lg 1000', '3', 3),
+  ('matematikk-s1:potenser-og-logaritmer', 'lg 0,01', '−2', 4),
+  ('matematikk-s1:potenser-og-logaritmer', 'Definisjonsmengde for lg x', 'x > 0', 5),
+  ('matematikk-s1:potenser-og-logaritmer', 'lg(a · b)', 'lg a + lg b', 6),
+  ('matematikk-s1:potenser-og-logaritmer', 'lg(a / b)', 'lg a − lg b', 7),
+  ('matematikk-s1:potenser-og-logaritmer', 'lg(aˣ)', 'x · lg a', 8),
+  ('matematikk-s1:potenser-og-logaritmer', 'Doblingstid ved 5 %', 'lg 2 / lg 1,05 ≈ 14,2 år', 9),
+  ('matematikk-s1:potenser-og-logaritmer', 'Løse aˣ = b', 'x = lg b / lg a', 10),
+  ('matematikk-s1:potenser-og-logaritmer', 'pH', '−lg[H₃O⁺]', 11),
+  ('matematikk-s1:potenser-og-logaritmer', '10 dB mer', 'Ti ganger så stor lydintensitet.', 12),
+  ('matematikk-s1:potenser-og-logaritmer', 'Én magnitude mer', 'Omtrent ti ganger så store utslag og rundt 30 ganger så mye energi.', 13),
+  ('matematikk-s1:potenser-og-logaritmer', 'Logaritmisk akse', 'Gjør eksponentiell vekst til en rett linje.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:potenser-og-logaritmer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:potenser-og-logaritmer', 'q01', 'flervalg', 'Hva er lg 0,01?', array['2', '−2', '0,01', '−0,01']::text[], 1, '10⁻² = 0,01.', true, true, 0),
+  ('matematikk-s1:potenser-og-logaritmer', 'q02', 'flervalg', 'Hvor lang tid tar det å doble et beløp med 5 % årlig rente?', array['Omtrent 14,2 år', '20 år', '10 år', 'Omtrent 7 år']::text[], 0, 'lg 2 / lg 1,05.', true, true, 1),
+  ('matematikk-s1:potenser-og-logaritmer', 'q03', 'flervalg', 'Løs 10 000 · 1,03ˣ = 15 000.', array['x ≈ 50', 'x = 5', 'x ≈ 13,7', 'x ≈ 1,5']::text[], 2, 'x = lg 1,5 / lg 1,03.', true, true, 2),
+  ('matematikk-s1:potenser-og-logaritmer', 'q04', 'flervalg', 'Hvilken regel brukes til å flytte eksponenten ned?', array['lg(a · b) = lg a + lg b', 'lg(a / b) = lg a − lg b', 'lg 1 = 0', 'lg(aˣ) = x · lg a']::text[], 3, 'Nøkkelen til eksponentiallikninger.', true, true, 3),
+  ('matematikk-s1:potenser-og-logaritmer', 'q05', 'flervalg', 'Løs lg x − lg 2 = 1.', array['x = 20', 'x = 12', 'x = 5', 'x = 3']::text[], 0, 'lg(x/2) = 1 gir x/2 = 10.', true, true, 4),
+  ('matematikk-s1:potenser-og-logaritmer', 'q06', 'flervalg', 'Hvor mye surere er pH 3 enn pH 5?', array['2 ganger', '100 ganger', '20 ganger', '1000 ganger']::text[], 1, 'To enheter gir 10².', true, true, 5),
+  ('matematikk-s1:potenser-og-logaritmer', 'q07', 'flervalg', 'Hvordan ser eksponentiell vekst ut med logaritmisk y-akse?', array['Som en parabel', 'Som en S-kurve', 'Som en rett linje', 'Som en sirkel']::text[], 2, 'lg(a · bˣ) = lg a + x · lg b.', true, true, 6),
+  ('matematikk-s1:potenser-og-logaritmer', 'q08', 'flervalg', 'Hva er lg 1?', array['1', '10', 'Ikke definert', '0']::text[], 3, '10⁰ = 1.', true, true, 7),
+  ('matematikk-s1:potenser-og-logaritmer', 'q09', 'flervalg', 'Hvor mye større lydintensitet gir 20 dB mer?', array['100 ganger', '20 ganger', '2 ganger', '10 ganger']::text[], 0, '10 dB er ti ganger; 20 dB er 10 · 10.', true, false, 8),
+  ('matematikk-s1:potenser-og-logaritmer', 'q10', 'flervalg', 'Hvorfor må du sette prøve i logaritmelikninger?', array['Fordi lg alltid gir heltall', 'Fordi løsninger kan gi logaritmen av et negativt tall', 'Fordi logaritmer er upresise', 'Det må du ikke']::text[], 1, 'lg x er bare definert for x > 0.', true, false, 9),
+  ('matematikk-s1:potenser-og-logaritmer', 'm01', 'sant-usant', 'lg x er negativ når 0 < x < 1.', array['Sant', 'Usant']::text[], 0, 'For eksempel lg 0,1 = −1.', false, true, 10),
+  ('matematikk-s1:potenser-og-logaritmer', 'm02', 'sant-usant', 'lg(a + b) = lg a + lg b.', array['Sant', 'Usant']::text[], 1, 'Regelen gjelder produktet a · b.', false, true, 11),
+  ('matematikk-s1:potenser-og-logaritmer', 'm03', 'sant-usant', 'Med 2 % årlig prisvekst tar det omtrent 35 år før prisene dobles.', array['Sant', 'Usant']::text[], 0, 'lg 2 / lg 1,02 ≈ 35.', false, true, 12),
+  ('matematikk-s1:potenser-og-logaritmer', 'm04', 'sant-usant', 'Et jordskjelv med magnitude 6 har dobbelt så mye energi som ett med magnitude 5.', array['Sant', 'Usant']::text[], 1, 'Det har rundt 30 ganger så mye energi.', false, true, 13),
+  ('matematikk-s1:potenser-og-logaritmer', 'm05', 'flervalg', 'Løs lg x = 3.', array['x = 30', 'x = 1000', 'x = 3/10', 'x = 0,001']::text[], 1, 'x = 10³.', false, true, 14),
+  ('matematikk-s1:potenser-og-logaritmer', 'm06', 'flervalg', 'Hva er 5⁰?', array['1', '0', '5', 'Ikke definert']::text[], 0, 'a⁰ = 1.', false, true, 15),
+  ('matematikk-s1:potenser-og-logaritmer', 'm07', 'flervalg', 'Løs 2ˣ = 10.', array['x = 5', 'x = 1/lg 5', 'x = 1/lg 2 ≈ 3,32', 'x = lg 2']::text[], 2, 'x = lg 10 / lg 2 = 1/lg 2.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:potenser-og-logaritmer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Modellering med samfunnsøkonomiske data
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:modellering-med-samfunnsdata', 'matematikk-s1', 'modellering-med-samfunnsdata', 'Modellering med samfunnsøkonomiske data', 'Hvordan du planlegger og gjennomfører et selvstendig arbeid med reelle samfunnsøkonomiske datasett – fra kilder og regresjon til tolkning med derivasjon, vurdering av modellen og presentasjon.', array[1, 5]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:modellering-med-samfunnsdata', '## Hvorfor modellere samfunnsdata?
+
+Matematiske modeller hjelper oss å **beskrive**, **forklare** og **forutsi** utviklingen i samfunnet – for eksempel folketall, priser, lønn, arbeidsledighet, strømforbruk eller salg av elbiler.
+
+## Et selvstendig arbeid
+
+1. **Problemstilling**: Formuler et tydelig spørsmål, for eksempel «Hvordan har andelen elbiler blant nye personbiler utviklet seg, og når økte den raskest?»
+2. **Datainnsamling**: Bruk **pålitelige kilder**, som **Statistisk sentralbyrå (SSB)**, Norges Bank eller offentlige etater. Noter **kilde**, **enheter** og **tidsperiode**.
+3. **Bearbeiding**: Velg variabler. Det er ofte lurt å la **t** være antall år etter et startår, for eksempel t = 0 i 2015.
+4. **Modellvalg**: Plott dataene først og se på formen.
+5. **Analyse** med derivasjon.
+6. **Vurdering** og **presentasjon**.
+
+## Velge modelltype
+
+- **Lineær**: omtrent samme økning hvert år.
+- **Andre- eller tredjegradspolynom**: når utviklingen snur, med topp- eller bunnpunkt.
+- **Eksponentiell**: omtrent samme **prosentvise** økning hvert år, som renter og prisvekst.
+- **Logistisk**: vekst som flater ut mot et tak, som andelen som har tatt i bruk en ny teknologi.
+
+Bruk **regresjon** i GeoGebra eller regneark, for eksempel RegPoly og RegEksp. Et høyt **R²** betyr at modellen følger dataene godt, men det er **ikke** et bevis for at modellen er riktig.
+
+## Tolke modellen med derivasjon
+
+Tenk deg at salget av en vare kan modelleres med
+
+**S(t) = −0,5t² + 12t + 40**
+
+der S er salget i tusen enheter og t er år etter 2015.
+
+- S′(t) = −t + 12. **S′(5) = 7**: I 2020 økte salget med omtrent **7000 enheter per år**.
+- S′(t) = 0 gir t = 12. Salget var størst i **2027** ifølge modellen, med S(12) = −72 + 144 + 40 = **112 tusen enheter**.
+
+Husk at tolkningen må ha **enheter** og **sammenheng**: «tusen enheter per år», ikke bare et tall.
+
+## Vurdere modellen
+
+- Passer modellen **godt** til dataene? Se på grafen og avvikene.
+- Gir den **rimelige** svar utenfor dataperioden? Et andregradspolynom vil til slutt gi **negativt salg**, noe som er umulig.
+- Hvilke **forhold** kan endre utviklingen – for eksempel nye regler, avgifter, kriser eller teknologi?
+- Er dataene **sammenlignbare** over tid, eller er definisjoner endret?
+
+## Kildekritikk
+
+Spør: **Hvem** har laget statistikken, og **hvordan** er den samlet inn? Er tallene justert for **prisstigning** (faste priser) eller ikke (løpende priser)? Er det **korrelasjon** eller **årsakssammenheng**?
+
+## Presentasjon
+
+- **Tydelige grafer** med aksetitler, enheter og kilde.
+- **Modellen** skrevet ut, med forklaring av variablene.
+- **Svar** på problemstillingen, med tolkning av vekstfart og ekstremalpunkter.
+- **Drøfting** av styrker og svakheter.
+- **Kildeliste**.', '{"label":"Modellering med samfunnsdata","children":[{"label":"Prosess","children":[{"label":"Problemstilling"},{"label":"Data fra SSB"},{"label":"Bearbeiding"}]},{"label":"Modelltyper","children":[{"label":"Lineær"},{"label":"Polynom"},{"label":"Eksponentiell"},{"label":"Logistisk"}]},{"label":"Analyse","children":[{"label":"Regresjon og R²"},{"label":"Vekstfart med enheter"},{"label":"Ekstremalpunkter"}]},{"label":"Vurdering","children":[{"label":"Ekstrapolering"},{"label":"Faste og løpende priser"},{"label":"Korrelasjon og årsak"}]},{"label":"Presentasjon","children":[{"label":"Grafer med kilde"},{"label":"Drøfting"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:modellering-med-samfunnsdata';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:modellering-med-samfunnsdata', 'SSB', 'Statistisk sentralbyrå – hovedkilde til norsk statistikk.', 0),
+  ('matematikk-s1:modellering-med-samfunnsdata', 't = antall år etter startår', 'Gjør modellen enklere å arbeide med.', 1),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Lineær modell', 'Omtrent samme økning hvert år.', 2),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Eksponentiell modell', 'Omtrent samme prosentvise økning hvert år.', 3),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Logistisk modell', 'Vekst som flater ut mot et tak.', 4),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Polynommodell', 'Når utviklingen snur, med topp- eller bunnpunkt.', 5),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'R²', 'Mål på hvor godt modellen følger dataene – ikke et bevis.', 6),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'S′(t) i en salgsmodell', 'Endring i salg per år.', 7),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'S(t) = −0,5t² + 12t + 40', 'Størst salg 112 tusen ved t = 12.', 8),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Ekstrapolering', 'Å bruke modellen utenfor dataperioden.', 9),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Faste priser', 'Tall justert for prisstigning.', 10),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Løpende priser', 'Tall som ikke er justert for prisstigning.', 11),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Korrelasjon', 'At to størrelser varierer sammen – ikke nødvendigvis årsak.', 12),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Aksetitler og enheter', 'Må alltid være med i grafer.', 13),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'Drøfting', 'Vurdering av modellens styrker og svakheter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:modellering-med-samfunnsdata';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q01', 'flervalg', 'Hvilken modell passer når en størrelse øker med omtrent samme prosent hvert år?', array['Lineær', 'Eksponentiell', 'Andregrads', 'Konstant']::text[], 1, 'Fast vekstfaktor.', true, true, 0),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q02', 'flervalg', 'S(t) = −0,5t² + 12t + 40. Hva er S′(5)?', array['7', '12', '−5', '87,5']::text[], 0, 'S′(t) = −t + 12.', true, true, 1),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q03', 'flervalg', 'Når er salget størst ifølge modellen S(t) = −0,5t² + 12t + 40, der t er år etter 2015?', array['2020', '2025', '2027', '2035']::text[], 2, 'S′(t) = 0 gir t = 12.', true, true, 2),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q04', 'flervalg', 'Hva betyr et høyt R²?', array['At modellen er bevist riktig', 'At dataene er feil', 'At modellen alltid gir gode prognoser', 'At modellen følger dataene godt']::text[], 3, 'Men det sier ikke noe sikkert om framtiden.', true, true, 3),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q05', 'flervalg', 'Hvorfor kan et andregradspolynom være en dårlig modell for salg langt fram i tid?', array['Det vil til slutt gi negativt salg', 'Det kan ikke deriveres', 'Det har ingen toppunkt', 'Det vokser alltid']::text[], 0, 'Urimelig svar ved ekstrapolering.', true, true, 4),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q06', 'flervalg', 'Hvilken modell passer for andelen som tar i bruk en ny teknologi?', array['Lineær', 'Logistisk', 'Konstant', 'Tredjegrads med negativ ledende koeffisient']::text[], 1, 'Andelen kan ikke bli over 100 %.', true, true, 5),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q07', 'flervalg', 'Hva er forskjellen på faste og løpende priser?', array['Det er det samme', 'Faste priser er alltid høyere', 'Faste priser er justert for prisstigning', 'Løpende priser er justert for prisstigning']::text[], 2, 'Viktig ved sammenligning over tid.', true, true, 6),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q08', 'flervalg', 'Hvordan bør S′(5) = 7 tolkes når S er salg i tusen enheter?', array['Salget er 7 enheter', 'Salget er 7000', 'Salget var størst i år 5', 'Salget økte med omtrent 7000 enheter per år ved t = 5']::text[], 3, 'Husk enhet og sammenheng.', true, true, 7),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q09', 'flervalg', 'Hva er et godt første steg før du velger modelltype?', array['Plotte dataene og se på formen', 'Velge den mest avanserte modellen', 'Slette avvikende punkter', 'Regne ut den deriverte']::text[], 0, 'Formen gir hint om modelltypen.', true, false, 8),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'q10', 'flervalg', 'Hvilken kilde er best for norsk befolkningsstatistikk?', array['Sosiale medier', 'Statistisk sentralbyrå', 'En reklamebrosjyre', 'Et debattinnlegg']::text[], 1, 'Offisiell statistikk.', true, false, 9),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm01', 'sant-usant', 'En modell kan passe godt til dataene og likevel gi urimelige prognoser.', array['Sant', 'Usant']::text[], 0, 'Særlig ved ekstrapolering.', false, true, 10),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm02', 'sant-usant', 'Grafer trenger ikke aksetitler når modellen er riktig.', array['Sant', 'Usant']::text[], 1, 'Aksetitler og enheter må alltid være med.', false, true, 11),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm03', 'sant-usant', 'Nye regler eller avgifter kan endre utviklingen modellen beskriver.', array['Sant', 'Usant']::text[], 0, 'Modellen fanger bare opp mønsteret i dataene.', false, true, 12),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm04', 'sant-usant', 'Korrelasjon mellom to størrelser beviser at den ene forårsaker den andre.', array['Sant', 'Usant']::text[], 1, 'Korrelasjon er ikke årsak.', false, true, 13),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm05', 'flervalg', 'Hva er S(12) når S(t) = −0,5t² + 12t + 40?', array['100', '112', '184', '40']::text[], 1, '−72 + 144 + 40.', false, true, 14),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm06', 'flervalg', 'Hvorfor lar vi ofte t = 0 svare til et startår?', array['Det gjør tallene i modellen enklere', 'Det er påbudt', 'Det gir alltid høyere R²', 'Det fjerner feil i dataene']::text[], 0, 'Store årstall gir uhåndterlige koeffisienter.', false, true, 15),
+  ('matematikk-s1:modellering-med-samfunnsdata', 'm07', 'flervalg', 'Hva bør være med i en presentasjon av modellarbeidet?', array['Bare modellen', 'Bare grafen', 'Grafer, modell, tolkning, drøfting og kilder', 'Bare konklusjonen']::text[], 2, 'Hele prosessen skal komme fram.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:modellering-med-samfunnsdata', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Kombinatorikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:kombinatorikk', 'matematikk-s1', 'kombinatorikk', 'Kombinatorikk', 'Multiplikasjonsprinsippet, ordnede og uordnede utvalg med og uten tilbakelegging, fakultet, permutasjoner og binomialkoeffisienter – med eksempler fra koder, konkurranser, lag og Lotto.', array[10]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:kombinatorikk', '## Hva er kombinatorikk?
+
+**Kombinatorikk** handler om å **telle** hvor mange muligheter det finnes – uten å måtte skrive opp alle. Det er grunnlaget for å regne ut **sannsynligheter**.
+
+## Multiplikasjonsprinsippet
+
+Hvis et valg kan gjøres på **m** måter og et nytt valg på **n** måter, kan de to valgene gjøres på **m · n** måter.
+
+**Eksempel**: En meny har 3 forretter, 4 hovedretter og 2 desserter. Antall ulike middager er 3 · 4 · 2 = **24**.
+
+## To spørsmål avgjør metoden
+
+1. **Har rekkefølgen betydning?** (ordnet eller uordnet)
+2. **Kan det samme velges flere ganger?** (med eller uten tilbakelegging)
+
+## Ordnet med tilbakelegging
+
+Antall muligheter er **nʳ**, der n er antall valgmuligheter hver gang og r er antall valg.
+
+**Eksempel**: En PIN-kode med 4 siffer: 10⁴ = **10 000** koder.
+
+## Ordnet uten tilbakelegging
+
+Når ingen kan velges to ganger og rekkefølgen betyr noe:
+
+**n · (n − 1) · … · (n − r + 1) = n! / (n − r)!**
+
+**Eksempel**: 10 løpere kjemper om gull, sølv og bronse. Antall måter å dele ut medaljene på er 10 · 9 · 8 = **720**.
+
+## Fakultet og permutasjoner
+
+**n!** (n fakultet) er n · (n − 1) · … · 2 · 1. For eksempel er 5! = **120**. Vi definerer **0! = 1**.
+
+Antall måter å ordne n ting i **rekkefølge** – antall **permutasjoner** – er **n!**. Fem personer kan stille seg i kø på 120 måter.
+
+## Uordnet uten tilbakelegging
+
+Når vi bare bryr oss om **hvem** som velges, ikke **rekkefølgen**, bruker vi **binomialkoeffisienten**:
+
+**C(n, r) = n! / (r! · (n − r)!)**
+
+Skrives også «n over r».
+
+**Eksempel**: Å velge en komité på 3 av 10 elever kan gjøres på C(10, 3) = 720 / 6 = **120** måter. Vi deler de 720 ordnede utvalgene på 3! = 6, fordi hver gruppe på tre er talt 6 ganger.
+
+**Lotto**: Å velge 7 av 34 tall kan gjøres på C(34, 7) = **5 379 616** måter.
+
+## Oversikt
+
+| | Med tilbakelegging | Uten tilbakelegging |
+|---|---|---|
+| **Ordnet** | nʳ | n! / (n − r)! |
+| **Uordnet** | (sjelden i S1) | C(n, r) |
+
+## Nyttige egenskaper
+
+- C(n, r) = C(n, n − r): Å velge 3 av 10 er det samme som å velge bort 7.
+- C(n, 0) = C(n, n) = 1.
+- Binomialkoeffisientene står i **Pascals trekant**, der hvert tall er summen av de to over.
+
+## Digitale verktøy
+
+I GeoGebra og på kalkulatoren bruker du **nPr(n, r)** for ordnede utvalg og **nCr(n, r)** for uordnede. I regneark heter funksjonen KOMBINASJON.', '{"label":"Kombinatorikk","children":[{"label":"Grunnprinsipp","children":[{"label":"Multiplikasjonsprinsippet"}]},{"label":"To spørsmål","children":[{"label":"Ordnet eller uordnet?"},{"label":"Med eller uten tilbakelegging?"}]},{"label":"Ordnet","children":[{"label":"nʳ"},{"label":"n!/(n − r)!"},{"label":"Permutasjoner n!"}]},{"label":"Uordnet","children":[{"label":"C(n, r)"},{"label":"Lotto"},{"label":"Pascals trekant"}]},{"label":"Verktøy","children":[{"label":"nPr og nCr"},{"label":"KOMBINASJON"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:kombinatorikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:kombinatorikk', 'Multiplikasjonsprinsippet', 'm måter og n måter gir m · n måter.', 0),
+  ('matematikk-s1:kombinatorikk', 'Ordnet utvalg', 'Rekkefølgen har betydning.', 1),
+  ('matematikk-s1:kombinatorikk', 'Uordnet utvalg', 'Rekkefølgen har ikke betydning.', 2),
+  ('matematikk-s1:kombinatorikk', 'Med tilbakelegging', 'Det samme kan velges flere ganger.', 3),
+  ('matematikk-s1:kombinatorikk', 'Ordnet med tilbakelegging', 'nʳ', 4),
+  ('matematikk-s1:kombinatorikk', 'Ordnet uten tilbakelegging', 'n!/(n − r)!', 5),
+  ('matematikk-s1:kombinatorikk', 'Uordnet uten tilbakelegging', 'C(n, r) = n!/(r!(n − r)!)', 6),
+  ('matematikk-s1:kombinatorikk', 'n!', 'n · (n − 1) · … · 1', 7),
+  ('matematikk-s1:kombinatorikk', '0!', '1', 8),
+  ('matematikk-s1:kombinatorikk', '5!', '120', 9),
+  ('matematikk-s1:kombinatorikk', 'PIN-kode med 4 siffer', '10 000 muligheter.', 10),
+  ('matematikk-s1:kombinatorikk', 'Gull, sølv og bronse blant 10', '720 muligheter.', 11),
+  ('matematikk-s1:kombinatorikk', 'C(10, 3)', '120', 12),
+  ('matematikk-s1:kombinatorikk', 'C(34, 7)', '5 379 616 – antall Lotto-rekker.', 13),
+  ('matematikk-s1:kombinatorikk', 'Pascals trekant', 'Tabell over binomialkoeffisientene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:kombinatorikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:kombinatorikk', 'q01', 'flervalg', 'En meny har 3 forretter, 4 hovedretter og 2 desserter. Hvor mange ulike middager finnes?', array['9', '24', '12', '6']::text[], 1, '3 · 4 · 2.', true, true, 0),
+  ('matematikk-s1:kombinatorikk', 'q02', 'flervalg', 'Hvor mange firesifrede PIN-koder finnes?', array['10 000', '5040', '40', '9999']::text[], 0, '10⁴ – ordnet med tilbakelegging.', true, true, 1),
+  ('matematikk-s1:kombinatorikk', 'q03', 'flervalg', 'På hvor mange måter kan gull, sølv og bronse deles ut blant 10 løpere?', array['120', '1000', '720', '30']::text[], 2, '10 · 9 · 8.', true, true, 2),
+  ('matematikk-s1:kombinatorikk', 'q04', 'flervalg', 'På hvor mange måter kan en komité på 3 velges blant 10 elever?', array['720', '30', '1000', '120']::text[], 3, 'C(10, 3).', true, true, 3),
+  ('matematikk-s1:kombinatorikk', 'q05', 'flervalg', 'Hva er 5!?', array['120', '25', '15', '60']::text[], 0, '5 · 4 · 3 · 2 · 1.', true, true, 4),
+  ('matematikk-s1:kombinatorikk', 'q06', 'flervalg', 'Hvilken type utvalg er Lotto?', array['Ordnet med tilbakelegging', 'Uordnet uten tilbakelegging', 'Ordnet uten tilbakelegging', 'Uordnet med tilbakelegging']::text[], 1, 'Rekkefølgen spiller ingen rolle, og et tall trekkes bare én gang.', true, true, 5),
+  ('matematikk-s1:kombinatorikk', 'q07', 'flervalg', 'Hvorfor deler vi på 3! når vi går fra ordnede til uordnede utvalg av 3?', array['Fordi det er 3 personer', 'Fordi vi har tilbakelegging', 'Fordi hver gruppe på tre er talt 3! = 6 ganger', 'Fordi 3! = 3']::text[], 2, 'Tre personer kan ordnes på 6 måter.', true, true, 6),
+  ('matematikk-s1:kombinatorikk', 'q08', 'flervalg', 'Hvor mange måter kan fem personer stille seg i kø på?', array['5', '25', '3125', '120']::text[], 3, '5! permutasjoner.', true, true, 7),
+  ('matematikk-s1:kombinatorikk', 'q09', 'flervalg', 'Hva er 0!?', array['1', '0', 'Ikke definert', '−1']::text[], 0, 'Etter definisjon.', true, false, 8),
+  ('matematikk-s1:kombinatorikk', 'q10', 'flervalg', 'Hvilken sammenheng gjelder alltid?', array['C(n, r) = n!', 'C(n, r) = C(n, n − r)', 'C(n, r) = nʳ', 'C(n, r) = r!']::text[], 1, 'Å velge r er det samme som å velge bort n − r.', true, false, 9),
+  ('matematikk-s1:kombinatorikk', 'm01', 'sant-usant', 'Å velge 3 av 10 gir like mange muligheter som å velge 7 av 10.', array['Sant', 'Usant']::text[], 0, 'C(10, 3) = C(10, 7) = 120.', false, true, 10),
+  ('matematikk-s1:kombinatorikk', 'm02', 'sant-usant', 'En PIN-kode er et uordnet utvalg.', array['Sant', 'Usant']::text[], 1, 'Rekkefølgen på sifrene betyr noe.', false, true, 11),
+  ('matematikk-s1:kombinatorikk', 'm03', 'sant-usant', 'Det finnes over fem millioner mulige Lotto-rekker med 7 av 34 tall.', array['Sant', 'Usant']::text[], 0, 'C(34, 7) = 5 379 616.', false, true, 12),
+  ('matematikk-s1:kombinatorikk', 'm04', 'sant-usant', 'C(n, r) er alltid større enn n!/(n − r)!.', array['Sant', 'Usant']::text[], 1, 'Uordnede utvalg er færre, fordi vi deler på r!.', false, true, 13),
+  ('matematikk-s1:kombinatorikk', 'm05', 'flervalg', 'Hvor mange ord på 3 bokstaver kan lages av bokstavene A, B, C og D uten gjentakelse?', array['64', '24', '12', '4']::text[], 1, '4 · 3 · 2.', false, true, 14),
+  ('matematikk-s1:kombinatorikk', 'm06', 'flervalg', 'Hva er C(5, 2)?', array['10', '20', '5', '25']::text[], 0, '5 · 4 / 2.', false, true, 15),
+  ('matematikk-s1:kombinatorikk', 'm07', 'flervalg', 'Et skilt har to bokstaver (av 26) fulgt av tre siffer. Hvor mange skilt er mulige?', array['26 · 10', '26 + 26 + 10 + 10 + 10', '26² · 10³', 'C(26, 2) · C(10, 3)']::text[], 2, '676 000 – ordnet med tilbakelegging.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:kombinatorikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Sannsynlighet, simulering og stokastiske variabler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:sannsynlighet-og-simulering', 'matematikk-s1', 'sannsynlighet-og-simulering', 'Sannsynlighet, simulering og stokastiske variabler', 'Sannsynlighetsregler, komplementsetningen, uavhengige hendelser og betinget sannsynlighet, simulering med digitale verktøy, stokastiske variabler og forventningsverdi.', array[11, 12]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:sannsynlighet-og-simulering', '## Grunnbegreper
+
+- Et **stokastisk forsøk** har flere mulige **utfall**, og vi vet ikke på forhånd hvilket som kommer.
+- **Utfallsrommet** er mengden av alle mulige utfall.
+- En **hendelse** er en samling utfall, for eksempel «terningen viser et partall».
+
+Når alle utfall er **like sannsynlige**:
+
+**P(A) = antall gunstige utfall / antall mulige utfall**
+
+## Regler
+
+- **Komplementsetningen**: P(ikke A) = 1 − P(A).
+- **Addisjonssetningen**: P(A eller B) = P(A) + P(B) − P(A og B).
+- **Uavhengige hendelser**: P(A og B) = P(A) · P(B).
+- **Betinget sannsynlighet**: P(A | B) = P(A og B) / P(B) – sannsynligheten for A **gitt** at B har skjedd.
+
+**Eksempel – minst én**: Sannsynligheten for minst én sekser på fire terningkast er
+
+1 − P(ingen seksere) = 1 − (5/6)⁴ ≈ 1 − 0,482 = **0,518**
+
+«Minst én»-oppgaver løses nesten alltid lettest med **komplementet**.
+
+## Strategier
+
+- **Tabell** med to variabler, for eksempel for to terninger (36 utfall).
+- **Valgtre**, der du multipliserer langs greinene og adderer mellom greinene.
+- **Krysstabell** for betinget sannsynlighet, for eksempel medisinske tester.
+- **Kombinatorikk**, når utfallene er mange.
+
+## Simulering
+
+Mange problemer er vanskelige å regne ut eksakt. Da kan vi **simulere** forsøket mange ganger med datamaskin:
+
+- I regneark gir **TILFELDIGMELLOM(1; 6)** et tilfeldig terningkast.
+- I Python gir **random.randint(1, 6)** det samme.
+
+Når antall forsøk øker, nærmer den **relative frekvensen** seg den **teoretiske sannsynligheten**. Det kalles **store talls lov**. Med få forsøk kan resultatet avvike mye.
+
+## Stokastiske variabler
+
+En **stokastisk variabel X** gir et **tall** til hvert utfall av et forsøk – for eksempel summen av to terninger, antall rette svar eller gevinsten i et spill. **Sannsynlighetsfordelingen** viser P(X = x) for alle verdier x, og summen av sannsynlighetene er **1**.
+
+## Forventningsverdi
+
+**Forventningsverdien** er gjennomsnittet vi forventer i det lange løp:
+
+**E(X) = Σ x · P(X = x)**
+
+- Ett terningkast: E(X) = (1 + 2 + 3 + 4 + 5 + 6) / 6 = **3,5**.
+- Summen av to terninger: E(X) = **7**.
+
+**Spill**: Du betaler 10 kr og vinner 50 kr hvis du får sekser. Forventet netto gevinst er
+
+50 · 1/6 − 10 ≈ **−1,67 kr**
+
+I det lange løp taper du altså i gjennomsnitt 1,67 kr per spill. Pengespill er laget slik at forventningsverdien er **negativ** for spilleren.
+
+## Vanlige feil
+
+- **Spillerens feilslutning**: Å tro at en sekser er «mer sannsynlig» etter mange kast uten sekser. Terningen husker ikke!
+- Å legge sammen sannsynligheter for hendelser som **ikke utelukker** hverandre.
+- Å gange sannsynligheter for hendelser som **ikke er uavhengige**.', '{"label":"Sannsynlighet og simulering","children":[{"label":"Grunnbegreper","children":[{"label":"Utfall og utfallsrom"},{"label":"Hendelse"},{"label":"Gunstige/mulige"}]},{"label":"Regler","children":[{"label":"Komplement"},{"label":"Addisjon"},{"label":"Uavhengighet"},{"label":"Betinget"}]},{"label":"Strategier","children":[{"label":"Tabell"},{"label":"Valgtre"},{"label":"Krysstabell"}]},{"label":"Simulering","children":[{"label":"Regneark og Python"},{"label":"Store talls lov"}]},{"label":"Stokastiske variabler","children":[{"label":"Fordeling"},{"label":"Forventningsverdi"},{"label":"Pengespill"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:sannsynlighet-og-simulering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Stokastisk forsøk', 'Forsøk der utfallet ikke er kjent på forhånd.', 0),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Utfallsrom', 'Alle mulige utfall.', 1),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'P(A) ved like sannsynlige utfall', 'Gunstige / mulige.', 2),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Komplementsetningen', 'P(ikke A) = 1 − P(A)', 3),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Addisjonssetningen', 'P(A eller B) = P(A) + P(B) − P(A og B)', 4),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Uavhengige hendelser', 'P(A og B) = P(A) · P(B)', 5),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Betinget sannsynlighet', 'P(A | B) = P(A og B) / P(B)', 6),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Minst én sekser på fire kast', '1 − (5/6)⁴ ≈ 0,518', 7),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Simulering', 'Å gjenta et forsøk mange ganger med datamaskin.', 8),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Store talls lov', 'Relativ frekvens nærmer seg sannsynligheten ved mange forsøk.', 9),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Stokastisk variabel', 'Gir et tall til hvert utfall.', 10),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Forventningsverdi', 'E(X) = Σ x · P(X = x)', 11),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'E(X) for ett terningkast', '3,5', 12),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Spillerens feilslutning', 'Å tro at tidligere utfall påvirker uavhengige kast.', 13),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'Valgtre', 'Multipliser langs greinene, adder mellom greinene.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:sannsynlighet-og-simulering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q01', 'flervalg', 'Hva er sannsynligheten for minst én sekser på fire terningkast?', array['4/6', 'Omtrent 0,518', 'Omtrent 0,482', '1/6']::text[], 1, '1 − (5/6)⁴.', true, true, 0),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q02', 'flervalg', 'Hva sier komplementsetningen?', array['P(ikke A) = 1 − P(A)', 'P(A og B) = P(A) · P(B)', 'P(A) = gunstige/mulige', 'P(A) + P(B) = 1']::text[], 0, 'Nyttig for «minst én»-oppgaver.', true, true, 1),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q03', 'flervalg', 'Hva er forventningsverdien for ett terningkast?', array['3', '6', '3,5', '1/6']::text[], 2, '(1 + 2 + … + 6)/6.', true, true, 2),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q04', 'flervalg', 'Du betaler 10 kr og vinner 50 kr ved sekser. Hva er forventet netto gevinst?', array['40 kr', '8,33 kr', '0 kr', 'Omtrent −1,67 kr']::text[], 3, '50/6 − 10.', true, true, 3),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q05', 'flervalg', 'Hva sier store talls lov?', array['Relativ frekvens nærmer seg sannsynligheten ved mange forsøk', 'Store tall er mer sannsynlige', 'Etter mange tap kommer en gevinst', 'Simulering gir alltid eksakt svar']::text[], 0, 'Med få forsøk kan avviket være stort.', true, true, 4),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q06', 'flervalg', 'Når gjelder P(A og B) = P(A) · P(B)?', array['Alltid', 'Når A og B er uavhengige', 'Når A og B utelukker hverandre', 'Når P(A) = P(B)']::text[], 1, 'Den ene påvirker ikke den andre.', true, true, 5),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q07', 'flervalg', 'Hva er en stokastisk variabel?', array['En konstant', 'En tilfeldig hendelse', 'En funksjon som gir et tall til hvert utfall', 'En type terning']::text[], 2, 'For eksempel summen av to terninger.', true, true, 6),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q08', 'flervalg', 'Du har fått fem kast på rad uten sekser. Hva er sannsynligheten for sekser i neste kast?', array['Større enn 1/6', 'Mindre enn 1/6', '5/6', '1/6']::text[], 3, 'Kastene er uavhengige – spillerens feilslutning.', true, true, 7),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q09', 'flervalg', 'Hva er E(X) når X er summen av to terninger?', array['7', '6', '12', '3,5']::text[], 0, '3,5 + 3,5.', true, false, 8),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'q10', 'flervalg', 'Hvilken regnearkfunksjon gir et tilfeldig terningkast?', array['SUMMER(1; 6)', 'TILFELDIGMELLOM(1; 6)', 'GJENNOMSNITT(1; 6)', 'ANTALL(1; 6)']::text[], 1, 'Brukes til simulering.', true, false, 9),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm01', 'sant-usant', 'Summen av sannsynlighetene i en sannsynlighetsfordeling er 1.', array['Sant', 'Usant']::text[], 0, 'Ett av utfallene må inntreffe.', false, true, 10),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm02', 'sant-usant', 'En simulering med 10 forsøk gir alltid nesten nøyaktig den teoretiske sannsynligheten.', array['Sant', 'Usant']::text[], 1, 'Med få forsøk kan avviket være stort.', false, true, 11),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm03', 'sant-usant', 'Pengespill er vanligvis laget slik at forventningsverdien er negativ for spilleren.', array['Sant', 'Usant']::text[], 0, 'Ellers ville arrangøren tape penger.', false, true, 12),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm04', 'sant-usant', 'P(A eller B) = P(A) + P(B) gjelder alltid.', array['Sant', 'Usant']::text[], 1, 'Bare når A og B ikke kan skje samtidig.', false, true, 13),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm05', 'flervalg', 'Hva er sannsynligheten for å få sum 7 med to terninger?', array['7/36', '1/6', '1/12', '1/7']::text[], 1, '6 av 36 utfall.', false, true, 14),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm06', 'flervalg', 'Hva er sannsynligheten for to kron på to myntkast?', array['1/4', '1/2', '1/3', '3/4']::text[], 0, '½ · ½.', false, true, 15),
+  ('matematikk-s1:sannsynlighet-og-simulering', 'm07', 'flervalg', 'I en klasse har 40 % biologi, og av dem har 50 % også kjemi. Hva er P(biologi og kjemi)?', array['0,9', '0,5', '0,2', '0,1']::text[], 2, '0,4 · 0,5.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:sannsynlighet-og-simulering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Binomisk fordeling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:binomisk-fordeling', 'matematikk-s1', 'binomisk-fordeling', 'Binomisk fordeling', 'Når et forsøk er binomisk, formelen for binomisk sannsynlighet, kumulative sannsynligheter og forventningsverdi – med anvendelser fra kvalitetskontroll, gjetting på prøver og overbooking.', array[13]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:binomisk-fordeling', '## Binomiske forsøk
+
+Et forsøk er **binomisk** når
+
+1. det består av **n** delforsøk
+2. hvert delforsøk har **to** mulige utfall – «suksess» eller «ikke suksess»
+3. sannsynligheten **p** for suksess er **den samme** i hvert delforsøk
+4. delforsøkene er **uavhengige** av hverandre
+
+La X være **antall suksesser**. Da er X **binomisk fordelt**.
+
+## Formelen
+
+**P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ**
+
+- pᵏ er sannsynligheten for k suksesser.
+- (1 − p)ⁿ⁻ᵏ er sannsynligheten for n − k ikke-suksesser.
+- C(n, k) er antall måter suksessene kan fordele seg på blant de n delforsøkene.
+
+**Eksempel – mynt**: Sannsynligheten for nøyaktig 5 kron på 10 kast er
+
+C(10, 5) · 0,5⁵ · 0,5⁵ = 252 / 1024 ≈ **0,246**
+
+Selv det mest sannsynlige utfallet skjer altså bare i omtrent én av fire serier.
+
+## Forventningsverdi
+
+**E(X) = n · p**
+
+Med 10 myntkast forventer vi 10 · 0,5 = 5 kron i gjennomsnitt.
+
+## Kumulative sannsynligheter
+
+Ofte spør vi om **høyst**, **minst** eller **mellom**:
+
+- P(X ≤ k): legg sammen P(X = 0) til P(X = k).
+- P(X ≥ k) = 1 − P(X ≤ k − 1).
+
+I GeoGebra finner du dette i **sannsynlighetskalkulatoren** eller med kommandoen **Binomisk(n, p, k, true)**.
+
+## Eksempler
+
+**Kvalitetskontroll**: 20 % av varene i en stor produksjon er defekte. Vi trekker 5 tilfeldig.
+
+- P(ingen defekte) = 0,8⁵ ≈ **0,328**
+- P(minst én defekt) = 1 − 0,328 = **0,672**
+- Forventet antall defekte: 5 · 0,2 = **1**
+
+**Gjetting på flervalgsprøve**: En prøve har 10 spørsmål med 4 svaralternativer. Du gjetter på alt, så p = 0,25.
+
+- E(X) = 10 · 0,25 = **2,5** rette
+- P(X ≥ 5) ≈ **0,078** – under 8 % sjanse for å få minst halvparten riktig bare ved å gjette.
+
+**Overbooking**: Flyselskaper vet at noen passasjerer ikke møter. Med en binomisk modell kan de regne ut hvor mange billetter de kan selge uten for stor risiko for at flere enn antall seter møter opp.
+
+## Når passer modellen?
+
+Modellen krever **konstant p** og **uavhengighet**. Trekker vi uten tilbakelegging fra en **liten** gruppe, endres p underveis. Da er den **hypergeometriske fordelingen** riktig. Trekker vi fra en **svært stor** gruppe, blir endringen så liten at den binomiske modellen er en god tilnærming.
+
+## Grafisk
+
+Et **stolpediagram** av fordelingen er symmetrisk når p = 0,5, og skjevt når p er nær 0 eller 1. Toppen ligger nær forventningsverdien n · p.', '{"label":"Binomisk fordeling","children":[{"label":"Krav","children":[{"label":"n delforsøk"},{"label":"To utfall"},{"label":"Konstant p"},{"label":"Uavhengige"}]},{"label":"Formel","children":[{"label":"C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ"},{"label":"E(X) = np"}]},{"label":"Kumulativt","children":[{"label":"Høyst"},{"label":"Minst"},{"label":"GeoGebra"}]},{"label":"Anvendelser","children":[{"label":"Kvalitetskontroll"},{"label":"Gjetting på prøve"},{"label":"Overbooking"}]},{"label":"Gyldighet","children":[{"label":"Stor populasjon"},{"label":"Ellers hypergeometrisk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:binomisk-fordeling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:binomisk-fordeling', 'Binomisk forsøk – krav 1', 'n delforsøk.', 0),
+  ('matematikk-s1:binomisk-fordeling', 'Binomisk forsøk – krav 2', 'To utfall i hvert delforsøk.', 1),
+  ('matematikk-s1:binomisk-fordeling', 'Binomisk forsøk – krav 3', 'Samme sannsynlighet p hver gang.', 2),
+  ('matematikk-s1:binomisk-fordeling', 'Binomisk forsøk – krav 4', 'Uavhengige delforsøk.', 3),
+  ('matematikk-s1:binomisk-fordeling', 'Binomisk sannsynlighet', 'P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ', 4),
+  ('matematikk-s1:binomisk-fordeling', 'Forventningsverdi i binomisk fordeling', 'E(X) = n · p', 5),
+  ('matematikk-s1:binomisk-fordeling', '5 kron på 10 myntkast', '252/1024 ≈ 0,246', 6),
+  ('matematikk-s1:binomisk-fordeling', 'P(X ≥ k)', '1 − P(X ≤ k − 1)', 7),
+  ('matematikk-s1:binomisk-fordeling', 'Kumulativ sannsynlighet', 'Sum av sannsynligheter opp til en verdi.', 8),
+  ('matematikk-s1:binomisk-fordeling', 'Ingen defekte av 5 når p = 0,2', '0,8⁵ ≈ 0,328', 9),
+  ('matematikk-s1:binomisk-fordeling', 'Gjetting på 10 spørsmål med 4 alternativer', 'E(X) = 2,5 rette.', 10),
+  ('matematikk-s1:binomisk-fordeling', 'Overbooking', 'Anvendelse av binomisk fordeling i flybransjen.', 11),
+  ('matematikk-s1:binomisk-fordeling', 'Trekk fra liten gruppe uten tilbakelegging', 'Bruk hypergeometrisk fordeling.', 12),
+  ('matematikk-s1:binomisk-fordeling', 'Symmetrisk binomisk fordeling', 'Når p = 0,5.', 13),
+  ('matematikk-s1:binomisk-fordeling', 'Binomisk(n, p, k, true)', 'GeoGebra-kommando for P(X ≤ k).', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:binomisk-fordeling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:binomisk-fordeling', 'q01', 'flervalg', 'Hvilket krav gjelder for et binomisk forsøk?', array['Sannsynligheten endres i hvert delforsøk', 'Delforsøkene er uavhengige med samme p', 'Det er tre utfall i hvert delforsøk', 'Antall delforsøk er ukjent']::text[], 1, 'Og to utfall i hvert delforsøk.', true, true, 0),
+  ('matematikk-s1:binomisk-fordeling', 'q02', 'flervalg', 'Hva er sannsynligheten for nøyaktig 5 kron på 10 myntkast?', array['Omtrent 0,246', '0,5', 'Omtrent 0,05', '1/10']::text[], 0, 'C(10, 5) · 0,5¹⁰ = 252/1024.', true, true, 1),
+  ('matematikk-s1:binomisk-fordeling', 'q03', 'flervalg', 'Hva er forventet antall kron på 10 myntkast?', array['10', '2,5', '5', '0,5']::text[], 2, 'n · p.', true, true, 2),
+  ('matematikk-s1:binomisk-fordeling', 'q04', 'flervalg', '20 % av varene er defekte. Hva er sannsynligheten for ingen defekte blant 5?', array['0,2', '0,8', '0,672', 'Omtrent 0,328']::text[], 3, '0,8⁵.', true, true, 3),
+  ('matematikk-s1:binomisk-fordeling', 'q05', 'flervalg', 'Hvordan regner du ut P(X ≥ 1)?', array['1 − P(X = 0)', 'P(X = 1)', 'P(X = 0) + P(X = 1)', '1 − P(X = 1)']::text[], 0, 'Komplementet til ingen suksesser.', true, true, 4),
+  ('matematikk-s1:binomisk-fordeling', 'q06', 'flervalg', 'Du gjetter på 10 spørsmål med 4 alternativer. Hvor mange rette forventer du?', array['4', '2,5', '5', '1']::text[], 1, '10 · 0,25.', true, true, 5),
+  ('matematikk-s1:binomisk-fordeling', 'q07', 'flervalg', 'Hva står C(n, k) for i binomialformelen?', array['Sannsynligheten for suksess', 'Forventningsverdien', 'Antall måter k suksesser kan fordele seg på blant n delforsøk', 'Antall fiaskoer']::text[], 2, 'Binomialkoeffisienten.', true, true, 6),
+  ('matematikk-s1:binomisk-fordeling', 'q08', 'flervalg', 'Når bør du bruke hypergeometrisk i stedet for binomisk fordeling?', array['Når p = 0,5', 'Når n er stor', 'Når det er to utfall', 'Når du trekker uten tilbakelegging fra en liten gruppe']::text[], 3, 'Da endres sannsynligheten underveis.', true, true, 7),
+  ('matematikk-s1:binomisk-fordeling', 'q09', 'flervalg', 'Omtrent hvor stor er sjansen for minst 5 rette av 10 ved å gjette med 4 alternativer?', array['Omtrent 8 %', 'Omtrent 25 %', 'Omtrent 50 %', 'Omtrent 1 %']::text[], 0, 'P(X ≥ 5) ≈ 0,078.', true, false, 8),
+  ('matematikk-s1:binomisk-fordeling', 'q10', 'flervalg', 'Hvordan ser en binomisk fordeling med p = 0,5 ut?', array['Skjev mot høyre', 'Symmetrisk', 'Skjev mot venstre', 'Flat']::text[], 1, 'Toppen ligger midt på.', true, false, 9),
+  ('matematikk-s1:binomisk-fordeling', 'm01', 'sant-usant', 'Antall seksere på 12 terningkast er binomisk fordelt.', array['Sant', 'Usant']::text[], 0, '12 uavhengige kast med p = 1/6.', false, true, 10),
+  ('matematikk-s1:binomisk-fordeling', 'm02', 'sant-usant', 'Det mest sannsynlige utfallet i en binomisk fordeling skjer nesten alltid.', array['Sant', 'Usant']::text[], 1, '5 kron av 10 skjer bare i omtrent 25 % av tilfellene.', false, true, 11),
+  ('matematikk-s1:binomisk-fordeling', 'm03', 'sant-usant', 'E(X) = n · p for en binomisk fordelt X.', array['Sant', 'Usant']::text[], 0, 'Forventet antall suksesser.', false, true, 12),
+  ('matematikk-s1:binomisk-fordeling', 'm04', 'sant-usant', 'Å trekke 3 kort fra en kortstokk uten tilbakelegging er et binomisk forsøk.', array['Sant', 'Usant']::text[], 1, 'Sannsynligheten endres fordi gruppen er liten.', false, true, 13),
+  ('matematikk-s1:binomisk-fordeling', 'm05', 'flervalg', 'Hva er forventet antall seksere på 12 terningkast?', array['6', '2', '1', '12']::text[], 1, '12 · 1/6.', false, true, 14),
+  ('matematikk-s1:binomisk-fordeling', 'm06', 'flervalg', 'Hva er P(X = 0) når n = 3 og p = 0,5?', array['0,125', '0,5', '0,375', '0']::text[], 0, '0,5³.', false, true, 15),
+  ('matematikk-s1:binomisk-fordeling', 'm07', 'flervalg', 'Hva er P(X = 2) når n = 3 og p = 0,5?', array['0,125', '0,25', '0,375', '0,5']::text[], 2, 'C(3, 2) · 0,5³ = 3/8.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:binomisk-fordeling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Matematikk S1: Hypergeometrisk fordeling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('matematikk-s1:hypergeometrisk-fordeling', 'matematikk-s1', 'hypergeometrisk-fordeling', 'Hypergeometrisk fordeling', 'Trekk uten tilbakelegging fra en gruppe med to typer elementer, formelen for hypergeometrisk sannsynlighet og forventningsverdi – med eksempler fra komiteer, kvalitetskontroll og Lotto, og sammenligning med binomisk fordeling.', array[13]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('matematikk-s1:hypergeometrisk-fordeling', '## Situasjonen
+
+Vi har en gruppe med **N** elementer. **M** av dem er av en «spesiell» type, og resten, N − M, er av en annen type. Vi trekker **n** elementer **uten tilbakelegging**. La X være antall spesielle elementer vi får.
+
+Da er X **hypergeometrisk fordelt**.
+
+## Formelen
+
+**P(X = k) = C(M, k) · C(N − M, n − k) / C(N, n)**
+
+- C(M, k): måter å velge k av de M spesielle
+- C(N − M, n − k): måter å velge resten blant de andre
+- C(N, n): alle måter å velge n av N
+
+Det er **gunstige / mulige**, der vi teller med kombinatorikk.
+
+## Eksempel – komité
+
+En klasse har 12 jenter og 8 gutter, altså N = 20. Vi trekker tilfeldig en komité på 4. Hva er sannsynligheten for nøyaktig 2 jenter?
+
+P(X = 2) = C(12, 2) · C(8, 2) / C(20, 4) = 66 · 28 / 4845 ≈ **0,381**
+
+## Forventningsverdi
+
+**E(X) = n · M / N**
+
+I komiteen forventer vi 4 · 12/20 = **2,4** jenter. Det er det samme som i en binomisk modell med p = M/N.
+
+## Eksempel – kvalitetskontroll
+
+Et parti på 50 varer inneholder 5 defekte. En kontrollør trekker 4. Sannsynligheten for at **ingen** er defekte er
+
+C(45, 4) / C(50, 4) = 148 995 / 230 300 ≈ **0,647**
+
+Kontrollen avslører altså ikke feil i over halvparten av tilfellene. Vil vi oppdage feil sikrere, må vi trekke **flere** varer.
+
+## Eksempel – Lotto
+
+I Lotto trekkes 7 vinnertall av 34. Du har krysset av 7 tall. Sannsynligheten for nøyaktig 3 rette er
+
+C(7, 3) · C(27, 4) / C(34, 7) = 35 · 17 550 / 5 379 616 ≈ **0,114**
+
+Sannsynligheten for 7 rette er bare 1 / 5 379 616.
+
+## Hypergeometrisk eller binomisk?
+
+| | Hypergeometrisk | Binomisk |
+|---|---|---|
+| Trekning | uten tilbakelegging | med tilbakelegging eller uavhengige forsøk |
+| p | endres underveis | konstant |
+
+Når gruppen N er **mye større** enn utvalget n, endres sannsynligheten nesten ikke fra trekk til trekk. Da gir den binomiske fordelingen med p = M/N **nesten samme svar**, og den er ofte enklere å regne med. En vanlig tommelfingerregel er at utvalget bør være mindre enn omtrent 10 % av gruppen.
+
+## Anvendelser
+
+- **Kvalitetskontroll** av partier
+- **Utvalg** av personer til komiteer, jury eller spørreundersøkelser
+- **Kortspill** og **Lotto**
+- **Fangst–gjenfangst** i biologi: Andelen merkede dyr i andre fangst brukes til å anslå hvor stor bestanden er.
+
+## Digitale verktøy
+
+I GeoGebras **sannsynlighetskalkulator** velger du «Hypergeometrisk» og fyller inn populasjon, antall spesielle og utvalgsstørrelse. Kommandoen **Hypergeometrisk(N, M, n, k, false)** gir P(X = k).', '{"label":"Hypergeometrisk fordeling","children":[{"label":"Situasjon","children":[{"label":"N, M og n"},{"label":"Uten tilbakelegging"}]},{"label":"Formel","children":[{"label":"C(M, k) · C(N − M, n − k) / C(N, n)"},{"label":"E(X) = nM/N"}]},{"label":"Eksempler","children":[{"label":"Komité"},{"label":"Kvalitetskontroll"},{"label":"Lotto"}]},{"label":"Mot binomisk","children":[{"label":"p endres"},{"label":"Tilnærming når N er stor"}]},{"label":"Verktøy og bruk","children":[{"label":"Sannsynlighetskalkulator"},{"label":"Fangst–gjenfangst"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'matematikk-s1:hypergeometrisk-fordeling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Hypergeometrisk situasjon', 'Trekk uten tilbakelegging fra en gruppe med to typer.', 0),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'N (hele gruppen)', 'Antall elementer i hele gruppen.', 1),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'M (spesielle)', 'Antall spesielle elementer.', 2),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'n (utvalget)', 'Antall som trekkes.', 3),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Hypergeometrisk sannsynlighet', 'C(M, k) · C(N − M, n − k) / C(N, n)', 4),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Forventningsverdi', 'E(X) = n · M / N', 5),
+  ('matematikk-s1:hypergeometrisk-fordeling', '2 jenter i komité på 4 (12 J, 8 G)', '66 · 28 / 4845 ≈ 0,381', 6),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'C(20, 4)', '4845', 7),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Ingen defekte av 4 (5 defekte av 50)', '≈ 0,647', 8),
+  ('matematikk-s1:hypergeometrisk-fordeling', '3 rette i Lotto', '≈ 0,114', 9),
+  ('matematikk-s1:hypergeometrisk-fordeling', '7 rette i Lotto', '1 / 5 379 616', 10),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Forskjell fra binomisk', 'p endres underveis fordi vi trekker uten tilbakelegging.', 11),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Tilnærming med binomisk', 'Når N er mye større enn n, med p = M/N.', 12),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Tommelfingerregel', 'Utvalget under omtrent 10 % av gruppen.', 13),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'Fangst–gjenfangst', 'Anvendelse i biologi for å anslå bestandsstørrelse.', 14);
+delete from public.quiz_sporsmal where tema_id = 'matematikk-s1:hypergeometrisk-fordeling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q01', 'flervalg', 'Når er X hypergeometrisk fordelt?', array['Ved uavhengige forsøk med konstant p', 'Ved trekk uten tilbakelegging fra en gruppe med to typer', 'Når alle utfall er like', 'Når vi trekker med tilbakelegging']::text[], 1, 'Sannsynligheten endres underveis.', true, true, 0),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q02', 'flervalg', 'En klasse har 12 jenter og 8 gutter. Hva er sannsynligheten for nøyaktig 2 jenter i en tilfeldig komité på 4?', array['Omtrent 0,381', '0,5', 'Omtrent 0,6', 'Omtrent 0,24']::text[], 0, '66 · 28 / 4845.', true, true, 1),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q03', 'flervalg', 'Hvor mange jenter forventer vi i komiteen på 4?', array['2', '3', '2,4', '1,6']::text[], 2, '4 · 12/20.', true, true, 2),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q04', 'flervalg', 'Hva er C(20, 4)?', array['80', '116 280', '190', '4845']::text[], 3, '20 · 19 · 18 · 17 / 24.', true, true, 3),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q05', 'flervalg', 'Et parti på 50 varer har 5 defekte. Hva er sannsynligheten for ingen defekte blant 4 trukne?', array['Omtrent 0,647', 'Omtrent 0,1', '0,9', 'Omtrent 0,353']::text[], 0, 'C(45, 4)/C(50, 4).', true, true, 4),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q06', 'flervalg', 'Når gir binomisk fordeling nesten samme svar som hypergeometrisk?', array['Når utvalget er stort sammenlignet med gruppen', 'Når gruppen er mye større enn utvalget', 'Når M = 0', 'Aldri']::text[], 1, 'Da endres p nesten ikke.', true, true, 5),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q07', 'flervalg', 'Hva står C(N − M, n − k) for i formelen?', array['Alle mulige utvalg', 'Måter å velge de spesielle', 'Måter å velge resten blant de ikke-spesielle', 'Forventningsverdien']::text[], 2, 'De n − k som ikke er spesielle.', true, true, 6),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q08', 'flervalg', 'Omtrent hva er sannsynligheten for nøyaktig 3 rette i Lotto (7 av 34)?', array['0,5', '0,001', '0,3', '0,114']::text[], 3, '35 · 17 550 / 5 379 616.', true, true, 7),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q09', 'flervalg', 'Hva er E(X) i en hypergeometrisk fordeling?', array['n · M / N', 'N · n', 'M / n', 'n / N']::text[], 0, 'Som binomisk med p = M/N.', true, false, 8),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'q10', 'flervalg', 'Hvordan brukes hypergeometrisk tenkning i biologi?', array['Til å datere fossiler', 'I fangst–gjenfangst for å anslå bestandsstørrelse', 'Til å måle temperatur', 'Til å telle kromosomer']::text[], 1, 'Andelen merkede dyr i andre fangst.', true, false, 9),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm01', 'sant-usant', 'I en hypergeometrisk situasjon endres sannsynligheten fra trekk til trekk.', array['Sant', 'Usant']::text[], 0, 'Fordi vi ikke legger tilbake.', false, true, 10),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm02', 'sant-usant', 'En kontroll av 4 av 50 varer avslører nesten alltid defekte varer når 5 er defekte.', array['Sant', 'Usant']::text[], 1, 'I omtrent 65 % av tilfellene finnes ingen defekte i utvalget.', false, true, 11),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm03', 'sant-usant', 'Hypergeometrisk sannsynlighet kan tolkes som gunstige delt på mulige.', array['Sant', 'Usant']::text[], 0, 'Begge telles med kombinatorikk.', false, true, 12),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm04', 'sant-usant', 'Forventningsverdien i en hypergeometrisk fordeling er alltid et helt tall.', array['Sant', 'Usant']::text[], 1, 'I komiteen er den 2,4.', false, true, 13),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm05', 'flervalg', 'En boks har 3 røde og 2 blå kuler. Du trekker 2 uten tilbakelegging. Hva er P(2 røde)?', array['0,5', '0,3', '0,36', '0,6']::text[], 1, 'C(3, 2)/C(5, 2) = 3/10.', false, true, 14),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm06', 'flervalg', 'Hvilken situasjon er hypergeometrisk?', array['Trekke 5 kort fra en kortstokk og telle hjerter', 'Kaste en terning 10 ganger', 'Kaste en mynt 20 ganger', 'Svare på 10 flervalgsspørsmål ved gjetting']::text[], 0, 'Uten tilbakelegging fra en begrenset gruppe.', false, true, 15),
+  ('matematikk-s1:hypergeometrisk-fordeling', 'm07', 'flervalg', 'Hvorfor kan vi ofte bruke binomisk fordeling i meningsmålinger, selv om ingen spørres to ganger?', array['Fordi folk svarer tilfeldig', 'Fordi utvalget alltid er over halve befolkningen', 'Fordi befolkningen er mye større enn utvalget', 'Fordi p alltid er 0,5']::text[], 2, 'Da endres p nesten ikke.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('matematikk-s1:hypergeometrisk-fordeling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'informasjonsteknologi-1' and slug not in ('it-i-samfunnet', 'datamaskiner-og-nettverk', 'digital-representasjon-og-datalagring', 'html-og-css', 'data-pa-nettsider', 'brukervennlighet-og-universell-utforming', 'programmering-med-funksjoner', 'algoritmer-og-effektivitet', 'personvern-og-regelverk', 'innhenting-og-misbruk-av-data', 'algoritmisk-problemlosning');
+
+-- Informasjonsteknologi 1: Informasjonsteknologi i samfunnet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:it-i-samfunnet', 'informasjonsteknologi-1', 'it-i-samfunnet', 'Informasjonsteknologi i samfunnet', 'Hvordan informasjonsteknologi påvirker individ og samfunn – kunstig intelligens, sosiale medier, arbeidsliv, digitalt utenforskap, sikkerhet og miljø – og hvordan du drøfter slike dagsaktuelle temaer.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:it-i-samfunnet', '## Teknologi overalt
+
+Informasjonsteknologi (IT) er en del av nesten alt vi gjør: skole, jobb, bank, helse, underholdning og kontakt med venner og det offentlige. Norge er et av de **mest digitaliserte** landene i verden. Det gir store muligheter, men også nye utfordringer.
+
+## Kunstig intelligens
+
+**Kunstig intelligens (KI)** er systemer som kan løse oppgaver vi forbinder med menneskelig intelligens, som å forstå språk, gjenkjenne bilder og ta beslutninger. **Maskinlæring** betyr at systemet lærer mønstre fra store mengder **data** i stedet for å følge regler skrevet av en programmerer.
+
+- **Muligheter**: raskere diagnoser i helsevesenet, oversettelse, hjelp til skriving og programmering, selvkjørende kjøretøy.
+- **Utfordringer**: KI kan gi **feil svar** som høres troverdige ut, gjenta **skjevheter** fra dataene den er trent på, og brukes til **deepfakes** – falske bilder, video og lyd. Det reiser også spørsmål om **opphavsrett** og **ansvar**.
+
+## Sosiale medier og informasjon
+
+Sosiale medier gir alle mulighet til å publisere og delta i debatten. Samtidig styrer **algoritmer** hva vi ser, ofte ut fra hva som gir mest **engasjement**. Det kan gi **ekkokamre**, rask spredning av **feilinformasjon** og press på psykisk helse. **Kildekritikk** er derfor viktigere enn før.
+
+## Arbeidsliv og økonomi
+
+**Automatisering** og KI endrer mange yrker. Noen oppgaver forsvinner, andre blir nye. Behovet for **digital kompetanse** øker i nesten alle bransjer, og mange må lære nytt gjennom hele arbeidslivet.
+
+## Digitalt utenforskap
+
+Når banktjenester, skjemaer og helsetjenester flyttes på nett, kan de som mangler utstyr, ferdigheter eller helse til å bruke dem, falle utenfor – ofte **eldre**, personer med **funksjonsnedsettelser** og personer som ikke behersker **språket**. **Universell utforming** og tilbud om hjelp er viktige tiltak.
+
+## Sikkerhet
+
+Samfunnet er sårbart for **dataangrep**: **løsepengevirus** som låser data, **phishing** som lurer til seg passord, og angrep på kritisk infrastruktur som strøm og sykehus. Gode passord, **tofaktorautentisering**, oppdateringer og sikkerhetskopier er grunnleggende tiltak.
+
+## Miljø
+
+IT kan spare ressurser, for eksempel gjennom videomøter i stedet for reiser. Men **datasentre** bruker mye strøm og vann, og produksjon av elektronikk krever **metaller** og gir **elektronisk avfall**. Reparasjon og lengre levetid for utstyr reduserer miljøbelastningen.
+
+## Slik drøfter du et IT-tema
+
+1. **Presenter** temaet og hvorfor det er aktuelt.
+2. Forklar **teknologien** kort og riktig.
+3. Løft fram **argumenter for og mot**, og hvem som berøres: individ, bedrifter, samfunn.
+4. Bruk **eksempler** og **kilder** – og vurder kildene.
+5. Kom fram til en **begrunnet konklusjon**, gjerne med forslag til løsninger eller regulering.', '{"label":"IT i samfunnet","children":[{"label":"KI","children":[{"label":"Maskinlæring"},{"label":"Skjevheter"},{"label":"Deepfakes"}]},{"label":"Sosiale medier","children":[{"label":"Algoritmer"},{"label":"Ekkokamre"},{"label":"Kildekritikk"}]},{"label":"Arbeidsliv","children":[{"label":"Automatisering"},{"label":"Digital kompetanse"}]},{"label":"Utfordringer","children":[{"label":"Digitalt utenforskap"},{"label":"Dataangrep"},{"label":"Miljø"}]},{"label":"Drøfting","children":[{"label":"For og mot"},{"label":"Berørte parter"},{"label":"Konklusjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:it-i-samfunnet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Kunstig intelligens (KI)', 'Systemer som løser oppgaver vi forbinder med menneskelig intelligens.', 0),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Maskinlæring', 'Systemet lærer mønstre fra data i stedet for faste regler.', 1),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Deepfake', 'Falsk bilde, video eller lyd laget med KI.', 2),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Skjevhet i KI', 'KI gjentar skjevheter fra dataene den er trent på.', 3),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Algoritmestyrt feed', 'Algoritmer velger hva vi ser, ofte ut fra engasjement.', 4),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Ekkokammer', 'Når man mest møter synspunkter som bekrefter egne meninger.', 5),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Automatisering', 'Maskiner og programmer overtar oppgaver fra mennesker.', 6),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Digitalt utenforskap', 'Å falle utenfor fordi tjenester bare finnes digitalt.', 7),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Løsepengevirus', 'Skadevare som låser data og krever betaling.', 8),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Phishing', 'Forsøk på å lure til seg passord eller opplysninger.', 9),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Tofaktorautentisering', 'Innlogging som krever to ulike bevis, som passord og kode.', 10),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Datasentre', 'Bruker mye strøm og vann.', 11),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Elektronisk avfall', 'Kasserte elektroniske produkter – et miljøproblem.', 12),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Kildekritikk', 'Å vurdere hvor pålitelig en kilde er.', 13),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'Drøfting', 'Argumenter for og mot, med begrunnet konklusjon.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:it-i-samfunnet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q01', 'flervalg', 'Hva er maskinlæring?', array['At en maskin blir reparert', 'At et system lærer mønstre fra data', 'At en programmerer skriver alle regler', 'At en datamaskin blir raskere']::text[], 1, 'Grunnlaget for mye moderne KI.', true, true, 0),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q02', 'flervalg', 'Hva er en deepfake?', array['Falskt bilde, video eller lyd laget med KI', 'En type virus', 'En dyp database', 'Et sikkert passord']::text[], 0, 'Kan brukes til å spre feilinformasjon.', true, true, 1),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q03', 'flervalg', 'Hvorfor kan KI gi urettferdige resultater?', array['Fordi KI alltid er ond', 'Fordi KI ikke bruker data', 'Fordi den kan gjenta skjevheter i treningsdataene', 'Fordi KI er for treg']::text[], 2, 'Data fra fortiden kan inneholde skjevheter.', true, true, 2),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q04', 'flervalg', 'Hvem rammes ofte av digitalt utenforskap?', array['Bare unge', 'Bare IT-eksperter', 'Ingen', 'Eldre, personer med funksjonsnedsettelser og personer som ikke behersker språket']::text[], 3, 'Når tjenester bare finnes digitalt.', true, true, 3),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q05', 'flervalg', 'Hva er tofaktorautentisering?', array['Innlogging som krever to ulike bevis', 'To passord som er like', 'Et virus', 'Innlogging uten passord']::text[], 0, 'For eksempel passord og kode på mobilen.', true, true, 4),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q06', 'flervalg', 'Hva styrer ofte hva du ser i sosiale medier?', array['Tilfeldigheter', 'Algoritmer som prioriterer engasjement', 'Staten', 'Bare vennene dine']::text[], 1, 'Det kan gi ekkokamre.', true, true, 5),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q07', 'flervalg', 'Hvilken miljøutfordring er knyttet til IT?', array['IT bruker ingen energi', 'Datamaskiner lages av tre', 'Datasentre bruker mye strøm, og elektronikk gir avfall', 'IT reduserer alltid utslipp']::text[], 2, 'Lengre levetid for utstyr hjelper.', true, true, 6),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q08', 'flervalg', 'Hva hører med i en god drøfting av et IT-tema?', array['Bare egen mening', 'Bare fakta om teknologien', 'Bare argumenter for', 'Argumenter for og mot, eksempler, kilder og begrunnet konklusjon']::text[], 3, 'Flere perspektiver og berørte parter.', true, true, 7),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q09', 'flervalg', 'Hva er phishing?', array['Forsøk på å lure til seg passord eller opplysninger', 'En type fiskespill', 'En sikkerhetsoppdatering', 'En måte å lagre data på']::text[], 0, 'Ofte via falske e-poster eller SMS.', true, false, 8),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'q10', 'flervalg', 'Hvordan påvirker automatisering arbeidslivet?', array['Ingen yrker endres', 'Noen oppgaver forsvinner, nye oppstår, og behovet for digital kompetanse øker', 'Alle mister jobben', 'Bare IT-yrker påvirkes']::text[], 1, 'Livslang læring blir viktigere.', true, false, 9),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm01', 'sant-usant', 'KI-systemer kan gi svar som høres troverdige ut, men er feil.', array['Sant', 'Usant']::text[], 0, 'Svarene må derfor kontrolleres.', false, true, 10),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm02', 'sant-usant', 'Datasentre bruker nesten ikke strøm.', array['Sant', 'Usant']::text[], 1, 'De bruker mye strøm og ofte vann til kjøling.', false, true, 11),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm03', 'sant-usant', 'Sikkerhetskopier er et viktig tiltak mot løsepengevirus.', array['Sant', 'Usant']::text[], 0, 'Da kan data gjenopprettes.', false, true, 12),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm04', 'sant-usant', 'Digitalisering av offentlige tjenester gjør dem automatisk tilgjengelige for alle.', array['Sant', 'Usant']::text[], 1, 'Noen kan falle utenfor.', false, true, 13),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm05', 'flervalg', 'Hvilket tiltak motvirker digitalt utenforskap?', array['Fjerne alle skranker', 'Universell utforming og tilbud om hjelp', 'Kreve at alle bruker samme app', 'Høyere priser på internett']::text[], 1, 'Tjenestene må kunne brukes av flest mulig.', false, true, 14),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm06', 'flervalg', 'Hva er et eksempel på kritisk infrastruktur?', array['Strømnettet', 'Et dataspill', 'En privat blogg', 'En musikkstrømmetjeneste']::text[], 0, 'Også sykehus og vannforsyning.', false, true, 15),
+  ('informasjonsteknologi-1:it-i-samfunnet', 'm07', 'flervalg', 'Hvordan kan du redusere miljøbelastningen fra elektronikk?', array['Kjøpe ny mobil hvert år', 'Kaste utstyr i restavfallet', 'Reparere og bruke utstyret lenger', 'Lade mobilen oftere']::text[], 2, 'Produksjon krever mye ressurser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:it-i-samfunnet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Datamaskiner og nettverk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'informasjonsteknologi-1', 'datamaskiner-og-nettverk', 'Datamaskiner og nettverk', 'De sentrale komponentene i en datamaskin og hva de gjør, hvordan nettverk og internett er bygd opp, IP-adresser, DNS, protokoller som TCP/IP og HTTPS, og hva som skjer når du åpner en nettside.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', '## Komponentene i en datamaskin
+
+- **Prosessoren (CPU)** er «hjernen». Den henter instruksjoner fra minnet og utfører dem – milliarder av ganger i sekundet. Hastigheten måles i **gigahertz (GHz)**, og moderne prosessorer har flere **kjerner** som arbeider samtidig.
+- **Arbeidsminnet (RAM)** holder programmene og dataene som er i bruk. Det er raskt, men **flyktig**: Innholdet forsvinner når strømmen går.
+- **Lagring** – **SSD** eller harddisk (**HDD**) – tar vare på filer og programmer permanent. SSD er raskere og har ingen bevegelige deler.
+- **Hovedkortet** kobler komponentene sammen.
+- **Skjermkortet (GPU)** har mange små kjerner som regner parallelt. Det brukes til grafikk, men også til **maskinlæring**.
+- **Strømforsyningen** gir strøm til alle delene.
+- **Inn- og utenheter** som tastatur, mus, skjerm og høyttaler lar oss kommunisere med maskinen.
+
+De fleste datamaskiner følger **von Neumann-arkitekturen**: Både programmet og dataene lagres i samme minne, og CPU-en henter og utfører instruksjoner én etter én.
+
+## Nettverk
+
+Et **nettverk** er to eller flere enheter som kan utveksle data.
+
+- **LAN** (lokalt nettverk): for eksempel hjemme eller på skolen.
+- **WAN**: nettverk over store avstander. **Internett** er et nettverk av nettverk.
+- En **svitsj** kobler enheter i samme lokalnett.
+- En **ruter** sender data **mellom** nettverk og velger veien pakkene skal gå.
+- Data kan sendes via **kabel**, **fiber** (lys) eller **trådløst** (Wi-Fi og mobilnett).
+- **Båndbredde** er hvor mye data som kan overføres per sekund, ofte i **Mbit/s**.
+
+## Adresser
+
+- En **IP-adresse** identifiserer en enhet på nettet. **IPv4** har 32 bit, som 192.168.1.10, og gir omtrent 4,3 milliarder adresser – for få. **IPv6** har 128 bit.
+- En **MAC-adresse** er en fast adresse i nettverkskortet.
+- **DNS** fungerer som internettets **telefonkatalog**: Den oversetter domenenavn som *udir.no* til IP-adresser.
+
+## Protokoller
+
+En **protokoll** er et sett regler for kommunikasjon.
+
+- **TCP/IP**: Data deles i små **pakker**. IP sørger for at pakkene finner fram, og TCP sørger for at de kommer fram **i riktig rekkefølge** og uten feil.
+- **HTTP** brukes til å hente nettsider. **HTTPS** er den **krypterte** versjonen – derfor ser du en hengelås i adressefeltet.
+
+## Hva skjer når du åpner en nettside?
+
+1. Du skriver inn adressen i nettleseren.
+2. **DNS** finner IP-adressen til tjeneren.
+3. Nettleseren (**klienten**) sender en **HTTP-forespørsel** til **tjeneren** (serveren).
+4. Tjeneren svarer med **HTML**, **CSS**, **JavaScript** og bilder, delt opp i pakker.
+5. Nettleseren setter sammen pakkene og **viser** siden.
+
+Dette kalles **klient–tjener-modellen**.
+
+## Skytjenester
+
+Med **skytjenester** lagres data og kjøres programmer i store **datasentre** i stedet for på din egen maskin. Det gir tilgang fra alle enheter, men gjør oss avhengige av nettforbindelse og av leverandøren – og reiser spørsmål om hvor dataene lagres.', '{"label":"Datamaskiner og nettverk","children":[{"label":"Komponenter","children":[{"label":"CPU"},{"label":"RAM"},{"label":"SSD/HDD"},{"label":"GPU og hovedkort"}]},{"label":"Nettverk","children":[{"label":"LAN og WAN"},{"label":"Ruter og svitsj"},{"label":"Båndbredde"}]},{"label":"Adresser","children":[{"label":"IPv4 og IPv6"},{"label":"MAC"},{"label":"DNS"}]},{"label":"Protokoller","children":[{"label":"TCP/IP"},{"label":"HTTP og HTTPS"}]},{"label":"Nettsiden","children":[{"label":"Klient og tjener"},{"label":"Pakker"},{"label":"Skytjenester"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:datamaskiner-og-nettverk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'CPU', 'Prosessoren som utfører instruksjoner.', 0),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'RAM', 'Raskt, flyktig arbeidsminne.', 1),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'SSD', 'Rask lagring uten bevegelige deler.', 2),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'Hovedkort', 'Kobler komponentene sammen.', 3),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'GPU', 'Skjermkort med mange kjerner som regner parallelt.', 4),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'Von Neumann-arkitektur', 'Program og data i samme minne.', 5),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'LAN', 'Lokalt nettverk.', 6),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'Ruter', 'Sender data mellom nettverk.', 7),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'Svitsj', 'Kobler enheter i samme lokalnett.', 8),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'IP-adresse', 'Identifiserer en enhet på nettet.', 9),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'DNS', 'Oversetter domenenavn til IP-adresser.', 10),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'TCP/IP', 'Protokoller som deler data i pakker og sørger for at de kommer fram.', 11),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'HTTPS', 'Kryptert overføring av nettsider.', 12),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'Klient–tjener-modellen', 'Klienten ber om data, tjeneren svarer.', 13),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'Båndbredde', 'Hvor mye data som kan overføres per sekund.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:datamaskiner-og-nettverk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q01', 'flervalg', 'Hva gjør RAM?', array['Lagrer filer permanent', 'Holder programmer og data som er i bruk', 'Kobler maskinen til internett', 'Viser bilde på skjermen']::text[], 1, 'Innholdet forsvinner når strømmen går.', true, true, 0),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q02', 'flervalg', 'Hva gjør DNS?', array['Oversetter domenenavn til IP-adresser', 'Krypterer data', 'Lagrer nettsider', 'Sender e-post']::text[], 0, 'Internettets telefonkatalog.', true, true, 1),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q03', 'flervalg', 'Hva er forskjellen på HTTP og HTTPS?', array['HTTPS er raskere', 'HTTP brukes bare på mobil', 'HTTPS er kryptert', 'Det er ingen forskjell']::text[], 2, 'S står for secure.', true, true, 2),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q04', 'flervalg', 'Hvilken komponent utfører instruksjonene i et program?', array['Harddisken', 'Strømforsyningen', 'Skjermen', 'Prosessoren (CPU)']::text[], 3, 'Hjernen i datamaskinen.', true, true, 3),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q05', 'flervalg', 'Hva gjør en ruter?', array['Sender data mellom nettverk', 'Lagrer filer', 'Oversetter domenenavn', 'Viser nettsider']::text[], 0, 'Den velger veien pakkene skal gå.', true, true, 4),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q06', 'flervalg', 'Hva gjør TCP?', array['Gir enheter en fast adresse', 'Sørger for at pakkene kommer fram i riktig rekkefølge og uten feil', 'Krypterer passord', 'Tegner grafikk']::text[], 1, 'IP sørger for at pakkene finner fram.', true, true, 5),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q07', 'flervalg', 'Hvorfor ble IPv6 innført?', array['For å gjøre nettet tregere', 'For å fjerne DNS', 'Fordi IPv4 har for få adresser', 'For å erstatte HTML']::text[], 2, 'IPv4 gir bare rundt 4,3 milliarder adresser.', true, true, 6),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q08', 'flervalg', 'Hva kjennetegner von Neumann-arkitekturen?', array['Maskinen har ikke minne', 'Den bruker bare GPU', 'Den er trådløs', 'Program og data lagres i samme minne']::text[], 3, 'CPU-en henter og utfører instruksjoner.', true, true, 7),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q09', 'flervalg', 'Hvorfor brukes GPU-er i maskinlæring?', array['De kan regne mange beregninger parallelt', 'De lagrer mye data', 'De er billigste komponent', 'De kobler til internett']::text[], 0, 'Maskinlæring krever mange like beregninger.', true, false, 8),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'q10', 'flervalg', 'Hva er en ulempe med skytjenester?', array['Data er bare tilgjengelig på én maskin', 'Avhengighet av nett og leverandør, og spørsmål om hvor data lagres', 'De krever ingen strøm', 'De kan ikke lagre bilder']::text[], 1, 'Men de gir tilgang fra alle enheter.', true, false, 9),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm01', 'sant-usant', 'Internett er et nettverk av nettverk.', array['Sant', 'Usant']::text[], 0, 'Rutere kobler nettverkene sammen.', false, true, 10),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm02', 'sant-usant', 'Innholdet i RAM beholdes når maskinen slås av.', array['Sant', 'Usant']::text[], 1, 'RAM er flyktig.', false, true, 11),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm03', 'sant-usant', 'Data på internett sendes i små pakker.', array['Sant', 'Usant']::text[], 0, 'Pakkene settes sammen hos mottakeren.', false, true, 12),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm04', 'sant-usant', 'En svitsj sender data mellom ulike nettverk på internett.', array['Sant', 'Usant']::text[], 1, 'Det gjør ruteren; svitsjen kobler enheter i samme lokalnett.', false, true, 13),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm05', 'flervalg', 'Hvor mange bit har en IPv4-adresse?', array['8', '32', '64', '128']::text[], 1, 'IPv6 har 128 bit.', false, true, 14),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm06', 'flervalg', 'Hva sender tjeneren tilbake når du ber om en nettside?', array['HTML, CSS, JavaScript og bilder', 'Bare IP-adressen', 'En e-post', 'Ingenting']::text[], 0, 'Nettleseren setter sammen og viser siden.', false, true, 15),
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 'm07', 'flervalg', 'Hva måles båndbredde i?', array['GHz', 'Byte', 'Mbit/s', 'Watt']::text[], 2, 'Data per sekund.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:datamaskiner-og-nettverk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Digital representasjon og datalagring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'informasjonsteknologi-1', 'digital-representasjon-og-datalagring', 'Digital representasjon og datalagring', 'Hvordan tall, tekst, bilder og lyd lagres som bit og byte, binære og heksadesimale tall, tegnkoding, komprimering – og hvordan data struktureres i filer som CSV og JSON og i databaser.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', '## Alt er bit
+
+En datamaskin lagrer all informasjon som **bit** – 0 eller 1, strøm av eller på. Åtte bit er én **byte**, og én byte kan ha **2⁸ = 256** ulike verdier.
+
+Større enheter: 1 kB ≈ 1000 byte, 1 MB ≈ 1 million byte, 1 GB ≈ 1 milliard byte.
+
+## Tall
+
+I **totallsystemet** (binært) har hver plass verdien av en toerpotens:
+
+1011₂ = 1 · 8 + 0 · 4 + 1 · 2 + 1 · 1 = **11**
+
+**Heksadesimale tall** (16-tallsystemet) bruker sifrene 0–9 og A–F. Ett heksadesimalt siffer svarer til fire bit, og **FF = 255**. Heks brukes blant annet i fargekoder på nettsider, som #FF0000 for rødt.
+
+## Tekst
+
+Hvert tegn får et **tallnummer** etter en **tegnkoding**:
+
+- **ASCII** bruker 7 bit og har 128 tegn – nok til engelske bokstaver, men ikke æ, ø og å.
+- **Unicode** har plass til tegn fra nesten alle skriftspråk og emojier. **UTF-8** er den vanligste kodingen: Vanlige engelske tegn tar én byte, mens æ, ø og å tar to.
+
+Brukes feil koding, får du tegnrot som «Ã¸» i stedet for «ø».
+
+## Bilder
+
+Et **punktgrafikkbilde** består av **piksler**. Hver piksel har en farge, ofte i **RGB**: en verdi fra 0 til 255 for rødt, grønt og blått. Det gir 24 bit per piksel og rundt **16,7 millioner** farger.
+
+Et ukomprimert bilde på 1920 × 1080 piksler tar 1920 · 1080 · 3 byte ≈ **6,2 MB**.
+
+**Vektorgrafikk** (som SVG) lagrer i stedet **former** – linjer, kurver og farger – og kan skaleres uten å bli uskarp.
+
+## Lyd
+
+Lyd lagres ved å måle lydbølgen mange ganger i sekundet (**samplingsfrekvens**). CD-kvalitet bruker **44 100 målinger per sekund**.
+
+## Komprimering
+
+- **Tapsfri** komprimering (ZIP, PNG) gjenskaper originalen nøyaktig.
+- **Tapsbasert** komprimering (JPEG, MP3) fjerner detaljer vi knapt merker, og gir mye mindre filer.
+
+## Strukturere data
+
+**CSV** (kommaseparerte verdier) er enkle tabeller i tekstformat:
+
+```
+navn,klasse,poeng
+Ida,2STA,87
+Ali,2STB,92
+```
+
+**JSON** lagrer strukturerte data med **nøkler og verdier**, også i flere nivåer:
+
+```
+{ "navn": "Ida", "klasse": "2STA", "fag": ["IT1", "R1"] }
+```
+
+JSON er mye brukt til å sende data mellom nettsider og tjenere.
+
+**Databaser** lagrer store datamengder i **tabeller** med rader og kolonner. En **primærnøkkel** identifiserer hver rad entydig. I **relasjonsdatabaser** kobles tabeller sammen med nøkler, og vi henter data med spørrespråket **SQL**, for eksempel SELECT navn FROM elever WHERE klasse = ''2STA''.
+
+## Vurdere lagringsmetoder
+
+- **CSV**: enkelt og lesbart, men bare flate tabeller.
+- **JSON**: fleksibelt og godt egnet for nettet.
+- **Database**: best for store mengder data, mange brukere og raske søk – men mer arbeid å sette opp.', '{"label":"Representasjon og lagring","children":[{"label":"Bit og byte","children":[{"label":"256 verdier"},{"label":"kB, MB, GB"}]},{"label":"Tall og tekst","children":[{"label":"Binært"},{"label":"Heksadesimalt"},{"label":"ASCII og UTF-8"}]},{"label":"Bilde og lyd","children":[{"label":"Piksler og RGB"},{"label":"Vektorgrafikk"},{"label":"Sampling"}]},{"label":"Komprimering","children":[{"label":"Tapsfri"},{"label":"Tapsbasert"}]},{"label":"Datalagring","children":[{"label":"CSV"},{"label":"JSON"},{"label":"Database og SQL"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:digital-representasjon-og-datalagring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Bit', '0 eller 1 – minste informasjonsenhet.', 0),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Byte', '8 bit – 256 mulige verdier.', 1),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', '1011₂', '11', 2),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'FF i heksadesimal', '255', 3),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'ASCII', '7-biters tegnkoding med 128 tegn.', 4),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'UTF-8', 'Vanligste koding av Unicode; æ, ø og å tar to byte.', 5),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Piksel', 'Minste punkt i et punktgrafikkbilde.', 6),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'RGB', 'Farge fra rødt, grønt og blått, 0–255 hver.', 7),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Vektorgrafikk', 'Lagrer former og kan skaleres uten tap.', 8),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Samplingsfrekvens', 'Antall målinger av lyden per sekund.', 9),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Tapsfri komprimering', 'Gjenskaper originalen nøyaktig, som PNG og ZIP.', 10),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Tapsbasert komprimering', 'Fjerner detaljer, som JPEG og MP3.', 11),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'CSV', 'Tabelldata i tekst, skilt med komma.', 12),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'JSON', 'Strukturerte data med nøkler og verdier.', 13),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'Primærnøkkel', 'Identifiserer hver rad i en databasetabell entydig.', 14),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'SQL', 'Spørrespråk for relasjonsdatabaser.', 15);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:digital-representasjon-og-datalagring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q01', 'flervalg', 'Hvor mange ulike verdier kan én byte ha?', array['8', '256', '1024', '16']::text[], 1, '2⁸ = 256.', true, true, 0),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q02', 'flervalg', 'Hva er 1011₂ i titallsystemet?', array['11', '13', '1011', '9']::text[], 0, '8 + 2 + 1.', true, true, 1),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q03', 'flervalg', 'Hvorfor kan ikke ASCII lagre æ, ø og å?', array['Fordi de er store bokstaver', 'Fordi de er tall', 'Fordi ASCII bare har 128 tegn', 'Fordi de er emojier']::text[], 2, 'Unicode har plass til dem.', true, true, 2),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q04', 'flervalg', 'Omtrent hvor stort er et ukomprimert RGB-bilde på 1920 × 1080 piksler?', array['2 kB', '600 MB', '2 GB', '6,2 MB']::text[], 3, '1920 · 1080 · 3 byte.', true, true, 3),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q05', 'flervalg', 'Hvilket format bruker tapsbasert komprimering?', array['JPEG', 'PNG', 'ZIP', 'CSV']::text[], 0, 'Også MP3.', true, true, 4),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q06', 'flervalg', 'Hva er JSON?', array['Et programmeringsspråk for databaser', 'Et format for strukturerte data med nøkler og verdier', 'En type bilde', 'En nettleser']::text[], 1, 'Mye brukt på nettet.', true, true, 5),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q07', 'flervalg', 'Hva er en primærnøkkel?', array['Et passord', 'Den første kolonnen alltid', 'Et felt som identifiserer hver rad entydig', 'En krypteringsnøkkel']::text[], 2, 'For eksempel et elevnummer.', true, true, 6),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q08', 'flervalg', 'Hvorfor blir vektorgrafikk ikke uskarp når den forstørres?', array['Den har flere piksler', 'Den er komprimert', 'Den bruker JPEG', 'Den lagrer former, ikke piksler']::text[], 3, 'Formene tegnes på nytt i ny størrelse.', true, true, 7),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q09', 'flervalg', 'Hvilken fargekode gir rødt på en nettside?', array['#FF0000', '#00FF00', '#0000FF', '#FFFFFF']::text[], 0, 'Maks rødt, null grønt og blått.', true, false, 8),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'q10', 'flervalg', 'Når er en database et bedre valg enn en CSV-fil?', array['Når dataene er svært få', 'Ved store datamengder, mange brukere og behov for raske søk', 'Når du skal lagre et bilde', 'Aldri']::text[], 1, 'Men den krever mer oppsett.', true, false, 9),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm01', 'sant-usant', 'Ett heksadesimalt siffer svarer til fire bit.', array['Sant', 'Usant']::text[], 0, '2⁴ = 16.', false, true, 10),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm02', 'sant-usant', 'Tapsbasert komprimering gjenskaper originalen nøyaktig.', array['Sant', 'Usant']::text[], 1, 'Den fjerner detaljer.', false, true, 11),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm03', 'sant-usant', 'I UTF-8 tar bokstaven ø mer plass enn bokstaven o.', array['Sant', 'Usant']::text[], 0, 'To byte mot én.', false, true, 12),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm04', 'sant-usant', 'CSV egner seg godt til data med mange nivåer.', array['Sant', 'Usant']::text[], 1, 'CSV er flate tabeller; JSON passer bedre til nivåer.', false, true, 13),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm05', 'flervalg', 'Hva er 13 i totallsystemet?', array['1011', '1101', '1110', '1001']::text[], 1, '8 + 4 + 1.', false, true, 14),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm06', 'flervalg', 'Hva gjør SQL-setningen SELECT navn FROM elever WHERE klasse = ''2STA''?', array['Henter navnene til elevene i 2STA', 'Sletter elevene i 2STA', 'Lager en ny tabell', 'Endrer klassen til alle']::text[], 0, 'SELECT henter data.', false, true, 15),
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 'm07', 'flervalg', 'Hvilken samplingsfrekvens har CD-kvalitet?', array['8 000 per sekund', '22 050 per sekund', '44 100 per sekund', '1 million per sekund']::text[], 2, '44,1 kHz.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:digital-representasjon-og-datalagring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Nettsider med HTML og CSS
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:html-og-css', 'informasjonsteknologi-1', 'html-og-css', 'Nettsider med HTML og CSS', 'Hvordan du bygger nettsider med markeringsspråket HTML – struktur, elementer, attributter, lenker, bilder, lister og tabeller – og styler dem med CSS: selektorer, boksmodellen, klasser, flexbox og responsiv design.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:html-og-css', '## HTML – innhold og struktur
+
+**HTML** (HyperText Markup Language) er et **markeringsspråk**. Det beskriver **hva** innholdet er – en overskrift, et avsnitt, en lenke – ved hjelp av **tagger**:
+
+```
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8">
+    <title>Min side</title>
+    <link rel="stylesheet" href="stil.css">
+  </head>
+  <body>
+    <h1>Velkommen</h1>
+    <p>Dette er et avsnitt.</p>
+  </body>
+</html>
+```
+
+- **head** inneholder informasjon om siden, som tittel, tegnkoding og kobling til CSS.
+- **body** inneholder det som vises.
+
+## Vanlige elementer
+
+- Overskrifter **h1–h6** i riktig **hierarki** – bare én h1 per side.
+- Avsnitt **p**.
+- Lenker: **a** med attributtet **href**.
+- Bilder: **img** med **src** og **alt** – alt-teksten beskriver bildet for dem som ikke ser det.
+- Lister: **ul** (punkter) eller **ol** (nummerert) med **li**.
+- Tabeller: **table**, **tr** (rad), **th** (overskriftscelle) og **td** (celle).
+- **Semantiske** elementer: **header**, **nav**, **main**, **section**, **article** og **footer** forteller hva de ulike delene av siden er. Det hjelper skjermlesere og søkemotorer.
+
+Et **attributt** gir ekstra informasjon til et element, for eksempel href, src, alt, class og id.
+
+## CSS – utseende
+
+**CSS** (Cascading Style Sheets) bestemmer **hvordan** innholdet ser ut. En regel består av en **selektor** og **deklarasjoner**:
+
+```
+h1 {
+  color: #1a4d8f;
+  font-family: Arial, sans-serif;
+}
+.viktig {
+  background-color: #ffe9a8;
+}
+```
+
+- **Elementselektor**: h1 treffer alle h1-elementer.
+- **Klasseselektor**: .viktig treffer alle elementer med class="viktig". Klasser kan brukes mange ganger.
+- **ID-selektor**: #meny treffer ett unikt element.
+
+**Kaskade** betyr at flere regler kan treffe samme element, og at den mest **spesifikke** – eller den som kommer **sist** – vinner.
+
+## Boksmodellen
+
+Hvert element er en boks med
+
+- **content** – innholdet
+- **padding** – luft **innenfor** kanten
+- **border** – kanten
+- **margin** – luft **utenfor** kanten
+
+## Layout
+
+**Flexbox** gjør det enkelt å plassere elementer på rad eller i kolonne:
+
+```
+nav {
+  display: flex;
+  gap: 1rem;
+}
+```
+
+**Responsiv design** betyr at siden tilpasser seg ulike skjermstørrelser. Med **media queries** kan du endre stilen på små skjermer:
+
+```
+@media (max-width: 600px) {
+  nav { flex-direction: column; }
+}
+```
+
+## God praksis
+
+- Skill **innhold** (HTML) fra **utseende** (CSS) – legg CSS i en egen fil.
+- Bruk **semantiske** elementer og riktig overskriftshierarki.
+- **Valider** koden, for eksempel med W3Cs validator, og test i flere nettlesere og på mobil.
+- Bruk **utviklerverktøyene** i nettleseren (F12) for å finne feil.', '{"label":"HTML og CSS","children":[{"label":"HTML-struktur","children":[{"label":"head og body"},{"label":"Tagger og attributter"}]},{"label":"Elementer","children":[{"label":"Overskrifter og avsnitt"},{"label":"Lenker og bilder"},{"label":"Lister og tabeller"},{"label":"Semantiske"}]},{"label":"CSS","children":[{"label":"Selektorer"},{"label":"Klasse og id"},{"label":"Kaskade"}]},{"label":"Layout","children":[{"label":"Boksmodellen"},{"label":"Flexbox"},{"label":"Media queries"}]},{"label":"God praksis","children":[{"label":"Skill innhold og stil"},{"label":"Validering"},{"label":"Utviklerverktøy"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:html-og-css';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:html-og-css', 'HTML', 'Markeringsspråk som beskriver innhold og struktur.', 0),
+  ('informasjonsteknologi-1:html-og-css', 'CSS', 'Språk som bestemmer utseendet.', 1),
+  ('informasjonsteknologi-1:html-og-css', 'head', 'Informasjon om siden, som tittel og kobling til CSS.', 2),
+  ('informasjonsteknologi-1:html-og-css', 'body', 'Innholdet som vises på siden.', 3),
+  ('informasjonsteknologi-1:html-og-css', 'a href', 'Lenke.', 4),
+  ('informasjonsteknologi-1:html-og-css', 'img alt', 'Alternativ tekst som beskriver bildet.', 5),
+  ('informasjonsteknologi-1:html-og-css', 'ul, ol og li', 'Punktliste, nummerert liste og listeelement.', 6),
+  ('informasjonsteknologi-1:html-og-css', 'Semantiske elementer', 'header, nav, main, section, article, footer.', 7),
+  ('informasjonsteknologi-1:html-og-css', 'Attributt', 'Ekstra informasjon til et element, som href eller class.', 8),
+  ('informasjonsteknologi-1:html-og-css', 'Klasseselektor', '.navn – treffer alle elementer med klassen.', 9),
+  ('informasjonsteknologi-1:html-og-css', 'ID-selektor', '#navn – treffer ett unikt element.', 10),
+  ('informasjonsteknologi-1:html-og-css', 'Kaskade', 'Den mest spesifikke eller siste regelen vinner.', 11),
+  ('informasjonsteknologi-1:html-og-css', 'Boksmodellen', 'Content, padding, border og margin.', 12),
+  ('informasjonsteknologi-1:html-og-css', 'Flexbox', 'display: flex – plasserer elementer på rad eller i kolonne.', 13),
+  ('informasjonsteknologi-1:html-og-css', 'Media query', 'CSS-regel som gjelder for bestemte skjermstørrelser.', 14),
+  ('informasjonsteknologi-1:html-og-css', 'Responsiv design', 'Siden tilpasser seg ulike skjermer.', 15);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:html-og-css';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:html-og-css', 'q01', 'flervalg', 'Hva er HTML?', array['Et programmeringsspråk for spill', 'Et markeringsspråk som beskriver innhold og struktur', 'Et stilspråk for farger', 'En database']::text[], 1, 'CSS tar seg av utseendet.', true, true, 0),
+  ('informasjonsteknologi-1:html-og-css', 'q02', 'flervalg', 'Hvilket attributt beskriver et bilde for dem som ikke ser det?', array['alt', 'src', 'href', 'class']::text[], 0, 'Viktig for skjermlesere.', true, true, 1),
+  ('informasjonsteknologi-1:html-og-css', 'q03', 'flervalg', 'Hva treffer selektoren .viktig i CSS?', array['Elementet med id viktig', 'Alle p-elementer', 'Alle elementer med class="viktig"', 'Bare det første elementet']::text[], 2, 'Punktum betyr klasse.', true, true, 2),
+  ('informasjonsteknologi-1:html-og-css', 'q04', 'flervalg', 'Hva er padding i boksmodellen?', array['Luft utenfor kanten', 'Kanten rundt elementet', 'Innholdet', 'Luft innenfor kanten']::text[], 3, 'Margin er luft utenfor kanten.', true, true, 3),
+  ('informasjonsteknologi-1:html-og-css', 'q05', 'flervalg', 'Hvilket element lager en lenke?', array['a', 'link', 'img', 'p']::text[], 0, 'Med attributtet href.', true, true, 4),
+  ('informasjonsteknologi-1:html-og-css', 'q06', 'flervalg', 'Hva brukes media queries til?', array['Hente data fra databaser', 'Tilpasse stilen til ulike skjermstørrelser', 'Legge inn video', 'Lage lenker']::text[], 1, 'Responsiv design.', true, true, 5),
+  ('informasjonsteknologi-1:html-og-css', 'q07', 'flervalg', 'Hvorfor bør du bruke semantiske elementer som nav og main?', array['De gir penere farger', 'De gjør siden raskere', 'De forteller hva delene er, og hjelper skjermlesere og søkemotorer', 'De er påbudt i CSS']::text[], 2, 'Struktur med mening.', true, true, 6),
+  ('informasjonsteknologi-1:html-og-css', 'q08', 'flervalg', 'Hva gjør display: flex?', array['Skjuler elementet', 'Gjør teksten fet', 'Legger inn et bilde', 'Plasserer barneelementene på rad eller i kolonne']::text[], 3, 'Flexbox-layout.', true, true, 7),
+  ('informasjonsteknologi-1:html-og-css', 'q09', 'flervalg', 'Hvor hører koblingen til CSS-filen hjemme?', array['I head', 'I body', 'I footer', 'I en tabell']::text[], 0, 'Med link rel="stylesheet".', true, false, 8),
+  ('informasjonsteknologi-1:html-og-css', 'q10', 'flervalg', 'Hvor mange h1-overskrifter bør en side vanligvis ha?', array['Ingen', 'Én', 'Minst fem', 'Like mange som avsnitt']::text[], 1, 'Et riktig hierarki gjør siden lettere å forstå.', true, false, 9),
+  ('informasjonsteknologi-1:html-og-css', 'm01', 'sant-usant', 'En klasse kan brukes på mange elementer, mens en id skal være unik.', array['Sant', 'Usant']::text[], 0, 'Derfor brukes klasser til gjenbruk.', false, true, 10),
+  ('informasjonsteknologi-1:html-og-css', 'm02', 'sant-usant', 'CSS beskriver hvilket innhold en side har.', array['Sant', 'Usant']::text[], 1, 'HTML beskriver innholdet, CSS utseendet.', false, true, 11),
+  ('informasjonsteknologi-1:html-og-css', 'm03', 'sant-usant', 'Margin er luft utenfor kanten av et element.', array['Sant', 'Usant']::text[], 0, 'Padding er luft innenfor.', false, true, 12),
+  ('informasjonsteknologi-1:html-og-css', 'm04', 'sant-usant', 'Det er best å skrive all CSS direkte inne i hvert HTML-element.', array['Sant', 'Usant']::text[], 1, 'En egen CSS-fil skiller innhold og utseende.', false, true, 13),
+  ('informasjonsteknologi-1:html-og-css', 'm05', 'flervalg', 'Hvilket element lager en nummerert liste?', array['ul', 'ol', 'li', 'dl']::text[], 1, 'ol = ordered list.', false, true, 14),
+  ('informasjonsteknologi-1:html-og-css', 'm06', 'flervalg', 'Hvilket element brukes til en overskriftscelle i en tabell?', array['th', 'td', 'tr', 'thead']::text[], 0, 'td er vanlige celler.', false, true, 15),
+  ('informasjonsteknologi-1:html-og-css', 'm07', 'flervalg', 'Hvordan åpner du utviklerverktøyene i de fleste nettlesere?', array['Ctrl + P', 'Alt + F4', 'F12', 'Ctrl + Z']::text[], 2, 'Der kan du inspisere HTML og CSS.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:html-og-css', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Lagre, hente og presentere data på nettsider
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:data-pa-nettsider', 'informasjonsteknologi-1', 'data-pa-nettsider', 'Lagre, hente og presentere data på nettsider', 'Hvordan en nettside kan lagre og hente data med JavaScript, JSON, localStorage og tjenere, vise dem i tabeller og diagrammer – og hvordan valg av presentasjon kan påvirke hvordan dataene tolkes.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:data-pa-nettsider', '## Statiske og dynamiske nettsider
+
+En **statisk** nettside viser det samme innholdet hver gang. En **dynamisk** side henter og viser **data** som kan endre seg – værmeldinger, resultater, lagerstatus eller innlegg fra brukerne.
+
+## JavaScript på nettsiden
+
+**JavaScript** er programmeringsspråket i nettleseren. Det kan endre innholdet på siden, reagere på klikk og hente data:
+
+```
+const elever = [
+  { navn: "Ida", poeng: 87 },
+  { navn: "Ali", poeng: 92 }
+];
+for (const e of elever) {
+  const rad = document.createElement("tr");
+  rad.innerHTML = `<td>${e.navn}</td><td>${e.poeng}</td>`;
+  document.querySelector("#tabell").append(rad);
+}
+```
+
+Koden går gjennom en liste med objekter og lager én **tabellrad** per elev.
+
+## Hvor kan data lagres?
+
+- **I koden eller i en JSON-fil** på tjeneren – enkelt, men dataene endres bare når filen endres.
+- **localStorage** i nettleseren – data blir liggende på brukerens maskin, for eksempel innstillinger. Andre brukere ser dem ikke, og de kan forsvinne hvis nettleserdata slettes.
+- **En database på en tjener** – data deles mellom alle brukere og kan oppdateres. Siden henter dem via et **API** (et grensesnitt), ofte i JSON-format:
+
+```
+const svar = await fetch("data.json");
+const data = await svar.json();
+```
+
+**Sensitive data**, som passord og personopplysninger, skal aldri lagres åpent i nettleseren eller i koden.
+
+## Presentere data
+
+- **Tabeller** passer når leseren skal finne **eksakte verdier**.
+- **Søylediagram** passer for å **sammenligne kategorier**.
+- **Linjediagram** passer for **utvikling over tid**.
+- **Sektordiagram** viser **andeler av en helhet** – best med få kategorier.
+- **Punktdiagram** viser **sammenhenger** mellom to variabler.
+
+Biblioteker som **Chart.js** gjør det enkelt å lage diagrammer med JavaScript.
+
+## Representasjon påvirker tolkning
+
+Samme data kan gi **ulike inntrykk**:
+
+- En **y-akse som ikke starter på null** kan få små forskjeller til å se store ut.
+- **3D-effekter** og skjeve sektordiagrammer gjør det vanskelig å sammenligne størrelser.
+- **Valg av tidsperiode** kan skjule eller forsterke en trend.
+- **Absolutte tall** og **prosent** kan gi ulike bilder: 50 nye brukere er mye for en liten tjeneste, men lite for en stor.
+- **Farger** påvirker: Rødt oppfattes ofte som negativt.
+
+Som utvikler har du derfor et **ansvar** for å presentere data **ærlig**: tydelige aksetitler og enheter, kilde, og en diagramtype som passer.
+
+## Framgangsmåte
+
+1. Hva skal brukeren **få vite**?
+2. Hvor skal dataene **lagres**, og hvem skal kunne endre dem?
+3. Hvordan skal de **hentes** og **oppdateres**?
+4. Hvilken **visning** gir en riktig og forståelig framstilling?
+5. **Test** med ekte brukere.', '{"label":"Data på nettsider","children":[{"label":"Sidetyper","children":[{"label":"Statisk"},{"label":"Dynamisk"}]},{"label":"Lagring","children":[{"label":"JSON-fil"},{"label":"localStorage"},{"label":"Database og API"}]},{"label":"JavaScript","children":[{"label":"Løkker og objekter"},{"label":"fetch"},{"label":"Endre siden"}]},{"label":"Presentasjon","children":[{"label":"Tabell"},{"label":"Søyle, linje, sektor"},{"label":"Chart.js"}]},{"label":"Tolkning","children":[{"label":"Avkortet akse"},{"label":"Absolutt og prosent"},{"label":"Ærlig framstilling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:data-pa-nettsider';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Statisk nettside', 'Viser det samme innholdet hver gang.', 0),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Dynamisk nettside', 'Henter og viser data som kan endre seg.', 1),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'JavaScript', 'Programmeringsspråket i nettleseren.', 2),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'document.querySelector', 'Finner et element på siden.', 3),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'localStorage', 'Lagrer data i brukerens nettleser.', 4),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'API', 'Grensesnitt for å hente data fra en tjeneste.', 5),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'fetch', 'JavaScript-funksjon som henter data fra en adresse.', 6),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'JSON på nettet', 'Vanlig format for data mellom tjener og nettside.', 7),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Sensitive data', 'Skal aldri lagres åpent i nettleseren eller koden.', 8),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Søylediagram', 'Sammenligner kategorier.', 9),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Linjediagram', 'Viser utvikling over tid.', 10),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Sektordiagram', 'Viser andeler av en helhet.', 11),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Avkortet y-akse', 'Kan få små forskjeller til å se store ut.', 12),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Chart.js', 'JavaScript-bibliotek for diagrammer.', 13),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'Ærlig framstilling', 'Aksetitler, enheter, kilde og riktig diagramtype.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:data-pa-nettsider';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q01', 'flervalg', 'Hva kjennetegner en dynamisk nettside?', array['Den har mye animasjon', 'Den henter og viser data som kan endre seg', 'Den er skrevet bare i CSS', 'Den har ingen lenker']::text[], 1, 'For eksempel værdata eller resultater.', true, true, 0),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q02', 'flervalg', 'Hvor lagres data i localStorage?', array['I brukerens nettleser', 'På tjeneren', 'I en felles database', 'I CSS-filen']::text[], 0, 'Andre brukere ser dem ikke.', true, true, 1),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q03', 'flervalg', 'Hvilken diagramtype passer best for utvikling over tid?', array['Sektordiagram', 'Tabell', 'Linjediagram', 'Punktdiagram uten akser']::text[], 2, 'Tiden på x-aksen.', true, true, 2),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q04', 'flervalg', 'Hvordan kan en avkortet y-akse påvirke tolkningen?', array['Den gjør diagrammet mer nøyaktig', 'Den har ingen betydning', 'Den skjuler alle data', 'Den kan få små forskjeller til å se store ut']::text[], 3, 'Aksen starter ikke på null.', true, true, 3),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q05', 'flervalg', 'Hva gjør fetch("data.json")?', array['Henter data fra en adresse', 'Sletter en fil', 'Lager en tabell', 'Endrer fargen på siden']::text[], 0, 'Svaret kan gjøres om til JavaScript-objekter.', true, true, 4),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q06', 'flervalg', 'Hvor bør data som skal deles mellom alle brukere, lagres?', array['I localStorage', 'I en database på en tjener', 'I brukerens utklippstavle', 'I CSS']::text[], 1, 'Da kan alle hente og oppdatere dem.', true, true, 5),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q07', 'flervalg', 'Hvilken diagramtype passer for å sammenligne kategorier?', array['Linjediagram', 'Sektordiagram med 3D', 'Søylediagram', 'Ingen']::text[], 2, 'Søylene er lette å sammenligne.', true, true, 6),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q08', 'flervalg', 'Hva bør du aldri lagre åpent i nettleseren eller i koden?', array['Farger', 'Overskrifter', 'Offentlige tall', 'Passord og personopplysninger']::text[], 3, 'Alle kan lese koden og nettleserdataene.', true, true, 7),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q09', 'flervalg', 'Hva er et API?', array['Et grensesnitt for å hente data fra en tjeneste', 'En type diagram', 'En CSS-regel', 'Et HTML-element']::text[], 0, 'Ofte med data i JSON.', true, false, 8),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'q10', 'flervalg', 'Hva gjør koden som går gjennom elevlisten og lager tr-elementer?', array['Sletter tabellen', 'Lager én tabellrad per elev', 'Lagrer data i en database', 'Sorterer elevene']::text[], 1, 'Data vises dynamisk.', true, false, 9),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm01', 'sant-usant', 'Samme data kan gi ulike inntrykk avhengig av hvordan de presenteres.', array['Sant', 'Usant']::text[], 0, 'Valg av akser, periode og diagramtype påvirker.', false, true, 10),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm02', 'sant-usant', 'Data i localStorage deles automatisk med alle brukere av nettsiden.', array['Sant', 'Usant']::text[], 1, 'De ligger bare i den enkelte nettleseren.', false, true, 11),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm03', 'sant-usant', 'Tabeller passer godt når leseren skal finne eksakte verdier.', array['Sant', 'Usant']::text[], 0, 'Diagrammer passer bedre for mønstre.', false, true, 12),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm04', 'sant-usant', 'Et sektordiagram egner seg best når det er mange kategorier.', array['Sant', 'Usant']::text[], 1, 'Det fungerer best med få kategorier.', false, true, 13),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm05', 'flervalg', 'Hvilket diagram viser best sammenhengen mellom treningstid og kondisjon?', array['Sektordiagram', 'Punktdiagram', 'Tabell uten tall', 'Søylediagram med én søyle']::text[], 1, 'Punktdiagram viser sammenhenger.', false, true, 14),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm06', 'flervalg', 'Hvilket programmeringsspråk kjører i nettleseren?', array['JavaScript', 'SQL', 'CSS', 'HTML']::text[], 0, 'HTML og CSS er ikke programmeringsspråk.', false, true, 15),
+  ('informasjonsteknologi-1:data-pa-nettsider', 'm07', 'flervalg', 'Hva bør alltid være med i et diagram på en nettside?', array['3D-effekter', 'Så mange farger som mulig', 'Aksetitler, enheter og kilde', 'Animasjon']::text[], 2, 'Det gjør framstillingen ærlig og forståelig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:data-pa-nettsider', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Brukervennlighet og universell utforming
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'informasjonsteknologi-1', 'brukervennlighet-og-universell-utforming', 'Brukervennlighet og universell utforming', 'Hvordan du planlegger nettsider som er enkle å bruke for alle – brukersentrert design, prototyper og brukertesting, WCAG-prinsippene, kontrast, alt-tekst og tastaturnavigasjon, og hva loven krever.', array[6]::int[], 5, 'sjekkes', array['Sjekk gjeldende krav i forskrift om universell utforming av IKT-løsninger (hvilken WCAG-versjon og hvilke virksomheter som omfattes).']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', '## Brukervennlighet
+
+En **brukervennlig** nettside lar brukerne nå målet sitt **raskt**, **uten feil** og med en god opplevelse. Noen prinsipper:
+
+- **Tydelig navigasjon**: Brukeren skal alltid vite hvor hun eller han er, og hvordan man kommer videre.
+- **Konsistens**: Knapper, farger og menyer ser like ut og oppfører seg likt på alle sider.
+- **Enkelhet**: Fjern det som ikke trengs. Viktigst innhold først.
+- **Tilbakemelding**: Siden viser tydelig hva som skjer, for eksempel at et skjema er sendt.
+- **Feilforebygging**: Gode feilmeldinger som forklarer **hva** som er feil og **hvordan** det rettes.
+
+## Brukersentrert design
+
+1. **Kartlegg brukerne**: Hvem er de, og hva trenger de? Lag gjerne **personas** – oppdiktede, typiske brukere.
+2. **Skisser**: Lag **wireframes** – enkle skisser av sidene – før du koder.
+3. **Prototype**: en klikkbar modell, for eksempel i Figma.
+4. **Brukertesting**: La ekte brukere prøve å løse oppgaver mens du observerer. Be dem gjerne **tenke høyt**.
+5. **Forbedre** og test igjen.
+
+## Universell utforming
+
+**Universell utforming** betyr at løsningen kan brukes av **flest mulig**, uten behov for spesielle tilpasninger – også av personer med **nedsatt syn, hørsel, motorikk** eller **kognitive** utfordringer. Det gjør ofte løsningen bedre for **alle**, for eksempel i sterkt sollys eller med én hånd.
+
+## WCAG
+
+Den internasjonale standarden **WCAG** (Web Content Accessibility Guidelines) bygger på fire prinsipper:
+
+1. **Mulig å oppfatte** – for eksempel **alt-tekst** på bilder, **teksting** av video og god **kontrast**.
+2. **Mulig å betjene** – alt skal kunne brukes med **tastatur**, og brukeren skal ha nok tid.
+3. **Forståelig** – tydelig språk, forutsigbar oppførsel og hjelp ved feil.
+4. **Robust** – koden skal fungere med ulike nettlesere og **hjelpemidler** som skjermlesere.
+
+## Konkrete tiltak
+
+- **Kontrast**: Vanlig tekst bør ha en kontrast på minst **4,5 : 1** mot bakgrunnen.
+- **Ikke bruk bare farge** for å formidle informasjon – mange er fargeblinde.
+- **Alt-tekst** som beskriver hva bildet viser. Rene pyntebilder får tom alt-tekst.
+- **Overskrifter** i riktig hierarki, slik at skjermlesere kan navigere.
+- **Lenketekster** som gir mening alene – ikke bare «klikk her».
+- **Skjemafelt** med tydelige **etiketter** (label).
+- **Synlig fokus** når man navigerer med tastatur.
+- **Skalerbar tekst** og responsivt design.
+
+## Lovkrav
+
+I Norge krever **likestillings- og diskrimineringsloven** og en egen **forskrift** at nettsteder og apper fra både offentlige og private virksomheter er universelt utformet, i hovedsak etter WCAG. **Digitaliseringsdirektoratet** fører tilsyn og kan gi pålegg. Offentlige nettsteder må også ha en **tilgjengelighetserklæring**.
+
+## Teste tilgjengelighet
+
+Bruk **automatiske verktøy**, som tilgjengelighetsrapporten i nettleserens utviklerverktøy, men test også **manuelt**: Naviger med bare tastatur, prøv en **skjermleser** og sjekk siden med forstørret tekst.', '{"label":"Brukervennlighet og UU","children":[{"label":"Brukervennlighet","children":[{"label":"Navigasjon"},{"label":"Konsistens"},{"label":"Tilbakemelding"}]},{"label":"Designprosess","children":[{"label":"Personas"},{"label":"Wireframes og prototype"},{"label":"Brukertesting"}]},{"label":"WCAG","children":[{"label":"Oppfatte"},{"label":"Betjene"},{"label":"Forstå"},{"label":"Robust"}]},{"label":"Tiltak","children":[{"label":"Kontrast 4,5 : 1"},{"label":"Alt-tekst og etiketter"},{"label":"Tastatur og fokus"}]},{"label":"Lov og test","children":[{"label":"Forskrift om UU"},{"label":"Digitaliseringsdirektoratet"},{"label":"Skjermleser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:brukervennlighet-og-universell-utforming';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Brukervennlighet', 'At brukeren når målet raskt, uten feil og med god opplevelse.', 0),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Konsistens', 'Like elementer ser like ut og oppfører seg likt.', 1),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Persona', 'Oppdiktet, typisk bruker.', 2),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Wireframe', 'Enkel skisse av en side før koding.', 3),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Prototype', 'Klikkbar modell av løsningen.', 4),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Brukertesting', 'Ekte brukere prøver løsningen mens du observerer.', 5),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Universell utforming', 'Løsningen kan brukes av flest mulig uten spesielle tilpasninger.', 6),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'WCAG', 'Internasjonal standard for tilgjengelig nettinnhold.', 7),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'WCAG-prinsippene', 'Mulig å oppfatte, mulig å betjene, forståelig, robust.', 8),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Kontrastkrav for vanlig tekst', 'Minst 4,5 : 1.', 9),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Alt-tekst', 'Beskriver bildet for dem som ikke ser det.', 10),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Skjermleser', 'Hjelpemiddel som leser opp innholdet.', 11),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Tastaturnavigasjon', 'Alt skal kunne brukes uten mus.', 12),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Label', 'Tydelig etikett til et skjemafelt.', 13),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'Digitaliseringsdirektoratet', 'Fører tilsyn med universell utforming av IKT.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:brukervennlighet-og-universell-utforming';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q01', 'flervalg', 'Hva betyr universell utforming?', array['At siden ser lik ut i alle land', 'At løsningen kan brukes av flest mulig uten spesielle tilpasninger', 'At siden bare har tekst', 'At siden er gratis']::text[], 1, 'Også personer med funksjonsnedsettelser.', true, true, 0),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q02', 'flervalg', 'Hvilke fire prinsipper bygger WCAG på?', array['Mulig å oppfatte, mulig å betjene, forståelig, robust', 'Rask, billig, pen, trygg', 'Farge, form, font, funksjon', 'HTML, CSS, JavaScript, SQL']::text[], 0, 'Ofte forkortet POUR på engelsk.', true, true, 1),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q03', 'flervalg', 'Hvilken kontrast bør vanlig tekst minst ha mot bakgrunnen?', array['1 : 1', '2 : 1', '4,5 : 1', '10 : 1']::text[], 2, 'Kravet i WCAG for vanlig tekst.', true, true, 2),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q04', 'flervalg', 'Hvorfor bør du ikke bruke bare farge til å formidle informasjon?', array['Fordi farger er dyre', 'Fordi CSS ikke støtter farger', 'Fordi det ser rotete ut', 'Fordi mange er fargeblinde']::text[], 3, 'Bruk også tekst eller symboler.', true, true, 3),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q05', 'flervalg', 'Hva er en wireframe?', array['En enkel skisse av en side før koding', 'En type kabel', 'En ferdig nettside', 'Et testverktøy']::text[], 0, 'Brukes tidlig i designprosessen.', true, true, 4),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q06', 'flervalg', 'Hvilken lenketekst er best?', array['Klikk her', 'Les mer om søknadsfrister', 'Her', 'Lenke']::text[], 1, 'Den gir mening alene, også for skjermleserbrukere.', true, true, 5),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q07', 'flervalg', 'Hva er brukertesting?', array['At utvikleren tester koden', 'At en automat sjekker kontrasten', 'At ekte brukere prøver løsningen mens du observerer', 'At siden lanseres uten testing']::text[], 2, 'Gjerne mens de tenker høyt.', true, true, 6),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q08', 'flervalg', 'Hvem fører tilsyn med universell utforming av IKT i Norge?', array['Datatilsynet', 'Politiet', 'Forbrukerrådet', 'Digitaliseringsdirektoratet']::text[], 3, 'Det kan gi pålegg.', true, true, 7),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q09', 'flervalg', 'Hvorfor er riktig overskriftshierarki viktig for tilgjengelighet?', array['Skjermleserbrukere navigerer ved hjelp av overskriftene', 'Det gjør teksten større', 'Det gir penere farger', 'Det er ikke viktig']::text[], 0, 'Overskriftene gir struktur.', true, false, 8),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'q10', 'flervalg', 'Hvilken test er en god manuell tilgjengelighetstest?', array['Å endre bakgrunnsfargen', 'Å navigere siden med bare tastatur', 'Å slette CSS-filen', 'Å bruke større bilder']::text[], 1, 'Alt skal kunne betjenes uten mus.', true, false, 9),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm01', 'sant-usant', 'Universell utforming gjør ofte løsningen bedre for alle brukere.', array['Sant', 'Usant']::text[], 0, 'For eksempel i sterkt sollys.', false, true, 10),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm02', 'sant-usant', 'Kravene om universell utforming gjelder bare offentlige nettsteder i Norge.', array['Sant', 'Usant']::text[], 1, 'De gjelder også mange private virksomheter.', false, true, 11),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm03', 'sant-usant', 'Rene pyntebilder kan ha tom alt-tekst.', array['Sant', 'Usant']::text[], 0, 'Da hopper skjermleseren over dem.', false, true, 12),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm04', 'sant-usant', 'Automatiske verktøy finner alle tilgjengelighetsproblemer.', array['Sant', 'Usant']::text[], 1, 'Manuell testing trengs også.', false, true, 13),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm05', 'flervalg', 'Hva hjelper brukere som ikke hører lyden i en video?', array['Høyere volum', 'Teksting', 'Større video', 'Automatisk avspilling']::text[], 1, 'Mulig å oppfatte.', false, true, 14),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm06', 'flervalg', 'Hva er en persona?', array['En oppdiktet, typisk bruker', 'En ekte kunde', 'En programmerer', 'En type diagram']::text[], 0, 'Hjelper deg å tenke på brukernes behov.', false, true, 15),
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'm07', 'flervalg', 'Hva er en god feilmelding i et skjema?', array['«Feil!»', 'En rød ramme uten tekst', 'En tekst som forklarer hva som er feil og hvordan det rettes', 'Ingen melding']::text[], 2, 'Brukeren må forstå hva som skal gjøres.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Programmering med funksjoner
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'informasjonsteknologi-1', 'programmering-med-funksjoner', 'Programmering med funksjoner', 'Prosedyreorientert programmering med variabler, betingelser og løkker, funksjoner med og uten parametere og returverdier, og hvordan du strukturerer, kommenterer og feilsøker kode.', array[7, 9]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:programmering-med-funksjoner', '## Grunnelementene
+
+Et **prosedyreorientert** program består av instruksjoner som utføres **i rekkefølge**. Eksemplene er i **Python**, men de samme ideene finnes i JavaScript og andre språk.
+
+- **Variabler** lagrer verdier: alder = 17
+- **Datatyper**: heltall (int), desimaltall (float), tekst (str), sannhetsverdier (bool) og lister
+- **Betingelser** velger mellom veier: if, elif og else
+- **Løkker** gjentar: for-løkker for et kjent antall ganger, while-løkker så lenge en betingelse er sann
+
+## Funksjoner
+
+En **funksjon** (prosedyre) er en navngitt kodeblokk som kan **gjenbrukes**. Funksjoner gjør programmet **kortere**, **lettere å lese** og **lettere å teste**.
+
+**Uten parametere og uten returverdi**:
+
+```
+def hils():
+    print("Hei og velkommen!")
+
+hils()
+```
+
+**Med parametere** – verdier funksjonen får inn:
+
+```
+def hils_på(navn):
+    print(f"Hei, {navn}!")
+
+hils_på("Ida")
+```
+
+**Med returverdi** – funksjonen sender et resultat tilbake:
+
+```
+def areal_sirkel(r):
+    return 3.14159 * r ** 2
+
+svar = areal_sirkel(2)   # svar blir omtrent 12.57
+```
+
+Forskjellen er viktig: **print** viser noe på skjermen, mens **return** gir verdien tilbake slik at resten av programmet kan **bruke** den videre.
+
+**Flere parametere og betingelse**:
+
+```
+def karakter(poeng, maks):
+    prosent = poeng / maks * 100
+    if prosent >= 90:
+        return 6
+    elif prosent >= 75:
+        return 5
+    else:
+        return 4
+```
+
+## Lokale og globale variabler
+
+Variabler som lages **inne i** en funksjon, er **lokale** – de finnes bare der. Det hindrer at funksjoner ødelegger for hverandre. Send heller verdier inn som **parametere** og ut med **return** enn å bruke globale variabler.
+
+## Strukturere kode
+
+- Del problemet i **små funksjoner** som gjør **én ting** hver.
+- Gi variabler og funksjoner **beskrivende navn**: beregn_snitt er bedre enn f2.
+- Samle funksjonene øverst og **hovedprogrammet** nederst.
+- Unngå å **gjenta** kode – lag heller en funksjon.
+
+## Kommentarer
+
+**Kommentarer** starter med # i Python og ignoreres av datamaskinen. Gode kommentarer forklarer **hvorfor** koden gjør noe, ikke bare **hva**. En **docstring** øverst i en funksjon beskriver hva den gjør, hvilke parametere den tar og hva den returnerer.
+
+## Feilsøking
+
+- **Syntaksfeil**: koden bryter språkets regler, for eksempel en manglende parentes.
+- **Kjøretidsfeil**: programmet krasjer, for eksempel ved deling på null.
+- **Logiske feil**: programmet kjører, men gir feil svar.
+
+Finn feil ved å lese **feilmeldingen**, legge inn **print** for å se verdiene underveis, bruke en **debugger** og **teste** funksjonene med verdier der du vet svaret.
+
+## Utforske andres kode
+
+Når du leser kode du ikke har skrevet, kan du **forutsi** hva den gjør, **kjøre** den, **endre** litt og se hva som skjer – og legge inn egne kommentarer.', '{"label":"Programmering med funksjoner","children":[{"label":"Grunnelementer","children":[{"label":"Variabler og typer"},{"label":"Betingelser"},{"label":"Løkker"}]},{"label":"Funksjoner","children":[{"label":"Uten parametere"},{"label":"Med parametere"},{"label":"Med returverdi"}]},{"label":"Omfang","children":[{"label":"Lokale variabler"},{"label":"Unngå globale"}]},{"label":"Struktur","children":[{"label":"Små funksjoner"},{"label":"Beskrivende navn"},{"label":"Kommentarer og docstring"}]},{"label":"Feilsøking","children":[{"label":"Syntaks-, kjøretids- og logiske feil"},{"label":"print og debugger"},{"label":"Testing"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:programmering-med-funksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Variabel', 'Navngitt lagringsplass for en verdi.', 0),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Datatyper', 'int, float, str, bool og lister.', 1),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'if / elif / else', 'Betingelser som velger mellom veier.', 2),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'for-løkke', 'Gjentar et kjent antall ganger eller for hvert element.', 3),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'while-løkke', 'Gjentar så lenge en betingelse er sann.', 4),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Funksjon', 'Navngitt kodeblokk som kan gjenbrukes.', 5),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Parameter', 'Verdi funksjonen får inn.', 6),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Returverdi', 'Resultat funksjonen sender tilbake med return.', 7),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'print og return', 'print viser, return gir verdien tilbake til programmet.', 8),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Lokal variabel', 'Finnes bare inne i funksjonen.', 9),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Kommentar i Python', 'Starter med # og ignoreres ved kjøring.', 10),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Docstring', 'Beskrivelse øverst i en funksjon.', 11),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Syntaksfeil', 'Koden bryter språkets regler.', 12),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Logisk feil', 'Programmet kjører, men gir feil svar.', 13),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'Debugger', 'Verktøy for å gå gjennom koden steg for steg.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:programmering-med-funksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q01', 'flervalg', 'Hva er forskjellen på print og return i en funksjon?', array['Det er det samme', 'print viser noe på skjermen, return gir verdien tilbake til programmet', 'return viser noe på skjermen', 'print avslutter programmet']::text[], 1, 'En returverdi kan brukes videre.', true, true, 0),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q02', 'flervalg', 'Hva er en parameter?', array['En verdi funksjonen får inn', 'En kommentar', 'En feil', 'En løkke']::text[], 0, 'For eksempel navn i hils_på(navn).', true, true, 1),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q03', 'flervalg', 'Hva returnerer areal_sirkel(2) omtrent?', array['6,28', '4', '12,57', '3,14']::text[], 2, '3,14159 · 2².', true, true, 2),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q04', 'flervalg', 'Hva kjennetegner en lokal variabel?', array['Den kan brukes overalt i programmet', 'Den er alltid et tall', 'Den lagres på tjeneren', 'Den finnes bare inne i funksjonen der den lages']::text[], 3, 'Det hindrer at funksjoner påvirker hverandre.', true, true, 3),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q05', 'flervalg', 'Hvilken løkke passer når du ikke vet hvor mange ganger den skal gå?', array['while-løkke', 'for-løkke over en liste med kjent lengde', 'if-setning', 'En funksjon uten parametere']::text[], 0, 'Den går så lenge betingelsen er sann.', true, true, 4),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q06', 'flervalg', 'Hva er en logisk feil?', array['En manglende parentes', 'At programmet kjører, men gir feil svar', 'At programmet ikke starter', 'En feilstavet kommentar']::text[], 1, 'Den er ofte vanskeligst å finne.', true, true, 5),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q07', 'flervalg', 'Hva bør gode kommentarer forklare?', array['Hver eneste linje', 'Ingenting', 'Hvorfor koden gjør noe', 'Hvem som skrev koden']::text[], 2, 'Koden viser ofte selv hva den gjør.', true, true, 6),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q08', 'flervalg', 'Hva returnerer karakter(80, 100)?', array['6', '4', '80', '5']::text[], 3, '80 % er minst 75, men under 90.', true, true, 7),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q09', 'flervalg', 'Hvorfor bør du dele et program i små funksjoner?', array['Det gjør koden lettere å lese, teste og gjenbruke', 'Det gjør programmet tregere', 'Det er påbudt i Python', 'Det fjerner alle feil']::text[], 0, 'Hver funksjon bør gjøre én ting.', true, false, 8),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'q10', 'flervalg', 'Hvordan starter en kommentar i Python?', array['//', '#', '<!--', '/*']::text[], 1, '// brukes i JavaScript.', true, false, 9),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm01', 'sant-usant', 'En funksjon kan ha flere parametere.', array['Sant', 'Usant']::text[], 0, 'For eksempel karakter(poeng, maks).', false, true, 10),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm02', 'sant-usant', 'Kommentarer påvirker hvordan programmet kjører.', array['Sant', 'Usant']::text[], 1, 'De ignoreres av datamaskinen.', false, true, 11),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm03', 'sant-usant', 'Deling på null kan gi en kjøretidsfeil.', array['Sant', 'Usant']::text[], 0, 'Programmet krasjer.', false, true, 12),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm04', 'sant-usant', 'Det er god praksis å kopiere den samme koden mange steder i stedet for å lage en funksjon.', array['Sant', 'Usant']::text[], 1, 'Gjentatt kode bør samles i en funksjon.', false, true, 13),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm05', 'flervalg', 'Hva skriver dette ut: for i in range(3): print(i)?', array['1 2 3', '0 1 2', '0 1 2 3', '3']::text[], 1, 'range(3) gir 0, 1 og 2.', false, true, 14),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm06', 'flervalg', 'Hvilket funksjonsnavn er mest beskrivende?', array['beregn_snitt', 'f2', 'x', 'gjør']::text[], 0, 'Navnet forteller hva funksjonen gjør.', false, true, 15),
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 'm07', 'flervalg', 'Hvilken datatype har verdien True?', array['int', 'str', 'bool', 'float']::text[], 2, 'Sannhetsverdi.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:programmering-med-funksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Algoritmer og effektivitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'informasjonsteknologi-1', 'algoritmer-og-effektivitet', 'Algoritmer og effektivitet', 'Hva en algoritme er, søkealgoritmer som lineært og binært søk, sorteringsalgoritmer som boblesortering og flettesortering, og hvordan du vurderer og måler hvor effektiv koden din er.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', '## Hva er en algoritme?
+
+En **algoritme** er en **presis**, **endelig** oppskrift på hvordan et problem skal løses – steg for steg. Den kan skrives som **pseudokode**, tegnes som **flytdiagram** eller programmeres.
+
+Det finnes ofte **mange** algoritmer som løser samme problem, men noen er **mye raskere** enn andre når datamengden blir stor.
+
+## Søkealgoritmer
+
+**Lineært søk** går gjennom listen **ett element om gangen** til det finner det det leter etter.
+
+```
+def lineært_søk(liste, mål):
+    for i in range(len(liste)):
+        if liste[i] == mål:
+            return i
+    return -1
+```
+
+I verste fall må den se på **alle** n elementene.
+
+**Binært søk** krever at listen er **sortert**. Den ser på **midterste** element og halverer søkeområdet for hvert steg – omtrent som når du leter i en ordbok. Med 1 000 000 elementer trengs bare rundt **20 steg**, fordi 2²⁰ ≈ 1 million.
+
+## Sorteringsalgoritmer
+
+- **Boblesortering**: Går gjennom listen gang på gang og **bytter** nabotall som står i feil rekkefølge. Enkel å forstå, men **treg** for store lister.
+- **Utvalgssortering**: Finner det minste elementet og setter det først, så det nest minste, og så videre.
+- **Flettesortering**: Deler listen i to, sorterer hver halvdel og **fletter** dem sammen. Mye **raskere** for store lister.
+
+I praksis bruker vi ofte innebygde funksjoner som sorted() i Python, som er svært effektive.
+
+## Tidskompleksitet
+
+**Tidskompleksitet** beskriver hvordan kjøretiden **vokser** når datamengden n øker. Vi bruker **O-notasjon**:
+
+| Kompleksitet | Eksempel | n = 1 000 000 |
+|---|---|---|
+| O(1) | slå opp element nummer i | 1 steg |
+| O(log n) | binært søk | ca. 20 steg |
+| O(n) | lineært søk | 1 million steg |
+| O(n log n) | flettesortering | ca. 20 millioner steg |
+| O(n²) | boblesortering | 1 billion steg |
+
+Forskjellen er liten for små lister, men **enorm** for store. En algoritme med **nøstede løkker** over samme liste er ofte O(n²).
+
+## Vurdere egen kode
+
+- **Tell løkkene**: Én løkke over listen gir ofte O(n), to nøstede løkker gir ofte O(n²).
+- **Unngå unødvendig arbeid**: Avslutt løkken når svaret er funnet, og ikke regn ut det samme flere ganger.
+- **Velg riktig datastruktur**: Å sjekke om et element finnes i en **mengde** (set) eller en **ordbok** (dict) går mye raskere enn i en liste.
+- **Mål tiden**: Med modulen time kan du måle hvor lang tid koden bruker, for eksempel for 1000, 10 000 og 100 000 elementer, og se hvordan tiden vokser.
+
+## Andre typer algoritmer
+
+- **Rekursive** algoritmer kaller seg selv, som flettesortering.
+- **Grådige** algoritmer velger det som ser best ut i hvert steg, for eksempel når en automat gir vekslepenger med færrest mulig mynter.
+- **Anbefalingsalgoritmer** i strømmetjenester og sosiale medier foreslår innhold ut fra hva du og andre har likt.
+
+En god algoritme er **korrekt**, **effektiv** og **forståelig**.', '{"label":"Algoritmer og effektivitet","children":[{"label":"Algoritme","children":[{"label":"Presis og endelig"},{"label":"Pseudokode og flytdiagram"}]},{"label":"Søk","children":[{"label":"Lineært O(n)"},{"label":"Binært O(log n)"}]},{"label":"Sortering","children":[{"label":"Boblesortering"},{"label":"Utvalgssortering"},{"label":"Flettesortering"}]},{"label":"Kompleksitet","children":[{"label":"O-notasjon"},{"label":"Nøstede løkker"},{"label":"Måle tid"}]},{"label":"Andre typer","children":[{"label":"Rekursive"},{"label":"Grådige"},{"label":"Anbefalinger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:algoritmer-og-effektivitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Algoritme', 'Presis, endelig oppskrift for å løse et problem.', 0),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Pseudokode', 'Algoritme skrevet i et forenklet, kodeliknende språk.', 1),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Lineært søk', 'Går gjennom ett element om gangen – O(n).', 2),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Binært søk', 'Halverer søkeområdet i en sortert liste – O(log n).', 3),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Binært søk i 1 million elementer', 'Omtrent 20 steg.', 4),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Boblesortering', 'Bytter nabotall i feil rekkefølge – O(n²).', 5),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Utvalgssortering', 'Finner minste element og setter det først, gang på gang.', 6),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Flettesortering', 'Deler, sorterer og fletter – O(n log n).', 7),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Tidskompleksitet', 'Hvordan kjøretiden vokser med datamengden.', 8),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'O(1)', 'Konstant tid, uavhengig av n.', 9),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Nøstede løkker', 'Gir ofte O(n²).', 10),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'set og dict', 'Datastrukturer med svært raske oppslag.', 11),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Rekursiv algoritme', 'Algoritme som kaller seg selv.', 12),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Grådig algoritme', 'Velger det som ser best ut i hvert steg.', 13),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'Modulen time', 'Brukes til å måle kjøretid i Python.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:algoritmer-og-effektivitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q01', 'flervalg', 'Hva krever binært søk?', array['At listen er kort', 'At listen er sortert', 'At listen bare har tall under 100', 'At listen er usortert']::text[], 1, 'Ellers kan vi ikke vite hvilken halvdel vi skal lete i.', true, true, 0),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q02', 'flervalg', 'Omtrent hvor mange steg trenger binært søk i en sortert liste med 1 000 000 elementer?', array['20', '1000', '500 000', '1 000 000']::text[], 0, '2²⁰ ≈ 1 million.', true, true, 1),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q03', 'flervalg', 'Hvilken tidskompleksitet har boblesortering?', array['O(1)', 'O(log n)', 'O(n²)', 'O(n)']::text[], 2, 'Nøstede gjennomganger av listen.', true, true, 2),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q04', 'flervalg', 'Hva beskriver tidskompleksitet?', array['Hvor mange linjer koden har', 'Hvilket språk koden er skrevet i', 'Hvor gammel algoritmen er', 'Hvordan kjøretiden vokser når datamengden øker']::text[], 3, 'Skrives med O-notasjon.', true, true, 3),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q05', 'flervalg', 'Hvilken sorteringsalgoritme er raskest for store lister?', array['Flettesortering', 'Boblesortering', 'Utvalgssortering', 'De er like raske']::text[], 0, 'O(n log n) mot O(n²).', true, true, 4),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q06', 'flervalg', 'Hva gir ofte O(n²)?', array['Ett enkelt oppslag', 'To nøstede løkker over samme liste', 'Binært søk', 'En if-setning']::text[], 1, 'For hvert element går vi gjennom alle.', true, true, 5),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q07', 'flervalg', 'Hva er en algoritme?', array['Et programmeringsspråk', 'En datamaskin', 'En presis, endelig oppskrift for å løse et problem', 'En type database']::text[], 2, 'Kan skrives som pseudokode eller kode.', true, true, 6),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q08', 'flervalg', 'Hvorfor er det raskere å sjekke om et element finnes i et set enn i en liste?', array['Set er alltid kortere', 'Set kan bare inneholde tall', 'Lister er ødelagte', 'Set har svært raske oppslag uten å gå gjennom alle elementene']::text[], 3, 'Nær konstant tid.', true, true, 7),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q09', 'flervalg', 'Hva returnerer lineært_søk hvis målet ikke finnes?', array['−1', '0', 'Hele listen', 'Målet']::text[], 0, 'Etter at alle elementene er sjekket.', true, false, 8),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'q10', 'flervalg', 'Hvordan kan du måle hvor effektiv koden din er i praksis?', array['Telle bokstavene', 'Måle kjøretiden for ulike datamengder', 'Endre fargene i editoren', 'Skrive flere kommentarer']::text[], 1, 'Se hvordan tiden vokser.', true, false, 9),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm01', 'sant-usant', 'Forskjellen mellom O(n) og O(n²) blir enorm når datamengden er stor.', array['Sant', 'Usant']::text[], 0, '1 million mot 1 billion steg.', false, true, 10),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm02', 'sant-usant', 'Binært søk fungerer på usorterte lister.', array['Sant', 'Usant']::text[], 1, 'Listen må være sortert.', false, true, 11),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm03', 'sant-usant', 'Flettesortering er et eksempel på en rekursiv algoritme.', array['Sant', 'Usant']::text[], 0, 'Den sorterer halvdelene med seg selv.', false, true, 12),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm04', 'sant-usant', 'Den enkleste algoritmen er alltid den mest effektive.', array['Sant', 'Usant']::text[], 1, 'Boblesortering er enkel, men treg.', false, true, 13),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm05', 'flervalg', 'Hvilken tidskompleksitet har lineært søk?', array['O(1)', 'O(n)', 'O(n²)', 'O(log n)']::text[], 1, 'I verste fall sjekkes alle n elementene.', false, true, 14),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm06', 'flervalg', 'Hva gjør en grådig algoritme?', array['Velger det som ser best ut i hvert steg', 'Prøver alle muligheter', 'Kaller seg selv', 'Sorterer alltid først']::text[], 0, 'For eksempel vekslepenger med færrest mynter.', false, true, 15),
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 'm07', 'flervalg', 'Hvordan kan du gjøre et lineært søk raskere i praksis?', array['Legge inn flere print', 'Gå gjennom listen to ganger', 'Avslutte løkken når elementet er funnet', 'Bruke globale variabler']::text[], 2, 'Unngå unødvendig arbeid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:algoritmer-og-effektivitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Personvern og regelverk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'informasjonsteknologi-1', 'personvern-og-regelverk', 'Personvern og regelverk', 'Hva personopplysninger er, personvernforordningen (GDPR) og personopplysningsloven, prinsippene for behandling, den registrertes rettigheter, innebygd personvern – og hva regelverket betyr for deg som utvikler.', array[10]::int[], 8, 'sjekkes', array['Sjekk gjeldende regler for informasjonskapsler (ekomloven) og aldersgrensen for samtykke mot oppdaterte kilder.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:personvern-og-regelverk', '## Personvern
+
+**Personvern** handler om retten til et **privatliv** og til å bestemme over **opplysninger om seg selv**. En **personopplysning** er enhver opplysning som kan knyttes til en **person**: navn, adresse, fødselsnummer, bilde, IP-adresse, posisjon eller hvilke nettsider du besøker.
+
+**Særlige kategorier** – som helse, etnisk opprinnelse, religion, politisk syn, seksuell orientering, fagforeningsmedlemskap, genetikk og biometri – er ekstra **sensitive** og har strengere regler.
+
+## Regelverket
+
+EUs **personvernforordning (GDPR)** gjelder i Norge gjennom **personopplysningsloven** fra **2018**. Den gjelder alle som behandler personopplysninger om personer i EØS – også selskaper utenfor Europa.
+
+**Datatilsynet** fører tilsyn i Norge og kan gi **overtredelsesgebyr** på inntil 20 millioner euro eller 4 % av et selskaps globale omsetning.
+
+## Prinsippene
+
+Personopplysninger skal
+
+1. behandles **lovlig**, **rettferdig** og **åpent**
+2. samles inn for **bestemte formål** – ikke brukes til noe helt annet senere (**formålsbegrensning**)
+3. være **begrenset** til det som er nødvendig (**dataminimering**)
+4. være **korrekte**
+5. ikke **lagres** lenger enn nødvendig
+6. **sikres** mot uvedkommende, tap og endring
+
+Den som behandler opplysningene, må kunne **vise** at reglene følges.
+
+## Behandlingsgrunnlag
+
+Enhver behandling må ha et **lovlig grunnlag**, for eksempel
+
+- **samtykke** – frivillig, informert og aktivt; forhåndsavkryssede bokser er ikke gyldig samtykke
+- en **avtale**, som når en nettbutikk trenger adressen din for å sende varen
+- en **rettslig plikt**, som regnskapsregler
+- **berettiget interesse**, vurdert opp mot personvernet
+
+I Norge kan barn fra **13 år** selv samtykke til bruk av sosiale medier og lignende tjenester.
+
+## Dine rettigheter
+
+- **Informasjon** om hva som samles inn og hvorfor
+- **Innsyn** i opplysningene om deg
+- **Retting** av feil
+- **Sletting** – «retten til å bli glemt»
+- **Dataportabilitet** – å ta med dataene dine til en annen tjeneste
+- **Protestere** mot visse typer behandling, for eksempel direkte markedsføring
+
+## Konsekvenser for utvikling
+
+For deg som lager nettsider og apper betyr regelverket blant annet:
+
+- **Innebygd personvern** (privacy by design): Tenk personvern fra **start**, ikke som et tillegg.
+- **Personvern som standard**: Standardinnstillingene skal være de mest personvernvennlige.
+- Samle inn **minst mulig** – spør: Trenger vi virkelig fødselsdatoen?
+- **Sikre** data med kryptering, tilgangsstyring og gode passordrutiner.
+- Skriv en tydelig **personvernerklæring**.
+- **Avvik**, som datalekkasjer, må som hovedregel meldes til Datatilsynet innen **72 timer**.
+- Ved høy risiko må det gjøres en **personvernkonsekvensvurdering (DPIA)**.
+
+## Informasjonskapsler
+
+**Informasjonskapsler** (cookies) er små filer som lagres i nettleseren, blant annet for innlogging, statistikk og annonser. Informasjonskapsler som ikke er nødvendige for at tjenesten skal virke, krever **samtykke**.', '{"label":"Personvern og regelverk","children":[{"label":"Begreper","children":[{"label":"Personopplysning"},{"label":"Særlige kategorier"}]},{"label":"Regelverk","children":[{"label":"GDPR"},{"label":"Personopplysningsloven"},{"label":"Datatilsynet"}]},{"label":"Prinsipper","children":[{"label":"Formålsbegrensning"},{"label":"Dataminimering"},{"label":"Sikkerhet"}]},{"label":"Rettigheter","children":[{"label":"Innsyn og retting"},{"label":"Sletting"},{"label":"Dataportabilitet"}]},{"label":"For utviklere","children":[{"label":"Innebygd personvern"},{"label":"Samtykke og cookies"},{"label":"Avvik innen 72 timer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:personvern-og-regelverk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Personvern', 'Retten til privatliv og til å bestemme over opplysninger om seg selv.', 0),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Personopplysning', 'Opplysning som kan knyttes til en person.', 1),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Særlige kategorier', 'Helse, etnisitet, religion, politisk syn, seksuell orientering, biometri m.m.', 2),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'GDPR', 'EUs personvernforordning, i Norge via personopplysningsloven fra 2018.', 3),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Datatilsynet', 'Fører tilsyn med personvern i Norge.', 4),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Formålsbegrensning', 'Opplysninger skal bare brukes til formålet de ble samlet inn for.', 5),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Dataminimering', 'Samle inn bare det som er nødvendig.', 6),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Behandlingsgrunnlag', 'Lovlig grunnlag, som samtykke eller avtale.', 7),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Gyldig samtykke', 'Frivillig, informert og aktivt.', 8),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Aldersgrense for eget samtykke', '13 år for sosiale medier og lignende tjenester i Norge.', 9),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Retten til å bli glemt', 'Retten til sletting av opplysninger.', 10),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Dataportabilitet', 'Retten til å ta med dataene sine til en annen tjeneste.', 11),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Innebygd personvern', 'Personvern tenkes inn fra starten av utviklingen.', 12),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'Frist for å melde avvik', 'Som hovedregel 72 timer til Datatilsynet.', 13),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'DPIA', 'Personvernkonsekvensvurdering ved høy risiko.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:personvern-og-regelverk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q01', 'flervalg', 'Hva er en personopplysning?', array['Bare navn og adresse', 'Enhver opplysning som kan knyttes til en person', 'Bare sensitive opplysninger', 'Bare opplysninger på papir']::text[], 1, 'Også IP-adresse og posisjon.', true, true, 0),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q02', 'flervalg', 'Hvem fører tilsyn med personvern i Norge?', array['Datatilsynet', 'Digitaliseringsdirektoratet', 'Politiet', 'Forbrukerrådet']::text[], 0, 'Det kan ilegge overtredelsesgebyr.', true, true, 1),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q03', 'flervalg', 'Hva betyr dataminimering?', array['Å komprimere data', 'Å slette alle data', 'Å samle inn bare det som er nødvendig', 'Å lagre data i minst mulig filer']::text[], 2, 'Et av grunnprinsippene.', true, true, 2),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q04', 'flervalg', 'Hvilket samtykke er gyldig?', array['En forhåndsavkrysset boks', 'Taushet', 'At brukeren fortsetter å bruke siden', 'Et frivillig, informert og aktivt ja']::text[], 3, 'Brukeren må selv ta et aktivt valg.', true, true, 3),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q05', 'flervalg', 'Hva er innebygd personvern?', array['At personvern tenkes inn fra starten av utviklingen', 'At personvern legges til til slutt', 'At data lagres i skyen', 'At alle data krypteres uansett']::text[], 0, 'Privacy by design.', true, true, 4),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q06', 'flervalg', 'Hvor raskt må en datalekkasje som hovedregel meldes til Datatilsynet?', array['Innen ett år', 'Innen 72 timer', 'Innen 30 dager', 'Det trengs ikke']::text[], 1, 'Avvik skal meldes raskt.', true, true, 5),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q07', 'flervalg', 'Fra hvilken alder kan barn i Norge selv samtykke til sosiale medier og lignende tjenester?', array['10 år', '16 år', '13 år', '18 år']::text[], 2, 'Norge har valgt 13 år.', true, true, 6),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q08', 'flervalg', 'Hvilken opplysning hører til de særlige kategoriene?', array['Favorittfarge', 'Skostørrelse', 'Hvilken skole du går på', 'Helseopplysninger']::text[], 3, 'Ekstra sensitive opplysninger.', true, true, 7),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q09', 'flervalg', 'Hva er dataportabilitet?', array['Retten til å ta med dataene sine til en annen tjeneste', 'Retten til å slette data', 'At data kan flyttes mellom datamaskiner', 'At data er krypterte']::text[], 0, 'En av den registrertes rettigheter.', true, false, 8),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'q10', 'flervalg', 'Når gjelder GDPR for et selskap utenfor Europa?', array['Aldri', 'Når det behandler personopplysninger om personer i EØS', 'Bare hvis det har kontor i Norge', 'Bare for amerikanske selskaper']::text[], 1, 'Regelverket følger personene.', true, false, 9),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm01', 'sant-usant', 'En IP-adresse kan være en personopplysning.', array['Sant', 'Usant']::text[], 0, 'Den kan knyttes til en person.', false, true, 10),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm02', 'sant-usant', 'Opplysninger kan lagres så lenge man vil, bare de er sikret.', array['Sant', 'Usant']::text[], 1, 'De skal ikke lagres lenger enn nødvendig.', false, true, 11),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm03', 'sant-usant', 'Standardinnstillingene i en app bør være de mest personvernvennlige.', array['Sant', 'Usant']::text[], 0, 'Personvern som standard.', false, true, 12),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm04', 'sant-usant', 'Alle informasjonskapsler kan brukes uten samtykke.', array['Sant', 'Usant']::text[], 1, 'Ikke-nødvendige informasjonskapsler krever samtykke.', false, true, 13),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm05', 'flervalg', 'Hva er det høyeste overtredelsesgebyret etter GDPR?', array['10 000 kr', '20 millioner euro eller 4 % av global omsetning', '1 million kroner', 'Det finnes ingen gebyrer']::text[], 1, 'Det største av de to beløpene.', false, true, 14),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm06', 'flervalg', 'Hvilket behandlingsgrunnlag bruker en nettbutikk for å lagre adressen din når du bestiller?', array['Avtale', 'Samtykke til markedsføring', 'Berettiget interesse alene', 'Ingen grunnlag trengs']::text[], 0, 'Adressen trengs for å oppfylle kjøpet.', false, true, 15),
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'm07', 'flervalg', 'Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?', array['Er feltet pent?', 'Hvor mange felt har konkurrentene?', 'Trenger vi virkelig denne opplysningen?', 'Kan vi selge opplysningen?']::text[], 2, 'Dataminimering.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:personvern-og-regelverk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Innhenting, bruk og misbruk av data
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'informasjonsteknologi-1', 'innhenting-og-misbruk-av-data', 'Innhenting, bruk og misbruk av data', 'Hvordan data om oss samles inn gjennom apper, nettsider og sensorer, hvordan de brukes til profilering og beslutninger, eksempler på misbruk og lekkasjer, og hvordan du drøfter fordeler og ulemper.', array[11]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', '## Data samles inn overalt
+
+Hver gang du bruker en app eller nettside, kan det samles inn **data** om deg:
+
+- **Det du oppgir selv**: navn, e-post, innlegg, bilder.
+- **Det som registreres**: klikk, søk, hvor lenge du ser på noe, kjøp.
+- **Teknisk informasjon**: IP-adresse, enhet, nettleser.
+- **Sensordata**: posisjon, bevegelse, puls fra smartklokker.
+- **Sporing** på tvers av nettsider med informasjonskapsler og **sporingspiksler**.
+
+**Datameglere** kjøper, samler og selger slike opplysninger videre. Store mengder data kalles gjerne **stordata** (big data).
+
+## Hvordan data brukes
+
+**Nyttig bruk**:
+
+- **Helseforskning**: Store helseregistre gir ny kunnskap om sykdommer.
+- **Trafikk og byplanlegging**: Posisjonsdata viser hvor det er kø.
+- **Bedre tjenester**: Tilpassede anbefalinger, svindelvarsling i banker.
+
+**Kommersiell bruk**:
+
+- **Profilering**: Algoritmer lager en **profil** av deg – interesser, økonomi, helse, politisk ståsted – ut fra dataene.
+- **Målrettet reklame**: Annonser vises til dem som mest sannsynlig reagerer.
+- **Automatiserte beslutninger**: Data brukes til å vurdere lån, forsikring eller jobbsøknader.
+
+## Misbruk og risiko
+
+- **Manipulasjon**: I **Cambridge Analytica-saken** (avslørt i 2018) ble data fra opptil 87 millioner Facebook-brukere hentet ut uten deres viten og brukt til politisk målretting.
+- **Diskriminering**: Algoritmer kan forsterke **skjevheter** i dataene, for eksempel slik at noen grupper får dårligere lånevilkår eller sjeldnere blir kalt inn til intervju.
+- **Overvåking**: Både selskaper og stater kan kartlegge hvem vi er, hvor vi er og hvem vi snakker med. Det kan gi en **nedkjølingseffekt** – at folk ikke tør å ytre seg fritt.
+- **Datalekkasjer**: Dårlig sikrede systemer kan lekke passord, helseopplysninger eller betalingsdata. Det kan føre til **identitetstyveri** og **svindel**.
+- **Dataene lever lenge**: Det som publiseres eller lagres i dag, kan brukes på helt andre måter om mange år.
+
+## Anonymisering
+
+**Anonymiserte** data kan ikke knyttes til en person. **Pseudonymiserte** data har fått navn byttet ut med en kode, men kan fortsatt kobles tilbake. Selv «anonyme» data kan noen ganger **identifiseres** igjen ved å kombinere flere kilder – for eksempel postnummer, fødselsdato og kjønn.
+
+## Hva kan vi gjøre?
+
+**Som bruker**: Les tillatelser før du installerer apper, avslå unødvendige informasjonskapsler, bruk sterke passord og tofaktorautentisering, og tenk før du deler.
+
+**Som utvikler**: Samle inn minst mulig, sikre dataene, vær åpen om bruken og vurder om løsningen kan **misbrukes**.
+
+**Som samfunn**: Lover som **personopplysningsloven**, tilsyn fra **Datatilsynet** og debatt om hvor grensene skal gå.
+
+## Drøfte en problemstilling
+
+Eksempel: «Bør skolen bruke data om elevenes aktivitet i læringsplattformen til å forutsi hvem som står i fare for å stryke?» Vurder **nytten** (tidlig hjelp), **risikoen** (feilvurderinger, stempling, overvåking), **hvem** som har tilgang, og om det finnes **mindre inngripende** alternativer.', '{"label":"Data – bruk og misbruk","children":[{"label":"Innsamling","children":[{"label":"Det du oppgir"},{"label":"Sporing og sensorer"},{"label":"Datameglere"}]},{"label":"Bruk","children":[{"label":"Helseforskning"},{"label":"Profilering og reklame"},{"label":"Automatiserte beslutninger"}]},{"label":"Misbruk","children":[{"label":"Cambridge Analytica"},{"label":"Diskriminering"},{"label":"Overvåking"},{"label":"Lekkasjer"}]},{"label":"Anonymitet","children":[{"label":"Anonymisert"},{"label":"Pseudonymisert"},{"label":"Reidentifisering"}]},{"label":"Tiltak","children":[{"label":"Bruker"},{"label":"Utvikler"},{"label":"Samfunn og lov"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:innhenting-og-misbruk-av-data';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Sporingspiksel', 'Usynlig element som registrerer at du har åpnet en side eller e-post.', 0),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Datamegler', 'Selskap som kjøper, samler og selger opplysninger om personer.', 1),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Stordata', 'Svært store datamengder som analyseres for mønstre.', 2),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Profilering', 'Algoritmer lager en profil av en person ut fra data.', 3),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Målrettet reklame', 'Annonser vises til utvalgte brukere ut fra profilen deres.', 4),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Automatisert beslutning', 'En avgjørelse som tas av en algoritme, for eksempel om lån.', 5),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Cambridge Analytica', 'Sak fra 2018 der Facebook-data ble brukt til politisk målretting.', 6),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Algoritmisk skjevhet', 'Algoritmer forsterker skjevheter i dataene.', 7),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Nedkjølingseffekt', 'Folk ytrer seg mindre fritt fordi de føler seg overvåket.', 8),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Datalekkasje', 'Når data kommer på avveie.', 9),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Identitetstyveri', 'Noen utgir seg for å være deg ved hjelp av dine opplysninger.', 10),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Anonymiserte data', 'Kan ikke knyttes til en person.', 11),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Pseudonymiserte data', 'Navn byttet ut med kode, men kan kobles tilbake.', 12),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'Reidentifisering', 'Å finne igjen personer i «anonyme» data ved å kombinere kilder.', 13),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'App-tillatelser', 'Tilgang appen ber om, som posisjon og kamera.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:innhenting-og-misbruk-av-data';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q01', 'flervalg', 'Hva er profilering?', array['Å lage en profil på sosiale medier', 'At algoritmer lager en profil av en person ut fra data', 'Å velge profilbilde', 'Å slette data']::text[], 1, 'Brukes blant annet til målrettet reklame.', true, true, 0),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q02', 'flervalg', 'Hva handlet Cambridge Analytica-saken om?', array['Data fra millioner av Facebook-brukere brukt til politisk målretting uten deres viten', 'En ny app for studenter', 'Et virus i en bank', 'En konkurranse i programmering']::text[], 0, 'Avslørt i 2018.', true, true, 1),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q03', 'flervalg', 'Hva er forskjellen på anonymiserte og pseudonymiserte data?', array['Det er det samme', 'Pseudonymiserte data er slettet', 'Anonymiserte data kan ikke knyttes til en person, pseudonymiserte kan kobles tilbake', 'Anonymiserte data inneholder navn']::text[], 2, 'Pseudonymisering bytter navn med kode.', true, true, 2),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q04', 'flervalg', 'Hvordan kan algoritmer føre til diskriminering?', array['De er alltid rettferdige', 'De bruker ikke data', 'De velger tilfeldig', 'De kan forsterke skjevheter i dataene de er trent på']::text[], 3, 'Historiske skjevheter videreføres.', true, true, 3),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q05', 'flervalg', 'Hva er en nedkjølingseffekt?', array['At folk ytrer seg mindre fritt fordi de føler seg overvåket', 'At datamaskiner blir kalde', 'At salget går ned', 'At data slettes']::text[], 0, 'Et demokratisk problem.', true, true, 4),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q06', 'flervalg', 'Hvilket er et eksempel på nyttig bruk av store datamengder?', array['Identitetstyveri', 'Helseforskning basert på helseregistre', 'Manipulasjon av velgere', 'Salg av passord']::text[], 1, 'Gir ny kunnskap om sykdommer.', true, true, 5),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q07', 'flervalg', 'Hvorfor kan «anonyme» data noen ganger knyttes til personer igjen?', array['Fordi de er krypterte', 'Fordi de er slettet', 'Fordi flere opplysninger kombinert kan peke ut én person', 'Det kan aldri skje']::text[], 2, 'For eksempel postnummer, fødselsdato og kjønn.', true, true, 6),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q08', 'flervalg', 'Hva gjør en datamegler?', array['Reparerer datamaskiner', 'Selger programvare', 'Lager nettsider', 'Kjøper, samler og selger opplysninger om personer']::text[], 3, 'Ofte uten at personene vet det.', true, true, 7),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q09', 'flervalg', 'Hva kan du gjøre som bruker for å begrense datainnsamlingen?', array['Avslå unødvendige informasjonskapsler og sjekke app-tillatelser', 'Dele mer på sosiale medier', 'Bruke samme passord overalt', 'Godta alt raskt']::text[], 0, 'Tenk før du deler.', true, false, 8),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'q10', 'flervalg', 'Hva bør du vurdere når du drøfter om skolen skal forutsi hvem som kan stryke?', array['Bare hvor billig det er', 'Nytte, risiko, tilgang og mindre inngripende alternativer', 'Bare hva teknologien kan', 'Bare hva lærerne mener']::text[], 1, 'Flere perspektiver må veies.', true, false, 9),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm01', 'sant-usant', 'Data som lagres i dag, kan brukes på andre måter i framtiden.', array['Sant', 'Usant']::text[], 0, 'Derfor bør man samle inn minst mulig.', false, true, 10),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm02', 'sant-usant', 'Pseudonymiserte data kan aldri kobles tilbake til personer.', array['Sant', 'Usant']::text[], 1, 'Koden kan kobles tilbake til personen.', false, true, 11),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm03', 'sant-usant', 'En datalekkasje kan føre til identitetstyveri.', array['Sant', 'Usant']::text[], 0, 'Opplysningene kan misbrukes av kriminelle.', false, true, 12),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm04', 'sant-usant', 'Datainnsamling har bare negative sider.', array['Sant', 'Usant']::text[], 1, 'Data brukes også til forskning og bedre tjenester.', false, true, 13),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm05', 'flervalg', 'Hvilken type data er puls fra en smartklokke?', array['Data du oppgir selv', 'Sensordata', 'Teknisk informasjon om nettleseren', 'Offentlige data']::text[], 1, 'Registreres automatisk av en sensor.', false, true, 14),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm06', 'flervalg', 'Hva bør en utvikler gjøre for å hindre misbruk av data?', array['Samle inn minst mulig og sikre dataene', 'Selge dataene', 'Lagre alt for sikkerhets skyld', 'Skjule hva som samles inn']::text[], 0, 'Dataminimering og sikkerhet.', false, true, 15),
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 'm07', 'flervalg', 'Hva er en sporingspiksel?', array['En type skjerm', 'En pikselfeil', 'Et usynlig element som registrerer at du har åpnet en side eller e-post', 'En lagringsenhet']::text[], 2, 'Brukes til sporing og statistikk.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:innhenting-og-misbruk-av-data', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Informasjonsteknologi 1: Algoritmisk tenkning og problemløsning
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'informasjonsteknologi-1', 'algoritmisk-problemlosning', 'Algoritmisk tenkning og problemløsning', 'Hvordan du bruker algoritmisk tenkning – dekomponering, mønstergjenkjenning, abstraksjon og algoritmedesign – og programmering til å utforske en problemstilling, fra plan og testing til presentasjon av resultatet.', array[12]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', '## Algoritmisk tenkning
+
+**Algoritmisk tenkning** er en måte å angripe problemer på som gjør dem mulige å løse med en datamaskin. Den har fire deler:
+
+1. **Dekomponering**: Del problemet i **mindre delproblemer**.
+2. **Mønstergjenkjenning**: Se etter **likheter** – med andre problemer eller innad i problemet.
+3. **Abstraksjon**: Fjern detaljer som **ikke** er viktige, og behold det som betyr noe.
+4. **Algoritmedesign**: Lag en **steg-for-steg**-oppskrift for løsningen.
+
+## Et eksempel: bursdagsparadokset
+
+**Problemstilling**: Hvor mange personer må være i et rom for at det skal være **over 50 %** sjanse for at minst to har bursdag på samme dag?
+
+**Dekomponering**:
+
+- Regn ut sannsynligheten for at **alle** har ulik bursdag for n personer.
+- Sannsynligheten for minst én felles bursdag er 1 minus dette.
+- Prøv n = 1, 2, 3 … til sannsynligheten passerer 50 %.
+
+**Abstraksjon**: Vi ser bort fra skuddår og antar at alle dager er like sannsynlige.
+
+**Program**:
+
+```
+def sannsynlighet_felles(n):
+    p_ulik = 1
+    for i in range(n):
+        p_ulik *= (365 - i) / 365
+    return 1 - p_ulik
+
+n = 1
+while sannsynlighet_felles(n) < 0.5:
+    n += 1
+print(n)   # 23
+```
+
+**Resultat**: Allerede med **23 personer** er sjansen over 50 %. De fleste gjetter mye høyere – derfor kalles det et «paradoks».
+
+Du kan også **simulere**: Trekk tilfeldige bursdager tusenvis av ganger med random.randint(1, 365) og tell hvor ofte to er like. Stemmer simuleringen med beregningen, styrker det tilliten til begge.
+
+## Arbeidsprosessen
+
+1. **Problemstilling**: Formuler et tydelig spørsmål som kan besvares med programmering og data.
+2. **Plan**: Skriv **pseudokode** eller tegn et **flytdiagram**. Hvilke data trengs, og hvor kommer de fra?
+3. **Programmering**: Bygg løsningen **steg for steg** med **funksjoner**, og test hver del.
+4. **Testing**: Prøv med tilfeller der du **vet svaret**, og med grensetilfeller – for eksempel tom liste eller n = 0.
+5. **Analyse**: Hva viser resultatene? Hvor **sikre** er de, og hvilke **forenklinger** har du gjort?
+6. **Presentasjon**: Formidle resultatet slik at mottakeren forstår det.
+
+## Andre typer problemstillinger
+
+- **Dataanalyse**: Les inn en **CSV-fil** med temperaturmålinger, regn ut gjennomsnitt og ekstremverdier, og lag grafer med for eksempel matplotlib.
+- **Simulering**: Hvordan sprer en sykdom seg i en klasse? Hvor lang kø blir det i kantina?
+- **Optimering**: Hva er den korteste ruten mellom flere steder?
+
+## Presentere resultatet
+
+En god presentasjon har
+
+- en tydelig **problemstilling**
+- en kort forklaring av **metoden** og **algoritmen**
+- **resultater** med tabeller eller grafer
+- en **vurdering** av forenklinger, usikkerhet og feilkilder
+- et **svar** på problemstillingen
+
+Legg gjerne ved **koden** med gode kommentarer, slik at andre kan etterprøve arbeidet.', '{"label":"Algoritmisk problemløsning","children":[{"label":"Algoritmisk tenkning","children":[{"label":"Dekomponering"},{"label":"Mønstre"},{"label":"Abstraksjon"},{"label":"Algoritmedesign"}]},{"label":"Eksempel","children":[{"label":"Bursdagsparadokset"},{"label":"Beregning og simulering"}]},{"label":"Prosess","children":[{"label":"Problemstilling og plan"},{"label":"Programmering"},{"label":"Testing"}]},{"label":"Problemtyper","children":[{"label":"Dataanalyse"},{"label":"Simulering"},{"label":"Optimering"}]},{"label":"Presentasjon","children":[{"label":"Resultater og grafer"},{"label":"Vurdering"},{"label":"Kode med kommentarer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'informasjonsteknologi-1:algoritmisk-problemlosning';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Algoritmisk tenkning', 'Metode for å løse problemer slik at de kan løses med datamaskin.', 0),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Dekomponering', 'Å dele problemet i mindre delproblemer.', 1),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Mønstergjenkjenning', 'Å se etter likheter med andre problemer.', 2),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Abstraksjon', 'Å fjerne uviktige detaljer.', 3),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Algoritmedesign', 'Å lage en steg-for-steg-oppskrift.', 4),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Bursdagsparadokset', 'Med 23 personer er det over 50 % sjanse for felles bursdag.', 5),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Simulering', 'Å gjenta et tilfeldig forsøk mange ganger med datamaskin.', 6),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'random.randint(1, 365)', 'Gir en tilfeldig dag i året i Python.', 7),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Pseudokode', 'Plan for programmet i forenklet språk.', 8),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Flytdiagram', 'Tegning av algoritmens steg og valg.', 9),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Grensetilfelle', 'Spesiell inndata, som tom liste eller null.', 10),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Teste med kjent svar', 'Sjekker at programmet regner riktig.', 11),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'matplotlib', 'Python-bibliotek for grafer.', 12),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Forenkling', 'Antakelse som gjør problemet lettere, men påvirker svaret.', 13),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'Etterprøvbarhet', 'At andre kan kontrollere arbeidet, for eksempel via koden.', 14);
+delete from public.quiz_sporsmal where tema_id = 'informasjonsteknologi-1:algoritmisk-problemlosning';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q01', 'flervalg', 'Hva er dekomponering?', array['Å slette koden', 'Å dele problemet i mindre delproblemer', 'Å fjerne detaljer', 'Å teste programmet']::text[], 1, 'Første del av algoritmisk tenkning.', true, true, 0),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q02', 'flervalg', 'Hva er abstraksjon?', array['Å fjerne detaljer som ikke er viktige', 'Å skrive lang kode', 'Å tegne bilder', 'Å bruke mange variabler']::text[], 0, 'For eksempel å se bort fra skuddår.', true, true, 1),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q03', 'flervalg', 'Hvor mange personer trengs for over 50 % sjanse for felles bursdag?', array['183', '50', '23', '365']::text[], 2, 'Bursdagsparadokset.', true, true, 2),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q04', 'flervalg', 'Hvorfor tester vi programmet med tilfeller der vi vet svaret?', array['For å gjøre det raskere', 'For å få flere linjer kode', 'For å slippe å skrive kommentarer', 'For å sjekke at programmet regner riktig']::text[], 3, 'Da kan feil oppdages.', true, true, 3),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q05', 'flervalg', 'Hva er et grensetilfelle?', array['Spesiell inndata, som en tom liste', 'Den vanligste inndataen', 'En type løkke', 'En kommentar']::text[], 0, 'Mange feil viser seg der.', true, true, 4),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q06', 'flervalg', 'Hvordan kan du kontrollere resultatet i bursdagsproblemet på en annen måte?', array['Gjette', 'Simulere med tilfeldige bursdager mange ganger', 'Spørre en venn', 'Slette koden']::text[], 1, 'Stemmer simuleringen, styrkes tilliten.', true, true, 5),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q07', 'flervalg', 'Hvilken forenkling gjøres i bursdagsproblemet?', array['At alle er født samme år', 'At det er 100 dager i året', 'At alle dager er like sannsynlige og at skuddår ignoreres', 'At bare to personer er med']::text[], 2, 'En abstraksjon av virkeligheten.', true, true, 6),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q08', 'flervalg', 'Hva bør være med når du presenterer resultatet av et programmeringsprosjekt?', array['Bare koden', 'Bare svaret', 'Bare grafer', 'Problemstilling, metode, resultater, vurdering og svar']::text[], 3, 'Mottakeren må forstå hele arbeidet.', true, true, 7),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q09', 'flervalg', 'Hva er mønstergjenkjenning?', array['Å se etter likheter med andre problemer', 'Å tegne mønstre', 'Å kopiere kode', 'Å velge farger']::text[], 0, 'Kjente løsninger kan gjenbrukes.', true, false, 8),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'q10', 'flervalg', 'Hva gjør løkken while sannsynlighet_felles(n) < 0.5?', array['Stopper med en gang', 'Øker n til sannsynligheten er minst 50 %', 'Regner ut gjennomsnittet', 'Sorterer bursdagene']::text[], 1, 'Den finner den minste n.', true, false, 9),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm01', 'sant-usant', 'Forenklinger i en modell kan påvirke svaret.', array['Sant', 'Usant']::text[], 0, 'De må derfor vurderes i analysen.', false, true, 10),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm02', 'sant-usant', 'Det er best å skrive hele programmet ferdig før du tester noe.', array['Sant', 'Usant']::text[], 1, 'Test hver del underveis.', false, true, 11),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm03', 'sant-usant', 'Pseudokode kan hjelpe deg å planlegge programmet.', array['Sant', 'Usant']::text[], 0, 'Du tenker gjennom stegene før du koder.', false, true, 12),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm04', 'sant-usant', 'En simulering gir alltid nøyaktig samme svar som en eksakt beregning.', array['Sant', 'Usant']::text[], 1, 'Den gir et tilnærmet svar som varierer litt.', false, true, 13),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm05', 'flervalg', 'Hvilken type problem er «Hvor lang kø blir det i kantina?»', array['Sortering', 'Simulering', 'Kryptering', 'Søk']::text[], 1, 'Tilfeldige ankomster kan simuleres.', false, true, 14),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm06', 'flervalg', 'Hvilket Python-bibliotek brukes ofte til å lage grafer?', array['matplotlib', 'random', 'time', 'math']::text[], 0, 'For å presentere resultatene.', false, true, 15),
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 'm07', 'flervalg', 'Hvorfor bør koden legges ved presentasjonen?', array['For at den skal se lang ut', 'Fordi det er påbudt', 'For at andre kan etterprøve arbeidet', 'For å skjule resultatene']::text[], 2, 'Etterprøvbarhet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('informasjonsteknologi-1:algoritmisk-problemlosning', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1 (vg2): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'teknologi-og-forskningslare-1' and slug not in ('kravspesifikasjon-og-arbeidstegninger', 'mikrokontrollere', 'sensorer-og-signaler', 'produkt-som-samler-data', 'dataanalyse-og-usikkerhet', 'kvantitativ-metode', 'teknologihistorie-mobiltelefonen', 'teknologi-og-etikk', 'virksomhet-og-barekraft');
+
+-- Teknologi og forskningslære 1: Kravspesifikasjon, arbeidstegninger og produktutvikling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'teknologi-og-forskningslare-1', 'kravspesifikasjon-og-arbeidstegninger', 'Kravspesifikasjon, arbeidstegninger og produktutvikling', 'Hvordan du utvikler et funksjonelt produkt med en tydelig kravspesifikasjon, lager arbeidstegninger med projeksjoner, mål og målestokk, bygger prototyper og tester produktet mot kravene.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', '## Produktutvikling som prosess
+
+Å utvikle et produkt skjer sjelden i én rett linje. Vanligvis går man gjennom **faser** som gjentas:
+
+1. **Behov og problem**: Hvilket problem skal produktet løse, og for hvem?
+2. **Kravspesifikasjon**: Hva må produktet kunne?
+3. **Idéutvikling**: Skisser flere løsninger og velg den beste.
+4. **Arbeidstegninger** og planlegging.
+5. **Prototype**: en første, ofte enkel versjon.
+6. **Testing** mot kravene.
+7. **Forbedring** – og ny test.
+
+Denne **iterative** arbeidsmåten gjør at feil oppdages tidlig, mens de er billige å rette.
+
+## Kravspesifikasjon
+
+En **kravspesifikasjon** beskriver hva produktet **skal** gjøre og hvilke **begrensninger** det har. Gode krav er **konkrete** og **målbare**:
+
+- **Dårlig**: «Lampen skal være lys.»
+- **Bedre**: «Lampen skal gi minst 300 lux på en pult 50 cm under lampen.»
+
+Kravene deles ofte i
+
+- **funksjonelle krav** – hva produktet gjør: «Viften skal starte automatisk når temperaturen er over 25 °C.»
+- **ikke-funksjonelle krav** – egenskaper som størrelse, vekt, pris, sikkerhet, levetid og brukervennlighet: «Produktet skal koste under 300 kr i materialer.»
+
+Man skiller gjerne mellom **må-krav** og **bør-krav**. Kravspesifikasjonen er grunnlaget for **testingen**: Hvert krav bør kunne sjekkes med en **test**.
+
+## Arbeidstegninger
+
+En **arbeidstegning** skal gjøre det mulig for andre å **lage** produktet nøyaktig. Den inneholder
+
+- **projeksjoner**: Produktet vises **forfra**, **ovenfra** og **fra siden**. I Norge og Europa plasseres riss etter **europeisk projeksjonsmetode**.
+- **Mål** i millimeter, satt med **målelinjer** og **hjelpelinjer**.
+- **Målestokk**, for eksempel 1 : 2 (tegningen er halvparten så stor som virkeligheten) eller 2 : 1 (dobbelt så stor).
+- **Tegningshode** med navn, dato, materiale og målestokk.
+- Eventuelle **snitt** som viser det indre av produktet.
+
+Tegninger lages i dag ofte i **DAK-programmer** (dataassistert konstruksjon), som Fusion 360, Onshape eller Tinkercad. Derfra kan delene sendes direkte til en **3D-printer** eller **laserkutter**.
+
+## Prototyper
+
+- **Skissemodeller** i papp eller skum tester form og størrelse.
+- **Funksjonsprototyper** tester om teknikken virker, gjerne med **koblingsbrett** og mikrokontroller.
+- **Ferdige prototyper** ligner det endelige produktet.
+
+## Testing
+
+Lag en **testplan** med ett eller flere tester for hvert krav. Registrer **resultatet**, og vurder om kravet er **oppfylt**. Tester som feiler, gir viktig informasjon om hva som må forbedres. Test også med **brukere** – de oppdager ofte problemer utviklerne ikke har tenkt på.
+
+## Dokumentasjon
+
+Før en **logg** gjennom prosjektet: valg du tok og hvorfor, problemer og løsninger, bilder, tegninger og testresultater. Det gjør arbeidet **etterprøvbart** og gjør det lettere å forbedre produktet senere.', '{"label":"Produktutvikling","children":[{"label":"Prosess","children":[{"label":"Behov"},{"label":"Idéer"},{"label":"Iterasjon"}]},{"label":"Kravspesifikasjon","children":[{"label":"Funksjonelle krav"},{"label":"Ikke-funksjonelle krav"},{"label":"Målbare krav"}]},{"label":"Arbeidstegninger","children":[{"label":"Projeksjoner"},{"label":"Mål og målestokk"},{"label":"DAK"}]},{"label":"Prototyper","children":[{"label":"Skissemodell"},{"label":"Funksjonsprototype"}]},{"label":"Testing","children":[{"label":"Testplan"},{"label":"Brukertest"},{"label":"Logg"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Iterativ utvikling', 'Faser som gjentas: prototype, test og forbedring.', 0),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Kravspesifikasjon', 'Beskriver hva produktet skal gjøre og hvilke begrensninger det har.', 1),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Målbart krav', 'Krav som kan sjekkes med en test, som «minst 300 lux».', 2),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Funksjonelt krav', 'Hva produktet gjør.', 3),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Ikke-funksjonelt krav', 'Egenskaper som pris, vekt, sikkerhet og levetid.', 4),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Må-krav og bør-krav', 'Krav som må oppfylles og krav som er ønskelige.', 5),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Arbeidstegning', 'Tegning som gjør det mulig å lage produktet nøyaktig.', 6),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Projeksjoner', 'Riss forfra, ovenfra og fra siden.', 7),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Europeisk projeksjonsmetode', 'Plassering av riss brukt i Norge og Europa.', 8),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Målestokk 1 : 2', 'Tegningen er halvparten så stor som virkeligheten.', 9),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Tegningshode', 'Felt med navn, dato, materiale og målestokk.', 10),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'DAK', 'Dataassistert konstruksjon.', 11),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Prototype', 'Tidlig versjon av produktet for testing.', 12),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Testplan', 'Oversikt over tester knyttet til hvert krav.', 13),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'Prosjektlogg', 'Dokumentasjon av valg, problemer og resultater.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q01', 'flervalg', 'Hva er en kravspesifikasjon?', array['En tegning av produktet', 'En beskrivelse av hva produktet skal gjøre og hvilke begrensninger det har', 'En brukermanual', 'En prisliste']::text[], 1, 'Grunnlaget for utvikling og testing.', true, true, 0),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q02', 'flervalg', 'Hvilket krav er best formulert?', array['Lampen skal gi minst 300 lux på en pult 50 cm under lampen', 'Lampen skal være lys', 'Lampen skal være fin', 'Lampen skal være god']::text[], 0, 'Det er konkret og målbart.', true, true, 1),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q03', 'flervalg', 'Hva betyr målestokk 2 : 1?', array['Tegningen er halvparten så stor', 'Tegningen er like stor', 'Tegningen er dobbelt så stor som virkeligheten', 'Tegningen har to riss']::text[], 2, 'Brukes for små deler.', true, true, 2),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q04', 'flervalg', 'Hvilke riss viser en arbeidstegning vanligvis?', array['Bare forfra', 'Et fotografi', 'Bare et 3D-bilde', 'Forfra, ovenfra og fra siden']::text[], 3, 'Projeksjoner.', true, true, 3),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q05', 'flervalg', 'Hvilket er et funksjonelt krav?', array['Viften skal starte automatisk over 25 °C', 'Produktet skal koste under 300 kr', 'Produktet skal veie under 1 kg', 'Produktet skal vare i fem år']::text[], 0, 'Det beskriver hva produktet gjør.', true, true, 4),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q06', 'flervalg', 'Hvorfor jobber man iterativt i produktutvikling?', array['For å bruke mer tid', 'For å oppdage feil tidlig mens de er billige å rette', 'Fordi det er påbudt', 'For å slippe testing']::text[], 1, 'Prototype, test og forbedring gjentas.', true, true, 5),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q07', 'flervalg', 'Hva er DAK?', array['En type mikrokontroller', 'En måleenhet', 'Dataassistert konstruksjon', 'En sensor']::text[], 2, 'Programmer som Fusion 360 og Tinkercad.', true, true, 6),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q08', 'flervalg', 'Hva bør en testplan inneholde?', array['Bare bilder av produktet', 'Bare prisen', 'Navnet på produktet', 'Tester knyttet til hvert krav, med resultat']::text[], 3, 'Viser om kravene er oppfylt.', true, true, 7),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q09', 'flervalg', 'Hvilken måleenhet brukes vanligvis på arbeidstegninger?', array['Millimeter', 'Meter', 'Tommer', 'Kilometer']::text[], 0, 'Standard i teknisk tegning.', true, false, 8),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'q10', 'flervalg', 'Hva er formålet med en funksjonsprototype?', array['Å vise fargene', 'Å teste om teknikken virker', 'Å selge produktet', 'Å lage tegningshodet']::text[], 1, 'Gjerne med koblingsbrett og mikrokontroller.', true, false, 9),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm01', 'sant-usant', 'Hvert krav i kravspesifikasjonen bør kunne sjekkes med en test.', array['Sant', 'Usant']::text[], 0, 'Ellers vet vi ikke om det er oppfylt.', false, true, 10),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm02', 'sant-usant', 'En test som feiler, er bortkastet.', array['Sant', 'Usant']::text[], 1, 'Den viser hva som må forbedres.', false, true, 11),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm03', 'sant-usant', 'Fra DAK-programmer kan deler sendes direkte til en 3D-printer.', array['Sant', 'Usant']::text[], 0, 'Det gjør prototyping raskere.', false, true, 12),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm04', 'sant-usant', 'Pris og vekt er funksjonelle krav.', array['Sant', 'Usant']::text[], 1, 'Det er ikke-funksjonelle krav.', false, true, 13),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm05', 'flervalg', 'En del er 40 mm lang i virkeligheten. Hvor lang er den på en tegning i målestokk 1 : 2?', array['80 mm', '20 mm', '40 mm', '2 mm']::text[], 1, 'Halvparten av virkeligheten.', false, true, 14),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm06', 'flervalg', 'Hva hører hjemme i tegningshodet?', array['Navn, dato, materiale og målestokk', 'Testresultatene', 'Programkoden', 'Kravspesifikasjonen']::text[], 0, 'Formell informasjon om tegningen.', false, true, 15),
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 'm07', 'flervalg', 'Hvorfor bør du føre prosjektlogg?', array['For å bruke opp tiden', 'Fordi læreren krever det', 'For at arbeidet blir etterprøvbart og lettere å forbedre', 'For å slippe tegninger']::text[], 2, 'Valg og resultater dokumenteres.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:kravspesifikasjon-og-arbeidstegninger', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Mikrokontrollere
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'teknologi-og-forskningslare-1', 'mikrokontrollere', 'Mikrokontrollere', 'Hva en mikrokontroller er, hvordan Arduino og micro:bit brukes med innganger og utganger, grunnleggende programmering med setup og loop, sikre koblinger – og hvordan du tester og forbedrer et produkt.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:mikrokontrollere', '## Hva er en mikrokontroller?
+
+En **mikrokontroller** er en liten datamaskin på én brikke, med **prosessor**, **minne** og **innganger og utganger** (I/O). Den er laget for å **styre** noe – en vaskemaskin, en bilnøkkel, en smartklokke eller en termostat. Det finnes milliarder av mikrokontrollere rundt oss.
+
+I skolen brukes ofte
+
+- **Arduino** – et kort med mikrokontroller, mange tilkoblingspinner og et stort utvalg av sensorer og tilleggskort. Arduino Uno har **14 digitale pinner** og **6 analoge innganger**.
+- **micro:bit** – et lite kort med innebygde knapper, 5 × 5 lysdioder, akselerometer, kompass, lyssensor, temperatursensor og radio.
+
+## Innganger og utganger
+
+- **Innganger** leser signaler fra omgivelsene: knapper, sensorer og brytere.
+- **Utganger** påvirker omgivelsene: lysdioder, summere, motorer, skjermer og releer.
+
+Mikrokontrolleren gjør altså **inndata → behandling → utdata**.
+
+## Programmering
+
+Et Arduino-program har to hoveddeler:
+
+```
+void setup() {
+  pinMode(13, OUTPUT);     // pinne 13 er en utgang
+}
+
+void loop() {
+  digitalWrite(13, HIGH);  // slå på lysdioden
+  delay(1000);             // vent ett sekund
+  digitalWrite(13, LOW);   // slå av
+  delay(1000);
+}
+```
+
+- **setup()** kjøres **én gang** ved oppstart.
+- **loop()** gjentas **igjen og igjen** så lenge kortet har strøm.
+
+micro:bit programmeres ofte med **blokker** i MakeCode eller med **Python**. Programmet lastes over via USB.
+
+## Et eksempel: automatisk nattlys
+
+1. En **lyssensor** måler lysnivået.
+2. Programmet sammenligner med en **terskelverdi**.
+3. Hvis det er mørkt, slås en **lysdiode** på.
+
+```
+int lys = analogRead(A0);
+if (lys < 300) {
+  digitalWrite(13, HIGH);
+} else {
+  digitalWrite(13, LOW);
+}
+```
+
+## Koble trygt
+
+- Bruk **koblingsbrett** (breadboard) for å teste uten lodding.
+- En **lysdiode** trenger en **formotstand** – ofte 220 Ω på 5 V – ellers kan den ødelegges.
+- Motorer trekker mye strøm og må styres via en **transistor** eller et **motorkort**, ikke direkte fra pinnen.
+- Koble fra strømmen når du endrer koblingen, og sjekk for **kortslutning**.
+
+## Teste og forbedre
+
+- Test **én del om gangen**: Virker sensoren? Virker utgangen? Virker programmet?
+- Bruk **seriell monitor** til å skrive ut verdier fra sensoren mens programmet kjører.
+- Sammenlign med **kravspesifikasjonen**.
+
+**Mulige utvidelser**:
+
+- Flere sensorer, for eksempel både temperatur og fuktighet.
+- **Trådløs** kommunikasjon (Bluetooth, Wi-Fi eller radio).
+- **Lagring** av data på minnekort.
+- **Skjerm** eller app for å vise resultater.
+- **Batteridrift** og lavere strømforbruk.
+- Et **kabinett** laget med 3D-printer eller laserkutter.
+
+Vurder utvidelsene opp mot **kostnad**, **kompleksitet** og hva brukeren faktisk **trenger**.', '{"label":"Mikrokontrollere","children":[{"label":"Kort","children":[{"label":"Arduino"},{"label":"micro:bit"}]},{"label":"I/O","children":[{"label":"Innganger"},{"label":"Utganger"},{"label":"Inndata–behandling–utdata"}]},{"label":"Programmering","children":[{"label":"setup og loop"},{"label":"digitalWrite og analogRead"},{"label":"Terskelverdi"}]},{"label":"Kobling","children":[{"label":"Koblingsbrett"},{"label":"Formotstand"},{"label":"Transistor"}]},{"label":"Forbedring","children":[{"label":"Testing"},{"label":"Seriell monitor"},{"label":"Utvidelser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:mikrokontrollere';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Mikrokontroller', 'Liten datamaskin på én brikke som styrer noe.', 0),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Arduino Uno', 'Kort med 14 digitale pinner og 6 analoge innganger.', 1),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'micro:bit', 'Kort med innebygde knapper, lysdioder og sensorer.', 2),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Inngang', 'Leser signaler, for eksempel fra en sensor.', 3),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Utgang', 'Påvirker omgivelsene, for eksempel en lysdiode eller motor.', 4),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'setup()', 'Kjøres én gang ved oppstart.', 5),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'loop()', 'Gjentas så lenge kortet har strøm.', 6),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'pinMode', 'Bestemmer om en pinne er inngang eller utgang.', 7),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'digitalWrite', 'Setter en digital utgang HIGH eller LOW.', 8),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'analogRead', 'Leser en analog inngang.', 9),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Terskelverdi', 'Grense programmet sammenligner målingen med.', 10),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Koblingsbrett', 'Brett for å koble kretser uten lodding.', 11),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Formotstand', 'Motstand som beskytter en lysdiode.', 12),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Transistor', 'Brukes til å styre større strømmer, som motorer.', 13),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'Seriell monitor', 'Viser verdier fra mikrokontrolleren på datamaskinen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:mikrokontrollere';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q01', 'flervalg', 'Hva er en mikrokontroller?', array['En stor server', 'En liten datamaskin på én brikke som styrer noe', 'En type sensor', 'En skjerm']::text[], 1, 'Den har prosessor, minne og I/O.', true, true, 0),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q02', 'flervalg', 'Hvor mange ganger kjøres setup() i et Arduino-program?', array['Én gang ved oppstart', 'Hvert sekund', 'Aldri', 'Så lenge kortet har strøm']::text[], 0, 'loop() gjentas.', true, true, 1),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q03', 'flervalg', 'Hvorfor trenger en lysdiode en formotstand?', array['For å lyse sterkere', 'For å skifte farge', 'For å begrense strømmen så den ikke ødelegges', 'For å måle lys']::text[], 2, 'Ofte 220 Ω på 5 V.', true, true, 2),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q04', 'flervalg', 'Hvilken er en utgang?', array['Knapp', 'Lyssensor', 'Temperatursensor', 'Motor']::text[], 3, 'Den påvirker omgivelsene.', true, true, 3),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q05', 'flervalg', 'Hva gjør nattlys-programmet når analogRead(A0) gir under 300?', array['Slår på lysdioden', 'Slår av lysdioden', 'Stopper programmet', 'Måler temperatur']::text[], 0, 'Det er mørkt.', true, true, 4),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q06', 'flervalg', 'Hvorfor bør en motor ikke kobles direkte til en pinne på mikrokontrolleren?', array['Den går for sakte', 'Den trekker mer strøm enn pinnen tåler', 'Den har ingen ledninger', 'Det gir feil farge']::text[], 1, 'Bruk transistor eller motorkort.', true, true, 5),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q07', 'flervalg', 'Hva brukes seriell monitor til?', array['Å lade kortet', 'Å lodde komponenter', 'Å vise verdier fra mikrokontrolleren mens programmet kjører', 'Å tegne kretser']::text[], 2, 'Nyttig ved feilsøking.', true, true, 6),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q08', 'flervalg', 'Hva er en fornuftig måte å feilsøke et produkt på?', array['Bytte alle komponentene samtidig', 'Skrive hele programmet på nytt', 'Aldri teste', 'Teste én del om gangen']::text[], 3, 'Da finner du feilen raskere.', true, true, 7),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q09', 'flervalg', 'Hvilken sensor er innebygd i micro:bit?', array['Akselerometer', 'Ultralydsensor', 'Fuktighetssensor', 'Gassensor']::text[], 0, 'Også kompass, lys og temperatur.', true, false, 8),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'q10', 'flervalg', 'Hva bør du vurdere før du legger til en utvidelse?', array['Bare hvor kult det er', 'Kostnad, kompleksitet og brukerens behov', 'Bare fargen', 'Ingenting']::text[], 1, 'Ikke alle utvidelser gir verdi.', true, false, 9),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm01', 'sant-usant', 'Mikrokontrollere finnes i mange hverdagsprodukter.', array['Sant', 'Usant']::text[], 0, 'For eksempel vaskemaskiner og termostater.', false, true, 10),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm02', 'sant-usant', 'loop() kjøres bare én gang.', array['Sant', 'Usant']::text[], 1, 'loop() gjentas; setup() kjøres én gang.', false, true, 11),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm03', 'sant-usant', 'Et koblingsbrett gjør det mulig å teste kretser uten lodding.', array['Sant', 'Usant']::text[], 0, 'Komponentene stikkes rett inn.', false, true, 12),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm04', 'sant-usant', 'Det er trygt å endre koblingen mens kretsen har strøm.', array['Sant', 'Usant']::text[], 1, 'Koble fra strømmen først.', false, true, 13),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm05', 'flervalg', 'Hva gjør delay(1000) i Arduino?', array['Venter 1000 sekunder', 'Venter ett sekund', 'Slår av kortet', 'Leser en sensor']::text[], 1, 'Tiden er i millisekunder.', false, true, 14),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm06', 'flervalg', 'Hva gjør pinMode(13, OUTPUT)?', array['Gjør pinne 13 til en utgang', 'Slår på pinne 13', 'Leser pinne 13', 'Sletter programmet']::text[], 0, 'Kjøres i setup().', false, true, 15),
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 'm07', 'flervalg', 'Hvilken utvidelse gjør det mulig å se data på mobilen?', array['Et kabinett', 'En formotstand', 'Trådløs kommunikasjon som Bluetooth', 'Et koblingsbrett']::text[], 2, 'Data kan sendes til en app.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:mikrokontrollere', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Sensorer, analoge og digitale signaler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'teknologi-og-forskningslare-1', 'sensorer-og-signaler', 'Sensorer, analoge og digitale signaler', 'Forskjellen på analoge og digitale signaler, hvordan en AD-omformer gjør spenning om til tall, vanlige sensorer for temperatur, lys, avstand og bevegelse, kalibrering og hvor sensorer brukes i samfunnet.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', '## Hva er en sensor?
+
+En **sensor** gjør en fysisk størrelse – temperatur, lys, avstand, trykk, bevegelse – om til et **elektrisk signal** som en mikrokontroller kan lese.
+
+## Analoge og digitale signaler
+
+- Et **analogt** signal kan ha **alle verdier** innenfor et område, for eksempel en spenning mellom 0 og 5 V som øker jevnt med temperaturen.
+- Et **digitalt** signal har bare **bestemte verdier**, ofte to: **HØY** (1, for eksempel 5 V) og **LAV** (0, 0 V). En knapp er enten trykket inn eller ikke.
+
+## Fra analog til digital
+
+Mikrokontrolleren arbeider med tall. En **AD-omformer** (analog–digital-omformer) gjør spenningen om til et **heltall**. Arduino Uno har en **10-biters** AD-omformer, som gir verdier fra **0 til 1023** for 0–5 V.
+
+**Omregning**: U = verdi · 5,0 / 1023. En verdi på 512 svarer til omtrent **2,5 V**.
+
+**Oppløsningen** er den minste endringen som kan registreres: 5 V / 1023 ≈ **4,9 mV**. Flere bit gir finere oppløsning.
+
+## Vanlige sensorer
+
+**Temperatur**: Sensoren **TMP36** gir 10 mV per grad, med 0,5 V ved 0 °C:
+
+T = (U − 0,5) · 100. Ved U = 0,75 V er T = **25 °C**.
+
+Digitale temperatursensorer sender i stedet ferdig tall over en **databuss**.
+
+**Lys**: En **fotoresistor (LDR)** får **lavere resistans** når det blir lysere. Den kobles i en **spenningsdeler** med en fast motstand, slik at spenningen endrer seg med lyset.
+
+**Avstand**: En **ultralydsensor** sender ut en lydpuls og måler tiden til ekkoet kommer tilbake:
+
+avstand = tid · lydfart / 2
+
+Med ekkotid 2,0 ms og lydfart 343 m/s blir avstanden 0,002 · 343 / 2 ≈ **0,34 m**. Vi deler på 2 fordi lyden går **fram og tilbake**.
+
+**Bevegelse**: Et **akselerometer** måler akselerasjon i tre retninger og kan registrere helning, rystelser og skritt. **PIR-sensorer** oppdager varme kropper som beveger seg.
+
+**Andre**: fuktighet, trykk, CO₂, pH, lyd og **GPS**.
+
+## Kalibrering
+
+Sensorer er ikke alltid nøyaktige. **Kalibrering** betyr å sammenligne sensoren med en **kjent referanse** og justere. En temperatursensor kan for eksempel kalibreres i isvann (0 °C) og kokende vann (omtrent 100 °C ved havnivå).
+
+## Egenskaper å vurdere
+
+- **Måleområde**: hvilke verdier sensoren kan måle.
+- **Oppløsning** og **nøyaktighet**.
+- **Responstid**: hvor raskt den reagerer.
+- **Pris**, **strømforbruk** og **størrelse**.
+
+## Bruksområder
+
+- **Hjemmet**: termostater, røykvarslere, bevegelsesstyrt lys.
+- **Bil**: ryggesensorer, kollisjonsputer (akselerometer), regnsensor.
+- **Helse**: pulsklokker, blodsukkermålere.
+- **Miljø**: målestasjoner for luftkvalitet, vannstand og vær.
+- **Industri**: overvåking av maskiner, temperatur og trykk.
+- **Mobiltelefonen**: akselerometer, gyroskop, lyssensor, nærhetssensor, GPS og mikrofon.', '{"label":"Sensorer og signaler","children":[{"label":"Signaler","children":[{"label":"Analoge"},{"label":"Digitale"}]},{"label":"AD-omforming","children":[{"label":"0–1023"},{"label":"Oppløsning"}]},{"label":"Sensorer","children":[{"label":"Temperatur"},{"label":"Lys (LDR)"},{"label":"Ultralyd"},{"label":"Akselerometer og PIR"}]},{"label":"Kvalitet","children":[{"label":"Kalibrering"},{"label":"Måleområde og nøyaktighet"},{"label":"Responstid"}]},{"label":"Bruk","children":[{"label":"Hjem og bil"},{"label":"Helse og miljø"},{"label":"Mobiltelefonen"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:sensorer-og-signaler';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Sensor', 'Gjør en fysisk størrelse om til et elektrisk signal.', 0),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Analogt signal', 'Kan ha alle verdier innenfor et område.', 1),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Digitalt signal', 'Har bestemte verdier, ofte HØY og LAV.', 2),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'AD-omformer', 'Gjør analog spenning om til et heltall.', 3),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', '10-biters AD-omformer', 'Gir verdier fra 0 til 1023.', 4),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Omregning fra verdi til spenning', 'U = verdi · 5,0 / 1023', 5),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Oppløsning', 'Minste endring som kan registreres.', 6),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'TMP36', 'T = (U − 0,5) · 100', 7),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'LDR', 'Fotoresistor med lavere resistans i sterkere lys.', 8),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Spenningsdeler', 'To motstander i serie som gir en spenning mellom.', 9),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Ultralydsensor', 'avstand = tid · lydfart / 2', 10),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Akselerometer', 'Måler akselerasjon i tre retninger.', 11),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'PIR-sensor', 'Oppdager varme kropper som beveger seg.', 12),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Kalibrering', 'Sammenligne med kjent referanse og justere.', 13),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'Responstid', 'Hvor raskt sensoren reagerer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:sensorer-og-signaler';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q01', 'flervalg', 'Hva er forskjellen på et analogt og et digitalt signal?', array['Analoge er alltid raskere', 'Et analogt kan ha alle verdier i et område, et digitalt har bestemte verdier', 'Digitale signaler finnes bare i datamaskiner', 'Det er ingen forskjell']::text[], 1, 'For eksempel 0–5 V mot HØY/LAV.', true, true, 0),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q02', 'flervalg', 'Hvilket tallområde gir en 10-biters AD-omformer?', array['0–1023', '0–255', '0–100', '0–5']::text[], 0, '2¹⁰ = 1024 verdier.', true, true, 1),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q03', 'flervalg', 'En TMP36 gir 0,75 V. Hva er temperaturen?', array['75 °C', '7,5 °C', '25 °C', '50 °C']::text[], 2, '(0,75 − 0,5) · 100.', true, true, 2),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q04', 'flervalg', 'Hvorfor deler vi på 2 når vi regner avstand med ultralydsensor?', array['Fordi lydfarten er halvert', 'Fordi sensoren har to deler', 'Fordi det er to målinger', 'Fordi lyden går fram og tilbake']::text[], 3, 'Tiden gjelder begge veier.', true, true, 3),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q05', 'flervalg', 'Hva skjer med resistansen i en LDR når det blir lysere?', array['Den blir lavere', 'Den blir høyere', 'Den er uendret', 'Den blir null']::text[], 0, 'Brukes i lysmålere og nattlys.', true, true, 4),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q06', 'flervalg', 'Hva er kalibrering?', array['Å male sensoren', 'Å sammenligne med en kjent referanse og justere', 'Å bytte batteri', 'Å skrive programmet']::text[], 1, 'For eksempel i isvann og kokende vann.', true, true, 5),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q07', 'flervalg', 'Ekkotiden er 2,0 ms og lydfarten 343 m/s. Hva er avstanden?', array['0,69 m', '3,4 m', 'Omtrent 0,34 m', '686 m']::text[], 2, '0,002 · 343 / 2.', true, true, 6),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q08', 'flervalg', 'Hvilken sensor brukes til å utløse kollisjonsputer i bil?', array['Lyssensor', 'Fuktighetssensor', 'GPS', 'Akselerometer']::text[], 3, 'Den registrerer plutselig nedbremsing.', true, true, 7),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q09', 'flervalg', 'Hvilken spenning svarer til verdien 512 på en 10-biters AD-omformer med 5 V?', array['Omtrent 2,5 V', '5 V', '0,5 V', '512 V']::text[], 0, '512 · 5,0 / 1023.', true, false, 8),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'q10', 'flervalg', 'Hva er oppløsningen til en sensor?', array['Hvor stor sensoren er', 'Den minste endringen som kan registreres', 'Hvor mye strøm den bruker', 'Hvor lenge den varer']::text[], 1, 'Flere bit gir finere oppløsning.', true, false, 9),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm01', 'sant-usant', 'En knapp gir et digitalt signal.', array['Sant', 'Usant']::text[], 0, 'Den er enten trykket inn eller ikke.', false, true, 10),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm02', 'sant-usant', 'En AD-omformer med flere bit gir grovere oppløsning.', array['Sant', 'Usant']::text[], 1, 'Flere bit gir finere oppløsning.', false, true, 11),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm03', 'sant-usant', 'Mobiltelefoner har mange innebygde sensorer.', array['Sant', 'Usant']::text[], 0, 'For eksempel akselerometer, gyroskop og GPS.', false, true, 12),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm04', 'sant-usant', 'Alle sensorer måler helt nøyaktig uten kalibrering.', array['Sant', 'Usant']::text[], 1, 'Kalibrering kan være nødvendig.', false, true, 13),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm05', 'flervalg', 'Hva er oppløsningen til en 10-biters AD-omformer på 5 V?', array['0,5 V', 'Omtrent 4,9 mV', '1 V', '10 mV']::text[], 1, '5 V / 1023.', false, true, 14),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm06', 'flervalg', 'Hvilken sensor passer best til en ryggesensor på en bil?', array['Ultralydsensor', 'Lyssensor', 'Temperatursensor', 'Fuktighetssensor']::text[], 0, 'Den måler avstand.', false, true, 15),
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 'm07', 'flervalg', 'Hvordan kobles en LDR vanligvis til en analog inngang?', array['Direkte til 230 V', 'I serie med en motor', 'I en spenningsdeler med en fast motstand', 'Uten ledninger']::text[], 2, 'Spenningen endrer seg med lyset.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:sensorer-og-signaler', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Et produkt som samler inn data
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'teknologi-og-forskningslare-1', 'produkt-som-samler-data', 'Et produkt som samler inn data', 'Hvordan du designer og lager en datalogger med mikrokontroller og sensorer – valg av sensor, målefrekvens, tidsstempel og lagring – og hvordan du bearbeider og presenterer funnene fra dine egne data.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', '## Fra spørsmål til måleinstrument
+
+Et produkt som produserer **empiriske data**, starter med et **spørsmål**:
+
+- Hvor mye varierer temperaturen i klasserommet gjennom en skoledag?
+- Hvor mye CO₂ er det i lufta etter en time med full klasse?
+- Hvor mye rister en sykkel på grusvei sammenlignet med asfalt?
+
+Spørsmålet bestemmer **hva** som skal måles, **hvor ofte** og **hvor lenge**.
+
+## Designe en datalogger
+
+En **datalogger** måler automatisk og lagrer målingene over tid. Den består vanligvis av
+
+1. **Sensor(er)** som passer til det som skal måles – med riktig **måleområde** og **nøyaktighet**.
+2. **Mikrokontroller** som leser sensoren og regner om verdiene.
+3. **Lagring**: minnekort (SD-kort), overføring til datamaskin via kabel, eller trådløst til en skytjeneste.
+4. **Klokke** (tidsstempel), slik at hver måling får **tidspunkt**.
+5. **Strømforsyning**: kabel eller batteri – husk å beregne hvor lenge batteriet varer.
+6. **Kabinett** som beskytter elektronikken, men ikke påvirker målingen – en temperatursensor må ikke ligge inntil varm elektronikk.
+
+## Målefrekvens
+
+**Målefrekvensen** er hvor ofte det måles. Den må være **høy nok** til å fange opp endringene du er interessert i:
+
+- Romtemperatur endrer seg sakte – én måling per minutt kan være nok.
+- Rystelser på en sykkel endrer seg raskt – da trengs **mange målinger per sekund**.
+
+For høy frekvens gir **enorme datamengder** og bruker mer strøm. En tommelfingerregel er å måle **minst dobbelt så ofte** som de raskeste endringene du vil fange opp.
+
+## Lagringsformat
+
+Lagre gjerne dataene som **CSV**, med én rad per måling:
+
+```
+tid_s,temperatur_C,co2_ppm
+0,21.4,612
+60,21.5,640
+120,21.5,668
+```
+
+Første rad er **overskrifter med enheter**. Et slikt format kan åpnes direkte i regneark, GeoGebra eller Python.
+
+## Teste loggeren
+
+- Sammenlign med et **kalibrert** instrument.
+- Gjør en **prøvelogging** over kort tid før den store målingen.
+- Sjekk at **tidsstemplene** stemmer og at ingen målinger mangler.
+
+## Bearbeide dataene
+
+- **Rydd** i dataene: Fjern åpenbare feilmålinger – men **dokumenter** det, og ikke fjern verdier bare fordi de er uventet.
+- Lag **grafer** med tid på x-aksen.
+- Regn ut **gjennomsnitt**, **maksimum**, **minimum** og **endring** over tid.
+- Sammenlign ulike **forhold**, for eksempel med vinduet åpent og lukket.
+
+## Presentere funn
+
+En god presentasjon viser
+
+- **spørsmålet** og hvorfor det er interessant
+- **produktet**: bilder, koblingsskjema og kort forklaring av koden
+- **metoden**: hvor, når og hvor ofte det ble målt
+- **resultatene** i tydelige grafer med **aksetitler og enheter**
+- **tolkning**: Hva viser dataene, og hva kan forklare mønstrene?
+- **vurdering**: usikkerhet, feilkilder og forslag til forbedring av produktet
+
+**Eksempel på funn**: CO₂-nivået i et klasserom steg fra rundt 600 til over 1500 ppm i løpet av en skoletime, og falt raskt da vinduene ble åpnet. Det kan tyde på at ventilasjonen er for dårlig når klassen er full.', '{"label":"Produkt som samler data","children":[{"label":"Spørsmål","children":[{"label":"Hva måles?"},{"label":"Hvor ofte og hvor lenge?"}]},{"label":"Datalogger","children":[{"label":"Sensor"},{"label":"Mikrokontroller"},{"label":"Lagring og klokke"},{"label":"Strøm og kabinett"}]},{"label":"Målefrekvens","children":[{"label":"Høy nok"},{"label":"Ikke for høy"}]},{"label":"Data","children":[{"label":"CSV med enheter"},{"label":"Rydding og grafer"},{"label":"Sammenligning"}]},{"label":"Presentasjon","children":[{"label":"Produkt og metode"},{"label":"Resultater og tolkning"},{"label":"Vurdering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:produkt-som-samler-data';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Empiriske data', 'Data fra målinger og observasjoner.', 0),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Datalogger', 'Måler automatisk og lagrer målinger over tid.', 1),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Tidsstempel', 'Tidspunktet som hører til hver måling.', 2),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'SD-kort', 'Minnekort for lagring av målinger.', 3),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Målefrekvens', 'Hvor ofte det måles.', 4),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Tommelfingerregel for målefrekvens', 'Mål minst dobbelt så ofte som de raskeste endringene.', 5),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'For høy målefrekvens', 'Enorme datamengder og høyt strømforbruk.', 6),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'CSV med enheter', 'Overskriftsrad som tid_s, temperatur_C.', 7),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Prøvelogging', 'Kort test før den store målingen.', 8),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Kalibrert instrument', 'Referanse loggeren kan sammenlignes med.', 9),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Kabinett', 'Beskytter elektronikken uten å påvirke målingen.', 10),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Feilmåling', 'Åpenbart feil verdi – fjernes bare med dokumentasjon.', 11),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Koblingsskjema', 'Tegning som viser hvordan komponentene er koblet.', 12),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'CO₂ i ppm', 'Mål for luftkvalitet innendørs.', 13),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'Vurdering', 'Usikkerhet, feilkilder og forslag til forbedring.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:produkt-som-samler-data';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q01', 'flervalg', 'Hva er en datalogger?', array['En person som skriver ned tall', 'Et produkt som måler automatisk og lagrer målinger over tid', 'Et regneark', 'En type sensor']::text[], 1, 'Med sensor, mikrokontroller og lagring.', true, true, 0),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q02', 'flervalg', 'Hvorfor trenger hver måling et tidsstempel?', array['For å vite når målingen ble gjort', 'For å spare strøm', 'For å gjøre filen mindre', 'For å kalibrere sensoren']::text[], 0, 'Nødvendig for å se endringer over tid.', true, true, 1),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q03', 'flervalg', 'Hvilken målefrekvens passer for romtemperatur?', array['1000 målinger per sekund', 'Én måling per år', 'Omtrent én måling per minutt', 'Én måling per uke']::text[], 2, 'Temperaturen endrer seg sakte.', true, true, 2),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q04', 'flervalg', 'Hvorfor bør en temperatursensor ikke ligge inntil varm elektronikk?', array['Den blir ødelagt', 'Den bruker mer strøm', 'Den blir for kald', 'Varmen påvirker målingen']::text[], 3, 'Kabinettet må ikke påvirke målingen.', true, true, 3),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q05', 'flervalg', 'Hvorfor bør første rad i CSV-filen inneholde enheter?', array['Så det er tydelig hva tallene betyr', 'Fordi regneark krever det', 'For å gjøre filen større', 'Det er ikke nødvendig']::text[], 0, 'For eksempel temperatur_C.', true, true, 4),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q06', 'flervalg', 'Hva bør du gjøre før en stor måleserie?', array['Ingenting', 'En kort prøvelogging', 'Slette programmet', 'Bytte sensor']::text[], 1, 'Da oppdager du feil tidlig.', true, true, 5),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q07', 'flervalg', 'Hva er en ulempe med svært høy målefrekvens?', array['Dårligere oppløsning', 'Færre data', 'Enorme datamengder og høyt strømforbruk', 'Ingen ulemper']::text[], 2, 'Velg frekvens etter hva du vil fange opp.', true, true, 6),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q08', 'flervalg', 'Når kan du fjerne en måling fra datasettet?', array['Når den er uventet', 'Når den ødelegger grafen', 'Aldri', 'Når den er en åpenbar feilmåling, og du dokumenterer det']::text[], 3, 'Uventede verdier kan være viktige funn.', true, true, 7),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q09', 'flervalg', 'Hva forteller det at CO₂-nivået faller raskt når vinduene åpnes?', array['At ventilasjonen i rommet kan være for dårlig', 'At sensoren er ødelagt', 'At det er for kaldt', 'At det er for mange vinduer']::text[], 0, 'Frisk luft senker CO₂-nivået.', true, false, 8),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'q10', 'flervalg', 'Hva bestemmer hva som skal måles, hvor ofte og hvor lenge?', array['Prisen på sensoren', 'Spørsmålet du vil ha svar på', 'Fargen på kabinettet', 'Hvor mange ledninger du har']::text[], 1, 'Start alltid med spørsmålet.', true, false, 9),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm01', 'sant-usant', 'Rystelser på en sykkel krever mange målinger per sekund.', array['Sant', 'Usant']::text[], 0, 'De endrer seg raskt.', false, true, 10),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm02', 'sant-usant', 'Det er greit å fjerne uventede målinger uten å si fra.', array['Sant', 'Usant']::text[], 1, 'Endringer i data må dokumenteres.', false, true, 11),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm03', 'sant-usant', 'En datalogger bør testes mot et kalibrert instrument.', array['Sant', 'Usant']::text[], 0, 'Da vet du om målingene stemmer.', false, true, 12),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm04', 'sant-usant', 'Batterilevetid er uviktig for en datalogger som skal stå ute i en uke.', array['Sant', 'Usant']::text[], 1, 'Strømforsyningen må vare hele måleperioden.', false, true, 13),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm05', 'flervalg', 'Hvilken akse bør tiden stå på i en graf over målingene?', array['y-aksen', 'x-aksen', 'Ingen av dem', 'Begge']::text[], 1, 'Tiden er den uavhengige variabelen.', false, true, 14),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm06', 'flervalg', 'Hvilket format kan åpnes direkte i regneark?', array['CSV', 'MP3', 'JPEG', 'EXE']::text[], 0, 'Kommaseparerte verdier.', false, true, 15),
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 'm07', 'flervalg', 'Hva hører med i vurderingen av et datainnsamlingsprosjekt?', array['Bare produktets farge', 'Bare hvor mye tid det tok', 'Usikkerhet, feilkilder og forslag til forbedringer', 'Bare hvem som var på gruppa']::text[], 2, 'Kritisk vurdering av resultatene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:produkt-som-samler-data', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Dataanalyse og måleusikkerhet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'teknologi-og-forskningslare-1', 'dataanalyse-og-usikkerhet', 'Dataanalyse og måleusikkerhet', 'Hvordan du analyserer data fra forsøk, skiller tilfeldige og systematiske feil, beregner gjennomsnitt, standardavvik og relativ usikkerhet, og tester tiltak som kan redusere usikkerheten.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', '## Ingen måling er perfekt
+
+Alle målinger har en **usikkerhet**. Oppgaven er ikke å late som den ikke finnes, men å **anslå** hvor stor den er og **redusere** den der det er mulig.
+
+## To typer feil
+
+- **Tilfeldige feil** varierer fra måling til måling – støy i en sensor, små variasjoner i omgivelsene eller reaksjonstid. De gjør målingene **spredt**, men jevner seg ut over mange målinger.
+- **Systematiske feil** gir **samme skjevhet** hver gang – en sensor som alltid viser 1,5 °C for mye, eller en vekt som ikke er nullstilt. De **forsvinner ikke** ved å måle flere ganger, men kan oppdages ved **kalibrering** mot en kjent referanse.
+
+## Beskrive dataene
+
+- **Gjennomsnitt**: summen av målingene delt på antallet.
+- **Median**: den midterste verdien – mindre følsom for ekstreme verdier.
+- **Variasjonsbredde**: største minus minste verdi.
+- **Standardavvik**: et mål på hvor mye målingene typisk avviker fra gjennomsnittet. Regnes enkelt ut i regneark med STDAV.
+
+**Eksempel**: Fem målinger av avstand med ultralydsensor gir 50,2 – 49,8 – 50,4 – 50,0 – 49,6 cm. Gjennomsnittet er **50,0 cm**, og variasjonsbredden er 0,8 cm. Resultatet kan skrives som (50,0 ± 0,4) cm.
+
+## Relativ usikkerhet
+
+**Relativ usikkerhet** = usikkerhet / måleverdi. En usikkerhet på 0,4 cm er **0,8 %** av 50 cm, men **40 %** av 1 cm. Derfor sier den relative usikkerheten mer om **kvaliteten** på målingen.
+
+## Uteliggere
+
+En **uteligger** er en måling som skiller seg kraftig fra resten. Den kan skyldes en **feil** – en løs ledning, et forstyrret ekko – eller et **ekte fenomen**. Undersøk årsaken før du eventuelt tar den bort, og **dokumenter** valget.
+
+## Teste om usikkerheten kan reduseres
+
+Lag et lite **forsøk** der du endrer én ting og ser om spredningen blir mindre:
+
+- **Flere målinger** og **gjennomsnitt** – for eksempel ved å la mikrokontrolleren ta 10 målinger og bruke snittet (et enkelt **filter**).
+- **Bedre sensor** med høyere oppløsning eller nøyaktighet.
+- **Kalibrering** mot referanse for å fjerne systematiske feil.
+- **Stabile forhold**: skjerm sensoren mot trekk, sollys eller vibrasjoner.
+- **Bedre oppsett**: faste avstander, stativ og korte ledninger.
+
+Sammenlign **standardavviket før og etter** tiltaket. Blir det mindre, har tiltaket redusert den tilfeldige usikkerheten.
+
+## Grafer og trender
+
+- Et **punktdiagram** viser sammenhengen mellom to variabler.
+- **Regresjon** gir en linje eller kurve som passer best.
+- **Feilstolper** kan vise usikkerheten i hvert punkt.
+
+Pass på at du ikke tolker **støy** som en **trend** – og husk at **korrelasjon** ikke beviser **årsakssammenheng**.
+
+## Gjeldende siffer
+
+Oppgi ikke svaret med flere siffer enn målingene gir grunnlag for. Hvis sensoren bare er nøyaktig til nærmeste **0,5 °C**, gir det ingen mening å oppgi 21,237 °C.', '{"label":"Dataanalyse og usikkerhet","children":[{"label":"Feiltyper","children":[{"label":"Tilfeldige"},{"label":"Systematiske"}]},{"label":"Beskrive data","children":[{"label":"Gjennomsnitt og median"},{"label":"Variasjonsbredde"},{"label":"Standardavvik"}]},{"label":"Usikkerhet","children":[{"label":"± og relativ"},{"label":"Uteliggere"},{"label":"Gjeldende siffer"}]},{"label":"Redusere","children":[{"label":"Flere målinger"},{"label":"Kalibrering"},{"label":"Bedre oppsett"}]},{"label":"Grafer","children":[{"label":"Regresjon"},{"label":"Feilstolper"},{"label":"Støy og trend"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Måleusikkerhet', 'Anslag over hvor mye målingen kan avvike fra den sanne verdien.', 0),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Tilfeldig feil', 'Varierer fra måling til måling og jevner seg ut over mange målinger.', 1),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Systematisk feil', 'Gir samme skjevhet hver gang – oppdages ved kalibrering.', 2),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Gjennomsnitt', 'Summen av målingene delt på antallet.', 3),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Median', 'Den midterste verdien – lite følsom for ekstreme verdier.', 4),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Variasjonsbredde', 'Største minus minste verdi.', 5),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Standardavvik', 'Typisk avvik fra gjennomsnittet.', 6),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'STDAV', 'Regnearkfunksjon for standardavvik.', 7),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Relativ usikkerhet', 'Usikkerhet delt på måleverdien.', 8),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Uteligger', 'Måling som skiller seg kraftig fra resten.', 9),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Glidende gjennomsnitt', 'Enkelt filter som jevner ut støy.', 10),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Feilstolper', 'Viser usikkerheten i hvert datapunkt.', 11),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Støy', 'Tilfeldige variasjoner i signalet.', 12),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Gjeldende siffer', 'Ikke oppgi flere siffer enn målingene tillater.', 13),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'Teste et tiltak', 'Sammenlign standardavviket før og etter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q01', 'flervalg', 'Hva kjennetegner en systematisk feil?', array['Den varierer tilfeldig', 'Den gir samme skjevhet hver gang', 'Den forsvinner med flere målinger', 'Den skyldes alltid brukeren']::text[], 1, 'Oppdages ved kalibrering.', true, true, 0),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q02', 'flervalg', 'Hvordan kan du redusere tilfeldige feil?', array['Ta flere målinger og bruke gjennomsnittet', 'Bruke færre målinger', 'Runde av mer', 'Endre enheten']::text[], 0, 'Tilfeldige variasjoner jevner seg ut.', true, true, 1),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q03', 'flervalg', 'Fem målinger gir 50,2 – 49,8 – 50,4 – 50,0 – 49,6 cm. Hva er gjennomsnittet?', array['49,8 cm', '50,4 cm', '50,0 cm', '0,8 cm']::text[], 2, '250,0 / 5.', true, true, 2),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q04', 'flervalg', 'Hva er den relative usikkerheten når målingen er 50 cm ± 0,4 cm?', array['40 %', '4 %', '0,4 %', '0,8 %']::text[], 3, '0,4 / 50.', true, true, 3),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q05', 'flervalg', 'Hvordan kan du teste om et tiltak har redusert usikkerheten?', array['Sammenligne standardavviket før og etter', 'Se om gjennomsnittet ble høyere', 'Telle målingene', 'Endre grafens farge']::text[], 0, 'Mindre spredning betyr mindre tilfeldig usikkerhet.', true, true, 4),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q06', 'flervalg', 'Hva bør du gjøre med en uteligger?', array['Alltid slette den', 'Undersøke årsaken og dokumentere valget', 'Gange den med to', 'Ignorere alle andre målinger']::text[], 1, 'Den kan være en feil eller et ekte fenomen.', true, true, 5),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q07', 'flervalg', 'Hvilket mål er minst følsomt for ekstreme verdier?', array['Gjennomsnitt', 'Variasjonsbredde', 'Median', 'Sum']::text[], 2, 'Den midterste verdien.', true, true, 6),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q08', 'flervalg', 'Hvordan oppdages en sensor som alltid viser 1,5 °C for mye?', array['Ved å ta flere målinger', 'Ved å bruke median', 'Ved å runde av', 'Ved kalibrering mot en kjent referanse']::text[], 3, 'En systematisk feil.', true, true, 7),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q09', 'flervalg', 'Hva viser feilstolper i en graf?', array['Usikkerheten i hvert punkt', 'Feil i programmet', 'Gjennomsnittet', 'Tidspunktet']::text[], 0, 'Viser hvor sikre punktene er.', true, false, 8),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'q10', 'flervalg', 'Hvorfor bør du ikke oppgi 21,237 °C når sensoren er nøyaktig til 0,5 °C?', array['Fordi det er for høyt', 'Fordi svaret da later som det er mer nøyaktig enn det er', 'Fordi temperatur ikke har desimaler', 'Det er helt greit']::text[], 1, 'Gjeldende siffer.', true, false, 9),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm01', 'sant-usant', 'Systematiske feil forsvinner ikke ved å ta flere målinger.', array['Sant', 'Usant']::text[], 0, 'Skjevheten er lik hver gang.', false, true, 10),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm02', 'sant-usant', 'Relativ usikkerhet sier mindre om kvaliteten enn absolutt usikkerhet.', array['Sant', 'Usant']::text[], 1, 'Den relative usikkerheten sier mest om kvaliteten.', false, true, 11),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm03', 'sant-usant', 'Å la mikrokontrolleren bruke gjennomsnittet av flere målinger er et enkelt filter.', array['Sant', 'Usant']::text[], 0, 'Det jevner ut støy.', false, true, 12),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm04', 'sant-usant', 'Korrelasjon mellom to målinger beviser en årsakssammenheng.', array['Sant', 'Usant']::text[], 1, 'Korrelasjon er ikke årsak.', false, true, 13),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm05', 'flervalg', 'Hva er variasjonsbredden for målingene 50,2 – 49,8 – 50,4 – 50,0 – 49,6 cm?', array['0,4 cm', '0,8 cm', '50,0 cm', '0,2 cm']::text[], 1, '50,4 − 49,6.', false, true, 14),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm06', 'flervalg', 'Hvilket tiltak reduserer systematiske feil?', array['Kalibrering', 'Flere målinger', 'Glidende gjennomsnitt', 'Større graf']::text[], 0, 'Sammenlign med kjent referanse.', false, true, 15),
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 'm07', 'flervalg', 'Hva er en fare når du tolker grafer med mye støy?', array['At aksene forsvinner', 'At grafen blir for pen', 'At du tolker tilfeldig støy som en trend', 'At dataene blir færre']::text[], 2, 'Se etter tydelige mønstre over tid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:dataanalyse-og-usikkerhet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Kvantitativ metode og pålitelighet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'teknologi-og-forskningslare-1', 'kvantitativ-metode', 'Kvantitativ metode og pålitelighet', 'Hva kvantitativ metode er, hvordan du planlegger kontrollerte forsøk med hypotese og variabler, og hvordan du vurderer reliabilitet, validitet, repeterbarhet og reproduserbarhet i resultatene.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', '## Kvantitativ og kvalitativ metode
+
+- **Kvantitativ metode** bygger på **tall** og **målinger** som kan behandles med statistikk: temperaturer, tider, avstander, antall.
+- **Kvalitativ metode** bygger på **beskrivelser**, intervjuer og observasjoner som ikke lett kan gjøres om til tall.
+
+I teknologi og naturvitenskap brukes kvantitativ metode ofte for å **teste hypoteser** og **sammenligne løsninger**.
+
+## Planlegge et forsøk
+
+1. **Problemstilling**: Hva vil du finne ut? For eksempel: «Hvilket isolasjonsmateriale holder best på varmen?»
+2. **Hypotese**: en testbar påstand: «Ull isolerer bedre enn bomull.»
+3. **Variabler**:
+   - **Uavhengig variabel**: det du endrer (materialet).
+   - **Avhengig variabel**: det du måler (temperaturfall på 20 minutter).
+   - **Kontrollerte variabler**: alt som holdes likt (starttemperatur, vannmengde, romtemperatur, tykkelse).
+4. **Kontrollgruppe** eller referanse: for eksempel et glass **uten** isolasjon.
+5. **Antall gjentak**: Hvert forsøk gjentas flere ganger.
+6. **Måleutstyr** og **prosedyre**, beskrevet så nøyaktig at andre kan gjøre det samme.
+
+## Et **kontrollert forsøk**
+
+I et kontrollert forsøk endres **bare én variabel** om gangen. Da kan vi med større sikkerhet si at endringen i den avhengige variabelen skyldes den uavhengige variabelen – og ikke noe annet.
+
+## Pålitelighet
+
+**Reliabilitet** handler om hvor **pålitelige** målingene er: Får vi **samme resultat** når vi gjentar målingen under like forhold? Lav spredning og god kalibrering gir høy reliabilitet.
+
+- **Repeterbarhet**: Samme person, samme utstyr og samme sted gir samme resultat.
+- **Reproduserbarhet**: **Andre** kan gjenta forsøket med sitt eget utstyr og få samme resultat. Dette er et viktig krav i vitenskapen.
+
+**Validitet** handler om vi faktisk **måler det vi tror** vi måler. Hvis temperatursensoren henger i sola, måler den kanskje mer solstråling enn lufttemperatur – da er validiteten lav, selv om målingene er stabile.
+
+En måling kan altså være **reliabel uten å være valid**: en vekt som alltid viser 2 kg for mye, er stabil, men feil.
+
+## Utvalg
+
+Når vi ikke kan måle alt, tar vi et **utvalg**. Utvalget bør være **stort nok** og **representativt**. Et lite eller skjevt utvalg gir usikre konklusjoner.
+
+## Vurdere resultatene
+
+- Er forskjellene **større enn usikkerheten**? Hvis to materialer gir 12,1 og 12,4 °C temperaturfall, men spredningen er 0,5 °C, kan vi ikke si at det ene er bedre.
+- Finnes det **alternative forklaringer**?
+- Er resultatet i tråd med **teori** og **andres forsøk**?
+- Hvilke **feilkilder** kan ha påvirket?
+- Hvor **generelle** er konklusjonene – gjelder de også under andre forhold?
+
+## Vitenskapelige normer
+
+God forskning er **åpen** om metode og data, **ærlig** om usikkerhet og negative funn, og **etterprøvbar**. Fabrikkering eller forfalsking av data er alvorlig **forskningsjuks**.', '{"label":"Kvantitativ metode","children":[{"label":"Metoder","children":[{"label":"Kvantitativ"},{"label":"Kvalitativ"}]},{"label":"Forsøk","children":[{"label":"Hypotese"},{"label":"Variabler"},{"label":"Kontrollgruppe"}]},{"label":"Pålitelighet","children":[{"label":"Reliabilitet"},{"label":"Repeterbarhet"},{"label":"Reproduserbarhet"}]},{"label":"Gyldighet","children":[{"label":"Validitet"},{"label":"Representativt utvalg"}]},{"label":"Vurdering","children":[{"label":"Forskjell mot usikkerhet"},{"label":"Alternative forklaringer"},{"label":"Forskningsetikk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:kvantitativ-metode';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Kvantitativ metode', 'Bygger på tall og målinger som kan behandles med statistikk.', 0),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Kvalitativ metode', 'Bygger på beskrivelser, intervjuer og observasjoner.', 1),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Hypotese', 'Testbar påstand.', 2),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Uavhengig variabel', 'Det du endrer.', 3),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Avhengig variabel', 'Det du måler.', 4),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Kontrollerte variabler', 'Det som holdes likt.', 5),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Kontrollert forsøk', 'Bare én variabel endres om gangen.', 6),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Referanse / kontrollgruppe', 'Sammenligningsgrunnlag uten behandling.', 7),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Reliabilitet', 'Hvor pålitelige og stabile målingene er.', 8),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Validitet', 'Om vi faktisk måler det vi tror vi måler.', 9),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Repeterbarhet', 'Samme person og utstyr gir samme resultat.', 10),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Reproduserbarhet', 'Andre kan gjenta forsøket og få samme resultat.', 11),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Representativt utvalg', 'Utvalg som ligner helheten.', 12),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Reliabel, men ikke valid', 'Stabile målinger som er systematisk feil.', 13),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'Forskningsjuks', 'Fabrikkering eller forfalsking av data.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:kvantitativ-metode';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q01', 'flervalg', 'Hva kjennetegner kvantitativ metode?', array['Intervjuer og beskrivelser', 'Tall og målinger som kan behandles med statistikk', 'Bare observasjoner uten tall', 'Meninger']::text[], 1, 'Kvalitativ metode bygger på beskrivelser.', true, true, 0),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q02', 'flervalg', 'Hva er den avhengige variabelen i et forsøk med isolasjonsmaterialer?', array['Temperaturfallet', 'Materialet', 'Starttemperaturen', 'Romtemperaturen']::text[], 0, 'Det du måler.', true, true, 1),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q03', 'flervalg', 'Hva betyr validitet?', array['At målingene er like hver gang', 'At forsøket er billig', 'At vi måler det vi tror vi måler', 'At andre kan gjenta forsøket']::text[], 2, 'Reliabilitet handler om stabilitet.', true, true, 2),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q04', 'flervalg', 'Hva er reproduserbarhet?', array['At samme person får samme resultat', 'At forsøket er raskt', 'At resultatet er stort', 'At andre kan gjenta forsøket og få samme resultat']::text[], 3, 'Et viktig vitenskapelig krav.', true, true, 3),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q05', 'flervalg', 'Hvorfor endres bare én variabel om gangen i et kontrollert forsøk?', array['For å kunne knytte endringen i resultatet til den variabelen', 'For å spare tid', 'Fordi det er påbudt', 'For å få flere variabler']::text[], 0, 'Ellers vet vi ikke hva som påvirket resultatet.', true, true, 4),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q06', 'flervalg', 'En vekt viser alltid 2 kg for mye. Hvordan er målingene?', array['Valide, men ikke reliable', 'Reliable, men ikke valide', 'Både reliable og valide', 'Verken reliable eller valide']::text[], 1, 'Stabile, men feil.', true, true, 5),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q07', 'flervalg', 'To materialer gir 12,1 og 12,4 °C temperaturfall, med spredning 0,5 °C. Hva kan du konkludere?', array['Det første er klart best', 'Det andre er klart best', 'Forskjellen er mindre enn usikkerheten, så vi kan ikke si hvilket som er best', 'Forsøket er ugyldig']::text[], 2, 'Forskjellen må være større enn usikkerheten.', true, true, 6),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q08', 'flervalg', 'Hvorfor brukes et glass uten isolasjon i forsøket?', array['For å ha flere glass', 'For å spare materialer', 'For pynt', 'Som referanse å sammenligne med']::text[], 3, 'En kontrollgruppe.', true, true, 7),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q09', 'flervalg', 'Hva er et representativt utvalg?', array['Et utvalg som ligner helheten', 'Det største utvalget', 'Et tilfeldig tall', 'Et utvalg av de beste resultatene']::text[], 0, 'Ellers blir konklusjonene skjeve.', true, false, 8),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'q10', 'flervalg', 'Hva er forskningsjuks?', array['Å oppgi usikkerhet', 'Å fabrikkere eller forfalske data', 'Å publisere negative funn', 'Å gjenta forsøk']::text[], 1, 'Et alvorlig brudd på forskningsetikken.', true, false, 9),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm01', 'sant-usant', 'En temperatursensor i direkte sollys kan gi lav validitet for lufttemperatur.', array['Sant', 'Usant']::text[], 0, 'Den måler også solstråling.', false, true, 10),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm02', 'sant-usant', 'Negative funn bør skjules i forskningen.', array['Sant', 'Usant']::text[], 1, 'God forskning er åpen også om negative funn.', false, true, 11),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm03', 'sant-usant', 'Et lite, skjevt utvalg gir usikre konklusjoner.', array['Sant', 'Usant']::text[], 0, 'Utvalget bør være stort nok og representativt.', false, true, 12),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm04', 'sant-usant', 'Høy reliabilitet garanterer høy validitet.', array['Sant', 'Usant']::text[], 1, 'Stabile målinger kan være systematisk feil.', false, true, 13),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm05', 'flervalg', 'Hvilken er en kontrollert variabel i isolasjonsforsøket?', array['Materialet', 'Starttemperaturen', 'Temperaturfallet', 'Hvilket materiale som vinner']::text[], 1, 'Den holdes lik i alle forsøkene.', false, true, 14),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm06', 'flervalg', 'Hvilken påstand er en testbar hypotese?', array['Ull isolerer bedre enn bomull', 'Ull er fint', 'Isolasjon er viktig', 'Bomull er kjedelig']::text[], 0, 'Den kan testes med målinger.', false, true, 15),
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 'm07', 'flervalg', 'Hva kjennetegner god forskning?', array['Hemmelige metoder', 'Bare positive funn', 'Åpenhet, ærlighet om usikkerhet og etterprøvbarhet', 'Så få gjentak som mulig']::text[], 2, 'Vitenskapelige normer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:kvantitativ-metode', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Et teknologisk produkt: mobiltelefonen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'teknologi-og-forskningslare-1', 'teknologihistorie-mobiltelefonen', 'Et teknologisk produkt: mobiltelefonen', 'Hvordan mobiltelefonen har utviklet seg fra de første håndholdte telefonene til smarttelefoner, hvordan den virker – radiobølger, basestasjoner, berøringsskjerm og batteri – og hvilken nytte og hvilke utfordringer den gir samfunnet.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', '## Slik kan du beskrive et teknologisk produkt
+
+Når du skal beskrive et produkt, kan du bruke tre spørsmål: **Hvordan har det utviklet seg?** **Hvordan virker det?** **Hva betyr det for samfunnet?** Her bruker vi mobiltelefonen som eksempel.
+
+## Historisk utvikling
+
+- **1973**: Martin Cooper hos Motorola gjorde den første samtalen fra en **håndholdt mobiltelefon**. Telefonen veide rundt ett kilo.
+- **1981**: Det nordiske mobilnettet **NMT** ble åpnet, blant annet i Norge. Det var **analogt**, og telefonene var store og dyre.
+- **1990-tallet**: Det **digitale** GSM-nettet (**2G**) kom. Telefonene ble mindre, og **SMS** ble populært.
+- **2000-tallet**: **3G** ga mobilt internett, og kamera ble vanlig i telefonen.
+- **2007**: **iPhone** kom med stor berøringsskjerm og **apper**, og smarttelefonen slo gjennom.
+- **2010-tallet**: **4G** ga rask nok forbindelse til video og strømming. Mobilen ble **lommebok**, kart og billett.
+- **I dag**: **5G** gir enda høyere hastighet og kortere forsinkelse, blant annet for industri og tingenes internett.
+
+Utviklingen har vært drevet av **mindre og kraftigere** brikker, **bedre batterier**, **nye nettverk** – og av hva folk og bedrifter har ønsket seg.
+
+## Hvordan mobiltelefonen virker
+
+**Mobilnettet**: Landet er delt i **celler**, hver med en **basestasjon** (mast). Telefonen kommuniserer med nærmeste basestasjon ved hjelp av **radiobølger** – elektromagnetiske bølger. Når du beveger deg, **overleveres** samtalen fra én celle til neste. Basestasjonene er koblet sammen i et kjernenett som sender dataene videre.
+
+**Digitale signaler**: Stemmen gjøres om til **tall** (digitalisering), **komprimeres** og sendes. Det gir bedre lydkvalitet og plass til flere brukere enn de gamle analoge nettene.
+
+**SIM-kortet** identifiserer abonnementet ditt.
+
+**Berøringsskjermen** er vanligvis **kapasitiv**: Et tynt, strømførende lag registrerer endringen når en finger rører skjermen.
+
+**Litium-ion-batteriet** lagrer mye energi i forhold til vekten og kan lades mange ganger.
+
+**Sensorer**: akselerometer, gyroskop, GPS, lyssensor, nærhetssensor, kamera og mikrofon gjør telefonen til et avansert måleinstrument.
+
+## Samfunnsnytte
+
+- **Kommunikasjon** med hvem som helst, nesten hvor som helst.
+- **Sikkerhet**: nødsamtaler, varslinger og posisjon ved ulykker.
+- **Økonomi og tjenester**: mobilbetaling, bank, billetter og offentlige tjenester. I mange land uten utbygd bank har mobilbetaling gitt millioner tilgang til finansielle tjenester.
+- **Kunnskap**: tilgang til informasjon og læring.
+
+## Utfordringer
+
+- **Skjermtid**, konsentrasjon og søvn.
+- **Personvern**: Telefonen samler inn mye data om oss.
+- **Miljø**: Produksjonen krever metaller som **kobolt**, **litium** og **sjeldne jordarter**, ofte utvunnet under vanskelige forhold. Gamle telefoner blir **elektronisk avfall**.
+- **Avhengighet** av nett og strøm – og sårbarhet ved utfall.
+
+## Drøfting
+
+Er mobiltelefonen først og fremst et gode? Drøft ved å veie **nytte** mot **ulemper** for ulike grupper – barn, eldre, arbeidstakere, folk i fattige land – og foreslå **tiltak** som kan redusere ulempene, som reparasjon, gjenvinning og bevisst bruk.', '{"label":"Mobiltelefonen","children":[{"label":"Historie","children":[{"label":"1973 første samtale"},{"label":"NMT og GSM"},{"label":"Smarttelefon 2007"},{"label":"4G og 5G"}]},{"label":"Mobilnettet","children":[{"label":"Celler og basestasjoner"},{"label":"Radiobølger"},{"label":"Overlevering"}]},{"label":"Telefonen","children":[{"label":"Berøringsskjerm"},{"label":"Batteri"},{"label":"Sensorer"}]},{"label":"Nytte","children":[{"label":"Kommunikasjon"},{"label":"Sikkerhet"},{"label":"Betaling og tjenester"}]},{"label":"Utfordringer","children":[{"label":"Skjermtid"},{"label":"Personvern"},{"label":"Miljø og metaller"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', '1973', 'Første samtale fra en håndholdt mobiltelefon (Motorola).', 0),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'NMT', 'Nordisk analogt mobilnett fra 1981.', 1),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'GSM (2G)', 'Digitalt mobilnett fra 1990-tallet, med SMS.', 2),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', '2007', 'iPhone kom, og smarttelefonen slo gjennom.', 3),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', '4G', 'Rask mobilforbindelse for video og strømming.', 4),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', '5G', 'Høy hastighet og kort forsinkelse.', 5),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Celle', 'Område som dekkes av én basestasjon.', 6),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Basestasjon', 'Mast som kommuniserer med telefonene via radiobølger.', 7),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Overlevering', 'Samtalen flyttes fra én celle til neste.', 8),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Digitalisering av stemmen', 'Lyden gjøres om til tall, komprimeres og sendes.', 9),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'SIM-kort', 'Identifiserer abonnementet.', 10),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Kapasitiv berøringsskjerm', 'Registrerer fingerens påvirkning på et strømførende lag.', 11),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Litium-ion-batteri', 'Lagrer mye energi i forhold til vekten.', 12),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Konfliktmineraler', 'Metaller utvunnet under vanskelige forhold, for eksempel kobolt.', 13),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'Elektronisk avfall', 'Kasserte telefoner og annen elektronikk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q01', 'flervalg', 'Når ble den første samtalen fra en håndholdt mobiltelefon gjort?', array['1956', '1973', '1991', '2007']::text[], 1, 'Martin Cooper hos Motorola.', true, true, 0),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q02', 'flervalg', 'Hva var NMT?', array['Et nordisk analogt mobilnett fra 1981', 'En type smarttelefon', 'Et batteri', 'En app']::text[], 0, 'Nordisk mobiltelefoni.', true, true, 1),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q03', 'flervalg', 'Hva gjør en basestasjon?', array['Lader telefonen', 'Lagrer apper', 'Kommuniserer med telefonene i cellen via radiobølger', 'Produserer SIM-kort']::text[], 2, 'Landet er delt i celler.', true, true, 2),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q04', 'flervalg', 'Hvorfor var overgangen fra analoge til digitale mobilnett viktig?', array['Telefonene ble større', 'Den fjernet behovet for master', 'Den gjorde samtaler gratis', 'Den ga bedre lyd og plass til flere brukere']::text[], 3, 'Stemmen sendes som komprimerte tall.', true, true, 3),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q05', 'flervalg', 'Hvordan virker en kapasitiv berøringsskjerm?', array['Den registrerer fingerens påvirkning på et strømførende lag', 'Den bruker trykkluft', 'Den ser fingeren med kamera', 'Den registrerer lyd']::text[], 0, 'Derfor virker den ikke med vanlige hansker.', true, true, 4),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q06', 'flervalg', 'Hva skjer når du beveger deg mellom to celler under en samtale?', array['Samtalen brytes alltid', 'Samtalen overleveres til neste basestasjon', 'Telefonen slår seg av', 'SIM-kortet byttes']::text[], 1, 'Handover.', true, true, 5),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q07', 'flervalg', 'Hvilken miljøutfordring er knyttet til mobiltelefoner?', array['De bruker ingen metaller', 'De lages av tre', 'Utvinning av metaller som kobolt og litium, og elektronisk avfall', 'De forurenser ikke']::text[], 2, 'Reparasjon og gjenvinning hjelper.', true, true, 6),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q08', 'flervalg', 'Hva kjennetegnet smarttelefonen som slo gjennom i 2007?', array['Tastatur med knapper', 'Antenne', 'Bare SMS', 'Stor berøringsskjerm og apper']::text[], 3, 'iPhone endret markedet.', true, true, 7),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q09', 'flervalg', 'Hvilke tre spørsmål kan du bruke for å beskrive et teknologisk produkt?', array['Hvordan har det utviklet seg, hvordan virker det, hva betyr det for samfunnet?', 'Hva koster det, hvem eier det, hvor er det laget?', 'Hvilken farge, hvilken størrelse, hvilket merke?', 'Når, hvor, hvorfor?']::text[], 0, 'Historie, virkemåte og samfunnsnytte.', true, false, 8),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'q10', 'flervalg', 'Hvordan har mobilbetaling hjulpet mange i land uten utbygd bank?', array['Den har gjort telefonene billigere', 'Den har gitt millioner tilgang til finansielle tjenester', 'Den har erstattet strøm', 'Den har ikke hatt betydning']::text[], 1, 'Et eksempel på samfunnsnytte.', true, false, 9),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm01', 'sant-usant', 'Mobiltelefoner kommuniserer med basestasjoner ved hjelp av radiobølger.', array['Sant', 'Usant']::text[], 0, 'Radiobølger er elektromagnetiske bølger.', false, true, 10),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm02', 'sant-usant', 'NMT-nettet var digitalt.', array['Sant', 'Usant']::text[], 1, 'NMT var analogt; GSM var digitalt.', false, true, 11),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm03', 'sant-usant', 'Smarttelefonen har mange sensorer, som akselerometer og GPS.', array['Sant', 'Usant']::text[], 0, 'Den kan brukes som måleinstrument.', false, true, 12),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm04', 'sant-usant', 'Mobilteknologien har bare hatt positive konsekvenser.', array['Sant', 'Usant']::text[], 1, 'Den har også ulemper, som miljøbelastning og personvernutfordringer.', false, true, 13),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm05', 'flervalg', 'Hvilken mobilgenerasjon gjorde SMS populært?', array['1G', '2G (GSM)', '4G', '5G']::text[], 1, 'Det digitale GSM-nettet.', false, true, 14),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm06', 'flervalg', 'Hva identifiserer abonnementet ditt i telefonen?', array['SIM-kortet', 'Batteriet', 'Skjermen', 'Kameraet']::text[], 0, 'Det kobler telefonen til operatøren.', false, true, 15),
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 'm07', 'flervalg', 'Hvilket tiltak kan redusere miljøbelastningen fra mobiltelefoner?', array['Kjøpe ny telefon hvert år', 'Kaste gamle telefoner i restavfallet', 'Reparere og gjenvinne telefoner', 'Lade oftere']::text[], 2, 'Lengre levetid sparer ressurser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:teknologihistorie-mobiltelefonen', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Teknologi og etikk
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'teknologi-og-forskningslare-1', 'teknologi-og-etikk', 'Teknologi og etikk', 'Hvordan du drøfter etiske problemstillinger knyttet til teknologisk utvikling – med konsekvensetikk, pliktetikk og dydsetikk, føre var-prinsippet og eksempler som selvkjørende biler, kunstig intelligens, droner og genteknologi.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', '## Hvorfor etikk i teknologi?
+
+Teknologi er **ikke nøytral**. Den kan gjøre livet bedre, men også skade mennesker, dyr og natur, og den kan fordele fordeler og ulemper **urettferdig**. **Etikk** handler om hva som er **rett og galt**, og hvordan vi bør handle. Ingeniører, forskere, bedrifter og politikere tar hele tiden valg med etiske sider.
+
+## Tre etiske perspektiver
+
+- **Konsekvensetikk**: En handling er riktig hvis den gir de **beste konsekvensene** for flest mulig. Spørsmål: Hvem får nytte, og hvem tar skade?
+- **Pliktetikk**: Noen handlinger er riktige eller gale **i seg selv**, uansett konsekvenser – for eksempel å lyve eller å bruke mennesker bare som middel. Spørsmål: Bryter teknologien med **rettigheter** eller **plikter**?
+- **Dydsetikk**: Spør hva en **god person** – ærlig, ansvarlig, rettferdig – ville gjort. Spørsmål: Hva slags mennesker og samfunn gjør teknologien oss til?
+
+Perspektivene kan gi **ulike svar**, og i en god drøfting bruker du gjerne flere.
+
+## Viktige prinsipper
+
+- **Føre var-prinsippet**: Når en teknologi kan gi **alvorlig** eller **uopprettelig** skade, og kunnskapen er usikker, bør vi være **forsiktige** – selv om skaden ikke er bevist.
+- **Ansvar**: Hvem har ansvaret når noe går galt – produsenten, programmereren, brukeren eller myndighetene?
+- **Rettferdighet**: Blir fordeler og ulemper fordelt rettferdig mellom grupper, land og generasjoner?
+- **Autonomi**: Får folk bestemme selv, med god informasjon?
+
+**Collingridge-dilemmaet** beskriver en vanskelig situasjon: Tidlig i utviklingen er en teknologi lett å **endre**, men vi vet lite om konsekvensene. Når konsekvensene blir kjent, er teknologien ofte så **utbredt** at den er vanskelig å endre.
+
+## Eksempler
+
+**Selvkjørende biler** kan redusere ulykker, fordi de fleste ulykker skyldes menneskelige feil. Men hvordan skal bilen programmeres til å velge i en ulykkessituasjon? Og hvem har ansvaret ved en kollisjon?
+
+**Kunstig intelligens** kan brukes til bedre diagnoser, men kan også **diskriminere**, overvåke og lage falskt innhold. Hvor mye bør vi la maskiner bestemme over mennesker?
+
+**Droner** brukes til redning, kartlegging og levering – men også i krig og til overvåking.
+
+**Genteknologi**, som genredigering med **CRISPR**, kan gi sykdomsresistente planter og nye behandlinger, men reiser spørsmål om **naturlighet**, **risiko** og endringer som arves.
+
+**Tingenes internett** gjør hjemmet «smart», men gir også nye muligheter for **innbrudd i systemer** og innsamling av data.
+
+## Hvem bestemmer?
+
+I Norge gir **Teknologirådet** råd til Stortinget om ny teknologi, og de **nasjonale forskningsetiske komiteene** gir retningslinjer for forskningen. Mange mener at **brukere** og **innbyggere** også bør få si sin mening tidlig i utviklingen.
+
+## Slik drøfter du
+
+1. **Beskriv** teknologien og situasjonen.
+2. **Identifiser** hvem som berøres – også dyr, natur og framtidige generasjoner.
+3. Bruk **etiske perspektiver** og prinsipper.
+4. **Vei** argumentene mot hverandre.
+5. Kom fram til en **begrunnet konklusjon** – gjerne med forslag til regler eller tiltak.', '{"label":"Teknologi og etikk","children":[{"label":"Perspektiver","children":[{"label":"Konsekvensetikk"},{"label":"Pliktetikk"},{"label":"Dydsetikk"}]},{"label":"Prinsipper","children":[{"label":"Føre var"},{"label":"Ansvar"},{"label":"Rettferdighet og autonomi"}]},{"label":"Dilemmaer","children":[{"label":"Collingridge"},{"label":"Teknologi er ikke nøytral"}]},{"label":"Eksempler","children":[{"label":"Selvkjørende biler"},{"label":"KI"},{"label":"Droner"},{"label":"Genteknologi"}]},{"label":"Styring","children":[{"label":"Teknologirådet"},{"label":"Forskningsetikk"},{"label":"Medvirkning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:teknologi-og-etikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Etikk', 'Læren om rett og galt og hvordan vi bør handle.', 0),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Konsekvensetikk', 'Riktig handling gir de beste konsekvensene for flest.', 1),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Pliktetikk', 'Noen handlinger er riktige eller gale i seg selv.', 2),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Dydsetikk', 'Hva ville en god person gjort?', 3),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Føre var-prinsippet', 'Vær forsiktig ved mulig alvorlig skade og usikker kunnskap.', 4),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Collingridge-dilemmaet', 'Lett å endre tidlig, men da vet vi lite; når vi vet mer, er det vanskelig å endre.', 5),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Ansvar', 'Hvem som står til ansvar når teknologien gjør skade.', 6),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Rettferdighet', 'Rettferdig fordeling av fordeler og ulemper.', 7),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Autonomi', 'Retten til å bestemme selv med god informasjon.', 8),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Selvkjørende biler', 'Reiser spørsmål om valg i ulykker og ansvar.', 9),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'CRISPR', 'Metode for genredigering.', 10),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Tingenes internett', 'Hverdagsgjenstander koblet til nettet.', 11),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Teknologirådet', 'Gir råd til Stortinget om ny teknologi.', 12),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Forskningsetiske komiteer', 'Gir retningslinjer for forskningen i Norge.', 13),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'Teknologi er ikke nøytral', 'Den påvirker og fordeler makt, risiko og nytte.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:teknologi-og-etikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q01', 'flervalg', 'Hva kjennetegner konsekvensetikk?', array['Handlinger er gale i seg selv', 'Riktig handling gir de beste konsekvensene for flest', 'Man spør hva en god person ville gjort', 'Alle handlinger er like gode']::text[], 1, 'Nytte og skade veies.', true, true, 0),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q02', 'flervalg', 'Hva sier føre var-prinsippet?', array['Vær forsiktig når det kan bli alvorlig skade og kunnskapen er usikker', 'Innfør all ny teknologi raskt', 'Bare bevist skade skal tas hensyn til', 'Teknologi er alltid farlig']::text[], 0, 'Viktig ved uopprettelig skade.', true, true, 1),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q03', 'flervalg', 'Hva er Collingridge-dilemmaet?', array['At teknologi alltid er dyr', 'At ingen vil ha ny teknologi', 'At teknologien er lett å endre tidlig, men da vet vi lite om konsekvensene', 'At etikk og teknologi ikke henger sammen']::text[], 2, 'Når vi vet mer, er den vanskelig å endre.', true, true, 2),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q04', 'flervalg', 'Hvilket perspektiv spør hva en god person ville gjort?', array['Konsekvensetikk', 'Pliktetikk', 'Føre var-prinsippet', 'Dydsetikk']::text[], 3, 'Fokus på karakter.', true, true, 3),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q05', 'flervalg', 'Hvilket etisk spørsmål reiser selvkjørende biler?', array['Hvem har ansvaret ved en kollisjon?', 'Hvilken farge skal de ha?', 'Hvor mange seter skal de ha?', 'Hvor raskt kan de lades?']::text[], 0, 'Også hvordan de skal velge i ulykker.', true, true, 4),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q06', 'flervalg', 'Hvem gir råd til Stortinget om ny teknologi i Norge?', array['Datatilsynet', 'Teknologirådet', 'Forbrukerrådet', 'NRK']::text[], 1, 'Et uavhengig råd.', true, true, 5),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q07', 'flervalg', 'Hva betyr det at teknologi ikke er nøytral?', array['At den alltid er ond', 'At den ikke virker', 'At den påvirker og fordeler nytte, risiko og makt', 'At den er politisk styrt']::text[], 2, 'Valgene i utviklingen har konsekvenser.', true, true, 6),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q08', 'flervalg', 'Hvilket etisk spørsmål reiser genredigering med CRISPR?', array['Om fargen på plantene', 'Om prisen på laboratorieutstyr', 'Om hvor raskt det går', 'Om naturlighet, risiko og endringer som arves']::text[], 3, 'Særlig ved endringer i kjønnsceller.', true, true, 7),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q09', 'flervalg', 'Hvem bør identifiseres som berørte i en etisk drøfting?', array['Alle som påvirkes – også dyr, natur og framtidige generasjoner', 'Bare produsenten', 'Bare kjøperne', 'Bare myndighetene']::text[], 0, 'Bredt perspektiv.', true, false, 8),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'q10', 'flervalg', 'Hva handler pliktetikk om?', array['Bare konsekvensene', 'At noen handlinger er riktige eller gale i seg selv', 'Å maksimere profitt', 'Å følge flertallet']::text[], 1, 'For eksempel å ikke lyve.', true, false, 9),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm01', 'sant-usant', 'Ulike etiske perspektiver kan gi ulike svar på samme spørsmål.', array['Sant', 'Usant']::text[], 0, 'Derfor bruker en god drøfting gjerne flere.', false, true, 10),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm02', 'sant-usant', 'Føre var-prinsippet krever at skaden er bevist før man handler.', array['Sant', 'Usant']::text[], 1, 'Det gjelder nettopp når kunnskapen er usikker.', false, true, 11),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm03', 'sant-usant', 'Droner kan brukes både til redning og til krig.', array['Sant', 'Usant']::text[], 0, 'Samme teknologi kan ha ulik bruk.', false, true, 12),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm04', 'sant-usant', 'Bare ingeniører har ansvar for konsekvensene av teknologi.', array['Sant', 'Usant']::text[], 1, 'Også bedrifter, brukere og myndigheter har ansvar.', false, true, 13),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm05', 'flervalg', 'Hvilken risiko er knyttet til tingenes internett?', array['At tingene blir tyngre', 'Innbrudd i systemer og innsamling av data', 'At strømmen blir billigere', 'At tingene slutter å virke uten internett alltid']::text[], 1, 'Flere tilkoblede enheter gir flere angrepspunkter.', false, true, 14),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm06', 'flervalg', 'Hva er det siste steget i en etisk drøfting?', array['En begrunnet konklusjon', 'Å beskrive teknologien', 'Å liste opp perspektivene', 'Å telle argumentene']::text[], 0, 'Gjerne med forslag til tiltak.', false, true, 15),
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 'm07', 'flervalg', 'Hvilket argument for selvkjørende biler bygger på konsekvensetikk?', array['At det er galt å overlate valg til maskiner', 'At en god sjåfør alltid kjører selv', 'At de kan redusere antall ulykker', 'At bilene er pene']::text[], 2, 'Fokus på gode konsekvenser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:teknologi-og-etikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Teknologi og forskningslære 1: Teknologi i en virksomhet – bærekraftsperspektiv
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'teknologi-og-forskningslare-1', 'virksomhet-og-barekraft', 'Teknologi i en virksomhet – bærekraftsperspektiv', 'Hvordan du utforsker en virksomhet som arbeider med teknologi – forskning og utvikling, produksjon, automatisering og digitalisering – og vurderer den ut fra økonomisk, sosial og miljømessig bærekraft.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', '## Utforske en virksomhet
+
+En **virksomhet** kan være en bedrift, en offentlig etat eller en forskningsinstitusjon. Når du skal utforske hvordan den arbeider med teknologi, kan du for eksempel
+
+- lese årsrapporter, bærekraftsrapporter og nettsider
+- intervjue ansatte eller ha et **bedriftsbesøk**
+- se på produkter, produksjonsprosesser og **innovasjoner**
+
+Vær **kildekritisk**: Bedriftens egne rapporter viser gjerne de positive sidene.
+
+## Hvordan virksomheter bruker teknologi
+
+- **Forskning og utvikling (FoU)**: nye produkter, materialer og prosesser.
+- **Produksjon**: maskiner, **roboter** og **automatisering** gir høyere effektivitet og jevnere kvalitet.
+- **Digitalisering**: sensorer, dataanalyse og **kunstig intelligens** brukes til å overvåke produksjonen, forutsi vedlikehold og spare energi.
+- **Logistikk**: sporing av varer og optimalisering av transport.
+- **Tjenester**: apper, nettbutikker og digitale kundetjenester.
+
+## Tre dimensjoner av bærekraft
+
+**Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Vi skiller mellom tre dimensjoner:
+
+- **Miljø**: utslipp av klimagasser, energibruk, forurensning, avfall, arealbruk og naturmangfold.
+- **Sosial**: arbeidsforhold, helse og sikkerhet, likestilling, menneskerettigheter i **leverandørkjeden** og betydning for lokalsamfunnet.
+- **Økonomi**: lønnsomhet, arbeidsplasser og verdiskaping over tid.
+
+En virksomhet som tjener penger ved å ødelegge naturen eller utnytte arbeidere, er **ikke** bærekraftig – og en som går med stadig underskudd, heller ikke.
+
+## Verktøy for å vurdere bærekraft
+
+- **Livsløpsanalyse (LCA)**: kartlegger miljøbelastningen gjennom hele livsløpet – fra **råvareutvinning**, produksjon og transport til **bruk** og **avfall**.
+- **Klimaregnskap**: viser utslipp fra egen drift, fra innkjøpt energi og fra hele **verdikjeden**.
+- **Sirkulær økonomi**: produkter designes for å **vare lenge**, **repareres**, **gjenbrukes** og **gjenvinnes**, slik at ressursene blir i kretsløpet.
+- **Miljøsertifiseringer**, som **ISO 14001** eller **Miljøfyrtårn**, viser at virksomheten har et system for miljøarbeid.
+- **FNs bærekraftsmål** (17 mål fra 2015) brukes av mange virksomheter som ramme for rapporteringen.
+
+I Norge pålegger **åpenhetsloven** større virksomheter å kartlegge risiko for brudd på **menneskerettigheter** og anstendige arbeidsforhold hos leverandørene sine.
+
+## Teknologi som løsning og problem
+
+Teknologi kan gjøre virksomheter **mer** bærekraftige: elektrifisering, energigjenvinning, mindre svinn og bedre ressursutnyttelse. Men den kan også skape nye problemer: elektronisk avfall, høyt strømforbruk i datasentre og **rebound-effekter** – at effektivisering gjør produktet billigere, slik at vi bruker **mer** av det.
+
+## Slik kan du presentere
+
+1. **Hva** gjør virksomheten, og hvilken teknologi bruker den?
+2. **Hvordan** har teknologien endret arbeidet og produktene?
+3. **Vurder** virksomheten i de tre bærekraftsdimensjonene – med konkrete tall og eksempler der det er mulig.
+4. Foreslå **forbedringer** og drøft hindringer, som kostnader og teknologiske begrensninger.', '{"label":"Virksomhet og bærekraft","children":[{"label":"Utforske","children":[{"label":"Rapporter"},{"label":"Intervju og besøk"},{"label":"Kildekritikk"}]},{"label":"Teknologi","children":[{"label":"FoU"},{"label":"Automatisering"},{"label":"Digitalisering og KI"}]},{"label":"Bærekraft","children":[{"label":"Miljø"},{"label":"Sosial"},{"label":"Økonomi"}]},{"label":"Verktøy","children":[{"label":"LCA"},{"label":"Klimaregnskap"},{"label":"Sirkulær økonomi"},{"label":"Sertifiseringer"}]},{"label":"Drøfting","children":[{"label":"Løsning og problem"},{"label":"Rebound-effekt"},{"label":"Forbedringer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'teknologi-og-forskningslare-1:virksomhet-og-barekraft';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Virksomhet', 'Bedrift, offentlig etat eller forskningsinstitusjon.', 0),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'FoU', 'Forskning og utvikling.', 1),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Automatisering', 'Maskiner og roboter overtar oppgaver.', 2),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Forutsigende vedlikehold', 'Sensorer og data forutsier når maskiner trenger service.', 3),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Bærekraftig utvikling', 'Dekke dagens behov uten å ødelegge framtidige generasjoners muligheter.', 4),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Miljødimensjonen', 'Utslipp, energi, avfall og naturmangfold.', 5),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Sosial dimensjon', 'Arbeidsforhold, helse, likestilling og menneskerettigheter.', 6),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Økonomisk dimensjon', 'Lønnsomhet og verdiskaping over tid.', 7),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Livsløpsanalyse (LCA)', 'Miljøbelastning fra råvare til avfall.', 8),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Klimaregnskap', 'Oversikt over utslipp fra drift og verdikjede.', 9),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Sirkulær økonomi', 'Ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning.', 10),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Miljøfyrtårn', 'Norsk miljøsertifisering for virksomheter.', 11),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Åpenhetsloven', 'Pålegger større virksomheter å kartlegge menneskerettighetsrisiko hos leverandører.', 12),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Rebound-effekt', 'Effektivisering fører til økt forbruk.', 13),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'Leverandørkjede', 'Alle som leverer råvarer og deler til virksomheten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'teknologi-og-forskningslare-1:virksomhet-og-barekraft';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q01', 'flervalg', 'Hva er de tre dimensjonene av bærekraft?', array['Teknologi, økonomi og politikk', 'Miljø, sosial og økonomi', 'Energi, vann og luft', 'Lokal, nasjonal og global']::text[], 1, 'Alle tre må ivaretas.', true, true, 0),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q02', 'flervalg', 'Hva er en livsløpsanalyse?', array['En kartlegging av miljøbelastningen fra råvare til avfall', 'En økonomisk rapport', 'En personalanalyse', 'En markedsundersøkelse']::text[], 0, 'LCA.', true, true, 1),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q03', 'flervalg', 'Hva er sirkulær økonomi?', array['At penger sirkulerer raskt', 'At produkter kastes etter bruk', 'At ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning', 'At alt produseres lokalt']::text[], 2, 'Motsatt av bruk-og-kast.', true, true, 2),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q04', 'flervalg', 'Hva er en rebound-effekt?', array['At et produkt spretter', 'At en bedrift går konkurs', 'At utslippene går ned', 'At effektivisering gjør noe billigere, slik at vi bruker mer av det']::text[], 3, 'Kan spise opp miljøgevinsten.', true, true, 3),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q05', 'flervalg', 'Hva pålegger åpenhetsloven større virksomheter?', array['Å kartlegge risiko for brudd på menneskerettigheter hos leverandører', 'Å publisere alle lønninger', 'Å bruke bare norske leverandører', 'Å slutte med automatisering']::text[], 0, 'Aktsomhetsvurderinger.', true, true, 4),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q06', 'flervalg', 'Hvorfor bør du være kildekritisk til en bedrifts egen bærekraftsrapport?', array['Fordi den alltid er feil', 'Fordi den gjerne viser de positive sidene', 'Fordi den er for kort', 'Det trenger du ikke']::text[], 1, 'Sammenlign med andre kilder.', true, true, 5),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q07', 'flervalg', 'Hvordan kan sensorer og dataanalyse gjøre produksjonen mer bærekraftig?', array['Ved å øke svinnet', 'Ved å bruke mer energi', 'Ved å overvåke produksjonen, forutsi vedlikehold og spare energi', 'De har ingen betydning']::text[], 2, 'Digitalisering gir bedre ressursutnyttelse.', true, true, 6),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q08', 'flervalg', 'Hva hører til den sosiale dimensjonen av bærekraft?', array['Klimagassutslipp', 'Lønnsomhet', 'Arealbruk', 'Arbeidsforhold og menneskerettigheter']::text[], 3, 'Også helse og likestilling.', true, true, 7),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q09', 'flervalg', 'Hvor mange av FNs bærekraftsmål finnes det?', array['17', '10', '3', '50']::text[], 0, 'Vedtatt i 2015.', true, false, 8),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'q10', 'flervalg', 'Hva er Miljøfyrtårn?', array['Et fyrtårn på kysten', 'En norsk miljøsertifisering for virksomheter', 'En type solcelle', 'Et FN-organ']::text[], 1, 'Viser systematisk miljøarbeid.', true, false, 9),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm01', 'sant-usant', 'En virksomhet som går med stadig underskudd, er ikke økonomisk bærekraftig.', array['Sant', 'Usant']::text[], 0, 'Alle tre dimensjonene må ivaretas.', false, true, 10),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm02', 'sant-usant', 'En livsløpsanalyse ser bare på bruksfasen.', array['Sant', 'Usant']::text[], 1, 'Den dekker hele livsløpet, fra råvare til avfall.', false, true, 11),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm03', 'sant-usant', 'Teknologi kan både løse og skape bærekraftsproblemer.', array['Sant', 'Usant']::text[], 0, 'For eksempel elektrifisering og elektronisk avfall.', false, true, 12),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm04', 'sant-usant', 'Menneskerettigheter hos leverandører er ikke en del av bærekraft.', array['Sant', 'Usant']::text[], 1, 'De hører til den sosiale dimensjonen.', false, true, 13),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm05', 'flervalg', 'Hvilket tiltak hører til sirkulær økonomi?', array['Bruk og kast', 'Design for reparasjon og gjenbruk', 'Kortere levetid', 'Mer emballasje']::text[], 1, 'Ressursene holdes i kretsløpet.', false, true, 14),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm06', 'flervalg', 'Hva betyr FoU?', array['Forskning og utvikling', 'Fordeling og utbytte', 'Forsikring og utlån', 'Forbruk og utslipp']::text[], 0, 'Grunnlaget for innovasjon.', false, true, 15),
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 'm07', 'flervalg', 'Hva er en fordel med automatisering i produksjon?', array['Flere ulykker', 'Mer svinn', 'Høyere effektivitet og jevnere kvalitet', 'Ingen fordeler']::text[], 2, 'Men den kan også endre arbeidsplassene.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('teknologi-og-forskningslare-1:virksomhet-og-barekraft', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

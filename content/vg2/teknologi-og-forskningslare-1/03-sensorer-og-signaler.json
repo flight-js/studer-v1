@@ -1,0 +1,81 @@
+{
+  "id": "sensorer-og-signaler",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Sensorer, analoge og digitale signaler",
+  "intro": "Forskjellen på analoge og digitale signaler, hvordan en AD-omformer gjør spenning om til tall, vanlige sensorer for temperatur, lys, avstand og bevegelse, kalibrering og hvor sensorer brukes i samfunnet.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er en sensor?\n\nEn **sensor** gjør en fysisk størrelse – temperatur, lys, avstand, trykk, bevegelse – om til et **elektrisk signal** som en mikrokontroller kan lese.\n\n## Analoge og digitale signaler\n\n- Et **analogt** signal kan ha **alle verdier** innenfor et område, for eksempel en spenning mellom 0 og 5 V som øker jevnt med temperaturen.\n- Et **digitalt** signal har bare **bestemte verdier**, ofte to: **HØY** (1, for eksempel 5 V) og **LAV** (0, 0 V). En knapp er enten trykket inn eller ikke.\n\n## Fra analog til digital\n\nMikrokontrolleren arbeider med tall. En **AD-omformer** (analog–digital-omformer) gjør spenningen om til et **heltall**. Arduino Uno har en **10-biters** AD-omformer, som gir verdier fra **0 til 1023** for 0–5 V.\n\n**Omregning**: U = verdi · 5,0 / 1023. En verdi på 512 svarer til omtrent **2,5 V**.\n\n**Oppløsningen** er den minste endringen som kan registreres: 5 V / 1023 ≈ **4,9 mV**. Flere bit gir finere oppløsning.\n\n## Vanlige sensorer\n\n**Temperatur**: Sensoren **TMP36** gir 10 mV per grad, med 0,5 V ved 0 °C:\n\nT = (U − 0,5) · 100. Ved U = 0,75 V er T = **25 °C**.\n\nDigitale temperatursensorer sender i stedet ferdig tall over en **databuss**.\n\n**Lys**: En **fotoresistor (LDR)** får **lavere resistans** når det blir lysere. Den kobles i en **spenningsdeler** med en fast motstand, slik at spenningen endrer seg med lyset.\n\n**Avstand**: En **ultralydsensor** sender ut en lydpuls og måler tiden til ekkoet kommer tilbake:\n\navstand = tid · lydfart / 2\n\nMed ekkotid 2,0 ms og lydfart 343 m/s blir avstanden 0,002 · 343 / 2 ≈ **0,34 m**. Vi deler på 2 fordi lyden går **fram og tilbake**.\n\n**Bevegelse**: Et **akselerometer** måler akselerasjon i tre retninger og kan registrere helning, rystelser og skritt. **PIR-sensorer** oppdager varme kropper som beveger seg.\n\n**Andre**: fuktighet, trykk, CO₂, pH, lyd og **GPS**.\n\n## Kalibrering\n\nSensorer er ikke alltid nøyaktige. **Kalibrering** betyr å sammenligne sensoren med en **kjent referanse** og justere. En temperatursensor kan for eksempel kalibreres i isvann (0 °C) og kokende vann (omtrent 100 °C ved havnivå).\n\n## Egenskaper å vurdere\n\n- **Måleområde**: hvilke verdier sensoren kan måle.\n- **Oppløsning** og **nøyaktighet**.\n- **Responstid**: hvor raskt den reagerer.\n- **Pris**, **strømforbruk** og **størrelse**.\n\n## Bruksområder\n\n- **Hjemmet**: termostater, røykvarslere, bevegelsesstyrt lys.\n- **Bil**: ryggesensorer, kollisjonsputer (akselerometer), regnsensor.\n- **Helse**: pulsklokker, blodsukkermålere.\n- **Miljø**: målestasjoner for luftkvalitet, vannstand og vær.\n- **Industri**: overvåking av maskiner, temperatur og trykk.\n- **Mobiltelefonen**: akselerometer, gyroskop, lyssensor, nærhetssensor, GPS og mikrofon.",
+  "flashcards": [
+    { "term": "Sensor", "def": "Gjør en fysisk størrelse om til et elektrisk signal." },
+    { "term": "Analogt signal", "def": "Kan ha alle verdier innenfor et område." },
+    { "term": "Digitalt signal", "def": "Har bestemte verdier, ofte HØY og LAV." },
+    { "term": "AD-omformer", "def": "Gjør analog spenning om til et heltall." },
+    { "term": "10-biters AD-omformer", "def": "Gir verdier fra 0 til 1023." },
+    { "term": "Omregning fra verdi til spenning", "def": "U = verdi · 5,0 / 1023" },
+    { "term": "Oppløsning", "def": "Minste endring som kan registreres." },
+    { "term": "TMP36", "def": "T = (U − 0,5) · 100" },
+    { "term": "LDR", "def": "Fotoresistor med lavere resistans i sterkere lys." },
+    { "term": "Spenningsdeler", "def": "To motstander i serie som gir en spenning mellom." },
+    { "term": "Ultralydsensor", "def": "avstand = tid · lydfart / 2" },
+    { "term": "Akselerometer", "def": "Måler akselerasjon i tre retninger." },
+    { "term": "PIR-sensor", "def": "Oppdager varme kropper som beveger seg." },
+    { "term": "Kalibrering", "def": "Sammenligne med kjent referanse og justere." },
+    { "term": "Responstid", "def": "Hvor raskt sensoren reagerer." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på et analogt og et digitalt signal?", "options": ["Analoge er alltid raskere", "Et analogt kan ha alle verdier i et område, et digitalt har bestemte verdier", "Digitale signaler finnes bare i datamaskiner", "Det er ingen forskjell"], "correct": 1, "explain": "For eksempel 0–5 V mot HØY/LAV." },
+    { "id": "q02", "text": "Hvilket tallområde gir en 10-biters AD-omformer?", "options": ["0–1023", "0–255", "0–100", "0–5"], "correct": 0, "explain": "2¹⁰ = 1024 verdier." },
+    { "id": "q03", "text": "En TMP36 gir 0,75 V. Hva er temperaturen?", "options": ["75 °C", "7,5 °C", "25 °C", "50 °C"], "correct": 2, "explain": "(0,75 − 0,5) · 100." },
+    { "id": "q04", "text": "Hvorfor deler vi på 2 når vi regner avstand med ultralydsensor?", "options": ["Fordi lydfarten er halvert", "Fordi sensoren har to deler", "Fordi det er to målinger", "Fordi lyden går fram og tilbake"], "correct": 3, "explain": "Tiden gjelder begge veier." },
+    { "id": "q05", "text": "Hva skjer med resistansen i en LDR når det blir lysere?", "options": ["Den blir lavere", "Den blir høyere", "Den er uendret", "Den blir null"], "correct": 0, "explain": "Brukes i lysmålere og nattlys." },
+    { "id": "q06", "text": "Hva er kalibrering?", "options": ["Å male sensoren", "Å sammenligne med en kjent referanse og justere", "Å bytte batteri", "Å skrive programmet"], "correct": 1, "explain": "For eksempel i isvann og kokende vann." },
+    { "id": "q07", "text": "Ekkotiden er 2,0 ms og lydfarten 343 m/s. Hva er avstanden?", "options": ["0,69 m", "3,4 m", "Omtrent 0,34 m", "686 m"], "correct": 2, "explain": "0,002 · 343 / 2." },
+    { "id": "q08", "text": "Hvilken sensor brukes til å utløse kollisjonsputer i bil?", "options": ["Lyssensor", "Fuktighetssensor", "GPS", "Akselerometer"], "correct": 3, "explain": "Den registrerer plutselig nedbremsing." },
+    { "id": "q09", "text": "Hvilken spenning svarer til verdien 512 på en 10-biters AD-omformer med 5 V?", "options": ["Omtrent 2,5 V", "5 V", "0,5 V", "512 V"], "correct": 0, "explain": "512 · 5,0 / 1023." },
+    { "id": "q10", "text": "Hva er oppløsningen til en sensor?", "options": ["Hvor stor sensoren er", "Den minste endringen som kan registreres", "Hvor mye strøm den bruker", "Hvor lenge den varer"], "correct": 1, "explain": "Flere bit gir finere oppløsning." }
+  ],
+  "mindmap": {
+    "label": "Sensorer og signaler",
+    "children": [
+      { "label": "Signaler", "children": [
+        { "label": "Analoge" },
+        { "label": "Digitale" }
+      ] },
+      { "label": "AD-omforming", "children": [
+        { "label": "0–1023" },
+        { "label": "Oppløsning" }
+      ] },
+      { "label": "Sensorer", "children": [
+        { "label": "Temperatur" },
+        { "label": "Lys (LDR)" },
+        { "label": "Ultralyd" },
+        { "label": "Akselerometer og PIR" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Kalibrering" },
+        { "label": "Måleområde og nøyaktighet" },
+        { "label": "Responstid" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Hjem og bil" },
+        { "label": "Helse og miljø" },
+        { "label": "Mobiltelefonen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En knapp gir et digitalt signal.", "correct": true, "explain": "Den er enten trykket inn eller ikke." },
+      { "id": "m02", "type": "sant-usant", "text": "En AD-omformer med flere bit gir grovere oppløsning.", "correct": false, "explain": "Flere bit gir finere oppløsning." },
+      { "id": "m03", "type": "sant-usant", "text": "Mobiltelefoner har mange innebygde sensorer.", "correct": true, "explain": "For eksempel akselerometer, gyroskop og GPS." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle sensorer måler helt nøyaktig uten kalibrering.", "correct": false, "explain": "Kalibrering kan være nødvendig." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er oppløsningen til en 10-biters AD-omformer på 5 V?", "options": ["0,5 V", "Omtrent 4,9 mV", "1 V", "10 mV"], "correct": 1, "explain": "5 V / 1023." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken sensor passer best til en ryggesensor på en bil?", "options": ["Ultralydsensor", "Lyssensor", "Temperatursensor", "Fuktighetssensor"], "correct": 0, "explain": "Den måler avstand." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan kobles en LDR vanligvis til en analog inngang?", "options": ["Direkte til 230 V", "I serie med en motor", "I en spenningsdeler med en fast motstand", "Uten ledninger"], "correct": 2, "explain": "Spenningen endrer seg med lyset." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

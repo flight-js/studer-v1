@@ -1,0 +1,81 @@
+{
+  "id": "dataanalyse-og-usikkerhet",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Dataanalyse og måleusikkerhet",
+  "intro": "Hvordan du analyserer data fra forsøk, skiller tilfeldige og systematiske feil, beregner gjennomsnitt, standardavvik og relativ usikkerhet, og tester tiltak som kan redusere usikkerheten.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Ingen måling er perfekt\n\nAlle målinger har en **usikkerhet**. Oppgaven er ikke å late som den ikke finnes, men å **anslå** hvor stor den er og **redusere** den der det er mulig.\n\n## To typer feil\n\n- **Tilfeldige feil** varierer fra måling til måling – støy i en sensor, små variasjoner i omgivelsene eller reaksjonstid. De gjør målingene **spredt**, men jevner seg ut over mange målinger.\n- **Systematiske feil** gir **samme skjevhet** hver gang – en sensor som alltid viser 1,5 °C for mye, eller en vekt som ikke er nullstilt. De **forsvinner ikke** ved å måle flere ganger, men kan oppdages ved **kalibrering** mot en kjent referanse.\n\n## Beskrive dataene\n\n- **Gjennomsnitt**: summen av målingene delt på antallet.\n- **Median**: den midterste verdien – mindre følsom for ekstreme verdier.\n- **Variasjonsbredde**: største minus minste verdi.\n- **Standardavvik**: et mål på hvor mye målingene typisk avviker fra gjennomsnittet. Regnes enkelt ut i regneark med STDAV.\n\n**Eksempel**: Fem målinger av avstand med ultralydsensor gir 50,2 – 49,8 – 50,4 – 50,0 – 49,6 cm. Gjennomsnittet er **50,0 cm**, og variasjonsbredden er 0,8 cm. Resultatet kan skrives som (50,0 ± 0,4) cm.\n\n## Relativ usikkerhet\n\n**Relativ usikkerhet** = usikkerhet / måleverdi. En usikkerhet på 0,4 cm er **0,8 %** av 50 cm, men **40 %** av 1 cm. Derfor sier den relative usikkerheten mer om **kvaliteten** på målingen.\n\n## Uteliggere\n\nEn **uteligger** er en måling som skiller seg kraftig fra resten. Den kan skyldes en **feil** – en løs ledning, et forstyrret ekko – eller et **ekte fenomen**. Undersøk årsaken før du eventuelt tar den bort, og **dokumenter** valget.\n\n## Teste om usikkerheten kan reduseres\n\nLag et lite **forsøk** der du endrer én ting og ser om spredningen blir mindre:\n\n- **Flere målinger** og **gjennomsnitt** – for eksempel ved å la mikrokontrolleren ta 10 målinger og bruke snittet (et enkelt **filter**).\n- **Bedre sensor** med høyere oppløsning eller nøyaktighet.\n- **Kalibrering** mot referanse for å fjerne systematiske feil.\n- **Stabile forhold**: skjerm sensoren mot trekk, sollys eller vibrasjoner.\n- **Bedre oppsett**: faste avstander, stativ og korte ledninger.\n\nSammenlign **standardavviket før og etter** tiltaket. Blir det mindre, har tiltaket redusert den tilfeldige usikkerheten.\n\n## Grafer og trender\n\n- Et **punktdiagram** viser sammenhengen mellom to variabler.\n- **Regresjon** gir en linje eller kurve som passer best.\n- **Feilstolper** kan vise usikkerheten i hvert punkt.\n\nPass på at du ikke tolker **støy** som en **trend** – og husk at **korrelasjon** ikke beviser **årsakssammenheng**.\n\n## Gjeldende siffer\n\nOppgi ikke svaret med flere siffer enn målingene gir grunnlag for. Hvis sensoren bare er nøyaktig til nærmeste **0,5 °C**, gir det ingen mening å oppgi 21,237 °C.",
+  "flashcards": [
+    { "term": "Måleusikkerhet", "def": "Anslag over hvor mye målingen kan avvike fra den sanne verdien." },
+    { "term": "Tilfeldig feil", "def": "Varierer fra måling til måling og jevner seg ut over mange målinger." },
+    { "term": "Systematisk feil", "def": "Gir samme skjevhet hver gang – oppdages ved kalibrering." },
+    { "term": "Gjennomsnitt", "def": "Summen av målingene delt på antallet." },
+    { "term": "Median", "def": "Den midterste verdien – lite følsom for ekstreme verdier." },
+    { "term": "Variasjonsbredde", "def": "Største minus minste verdi." },
+    { "term": "Standardavvik", "def": "Typisk avvik fra gjennomsnittet." },
+    { "term": "STDAV", "def": "Regnearkfunksjon for standardavvik." },
+    { "term": "Relativ usikkerhet", "def": "Usikkerhet delt på måleverdien." },
+    { "term": "Uteligger", "def": "Måling som skiller seg kraftig fra resten." },
+    { "term": "Glidende gjennomsnitt", "def": "Enkelt filter som jevner ut støy." },
+    { "term": "Feilstolper", "def": "Viser usikkerheten i hvert datapunkt." },
+    { "term": "Støy", "def": "Tilfeldige variasjoner i signalet." },
+    { "term": "Gjeldende siffer", "def": "Ikke oppgi flere siffer enn målingene tillater." },
+    { "term": "Teste et tiltak", "def": "Sammenlign standardavviket før og etter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva kjennetegner en systematisk feil?", "options": ["Den varierer tilfeldig", "Den gir samme skjevhet hver gang", "Den forsvinner med flere målinger", "Den skyldes alltid brukeren"], "correct": 1, "explain": "Oppdages ved kalibrering." },
+    { "id": "q02", "text": "Hvordan kan du redusere tilfeldige feil?", "options": ["Ta flere målinger og bruke gjennomsnittet", "Bruke færre målinger", "Runde av mer", "Endre enheten"], "correct": 0, "explain": "Tilfeldige variasjoner jevner seg ut." },
+    { "id": "q03", "text": "Fem målinger gir 50,2 – 49,8 – 50,4 – 50,0 – 49,6 cm. Hva er gjennomsnittet?", "options": ["49,8 cm", "50,4 cm", "50,0 cm", "0,8 cm"], "correct": 2, "explain": "250,0 / 5." },
+    { "id": "q04", "text": "Hva er den relative usikkerheten når målingen er 50 cm ± 0,4 cm?", "options": ["40 %", "4 %", "0,4 %", "0,8 %"], "correct": 3, "explain": "0,4 / 50." },
+    { "id": "q05", "text": "Hvordan kan du teste om et tiltak har redusert usikkerheten?", "options": ["Sammenligne standardavviket før og etter", "Se om gjennomsnittet ble høyere", "Telle målingene", "Endre grafens farge"], "correct": 0, "explain": "Mindre spredning betyr mindre tilfeldig usikkerhet." },
+    { "id": "q06", "text": "Hva bør du gjøre med en uteligger?", "options": ["Alltid slette den", "Undersøke årsaken og dokumentere valget", "Gange den med to", "Ignorere alle andre målinger"], "correct": 1, "explain": "Den kan være en feil eller et ekte fenomen." },
+    { "id": "q07", "text": "Hvilket mål er minst følsomt for ekstreme verdier?", "options": ["Gjennomsnitt", "Variasjonsbredde", "Median", "Sum"], "correct": 2, "explain": "Den midterste verdien." },
+    { "id": "q08", "text": "Hvordan oppdages en sensor som alltid viser 1,5 °C for mye?", "options": ["Ved å ta flere målinger", "Ved å bruke median", "Ved å runde av", "Ved kalibrering mot en kjent referanse"], "correct": 3, "explain": "En systematisk feil." },
+    { "id": "q09", "text": "Hva viser feilstolper i en graf?", "options": ["Usikkerheten i hvert punkt", "Feil i programmet", "Gjennomsnittet", "Tidspunktet"], "correct": 0, "explain": "Viser hvor sikre punktene er." },
+    { "id": "q10", "text": "Hvorfor bør du ikke oppgi 21,237 °C når sensoren er nøyaktig til 0,5 °C?", "options": ["Fordi det er for høyt", "Fordi svaret da later som det er mer nøyaktig enn det er", "Fordi temperatur ikke har desimaler", "Det er helt greit"], "correct": 1, "explain": "Gjeldende siffer." }
+  ],
+  "mindmap": {
+    "label": "Dataanalyse og usikkerhet",
+    "children": [
+      { "label": "Feiltyper", "children": [
+        { "label": "Tilfeldige" },
+        { "label": "Systematiske" }
+      ] },
+      { "label": "Beskrive data", "children": [
+        { "label": "Gjennomsnitt og median" },
+        { "label": "Variasjonsbredde" },
+        { "label": "Standardavvik" }
+      ] },
+      { "label": "Usikkerhet", "children": [
+        { "label": "± og relativ" },
+        { "label": "Uteliggere" },
+        { "label": "Gjeldende siffer" }
+      ] },
+      { "label": "Redusere", "children": [
+        { "label": "Flere målinger" },
+        { "label": "Kalibrering" },
+        { "label": "Bedre oppsett" }
+      ] },
+      { "label": "Grafer", "children": [
+        { "label": "Regresjon" },
+        { "label": "Feilstolper" },
+        { "label": "Støy og trend" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Systematiske feil forsvinner ikke ved å ta flere målinger.", "correct": true, "explain": "Skjevheten er lik hver gang." },
+      { "id": "m02", "type": "sant-usant", "text": "Relativ usikkerhet sier mindre om kvaliteten enn absolutt usikkerhet.", "correct": false, "explain": "Den relative usikkerheten sier mest om kvaliteten." },
+      { "id": "m03", "type": "sant-usant", "text": "Å la mikrokontrolleren bruke gjennomsnittet av flere målinger er et enkelt filter.", "correct": true, "explain": "Det jevner ut støy." },
+      { "id": "m04", "type": "sant-usant", "text": "Korrelasjon mellom to målinger beviser en årsakssammenheng.", "correct": false, "explain": "Korrelasjon er ikke årsak." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er variasjonsbredden for målingene 50,2 – 49,8 – 50,4 – 50,0 – 49,6 cm?", "options": ["0,4 cm", "0,8 cm", "50,0 cm", "0,2 cm"], "correct": 1, "explain": "50,4 − 49,6." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak reduserer systematiske feil?", "options": ["Kalibrering", "Flere målinger", "Glidende gjennomsnitt", "Større graf"], "correct": 0, "explain": "Sammenlign med kjent referanse." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en fare når du tolker grafer med mye støy?", "options": ["At aksene forsvinner", "At grafen blir for pen", "At du tolker tilfeldig støy som en trend", "At dataene blir færre"], "correct": 2, "explain": "Se etter tydelige mønstre over tid." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

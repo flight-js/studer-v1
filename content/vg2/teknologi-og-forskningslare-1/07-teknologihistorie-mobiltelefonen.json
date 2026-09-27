@@ -1,0 +1,83 @@
+{
+  "id": "teknologihistorie-mobiltelefonen",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Et teknologisk produkt: mobiltelefonen",
+  "intro": "Hvordan mobiltelefonen har utviklet seg fra de første håndholdte telefonene til smarttelefoner, hvordan den virker – radiobølger, basestasjoner, berøringsskjerm og batteri – og hvilken nytte og hvilke utfordringer den gir samfunnet.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Slik kan du beskrive et teknologisk produkt\n\nNår du skal beskrive et produkt, kan du bruke tre spørsmål: **Hvordan har det utviklet seg?** **Hvordan virker det?** **Hva betyr det for samfunnet?** Her bruker vi mobiltelefonen som eksempel.\n\n## Historisk utvikling\n\n- **1973**: Martin Cooper hos Motorola gjorde den første samtalen fra en **håndholdt mobiltelefon**. Telefonen veide rundt ett kilo.\n- **1981**: Det nordiske mobilnettet **NMT** ble åpnet, blant annet i Norge. Det var **analogt**, og telefonene var store og dyre.\n- **1990-tallet**: Det **digitale** GSM-nettet (**2G**) kom. Telefonene ble mindre, og **SMS** ble populært.\n- **2000-tallet**: **3G** ga mobilt internett, og kamera ble vanlig i telefonen.\n- **2007**: **iPhone** kom med stor berøringsskjerm og **apper**, og smarttelefonen slo gjennom.\n- **2010-tallet**: **4G** ga rask nok forbindelse til video og strømming. Mobilen ble **lommebok**, kart og billett.\n- **I dag**: **5G** gir enda høyere hastighet og kortere forsinkelse, blant annet for industri og tingenes internett.\n\nUtviklingen har vært drevet av **mindre og kraftigere** brikker, **bedre batterier**, **nye nettverk** – og av hva folk og bedrifter har ønsket seg.\n\n## Hvordan mobiltelefonen virker\n\n**Mobilnettet**: Landet er delt i **celler**, hver med en **basestasjon** (mast). Telefonen kommuniserer med nærmeste basestasjon ved hjelp av **radiobølger** – elektromagnetiske bølger. Når du beveger deg, **overleveres** samtalen fra én celle til neste. Basestasjonene er koblet sammen i et kjernenett som sender dataene videre.\n\n**Digitale signaler**: Stemmen gjøres om til **tall** (digitalisering), **komprimeres** og sendes. Det gir bedre lydkvalitet og plass til flere brukere enn de gamle analoge nettene.\n\n**SIM-kortet** identifiserer abonnementet ditt.\n\n**Berøringsskjermen** er vanligvis **kapasitiv**: Et tynt, strømførende lag registrerer endringen når en finger rører skjermen.\n\n**Litium-ion-batteriet** lagrer mye energi i forhold til vekten og kan lades mange ganger.\n\n**Sensorer**: akselerometer, gyroskop, GPS, lyssensor, nærhetssensor, kamera og mikrofon gjør telefonen til et avansert måleinstrument.\n\n## Samfunnsnytte\n\n- **Kommunikasjon** med hvem som helst, nesten hvor som helst.\n- **Sikkerhet**: nødsamtaler, varslinger og posisjon ved ulykker.\n- **Økonomi og tjenester**: mobilbetaling, bank, billetter og offentlige tjenester. I mange land uten utbygd bank har mobilbetaling gitt millioner tilgang til finansielle tjenester.\n- **Kunnskap**: tilgang til informasjon og læring.\n\n## Utfordringer\n\n- **Skjermtid**, konsentrasjon og søvn.\n- **Personvern**: Telefonen samler inn mye data om oss.\n- **Miljø**: Produksjonen krever metaller som **kobolt**, **litium** og **sjeldne jordarter**, ofte utvunnet under vanskelige forhold. Gamle telefoner blir **elektronisk avfall**.\n- **Avhengighet** av nett og strøm – og sårbarhet ved utfall.\n\n## Drøfting\n\nEr mobiltelefonen først og fremst et gode? Drøft ved å veie **nytte** mot **ulemper** for ulike grupper – barn, eldre, arbeidstakere, folk i fattige land – og foreslå **tiltak** som kan redusere ulempene, som reparasjon, gjenvinning og bevisst bruk.",
+  "flashcards": [
+    { "term": "1973", "def": "Første samtale fra en håndholdt mobiltelefon (Motorola)." },
+    { "term": "NMT", "def": "Nordisk analogt mobilnett fra 1981." },
+    { "term": "GSM (2G)", "def": "Digitalt mobilnett fra 1990-tallet, med SMS." },
+    { "term": "2007", "def": "iPhone kom, og smarttelefonen slo gjennom." },
+    { "term": "4G", "def": "Rask mobilforbindelse for video og strømming." },
+    { "term": "5G", "def": "Høy hastighet og kort forsinkelse." },
+    { "term": "Celle", "def": "Område som dekkes av én basestasjon." },
+    { "term": "Basestasjon", "def": "Mast som kommuniserer med telefonene via radiobølger." },
+    { "term": "Overlevering", "def": "Samtalen flyttes fra én celle til neste." },
+    { "term": "Digitalisering av stemmen", "def": "Lyden gjøres om til tall, komprimeres og sendes." },
+    { "term": "SIM-kort", "def": "Identifiserer abonnementet." },
+    { "term": "Kapasitiv berøringsskjerm", "def": "Registrerer fingerens påvirkning på et strømførende lag." },
+    { "term": "Litium-ion-batteri", "def": "Lagrer mye energi i forhold til vekten." },
+    { "term": "Konfliktmineraler", "def": "Metaller utvunnet under vanskelige forhold, for eksempel kobolt." },
+    { "term": "Elektronisk avfall", "def": "Kasserte telefoner og annen elektronikk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når ble den første samtalen fra en håndholdt mobiltelefon gjort?", "options": ["1956", "1973", "1991", "2007"], "correct": 1, "explain": "Martin Cooper hos Motorola." },
+    { "id": "q02", "text": "Hva var NMT?", "options": ["Et nordisk analogt mobilnett fra 1981", "En type smarttelefon", "Et batteri", "En app"], "correct": 0, "explain": "Nordisk mobiltelefoni." },
+    { "id": "q03", "text": "Hva gjør en basestasjon?", "options": ["Lader telefonen", "Lagrer apper", "Kommuniserer med telefonene i cellen via radiobølger", "Produserer SIM-kort"], "correct": 2, "explain": "Landet er delt i celler." },
+    { "id": "q04", "text": "Hvorfor var overgangen fra analoge til digitale mobilnett viktig?", "options": ["Telefonene ble større", "Den fjernet behovet for master", "Den gjorde samtaler gratis", "Den ga bedre lyd og plass til flere brukere"], "correct": 3, "explain": "Stemmen sendes som komprimerte tall." },
+    { "id": "q05", "text": "Hvordan virker en kapasitiv berøringsskjerm?", "options": ["Den registrerer fingerens påvirkning på et strømførende lag", "Den bruker trykkluft", "Den ser fingeren med kamera", "Den registrerer lyd"], "correct": 0, "explain": "Derfor virker den ikke med vanlige hansker." },
+    { "id": "q06", "text": "Hva skjer når du beveger deg mellom to celler under en samtale?", "options": ["Samtalen brytes alltid", "Samtalen overleveres til neste basestasjon", "Telefonen slår seg av", "SIM-kortet byttes"], "correct": 1, "explain": "Handover." },
+    { "id": "q07", "text": "Hvilken miljøutfordring er knyttet til mobiltelefoner?", "options": ["De bruker ingen metaller", "De lages av tre", "Utvinning av metaller som kobolt og litium, og elektronisk avfall", "De forurenser ikke"], "correct": 2, "explain": "Reparasjon og gjenvinning hjelper." },
+    { "id": "q08", "text": "Hva kjennetegnet smarttelefonen som slo gjennom i 2007?", "options": ["Tastatur med knapper", "Antenne", "Bare SMS", "Stor berøringsskjerm og apper"], "correct": 3, "explain": "iPhone endret markedet." },
+    { "id": "q09", "text": "Hvilke tre spørsmål kan du bruke for å beskrive et teknologisk produkt?", "options": ["Hvordan har det utviklet seg, hvordan virker det, hva betyr det for samfunnet?", "Hva koster det, hvem eier det, hvor er det laget?", "Hvilken farge, hvilken størrelse, hvilket merke?", "Når, hvor, hvorfor?"], "correct": 0, "explain": "Historie, virkemåte og samfunnsnytte." },
+    { "id": "q10", "text": "Hvordan har mobilbetaling hjulpet mange i land uten utbygd bank?", "options": ["Den har gjort telefonene billigere", "Den har gitt millioner tilgang til finansielle tjenester", "Den har erstattet strøm", "Den har ikke hatt betydning"], "correct": 1, "explain": "Et eksempel på samfunnsnytte." }
+  ],
+  "mindmap": {
+    "label": "Mobiltelefonen",
+    "children": [
+      { "label": "Historie", "children": [
+        { "label": "1973 første samtale" },
+        { "label": "NMT og GSM" },
+        { "label": "Smarttelefon 2007" },
+        { "label": "4G og 5G" }
+      ] },
+      { "label": "Mobilnettet", "children": [
+        { "label": "Celler og basestasjoner" },
+        { "label": "Radiobølger" },
+        { "label": "Overlevering" }
+      ] },
+      { "label": "Telefonen", "children": [
+        { "label": "Berøringsskjerm" },
+        { "label": "Batteri" },
+        { "label": "Sensorer" }
+      ] },
+      { "label": "Nytte", "children": [
+        { "label": "Kommunikasjon" },
+        { "label": "Sikkerhet" },
+        { "label": "Betaling og tjenester" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Skjermtid" },
+        { "label": "Personvern" },
+        { "label": "Miljø og metaller" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mobiltelefoner kommuniserer med basestasjoner ved hjelp av radiobølger.", "correct": true, "explain": "Radiobølger er elektromagnetiske bølger." },
+      { "id": "m02", "type": "sant-usant", "text": "NMT-nettet var digitalt.", "correct": false, "explain": "NMT var analogt; GSM var digitalt." },
+      { "id": "m03", "type": "sant-usant", "text": "Smarttelefonen har mange sensorer, som akselerometer og GPS.", "correct": true, "explain": "Den kan brukes som måleinstrument." },
+      { "id": "m04", "type": "sant-usant", "text": "Mobilteknologien har bare hatt positive konsekvenser.", "correct": false, "explain": "Den har også ulemper, som miljøbelastning og personvernutfordringer." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken mobilgenerasjon gjorde SMS populært?", "options": ["1G", "2G (GSM)", "4G", "5G"], "correct": 1, "explain": "Det digitale GSM-nettet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva identifiserer abonnementet ditt i telefonen?", "options": ["SIM-kortet", "Batteriet", "Skjermen", "Kameraet"], "correct": 0, "explain": "Det kobler telefonen til operatøren." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tiltak kan redusere miljøbelastningen fra mobiltelefoner?", "options": ["Kjøpe ny telefon hvert år", "Kaste gamle telefoner i restavfallet", "Reparere og gjenvinne telefoner", "Lade oftere"], "correct": 2, "explain": "Lengre levetid sparer ressurser." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

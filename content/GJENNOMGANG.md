@@ -575,6 +575,25 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Tysk historie: fra keiserrike til gjenforening** – utkast (362 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Litteratur, musikk og film** – utkast (384 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 
+## Biologi 1 (vg2) – 11 av 11 temaer ferdig
+
+Læreplan: [BIO01-02](https://www.udir.no/lk20/bio01-02/kompetansemaal-og-vurdering/kv538)
+
+- 🟡 **Biologisk metode og undersøkelser** – utkast (376 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Systematikk og klassifisering** – utkast (380 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Anatomi, fysiologi og livsprosesser** – utkast (380 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Homeostase og regulering** – utkast (398 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Cellen, membraner og cellekommunikasjon** – utkast (417 ord · 16 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+- 🟡 **Celledeling og cellesyklus** – utkast (412 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Smittsomme sykdommer og immunforsvaret** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Vaksiner – vern for individ og samfunn** – utkast (451 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Antibiotika og antibiotikaresistens** – sjekkes (450 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk anslaget om over én million dødsfall direkte forårsaket av resistente bakterier i 2019 mot nyeste tall (GRAM/Lancet).
+- 🟡 **Økosystemer og biologisk mangfold** – utkast (430 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🔴 **Klima, arealbruk og truet mangfold** – sjekkes (441 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk tallet på truede arter mot nyeste Norsk rødliste for arter (2021-utgaven er brukt; en ny utgave kan være publisert).
+  - Sjekk: Sjekk IPBES-anslaget og Naturavtalens mål mot oppdaterte kilder.
+
 ## Fransk (vg2) – 6 av 6 temaer ferdig
 
 Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurdering/kv966)
@@ -585,6 +604,38 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Studier og arbeid i fransktalende land** – utkast (335 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Å lese fransk litteratur** – utkast (379 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Ungdomskultur, slang og språklæring** – utkast (380 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
+## Fysikk 1 (vg2) – 10 av 10 temaer ferdig
+
+Læreplan: [FYS01-02](https://www.udir.no/lk20/fys01-02/kompetansemaal-og-vurdering/kv466)
+
+- 🟡 **Forsøk, målinger og modeller i fysikk** – utkast (364 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Rettlinjet bevegelse** – utkast (367 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Krefter og Newtons lover** – utkast (400 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Numeriske metoder og programmering** – utkast (400 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Arbeid, energi, effekt og virkningsgrad** – utkast (423 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Bevegelsesmengde, impuls og støt** – utkast (427 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Elektrisitet og kretser** – utkast (446 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Varme, temperatur og indre energi** – utkast (432 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Stråling, strålingsbalanse og klima** – utkast (440 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Atommodeller, spektre og fusjon** – utkast (486 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Geofag 1 (vg2) – 10 av 10 temaer ferdig
+
+Læreplan: [GFG01-03](https://www.udir.no/lk20/gfg01-03/kompetansemaal-og-vurdering/kv972)
+
+- 🟡 **Jordsystemene og samspillet mellom dem** – utkast (420 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Jordas indre og platetektonikk** – utkast (424 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Mineraler, bergarter og sedimenter** – utkast (405 ord · 16 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Geologisk tid og datering** – utkast (487 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Lokal geologi og feltarbeid** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Landformer og landskapsprosesser** – utkast (393 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Det hydrologiske kretsløpet** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🔴 **Ferskvann som ressurs** – sjekkes (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk andelene for drikkevann fra overflatevann og vannkraftens andel av strømproduksjonen i Norge mot nyeste tall (FHI/NVE/SSB).
+- 🔴 **Geologiske ressurser** – sjekkes (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 23 noder i tankekart)
+  - Sjekk: Sjekk status og omtale av Fensfeltet (sjeldne jordartsmetaller) mot oppdaterte kilder.
+- 🟡 **Naturfarer, risiko og modellering** – utkast (485 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
 ## Historie (vg2) – 9 av 9 temaer ferdig
 
@@ -599,6 +650,24 @@ Læreplan: [HIS01-03](https://www.udir.no/lk20/his01-03/kompetansemaal-og-vurder
 - 🟡 **Kommunikasjon og kulturmøter** – utkast (397 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Makt og legitimitet fra middelalder til tidlig nytid** – utkast (420 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Religion, makt og identitet** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Informasjonsteknologi 1 (vg2) – 11 av 11 temaer ferdig
+
+Læreplan: [INF01-03](https://www.udir.no/lk20/inf01-03/kompetansemaal-og-vurdering/kv977)
+
+- 🟡 **Informasjonsteknologi i samfunnet** – utkast (403 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Datamaskiner og nettverk** – utkast (440 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Digital representasjon og datalagring** – utkast (435 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Nettsider med HTML og CSS** – utkast (379 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Lagre, hente og presentere data på nettsider** – utkast (395 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Brukervennlighet og universell utforming** – sjekkes (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+  - Sjekk: Sjekk gjeldende krav i forskrift om universell utforming av IKT-løsninger (hvilken WCAG-versjon og hvilke virksomheter som omfattes).
+- 🟡 **Programmering med funksjoner** – utkast (404 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Algoritmer og effektivitet** – utkast (469 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Personvern og regelverk** – sjekkes (406 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk gjeldende regler for informasjonskapsler (ekomloven) og aldersgrensen for samtykke mot oppdaterte kilder.
+- 🟡 **Innhenting, bruk og misbruk av data** – utkast (435 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Algoritmisk tenkning og problemløsning** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
 ## Kinesisk (vg2) – 6 av 6 temaer ferdig
 
@@ -658,6 +727,38 @@ Læreplan: [MAT05-04](https://www.udir.no/lk20/mat05-04/kompetansemaal-og-vurder
 - 🟡 **Analysere og presentere datasett** – utkast (338 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 - 🟡 **Formlikhet, målestokk og geometri i praksis** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 
+## Matematikk R1 (vg2) – 11 av 11 temaer ferdig
+
+Læreplan: [MAT03-02](https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv293)
+
+- 🟡 **Grenseverdier** – utkast (415 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kontinuitet** – utkast (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Den deriverte – definisjon og tolkning** – utkast (389 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Derivasjonsregler** – utkast (394 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Funksjonsdrøfting med derivasjon** – utkast (385 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Potenser, logaritmer og likninger** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Eksponentiell og logistisk vekst** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Omvendte funksjoner** – utkast (461 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Modellering, datasett og optimering** – utkast (482 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Vektorer i planet** – utkast (439 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Parameterframstillinger** – utkast (496 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+
+## Matematikk S1 (vg2) – 11 av 11 temaer ferdig
+
+Læreplan: [MAT04-02](https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv295)
+
+- 🟡 **Algebra og matematiske resonnementer** – utkast (481 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Grenseverdier og kontinuitet** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Vekstfart og derivasjon** – utkast (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Funksjonsanalyse med derivasjon** – utkast (419 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Optimering i økonomi** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Potenser, logaritmer og anvendelser** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Modellering med samfunnsøkonomiske data** – utkast (416 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Kombinatorikk** – utkast (444 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Sannsynlighet, simulering og stokastiske variabler** – utkast (422 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Binomisk fordeling** – utkast (402 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Hypergeometrisk fordeling** – utkast (438 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+
 ## Norsk (vg2) – 8 av 8 temaer ferdig
 
 Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurdering/kv1112)
@@ -682,6 +783,20 @@ Læreplan: [FSP01-04](https://www.udir.no/lk20/fsp01-04/kompetansemaal-og-vurder
 - 🟡 **Studier og arbeid i spansktalende land** – utkast (312 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
 - 🟡 **Å lese spanskspråklig litteratur** – utkast (373 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 - 🟡 **Ungdomskultur, fester og språklæring** – utkast (412 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Teknologi og forskningslære 1 (vg2) – 9 av 9 temaer ferdig
+
+Læreplan: [TNF01-03](https://www.udir.no/lk20/tnf01-03/kompetansemaal-og-vurdering/kv975)
+
+- 🟡 **Kravspesifikasjon, arbeidstegninger og produktutvikling** – utkast (405 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Mikrokontrollere** – utkast (383 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sensorer, analoge og digitale signaler** – utkast (425 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Et produkt som samler inn data** – utkast (448 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Dataanalyse og måleusikkerhet** – utkast (432 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Kvantitativ metode og pålitelighet** – utkast (417 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Et teknologisk produkt: mobiltelefonen** – utkast (453 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
+- 🟡 **Teknologi og etikk** – utkast (457 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Teknologi i en virksomhet – bærekraftsperspektiv** – utkast (403 ord · 15 kort · 10 quiz · 15 i miniprøve · 22 noder i tankekart)
 
 ## Tysk (vg2) – 6 av 6 temaer ferdig
 

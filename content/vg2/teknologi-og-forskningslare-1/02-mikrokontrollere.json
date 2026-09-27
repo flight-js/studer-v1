@@ -1,0 +1,81 @@
+{
+  "id": "mikrokontrollere",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Mikrokontrollere",
+  "intro": "Hva en mikrokontroller er, hvordan Arduino og micro:bit brukes med innganger og utganger, grunnleggende programmering med setup og loop, sikre koblinger – og hvordan du tester og forbedrer et produkt.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Hva er en mikrokontroller?\n\nEn **mikrokontroller** er en liten datamaskin på én brikke, med **prosessor**, **minne** og **innganger og utganger** (I/O). Den er laget for å **styre** noe – en vaskemaskin, en bilnøkkel, en smartklokke eller en termostat. Det finnes milliarder av mikrokontrollere rundt oss.\n\nI skolen brukes ofte\n\n- **Arduino** – et kort med mikrokontroller, mange tilkoblingspinner og et stort utvalg av sensorer og tilleggskort. Arduino Uno har **14 digitale pinner** og **6 analoge innganger**.\n- **micro:bit** – et lite kort med innebygde knapper, 5 × 5 lysdioder, akselerometer, kompass, lyssensor, temperatursensor og radio.\n\n## Innganger og utganger\n\n- **Innganger** leser signaler fra omgivelsene: knapper, sensorer og brytere.\n- **Utganger** påvirker omgivelsene: lysdioder, summere, motorer, skjermer og releer.\n\nMikrokontrolleren gjør altså **inndata → behandling → utdata**.\n\n## Programmering\n\nEt Arduino-program har to hoveddeler:\n\n```\nvoid setup() {\n  pinMode(13, OUTPUT);     // pinne 13 er en utgang\n}\n\nvoid loop() {\n  digitalWrite(13, HIGH);  // slå på lysdioden\n  delay(1000);             // vent ett sekund\n  digitalWrite(13, LOW);   // slå av\n  delay(1000);\n}\n```\n\n- **setup()** kjøres **én gang** ved oppstart.\n- **loop()** gjentas **igjen og igjen** så lenge kortet har strøm.\n\nmicro:bit programmeres ofte med **blokker** i MakeCode eller med **Python**. Programmet lastes over via USB.\n\n## Et eksempel: automatisk nattlys\n\n1. En **lyssensor** måler lysnivået.\n2. Programmet sammenligner med en **terskelverdi**.\n3. Hvis det er mørkt, slås en **lysdiode** på.\n\n```\nint lys = analogRead(A0);\nif (lys < 300) {\n  digitalWrite(13, HIGH);\n} else {\n  digitalWrite(13, LOW);\n}\n```\n\n## Koble trygt\n\n- Bruk **koblingsbrett** (breadboard) for å teste uten lodding.\n- En **lysdiode** trenger en **formotstand** – ofte 220 Ω på 5 V – ellers kan den ødelegges.\n- Motorer trekker mye strøm og må styres via en **transistor** eller et **motorkort**, ikke direkte fra pinnen.\n- Koble fra strømmen når du endrer koblingen, og sjekk for **kortslutning**.\n\n## Teste og forbedre\n\n- Test **én del om gangen**: Virker sensoren? Virker utgangen? Virker programmet?\n- Bruk **seriell monitor** til å skrive ut verdier fra sensoren mens programmet kjører.\n- Sammenlign med **kravspesifikasjonen**.\n\n**Mulige utvidelser**:\n\n- Flere sensorer, for eksempel både temperatur og fuktighet.\n- **Trådløs** kommunikasjon (Bluetooth, Wi-Fi eller radio).\n- **Lagring** av data på minnekort.\n- **Skjerm** eller app for å vise resultater.\n- **Batteridrift** og lavere strømforbruk.\n- Et **kabinett** laget med 3D-printer eller laserkutter.\n\nVurder utvidelsene opp mot **kostnad**, **kompleksitet** og hva brukeren faktisk **trenger**.",
+  "flashcards": [
+    { "term": "Mikrokontroller", "def": "Liten datamaskin på én brikke som styrer noe." },
+    { "term": "Arduino Uno", "def": "Kort med 14 digitale pinner og 6 analoge innganger." },
+    { "term": "micro:bit", "def": "Kort med innebygde knapper, lysdioder og sensorer." },
+    { "term": "Inngang", "def": "Leser signaler, for eksempel fra en sensor." },
+    { "term": "Utgang", "def": "Påvirker omgivelsene, for eksempel en lysdiode eller motor." },
+    { "term": "setup()", "def": "Kjøres én gang ved oppstart." },
+    { "term": "loop()", "def": "Gjentas så lenge kortet har strøm." },
+    { "term": "pinMode", "def": "Bestemmer om en pinne er inngang eller utgang." },
+    { "term": "digitalWrite", "def": "Setter en digital utgang HIGH eller LOW." },
+    { "term": "analogRead", "def": "Leser en analog inngang." },
+    { "term": "Terskelverdi", "def": "Grense programmet sammenligner målingen med." },
+    { "term": "Koblingsbrett", "def": "Brett for å koble kretser uten lodding." },
+    { "term": "Formotstand", "def": "Motstand som beskytter en lysdiode." },
+    { "term": "Transistor", "def": "Brukes til å styre større strømmer, som motorer." },
+    { "term": "Seriell monitor", "def": "Viser verdier fra mikrokontrolleren på datamaskinen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en mikrokontroller?", "options": ["En stor server", "En liten datamaskin på én brikke som styrer noe", "En type sensor", "En skjerm"], "correct": 1, "explain": "Den har prosessor, minne og I/O." },
+    { "id": "q02", "text": "Hvor mange ganger kjøres setup() i et Arduino-program?", "options": ["Én gang ved oppstart", "Hvert sekund", "Aldri", "Så lenge kortet har strøm"], "correct": 0, "explain": "loop() gjentas." },
+    { "id": "q03", "text": "Hvorfor trenger en lysdiode en formotstand?", "options": ["For å lyse sterkere", "For å skifte farge", "For å begrense strømmen så den ikke ødelegges", "For å måle lys"], "correct": 2, "explain": "Ofte 220 Ω på 5 V." },
+    { "id": "q04", "text": "Hvilken er en utgang?", "options": ["Knapp", "Lyssensor", "Temperatursensor", "Motor"], "correct": 3, "explain": "Den påvirker omgivelsene." },
+    { "id": "q05", "text": "Hva gjør nattlys-programmet når analogRead(A0) gir under 300?", "options": ["Slår på lysdioden", "Slår av lysdioden", "Stopper programmet", "Måler temperatur"], "correct": 0, "explain": "Det er mørkt." },
+    { "id": "q06", "text": "Hvorfor bør en motor ikke kobles direkte til en pinne på mikrokontrolleren?", "options": ["Den går for sakte", "Den trekker mer strøm enn pinnen tåler", "Den har ingen ledninger", "Det gir feil farge"], "correct": 1, "explain": "Bruk transistor eller motorkort." },
+    { "id": "q07", "text": "Hva brukes seriell monitor til?", "options": ["Å lade kortet", "Å lodde komponenter", "Å vise verdier fra mikrokontrolleren mens programmet kjører", "Å tegne kretser"], "correct": 2, "explain": "Nyttig ved feilsøking." },
+    { "id": "q08", "text": "Hva er en fornuftig måte å feilsøke et produkt på?", "options": ["Bytte alle komponentene samtidig", "Skrive hele programmet på nytt", "Aldri teste", "Teste én del om gangen"], "correct": 3, "explain": "Da finner du feilen raskere." },
+    { "id": "q09", "text": "Hvilken sensor er innebygd i micro:bit?", "options": ["Akselerometer", "Ultralydsensor", "Fuktighetssensor", "Gassensor"], "correct": 0, "explain": "Også kompass, lys og temperatur." },
+    { "id": "q10", "text": "Hva bør du vurdere før du legger til en utvidelse?", "options": ["Bare hvor kult det er", "Kostnad, kompleksitet og brukerens behov", "Bare fargen", "Ingenting"], "correct": 1, "explain": "Ikke alle utvidelser gir verdi." }
+  ],
+  "mindmap": {
+    "label": "Mikrokontrollere",
+    "children": [
+      { "label": "Kort", "children": [
+        { "label": "Arduino" },
+        { "label": "micro:bit" }
+      ] },
+      { "label": "I/O", "children": [
+        { "label": "Innganger" },
+        { "label": "Utganger" },
+        { "label": "Inndata–behandling–utdata" }
+      ] },
+      { "label": "Programmering", "children": [
+        { "label": "setup og loop" },
+        { "label": "digitalWrite og analogRead" },
+        { "label": "Terskelverdi" }
+      ] },
+      { "label": "Kobling", "children": [
+        { "label": "Koblingsbrett" },
+        { "label": "Formotstand" },
+        { "label": "Transistor" }
+      ] },
+      { "label": "Forbedring", "children": [
+        { "label": "Testing" },
+        { "label": "Seriell monitor" },
+        { "label": "Utvidelser" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mikrokontrollere finnes i mange hverdagsprodukter.", "correct": true, "explain": "For eksempel vaskemaskiner og termostater." },
+      { "id": "m02", "type": "sant-usant", "text": "loop() kjøres bare én gang.", "correct": false, "explain": "loop() gjentas; setup() kjøres én gang." },
+      { "id": "m03", "type": "sant-usant", "text": "Et koblingsbrett gjør det mulig å teste kretser uten lodding.", "correct": true, "explain": "Komponentene stikkes rett inn." },
+      { "id": "m04", "type": "sant-usant", "text": "Det er trygt å endre koblingen mens kretsen har strøm.", "correct": false, "explain": "Koble fra strømmen først." },
+      { "id": "m05", "type": "flervalg", "text": "Hva gjør delay(1000) i Arduino?", "options": ["Venter 1000 sekunder", "Venter ett sekund", "Slår av kortet", "Leser en sensor"], "correct": 1, "explain": "Tiden er i millisekunder." },
+      { "id": "m06", "type": "flervalg", "text": "Hva gjør pinMode(13, OUTPUT)?", "options": ["Gjør pinne 13 til en utgang", "Slår på pinne 13", "Leser pinne 13", "Sletter programmet"], "correct": 0, "explain": "Kjøres i setup()." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken utvidelse gjør det mulig å se data på mobilen?", "options": ["Et kabinett", "En formotstand", "Trådløs kommunikasjon som Bluetooth", "Et koblingsbrett"], "correct": 2, "explain": "Data kan sendes til en app." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

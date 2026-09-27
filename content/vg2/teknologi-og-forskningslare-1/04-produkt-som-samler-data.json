@@ -1,0 +1,81 @@
+{
+  "id": "produkt-som-samler-data",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Et produkt som samler inn data",
+  "intro": "Hvordan du designer og lager en datalogger med mikrokontroller og sensorer – valg av sensor, målefrekvens, tidsstempel og lagring – og hvordan du bearbeider og presenterer funnene fra dine egne data.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Fra spørsmål til måleinstrument\n\nEt produkt som produserer **empiriske data**, starter med et **spørsmål**:\n\n- Hvor mye varierer temperaturen i klasserommet gjennom en skoledag?\n- Hvor mye CO₂ er det i lufta etter en time med full klasse?\n- Hvor mye rister en sykkel på grusvei sammenlignet med asfalt?\n\nSpørsmålet bestemmer **hva** som skal måles, **hvor ofte** og **hvor lenge**.\n\n## Designe en datalogger\n\nEn **datalogger** måler automatisk og lagrer målingene over tid. Den består vanligvis av\n\n1. **Sensor(er)** som passer til det som skal måles – med riktig **måleområde** og **nøyaktighet**.\n2. **Mikrokontroller** som leser sensoren og regner om verdiene.\n3. **Lagring**: minnekort (SD-kort), overføring til datamaskin via kabel, eller trådløst til en skytjeneste.\n4. **Klokke** (tidsstempel), slik at hver måling får **tidspunkt**.\n5. **Strømforsyning**: kabel eller batteri – husk å beregne hvor lenge batteriet varer.\n6. **Kabinett** som beskytter elektronikken, men ikke påvirker målingen – en temperatursensor må ikke ligge inntil varm elektronikk.\n\n## Målefrekvens\n\n**Målefrekvensen** er hvor ofte det måles. Den må være **høy nok** til å fange opp endringene du er interessert i:\n\n- Romtemperatur endrer seg sakte – én måling per minutt kan være nok.\n- Rystelser på en sykkel endrer seg raskt – da trengs **mange målinger per sekund**.\n\nFor høy frekvens gir **enorme datamengder** og bruker mer strøm. En tommelfingerregel er å måle **minst dobbelt så ofte** som de raskeste endringene du vil fange opp.\n\n## Lagringsformat\n\nLagre gjerne dataene som **CSV**, med én rad per måling:\n\n```\ntid_s,temperatur_C,co2_ppm\n0,21.4,612\n60,21.5,640\n120,21.5,668\n```\n\nFørste rad er **overskrifter med enheter**. Et slikt format kan åpnes direkte i regneark, GeoGebra eller Python.\n\n## Teste loggeren\n\n- Sammenlign med et **kalibrert** instrument.\n- Gjør en **prøvelogging** over kort tid før den store målingen.\n- Sjekk at **tidsstemplene** stemmer og at ingen målinger mangler.\n\n## Bearbeide dataene\n\n- **Rydd** i dataene: Fjern åpenbare feilmålinger – men **dokumenter** det, og ikke fjern verdier bare fordi de er uventet.\n- Lag **grafer** med tid på x-aksen.\n- Regn ut **gjennomsnitt**, **maksimum**, **minimum** og **endring** over tid.\n- Sammenlign ulike **forhold**, for eksempel med vinduet åpent og lukket.\n\n## Presentere funn\n\nEn god presentasjon viser\n\n- **spørsmålet** og hvorfor det er interessant\n- **produktet**: bilder, koblingsskjema og kort forklaring av koden\n- **metoden**: hvor, når og hvor ofte det ble målt\n- **resultatene** i tydelige grafer med **aksetitler og enheter**\n- **tolkning**: Hva viser dataene, og hva kan forklare mønstrene?\n- **vurdering**: usikkerhet, feilkilder og forslag til forbedring av produktet\n\n**Eksempel på funn**: CO₂-nivået i et klasserom steg fra rundt 600 til over 1500 ppm i løpet av en skoletime, og falt raskt da vinduene ble åpnet. Det kan tyde på at ventilasjonen er for dårlig når klassen er full.",
+  "flashcards": [
+    { "term": "Empiriske data", "def": "Data fra målinger og observasjoner." },
+    { "term": "Datalogger", "def": "Måler automatisk og lagrer målinger over tid." },
+    { "term": "Tidsstempel", "def": "Tidspunktet som hører til hver måling." },
+    { "term": "SD-kort", "def": "Minnekort for lagring av målinger." },
+    { "term": "Målefrekvens", "def": "Hvor ofte det måles." },
+    { "term": "Tommelfingerregel for målefrekvens", "def": "Mål minst dobbelt så ofte som de raskeste endringene." },
+    { "term": "For høy målefrekvens", "def": "Enorme datamengder og høyt strømforbruk." },
+    { "term": "CSV med enheter", "def": "Overskriftsrad som tid_s, temperatur_C." },
+    { "term": "Prøvelogging", "def": "Kort test før den store målingen." },
+    { "term": "Kalibrert instrument", "def": "Referanse loggeren kan sammenlignes med." },
+    { "term": "Kabinett", "def": "Beskytter elektronikken uten å påvirke målingen." },
+    { "term": "Feilmåling", "def": "Åpenbart feil verdi – fjernes bare med dokumentasjon." },
+    { "term": "Koblingsskjema", "def": "Tegning som viser hvordan komponentene er koblet." },
+    { "term": "CO₂ i ppm", "def": "Mål for luftkvalitet innendørs." },
+    { "term": "Vurdering", "def": "Usikkerhet, feilkilder og forslag til forbedring." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en datalogger?", "options": ["En person som skriver ned tall", "Et produkt som måler automatisk og lagrer målinger over tid", "Et regneark", "En type sensor"], "correct": 1, "explain": "Med sensor, mikrokontroller og lagring." },
+    { "id": "q02", "text": "Hvorfor trenger hver måling et tidsstempel?", "options": ["For å vite når målingen ble gjort", "For å spare strøm", "For å gjøre filen mindre", "For å kalibrere sensoren"], "correct": 0, "explain": "Nødvendig for å se endringer over tid." },
+    { "id": "q03", "text": "Hvilken målefrekvens passer for romtemperatur?", "options": ["1000 målinger per sekund", "Én måling per år", "Omtrent én måling per minutt", "Én måling per uke"], "correct": 2, "explain": "Temperaturen endrer seg sakte." },
+    { "id": "q04", "text": "Hvorfor bør en temperatursensor ikke ligge inntil varm elektronikk?", "options": ["Den blir ødelagt", "Den bruker mer strøm", "Den blir for kald", "Varmen påvirker målingen"], "correct": 3, "explain": "Kabinettet må ikke påvirke målingen." },
+    { "id": "q05", "text": "Hvorfor bør første rad i CSV-filen inneholde enheter?", "options": ["Så det er tydelig hva tallene betyr", "Fordi regneark krever det", "For å gjøre filen større", "Det er ikke nødvendig"], "correct": 0, "explain": "For eksempel temperatur_C." },
+    { "id": "q06", "text": "Hva bør du gjøre før en stor måleserie?", "options": ["Ingenting", "En kort prøvelogging", "Slette programmet", "Bytte sensor"], "correct": 1, "explain": "Da oppdager du feil tidlig." },
+    { "id": "q07", "text": "Hva er en ulempe med svært høy målefrekvens?", "options": ["Dårligere oppløsning", "Færre data", "Enorme datamengder og høyt strømforbruk", "Ingen ulemper"], "correct": 2, "explain": "Velg frekvens etter hva du vil fange opp." },
+    { "id": "q08", "text": "Når kan du fjerne en måling fra datasettet?", "options": ["Når den er uventet", "Når den ødelegger grafen", "Aldri", "Når den er en åpenbar feilmåling, og du dokumenterer det"], "correct": 3, "explain": "Uventede verdier kan være viktige funn." },
+    { "id": "q09", "text": "Hva forteller det at CO₂-nivået faller raskt når vinduene åpnes?", "options": ["At ventilasjonen i rommet kan være for dårlig", "At sensoren er ødelagt", "At det er for kaldt", "At det er for mange vinduer"], "correct": 0, "explain": "Frisk luft senker CO₂-nivået." },
+    { "id": "q10", "text": "Hva bestemmer hva som skal måles, hvor ofte og hvor lenge?", "options": ["Prisen på sensoren", "Spørsmålet du vil ha svar på", "Fargen på kabinettet", "Hvor mange ledninger du har"], "correct": 1, "explain": "Start alltid med spørsmålet." }
+  ],
+  "mindmap": {
+    "label": "Produkt som samler data",
+    "children": [
+      { "label": "Spørsmål", "children": [
+        { "label": "Hva måles?" },
+        { "label": "Hvor ofte og hvor lenge?" }
+      ] },
+      { "label": "Datalogger", "children": [
+        { "label": "Sensor" },
+        { "label": "Mikrokontroller" },
+        { "label": "Lagring og klokke" },
+        { "label": "Strøm og kabinett" }
+      ] },
+      { "label": "Målefrekvens", "children": [
+        { "label": "Høy nok" },
+        { "label": "Ikke for høy" }
+      ] },
+      { "label": "Data", "children": [
+        { "label": "CSV med enheter" },
+        { "label": "Rydding og grafer" },
+        { "label": "Sammenligning" }
+      ] },
+      { "label": "Presentasjon", "children": [
+        { "label": "Produkt og metode" },
+        { "label": "Resultater og tolkning" },
+        { "label": "Vurdering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Rystelser på en sykkel krever mange målinger per sekund.", "correct": true, "explain": "De endrer seg raskt." },
+      { "id": "m02", "type": "sant-usant", "text": "Det er greit å fjerne uventede målinger uten å si fra.", "correct": false, "explain": "Endringer i data må dokumenteres." },
+      { "id": "m03", "type": "sant-usant", "text": "En datalogger bør testes mot et kalibrert instrument.", "correct": true, "explain": "Da vet du om målingene stemmer." },
+      { "id": "m04", "type": "sant-usant", "text": "Batterilevetid er uviktig for en datalogger som skal stå ute i en uke.", "correct": false, "explain": "Strømforsyningen må vare hele måleperioden." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken akse bør tiden stå på i en graf over målingene?", "options": ["y-aksen", "x-aksen", "Ingen av dem", "Begge"], "correct": 1, "explain": "Tiden er den uavhengige variabelen." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket format kan åpnes direkte i regneark?", "options": ["CSV", "MP3", "JPEG", "EXE"], "correct": 0, "explain": "Kommaseparerte verdier." },
+      { "id": "m07", "type": "flervalg", "text": "Hva hører med i vurderingen av et datainnsamlingsprosjekt?", "options": ["Bare produktets farge", "Bare hvor mye tid det tok", "Usikkerhet, feilkilder og forslag til forbedringer", "Bare hvem som var på gruppa"], "correct": 2, "explain": "Kritisk vurdering av resultatene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

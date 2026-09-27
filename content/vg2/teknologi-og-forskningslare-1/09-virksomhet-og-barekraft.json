@@ -1,0 +1,83 @@
+{
+  "id": "virksomhet-og-barekraft",
+  "fagId": "teknologi-og-forskningslare-1",
+  "trinnId": "vg2",
+  "name": "Teknologi i en virksomhet – bærekraftsperspektiv",
+  "intro": "Hvordan du utforsker en virksomhet som arbeider med teknologi – forskning og utvikling, produksjon, automatisering og digitalisering – og vurderer den ut fra økonomisk, sosial og miljømessig bærekraft.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Utforske en virksomhet\n\nEn **virksomhet** kan være en bedrift, en offentlig etat eller en forskningsinstitusjon. Når du skal utforske hvordan den arbeider med teknologi, kan du for eksempel\n\n- lese årsrapporter, bærekraftsrapporter og nettsider\n- intervjue ansatte eller ha et **bedriftsbesøk**\n- se på produkter, produksjonsprosesser og **innovasjoner**\n\nVær **kildekritisk**: Bedriftens egne rapporter viser gjerne de positive sidene.\n\n## Hvordan virksomheter bruker teknologi\n\n- **Forskning og utvikling (FoU)**: nye produkter, materialer og prosesser.\n- **Produksjon**: maskiner, **roboter** og **automatisering** gir høyere effektivitet og jevnere kvalitet.\n- **Digitalisering**: sensorer, dataanalyse og **kunstig intelligens** brukes til å overvåke produksjonen, forutsi vedlikehold og spare energi.\n- **Logistikk**: sporing av varer og optimalisering av transport.\n- **Tjenester**: apper, nettbutikker og digitale kundetjenester.\n\n## Tre dimensjoner av bærekraft\n\n**Bærekraftig utvikling** betyr å dekke dagens behov uten å ødelegge mulighetene for framtidige generasjoner. Vi skiller mellom tre dimensjoner:\n\n- **Miljø**: utslipp av klimagasser, energibruk, forurensning, avfall, arealbruk og naturmangfold.\n- **Sosial**: arbeidsforhold, helse og sikkerhet, likestilling, menneskerettigheter i **leverandørkjeden** og betydning for lokalsamfunnet.\n- **Økonomi**: lønnsomhet, arbeidsplasser og verdiskaping over tid.\n\nEn virksomhet som tjener penger ved å ødelegge naturen eller utnytte arbeidere, er **ikke** bærekraftig – og en som går med stadig underskudd, heller ikke.\n\n## Verktøy for å vurdere bærekraft\n\n- **Livsløpsanalyse (LCA)**: kartlegger miljøbelastningen gjennom hele livsløpet – fra **råvareutvinning**, produksjon og transport til **bruk** og **avfall**.\n- **Klimaregnskap**: viser utslipp fra egen drift, fra innkjøpt energi og fra hele **verdikjeden**.\n- **Sirkulær økonomi**: produkter designes for å **vare lenge**, **repareres**, **gjenbrukes** og **gjenvinnes**, slik at ressursene blir i kretsløpet.\n- **Miljøsertifiseringer**, som **ISO 14001** eller **Miljøfyrtårn**, viser at virksomheten har et system for miljøarbeid.\n- **FNs bærekraftsmål** (17 mål fra 2015) brukes av mange virksomheter som ramme for rapporteringen.\n\nI Norge pålegger **åpenhetsloven** større virksomheter å kartlegge risiko for brudd på **menneskerettigheter** og anstendige arbeidsforhold hos leverandørene sine.\n\n## Teknologi som løsning og problem\n\nTeknologi kan gjøre virksomheter **mer** bærekraftige: elektrifisering, energigjenvinning, mindre svinn og bedre ressursutnyttelse. Men den kan også skape nye problemer: elektronisk avfall, høyt strømforbruk i datasentre og **rebound-effekter** – at effektivisering gjør produktet billigere, slik at vi bruker **mer** av det.\n\n## Slik kan du presentere\n\n1. **Hva** gjør virksomheten, og hvilken teknologi bruker den?\n2. **Hvordan** har teknologien endret arbeidet og produktene?\n3. **Vurder** virksomheten i de tre bærekraftsdimensjonene – med konkrete tall og eksempler der det er mulig.\n4. Foreslå **forbedringer** og drøft hindringer, som kostnader og teknologiske begrensninger.",
+  "flashcards": [
+    { "term": "Virksomhet", "def": "Bedrift, offentlig etat eller forskningsinstitusjon." },
+    { "term": "FoU", "def": "Forskning og utvikling." },
+    { "term": "Automatisering", "def": "Maskiner og roboter overtar oppgaver." },
+    { "term": "Forutsigende vedlikehold", "def": "Sensorer og data forutsier når maskiner trenger service." },
+    { "term": "Bærekraftig utvikling", "def": "Dekke dagens behov uten å ødelegge framtidige generasjoners muligheter." },
+    { "term": "Miljødimensjonen", "def": "Utslipp, energi, avfall og naturmangfold." },
+    { "term": "Sosial dimensjon", "def": "Arbeidsforhold, helse, likestilling og menneskerettigheter." },
+    { "term": "Økonomisk dimensjon", "def": "Lønnsomhet og verdiskaping over tid." },
+    { "term": "Livsløpsanalyse (LCA)", "def": "Miljøbelastning fra råvare til avfall." },
+    { "term": "Klimaregnskap", "def": "Oversikt over utslipp fra drift og verdikjede." },
+    { "term": "Sirkulær økonomi", "def": "Ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning." },
+    { "term": "Miljøfyrtårn", "def": "Norsk miljøsertifisering for virksomheter." },
+    { "term": "Åpenhetsloven", "def": "Pålegger større virksomheter å kartlegge menneskerettighetsrisiko hos leverandører." },
+    { "term": "Rebound-effekt", "def": "Effektivisering fører til økt forbruk." },
+    { "term": "Leverandørkjede", "def": "Alle som leverer råvarer og deler til virksomheten." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er de tre dimensjonene av bærekraft?", "options": ["Teknologi, økonomi og politikk", "Miljø, sosial og økonomi", "Energi, vann og luft", "Lokal, nasjonal og global"], "correct": 1, "explain": "Alle tre må ivaretas." },
+    { "id": "q02", "text": "Hva er en livsløpsanalyse?", "options": ["En kartlegging av miljøbelastningen fra råvare til avfall", "En økonomisk rapport", "En personalanalyse", "En markedsundersøkelse"], "correct": 0, "explain": "LCA." },
+    { "id": "q03", "text": "Hva er sirkulær økonomi?", "options": ["At penger sirkulerer raskt", "At produkter kastes etter bruk", "At ressurser holdes i kretsløpet gjennom reparasjon, gjenbruk og gjenvinning", "At alt produseres lokalt"], "correct": 2, "explain": "Motsatt av bruk-og-kast." },
+    { "id": "q04", "text": "Hva er en rebound-effekt?", "options": ["At et produkt spretter", "At en bedrift går konkurs", "At utslippene går ned", "At effektivisering gjør noe billigere, slik at vi bruker mer av det"], "correct": 3, "explain": "Kan spise opp miljøgevinsten." },
+    { "id": "q05", "text": "Hva pålegger åpenhetsloven større virksomheter?", "options": ["Å kartlegge risiko for brudd på menneskerettigheter hos leverandører", "Å publisere alle lønninger", "Å bruke bare norske leverandører", "Å slutte med automatisering"], "correct": 0, "explain": "Aktsomhetsvurderinger." },
+    { "id": "q06", "text": "Hvorfor bør du være kildekritisk til en bedrifts egen bærekraftsrapport?", "options": ["Fordi den alltid er feil", "Fordi den gjerne viser de positive sidene", "Fordi den er for kort", "Det trenger du ikke"], "correct": 1, "explain": "Sammenlign med andre kilder." },
+    { "id": "q07", "text": "Hvordan kan sensorer og dataanalyse gjøre produksjonen mer bærekraftig?", "options": ["Ved å øke svinnet", "Ved å bruke mer energi", "Ved å overvåke produksjonen, forutsi vedlikehold og spare energi", "De har ingen betydning"], "correct": 2, "explain": "Digitalisering gir bedre ressursutnyttelse." },
+    { "id": "q08", "text": "Hva hører til den sosiale dimensjonen av bærekraft?", "options": ["Klimagassutslipp", "Lønnsomhet", "Arealbruk", "Arbeidsforhold og menneskerettigheter"], "correct": 3, "explain": "Også helse og likestilling." },
+    { "id": "q09", "text": "Hvor mange av FNs bærekraftsmål finnes det?", "options": ["17", "10", "3", "50"], "correct": 0, "explain": "Vedtatt i 2015." },
+    { "id": "q10", "text": "Hva er Miljøfyrtårn?", "options": ["Et fyrtårn på kysten", "En norsk miljøsertifisering for virksomheter", "En type solcelle", "Et FN-organ"], "correct": 1, "explain": "Viser systematisk miljøarbeid." }
+  ],
+  "mindmap": {
+    "label": "Virksomhet og bærekraft",
+    "children": [
+      { "label": "Utforske", "children": [
+        { "label": "Rapporter" },
+        { "label": "Intervju og besøk" },
+        { "label": "Kildekritikk" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "FoU" },
+        { "label": "Automatisering" },
+        { "label": "Digitalisering og KI" }
+      ] },
+      { "label": "Bærekraft", "children": [
+        { "label": "Miljø" },
+        { "label": "Sosial" },
+        { "label": "Økonomi" }
+      ] },
+      { "label": "Verktøy", "children": [
+        { "label": "LCA" },
+        { "label": "Klimaregnskap" },
+        { "label": "Sirkulær økonomi" },
+        { "label": "Sertifiseringer" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Løsning og problem" },
+        { "label": "Rebound-effekt" },
+        { "label": "Forbedringer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En virksomhet som går med stadig underskudd, er ikke økonomisk bærekraftig.", "correct": true, "explain": "Alle tre dimensjonene må ivaretas." },
+      { "id": "m02", "type": "sant-usant", "text": "En livsløpsanalyse ser bare på bruksfasen.", "correct": false, "explain": "Den dekker hele livsløpet, fra råvare til avfall." },
+      { "id": "m03", "type": "sant-usant", "text": "Teknologi kan både løse og skape bærekraftsproblemer.", "correct": true, "explain": "For eksempel elektrifisering og elektronisk avfall." },
+      { "id": "m04", "type": "sant-usant", "text": "Menneskerettigheter hos leverandører er ikke en del av bærekraft.", "correct": false, "explain": "De hører til den sosiale dimensjonen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak hører til sirkulær økonomi?", "options": ["Bruk og kast", "Design for reparasjon og gjenbruk", "Kortere levetid", "Mer emballasje"], "correct": 1, "explain": "Ressursene holdes i kretsløpet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva betyr FoU?", "options": ["Forskning og utvikling", "Fordeling og utbytte", "Forsikring og utlån", "Forbruk og utslipp"], "correct": 0, "explain": "Grunnlaget for innovasjon." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en fordel med automatisering i produksjon?", "options": ["Flere ulykker", "Mer svinn", "Høyere effektivitet og jevnere kvalitet", "Ingen fordeler"], "correct": 2, "explain": "Men den kan også endre arbeidsplassene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
