@@ -1,0 +1,80 @@
+{
+  "id": "geofaglig-feltarbeid",
+  "fagId": "geofag-2",
+  "trinnId": "vg3",
+  "name": "Geofaglig feltarbeid i hav, atmosfære og kryosfære",
+  "intro": "Hvordan du planlegger og gjennomfører geofaglig feltarbeid knyttet til havet, atmosfæren eller kryosfæren – målinger med værstasjon, CTD, secchiskive og snøprofil – og hvordan du bearbeider, tolker og presenterer dataene med vurdering av usikkerhet.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Planlegging\n\nEt godt feltarbeid starter med en **problemstilling**, for eksempel: *Hvordan endrer temperaturen og saltholdigheten seg med dybden i fjorden?* Deretter lager du en **hypotese** og planlegger\n\n- **hva** som skal måles\n- **hvor** og **når** målingene skal gjøres\n- hvilket **utstyr** du trenger\n- hvordan du skal **registrere** dataene\n- **sikkerhet**: vær, is, vann, utstyr og hvem som vet hvor dere er\n\n## Atmosfæren\n\nMed en **værstasjon** eller enkle instrumenter kan du måle\n\n- **temperatur** med termometer – i **skygge** og godt over bakken\n- **lufttrykk** med barometer\n- **luftfuktighet** med hygrometer\n- **vindfart** med anemometer og **vindretning**\n- **nedbør** med nedbørsmåler\n\nDu kan også observere **skyer** og sammenligne målingene med **værkart** og **varsler**. Et eksempel er å måle temperatur i en **by** og på **landet** for å undersøke **byvarmeøyer**.\n\n## Havet\n\n- En **CTD-sonde** måler **saltholdighet** (via ledningsevne), **temperatur** og **dybde**.\n- En **secchiskive** – en hvit skive som senkes ned til du ikke ser den lenger – viser **siktedypet** og sier noe om mengden **plankton** og partikler.\n- **Vannprøver** kan analyseres for **oksygen**, **næringssalter** og **pH**.\n- **Strøm** kan måles med drivere eller strømmålere.\n\nResultatene kan vise **lagdeling**: lett, fersk og varm overflate over tyngre, kaldt og salt dypvann.\n\n## Kryosfæren\n\n- En **snøprofil** graves ned til bakken. Du måler **snødybde**, **temperatur** i ulike lag, **kornform**, **hardhet** og **tetthet**. Svake lag kan gi **snøskredfare**.\n- På en **isbre** kan du måle **breens bevegelse** med staker eller GPS, og se etter spor av **tilbakesmelting** som morener.\n- På **sjøis** eller **innsjøis** kan du måle **istykkelse**.\n\n## Bearbeiding\n\n- Samle data i **tabeller** og regneark.\n- Beregn **gjennomsnitt**, **variasjon** og eventuelt **trender**.\n- Lag **grafer**, for eksempel temperatur mot dybde eller tid.\n- Bruk **kart** og **koordinater** for å vise hvor målingene er gjort.\n\n## Usikkerhet og feilkilder\n\nAlle målinger har **usikkerhet**. Mulige **feilkilder** er\n\n- unøyaktige eller **ukalibrerte** instrumenter\n- **menneskelige** feil ved avlesing\n- **få** målinger eller målinger på **ett** tidspunkt\n- forhold som påvirker målingen, som **direkte sol** på termometeret\n\nFlere **gjentak** og **sammenligning** med offisielle data, for eksempel fra **Meteorologisk institutt**, gir større **pålitelighet**.\n\n## Tolking og presentasjon\n\nI **tolkingen** kobler du resultatene til **teori**: Stemmer hypotesen? Hva kan forklare avvik? En **rapport** eller **presentasjon** har ofte\n\n1. **innledning** med problemstilling og hypotese\n2. **metode** og utstyr\n3. **resultater** med tabeller og grafer\n4. **drøfting** med feilkilder\n5. **konklusjon**\n\nMange skoler deler også data i **åpne** databaser eller **borgerforskningsprosjekter**.",
+  "flashcards": [
+    { "term": "Problemstilling", "def": "Spørsmålet feltarbeidet skal besvare." },
+    { "term": "Hypotese", "def": "Et begrunnet forslag til svar som kan testes." },
+    { "term": "Barometer", "def": "Måler lufttrykk." },
+    { "term": "Hygrometer", "def": "Måler luftfuktighet." },
+    { "term": "Anemometer", "def": "Måler vindfart." },
+    { "term": "Byvarmeøy", "def": "Byer er varmere enn omgivelsene." },
+    { "term": "CTD-sonde", "def": "Måler saltholdighet, temperatur og dybde i havet." },
+    { "term": "Secchiskive", "def": "Hvit skive som måler siktedypet i vann." },
+    { "term": "Lagdeling i havet", "def": "Lett, fersk og varm overflate over tungt, kaldt og salt dypvann." },
+    { "term": "Snøprofil", "def": "Tverrsnitt av snødekket der lagene undersøkes." },
+    { "term": "Svakt lag", "def": "Lag i snøen som kan gi snøskredfare." },
+    { "term": "Kalibrering", "def": "Kontroll av at et instrument måler riktig." },
+    { "term": "Feilkilde", "def": "Forhold som kan gi feil i målingene." },
+    { "term": "Pålitelighet", "def": "Hvor mye vi kan stole på målingene." },
+    { "term": "Borgerforskning", "def": "Forskning der frivillige samler inn data." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva måler en CTD-sonde?", "options": ["Vindfart", "Saltholdighet, temperatur og dybde", "Snødybde", "Lufttrykk"], "correct": 1, "explain": "Brukes i havet." },
+    { "id": "q02", "text": "Hva viser en secchiskive?", "options": ["Siktedypet i vannet", "Saltholdigheten", "Strømfarten", "Temperaturen"], "correct": 0, "explain": "Sier noe om plankton og partikler." },
+    { "id": "q03", "text": "Hvorfor bør temperaturen i lufta måles i skygge?", "options": ["For å spare batteri", "Fordi det er mer behagelig", "Fordi direkte sol gir for høye verdier", "Fordi det er lovpålagt"], "correct": 2, "explain": "En vanlig feilkilde." },
+    { "id": "q04", "text": "Hva kan en snøprofil avsløre?", "options": ["Havtemperatur", "Vindretning", "Lufttrykk", "Svake lag som kan gi snøskredfare"], "correct": 3, "explain": "Lagene undersøkes." },
+    { "id": "q05", "text": "Hva måler et anemometer?", "options": ["Vindfart", "Luftfuktighet", "Nedbør", "Lufttrykk"], "correct": 0, "explain": "Vindretning måles med vindfløy." },
+    { "id": "q06", "text": "Hva er en feilkilde?", "options": ["Et resultat", "Forhold som kan gi feil i målingene", "En hypotese", "En graf"], "correct": 1, "explain": "Må drøftes i rapporten." },
+    { "id": "q07", "text": "Hvordan kan du øke påliteligheten i feltarbeidet?", "options": ["Gjøre færre målinger", "Unngå å kalibrere", "Gjenta målinger og sammenligne med offisielle data", "Bare måle én gang"], "correct": 2, "explain": "For eksempel fra Meteorologisk institutt." },
+    { "id": "q08", "text": "Hva viser lagdeling i en fjord?", "options": ["At alt vannet er likt", "At vannet er ferskest i dypet", "At dypvannet er varmest alltid", "Lett overflatevann over tungt, salt dypvann"], "correct": 3, "explain": "Tetthetsforskjeller." },
+    { "id": "q09", "text": "Hva bør en feltrapport inneholde?", "options": ["Problemstilling, metode, resultater, drøfting og konklusjon", "Bare en tabell", "Bare bilder", "Bare en konklusjon"], "correct": 0, "explain": "En fast struktur." },
+    { "id": "q10", "text": "Hva er en byvarmeøy?", "options": ["En øy med mye sol", "At byer er varmere enn omgivelsene", "En isbre", "En varm havstrøm"], "correct": 1, "explain": "Kan undersøkes med temperaturmålinger." }
+  ],
+  "mindmap": {
+    "label": "Geofaglig feltarbeid",
+    "children": [
+      { "label": "Planlegging", "children": [
+        { "label": "Problemstilling og hypotese" },
+        { "label": "Utstyr" },
+        { "label": "Sikkerhet" }
+      ] },
+      { "label": "Atmosfæren", "children": [
+        { "label": "Værstasjon" },
+        { "label": "Byvarmeøy" }
+      ] },
+      { "label": "Havet", "children": [
+        { "label": "CTD" },
+        { "label": "Secchiskive" },
+        { "label": "Vannprøver" }
+      ] },
+      { "label": "Kryosfæren", "children": [
+        { "label": "Snøprofil" },
+        { "label": "Isbre og istykkelse" }
+      ] },
+      { "label": "Etterarbeid", "children": [
+        { "label": "Tabeller og grafer" },
+        { "label": "Usikkerhet og feilkilder" },
+        { "label": "Rapport" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sikkerhet er en del av planleggingen av feltarbeid.", "correct": true, "explain": "Vær, is, vann og utstyr." },
+      { "id": "m02", "type": "sant-usant", "text": "Målinger gjort på ett tidspunkt gir alltid et sikkert bilde.", "correct": false, "explain": "Få målinger gir større usikkerhet." },
+      { "id": "m03", "type": "sant-usant", "text": "Et hygrometer måler luftfuktighet.", "correct": true, "explain": "Hygro betyr fuktighet." },
+      { "id": "m04", "type": "sant-usant", "text": "En snøprofil graves bare i de øverste ti centimeterne.", "correct": false, "explain": "Den graves helt ned til bakken." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan kan du måle breens bevegelse?", "options": ["Med secchiskive", "Med staker eller GPS", "Med barometer", "Med hygrometer"], "correct": 1, "explain": "Posisjonen måles over tid." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan vannprøver analyseres for?", "options": ["Oksygen, næringssalter og pH", "Vindfart", "Lufttrykk", "Snødybde"], "correct": 0, "explain": "Sier noe om vannkvaliteten." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gjør du i drøftingsdelen av en rapport?", "options": ["Lister opp utstyret", "Skriver problemstillingen", "Kobler resultater til teori og vurderer feilkilder", "Viser bare tabeller"], "correct": 2, "explain": "Stemmer hypotesen?" }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

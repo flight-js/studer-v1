@@ -1,0 +1,78 @@
+{
+  "id": "numeriske-modeller",
+  "fagId": "geofag-2",
+  "trinnId": "vg3",
+  "name": "Numeriske modeller i værvarsling, havmodellering og klimaforskning",
+  "intro": "Hvordan numeriske modeller i geofag bygges opp – gitterruter, fysikkens lover, startverdier og dataassimilering, tidssteg og parametrisering – hvordan de videreutvikles, og hvordan de brukes i værvarsling med ensembler, i havmodeller og i klimamodeller.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Hva er en numerisk modell?\n\nEn **numerisk modell** er et dataprogram som beregner hvordan **atmosfæren**, **havet** eller **klimasystemet** utvikler seg. Den bygger på **fysikkens lover**:\n\n- **Newtons lover** for bevegelse – vind og strøm\n- **Bevaring** av masse, energi og vann\n- **Termodynamikk** – sammenhengen mellom temperatur, trykk og tetthet\n\nLigningene kan ikke løses eksakt for hele jorda. Derfor løses de **tilnærmet** med **tallberegninger**.\n\n## Gitter og tidssteg\n\nModellen deler atmosfæren og havet inn i et tredimensjonalt **gitter** av **ruter** i flere **lag** i høyden eller dybden. For hver rute beregnes **temperatur**, **trykk**, **vind**, **fuktighet** og andre størrelser. Modellen regner seg fram i små **tidssteg**, for eksempel noen minutter om gangen.\n\n**Oppløsningen** – størrelsen på rutene – avgjør hvor små detaljer modellen kan vise. Finere oppløsning gir bedre detaljer, men krever mye mer **regnekraft**. Derfor brukes **superdatamaskiner**.\n\n## Parametrisering\n\nNoen prosesser er **mindre** enn rutene, som enkeltskyer, turbulens og byger. De beskrives med forenklede **formler** – **parametrisering**. Dette er en viktig kilde til **usikkerhet**.\n\n## Startverdier og dataassimilering\n\nEn værvarslingsmodell trenger **startverdier** – hvordan atmosfæren er **nå**. Data kommer fra\n\n- **værstasjoner** på bakken\n- **værballonger**\n- **satellitter**\n- **fly**, **skip** og **bøyer**\n\n**Dataassimilering** kombinerer målingene med en tidligere modellberegning til best mulige startverdier.\n\n## Kaos og ensembler\n\nAtmosfæren er et **kaotisk** system: Små feil i startverdiene kan vokse og gi store forskjeller etter noen dager. Meteorologen **Edward Lorenz** beskrev dette som **sommerfugleffekten**. Derfor er værvarsler mest pålitelige for de nærmeste dagene.\n\nFor å håndtere usikkerheten kjøres **ensemblevarsler**: Modellen kjøres mange ganger med litt **ulike** startverdier. Stor **spredning** mellom kjøringene betyr **usikkert** vær, og varslet kan oppgis som **sannsynligheter** – for eksempel 70 % sjanse for regn.\n\n## Havmodeller\n\n**Havmodeller** beregner **strømmer**, **temperatur**, **saltholdighet**, **bølger** og **vannstand**. De brukes til å varsle **stormflo**, spore **oljeutslipp**, planlegge **havbruk** og følge **lakselus** og drift av søppel.\n\n## Klimamodeller\n\n**Klimamodeller** kobler atmosfære, hav, is, land og biosfære. De skal ikke varsle været en bestemt dag, men **statistikken** for været over mange **år** – middelverdier og ekstremer. Mens værvarsling avhenger av **startverdiene**, avhenger klimamodeller mest av **pådriv**, som mengden **drivhusgasser**. Derfor kjøres modellene med ulike **utslippsscenarioer**.\n\nKlimamodellene **testes** ved å se om de kan gjenskape **fortidens** klima.\n\n## Videreutvikling\n\nModellene blir stadig bedre gjennom **finere oppløsning**, bedre **parametrisering**, **flere observasjoner** og bruk av **maskinlæring**. I Norge lager **Meteorologisk institutt** varslene som vises blant annet på **yr**.",
+  "flashcards": [
+    { "term": "Numerisk modell", "def": "Dataprogram som beregner utviklingen i atmosfære, hav eller klima." },
+    { "term": "Gitter", "def": "Tredimensjonalt nett av ruter modellen regner i." },
+    { "term": "Oppløsning", "def": "Størrelsen på gitterrutene." },
+    { "term": "Tidssteg", "def": "Den korte tiden modellen regner fram i hvert steg." },
+    { "term": "Parametrisering", "def": "Forenklede formler for prosesser som er mindre enn rutene." },
+    { "term": "Startverdier", "def": "Tilstanden til atmosfæren når beregningen starter." },
+    { "term": "Dataassimilering", "def": "Målinger og modell kombineres til best mulige startverdier." },
+    { "term": "Kaotisk system", "def": "Små feil i startverdiene kan vokse og gi store forskjeller." },
+    { "term": "Sommerfugleffekten", "def": "Lorenz' bilde på kaos i atmosfæren." },
+    { "term": "Ensemblevarsel", "def": "Mange kjøringer med litt ulike startverdier." },
+    { "term": "Spredning i ensemble", "def": "Stor spredning betyr usikkert vær." },
+    { "term": "Havmodell", "def": "Beregner strømmer, bølger, temperatur og vannstand." },
+    { "term": "Klimamodell", "def": "Kobler atmosfære, hav, is og land og beregner klimastatistikk." },
+    { "term": "Utslippsscenario", "def": "Antakelse om framtidige utslipp brukt i klimamodeller." },
+    { "term": "Meteorologisk institutt", "def": "Lager værvarslene i Norge." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva bygger numeriske modeller på?", "options": ["Gjetninger", "Fysikkens lover", "Historiske værtabeller alene", "Tilfeldige tall"], "correct": 1, "explain": "Bevegelse, bevaring og termodynamikk." },
+    { "id": "q02", "text": "Hva er parametrisering?", "options": ["Forenklede formler for prosesser som er mindre enn rutene", "Innsamling av data", "Valg av tidssteg", "Visning av værkart"], "correct": 0, "explain": "En viktig kilde til usikkerhet." },
+    { "id": "q03", "text": "Hvorfor er værvarsler mest pålitelige for de nærmeste dagene?", "options": ["Fordi modellene er gamle", "Fordi det er færre målinger", "Fordi atmosfæren er kaotisk og små feil vokser", "Fordi været aldri endres"], "correct": 2, "explain": "Sommerfugleffekten." },
+    { "id": "q04", "text": "Hva er et ensemblevarsel?", "options": ["Et varsel for én by", "Et varsel fra én kjøring", "Et varsel uten data", "Mange kjøringer med litt ulike startverdier"], "correct": 3, "explain": "Gir sannsynligheter." },
+    { "id": "q05", "text": "Hva avhenger klimamodeller mest av?", "options": ["Pådriv, som mengden drivhusgasser", "Startverdiene i dag", "Været i morgen", "Antall værstasjoner"], "correct": 0, "explain": "Kjøres med ulike utslippsscenarioer." },
+    { "id": "q06", "text": "Hva er dataassimilering?", "options": ["Å tegne værkart", "Å kombinere målinger og modell til startverdier", "Å slette gamle data", "Å velge oppløsning"], "correct": 1, "explain": "Gir best mulige startverdier." },
+    { "id": "q07", "text": "Hva krever finere oppløsning?", "options": ["Færre data", "Større ruter", "Mye mer regnekraft", "Ingen endring"], "correct": 2, "explain": "Derfor brukes superdatamaskiner." },
+    { "id": "q08", "text": "Hva kan havmodeller brukes til?", "options": ["Bare å måle temperatur i lufta", "Varsle jordskjelv", "Beregne solstråling", "Varsle stormflo og spore oljeutslipp"], "correct": 3, "explain": "Også havbruk og lakselus." },
+    { "id": "q09", "text": "Hvordan testes klimamodeller?", "options": ["Ved å se om de kan gjenskape fortidens klima", "Ved å varsle været i morgen", "Ved å spørre folk", "De testes ikke"], "correct": 0, "explain": "Paleoklima og historiske data." },
+    { "id": "q10", "text": "Hva betyr stor spredning mellom ensemblekjøringene?", "options": ["Sikkert vær", "Usikkert vær", "Mye sol", "Feil modell"], "correct": 1, "explain": "Varslet gis som sannsynligheter." }
+  ],
+  "mindmap": {
+    "label": "Numeriske modeller",
+    "children": [
+      { "label": "Oppbygning", "children": [
+        { "label": "Fysikkens lover" },
+        { "label": "Gitter og tidssteg" },
+        { "label": "Parametrisering" }
+      ] },
+      { "label": "Startverdier", "children": [
+        { "label": "Observasjoner" },
+        { "label": "Dataassimilering" }
+      ] },
+      { "label": "Værvarsling", "children": [
+        { "label": "Kaos" },
+        { "label": "Ensembler og sannsynlighet" }
+      ] },
+      { "label": "Hav og klima", "children": [
+        { "label": "Havmodeller" },
+        { "label": "Klimamodeller og scenarioer" }
+      ] },
+      { "label": "Utvikling", "children": [
+        { "label": "Oppløsning" },
+        { "label": "Maskinlæring" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Satellitter gir startverdier til værmodeller.", "correct": true, "explain": "Sammen med stasjoner, ballonger og bøyer." },
+      { "id": "m02", "type": "sant-usant", "text": "Klimamodeller varsler været på en bestemt dag om 50 år.", "correct": false, "explain": "De beregner statistikk over mange år." },
+      { "id": "m03", "type": "sant-usant", "text": "Modellen regner i små tidssteg, for eksempel noen minutter.", "correct": true, "explain": "Tilnærmet løsning av ligningene." },
+      { "id": "m04", "type": "sant-usant", "text": "Enkeltskyer beregnes alltid direkte i globale modeller.", "correct": false, "explain": "De er mindre enn rutene og parametriseres." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem beskrev sommerfugleffekten?", "options": ["Vilhelm Bjerknes", "Edward Lorenz", "Isaac Newton", "Albert Einstein"], "correct": 1, "explain": "Kaos i atmosfæren." },
+      { "id": "m06", "type": "flervalg", "text": "Hvordan kan et ensemblevarsel oppgis?", "options": ["Som sannsynlighet, for eksempel 70 % sjanse for regn", "Bare som ja eller nei", "Som en temperatur alltid", "Uten tall"], "correct": 0, "explain": "Viser usikkerheten." },
+      { "id": "m07", "type": "flervalg", "text": "Hva forbedrer modellene over tid?", "options": ["Færre observasjoner", "Grovere oppløsning", "Finere oppløsning og bedre parametrisering", "Mindre regnekraft"], "correct": 2, "explain": "Også maskinlæring." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

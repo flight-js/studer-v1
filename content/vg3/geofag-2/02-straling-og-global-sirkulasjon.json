@@ -1,0 +1,80 @@
+{
+  "id": "straling-og-global-sirkulasjon",
+  "fagId": "geofag-2",
+  "trinnId": "vg3",
+  "name": "Strålingsbalanse og global sirkulasjon",
+  "intro": "Jordens strålingsbalanse med kortbølget og langbølget stråling, albedo og drivhuseffekt, ulik strålingsfordeling med breddegrad, strålingspådriv – og hvordan dette driver den globale sirkulasjonen med Hadley-, Ferrel- og polarceller, passatvinder, vestavindsbeltet og jetstrømmer.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Strålingsbalanse\n\nJorda får energi fra **sola** som **kortbølget** stråling – mest synlig lys. Omtrent **30 %** reflekteres tilbake til verdensrommet av skyer, is og lyse flater. Dette kalles jordas **albedo**. Resten tas opp av bakken, havet og atmosfæren.\n\nJorda sender selv ut energi som **langbølget** varmestråling. Over tid må **innstrålingen** og **utstrålingen** være omtrent like store – ellers blir jorda varmere eller kaldere.\n\n## Drivhuseffekten\n\n**Drivhusgasser** – vanndamp, CO₂, metan og lystgass – slipper sollyset gjennom, men **tar opp** mye av den langbølgede strålingen fra bakken og sender den i alle retninger, også **tilbake** mot bakken. Uten den **naturlige** drivhuseffekten ville gjennomsnittstemperaturen vært omtrent **−18 °C** i stedet for omtrent **15 °C**.\n\n## Strålingsfordeling\n\nSola varmer **ulikt**:\n\n- Ved **ekvator** står sola høyt, og strålingen treffer bakken nesten **loddrett**. Det gir **overskudd** av energi.\n- Ved **polene** kommer strålingen **skrått** inn og fordeles over større areal. Det gir **underskudd**, forsterket av høy **albedo** fra is.\n\n**Atmosfæren** og **havet** frakter varme fra **ekvator** mot **polene** og jevner ut forskjellene. Denne transporten er drivkraften bak **vind** og **havstrømmer**.\n\n## Strålingspådriv\n\n**Strålingspådriv** er en **endring** i strålingsbalansen, målt i **watt per kvadratmeter** (W/m²). Et **positivt** pådriv gir **oppvarming**, et **negativt** gir **avkjøling**.\n\n- **Økt CO₂** og andre drivhusgasser gir positivt pådriv.\n- **Aerosoler** – små partikler fra vulkaner og forurensning – gir ofte negativt pådriv.\n- Endringer i **solaktivitet** og **arealbruk** gir også pådriv.\n\n## Den globale sirkulasjonen\n\nVarm luft ved ekvator **stiger**, og det dannes **lavtrykk**. Luften strømmer mot polene i høyden, avkjøles og **synker** igjen rundt **30°** nord og sør, der det dannes **høytrykk**. Den globale sirkulasjonen deles i tre celler på hver halvkule:\n\n- **Hadleycellen** (0–30°): Nær bakken blåser **passatvindene** mot ekvator. Der de møtes, er den **intertropiske konvergenssonen** med mye regn. Ved 30° gir synkende luft **ørkener** som Sahara.\n- **Ferrelcellen** (30–60°): Nær bakken blåser **vestavindene**. Norge ligger i **vestavindsbeltet**, som gir mange **lavtrykk** og mye nedbør på Vestlandet.\n- **Polarcellen** (60–90°): Kald luft synker ved polene og strømmer mot lavere breddegrader som **polare østavinder**.\n\nMellom kald polarluft og varmere luft ligger **polarfronten**, der mange lavtrykk dannes.\n\n## Jetstrømmer\n\n**Jetstrømmer** er kraftige vinder i **8–12 km** høyde som blåser fra **vest** mot **øst**. De dannes der det er store **temperaturforskjeller**, og de styrer **lavtrykkenes** bane. Når jetstrømmen slynger seg mye, kan værtyper bli **låst** fast i lang tid.\n\n## Oppsummering\n\nUlik oppvarming gir **trykkforskjeller**, trykkforskjeller gir **vind**, og jordas **rotasjon** bøyer vindene av. Resultatet er de store **vindbeltene** og **klimasonene** på jorda.",
+  "flashcards": [
+    { "term": "Kortbølget stråling", "def": "Stråling fra sola, mest synlig lys." },
+    { "term": "Langbølget stråling", "def": "Varmestråling fra jorda." },
+    { "term": "Albedo", "def": "Andelen sollys som reflekteres – omtrent 30 % for jorda." },
+    { "term": "Strålingsbalanse", "def": "Innstråling og utstråling er omtrent like store over tid." },
+    { "term": "Drivhuseffekt", "def": "Drivhusgasser tar opp langbølget stråling og varmer jorda." },
+    { "term": "Uten drivhuseffekt", "def": "Omtrent −18 °C i stedet for omtrent 15 °C." },
+    { "term": "Strålingsoverskudd", "def": "Ved ekvator, der sola står høyt." },
+    { "term": "Strålingspådriv", "def": "Endring i strålingsbalansen målt i W/m²." },
+    { "term": "Aerosoler", "def": "Små partikler som ofte gir negativt pådriv." },
+    { "term": "Hadleycellen", "def": "Sirkulasjonscelle mellom ekvator og 30°." },
+    { "term": "Passatvinder", "def": "Vinder som blåser mot ekvator nær bakken." },
+    { "term": "Intertropisk konvergenssone", "def": "Området der passatvindene møtes, med mye regn." },
+    { "term": "Ferrelcellen", "def": "Sirkulasjonscelle mellom 30° og 60° med vestavinder." },
+    { "term": "Polarfronten", "def": "Grensen mellom kald polarluft og varmere luft." },
+    { "term": "Jetstrøm", "def": "Kraftig vestavind i 8–12 km høyde som styrer lavtrykkene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Omtrent hvor stor er jordas albedo?", "options": ["5 %", "30 %", "70 %", "90 %"], "correct": 1, "explain": "Skyer, is og lyse flater reflekterer." },
+    { "id": "q02", "text": "Hva ville gjennomsnittstemperaturen vært uten den naturlige drivhuseffekten?", "options": ["Omtrent −18 °C", "Omtrent 15 °C", "Omtrent 30 °C", "Omtrent 0 °C"], "correct": 0, "explain": "Med drivhuseffekten er den omtrent 15 °C." },
+    { "id": "q03", "text": "Hvorfor er det strålingsunderskudd ved polene?", "options": ["Fordi sola aldri skinner", "Fordi det er lite luft", "Fordi strålingen kommer skrått inn og albedoen er høy", "Fordi det er mye skog"], "correct": 2, "explain": "Energien fordeles over større areal." },
+    { "id": "q04", "text": "Hva betyr et positivt strålingspådriv?", "options": ["Avkjøling", "Ingen endring", "Mer is", "Oppvarming"], "correct": 3, "explain": "For eksempel økt CO₂." },
+    { "id": "q05", "text": "Hvor synker luften i Hadleycellen og gir ørkener?", "options": ["Rundt 30° nord og sør", "Ved ekvator", "Ved polene", "Ved 60°"], "correct": 0, "explain": "Høytrykk gir lite nedbør." },
+    { "id": "q06", "text": "Hvilket vindbelte ligger Norge i?", "options": ["Passatvindbeltet", "Vestavindsbeltet", "De polare østavindene", "Den intertropiske konvergenssonen"], "correct": 1, "explain": "Mange lavtrykk og mye nedbør på Vestlandet." },
+    { "id": "q07", "text": "Hva gjør jetstrømmene?", "options": ["Lager havstrømmer", "Smelter is", "Styrer lavtrykkenes bane", "Lager ørkener"], "correct": 2, "explain": "Kraftige vinder i 8–12 km høyde." },
+    { "id": "q08", "text": "Hva gir aerosoler fra vulkaner ofte?", "options": ["Positivt pådriv", "Mer drivhuseffekt", "Ingen virkning", "Negativt pådriv og avkjøling"], "correct": 3, "explain": "De reflekterer sollys." },
+    { "id": "q09", "text": "Hva er den intertropiske konvergenssonen?", "options": ["Området der passatvindene møtes, med mye regn", "En ørken", "En havstrøm", "Et høytrykk ved polene"], "correct": 0, "explain": "Nær ekvator." },
+    { "id": "q10", "text": "Hva driver vind og havstrømmer på global skala?", "options": ["Månen", "Ulik oppvarming og varmetransport fra ekvator mot polene", "Jordskjelv", "Vulkaner"], "correct": 1, "explain": "Strålingsfordelingen." }
+  ],
+  "mindmap": {
+    "label": "Stråling og sirkulasjon",
+    "children": [
+      { "label": "Strålingsbalanse", "children": [
+        { "label": "Kort- og langbølget" },
+        { "label": "Albedo" },
+        { "label": "Drivhuseffekt" }
+      ] },
+      { "label": "Fordeling", "children": [
+        { "label": "Overskudd ved ekvator" },
+        { "label": "Underskudd ved polene" }
+      ] },
+      { "label": "Pådriv", "children": [
+        { "label": "Drivhusgasser" },
+        { "label": "Aerosoler" },
+        { "label": "Sol og arealbruk" }
+      ] },
+      { "label": "Celler", "children": [
+        { "label": "Hadley og passatvinder" },
+        { "label": "Ferrel og vestavinder" },
+        { "label": "Polarcellen" }
+      ] },
+      { "label": "Høyden", "children": [
+        { "label": "Jetstrømmer" },
+        { "label": "Polarfronten" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Atmosfæren og havet frakter varme fra ekvator mot polene.", "correct": true, "explain": "Det jevner ut forskjellene." },
+      { "id": "m02", "type": "sant-usant", "text": "Drivhusgasser stopper sollyset før det når bakken.", "correct": false, "explain": "De slipper sollyset gjennom, men tar opp varmestråling." },
+      { "id": "m03", "type": "sant-usant", "text": "En slyngete jetstrøm kan låse værtyper fast i lang tid.", "correct": true, "explain": "For eksempel langvarig tørke eller regn." },
+      { "id": "m04", "type": "sant-usant", "text": "Strålingspådriv måles i grader celsius.", "correct": false, "explain": "Det måles i W/m²." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken retning blåser jetstrømmene?", "options": ["Fra øst mot vest", "Fra vest mot øst", "Fra nord mot sør", "Tilfeldig"], "correct": 1, "explain": "Vestlige vinder i høyden." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilke vinder blåser i polarcellen nær bakken?", "options": ["Polare østavinder", "Passatvinder", "Vestavinder", "Monsunvinder"], "correct": 0, "explain": "Kald luft strømmer fra polene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva skjer med innstråling og utstråling over tid når klimaet er stabilt?", "options": ["Innstrålingen er alltid større", "Utstrålingen er alltid større", "De er omtrent like store", "Begge er null"], "correct": 2, "explain": "Strålingsbalanse." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

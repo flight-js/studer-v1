@@ -1,0 +1,80 @@
+{
+  "id": "naturfarer-og-klima",
+  "fagId": "geofag-2",
+  "trinnId": "vg3",
+  "name": "Naturfarer i atmosfære, hav og kryosfære",
+  "intro": "Hvordan vi vurderer risiko ved naturfarer fra atmosfæren, havet og kryosfæren – storm, stormflo, flom, ulike typer skred, tørke, skogbrann og brerelaterte farer – hvordan farevarsling og sikring fungerer, og hvordan klimaendringer kan påvirke farene.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Fare og risiko\n\n- En **naturfare** er en naturprosess som kan skade mennesker, bygninger eller infrastruktur.\n- **Risiko** er en kombinasjon av **sannsynlighet** og **konsekvens**: Risiko = sannsynlighet × konsekvens.\n\nEn stor flom i et øde område gir **lav** risiko, mens en mindre flom i en by kan gi **høy** risiko. **Sårbarhet** – hvor godt samfunnet tåler en hendelse – påvirker også konsekvensene.\n\n## Farer fra atmosfæren\n\n- **Storm** og **orkan** kan velte trær, ødelegge bygninger og stanse strøm og transport.\n- **Ekstremnedbør** kan gi **flom** og **overvann**.\n- **Tørke** og **hetebølger** gir svikt i avlinger, vannmangel og **skogbrann**.\n- **Lyn** og **hagl** kan gjøre skade lokalt.\n\n## Farer fra havet\n\n- **Stormflo** er ekstra høy vannstand når **lavt lufttrykk**, **pålandsvind** og **springflo** faller sammen. Den kan oversvømme kystbyer.\n- **Store bølger** truer skipsfart og installasjoner til havs.\n- **Havnivåstigning** gjør stormflo farligere over tid.\n\n## Farer fra vann, snø og is\n\n- **Flom** i elver kommer ofte av **snøsmelting** og **kraftig regn**.\n- **Snøskred** utløses når **svake lag** i snødekket bryter sammen, ofte i heng brattere enn omtrent **30°**.\n- **Sørpeskred** er vannmettet snø som raser, ofte ved **regn** eller rask **snøsmelting**.\n- **Jordskred** og **flomskred** utløses ofte av **intens nedbør** i bratt terreng.\n- **Jøkulhlaup** er plutselig tømming av en **bredemt sjø**.\n- **Permafrost** som tiner, kan gjøre fjellsider og grunn **ustabil**.\n\n## Varsling i Norge\n\n**Meteorologisk institutt** og **NVE** samarbeider om **farevarsler**. Varslene har **farger**:\n\n- **Gult** – moderat fare, vær oppmerksom\n- **Oransje** – betydelig fare, vær forberedt\n- **Rødt** – ekstrem fare, sjelden brukt\n\nNVE publiserer varsler om **snøskred**, **jordskred** og **flom** på **varsom.no**.\n\n## Forebygging og sikring\n\n- **Arealplanlegging**: Unngå å bygge i fare- og flomsoner. **Kommunene** har ansvar for å vurdere farer i planene sine.\n- **Fysisk sikring**: flomvoller, skredvoller, fangnett og snøskjermer\n- **Overvåking** av ustabile fjellparti\n- **Beredskap** og **evakuering**\n\n## Klimaendringenes påvirkning\n\nKlimaendringer kan endre både **sannsynligheten** og **konsekvensene**:\n\n- **mer** ekstremnedbør → flere **regnflommer**, **jordskred** og **flomskred**\n- **havnivåstigning** → mer alvorlig **stormflo**\n- **tining** av permafrost → mer ustabile fjellsider\n- **færre** snøsmelteflommer i noen områder, men flere **regnflommer** om vinteren\n- **varmere** vintre kan gi flere **våte** snøskred og **sørpeskred**\n- flere **tørkeperioder** kan øke faren for **skogbrann**\n\n## Vurdering\n\nNår du vurderer risiko, spør du: Hvor **sannsynlig** er hendelsen? Hvem og hva kan **rammes**? Hvordan kan risikoen **reduseres**? Og hvordan vil **klimaendringer** endre dette i framtiden?",
+  "flashcards": [
+    { "term": "Naturfare", "def": "Naturprosess som kan skade mennesker eller infrastruktur." },
+    { "term": "Risiko", "def": "Sannsynlighet × konsekvens." },
+    { "term": "Sårbarhet", "def": "Hvor godt samfunnet tåler en hendelse." },
+    { "term": "Stormflo", "def": "Ekstra høy vannstand ved lavt trykk, pålandsvind og springflo." },
+    { "term": "Snøskred", "def": "Utløses når svake lag i snøen bryter sammen." },
+    { "term": "Sørpeskred", "def": "Vannmettet snø som raser." },
+    { "term": "Jordskred", "def": "Skred av løsmasser, ofte etter intens nedbør." },
+    { "term": "Flomskred", "def": "Hurtig skred av vann og løsmasser i bratte bekker." },
+    { "term": "Jøkulhlaup", "def": "Plutselig tømming av en bredemt sjø." },
+    { "term": "Farevarsel", "def": "Varsel fra MET og NVE i gult, oransje eller rødt." },
+    { "term": "Rødt farevarsel", "def": "Ekstrem fare – sjelden brukt." },
+    { "term": "Varsom.no", "def": "NVEs nettsted for skred- og flomvarsler." },
+    { "term": "Arealplanlegging", "def": "Å unngå å bygge i fare- og flomsoner." },
+    { "term": "Fysisk sikring", "def": "Flomvoller, skredvoller, fangnett og snøskjermer." },
+    { "term": "Tinende permafrost", "def": "Kan gjøre fjellsider ustabile." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan kan risiko beskrives?", "options": ["Bare sannsynlighet", "Sannsynlighet × konsekvens", "Bare konsekvens", "Antall hendelser per år"], "correct": 1, "explain": "Begge deler må med." },
+    { "id": "q02", "text": "Hva gir stormflo?", "options": ["Lavt trykk, pålandsvind og springflo samtidig", "Høytrykk og vindstille", "Tørke", "Snøsmelting"], "correct": 0, "explain": "Ekstra høy vannstand." },
+    { "id": "q03", "text": "Hva er et sørpeskred?", "options": ["Et steinsprang", "Et skred av tørr snø", "Vannmettet snø som raser", "Et jordskjelv"], "correct": 2, "explain": "Ofte ved regn eller rask snøsmelting." },
+    { "id": "q04", "text": "Hva betyr oransje farevarsel?", "options": ["Ingen fare", "Ekstrem fare", "Moderat fare", "Betydelig fare – vær forberedt"], "correct": 3, "explain": "Rødt er ekstrem fare." },
+    { "id": "q05", "text": "Hvilken nettside publiserer NVEs skred- og flomvarsler?", "options": ["varsom.no", "yr.no alene", "nrk.no", "regjeringen.no"], "correct": 0, "explain": "Snøskred, jordskred og flom." },
+    { "id": "q06", "text": "Hvordan kan klimaendringer påvirke stormflo?", "options": ["Gjøre den mindre farlig", "Gjøre den farligere gjennom havnivåstigning", "Ingen effekt", "Stoppe den helt"], "correct": 1, "explain": "Høyere utgangsnivå." },
+    { "id": "q07", "text": "Hva er et jøkulhlaup?", "options": ["Et snøskred", "En orkan", "Plutselig tømming av en bredemt sjø", "En tørkeperiode"], "correct": 2, "explain": "En brerelatert fare." },
+    { "id": "q08", "text": "Hva er et eksempel på forebygging gjennom arealplanlegging?", "options": ["Evakuering", "Farevarsel", "Fangnett", "Å unngå å bygge i flomsoner"], "correct": 3, "explain": "Kommunene har ansvaret." },
+    { "id": "q09", "text": "Hvorfor kan tinende permafrost være farlig?", "options": ["Det kan gjøre fjellsider ustabile", "Det gir mer snø", "Det senker havnivået", "Det gir mindre nedbør"], "correct": 0, "explain": "Isen holdt massene sammen." },
+    { "id": "q10", "text": "Hvilken naturfare kan øke med flere tørkeperioder?", "options": ["Stormflo", "Skogbrann", "Snøskred", "Jøkulhlaup"], "correct": 1, "explain": "Tørr vegetasjon brenner lettere." }
+  ],
+  "mindmap": {
+    "label": "Naturfarer",
+    "children": [
+      { "label": "Risiko", "children": [
+        { "label": "Sannsynlighet × konsekvens" },
+        { "label": "Sårbarhet" }
+      ] },
+      { "label": "Atmosfære og hav", "children": [
+        { "label": "Storm og ekstremnedbør" },
+        { "label": "Tørke og skogbrann" },
+        { "label": "Stormflo" }
+      ] },
+      { "label": "Snø, is og vann", "children": [
+        { "label": "Flom" },
+        { "label": "Snø-, sørpe- og jordskred" },
+        { "label": "Jøkulhlaup og permafrost" }
+      ] },
+      { "label": "Håndtering", "children": [
+        { "label": "Farevarsler" },
+        { "label": "Arealplanlegging" },
+        { "label": "Fysisk sikring" }
+      ] },
+      { "label": "Klimaendringer", "children": [
+        { "label": "Mer ekstremnedbør" },
+        { "label": "Høyere havnivå" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Snøskred går ofte i heng brattere enn omtrent 30°.", "correct": true, "explain": "Bratthet er en viktig faktor." },
+      { "id": "m02", "type": "sant-usant", "text": "En stor flom i et øde område gir alltid høy risiko.", "correct": false, "explain": "Konsekvensene er små, så risikoen er lav." },
+      { "id": "m03", "type": "sant-usant", "text": "Meteorologisk institutt og NVE samarbeider om farevarsler.", "correct": true, "explain": "Gult, oransje og rødt." },
+      { "id": "m04", "type": "sant-usant", "text": "Klimaendringer vil gi færre jordskred i hele Norge.", "correct": false, "explain": "Mer ekstremnedbør kan gi flere." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på fysisk sikring mot skred?", "options": ["Farevarsel", "Skredvoller og fangnett", "Arealplan", "Evakuering"], "correct": 1, "explain": "Stopper eller leder skredmassene." },
+      { "id": "m06", "type": "flervalg", "text": "Hva utløser ofte jordskred og flomskred?", "options": ["Intens nedbør i bratt terreng", "Høytrykk", "Kulde", "Vindstille"], "correct": 0, "explain": "Løsmassene blir vannmettet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr gult farevarsel?", "options": ["Ekstrem fare", "Betydelig fare", "Moderat fare – vær oppmerksom", "Ingen fare"], "correct": 2, "explain": "Det laveste nivået." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
