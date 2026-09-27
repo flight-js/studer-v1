@@ -1,0 +1,82 @@
+{
+  "id": "demokrati-og-styreformer",
+  "fagId": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Medborgerskap, demokrati og styreformer",
+  "intro": "Hva det innebærer å være medborger, ulike demokratimodeller, sammenligning av parlamentarisme, presidentstyre og autoritære regimer, og hvordan demokratiet har utviklet seg og møter utfordringer i verden.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Medborgerskap\n\nÅ være **medborger** betyr å være et fullverdig medlem av et politisk fellesskap – med både **rettigheter** og **plikter**:\n\n- **Rettigheter**: stemmerett, ytringsfrihet, forsamlingsfrihet, rettssikkerhet og velferd.\n- **Plikter**: å følge lover, betale skatt og respektere andres rettigheter.\n- **Deltakelse**: å stemme, engasjere seg i organisasjoner, delta i debatter og gjøre seg opp en mening.\n\nMedborgerskap handler også om å **tolerere** uenighet og ta del i **fellesskapet**.\n\n## Hva er demokrati?\n\nDemokrati betyr **folkestyre**. Viktige kjennetegn er\n\n- **frie og hemmelige valg** med reelle alternativer\n- **allmenn stemmerett**\n- **ytrings-**, **organisasjons-** og **pressefrihet**\n- **rettsstat** med uavhengige domstoler\n- **maktfordeling** og **vern om mindretall**\n\n## Demokratimodeller\n\n- **Direkte demokrati**: Folket bestemmer selv, for eksempel gjennom **folkeavstemninger**. Sveits bruker dette mye.\n- **Representativt demokrati**: Folket velger **representanter** som tar beslutningene.\n- **Deltakerdemokrati**: Vekt på at borgerne deltar **aktivt** også mellom valgene.\n- **Deliberativt demokrati** (samtaledemokrati): Vekt på at beslutninger bygger på **offentlig samtale** og gode argumenter.\n\n## Demokratiske styreformer\n\n- **Parlamentarisme** (Norge, Storbritannia, Tyskland): Regjeringen må ha **nasjonalforsamlingens tillit** og kan felles ved mistillit. Den utøvende og lovgivende makten er tett knyttet sammen.\n- **Presidentstyre** (USA): **Presidenten** velges separat og kan ikke felles med mistillit. **Kongressen** og **presidenten** balanserer hverandre gjennom **«checks and balances»**.\n- **Semipresidentstyre** (Frankrike): både en direkte valgt **president** og en **statsminister** som må ha parlamentets tillit.\n- **Konstitusjonelt monarki**: Kongen er **statsoverhode**, men har symbolsk rolle – som i Norge.\n\n## Autoritære styreformer\n\n- **Autoritære regimer**: Makten er samlet hos én leder eller ett parti, og opposisjonen begrenses. Valg kan finnes, men er **ikke frie**.\n- **Totalitære regimer** prøver å kontrollere **alle** deler av samfunnet og menneskers tanker – som Sovjetunionen under Stalin og Nazi-Tyskland.\n- **Hybride regimer** har noen demokratiske trekk, men er ikke fullt frie.\n\n## Demokratiets utvikling\n\nDemokratiet har spredt seg i **bølger**: etter første verdenskrig, etter andre verdenskrig og etter at kommunismen falt rundt **1990**. I dag lever likevel en stor del av verdens befolkning i **autoritære** eller **hybride** regimer.\n\nOrganisasjoner som **Freedom House** og forskningsprosjektet **V-Dem** har de siste årene registrert en **demokratisk tilbakegang** i mange land.\n\n## Utfordringer for demokratiet\n\n- **Polarisering** og synkende **tillit**.\n- **Desinformasjon** og påvirkning fra fremmede stater.\n- Ledere som svekker **domstoler**, **presse** og **opposisjon** gradvis.\n- **Lav valgdeltakelse** i noen grupper.\n- **Globale** problemer, som klima, som nasjonale demokratier har vanskelig for å løse alene.\n\n## Sammenligne land\n\nNår du sammenligner styreformer, se på **hvordan makten er fordelt**, **hvordan ledere velges og kan kontrolleres**, og **hvilke rettigheter** borgerne har.",
+  "flashcards": [
+    { "term": "Medborgerskap", "def": "Fullverdig medlemskap i et politisk fellesskap med rettigheter og plikter." },
+    { "term": "Demokrati", "def": "Folkestyre." },
+    { "term": "Rettsstat", "def": "Staten er bundet av lover, og domstolene er uavhengige." },
+    { "term": "Direkte demokrati", "def": "Folket bestemmer selv, for eksempel ved folkeavstemning." },
+    { "term": "Representativt demokrati", "def": "Folket velger representanter som bestemmer." },
+    { "term": "Deliberativt demokrati", "def": "Beslutninger bygger på offentlig samtale og argumenter." },
+    { "term": "Parlamentarisme", "def": "Regjeringen må ha nasjonalforsamlingens tillit." },
+    { "term": "Presidentstyre", "def": "Presidenten velges separat og kan ikke felles med mistillit." },
+    { "term": "Checks and balances", "def": "Maktene i USA balanserer og kontrollerer hverandre." },
+    { "term": "Semipresidentstyre", "def": "Både valgt president og statsminister, som i Frankrike." },
+    { "term": "Konstitusjonelt monarki", "def": "Kongen er statsoverhode med symbolsk rolle." },
+    { "term": "Autoritært regime", "def": "Makten samlet hos én leder eller ett parti, uten frie valg." },
+    { "term": "Totalitært regime", "def": "Forsøker å kontrollere alle deler av samfunnet." },
+    { "term": "Hybrid regime", "def": "Noen demokratiske trekk, men ikke fullt fritt." },
+    { "term": "Demokratisk tilbakegang", "def": "At demokratiet svekkes i mange land." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva kjennetegner parlamentarisme?", "options": ["Presidenten kan ikke felles", "Regjeringen må ha nasjonalforsamlingens tillit", "Kongen har all makt", "Det finnes ingen valg"], "correct": 1, "explain": "Som i Norge." },
+    { "id": "q02", "text": "Hva er et totalitært regime?", "options": ["Et regime som prøver å kontrollere alle deler av samfunnet", "Et demokrati med mange partier", "Et land uten regjering", "Et konstitusjonelt monarki"], "correct": 0, "explain": "For eksempel Sovjetunionen under Stalin." },
+    { "id": "q03", "text": "Hvilket land har presidentstyre?", "options": ["Norge", "Storbritannia", "USA", "Tyskland"], "correct": 2, "explain": "Med checks and balances." },
+    { "id": "q04", "text": "Hva er deliberativt demokrati?", "options": ["Styre ved loddtrekning", "Styre av eksperter", "Styre av én leder", "Demokrati som vektlegger offentlig samtale og gode argumenter"], "correct": 3, "explain": "Også kalt samtaledemokrati." },
+    { "id": "q05", "text": "Hva innebærer medborgerskap?", "options": ["Både rettigheter og plikter i et politisk fellesskap", "Bare rettigheter", "Bare plikter", "Bare stemmerett"], "correct": 0, "explain": "Og deltakelse i fellesskapet." },
+    { "id": "q06", "text": "Hva har Freedom House og V-Dem registrert de siste årene?", "options": ["At alle land er blitt demokratier", "En demokratisk tilbakegang i mange land", "At diktaturer er avskaffet", "At valg er forbudt"], "correct": 1, "explain": "Demokratiet er under press." },
+    { "id": "q07", "text": "Hvilket land bruker direkte demokrati gjennom folkeavstemninger mye?", "options": ["Kina", "Russland", "Sveits", "Saudi-Arabia"], "correct": 2, "explain": "Folket stemmer over mange saker." },
+    { "id": "q08", "text": "Hva er et hybrid regime?", "options": ["Et fullt demokrati", "Et totalitært regime", "Et monarki", "Et regime med noen demokratiske trekk, men som ikke er fullt fritt"], "correct": 3, "explain": "Valg kan finnes, men er ikke frie." },
+    { "id": "q09", "text": "Hvilken utfordring møter mange demokratier i dag?", "options": ["Polarisering og desinformasjon", "For mye tillit", "For mange frie valg", "For lite ytringsfrihet i Norge"], "correct": 0, "explain": "Også svekket tillit." },
+    { "id": "q10", "text": "Hvilken rolle har kongen i et konstitusjonelt monarki?", "options": ["All makt", "Symbolsk rolle som statsoverhode", "Leder regjeringen", "Leder Stortinget"], "correct": 1, "explain": "Som i Norge." }
+  ],
+  "mindmap": {
+    "label": "Demokrati og styreformer",
+    "children": [
+      { "label": "Medborgerskap", "children": [
+        { "label": "Rettigheter" },
+        { "label": "Plikter" },
+        { "label": "Deltakelse" }
+      ] },
+      { "label": "Demokratimodeller", "children": [
+        { "label": "Direkte" },
+        { "label": "Representativt" },
+        { "label": "Deltaker og deliberativt" }
+      ] },
+      { "label": "Demokratiske styreformer", "children": [
+        { "label": "Parlamentarisme" },
+        { "label": "Presidentstyre" },
+        { "label": "Semipresidentstyre" }
+      ] },
+      { "label": "Ikke-demokratiske", "children": [
+        { "label": "Autoritære" },
+        { "label": "Totalitære" },
+        { "label": "Hybride" }
+      ] },
+      { "label": "Utvikling", "children": [
+        { "label": "Demokratibølger" },
+        { "label": "Tilbakegang" },
+        { "label": "Utfordringer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En amerikansk president kan ikke felles ved mistillit i Kongressen.", "correct": true, "explain": "Presidenten velges separat." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle land med valg er demokratier.", "correct": false, "explain": "Valgene må være frie og ha reelle alternativer." },
+      { "id": "m03", "type": "sant-usant", "text": "Vern om mindretall er et kjennetegn på demokrati.", "correct": true, "explain": "Flertallet kan ikke gjøre hva det vil." },
+      { "id": "m04", "type": "sant-usant", "text": "Norge har presidentstyre.", "correct": false, "explain": "Norge har parlamentarisme og konstitusjonelt monarki." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket land har semipresidentstyre?", "options": ["USA", "Frankrike", "Norge", "Kina"], "correct": 1, "explain": "President og statsminister." },
+      { "id": "m06", "type": "flervalg", "text": "Når kom en stor demokratibølge etter at kommunismen falt?", "options": ["Rundt 1990", "Rundt 1850", "Rundt 1920", "Rundt 2020"], "correct": 0, "explain": "Mange land i Øst-Europa ble demokratier." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en plikt som medborger?", "options": ["Å stemme på et bestemt parti", "Å være medlem av et parti", "Å følge lover og betale skatt", "Å delta i demonstrasjoner"], "correct": 2, "explain": "Rettigheter følges av plikter." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

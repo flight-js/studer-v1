@@ -1,0 +1,80 @@
+{
+  "id": "statsvitenskapelige-teorier-og-kilder",
+  "fagId": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Statsvitenskapelige teorier, modeller og kilder",
+  "intro": "Hva statsvitenskap er, hvordan du vurderer informasjon om politikk, og hvordan modeller som Eastons systemmodell, Rokkans konfliktlinjer og teoriene realisme og liberalisme hjelper deg å analysere politiske saker og konflikter.",
+  "kompetansemaal": [1, 2, 4],
+  "sammendrag": "## Hva er statsvitenskap?\n\n**Statsvitenskap** studerer **politikk** – hvordan samfunn fordeler **makt** og **goder**, og hvordan beslutninger tas. Den klassiske definisjonen av politikk er at den handler om **hvem som får hva, når og hvordan**. Fagfeltet omfatter blant annet **norsk politikk**, **sammenlignende politikk** mellom land og **internasjonal politikk**.\n\n## Vurdere informasjon\n\nPolitisk informasjon er ofte **farget** av interesser. Spør:\n\n- **Hvem** er avsenderen – et parti, en interesseorganisasjon, en tenketank, et forskningsmiljø eller en redaksjon?\n- Hva er **formålet** – å informere, overbevise eller selge?\n- Er påstandene **dokumentert** med kilder og tall? Er tallene **sammenlignbare**?\n- Skilles det mellom **fakta** og **meninger**?\n- Hva sier **andre** uavhengige kilder?\n\nGode kilder er ofte **offentlige dokumenter** (stortingsmeldinger, lovtekster), **statistikk** (SSB), **forskning** og **redaktørstyrte medier**. Faktasjekktjenester som **Faktisk.no** kan hjelpe.\n\n## Eastons systemmodell\n\nStatsviteren **David Easton** beskrev det politiske systemet som en **maskin** som tar imot **input** og gir **output**:\n\n1. **Input**: **krav** (ønsker om politikk) og **støtte** (tillit og oppslutning) fra samfunnet – via velgere, partier, organisasjoner og medier.\n2. **Omforming**: Storting, regjering og forvaltning behandler kravene.\n3. **Output**: **beslutninger** – lover, budsjetter og tiltak.\n4. **Tilbakekobling**: Beslutningene påvirker samfunnet, som gir nye krav og ny støtte.\n\nModellen hjelper oss å se **hvordan** en sak går fra et krav til en beslutning.\n\n## Rokkans konfliktlinjer\n\n**Stein Rokkan** forklarte det norske partisystemet ut fra historiske **konfliktlinjer**:\n\n- **Sentrum–periferi**: hovedstaden mot distriktene.\n- **By–land**: næringsinteresser i by og på land.\n- **Kulturell**: språk (nynorsk og bokmål), religion og avholdssak.\n- **Arbeid–kapital**: arbeidere mot arbeidsgivere – grunnlaget for **høyre–venstre-aksen**.\n\nSenere har nye konfliktlinjer kommet til, som **miljø–vekst** og **innvandring og verdier**.\n\n## Teorier om internasjonal politikk\n\n- **Realisme**: Statene er de viktigste aktørene, og det finnes ingen verdensregjering (**anarki**). Stater søker **makt** og **sikkerhet** ut fra **egeninteresse**. Fred sikres best ved **maktbalanse**.\n- **Liberalisme** (idealisme): Samarbeid, **handel**, **demokrati** og **internasjonale institusjoner** som FN kan skape fred. Stater kan tjene på å samarbeide.\n- **Konstruktivisme**: **Ideer**, **identiteter** og **normer** former hvordan stater oppfatter hverandre og sine interesser.\n\n## Analysere en sak\n\nNår du analyserer en **nasjonal** eller **internasjonal** sak eller konflikt, kan du spørre:\n\n1. **Hva** handler saken om, og hva er **bakgrunnen**?\n2. Hvilke **aktører** er involvert, og hvilke **interesser** og **verdier** har de?\n3. Hvilke **maktressurser** har de – stemmer, penger, militær makt, kunnskap, medieoppmerksomhet?\n4. På hvilke **arenaer** skjer det – Stortinget, domstolene, media, FN?\n5. Hvilke **teorier** kan forklare det som skjer?\n6. Hva er mulige **løsninger** og konsekvenser?",
+  "flashcards": [
+    { "term": "Statsvitenskap", "def": "Studiet av politikk, makt og beslutninger." },
+    { "term": "Politikk (klassisk definisjon)", "def": "Hvem som får hva, når og hvordan." },
+    { "term": "Faktasjekk", "def": "Kontroll av påstander mot kilder, for eksempel hos Faktisk.no." },
+    { "term": "Eastons systemmodell", "def": "Politisk system med input, omforming, output og tilbakekobling." },
+    { "term": "Input", "def": "Krav og støtte fra samfunnet." },
+    { "term": "Output", "def": "Beslutninger som lover og budsjetter." },
+    { "term": "Tilbakekobling", "def": "Beslutningene påvirker samfunnet og gir nye krav." },
+    { "term": "Stein Rokkan", "def": "Forklarte partisystemet ut fra konfliktlinjer." },
+    { "term": "Sentrum–periferi", "def": "Konfliktlinje mellom hovedstad og distrikter." },
+    { "term": "Arbeid–kapital", "def": "Konfliktlinje bak høyre–venstre-aksen." },
+    { "term": "Realisme", "def": "Stater søker makt og sikkerhet i et anarkisk system." },
+    { "term": "Anarki (internasjonal politikk)", "def": "At det ikke finnes noen verdensregjering." },
+    { "term": "Liberalisme (internasjonal politikk)", "def": "Samarbeid, handel og institusjoner kan skape fred." },
+    { "term": "Konstruktivisme", "def": "Ideer, identiteter og normer former stater." },
+    { "term": "Maktressurser", "def": "Stemmer, penger, militær makt, kunnskap og oppmerksomhet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er input i Eastons systemmodell?", "options": ["Lover og budsjetter", "Krav og støtte fra samfunnet", "Domstolenes avgjørelser", "Skatteinntekter"], "correct": 1, "explain": "Output er beslutningene." },
+    { "id": "q02", "text": "Hva mener realister om internasjonal politikk?", "options": ["At stater søker makt og sikkerhet i et system uten verdensregjering", "At alle stater samarbeider", "At ideer er viktigst", "At FN styrer verden"], "correct": 0, "explain": "Maktbalanse sikrer fred." },
+    { "id": "q03", "text": "Hvilken konfliktlinje ligger bak høyre–venstre-aksen?", "options": ["Sentrum–periferi", "By–land", "Arbeid–kapital", "Religion"], "correct": 2, "explain": "Arbeidere mot arbeidsgivere." },
+    { "id": "q04", "text": "Hva legger liberalismen vekt på i internasjonal politikk?", "options": ["Militær makt alene", "Egeninteresse og konflikt", "At stater aldri kan samarbeide", "Samarbeid, handel, demokrati og institusjoner"], "correct": 3, "explain": "Stater kan tjene på samarbeid." },
+    { "id": "q05", "text": "Hva er et godt spørsmål når du vurderer politisk informasjon?", "options": ["Hvem er avsenderen, og hva er formålet?", "Hvor mange bilder har saken?", "Hvor lang er teksten?", "Er det skrevet på nynorsk?"], "correct": 0, "explain": "Interesser farger informasjonen." },
+    { "id": "q06", "text": "Hvem forklarte partisystemet ut fra historiske konfliktlinjer?", "options": ["David Easton", "Stein Rokkan", "Max Weber", "Thomas Hobbes"], "correct": 1, "explain": "Norsk statsviter." },
+    { "id": "q07", "text": "Hva legger konstruktivismen vekt på?", "options": ["Bare militær makt", "Bare økonomi", "Ideer, identiteter og normer", "Bare geografi"], "correct": 2, "explain": "Hvordan stater oppfatter hverandre." },
+    { "id": "q08", "text": "Hva er tilbakekobling i Eastons modell?", "options": ["At lover oppheves", "At velgere stemmer", "At regjeringen går av", "At beslutningene påvirker samfunnet og gir nye krav og ny støtte"], "correct": 3, "explain": "Systemet er dynamisk." },
+    { "id": "q09", "text": "Hvilken nyere konfliktlinje har kommet til i norsk politikk?", "options": ["Miljø–vekst", "Konge–adel", "Pave–keiser", "Katolikk–protestant"], "correct": 0, "explain": "Også innvandring og verdier." },
+    { "id": "q10", "text": "Hvilken kilde er vanligvis mest pålitelig for norsk statistikk?", "options": ["Et partiprogram", "Statistisk sentralbyrå", "En kommentar i sosiale medier", "En reklame"], "correct": 1, "explain": "Offisiell statistikk." }
+  ],
+  "mindmap": {
+    "label": "Statsvitenskap",
+    "children": [
+      { "label": "Fagfeltet", "children": [
+        { "label": "Hvem får hva?" },
+        { "label": "Norsk, sammenlignende, internasjonal" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Avsender og formål" },
+        { "label": "Fakta og meninger" },
+        { "label": "Faktasjekk" }
+      ] },
+      { "label": "Modeller", "children": [
+        { "label": "Eastons systemmodell" },
+        { "label": "Rokkans konfliktlinjer" }
+      ] },
+      { "label": "Internasjonal teori", "children": [
+        { "label": "Realisme" },
+        { "label": "Liberalisme" },
+        { "label": "Konstruktivisme" }
+      ] },
+      { "label": "Saksanalyse", "children": [
+        { "label": "Aktører og interesser" },
+        { "label": "Maktressurser" },
+        { "label": "Arenaer og løsninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Nynorsk og bokmål hører til den kulturelle konfliktlinjen hos Rokkan.", "correct": true, "explain": "Sammen med religion og avholdssak." },
+      { "id": "m02", "type": "sant-usant", "text": "Realister mener at internasjonale institusjoner alene kan sikre fred.", "correct": false, "explain": "Det er et liberalistisk syn." },
+      { "id": "m03", "type": "sant-usant", "text": "Et partiprogram er en kilde med tydelig formål om å overbevise.", "correct": true, "explain": "Det må leses kritisk." },
+      { "id": "m04", "type": "sant-usant", "text": "Output i Eastons modell er krav fra velgerne.", "correct": false, "explain": "Output er beslutningene." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken teori passer best til å forklare at stater ruster opp når naboen gjør det?", "options": ["Konstruktivisme", "Realisme", "Liberalisme", "Funksjonalisme"], "correct": 1, "explain": "Sikkerhetsdilemma og maktbalanse." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en maktressurs?", "options": ["Stemmer, penger eller medieoppmerksomhet", "Et partiprogram uten støtte", "En tom stol", "En ferie"], "correct": 0, "explain": "Ressurser som gir påvirkning." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken del av det politiske systemet står for omformingen i Eastons modell?", "options": ["Velgerne", "Mediene", "Storting, regjering og forvaltning", "Interesseorganisasjonene"], "correct": 2, "explain": "Der krav blir til beslutninger." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

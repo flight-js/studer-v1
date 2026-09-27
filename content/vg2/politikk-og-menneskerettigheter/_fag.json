@@ -1,0 +1,77 @@
+{
+  "id": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Politikk og menneskerettigheter",
+  "lareplan": {
+    "kode": "POS05-02",
+    "url": "https://www.udir.no/lk20/pos05-02/kompetansemaal-og-vurdering/kv891",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "vurdere informasjon for å analysere faglige spørsmål og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "bruke statsvitenskapelige teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"
+      },
+      {
+        "nr": 3,
+        "tekst": "reflektere over hva det innebærer å være medborger, sammenligne ulike staters styreform og analysere demokratiets utvikling og utfordringer"
+      },
+      {
+        "nr": 4,
+        "tekst": "utforske og analysere nasjonale og internasjonale saker eller konflikter i et statsvitenskapelig perspektiv"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjøre rede for maktforhold, konfliktdimensjoner og kanaler for politisk innflytelse i det norske politiske systemet og drøfte hvordan dette kommer til uttrykk i praktisk politikk"
+      },
+      {
+        "nr": 6,
+        "tekst": "bruke samfunnsvitenskapelig metode for å analysere og drøfte velgeratferd og politisk deltakelse"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske, analysere og drøfte dagsaktuelle problemstillinger knyttet til bærekraft og fordeling"
+      },
+      {
+        "nr": 8,
+        "tekst": "drøfte rettighetene til urfolk og minoriteter nasjonalt og internasjonalt og problemstillinger knyttet til politisk innflytelse"
+      },
+      {
+        "nr": 9,
+        "tekst": "vurdere menneskerettighetenes betydning for demokratiet og velferdsstaten"
+      },
+      {
+        "nr": 10,
+        "tekst": "vurdere folkerettens rolle og betydning nasjonalt og internasjonalt"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske institusjoner og aktører som overvåker og håndhever menneskerettighetene, og drøfte forholdet mellom statlig, mellomstatlig og overstatlig myndighetsutøvelse"
+      },
+      {
+        "nr": 12,
+        "tekst": "gjøre rede for det norske politiske systemet lokalt og nasjonalt og drøfte hvilke utfordringer det norske demokratiet står overfor"
+      },
+      {
+        "nr": 13,
+        "tekst": "utforske og drøfte hvordan det internasjonale politiske systemet håndterer problemstillinger knyttet til krig og fred, sikkerhet, samarbeid og konfliktløsing"
+      }
+    ]
+  },
+  "temaer": [
+    "statsvitenskapelige-teorier-og-kilder",
+    "demokrati-og-styreformer",
+    "det-norske-politiske-systemet",
+    "makt-konfliktlinjer-og-kanaler",
+    "valg-og-velgeratferd",
+    "barekraft-og-fordeling",
+    "urfolk-og-minoriteter",
+    "menneskerettigheter-demokrati-og-velferd",
+    "folkeretten",
+    "handhevelse-av-menneskerettigheter",
+    "krig-fred-og-internasjonal-politikk",
+    "demokratiets-utfordringer"
+  ]
+}

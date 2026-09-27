@@ -1,0 +1,81 @@
+{
+  "id": "urfolk-og-minoriteter",
+  "fagId": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Urfolks og minoriteters rettigheter",
+  "intro": "Rettighetene til urfolk og minoriteter i Norge og internasjonalt – samer og nasjonale minoriteter, Sametinget og konsultasjonsordningen, ILO 169 og FN-erklæringen – og spørsmål om politisk innflytelse og særrettigheter.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Hvem er urfolk og minoriteter?\n\n- **Urfolk** er folk som nedstammer fra dem som bodde i et område **før** dagens statsgrenser ble trukket, og som har bevart egen kultur og egne institusjoner. **Samene** er urfolk i Norge.\n- **Nasjonale minoriteter** er grupper med **lang tilknytning** til landet. I Norge er det **kvener/norskfinner**, **skogfinner**, **jøder**, **rom** og **romanifolk/tatere**.\n- **Andre minoriteter** er blant annet innvandrere og deres etterkommere, religiøse minoriteter og seksuelle minoriteter.\n\n## Internasjonale rettigheter\n\n- **FNs konvensjon om sivile og politiske rettigheter (SP) artikkel 27**: Minoriteter har rett til å utøve sin **kultur**, sin **religion** og bruke sitt **språk**.\n- **ILO-konvensjon 169** om urfolk. Norge var det **første** landet som ratifiserte den, i **1990**. Den gir rett til **konsultasjon** og **deltakelse** i saker som berører urfolk, og rett til **land og ressurser**.\n- **FNs erklæring om urfolks rettigheter** (2007) slår fast retten til **selvbestemmelse**.\n- **Europarådets rammekonvensjon** om beskyttelse av nasjonale minoriteter og **minoritetsspråkpakten** gjelder også for Norge.\n\n## Samisk politisk innflytelse\n\n- **Grunnloven § 108** forplikter staten til å legge til rette for samisk **språk**, **kultur** og **samfunnsliv**.\n- **Sametinget** ble opprettet i **1989**. Det har **39** representanter valgt av dem som står i **samemanntallet**. Sametinget har ansvar for blant annet samisk språk og kultur og gir råd til staten, men har **begrenset** beslutningsmyndighet.\n- **Konsultasjonsordningen** – nå lovfestet i **sameloven** – pålegger statlige myndigheter, kommuner og fylkeskommuner å **konsultere** samiske interesser før de tar beslutninger som kan påvirke dem direkte.\n- **Finnmarksloven** (2005) overførte eierskap til grunnen i Finnmark til **Finnmarkseiendommen**, som styres av både Sametinget og Finnmark fylkeskommune.\n\n## Aktuelle saker\n\n- **Fosen-saken**: Høyesterett slo i **2021** fast at vindturbinene på Fosen krenket reindriftssamenes rett etter **SP artikkel 27**. Det tok lang tid før staten og reindriftssamene kom fram til løsninger, noe som førte til store **protester** i 2023.\n- **Sannhets- og forsoningskommisjonen** la i **2023** fram rapporten om **fornorskningspolitikken** og uretten den påførte samer, kvener og skogfinner.\n- **Språk**: Flere samiske språk og kvensk er **truet**, og det satses på **revitalisering**.\n\n## Internasjonale eksempler\n\n- Mange urfolk kjemper for rettigheter til **land** og **ressurser** mot gruvedrift, skogshogst og energiprosjekter, for eksempel i **Amazonas**.\n- **Minoriteter** utsettes i noen land for alvorlig undertrykkelse, som **rohingyaene** i Myanmar og **uigurene** i Kina.\n- **FNs permanente forum for urfolkssaker** gir urfolk en stemme i FN-systemet.\n\n## Drøfting\n\n**Særrettigheter** for urfolk og minoriteter er omdiskutert:\n\n- **For**: De skal rette opp **historisk urett**, sikre at små kulturer overlever mot et stort **flertall**, og er i tråd med **menneskerettighetene**.\n- **Mot**: Noen mener at alle borgere bør ha **like** rettigheter, og at særrettigheter kan skape **nye skiller**.\n\nEt viktig spørsmål er hvordan et **demokrati**, som styres av **flertallet**, kan sikre at **mindretall** blir hørt og ikke overkjøres.",
+  "flashcards": [
+    { "term": "Urfolk i Norge", "def": "Samene." },
+    { "term": "Nasjonale minoriteter i Norge", "def": "Kvener/norskfinner, skogfinner, jøder, rom og romanifolk/tatere." },
+    { "term": "SP artikkel 27", "def": "Minoriteters rett til egen kultur, religion og språk." },
+    { "term": "ILO-konvensjon 169", "def": "Konvensjon om urfolk; Norge ratifiserte først, i 1990." },
+    { "term": "FNs urfolkserklæring", "def": "Fra 2007 – slår fast retten til selvbestemmelse." },
+    { "term": "Rammekonvensjonen", "def": "Europarådets konvensjon om beskyttelse av nasjonale minoriteter." },
+    { "term": "Grunnloven § 108", "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv." },
+    { "term": "Sametinget", "def": "Samenes folkevalgte organ fra 1989 med 39 representanter." },
+    { "term": "Samemanntallet", "def": "Registeret over dem som kan stemme ved sametingsvalg." },
+    { "term": "Konsultasjonsordningen", "def": "Plikt til å konsultere samiske interesser før beslutninger som berører dem." },
+    { "term": "Finnmarkseiendommen", "def": "Eier grunnen i Finnmark etter finnmarksloven (2005)." },
+    { "term": "Fosen-saken", "def": "Høyesterett 2021: vindturbiner krenket reindriftssamenes rettigheter." },
+    { "term": "Språkrevitalisering", "def": "Arbeid for å styrke truede språk." },
+    { "term": "Særrettigheter", "def": "Rettigheter som gjelder bestemte grupper." },
+    { "term": "Flertallsstyre og mindretallsvern", "def": "Demokratiets utfordring med å sikre at mindretall blir hørt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken gruppe er urfolk i Norge?", "options": ["Kvener", "Samer", "Skogfinner", "Romanifolk"], "correct": 1, "explain": "De andre er nasjonale minoriteter." },
+    { "id": "q02", "text": "Hva sier SP artikkel 27?", "options": ["At minoriteter har rett til egen kultur, religion og språk", "At alle må snakke majoritetsspråket", "At stater kan forby minoritetsspråk", "At bare urfolk har rettigheter"], "correct": 0, "explain": "Brukt i Fosen-dommen." },
+    { "id": "q03", "text": "Hva er konsultasjonsordningen?", "options": ["En valgordning", "En skatteordning", "En plikt til å konsultere samiske interesser før beslutninger som berører dem", "Et samisk parti"], "correct": 2, "explain": "Lovfestet i sameloven." },
+    { "id": "q04", "text": "Hvor mange representanter har Sametinget?", "options": ["169", "19", "100", "39"], "correct": 3, "explain": "Valgt av dem i samemanntallet." },
+    { "id": "q05", "text": "Hva slo Høyesterett fast i Fosen-saken?", "options": ["At vindturbinene krenket reindriftssamenes rettigheter", "At vindkraft er forbudt", "At Sametinget skal avskaffes", "At reindrift er ulovlig"], "correct": 0, "explain": "I 2021." },
+    { "id": "q06", "text": "Hvilket av disse er en nasjonal minoritet i Norge?", "options": ["Samer", "Kvener", "Polakker", "Svensker"], "correct": 1, "explain": "Med lang tilknytning til landet." },
+    { "id": "q07", "text": "Hva er et argument for særrettigheter for urfolk?", "options": ["At urfolk er bedre enn andre", "At flertallet skal bestemme alt", "At de retter opp historisk urett og sikrer at små kulturer overlever", "At de gir økonomisk vekst"], "correct": 2, "explain": "I tråd med menneskerettighetene." },
+    { "id": "q08", "text": "Hvilket land ratifiserte først ILO-konvensjon 169?", "options": ["Sverige", "Canada", "Brasil", "Norge"], "correct": 3, "explain": "I 1990." },
+    { "id": "q09", "text": "Hva handlet rapporten fra Sannhets- og forsoningskommisjonen om?", "options": ["Fornorskningspolitikken og uretten den påførte samer, kvener og skogfinner", "Oljepolitikken", "EU-medlemskap", "Valgordningen"], "correct": 0, "explain": "Lagt fram i 2023." },
+    { "id": "q10", "text": "Hvilken utfordring har et demokrati når det gjelder minoriteter?", "options": ["Å gi minoritetene all makt", "Å sikre at mindretall blir hørt og ikke overkjøres av flertallet", "Å avskaffe valg", "Å forby minoritetsspråk"], "correct": 1, "explain": "Flertallsstyre og mindretallsvern." }
+  ],
+  "mindmap": {
+    "label": "Urfolk og minoriteter",
+    "children": [
+      { "label": "Grupper", "children": [
+        { "label": "Samer" },
+        { "label": "Nasjonale minoriteter" },
+        { "label": "Andre minoriteter" }
+      ] },
+      { "label": "Internasjonalt vern", "children": [
+        { "label": "SP artikkel 27" },
+        { "label": "ILO 169" },
+        { "label": "FNs urfolkserklæring" }
+      ] },
+      { "label": "Samisk innflytelse", "children": [
+        { "label": "Grunnloven § 108" },
+        { "label": "Sametinget" },
+        { "label": "Konsultasjoner" }
+      ] },
+      { "label": "Aktuelle saker", "children": [
+        { "label": "Fosen" },
+        { "label": "Sannhetskommisjonen" },
+        { "label": "Språk" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Særrettigheter" },
+        { "label": "Flertall og mindretall" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sametinget har begrenset beslutningsmyndighet.", "correct": true, "explain": "Det gir også råd til staten." },
+      { "id": "m02", "type": "sant-usant", "text": "Jøder er urfolk i Norge.", "correct": false, "explain": "Jøder er en nasjonal minoritet." },
+      { "id": "m03", "type": "sant-usant", "text": "Flere samiske språk regnes som truet.", "correct": true, "explain": "Det satses på revitalisering." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle er enige om at særrettigheter for minoriteter er riktig.", "correct": false, "explain": "Særrettigheter er omdiskutert." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken minoritet i Myanmar har vært utsatt for alvorlig undertrykkelse?", "options": ["Uigurene", "Rohingyaene", "Kurderne", "Maoriene"], "correct": 1, "explain": "Mange har flyktet til Bangladesh." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem eier grunnen i Finnmark etter finnmarksloven?", "options": ["Finnmarkseiendommen", "Staten alene", "Kongen", "Reindriftsnæringen"], "correct": 0, "explain": "Styres av Sametinget og fylkeskommunen." },
+      { "id": "m07", "type": "flervalg", "text": "Når ble Sametinget opprettet?", "options": ["1814", "1945", "1989", "2005"], "correct": 2, "explain": "Etter Altasaken." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk status i Fosen-saken og gjeldende regler for konsultasjoner mot oppdaterte kilder."] }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "krig-fred-og-internasjonal-politikk",
+  "fagId": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Krig, fred og internasjonalt samarbeid",
+  "intro": "Hvordan det internasjonale systemet håndterer krig og fred, sikkerhet og samarbeid – FNs sikkerhetsråd, kollektiv sikkerhet og kollektivt forsvar i NATO, fredsbevaring, sanksjoner og mekling – og hvordan du analyserer en konflikt statsvitenskapelig.",
+  "kompetansemaal": [13, 4],
+  "sammendrag": "## Et system uten verdensregjering\n\nI internasjonal politikk finnes ingen **verdensregjering** som kan tvinge statene. Likevel har statene bygd opp **institusjoner** og **regler** for å hindre krig og løse konflikter.\n\n## FN og Sikkerhetsrådet\n\n**FN** ble opprettet i **1945** for å bevare **internasjonal fred og sikkerhet**. **Sikkerhetsrådet** har hovedansvaret og kan vedta **bindende** tiltak – sanksjoner eller maktbruk.\n\n- **Fem faste medlemmer** med **vetorett**: **USA**, **Russland**, **Kina**, **Storbritannia** og **Frankrike**.\n- **Ti valgte medlemmer** for to år av gangen. Norge satt i rådet i **2021–2022**.\n\nVetoretten gjør at stormaktene kan **blokkere** vedtak – også i konflikter der de selv er part. Derfor har Sikkerhetsrådet ofte vært **handlingslammet**, for eksempel i krigen i **Syria** og etter Russlands angrep på **Ukraina** i **2022**.\n\n## Kollektiv sikkerhet og kollektivt forsvar\n\n- **Kollektiv sikkerhet** betyr at **alle** stater står sammen mot den som bryter freden – tanken bak FN.\n- **Kollektivt forsvar** betyr at en gruppe **allierte** forsvarer hverandre. **NATO** ble opprettet i **1949**, og Norge var med fra starten. **Artikkel 5** sier at et angrep på ett medlem skal regnes som et angrep på **alle**. **Finland** (2023) og **Sverige** (2024) ble medlemmer etter Russlands fullskala invasjon av Ukraina.\n\n## Virkemidler for fred\n\n- **Diplomati** og **forhandlinger**.\n- **Mekling**: En tredjepart hjelper partene å komme fram til en avtale. Norge har vært tilrettelegger i blant annet **Oslo-avtalene** mellom Israel og PLO (1993) og fredsprosessen i **Colombia** (avtale i 2016).\n- **Sanksjoner**: økonomiske tiltak som handelsforbud eller frysing av formuer.\n- **Fredsbevarende operasjoner**: FN-soldater («blåhjelmer») overvåker våpenhviler og beskytter sivile.\n- **Nedrustning** og **våpenkontroll**, som avtaler om atomvåpen.\n- **Bistand** og **utvikling** som skal fjerne **årsaker** til konflikt, som fattigdom og ulikhet.\n\n## Hvorfor oppstår kriger?\n\n- **Realistisk** forklaring: kamp om **makt**, **territorium** og **sikkerhet**; frykt for hva andre stater vil gjøre (**sikkerhetsdilemmaet**).\n- **Liberal** forklaring: mangel på **demokrati**, **handel** og **institusjoner**. Tesen om **demokratisk fred** sier at demokratier sjelden kriger mot hverandre.\n- **Konstruktivistisk** forklaring: **identiteter**, **nasjonalisme** og **fiendebilder**.\n- **Interne** forhold: **borgerkriger** om etnisitet, religion, ressurser eller makt er i dag mer vanlige enn kriger mellom stater.\n\n## Analysere en konflikt\n\nNår du analyserer en **nasjonal** eller **internasjonal** konflikt, kan du bruke disse spørsmålene:\n\n1. **Bakgrunn**: Hva er de historiske og politiske årsakene?\n2. **Aktører**: stater, grupper, organisasjoner, stormakter.\n3. **Interesser og verdier**: sikkerhet, territorium, ressurser, identitet.\n4. **Maktforhold**: militært, økonomisk og diplomatisk.\n5. **Folkerett og menneskerettigheter**: Hvilke regler brytes?\n6. **Internasjonale reaksjoner**: FN, NATO, EU, sanksjoner, bistand.\n7. **Løsninger**: Hva kan gi varig fred?\n\nBruk gjerne **realisme**, **liberalisme** og **konstruktivisme** for å få fram ulike forklaringer.",
+  "flashcards": [
+    { "term": "FN", "def": "Opprettet i 1945 for å bevare internasjonal fred og sikkerhet." },
+    { "term": "Sikkerhetsrådet", "def": "FN-organ som kan vedta bindende tiltak." },
+    { "term": "Faste medlemmer i Sikkerhetsrådet", "def": "USA, Russland, Kina, Storbritannia og Frankrike." },
+    { "term": "Vetorett", "def": "Rett for de faste medlemmene til å stanse et vedtak." },
+    { "term": "Kollektiv sikkerhet", "def": "Alle stater står sammen mot den som bryter freden." },
+    { "term": "Kollektivt forsvar", "def": "Allierte forsvarer hverandre, som i NATO." },
+    { "term": "NATO", "def": "Forsvarsallianse opprettet i 1949." },
+    { "term": "Artikkel 5", "def": "Et angrep på ett NATO-land regnes som et angrep på alle." },
+    { "term": "Mekling", "def": "En tredjepart hjelper partene å komme fram til en avtale." },
+    { "term": "Oslo-avtalene", "def": "Avtale mellom Israel og PLO i 1993 med norsk tilrettelegging." },
+    { "term": "Sanksjoner", "def": "Økonomiske tiltak mot en stat eller personer." },
+    { "term": "Blåhjelmer", "def": "FN-soldater i fredsbevarende operasjoner." },
+    { "term": "Sikkerhetsdilemmaet", "def": "Når én stats opprustning gjør andre utrygge og får dem til å ruste opp." },
+    { "term": "Demokratisk fred", "def": "Tesen om at demokratier sjelden kriger mot hverandre." },
+    { "term": "Borgerkrig", "def": "Krig innenfor en stat – i dag vanligere enn mellomstatlige kriger." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke land har vetorett i FNs sikkerhetsråd?", "options": ["Alle FNs medlemsland", "USA, Russland, Kina, Storbritannia og Frankrike", "Norge og Sverige", "EU-landene"], "correct": 1, "explain": "De fem faste medlemmene." },
+    { "id": "q02", "text": "Hva sier NATOs artikkel 5?", "options": ["At et angrep på ett medlem regnes som et angrep på alle", "At NATO skal avskaffes", "At alle medlemmer må ha atomvåpen", "At NATO styrer FN"], "correct": 0, "explain": "Kollektivt forsvar." },
+    { "id": "q03", "text": "Hvorfor har Sikkerhetsrådet ofte vært handlingslammet?", "options": ["Fordi det har for få medlemmer", "Fordi det ikke kan møtes", "Fordi stormaktene kan bruke vetoretten", "Fordi det ikke har penger"], "correct": 2, "explain": "Også i konflikter de selv er part i." },
+    { "id": "q04", "text": "Hva er mekling?", "options": ["Militær intervensjon", "Handelsforbud", "Nedrustning", "At en tredjepart hjelper partene å komme fram til en avtale"], "correct": 3, "explain": "Norge har vært tilrettelegger i flere prosesser." },
+    { "id": "q05", "text": "Hva er sikkerhetsdilemmaet?", "options": ["At én stats opprustning gjør andre utrygge, så de også ruster opp", "At FN har for lite penger", "At demokratier ikke kriger", "At sanksjoner alltid virker"], "correct": 0, "explain": "Et realistisk begrep." },
+    { "id": "q06", "text": "Når ble Finland og Sverige med i NATO?", "options": ["1949", "2023 og 2024", "1990", "2014"], "correct": 1, "explain": "Etter Russlands fullskala invasjon av Ukraina." },
+    { "id": "q07", "text": "Hva sier tesen om demokratisk fred?", "options": ["At alle land er fredelige", "At diktaturer aldri kriger", "At demokratier sjelden kriger mot hverandre", "At krig er umulig"], "correct": 2, "explain": "En liberal forklaring." },
+    { "id": "q08", "text": "Hva er forskjellen på kollektiv sikkerhet og kollektivt forsvar?", "options": ["Det er det samme", "Kollektivt forsvar gjelder alle stater", "Kollektiv sikkerhet gjelder bare NATO", "Kollektiv sikkerhet gjelder alle stater, kollektivt forsvar en gruppe allierte"], "correct": 3, "explain": "FN mot NATO." },
+    { "id": "q09", "text": "Hvilken type krig er vanligst i dag?", "options": ["Borgerkriger innenfor stater", "Kriger mellom stormakter", "Kolonikriger", "Religionskriger i Europa"], "correct": 0, "explain": "Om etnisitet, ressurser eller makt." },
+    { "id": "q10", "text": "Hva gjør FNs fredsbevarende styrker?", "options": ["Angriper land", "Overvåker våpenhviler og beskytter sivile", "Fører valgkamp", "Driver handel"], "correct": 1, "explain": "Blåhjelmer." }
+  ],
+  "mindmap": {
+    "label": "Krig og fred",
+    "children": [
+      { "label": "FN", "children": [
+        { "label": "Sikkerhetsrådet" },
+        { "label": "Vetorett" },
+        { "label": "Kollektiv sikkerhet" }
+      ] },
+      { "label": "NATO", "children": [
+        { "label": "Kollektivt forsvar" },
+        { "label": "Artikkel 5" },
+        { "label": "Nye medlemmer" }
+      ] },
+      { "label": "Virkemidler", "children": [
+        { "label": "Diplomati og mekling" },
+        { "label": "Sanksjoner" },
+        { "label": "Fredsbevaring" }
+      ] },
+      { "label": "Årsaker til krig", "children": [
+        { "label": "Realisme" },
+        { "label": "Liberalisme" },
+        { "label": "Konstruktivisme" }
+      ] },
+      { "label": "Konfliktanalyse", "children": [
+        { "label": "Aktører og interesser" },
+        { "label": "Folkerett" },
+        { "label": "Løsninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge var med i NATO fra starten i 1949.", "correct": true, "explain": "Som et av grunnleggerlandene." },
+      { "id": "m02", "type": "sant-usant", "text": "Det finnes en verdensregjering som kan tvinge alle stater.", "correct": false, "explain": "Det internasjonale systemet er anarkisk." },
+      { "id": "m03", "type": "sant-usant", "text": "Norge var tilrettelegger for fredsprosessen i Colombia.", "correct": true, "explain": "Avtalen kom i 2016." },
+      { "id": "m04", "type": "sant-usant", "text": "Sikkerhetsrådet har bare faste medlemmer.", "correct": false, "explain": "Det har også ti valgte medlemmer." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak er en sanksjon?", "options": ["Mekling", "Frysing av formuer", "Fredsbevaring", "Valgobservasjon"], "correct": 1, "explain": "Et økonomisk virkemiddel." },
+      { "id": "m06", "type": "flervalg", "text": "Når satt Norge sist i FNs sikkerhetsråd?", "options": ["2021–2022", "1949–1950", "2001–2002 bare", "Aldri"], "correct": 0, "explain": "Som valgt medlem." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken teori legger vekt på nasjonalisme og fiendebilder som årsak til konflikt?", "options": ["Realisme", "Liberalisme", "Konstruktivisme", "Funksjonalisme"], "correct": 2, "explain": "Identiteter og ideer." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk omtale av pågående konflikter (Ukraina m.fl.) og NATO-medlemskap mot oppdaterte kilder."] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "valg-og-velgeratferd",
+  "fagId": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Valg, velgeratferd og politisk deltakelse",
+  "intro": "Den norske valgordningen, forklaringer på hvorfor folk stemmer som de gjør, hvordan meningsmålinger og valgundersøkelser brukes, og hvordan samfunnsvitenskapelig metode kan analysere valgdeltakelse og politisk deltakelse.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Valgordningen\n\nNorge har **forholdstallsvalg**: Partiene får mandater omtrent i forhold til hvor mange stemmer de får. Ved stortingsvalg\n\n- velges **169** representanter fra **19 valgdistrikter**\n- fordeles **150 distriktsmandater** med **Sainte-Laguës metode** (med første delingstall 1,4)\n- fordeles **19 utjevningsmandater** – ett per valgdistrikt – for å gjøre resultatet mer rettferdig nasjonalt\n- må et parti få minst **4 %** av stemmene for å være med i fordelingen av utjevningsmandater (**sperregrensen**)\n\nDistrikter med spredt bosetting får **flere mandater** per innbygger enn byene, fordi også **areal** teller i fordelingen.\n\n## Hvorfor stemmer folk som de gjør?\n\n- **Sosiologiske forklaringer**: Velgeradferd henger sammen med **sosial bakgrunn** – yrke, klasse, utdanning, bosted, kjønn og alder. Før stemte arbeidere oftest på Arbeiderpartiet.\n- **Partiidentifikasjon**: Mange utvikler tidlig en **tilhørighet** til et parti, gjerne gjennom familien, og stemmer på det valg etter valg.\n- **Saksstemming**: Velgerne stemmer på partiet som har den beste politikken i **sakene** de er mest opptatt av, som klima, skatt eller helse.\n- **Retrospektiv stemmegivning**: Velgerne straffer eller belønner **regjeringen** for hvordan det har gått – for eksempel i økonomien.\n- **Ledere og kandidater**: Tillit til **partilederen** kan avgjøre.\n\nDe siste tiårene har **klassestemmegivningen** blitt svakere, og flere velgere **bytter parti** fra valg til valg (**velgervandring**). Mange bestemmer seg **sent** i valgkampen.\n\n## Politisk deltakelse\n\n**Valgdeltakelsen** ved stortingsvalg har de siste valgene ligget på rundt **77–80 %**, og lavere ved kommunevalg. Deltakelsen er ofte lavere blant **unge**, personer med **lav utdanning** og inntekt og blant noen **innvandrergrupper**.\n\nAndre former for deltakelse er **partimedlemskap** (som har gått ned over tid), **organisasjonsarbeid**, **underskriftskampanjer**, **demonstrasjoner**, **forbrukermakt** og **politiske ytringer i sosiale medier**. Mange unge engasjerer seg mer i **saker** enn i **partier**.\n\n## Samfunnsvitenskapelig metode\n\n- **Valgundersøkelser**: Store **spørreundersøkelser** etter valget der forskere spør et representativt utvalg om hva de stemte og hvorfor.\n- **Meningsmålinger**: Et utvalg på omtrent **1000** personer gir en **feilmargin** på rundt **±3 prosentpoeng** for store partier. Små endringer fra én måling til neste er ofte bare **tilfeldig variasjon**.\n- **Valgstatistikk** fra SSB viser deltakelse etter alder, kjønn og bosted.\n- **Kvalitative intervjuer** kan gi innsikt i **hvorfor** folk ikke stemmer.\n\nHusk at det folk **sier** i undersøkelser, ikke alltid er det de **gjør**, og at utvalget må være **representativt**.\n\n## Drøfte deltakelse\n\nLav valgdeltakelse kan svekke demokratiets **legitimitet** og gi skjev representasjon – politikerne lytter mest til dem som stemmer. Tiltak som er diskutert, er **stemmerett for 16-åringer** (prøvd ut i enkelte kommuner), **skolevalg** og **enklere forhåndsstemming**.",
+  "flashcards": [
+    { "term": "Forholdstallsvalg", "def": "Mandater fordeles omtrent i forhold til stemmene." },
+    { "term": "Valgdistrikter", "def": "19 ved stortingsvalg." },
+    { "term": "Distriktsmandater", "def": "150 mandater fordelt i valgdistriktene." },
+    { "term": "Utjevningsmandater", "def": "19 mandater som gjør resultatet mer rettferdig nasjonalt." },
+    { "term": "Sperregrense", "def": "4 % – grensen for å få utjevningsmandater." },
+    { "term": "Sainte-Laguës metode", "def": "Metode for å fordele mandater mellom partiene." },
+    { "term": "Sosiologisk forklaring", "def": "Stemmegivning henger sammen med sosial bakgrunn." },
+    { "term": "Partiidentifikasjon", "def": "Varig tilhørighet til et parti." },
+    { "term": "Saksstemming", "def": "Å stemme ut fra politikken i viktige saker." },
+    { "term": "Retrospektiv stemmegivning", "def": "Å belønne eller straffe regjeringen for resultatene." },
+    { "term": "Velgervandring", "def": "At velgere bytter parti fra valg til valg." },
+    { "term": "Valgundersøkelse", "def": "Stor spørreundersøkelse om hva og hvorfor folk stemte." },
+    { "term": "Feilmargin", "def": "Omtrent ±3 prosentpoeng ved utvalg på 1000." },
+    { "term": "Valgdeltakelse ved stortingsvalg", "def": "Rundt 77–80 % de siste valgene." },
+    { "term": "Legitimitet", "def": "At styret oppleves som rettmessig." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor stor er sperregrensen for utjevningsmandater?", "options": ["2 %", "4 %", "5 %", "10 %"], "correct": 1, "explain": "Partier under 4 % kan likevel vinne distriktsmandater." },
+    { "id": "q02", "text": "Hva er formålet med utjevningsmandater?", "options": ["Å gjøre resultatet mer rettferdig nasjonalt", "Å gi flere mandater til store partier", "Å gi kongen mandater", "Å redusere antall partier"], "correct": 0, "explain": "Ett per valgdistrikt." },
+    { "id": "q03", "text": "Hva er saksstemming?", "options": ["Å stemme som foreldrene", "Å stemme etter klasse", "Å stemme ut fra politikken i viktige saker", "Å stemme tilfeldig"], "correct": 2, "explain": "For eksempel klima eller skatt." },
+    { "id": "q04", "text": "Hva er retrospektiv stemmegivning?", "options": ["Å stemme på det nyeste partiet", "Å stemme etter framtidige løfter", "Å stemme blankt", "Å belønne eller straffe regjeringen for hvordan det har gått"], "correct": 3, "explain": "Ser bakover." },
+    { "id": "q05", "text": "Hvor stor er feilmarginen omtrent i en meningsmåling med 1000 personer?", "options": ["±3 prosentpoeng", "±0,1 prosentpoeng", "±15 prosentpoeng", "Ingen feilmargin"], "correct": 0, "explain": "Små endringer kan være tilfeldige." },
+    { "id": "q06", "text": "Hva har skjedd med klassestemmegivningen de siste tiårene?", "options": ["Den har blitt sterkere", "Den har blitt svakere", "Den er uendret", "Den er forbudt"], "correct": 1, "explain": "Flere bytter parti." },
+    { "id": "q07", "text": "Hvilke grupper har ofte lavere valgdeltakelse?", "options": ["Eldre med høy utdanning", "Pensjonister", "Unge og personer med lav utdanning og inntekt", "Politikere"], "correct": 2, "explain": "Gir skjev representasjon." },
+    { "id": "q08", "text": "Hvorfor er lav valgdeltakelse et problem?", "options": ["Det gjør valg dyrere", "Det gir flere partier", "Det gjør valget kortere", "Det kan svekke legitimiteten og gi skjev representasjon"], "correct": 3, "explain": "Politikere lytter mest til velgerne." },
+    { "id": "q09", "text": "Hva er partiidentifikasjon?", "options": ["Varig tilhørighet til et parti", "Et medlemskort", "Et valgprogram", "En meningsmåling"], "correct": 0, "explain": "Ofte formet gjennom familien." },
+    { "id": "q10", "text": "Hvorfor får distrikter med spredt bosetting flere mandater per innbygger?", "options": ["Fordi de har flere partier", "Fordi også areal teller i fordelingen", "Fordi byene ikke stemmer", "Fordi kongen bestemmer det"], "correct": 1, "explain": "Et distriktshensyn i valgordningen." }
+  ],
+  "mindmap": {
+    "label": "Valg og velgeratferd",
+    "children": [
+      { "label": "Valgordning", "children": [
+        { "label": "Forholdstallsvalg" },
+        { "label": "169 mandater, 19 distrikter" },
+        { "label": "Sperregrense 4 %" }
+      ] },
+      { "label": "Forklaringer", "children": [
+        { "label": "Sosial bakgrunn" },
+        { "label": "Partiidentifikasjon" },
+        { "label": "Saker og retrospektivt" }
+      ] },
+      { "label": "Endringer", "children": [
+        { "label": "Svakere klassestemming" },
+        { "label": "Velgervandring" }
+      ] },
+      { "label": "Deltakelse", "children": [
+        { "label": "Valgdeltakelse" },
+        { "label": "Andre former" },
+        { "label": "Unge" }
+      ] },
+      { "label": "Metode", "children": [
+        { "label": "Valgundersøkelser" },
+        { "label": "Meningsmålinger og feilmargin" },
+        { "label": "Intervjuer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange velgere bestemmer seg sent i valgkampen.", "correct": true, "explain": "Valgkampen har derfor stor betydning." },
+      { "id": "m02", "type": "sant-usant", "text": "En endring på ett prosentpoeng fra én meningsmåling til neste er alltid en reell endring.", "correct": false, "explain": "Den kan skyldes tilfeldig variasjon." },
+      { "id": "m03", "type": "sant-usant", "text": "Partimedlemskap har gått ned over tid.", "correct": true, "explain": "Mange engasjerer seg heller i saker." },
+      { "id": "m04", "type": "sant-usant", "text": "Et parti under sperregrensen kan aldri komme inn på Stortinget.", "correct": false, "explain": "Det kan vinne distriktsmandater." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor mange distriktsmandater er det ved stortingsvalg?", "options": ["19", "150", "169", "100"], "correct": 1, "explain": "I tillegg kommer 19 utjevningsmandater." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken metode gir innsikt i hvorfor noen lar være å stemme?", "options": ["Kvalitative intervjuer", "Valgresultatet alene", "Mandatfordelingen", "Sperregrensen"], "correct": 0, "explain": "Gir dybdekunnskap." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tiltak er diskutert for å øke valgdeltakelsen blant unge?", "options": ["Høyere stemmerettsalder", "Færre valglokaler", "Stemmerett for 16-åringer", "Avskaffe skolevalg"], "correct": 2, "explain": "Prøvd ut i enkelte kommuner." }
+    ]
+  },
+  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk valgdeltakelsen ved siste stortingsvalg og gjeldende regler for mandatfordeling (første delingstall) mot oppdaterte kilder."] }
+}

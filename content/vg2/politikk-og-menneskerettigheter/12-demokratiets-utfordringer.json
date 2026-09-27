@@ -1,0 +1,81 @@
+{
+  "id": "demokratiets-utfordringer",
+  "fagId": "politikk-og-menneskerettigheter",
+  "trinnId": "vg2",
+  "name": "Utfordringer for det norske demokratiet",
+  "intro": "Hvilke utfordringer det norske demokratiet står overfor – tillit, deltakelse og representasjon, polarisering, desinformasjon og påvirkningsoperasjoner, netthets mot politikere, rettsliggjøring og internasjonalisering – og hva som kan styrke folkestyret.",
+  "kompetansemaal": [12, 3],
+  "sammendrag": "## Et sterkt utgangspunkt\n\nNorge scorer **høyt** på internasjonale målinger av demokrati. Det skyldes blant annet **høy tillit** til hverandre og til institusjonene, **frie medier**, **lav korrupsjon** og **høy valgdeltakelse** sammenlignet med mange land. Likevel står demokratiet overfor flere **utfordringer**.\n\n## Deltakelse og representasjon\n\n- **Valgdeltakelsen** er lavere ved **kommunevalg** enn ved stortingsvalg, og lavere blant **unge**, personer med **lav inntekt** og noen **innvandrergrupper**.\n- Når noen grupper deltar mindre, blir de også **dårligere representert** – og politikken kan bli skjev.\n- **Partiene** har færre medlemmer enn før, og det kan være vanskelig å **rekruttere** folk til lokalpolitikken.\n\n## Tillit og polarisering\n\nNorge har høy tillit, men tilliten kan **svekkes** av for eksempel **skandaler**, opplevelse av at politikerne ikke lytter, eller økte forskjeller. **Polarisering** betyr at grupper beveger seg lenger fra hverandre og ser på meningsmotstandere som **fiender**. I Norge er polariseringen mindre enn i mange land, men **sosiale medier** kan forsterke den.\n\n## Desinformasjon og påvirkning\n\n- **Feilinformasjon** (ubevisst feil) og **desinformasjon** (bevisst villedende informasjon) sprer seg raskt på nett.\n- **Fremmede stater** kan forsøke å påvirke valg og debatt gjennom **falske kontoer**, **hacking** og **lekkasjer**. Norske myndigheter, som **PST**, advarer mot slike **påvirkningsoperasjoner**.\n- **KI** gjør det enklere å lage troverdige **falske bilder, video og lyd**.\n\nTiltak er **kildekritikk** og **mediekunnskap**, sterke **redaktørstyrte medier**, **faktasjekk** og **sikre valgsystemer**.\n\n## Netthets og trusler\n\nMange politikere – særlig **kvinner**, **unge** og politikere med **minoritetsbakgrunn** – opplever **netthets** og **trusler**. Det kan få folk til å **trekke seg** fra politikken eller la være å si hva de mener (**nedkjølingseffekt**). Det svekker både **ytringsfriheten** og **mangfoldet** blant folkevalgte.\n\n## Makt som flyttes\n\n- **Rettsliggjøring**: Flere politiske spørsmål avgjøres av **domstoler**, blant annet med henvisning til menneskerettighetene.\n- **Internasjonalisering**: Gjennom **EØS-avtalen** innfører Norge mange EU-regler uten å ha stemmerett i EU. Noen kaller dette et **demokratisk underskudd**.\n- **Ekspertvelde** og **byråkrati**: Mange beslutninger forberedes og tas av **fagfolk** og **forvaltning**.\n- **Markeder** og **store teknologiselskaper** har stor makt over økonomi og offentlighet.\n\n## Sentralisering og lokaldemokrati\n\n**Kommunereformer**, **statlige krav** og **øremerkede** midler kan svekke det **lokale selvstyret**. Samtidig må små kommuner ofte løse store oppgaver med få ressurser.\n\n## Hva kan styrke demokratiet?\n\n- God **samfunnsopplæring** og **skolevalg**.\n- Tiltak for å øke **deltakelsen**, som å gjøre det **enklere** å stemme.\n- **Åpenhet** i forvaltningen – **offentlighetsloven** gir innsyn i offentlige dokumenter.\n- Tiltak mot **netthets** og trusler.\n- **Frie medier** og støtte til **lokalaviser**.\n- **Medborgerskap** i hverdagen: å delta i organisasjoner, lokalsamfunn og debatter.\n\n## Drøfting\n\nNår du drøfter demokratiets utfordringer, kan du vurdere **hvor alvorlige** de er, **hvem** som rammes, hvilke **årsaker** som ligger bak, og hvilke **tiltak** som kan virke – og om tiltakene selv kan komme i konflikt med andre verdier, som **ytringsfrihet**.",
+  "flashcards": [
+    { "term": "Tillit", "def": "Tro på at andre mennesker og institusjoner handler til felles beste." },
+    { "term": "Skjev representasjon", "def": "At noen grupper er dårligere representert blant folkevalgte." },
+    { "term": "Polarisering", "def": "At grupper beveger seg lenger fra hverandre og ser motstandere som fiender." },
+    { "term": "Feilinformasjon", "def": "Feil informasjon som spres uten vilje til å villede." },
+    { "term": "Desinformasjon", "def": "Bevisst villedende informasjon." },
+    { "term": "Påvirkningsoperasjon", "def": "Forsøk fra fremmede stater på å påvirke debatt og valg." },
+    { "term": "PST", "def": "Politiets sikkerhetstjeneste, som advarer mot påvirkningsoperasjoner." },
+    { "term": "Netthets", "def": "Hets og trakassering på nett." },
+    { "term": "Nedkjølingseffekt", "def": "At folk lar være å ytre seg av frykt for reaksjoner." },
+    { "term": "Rettsliggjøring", "def": "At flere politiske spørsmål avgjøres av domstoler." },
+    { "term": "Demokratisk underskudd (EØS)", "def": "Norge innfører EU-regler uten stemmerett i EU." },
+    { "term": "Ekspertvelde", "def": "At fagfolk og byråkrati får stor makt over beslutninger." },
+    { "term": "Offentlighetsloven", "def": "Gir innsyn i offentlige dokumenter." },
+    { "term": "Lokalt selvstyre", "def": "Kommunenes rett til å bestemme over egne saker." },
+    { "term": "Mediekunnskap", "def": "Evnen til å forstå og vurdere medier kritisk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på feilinformasjon og desinformasjon?", "options": ["Det er det samme", "Desinformasjon er bevisst villedende, feilinformasjon er ubevisst feil", "Feilinformasjon er alltid bevisst", "Desinformasjon er alltid sann"], "correct": 1, "explain": "Hensikten skiller dem." },
+    { "id": "q02", "text": "Hvorfor kalles EØS-avtalen noen ganger et demokratisk underskudd?", "options": ["Fordi Norge innfører EU-regler uten stemmerett i EU", "Fordi Norge ikke har valg", "Fordi EU styrer Stortinget direkte", "Fordi Norge har for mange partier"], "correct": 0, "explain": "Norge deltar ikke i vedtakene." },
+    { "id": "q03", "text": "Hvilken konsekvens kan netthets mot politikere ha?", "options": ["Flere vil stille til valg", "Mer mangfold blant folkevalgte", "At folk trekker seg fra politikken eller lar være å si hva de mener", "Høyere valgdeltakelse"], "correct": 2, "explain": "En nedkjølingseffekt." },
+    { "id": "q04", "text": "Hva er polarisering?", "options": ["At alle blir enige", "At det blir flere partier", "At valgdeltakelsen øker", "At grupper beveger seg lenger fra hverandre og ser motstandere som fiender"], "correct": 3, "explain": "Kan forsterkes av sosiale medier." },
+    { "id": "q05", "text": "Hva gir offentlighetsloven?", "options": ["Innsyn i offentlige dokumenter", "Stemmerett", "Rett til bolig", "Rett til å demonstrere"], "correct": 0, "explain": "Åpenhet i forvaltningen." },
+    { "id": "q06", "text": "Hvilken institusjon advarer mot påvirkningsoperasjoner fra fremmede stater?", "options": ["NAV", "PST", "Skatteetaten", "Sametinget"], "correct": 1, "explain": "Politiets sikkerhetstjeneste." },
+    { "id": "q07", "text": "Hvorfor er lav valgdeltakelse i noen grupper et problem?", "options": ["Det gjør valget kortere", "Det gir flere mandater", "Det kan gi skjev representasjon", "Det øker tilliten"], "correct": 2, "explain": "Politikerne lytter mest til dem som stemmer." },
+    { "id": "q08", "text": "Hva er rettsliggjøring?", "options": ["At flere blir jurister", "At det lages flere lover", "At domstolene legges ned", "At flere politiske spørsmål avgjøres av domstoler"], "correct": 3, "explain": "Makt flyttes fra folkevalgte." },
+    { "id": "q09", "text": "Hva er et tiltak mot desinformasjon?", "options": ["Kildekritikk, mediekunnskap og faktasjekk", "Å stenge alle aviser", "Å forby sosiale medier helt", "Å slutte å stemme"], "correct": 0, "explain": "Og sterke redaktørstyrte medier." },
+    { "id": "q10", "text": "Hvorfor gjør KI desinformasjon til en større utfordring?", "options": ["Fordi KI alltid sier sannheten", "Fordi det blir enklere å lage troverdige falske bilder, video og lyd", "Fordi KI ikke kan lage bilder", "Fordi KI stopper all falsk informasjon"], "correct": 1, "explain": "Deepfakes." }
+  ],
+  "mindmap": {
+    "label": "Demokratiets utfordringer",
+    "children": [
+      { "label": "Deltakelse", "children": [
+        { "label": "Valgdeltakelse" },
+        { "label": "Representasjon" },
+        { "label": "Rekruttering" }
+      ] },
+      { "label": "Offentligheten", "children": [
+        { "label": "Tillit og polarisering" },
+        { "label": "Desinformasjon" },
+        { "label": "Netthets" }
+      ] },
+      { "label": "Makt som flyttes", "children": [
+        { "label": "Rettsliggjøring" },
+        { "label": "EØS" },
+        { "label": "Eksperter og marked" }
+      ] },
+      { "label": "Lokaldemokrati", "children": [
+        { "label": "Sentralisering" },
+        { "label": "Statlig styring" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Opplæring og deltakelse" },
+        { "label": "Åpenhet og frie medier" },
+        { "label": "Vern mot hets" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge scorer høyt på internasjonale målinger av demokrati.", "correct": true, "explain": "Men demokratiet har likevel utfordringer." },
+      { "id": "m02", "type": "sant-usant", "text": "Valgdeltakelsen er høyere ved kommunevalg enn ved stortingsvalg.", "correct": false, "explain": "Den er lavere ved kommunevalg." },
+      { "id": "m03", "type": "sant-usant", "text": "Tiltak mot netthets kan komme i konflikt med ytringsfriheten.", "correct": true, "explain": "Hensynene må veies." },
+      { "id": "m04", "type": "sant-usant", "text": "Partiene har flere medlemmer i dag enn før.", "correct": false, "explain": "Partimedlemskap har gått ned." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilke politikere rammes ofte særlig av netthets?", "options": ["Bare eldre menn", "Kvinner, unge og politikere med minoritetsbakgrunn", "Ingen", "Bare ministre"], "correct": 1, "explain": "Det svekker mangfoldet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et tiltak som kan styrke lokaldemokratiet?", "options": ["Mer lokal handlefrihet og færre øremerkede midler", "Å avskaffe kommunevalg", "Å flytte alle beslutninger til staten", "Å stenge lokalaviser"], "correct": 0, "explain": "Styrker det lokale selvstyret." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en påvirkningsoperasjon?", "options": ["En valgkampanje fra et norsk parti", "En medisinsk operasjon", "Et forsøk fra fremmede stater på å påvirke debatt og valg", "En folkeavstemning"], "correct": 2, "explain": "For eksempel falske kontoer og hacking." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
