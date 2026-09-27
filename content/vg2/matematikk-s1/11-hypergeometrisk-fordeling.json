@@ -1,0 +1,78 @@
+{
+  "id": "hypergeometrisk-fordeling",
+  "fagId": "matematikk-s1",
+  "trinnId": "vg2",
+  "name": "Hypergeometrisk fordeling",
+  "intro": "Trekk uten tilbakelegging fra en gruppe med to typer elementer, formelen for hypergeometrisk sannsynlighet og forventningsverdi – med eksempler fra komiteer, kvalitetskontroll og Lotto, og sammenligning med binomisk fordeling.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Situasjonen\n\nVi har en gruppe med **N** elementer. **M** av dem er av en «spesiell» type, og resten, N − M, er av en annen type. Vi trekker **n** elementer **uten tilbakelegging**. La X være antall spesielle elementer vi får.\n\nDa er X **hypergeometrisk fordelt**.\n\n## Formelen\n\n**P(X = k) = C(M, k) · C(N − M, n − k) / C(N, n)**\n\n- C(M, k): måter å velge k av de M spesielle\n- C(N − M, n − k): måter å velge resten blant de andre\n- C(N, n): alle måter å velge n av N\n\nDet er **gunstige / mulige**, der vi teller med kombinatorikk.\n\n## Eksempel – komité\n\nEn klasse har 12 jenter og 8 gutter, altså N = 20. Vi trekker tilfeldig en komité på 4. Hva er sannsynligheten for nøyaktig 2 jenter?\n\nP(X = 2) = C(12, 2) · C(8, 2) / C(20, 4) = 66 · 28 / 4845 ≈ **0,381**\n\n## Forventningsverdi\n\n**E(X) = n · M / N**\n\nI komiteen forventer vi 4 · 12/20 = **2,4** jenter. Det er det samme som i en binomisk modell med p = M/N.\n\n## Eksempel – kvalitetskontroll\n\nEt parti på 50 varer inneholder 5 defekte. En kontrollør trekker 4. Sannsynligheten for at **ingen** er defekte er\n\nC(45, 4) / C(50, 4) = 148 995 / 230 300 ≈ **0,647**\n\nKontrollen avslører altså ikke feil i over halvparten av tilfellene. Vil vi oppdage feil sikrere, må vi trekke **flere** varer.\n\n## Eksempel – Lotto\n\nI Lotto trekkes 7 vinnertall av 34. Du har krysset av 7 tall. Sannsynligheten for nøyaktig 3 rette er\n\nC(7, 3) · C(27, 4) / C(34, 7) = 35 · 17 550 / 5 379 616 ≈ **0,114**\n\nSannsynligheten for 7 rette er bare 1 / 5 379 616.\n\n## Hypergeometrisk eller binomisk?\n\n| | Hypergeometrisk | Binomisk |\n|---|---|---|\n| Trekning | uten tilbakelegging | med tilbakelegging eller uavhengige forsøk |\n| p | endres underveis | konstant |\n\nNår gruppen N er **mye større** enn utvalget n, endres sannsynligheten nesten ikke fra trekk til trekk. Da gir den binomiske fordelingen med p = M/N **nesten samme svar**, og den er ofte enklere å regne med. En vanlig tommelfingerregel er at utvalget bør være mindre enn omtrent 10 % av gruppen.\n\n## Anvendelser\n\n- **Kvalitetskontroll** av partier\n- **Utvalg** av personer til komiteer, jury eller spørreundersøkelser\n- **Kortspill** og **Lotto**\n- **Fangst–gjenfangst** i biologi: Andelen merkede dyr i andre fangst brukes til å anslå hvor stor bestanden er.\n\n## Digitale verktøy\n\nI GeoGebras **sannsynlighetskalkulator** velger du «Hypergeometrisk» og fyller inn populasjon, antall spesielle og utvalgsstørrelse. Kommandoen **Hypergeometrisk(N, M, n, k, false)** gir P(X = k).",
+  "flashcards": [
+    { "term": "Hypergeometrisk situasjon", "def": "Trekk uten tilbakelegging fra en gruppe med to typer." },
+    { "term": "N (hele gruppen)", "def": "Antall elementer i hele gruppen." },
+    { "term": "M (spesielle)", "def": "Antall spesielle elementer." },
+    { "term": "n (utvalget)", "def": "Antall som trekkes." },
+    { "term": "Hypergeometrisk sannsynlighet", "def": "C(M, k) · C(N − M, n − k) / C(N, n)" },
+    { "term": "Forventningsverdi", "def": "E(X) = n · M / N" },
+    { "term": "2 jenter i komité på 4 (12 J, 8 G)", "def": "66 · 28 / 4845 ≈ 0,381" },
+    { "term": "C(20, 4)", "def": "4845" },
+    { "term": "Ingen defekte av 4 (5 defekte av 50)", "def": "≈ 0,647" },
+    { "term": "3 rette i Lotto", "def": "≈ 0,114" },
+    { "term": "7 rette i Lotto", "def": "1 / 5 379 616" },
+    { "term": "Forskjell fra binomisk", "def": "p endres underveis fordi vi trekker uten tilbakelegging." },
+    { "term": "Tilnærming med binomisk", "def": "Når N er mye større enn n, med p = M/N." },
+    { "term": "Tommelfingerregel", "def": "Utvalget under omtrent 10 % av gruppen." },
+    { "term": "Fangst–gjenfangst", "def": "Anvendelse i biologi for å anslå bestandsstørrelse." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Når er X hypergeometrisk fordelt?", "options": ["Ved uavhengige forsøk med konstant p", "Ved trekk uten tilbakelegging fra en gruppe med to typer", "Når alle utfall er like", "Når vi trekker med tilbakelegging"], "correct": 1, "explain": "Sannsynligheten endres underveis." },
+    { "id": "q02", "text": "En klasse har 12 jenter og 8 gutter. Hva er sannsynligheten for nøyaktig 2 jenter i en tilfeldig komité på 4?", "options": ["Omtrent 0,381", "0,5", "Omtrent 0,6", "Omtrent 0,24"], "correct": 0, "explain": "66 · 28 / 4845." },
+    { "id": "q03", "text": "Hvor mange jenter forventer vi i komiteen på 4?", "options": ["2", "3", "2,4", "1,6"], "correct": 2, "explain": "4 · 12/20." },
+    { "id": "q04", "text": "Hva er C(20, 4)?", "options": ["80", "116 280", "190", "4845"], "correct": 3, "explain": "20 · 19 · 18 · 17 / 24." },
+    { "id": "q05", "text": "Et parti på 50 varer har 5 defekte. Hva er sannsynligheten for ingen defekte blant 4 trukne?", "options": ["Omtrent 0,647", "Omtrent 0,1", "0,9", "Omtrent 0,353"], "correct": 0, "explain": "C(45, 4)/C(50, 4)." },
+    { "id": "q06", "text": "Når gir binomisk fordeling nesten samme svar som hypergeometrisk?", "options": ["Når utvalget er stort sammenlignet med gruppen", "Når gruppen er mye større enn utvalget", "Når M = 0", "Aldri"], "correct": 1, "explain": "Da endres p nesten ikke." },
+    { "id": "q07", "text": "Hva står C(N − M, n − k) for i formelen?", "options": ["Alle mulige utvalg", "Måter å velge de spesielle", "Måter å velge resten blant de ikke-spesielle", "Forventningsverdien"], "correct": 2, "explain": "De n − k som ikke er spesielle." },
+    { "id": "q08", "text": "Omtrent hva er sannsynligheten for nøyaktig 3 rette i Lotto (7 av 34)?", "options": ["0,5", "0,001", "0,3", "0,114"], "correct": 3, "explain": "35 · 17 550 / 5 379 616." },
+    { "id": "q09", "text": "Hva er E(X) i en hypergeometrisk fordeling?", "options": ["n · M / N", "N · n", "M / n", "n / N"], "correct": 0, "explain": "Som binomisk med p = M/N." },
+    { "id": "q10", "text": "Hvordan brukes hypergeometrisk tenkning i biologi?", "options": ["Til å datere fossiler", "I fangst–gjenfangst for å anslå bestandsstørrelse", "Til å måle temperatur", "Til å telle kromosomer"], "correct": 1, "explain": "Andelen merkede dyr i andre fangst." }
+  ],
+  "mindmap": {
+    "label": "Hypergeometrisk fordeling",
+    "children": [
+      { "label": "Situasjon", "children": [
+        { "label": "N, M og n" },
+        { "label": "Uten tilbakelegging" }
+      ] },
+      { "label": "Formel", "children": [
+        { "label": "C(M, k) · C(N − M, n − k) / C(N, n)" },
+        { "label": "E(X) = nM/N" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Komité" },
+        { "label": "Kvalitetskontroll" },
+        { "label": "Lotto" }
+      ] },
+      { "label": "Mot binomisk", "children": [
+        { "label": "p endres" },
+        { "label": "Tilnærming når N er stor" }
+      ] },
+      { "label": "Verktøy og bruk", "children": [
+        { "label": "Sannsynlighetskalkulator" },
+        { "label": "Fangst–gjenfangst" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I en hypergeometrisk situasjon endres sannsynligheten fra trekk til trekk.", "correct": true, "explain": "Fordi vi ikke legger tilbake." },
+      { "id": "m02", "type": "sant-usant", "text": "En kontroll av 4 av 50 varer avslører nesten alltid defekte varer når 5 er defekte.", "correct": false, "explain": "I omtrent 65 % av tilfellene finnes ingen defekte i utvalget." },
+      { "id": "m03", "type": "sant-usant", "text": "Hypergeometrisk sannsynlighet kan tolkes som gunstige delt på mulige.", "correct": true, "explain": "Begge telles med kombinatorikk." },
+      { "id": "m04", "type": "sant-usant", "text": "Forventningsverdien i en hypergeometrisk fordeling er alltid et helt tall.", "correct": false, "explain": "I komiteen er den 2,4." },
+      { "id": "m05", "type": "flervalg", "text": "En boks har 3 røde og 2 blå kuler. Du trekker 2 uten tilbakelegging. Hva er P(2 røde)?", "options": ["0,5", "0,3", "0,36", "0,6"], "correct": 1, "explain": "C(3, 2)/C(5, 2) = 3/10." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken situasjon er hypergeometrisk?", "options": ["Trekke 5 kort fra en kortstokk og telle hjerter", "Kaste en terning 10 ganger", "Kaste en mynt 20 ganger", "Svare på 10 flervalgsspørsmål ved gjetting"], "correct": 0, "explain": "Uten tilbakelegging fra en begrenset gruppe." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor kan vi ofte bruke binomisk fordeling i meningsmålinger, selv om ingen spørres to ganger?", "options": ["Fordi folk svarer tilfeldig", "Fordi utvalget alltid er over halve befolkningen", "Fordi befolkningen er mye større enn utvalget", "Fordi p alltid er 0,5"], "correct": 2, "explain": "Da endres p nesten ikke." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

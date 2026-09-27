@@ -1,0 +1,79 @@
+{
+  "id": "algebra-og-resonnement",
+  "fagId": "matematikk-s1",
+  "trinnId": "vg2",
+  "name": "Algebra og matematiske resonnementer",
+  "intro": "Symbolspråk og logiske tegn, faktorisering og rasjonale uttrykk, likningssett, andregradsulikheter og rasjonale ulikheter med fortegnslinje – og hvordan du fører enkle bevis.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Matematisk symbolspråk\n\nMatematikk er et **presist språk**. Noen viktige tegn:\n\n- **⇒** «medfører»: x = 2 ⇒ x² = 4. Det motsatte gjelder ikke, for x² = 4 kan også bety x = −2.\n- **⇔** «er ekvivalent med»: x + 3 = 5 ⇔ x = 2.\n- **∈** «er element i»: 3 ∈ ℕ.\n- **Intervaller**: [2, 5⟩ betyr alle tall fra og med 2 til 5, men ikke 5.\n\nBruk tegnene **riktig**: ⇔ skal bare stå mellom utsagn som er sanne for nøyaktig de samme verdiene.\n\n## Faktorisering\n\n- **Felles faktor**: 6x² + 9x = 3x(2x + 3)\n- **Kvadratsetningene og konjugatsetningen**: x² − 9 = (x − 3)(x + 3)\n- **Andregradsuttrykk**: Finn nullpunktene x₁ og x₂, og skriv ax² + bx + c = a(x − x₁)(x − x₂). Eksempel: x² − 5x + 6 = **(x − 2)(x − 3)**.\n\n## Rasjonale uttrykk\n\nFaktoriser teller og nevner og **forkort** felles faktorer:\n\n(x² − 9) / (x² + 3x) = (x − 3)(x + 3) / (x(x + 3)) = **(x − 3) / x**\n\nHusk at uttrykket bare er definert når nevneren ikke er null – her er x ≠ 0 og x ≠ −3.\n\n## Likningssett\n\nTo likninger med to ukjente kan løses med **innsettingsmetoden** eller **addisjonsmetoden**.\n\n2x + y = 7 og x − y = 2. Legger vi sammen, får vi 3x = 9, altså **x = 3** og **y = 1**.\n\nGrafisk er løsningen **skjæringspunktet** mellom to linjer.\n\n## Andregradsulikheter\n\n1. Flytt alt over på én side.\n2. **Faktoriser**.\n3. Lag **fortegnslinje** for hver faktor og for produktet.\n4. Les av svaret.\n\n**Eksempel**: x² − x − 6 < 0 ⇔ (x − 3)(x + 2) < 0. Produktet er negativt mellom nullpunktene, så **−2 < x < 3**.\n\n## Rasjonale ulikheter\n\n(x − 1) / (x + 2) ≥ 0: Telleren er null i x = 1 og nevneren i x = −2. Fortegnslinjen gir **x < −2 eller x ≥ 1**. x = −2 er ikke med, fordi vi ikke kan dele på null. **Gang aldri** med et uttrykk med x uten å vite fortegnet – bruk fortegnslinje i stedet.\n\n## Enkle bevis\n\nEt **bevis** viser at noe gjelder **alltid**, ikke bare i noen eksempler.\n\n**Påstand**: Summen av to oddetall er et partall.\n\n**Bevis**: To oddetall kan skrives 2m + 1 og 2n + 1, der m og n er hele tall. Summen er 2m + 2n + 2 = **2(m + n + 1)**, som er delelig med 2. ∎\n\n**Påstand**: Summen av tre påfølgende hele tall er delelig med 3.\n\n**Bevis**: n + (n + 1) + (n + 2) = 3n + 3 = **3(n + 1)**. ∎\n\nEt **moteksempel** er nok til å vise at en påstand er **usann**: «Alle primtall er oddetall» motbevises av tallet 2.",
+  "flashcards": [
+    { "term": "⇒", "def": "Medfører – gjelder bare én vei." },
+    { "term": "⇔", "def": "Er ekvivalent med – gjelder begge veier." },
+    { "term": "[2, 5⟩", "def": "Fra og med 2 til, men ikke med, 5." },
+    { "term": "Konjugatsetningen", "def": "a² − b² = (a − b)(a + b)" },
+    { "term": "Faktorisering av ax² + bx + c", "def": "a(x − x₁)(x − x₂), der x₁ og x₂ er nullpunktene." },
+    { "term": "x² − 5x + 6", "def": "(x − 2)(x − 3)" },
+    { "term": "Forkorting", "def": "Del teller og nevner med samme faktor." },
+    { "term": "Definisjonsmengde for brøkuttrykk", "def": "Nevneren kan ikke være null." },
+    { "term": "Addisjonsmetoden", "def": "Legg sammen likningene slik at én ukjent forsvinner." },
+    { "term": "Grafisk løsning av likningssett", "def": "Skjæringspunktet mellom linjene." },
+    { "term": "Fortegnslinje", "def": "Viser hvor faktorer og produkt er positive og negative." },
+    { "term": "x² − x − 6 < 0", "def": "−2 < x < 3" },
+    { "term": "Bevis", "def": "Argument som viser at noe gjelder alltid." },
+    { "term": "Moteksempel", "def": "Ett eksempel som viser at en påstand er usann." },
+    { "term": "Oddetall på generell form", "def": "2n + 1, der n er et helt tall." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvordan faktoriseres x² − 5x + 6?", "options": ["(x + 2)(x + 3)", "(x − 2)(x − 3)", "(x − 1)(x − 6)", "(x − 6)(x + 1)"], "correct": 1, "explain": "Nullpunktene er 2 og 3." },
+    { "id": "q02", "text": "Løs x² − x − 6 < 0.", "options": ["−2 < x < 3", "x < −2 eller x > 3", "x > 3", "−3 < x < 2"], "correct": 0, "explain": "(x − 3)(x + 2) er negativt mellom nullpunktene." },
+    { "id": "q03", "text": "Forenkle (x² − 9)/(x² + 3x).", "options": ["(x + 3)/x", "−3", "(x − 3)/x", "x − 3"], "correct": 2, "explain": "Faktoriser og forkort x + 3." },
+    { "id": "q04", "text": "Løs likningssettet 2x + y = 7 og x − y = 2.", "options": ["x = 2, y = 3", "x = 1, y = 5", "x = 4, y = −1", "x = 3, y = 1"], "correct": 3, "explain": "Addisjon gir 3x = 9." },
+    { "id": "q05", "text": "Hvilket utsagn er riktig?", "options": ["x = 2 ⇒ x² = 4", "x² = 4 ⇒ x = 2", "x² = 4 ⇔ x = 2", "x = 2 ⇔ x² = 4"], "correct": 0, "explain": "x² = 4 kan også gi x = −2." },
+    { "id": "q06", "text": "Løs (x − 1)/(x + 2) ≥ 0.", "options": ["x ≥ 1", "x < −2 eller x ≥ 1", "−2 < x ≤ 1", "x ≤ −2 eller x ≥ 1"], "correct": 1, "explain": "x = −2 gir null i nevneren og er ikke med." },
+    { "id": "q07", "text": "Hvordan viser du at en påstand er usann?", "options": ["Med mange eksempler der den stemmer", "Med en graf", "Med ett moteksempel", "Det kan ikke vises"], "correct": 2, "explain": "Ett moteksempel er nok." },
+    { "id": "q08", "text": "Hvorfor er summen av tre påfølgende hele tall delelig med 3?", "options": ["Fordi tallene er odde", "Fordi det gjelder for 1, 2 og 3", "Fordi summen er et primtall", "Fordi n + (n + 1) + (n + 2) = 3(n + 1)"], "correct": 3, "explain": "Et generelt bevis." },
+    { "id": "q09", "text": "Hva betyr intervallet [2, 5⟩?", "options": ["Fra og med 2 til, men ikke med, 5", "Mellom 2 og 5, uten endepunktene", "Fra og med 2 til og med 5", "Bare tallene 2 og 5"], "correct": 0, "explain": "Hakeparentes inkluderer, spiss parentes ekskluderer." },
+    { "id": "q10", "text": "Hvilken faktorisering er riktig?", "options": ["6x² + 9x = 3(2x² + 9x)", "6x² + 9x = 3x(2x + 3)", "6x² + 9x = 6x(x + 9)", "6x² + 9x = x(6 + 9x)"], "correct": 1, "explain": "Felles faktor 3x." }
+  ],
+  "mindmap": {
+    "label": "Algebra og resonnement",
+    "children": [
+      { "label": "Symbolspråk", "children": [
+        { "label": "⇒ og ⇔" },
+        { "label": "∈ og intervaller" }
+      ] },
+      { "label": "Faktorisering", "children": [
+        { "label": "Felles faktor" },
+        { "label": "Konjugatsetningen" },
+        { "label": "Nullpunktsmetoden" }
+      ] },
+      { "label": "Uttrykk og likninger", "children": [
+        { "label": "Rasjonale uttrykk" },
+        { "label": "Likningssett" }
+      ] },
+      { "label": "Ulikheter", "children": [
+        { "label": "Andregrads" },
+        { "label": "Rasjonale" },
+        { "label": "Fortegnslinje" }
+      ] },
+      { "label": "Bevis", "children": [
+        { "label": "Generelt argument" },
+        { "label": "Moteksempel" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Summen av to oddetall er alltid et partall.", "correct": true, "explain": "(2m + 1) + (2n + 1) = 2(m + n + 1)." },
+      { "id": "m02", "type": "sant-usant", "text": "Mange eksempler der en påstand stemmer, er et bevis.", "correct": false, "explain": "Et bevis må vise at det gjelder alltid." },
+      { "id": "m03", "type": "sant-usant", "text": "(x² − 9)/(x² + 3x) er ikke definert for x = −3.", "correct": true, "explain": "Nevneren blir null." },
+      { "id": "m04", "type": "sant-usant", "text": "Du kan alltid gange begge sider av en ulikhet med x + 2.", "correct": false, "explain": "Er x + 2 negativ, snur ulikhetstegnet – bruk fortegnslinje." },
+      { "id": "m05", "type": "flervalg", "text": "Hvordan faktoriseres x² − 16?", "options": ["(x − 4)²", "(x − 4)(x + 4)", "(x − 8)(x + 2)", "x(x − 16)"], "correct": 1, "explain": "Konjugatsetningen." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tall er et moteksempel til «alle primtall er oddetall»?", "options": ["2", "3", "9", "1"], "correct": 0, "explain": "2 er et partall og et primtall." },
+      { "id": "m07", "type": "flervalg", "text": "Løs x² − 4x ≥ 0.", "options": ["0 ≤ x ≤ 4", "x ≥ 4", "x ≤ 0 eller x ≥ 4", "x ≤ −4 eller x ≥ 0"], "correct": 2, "explain": "x(x − 4) ≥ 0 utenfor nullpunktene." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

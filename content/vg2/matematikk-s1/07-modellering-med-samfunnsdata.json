@@ -1,0 +1,82 @@
+{
+  "id": "modellering-med-samfunnsdata",
+  "fagId": "matematikk-s1",
+  "trinnId": "vg2",
+  "name": "Modellering med samfunnsøkonomiske data",
+  "intro": "Hvordan du planlegger og gjennomfører et selvstendig arbeid med reelle samfunnsøkonomiske datasett – fra kilder og regresjon til tolkning med derivasjon, vurdering av modellen og presentasjon.",
+  "kompetansemaal": [1, 5],
+  "sammendrag": "## Hvorfor modellere samfunnsdata?\n\nMatematiske modeller hjelper oss å **beskrive**, **forklare** og **forutsi** utviklingen i samfunnet – for eksempel folketall, priser, lønn, arbeidsledighet, strømforbruk eller salg av elbiler.\n\n## Et selvstendig arbeid\n\n1. **Problemstilling**: Formuler et tydelig spørsmål, for eksempel «Hvordan har andelen elbiler blant nye personbiler utviklet seg, og når økte den raskest?»\n2. **Datainnsamling**: Bruk **pålitelige kilder**, som **Statistisk sentralbyrå (SSB)**, Norges Bank eller offentlige etater. Noter **kilde**, **enheter** og **tidsperiode**.\n3. **Bearbeiding**: Velg variabler. Det er ofte lurt å la **t** være antall år etter et startår, for eksempel t = 0 i 2015.\n4. **Modellvalg**: Plott dataene først og se på formen.\n5. **Analyse** med derivasjon.\n6. **Vurdering** og **presentasjon**.\n\n## Velge modelltype\n\n- **Lineær**: omtrent samme økning hvert år.\n- **Andre- eller tredjegradspolynom**: når utviklingen snur, med topp- eller bunnpunkt.\n- **Eksponentiell**: omtrent samme **prosentvise** økning hvert år, som renter og prisvekst.\n- **Logistisk**: vekst som flater ut mot et tak, som andelen som har tatt i bruk en ny teknologi.\n\nBruk **regresjon** i GeoGebra eller regneark, for eksempel RegPoly og RegEksp. Et høyt **R²** betyr at modellen følger dataene godt, men det er **ikke** et bevis for at modellen er riktig.\n\n## Tolke modellen med derivasjon\n\nTenk deg at salget av en vare kan modelleres med\n\n**S(t) = −0,5t² + 12t + 40**\n\nder S er salget i tusen enheter og t er år etter 2015.\n\n- S′(t) = −t + 12. **S′(5) = 7**: I 2020 økte salget med omtrent **7000 enheter per år**.\n- S′(t) = 0 gir t = 12. Salget var størst i **2027** ifølge modellen, med S(12) = −72 + 144 + 40 = **112 tusen enheter**.\n\nHusk at tolkningen må ha **enheter** og **sammenheng**: «tusen enheter per år», ikke bare et tall.\n\n## Vurdere modellen\n\n- Passer modellen **godt** til dataene? Se på grafen og avvikene.\n- Gir den **rimelige** svar utenfor dataperioden? Et andregradspolynom vil til slutt gi **negativt salg**, noe som er umulig.\n- Hvilke **forhold** kan endre utviklingen – for eksempel nye regler, avgifter, kriser eller teknologi?\n- Er dataene **sammenlignbare** over tid, eller er definisjoner endret?\n\n## Kildekritikk\n\nSpør: **Hvem** har laget statistikken, og **hvordan** er den samlet inn? Er tallene justert for **prisstigning** (faste priser) eller ikke (løpende priser)? Er det **korrelasjon** eller **årsakssammenheng**?\n\n## Presentasjon\n\n- **Tydelige grafer** med aksetitler, enheter og kilde.\n- **Modellen** skrevet ut, med forklaring av variablene.\n- **Svar** på problemstillingen, med tolkning av vekstfart og ekstremalpunkter.\n- **Drøfting** av styrker og svakheter.\n- **Kildeliste**.",
+  "flashcards": [
+    { "term": "SSB", "def": "Statistisk sentralbyrå – hovedkilde til norsk statistikk." },
+    { "term": "t = antall år etter startår", "def": "Gjør modellen enklere å arbeide med." },
+    { "term": "Lineær modell", "def": "Omtrent samme økning hvert år." },
+    { "term": "Eksponentiell modell", "def": "Omtrent samme prosentvise økning hvert år." },
+    { "term": "Logistisk modell", "def": "Vekst som flater ut mot et tak." },
+    { "term": "Polynommodell", "def": "Når utviklingen snur, med topp- eller bunnpunkt." },
+    { "term": "R²", "def": "Mål på hvor godt modellen følger dataene – ikke et bevis." },
+    { "term": "S′(t) i en salgsmodell", "def": "Endring i salg per år." },
+    { "term": "S(t) = −0,5t² + 12t + 40", "def": "Størst salg 112 tusen ved t = 12." },
+    { "term": "Ekstrapolering", "def": "Å bruke modellen utenfor dataperioden." },
+    { "term": "Faste priser", "def": "Tall justert for prisstigning." },
+    { "term": "Løpende priser", "def": "Tall som ikke er justert for prisstigning." },
+    { "term": "Korrelasjon", "def": "At to størrelser varierer sammen – ikke nødvendigvis årsak." },
+    { "term": "Aksetitler og enheter", "def": "Må alltid være med i grafer." },
+    { "term": "Drøfting", "def": "Vurdering av modellens styrker og svakheter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken modell passer når en størrelse øker med omtrent samme prosent hvert år?", "options": ["Lineær", "Eksponentiell", "Andregrads", "Konstant"], "correct": 1, "explain": "Fast vekstfaktor." },
+    { "id": "q02", "text": "S(t) = −0,5t² + 12t + 40. Hva er S′(5)?", "options": ["7", "12", "−5", "87,5"], "correct": 0, "explain": "S′(t) = −t + 12." },
+    { "id": "q03", "text": "Når er salget størst ifølge modellen S(t) = −0,5t² + 12t + 40, der t er år etter 2015?", "options": ["2020", "2025", "2027", "2035"], "correct": 2, "explain": "S′(t) = 0 gir t = 12." },
+    { "id": "q04", "text": "Hva betyr et høyt R²?", "options": ["At modellen er bevist riktig", "At dataene er feil", "At modellen alltid gir gode prognoser", "At modellen følger dataene godt"], "correct": 3, "explain": "Men det sier ikke noe sikkert om framtiden." },
+    { "id": "q05", "text": "Hvorfor kan et andregradspolynom være en dårlig modell for salg langt fram i tid?", "options": ["Det vil til slutt gi negativt salg", "Det kan ikke deriveres", "Det har ingen toppunkt", "Det vokser alltid"], "correct": 0, "explain": "Urimelig svar ved ekstrapolering." },
+    { "id": "q06", "text": "Hvilken modell passer for andelen som tar i bruk en ny teknologi?", "options": ["Lineær", "Logistisk", "Konstant", "Tredjegrads med negativ ledende koeffisient"], "correct": 1, "explain": "Andelen kan ikke bli over 100 %." },
+    { "id": "q07", "text": "Hva er forskjellen på faste og løpende priser?", "options": ["Det er det samme", "Faste priser er alltid høyere", "Faste priser er justert for prisstigning", "Løpende priser er justert for prisstigning"], "correct": 2, "explain": "Viktig ved sammenligning over tid." },
+    { "id": "q08", "text": "Hvordan bør S′(5) = 7 tolkes når S er salg i tusen enheter?", "options": ["Salget er 7 enheter", "Salget er 7000", "Salget var størst i år 5", "Salget økte med omtrent 7000 enheter per år ved t = 5"], "correct": 3, "explain": "Husk enhet og sammenheng." },
+    { "id": "q09", "text": "Hva er et godt første steg før du velger modelltype?", "options": ["Plotte dataene og se på formen", "Velge den mest avanserte modellen", "Slette avvikende punkter", "Regne ut den deriverte"], "correct": 0, "explain": "Formen gir hint om modelltypen." },
+    { "id": "q10", "text": "Hvilken kilde er best for norsk befolkningsstatistikk?", "options": ["Sosiale medier", "Statistisk sentralbyrå", "En reklamebrosjyre", "Et debattinnlegg"], "correct": 1, "explain": "Offisiell statistikk." }
+  ],
+  "mindmap": {
+    "label": "Modellering med samfunnsdata",
+    "children": [
+      { "label": "Prosess", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Data fra SSB" },
+        { "label": "Bearbeiding" }
+      ] },
+      { "label": "Modelltyper", "children": [
+        { "label": "Lineær" },
+        { "label": "Polynom" },
+        { "label": "Eksponentiell" },
+        { "label": "Logistisk" }
+      ] },
+      { "label": "Analyse", "children": [
+        { "label": "Regresjon og R²" },
+        { "label": "Vekstfart med enheter" },
+        { "label": "Ekstremalpunkter" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Ekstrapolering" },
+        { "label": "Faste og løpende priser" },
+        { "label": "Korrelasjon og årsak" }
+      ] },
+      { "label": "Presentasjon", "children": [
+        { "label": "Grafer med kilde" },
+        { "label": "Drøfting" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En modell kan passe godt til dataene og likevel gi urimelige prognoser.", "correct": true, "explain": "Særlig ved ekstrapolering." },
+      { "id": "m02", "type": "sant-usant", "text": "Grafer trenger ikke aksetitler når modellen er riktig.", "correct": false, "explain": "Aksetitler og enheter må alltid være med." },
+      { "id": "m03", "type": "sant-usant", "text": "Nye regler eller avgifter kan endre utviklingen modellen beskriver.", "correct": true, "explain": "Modellen fanger bare opp mønsteret i dataene." },
+      { "id": "m04", "type": "sant-usant", "text": "Korrelasjon mellom to størrelser beviser at den ene forårsaker den andre.", "correct": false, "explain": "Korrelasjon er ikke årsak." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er S(12) når S(t) = −0,5t² + 12t + 40?", "options": ["100", "112", "184", "40"], "correct": 1, "explain": "−72 + 144 + 40." },
+      { "id": "m06", "type": "flervalg", "text": "Hvorfor lar vi ofte t = 0 svare til et startår?", "options": ["Det gjør tallene i modellen enklere", "Det er påbudt", "Det gir alltid høyere R²", "Det fjerner feil i dataene"], "correct": 0, "explain": "Store årstall gir uhåndterlige koeffisienter." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør være med i en presentasjon av modellarbeidet?", "options": ["Bare modellen", "Bare grafen", "Grafer, modell, tolkning, drøfting og kilder", "Bare konklusjonen"], "correct": 2, "explain": "Hele prosessen skal komme fram." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

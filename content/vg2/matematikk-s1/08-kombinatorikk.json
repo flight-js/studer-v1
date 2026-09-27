@@ -1,0 +1,78 @@
+{
+  "id": "kombinatorikk",
+  "fagId": "matematikk-s1",
+  "trinnId": "vg2",
+  "name": "Kombinatorikk",
+  "intro": "Multiplikasjonsprinsippet, ordnede og uordnede utvalg med og uten tilbakelegging, fakultet, permutasjoner og binomialkoeffisienter – med eksempler fra koder, konkurranser, lag og Lotto.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Hva er kombinatorikk?\n\n**Kombinatorikk** handler om å **telle** hvor mange muligheter det finnes – uten å måtte skrive opp alle. Det er grunnlaget for å regne ut **sannsynligheter**.\n\n## Multiplikasjonsprinsippet\n\nHvis et valg kan gjøres på **m** måter og et nytt valg på **n** måter, kan de to valgene gjøres på **m · n** måter.\n\n**Eksempel**: En meny har 3 forretter, 4 hovedretter og 2 desserter. Antall ulike middager er 3 · 4 · 2 = **24**.\n\n## To spørsmål avgjør metoden\n\n1. **Har rekkefølgen betydning?** (ordnet eller uordnet)\n2. **Kan det samme velges flere ganger?** (med eller uten tilbakelegging)\n\n## Ordnet med tilbakelegging\n\nAntall muligheter er **nʳ**, der n er antall valgmuligheter hver gang og r er antall valg.\n\n**Eksempel**: En PIN-kode med 4 siffer: 10⁴ = **10 000** koder.\n\n## Ordnet uten tilbakelegging\n\nNår ingen kan velges to ganger og rekkefølgen betyr noe:\n\n**n · (n − 1) · … · (n − r + 1) = n! / (n − r)!**\n\n**Eksempel**: 10 løpere kjemper om gull, sølv og bronse. Antall måter å dele ut medaljene på er 10 · 9 · 8 = **720**.\n\n## Fakultet og permutasjoner\n\n**n!** (n fakultet) er n · (n − 1) · … · 2 · 1. For eksempel er 5! = **120**. Vi definerer **0! = 1**.\n\nAntall måter å ordne n ting i **rekkefølge** – antall **permutasjoner** – er **n!**. Fem personer kan stille seg i kø på 120 måter.\n\n## Uordnet uten tilbakelegging\n\nNår vi bare bryr oss om **hvem** som velges, ikke **rekkefølgen**, bruker vi **binomialkoeffisienten**:\n\n**C(n, r) = n! / (r! · (n − r)!)**\n\nSkrives også «n over r».\n\n**Eksempel**: Å velge en komité på 3 av 10 elever kan gjøres på C(10, 3) = 720 / 6 = **120** måter. Vi deler de 720 ordnede utvalgene på 3! = 6, fordi hver gruppe på tre er talt 6 ganger.\n\n**Lotto**: Å velge 7 av 34 tall kan gjøres på C(34, 7) = **5 379 616** måter.\n\n## Oversikt\n\n| | Med tilbakelegging | Uten tilbakelegging |\n|---|---|---|\n| **Ordnet** | nʳ | n! / (n − r)! |\n| **Uordnet** | (sjelden i S1) | C(n, r) |\n\n## Nyttige egenskaper\n\n- C(n, r) = C(n, n − r): Å velge 3 av 10 er det samme som å velge bort 7.\n- C(n, 0) = C(n, n) = 1.\n- Binomialkoeffisientene står i **Pascals trekant**, der hvert tall er summen av de to over.\n\n## Digitale verktøy\n\nI GeoGebra og på kalkulatoren bruker du **nPr(n, r)** for ordnede utvalg og **nCr(n, r)** for uordnede. I regneark heter funksjonen KOMBINASJON.",
+  "flashcards": [
+    { "term": "Multiplikasjonsprinsippet", "def": "m måter og n måter gir m · n måter." },
+    { "term": "Ordnet utvalg", "def": "Rekkefølgen har betydning." },
+    { "term": "Uordnet utvalg", "def": "Rekkefølgen har ikke betydning." },
+    { "term": "Med tilbakelegging", "def": "Det samme kan velges flere ganger." },
+    { "term": "Ordnet med tilbakelegging", "def": "nʳ" },
+    { "term": "Ordnet uten tilbakelegging", "def": "n!/(n − r)!" },
+    { "term": "Uordnet uten tilbakelegging", "def": "C(n, r) = n!/(r!(n − r)!)" },
+    { "term": "n!", "def": "n · (n − 1) · … · 1" },
+    { "term": "0!", "def": "1" },
+    { "term": "5!", "def": "120" },
+    { "term": "PIN-kode med 4 siffer", "def": "10 000 muligheter." },
+    { "term": "Gull, sølv og bronse blant 10", "def": "720 muligheter." },
+    { "term": "C(10, 3)", "def": "120" },
+    { "term": "C(34, 7)", "def": "5 379 616 – antall Lotto-rekker." },
+    { "term": "Pascals trekant", "def": "Tabell over binomialkoeffisientene." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "En meny har 3 forretter, 4 hovedretter og 2 desserter. Hvor mange ulike middager finnes?", "options": ["9", "24", "12", "6"], "correct": 1, "explain": "3 · 4 · 2." },
+    { "id": "q02", "text": "Hvor mange firesifrede PIN-koder finnes?", "options": ["10 000", "5040", "40", "9999"], "correct": 0, "explain": "10⁴ – ordnet med tilbakelegging." },
+    { "id": "q03", "text": "På hvor mange måter kan gull, sølv og bronse deles ut blant 10 løpere?", "options": ["120", "1000", "720", "30"], "correct": 2, "explain": "10 · 9 · 8." },
+    { "id": "q04", "text": "På hvor mange måter kan en komité på 3 velges blant 10 elever?", "options": ["720", "30", "1000", "120"], "correct": 3, "explain": "C(10, 3)." },
+    { "id": "q05", "text": "Hva er 5!?", "options": ["120", "25", "15", "60"], "correct": 0, "explain": "5 · 4 · 3 · 2 · 1." },
+    { "id": "q06", "text": "Hvilken type utvalg er Lotto?", "options": ["Ordnet med tilbakelegging", "Uordnet uten tilbakelegging", "Ordnet uten tilbakelegging", "Uordnet med tilbakelegging"], "correct": 1, "explain": "Rekkefølgen spiller ingen rolle, og et tall trekkes bare én gang." },
+    { "id": "q07", "text": "Hvorfor deler vi på 3! når vi går fra ordnede til uordnede utvalg av 3?", "options": ["Fordi det er 3 personer", "Fordi vi har tilbakelegging", "Fordi hver gruppe på tre er talt 3! = 6 ganger", "Fordi 3! = 3"], "correct": 2, "explain": "Tre personer kan ordnes på 6 måter." },
+    { "id": "q08", "text": "Hvor mange måter kan fem personer stille seg i kø på?", "options": ["5", "25", "3125", "120"], "correct": 3, "explain": "5! permutasjoner." },
+    { "id": "q09", "text": "Hva er 0!?", "options": ["1", "0", "Ikke definert", "−1"], "correct": 0, "explain": "Etter definisjon." },
+    { "id": "q10", "text": "Hvilken sammenheng gjelder alltid?", "options": ["C(n, r) = n!", "C(n, r) = C(n, n − r)", "C(n, r) = nʳ", "C(n, r) = r!"], "correct": 1, "explain": "Å velge r er det samme som å velge bort n − r." }
+  ],
+  "mindmap": {
+    "label": "Kombinatorikk",
+    "children": [
+      { "label": "Grunnprinsipp", "children": [
+        { "label": "Multiplikasjonsprinsippet" }
+      ] },
+      { "label": "To spørsmål", "children": [
+        { "label": "Ordnet eller uordnet?" },
+        { "label": "Med eller uten tilbakelegging?" }
+      ] },
+      { "label": "Ordnet", "children": [
+        { "label": "nʳ" },
+        { "label": "n!/(n − r)!" },
+        { "label": "Permutasjoner n!" }
+      ] },
+      { "label": "Uordnet", "children": [
+        { "label": "C(n, r)" },
+        { "label": "Lotto" },
+        { "label": "Pascals trekant" }
+      ] },
+      { "label": "Verktøy", "children": [
+        { "label": "nPr og nCr" },
+        { "label": "KOMBINASJON" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Å velge 3 av 10 gir like mange muligheter som å velge 7 av 10.", "correct": true, "explain": "C(10, 3) = C(10, 7) = 120." },
+      { "id": "m02", "type": "sant-usant", "text": "En PIN-kode er et uordnet utvalg.", "correct": false, "explain": "Rekkefølgen på sifrene betyr noe." },
+      { "id": "m03", "type": "sant-usant", "text": "Det finnes over fem millioner mulige Lotto-rekker med 7 av 34 tall.", "correct": true, "explain": "C(34, 7) = 5 379 616." },
+      { "id": "m04", "type": "sant-usant", "text": "C(n, r) er alltid større enn n!/(n − r)!.", "correct": false, "explain": "Uordnede utvalg er færre, fordi vi deler på r!." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor mange ord på 3 bokstaver kan lages av bokstavene A, B, C og D uten gjentakelse?", "options": ["64", "24", "12", "4"], "correct": 1, "explain": "4 · 3 · 2." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er C(5, 2)?", "options": ["10", "20", "5", "25"], "correct": 0, "explain": "5 · 4 / 2." },
+      { "id": "m07", "type": "flervalg", "text": "Et skilt har to bokstaver (av 26) fulgt av tre siffer. Hvor mange skilt er mulige?", "options": ["26 · 10", "26 + 26 + 10 + 10 + 10", "26² · 10³", "C(26, 2) · C(10, 3)"], "correct": 2, "explain": "676 000 – ordnet med tilbakelegging." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

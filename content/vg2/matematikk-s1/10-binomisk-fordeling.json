@@ -1,0 +1,81 @@
+{
+  "id": "binomisk-fordeling",
+  "fagId": "matematikk-s1",
+  "trinnId": "vg2",
+  "name": "Binomisk fordeling",
+  "intro": "Når et forsøk er binomisk, formelen for binomisk sannsynlighet, kumulative sannsynligheter og forventningsverdi – med anvendelser fra kvalitetskontroll, gjetting på prøver og overbooking.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Binomiske forsøk\n\nEt forsøk er **binomisk** når\n\n1. det består av **n** delforsøk\n2. hvert delforsøk har **to** mulige utfall – «suksess» eller «ikke suksess»\n3. sannsynligheten **p** for suksess er **den samme** i hvert delforsøk\n4. delforsøkene er **uavhengige** av hverandre\n\nLa X være **antall suksesser**. Da er X **binomisk fordelt**.\n\n## Formelen\n\n**P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ**\n\n- pᵏ er sannsynligheten for k suksesser.\n- (1 − p)ⁿ⁻ᵏ er sannsynligheten for n − k ikke-suksesser.\n- C(n, k) er antall måter suksessene kan fordele seg på blant de n delforsøkene.\n\n**Eksempel – mynt**: Sannsynligheten for nøyaktig 5 kron på 10 kast er\n\nC(10, 5) · 0,5⁵ · 0,5⁵ = 252 / 1024 ≈ **0,246**\n\nSelv det mest sannsynlige utfallet skjer altså bare i omtrent én av fire serier.\n\n## Forventningsverdi\n\n**E(X) = n · p**\n\nMed 10 myntkast forventer vi 10 · 0,5 = 5 kron i gjennomsnitt.\n\n## Kumulative sannsynligheter\n\nOfte spør vi om **høyst**, **minst** eller **mellom**:\n\n- P(X ≤ k): legg sammen P(X = 0) til P(X = k).\n- P(X ≥ k) = 1 − P(X ≤ k − 1).\n\nI GeoGebra finner du dette i **sannsynlighetskalkulatoren** eller med kommandoen **Binomisk(n, p, k, true)**.\n\n## Eksempler\n\n**Kvalitetskontroll**: 20 % av varene i en stor produksjon er defekte. Vi trekker 5 tilfeldig.\n\n- P(ingen defekte) = 0,8⁵ ≈ **0,328**\n- P(minst én defekt) = 1 − 0,328 = **0,672**\n- Forventet antall defekte: 5 · 0,2 = **1**\n\n**Gjetting på flervalgsprøve**: En prøve har 10 spørsmål med 4 svaralternativer. Du gjetter på alt, så p = 0,25.\n\n- E(X) = 10 · 0,25 = **2,5** rette\n- P(X ≥ 5) ≈ **0,078** – under 8 % sjanse for å få minst halvparten riktig bare ved å gjette.\n\n**Overbooking**: Flyselskaper vet at noen passasjerer ikke møter. Med en binomisk modell kan de regne ut hvor mange billetter de kan selge uten for stor risiko for at flere enn antall seter møter opp.\n\n## Når passer modellen?\n\nModellen krever **konstant p** og **uavhengighet**. Trekker vi uten tilbakelegging fra en **liten** gruppe, endres p underveis. Da er den **hypergeometriske fordelingen** riktig. Trekker vi fra en **svært stor** gruppe, blir endringen så liten at den binomiske modellen er en god tilnærming.\n\n## Grafisk\n\nEt **stolpediagram** av fordelingen er symmetrisk når p = 0,5, og skjevt når p er nær 0 eller 1. Toppen ligger nær forventningsverdien n · p.",
+  "flashcards": [
+    { "term": "Binomisk forsøk – krav 1", "def": "n delforsøk." },
+    { "term": "Binomisk forsøk – krav 2", "def": "To utfall i hvert delforsøk." },
+    { "term": "Binomisk forsøk – krav 3", "def": "Samme sannsynlighet p hver gang." },
+    { "term": "Binomisk forsøk – krav 4", "def": "Uavhengige delforsøk." },
+    { "term": "Binomisk sannsynlighet", "def": "P(X = k) = C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ" },
+    { "term": "Forventningsverdi i binomisk fordeling", "def": "E(X) = n · p" },
+    { "term": "5 kron på 10 myntkast", "def": "252/1024 ≈ 0,246" },
+    { "term": "P(X ≥ k)", "def": "1 − P(X ≤ k − 1)" },
+    { "term": "Kumulativ sannsynlighet", "def": "Sum av sannsynligheter opp til en verdi." },
+    { "term": "Ingen defekte av 5 når p = 0,2", "def": "0,8⁵ ≈ 0,328" },
+    { "term": "Gjetting på 10 spørsmål med 4 alternativer", "def": "E(X) = 2,5 rette." },
+    { "term": "Overbooking", "def": "Anvendelse av binomisk fordeling i flybransjen." },
+    { "term": "Trekk fra liten gruppe uten tilbakelegging", "def": "Bruk hypergeometrisk fordeling." },
+    { "term": "Symmetrisk binomisk fordeling", "def": "Når p = 0,5." },
+    { "term": "Binomisk(n, p, k, true)", "def": "GeoGebra-kommando for P(X ≤ k)." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilket krav gjelder for et binomisk forsøk?", "options": ["Sannsynligheten endres i hvert delforsøk", "Delforsøkene er uavhengige med samme p", "Det er tre utfall i hvert delforsøk", "Antall delforsøk er ukjent"], "correct": 1, "explain": "Og to utfall i hvert delforsøk." },
+    { "id": "q02", "text": "Hva er sannsynligheten for nøyaktig 5 kron på 10 myntkast?", "options": ["Omtrent 0,246", "0,5", "Omtrent 0,05", "1/10"], "correct": 0, "explain": "C(10, 5) · 0,5¹⁰ = 252/1024." },
+    { "id": "q03", "text": "Hva er forventet antall kron på 10 myntkast?", "options": ["10", "2,5", "5", "0,5"], "correct": 2, "explain": "n · p." },
+    { "id": "q04", "text": "20 % av varene er defekte. Hva er sannsynligheten for ingen defekte blant 5?", "options": ["0,2", "0,8", "0,672", "Omtrent 0,328"], "correct": 3, "explain": "0,8⁵." },
+    { "id": "q05", "text": "Hvordan regner du ut P(X ≥ 1)?", "options": ["1 − P(X = 0)", "P(X = 1)", "P(X = 0) + P(X = 1)", "1 − P(X = 1)"], "correct": 0, "explain": "Komplementet til ingen suksesser." },
+    { "id": "q06", "text": "Du gjetter på 10 spørsmål med 4 alternativer. Hvor mange rette forventer du?", "options": ["4", "2,5", "5", "1"], "correct": 1, "explain": "10 · 0,25." },
+    { "id": "q07", "text": "Hva står C(n, k) for i binomialformelen?", "options": ["Sannsynligheten for suksess", "Forventningsverdien", "Antall måter k suksesser kan fordele seg på blant n delforsøk", "Antall fiaskoer"], "correct": 2, "explain": "Binomialkoeffisienten." },
+    { "id": "q08", "text": "Når bør du bruke hypergeometrisk i stedet for binomisk fordeling?", "options": ["Når p = 0,5", "Når n er stor", "Når det er to utfall", "Når du trekker uten tilbakelegging fra en liten gruppe"], "correct": 3, "explain": "Da endres sannsynligheten underveis." },
+    { "id": "q09", "text": "Omtrent hvor stor er sjansen for minst 5 rette av 10 ved å gjette med 4 alternativer?", "options": ["Omtrent 8 %", "Omtrent 25 %", "Omtrent 50 %", "Omtrent 1 %"], "correct": 0, "explain": "P(X ≥ 5) ≈ 0,078." },
+    { "id": "q10", "text": "Hvordan ser en binomisk fordeling med p = 0,5 ut?", "options": ["Skjev mot høyre", "Symmetrisk", "Skjev mot venstre", "Flat"], "correct": 1, "explain": "Toppen ligger midt på." }
+  ],
+  "mindmap": {
+    "label": "Binomisk fordeling",
+    "children": [
+      { "label": "Krav", "children": [
+        { "label": "n delforsøk" },
+        { "label": "To utfall" },
+        { "label": "Konstant p" },
+        { "label": "Uavhengige" }
+      ] },
+      { "label": "Formel", "children": [
+        { "label": "C(n, k) · pᵏ · (1 − p)ⁿ⁻ᵏ" },
+        { "label": "E(X) = np" }
+      ] },
+      { "label": "Kumulativt", "children": [
+        { "label": "Høyst" },
+        { "label": "Minst" },
+        { "label": "GeoGebra" }
+      ] },
+      { "label": "Anvendelser", "children": [
+        { "label": "Kvalitetskontroll" },
+        { "label": "Gjetting på prøve" },
+        { "label": "Overbooking" }
+      ] },
+      { "label": "Gyldighet", "children": [
+        { "label": "Stor populasjon" },
+        { "label": "Ellers hypergeometrisk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Antall seksere på 12 terningkast er binomisk fordelt.", "correct": true, "explain": "12 uavhengige kast med p = 1/6." },
+      { "id": "m02", "type": "sant-usant", "text": "Det mest sannsynlige utfallet i en binomisk fordeling skjer nesten alltid.", "correct": false, "explain": "5 kron av 10 skjer bare i omtrent 25 % av tilfellene." },
+      { "id": "m03", "type": "sant-usant", "text": "E(X) = n · p for en binomisk fordelt X.", "correct": true, "explain": "Forventet antall suksesser." },
+      { "id": "m04", "type": "sant-usant", "text": "Å trekke 3 kort fra en kortstokk uten tilbakelegging er et binomisk forsøk.", "correct": false, "explain": "Sannsynligheten endres fordi gruppen er liten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er forventet antall seksere på 12 terningkast?", "options": ["6", "2", "1", "12"], "correct": 1, "explain": "12 · 1/6." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er P(X = 0) når n = 3 og p = 0,5?", "options": ["0,125", "0,5", "0,375", "0"], "correct": 0, "explain": "0,5³." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er P(X = 2) når n = 3 og p = 0,5?", "options": ["0,125", "0,25", "0,375", "0,5"], "correct": 2, "explain": "C(3, 2) · 0,5³ = 3/8." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

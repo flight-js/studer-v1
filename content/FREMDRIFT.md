@@ -34,12 +34,13 @@ Status for arbeidet med å lage innhold til alle 83 fag (8. trinn–Vg3), og hvo
 | Biologi 1 | 11 |
 | Geofag 1 | 10 |
 | Matematikk R1 | 11 |
+| Matematikk S1 | 11 |
 
 Hele ungdomstrinnet er ferdig.
 
 Hele Vg1 er ferdig.
 
-**Neste:** Vg2 programfag, i denne rekkefølgen: matematikk-s1, informasjonsteknologi-1, teknologi-og-forskningslare-1, sosiologi-og-sosialantropologi, historie-og-filosofi-1, politikk-og-menneskerettigheter, rettslare-1, psykologi-1, markedsforing-og-ledelse-1, entreprenorskap-og-bedriftsutvikling-1, samfunnsokonomi-1.
+**Neste:** Vg2 programfag, i denne rekkefølgen: informasjonsteknologi-1, teknologi-og-forskningslare-1, sosiologi-og-sosialantropologi, historie-og-filosofi-1, politikk-og-menneskerettigheter, rettslare-1, psykologi-1, markedsforing-og-ledelse-1, entreprenorskap-og-bedriftsutvikling-1, samfunnsokonomi-1.
 
 **Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
 
