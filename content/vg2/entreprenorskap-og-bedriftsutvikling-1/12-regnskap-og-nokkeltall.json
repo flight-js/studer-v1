@@ -1,0 +1,81 @@
+{
+  "id": "regnskap-og-nokkeltall",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Regnskap og nøkkeltall",
+  "intro": "Hvordan du leser et resultatregnskap og en balanse, hva avskrivninger er, og hvordan nøkkeltall for lønnsomhet, likviditet og soliditet brukes til å vurdere en virksomhet.",
+  "kompetansemaal": [12],
+  "sammendrag": "## Hva er regnskap?\n\nAlle virksomheter må **bokføre** inntekter og utgifter. **Årsregnskapet** oppsummerer året og består blant annet av **resultatregnskapet** og **balansen**. Regnskapene til aksjeselskaper er **offentlige** og kan leses i **Regnskapsregisteret**.\n\n## Resultatregnskapet\n\nResultatregnskapet viser om virksomheten har tjent eller tapt penger i løpet av **året**:\n\n| Post | Kroner |\n|---|---|\n| **Driftsinntekter** (salg) | 1 000 000 |\n| − **Driftskostnader** (varekostnad, lønn, avskrivninger og andre kostnader) | 900 000 |\n| = **Driftsresultat** | 100 000 |\n| − Rentekostnader | 10 000 |\n| = **Resultat før skatt** | 90 000 |\n\nEtter **skatt** får vi **årsresultatet**.\n\n**Avskrivninger** fordeler kostnaden for ting som varer i flere år, som en maskin, over **levetiden**. En maskin til 100 000 kr som varer i fem år, gir en avskrivning på 20 000 kr per år.\n\n## Balansen\n\nBalansen er et **øyeblikksbilde** av hva virksomheten **eier** og hvordan det er **finansiert** – vanligvis per 31. desember.\n\n- **Eiendeler**\n  - **Anleggsmidler**: bygninger, maskiner og inventar\n  - **Omløpsmidler**: varelager, kundefordringer og bankinnskudd\n- **Egenkapital og gjeld**\n  - **Egenkapital**: det eierne har skutt inn, pluss overskudd som er holdt tilbake\n  - **Langsiktig gjeld**: for eksempel banklån\n  - **Kortsiktig gjeld**: for eksempel leverandørgjeld og skyldige avgifter\n\nBalansen går alltid **i balanse**: **Eiendeler = egenkapital + gjeld**. Summen kalles **totalkapitalen**.\n\n## Nøkkeltall\n\nNøkkeltall gjør det lettere å **sammenligne** virksomheter og år.\n\n### Lønnsomhet\n\n- **Resultatgrad** = driftsresultat ÷ driftsinntekter · 100. Eksempel: 100 000 ÷ 1 000 000 = **10 %**.\n- **Totalkapitalrentabilitet** viser hvor godt **all** kapitalen forrentes: (resultat før skatt + rentekostnader) ÷ totalkapital · 100. Med totalkapital på 500 000 kr: (90 000 + 10 000) ÷ 500 000 = **20 %**.\n- **Egenkapitalrentabilitet** viser avkastningen til **eierne**: resultat før skatt ÷ egenkapital · 100. Med egenkapital på 200 000 kr: 90 000 ÷ 200 000 = **45 %**.\n\n### Likviditet\n\n**Likviditetsgrad 1** = omløpsmidler ÷ kortsiktig gjeld. Den viser om virksomheten kan betale **regningene** som forfaller snart. En vanlig tommelfingerregel er at den bør være **over 2**.\n\n### Soliditet\n\n**Egenkapitalandel** = egenkapital ÷ totalkapital · 100. Den viser hvor godt virksomheten tåler **tap**. I eksempelet: 200 000 ÷ 500 000 = **40 %**.\n\n## Å vurdere nøkkeltallene\n\nEtt tall alene sier **lite**. Sammenlign med\n\n- virksomhetens **tidligere år** – går det bedre eller dårligere?\n- andre virksomheter i **samme bransje**\n- **renten** – totalkapitalrentabiliteten bør være høyere enn lånerenten\n\nEn ny virksomhet har ofte **underskudd** de første årene. Det viktigste da er at **likviditeten** holder, og at utviklingen går i **riktig retning**.",
+  "flashcards": [
+    { "term": "Årsregnskap", "def": "Oppsummering av året med resultatregnskap og balanse." },
+    { "term": "Resultatregnskap", "def": "Viser inntekter, kostnader og resultat for året." },
+    { "term": "Driftsresultat", "def": "Driftsinntekter minus driftskostnader." },
+    { "term": "Avskrivning", "def": "Fordeling av kostnaden for varige eiendeler over levetiden." },
+    { "term": "Balanse", "def": "Øyeblikksbilde av eiendeler, egenkapital og gjeld." },
+    { "term": "Anleggsmidler", "def": "Eiendeler som skal brukes lenge." },
+    { "term": "Omløpsmidler", "def": "Varelager, kundefordringer og bankinnskudd." },
+    { "term": "Kortsiktig gjeld", "def": "Gjeld som forfaller innen ett år." },
+    { "term": "Totalkapital", "def": "Summen av eiendelene – lik egenkapital pluss gjeld." },
+    { "term": "Resultatgrad", "def": "Driftsresultat delt på driftsinntekter." },
+    { "term": "Totalkapitalrentabilitet", "def": "Hvor godt all kapitalen i virksomheten forrentes." },
+    { "term": "Egenkapitalrentabilitet", "def": "Avkastningen til eierne." },
+    { "term": "Likviditetsgrad 1", "def": "Omløpsmidler delt på kortsiktig gjeld – bør være over 2." },
+    { "term": "Egenkapitalandel", "def": "Egenkapital delt på totalkapital – viser soliditet." },
+    { "term": "Soliditet", "def": "Evnen til å tåle tap." },
+    { "term": "Regnskapsregisteret", "def": "Offentlig register med regnskapene til blant annet aksjeselskaper." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva viser resultatregnskapet?", "options": ["Hva virksomheten eier", "Inntekter, kostnader og resultat for året", "Antall ansatte", "Aksjekursen"], "correct": 1, "explain": "Balansen viser eiendeler og finansiering." },
+    { "id": "q02", "text": "Driftsinntektene er 1 000 000 kr og driftsresultatet 100 000 kr. Hva er resultatgraden?", "options": ["10 %", "1 %", "90 %", "100 %"], "correct": 0, "explain": "100 000 ÷ 1 000 000 · 100." },
+    { "id": "q03", "text": "Hva er en avskrivning?", "options": ["Et banklån", "En skatt", "Fordeling av kostnaden for varige eiendeler over levetiden", "Et salg"], "correct": 2, "explain": "En maskin til 100 000 kr over fem år gir 20 000 kr per år." },
+    { "id": "q04", "text": "Hva gjelder alltid i balansen?", "options": ["Gjeld = inntekter", "Egenkapital = kostnader", "Resultat = eiendeler", "Eiendeler = egenkapital + gjeld"], "correct": 3, "explain": "Derfor heter det balanse." },
+    { "id": "q05", "text": "Hvilket nøkkeltall viser om virksomheten kan betale regninger som forfaller snart?", "options": ["Likviditetsgrad 1", "Resultatgrad", "Egenkapitalrentabilitet", "Egenkapitalandel"], "correct": 0, "explain": "Omløpsmidler delt på kortsiktig gjeld." },
+    { "id": "q06", "text": "Egenkapitalen er 200 000 kr og totalkapitalen 500 000 kr. Hva er egenkapitalandelen?", "options": ["25 %", "40 %", "60 %", "250 %"], "correct": 1, "explain": "200 000 ÷ 500 000 · 100." },
+    { "id": "q07", "text": "Hva hører til omløpsmidlene?", "options": ["Bygninger", "Maskiner", "Varelager og bankinnskudd", "Banklån"], "correct": 2, "explain": "Eiendeler som skifter raskt." },
+    { "id": "q08", "text": "Hva viser egenkapitalrentabiliteten?", "options": ["Hvor mye gjeld virksomheten har", "Hvor mange kunder den har", "Hvor mye den eier", "Avkastningen til eierne"], "correct": 3, "explain": "Resultat før skatt delt på egenkapital." },
+    { "id": "q09", "text": "Hva bør totalkapitalrentabiliteten sammenlignes med?", "options": ["Lånerenten", "Antall ansatte", "Aksjekapitalen", "Merverdiavgiften"], "correct": 0, "explain": "Den bør være høyere enn lånerenten." },
+    { "id": "q10", "text": "Hva er viktigst for en ny virksomhet med underskudd de første årene?", "options": ["At den betaler utbytte", "At likviditeten holder og utviklingen går riktig vei", "At den har høy egenkapitalrentabilitet", "At den ikke har kostnader"], "correct": 1, "explain": "Underskudd er vanlig i starten." }
+  ],
+  "mindmap": {
+    "label": "Regnskap og nøkkeltall",
+    "children": [
+      { "label": "Resultatregnskap", "children": [
+        { "label": "Inntekter og kostnader" },
+        { "label": "Driftsresultat" },
+        { "label": "Avskrivninger" }
+      ] },
+      { "label": "Balanse", "children": [
+        { "label": "Anleggs- og omløpsmidler" },
+        { "label": "Egenkapital" },
+        { "label": "Lang- og kortsiktig gjeld" }
+      ] },
+      { "label": "Lønnsomhet", "children": [
+        { "label": "Resultatgrad" },
+        { "label": "Totalkapitalrentabilitet" },
+        { "label": "Egenkapitalrentabilitet" }
+      ] },
+      { "label": "Likviditet og soliditet", "children": [
+        { "label": "Likviditetsgrad 1" },
+        { "label": "Egenkapitalandel" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Tidligere år" },
+        { "label": "Bransje og rente" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Regnskapene til aksjeselskaper er offentlige.", "correct": true, "explain": "De finnes i Regnskapsregisteret." },
+      { "id": "m02", "type": "sant-usant", "text": "Ett enkelt nøkkeltall gir et fullstendig bilde av en virksomhet.", "correct": false, "explain": "Tallene må sammenlignes med tidligere år og bransjen." },
+      { "id": "m03", "type": "sant-usant", "text": "Balansen er et øyeblikksbilde, vanligvis per 31. desember.", "correct": true, "explain": "Resultatregnskapet gjelder hele året." },
+      { "id": "m04", "type": "sant-usant", "text": "En høy egenkapitalandel betyr at virksomheten tåler tap dårlig.", "correct": false, "explain": "Høy egenkapitalandel gir god soliditet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er et eksempel på kortsiktig gjeld?", "options": ["Et banklån over 20 år", "Leverandørgjeld", "Aksjekapital", "Bygninger"], "correct": 1, "explain": "Forfaller innen ett år." },
+      { "id": "m06", "type": "flervalg", "text": "Resultat før skatt er 90 000 kr og rentekostnadene 10 000 kr. Totalkapitalen er 500 000 kr. Hva er totalkapitalrentabiliteten?", "options": ["20 %", "18 %", "2 %", "45 %"], "correct": 0, "explain": "(90 000 + 10 000) ÷ 500 000 · 100." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør likviditetsgrad 1 være ifølge en vanlig tommelfingerregel?", "options": ["Under 0,5", "Nøyaktig 1", "Over 2", "Over 10"], "correct": 2, "explain": "Omløpsmidlene bør være dobbelt så store som den kortsiktige gjelden." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

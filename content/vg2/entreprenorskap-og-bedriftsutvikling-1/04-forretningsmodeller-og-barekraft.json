@@ -1,0 +1,82 @@
+{
+  "id": "forretningsmodeller-og-barekraft",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Forretningsmodeller og bærekraft",
+  "intro": "Hva en forretningsmodell er, de ni byggeklossene i forretningsmodellkanvaset, vanlige typer forretningsmodeller som abonnement, plattform og gratisversjon med betalte tillegg – og hvordan du vurderer en forretningsmodell opp mot bærekraftig utvikling.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Hva er en forretningsmodell?\n\nEn **forretningsmodell** beskriver hvordan en virksomhet **skaper**, **leverer** og **tar betalt** for verdi. Den svarer på spørsmål som: Hvem er kundene? Hva tilbyr vi dem? Hvordan tjener vi penger? Hva koster det?\n\n## Forretningsmodellkanvaset\n\n**Forretningsmodellkanvaset**, utviklet av **Alexander Osterwalder**, samler forretningsmodellen på **ett ark** med ni byggeklosser:\n\n**Kundesiden**\n\n1. **Kundesegmenter** – hvem vi skaper verdi for\n2. **Verdiforslag** – hvilket problem vi løser, og hvorfor kundene skal velge oss\n3. **Kanaler** – hvordan vi når og leverer til kundene\n4. **Kunderelasjoner** – hvordan vi får og beholder kunder\n5. **Inntektsstrømmer** – hvordan og hvor mye kundene betaler\n\n**Driftssiden**\n\n6. **Nøkkelressurser** – det viktigste vi trenger, som kompetanse, utstyr og penger\n7. **Nøkkelaktiviteter** – det viktigste vi må gjøre\n8. **Nøkkelpartnere** – leverandører og samarbeidspartnere\n9. **Kostnadsstruktur** – de viktigste kostnadene\n\nKanvaset gjør det lett å **se sammenhengene** og å **endre** modellen når man lærer noe nytt.\n\n## Vanlige forretningsmodeller\n\n- **Salg**: kunden betaler én gang for en vare.\n- **Abonnement**: kunden betaler **fast** per måned eller år, som for strømmetjenester.\n- **Gratis grunnversjon**: basisversjonen er gratis, men kunden betaler for **ekstrafunksjoner**.\n- **Plattform** eller **markedsplass**: virksomheten kobler **kjøpere** og **selgere** og tar et gebyr per handel.\n- **Annonsefinansiering**: tjenesten er gratis for brukerne, mens **annonsører** betaler.\n- **Utleie og deling**: kunden betaler for **bruk**, ikke eierskap, som ved bildeling.\n- **Sirkulær modell**: virksomheten tjener penger på **reparasjon**, **bruktsalg** eller **gjenvinning**.\n\n## Eksempel\n\nEn elevbedrift vil leie ut **friluftsutstyr** til unge:\n\n- **Kundesegment**: ungdom og studenter som ikke vil kjøpe dyrt utstyr\n- **Verdiforslag**: rimelig tilgang til godt utstyr uten å eie\n- **Kanaler**: nettside og henting på skolen\n- **Inntekter**: leie per helg\n- **Nøkkelressurser**: utstyr, lager og bookingsystem\n- **Kostnader**: innkjøp, vedlikehold og forsikring\n\n## Vurdering opp mot bærekraft\n\nEn forretningsmodell kan vurderes ut fra de tre **bærekraftsdimensjonene**:\n\n- **Økonomisk**: Er modellen **lønnsom** over tid? Dekker inntektene kostnadene?\n- **Miljø**: Hvor mye **ressurser** og **utslipp** gir modellen? Oppmuntrer den til **mer** eller **mindre** forbruk?\n- **Sosial**: Hvordan påvirker den **ansatte**, **kunder** og **lokalsamfunn**? Er arbeidsforholdene i leverandørkjeden gode?\n\nUtleiemodellen i eksempelet kan være **miljøvennlig** fordi mange deler på samme utstyr. Men den er bare **bærekraftig** hvis den også er **lønnsom** – ellers overlever den ikke.\n\nMange bruker **FNs bærekraftsmål** for å vise hvilke samfunnsutfordringer virksomheten bidrar til å løse. Det er viktig å være **ærlig** og **konkret**, slik at det ikke blir **grønnvasking**.\n\n## Dilemmaer\n\n- En **billig** forretningsmodell kan bygge på lave lønninger eller mye transport.\n- Modeller med **gratis** tjenester kan bygge på innsamling av **persondata**.\n- **Abonnement** kan gjøre det vanskelig for kundene å avslutte.\n\nEn god gründer tenker gjennom slike **konsekvenser** allerede når forretningsmodellen lages.",
+  "flashcards": [
+    { "term": "Forretningsmodell", "def": "Hvordan en virksomhet skaper, leverer og tar betalt for verdi." },
+    { "term": "Forretningsmodellkanvas", "def": "Osterwalders modell med ni byggeklosser på ett ark." },
+    { "term": "Kundesegmenter", "def": "Hvem virksomheten skaper verdi for." },
+    { "term": "Verdiforslag", "def": "Hvilket problem man løser, og hvorfor kundene skal velge en." },
+    { "term": "Kanaler", "def": "Hvordan man når og leverer til kundene." },
+    { "term": "Inntektsstrømmer", "def": "Hvordan og hvor mye kundene betaler." },
+    { "term": "Nøkkelressurser", "def": "Det viktigste virksomheten trenger, som kompetanse og utstyr." },
+    { "term": "Nøkkelpartnere", "def": "Leverandører og samarbeidspartnere." },
+    { "term": "Kostnadsstruktur", "def": "De viktigste kostnadene i virksomheten." },
+    { "term": "Abonnementsmodell", "def": "Kunden betaler fast per måned eller år." },
+    { "term": "Gratis grunnversjon", "def": "Basis er gratis, ekstrafunksjoner koster." },
+    { "term": "Plattformmodell", "def": "Kobler kjøpere og selgere og tar gebyr per handel." },
+    { "term": "Annonsefinansiering", "def": "Gratis for brukerne, annonsører betaler." },
+    { "term": "Utleie og deling", "def": "Kunden betaler for bruk, ikke eierskap." },
+    { "term": "Sirkulær forretningsmodell", "def": "Inntekter fra reparasjon, bruktsalg eller gjenvinning." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva beskriver en forretningsmodell?", "options": ["Bare logoen", "Hvordan en virksomhet skaper, leverer og tar betalt for verdi", "Bare regnskapet", "Bare de ansatte"], "correct": 1, "explain": "Kunder, tilbud, inntekter og kostnader." },
+    { "id": "q02", "text": "Hvem utviklet forretningsmodellkanvaset?", "options": ["Alexander Osterwalder", "Michael Porter", "Abraham Maslow", "Adam Smith"], "correct": 0, "explain": "Ni byggeklosser på ett ark." },
+    { "id": "q03", "text": "Hva er et verdiforslag?", "options": ["Prisen på produktet", "Budsjettet", "Hvilket problem man løser, og hvorfor kundene skal velge en", "Antall ansatte"], "correct": 2, "explain": "Kjernen i forretningsmodellen." },
+    { "id": "q04", "text": "Hvilken modell kobler kjøpere og selgere mot et gebyr?", "options": ["Abonnement", "Salg", "Utleie", "Plattform eller markedsplass"], "correct": 3, "explain": "For eksempel nettsteder for bruktsalg." },
+    { "id": "q05", "text": "Hva er en abonnementsmodell?", "options": ["Kunden betaler fast per måned eller år", "Kunden betaler én gang", "Tjenesten er gratis", "Annonsører betaler"], "correct": 0, "explain": "Som strømmetjenester." },
+    { "id": "q06", "text": "Hvilken byggekloss handler om leverandører og samarbeidspartnere?", "options": ["Kundesegmenter", "Nøkkelpartnere", "Kanaler", "Inntektsstrømmer"], "correct": 1, "explain": "På driftssiden." },
+    { "id": "q07", "text": "Hvorfor kan en utleiemodell være miljøvennlig?", "options": ["Den gir mer transport", "Den er alltid gratis", "Mange deler på samme utstyr", "Den krever ingen ressurser"], "correct": 2, "explain": "Mindre behov for nye produkter." },
+    { "id": "q08", "text": "Hva betyr økonomisk bærekraft for en forretningsmodell?", "options": ["At den gir mest utslipp", "At den er gratis", "At den ikke har kostnader", "At den er lønnsom over tid"], "correct": 3, "explain": "Ellers overlever den ikke." },
+    { "id": "q09", "text": "Hvilket etisk dilemma kan gratis tjenester ha?", "options": ["De kan bygge på innsamling av persondata", "De er alltid dyre", "De har ingen brukere", "De er ulovlige"], "correct": 0, "explain": "Brukeren betaler med data." },
+    { "id": "q10", "text": "Hva er en fordel med forretningsmodellkanvaset?", "options": ["Det erstatter regnskapet", "Det gjør det lett å se sammenhengene og endre modellen", "Det gir patent", "Det registrerer selskapet"], "correct": 1, "explain": "Alt på ett ark." }
+  ],
+  "mindmap": {
+    "label": "Forretningsmodeller",
+    "children": [
+      { "label": "Kundesiden", "children": [
+        { "label": "Segmenter og verdiforslag" },
+        { "label": "Kanaler og relasjoner" },
+        { "label": "Inntekter" }
+      ] },
+      { "label": "Driftssiden", "children": [
+        { "label": "Ressurser og aktiviteter" },
+        { "label": "Partnere" },
+        { "label": "Kostnader" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Salg og abonnement" },
+        { "label": "Gratis grunnversjon" },
+        { "label": "Plattform og annonser" },
+        { "label": "Utleie og sirkulær" }
+      ] },
+      { "label": "Bærekraft", "children": [
+        { "label": "Økonomisk" },
+        { "label": "Miljø" },
+        { "label": "Sosial" }
+      ] },
+      { "label": "Dilemmaer", "children": [
+        { "label": "Persondata" },
+        { "label": "Lave lønninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En miljøvennlig forretningsmodell må også være lønnsom for å være bærekraftig.", "correct": true, "explain": "Ellers overlever den ikke." },
+      { "id": "m02", "type": "sant-usant", "text": "Forretningsmodellkanvaset har fem byggeklosser.", "correct": false, "explain": "Det har ni." },
+      { "id": "m03", "type": "sant-usant", "text": "En annonsefinansiert tjeneste kan være gratis for brukerne.", "correct": true, "explain": "Annonsørene betaler." },
+      { "id": "m04", "type": "sant-usant", "text": "Å bruke FNs bærekraftsmål i markedsføringen er alltid troverdig, uansett hva virksomheten gjør.", "correct": false, "explain": "Det må være ærlig og konkret, ellers blir det grønnvasking." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken byggekloss beskriver hvordan virksomheten når kundene?", "options": ["Kostnadsstruktur", "Kanaler", "Nøkkelressurser", "Nøkkelpartnere"], "correct": 1, "explain": "For eksempel nettside og butikk." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en sirkulær forretningsmodell?", "options": ["Inntekter fra reparasjon, bruktsalg eller gjenvinning", "Salg av engangsprodukter", "Annonser", "Lån fra banken"], "correct": 0, "explain": "Ressurser holdes i bruk." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et mulig problem med abonnement for kundene?", "options": ["De får for mye", "De betaler for lite", "Det kan være vanskelig å avslutte", "Det er ulovlig"], "correct": 2, "explain": "Et etisk dilemma." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

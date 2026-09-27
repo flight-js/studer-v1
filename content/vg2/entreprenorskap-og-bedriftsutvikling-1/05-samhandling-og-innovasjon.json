@@ -1,0 +1,80 @@
+{
+  "id": "samhandling-og-innovasjon",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Samhandling, nettverk og innovasjon",
+  "intro": "Hvordan samarbeid og samhandling påvirker innovasjon: mangfold i team, nettverk, åpen innovasjon, samarbeid med kunder og leverandører, klynger, gründermiljøer og samspillet mellom næringsliv, forskning og det offentlige.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Innovasjon skjer sjelden alene\n\nMyten om det **ensomme geniet** stemmer dårlig. De fleste innovasjoner skjer når mennesker med ulik **kunnskap** og ulike **perspektiver** møtes og deler ideer. **Samhandling** betyr at personer, virksomheter og organisasjoner **påvirker** hverandre gjennom samarbeid, kommunikasjon og konkurranse.\n\n## Samhandling i teamet\n\n- **Mangfold** i utdanning, erfaring, kjønn og kultur gir **flere perspektiver** og ofte mer kreative løsninger.\n- **Psykologisk trygghet** – at det er trygt å si ifra, spørre og ta feil – er viktig for at ideene kommer fram.\n- **God kommunikasjon** og tydelige **roller** hindrer misforståelser.\n- **Konflikter** kan være **nyttige** når de handler om saken, men skadelige når de blir **personlige**.\n\n## Nettverk\n\nEt **nettverk** er relasjonene en gründer har til andre: familie, venner, tidligere kolleger, kunder, mentorer og investorer. Nettverket kan gi\n\n- **kunnskap** og **råd**\n- tilgang til **kunder** og **leverandører**\n- **finansiering**\n- **samarbeidspartnere**\n\n**Svake bånd** – bekjente man ikke kjenner så godt – gir ofte **ny** informasjon, fordi de beveger seg i andre miljøer enn en selv.\n\n## Åpen innovasjon\n\n**Åpen innovasjon** betyr at virksomheten henter ideer og kunnskap **utenfra** – og deler egne ideer med andre. Eksempler er\n\n- **kunder** som tester produkter og kommer med forslag\n- **leverandører** som utvikler nye løsninger sammen med virksomheten\n- samarbeid med **universiteter** og **forskningsinstitutter**\n- **konkurranser** der hvem som helst kan sende inn løsninger\n\n**Brukermedvirkning** betyr at brukerne er med i utviklingen fra starten. Det øker sjansen for at produktet dekker **reelle behov**.\n\n## Klynger og gründermiljøer\n\n- En **klynge** er en samling virksomheter i samme **bransje** og **område** som både samarbeider og konkurrerer. Nærheten gir tilgang til **kompetent arbeidskraft**, **leverandører** og **kunnskap**. Norge har for eksempel sterke miljøer innen **havbruk**, **maritim næring** og **energi**.\n- **Inkubatorer** hjelper nye virksomheter med kontorplass, veiledning og nettverk.\n- **Akseleratorer** gir intensive programmer for å få virksomheter raskt i vekst.\n- **Mentorer** er erfarne personer som gir råd til gründere.\n\n## Næringsliv, forskning og det offentlige\n\nMye innovasjon skjer i samspillet mellom **næringslivet**, **forsknings- og utdanningsinstitusjoner** og **det offentlige**. Det offentlige kan bidra med **finansiering**, **regler** og **innkjøp** av nye løsninger, mens forskningen bidrar med **ny kunnskap**.\n\n## Samhandling i skolen\n\nGjennom **elevbedrift** får elever erfaring med å samarbeide i team, møte kunder og få råd fra **mentorer** i næringslivet. Organisasjonen **Ungt Entreprenørskap** tilbyr slike programmer.\n\n## Utfordringer\n\nSamarbeid kan også gi **utfordringer**: uenighet om **eierskap** til ideer, **ulike mål**, lekkasje av **forretningshemmeligheter** og **ujevn** arbeidsfordeling. Tydelige **avtaler** og gjensidig **tillit** gjør samarbeidet lettere.",
+  "flashcards": [
+    { "term": "Samhandling", "def": "At personer og virksomheter påvirker hverandre gjennom samarbeid og kommunikasjon." },
+    { "term": "Mangfold i team", "def": "Ulik bakgrunn og kompetanse som gir flere perspektiver." },
+    { "term": "Psykologisk trygghet", "def": "At det er trygt å si ifra, spørre og ta feil." },
+    { "term": "Nettverk", "def": "Relasjoner som kan gi kunnskap, kunder, finansiering og partnere." },
+    { "term": "Svake bånd", "def": "Bekjente som ofte gir ny informasjon." },
+    { "term": "Åpen innovasjon", "def": "Å hente ideer utenfra og dele egne ideer med andre." },
+    { "term": "Brukermedvirkning", "def": "Brukerne er med i utviklingen fra starten." },
+    { "term": "Klynge", "def": "Virksomheter i samme bransje og område som samarbeider og konkurrerer." },
+    { "term": "Inkubator", "def": "Hjelper nye virksomheter med kontorplass, veiledning og nettverk." },
+    { "term": "Akselerator", "def": "Intensivt program for rask vekst." },
+    { "term": "Mentor", "def": "Erfaren person som gir råd til gründere." },
+    { "term": "Elevbedrift", "def": "Bedrift som elever driver som en del av undervisningen." },
+    { "term": "Ungt Entreprenørskap", "def": "Organisasjon som tilbyr entreprenørskapsprogrammer i skolen." },
+    { "term": "Forretningshemmelighet", "def": "Fortrolig informasjon som gir et konkurransefortrinn." },
+    { "term": "Saklig konflikt", "def": "Uenighet om saken som kan gi bedre løsninger." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvorfor gir mangfold i team ofte mer innovasjon?", "options": ["Fordi alle er enige", "Fordi ulike perspektiver gir flere ideer", "Fordi det går raskere", "Fordi det er billigere"], "correct": 1, "explain": "Ulik kunnskap møtes." },
+    { "id": "q02", "text": "Hva er psykologisk trygghet?", "options": ["At det er trygt å si ifra, spørre og ta feil", "At kontoret er trygt", "At man har forsikring", "At lederen bestemmer alt"], "correct": 0, "explain": "Viktig for at ideer kommer fram." },
+    { "id": "q03", "text": "Hva er åpen innovasjon?", "options": ["At alle ideer holdes hemmelige", "At kontoret er åpent", "Å hente ideer utenfra og dele egne", "Å bare jobbe alene"], "correct": 2, "explain": "Kunder, leverandører og forskere bidrar." },
+    { "id": "q04", "text": "Hva er en klynge?", "options": ["Et selskap med mange avdelinger", "En type lån", "En gruppe venner", "Virksomheter i samme bransje og område som samarbeider og konkurrerer"], "correct": 3, "explain": "Nærheten gir kunnskap og arbeidskraft." },
+    { "id": "q05", "text": "Hva gjør en inkubator?", "options": ["Hjelper nye virksomheter med kontorplass, veiledning og nettverk", "Gir banklån", "Kontrollerer regnskap", "Registrerer patenter"], "correct": 0, "explain": "Et gründermiljø." },
+    { "id": "q06", "text": "Hvorfor gir svake bånd ofte ny informasjon?", "options": ["Fordi de kjenner deg godt", "Fordi de beveger seg i andre miljøer enn deg", "Fordi de alltid er eksperter", "Fordi de er familie"], "correct": 1, "explain": "Nær familie vet ofte det samme som deg." },
+    { "id": "q07", "text": "Hva er brukermedvirkning?", "options": ["At brukerne betaler mer", "At brukerne ikke blir spurt", "At brukerne er med i utviklingen fra starten", "At brukerne eier virksomheten"], "correct": 2, "explain": "Øker sjansen for at produktet dekker reelle behov." },
+    { "id": "q08", "text": "Hva kan det offentlige bidra med i innovasjon?", "options": ["Bare skatt", "Ingenting", "Bare forbud", "Finansiering, regler og innkjøp av nye løsninger"], "correct": 3, "explain": "Samspill med næringsliv og forskning." },
+    { "id": "q09", "text": "Når kan konflikter i et team være nyttige?", "options": ["Når de handler om saken", "Når de blir personlige", "Når ingen snakker sammen", "Aldri"], "correct": 0, "explain": "Saklig uenighet kan gi bedre løsninger." },
+    { "id": "q10", "text": "Hva kan gjøre samarbeid lettere?", "options": ["Hemmelige planer", "Tydelige avtaler og gjensidig tillit", "At én person gjør alt", "Ingen kommunikasjon"], "correct": 1, "explain": "Hindrer konflikter om eierskap og arbeidsfordeling." }
+  ],
+  "mindmap": {
+    "label": "Samhandling og innovasjon",
+    "children": [
+      { "label": "Team", "children": [
+        { "label": "Mangfold" },
+        { "label": "Psykologisk trygghet" },
+        { "label": "Konflikter" }
+      ] },
+      { "label": "Nettverk", "children": [
+        { "label": "Kunnskap og kunder" },
+        { "label": "Svake bånd" }
+      ] },
+      { "label": "Åpen innovasjon", "children": [
+        { "label": "Kunder og leverandører" },
+        { "label": "Forskning" },
+        { "label": "Brukermedvirkning" }
+      ] },
+      { "label": "Miljøer", "children": [
+        { "label": "Klynger" },
+        { "label": "Inkubatorer og akseleratorer" },
+        { "label": "Mentorer" }
+      ] },
+      { "label": "Utfordringer", "children": [
+        { "label": "Eierskap" },
+        { "label": "Tillit og avtaler" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste innovasjoner skjer gjennom samarbeid mellom mennesker med ulik kunnskap.", "correct": true, "explain": "Myten om det ensomme geniet stemmer dårlig." },
+      { "id": "m02", "type": "sant-usant", "text": "Åpen innovasjon betyr at virksomheten aldri samarbeider med andre.", "correct": false, "explain": "Det betyr å hente ideer utenfra." },
+      { "id": "m03", "type": "sant-usant", "text": "Elevbedrift gir erfaring med samarbeid og kundekontakt.", "correct": true, "explain": "Ofte med mentorer fra næringslivet." },
+      { "id": "m04", "type": "sant-usant", "text": "Samarbeid kan aldri gi problemer med eierskap til ideer.", "correct": false, "explain": "Derfor trengs tydelige avtaler." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en akselerator?", "options": ["En bil", "Et intensivt program for rask vekst", "Et lån", "Et patent"], "correct": 1, "explain": "For virksomheter som vil vokse raskt." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan et nettverk gi en gründer?", "options": ["Kunnskap, kunder og finansiering", "Bare problemer", "Bare skatt", "Ingenting"], "correct": 0, "explain": "Også samarbeidspartnere." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en mentor?", "options": ["En investor som eier alt", "En konkurrent", "En erfaren person som gir råd", "En kunde"], "correct": 2, "explain": "Deler erfaring med gründere." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

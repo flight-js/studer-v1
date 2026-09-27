@@ -1,0 +1,81 @@
+{
+  "id": "ledelse-og-team",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Ledelse og team i etableringsfasen",
+  "intro": "Hva som kjennetegner en god leder i etableringsfasen, ledelsesstiler, samspillet mellom leder og medarbeidere, teamets utviklingsfaser, Belbins teamroller og hvordan man setter sammen et godt team.",
+  "kompetansemaal": [10],
+  "sammendrag": "## Å lede en ny virksomhet\n\nI **etableringsfasen** er lederen ofte **gründeren** selv. Hen må gjøre **mange** ting samtidig: utvikle produktet, selge, skaffe penger, ansette folk og holde oversikt over økonomien. Det krever **energi**, **fleksibilitet** og evne til å ta **beslutninger** med lite informasjon.\n\n## Hva kjennetegner en god leder?\n\n- har en tydelig **visjon** og kan **kommunisere** den\n- **lytter** og tar innspill på alvor\n- bygger **tillit** og er **ærlig**\n- **gjennomfører** – får ting gjort\n- tåler **usikkerhet** og **motgang**\n- kan **delegere** og gi andre ansvar\n- forstår andres **følelser** og reaksjoner\n\nEn vanlig utfordring er at gründeren vil **kontrollere alt**. Når virksomheten vokser, må hen lære å **slippe taket** og stole på teamet.\n\n## Ledelsesstiler\n\n- **Autoritær**: lederen bestemmer selv. Raskt, men kan gi lite engasjement.\n- **Demokratisk**: lederen involverer medarbeiderne. Gir eierskap og bedre ideer, men tar tid.\n- **La det skure**: lite styring. Kan fungere for svært selvstendige medarbeidere.\n- **Situasjonsbestemt**: lederen tilpasser stilen etter **oppgaven** og **medarbeideren**.\n- **Inspirerende** ledelse – ofte kalt transformasjonsledelse – motiverer gjennom **visjon**, **mening** og personlig **oppfølging**.\n\n## Samspill mellom leder og medarbeidere\n\nGodt samspill bygger på\n\n- **klar kommunikasjon** om mål og forventninger\n- jevnlige **tilbakemeldinger** begge veier\n- **medvirkning** i beslutninger\n- **psykologisk trygghet** – at det er trygt å si ifra og ta feil\n- **motivasjon** gjennom **selvstendighet**, **mestring** og **mening** i arbeidet\n\n## Teamets utviklingsfaser\n\n**Bruce Tuckman** beskrev fem faser:\n\n1. **Etablering** – teamet blir kjent og er høflig og forsiktig.\n2. **Konflikt** – uenigheter om roller og arbeidsmåter kommer fram.\n3. **Normering** – teamet blir enige om **regler** og **roller**.\n4. **Utførelse** – teamet samarbeider godt og **presterer**.\n5. **Avslutning** – prosjektet er ferdig, og teamet oppløses.\n\nKonfliktfasen er **normal** og kan gjøre teamet sterkere hvis den håndteres godt.\n\n## Teamroller\n\n**Meredith Belbin** fant at gode team har personer som fyller ulike **roller**, for eksempel\n\n- **idéskaperen** – kreativ og full av ideer\n- **pådriveren** – presser på og holder tempoet oppe\n- **koordinatoren** – fordeler oppgaver og samler teamet\n- **analytikeren** – vurderer ideer kritisk\n- **lagspilleren** – skaper godt samarbeid\n- **iverksetteren** – gjør planer om til handling\n- **fullføreren** – passer på detaljer og frister\n\nEt team med **bare** idéskapere får sjelden noe gjort, og et team med **bare** analytikere kommer kanskje aldri i gang.\n\n## Å sette sammen et godt team\n\n- **Utfyllende kompetanse**: For eksempel én som kan økonomi, én som kan salg og én som kan teknologi eller design.\n- **Felles mål og verdier**: Alle må trekke i samme retning.\n- **Ulike personligheter** og **roller**.\n- **Tydelige avtaler** om ansvar, arbeidstid og **eierskap** – helst skriftlig.\n\nMange investorer sier at de satser på **teamet** like mye som på **ideen**.",
+  "flashcards": [
+    { "term": "Etableringsfasen", "def": "Perioden da virksomheten startes og bygges opp." },
+    { "term": "Delegering", "def": "Å gi andre ansvar og myndighet." },
+    { "term": "Autoritær ledelse", "def": "Lederen bestemmer selv." },
+    { "term": "Demokratisk ledelse", "def": "Lederen involverer medarbeiderne." },
+    { "term": "Situasjonsbestemt ledelse", "def": "Stilen tilpasses oppgaven og medarbeideren." },
+    { "term": "Inspirerende ledelse", "def": "Motiverer gjennom visjon, mening og personlig oppfølging." },
+    { "term": "Psykologisk trygghet", "def": "At det er trygt å si ifra og ta feil." },
+    { "term": "Tuckmans faser", "def": "Etablering, konflikt, normering, utførelse og avslutning." },
+    { "term": "Konfliktfasen", "def": "Uenigheter om roller og arbeidsmåter – normalt i et team." },
+    { "term": "Belbins teamroller", "def": "Ulike roller som et godt team trenger." },
+    { "term": "Idéskaper", "def": "Kreativ teamrolle full av ideer." },
+    { "term": "Pådriver", "def": "Teamrolle som presser på og holder tempoet oppe." },
+    { "term": "Fullfører", "def": "Teamrolle som passer på detaljer og frister." },
+    { "term": "Utfyllende kompetanse", "def": "Teammedlemmer som kan ulike ting." },
+    { "term": "Motivasjon i arbeidet", "def": "Selvstendighet, mestring og mening." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en vanlig utfordring for gründere som ledere?", "options": ["At de delegerer for mye", "At de vil kontrollere alt", "At de har for mye tid", "At de har for mange ansatte"], "correct": 1, "explain": "De må lære å stole på teamet." },
+    { "id": "q02", "text": "Hvilken ledelsesstil involverer medarbeiderne i beslutninger?", "options": ["Demokratisk", "Autoritær", "La det skure", "Enevelde"], "correct": 0, "explain": "Gir eierskap." },
+    { "id": "q03", "text": "Hvilken fase i Tuckmans modell kjennetegnes av uenigheter?", "options": ["Etablering", "Utførelse", "Konflikt", "Avslutning"], "correct": 2, "explain": "Normalt og kan gjøre teamet sterkere." },
+    { "id": "q04", "text": "Hva skjer i normeringsfasen?", "options": ["Teamet oppløses", "Teamet blir kjent", "Teamet presterer best", "Teamet blir enige om regler og roller"], "correct": 3, "explain": "Kommer etter konfliktfasen." },
+    { "id": "q05", "text": "Hvilken teamrolle passer på detaljer og frister?", "options": ["Fullføreren", "Idéskaperen", "Pådriveren", "Lagspilleren"], "correct": 0, "explain": "Viktig for å bli ferdig." },
+    { "id": "q06", "text": "Hvorfor fungerer et team med bare idéskapere dårlig?", "options": ["De er for rolige", "De får sjelden noe gjort", "De er for kritiske", "De er for få"], "correct": 1, "explain": "Teamet trenger ulike roller." },
+    { "id": "q07", "text": "Hva er utfyllende kompetanse i et team?", "options": ["At alle kan det samme", "At alle er like gamle", "At teammedlemmene kan ulike ting", "At lederen kan alt"], "correct": 2, "explain": "For eksempel økonomi, salg og teknologi." },
+    { "id": "q08", "text": "Hva gir motivasjon i arbeidet?", "options": ["Bare høy lønn", "Streng kontroll", "Lite informasjon", "Selvstendighet, mestring og mening"], "correct": 3, "explain": "Indre motivasjon." },
+    { "id": "q09", "text": "Hva betyr situasjonsbestemt ledelse?", "options": ["At lederen tilpasser stilen etter oppgaven og medarbeideren", "At lederen alltid bestemmer", "At lederen aldri styrer", "At lederen bytter jobb ofte"], "correct": 0, "explain": "En nyansatt trenger mer styring." },
+    { "id": "q10", "text": "Hvorfor bør teamet lage tydelige avtaler om eierskap?", "options": ["Fordi det er gøy", "For å unngå konflikter senere", "Fordi banken krever det alltid", "For å slippe å jobbe"], "correct": 1, "explain": "Helst skriftlig." }
+  ],
+  "mindmap": {
+    "label": "Ledelse og team",
+    "children": [
+      { "label": "God leder", "children": [
+        { "label": "Visjon og kommunikasjon" },
+        { "label": "Tillit og gjennomføring" },
+        { "label": "Delegering" }
+      ] },
+      { "label": "Ledelsesstiler", "children": [
+        { "label": "Autoritær og demokratisk" },
+        { "label": "Situasjonsbestemt" },
+        { "label": "Inspirerende" }
+      ] },
+      { "label": "Samspill", "children": [
+        { "label": "Tilbakemeldinger" },
+        { "label": "Psykologisk trygghet" },
+        { "label": "Motivasjon" }
+      ] },
+      { "label": "Teamutvikling", "children": [
+        { "label": "Tuckmans faser" },
+        { "label": "Belbins roller" }
+      ] },
+      { "label": "Godt team", "children": [
+        { "label": "Utfyllende kompetanse" },
+        { "label": "Felles mål" },
+        { "label": "Avtaler" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Mange investorer legger like stor vekt på teamet som på ideen.", "correct": true, "explain": "Et godt team kan gjennomføre." },
+      { "id": "m02", "type": "sant-usant", "text": "Konfliktfasen betyr alltid at teamet kommer til å mislykkes.", "correct": false, "explain": "Den er normal og kan gjøre teamet sterkere." },
+      { "id": "m03", "type": "sant-usant", "text": "I etableringsfasen må lederen ofte ta beslutninger med lite informasjon.", "correct": true, "explain": "Usikkerheten er stor." },
+      { "id": "m04", "type": "sant-usant", "text": "Et godt team består helst av personer med nøyaktig samme kompetanse.", "correct": false, "explain": "Utfyllende kompetanse er bedre." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken teamrolle presser på og holder tempoet oppe?", "options": ["Analytikeren", "Pådriveren", "Lagspilleren", "Fullføreren"], "correct": 1, "explain": "Driver arbeidet framover." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kjennetegner inspirerende ledelse?", "options": ["Motivasjon gjennom visjon, mening og personlig oppfølging", "Streng kontroll", "Ingen styring", "Bare belønning i penger"], "correct": 0, "explain": "Kalles også transformasjonsledelse." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken fase kommer først i Tuckmans modell?", "options": ["Utførelse", "Normering", "Etablering", "Konflikt"], "correct": 2, "explain": "Teamet blir kjent." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

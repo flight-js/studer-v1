@@ -1,0 +1,83 @@
+{
+  "id": "pris-budsjett-og-finansiering",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Pris, kapitalbehov, budsjett og finansiering",
+  "intro": "Hvordan en ny virksomhet beregner pris og kapitalbehov, setter opp resultatbudsjett og likviditetsbudsjett, og vurderer finansieringsmuligheter som egenkapital, lån, tilskudd og folkefinansiering ut fra risiko og ansvar.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Prisberegning\n\nPrisen må på sikt dekke **alle kostnader** og gi **overskudd**.\n\n- **Variable kostnader** øker med antall solgte enheter, som råvarer og emballasje.\n- **Faste kostnader** er de samme uansett salg, som husleie og forsikring.\n\n**Eksempel**: Variable kostnader er 60 kr per enhet, og faste kostnader er 20 000 kr. Virksomheten regner med å selge 1000 enheter.\n\n- Faste kostnader per enhet: 20 000 ÷ 1000 = 20 kr\n- **Selvkost** per enhet: 60 + 20 = 80 kr\n- Påslag 25 %: 80 · 1,25 = 100 kr uten merverdiavgift\n- Med 25 % merverdiavgift: 100 · 1,25 = **125 kr**\n\nPrisen må også vurderes opp mot hva **kundene** vil betale og hva **konkurrentene** tar.\n\n## Kapitalbehov\n\n**Kapitalbehovet** er hvor mye penger virksomheten trenger før den tjener nok selv:\n\n- **Anleggsmidler** – ting som skal brukes lenge, som utstyr, maskiner og PC\n- **Omløpsmidler** – varelager, penger til å vente på at kundene betaler, og en **likviditetsreserve**\n- **Etableringskostnader** – registrering, nettside og lanseringsmarkedsføring\n\nDet er lurt å legge inn en **buffer**, fordi det meste tar lengre tid og koster mer enn planlagt.\n\n## Budsjetter\n\n- **Etableringsbudsjettet** viser **kapitalbehovet** og hvordan det skal **finansieres**.\n- **Resultatbudsjettet** viser forventede **inntekter** og **kostnader** – og om virksomheten går med **overskudd** eller **underskudd**.\n- **Likviditetsbudsjettet** viser **innbetalinger** og **utbetalinger** måned for måned – og om virksomheten har **nok penger på konto** til enhver tid.\n\nEn virksomhet kan gå med overskudd og likevel gå **tom for penger**, for eksempel hvis kundene betaler **seint** eller den har kjøpt inn et stort **varelager**. Derfor er likviditetsbudsjettet svært viktig i oppstarten.\n\n## Finansiering\n\n**Egenkapital** – penger eierne skyter inn:\n\n- **egne sparepenger**\n- **familie og venner**\n- **investorer** som får **eierandeler** i bytte mot penger. Investorer tar risiko, men får også **innflytelse**.\n\n**Fremmedkapital** – lån som skal betales tilbake:\n\n- **banklån** med **renter** og **avdrag**. Banken krever ofte **sikkerhet** eller **personlig garanti**.\n- **leverandørkreditt** – å betale leverandøren etter en tid\n- **leasing** – å leie utstyr i stedet for å kjøpe\n\n**Tilskudd og andre kilder**:\n\n- **Innovasjon Norge** og kommunale **næringsfond** kan gi **tilskudd** og lån til gründere.\n- **Folkefinansiering**: mange privatpersoner bidrar med små beløp, ofte i bytte mot et **produkt**, en **belønning** eller en **eierandel**.\n\n## Risiko og ansvar\n\n- **Lån** må betales tilbake **uansett** hvordan det går.\n- **Egenkapital** fra investorer trenger ikke betales tilbake, men gründeren gir fra seg en del av **eierskapet**.\n- Med **personlig garanti** kan gründeren tape private eiendeler.\n- En sunn tommelfingerregel er å ikke risikere mer enn man **tåler å tape**.\n\nEn god **finansieringsplan** kombinerer ofte flere kilder og har en **reserve** for uforutsette utgifter.",
+  "flashcards": [
+    { "term": "Variable kostnader", "def": "Kostnader som øker med antall solgte enheter." },
+    { "term": "Faste kostnader", "def": "Kostnader som er de samme uansett salg." },
+    { "term": "Selvkost", "def": "Alle kostnader per enhet – variable pluss andel av faste." },
+    { "term": "Påslag", "def": "Prosent som legges på selvkost for å gi fortjeneste." },
+    { "term": "Kapitalbehov", "def": "Pengene virksomheten trenger før den tjener nok selv." },
+    { "term": "Anleggsmidler", "def": "Eiendeler som skal brukes lenge, som utstyr og maskiner." },
+    { "term": "Omløpsmidler", "def": "Varelager, kundefordringer og kontanter." },
+    { "term": "Likviditetsreserve", "def": "Buffer av penger for uforutsette utgifter." },
+    { "term": "Etableringsbudsjett", "def": "Viser kapitalbehov og finansiering." },
+    { "term": "Resultatbudsjett", "def": "Forventede inntekter og kostnader." },
+    { "term": "Likviditetsbudsjett", "def": "Innbetalinger og utbetalinger måned for måned." },
+    { "term": "Egenkapital", "def": "Penger eierne skyter inn." },
+    { "term": "Fremmedkapital", "def": "Lån som skal betales tilbake." },
+    { "term": "Leverandørkreditt", "def": "Å betale leverandøren etter en tid." },
+    { "term": "Folkefinansiering", "def": "Mange privatpersoner bidrar med små beløp." },
+    { "term": "Leasing", "def": "Å leie utstyr i stedet for å kjøpe." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Variable kostnader er 60 kr per enhet, og faste kostnader er 20 000 kr fordelt på 1000 enheter. Hva er selvkost per enhet?", "options": ["60 kr", "80 kr", "20 kr", "100 kr"], "correct": 1, "explain": "60 + 20 = 80 kr." },
+    { "id": "q02", "text": "Hva er en fast kostnad?", "options": ["Husleie", "Råvarer", "Emballasje", "Frakt per pakke"], "correct": 0, "explain": "Den er den samme uansett salg." },
+    { "id": "q03", "text": "Hva viser likviditetsbudsjettet?", "options": ["Bare overskuddet", "Bare eiendelene", "Innbetalinger og utbetalinger måned for måned", "Antall ansatte"], "correct": 2, "explain": "Om man har nok penger på konto." },
+    { "id": "q04", "text": "Hvordan kan en virksomhet gå med overskudd og likevel gå tom for penger?", "options": ["Det er umulig", "Fordi overskudd alltid er penger på konto", "Fordi den har for få kostnader", "Fordi kundene betaler seint eller den har bundet penger i varelager"], "correct": 3, "explain": "Resultat og likviditet er ikke det samme." },
+    { "id": "q05", "text": "Hva er fremmedkapital?", "options": ["Lån som skal betales tilbake", "Penger eierne skyter inn", "Tilskudd", "Overskudd"], "correct": 0, "explain": "For eksempel banklån." },
+    { "id": "q06", "text": "Hva får en investor vanligvis i bytte mot penger?", "options": ["Renter og avdrag", "En eierandel", "Ingenting", "Et tilskudd"], "correct": 1, "explain": "Og innflytelse." },
+    { "id": "q07", "text": "Hvilken aktør kan gi tilskudd til gründere?", "options": ["Forbrukertilsynet", "Arbeidstilsynet", "Innovasjon Norge", "Politiet"], "correct": 2, "explain": "Også kommunale næringsfond." },
+    { "id": "q08", "text": "Hva hører til anleggsmidlene?", "options": ["Varelager", "Kontanter", "Kundefordringer", "Utstyr og maskiner"], "correct": 3, "explain": "Eiendeler som skal brukes lenge." },
+    { "id": "q09", "text": "Hvorfor bør man legge inn en buffer i kapitalbehovet?", "options": ["Fordi det meste tar lengre tid og koster mer enn planlagt", "Fordi banken krever det alltid", "For å betale mindre skatt", "For å få flere kunder"], "correct": 0, "explain": "Likviditetsreserve." },
+    { "id": "q10", "text": "Hva er en risiko ved personlig garanti?", "options": ["Man får lavere rente", "Gründeren kan tape private eiendeler", "Man mister eierskap", "Ingen risiko"], "correct": 1, "explain": "Ansvaret blir personlig." }
+  ],
+  "mindmap": {
+    "label": "Pris, budsjett og finansiering",
+    "children": [
+      { "label": "Pris", "children": [
+        { "label": "Faste og variable kostnader" },
+        { "label": "Selvkost og påslag" },
+        { "label": "Merverdiavgift" }
+      ] },
+      { "label": "Kapitalbehov", "children": [
+        { "label": "Anleggsmidler" },
+        { "label": "Omløpsmidler" },
+        { "label": "Buffer" }
+      ] },
+      { "label": "Budsjetter", "children": [
+        { "label": "Etablering" },
+        { "label": "Resultat" },
+        { "label": "Likviditet" }
+      ] },
+      { "label": "Finansiering", "children": [
+        { "label": "Egenkapital og investorer" },
+        { "label": "Lån og kreditt" },
+        { "label": "Tilskudd og folkefinansiering" }
+      ] },
+      { "label": "Risiko", "children": [
+        { "label": "Lån må betales" },
+        { "label": "Personlig garanti" },
+        { "label": "Eierskap" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Et lån må betales tilbake uansett hvordan det går med virksomheten.", "correct": true, "explain": "Derfor er lån en risiko." },
+      { "id": "m02", "type": "sant-usant", "text": "Egenkapital fra investorer må betales tilbake med renter.", "correct": false, "explain": "Investorene får eierandeler i stedet." },
+      { "id": "m03", "type": "sant-usant", "text": "Leasing betyr å leie utstyr i stedet for å kjøpe det.", "correct": true, "explain": "Reduserer kapitalbehovet." },
+      { "id": "m04", "type": "sant-usant", "text": "Resultatbudsjettet viser når pengene kommer inn på konto.", "correct": false, "explain": "Det gjør likviditetsbudsjettet." },
+      { "id": "m05", "type": "flervalg", "text": "Selvkost er 80 kr og påslaget 25 %. Hva blir prisen uten merverdiavgift?", "options": ["85 kr", "100 kr", "105 kr", "125 kr"], "correct": 1, "explain": "80 · 1,25 = 100." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er folkefinansiering?", "options": ["Mange privatpersoner bidrar med små beløp", "Et banklån", "Et statlig tilskudd", "Leverandørkreditt"], "correct": 0, "explain": "Ofte i bytte mot produkt, belønning eller eierandel." },
+      { "id": "m07", "type": "flervalg", "text": "Hva viser etableringsbudsjettet?", "options": ["Lønn per måned", "Salget per dag", "Kapitalbehov og hvordan det finansieres", "Antall kunder"], "correct": 2, "explain": "Grunnlaget for finansieringsplanen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

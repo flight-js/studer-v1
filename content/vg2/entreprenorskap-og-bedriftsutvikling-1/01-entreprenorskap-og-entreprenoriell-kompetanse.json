@@ -1,0 +1,80 @@
+{
+  "id": "entreprenorskap-og-entreprenoriell-kompetanse",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Entreprenørskap og entreprenøriell kompetanse",
+  "intro": "Hva entreprenørskap er, ulike typer entreprenører, hva som kjennetegner entreprenøriell kompetanse og hvorfor den er viktig for virksomheter og samfunn – og hvordan du bruker kilder, teorier og modeller i faget.",
+  "kompetansemaal": [13, 1],
+  "sammendrag": "## Hva er entreprenørskap?\n\n**Entreprenørskap** er å **oppdage** eller **skape** en mulighet og gjøre den om til **verdi** – ofte ved å starte en ny virksomhet. En **entreprenør** eller **gründer** er en person som tar **initiativ**, samler **ressurser** og tar **risiko** for å realisere en idé.\n\nVerdien trenger ikke bare være **økonomisk**. Den kan også være **sosial**, **kulturell** eller **miljømessig**.\n\n## Typer entreprenørskap\n\n- **Kommersielt entreprenørskap**: å starte en virksomhet som skal gi **overskudd**.\n- **Sosialt entreprenørskap**: å løse et **samfunnsproblem**, for eksempel utenforskap eller matsvinn. Overskuddet brukes gjerne til å styrke formålet.\n- **Intraprenørskap**: entreprenørskap **inne i** en eksisterende virksomhet, når ansatte utvikler nye produkter eller løsninger.\n- **Kulturelt entreprenørskap**: å skape verdier innen kunst, musikk og kultur.\n\n## Hvorfor er entreprenørskap viktig?\n\nNye virksomheter skaper **arbeidsplasser**, **konkurranse** og **innovasjon**. Mange av dagens store selskaper startet som små ideer. Entreprenørskap er også viktig for å løse store **samfunnsutfordringer**, som klima og helse. Norge trenger nye næringer som kan erstatte inntektene fra **olje og gass** på sikt.\n\n## Entreprenøriell kompetanse\n\n**Entreprenøriell kompetanse** er kunnskap, ferdigheter og holdninger som gjør det mulig å skape verdi av ideer. Den omfatter blant annet\n\n- **kreativitet** – å se nye muligheter og løsninger\n- **initiativ** – å ta tak i ting og **handle**\n- **risikovilje** – å tåle **usikkerhet**\n- **utholdenhet** – å ikke gi opp ved motgang\n- **samarbeid** og **kommunikasjon** – å få med seg andre\n- **læring av feil** – å se feil som en naturlig del av utviklingen\n- **planlegging** og **økonomisk forståelse**\n\nEntreprenøriell kompetanse er ikke bare for gründere. Den er nyttig i **alle** yrker og i virksomheter som må **fornye** seg for å overleve.\n\n## To måter å tenke på\n\n- **Planleggingslogikk**: Gründeren starter med et **mål** og lager en detaljert **plan** for å nå det.\n- **Effektuering**: Gründeren starter med de **ressursene** hen har – kunnskap, nettverk og midler – og tester seg fram i små steg. Hen tar bare risiko hen **har råd til å tape**, og samarbeider med andre underveis.\n\nForskning tyder på at erfarne gründere ofte bruker **effektuering**, særlig når usikkerheten er stor.\n\n## Kilder, teorier og modeller\n\nI faget bruker du **modeller** som forretningsmodellkanvas, SWOT og markedsføringsmiksen for å analysere en idé. Modellene er **forenklinger** – de hjelper deg å **strukturere** tenkningen, men du må vurdere om de passer til situasjonen.\n\nNyttige **kilder** er\n\n- **Brønnøysundregistrene** – selskapsinformasjon og regnskap\n- **Altinn** – offentlige skjemaer for næringslivet\n- **Innovasjon Norge** – råd og finansiering til gründere\n- **SSB** – statistikk om markeder og befolkning\n- fagbøker, forskning og redaktørstyrte medier\n\nVær **kildekritisk** til suksesshistorier i sosiale medier. De viser sjelden alle som **ikke** lyktes.",
+  "flashcards": [
+    { "term": "Entreprenørskap", "def": "Å oppdage eller skape en mulighet og gjøre den om til verdi." },
+    { "term": "Entreprenør", "def": "Person som tar initiativ, samler ressurser og tar risiko for å realisere en idé." },
+    { "term": "Gründer", "def": "Person som starter en ny virksomhet." },
+    { "term": "Sosialt entreprenørskap", "def": "Å løse et samfunnsproblem gjennom en virksomhet." },
+    { "term": "Intraprenørskap", "def": "Entreprenørskap inne i en eksisterende virksomhet." },
+    { "term": "Entreprenøriell kompetanse", "def": "Kunnskap, ferdigheter og holdninger som gjør det mulig å skape verdi av ideer." },
+    { "term": "Risikovilje", "def": "Evnen til å tåle usikkerhet." },
+    { "term": "Utholdenhet", "def": "Å ikke gi opp ved motgang." },
+    { "term": "Læring av feil", "def": "Å se feil som en naturlig del av utviklingen." },
+    { "term": "Planleggingslogikk", "def": "Starte med et mål og lage en detaljert plan." },
+    { "term": "Effektuering", "def": "Starte med egne ressurser og teste seg fram i små steg." },
+    { "term": "Akseptabelt tap", "def": "Å bare ta risiko man har råd til å tape." },
+    { "term": "Brønnøysundregistrene", "def": "Offentlige registre med selskapsinformasjon og regnskap." },
+    { "term": "Innovasjon Norge", "def": "Statlig virkemiddelaktør som gir råd og finansiering til gründere." },
+    { "term": "Verdiskaping", "def": "Å skape økonomisk, sosial, kulturell eller miljømessig verdi." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er entreprenørskap?", "options": ["Å jobbe i offentlig sektor", "Å oppdage eller skape en mulighet og gjøre den om til verdi", "Å kjøpe aksjer", "Å lede et stort selskap"], "correct": 1, "explain": "Ofte ved å starte en ny virksomhet." },
+    { "id": "q02", "text": "Hva er intraprenørskap?", "options": ["Entreprenørskap inne i en eksisterende virksomhet", "Entreprenørskap i utlandet", "Å starte mange selskaper", "Å investere i andres selskaper"], "correct": 0, "explain": "Ansatte utvikler nye løsninger." },
+    { "id": "q03", "text": "Hva kjennetegner sosialt entreprenørskap?", "options": ["Bare mest mulig profitt", "Bare kunst og kultur", "Å løse et samfunnsproblem", "Å selge til andre bedrifter"], "correct": 2, "explain": "For eksempel utenforskap eller matsvinn." },
+    { "id": "q04", "text": "Hva hører til entreprenøriell kompetanse?", "options": ["Å unngå all risiko", "Å vente på andre", "Å gi opp raskt", "Kreativitet, initiativ og utholdenhet"], "correct": 3, "explain": "Også samarbeid og læring av feil." },
+    { "id": "q05", "text": "Hva er effektuering?", "options": ["Å starte med egne ressurser og teste seg fram i små steg", "Å lage en detaljert plan før man gjør noe", "Å låne mest mulig penger", "Å kopiere konkurrentene"], "correct": 0, "explain": "Vanlig blant erfarne gründere." },
+    { "id": "q06", "text": "Hvorfor er entreprenørskap viktig for samfunnet?", "options": ["Det gir færre arbeidsplasser", "Det skaper arbeidsplasser, konkurranse og innovasjon", "Det reduserer konkurransen", "Det er bare viktig for gründeren"], "correct": 1, "explain": "Nye næringer trengs på sikt." },
+    { "id": "q07", "text": "Hvor finner du informasjon om registrerte selskaper og regnskap?", "options": ["Hos NRK", "I sosiale medier", "Hos Brønnøysundregistrene", "Hos Arbeidstilsynet"], "correct": 2, "explain": "Offentlige registre." },
+    { "id": "q08", "text": "Hvorfor bør du være kritisk til suksesshistorier i sosiale medier?", "options": ["De er alltid løgn", "De er for korte", "De er ulovlige", "De viser sjelden alle som ikke lyktes"], "correct": 3, "explain": "Gir et skjevt bilde." },
+    { "id": "q09", "text": "Hva betyr prinsippet om akseptabelt tap?", "options": ["Å bare ta risiko man har råd til å tape", "Å tape så mye som mulig", "Å aldri tape", "Å låne penger for å dekke tap"], "correct": 0, "explain": "En del av effektuering." },
+    { "id": "q10", "text": "Er entreprenøriell kompetanse bare nyttig for gründere?", "options": ["Ja, bare for gründere", "Nei, den er nyttig i alle yrker og virksomheter", "Bare for ledere", "Bare for kunstnere"], "correct": 1, "explain": "Virksomheter må fornye seg." }
+  ],
+  "mindmap": {
+    "label": "Entreprenørskap",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Entreprenør og gründer" },
+        { "label": "Verdiskaping" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Kommersielt" },
+        { "label": "Sosialt" },
+        { "label": "Intraprenørskap" }
+      ] },
+      { "label": "Kompetanse", "children": [
+        { "label": "Kreativitet og initiativ" },
+        { "label": "Risikovilje og utholdenhet" },
+        { "label": "Læring av feil" }
+      ] },
+      { "label": "Tenkemåter", "children": [
+        { "label": "Planleggingslogikk" },
+        { "label": "Effektuering" }
+      ] },
+      { "label": "Kilder og modeller", "children": [
+        { "label": "Brønnøysund og Altinn" },
+        { "label": "Innovasjon Norge" },
+        { "label": "Kildekritikk" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Verdien en entreprenør skaper, kan være sosial eller miljømessig, ikke bare økonomisk.", "correct": true, "explain": "Verdiskaping har flere former." },
+      { "id": "m02", "type": "sant-usant", "text": "Gode gründere unngår all risiko.", "correct": false, "explain": "De tåler usikkerhet, men tar kontrollert risiko." },
+      { "id": "m03", "type": "sant-usant", "text": "Modeller i faget er forenklinger av virkeligheten.", "correct": true, "explain": "De hjelper oss å strukturere tenkningen." },
+      { "id": "m04", "type": "sant-usant", "text": "Feil er et tegn på at en gründer bør gi opp.", "correct": false, "explain": "Feil er en naturlig del av utviklingen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem gir råd og finansiering til gründere?", "options": ["Skatteetaten", "Innovasjon Norge", "Politiet", "Datatilsynet"], "correct": 1, "explain": "En statlig virkemiddelaktør." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på intraprenørskap?", "options": ["En ansatt utvikler et nytt produkt i bedriften", "En student starter egen bedrift", "En pensjonist kjøper aksjer", "En kommune bygger en skole"], "correct": 0, "explain": "Entreprenørskap inne i en virksomhet." },
+      { "id": "m07", "type": "flervalg", "text": "Hvorfor trenger Norge nye næringer på sikt?", "options": ["For å øke oljeinntektene", "For å få færre arbeidsplasser", "For å erstatte inntektene fra olje og gass", "For å redusere eksporten"], "correct": 2, "explain": "Omstilling av økonomien." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

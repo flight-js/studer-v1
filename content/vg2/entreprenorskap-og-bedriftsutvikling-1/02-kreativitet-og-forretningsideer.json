@@ -1,0 +1,80 @@
+{
+  "id": "kreativitet-og-forretningsideer",
+  "fagId": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Kreativitet og forretningsideer",
+  "intro": "Hva kreativitet er, den kreative prosessen, divergent og konvergent tenkning, teknikker som idémyldring, SCAMPER og idéskriving – hvor forretningsideer kommer fra, og hvordan du vurderer og velger en idé.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Hva er kreativitet?\n\n**Kreativitet** er evnen til å komme på **nye** og **nyttige** ideer. Kreativitet er ikke bare for kunstnere – den kan **trenes**, og den trives best i et miljø der det er **trygt** å komme med «dumme» forslag.\n\n## Den kreative prosessen\n\nEn klassisk modell beskriver fire faser:\n\n1. **Forberedelse** – du setter deg inn i problemet og samler informasjon.\n2. **Modning** – hjernen jobber videre **ubevisst** mens du gjør noe annet.\n3. **Innsikt** – plutselig dukker en idé opp, «**aha!**».\n4. **Vurdering** – du tester om ideen faktisk holder.\n\n## Divergent og konvergent tenkning\n\n- **Divergent tenkning** handler om å skape **mange** ideer. Her er det **kvantitet** som teller, og all kritikk venter.\n- **Konvergent tenkning** handler om å **vurdere**, **sortere** og **velge** de beste ideene.\n\nEn god idéprosess veksler mellom de to: først **åpne** opp, så **snevre** inn.\n\n## Kreativitetsteknikker\n\n- **Idémyldring**: Gruppen kommer med så mange ideer som mulig. Reglene er **ingen kritikk**, **mange ideer**, **ville ideer er velkomne** og **bygg videre** på andres ideer.\n- **Idéskriving**: Hver deltaker skriver ideer på papir og sender det videre, slik at alle bygger på hverandres forslag. Det gir plass også til dem som er **stille** i vanlig idémyldring.\n- **Omvendt idémyldring**: «Hvordan kan vi gjøre problemet **verre**?» Svarene snus deretter til løsninger.\n- **SCAMPER**: en sjekkliste for å endre et eksisterende produkt – **erstatte**, **kombinere**, **tilpasse**, **endre**, **bruke til noe annet**, **fjerne** og **snu om**.\n- **Tankekart**: Et problem skrives i midten, og assosiasjoner tegnes utover.\n- **Tilfeldig ord**: Et tilfeldig ord kobles til problemet for å tvinge fram nye assosiasjoner.\n\n## Hvor kommer forretningsideer fra?\n\n- **Problemer** og **irritasjoner** i hverdagen – «det må finnes en bedre måte!»\n- **Trender** i samfunnet, som bærekraft, helse og en eldre befolkning\n- **Ny teknologi**, som kunstig intelligens\n- **Egne interesser** og **kunnskap**\n- **Kundeønsker** og **hull i markedet**\n- **Ideer fra andre land** som ikke finnes her ennå\n\n## Fra idé til forretningsidé\n\nEn **idé** blir en **forretningsidé** når den beskriver\n\n- **hvilket behov** eller **problem** den løser\n- **hvem** kundene er\n- **hva** produktet er\n- **hvordan** den skiller seg fra konkurrentene\n\n## Vurdering av ideer\n\nNår du skal velge idé, kan du vurdere\n\n- **behov**: Vil noen faktisk betale for dette?\n- **marked**: Er det mange nok kunder?\n- **konkurranse**: Hvor mange tilbyr noe lignende?\n- **gjennomførbarhet**: Har vi kompetanse, tid og penger?\n- **lønnsomhet**: Kan vi tjene penger?\n- **bærekraft**: Er ideen god for mennesker og miljø?\n\nEn enkel **vurderingsmatrise** der hver idé får poeng på kriteriene, gjør valget mer **systematisk**. Snakk gjerne med **mulige kunder** tidlig – det er billigere å forkaste en idé før man har brukt mye penger på den.",
+  "flashcards": [
+    { "term": "Kreativitet", "def": "Evnen til å komme på nye og nyttige ideer." },
+    { "term": "Den kreative prosessen", "def": "Forberedelse, modning, innsikt og vurdering." },
+    { "term": "Modning", "def": "Hjernen jobber videre ubevisst med problemet." },
+    { "term": "Divergent tenkning", "def": "Å skape mange ideer uten kritikk." },
+    { "term": "Konvergent tenkning", "def": "Å vurdere, sortere og velge de beste ideene." },
+    { "term": "Idémyldring", "def": "Mange ideer, ingen kritikk, bygg videre på andres ideer." },
+    { "term": "Idéskriving", "def": "Ideer skrives på papir og sendes videre i gruppen." },
+    { "term": "Omvendt idémyldring", "def": "Å spørre hvordan problemet kan bli verre, og snu svarene." },
+    { "term": "SCAMPER", "def": "Sjekkliste for å endre et produkt: erstatte, kombinere, tilpasse og mer." },
+    { "term": "Tilfeldig ord", "def": "Teknikk som kobler et tilfeldig ord til problemet." },
+    { "term": "Hull i markedet", "def": "Et behov som ingen dekker i dag." },
+    { "term": "Forretningsidé", "def": "Behov, kunder, produkt og hvordan man skiller seg ut." },
+    { "term": "Gjennomførbarhet", "def": "Om man har kompetanse, tid og penger til å realisere ideen." },
+    { "term": "Vurderingsmatrise", "def": "Tabell der ideer får poeng på ulike kriterier." },
+    { "term": "Trend", "def": "Utviklingstrekk i samfunnet som kan gi nye muligheter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er divergent tenkning?", "options": ["Å velge den beste ideen", "Å skape mange ideer uten kritikk", "Å kritisere ideer", "Å lage budsjett"], "correct": 1, "explain": "Kvantitet teller." },
+    { "id": "q02", "text": "Hvilken regel gjelder i idémyldring?", "options": ["Ingen kritikk", "Bare realistiske ideer", "Lederen bestemmer", "Så få ideer som mulig"], "correct": 0, "explain": "Kritikken venter til senere." },
+    { "id": "q03", "text": "Hva er omvendt idémyldring?", "options": ["Å skrive ideer baklengs", "Å kritisere alle ideer", "Å spørre hvordan problemet kan bli verre, og snu svarene", "Å bare bruke gamle ideer"], "correct": 2, "explain": "Gir nye perspektiver." },
+    { "id": "q04", "text": "I hvilken fase av den kreative prosessen jobber hjernen ubevisst?", "options": ["Forberedelse", "Innsikt", "Vurdering", "Modning"], "correct": 3, "explain": "Derfor kommer gode ideer ofte i dusjen." },
+    { "id": "q05", "text": "Hva er SCAMPER?", "options": ["En sjekkliste for å endre et eksisterende produkt", "En type budsjett", "En selskapsform", "En markedsundersøkelse"], "correct": 0, "explain": "Erstatte, kombinere, tilpasse og mer." },
+    { "id": "q06", "text": "Hva er en fordel med idéskriving?", "options": ["Den går raskest", "Også stille deltakere får fram ideene sine", "Den krever ingen deltakere", "Den gir bare én idé"], "correct": 1, "explain": "Alle skriver." },
+    { "id": "q07", "text": "Hvilken kilde til forretningsideer er en trend?", "options": ["En irritasjon i hverdagen", "En hobby", "En eldre befolkning", "En venn"], "correct": 2, "explain": "Endringer i samfunnet gir nye behov." },
+    { "id": "q08", "text": "Hva må en forretningsidé beskrive?", "options": ["Bare navnet", "Bare prisen", "Bare logoen", "Behov, kunder, produkt og hvordan den skiller seg ut"], "correct": 3, "explain": "Grunnlaget for virksomheten." },
+    { "id": "q09", "text": "Hvorfor bør du snakke med mulige kunder tidlig?", "options": ["Det er billigere å forkaste en idé før man har brukt mye penger", "For å selge med en gang", "Fordi loven krever det", "For å skjule ideen"], "correct": 0, "explain": "Test behovet tidlig." },
+    { "id": "q10", "text": "Hva er konvergent tenkning?", "options": ["Å skape mange ideer", "Å vurdere, sortere og velge ideer", "Å tegne tankekart", "Å bruke tilfeldige ord"], "correct": 1, "explain": "Snevrer inn etter at man har åpnet opp." }
+  ],
+  "mindmap": {
+    "label": "Kreativitet og forretningsideer",
+    "children": [
+      { "label": "Kreativ prosess", "children": [
+        { "label": "Forberedelse og modning" },
+        { "label": "Innsikt og vurdering" }
+      ] },
+      { "label": "Tenkning", "children": [
+        { "label": "Divergent" },
+        { "label": "Konvergent" }
+      ] },
+      { "label": "Teknikker", "children": [
+        { "label": "Idémyldring og idéskriving" },
+        { "label": "Omvendt idémyldring" },
+        { "label": "SCAMPER" }
+      ] },
+      { "label": "Kilder til ideer", "children": [
+        { "label": "Problemer" },
+        { "label": "Trender og teknologi" },
+        { "label": "Interesser" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Behov og marked" },
+        { "label": "Gjennomførbarhet" },
+        { "label": "Lønnsomhet og bærekraft" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kreativitet kan trenes.", "correct": true, "explain": "Teknikker og et trygt miljø hjelper." },
+      { "id": "m02", "type": "sant-usant", "text": "I idémyldring bør man kritisere ideene med en gang.", "correct": false, "explain": "Kritikken venter til den konvergente fasen." },
+      { "id": "m03", "type": "sant-usant", "text": "Irritasjoner i hverdagen kan være en kilde til forretningsideer.", "correct": true, "explain": "«Det må finnes en bedre måte!»" },
+      { "id": "m04", "type": "sant-usant", "text": "En idé er alltid en god forretningsidé hvis den er original.", "correct": false, "explain": "Den må også dekke et behov og kunne gi inntekter." },
+      { "id": "m05", "type": "flervalg", "text": "Hva gjør en vurderingsmatrise?", "options": ["Lager nye ideer", "Gir ideer poeng på kriterier for å velge systematisk", "Regner ut skatt", "Registrerer selskapet"], "correct": 1, "explain": "Gjør valget mindre tilfeldig." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket kriterium handler om gjennomførbarhet?", "options": ["Om vi har kompetanse, tid og penger", "Om ideen er morsom", "Om konkurrentene liker den", "Om den er populær i sosiale medier"], "correct": 0, "explain": "Kan vi faktisk gjøre det?" },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr «kombinere» i SCAMPER?", "options": ["Å fjerne en del", "Å snu produktet", "Å sette sammen to produkter eller funksjoner", "Å endre prisen"], "correct": 2, "explain": "For eksempel en telefon med kamera." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

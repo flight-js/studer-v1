@@ -1,0 +1,77 @@
+{
+  "id": "entreprenorskap-og-bedriftsutvikling-1",
+  "trinnId": "vg2",
+  "name": "Entreprenørskap og bedriftsutvikling 1",
+  "lareplan": {
+    "kode": "ENT01-04",
+    "url": "https://www.udir.no/lk20/ent01-04/kompetansemaal-og-vurdering/kv885",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "bruke kilder, teorier og modeller i arbeid med faglige spørsmål, emner og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "utforske ulike kreativitetsprosesser og utvikle forretningsideer"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske og bruke ulike innovasjonsprosesser ved etablering av virksomheter"
+      },
+      {
+        "nr": 4,
+        "tekst": "utvikle forretningsmodeller og vurdere opp mot bærekraftig utvikling"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske og vurdere hvordan samhandling påvirker innovasjon og utvikling"
+      },
+      {
+        "nr": 6,
+        "tekst": "sammenligne og vurdere informasjon om markeder, kjøpsatferd og segmenter for å ta beslutninger"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjennomføre situasjonsanalyse, vurdere utviklingsmuligheter og sette mål i en oppstartsfase"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og bruke ulike konkurransemidler i en oppstartsfase"
+      },
+      {
+        "nr": 9,
+        "tekst": "vurdere og velge selskapsformer ut fra risiko og ansvar ved etablering"
+      },
+      {
+        "nr": 10,
+        "tekst": "reflektere over hva som kjennetegner en god leder i etableringsfasen, og hvordan leder og medarbeidere samhandler og setter sammen gode team"
+      },
+      {
+        "nr": 11,
+        "tekst": "beregne og vurdere pris og kapitalbehov, utarbeide budsjett og vurdere finansieringsmuligheter med tanke på risiko og ansvar for en ny virksomhet"
+      },
+      {
+        "nr": 12,
+        "tekst": "lese regnskap og nøkkeltall for å vurdere en virksomhets lønnsomhet"
+      },
+      {
+        "nr": 13,
+        "tekst": "reflektere over hva entreprenøriell kompetanse er, og vurdere hva det har å si for utvikling av virksomheter"
+      }
+    ]
+  },
+  "temaer": [
+    "entreprenorskap-og-entreprenoriell-kompetanse",
+    "kreativitet-og-forretningsideer",
+    "innovasjonsprosesser",
+    "forretningsmodeller-og-barekraft",
+    "samhandling-og-innovasjon",
+    "markeder-og-kjopsatferd",
+    "situasjonsanalyse-og-mal",
+    "konkurransemidler-i-oppstartsfasen",
+    "selskapsformer",
+    "ledelse-og-team",
+    "pris-budsjett-og-finansiering",
+    "regnskap-og-nokkeltall"
+  ]
+}
