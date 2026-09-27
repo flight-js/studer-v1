@@ -1,0 +1,82 @@
+{
+  "id": "makt-i-middelalder-og-enevelde",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Makt og statsdanning fra middelalder til enevelde",
+  "intro": "Føydalsamfunnet, kirkens og kongens makt i middelalderen, statsdanningen i Norge, Magna Carta og idéen om begrenset makt, og hvordan eneveldet samlet makten hos kongen – med søkelys på kontinuitet og endring i maktstrukturer og frihetsbetingelser.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Føydalsamfunnet\n\nEtter at Vest-Romerriket gikk i oppløsning på 400-tallet, var makten i Europa lenge **spredt**. I **føydalsamfunnet** ga kongen jord (**len**) til stormenn – **vasaller** – mot at de lovet **troskap** og militær hjelp. Vasallene ga igjen jord videre. Nederst sto **bøndene**, mange av dem **livegne** – bundet til jorda og underlagt godseieren.\n\nSamfunnet ble ofte beskrevet som tre **stender**: **de som ber** (geistligheten), **de som kjemper** (adelen) og **de som arbeider** (bøndene). Hver skulle holde seg på sin plass – en ordning som ble begrunnet med at den var **gudgitt**.\n\n## Kirken og kongen\n\n**Kirken** var middelalderens mektigste institusjon, med jord, skatteinntekter (**tienden**), skoler og egen rettsvesen. Mellom **paven** og **kongene** var det ofte strid om hvem som hadde høyest makt. I **investiturstriden** på 1000-tallet kjempet paven og den tysk-romerske keiseren om retten til å utnevne biskoper.\n\n## Statsdanning i Norge\n\n- Ifølge tradisjonen samlet **Harald Hårfagre** store deler av landet på slutten av **800-tallet**.\n- **Olav Haraldsson** (Olav den hellige) falt på **Stiklestad** i **1030** og ble helgen. Kristendommen styrket kongens makt – kongen styrte «av Guds nåde».\n- **Kongedømmet** ble etter hvert **arvelig**, og **Magnus Lagabøte** ga landet en felles **landslov** i **1274**.\n- Norge gikk inn i **Kalmarunionen** i 1397 og ble senere en del av **Danmark-Norge**. Med **reformasjonen** i 1536/1537 overtok kongen kirkens jord og makt.\n\n**Statsdanning** betyr at en sentral makt får kontroll over et **territorium** gjennom **skatt**, **lover**, **hær** og **embetsmenn**.\n\n## Magna Carta – begrenset makt\n\nI **1215** tvang engelske baroner kong Johan uten Land til å godta **Magna Carta**. Dokumentet slo fast at også **kongen** måtte følge loven, og at frie menn ikke kunne fengsles uten **lovlig dom**. Det gjaldt i praksis bare en liten elite, men ble senere et **symbol** på rettsstat og begrenset makt.\n\n## Eneveldet\n\nPå 1600-tallet samlet mange konger makten hos seg selv i **eneveldet**:\n\n- I Frankrike styrte **Ludvig 14.** (1643–1715) fra slottet i **Versailles**. Utsagnet «**Staten, det er meg**» er tillagt ham.\n- I **Danmark-Norge** ble eneveldet innført i **1660**, og **Kongeloven** fra **1665** ga kongen all makt – lovgivende, utøvende og dømmende.\n\nEneveldet ble begrunnet med at kongen hadde makten fra **Gud** (**kongens guddommelige rett**). Samtidig bygde eneveldige konger opp **effektive stater** med byråkrati, faste skatter og stående hærer.\n\n## Suverene stater\n\n**Den westfalske freden** i **1648**, som avsluttet trettiårskrigen, blir ofte regnet som starten på et system av **suverene stater**: Hver stat bestemmer selv innenfor sine grenser, og andre stater skal ikke blande seg inn.\n\n## Kontinuitet og endring\n\n- **Endring**: Makten gikk fra å være **spredt** blant stormenn og kirke til å bli **samlet** i staten.\n- **Kontinuitet**: Makt ble gjennom hele perioden begrunnet med **religion** og **tradisjon**, og de fleste hadde **liten frihet** til å påvirke styret.\n- **Frihetsbetingelser**: For bøndene betydde frihet først og fremst å være **fri fra livegenskap**. I Norge var mange bønder **selveiende** eller leilendinger uten livegenskap, noe som skilte Norge fra store deler av Europa.",
+  "flashcards": [
+    { "term": "Føydalisme", "def": "Jord (len) mot troskap og militær hjelp." },
+    { "term": "Vasall", "def": "Stormann som fikk len mot å love troskap." },
+    { "term": "Livegen", "def": "Bonde bundet til jorda og underlagt godseieren." },
+    { "term": "De tre stendene", "def": "De som ber, de som kjemper og de som arbeider." },
+    { "term": "Tienden", "def": "Skatt til kirken, en tidel av avlingen." },
+    { "term": "Investiturstriden", "def": "Strid på 1000-tallet mellom pave og keiser om utnevnelse av biskoper." },
+    { "term": "Stiklestad 1030", "def": "Olav Haraldsson falt og ble helgen." },
+    { "term": "Magnus Lagabøtes landslov", "def": "Felles lov for Norge fra 1274." },
+    { "term": "Statsdanning", "def": "En sentral makt får kontroll over et territorium." },
+    { "term": "Magna Carta", "def": "Dokument fra 1215 om at også kongen måtte følge loven." },
+    { "term": "Enevelde", "def": "All makt samlet hos kongen." },
+    { "term": "Kongeloven", "def": "Ga kongen i Danmark-Norge all makt (1665)." },
+    { "term": "Kongens guddommelige rett", "def": "Idéen om at kongen har makten fra Gud." },
+    { "term": "Den westfalske freden", "def": "1648 – start på systemet med suverene stater." },
+    { "term": "Reformasjonen i Danmark-Norge", "def": "1536/1537 – kongen overtok kirkens jord og makt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva var føydalisme?", "options": ["Et demokratisk system", "Et system der jord (len) ble gitt mot troskap og militær hjelp", "Et handelssystem", "En religion"], "correct": 1, "explain": "Kongen, vasaller og bønder." },
+    { "id": "q02", "text": "Hva slo Magna Carta fast i 1215?", "options": ["At også kongen måtte følge loven", "At alle fikk stemmerett", "At kirken skulle avskaffes", "At Norge ble selvstendig"], "correct": 0, "explain": "Et symbol på rettsstat." },
+    { "id": "q03", "text": "Når ble eneveldet innført i Danmark-Norge?", "options": ["1536", "1814", "1660", "1274"], "correct": 2, "explain": "Kongeloven kom i 1665." },
+    { "id": "q04", "text": "Hvordan ble eneveldet begrunnet?", "options": ["Med folkets vilje", "Med økonomisk vekst", "Med valg", "Med at kongen hadde makten fra Gud"], "correct": 3, "explain": "Kongens guddommelige rett." },
+    { "id": "q05", "text": "Hva blir den westfalske freden i 1648 ofte regnet som starten på?", "options": ["Et system av suverene stater", "Demokratiet", "Føydalismen", "Kalmarunionen"], "correct": 0, "explain": "Stater bestemmer innenfor egne grenser." },
+    { "id": "q06", "text": "Hva handlet investiturstriden om?", "options": ["Skatt på korn", "Retten til å utnevne biskoper", "Grensen mellom Norge og Sverige", "Handel med silke"], "correct": 1, "explain": "Strid mellom pave og keiser." },
+    { "id": "q07", "text": "Hva skjedde på Stiklestad i 1030?", "options": ["Norge fikk grunnlov", "Kalmarunionen startet", "Olav Haraldsson falt og ble senere helgen", "Magna Carta ble undertegnet"], "correct": 2, "explain": "Styrket kristendommen og kongemakten." },
+    { "id": "q08", "text": "Hva er statsdanning?", "options": ["Å lage et flagg", "Å bygge et slott", "Å skrive en bok", "At en sentral makt får kontroll over et territorium"], "correct": 3, "explain": "Gjennom skatt, lover, hær og embetsmenn." },
+    { "id": "q09", "text": "Hvilken endring i maktstrukturene skjedde fra middelalder til enevelde?", "options": ["Makten gikk fra å være spredt til å bli samlet i staten", "Makten ble spredt på flere", "Kirken fikk all makt", "Bøndene fikk makten"], "correct": 0, "explain": "Byråkrati, skatter og stående hærer." },
+    { "id": "q10", "text": "Hvilke tre stender beskrev middelaldersamfunnet?", "options": ["Konger, prester og kjøpmenn", "De som ber, de som kjemper og de som arbeider", "Adel, borgere og slaver", "Bønder, fiskere og håndverkere"], "correct": 1, "explain": "Ordningen ble begrunnet som gudgitt." }
+  ],
+  "mindmap": {
+    "label": "Middelalder og enevelde",
+    "children": [
+      { "label": "Føydalsamfunnet", "children": [
+        { "label": "Len og vasaller" },
+        { "label": "Livegne bønder" },
+        { "label": "Tre stender" }
+      ] },
+      { "label": "Kirke og konge", "children": [
+        { "label": "Tienden" },
+        { "label": "Investiturstriden" },
+        { "label": "Av Guds nåde" }
+      ] },
+      { "label": "Norge", "children": [
+        { "label": "Rikssamling" },
+        { "label": "Stiklestad 1030" },
+        { "label": "Landsloven 1274" }
+      ] },
+      { "label": "Begrenset og samlet makt", "children": [
+        { "label": "Magna Carta 1215" },
+        { "label": "Enevelde 1660" },
+        { "label": "Westfalen 1648" }
+      ] },
+      { "label": "Kontinuitet og endring", "children": [
+        { "label": "Spredt til samlet makt" },
+        { "label": "Religiøs legitimering" },
+        { "label": "Frihet fra livegenskap" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kirken var en av middelalderens mektigste institusjoner.", "correct": true, "explain": "Med jord, skatteinntekter og egen rettsvesen." },
+      { "id": "m02", "type": "sant-usant", "text": "Magna Carta ga alle innbyggere i England like rettigheter.", "correct": false, "explain": "I praksis gjaldt den en liten elite." },
+      { "id": "m03", "type": "sant-usant", "text": "Med reformasjonen overtok kongen i Danmark-Norge kirkens jord og makt.", "correct": true, "explain": "I 1536/1537." },
+      { "id": "m04", "type": "sant-usant", "text": "Norge hadde like utbredt livegenskap som store deler av Europa.", "correct": false, "explain": "Mange norske bønder var selveiende eller frie leilendinger." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken fransk konge er kjent som et symbol på eneveldet?", "options": ["Karl den store", "Ludvig 14.", "Napoleon", "Frans 1."], "correct": 1, "explain": "Styrte fra Versailles." },
+      { "id": "m06", "type": "flervalg", "text": "Hva ga Magnus Lagabøte Norge i 1274?", "options": ["En felles landslov", "En grunnlov", "En ny religion", "Et parlament"], "correct": 0, "explain": "Derav tilnavnet Lagabøte." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken union gikk Norge inn i i 1397?", "options": ["EU", "Unionen med Sverige", "Kalmarunionen", "Hansaforbundet"], "correct": 2, "explain": "Med Danmark og Sverige." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

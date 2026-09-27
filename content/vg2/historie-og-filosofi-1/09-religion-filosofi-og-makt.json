@@ -1,0 +1,81 @@
+{
+  "id": "religion-filosofi-og-makt",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Religion, filosofi og makt",
+  "intro": "Hvordan religion og filosofi gjennom historien både har legitimert og utfordret makt og samfunnsstrukturer – fra gudekonger og kirkens makt til reformasjonen, opplysningstiden og moderne frigjøringsbevegelser – og hvordan de har formet synet på sannhet og virkelighet.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Religion som legitimering av makt\n\nGjennom det meste av historien har herskere begrunnet makten sin med **religion**:\n\n- I det gamle **Egypt** ble **faraoen** sett på som en **gud** eller gudenes sønn.\n- I **Kina** hadde keiseren **himmelens mandat** – så lenge han styrte godt. Katastrofer kunne tolkes som tegn på at han hadde mistet det.\n- I middelalderens Europa styrte kongene «**av Guds nåde**», og **kirken** kronet dem. Samfunnets inndeling i **stender** ble framstilt som **gudgitt**.\n- Eneveldige konger på 1600-tallet viste til **kongens guddommelige rett**.\n\nNår makt framstår som **hellig**, blir det vanskelig å protestere. Religionen kunne dermed gjøre ulikhet og undertrykkelse **legitim** – for eksempel ble slaveriet forsvart med bibelsitater.\n\n## Religion som utfordring til makt\n\nReligion har også gitt grunnlag for **kritikk** av makt:\n\n- De gammeltestamentlige **profetene** kritiserte konger som undertrykte de fattige.\n- **Martin Luther** utfordret **pavens** makt med sine **95 teser** i **1517**. **Reformasjonen** splittet kirken og endret maktforholdene i Europa.\n- **Hans Nielsen Hauge** skapte en lekmannsbevegelse i Norge rundt 1800 som utfordret embetsmennenes makt – og han ble fengslet for det.\n- **Martin Luther King** bygde borgerrettskampen i USA på kristen tro på at alle mennesker er **like verdifulle**.\n- **Frigjøringsteologien** i Latin-Amerika tolket kristendommen som et krav om rettferdighet for de fattige.\n\n## Filosofi som utfordring\n\n- **Sokrates** stilte kritiske spørsmål til makthaverne og ble dømt til døden i **399 f.Kr.**\n- **Opplysningsfilosofene** kritiserte kirkens og adelens privilegier og krevde **religionsfrihet** og **ytringsfrihet**.\n- **Karl Marx** kalte religionen «**folkets opium**»: Den kunne dempe smerten, men også få folk til å godta urettferdighet i håp om et bedre liv etter døden.\n- **Feministiske** filosofer har kritisert både religiøse og filosofiske tradisjoner for å gjøre **kvinner** underordnet.\n\n## Filosofi som legitimering\n\nFilosofi har også **forsvart** makt: **Aristoteles** mente noen mennesker var «**slaver av natur**», og **Hobbes** forsvarte en sterk, nærmest ubegrenset statsmakt. Rasistiske teorier på 1800-tallet ble presentert som vitenskap og filosofi og brukt til å rettferdiggjøre **kolonialisme**.\n\n## Sannhet og virkelighet\n\nReligion og filosofi har formet synet på hva som er **sant**:\n\n- I middelalderen var **åpenbaringen** – Bibelen og kirkens lære – den høyeste autoriteten. **Thomas Aquinas** mente at tro og fornuft **ikke** kunne motsi hverandre.\n- Da **Galileo Galilei** forsvarte at jorda går rundt sola, ble han dømt av kirken i **1633**. Konflikten viste at også spørsmål om **naturen** handlet om **makt** – hvem hadde retten til å definere sannheten?\n- Etter hvert ble **fornuft** og **vitenskap** hovedkilden til kunnskap om naturen, mens religion i større grad handler om **mening**, **verdier** og **tro**.\n\n## Refleksjon\n\nSe ikke på religion eller filosofi som enten **bare** undertrykkende eller **bare** frigjørende. De samme tradisjonene har blitt brukt på **begge** måter. Spør: **Hvem** bruker ideene, **hvordan**, og **hvem** tjener på det?",
+  "flashcards": [
+    { "term": "Legitimering", "def": "Å begrunne makt slik at den oppleves som rettmessig." },
+    { "term": "Faraoen", "def": "Egyptisk hersker sett på som gud eller gudenes sønn." },
+    { "term": "Himmelens mandat", "def": "Kinesisk idé om at keiseren styrte med himmelens godkjenning." },
+    { "term": "Av Guds nåde", "def": "Middelalderkongers begrunnelse for makten." },
+    { "term": "Profetene", "def": "Kritiserte konger som undertrykte de fattige." },
+    { "term": "Martin Luther", "def": "Utfordret pavens makt med 95 teser i 1517." },
+    { "term": "Reformasjonen", "def": "Splittet kirken og endret maktforholdene i Europa." },
+    { "term": "Hans Nielsen Hauge", "def": "Lekpredikant som utfordret embetsmennenes makt rundt 1800." },
+    { "term": "Martin Luther King", "def": "Borgerrettsleder med grunnlag i kristen tro." },
+    { "term": "Frigjøringsteologi", "def": "Kristendom som krav om rettferdighet for de fattige." },
+    { "term": "«Folkets opium»", "def": "Marx' betegnelse på religion." },
+    { "term": "Slaver av natur", "def": "Aristoteles' forsvar av slaveri." },
+    { "term": "Thomas Aquinas", "def": "Mente at tro og fornuft ikke kan motsi hverandre." },
+    { "term": "Galilei 1633", "def": "Dømt av kirken for å forsvare at jorda går rundt sola." },
+    { "term": "Åpenbaring", "def": "Kunnskap som skal komme fra Gud, som i hellige skrifter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr det at makt blir legitimert?", "options": ["At den blir ulovlig", "At den blir begrunnet slik at den oppleves som rettmessig", "At den blir svakere", "At den forsvinner"], "correct": 1, "explain": "Religion har ofte gjort dette." },
+    { "id": "q02", "text": "Hva gjorde Martin Luther i 1517?", "options": ["Utfordret pavens makt med 95 teser", "Ble pave", "Grunnla opplysningstiden", "Kronet en konge"], "correct": 0, "explain": "Starten på reformasjonen." },
+    { "id": "q03", "text": "Hva mente Marx med at religion er «folkets opium»?", "options": ["At religion er ulovlig", "At religion er en medisin mot sykdom", "At religion kan dempe smerten, men få folk til å godta urettferdighet", "At alle bør bli religiøse"], "correct": 2, "explain": "En kritikk av religionens rolle." },
+    { "id": "q04", "text": "Hvorfor ble Galileo Galilei dømt i 1633?", "options": ["For tyveri", "For å ha startet en krig", "For å ha kritisert kongen", "For å ha forsvart at jorda går rundt sola"], "correct": 3, "explain": "Hvem hadde retten til å definere sannheten?" },
+    { "id": "q05", "text": "Hvordan har religion vært brukt til å utfordre makt?", "options": ["Gjennom profeter, Luther og borgerrettsbevegelsen", "Aldri", "Bare gjennom kriger", "Bare av konger"], "correct": 0, "explain": "Religion kan både legitimere og utfordre." },
+    { "id": "q06", "text": "Hva var himmelens mandat i Kina?", "options": ["En skatt", "Idéen om at keiseren styrte med himmelens godkjenning så lenge han styrte godt", "En religion", "En lov om handel"], "correct": 1, "explain": "Katastrofer kunne tolkes som tap av mandatet." },
+    { "id": "q07", "text": "Hvordan har filosofi blitt brukt til å legitimere makt?", "options": ["Den har aldri gjort det", "Bare i Kina", "Aristoteles forsvarte slaveri, og rasistiske teorier rettferdiggjorde kolonialisme", "Bare gjennom kunst"], "correct": 2, "explain": "Filosofi kan også forsvare urett." },
+    { "id": "q08", "text": "Hvem utfordret embetsmennenes makt i Norge rundt 1800 og ble fengslet?", "options": ["Henrik Ibsen", "Martin Luther King", "Olav den hellige", "Hans Nielsen Hauge"], "correct": 3, "explain": "En lekmannsbevegelse." },
+    { "id": "q09", "text": "Hva mente Thomas Aquinas om tro og fornuft?", "options": ["At de ikke kan motsi hverandre", "At bare tro gir kunnskap", "At bare fornuft gir kunnskap", "At begge er meningsløse"], "correct": 0, "explain": "Middelalderens syntese." },
+    { "id": "q10", "text": "Hvilket spørsmål bør du stille når du vurderer hvordan religion eller filosofi brukes?", "options": ["Hvor gammel er ideen?", "Hvem bruker ideene, hvordan, og hvem tjener på det?", "Hvor mange tror på den?", "Hvilket språk er den skrevet på?"], "correct": 1, "explain": "De samme ideene kan brukes på ulike måter." }
+  ],
+  "mindmap": {
+    "label": "Religion, filosofi og makt",
+    "children": [
+      { "label": "Legitimering", "children": [
+        { "label": "Farao og keiser" },
+        { "label": "Av Guds nåde" },
+        { "label": "Forsvar av slaveri" }
+      ] },
+      { "label": "Religiøs kritikk", "children": [
+        { "label": "Profetene" },
+        { "label": "Luther og reformasjonen" },
+        { "label": "Hauge og King" }
+      ] },
+      { "label": "Filosofisk kritikk", "children": [
+        { "label": "Sokrates" },
+        { "label": "Opplysningstiden" },
+        { "label": "Marx og feminisme" }
+      ] },
+      { "label": "Sannhet", "children": [
+        { "label": "Åpenbaring" },
+        { "label": "Aquinas" },
+        { "label": "Galilei" }
+      ] },
+      { "label": "Refleksjon", "children": [
+        { "label": "Begge veier" },
+        { "label": "Hvem tjener på det?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De samme religiøse tradisjonene har blitt brukt både til å legitimere og til å utfordre makt.", "correct": true, "explain": "Det avhenger av hvem som bruker dem og hvordan." },
+      { "id": "m02", "type": "sant-usant", "text": "Filosofi har bare blitt brukt til å kritisere makt.", "correct": false, "explain": "Filosofi har også forsvart makt og ulikhet." },
+      { "id": "m03", "type": "sant-usant", "text": "Frigjøringsteologien oppsto i Latin-Amerika.", "correct": true, "explain": "Med vekt på rettferdighet for de fattige." },
+      { "id": "m04", "type": "sant-usant", "text": "I middelalderen var vitenskapen den høyeste autoriteten for sannhet.", "correct": false, "explain": "Åpenbaringen og kirkens lære var den høyeste autoriteten." },
+      { "id": "m05", "type": "flervalg", "text": "Hva bygde Martin Luther King borgerrettskampen på?", "options": ["Marxisme", "Kristen tro på at alle mennesker er like verdifulle", "Kongens guddommelige rett", "Himmelens mandat"], "correct": 1, "explain": "Religion som utfordring til urett." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem ble dømt til døden i Athen i 399 f.Kr.?", "options": ["Sokrates", "Platon", "Aristoteles", "Perikles"], "correct": 0, "explain": "For sine kritiske spørsmål." },
+      { "id": "m07", "type": "flervalg", "text": "Hva har religion i større grad handlet om etter den vitenskapelige revolusjonen?", "options": ["Om hvordan planetene beveger seg", "Om fysikkens lover", "Om mening, verdier og tro", "Om kjemiske reaksjoner"], "correct": 2, "explain": "Vitenskapen tok over forklaringen av naturen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

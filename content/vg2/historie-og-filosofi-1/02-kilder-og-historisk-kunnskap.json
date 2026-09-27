@@ -1,0 +1,82 @@
+{
+  "id": "kilder-og-historisk-kunnskap",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Kilder og hva vi kan vite om fortiden",
+  "intro": "Ulike typer kilder og kildekritikk, hvordan historikere lager fortellinger av kilder, og hvordan tilgangen på kilder – hva som er bevart, og hvem som fikk skrive – påvirker og begrenser hva vi kan vite om fortiden.",
+  "kompetansemaal": [2, 3],
+  "sammendrag": "## Historie bygger på kilder\n\nFortiden er **borte** – vi kan ikke gå tilbake og se. Det vi kan vite, bygger på **kilder**: spor og fortellinger som er bevart. Historikeren bruker kildene til å lage en **fortelling** om fortiden, men fortellingen er alltid en **tolkning**.\n\n## Typer kilder\n\n- **Skriftlige kilder**: brev, lover, dagbøker, aviser, sagaer, protokoller.\n- **Materielle kilder**: gjenstander, bygninger, graver, verktøy – ofte funnet av **arkeologer**.\n- **Muntlige kilder**: intervjuer, sagn og muntlig tradisjon.\n- **Bilder**, **kart**, film og lydopptak.\n- **Naturvitenskapelige spor**: pollen, iskjerner, DNA og årringer forteller om klima, sykdom og slektskap.\n\n**Primærkilder** stammer fra den tiden de handler om. **Sekundærkilder** er senere framstillinger, som lærebøker og forskningslitteratur.\n\n## Levning og beretning\n\nSamme kilde kan brukes på to måter:\n\n- Som **beretning**: Hva **forteller** kilden om det som skjedde?\n- Som **levning**: Hva **avslører** kilden om tiden og personen som laget den – uten at det var meningen?\n\nEt propagandaplakat fra andre verdenskrig er en dårlig beretning om hvordan krigen gikk, men en god levning som viser hvordan myndighetene ville påvirke folk.\n\n## Kildekritikk\n\n- **Hvem** har laget kilden, og **hvorfor**? Har opphavspersonen en **tendens** – en interesse i å framstille noe på en bestemt måte?\n- **Når** og **hvor** ble den laget? Nærhet i tid og sted gir ofte større troverdighet.\n- Er det en **førstehånds** eller **annenhånds** kilde?\n- Stemmer den med **andre kilder**? Er de **uavhengige** av hverandre?\n\n## Hva er bevart?\n\nTilgangen på kilder er **ujevn**, og det påvirker hva vi kan vite:\n\n- **Materialer**: Stein, metall og pergament varer lenge, mens tre, tekstil og papir ofte råtner eller brenner.\n- **Hvem som kunne skrive**: I lange perioder kunne bare en liten **elite** – ofte menn i kirken eller hos kongen – skrive. Vanlige folk, kvinner, barn og **slaver** har etterlatt få skriftlige spor.\n- **Hva som ble tatt vare på**: Arkiver har brent, blitt ødelagt i krig eller **bevisst destruert**. Seierherrene har ofte hatt størst mulighet til å fortelle historien.\n- **Avstand**: De norrøne **sagaene** ble skrevet ned 200–300 år etter hendelsene de forteller om. Snorre Sturlason skrev kongesagaene rundt 1230.\n\nDette kalles noen ganger **taushet i kildene**: At noe ikke nevnes, betyr ikke at det ikke fantes.\n\n## Nye metoder gir nye svar\n\nArkeologi, **DNA-analyser** og **digitale** metoder har gitt ny kunnskap – for eksempel om vikingers reiser og slektskap, og om vanlige folks liv. Historikere stiller også **nye spørsmål** til gamle kilder, for eksempel om kjønn, miljø og minoriteter.\n\n## Fra kilder til fortelling\n\nHistorikeren\n\n1. formulerer en **problemstilling**\n2. finner og **vurderer** kilder\n3. **tolker** og **setter sammen** opplysningene\n4. lager en **fortelling** som forklarer\n\nUlike historikere kan lage **ulike fortellinger** av de samme kildene – derfor er historie et **drøftende** fag.",
+  "flashcards": [
+    { "term": "Kilde", "def": "Spor eller fortelling fra fortiden som gir kunnskap om den." },
+    { "term": "Primærkilde", "def": "Kilde fra den tiden den handler om." },
+    { "term": "Sekundærkilde", "def": "Senere framstilling, som en lærebok." },
+    { "term": "Materiell kilde", "def": "Gjenstand, bygning eller grav." },
+    { "term": "Muntlig kilde", "def": "Intervju, sagn eller muntlig tradisjon." },
+    { "term": "Beretning", "def": "Kilden brukt for hva den forteller om hendelser." },
+    { "term": "Levning", "def": "Kilden brukt for hva den avslører om tiden og opphavspersonen." },
+    { "term": "Tendens", "def": "Interesse i å framstille noe på en bestemt måte." },
+    { "term": "Førstehåndskilde", "def": "Laget av noen som selv opplevde hendelsen." },
+    { "term": "Uavhengige kilder", "def": "Kilder som ikke bygger på hverandre." },
+    { "term": "Taushet i kildene", "def": "At noe ikke nevnes, betyr ikke at det ikke fantes." },
+    { "term": "Sagaene", "def": "Norrøne fortellinger skrevet ned 200–300 år etter hendelsene." },
+    { "term": "Snorre Sturlason", "def": "Skrev kongesagaene rundt 1230." },
+    { "term": "Naturvitenskapelige spor", "def": "Pollen, iskjerner, DNA og årringer." },
+    { "term": "Historisk fortelling", "def": "Historikerens tolkning bygd på kilder." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på primær- og sekundærkilder?", "options": ["Primærkilder er alltid sanne", "Primærkilder stammer fra tiden de handler om, sekundærkilder er senere framstillinger", "Sekundærkilder er eldre", "Det er ingen forskjell"], "correct": 1, "explain": "Lærebøker er sekundærkilder." },
+    { "id": "q02", "text": "Hva betyr det å bruke en kilde som levning?", "options": ["Å se hva kilden avslører om tiden og opphavspersonen", "Å se hva kilden forteller om hendelsene", "Å kaste kilden", "Å kopiere kilden"], "correct": 0, "explain": "For eksempel en propagandaplakat." },
+    { "id": "q03", "text": "Hvorfor vet vi lite om vanlige folks liv i middelalderen fra skriftlige kilder?", "options": ["De levde ikke interessante liv", "Alt er bevart", "Bare en liten elite kunne skrive", "Kildene er hemmelige"], "correct": 2, "explain": "Tilgangen på kilder er ujevn." },
+    { "id": "q04", "text": "Hva er tendens i en kilde?", "options": ["At kilden er gammel", "At kilden er lang", "At kilden er på et annet språk", "At opphavspersonen har interesse i å framstille noe på en bestemt måte"], "correct": 3, "explain": "Påvirker troverdigheten." },
+    { "id": "q05", "text": "Hvor lang tid etter hendelsene ble sagaene skrevet ned?", "options": ["200–300 år", "Samme år", "10 år", "1000 år"], "correct": 0, "explain": "Det gjør dem usikre som beretninger." },
+    { "id": "q06", "text": "Hva menes med taushet i kildene?", "options": ["At kildene er skrevet i stillhet", "At noe ikke nevnes, uten at det betyr at det ikke fantes", "At kildene er ulovlige", "At alle kilder er like"], "correct": 1, "explain": "Fravær av kilder er ikke bevis." },
+    { "id": "q07", "text": "Hvilket materiale har størst sjanse til å bli bevart i tusenvis av år?", "options": ["Tekstil", "Papir", "Stein", "Tre"], "correct": 2, "explain": "Organiske materialer råtner lettere." },
+    { "id": "q08", "text": "Hvorfor kan ulike historikere lage ulike fortellinger av de samme kildene?", "options": ["Fordi kildene endrer seg", "Fordi noen historikere lyver", "Fordi fortiden forandrer seg", "Fordi fortellingen er en tolkning, og de stiller ulike spørsmål"], "correct": 3, "explain": "Historie er et drøftende fag." },
+    { "id": "q09", "text": "Hvilken ny metode har gitt kunnskap om vikingers slektskap og reiser?", "options": ["DNA-analyser", "Horoskoper", "Meningsmålinger", "Telefonintervjuer"], "correct": 0, "explain": "Naturvitenskapelige metoder." },
+    { "id": "q10", "text": "Hvorfor er det viktig at kilder er uavhengige av hverandre?", "options": ["Fordi da er de lengre", "Fordi to uavhengige kilder som stemmer overens, styrker troverdigheten", "Fordi avhengige kilder er ulovlige", "Det er ikke viktig"], "correct": 1, "explain": "Kilder som bygger på hverandre, gir ingen ekstra bekreftelse." }
+  ],
+  "mindmap": {
+    "label": "Kilder og historisk kunnskap",
+    "children": [
+      { "label": "Kildetyper", "children": [
+        { "label": "Skriftlige" },
+        { "label": "Materielle" },
+        { "label": "Muntlige og bilder" },
+        { "label": "Naturvitenskapelige" }
+      ] },
+      { "label": "Bruk", "children": [
+        { "label": "Beretning" },
+        { "label": "Levning" }
+      ] },
+      { "label": "Kildekritikk", "children": [
+        { "label": "Hvem og hvorfor" },
+        { "label": "Tid og sted" },
+        { "label": "Uavhengige kilder" }
+      ] },
+      { "label": "Tilgang", "children": [
+        { "label": "Materialer" },
+        { "label": "Hvem kunne skrive" },
+        { "label": "Taushet i kildene" }
+      ] },
+      { "label": "Fortelling", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Tolkning" },
+        { "label": "Nye spørsmål" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Seierherrene har ofte hatt størst mulighet til å fortelle historien.", "correct": true, "explain": "Derfor er perspektivet viktig å vurdere." },
+      { "id": "m02", "type": "sant-usant", "text": "En kilde med tendens er ubrukelig.", "correct": false, "explain": "Den kan være en god levning." },
+      { "id": "m03", "type": "sant-usant", "text": "Pollen og iskjerner kan gi kunnskap om klimaet i fortiden.", "correct": true, "explain": "Naturvitenskapelige spor." },
+      { "id": "m04", "type": "sant-usant", "text": "En lærebok i historie er en primærkilde til vikingtiden.", "correct": false, "explain": "Den er en sekundærkilde." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en materiell kilde?", "options": ["Et brev", "Et sverd funnet i en grav", "Et intervju", "En dagbok"], "correct": 1, "explain": "En gjenstand." },
+      { "id": "m06", "type": "flervalg", "text": "Når skrev Snorre Sturlason kongesagaene?", "options": ["Rundt 1230", "Rundt 800", "Rundt 1500", "Rundt 1814"], "correct": 0, "explain": "Lenge etter vikingtiden." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er det første steget når historikeren skal lage en fortelling?", "options": ["Å skrive konklusjonen", "Å velge bilder", "Å formulere en problemstilling", "Å trykke boka"], "correct": 2, "explain": "Problemstillingen styrer valg av kilder." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

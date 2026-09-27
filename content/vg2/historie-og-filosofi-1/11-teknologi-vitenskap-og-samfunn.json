@@ -1,0 +1,81 @@
+{
+  "id": "teknologi-vitenskap-og-samfunn",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Teknologi, vitenskap og samfunnsendring",
+  "intro": "Sammenhenger mellom teknologiske, økonomiske og vitenskapelige endringer – fra jordbruksrevolusjonen, boktrykkerkunsten og den vitenskapelige revolusjonen til den industrielle og den digitale revolusjonen – og hva de betydde for samfunn, levekår og virkelighetsoppfatning.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Store omveltninger\n\nNoen endringer har forandret **hele** menneskets levemåte. De viser at teknologi, økonomi og vitenskap **henger sammen** – og at endringene får følger for **makt**, **levekår** og hvordan vi forstår **verden**.\n\n## Jordbruksrevolusjonen\n\nFor rundt **10 000 år siden** begynte mennesker i **Midtøsten** – den fruktbare halvmåne – å dyrke korn og temme dyr. Senere skjedde det samme uavhengig flere andre steder.\n\n- Folk ble **bofaste**, og befolkningen **økte**.\n- **Overskudd** av mat gjorde det mulig for noen å bli **håndverkere**, **prester** og **herskere**.\n- De første **byene**, **statene** og **skriftspråkene** vokste fram.\n- Men også **ulikhet**, **eiendom**, **krig** om jord og nye **sykdommer** fra husdyr.\n\n## Boktrykkerkunsten\n\n**Johann Gutenberg** utviklet trykking med **løse typer** rundt **1450**. Bøker ble **billigere** og spredte seg raskt.\n\n- **Reformasjonen** spredte seg fort gjennom trykte skrifter, og Bibelen ble oversatt til folkespråk.\n- Kunnskap ble mindre avhengig av **kirken** og klostrene.\n- **Lese- og skriveferdighet** økte, og vitenskapelige ideer kunne deles og kontrolleres av mange.\n\n## Den vitenskapelige revolusjonen\n\nPå **1500- og 1600-tallet** endret synet på naturen seg radikalt:\n\n- **Nikolaus Kopernikus** (1543) plasserte **sola**, ikke jorda, i sentrum.\n- **Galileo Galilei** brukte **kikkert** og **eksperimenter**.\n- **Isaac Newton** (1687) beskrev bevegelse og tyngdekraft med **matematiske lover**.\n\nNaturen ble sett som en **maskin** som følger lover mennesker kan **oppdage**. **Observasjon**, **eksperiment** og **matematikk** ble grunnlaget for kunnskap. Mennesket var ikke lenger sentrum i et gudskapt univers – en endring i **virkelighetsoppfatning** som også utfordret kirkens autoritet.\n\n## Den industrielle revolusjonen\n\nFra slutten av **1700-tallet** i **Storbritannia**:\n\n- **Dampmaskinen** og **kull** ga ny energi. **Fabrikker** erstattet håndverk.\n- **Jernbane** og **dampskip** gjorde transporten raskere.\n- Millioner flyttet fra landet til **byene** (**urbanisering**).\n\n**Levekår**: På kort sikt ofte **elendige** forhold – lange arbeidsdager, barnearbeid og trangboddhet. På lang sikt økte **velstand**, **levealder** og **utdanning**. Nye **klasser** oppsto: industriarbeidere og borgerskap. Det ga grunnlag for **fagbevegelse**, **sosialisme** og **velferdsstat**. Samtidig startet de store **utslippene** av CO₂.\n\n## Den digitale revolusjonen\n\nFra andre halvdel av **1900-tallet**: **datamaskiner**, **internett**, **mobiltelefoner** og nå **kunstig intelligens**.\n\n- Informasjon deles **øyeblikkelig** over hele verden.\n- Nye **næringer** og arbeidsformer vokser fram, andre forsvinner.\n- Nye spørsmål om **personvern**, **overvåking**, **makt** hos teknologiselskaper og hva som er **sant**.\n\n## Mønstre\n\n- Endringene er **drevet** av både teknologi, økonomiske interesser og nye ideer – det er ikke bare teknologien som bestemmer (**teknologideterminisme** er omstridt).\n- De gir **vinnere** og **tapere**.\n- De endrer **hvordan vi tenker** om oss selv og verden.",
+  "flashcards": [
+    { "term": "Jordbruksrevolusjonen", "def": "Overgang til jordbruk og husdyrhold for rundt 10 000 år siden." },
+    { "term": "Den fruktbare halvmåne", "def": "Området i Midtøsten der jordbruket først oppsto." },
+    { "term": "Overskudd av mat", "def": "Gjorde spesialisering, byer og stater mulig." },
+    { "term": "Johann Gutenberg", "def": "Utviklet trykking med løse typer rundt 1450." },
+    { "term": "Boktrykkerkunstens betydning", "def": "Raskere spredning av kunnskap og reformasjonen." },
+    { "term": "Den vitenskapelige revolusjonen", "def": "1500- og 1600-tallets nye syn på naturen." },
+    { "term": "Kopernikus", "def": "Satte sola i sentrum (1543)." },
+    { "term": "Isaac Newton", "def": "Beskrev bevegelse og tyngdekraft med matematiske lover (1687)." },
+    { "term": "Mekanisk verdensbilde", "def": "Naturen som en maskin som følger lover." },
+    { "term": "Den industrielle revolusjonen", "def": "Fra slutten av 1700-tallet i Storbritannia – damp, fabrikker og urbanisering." },
+    { "term": "Dampmaskinen", "def": "Ga ny energi til fabrikker og transport." },
+    { "term": "Urbanisering", "def": "Flytting fra land til by." },
+    { "term": "Den digitale revolusjonen", "def": "Datamaskiner, internett, mobil og KI." },
+    { "term": "Teknologideterminisme", "def": "Omstridt syn om at teknologien alene bestemmer samfunnsutviklingen." },
+    { "term": "Vinnere og tapere", "def": "Store endringer rammer grupper ulikt." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gjorde jordbruksrevolusjonen mulig?", "options": ["Internett", "Bofasthet, matoverskudd, byer og stater", "Dampmaskiner", "Trykte bøker"], "correct": 1, "explain": "Overskudd ga rom for spesialisering." },
+    { "id": "q02", "text": "Når utviklet Gutenberg trykking med løse typer?", "options": ["Rundt 1450", "Rundt 1000", "Rundt 1800", "Rundt 1650"], "correct": 0, "explain": "Bøker ble billigere." },
+    { "id": "q03", "text": "Hvordan påvirket boktrykkerkunsten reformasjonen?", "options": ["Den stoppet den", "Den hadde ingen betydning", "Trykte skrifter spredte ideene raskt", "Den gjorde kirken sterkere"], "correct": 2, "explain": "Bibelen ble oversatt til folkespråk." },
+    { "id": "q04", "text": "Hva var nytt i den vitenskapelige revolusjonen?", "options": ["Troen på at jorda er sentrum", "At kirken bestemte alt", "At naturen var uforståelig", "Observasjon, eksperiment og matematikk som grunnlag for kunnskap"], "correct": 3, "explain": "Naturen følger lover." },
+    { "id": "q05", "text": "Hvor startet den industrielle revolusjonen?", "options": ["I Storbritannia", "I Norge", "I Kina", "I USA"], "correct": 0, "explain": "Fra slutten av 1700-tallet." },
+    { "id": "q06", "text": "Hvilke levekår hadde mange arbeidere under den tidlige industrialiseringen?", "options": ["Korte arbeidsdager og god lønn", "Lange arbeidsdager, barnearbeid og trangboddhet", "Fri helsehjelp", "Store boliger"], "correct": 1, "explain": "På lang sikt økte velstanden." },
+    { "id": "q07", "text": "Hvordan endret den vitenskapelige revolusjonen virkelighetsoppfatningen?", "options": ["Mennesket ble sentrum i universet", "Alt ble forklart med myter", "Naturen ble sett som en maskin som følger lover", "Vitenskapen ble forbudt"], "correct": 2, "explain": "Et mekanisk verdensbilde." },
+    { "id": "q08", "text": "Hvorfor er teknologideterminisme omstridt?", "options": ["Fordi teknologi ikke finnes", "Fordi alt skyldes religion", "Fordi teknologi ikke har betydning", "Fordi også økonomiske interesser og ideer driver endringene"], "correct": 3, "explain": "Teknologien alene bestemmer ikke." },
+    { "id": "q09", "text": "Hvilken negativ følge fikk jordbruksrevolusjonen?", "options": ["Mer ulikhet, krig om jord og nye sykdommer", "Mindre befolkning", "Færre byer", "Mindre mat"], "correct": 0, "explain": "Endringer gir vinnere og tapere." },
+    { "id": "q10", "text": "Hvilket spørsmål har den digitale revolusjonen reist?", "options": ["Om dampkraft", "Om personvern, overvåking og makt hos teknologiselskaper", "Om livegenskap", "Om kongens guddommelige rett"], "correct": 1, "explain": "Og om hva som er sant." }
+  ],
+  "mindmap": {
+    "label": "Teknologi, vitenskap og samfunn",
+    "children": [
+      { "label": "Jordbruk", "children": [
+        { "label": "Bofasthet" },
+        { "label": "Byer og stater" },
+        { "label": "Ulikhet" }
+      ] },
+      { "label": "Boktrykk", "children": [
+        { "label": "Gutenberg" },
+        { "label": "Reformasjonen" }
+      ] },
+      { "label": "Vitenskap", "children": [
+        { "label": "Kopernikus" },
+        { "label": "Galilei" },
+        { "label": "Newton" }
+      ] },
+      { "label": "Industri", "children": [
+        { "label": "Damp og fabrikker" },
+        { "label": "Urbanisering" },
+        { "label": "Nye klasser" }
+      ] },
+      { "label": "Digitalt", "children": [
+        { "label": "Internett og KI" },
+        { "label": "Personvern og makt" },
+        { "label": "Vinnere og tapere" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Den industrielle revolusjonen ga grunnlag for fagbevegelse og sosialisme.", "correct": true, "explain": "Nye klasser og nye konflikter." },
+      { "id": "m02", "type": "sant-usant", "text": "Jordbruket oppsto bare ett sted i verden.", "correct": false, "explain": "Det oppsto uavhengig flere steder." },
+      { "id": "m03", "type": "sant-usant", "text": "De store utslippene av CO₂ startet med industrialiseringen.", "correct": true, "explain": "Kull og senere olje ga energi." },
+      { "id": "m04", "type": "sant-usant", "text": "Den vitenskapelige revolusjonen styrket kirkens autoritet over naturkunnskapen.", "correct": false, "explain": "Den utfordret kirkens autoritet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem beskrev tyngdekraften med matematiske lover i 1687?", "options": ["Galilei", "Isaac Newton", "Kopernikus", "Gutenberg"], "correct": 1, "explain": "Principia." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er urbanisering?", "options": ["Flytting fra land til by", "Bygging av slott", "Nedleggelse av byer", "Innføring av jordbruk"], "correct": 0, "explain": "Typisk for industrialiseringen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken energikilde drev dampmaskinene?", "options": ["Vind", "Vann", "Kull", "Sol"], "correct": 2, "explain": "Kull ga ny, stor energi." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

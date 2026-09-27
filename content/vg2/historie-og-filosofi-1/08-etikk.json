@@ -1,0 +1,81 @@
+{
+  "id": "etikk",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Etiske teorier",
+  "intro": "De store etiske teoriene – dydsetikk, pliktetikk, konsekvensetikk og kontraktsetikk – med Aristoteles, Kant, Bentham og Mill, og hvordan du bruker dem til å drøfte etiske dilemmaer.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Hva er etikk?\n\n**Moral** er de oppfatningene og normene folk faktisk har om rett og galt. **Etikk** er den **systematiske refleksjonen** over moralen: Hvordan **bør** vi handle, og hvorfor? Etiske teorier gir ulike svar på hva som gjør en handling **riktig**.\n\n## Dydsetikk\n\n**Aristoteles** mente at etikken handler om hva slags **menneske** vi bør være. Målet er **eudaimonia** – et godt og blomstrende liv. Det oppnår vi ved å utvikle gode **karaktertrekk**, **dyder**, som **mot**, **rettferdighet**, **måtehold** og **klokskap**.\n\n- Dyder læres gjennom **øvelse** og **vane** – vi blir modige ved å handle modig.\n- Dyden ligger ofte i **den gylne middelvei**: Gavmildhet ligger mellom gjerrighet og ødselhet.\n- **Praktisk klokskap** hjelper oss å se hva som er riktig i den konkrete situasjonen.\n\n**Styrke**: Tar hele mennesket og livet på alvor. **Svakhet**: Gir lite konkret svar på hva vi skal gjøre i et vanskelig dilemma.\n\n## Pliktetikk\n\n**Immanuel Kant** mente at noen handlinger er **riktige** eller **gale i seg selv**, uansett konsekvenser. Det avgjørende er **viljen** og **pliktene** våre.\n\nDet **kategoriske imperativ** har blant annet to formuleringer:\n\n1. **Universaliserbarhet**: Handle bare etter en regel du kan ville skal gjelde for **alle**. Å lyve når det passer deg, kan ikke bli en allmenn regel – da ville ingen stole på noe som ble sagt.\n2. **Menneskeverd**: Behandle aldri mennesker **bare** som et **middel**, men alltid også som et **mål i seg selv**.\n\n**Styrke**: Gir et sterkt vern om **menneskeverd** og **rettigheter**. **Svakhet**: Kan virke **rigid** – er det virkelig galt å lyve for å redde et liv?\n\n## Konsekvensetikk\n\nEtter **konsekvensetikken** er en handling riktig hvis den gir de **beste konsekvensene**. Den mest kjente formen er **utilitarismen**:\n\n- **Jeremy Bentham** (1748–1832): Vi skal fremme **størst mulig lykke for flest mulig**, og regne ut summen av glede og smerte. Han mente også at dyrs lidelse teller.\n- **John Stuart Mill** (1806–1873) skilte mellom **høyere** og **lavere** gleder – det er bedre å være et utilfreds menneske enn en tilfreds gris.\n\n**Styrke**: Tar hensyn til **alle** som berøres, og er praktisk i politikk. **Svakhet**: Kan rettferdiggjøre å ofre **enkeltmennesker** for flertallets skyld, og konsekvenser er vanskelige å forutsi.\n\n## Kontraktsetikk\n\n**Kontraktsetikken** ser moralen som regler rasjonelle mennesker ville **blitt enige om** for å leve godt sammen. **John Rawls** foreslo at vi velger rettferdige regler bak et **uvitenhetens slør**, uten å vite hvem vi selv blir.\n\n## Bruke teoriene – et dilemma\n\n**Dilemma**: En lege kan redde fem pasienter ved å bruke organene fra én frisk person.\n\n- **Konsekvensetikk**: Fem liv mot ett kan tale for inngrepet – men tilliten til helsevesenet ville bryte sammen, noe som også er en konsekvens.\n- **Pliktetikk**: Å drepe et uskyldig menneske er å bruke det **bare som middel** – det er galt.\n- **Dydsetikk**: En god lege er **omsorgsfull** og **rettferdig**, ikke en som ofrer pasienter.\n\nEn god drøfting **presenterer dilemmaet**, bruker **flere teorier**, **vurderer** styrker og svakheter og kommer fram til en **begrunnet** konklusjon.",
+  "flashcards": [
+    { "term": "Moral", "def": "Oppfatninger og normer folk har om rett og galt." },
+    { "term": "Etikk", "def": "Systematisk refleksjon over moralen." },
+    { "term": "Dydsetikk", "def": "Etikk som handler om å utvikle gode karaktertrekk." },
+    { "term": "Dyd", "def": "Godt karaktertrekk, som mot og rettferdighet." },
+    { "term": "Praktisk klokskap", "def": "Evnen til å se hva som er riktig i den konkrete situasjonen." },
+    { "term": "Pliktetikk", "def": "Noen handlinger er riktige eller gale i seg selv." },
+    { "term": "Det kategoriske imperativ", "def": "Kants grunnprinsipp for moral." },
+    { "term": "Universaliserbarhet", "def": "Handle bare etter en regel som kan gjelde for alle." },
+    { "term": "Menneskeverdsformuleringen", "def": "Behandle aldri mennesker bare som middel, men også som mål." },
+    { "term": "Konsekvensetikk", "def": "Riktig handling gir de beste konsekvensene." },
+    { "term": "Utilitarisme", "def": "Størst mulig lykke for flest mulig." },
+    { "term": "Jeremy Bentham", "def": "Grunnla utilitarismen; mente også dyrs lidelse teller." },
+    { "term": "John Stuart Mill", "def": "Skilte mellom høyere og lavere gleder." },
+    { "term": "Kontraktsetikk", "def": "Moral som regler rasjonelle mennesker ville blitt enige om." },
+    { "term": "Etisk dilemma", "def": "Valg der verdier eller plikter står mot hverandre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva skiller etikk fra moral?", "options": ["Det er det samme", "Etikk er systematisk refleksjon over moralen", "Moral er bare lover", "Etikk handler bare om religion"], "correct": 1, "explain": "Moral er normene vi har." },
+    { "id": "q02", "text": "Hva sier menneskeverdsformuleringen av det kategoriske imperativ?", "options": ["Behandle aldri mennesker bare som et middel, men også som et mål", "Gjør det som gir mest lykke", "Følg flertallet", "Lyv når det lønner seg"], "correct": 0, "explain": "Kants pliktetikk." },
+    { "id": "q03", "text": "Hva er utilitarismens grunnprinsipp?", "options": ["Følg pliktene uansett", "Vær en god person", "Størst mulig lykke for flest mulig", "Gjør som tradisjonen sier"], "correct": 2, "explain": "Bentham og Mill." },
+    { "id": "q04", "text": "Hvordan blir vi dydige ifølge Aristoteles?", "options": ["Ved å lese regler", "Ved å regne ut konsekvenser", "Ved å følge ordrer", "Gjennom øvelse og vane"], "correct": 3, "explain": "Vi blir modige ved å handle modig." },
+    { "id": "q05", "text": "Hva er en vanlig kritikk av utilitarismen?", "options": ["Den kan rettferdiggjøre å ofre enkeltmennesker for flertallet", "Den tar ikke hensyn til konsekvenser", "Den handler bare om karakter", "Den er for opptatt av plikter"], "correct": 0, "explain": "Individets rettigheter kan bli overkjørt." },
+    { "id": "q06", "text": "Hvorfor kan man ikke ville at løgn skal bli en allmenn regel ifølge Kant?", "options": ["Fordi løgn er ulovlig", "Fordi da ville ingen stole på noe som ble sagt", "Fordi løgn gir dårlige konsekvenser", "Fordi Gud forbyr det"], "correct": 1, "explain": "Universaliserbarhet." },
+    { "id": "q07", "text": "Hva mente Mill med høyere og lavere gleder?", "options": ["At alle gleder er like", "At fysiske gleder er best", "At noen gleder, som kunnskap og kunst, er mer verdifulle enn andre", "At glede er uviktig"], "correct": 2, "explain": "Bedre utilfreds menneske enn tilfreds gris." },
+    { "id": "q08", "text": "Hva er en svakhet ved dydsetikken?", "options": ["Den tar ikke hensyn til mennesket", "Den er for opptatt av regler", "Den er for opptatt av konsekvenser", "Den gir lite konkret svar i vanskelige dilemmaer"], "correct": 3, "explain": "Den handler mer om karakter enn handlingsregler." },
+    { "id": "q09", "text": "Hvordan vil en pliktetiker vurdere å drepe én frisk person for å redde fem?", "options": ["Som galt, fordi personen blir brukt bare som middel", "Som riktig, fordi fem er flere enn én", "Som likegyldig", "Som et spørsmål om lov"], "correct": 0, "explain": "Menneskeverd står sentralt." },
+    { "id": "q10", "text": "Hva er kontraktsetikk?", "options": ["Etikk for forretningsavtaler", "Moral som regler rasjonelle mennesker ville blitt enige om", "Etikk basert på religion", "Etikk basert på følelser"], "correct": 1, "explain": "Rawls' uvitenhetens slør er et eksempel." }
+  ],
+  "mindmap": {
+    "label": "Etiske teorier",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Moral" },
+        { "label": "Etikk" },
+        { "label": "Dilemma" }
+      ] },
+      { "label": "Dydsetikk", "children": [
+        { "label": "Aristoteles" },
+        { "label": "Dyder og vane" },
+        { "label": "Praktisk klokskap" }
+      ] },
+      { "label": "Pliktetikk", "children": [
+        { "label": "Kant" },
+        { "label": "Universaliserbarhet" },
+        { "label": "Menneskeverd" }
+      ] },
+      { "label": "Konsekvensetikk", "children": [
+        { "label": "Bentham" },
+        { "label": "Mill" },
+        { "label": "Lykke for flest" }
+      ] },
+      { "label": "Kontraktsetikk", "children": [
+        { "label": "Rawls" },
+        { "label": "Uvitenhetens slør" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Bentham mente at dyrs lidelse også teller moralsk.", "correct": true, "explain": "Evnen til å lide er det avgjørende." },
+      { "id": "m02", "type": "sant-usant", "text": "Pliktetikken vurderer handlinger bare ut fra konsekvensene.", "correct": false, "explain": "Det gjør konsekvensetikken." },
+      { "id": "m03", "type": "sant-usant", "text": "En god etisk drøfting bruker gjerne flere teorier.", "correct": true, "explain": "Teoriene belyser ulike sider." },
+      { "id": "m04", "type": "sant-usant", "text": "Aristoteles mente at dyder er medfødte og ikke kan læres.", "correct": false, "explain": "Dyder læres gjennom øvelse og vane." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken dyd ligger mellom gjerrighet og ødselhet?", "options": ["Mot", "Gavmildhet", "Måtehold", "Klokskap"], "correct": 1, "explain": "Den gylne middelvei." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem formulerte det kategoriske imperativ?", "options": ["Immanuel Kant", "John Stuart Mill", "Aristoteles", "Jeremy Bentham"], "correct": 0, "explain": "Pliktetikkens grunnprinsipp." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken teori spør først og fremst hva slags menneske vi bør være?", "options": ["Konsekvensetikk", "Pliktetikk", "Dydsetikk", "Kontraktsetikk"], "correct": 2, "explain": "Fokus på karakter." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "fortellinger-og-historiesyn",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Fortellinger og historiesyn",
+  "intro": "Hvordan fortellinger om fortiden skaper mening og identitet – for nasjoner, grupper og enkeltmennesker – og hvordan ulike historiesyn, fra syklisk og lineært til marxistisk, strukturelt og postkolonialt, preger forståelsen av fortid og nåtid.",
+  "kompetansemaal": [7, 8],
+  "sammendrag": "## Fortellinger skaper mening\n\nMennesker forstår seg selv gjennom **fortellinger**. En fortelling velger ut hendelser, setter dem i **rekkefølge** og gir dem **mening**: Hvor kommer vi fra? Hvem er vi? Hvor skal vi?\n\n- **Individer** forteller om sitt eget liv.\n- **Familier** har historier som går i arv.\n- **Nasjoner** og **grupper** har felles fortellinger som skaper **identitet** og **fellesskap**.\n\n## Nasjonale fortellinger\n\nPå **1800-tallet** var **nasjonalromantikken** sterk i Europa. I Norge ble **vikingtiden** og **middelalderens storhetstid** framstilt som gullalder, og tiden under Danmark som en «**firehundreårig natt**». **Snorres kongesagaer**, **folkeeventyr**, **bunader** og **1814** ble viktige i fortellingen om en egen norsk nasjon.\n\nSlike fortellinger kan skape **samhold** og **stolthet**, men de kan også\n\n- **utelate** grupper – som samer, kvener og innvandrere\n- **forenkle** eller **forskjønne** fortiden\n- brukes **politisk** til å skape skiller mellom «oss» og «dem»\n\nEt eksempel er fortellingen om Norge under **andre verdenskrig** som et land av **motstandsfolk**. Senere forskning har gitt et mer sammensatt bilde, blant annet om **samarbeid** med okkupanten og om **deportasjonen av norske jøder** i 1942.\n\n## Minnekultur\n\n**Minnekultur** er måten et samfunn **husker** på – gjennom monumenter, museer, merkedager, lærebøker og filmer. Hva som blir husket, og hva som blir **glemt**, sier mye om **makt** og **verdier** i samtiden.\n\n## Historiesyn\n\nEt **historiesyn** er et grunnsyn på hva som **driver** historien, og om den har en **retning**.\n\n- **Syklisk historiesyn**: Historien går i **sirkler** – riker vokser fram, blomstrer og faller. Vanlig i antikken og i mange tradisjoner.\n- **Lineært historiesyn**: Historien har en **begynnelse** og en **retning** mot et mål. Det **kristne** historiesynet går fra skapelsen mot dommedag.\n- **Framskrittstro**: Historien går mot stadig **bedre** tilstander gjennom fornuft, vitenskap og frihet – typisk for **opplysningstiden**. Kritikere peker på at 1900-tallets verdenskriger og folkemord viste at framskritt ikke er garantert.\n- **Marxistisk historiesyn** (**historisk materialisme**): **Økonomi** og **produksjonsforhold** driver historien, og **klassekamp** fører til endring.\n- **Strukturelt historiesyn**: Den franske **Annales-skolen**, med **Fernand Braudel**, la vekt på **langsomme** endringer i geografi, klima, økonomi og mentalitet – «den lange varigheten» – mer enn på konger og kriger.\n- **Aktørorientert historiesyn**: Enkeltpersoner og deres valg former historien – «store menn» eller vanlige folk.\n- **Postkolonialt perspektiv**: Kritiserer at historien lenge ble fortalt fra **europeernes** ståsted, og løfter fram perspektivene til de **koloniserte**.\n- **Kjønnsperspektiv**: Spør hvor **kvinnene** er i historien, og hvordan kjønn har formet samfunnet.\n\n## Hvordan historiesyn preger tolkningen\n\nDen **industrielle revolusjonen** kan fortelles som en historie om **framskritt** og velstand, som **utbytting** av arbeidere, som en **strukturell** endring i energibruk – eller, fra de koloniserte landenes side, som en tid da deres ressurser ble utnyttet. Historiesynet avgjør hvilke **spørsmål** vi stiller og hvilke **kilder** vi bruker.\n\n## Refleksjon\n\nIngen fortelling kan være **helt nøytral**. Men noen fortellinger er **bedre begrunnet** enn andre. God historie er **åpen** om perspektivet sitt, bygger på **kilder** og tar hensyn til **flere stemmer**.",
+  "flashcards": [
+    { "term": "Fortelling", "def": "Utvalgte hendelser satt i rekkefølge og gitt mening." },
+    { "term": "Nasjonalromantikk", "def": "1800-tallets dyrking av nasjonens fortid, folkekultur og natur." },
+    { "term": "«Firehundreårsnatten»", "def": "Nasjonalromantisk betegnelse på tiden under Danmark." },
+    { "term": "Minnekultur", "def": "Måten et samfunn husker på, gjennom monumenter, museer og merkedager." },
+    { "term": "Deportasjonen av norske jøder", "def": "Skjedde i 1942 under okkupasjonen." },
+    { "term": "Historiesyn", "def": "Grunnsyn på hva som driver historien og om den har retning." },
+    { "term": "Syklisk historiesyn", "def": "Historien går i sirkler." },
+    { "term": "Lineært historiesyn", "def": "Historien har begynnelse og retning mot et mål." },
+    { "term": "Framskrittstro", "def": "Historien går mot stadig bedre tilstander." },
+    { "term": "Historisk materialisme", "def": "Økonomi og klassekamp driver historien (Marx)." },
+    { "term": "Annales-skolen", "def": "Vekt på langsomme strukturer som geografi og mentalitet." },
+    { "term": "Fernand Braudel", "def": "Historiker kjent for «den lange varigheten»." },
+    { "term": "Aktørorientert historiesyn", "def": "Enkeltpersoners valg former historien." },
+    { "term": "Postkolonialt perspektiv", "def": "Løfter fram de kolonisertes perspektiver." },
+    { "term": "Kjønnsperspektiv i historie", "def": "Spør hvor kvinnene er, og hvordan kjønn har formet samfunnet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva gjør en fortelling om fortiden?", "options": ["Gjengir alt som skjedde", "Velger ut hendelser, setter dem i rekkefølge og gir dem mening", "Er alltid nøytral", "Erstatter kildene"], "correct": 1, "explain": "Den er alltid et utvalg." },
+    { "id": "q02", "text": "Hva kjennetegner et syklisk historiesyn?", "options": ["Historien går i sirkler", "Historien går mot et mål", "Økonomi driver historien", "Alt blir stadig bedre"], "correct": 0, "explain": "Riker vokser, blomstrer og faller." },
+    { "id": "q03", "text": "Hva mener historisk materialisme driver historien?", "options": ["Store menn", "Guds plan", "Økonomi og klassekamp", "Klimaet alene"], "correct": 2, "explain": "Marx' historiesyn." },
+    { "id": "q04", "text": "Hva la Annales-skolen vekt på?", "options": ["Konger og kriger", "Enkeltpersoners valg", "Guddommelige inngrep", "Langsomme strukturer som geografi, klima og mentalitet"], "correct": 3, "explain": "«Den lange varigheten»." },
+    { "id": "q05", "text": "Hva er en fare ved nasjonale fortellinger?", "options": ["At de kan utelate grupper og forenkle fortiden", "At de alltid er for kompliserte", "At de ikke skaper identitet", "At de bare handler om andre land"], "correct": 0, "explain": "For eksempel samer og minoriteter." },
+    { "id": "q06", "text": "Hva er minnekultur?", "options": ["Hukommelsestrening", "Måten et samfunn husker på, gjennom monumenter, museer og merkedager", "En type kilde", "Et historiesyn"], "correct": 1, "explain": "Hva som huskes og glemmes, sier noe om makt." },
+    { "id": "q07", "text": "Hva kritiserer det postkoloniale perspektivet?", "options": ["At historien er for kort", "At det finnes for mange kilder", "At historien lenge ble fortalt fra europeernes ståsted", "At det finnes kvinner i historien"], "correct": 2, "explain": "Det løfter fram de kolonisertes perspektiver." },
+    { "id": "q08", "text": "Hvorfor ble framskrittstroen kritisert på 1900-tallet?", "options": ["Fordi det ble for mange oppfinnelser", "Fordi folk sluttet å lese", "Fordi vitenskapen stoppet opp", "Fordi verdenskriger og folkemord viste at framskritt ikke er garantert"], "correct": 3, "explain": "Opplysningstidens optimisme ble utfordret." },
+    { "id": "q09", "text": "Hvordan har synet på Norge under andre verdenskrig endret seg?", "options": ["Det har blitt mer sammensatt, blant annet om samarbeid og jødedeportasjonen", "Det har ikke endret seg", "Alle var motstandsfolk", "Krigen blir ikke lenger studert"], "correct": 0, "explain": "Ny forskning ga nye perspektiver." },
+    { "id": "q10", "text": "Hva kjennetegner god historiefortelling?", "options": ["At den er helt nøytral", "At den er åpen om perspektivet, bygger på kilder og tar hensyn til flere stemmer", "At den bare har én stemme", "At den unngår kilder"], "correct": 1, "explain": "Noen fortellinger er bedre begrunnet enn andre." }
+  ],
+  "mindmap": {
+    "label": "Fortellinger og historiesyn",
+    "children": [
+      { "label": "Fortellinger", "children": [
+        { "label": "Individ og familie" },
+        { "label": "Nasjon og gruppe" },
+        { "label": "Identitet" }
+      ] },
+      { "label": "Nasjonale fortellinger", "children": [
+        { "label": "Nasjonalromantikk" },
+        { "label": "Andre verdenskrig" },
+        { "label": "Hvem utelates?" }
+      ] },
+      { "label": "Minnekultur", "children": [
+        { "label": "Monumenter og museer" },
+        { "label": "Glemsel og makt" }
+      ] },
+      { "label": "Historiesyn", "children": [
+        { "label": "Syklisk og lineært" },
+        { "label": "Framskrittstro" },
+        { "label": "Marxistisk og strukturelt" },
+        { "label": "Postkolonialt og kjønn" }
+      ] },
+      { "label": "Refleksjon", "children": [
+        { "label": "Ingen nøytral fortelling" },
+        { "label": "Flere stemmer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det kristne historiesynet er lineært.", "correct": true, "explain": "Fra skapelsen mot dommedag." },
+      { "id": "m02", "type": "sant-usant", "text": "Nasjonalromantikken la vekt på tiden under Danmark som en gullalder.", "correct": false, "explain": "Vikingtiden og middelalderen ble framstilt som gullalder." },
+      { "id": "m03", "type": "sant-usant", "text": "Historiesynet påvirker hvilke spørsmål historikeren stiller.", "correct": true, "explain": "Og hvilke kilder som brukes." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle fortellinger om fortiden er like godt begrunnet.", "correct": false, "explain": "Noen bygger bedre på kilder enn andre." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket historiesyn legger vekt på enkeltpersoners valg?", "options": ["Strukturelt", "Aktørorientert", "Syklisk", "Historisk materialisme"], "correct": 1, "explain": "Store menn eller vanlige folk." },
+      { "id": "m06", "type": "flervalg", "text": "Hva var typisk for opplysningstidens historiesyn?", "options": ["Framskrittstro", "Syklisk syn", "Historisk materialisme", "Postkolonialisme"], "correct": 0, "explain": "Fornuft og vitenskap skulle gi framskritt." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket perspektiv spør hvor kvinnene er i historien?", "options": ["Det marxistiske", "Det sykliske", "Kjønnsperspektivet", "Det nasjonalromantiske"], "correct": 2, "explain": "Kjønn som analysekategori." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

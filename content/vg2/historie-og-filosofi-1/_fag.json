@@ -1,0 +1,69 @@
+{
+  "id": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Historie og filosofi 1",
+  "lareplan": {
+    "kode": "HIF01-04",
+    "url": "https://www.udir.no/lk20/hif01-04/kompetansemaal-og-vurdering/kv895",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "anvende filosofisk samtale for å utforske oppfatninger, undersøke argumentasjon og vurdere gyldighet"
+      },
+      {
+        "nr": 2,
+        "tekst": "bruke kilder av ulik art og opphav til å lage fortellinger og drøfte historiske og filosofiske problemstillinger"
+      },
+      {
+        "nr": 3,
+        "tekst": "reflektere over hvordan tilgangen på kilder påvirker og begrenser hva vi kan vite om fortiden"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjøre rede for og drøfte kontinuitet og endring i maktstrukturer, frihetsbetingelser og statsdanning i ulike historiske perioder fra antikken til moderne tid og reflektere over forståelsen av makt, frihet og demokrati"
+      },
+      {
+        "nr": 5,
+        "tekst": "utforske filosofi fra antikken til moderne tid og drøfte etikk, politisk filosofi, metafysikk og erkjennelsesteori"
+      },
+      {
+        "nr": 6,
+        "tekst": "reflektere over hvordan religion og filosofi har blitt brukt til både å utfordre og å legitimere makt og samfunnsstrukturer, og lagt grunnlag for sannhets- og virkelighetsoppfatning, fra antikken til moderne tid"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for og vurdere hvordan fortellinger er med på å skape mening og forklare hvem vi er eller ønsker å være"
+      },
+      {
+        "nr": 8,
+        "tekst": "drøfte hvordan ulike historiesyn kan prege vår forståelse og fortolkning av fortiden og nåtiden"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske sammenhenger mellom teknologiske, økonomiske og vitenskapelige endringer og vurdere betydningen disse endringene kan ha hatt for samfunnsstrukturer og menneskers livsvilkår og virkelighetsoppfatning"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske forholdet mellom miljø og ressursbruk i et historisk perspektiv og reflektere over ulike oppfatninger om forholdet mellom mennesker, dyr og natur"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjøre rede for virkelighetsoppfatninger fra ulike tradisjoner og deler av verden og reflektere over hvordan mennesket og naturen har blitt verdsatt"
+      }
+    ]
+  },
+  "temaer": [
+    "filosofisk-samtale-og-argumentasjon",
+    "kilder-og-historisk-kunnskap",
+    "antikkens-demokrati-og-makt",
+    "makt-i-middelalder-og-enevelde",
+    "opplysningstid-og-revolusjoner",
+    "antikkens-filosofi",
+    "metafysikk-og-erkjennelsesteori",
+    "etikk",
+    "religion-filosofi-og-makt",
+    "fortellinger-og-historiesyn",
+    "teknologi-vitenskap-og-samfunn",
+    "natur-og-virkelighetsoppfatninger"
+  ]
+}

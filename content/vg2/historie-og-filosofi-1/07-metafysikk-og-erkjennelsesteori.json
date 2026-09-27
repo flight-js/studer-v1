@@ -1,0 +1,79 @@
+{
+  "id": "metafysikk-og-erkjennelsesteori",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Metafysikk og erkjennelsesteori",
+  "intro": "Grunnspørsmål om hva som finnes og hva vi kan vite – dualisme og materialisme, fri vilje og determinisme, rasjonalisme og empirisme, Descartes, Hume og Kant – og hva kunnskap egentlig er.",
+  "kompetansemaal": [5],
+  "sammendrag": "## To grunnleggende disipliner\n\n- **Metafysikk** spør hva som **finnes**, og hva virkeligheten **egentlig** er.\n- **Erkjennelsesteori** (epistemologi) spør hva vi kan **vite**, og hvordan vi kan **begrunne** kunnskap.\n\n## Metafysiske spørsmål\n\n**Kropp og sjel**\n\n- **Dualisme**: Mennesket består av to ulike ting – en fysisk **kropp** og en ikke-fysisk **sjel** eller bevissthet. **René Descartes** var en kjent dualist.\n- **Materialisme** (fysikalisme): Alt som finnes, er **materie**. Bevisstheten er et resultat av prosesser i hjernen.\n- Et vanskelig spørsmål er hvordan **opplevelser** – smaken av sjokolade, følelsen av smerte – kan oppstå av fysiske prosesser.\n\n**Fri vilje**\n\n- **Determinisme**: Alt som skjer, er bestemt av tidligere årsaker. Da er det vanskelig å se hvordan vi kan velge fritt.\n- **Libertarianisme** (i filosofisk betydning): Vi har en **ekte** fri vilje som ikke er fullt bestemt av årsaker.\n- **Kompatibilisme**: Fri vilje og determinisme kan **forenes** – vi er frie når vi handler ut fra egne ønsker, uten ytre tvang.\n\nSpørsmålet har betydning for **ansvar**: Kan vi straffe noen for handlinger de ikke kunne latt være å gjøre?\n\n## Hva er kunnskap?\n\nEn klassisk definisjon sier at kunnskap er **sann**, **begrunnet** **oppfatning**. Det er ikke nok å tro noe som tilfeldigvis er sant – vi må ha **gode grunner**.\n\n## Rasjonalisme\n\n**Rasjonalistene** mente at **fornuften** er den sikreste kilden til kunnskap.\n\n**Descartes** (1596–1650) ville finne noe han kunne vite **helt sikkert**. Han **tvilte** på alt – sansene kan bedra oss, og kanskje drømmer vi. Men én ting kunne han ikke tvile på: at **han tvilte**, altså tenkte. «**Jeg tenker, altså er jeg**» (cogito ergo sum). Derfra ville han bygge opp sikker kunnskap med fornuften, slik som i **matematikken**.\n\n## Empirisme\n\n**Empiristene** mente at all kunnskap kommer fra **erfaring** og **sansene**.\n\n- **John Locke**: Ved fødselen er sinnet som et **ubeskrevet blad** (tabula rasa).\n- **David Hume** (1711–1776) var kritisk: Vi ser aldri selve **årsakssammenhengen**, bare at én ting følger etter en annen. At sola har stått opp hver dag, **beviser** ikke at den står opp i morgen. Dette kalles **induksjonsproblemet**.\n\n## Kants syntese\n\n**Immanuel Kant** (1724–1804) prøvde å forene de to retningene. Kunnskap krever **både** sanseerfaring og fornuftens **former**: «Tanker uten innhold er tomme, anskuelser uten begreper er blinde.» Vi opplever verden gjennom **tid**, **rom** og **årsak** – men dette er måter **sinnet** ordner erfaringen på. Vi kan kjenne **fenomenene** – tingene slik de viser seg for oss – men ikke **tingen i seg selv**.\n\n## Betydning i dag\n\nErkjennelsesteorien er viktig for **vitenskapen**: Hvordan kan vi vite at en teori er sann? Den er også aktuell i møte med **falske nyheter** og **KI**: Hvordan kan vi vite hva vi skal tro? Metafysiske spørsmål om bevissthet dukker opp når vi spør om maskiner kan **tenke**.",
+  "flashcards": [
+    { "term": "Metafysikk", "def": "Læren om hva som finnes og hva virkeligheten er." },
+    { "term": "Erkjennelsesteori", "def": "Læren om hva vi kan vite og hvordan kunnskap begrunnes." },
+    { "term": "Dualisme", "def": "Mennesket består av kropp og en ikke-fysisk sjel." },
+    { "term": "Materialisme", "def": "Alt som finnes, er materie." },
+    { "term": "Determinisme", "def": "Alt som skjer, er bestemt av tidligere årsaker." },
+    { "term": "Kompatibilisme", "def": "Fri vilje og determinisme kan forenes." },
+    { "term": "Kunnskap (klassisk)", "def": "Sann, begrunnet oppfatning." },
+    { "term": "Rasjonalisme", "def": "Fornuften er den sikreste kilden til kunnskap." },
+    { "term": "Empirisme", "def": "All kunnskap kommer fra erfaring." },
+    { "term": "«Jeg tenker, altså er jeg»", "def": "Descartes' sikre utgangspunkt." },
+    { "term": "Metodisk tvil", "def": "Descartes tvilte på alt for å finne noe sikkert." },
+    { "term": "Tabula rasa", "def": "Sinnet som et ubeskrevet blad ved fødselen (Locke)." },
+    { "term": "Induksjonsproblemet", "def": "Tidligere erfaring beviser ikke hva som skjer i framtiden (Hume)." },
+    { "term": "Fenomen og tingen i seg selv", "def": "Vi kjenner bare verden slik den viser seg for oss (Kant)." },
+    { "term": "Kants syntese", "def": "Kunnskap krever både erfaring og fornuftens former." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva studerer erkjennelsesteorien?", "options": ["Hva som er moralsk riktig", "Hva vi kan vite og hvordan kunnskap begrunnes", "Hvordan staten bør styres", "Hvordan kunst skapes"], "correct": 1, "explain": "Også kalt epistemologi." },
+    { "id": "q02", "text": "Hva mener dualister?", "options": ["At mennesket består av kropp og en ikke-fysisk sjel", "At alt er materie", "At ingenting finnes", "At bare fornuften finnes"], "correct": 0, "explain": "Descartes er et eksempel." },
+    { "id": "q03", "text": "Hva sa Descartes han ikke kunne tvile på?", "options": ["At sansene er pålitelige", "At verden finnes", "At han tenkte – «jeg tenker, altså er jeg»", "At Gud ikke finnes"], "correct": 2, "explain": "Selve tvilen er tenkning." },
+    { "id": "q04", "text": "Hva er induksjonsproblemet?", "options": ["At vi ikke kan regne", "At sansene alltid lyver", "At fornuften er upålitelig", "At tidligere erfaring ikke beviser hva som skjer i framtiden"], "correct": 3, "explain": "Formulert av Hume." },
+    { "id": "q05", "text": "Hva mente empiristene om kunnskap?", "options": ["At den kommer fra erfaring og sansene", "At den er medfødt", "At den kommer fra Gud", "At den ikke finnes"], "correct": 0, "explain": "Locke og Hume." },
+    { "id": "q06", "text": "Hva er kompatibilisme?", "options": ["At vi ikke har fri vilje", "At fri vilje og determinisme kan forenes", "At alt er tilfeldig", "At kropp og sjel er ett"], "correct": 1, "explain": "Vi er frie når vi handler uten ytre tvang." },
+    { "id": "q07", "text": "Hva mente Kant vi ikke kan kjenne?", "options": ["Fenomenene", "Matematikk", "Tingen i seg selv", "Tid og rom"], "correct": 2, "explain": "Vi kjenner bare verden slik den viser seg for oss." },
+    { "id": "q08", "text": "Hva er den klassiske definisjonen av kunnskap?", "options": ["Alt vi tror", "Det flertallet mener", "Det som står i bøker", "Sann, begrunnet oppfatning"], "correct": 3, "explain": "Vi trenger gode grunner." },
+    { "id": "q09", "text": "Hvorfor har spørsmålet om fri vilje betydning for ansvar?", "options": ["Fordi det er vanskelig å holde noen ansvarlig hvis de ikke kunne handlet annerledes", "Fordi det ikke har noen betydning", "Fordi alle er ansvarlige for alt", "Fordi ansvar bare gjelder dyr"], "correct": 0, "explain": "Knyttet til straff og skyld." },
+    { "id": "q10", "text": "Hva betyr tabula rasa?", "options": ["At sinnet har medfødte ideer", "At sinnet er et ubeskrevet blad ved fødselen", "At fornuften er sikrest", "At alt er bestemt"], "correct": 1, "explain": "Lockes empirisme." }
+  ],
+  "mindmap": {
+    "label": "Metafysikk og erkjennelsesteori",
+    "children": [
+      { "label": "Metafysikk", "children": [
+        { "label": "Dualisme" },
+        { "label": "Materialisme" },
+        { "label": "Fri vilje og determinisme" }
+      ] },
+      { "label": "Kunnskap", "children": [
+        { "label": "Sann, begrunnet oppfatning" }
+      ] },
+      { "label": "Rasjonalisme", "children": [
+        { "label": "Descartes" },
+        { "label": "Metodisk tvil" },
+        { "label": "Cogito" }
+      ] },
+      { "label": "Empirisme", "children": [
+        { "label": "Locke: tabula rasa" },
+        { "label": "Hume: induksjonsproblemet" }
+      ] },
+      { "label": "Kant", "children": [
+        { "label": "Syntese" },
+        { "label": "Fenomen og ting i seg selv" },
+        { "label": "Betydning i dag" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kant prøvde å forene rasjonalisme og empirisme.", "correct": true, "explain": "Kunnskap krever både erfaring og begreper." },
+      { "id": "m02", "type": "sant-usant", "text": "Hume mente vi kan se årsakssammenhenger direkte.", "correct": false, "explain": "Vi ser bare at én ting følger etter en annen." },
+      { "id": "m03", "type": "sant-usant", "text": "Spørsmålet om maskiner kan tenke, har metafysiske sider.", "correct": true, "explain": "Det handler om hva bevissthet er." },
+      { "id": "m04", "type": "sant-usant", "text": "Å tro noe som tilfeldigvis er sant, er alltid kunnskap.", "correct": false, "explain": "Kunnskap krever også begrunnelse." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem var kjent som rasjonalist?", "options": ["John Locke", "René Descartes", "David Hume", "Aristoteles alene"], "correct": 1, "explain": "Han stolte mest på fornuften." },
+      { "id": "m06", "type": "flervalg", "text": "Hva mener determinister?", "options": ["At alt som skjer, er bestemt av tidligere årsaker", "At alt er tilfeldig", "At vi har ubegrenset fri vilje", "At sjelen er udødelig"], "correct": 0, "explain": "Utfordrer idéen om fri vilje." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er metafysikk?", "options": ["Læren om moral", "Læren om samfunnet", "Læren om hva som finnes og hva virkeligheten er", "Læren om språk"], "correct": 2, "explain": "En av filosofiens hoveddisipliner." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "antikkens-filosofi",
+  "fagId": "historie-og-filosofi-1",
+  "trinnId": "vg2",
+  "name": "Antikkens filosofi",
+  "intro": "Fra naturfilosofene som søkte urstoffet, via Sokrates, Platons ideverden og Aristoteles' empiriske filosofi, til hellenistiske retninger som stoisisme og epikureisme – og hvordan de ser på virkelighet, kunnskap og det gode liv.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Fra myte til logos\n\nRundt **600 f.Kr.** begynte tenkere i greske kolonibyer å forklare verden med **fornuft** (logos) i stedet for **myter** om guder. De kalles **naturfilosofer** eller **førsokratikere**.\n\n- **Thales** mente at alt består av **vann**.\n- **Herakleitos** mente at **alt flyter** – verden er i stadig endring, og man kan ikke gå ut i den samme elva to ganger.\n- **Parmenides** mente tvert imot at endring er en **illusjon**; det som virkelig **er**, kan ikke bli til eller forgå.\n- **Demokrit** mente at alt består av små, udelelige **atomer** som beveger seg i tomrom.\n\nDe stilte **metafysiske** spørsmål: Hva er virkeligheten egentlig laget av?\n\n## Sokrates\n\n**Sokrates** (ca. 470–399 f.Kr.) skrev ingenting selv. Vi kjenner ham gjennom **Platons** dialoger. Han flyttet søkelyset fra naturen til **mennesket** og **etikken**: Hva er et godt liv? Han mente at den som **vet** hva som er godt, også vil **gjøre** det godt, og at «det uransakede livet er ikke verdt å leve». Han ble dømt til døden for å ha **forført ungdommen** og ikke æret byens guder.\n\n## Platon\n\n**Platon** (ca. 427–347 f.Kr.) grunnla **Akademiet** i Athen.\n\n- **Idélæren**: Bak sanseverdenen, som hele tiden forandrer seg, finnes en evig og uforanderlig **idéverden**. Alle hester vi ser, er ufullkomne kopier av **idéen** «hest». Den høyeste idéen er **det gode**.\n- **Hulelignelsen**: Mennesker er som fanger i en hule som bare ser **skygger** på veggen og tror de er virkeligheten. Filosofen er den som tar seg ut og ser **sola** – sannheten.\n- **Sjelen** har tre deler: **fornuft**, **vilje** (mot) og **begjær**. I et rettferdig menneske styrer fornuften.\n- I **Staten** skal **filosofkonger** styre.\n\n## Aristoteles\n\n**Aristoteles** (384–322 f.Kr.) var elev av Platon og lærer for **Aleksander den store**.\n\n- Han mente at **formen** finnes **i tingene** selv, ikke i en egen idéverden. Kunnskap får vi ved å **observere** – han var mer **empirisk** enn Platon.\n- Han grunnla **logikken** og studerte alt fra dyr og planter til politikk og diktning.\n- Alt har et **formål** (telos). Menneskets formål er **eudaimonia** – et godt, blomstrende liv.\n- **Dydsetikk**: Et godt liv krever **dyder**, som mot og måtehold. Dyden ligger ofte i den **gylne middelvei** mellom to ytterpunkter – mot ligger mellom feighet og dumdristighet.\n- Mennesket er et **politisk dyr** (zoon politikon) som trenger fellesskapet.\n\n## Hellenistisk filosofi\n\nEtter Aleksander den store ble filosofien mer opptatt av hvordan den **enkelte** kan leve et godt liv i en usikker verden.\n\n- **Stoisismen**: Skill mellom det du **kan** og det du **ikke kan** kontrollere. Møt skjebnen med **sinnsro**, og lev i tråd med **fornuften** og naturen.\n- **Epikureismen**: Lykke er **fravær av smerte** og **indre ro**. Det gode liv er enkelt, med vennskap og måtehold – ikke vilt fråtseri.\n- **Skeptisismen**: Vi kan ikke vite noe sikkert, og bør derfor **holde tilbake** dommer.\n\n## Betydning\n\nAntikkens filosofi la grunnlaget for vestlig tenkning om **virkelighet** (metafysikk), **kunnskap** (erkjennelsesteori), **etikk** og **politikk** – og brukes i dag, for eksempel når stoisismen er populær som livsfilosofi.",
+  "flashcards": [
+    { "term": "Logos", "def": "Fornuft – forklaringer uten myter." },
+    { "term": "Førsokratikere", "def": "Naturfilosofer som søkte verdens urstoff." },
+    { "term": "Thales", "def": "Mente at alt består av vann." },
+    { "term": "Herakleitos", "def": "«Alt flyter» – verden er i stadig endring." },
+    { "term": "Parmenides", "def": "Mente at endring er en illusjon." },
+    { "term": "Demokrit", "def": "Alt består av udelelige atomer." },
+    { "term": "Sokrates", "def": "Satte etikken i sentrum; «det uransakede livet er ikke verdt å leve»." },
+    { "term": "Idélæren", "def": "Bak sanseverdenen finnes en evig idéverden (Platon)." },
+    { "term": "Hulelignelsen", "def": "Fanger som tror skyggene er virkeligheten." },
+    { "term": "Platons sjelelære", "def": "Fornuft, vilje og begjær – fornuften skal styre." },
+    { "term": "Aristoteles", "def": "Empirisk filosof, grunnla logikken og dydsetikken." },
+    { "term": "Eudaimonia", "def": "Et godt, blomstrende liv." },
+    { "term": "Den gylne middelvei", "def": "Dyden ligger mellom to ytterpunkter." },
+    { "term": "Stoisisme", "def": "Sinnsro og skille mellom det vi kan og ikke kan kontrollere." },
+    { "term": "Epikureisme", "def": "Lykke er fravær av smerte og indre ro." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva var naturfilosofene opptatt av?", "options": ["Politikk", "Hva verden egentlig er laget av", "Kunst", "Religion"], "correct": 1, "explain": "De søkte urstoffet." },
+    { "id": "q02", "text": "Hvem sa at «alt flyter»?", "options": ["Herakleitos", "Parmenides", "Thales", "Platon"], "correct": 0, "explain": "Verden er i stadig endring." },
+    { "id": "q03", "text": "Hva handler Platons hulelignelse om?", "options": ["Om å bygge hus", "Om krig", "Om mennesker som tror skyggene er virkeligheten", "Om dyrelivet"], "correct": 2, "explain": "Filosofen ser sola – sannheten." },
+    { "id": "q04", "text": "Hva er den gylne middelvei hos Aristoteles?", "options": ["En handelsvei", "Et politisk parti", "En type logikk", "At dyden ligger mellom to ytterpunkter"], "correct": 3, "explain": "Mot ligger mellom feighet og dumdristighet." },
+    { "id": "q05", "text": "Hvordan skilte Aristoteles seg fra Platon?", "options": ["Han mente formen finnes i tingene, og la vekt på observasjon", "Han trodde mer på idéverdenen", "Han var ikke interessert i kunnskap", "Han skrev ingenting"], "correct": 0, "explain": "Mer empirisk." },
+    { "id": "q06", "text": "Hva la stoikerne vekt på?", "options": ["Maksimal nytelse", "Sinnsro og å skille mellom det vi kan og ikke kan kontrollere", "Å samle rikdom", "Å unngå all fornuft"], "correct": 1, "explain": "Populært som livsfilosofi i dag." },
+    { "id": "q07", "text": "Hva mente Epikur med lykke?", "options": ["Fest og overflod", "Makt over andre", "Fravær av smerte og indre ro", "Å bli berømt"], "correct": 2, "explain": "Et enkelt liv med vennskap." },
+    { "id": "q08", "text": "Hvorfor kjenner vi Sokrates' tanker hovedsakelig gjennom andre?", "options": ["Fordi han skrev på et hemmelig språk", "Fordi bøkene hans brant", "Fordi han var analfabet", "Fordi han ikke skrev noe selv – vi kjenner ham gjennom Platons dialoger"], "correct": 3, "explain": "Et kildeproblem." },
+    { "id": "q09", "text": "Hva mente Demokrit at alt består av?", "options": ["Atomer", "Vann", "Ild", "Tall"], "correct": 0, "explain": "Små, udelelige partikler i tomrom." },
+    { "id": "q10", "text": "Hva betyr det at mennesket er et politisk dyr ifølge Aristoteles?", "options": ["At alle bør være politikere", "At mennesket trenger fellesskapet", "At mennesker er dyr uten fornuft", "At politikk er farlig"], "correct": 1, "explain": "Zoon politikon." }
+  ],
+  "mindmap": {
+    "label": "Antikkens filosofi",
+    "children": [
+      { "label": "Naturfilosofer", "children": [
+        { "label": "Thales" },
+        { "label": "Herakleitos og Parmenides" },
+        { "label": "Demokrit" }
+      ] },
+      { "label": "Sokrates", "children": [
+        { "label": "Etikk" },
+        { "label": "Samtalen" }
+      ] },
+      { "label": "Platon", "children": [
+        { "label": "Idélæren" },
+        { "label": "Hulelignelsen" },
+        { "label": "Sjelens tre deler" }
+      ] },
+      { "label": "Aristoteles", "children": [
+        { "label": "Empiri og logikk" },
+        { "label": "Eudaimonia" },
+        { "label": "Den gylne middelvei" }
+      ] },
+      { "label": "Hellenisme", "children": [
+        { "label": "Stoisisme" },
+        { "label": "Epikureisme" },
+        { "label": "Skeptisisme" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Aristoteles var lærer for Aleksander den store.", "correct": true, "explain": "Han var også elev av Platon." },
+      { "id": "m02", "type": "sant-usant", "text": "Platon mente at sanseverdenen er den eneste virkeligheten.", "correct": false, "explain": "Han mente idéverdenen er den egentlige virkeligheten." },
+      { "id": "m03", "type": "sant-usant", "text": "Parmenides mente at endring er en illusjon.", "correct": true, "explain": "Motsatt av Herakleitos." },
+      { "id": "m04", "type": "sant-usant", "text": "Epikureerne anbefalte vilt fråtseri.", "correct": false, "explain": "De anbefalte et enkelt liv med måtehold." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem grunnla Akademiet i Athen?", "options": ["Aristoteles", "Platon", "Sokrates", "Epikur"], "correct": 1, "explain": "Rundt 387 f.Kr." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken del av sjelen skal styre ifølge Platon?", "options": ["Fornuften", "Begjæret", "Viljen", "Kroppen"], "correct": 0, "explain": "Da er mennesket rettferdig." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket spørsmål er metafysisk?", "options": ["Hva er et godt liv?", "Hvordan bør staten styres?", "Hva er virkeligheten egentlig laget av?", "Hvordan skriver man et dikt?"], "correct": 2, "explain": "Metafysikk handler om virkelighetens natur." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
