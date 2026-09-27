@@ -1,0 +1,82 @@
+{
+  "id": "landformer",
+  "fagId": "geofag-1",
+  "trinnId": "vg2",
+  "name": "Landformer og landskapsprosesser",
+  "intro": "Indre og ytre krefter som former landskapet, forvitring og erosjon, landformer skapt av is, elver, hav og vind – med norske eksempler – og hvordan mennesket endrer landformene.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Indre og ytre krefter\n\nLandskapet formes av to typer krefter:\n\n- **Endogene** (indre) krefter bygger opp: platebevegelser, fjellkjededannelse og vulkanisme.\n- **Eksogene** (ytre) krefter bryter ned: **forvitring**, **erosjon**, **transport** og **avsetning** med vann, is, vind og tyngdekraft.\n\n## Forvitring\n\n- **Mekanisk forvitring** knuser fjellet uten å endre mineralene, for eksempel **frostsprengning**. Den er vanlig i kalde strøk med mange fryse–tine-sykluser.\n- **Kjemisk forvitring** løser opp eller endrer mineralene. Regnvann med litt kullsyre løser **kalkstein** og kan danne **karst** med grotter og slukhull.\n- **Biologisk forvitring** skyldes planter og organismer.\n\n## Isbreer\n\nDet norske landskapet er i stor grad formet av **isbreer** gjennom mange istider:\n\n- **U-daler** med bratte sider og flat bunn, der breer har gravd ut tidligere elvedaler.\n- **Fjorder** er U-daler som er fylt av havet. **Sognefjorden** er Norges lengste og dypeste, med over 200 km lengde og over 1300 m dybde.\n- **Botner**: skålformede forsenkninger i fjellsider der små breer har gravd seg inn. Mellom botner dannes skarpe **egger** og spisse **horn**.\n- **Morener** og **endemorener**, som **Ra-trinnet** i Sør-Norge, viser hvor brefronten sto.\n- **Eskere** er lange grusrygger avsatt av smeltevannselver i tunneler under isen.\n\n## Elver\n\n- I **bratte** områder graver elva ned og danner **V-daler** og gjel.\n- I **flatere** områder slynger elva seg i **meandere**. Den eroderer i yttersvingen og avsetter i innersvingen.\n- Der elva møter en innsjø eller havet, avsettes materialet i et **delta**.\n- **Elveterrasser** viser at elva har gravd seg ned i sine egne avsetninger, ofte på grunn av landheving.\n\n## Hav og kyst\n\nBølger eroderer **klippekyster** og avsetter **strender** der energien er lav. Langs norskekysten finnes **strandflaten**, en lav, flat bremme med tusenvis av øyer, holmer og skjær.\n\n## Vind\n\nVind kan frakte sand og danne **sanddyner**, som på Jæren og Lista. I Norge er vindens rolle mindre enn i ørkenområder.\n\n## Norske landskapstyper\n\n- **Vidder**, som Hardangervidda: gamle, flate overflater hevet opp og slipt av is.\n- **Alpint landskap**, som Lofoten og Sunnmøre: spisse tinder formet av mange små breer.\n- **Fjordlandskap** på Vestlandet.\n\n## Menneskelig påvirkning\n\nMennesker endrer landformene med\n\n- **masseuttak** av grus og pukk og **utfylling** i sjø og vassdrag\n- **elveforbygning**, kanalisering og demninger, som endrer erosjon og avsetning nedstrøms\n- **avskoging** og jordbruk, som øker erosjonen\n- **veier**, **tunneler** og **bebyggelse**\n\nNoen tiltak **reduserer** naturfarer, andre kan **øke** dem – for eksempel når en rettet elv får større fart og flommer lenger nede.",
+  "flashcards": [
+    { "term": "Endogene krefter", "def": "Indre krefter som bygger opp, som platebevegelser." },
+    { "term": "Eksogene krefter", "def": "Ytre krefter som bryter ned, som vann og is." },
+    { "term": "Mekanisk forvitring", "def": "Knusing av fjell uten kjemisk endring, som frostsprengning." },
+    { "term": "Kjemisk forvitring", "def": "Oppløsning eller endring av mineraler." },
+    { "term": "Karst", "def": "Landskap med grotter og slukhull i kalkstein." },
+    { "term": "U-dal", "def": "Dal med bratte sider og flat bunn, gravd ut av is." },
+    { "term": "Fjord", "def": "U-dal fylt av havet." },
+    { "term": "Botn", "def": "Skålformet forsenkning gravd ut av en liten bre." },
+    { "term": "Egg og horn", "def": "Skarpe rygger og spisse topper mellom botner." },
+    { "term": "Esker", "def": "Lang grusrygg avsatt av smeltevann under isen." },
+    { "term": "V-dal", "def": "Dal gravd ut av en elv." },
+    { "term": "Meander", "def": "Elveslynge som eroderer i yttersvingen og avsetter i innersvingen." },
+    { "term": "Delta", "def": "Avsetning der en elv munner ut i innsjø eller hav." },
+    { "term": "Strandflaten", "def": "Lav, flat bremme langs norskekysten med mange øyer og skjær." },
+    { "term": "Ra-trinnet", "def": "Stor endemorene i Sør-Norge." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på endogene og eksogene krefter?", "options": ["Endogene bryter ned, eksogene bygger opp", "Endogene bygger opp, eksogene bryter ned", "Begge bygger opp", "Det er ingen forskjell"], "correct": 1, "explain": "Indre krefter mot ytre krefter." },
+    { "id": "q02", "text": "Hvordan dannes en fjord?", "options": ["En U-dal gravd ut av is blir fylt av havet", "En elv graver en V-dal", "Vinden blåser bort sand", "Et jordskjelv åpner en sprekk"], "correct": 0, "explain": "Sognefjorden er et eksempel." },
+    { "id": "q03", "text": "Hvor eroderer en meandrerende elv mest?", "options": ["I innersvingen", "Midt i elva", "I yttersvingen", "Ved kilden"], "correct": 2, "explain": "Vannet går raskest i yttersvingen." },
+    { "id": "q04", "text": "Hva er en esker?", "options": ["En spiss fjelltopp", "En skålformet forsenkning", "Et delta", "En lang grusrygg avsatt av smeltevann under isen"], "correct": 3, "explain": "Smeltevannselver rant i tunneler under isen." },
+    { "id": "q05", "text": "Hvilken type forvitring er frostsprengning?", "options": ["Mekanisk", "Kjemisk", "Biologisk", "Vulkansk"], "correct": 0, "explain": "Isen sprenger fjellet i biter." },
+    { "id": "q06", "text": "Hvilken dalform er typisk for elveerosjon?", "options": ["U-dal", "V-dal", "Botn", "Fjord"], "correct": 1, "explain": "Isen lager U-daler." },
+    { "id": "q07", "text": "Hva er karst?", "options": ["En type morene", "Et vulkansk landskap", "Et landskap med grotter og slukhull i kalkstein", "En type sanddyne"], "correct": 2, "explain": "Dannes ved kjemisk forvitring." },
+    { "id": "q08", "text": "Hvordan kan kanalisering av en elv øke flomfaren nedstrøms?", "options": ["Vannet blir kaldere", "Elva tørker ut", "Elva får flere svinger", "Vannet får større fart og kommer raskere nedover"], "correct": 3, "explain": "Rettede elver mister naturlig demping." },
+    { "id": "q09", "text": "Hva kjennetegner et alpint landskap som i Lofoten?", "options": ["Spisse tinder formet av mange små breer", "Flate vidder", "Store sanddyner", "Brede elvesletter"], "correct": 0, "explain": "Botner, egger og horn." },
+    { "id": "q10", "text": "Hva forteller elveterrasser ofte?", "options": ["At havet har steget", "At elva har gravd seg ned i egne avsetninger, ofte på grunn av landheving", "At det har vært vulkanutbrudd", "At elva er ny"], "correct": 1, "explain": "Terrassene er gamle elvesletter." }
+  ],
+  "mindmap": {
+    "label": "Landformer",
+    "children": [
+      { "label": "Krefter", "children": [
+        { "label": "Endogene" },
+        { "label": "Eksogene" }
+      ] },
+      { "label": "Forvitring", "children": [
+        { "label": "Mekanisk" },
+        { "label": "Kjemisk og karst" },
+        { "label": "Biologisk" }
+      ] },
+      { "label": "Is", "children": [
+        { "label": "U-dal og fjord" },
+        { "label": "Botn, egg, horn" },
+        { "label": "Morener og eskere" }
+      ] },
+      { "label": "Elver, hav og vind", "children": [
+        { "label": "V-dal og meandere" },
+        { "label": "Delta og terrasser" },
+        { "label": "Strandflaten" },
+        { "label": "Sanddyner" }
+      ] },
+      { "label": "Mennesket", "children": [
+        { "label": "Masseuttak og utfylling" },
+        { "label": "Elveforbygning" },
+        { "label": "Avskoging" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sognefjorden er Norges lengste fjord.", "correct": true, "explain": "Over 200 km lang." },
+      { "id": "m02", "type": "sant-usant", "text": "Vind er den viktigste landskapsformende kraften i Norge.", "correct": false, "explain": "Is og vann har vært mye viktigere." },
+      { "id": "m03", "type": "sant-usant", "text": "Hardangervidda er et eksempel på et viddelandskap.", "correct": true, "explain": "En gammel, flat overflate slipt av is." },
+      { "id": "m04", "type": "sant-usant", "text": "En elv avsetter mest materiale i yttersvingen.", "correct": false, "explain": "Den avsetter i innersvingen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvor finner du sanddyner i Norge?", "options": ["På Hardangervidda", "På Jæren og Lista", "I Sognefjorden", "I Lofoten"], "correct": 1, "explain": "Der vind har god tilgang på sand." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er Ra-trinnet?", "options": ["En stor endemorene i Sør-Norge", "En fjord", "En vulkan", "Et delta"], "correct": 0, "explain": "Den viser hvor brefronten sto." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken menneskelig aktivitet øker ofte erosjonen?", "options": ["Planting av skog", "Vern av myr", "Avskoging", "Restaurering av elver"], "correct": 2, "explain": "Røttene holder på jorda." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

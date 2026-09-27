@@ -1,0 +1,82 @@
+{
+  "id": "naturfarer",
+  "fagId": "geofag-1",
+  "trinnId": "vg2",
+  "name": "Naturfarer, risiko og modellering",
+  "intro": "Skred, flom, jordskjelv, vulkanutbrudd og tsunamier – hvordan de oppstår, hvordan vi vurderer risiko med kart og modeller, og hvordan samfunnet kan forebygge og tilpasse seg.",
+  "kompetansemaal": [10, 11],
+  "sammendrag": "## Naturfarer i geosfæren og hydrosfæren\n\nEn **naturfare** er en naturlig prosess som kan skade mennesker, bygninger og infrastruktur. Den blir en **naturkatastrofe** først når den rammer et samfunn hardt.\n\n## Skred\n\nSkred skjer når **tyngdekraften** blir sterkere enn kreftene som holder massene på plass. Typer i Norge:\n\n- **Steinsprang** og **steinskred**: stein og blokker som løsner fra bratte fjellsider.\n- **Fjellskred**: enorme fjellpartier som raser ut. Hvis de faller i en fjord eller innsjø, kan de lage en **flodbølge**. I **Tafjord** i **1934** omkom 40 mennesker på denne måten. Ustabile fjellpartier, som **Åknes** i Storfjorden, blir derfor **overvåket** døgnet rundt.\n- **Jordskred** og **flomskred**: løsmasser mettet med vann, ofte etter kraftig regn.\n- **Snøskred**: utløses ofte av nysnø, vind og svake lag i snødekket.\n- **Kvikkleireskred**: Kvikkleire er marin leire der saltet er vasket ut. Når den forstyrres – for eksempel av en elv som eroderer eller av gravearbeid – kan den bli **flytende**. Skredet i **Gjerdrum** i **2020** krevde 11 liv.\n\n## Flom og stormflo\n\n**Flom** skyldes kraftig regn, snøsmelting eller en kombinasjon. **Stormflo** er høy vannstand langs kysten på grunn av vind og lavtrykk, særlig når den faller sammen med springflo. Et varmere klima gir **kraftigere regnskyll** og **høyere havnivå**.\n\n## Jordskjelv, vulkaner og tsunamier\n\nDisse farene henger sammen med **plategrensene**. **Tsunamier** oppstår når havbunnen plutselig forskyves ved et jordskjelv, eller når et stort skred eller et vulkanutbrudd fortrenger vann. Tsunamien i **Indiahavet i 2004** tok over 200 000 liv, og jordskjelvet og tsunamien i **Japan i 2011** førte også til ulykken ved atomkraftverket i Fukushima.\n\n## Risiko\n\n**Risiko** handler om både **sannsynlighet** og **konsekvens**:\n\n**Risiko = sannsynlighet × konsekvens**\n\nEt lite skred i et ubebodd område gir lav risiko, mens et sjeldent skred over en skole gir høy risiko. **Sårbarheten** avhenger av hvor mange som bor der, byggeskikk, beredskap og økonomi. Samme jordskjelv kan derfor få svært ulike følger i et rikt og et fattig land.\n\n## Kartlegging og modellering\n\n- **Aktsomhetskart** viser områder der en fare **kan** finnes.\n- **Faresonekart** er mer detaljerte og viser hvor ofte en hendelse kan ventes – for eksempel skred med en årlig sannsynlighet på **1/1000**.\n- **Modeller** beregner hvor langt et skred kan gå (**utløpslengde**), hvor høy en flodbølge blir, eller hvilke områder som oversvømmes ved en gitt vannføring. Modellene bruker **terrengdata**, målinger og **scenarioer**.\n\nNår du vurderer risikoen i et område, kan du bruke kart fra **NVE** og **NGU**, lage egne **scenarioer** og vurdere hvilke bygninger og veier som ligger utsatt. Husk at modeller er **forenklinger** med **usikkerhet**.\n\n## Forebygging og tilpasning\n\n- **Arealplanlegging**: ikke bygge i fareområder. Byggteknisk forskrift krever større sikkerhet for bygg der mange oppholder seg.\n- **Sikringstiltak**: skredvoller, fangnett, bolter, snøskjermer, **erosjonssikring** langs elver og **flomvoller**.\n- **Overvåking og varsling**: **varsom.no** gir daglige varsler om snøskred, jordskred og flom.\n- **Beredskap**: evakueringsplaner, øvelser og informasjon til befolkningen.\n- **Klimatilpasning**: større kulverter, blågrønne løsninger og oppdaterte faresonekart.",
+  "flashcards": [
+    { "term": "Naturfare", "def": "Naturlig prosess som kan skade mennesker og samfunn." },
+    { "term": "Steinsprang", "def": "Enkeltsteiner som løsner fra bratte fjellsider." },
+    { "term": "Fjellskred", "def": "Store fjellpartier som raser ut og kan gi flodbølger." },
+    { "term": "Tafjord 1934", "def": "Fjellskred og flodbølge der 40 omkom." },
+    { "term": "Åknes", "def": "Ustabilt fjellparti i Storfjorden som overvåkes døgnet rundt." },
+    { "term": "Kvikkleire", "def": "Marin leire med utvasket salt som kan bli flytende." },
+    { "term": "Gjerdrum 2020", "def": "Kvikkleireskred som krevde 11 liv." },
+    { "term": "Stormflo", "def": "Høy vannstand på grunn av vind og lavtrykk." },
+    { "term": "Tsunami", "def": "Flodbølge når havbunnen forskyves eller vann fortrenges." },
+    { "term": "Risiko", "def": "Sannsynlighet × konsekvens." },
+    { "term": "Sårbarhet", "def": "Hvor utsatt et samfunn er for skade." },
+    { "term": "Aktsomhetskart", "def": "Viser områder der en fare kan finnes." },
+    { "term": "Faresonekart", "def": "Detaljert kart med sannsynlighet for hendelser." },
+    { "term": "Utløpslengde", "def": "Hvor langt et skred kan gå." },
+    { "term": "varsom.no", "def": "Nettsted med varsler om skred og flom." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er risiko?", "options": ["Bare sannsynligheten for en hendelse", "Sannsynlighet × konsekvens", "Antall skred i året", "Hvor stor en naturfare er"], "correct": 1, "explain": "Både hvor ofte og hvor alvorlig." },
+    { "id": "q02", "text": "Hva er kvikkleire?", "options": ["Marin leire med utvasket salt som kan bli flytende", "Leire fra vulkaner", "Morene", "Sand som flyter"], "correct": 0, "explain": "Den finnes under marin grense." },
+    { "id": "q03", "text": "Hva skjedde i Tafjord i 1934?", "options": ["Et jordskjelv", "Et kvikkleireskred", "Et fjellskred som ga en flodbølge", "En vulkan"], "correct": 2, "explain": "40 mennesker omkom." },
+    { "id": "q04", "text": "Hva viser et faresonekart?", "options": ["Hvor det bor flest folk", "Veiene i et område", "Berggrunnen", "Hvor ofte en hendelse kan ventes i et område"], "correct": 3, "explain": "For eksempel skred med årlig sannsynlighet 1/1000." },
+    { "id": "q05", "text": "Hvordan oppstår en tsunami?", "options": ["Når havbunnen plutselig forskyves eller store mengder vann fortrenges", "Når det blåser mye", "Når tidevannet er høyt", "Når isen smelter"], "correct": 0, "explain": "Ofte ved jordskjelv i subduksjonssoner." },
+    { "id": "q06", "text": "Hvorfor overvåkes Åknes?", "options": ["Det er en vulkan", "Et fjellskred der kan gi en farlig flodbølge i fjorden", "Det er et flomområde", "Det har kvikkleire"], "correct": 1, "explain": "Bevegelsene måles døgnet rundt." },
+    { "id": "q07", "text": "Hvor finner du daglige varsler om snøskred og flom i Norge?", "options": ["NGU", "SSB", "varsom.no", "Artsdatabanken"], "correct": 2, "explain": "Drevet av NVE." },
+    { "id": "q08", "text": "Hvorfor kan samme jordskjelv få ulike følger i ulike land?", "options": ["Jordskjelv er alltid like sterke", "Tyngdekraften er ulik", "Havet er ulikt", "Sårbarheten varierer med byggeskikk, beredskap og økonomi"], "correct": 3, "explain": "Rike land har ofte bedre bygg og beredskap." },
+    { "id": "q09", "text": "Hva er et viktig forebyggende tiltak i arealplanleggingen?", "options": ["Ikke bygge i fareområder", "Bygge nærmere elva", "Fjerne all skog", "Bygge på kvikkleire"], "correct": 0, "explain": "Det billigste tiltaket er ofte å bygge et annet sted." },
+    { "id": "q10", "text": "Hva beregner en skredmodell ofte?", "options": ["Bergartens alder", "Utløpslengden – hvor langt skredet kan gå", "Mengden olje", "Havtemperaturen"], "correct": 1, "explain": "Bygger på terrengdata og scenarioer." }
+  ],
+  "mindmap": {
+    "label": "Naturfarer",
+    "children": [
+      { "label": "Skred", "children": [
+        { "label": "Steinsprang og fjellskred" },
+        { "label": "Jord- og flomskred" },
+        { "label": "Snøskred" },
+        { "label": "Kvikkleireskred" }
+      ] },
+      { "label": "Vann", "children": [
+        { "label": "Flom" },
+        { "label": "Stormflo" },
+        { "label": "Tsunami" }
+      ] },
+      { "label": "Risiko", "children": [
+        { "label": "Sannsynlighet × konsekvens" },
+        { "label": "Sårbarhet" }
+      ] },
+      { "label": "Kart og modeller", "children": [
+        { "label": "Aktsomhetskart" },
+        { "label": "Faresonekart" },
+        { "label": "Utløpslengde og scenarioer" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Arealplanlegging" },
+        { "label": "Sikring" },
+        { "label": "Varsling og beredskap" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kraftig regn kan utløse jordskred og flomskred.", "correct": true, "explain": "Vannmettede løsmasser mister stabilitet." },
+      { "id": "m02", "type": "sant-usant", "text": "Et aktsomhetskart viser nøyaktig hvor og når et skred vil gå.", "correct": false, "explain": "Det viser bare hvor en fare kan finnes." },
+      { "id": "m03", "type": "sant-usant", "text": "Et varmere klima kan gi flere jordskred i Norge.", "correct": true, "explain": "Kraftigere regnskyll øker faren." },
+      { "id": "m04", "type": "sant-usant", "text": "Modeller av naturfarer er helt uten usikkerhet.", "correct": false, "explain": "Modeller er forenklinger med usikkerhet." },
+      { "id": "m05", "type": "flervalg", "text": "Hva kan utløse et kvikkleireskred?", "options": ["Sterk sol", "Erosjon fra en elv eller gravearbeid", "Snøfall på fjellet", "Nordlys"], "correct": 1, "explain": "Leira forstyrres og blir flytende." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er stormflo?", "options": ["Høy vannstand på grunn av vind og lavtrykk", "En tsunami", "En elveflom", "Et snøskred"], "correct": 0, "explain": "Særlig farlig ved springflo." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket tiltak er et sikringstiltak mot steinsprang?", "options": ["Flere hytter under fjellsiden", "Fjerne varsling", "Fangnett og skredvoller", "Mer gravearbeid"], "correct": 2, "explain": "De stopper steinen før den treffer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

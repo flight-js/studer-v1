@@ -1,0 +1,83 @@
+{
+  "id": "jordsystemene",
+  "fagId": "geofag-1",
+  "trinnId": "vg2",
+  "name": "Jordsystemene og samspillet mellom dem",
+  "intro": "Geosfæren, hydrosfæren, atmosfæren, kryosfæren og biosfæren – energikildene som driver dem, og hvordan vekselvirkningene mellom systemene former fjell, jord og vann.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Jorda som system\n\nGeofag ser på jorda som et **system** av deler som hele tiden **påvirker hverandre**. Vi deler gjerne inn i fem **jordsystemer** (sfærer):\n\n- **Geosfæren**: den faste jorda – bergarter, løsmasser og jordas indre.\n- **Hydrosfæren**: alt vannet – hav, innsjøer, elver og grunnvann.\n- **Kryosfæren**: vann i fast form – isbreer, sjøis, snø og permafrost. Den regnes ofte som en del av hydrosfæren.\n- **Atmosfæren**: lufta rundt jorda.\n- **Biosfæren**: alt liv, også mennesket.\n\n## Energikildene\n\nSystemene drives av to hovedkilder til energi:\n\n- **Sola** driver vær, vind, havstrømmer og vannets kretsløp.\n- **Jordas indre varme**, som kommer fra radioaktiv nedbrytning og restvarme fra jordas dannelse, driver **platebevegelser**, **vulkanisme** og **jordskjelv**.\n\n**Tyngdekraften** får vann til å renne nedover og skred til å gå.\n\n## Vekselvirkninger\n\nDet interessante skjer der systemene møtes. Noen eksempler:\n\n- **Forvitring**: Regn, frost og gasser fra atmosfæren bryter ned bergarter i geosfæren. Vann som fryser i sprekker, sprenger fjellet (**frostsprengning**).\n- **Biologisk forvitring**: Røtter vokser inn i sprekker, og lav og mikroorganismer løser opp mineraler. Slik dannes **jordsmonn**, der biosfæren og geosfæren møtes.\n- **Erosjon og avsetning**: Elver, isbreer og bølger fra hydrosfæren og kryosfæren graver ut daler og fjorder og legger igjen sand, grus og leire.\n- **Vulkanutbrudd**: Gasser og aske fra geosfæren sendes opp i atmosfæren. Store utbrudd kan **kjøle ned** klimaet i noen år, fordi svovelpartikler reflekterer sollys.\n- **Karbonets kretsløp**: CO₂ fra atmosfæren løses i havet, blir til skall hos organismer og kan til slutt bli **kalkstein** i geosfæren – et karbonlager over millioner av år.\n- **Istider og landheving**: Under siste istid presset en tykk iskappe jordskorpa ned. Etter at isen smeltet, har landet steget – og i deler av Norge stiger det fortsatt. Det kalles **isostatisk landheving**.\n\n## Tilbakekoblinger\n\nEndringer i ett system kan **forsterke** eller **dempe** endringer i et annet. Når snø og is smelter, blir overflaten mørkere og tar opp mer solenergi – det forsterker oppvarmingen. Slike **tilbakekoblinger** gjør jordsystemet komplisert å forutsi.\n\n## Tidsskala og romskala\n\nNoen prosesser går **raskt**, som et skred på noen sekunder. Andre går **svært langsomt**, som dannelsen av en fjellkjede over titalls millioner år. Geofaget må derfor tenke i både **korte** og **ekstremt lange** tidsperspektiver – fra minutter til milliarder av år.\n\n## Mennesket som geologisk kraft\n\nMennesket flytter i dag mer stein og jord enn elvene gjør, endrer atmosfæren med klimagasser og regulerer vassdrag. Derfor mener mange at vi har fått en ny geologisk epoke, **antropocen** – menneskets tid. Begrepet er likevel omdiskutert blant geologer.",
+  "flashcards": [
+    { "term": "Geosfæren", "def": "Den faste jorda – bergarter, løsmasser og jordas indre." },
+    { "term": "Hydrosfæren", "def": "Alt vannet på jorda." },
+    { "term": "Kryosfæren", "def": "Vann i fast form: is, snø og permafrost." },
+    { "term": "Atmosfæren", "def": "Lufta rundt jorda." },
+    { "term": "Biosfæren", "def": "Alt liv på jorda." },
+    { "term": "Jordas indre varme", "def": "Driver platebevegelser, vulkanisme og jordskjelv." },
+    { "term": "Solenergi", "def": "Driver vær, havstrømmer og vannets kretsløp." },
+    { "term": "Forvitring", "def": "Nedbryting av bergarter der de ligger." },
+    { "term": "Frostsprengning", "def": "Vann fryser i sprekker og sprenger fjellet." },
+    { "term": "Erosjon", "def": "Materiale løsnes og fraktes bort av vann, is eller vind." },
+    { "term": "Jordsmonn", "def": "Øverste lag der geosfæren og biosfæren møtes." },
+    { "term": "Isostatisk landheving", "def": "Landet stiger etter at en tung iskappe har smeltet." },
+    { "term": "Tilbakekobling", "def": "Endring som forsterker eller demper seg selv via andre systemer." },
+    { "term": "Karbonets kretsløp", "def": "Karbon flyttes mellom luft, hav, liv og bergarter." },
+    { "term": "Antropocen", "def": "Foreslått epoke der mennesket er en geologisk kraft." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er hydrosfæren?", "options": ["Lufta rundt jorda", "Alt vannet på jorda", "Alt liv", "Jordas kjerne"], "correct": 1, "explain": "Hav, innsjøer, elver og grunnvann." },
+    { "id": "q02", "text": "Hva driver platebevegelser og vulkanisme?", "options": ["Jordas indre varme", "Solenergi", "Vind", "Tidevann"], "correct": 0, "explain": "Fra radioaktiv nedbrytning og restvarme." },
+    { "id": "q03", "text": "Hva er frostsprengning?", "options": ["At isbreer smelter", "At lava fryser", "At vann fryser i sprekker og sprenger fjellet", "At snø blir til is"], "correct": 2, "explain": "En form for mekanisk forvitring." },
+    { "id": "q04", "text": "Hvorfor kan store vulkanutbrudd kjøle ned klimaet?", "options": ["Lava er kald", "De stopper vinden", "De slukker sola", "Svovelpartikler i atmosfæren reflekterer sollys"], "correct": 3, "explain": "Effekten varer gjerne noen år." },
+    { "id": "q05", "text": "Hvorfor stiger landet i deler av Norge?", "options": ["Isostatisk landheving etter istida", "Vulkanisme", "Havet synker på grunn av fordampning", "Jordskjelv"], "correct": 0, "explain": "Skorpa hever seg etter at vekten av isen forsvant." },
+    { "id": "q06", "text": "Hvordan kan karbon havne i geosfæren?", "options": ["Gjennom vulkanutbrudd", "Ved at skall av organismer blir til kalkstein", "Ved frostsprengning", "Gjennom landheving"], "correct": 1, "explain": "Kalkstein er et langsiktig karbonlager." },
+    { "id": "q07", "text": "Hva hører til kryosfæren?", "options": ["Elver og innsjøer", "Skyer", "Isbreer, snø og permafrost", "Grunnvann"], "correct": 2, "explain": "Vann i fast form." },
+    { "id": "q08", "text": "Hvorfor forsterker smelting av snø og is oppvarmingen?", "options": ["Smeltevann er varmt", "Is lager CO₂", "Isen gir fra seg varme", "Mørkere overflate tar opp mer solenergi"], "correct": 3, "explain": "En positiv tilbakekobling." },
+    { "id": "q09", "text": "Hvor dannes jordsmonn?", "options": ["Der geosfæren og biosfæren møtes", "I jordas kjerne", "I atmosfæren", "På havbunnen i dyphavet"], "correct": 0, "explain": "Forvitring og organisk materiale samvirker." },
+    { "id": "q10", "text": "Hva betyr antropocen?", "options": ["Istiden", "Menneskets tid – en foreslått geologisk epoke", "Dinosaurenes tid", "En type bergart"], "correct": 1, "explain": "Mennesket er blitt en geologisk kraft." }
+  ],
+  "mindmap": {
+    "label": "Jordsystemene",
+    "children": [
+      { "label": "Sfærer", "children": [
+        { "label": "Geosfæren" },
+        { "label": "Hydrosfæren" },
+        { "label": "Kryosfæren" },
+        { "label": "Atmosfæren" },
+        { "label": "Biosfæren" }
+      ] },
+      { "label": "Energi", "children": [
+        { "label": "Sola" },
+        { "label": "Indre varme" },
+        { "label": "Tyngdekraft" }
+      ] },
+      { "label": "Vekselvirkninger", "children": [
+        { "label": "Forvitring" },
+        { "label": "Erosjon og avsetning" },
+        { "label": "Vulkanutbrudd" },
+        { "label": "Karbonets kretsløp" }
+      ] },
+      { "label": "Endringer", "children": [
+        { "label": "Tilbakekoblinger" },
+        { "label": "Landheving" }
+      ] },
+      { "label": "Tid og menneske", "children": [
+        { "label": "Korte og lange tidsskalaer" },
+        { "label": "Antropocen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Røtter som vokser inn i sprekker, er et eksempel på biologisk forvitring.", "correct": true, "explain": "Biosfæren påvirker geosfæren." },
+      { "id": "m02", "type": "sant-usant", "text": "Sola driver platebevegelsene.", "correct": false, "explain": "Det er jordas indre varme som driver dem." },
+      { "id": "m03", "type": "sant-usant", "text": "Geologiske prosesser kan gå både på sekunder og over millioner av år.", "correct": true, "explain": "Fra skred til fjellkjededannelse." },
+      { "id": "m04", "type": "sant-usant", "text": "Alle geologer er enige om at antropocen er en offisiell epoke.", "correct": false, "explain": "Begrepet er omdiskutert." },
+      { "id": "m05", "type": "flervalg", "text": "Hva får vann til å renne nedover og skred til å gå?", "options": ["Solenergi", "Tyngdekraften", "Magnetfeltet", "Jordrotasjonen"], "correct": 1, "explain": "Tyngdekraften er en viktig drivkraft." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket eksempel viser samspill mellom hydrosfæren og geosfæren?", "options": ["En elv som graver ut en dal", "Vind over havet", "Fotosyntese", "Nordlys"], "correct": 0, "explain": "Erosjon og avsetning." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor kommer jordas indre varme fra?", "options": ["Fra sola", "Fra vulkaner alene", "Fra radioaktiv nedbrytning og restvarme fra dannelsen", "Fra havstrømmer"], "correct": 2, "explain": "Den driver prosessene i geosfæren." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

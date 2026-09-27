@@ -1,0 +1,82 @@
+{
+  "id": "vannets-kretslop",
+  "fagId": "geofag-1",
+  "trinnId": "vg2",
+  "name": "Det hydrologiske kretsløpet",
+  "intro": "Hvordan vannet på jorda er fordelt, prosessene i vannets kretsløp, nedbørfelt og vannbalanse, grunnvann – og hvordan menneskelig aktivitet endrer vannets vei.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Vannet på jorda\n\nOmtrent **97,5 %** av alt vann på jorda er **saltvann** i havet. Bare rundt **2,5 %** er **ferskvann**, og av dette er\n\n- nesten **70 %** bundet i **isbreer** og snø\n- rundt **30 %** **grunnvann**\n- **under 1 %** i innsjøer, elver, jordfuktighet og atmosfæren\n\nDet ferskvannet vi lettest kan bruke, er altså en svært liten del av det totale vannet.\n\n## Prosessene i kretsløpet\n\nVannets kretsløp drives av **solenergi** og **tyngdekraft**:\n\n- **Fordampning** fra hav, innsjøer og bakke, og **transpirasjon** fra planter – til sammen **evapotranspirasjon**.\n- **Kondensasjon**: Vanndampen avkjøles og danner skyer.\n- **Nedbør** som regn, snø eller hagl.\n- **Infiltrasjon**: Vann siver ned i jorda.\n- **Perkolasjon**: Vann siver videre ned til **grunnvannet**.\n- **Avrenning** på overflaten og i elver til havet.\n\nVannet kan bli **lagret** i ulike **magasiner** – hav, isbreer, innsjøer, snø, grunnvann og atmosfæren – i svært ulik tid. Et vannmolekyl blir i atmosfæren i omtrent **ti dager**, men kan bli værende i dype grunnvannsmagasiner eller isbreer i **tusenvis av år**. Dette kalles **oppholdstid**.\n\n## Nedbørfelt og vannbalanse\n\nEt **nedbørfelt** er hele området som drenerer til et bestemt punkt i en elv. Grensene går langs **vannskillene** – de høyeste punktene i terrenget.\n\n**Vannbalanselikningen** for et nedbørfelt er\n\n**N = F + A + ΔM**\n\nder N er nedbør, F er fordampning, A er avrenning og ΔM er endring i magasin, for eksempel snø eller grunnvann. Over flere år er ΔM ofte nær null.\n\n## Grunnvann\n\n**Grunnvann** er vann som fyller porer og sprekker i løsmasser og berggrunn. Overflaten kalles **grunnvannsspeilet**. Løsmasser med god **porøsitet** og **permeabilitet**, som sand og grus, gir gode **akviferer** – grunnvannsmagasiner vi kan hente vann fra. Leire holder mye vann, men slipper det nesten ikke gjennom.\n\n## Menneskelig påvirkning\n\n- **Tette flater**: Asfalt og tak hindrer infiltrasjon. Regnet renner raskt av, og byer får oftere **overvannsflom**.\n- **Avskoging** gir mindre transpirasjon, raskere avrenning og mer erosjon.\n- **Drenering av myr og jordbruksland** endrer hvor raskt vannet renner av.\n- **Vassdragsregulering**: Demninger til **vannkraft** jevner ut vannføringen og endrer livet i elvene.\n- **Uttak av grunnvann** kan senke grunnvannsspeilet.\n- **Klimaendringer**: I Norge gir et varmere klima **mer nedbør**, **kraftigere regnskyll**, **mindre snø** i lavlandet og **krympende breer**. Det endrer når på året flommene kommer.\n\n## Tiltak i byene\n\n**Blågrønne løsninger** tar vare på regnvannet der det faller: **grønne tak**, **regnbed**, **gjenåpnede bekker** og **permeable dekker**. Tretrinnsstrategien går ut på å **infiltrere** små nedbørmengder, **forsinke og fordrøye** større mengder og sikre **trygge flomveier** for de største.",
+  "flashcards": [
+    { "term": "Andel saltvann", "def": "Omtrent 97,5 % av alt vann på jorda." },
+    { "term": "Andel ferskvann", "def": "Rundt 2,5 %, mest i is og grunnvann." },
+    { "term": "Evapotranspirasjon", "def": "Fordampning pluss transpirasjon fra planter." },
+    { "term": "Infiltrasjon", "def": "Vann siver ned i jorda." },
+    { "term": "Perkolasjon", "def": "Vann siver videre ned til grunnvannet." },
+    { "term": "Avrenning", "def": "Vann som renner på overflaten og i elver." },
+    { "term": "Oppholdstid", "def": "Hvor lenge vannet blir i et magasin." },
+    { "term": "Nedbørfelt", "def": "Området som drenerer til et punkt i en elv." },
+    { "term": "Vannskille", "def": "Grensen mellom to nedbørfelt." },
+    { "term": "Vannbalanse", "def": "N = F + A + ΔM" },
+    { "term": "Grunnvannsspeil", "def": "Overflaten av grunnvannet." },
+    { "term": "Akvifer", "def": "Grunnvannsmagasin vi kan hente vann fra." },
+    { "term": "Permeabilitet", "def": "Hvor lett vann strømmer gjennom et materiale." },
+    { "term": "Overvannsflom", "def": "Flom i byer når regnet ikke kan infiltreres." },
+    { "term": "Blågrønne løsninger", "def": "Grønne tak, regnbed og åpne bekker som tar vare på regnvannet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvor mye av vannet på jorda er ferskvann?", "options": ["Omtrent 50 %", "Omtrent 2,5 %", "Omtrent 25 %", "Omtrent 97,5 %"], "correct": 1, "explain": "Resten er saltvann i havet." },
+    { "id": "q02", "text": "Hvor finnes mesteparten av ferskvannet?", "options": ["I isbreer og snø", "I elver", "I innsjøer", "I atmosfæren"], "correct": 0, "explain": "Nesten 70 % av ferskvannet." },
+    { "id": "q03", "text": "Hva er evapotranspirasjon?", "options": ["Nedbør og avrenning", "Vann som siver ned", "Fordampning pluss transpirasjon fra planter", "Kondensasjon i skyer"], "correct": 2, "explain": "Vannet går tilbake til atmosfæren." },
+    { "id": "q04", "text": "Hva er et nedbørfelt?", "options": ["Et område med mye regn", "En innsjø", "Et grunnvannsmagasin", "Området som drenerer til et punkt i en elv"], "correct": 3, "explain": "Grensene går langs vannskillene." },
+    { "id": "q05", "text": "Hva står A for i vannbalanselikningen N = F + A + ΔM?", "options": ["Avrenning", "Atmosfære", "Akvifer", "Areal"], "correct": 0, "explain": "N er nedbør, F fordampning." },
+    { "id": "q06", "text": "Hvorfor får byer oftere overvannsflom?", "options": ["Det regner mer i byer", "Tette flater hindrer infiltrasjon", "Byer ligger alltid lavt", "Grunnvannet er høyere"], "correct": 1, "explain": "Regnet renner raskt av." },
+    { "id": "q07", "text": "Hvilket materiale gir en god akvifer?", "options": ["Leire", "Massivt granitt uten sprekker", "Sand og grus", "Asfalt"], "correct": 2, "explain": "God porøsitet og permeabilitet." },
+    { "id": "q08", "text": "Hvordan påvirker klimaendringer vannets kretsløp i Norge?", "options": ["Mindre nedbør og flere breer", "Ingen endring", "Mer snø i lavlandet", "Mer nedbør, kraftigere regnskyll og krympende breer"], "correct": 3, "explain": "Flommene endrer tidspunkt." },
+    { "id": "q09", "text": "Omtrent hvor lenge blir et vannmolekyl i atmosfæren?", "options": ["Omtrent ti dager", "Ett år", "Hundre år", "Tusen år"], "correct": 0, "explain": "Grunnvann og is kan lagre vann mye lenger." },
+    { "id": "q10", "text": "Hva er et regnbed?", "options": ["En type seng", "En blågrønn løsning der regnvann får infiltrere", "En demning", "En type akvifer"], "correct": 1, "explain": "Det demper overvann i byer." }
+  ],
+  "mindmap": {
+    "label": "Vannets kretsløp",
+    "children": [
+      { "label": "Fordeling", "children": [
+        { "label": "97,5 % saltvann" },
+        { "label": "Is og grunnvann" },
+        { "label": "Under 1 % i elver og sjøer" }
+      ] },
+      { "label": "Prosesser", "children": [
+        { "label": "Evapotranspirasjon" },
+        { "label": "Kondensasjon og nedbør" },
+        { "label": "Infiltrasjon og avrenning" }
+      ] },
+      { "label": "Nedbørfelt", "children": [
+        { "label": "Vannskille" },
+        { "label": "N = F + A + ΔM" }
+      ] },
+      { "label": "Grunnvann", "children": [
+        { "label": "Grunnvannsspeil" },
+        { "label": "Akvifer" },
+        { "label": "Permeabilitet" }
+      ] },
+      { "label": "Mennesket", "children": [
+        { "label": "Tette flater" },
+        { "label": "Regulering" },
+        { "label": "Klimaendringer" },
+        { "label": "Blågrønne løsninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Vannets kretsløp drives av solenergi og tyngdekraft.", "correct": true, "explain": "Sola fordamper vann, tyngdekraften får det til å renne." },
+      { "id": "m02", "type": "sant-usant", "text": "Leire slipper vann lett gjennom.", "correct": false, "explain": "Leire har lav permeabilitet." },
+      { "id": "m03", "type": "sant-usant", "text": "Vassdragsregulering jevner ut vannføringen i elvene.", "correct": true, "explain": "Vann lagres i magasiner og slippes ut ved behov." },
+      { "id": "m04", "type": "sant-usant", "text": "Avskoging gir langsommere avrenning.", "correct": false, "explain": "Avskoging gir raskere avrenning og mer erosjon." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er tredje trinn i tretrinnsstrategien for overvann?", "options": ["Infiltrere", "Sikre trygge flomveier for de største mengdene", "Fordampe", "Pumpe ut alt vann"], "correct": 1, "explain": "Først infiltrere, så fordrøye, så flomveier." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et vannskille?", "options": ["Grensen mellom to nedbørfelt", "En demning", "Et grunnvannsspeil", "En elvemunning"], "correct": 0, "explain": "Går langs de høyeste punktene." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kalles vann som siver ned til grunnvannet?", "options": ["Kondensasjon", "Transpirasjon", "Perkolasjon", "Avrenning"], "correct": 2, "explain": "Etter infiltrasjonen i jorda." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

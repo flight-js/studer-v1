@@ -1,0 +1,81 @@
+{
+  "id": "geologisk-tid-og-datering",
+  "fagId": "geofag-1",
+  "trinnId": "vg2",
+  "name": "Geologisk tid og datering",
+  "intro": "Hvordan geologer finner relativ alder med prinsipper som superposisjon og gjennomskjæring, hvordan radiometrisk datering og halveringstid gir absolutt alder, og hvordan den geologiske tidsskalaen er bygd opp.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Dyp tid\n\nJorda er omtrent **4,6 milliarder år** gammel. Det er vanskelig å forestille seg: Hvis hele jordas historie var ett døgn, ville mennesket først dukke opp noen få sekunder før midnatt. For å forstå en så lang historie trenger vi to typer datering.\n\n## Relativ datering\n\n**Relativ datering** forteller hva som er **eldst og yngst**, men ikke hvor gammelt noe er i år. Viktige prinsipper:\n\n- **Superposisjon**: I en uforstyrret lagrekke er de **nederste** lagene **eldst**.\n- **Opprinnelig horisontalitet**: Sedimenter avsettes i **vannrette** lag. Er lagene foldet eller skråstilt, har det skjedd noe **etter** avsetningen.\n- **Gjennomskjæring**: En **gang** eller en **forkastning** som skjærer gjennom lag, er **yngre** enn lagene den skjærer.\n- **Inneslutninger**: Biter av en bergart inne i en annen er **eldre** enn bergarten rundt.\n- **Fossilsuksesjon**: Fossiler opptrer i en fast rekkefølge. **Ledefossiler** – arter som levde kort tid, men var utbredt – gjør det mulig å **korrelere** lag på ulike steder.\n- **Diskordans**: et brudd i lagrekka, der lag har blitt erodert bort før nye ble avsatt. Den viser et **hull** i historien.\n\n**Eksempel**: Du ser tre sedimentlag A (nederst), B og C, og en gang som skjærer gjennom A og B, men ikke C. Rekkefølgen blir A – B – gangen – C.\n\n## Absolutt datering\n\n**Absolutt datering** gir alderen i **år**. Den viktigste metoden er **radiometrisk datering**:\n\n- Noen grunnstoffer har **radioaktive isotoper** som brytes ned til **datterisotoper** i et fast tempo.\n- **Halveringstiden** er tiden det tar før **halvparten** av mor-isotopen er brutt ned. Etter én halveringstid er 50 % igjen, etter to 25 %, etter tre 12,5 %.\n- Ved å måle forholdet mellom mor- og datterisotoper kan vi regne ut **når bergarten ble dannet**.\n\nUlike metoder passer for ulike aldre:\n\n- **Uran–bly** har halveringstider på hundrevis av millioner til milliarder år og brukes på svært gamle bergarter, ofte i mineralet **zirkon**.\n- **Kalium–argon** brukes særlig på vulkanske bergarter.\n- **Karbon-14** har en halveringstid på rundt **5730 år** og brukes på **organisk materiale** opp til omtrent 50 000 år.\n\nRadiometrisk datering fungerer best på **magmatiske** bergarter, fordi «klokka» starter når magmaen størkner. Sedimentære bergarter dateres ofte **indirekte** – for eksempel med vulkanske askelag over og under.\n\nAndre metoder er **årringer** i trær, **varv** (årlige lag i innsjøsedimenter) og **iskjerner** med årlige snølag.\n\n## Den geologiske tidsskalaen\n\nJordas historie er delt i **eoner**, **æraer**, **perioder** og **epoker**. Grensene er ofte satt ved store endringer i livet:\n\n- **Prekambrium**: fra jordas dannelse til for rundt 540 millioner år siden – det meste av jordas historie.\n- **Paleozoikum** (oldtiden): mangfold av liv i havet, de første landplantene og -dyrene.\n- **Mesozoikum** (middelalderen): dinosaurenes tid.\n- **Kenozoikum** (nytiden): pattedyrenes tid, de siste 66 millionene år.\n\nTo store **masseutryddelser** markerer grensene: ved slutten av **perm** for rundt 252 millioner år siden og ved slutten av **kritt** for 66 millioner år siden, da et stort **meteorittnedslag** bidro til at dinosaurene (unntatt fuglene) døde ut.",
+  "flashcards": [
+    { "term": "Jordas alder", "def": "Omtrent 4,6 milliarder år." },
+    { "term": "Relativ datering", "def": "Hva som er eldst og yngst, uten alder i år." },
+    { "term": "Absolutt datering", "def": "Alder i år." },
+    { "term": "Superposisjon", "def": "De nederste lagene er eldst." },
+    { "term": "Gjennomskjæring", "def": "Det som skjærer gjennom lag, er yngre enn lagene." },
+    { "term": "Inneslutninger", "def": "Biter inne i en bergart er eldre enn bergarten rundt." },
+    { "term": "Ledefossil", "def": "Fossil av en kortlivet, utbredt art som brukes til å korrelere lag." },
+    { "term": "Diskordans", "def": "Brudd i lagrekka som viser erosjon og et hull i historien." },
+    { "term": "Halveringstid", "def": "Tiden det tar før halvparten av en radioaktiv isotop er brutt ned." },
+    { "term": "Uran–bly-datering", "def": "Brukes på svært gamle bergarter, ofte i zirkon." },
+    { "term": "Karbon-14", "def": "Halveringstid rundt 5730 år, for organisk materiale." },
+    { "term": "Varv", "def": "Årlige lag i innsjøsedimenter." },
+    { "term": "Prekambrium", "def": "Fra jordas dannelse til for rundt 540 millioner år siden." },
+    { "term": "Kenozoikum", "def": "Pattedyrenes tid, de siste 66 millioner år." },
+    { "term": "Masseutryddelse", "def": "Når svært mange arter dør ut på kort geologisk tid." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva sier superposisjonsprinsippet?", "options": ["De øverste lagene er eldst", "De nederste lagene er eldst i en uforstyrret lagrekke", "Alle lag er like gamle", "Lag avsettes skrått"], "correct": 1, "explain": "Nye lag legges oppå de gamle." },
+    { "id": "q02", "text": "En gang skjærer gjennom lag A og B, men ikke C. Hva er rekkefølgen?", "options": ["A – B – gangen – C", "Gangen – A – B – C", "C – B – A – gangen", "A – gangen – B – C"], "correct": 0, "explain": "Gangen er yngre enn lagene den skjærer." },
+    { "id": "q03", "text": "Hvor mye er igjen av en radioaktiv isotop etter to halveringstider?", "options": ["50 %", "0 %", "25 %", "12,5 %"], "correct": 2, "explain": "Halvparten av halvparten." },
+    { "id": "q04", "text": "Hvilken metode brukes på organisk materiale opp til rundt 50 000 år?", "options": ["Uran–bly", "Kalium–argon", "Superposisjon", "Karbon-14"], "correct": 3, "explain": "Halveringstiden er rundt 5730 år." },
+    { "id": "q05", "text": "Hva er et ledefossil?", "options": ["Et fossil av en kortlivet, utbredt art som brukes til å korrelere lag", "Det eldste fossilet som finnes", "Et fossil av en dinosaur", "Et fossil som leder vann"], "correct": 0, "explain": "Det gjør det mulig å sammenligne lag på ulike steder." },
+    { "id": "q06", "text": "Hvorfor fungerer radiometrisk datering best på magmatiske bergarter?", "options": ["De inneholder fossiler", "«Klokka» starter når magmaen størkner", "De er alltid yngst", "De har ikke isotoper"], "correct": 1, "explain": "Sedimentære bergarter dateres ofte indirekte." },
+    { "id": "q07", "text": "Hvor gammel er jorda?", "options": ["Rundt 6000 år", "Rundt 66 millioner år", "Rundt 4,6 milliarder år", "Rundt 13,8 milliarder år"], "correct": 2, "explain": "13,8 milliarder år er universets alder." },
+    { "id": "q08", "text": "Hva er en diskordans?", "options": ["Et fossil", "En type radioaktiv isotop", "En vulkansk gang", "Et brudd i lagrekka som viser et hull i historien"], "correct": 3, "explain": "Lag er erodert bort før nye ble avsatt." },
+    { "id": "q09", "text": "Hvilken æra kalles dinosaurenes tid?", "options": ["Mesozoikum", "Paleozoikum", "Kenozoikum", "Prekambrium"], "correct": 0, "explain": "Den endte for 66 millioner år siden." },
+    { "id": "q10", "text": "Hva er varv?", "options": ["Radioaktive isotoper", "Årlige lag i innsjøsedimenter", "Fossiler", "Vulkanske ganger"], "correct": 1, "explain": "De kan telles som årringer." }
+  ],
+  "mindmap": {
+    "label": "Geologisk tid",
+    "children": [
+      { "label": "Relativ datering", "children": [
+        { "label": "Superposisjon" },
+        { "label": "Gjennomskjæring" },
+        { "label": "Inneslutninger" },
+        { "label": "Ledefossiler" }
+      ] },
+      { "label": "Absolutt datering", "children": [
+        { "label": "Halveringstid" },
+        { "label": "Uran–bly" },
+        { "label": "Karbon-14" }
+      ] },
+      { "label": "Andre metoder", "children": [
+        { "label": "Årringer" },
+        { "label": "Varv" },
+        { "label": "Iskjerner" }
+      ] },
+      { "label": "Tidsskalaen", "children": [
+        { "label": "Prekambrium" },
+        { "label": "Paleo-, meso-, kenozoikum" }
+      ] },
+      { "label": "Store hendelser", "children": [
+        { "label": "Perm–trias" },
+        { "label": "Kritt–paleogen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Biter av en bergart inne i en annen er eldre enn bergarten rundt.", "correct": true, "explain": "Prinsippet om inneslutninger." },
+      { "id": "m02", "type": "sant-usant", "text": "Karbon-14 egner seg godt til å datere 100 millioner år gamle bergarter.", "correct": false, "explain": "Karbon-14 kan bare brukes opp til rundt 50 000 år." },
+      { "id": "m03", "type": "sant-usant", "text": "Prekambrium utgjør det meste av jordas historie.", "correct": true, "explain": "Fra 4,6 milliarder til rundt 540 millioner år siden." },
+      { "id": "m04", "type": "sant-usant", "text": "Skråstilte sedimentlag ble avsatt skrått.", "correct": false, "explain": "Sedimenter avsettes vannrett og skråstilles senere." },
+      { "id": "m05", "type": "flervalg", "text": "Hva markerer slutten av kritt for 66 millioner år siden?", "options": ["Jordas dannelse", "En masseutryddelse der et meteorittnedslag bidro", "Den første istida", "Menneskets opprinnelse"], "correct": 1, "explain": "Dinosaurene, unntatt fuglene, døde ut." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket mineral brukes ofte ved uran–bly-datering?", "options": ["Zirkon", "Kalkspat", "Glimmer", "Gips"], "correct": 0, "explain": "Zirkon er svært motstandsdyktig." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor mye er igjen etter tre halveringstider?", "options": ["33 %", "25 %", "12,5 %", "3 %"], "correct": 2, "explain": "½ · ½ · ½ = ⅛." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
