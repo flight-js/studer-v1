@@ -1,0 +1,84 @@
+{
+  "id": "psykologi-1",
+  "trinnId": "vg2",
+  "name": "Psykologi 1",
+  "lareplan": {
+    "kode": "PSY01-04",
+    "url": "https://www.udir.no/lk20/psy01-04/kompetansemaal-og-vurdering/kv883",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "sammenligne, anvende og vurdere ulike vitenskapelige tilnærminger, teorier, perspektiver og metoder, og vurdere forskjellige forklaringer på psykologiske problemstillinger"
+      },
+      {
+        "nr": 3,
+        "tekst": "utforske ulike temaer innenfor anvendt psykologi, og vurdere hvordan psykologi kan anvendes i ulike yrker"
+      },
+      {
+        "nr": 4,
+        "tekst": "gjøre rede for hukommelse og reflektere over hva som kan påvirke hukommelsesprosessen"
+      },
+      {
+        "nr": 5,
+        "tekst": "beskrive ulike perspektiver på læring, reflektere over hva som hemmer og fremmer læring, og vurdere egne læringsstrategier"
+      },
+      {
+        "nr": 6,
+        "tekst": "drøfte sammenhengen mellom motivasjon, mestring og læring"
+      },
+      {
+        "nr": 7,
+        "tekst": "drøfte hvordan samspillet mellom arv og miljø har betydning for utvikling av personlighet, identitet og tilknytning"
+      },
+      {
+        "nr": 8,
+        "tekst": "utforske og gjøre rede for hvordan persepsjon og kognisjon virker inn på menneskets forståelse av seg selv og omverdenen"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske og vurdere hvordan individuelle, sosiale og psykologiske faktorer påvirker mennesket til å ta, og unnlate å ta, bærekraftige valg"
+      },
+      {
+        "nr": 10,
+        "tekst": "gjøre rede for psykiske kriser og drøfte mulige utfall av disse"
+      },
+      {
+        "nr": 11,
+        "tekst": "beskrive hovedtrekk i sansesystemets, nervesystemets og hormonsystemets oppbygning og funksjon, og utforske hvordan disse systemene sammen utgjør grunnlaget for tanker, emosjoner og atferd"
+      },
+      {
+        "nr": 12,
+        "tekst": "utforske og gjøre rede for hvordan evolusjonspsykologi forklarer menneskets tanker, emosjoner og atferd"
+      },
+      {
+        "nr": 13,
+        "tekst": "beskrive hvordan bruk av rusmidler hos ungdom og unge voksne påvirker hjernens funksjon og reflektere over hvordan bruk av rusmidler kan påvirke psykisk helse og livskvalitet"
+      },
+      {
+        "nr": 14,
+        "tekst": "drøfte konsekvenser av stress, vurdere betydningen av sårbarhet og resiliens og reflektere over hvordan man kan forebygge negative stressreaksjoner"
+      }
+    ]
+  },
+  "temaer": [
+    "psykologiske-perspektiver",
+    "forskningsmetoder",
+    "anvendt-psykologi",
+    "nervesystemet-og-hormonsystemet",
+    "sanser-persepsjon-og-kognisjon",
+    "hukommelse",
+    "laering",
+    "motivasjon-og-mestring",
+    "personlighet-og-identitet",
+    "tilknytning",
+    "evolusjonspsykologi",
+    "barekraftige-valg",
+    "psykiske-kriser",
+    "rus-og-hjernen",
+    "stress-og-resiliens"
+  ]
+}

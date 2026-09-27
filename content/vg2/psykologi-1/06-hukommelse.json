@@ -1,0 +1,84 @@
+{
+  "id": "hukommelse",
+  "fagId": "psykologi-1",
+  "trinnId": "vg2",
+  "name": "Hukommelse",
+  "intro": "Hvordan vi koder, lagrer og henter fram minner, flerlagersmodellen og arbeidsminnet, ulike typer langtidsminne, hvorfor vi glemmer og hva som påvirker hukommelsen – fra søvn og følelser til ledende spørsmål.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Tre prosesser\n\nHukommelse består av tre prosesser:\n\n1. **Koding** (innkoding): informasjon tas inn og bearbeides.\n2. **Lagring**: informasjonen holdes over tid.\n3. **Gjenhenting**: vi henter informasjonen fram igjen.\n\nSvikt i én av prosessene gjør at vi ikke husker.\n\n## Flerlagersmodellen\n\n**Atkinson og Shiffrin** (1968) beskrev hukommelsen som tre lagre:\n\n- **Sensorisk minne** holder sanseinntrykk i **under ett sekund** for syn og noen sekunder for hørsel. Bare det vi gir **oppmerksomhet**, går videre.\n- **Korttidsminnet** holder informasjon i omtrent **15–30 sekunder** og har begrenset **kapasitet** – omtrent **sju** enheter, pluss eller minus to. Vi kan huske mer ved å gruppere informasjon i **klumper** (chunking), for eksempel et telefonnummer i tre deler. **Repetisjon** holder informasjonen i live.\n- **Langtidsminnet** har tilnærmet **ubegrenset** kapasitet og kan lagre minner hele livet.\n\n## Arbeidsminnet\n\n**Baddeley og Hitch** mente korttidsminnet er et aktivt **arbeidsminne** der vi bearbeider informasjon. Det har en **sentral kontrollenhet** som styrer oppmerksomheten, en **fonologisk sløyfe** for lyd og språk og en **visuospatial skisseblokk** for bilder og rom. Senere ble en **episodisk buffer** lagt til.\n\n## Typer langtidsminne\n\n- **Eksplisitt** (deklarativt) minne – det vi **bevisst** kan fortelle om:\n  - **episodisk** minne: personlige **hendelser**, som bursdagen i fjor\n  - **semantisk** minne: **fakta** og kunnskap, som at Oslo er hovedstaden\n- **Implisitt** minne – det vi husker **uten** å tenke over det:\n  - **prosedurale** ferdigheter, som å sykle\n\n**Hippocampus** er viktig for å danne nye eksplisitte minner. Pasienten **H.M.** fikk fjernet deler av hippocampus og klarte etterpå ikke å danne nye bevisste minner, men kunne fortsatt lære nye **ferdigheter**.\n\n## Hvorfor glemmer vi?\n\n**Hermann Ebbinghaus** viste med **glemselskurven** at vi glemmer mye **raskt** etter at vi har lært noe, og deretter langsommere. Forklaringer på glemsel:\n\n- **Forfall**: minnesporet svekkes når det ikke brukes.\n- **Interferens**: andre minner forstyrrer. Ved **proaktiv** interferens hindrer gammel læring ny, ved **retroaktiv** interferens hindrer ny læring gammel.\n- **Gjenhentingssvikt**: minnet er lagret, men vi finner det ikke – «det ligger på tunga».\n\n## Hva påvirker hukommelsen?\n\n- **Oppmerksomhet** og **bearbeidingsdybde**: Det vi tenker **grundig** og **meningsfullt** om, huskes bedre enn det vi bare leser over.\n- **Følelser**: Sterke opplevelser huskes ofte godt, men ikke alltid **riktig**.\n- **Søvn**: Under søvn **konsolideres** – styrkes – minnene.\n- **Stress** og **rus** kan svekke både koding og gjenhenting.\n- **Kontekst**: Vi husker bedre i samme **omgivelser** eller **tilstand** som da vi lærte.\n\n## Hukommelsen rekonstruerer\n\nHukommelsen er ikke et **videoopptak**. Vi **rekonstruerer** minner hver gang vi henter dem fram. **Elizabeth Loftus** viste at ordvalg i spørsmål om en bilulykke påvirket hvor fort folk trodde bilene kjørte, og noen «husket» knust glass som ikke fantes. Slike **falske minner** har betydning for **vitneutsagn** i retten.\n\n## Nyttig for læring\n\nGod hukommelse får du ved å **teste** deg selv, **spre** repetisjonen over tid, lage **sammenhenger** og **sove** godt.",
+  "flashcards": [
+    { "term": "Koding", "def": "Informasjon tas inn og bearbeides." },
+    { "term": "Gjenhenting", "def": "Å hente fram et lagret minne." },
+    { "term": "Flerlagersmodellen", "def": "Atkinson og Shiffrin: sensorisk minne, korttidsminne og langtidsminne." },
+    { "term": "Sensorisk minne", "def": "Holder sanseinntrykk i svært kort tid." },
+    { "term": "Korttidsminnet", "def": "Omtrent 15–30 sekunder og rundt sju enheter." },
+    { "term": "Chunking", "def": "Å gruppere informasjon i klumper for å huske mer." },
+    { "term": "Arbeidsminnet", "def": "Baddeley og Hitch: aktivt korttidslager der vi bearbeider informasjon." },
+    { "term": "Fonologisk sløyfe", "def": "Den delen av arbeidsminnet som håndterer lyd og språk." },
+    { "term": "Episodisk minne", "def": "Minner om personlige hendelser." },
+    { "term": "Semantisk minne", "def": "Fakta og kunnskap." },
+    { "term": "Prosedural hukommelse", "def": "Implisitt minne for ferdigheter, som å sykle." },
+    { "term": "H.M.", "def": "Pasient som ikke kunne danne nye bevisste minner etter at deler av hippocampus ble fjernet." },
+    { "term": "Glemselskurven", "def": "Ebbinghaus: vi glemmer mye raskt og deretter langsommere." },
+    { "term": "Proaktiv interferens", "def": "Gammel læring hindrer ny læring." },
+    { "term": "Retroaktiv interferens", "def": "Ny læring hindrer gammel læring." },
+    { "term": "Konsolidering", "def": "Minner styrkes og stabiliseres, blant annet under søvn." },
+    { "term": "Rekonstruktiv hukommelse", "def": "Minner bygges opp på nytt hver gang de hentes fram." },
+    { "term": "Falske minner", "def": "Minner om noe som ikke har skjedd – kan skapes av ledende spørsmål." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilke tre prosesser består hukommelsen av?", "options": ["Syn, hørsel og lukt", "Koding, lagring og gjenhenting", "Læring, glemsel og søvn", "Id, ego og superego"], "correct": 1, "explain": "Svikt i én gir glemsel." },
+    { "id": "q02", "text": "Hvor mange enheter kan korttidsminnet omtrent holde?", "options": ["Rundt sju", "Rundt 100", "Ubegrenset", "Bare én"], "correct": 0, "explain": "Pluss eller minus to." },
+    { "id": "q03", "text": "Hva er chunking?", "options": ["Å glemme", "Å repetere", "Å gruppere informasjon i klumper", "Å sove"], "correct": 2, "explain": "For eksempel et telefonnummer i tre deler." },
+    { "id": "q04", "text": "Hvilken type minne er det å huske bursdagen din i fjor?", "options": ["Semantisk", "Prosedural", "Sensorisk", "Episodisk"], "correct": 3, "explain": "Et personlig minne om en hendelse." },
+    { "id": "q05", "text": "Hvilken type minne bruker du når du sykler?", "options": ["Prosedural (implisitt)", "Episodisk", "Semantisk", "Sensorisk"], "correct": 0, "explain": "Vi husker ferdigheten uten å tenke over den." },
+    { "id": "q06", "text": "Hva viste Ebbinghaus med glemselskurven?", "options": ["At vi aldri glemmer", "At vi glemmer mye raskt og deretter langsommere", "At søvn gir glemsel", "At barn husker best"], "correct": 1, "explain": "Derfor er repetisjon viktig." },
+    { "id": "q07", "text": "Du har lært spansk og sliter nå med å huske fransk du lærte tidligere. Hva er dette?", "options": ["Proaktiv interferens", "Forfall", "Retroaktiv interferens", "Chunking"], "correct": 2, "explain": "Ny læring hindrer gammel." },
+    { "id": "q08", "text": "Hva viste Elizabeth Loftus?", "options": ["At hippocampus lagrer minner", "At korttidsminnet holder sju enheter", "At søvn styrker minner", "At ledende spørsmål kan endre minner"], "correct": 3, "explain": "Hukommelsen rekonstruerer." },
+    { "id": "q09", "text": "Hvilken hjernedel er viktig for å danne nye eksplisitte minner?", "options": ["Hippocampus", "Lillehjernen", "Bakhodelappen", "Hjernestammen"], "correct": 0, "explain": "Vist blant annet hos pasienten H.M." },
+    { "id": "q10", "text": "Hva gjør søvn for hukommelsen?", "options": ["Sletter minner", "Konsoliderer og styrker minnene", "Ingenting", "Lager falske minner"], "correct": 1, "explain": "Derfor er søvn viktig før prøver." }
+  ],
+  "mindmap": {
+    "label": "Hukommelse",
+    "children": [
+      { "label": "Prosesser", "children": [
+        { "label": "Koding" },
+        { "label": "Lagring" },
+        { "label": "Gjenhenting" }
+      ] },
+      { "label": "Modeller", "children": [
+        { "label": "Flerlagersmodellen" },
+        { "label": "Arbeidsminnet" }
+      ] },
+      { "label": "Langtidsminne", "children": [
+        { "label": "Episodisk" },
+        { "label": "Semantisk" },
+        { "label": "Prosedural" }
+      ] },
+      { "label": "Glemsel", "children": [
+        { "label": "Forfall" },
+        { "label": "Interferens" },
+        { "label": "Gjenhentingssvikt" }
+      ] },
+      { "label": "Påvirkning", "children": [
+        { "label": "Søvn og stress" },
+        { "label": "Følelser og kontekst" },
+        { "label": "Falske minner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Det vi bearbeider grundig og meningsfullt, huskes bedre.", "correct": true, "explain": "Bearbeidingsdybde." },
+      { "id": "m02", "type": "sant-usant", "text": "Hukommelsen fungerer som et videoopptak som lagrer alt nøyaktig.", "correct": false, "explain": "Minner rekonstrueres." },
+      { "id": "m03", "type": "sant-usant", "text": "H.M. kunne lære nye ferdigheter selv om han ikke dannet nye bevisste minner.", "correct": true, "explain": "Implisitt minne var intakt." },
+      { "id": "m04", "type": "sant-usant", "text": "Stress forbedrer alltid hukommelsen.", "correct": false, "explain": "Stress kan svekke både koding og gjenhenting." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken lesestrategi gir best hukommelse?", "options": ["Lese samme side mange ganger rett før prøven", "Teste seg selv og spre repetisjonen over tid", "Lese med musikk på høyt volum", "Streke under alt"], "correct": 1, "explain": "Testing og spredt repetisjon." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er semantisk minne?", "options": ["Fakta og kunnskap", "Personlige hendelser", "Ferdigheter", "Sanseinntrykk"], "correct": 0, "explain": "For eksempel at Oslo er hovedstaden." },
+      { "id": "m07", "type": "flervalg", "text": "Hva betyr det at et navn «ligger på tunga»?", "options": ["Forfall", "Proaktiv interferens", "Gjenhentingssvikt", "Sensorisk adaptasjon"], "correct": 2, "explain": "Minnet er lagret, men vanskelig å hente fram." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

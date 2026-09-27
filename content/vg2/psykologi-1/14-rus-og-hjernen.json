@@ -1,0 +1,82 @@
+{
+  "id": "rus-og-hjernen",
+  "fagId": "psykologi-1",
+  "trinnId": "vg2",
+  "name": "Rus, hjernen og psykisk helse",
+  "intro": "Hvordan ungdomshjernen utvikler seg, hvordan rusmidler påvirker belønningssystemet og hjernens funksjon, hva toleranse og avhengighet er, og hvordan rus kan påvirke psykisk helse og livskvalitet hos unge.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Ungdomshjernen\n\nHjernen er ikke ferdig utviklet før i **midten av 20-årene**. Områdene i det **limbiske systemet** som styrer **følelser** og **belønning**, modnes tidlig. **Pannelappen**, som står for **planlegging**, **impulskontroll** og **vurdering av konsekvenser**, modnes **sist**. Derfor søker mange ungdommer **spenning** og nye opplevelser, og de er ekstra følsomme for påvirkning fra **venner**.\n\nFordi hjernen er i utvikling, er den også mer **sårbar** for rusmidler. Jo **tidligere** noen begynner å ruse seg, desto større er risikoen for problemer senere.\n\n## Belønningssystemet\n\nHjernens **belønningssystem** gir oss lyst til å gjenta ting som er nyttige for overlevelse, som å spise og være sammen med andre. Signalstoffet **dopamin** spiller en sentral rolle.\n\nRusmidler gir en **kraftigere** og **raskere** dopaminøkning enn naturlige belønninger. Hjernen lærer at rusen er «viktig», og det kan føre til:\n\n- **Toleranse**: Man trenger **mer** av stoffet for å få samme virkning.\n- **Abstinens**: Man får **ubehagelige** fysiske og psykiske reaksjoner når man slutter.\n- **Avhengighet**: sterk **trang** til rusmiddelet og **tap av kontroll** over bruken, selv om den gir negative konsekvenser.\n\n## Ulike rusmidler\n\n- **Alkohol** er det mest brukte rusmiddelet. Det virker **dempende** på hjernen. Alkohol svekker **dømmekraften** i pannelappen, **balansen** i lillehjernen og kan gi **hukommelsestap** fordi hippocampus påvirkes. Alkohol øker risikoen for **ulykker**, **vold** og **seksuelle krenkelser**.\n- **Cannabis** inneholder **THC**, som påvirker **hukommelse**, **konsentrasjon** og **motivasjon**. Tidlig og hyppig bruk, særlig av sterke produkter, øker risikoen for **angst** og **psykose** hos sårbare personer.\n- **Sentralstimulerende stoffer**, som amfetamin, kokain og MDMA, gir **energi** og **eufori**, men ofte **nedstemthet** og **uro** etterpå. De kan belaste **hjertet**.\n- **Nikotin** i snus og e-sigaretter er sterkt **avhengighetsskapende**.\n- **Legemidler** som beroligende midler og sterke smertestillende kan også misbrukes, og **forfalskede** tabletter kan inneholde farlige stoffer.\n\n## Rus og psykisk helse\n\nForholdet mellom rus og psykisk helse går **begge veier**:\n\n- Noen bruker rus for å dempe **angst**, **nedstemthet** eller **søvnproblemer** – såkalt **selvmedisinering**. På sikt gjør rusen ofte plagene **verre**.\n- Rusbruk kan utløse eller forverre **angst**, **depresjon** og **psykoser**.\n\nRus kan også gå ut over **livskvaliteten**: dårligere **skoleprestasjoner**, **fravær**, **konflikter** med familie og venner, **økonomiske** problemer og **straffereaksjoner**.\n\n## Risiko og beskyttelse\n\n**Sårbarheten** varierer. Risikoen øker ved tidlig debut, rusbruk i **familien**, psykiske vansker og venner som ruser seg. **Beskyttende** faktorer er gode **relasjoner**, foreldre som setter tydelige **grenser**, **mestring** på skolen og i fritiden og å vente med å **debutere**.\n\nDe fleste ungdommer i Norge bruker **ikke** narkotika. Mange tror likevel at «**alle andre**» gjør det. Når ungdom får vite hva jevnaldrende **faktisk** gjør, kan det dempe presset.\n\n## Myter og kildekritikk\n\n«**Naturlig betyr ufarlig**» er en myte – cannabis og sopp er naturlige, men kan være skadelige. Vær **kildekritisk** til innlegg i sosiale medier som gjør rus til en **livsstil**.\n\n## Å få hjelp\n\nUngdom kan snakke med **helsesykepleier**, **fastlege** eller **rådgiver**, og nettsteder som **ung.no** gir anonym informasjon.",
+  "flashcards": [
+    { "term": "Ungdomshjernen", "def": "Ikke ferdig utviklet før i midten av 20-årene." },
+    { "term": "Pannelappen hos ungdom", "def": "Modnes sist – impulskontroll og vurdering av konsekvenser." },
+    { "term": "Belønningssystemet", "def": "Gir lyst til å gjenta nyttige handlinger, styres blant annet av dopamin." },
+    { "term": "Toleranse", "def": "Man trenger mer av stoffet for samme virkning." },
+    { "term": "Abstinens", "def": "Ubehagelige reaksjoner når man slutter med et rusmiddel." },
+    { "term": "Avhengighet", "def": "Sterk trang og tap av kontroll over bruken." },
+    { "term": "Alkohol", "def": "Det mest brukte rusmiddelet – virker dempende på hjernen." },
+    { "term": "Hukommelsestap ved alkohol", "def": "Skyldes blant annet at hippocampus påvirkes." },
+    { "term": "THC", "def": "Virkestoffet i cannabis – påvirker hukommelse og konsentrasjon." },
+    { "term": "Psykose", "def": "Tilstand med svekket virkelighetsoppfatning – risikoen øker ved cannabisbruk hos sårbare." },
+    { "term": "Sentralstimulerende stoffer", "def": "Amfetamin, kokain og MDMA – gir energi, men ofte nedstemthet etterpå." },
+    { "term": "Selvmedisinering", "def": "Å bruke rus for å dempe psykiske plager." },
+    { "term": "Beskyttende faktorer", "def": "Gode relasjoner, tydelige grenser og mestring." },
+    { "term": "Sen debut", "def": "Å vente med rus reduserer risikoen for problemer senere." },
+    { "term": "«Alle andre gjør det»", "def": "Vanlig overvurdering av jevnaldrendes rusbruk." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hvilken del av hjernen modnes sist?", "options": ["Hjernestammen", "Pannelappen", "Lillehjernen", "Bakhodelappen"], "correct": 1, "explain": "Viktig for impulskontroll." },
+    { "id": "q02", "text": "Hvilket signalstoff er sentralt i belønningssystemet?", "options": ["Dopamin", "Melatonin", "Insulin", "Kortisol"], "correct": 0, "explain": "Rusmidler gir kraftig dopaminøkning." },
+    { "id": "q03", "text": "Hva er toleranse?", "options": ["At man tåler kritikk", "At man slutter med rus", "At man trenger mer av stoffet for samme virkning", "At man får abstinens"], "correct": 2, "explain": "Hjernen tilpasser seg." },
+    { "id": "q04", "text": "Hvorfor kan alkohol gi hukommelsestap?", "options": ["Fordi alkohol gir mer dopamin", "Fordi lillehjernen lagrer minner", "Fordi alkohol er stimulerende", "Fordi hippocampus påvirkes"], "correct": 3, "explain": "Nye minner lagres dårlig." },
+    { "id": "q05", "text": "Hva øker risikoen for psykose ved cannabisbruk?", "options": ["Tidlig og hyppig bruk, særlig av sterke produkter", "Å bruke det sjelden som voksen", "Å drikke vann", "Å trene"], "correct": 0, "explain": "Særlig hos sårbare personer." },
+    { "id": "q06", "text": "Hva er selvmedisinering?", "options": ["Å ta medisiner fra lege", "Å bruke rus for å dempe psykiske plager", "Å trene for å bli glad", "Å sove mye"], "correct": 1, "explain": "Gjør ofte plagene verre på sikt." },
+    { "id": "q07", "text": "Hvorfor er ungdom mer sårbare for rusmidler?", "options": ["De har større hjerne", "De har mindre dopamin", "Hjernen er fortsatt i utvikling", "De tåler mer"], "correct": 2, "explain": "Tidlig debut gir større risiko." },
+    { "id": "q08", "text": "Hva er en beskyttende faktor mot rusproblemer?", "options": ["Venner som ruser seg", "Tidlig debut", "Rus i familien", "Gode relasjoner og tydelige grenser"], "correct": 3, "explain": "Også mestring på skole og fritid." },
+    { "id": "q09", "text": "Hva er avhengighet?", "options": ["Sterk trang og tap av kontroll over bruken", "Å bruke noe én gang", "At rusen virker svakere", "Å være sosial"], "correct": 0, "explain": "Bruken fortsetter selv med negative konsekvenser." },
+    { "id": "q10", "text": "Hvorfor er «naturlig betyr ufarlig» en myte?", "options": ["Fordi naturlige stoffer er ulovlige", "Fordi naturlige stoffer som cannabis kan være skadelige", "Fordi alt naturlig er sunt", "Fordi det ikke finnes naturlige rusmidler"], "correct": 1, "explain": "Naturlig betyr ikke trygt." }
+  ],
+  "mindmap": {
+    "label": "Rus og hjernen",
+    "children": [
+      { "label": "Ungdomshjernen", "children": [
+        { "label": "Pannelappen modnes sist" },
+        { "label": "Spenningssøking" },
+        { "label": "Sårbarhet" }
+      ] },
+      { "label": "Belønningssystemet", "children": [
+        { "label": "Dopamin" },
+        { "label": "Toleranse og abstinens" },
+        { "label": "Avhengighet" }
+      ] },
+      { "label": "Rusmidler", "children": [
+        { "label": "Alkohol" },
+        { "label": "Cannabis" },
+        { "label": "Sentralstimulerende og nikotin" }
+      ] },
+      { "label": "Psykisk helse", "children": [
+        { "label": "Selvmedisinering" },
+        { "label": "Angst, depresjon, psykose" },
+        { "label": "Livskvalitet" }
+      ] },
+      { "label": "Forebygging", "children": [
+        { "label": "Beskyttende faktorer" },
+        { "label": "Myter og normer" },
+        { "label": "Hjelp" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste ungdommer i Norge bruker ikke narkotika.", "correct": true, "explain": "Mange overvurderer hva andre gjør." },
+      { "id": "m02", "type": "sant-usant", "text": "Alkohol virker stimulerende på hjernen.", "correct": false, "explain": "Alkohol virker dempende." },
+      { "id": "m03", "type": "sant-usant", "text": "Rus kan både være en følge av og en årsak til psykiske plager.", "correct": true, "explain": "Forholdet går begge veier." },
+      { "id": "m04", "type": "sant-usant", "text": "Nikotin gir lite avhengighet.", "correct": false, "explain": "Nikotin er sterkt avhengighetsskapende." },
+      { "id": "m05", "type": "flervalg", "text": "Hvorfor kan alkohol svekke balansen?", "options": ["Den påvirker bakhodelappen", "Den påvirker lillehjernen", "Den påvirker hypofysen", "Den påvirker øresneglen"], "correct": 1, "explain": "Lillehjernen styrer balanse og koordinasjon." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kan skje etter bruk av sentralstimulerende stoffer?", "options": ["Nedstemthet og uro", "Bedre søvn", "Varig glede", "Bedre hukommelse"], "correct": 0, "explain": "En «nedtur» etter rusen." },
+      { "id": "m07", "type": "flervalg", "text": "Hvordan kan informasjon om jevnaldrendes faktiske rusbruk hjelpe?", "options": ["Den øker presset", "Den har ingen effekt", "Den kan dempe presset fordi mange overvurderer andres bruk", "Den gjør rus lovlig"], "correct": 2, "explain": "Sosiale normer påvirker atferd." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

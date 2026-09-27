@@ -1,0 +1,82 @@
+{
+  "id": "personlighet-og-identitet",
+  "fagId": "psykologi-1",
+  "trinnId": "vg2",
+  "name": "Arv, miljø, personlighet og identitet",
+  "intro": "Samspillet mellom arv og miljø, tvilling- og adopsjonsstudier, temperament, personlighetsteorier som femfaktormodellen, og identitetsutvikling hos Erikson og Marcia.",
+  "kompetansemaal": [7],
+  "sammendrag": "## Arv og miljø\n\nEr vi slik vi er på grunn av **genene** eller **oppveksten**? I dag mener de fleste psykologer at spørsmålet er feil stilt: **Arv og miljø virker sammen**.\n\n- Gener gir **anlegg** – for eksempel for å være utadvendt eller engstelig – men miljøet avgjør om og hvordan anleggene **kommer til uttrykk**.\n- Miljøet kan påvirke hvilke gener som **skrus av og på**. Dette kalles **epigenetikk**.\n- Barn **påvirker** også miljøet sitt: Et smilende barn får ofte flere smil tilbake.\n\n## Hvordan forskes det på arv og miljø?\n\n- **Tvillingstudier**: **Eneggede** tvillinger har tilnærmet **like gener**, mens **toeggede** deler omtrent **halvparten**. Er eneggede tvillinger mer like enn toeggede, tyder det på at **arv** betyr noe.\n- **Adopsjonsstudier**: Ligner adopterte barn mest på de **biologiske** foreldrene (arv) eller **adoptivforeldrene** (miljø)?\n\nStudiene tyder på at personlighetstrekk er **delvis arvelige**, ofte anslått til rundt **halvparten** av variasjonen mellom mennesker. Resten skyldes **miljø** – særlig erfaringer som er **unike** for hver person.\n\n## Temperament\n\n**Temperament** er medfødte tendenser i hvordan vi **reagerer**, for eksempel hvor **aktive**, **rolige** eller **sky** vi er. Noen spedbarn er lette å roe, andre reagerer sterkt på nye ting. Temperamentet er et **grunnlag** som personligheten bygges videre på.\n\n## Personlighet\n\n**Personlighet** er relativt **stabile** mønstre i hvordan vi tenker, føler og handler.\n\n- **Trekkteori**: Den mest brukte modellen er **femfaktormodellen** med fem dimensjoner:\n  - **åpenhet** for erfaringer\n  - **planmessighet**\n  - **ekstroversjon** (utadvendthet)\n  - **medmenneskelighet**\n  - **nevrotisisme** (følelsesmessig ustabilitet)\n\n  Trekkene er ganske **stabile** i voksen alder, men kan endre seg noe over livet.\n\n- **Psykodynamisk teori** (Freud) forklarer personligheten ut fra **ubevisste** konflikter og barndommen.\n- **Humanistisk teori** (Rogers) vektlegger **selvbildet**. Når det er stor avstand mellom hvem vi **er**, og hvem vi **ønsker** å være, kan vi få det vanskelig.\n- **Sosialkognitiv teori** (Bandura) ser personligheten som et samspill mellom **person**, **atferd** og **miljø**.\n\n## Identitet\n\n**Identitet** er opplevelsen av **hvem man er** – og å være den **samme** over tid.\n\n**Erik Erikson** beskrev livet som **åtte stadier**, hvert med en **krise** eller oppgave. I **ungdomstiden** står kampen mellom **identitet** og **rolleforvirring**: Hvem er jeg, hva tror jeg på, og hvor skal jeg?\n\n**James Marcia** beskrev fire **identitetsstatuser** ut fra om ungdommen har **utforsket** alternativer, og om hen har **forpliktet** seg:\n\n| Status | Utforsket? | Forpliktet? |\n|---|---|---|\n| **Oppnådd identitet** | ja | ja |\n| **Moratorium** | er i gang | nei |\n| **Overtatt identitet** | nei | ja – ofte foreldrenes valg |\n| **Diffus identitet** | nei | nei |\n\nIdentitet formes også av **grupper** vi tilhører – **sosial identitet** – som familie, venner, kjønn, religion, språk og kultur. **Sosiale medier** gir nye arenaer for å **prøve ut** og **vise fram** identitet, men også for **sammenligning** med andre.\n\n## Oppsummering\n\nPersonlighet og identitet vokser fram i et **samspill** mellom **medfødte anlegg**, **erfaringer**, **relasjoner** og **kultur** – og mennesket er selv med på å forme sin egen utvikling.",
+  "flashcards": [
+    { "term": "Arv og miljø", "def": "Gener og erfaringer som sammen former oss." },
+    { "term": "Anlegg", "def": "Genetisk grunnlag som miljøet avgjør uttrykket av." },
+    { "term": "Epigenetikk", "def": "Miljøet påvirker hvilke gener som skrus av og på." },
+    { "term": "Tvillingstudier", "def": "Sammenligner eneggede og toeggede tvillinger for å undersøke arv." },
+    { "term": "Adopsjonsstudier", "def": "Sammenligner adopterte med biologiske foreldre og adoptivforeldre." },
+    { "term": "Temperament", "def": "Medfødte tendenser i hvordan vi reagerer." },
+    { "term": "Personlighet", "def": "Relativt stabile mønstre i tanker, følelser og atferd." },
+    { "term": "Femfaktormodellen", "def": "Åpenhet, planmessighet, ekstroversjon, medmenneskelighet og nevrotisisme." },
+    { "term": "Nevrotisisme", "def": "Tendens til følelsesmessig ustabilitet og bekymring." },
+    { "term": "Selvbilde", "def": "Hvordan vi oppfatter oss selv – sentralt hos Rogers." },
+    { "term": "Identitet", "def": "Opplevelsen av hvem man er, og å være den samme over tid." },
+    { "term": "Identitet mot rolleforvirring", "def": "Eriksons stadium i ungdomstiden." },
+    { "term": "Oppnådd identitet", "def": "Marcia: har utforsket og forpliktet seg." },
+    { "term": "Moratorium", "def": "Marcia: utforsker, men har ikke forpliktet seg ennå." },
+    { "term": "Overtatt identitet", "def": "Marcia: forpliktet uten å utforske, ofte foreldrenes valg." },
+    { "term": "Diffus identitet", "def": "Marcia: verken utforsket eller forpliktet." },
+    { "term": "Sosial identitet", "def": "Den delen av identiteten som kommer fra gruppene vi tilhører." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva mener de fleste psykologer i dag om arv og miljø?", "options": ["Bare arv betyr noe", "Arv og miljø virker sammen", "Bare miljø betyr noe", "Ingen av delene betyr noe"], "correct": 1, "explain": "Spørsmålet «arv eller miljø» er feil stilt." },
+    { "id": "q02", "text": "Hvorfor brukes eneggede tvillinger i forskning?", "options": ["De har tilnærmet like gener", "De har ulike gener", "De vokser alltid opp hver for seg", "De er alltid like i alt"], "correct": 0, "explain": "Forskjeller kan da skyldes miljø." },
+    { "id": "q03", "text": "Hva er epigenetikk?", "options": ["Studiet av tvillinger", "En personlighetstest", "At miljøet påvirker hvilke gener som skrus av og på", "At gener aldri endres"], "correct": 2, "explain": "Et eksempel på samspill mellom arv og miljø." },
+    { "id": "q04", "text": "Hvilken dimensjon hører til femfaktormodellen?", "options": ["Intelligens", "Kreativitet", "Humor", "Ekstroversjon"], "correct": 3, "explain": "Sammen med åpenhet, planmessighet, medmenneskelighet og nevrotisisme." },
+    { "id": "q05", "text": "Hvilket stadium hos Erikson hører til ungdomstiden?", "options": ["Identitet mot rolleforvirring", "Tillit mot mistillit", "Integritet mot fortvilelse", "Intimitet mot isolasjon"], "correct": 0, "explain": "Hvem er jeg, og hvor skal jeg?" },
+    { "id": "q06", "text": "En ungdom har valgt samme yrke som foreldrene uten å vurdere andre muligheter. Hvilken status er dette hos Marcia?", "options": ["Oppnådd identitet", "Overtatt identitet", "Moratorium", "Diffus identitet"], "correct": 1, "explain": "Forpliktet uten å utforske." },
+    { "id": "q07", "text": "Hva er temperament?", "options": ["Et resultat av oppdragelsen alene", "Et personlighetstrekk som dannes i voksen alder", "Medfødte tendenser i hvordan vi reagerer", "En identitetsstatus"], "correct": 2, "explain": "Et grunnlag for personligheten." },
+    { "id": "q08", "text": "Hva vektlegger Rogers i sin personlighetsteori?", "options": ["Ubevisste drifter", "Gener", "Belønning og straff", "Selvbildet og avstanden til den man ønsker å være"], "correct": 3, "explain": "Et humanistisk perspektiv." },
+    { "id": "q09", "text": "Hva er moratorium hos Marcia?", "options": ["At man utforsker, men ikke har forpliktet seg ennå", "At man har bestemt seg", "At man ikke bryr seg", "At man overtar foreldrenes valg"], "correct": 0, "explain": "En aktiv utforskningsfase." },
+    { "id": "q10", "text": "Hva er sosial identitet?", "options": ["Antall følgere i sosiale medier", "Den delen av identiteten som kommer fra gruppene vi tilhører", "Et personlighetstrekk", "En diagnose"], "correct": 1, "explain": "Familie, venner, kultur og mer." }
+  ],
+  "mindmap": {
+    "label": "Arv, miljø og personlighet",
+    "children": [
+      { "label": "Arv og miljø", "children": [
+        { "label": "Samspill" },
+        { "label": "Epigenetikk" },
+        { "label": "Tvilling- og adopsjonsstudier" }
+      ] },
+      { "label": "Personlighet", "children": [
+        { "label": "Temperament" },
+        { "label": "Femfaktormodellen" },
+        { "label": "Freud, Rogers og Bandura" }
+      ] },
+      { "label": "Erikson", "children": [
+        { "label": "Åtte stadier" },
+        { "label": "Identitet mot rolleforvirring" }
+      ] },
+      { "label": "Marcia", "children": [
+        { "label": "Utforsking" },
+        { "label": "Forpliktelse" },
+        { "label": "Fire statuser" }
+      ] },
+      { "label": "Sosial identitet", "children": [
+        { "label": "Grupper" },
+        { "label": "Sosiale medier" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Barn kan selv påvirke miljøet de vokser opp i.", "correct": true, "explain": "Et smilende barn får ofte flere smil tilbake." },
+      { "id": "m02", "type": "sant-usant", "text": "Personlighetstrekk er helt uforanderlige gjennom hele livet.", "correct": false, "explain": "De er ganske stabile, men kan endre seg noe." },
+      { "id": "m03", "type": "sant-usant", "text": "Toeggede tvillinger deler omtrent halvparten av genene.", "correct": true, "explain": "Som vanlige søsken." },
+      { "id": "m04", "type": "sant-usant", "text": "Diffus identitet betyr at ungdommen har utforsket mye og tatt et klart valg.", "correct": false, "explain": "Diffus identitet betyr verken utforskning eller forpliktelse." },
+      { "id": "m05", "type": "flervalg", "text": "Hva måler nevrotisisme i femfaktormodellen?", "options": ["Hvor utadvendt man er", "Tendens til følelsesmessig ustabilitet", "Hvor ryddig man er", "Hvor kreativ man er"], "correct": 1, "explain": "Bekymring og negative følelser." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem beskrev fire identitetsstatuser?", "options": ["James Marcia", "Sigmund Freud", "Ivan Pavlov", "Jean Piaget"], "correct": 0, "explain": "Bygger på Eriksons teori." },
+      { "id": "m07", "type": "flervalg", "text": "Hva tyder det på hvis eneggede tvillinger er mer like enn toeggede?", "options": ["At miljøet betyr alt", "At tvillinger er spesielle", "At arv betyr noe for egenskapen", "At studien er feil"], "correct": 2, "explain": "De har flere gener felles." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

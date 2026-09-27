@@ -1,0 +1,85 @@
+{
+  "id": "sanser-persepsjon-og-kognisjon",
+  "fagId": "psykologi-1",
+  "trinnId": "vg2",
+  "name": "Sanser, persepsjon og kognisjon",
+  "intro": "Hvordan sansene tar inn informasjon, hvordan hjernen tolker den gjennom persepsjon og oppmerksomhet, og hvordan tenkning, skjemaer og kognitive skjevheter former hvordan vi forstår oss selv og verden.",
+  "kompetansemaal": [8, 11],
+  "sammendrag": "## Sansning og persepsjon\n\n**Sansning** er når **sanseceller** (reseptorer) fanger opp **stimuli** som lys, lyd og trykk og gjør dem om til **nervesignaler**. **Persepsjon** er hjernens **tolkning** av signalene – det vi faktisk **opplever**.\n\n- **Syn**: Lys treffer **netthinnen**. **Stavene** gir mørkesyn, **tappene** fargesyn. Signalene går til **bakhodelappen**.\n- **Hørsel**: Lydbølger får **trommehinnen** til å vibrere, og **øresneglen** gjør vibrasjonene om til nervesignaler.\n- I tillegg har vi **lukt**, **smak**, **berøring**, **balanse** og en sans for kroppens **stilling**.\n\nSansene **tilpasser** seg: Etter en stund merker vi ikke lenger lukten i et rom. Det kalles **sensorisk adaptasjon**.\n\n## Hvordan hjernen tolker\n\n- **Nedenfra og opp** (bottom-up): Persepsjonen bygges opp fra **sanseinntrykkene**.\n- **Ovenfra og ned** (top-down): **Forventninger**, **erfaringer** og **kultur** påvirker hva vi ser. Vi leser lett ord med feilstavinger fordi hjernen fyller inn.\n\n**Gestaltpsykologene** viste at vi ser **helheter**, ikke løse deler. Gestaltlovene sier at vi grupperer det som er **nært** hverandre, det som er **likt**, og at vi **lukker** figurer som ikke er hele. Vi skiller også mellom **figur** og **bakgrunn**.\n\n**Dybdesyn** bygger på at vi har **to øyne** som ser litt ulikt, og på signaler som **størrelse**, **overlapping** og **perspektiv**. **Synsbedrag** viser at persepsjonen kan **lure** oss.\n\n## Oppmerksomhet\n\nVi kan bare ta inn en liten del av alt rundt oss. **Selektiv oppmerksomhet** gjør at vi kan følge én samtale i et støyende rom, men likevel reagere når noen sier **navnet vårt** – **cocktailselskap-effekten**.\n\nI et kjent forsøk skulle deltakerne telle pasninger i en ballvideo, og mange la ikke merke til en person i **gorilladrakt** som gikk gjennom bildet. Det kalles **uoppmerksomhetsblindhet**. **Multitasking** er som regel rask **veksling** mellom oppgaver og gir flere feil.\n\n## Kognisjon\n\n**Kognisjon** er de mentale prosessene vi bruker for å tenke, huske, løse problemer og ta beslutninger. Vi organiserer kunnskap i **skjemaer** – mentale «maler» for hvordan ting pleier å være.\n\n**Daniel Kahneman** skilte mellom\n\n- **system 1**: rask, automatisk og intuitiv tenkning\n- **system 2**: langsom, bevisst og anstrengende tenkning\n\nSystem 1 bruker **heuristikker** – tommelfingerregler – som ofte fungerer, men kan gi **kognitive skjevheter**:\n\n- **Bekreftelsesfellen**: Vi leter etter informasjon som **bekrefter** det vi allerede tror.\n- **Tilgjengelighetsheuristikken**: Vi tror noe er vanlig fordi vi lett **husker** eksempler, for eksempel flyulykker fra nyhetene.\n- **Forankring**: Det første tallet vi hører, påvirker vurderingen vår.\n\n## Forståelse av oss selv og andre\n\nPersepsjon og kognisjon påvirker også **selvbildet**. Vi forklarer ofte egne suksesser med egne **evner**, men feil med **ytre** forhold – den **selvtjenende skjevheten**. Når vi vurderer **andre**, legger vi for mye vekt på **personlighet** og for lite på **situasjonen** – den **fundamentale attribusjonsfeilen**.\n\nÅ kjenne til slike skjevheter kan gjøre oss mer **kritiske** til egne vurderinger – for eksempel når vi møter informasjon i **sosiale medier**.",
+  "flashcards": [
+    { "term": "Sansning", "def": "Sanseceller fanger opp stimuli og gjør dem om til nervesignaler." },
+    { "term": "Persepsjon", "def": "Hjernens tolkning av sanseinntrykk." },
+    { "term": "Staver og tapper", "def": "Sanseceller i netthinnen for mørkesyn og fargesyn." },
+    { "term": "Sensorisk adaptasjon", "def": "Sansene slutter å reagere på en stimulus som ikke endrer seg." },
+    { "term": "Bottom-up", "def": "Persepsjon som bygges opp fra sanseinntrykkene." },
+    { "term": "Top-down", "def": "Forventninger og erfaringer styrer tolkningen." },
+    { "term": "Gestaltlover", "def": "Vi grupperer det som er nært, likt og lukker ufullstendige figurer." },
+    { "term": "Figur og bakgrunn", "def": "Vi skiller det vi fokuserer på fra resten av bildet." },
+    { "term": "Selektiv oppmerksomhet", "def": "Å rette oppmerksomheten mot noe og overse resten." },
+    { "term": "Cocktailselskap-effekten", "def": "Vi reagerer på navnet vårt selv om vi ikke følger med." },
+    { "term": "Uoppmerksomhetsblindhet", "def": "Å overse noe tydelig fordi oppmerksomheten er et annet sted." },
+    { "term": "Kognisjon", "def": "Mentale prosesser som tenkning, hukommelse og problemløsning." },
+    { "term": "Skjema", "def": "Mental mal for hvordan ting pleier å være." },
+    { "term": "System 1 og system 2", "def": "Rask intuitiv tenkning og langsom bevisst tenkning." },
+    { "term": "Heuristikk", "def": "Tommelfingerregel for raske vurderinger." },
+    { "term": "Bekreftelsesfellen", "def": "Å lete etter informasjon som bekrefter det man tror." },
+    { "term": "Tilgjengelighetsheuristikken", "def": "Å tro noe er vanlig fordi eksempler er lette å huske." },
+    { "term": "Fundamental attribusjonsfeil", "def": "Å overvurdere personlighet og undervurdere situasjonen hos andre." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er forskjellen på sansning og persepsjon?", "options": ["Det er det samme", "Sansning fanger opp stimuli, persepsjon tolker dem", "Persepsjon skjer i øyet", "Sansning er bare syn"], "correct": 1, "explain": "Persepsjonen er det vi opplever." },
+    { "id": "q02", "text": "Hvilke sanseceller gir fargesyn?", "options": ["Tappene", "Stavene", "Trommehinnen", "Øresneglen"], "correct": 0, "explain": "Stavene gir mørkesyn." },
+    { "id": "q03", "text": "Du leser lett et ord med feilstaving. Hvilken prosess er dette?", "options": ["Sensorisk adaptasjon", "Bottom-up", "Top-down", "Uoppmerksomhetsblindhet"], "correct": 2, "explain": "Forventninger fyller inn." },
+    { "id": "q04", "text": "Hva sier gestaltlovene?", "options": ["At vi ser løse deler", "At synet er perfekt", "At bare farger betyr noe", "At vi ser helheter og grupperer det som er nært og likt"], "correct": 3, "explain": "Helheten er mer enn summen av delene." },
+    { "id": "q05", "text": "Mange overså en gorilla mens de talte pasninger. Hva kalles dette?", "options": ["Uoppmerksomhetsblindhet", "Sensorisk adaptasjon", "Forankring", "Top-down"], "correct": 0, "explain": "Oppmerksomheten var et annet sted." },
+    { "id": "q06", "text": "Hva kjennetegner system 1 ifølge Kahneman?", "options": ["Langsom og bevisst", "Rask, automatisk og intuitiv", "Bare brukt i matematikk", "Uten feil"], "correct": 1, "explain": "System 2 er langsom og bevisst." },
+    { "id": "q07", "text": "Hva er bekreftelsesfellen?", "options": ["Å bekrefte avtaler", "Å huske for mye", "Å lete etter informasjon som bekrefter det man tror", "Å overse navnet sitt"], "correct": 2, "explain": "En vanlig kognitiv skjevhet." },
+    { "id": "q08", "text": "Noen tror flyulykker er vanlige fordi de ofte er i nyhetene. Hvilken skjevhet er dette?", "options": ["Forankring", "Selvtjenende skjevhet", "Fundamental attribusjonsfeil", "Tilgjengelighetsheuristikken"], "correct": 3, "explain": "Eksemplene er lette å huske." },
+    { "id": "q09", "text": "Hva er et skjema i kognitiv psykologi?", "options": ["En mental mal for hvordan ting pleier å være", "Et spørreskjema", "En del av øyet", "En timeplan"], "correct": 0, "explain": "Hjelper oss å tolke nye situasjoner." },
+    { "id": "q10", "text": "Hva er den fundamentale attribusjonsfeilen?", "options": ["Å forklare egne feil med uflaks", "Å overvurdere personlighet og undervurdere situasjonen hos andre", "Å glemme navn", "Å se synsbedrag"], "correct": 1, "explain": "Vi tror for lett at andres atferd skyldes hvem de er." }
+  ],
+  "mindmap": {
+    "label": "Sanser, persepsjon og kognisjon",
+    "children": [
+      { "label": "Sansene", "children": [
+        { "label": "Syn og hørsel" },
+        { "label": "Reseptorer" },
+        { "label": "Adaptasjon" }
+      ] },
+      { "label": "Persepsjon", "children": [
+        { "label": "Bottom-up og top-down" },
+        { "label": "Gestaltlover" },
+        { "label": "Dybdesyn og synsbedrag" }
+      ] },
+      { "label": "Oppmerksomhet", "children": [
+        { "label": "Selektiv" },
+        { "label": "Gorillaforsøket" },
+        { "label": "Multitasking" }
+      ] },
+      { "label": "Kognisjon", "children": [
+        { "label": "Skjemaer" },
+        { "label": "System 1 og 2" },
+        { "label": "Heuristikker" }
+      ] },
+      { "label": "Skjevheter", "children": [
+        { "label": "Bekreftelsesfellen" },
+        { "label": "Tilgjengelighet" },
+        { "label": "Attribusjonsfeil" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Vi slutter etter en stund å merke lukten i et rom.", "correct": true, "explain": "Sensorisk adaptasjon." },
+      { "id": "m02", "type": "sant-usant", "text": "Multitasking gjør oss som regel mer effektive og gir færre feil.", "correct": false, "explain": "Det er rask veksling som gir flere feil." },
+      { "id": "m03", "type": "sant-usant", "text": "Kultur og erfaring kan påvirke hvordan vi oppfatter det vi ser.", "correct": true, "explain": "Top-down-prosesser." },
+      { "id": "m04", "type": "sant-usant", "text": "Synsbedrag viser at persepsjonen alltid gir et riktig bilde av verden.", "correct": false, "explain": "De viser at persepsjonen kan lure oss." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er cocktailselskap-effekten?", "options": ["At vi blir trøtte på fest", "At vi reagerer på navnet vårt selv om vi ikke følger med", "At vi husker alt fra en fest", "At vi hører dårligere i støy"], "correct": 1, "explain": "Viser at vi bearbeider noe av det vi ikke fokuserer på." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er selvtjenende skjevhet?", "options": ["Å ta æren for suksess og skylde på ytre forhold ved feil", "Å hjelpe andre", "Å tenke langsomt", "Å stole på eksperter"], "correct": 0, "explain": "Beskytter selvbildet." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er forankring?", "options": ["At vi husker det siste vi hørte", "At vi stoler på venner", "At det første tallet vi hører påvirker vurderingen", "At vi ser dybde"], "correct": 2, "explain": "Brukes ofte i prisforhandlinger." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

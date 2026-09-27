@@ -1,0 +1,78 @@
+{
+  "id": "motivasjon-og-mestring",
+  "fagId": "psykologi-1",
+  "trinnId": "vg2",
+  "name": "Motivasjon, mestring og læring",
+  "intro": "Indre og ytre motivasjon, Maslows behovspyramide, selvbestemmelsesteorien, mestringsforventning, attribusjon og tankesett – og hvordan motivasjon, mestring og læring henger sammen.",
+  "kompetansemaal": [6],
+  "sammendrag": "## Hva er motivasjon?\n\n**Motivasjon** er det som **setter i gang**, gir **retning** til og **opprettholder** atferd. Uten motivasjon blir det lite læring – og uten mestring blir det ofte lite motivasjon.\n\n## Indre og ytre motivasjon\n\n- **Indre motivasjon**: Vi gjør noe fordi aktiviteten i seg selv er **interessant** eller **gøy**.\n- **Ytre motivasjon**: Vi gjør noe for å få en **belønning** eller unngå en **straff** – for eksempel karakterer eller penger.\n\nYtre belønninger kan i noen tilfeller **svekke** den indre motivasjonen. Barn som fikk belønning for å tegne, tegnet **mindre** av seg selv etterpå enn barn som ikke fikk belønning.\n\n## Maslows behovspyramide\n\n**Abraham Maslow** ordnet menneskets behov i en **pyramide**:\n\n1. **fysiologiske** behov – mat, søvn, vann\n2. **trygghet**\n3. **kjærlighet** og **tilhørighet**\n4. **anerkjennelse** og selvrespekt\n5. **selvrealisering**\n\nIfølge Maslow må de lavere behovene langt på vei være dekket før de høyere motiverer oss. En elev som er **sulten** eller **utrygg**, har vanskelig for å konsentrere seg om læring. Modellen er kritisert for at rekkefølgen ikke alltid stemmer, og for å være preget av **vestlige** verdier.\n\n## Selvbestemmelsesteorien\n\n**Deci og Ryan** mener vi har tre **grunnleggende psykologiske behov**:\n\n- **Autonomi** – å oppleve at vi selv velger\n- **Kompetanse** – å føle at vi mestrer\n- **Tilhørighet** – å høre til og bli sett\n\nNår behovene dekkes, øker den **indre** motivasjonen.\n\n## Mestringsforventning\n\n**Albert Bandura** innførte begrepet **mestringsforventning** – troen på at du **klarer** en bestemt oppgave. Den bygges gjennom\n\n- **egne mestringserfaringer** – den viktigste kilden\n- å se **andre** som ligner deg, lykkes\n- **oppmuntring** fra andre\n- hvordan du tolker **kroppens signaler**, som hjertebank før en prøve\n\nHøy mestringsforventning gjør at vi **prøver** mer, **holder ut** lenger og velger mer **krevende** oppgaver.\n\n## Attribusjon og tankesett\n\n**Attribusjon** er hvordan vi **forklarer** suksess og nederlag. Forklarer eleven en dårlig karakter med «jeg er dum», er årsaken **indre**, **stabil** og **ukontrollerbar** – og motivasjonen synker. Forklarer eleven den med «jeg øvde for lite», kan det **endres**.\n\nOpplever noen gang på gang at innsats ikke hjelper, kan de utvikle **lært hjelpeløshet** og slutte å prøve.\n\n**Carol Dweck** skiller mellom et **fastlåst** tankesett – evner er medfødte og uforanderlige – og et **veksttankesett** – evner kan utvikles gjennom innsats. Et veksttankesett gjør det lettere å se **feil** som en del av læringen.\n\n## Flyt\n\n**Flyt** er en tilstand der vi er helt **oppslukt** av en aktivitet. Den oppstår når **utfordringen** passer til **ferdighetene** – for lett gir **kjedsomhet**, for vanskelig gir **angst**.\n\n## Sammenhengen\n\n**Motivasjon** gir innsats, **innsats** gir **mestring**, og mestring styrker **mestringsforventningen** og motivasjonen – en **positiv spiral**. Den kan også gå motsatt vei: Nederlag kan gi lavere forventning, mindre innsats og nye nederlag. Lærere kan bryte en negativ spiral ved å gi oppgaver på **riktig nivå**, konkrete **tilbakemeldinger** og mulighet for **valg**.",
+  "flashcards": [
+    { "term": "Motivasjon", "def": "Det som setter i gang, gir retning til og opprettholder atferd." },
+    { "term": "Indre motivasjon", "def": "Å gjøre noe fordi aktiviteten selv er interessant." },
+    { "term": "Ytre motivasjon", "def": "Å gjøre noe for belønning eller for å unngå straff." },
+    { "term": "Maslows behovspyramide", "def": "Fysiologiske behov, trygghet, tilhørighet, anerkjennelse og selvrealisering." },
+    { "term": "Selvbestemmelsesteorien", "def": "Deci og Ryan: behov for autonomi, kompetanse og tilhørighet." },
+    { "term": "Autonomi", "def": "Opplevelsen av å velge selv." },
+    { "term": "Mestringsforventning", "def": "Troen på at man klarer en bestemt oppgave." },
+    { "term": "Mestringserfaring", "def": "Den viktigste kilden til mestringsforventning." },
+    { "term": "Attribusjon", "def": "Hvordan vi forklarer årsaken til suksess og nederlag." },
+    { "term": "Lært hjelpeløshet", "def": "Å slutte å prøve etter å ha opplevd at innsats ikke hjelper." },
+    { "term": "Fastlåst tankesett", "def": "Troen på at evner er medfødte og uforanderlige." },
+    { "term": "Veksttankesett", "def": "Troen på at evner kan utvikles gjennom innsats." },
+    { "term": "Flyt", "def": "Å være helt oppslukt når utfordringen passer til ferdighetene." },
+    { "term": "Positiv spiral", "def": "Motivasjon gir innsats og mestring, som gir mer motivasjon." },
+    { "term": "Carol Dweck", "def": "Psykolog kjent for teorien om tankesett." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er indre motivasjon?", "options": ["Å jobbe for karakterer", "Å gjøre noe fordi det er interessant i seg selv", "Å unngå straff", "Å få penger"], "correct": 1, "explain": "Ytre motivasjon handler om belønning og straff." },
+    { "id": "q02", "text": "Hva ligger nederst i Maslows behovspyramide?", "options": ["Fysiologiske behov", "Selvrealisering", "Anerkjennelse", "Tilhørighet"], "correct": 0, "explain": "Mat, søvn og vann." },
+    { "id": "q03", "text": "Hvilke tre behov beskriver selvbestemmelsesteorien?", "options": ["Mat, søvn og vann", "Id, ego og superego", "Autonomi, kompetanse og tilhørighet", "Trygghet, penger og makt"], "correct": 2, "explain": "Deci og Ryan." },
+    { "id": "q04", "text": "Hva er den viktigste kilden til mestringsforventning?", "options": ["Belønninger", "Karakterer", "Oppmuntring fra lærer", "Egne mestringserfaringer"], "correct": 3, "explain": "Ifølge Bandura." },
+    { "id": "q05", "text": "En elev sier «jeg er bare dum i matte». Hvordan er denne attribusjonen?", "options": ["Indre, stabil og ukontrollerbar", "Ytre og ustabil", "Kontrollerbar", "Ytre og stabil"], "correct": 0, "explain": "Den svekker motivasjonen." },
+    { "id": "q06", "text": "Hva er lært hjelpeløshet?", "options": ["Å be om hjelp", "Å slutte å prøve fordi innsats ikke oppleves å hjelpe", "Å hjelpe andre", "Å lære raskt"], "correct": 1, "explain": "Beskrevet av Seligman." },
+    { "id": "q07", "text": "Hva kjennetegner et veksttankesett?", "options": ["At evner er medfødte", "At feil er pinlige", "At evner kan utvikles gjennom innsats", "At man ikke trenger å øve"], "correct": 2, "explain": "Carol Dweck." },
+    { "id": "q08", "text": "Når oppstår flyt?", "options": ["Når oppgaven er altfor lett", "Når oppgaven er altfor vanskelig", "Når man er trøtt", "Når utfordringen passer til ferdighetene"], "correct": 3, "explain": "For lett gir kjedsomhet, for vanskelig gir angst." },
+    { "id": "q09", "text": "Hva kan skje med indre motivasjon når man får belønning for noe man allerede liker?", "options": ["Den kan svekkes", "Den blir alltid sterkere", "Ingenting", "Den forsvinner alltid"], "correct": 0, "explain": "Vist i forsøk med barn som tegnet." },
+    { "id": "q10", "text": "Hvordan kan en lærer bryte en negativ spiral?", "options": ["Gi vanskeligere oppgaver", "Gi oppgaver på riktig nivå og konkrete tilbakemeldinger", "Ikke gi tilbakemeldinger", "Sammenligne eleven med de beste"], "correct": 1, "explain": "Mestring styrker motivasjonen." }
+  ],
+  "mindmap": {
+    "label": "Motivasjon og mestring",
+    "children": [
+      { "label": "Typer", "children": [
+        { "label": "Indre" },
+        { "label": "Ytre" }
+      ] },
+      { "label": "Behov", "children": [
+        { "label": "Maslow" },
+        { "label": "Autonomi, kompetanse, tilhørighet" }
+      ] },
+      { "label": "Mestring", "children": [
+        { "label": "Mestringsforventning" },
+        { "label": "Fire kilder" }
+      ] },
+      { "label": "Tolkning", "children": [
+        { "label": "Attribusjon" },
+        { "label": "Lært hjelpeløshet" },
+        { "label": "Tankesett" }
+      ] },
+      { "label": "Læring", "children": [
+        { "label": "Flyt" },
+        { "label": "Positiv spiral" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En elev som er sulten eller utrygg, har ofte vanskeligere for å lære.", "correct": true, "explain": "Grunnleggende behov må dekkes." },
+      { "id": "m02", "type": "sant-usant", "text": "Maslows pyramide er fri for kritikk.", "correct": false, "explain": "Rekkefølgen stemmer ikke alltid, og den er preget av vestlige verdier." },
+      { "id": "m03", "type": "sant-usant", "text": "Å se andre som ligner deg lykkes, kan styrke din egen mestringsforventning.", "correct": true, "explain": "En av Banduras kilder." },
+      { "id": "m04", "type": "sant-usant", "text": "Høy mestringsforventning gjør at vi gir opp raskere.", "correct": false, "explain": "Vi prøver mer og holder ut lenger." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken forklaring på en dårlig karakter gir best grunnlag for motivasjon?", "options": ["«Jeg er dum»", "«Jeg øvde for lite»", "«Læreren hater meg»", "«Jeg har aldri vært flink»"], "correct": 1, "explain": "Årsaken kan endres." },
+      { "id": "m06", "type": "flervalg", "text": "Hva ligger øverst i Maslows behovspyramide?", "options": ["Selvrealisering", "Trygghet", "Fysiologiske behov", "Tilhørighet"], "correct": 0, "explain": "Å utvikle sitt potensial." },
+      { "id": "m07", "type": "flervalg", "text": "Hva gir en for vanskelig oppgave ofte?", "options": ["Flyt", "Kjedsomhet", "Angst og stress", "Selvrealisering"], "correct": 2, "explain": "Flyt krever balanse." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
