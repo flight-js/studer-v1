@@ -1,0 +1,82 @@
+{
+  "id": "marginalisering-og-inkludering",
+  "fagId": "sosiologi-og-sosialantropologi",
+  "trinnId": "vg2",
+  "name": "Marginalisering, utenforskap og inkludering",
+  "intro": "Hva marginalisering og utenforskap er, årsaker på individ- og samfunnsnivå – som fattigdom, frafall, helse og diskriminering – og hvordan tiltak kan motvirke utenforskap og fremme inkludering.",
+  "kompetansemaal": [9],
+  "sammendrag": "## Begreper\n\n- **Marginalisering** er en prosess der personer eller grupper blir skjøvet ut i **utkanten** av samfunnet og får **mindre tilgang** til goder som arbeid, utdanning, inntekt, bolig og innflytelse.\n- **Utenforskap** er tilstanden av å stå **utenfor** viktige fellesskap – for eksempel arbeidsliv, skole eller sosiale nettverk.\n- **Inkludering** betyr at alle får **delta** på like vilkår og blir **anerkjent** som en del av fellesskapet.\n\n## Hvem er utsatt?\n\n- Unge som **verken er i arbeid, utdanning eller opplæring** (på engelsk **NEET**).\n- Personer med **lav inntekt** og barn i **fattige familier**.\n- Personer med **psykiske** eller **fysiske** helseproblemer og **funksjonsnedsettelser**.\n- Noen **innvandrere** og deres barn, særlig de som møter språkbarrierer og diskriminering.\n- Personer med **rusproblemer**, tidligere innsatte og bostedsløse.\n\nUtenforskap kan også være **sosialt** – ensomhet – selv om man har jobb.\n\n## Årsaker på individnivå\n\n- **Helse**: sykdom og psykiske plager.\n- **Utdanning**: Å ikke fullføre videregående øker risikoen for å stå utenfor arbeidslivet.\n- **Familie og oppvekst**: vanskelige hjemmeforhold, lite støtte.\n- **Nettverk**: få kontakter som kan åpne dører.\n\n## Årsaker på samfunnsnivå\n\n- **Arbeidsmarkedet**: Det stilles stadig høyere krav til **kompetanse**, og det finnes færre jobber for dem uten utdanning.\n- **Økonomisk ulikhet** og **boligpriser**.\n- **Diskriminering**: Forskning har vist at søkere med utenlandskklingende navn i gjennomsnitt blir kalt inn til **færre intervjuer** enn søkere med norske navn og like kvalifikasjoner.\n- **Stigma**: Fordommer mot for eksempel psykisk sykdom eller trygdemottakere.\n- **Strukturer** i velferdsstaten som ikke fanger opp alle.\n\nÅrsakene **forsterker** ofte hverandre – det kalles en **ond sirkel**: Dårlig helse kan gi frafall, som gir svak tilknytning til arbeidslivet, lav inntekt og ensomhet, som igjen forverrer helsen.\n\n## Konsekvenser\n\n- For **individet**: dårligere økonomi, helse og livskvalitet, ensomhet og tap av mestring.\n- For **samfunnet**: tapt arbeidskraft, økte utgifter til velferd og lavere **tillit** og **samhold**.\n\n## Tiltak\n\n**Utdanning**:\n\n- Tidlig innsats, oppfølging og alternative løp i skolen for å redusere **frafall**.\n- Rett til å fullføre videregående.\n\n**Arbeid**:\n\n- **NAV** med arbeidsrettede tiltak, lønnstilskudd og kvalifisering.\n- Modeller som **Individuell jobbstøtte (IPS)**, der personer med psykiske lidelser får hjelp til ordinært arbeid med tett oppfølging.\n\n**Økonomi og bolig**: sosialhjelp, bostøtte og startlån.\n\n**Fellesskap**: frivillige organisasjoner, idrett og kulturtilbud – ofte med **gratis** eller rimelig deltakelse.\n\n**Mot diskriminering**: lover som **likestillings- og diskrimineringsloven**, anonyme søknader og holdningsarbeid.\n\n## Drøfting\n\nNår du vurderer tiltak, kan du spørre om de retter seg mot **individet** eller mot **strukturene**, om de når dem som **trenger** dem mest, og om de gir **varig** endring. Mange mener at både **individuell oppfølging** og **endringer i samfunnet** trengs samtidig.",
+  "flashcards": [
+    { "term": "Marginalisering", "def": "Prosess der personer skyves ut i utkanten og får mindre tilgang til goder." },
+    { "term": "Utenforskap", "def": "Å stå utenfor viktige fellesskap som arbeid og skole." },
+    { "term": "Inkludering", "def": "At alle kan delta på like vilkår og blir anerkjent." },
+    { "term": "NEET", "def": "Unge som verken er i arbeid, utdanning eller opplæring." },
+    { "term": "Sosialt utenforskap", "def": "Ensomhet og mangel på nettverk." },
+    { "term": "Frafall", "def": "Å ikke fullføre videregående opplæring." },
+    { "term": "Diskriminering i arbeidslivet", "def": "Søkere med utenlandskklingende navn kalles inn til færre intervjuer." },
+    { "term": "Stigma", "def": "Negative fordommer knyttet til en egenskap eller gruppe." },
+    { "term": "Ond sirkel", "def": "Årsaker som forsterker hverandre." },
+    { "term": "Tidlig innsats", "def": "Hjelp tidlig for å forebygge problemer." },
+    { "term": "NAV", "def": "Arbeids- og velferdsforvaltningen med arbeidsrettede tiltak." },
+    { "term": "Individuell jobbstøtte (IPS)", "def": "Hjelp til ordinært arbeid med tett oppfølging." },
+    { "term": "Likestillings- og diskrimineringsloven", "def": "Forbyr diskriminering på grunn av blant annet etnisitet og kjønn." },
+    { "term": "Frivillige organisasjoner", "def": "Viktige arenaer for fellesskap og inkludering." },
+    { "term": "Strukturelle tiltak", "def": "Tiltak som endrer samfunnets rammer, ikke bare individet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er marginalisering?", "options": ["At noen blir rike", "En prosess der personer skyves ut i utkanten og får mindre tilgang til goder", "At noen flytter", "En type sykdom"], "correct": 1, "explain": "Tilgang til arbeid, utdanning og innflytelse." },
+    { "id": "q02", "text": "Hva står NEET for?", "options": ["Unge som verken er i arbeid, utdanning eller opplæring", "En type utdanning", "Et NAV-tiltak", "En diagnose"], "correct": 0, "explain": "En utsatt gruppe." },
+    { "id": "q03", "text": "Hva har forskning vist om søkere med utenlandskklingende navn?", "options": ["De får flere intervjuer", "Det er ingen forskjell", "De blir i gjennomsnitt kalt inn til færre intervjuer", "De søker ikke jobb"], "correct": 2, "explain": "Selv med like kvalifikasjoner." },
+    { "id": "q04", "text": "Hva er en ond sirkel i sammenheng med utenforskap?", "options": ["En sosial aktivitet", "En type tiltak", "Et vennskap", "At årsaker forsterker hverandre"], "correct": 3, "explain": "For eksempel helse, frafall og lav inntekt." },
+    { "id": "q05", "text": "Hva er Individuell jobbstøtte (IPS)?", "options": ["Hjelp til ordinært arbeid med tett oppfølging for personer med psykiske lidelser", "En type sosialhjelp", "En skole", "En skatteordning"], "correct": 0, "explain": "Arbeid som del av behandlingen." },
+    { "id": "q06", "text": "Hvilken er en årsak til utenforskap på samfunnsnivå?", "options": ["Personlige interesser", "Høye krav til kompetanse i arbeidsmarkedet", "Hobbyer", "Høyde"], "correct": 1, "explain": "Færre jobber uten utdanning." },
+    { "id": "q07", "text": "Hvorfor er frafall fra videregående en risiko?", "options": ["Det gir høyere lønn", "Det har ingen betydning", "Det øker risikoen for å stå utenfor arbeidslivet", "Det gir flere venner"], "correct": 2, "explain": "Utdanning er viktig for arbeid." },
+    { "id": "q08", "text": "Hva er en konsekvens av utenforskap for samfunnet?", "options": ["Mer arbeidskraft", "Lavere velferdsutgifter", "Høyere tillit", "Tapt arbeidskraft og økte velferdsutgifter"], "correct": 3, "explain": "Og svekket samhold." },
+    { "id": "q09", "text": "Hva er stigma?", "options": ["Negative fordommer knyttet til en egenskap eller gruppe", "En medisin", "En type skatt", "En utdanning"], "correct": 0, "explain": "For eksempel mot psykisk sykdom." },
+    { "id": "q10", "text": "Hva er et strukturelt tiltak mot diskriminering?", "options": ["Å be den diskriminerte endre navn", "Lovverk og anonyme søknader", "Å ignorere problemet", "Individuell trening"], "correct": 1, "explain": "Endrer rammene, ikke bare individet." }
+  ],
+  "mindmap": {
+    "label": "Marginalisering og inkludering",
+    "children": [
+      { "label": "Begreper", "children": [
+        { "label": "Marginalisering" },
+        { "label": "Utenforskap" },
+        { "label": "Inkludering" }
+      ] },
+      { "label": "Utsatte grupper", "children": [
+        { "label": "NEET" },
+        { "label": "Lav inntekt" },
+        { "label": "Helseproblemer" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Individnivå" },
+        { "label": "Samfunnsnivå" },
+        { "label": "Ond sirkel" }
+      ] },
+      { "label": "Konsekvenser", "children": [
+        { "label": "For individet" },
+        { "label": "For samfunnet" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "Utdanning" },
+        { "label": "NAV og IPS" },
+        { "label": "Frivillighet" },
+        { "label": "Mot diskriminering" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Man kan oppleve sosialt utenforskap selv om man har jobb.", "correct": true, "explain": "For eksempel ensomhet." },
+      { "id": "m02", "type": "sant-usant", "text": "Utenforskap skyldes bare individuelle valg.", "correct": false, "explain": "Også samfunnsforhold spiller inn." },
+      { "id": "m03", "type": "sant-usant", "text": "Frivillige organisasjoner kan bidra til inkludering.", "correct": true, "explain": "De gir fellesskap og nettverk." },
+      { "id": "m04", "type": "sant-usant", "text": "Diskriminering i arbeidslivet er ikke dokumentert i Norge.", "correct": false, "explain": "Forskning har dokumentert det." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket tiltak retter seg mot strukturene?", "options": ["Samtale med én elev", "Lover mot diskriminering", "Personlig trening", "Et motivasjonskurs"], "correct": 1, "explain": "Endrer samfunnets rammer." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken etat har hovedansvar for arbeidsrettede tiltak i Norge?", "options": ["NAV", "Skatteetaten", "Politiet", "Datatilsynet"], "correct": 0, "explain": "Arbeids- og velferdsforvaltningen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør du vurdere når du drøfter tiltak mot utenforskap?", "options": ["Bare prisen", "Bare hvem som foreslo tiltaket", "Om tiltakene når dem som trenger dem og gir varig endring", "Bare hvor raskt de virker"], "correct": 2, "explain": "Og om de retter seg mot individ eller struktur." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

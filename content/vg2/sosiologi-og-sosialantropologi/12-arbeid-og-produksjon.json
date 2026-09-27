@@ -1,0 +1,81 @@
+{
+  "id": "arbeid-og-produksjon",
+  "fagId": "sosiologi-og-sosialantropologi",
+  "trinnId": "vg2",
+  "name": "Arbeid, arbeidsdeling og produksjon",
+  "intro": "Hva arbeid betyr for individ og samfunn, ulike former for arbeidsdeling fra Adam Smith og Durkheim til global arbeidsdeling, hvordan teknologi har endret produksjonen – fra samlebånd til automatisering og plattformarbeid – og konsekvenser av ulik organisering av arbeid.",
+  "kompetansemaal": [14, 15],
+  "sammendrag": "## Hvorfor arbeid betyr så mye\n\nArbeid gir **inntekt**, men også mye mer. Sosialpsykologen **Marie Jahoda** studerte arbeidsledige i den østerrikske byen Marienthal på 1930-tallet og fant at arbeid dekker viktige **skjulte behov**: **tidsstruktur** i hverdagen, **sosial kontakt** utenfor familien, **mål og mening**, **status** og **identitet**, og regelmessig **aktivitet**. Derfor kan arbeidsledighet gå ut over helse og selvfølelse, selv om man har økonomisk støtte.\n\nFor **samfunnet** er arbeid grunnlaget for **verdiskaping**, **skatteinntekter** og **velferd**.\n\n## Arbeidsdeling\n\n**Arbeidsdeling** betyr at ulike personer eller grupper utfører ulike oppgaver.\n\n- **Adam Smith** beskrev i 1776 en **knappenålsfabrikk** der arbeidet var delt i mange små operasjoner. Produktiviteten økte enormt.\n- **Émile Durkheim** skilte mellom **mekanisk solidaritet** i enkle samfunn, der folk er **like** og holdes sammen av felles verdier, og **organisk solidaritet** i moderne samfunn, der folk er **avhengige av hverandre** fordi de gjør ulike ting – som organer i en kropp.\n- **Kjønnsbasert arbeidsdeling**: Tradisjonelt har kvinner hatt ansvar for omsorg og hjem, menn for lønnsarbeid. I Norge har dette endret seg mye, men mange yrker er fortsatt **kjønnsdelte**.\n- **Global arbeidsdeling**: Produksjon deles mellom land. Råvarer utvinnes ett sted, klær sys et annet og designes et tredje – i **globale verdikjeder**.\n\n## Teknologi og produksjon\n\n- **Den industrielle revolusjonen** flyttet produksjonen fra hjem og verksted til **fabrikker** med maskiner.\n- **Taylorisme**: **Frederick W. Taylor** delte arbeidet i enkle, tidsmålte operasjoner for å øke effektiviteten.\n- **Fordisme**: **Henry Ford** innførte **samlebåndet** i bilproduksjonen i 1913. Masseproduksjon ga billigere varer – men ensformig arbeid.\n- **Postfordisme**: Fra 1970-tallet ble produksjonen mer **fleksibel** og **kunnskapsbasert**, med vekt på kompetanse, teamarbeid og tilpasning til kunder.\n- **Automatisering og KI**: Roboter og programvare overtar stadig flere oppgaver – ikke bare fysisk arbeid, men også rutinepreget kontorarbeid.\n\nI Norge arbeider i dag **over tre av fire** i **tjenesteytende** næringer.\n\n## Marx og fremmedgjøring\n\n**Karl Marx** mente at arbeideren i kapitalismen blir **fremmedgjort**: fra produktet, fra arbeidsprosessen, fra andre mennesker og fra sin egen skapende evne. Kritikere av dagens arbeidsliv peker på lignende trekk i **ensformig** og **overvåket** arbeid.\n\n## Ulik organisering av arbeid\n\n- **Den norske modellen**: **trepartssamarbeid** mellom arbeidstakere, arbeidsgivere og staten, høy organisasjonsgrad, **arbeidsmiljøloven** og medbestemmelse. Det gir trygghet, små lønnsforskjeller og høy produktivitet.\n- **Plattformarbeid** (gig-økonomi), som matlevering og taxi via apper: **fleksibelt**, men ofte uten fast lønn, sykelønn og pensjon.\n- **Midlertidige** kontrakter og **innleie** kan gi bedriftene fleksibilitet, men arbeidstakerne mindre trygghet.\n- **Globale verdikjeder** kan gi billige varer, men også dårlige arbeidsforhold. Da **Rana Plaza**-bygningen i Bangladesh raste sammen i 2013, omkom over 1100 tekstilarbeidere.\n\n## Drøfting\n\nNår du drøfter arbeid, kan du se på **effektivitet** og **lønnsomhet**, men også på **trygghet**, **helse**, **medbestemmelse**, **likestilling** og **mening** for den enkelte – og på hvordan teknologi endrer **hvem** som får arbeid, og **hvilket** arbeid som finnes.",
+  "flashcards": [
+    { "term": "Marie Jahoda", "def": "Studerte arbeidsledige og beskrev arbeidets skjulte funksjoner." },
+    { "term": "Arbeidets skjulte funksjoner", "def": "Tidsstruktur, sosial kontakt, mening, status og aktivitet." },
+    { "term": "Arbeidsdeling", "def": "At ulike personer eller grupper utfører ulike oppgaver." },
+    { "term": "Adam Smith", "def": "Beskrev arbeidsdeling i en knappenålsfabrikk (1776)." },
+    { "term": "Mekanisk solidaritet", "def": "Samhold fordi folk er like (Durkheim)." },
+    { "term": "Organisk solidaritet", "def": "Samhold fordi folk er avhengige av hverandre (Durkheim)." },
+    { "term": "Global arbeidsdeling", "def": "Produksjon fordelt mellom land i globale verdikjeder." },
+    { "term": "Taylorisme", "def": "Arbeid delt i enkle, tidsmålte operasjoner." },
+    { "term": "Fordisme", "def": "Masseproduksjon ved samlebånd, fra 1913." },
+    { "term": "Postfordisme", "def": "Fleksibel og kunnskapsbasert produksjon." },
+    { "term": "Fremmedgjøring", "def": "Arbeideren blir fremmed for produktet og seg selv (Marx)." },
+    { "term": "Trepartssamarbeid", "def": "Samarbeid mellom arbeidstakere, arbeidsgivere og staten." },
+    { "term": "Plattformarbeid", "def": "Oppdrag via apper, fleksibelt, men ofte uten faste rettigheter." },
+    { "term": "Rana Plaza", "def": "Fabrikkollaps i Bangladesh 2013 der over 1100 omkom." },
+    { "term": "Tjenesteytende næringer", "def": "Sysselsetter over tre av fire i Norge." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva fant Marie Jahoda om arbeid?", "options": ["At arbeid bare gir inntekt", "At arbeid også dekker behov som tidsstruktur, sosial kontakt og mening", "At arbeidsledige er lykkeligere", "At arbeid er skadelig"], "correct": 1, "explain": "Studien i Marienthal." },
+    { "id": "q02", "text": "Hva er organisk solidaritet?", "options": ["Samhold fordi folk er avhengige av hverandre", "Samhold fordi folk er like", "Økologisk jordbruk", "En fagforening"], "correct": 0, "explain": "Typisk for moderne samfunn." },
+    { "id": "q03", "text": "Hva innførte Henry Ford i 1913?", "options": ["Fagforeninger", "Datamaskiner", "Samlebåndet", "Plattformarbeid"], "correct": 2, "explain": "Masseproduksjon av biler." },
+    { "id": "q04", "text": "Hva mente Marx med fremmedgjøring?", "options": ["Å flytte til utlandet", "Å lære et nytt språk", "Å bytte jobb", "At arbeideren blir fremmed for produktet, arbeidet og seg selv"], "correct": 3, "explain": "Kritikk av arbeid i kapitalismen." },
+    { "id": "q05", "text": "Hva kjennetegner den norske modellen?", "options": ["Trepartssamarbeid, høy organisasjonsgrad og medbestemmelse", "Ingen fagforeninger", "Store lønnsforskjeller", "Ingen arbeidsmiljølov"], "correct": 0, "explain": "Gir trygghet og små lønnsforskjeller." },
+    { "id": "q06", "text": "Hva er en ulempe ved plattformarbeid?", "options": ["For lite fleksibilitet", "Ofte ingen fast lønn, sykelønn og pensjon", "For mange faste stillinger", "For høy lønn"], "correct": 1, "explain": "Arbeidstakeren bærer mye av risikoen." },
+    { "id": "q07", "text": "Hva viste Adam Smiths knappenålsfabrikk?", "options": ["At maskiner er farlige", "At små fabrikker er best", "At arbeidsdeling øker produktiviteten kraftig", "At alle bør gjøre alt"], "correct": 2, "explain": "Fra 1776." },
+    { "id": "q08", "text": "Hva skjedde ved Rana Plaza i 2013?", "options": ["En stor streik i Norge", "Innføringen av samlebåndet", "En ny handelsavtale", "En fabrikkbygning raste sammen, og over 1100 tekstilarbeidere omkom"], "correct": 3, "explain": "Satte søkelys på arbeidsforhold i globale verdikjeder." },
+    { "id": "q09", "text": "Hva er postfordisme?", "options": ["Fleksibel og kunnskapsbasert produksjon", "Masseproduksjon ved samlebånd", "Håndverksproduksjon i hjemmet", "Jordbruk"], "correct": 0, "explain": "Fra 1970-tallet." },
+    { "id": "q10", "text": "Hvor mange i Norge arbeider i tjenesteytende næringer?", "options": ["Under en av ti", "Over tre av fire", "Omtrent halvparten", "Nesten ingen"], "correct": 1, "explain": "Tertiærnæringene dominerer." }
+  ],
+  "mindmap": {
+    "label": "Arbeid og produksjon",
+    "children": [
+      { "label": "Arbeidets betydning", "children": [
+        { "label": "Inntekt" },
+        { "label": "Jahoda: skjulte funksjoner" },
+        { "label": "Samfunnets velferd" }
+      ] },
+      { "label": "Arbeidsdeling", "children": [
+        { "label": "Adam Smith" },
+        { "label": "Durkheim" },
+        { "label": "Kjønn og globalt" }
+      ] },
+      { "label": "Teknologi", "children": [
+        { "label": "Taylorisme" },
+        { "label": "Fordisme" },
+        { "label": "Postfordisme og automatisering" }
+      ] },
+      { "label": "Organisering", "children": [
+        { "label": "Den norske modellen" },
+        { "label": "Plattformarbeid" },
+        { "label": "Globale verdikjeder" }
+      ] },
+      { "label": "Kritikk", "children": [
+        { "label": "Fremmedgjøring" },
+        { "label": "Trygghet og helse" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Arbeidsledighet kan gå ut over helsen selv om man har økonomisk støtte.", "correct": true, "explain": "Arbeid dekker mer enn økonomiske behov." },
+      { "id": "m02", "type": "sant-usant", "text": "Automatisering påvirker bare fysisk arbeid.", "correct": false, "explain": "Også rutinepreget kontorarbeid automatiseres." },
+      { "id": "m03", "type": "sant-usant", "text": "Mange yrker i Norge er fortsatt kjønnsdelte.", "correct": true, "explain": "For eksempel omsorg og bygg." },
+      { "id": "m04", "type": "sant-usant", "text": "Mekanisk solidaritet er typisk for moderne samfunn med mye spesialisering.", "correct": false, "explain": "Moderne samfunn preges av organisk solidaritet." },
+      { "id": "m05", "type": "flervalg", "text": "Hvem delte arbeidet i enkle, tidsmålte operasjoner?", "options": ["Karl Marx", "Frederick W. Taylor", "Émile Durkheim", "Marie Jahoda"], "correct": 1, "explain": "Taylorisme." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et trepartssamarbeid?", "options": ["Samarbeid mellom arbeidstakere, arbeidsgivere og staten", "Tre bedrifter som slår seg sammen", "Tre fagforeninger", "Tre land i en handelsavtale"], "correct": 0, "explain": "Kjernen i den norske modellen." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er en fordel ved globale verdikjeder for forbrukere?", "options": ["Bedre arbeidsforhold overalt", "Mindre transport", "Billigere varer", "Flere lokale arbeidsplasser alltid"], "correct": 2, "explain": "Men de kan gi dårlige arbeidsforhold." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

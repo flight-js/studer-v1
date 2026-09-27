@@ -1,0 +1,82 @@
+{
+  "id": "sosiale-avvik",
+  "fagId": "sosiologi-og-sosialantropologi",
+  "trinnId": "vg2",
+  "name": "Sosiale avvik og reaksjoner",
+  "intro": "Hva et sosialt avvik er, teorier om årsaker – anomi, press, sosialt lærte avvik og stempling – og hvordan individer og samfunnet reagerer, fra uformell sosial kontroll til straff og moralsk panikk.",
+  "kompetansemaal": [4],
+  "sammendrag": "## Hva er et avvik?\n\nEt **sosialt avvik** er atferd som bryter med **normene** i en gruppe eller et samfunn. Avvik er **relativt**: Det som er avvikende ett sted eller i én tid, kan være helt vanlig et annet sted eller i en annen tid. Tatoveringer, samboerskap og homofili har for eksempel gått fra å være avvik til å bli allment akseptert i Norge.\n\nAvvik kan være **kriminelle** (lovbrudd) eller **ikke-kriminelle** (for eksempel å snakke høyt i mobiltelefonen på stillekupé). Noen avvik blir sett på som **positive**, som varslere og nyskapende kunstnere.\n\n## Teorier om årsaker\n\n**Anomi (Durkheim)**: Når normene i samfunnet blir **uklare** eller svekkes, for eksempel i perioder med rask endring, kan folk miste retning. Det kan gi mer avvik.\n\n**Pressteori (Merton)**: Samfunnet setter **mål** – for eksempel suksess og penger – men ikke alle har **lovlige midler** til å nå dem. **Robert K. Merton** beskrev fem tilpasninger:\n\n- **Konformitet**: godtar både mål og midler.\n- **Innovasjon**: godtar målet, men bruker ulovlige midler, for eksempel svindel.\n- **Ritualisme**: gir opp målet, men følger reglene.\n- **Tilbaketrekning**: gir opp både mål og midler.\n- **Opprør**: erstatter mål og midler med nye.\n\n**Sosialt lært avvik**: Avvik læres som annen atferd – i **grupper** der avvikende normer er vanlige. Hvem du omgås, betyr noe.\n\n**Stemplingsteori (Becker)**: **Howard Becker** mente at avvik ikke bare er en egenskap ved handlingen, men et resultat av at andre **stempler** noen som avvikere. En som blir stemplet som «bråkmaker», kan begynne å se seg selv slik og handle deretter – en **selvoppfyllende profeti**. Skillet mellom **primæravvik** (en første normbrudd) og **sekundæravvik** (avvik som følge av stemplingen) er sentralt.\n\n**Sosial kontroll-teori**: Spørsmålet er ikke hvorfor noen bryter normer, men hvorfor de **fleste ikke gjør det**. Svaret er **bånd** til familie, skole, venner og aktiviteter – vi har noe å **tape**.\n\n## Individuelle reaksjoner\n\n- **Uformell sosial kontroll**: blikk, kommentarer, sladder, utestenging – eller ros.\n- **Formell sosial kontroll**: skolens regler, politi, domstoler og straff.\n\n## Kollektive reaksjoner\n\nSamfunnet reagerer også **samlet**:\n\n- **Lover** og **straff** – bøter, samfunnsstraff, fengsel. Norge legger stor vekt på **rehabilitering**, og norske fengsler er kjent for å legge til rette for tilbakeføring til samfunnet.\n- **Forebygging**: fritidstilbud, oppfølging i skolen, SLT-samarbeid mellom kommune og politi.\n- **Moralsk panikk**: Sosiologen **Stanley Cohen** beskrev hvordan medier og myndigheter kan **overdrive** en trussel fra en gruppe – «folkedjevler» – slik at reaksjonene blir sterkere enn problemet tilsier.\n\n## Drøfte reaksjoner\n\nNår du vurderer reaksjoner på avvik, spør:\n\n- Er reaksjonen **forholdsmessig**?\n- Virker den **forebyggende**, eller kan den føre til **mer** avvik gjennom stempling?\n- Tar den hensyn til **årsakene**?\n- Hvem har **makt** til å definere hva som er avvik?",
+  "flashcards": [
+    { "term": "Sosialt avvik", "def": "Atferd som bryter med normene i en gruppe eller et samfunn." },
+    { "term": "Avvik er relativt", "def": "Hva som regnes som avvik, varierer med tid og sted." },
+    { "term": "Anomi", "def": "Tilstand med uklare eller svekkede normer (Durkheim)." },
+    { "term": "Pressteori", "def": "Avvik oppstår når mål ikke kan nås med lovlige midler (Merton)." },
+    { "term": "Innovasjon (Merton)", "def": "Godtar målet, men bruker ulovlige midler." },
+    { "term": "Ritualisme (Merton)", "def": "Gir opp målet, men følger reglene." },
+    { "term": "Sosialt lært avvik", "def": "Avvik læres i grupper med avvikende normer." },
+    { "term": "Stemplingsteori", "def": "Avvik blir til når andre stempler noen som avvikere (Becker)." },
+    { "term": "Primæravvik", "def": "Det første normbruddet." },
+    { "term": "Sekundæravvik", "def": "Avvik som følge av stemplingen." },
+    { "term": "Selvoppfyllende profeti", "def": "En forventning som gjør seg selv sann." },
+    { "term": "Sosial kontroll-teori", "def": "Bånd til andre hindrer de fleste i å bryte normer." },
+    { "term": "Formell sosial kontroll", "def": "Regler, politi, domstoler og straff." },
+    { "term": "Moralsk panikk", "def": "Overdreven reaksjon på en oppfattet trussel (Cohen)." },
+    { "term": "Rehabilitering", "def": "Å hjelpe lovbrytere tilbake til et liv uten kriminalitet." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr det at avvik er relativt?", "options": ["At avvik alltid er kriminelt", "At hva som regnes som avvik, varierer med tid og sted", "At alle avvik er like alvorlige", "At avvik ikke finnes"], "correct": 1, "explain": "For eksempel tatoveringer og samboerskap." },
+    { "id": "q02", "text": "Hvem utviklet stemplingsteorien?", "options": ["Howard Becker", "Émile Durkheim", "Karl Marx", "Max Weber"], "correct": 0, "explain": "Boka Outsiders." },
+    { "id": "q03", "text": "Hva er innovasjon i Mertons pressteori?", "options": ["Å gi opp både mål og midler", "Å følge reglene uten mål", "Å godta målet, men bruke ulovlige midler", "Å finne nye mål og midler"], "correct": 2, "explain": "For eksempel svindel for å bli rik." },
+    { "id": "q04", "text": "Hva er anomi?", "options": ["En type straff", "En sykdom", "Et lovbrudd", "En tilstand med uklare eller svekkede normer"], "correct": 3, "explain": "Durkheims begrep." },
+    { "id": "q05", "text": "Hva sier sosial kontroll-teori?", "options": ["Bånd til familie, skole og venner hindrer de fleste i å bryte normer", "Alle bryter normer", "Straff er eneste løsning", "Avvik er arvelig"], "correct": 0, "explain": "Vi har noe å tape." },
+    { "id": "q06", "text": "Hva er moralsk panikk?", "options": ["Frykt for å bli straffet", "En overdreven reaksjon på en oppfattet trussel fra en gruppe", "En type psykisk lidelse", "Et politisk parti"], "correct": 1, "explain": "Beskrevet av Stanley Cohen." },
+    { "id": "q07", "text": "Hva er et sekundæravvik?", "options": ["Det første normbruddet", "Et lite avvik", "Avvik som følge av stemplingen", "Et positivt avvik"], "correct": 2, "explain": "Personen tar på seg avviksrollen." },
+    { "id": "q08", "text": "Hvilket er et eksempel på uformell sosial kontroll?", "options": ["En dom i retten", "En bot fra politiet", "En regel i skolereglementet", "Et misbilligende blikk fra venner"], "correct": 3, "explain": "Reaksjoner fra folk rundt oss." },
+    { "id": "q09", "text": "Hvilken teori legger vekt på at avvik læres i grupper?", "options": ["Sosialt lært avvik", "Anomi", "Funksjonalisme", "Pressteori"], "correct": 0, "explain": "Hvem du omgås, betyr noe." },
+    { "id": "q10", "text": "Hvorfor kan strenge reaksjoner noen ganger gi mer avvik?", "options": ["Fordi straff alltid virker", "Fordi stempling kan føre til at personen tar på seg avviksrollen", "Fordi alle blir redde", "Det kan de ikke"], "correct": 1, "explain": "Stemplingsteorien." }
+  ],
+  "mindmap": {
+    "label": "Sosiale avvik",
+    "children": [
+      { "label": "Begrep", "children": [
+        { "label": "Normbrudd" },
+        { "label": "Relativt" },
+        { "label": "Kriminelt og ikke-kriminelt" }
+      ] },
+      { "label": "Årsaker", "children": [
+        { "label": "Anomi" },
+        { "label": "Pressteori" },
+        { "label": "Sosial læring" },
+        { "label": "Stempling" }
+      ] },
+      { "label": "Kontroll", "children": [
+        { "label": "Uformell" },
+        { "label": "Formell" },
+        { "label": "Sosiale bånd" }
+      ] },
+      { "label": "Kollektive reaksjoner", "children": [
+        { "label": "Straff og rehabilitering" },
+        { "label": "Forebygging" },
+        { "label": "Moralsk panikk" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Forholdsmessighet" },
+        { "label": "Hvem definerer?" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Noe som var et avvik for 50 år siden, kan være vanlig i dag.", "correct": true, "explain": "Normer endrer seg." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle avvik er kriminelle.", "correct": false, "explain": "Mange avvik bryter bare med uskrevne normer." },
+      { "id": "m03", "type": "sant-usant", "text": "Norske fengsler legger stor vekt på rehabilitering.", "correct": true, "explain": "Målet er tilbakeføring til samfunnet." },
+      { "id": "m04", "type": "sant-usant", "text": "Stemplingsteorien mener at avvik bare er en egenskap ved selve handlingen.", "correct": false, "explain": "Den legger vekt på andres reaksjoner." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken tilpasning hos Merton gir opp både mål og midler?", "options": ["Konformitet", "Tilbaketrekning", "Innovasjon", "Opprør"], "correct": 1, "explain": "For eksempel rusmisbruk og isolasjon." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak er forebyggende?", "options": ["Gode fritidstilbud for unge", "Lengre fengselsstraffer", "Offentlig uthenging", "Flere bøter"], "correct": 0, "explain": "Det styrker bånd og gir alternativer." },
+      { "id": "m07", "type": "flervalg", "text": "Hvem studerte moralsk panikk?", "options": ["Howard Becker", "Robert K. Merton", "Stanley Cohen", "Erving Goffman"], "correct": 2, "explain": "Begrepet «folkedjevler»." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

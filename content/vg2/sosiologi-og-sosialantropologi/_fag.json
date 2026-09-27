@@ -1,0 +1,94 @@
+{
+  "id": "sosiologi-og-sosialantropologi",
+  "trinnId": "vg2",
+  "name": "Sosiologi og sosialantropologi",
+  "lareplan": {
+    "kode": "POS04-01",
+    "url": "https://www.udir.no/lk20/pos04-01/kompetansemaal-og-vurdering/kv494",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "vurdere samfunnsvitenskapelige teorier, metoder og tenkemåter, og bruke disse for å utforske sosiale og kulturelle fenomener og gjennomføre samfunnsfaglige undersøkelser"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for og reflektere over sosialisering som en livslang prosess"
+      },
+      {
+        "nr": 4,
+        "tekst": "drøfte årsaker til sosiale avvik og reflektere over og vurdere individuelle og kollektive reaksjoner"
+      },
+      {
+        "nr": 5,
+        "tekst": "drøfte ulike oppfatninger av begrepet kultur, og sammenligne kulturfenomener innad i og mellom kulturer"
+      },
+      {
+        "nr": 6,
+        "tekst": "analysere hvordan kulturer er stabile og i endring, og drøfte utfordringer og muligheter som følger av kulturelt mangfold"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for ulike former for makt og vurdere hvordan utøvelse av makt påvirker aktører, strukturer og handlinger"
+      },
+      {
+        "nr": 8,
+        "tekst": "drøfte hvordan medier, kommunikasjon og samhandling endrer seg i takt med utvikling av ny teknologi"
+      },
+      {
+        "nr": 9,
+        "tekst": "reflektere over årsaker til marginalisering i samfunnet og utforske og vurdere tiltak som kan motvirke utenforskap og fremme inkludering"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske og reflektere over mangfold og variasjoner i ulike urfolks kulturer og samfunnsliv"
+      },
+      {
+        "nr": 11,
+        "tekst": "drøfte betydningen av kulturforståelse og interkulturell kompetanse i et demokratisk og mangfoldig samfunn"
+      },
+      {
+        "nr": 12,
+        "tekst": "bruke teorier om lagdeling og klasser for å drøfte sosial ulikhet"
+      },
+      {
+        "nr": 13,
+        "tekst": "gjøre rede for forutsetninger for sosial mobilitet og drøfte konsekvenser av høy og lav sosial mobilitet i ulike samfunn og kulturer"
+      },
+      {
+        "nr": 14,
+        "tekst": "drøfte konsekvenser av ulik organisering av arbeid og vurdere betydningen av arbeid og produksjon for individ og samfunn"
+      },
+      {
+        "nr": 15,
+        "tekst": "vurdere ulike former for arbeidsdeling og drøfte sammenhenger mellom teknologi, produksjon og samfunnsendringer"
+      },
+      {
+        "nr": 16,
+        "tekst": "vurdere hvordan politiske ideologier behandler makt- og fordelingsspørsmål, og drøfte oppfatninger av rettferdighet og fordeling"
+      },
+      {
+        "nr": 17,
+        "tekst": "drøfte sammenhenger mellom sosiale prosesser og sosial ulikhet på individ- og samfunnsnivå, og muligheter for å skape bærekraftige samfunn"
+      }
+    ]
+  },
+  "temaer": [
+    "samfunnsvitenskapelig-metode",
+    "sosiologiske-perspektiver",
+    "sosialisering",
+    "sosiale-avvik",
+    "kulturbegrepet",
+    "kulturendring-og-mangfold",
+    "makt",
+    "medier-og-samhandling",
+    "marginalisering-og-inkludering",
+    "urfolk",
+    "lagdeling-og-sosial-mobilitet",
+    "arbeid-og-produksjon",
+    "ideologi-rettferdighet-og-barekraft"
+  ]
+}

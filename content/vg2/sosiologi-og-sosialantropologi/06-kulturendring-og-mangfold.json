@@ -1,0 +1,81 @@
+{
+  "id": "kulturendring-og-mangfold",
+  "fagId": "sosiologi-og-sosialantropologi",
+  "trinnId": "vg2",
+  "name": "Kulturendring, mangfold og interkulturell kompetanse",
+  "intro": "Hvordan kulturer både er stabile og i endring gjennom innovasjon, spredning og globalisering, hvilke utfordringer og muligheter kulturelt mangfold gir, og hvorfor kulturforståelse og interkulturell kompetanse er viktig i et demokrati.",
+  "kompetansemaal": [6, 11],
+  "sammendrag": "## Stabilitet og endring\n\nKulturer er både **stabile** og i **endring**. Stabiliteten sikres gjennom **sosialisering**, **tradisjoner**, **ritualer** og **institusjoner** som familie, skole og religion. Samtidig endres kulturer hele tiden – noen ganger langsomt, andre ganger raskt.\n\n## Hvordan kulturer endres\n\n- **Innovasjon**: nye ideer, teknologier og praksiser oppstår innenfra.\n- **Diffusjon** (spredning): ideer, musikk, mat og språk spres fra én kultur til en annen.\n- **Migrasjon**: Mennesker tar med seg kultur når de flytter, og påvirkes av det nye stedet.\n- **Globalisering**: Handel, medier og internett knytter verden tettere sammen.\n- **Politiske og økonomiske endringer**, som industrialisering eller krig.\n\n## Globalisering – likhet eller mangfold?\n\nNoen mener globaliseringen fører til **homogenisering** – at verden blir likere, ofte etter vestlig mønster. Andre peker på at globale impulser blandes med lokale tradisjoner og gir **nye former**:\n\n- **Hybridisering** eller **kreolisering**: blanding av kulturelle elementer til noe nytt – for eksempel **K-pop**, norsk-somalisk musikk eller en pizza med lokale ingredienser.\n- **Glokalisering**: globale produkter tilpasses lokale forhold.\n\nGlobalisering kan også føre til **reaksjoner**, der grupper legger ekstra vekt på **tradisjon** og egen identitet.\n\n## Kulturelt mangfold i Norge\n\nNorge har alltid hatt mangfold – samer, nasjonale minoriteter som kvener og skogfinner, og ulike regionale kulturer. De siste tiårene har **innvandring** gitt enda større mangfold i språk, religion og livsstil.\n\n**Muligheter**:\n\n- Nye **perspektiver**, ideer og kompetanse.\n- **Arbeidskraft** og innovasjon.\n- Rikere kulturliv, mat og musikk.\n\n**Utfordringer**:\n\n- **Fordommer** og **diskriminering**, for eksempel i arbeids- og boligmarkedet.\n- **Språkbarrierer** og misforståelser.\n- **Verdikonflikter**, for eksempel om kjønnsroller, religiøse uttrykk og ytringsfrihet.\n- Fare for **segregering** – at grupper lever atskilt.\n\n## Integrering og inkludering\n\n- **Assimilering**: minoriteten gir opp egen kultur og blir lik majoriteten. Norge førte en slik politikk overfor samer og kvener gjennom **fornorskningen**.\n- **Integrering**: deltakelse i felles samfunn, samtidig som man kan beholde deler av egen kultur.\n- **Segregering**: grupper lever atskilt.\n- **Multikulturalisme**: ulike kulturelle grupper anerkjennes og kan leve side om side med egne tradisjoner.\n\n## Interkulturell kompetanse\n\n**Interkulturell kompetanse** er evnen til å kommunisere og samhandle **godt** med mennesker med annen bakgrunn. Den består av\n\n- **kunnskap** om egen og andres kultur\n- **holdninger** preget av nysgjerrighet, åpenhet og respekt\n- **ferdigheter** som å lytte, stille spørsmål og tåle usikkerhet\n- **selvinnsikt**: å se at egen kultur også er «en kultur», ikke det «normale»\n\n## Hvorfor viktig i et demokrati?\n\nEt demokrati forutsetter at innbyggere med ulike verdier kan **snakke sammen**, **være uenige** på en respektfull måte og finne **felles løsninger**. Kulturforståelse motvirker fordommer og polarisering, og gjør det lettere å sikre at **alle** kan delta. Samtidig må mangfoldet balanseres mot **felles grunnverdier** som menneskerettigheter, likestilling og ytringsfrihet.",
+  "flashcards": [
+    { "term": "Innovasjon (kultur)", "def": "Nye ideer og praksiser som oppstår innenfra." },
+    { "term": "Diffusjon", "def": "Spredning av kulturelle elementer mellom kulturer." },
+    { "term": "Globalisering", "def": "Handel, medier og internett knytter verden tettere sammen." },
+    { "term": "Homogenisering", "def": "At kulturer blir likere hverandre." },
+    { "term": "Hybridisering / kreolisering", "def": "Blanding av kulturelle elementer til noe nytt." },
+    { "term": "Glokalisering", "def": "Globale produkter tilpasses lokale forhold." },
+    { "term": "Nasjonale minoriteter", "def": "Blant annet kvener, skogfinner, jøder, romer og romanifolk." },
+    { "term": "Assimilering", "def": "Minoriteten gir opp egen kultur og blir lik majoriteten." },
+    { "term": "Fornorskning", "def": "Norsk assimileringspolitikk overfor samer og kvener." },
+    { "term": "Integrering", "def": "Deltakelse i felles samfunn mens man beholder deler av egen kultur." },
+    { "term": "Segregering", "def": "Grupper lever atskilt." },
+    { "term": "Multikulturalisme", "def": "Ulike kulturelle grupper anerkjennes side om side." },
+    { "term": "Interkulturell kompetanse", "def": "Evnen til god samhandling med mennesker med annen bakgrunn." },
+    { "term": "Verdikonflikt", "def": "Uenighet om grunnleggende verdier." },
+    { "term": "Polarisering", "def": "At grupper beveger seg lenger fra hverandre i synspunkter." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er diffusjon?", "options": ["At kultur forsvinner", "Spredning av kulturelle elementer mellom kulturer", "At kultur blir arvelig", "At et land lukker grensene"], "correct": 1, "explain": "For eksempel musikk og mat." },
+    { "id": "q02", "text": "Hva er hybridisering?", "options": ["Blanding av kulturelle elementer til noe nytt", "At alle kulturer blir like", "At en kultur dør ut", "At en kultur holdes uendret"], "correct": 0, "explain": "For eksempel K-pop." },
+    { "id": "q03", "text": "Hva var fornorskningen?", "options": ["Norsk språkopplæring for turister", "En integreringspolitikk", "Norsk assimileringspolitikk overfor samer og kvener", "En kulturfestival"], "correct": 2, "explain": "Minoritetene skulle bli lik majoriteten." },
+    { "id": "q04", "text": "Hva er forskjellen på integrering og assimilering?", "options": ["Det er det samme", "Assimilering betyr å leve atskilt", "Integrering betyr å gi opp egen kultur", "Integrering innebærer deltakelse mens man beholder deler av egen kultur"], "correct": 3, "explain": "Assimilering betyr å bli lik majoriteten." },
+    { "id": "q05", "text": "Hva er interkulturell kompetanse?", "options": ["Evnen til god samhandling med mennesker med annen bakgrunn", "Å kunne mange språk", "Å ha reist mye", "Å kjenne alle kulturer"], "correct": 0, "explain": "Kunnskap, holdninger og ferdigheter." },
+    { "id": "q06", "text": "Hva hevder de som snakker om homogenisering?", "options": ["At kulturer blandes til noe nytt", "At verden blir likere, ofte etter vestlig mønster", "At kulturer aldri endres", "At lokale tradisjoner blir sterkere"], "correct": 1, "explain": "Et syn på globaliseringens virkninger." },
+    { "id": "q07", "text": "Hvilken er en mulighet ved kulturelt mangfold?", "options": ["Mer diskriminering", "Språkbarrierer", "Nye perspektiver, ideer og kompetanse", "Segregering"], "correct": 2, "explain": "Mangfold kan gi innovasjon." },
+    { "id": "q08", "text": "Hvorfor er kulturforståelse viktig i et demokrati?", "options": ["Fordi alle må mene det samme", "Fordi det gjør valg unødvendige", "Fordi det fjerner all uenighet", "Fordi innbyggere med ulike verdier må kunne snakke sammen og finne felles løsninger"], "correct": 3, "explain": "Det motvirker fordommer og polarisering." },
+    { "id": "q09", "text": "Hva sikrer at kulturer er stabile?", "options": ["Sosialisering, tradisjoner og institusjoner", "Globalisering", "Migrasjon", "Internett"], "correct": 0, "explain": "Kultur overføres mellom generasjoner." },
+    { "id": "q10", "text": "Hva er glokalisering?", "options": ["At alt blir lokalt", "At globale produkter tilpasses lokale forhold", "At lokale produkter forbys", "At verden blir mindre"], "correct": 1, "explain": "For eksempel menyer tilpasset hvert land." }
+  ],
+  "mindmap": {
+    "label": "Kulturendring og mangfold",
+    "children": [
+      { "label": "Stabilitet", "children": [
+        { "label": "Sosialisering" },
+        { "label": "Tradisjoner og institusjoner" }
+      ] },
+      { "label": "Endring", "children": [
+        { "label": "Innovasjon" },
+        { "label": "Diffusjon" },
+        { "label": "Migrasjon og globalisering" }
+      ] },
+      { "label": "Globale prosesser", "children": [
+        { "label": "Homogenisering" },
+        { "label": "Hybridisering" },
+        { "label": "Glokalisering" }
+      ] },
+      { "label": "Mangfold", "children": [
+        { "label": "Muligheter" },
+        { "label": "Utfordringer" },
+        { "label": "Assimilering, integrering, segregering" }
+      ] },
+      { "label": "Kompetanse", "children": [
+        { "label": "Interkulturell kompetanse" },
+        { "label": "Demokrati" },
+        { "label": "Felles grunnverdier" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Norge hadde kulturelt mangfold også før moderne innvandring.", "correct": true, "explain": "Samer og nasjonale minoriteter har lang historie her." },
+      { "id": "m02", "type": "sant-usant", "text": "Globalisering fører bare til at kulturer blir like.", "correct": false, "explain": "Den gir også blanding og nye former." },
+      { "id": "m03", "type": "sant-usant", "text": "Interkulturell kompetanse innebærer også å se at egen kultur er «en kultur».", "correct": true, "explain": "Selvinnsikt er en del av kompetansen." },
+      { "id": "m04", "type": "sant-usant", "text": "Kulturelt mangfold gir aldri verdikonflikter.", "correct": false, "explain": "Det kan oppstå uenighet om verdier." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken er en nasjonal minoritet i Norge?", "options": ["Samer", "Kvener", "Svensker", "Dansker"], "correct": 1, "explain": "Samer er urfolk, ikke nasjonal minoritet." },
+      { "id": "m06", "type": "flervalg", "text": "Hva innebærer segregering?", "options": ["At grupper lever atskilt", "At alle blandes", "At minoriteten blir lik majoriteten", "At alle deltar likt"], "correct": 0, "explain": "Kan gi lite kontakt og mer fordommer." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken holdning hører til interkulturell kompetanse?", "options": ["Likegyldighet", "Mistenksomhet", "Nysgjerrighet, åpenhet og respekt", "Overlegenhet"], "correct": 2, "explain": "Grunnlag for god samhandling." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
