@@ -1,0 +1,72 @@
+{
+  "id": "matematikk-r1",
+  "trinnId": "vg2",
+  "name": "Matematikk R1",
+  "lareplan": {
+    "kode": "MAT03-02",
+    "url": "https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv293",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "planlegge og gjennomføre et selvstendig arbeid med reelle datasett knyttet til naturvitenskapelige temaer og forhold, og analysere og presentere funn"
+      },
+      {
+        "nr": 2,
+        "tekst": "forstå begrepene vekstfart, grenseverdi, derivasjon og kontinuitet, og bruke disse for å løse praktiske problemer"
+      },
+      {
+        "nr": 3,
+        "tekst": "bruke ulike strategier for å utforske og bestemme grenseverdier til funksjoner, og utforske og argumentere for anvendelser av grenseverdier"
+      },
+      {
+        "nr": 4,
+        "tekst": "bestemme den deriverte i et punkt geometrisk, algebraisk og ved numeriske metoder, og gi eksempler på funksjoner som ikke er deriverbare i gitte punkter"
+      },
+      {
+        "nr": 5,
+        "tekst": "analysere og tolke ulike funksjoner ved å bruke derivasjon"
+      },
+      {
+        "nr": 6,
+        "tekst": "anvende derivasjon til å analysere og tolke egne matematiske modeller av reelle datasett"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske og forstå regneregler for potenser og logaritmer, og bruke ulike strategier for å løse eksponentialligninger og logaritmeligninger"
+      },
+      {
+        "nr": 8,
+        "tekst": "modellere og analysere eksponentiell og logistisk vekst i reelle datasett"
+      },
+      {
+        "nr": 9,
+        "tekst": "gjøre rede for og argumentere for om en funksjon er kontinuerlig eller diskontinuerlig i et punkt i et definisjonsområde, og gi eksempler på anvendelser av diskontinuerlige funksjoner"
+      },
+      {
+        "nr": 10,
+        "tekst": "utforske, analysere og derivere ulike funksjoner og deres omvendte funksjoner, og gjøre rede for egenskaper til og sammenhenger mellom slike funksjoner"
+      },
+      {
+        "nr": 11,
+        "tekst": "anvende parameterframstillinger til linjer og bruke parameterframstillinger til å løse naturvitenskapelige problemer"
+      },
+      {
+        "nr": 12,
+        "tekst": "forstå begrepet vektor og regneregler for vektorer i planet, og bruke vektorer til å beregne ulike størrelser i planet"
+      }
+    ]
+  },
+  "temaer": [
+    "grenseverdier",
+    "kontinuitet",
+    "den-deriverte",
+    "derivasjonsregler",
+    "funksjonsdrofting",
+    "potenser-og-logaritmer",
+    "eksponentiell-og-logistisk-vekst",
+    "omvendte-funksjoner",
+    "modellering-og-optimering",
+    "vektorer",
+    "parameterframstillinger"
+  ]
+}

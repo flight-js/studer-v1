@@ -1,0 +1,81 @@
+{
+  "id": "eksponentiell-og-logistisk-vekst",
+  "fagId": "matematikk-r1",
+  "trinnId": "vg2",
+  "name": "Eksponentiell og logistisk vekst",
+  "intro": "Eksponentielle modeller med vekstfaktor og med e, doblings- og halveringstid, logistisk vekst med bæreevne, og hvordan du lager, analyserer og vurderer slike modeller for reelle datasett.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Eksponentiell vekst\n\nNår en størrelse endrer seg med en **fast prosent** per tidsenhet, er veksten **eksponentiell**:\n\n**f(t) = a · bᵗ**\n\nder a er **startverdien** og b er **vekstfaktoren**. Vekst på 5 % per år gir b = 1,05, og nedgang på 10 % gir b = 0,90.\n\nModellen kan også skrives med **e**:\n\n**f(t) = a · eᵏᵗ**, der k = ln b\n\nFordi (eᵏᵗ)′ = k · eᵏᵗ, får vi\n\n**f′(t) = k · f(t)**\n\nVekstfarten er altså **proporsjonal med størrelsen** selv. Jo flere bakterier, desto raskere vokser kulturen.\n\n## Doblingstid og halveringstid\n\n**Doblingstiden** T finner du ved å løse bᵀ = 2:\n\nT = ln 2 / ln b\n\nMed 5 % årlig vekst er T = ln 2 / ln 1,05 ≈ **14,2 år**. Med 10 % årlig nedgang er **halveringstiden** ln 0,5 / ln 0,9 ≈ **6,6 år**.\n\n## Grenser for eksponentiell vekst\n\nIngen vekst kan fortsette eksponentielt for alltid. Før eller siden blir det mangel på **mat**, **plass** eller **kunder**. Da passer en **logistisk modell** bedre.\n\n## Logistisk vekst\n\n**N(t) = K / (1 + a · e⁻ᵏᵗ)**\n\n- **K** er **bæreevnen** – verdien N nærmer seg når t → ∞.\n- **a** bestemmer startverdien: N(0) = K / (1 + a).\n- **k** bestemmer hvor raskt veksten skjer.\n\nGrafen er **S-formet**: Først vokser den nesten eksponentielt, så flater den ut mot K.\n\n**Vendepunktet** ligger der **N = K/2**. Der er vekstfarten **størst**.\n\n**Eksempel**: K = 1000, a = 9 og k = 0,5 gir N(0) = 1000/10 = **100**. N = 500 når a · e⁻⁰,⁵ᵗ = 1, altså e⁻⁰,⁵ᵗ = 1/9, som gir t = ln 9 / 0,5 ≈ **4,4**.\n\nLogistisk vekst oppfyller **N′ = k · N · (1 − N/K)**: Når N er liten, er veksten nesten eksponentiell, og når N nærmer seg K, går veksten mot null.\n\n## Eksempler fra virkeligheten\n\n- **Bakterier** i en næringsløsning\n- **Smittespredning** i starten av en epidemi\n- **Utbredelse av ny teknologi**, som andelen som har smarttelefon\n- **Dyrebestander** i et område med begrenset mat\n\n## Modellering av datasett\n\n1. **Plott** dataene og se på formen: Vokser de jevnt prosentvis, eller flater de ut?\n2. Bruk **regresjon** i GeoGebra eller regneark, for eksempel RegEksp og RegLogist.\n3. **Tolk parameterne**: Hva er startverdien, vekstfaktoren eller bæreevnen?\n4. Bruk den **deriverte** til å finne vekstfarten og når den er størst.\n5. **Vurder** modellen: Hvor godt passer den? Gir den **urimelige** svar langt fram i tid? En modell kan passe godt på dataene og likevel gi feil når den brukes til **ekstrapolering**.",
+  "flashcards": [
+    { "term": "Eksponentiell modell", "def": "f(t) = a · bᵗ" },
+    { "term": "Vekstfaktor", "def": "b = 1 + p for vekst og 1 − p for nedgang." },
+    { "term": "Modell med e", "def": "f(t) = a · eᵏᵗ, der k = ln b" },
+    { "term": "f′(t) = k · f(t)", "def": "Vekstfarten er proporsjonal med størrelsen." },
+    { "term": "Doblingstid", "def": "T = ln 2 / ln b" },
+    { "term": "Doblingstid ved 5 % vekst", "def": "Omtrent 14,2 år." },
+    { "term": "Halveringstid", "def": "Tiden det tar før størrelsen er halvert." },
+    { "term": "Logistisk modell", "def": "N(t) = K / (1 + a · e⁻ᵏᵗ)" },
+    { "term": "Bæreevne K", "def": "Verdien den logistiske modellen nærmer seg." },
+    { "term": "N(0) i logistisk modell", "def": "K / (1 + a)" },
+    { "term": "Vendepunkt i logistisk vekst", "def": "N = K/2, der vekstfarten er størst." },
+    { "term": "N′ = kN(1 − N/K)", "def": "Differensiallikningen for logistisk vekst." },
+    { "term": "S-kurve", "def": "Formen på grafen ved logistisk vekst." },
+    { "term": "RegLogist", "def": "GeoGebra-kommando for logistisk regresjon." },
+    { "term": "Ekstrapolering", "def": "Å bruke modellen utenfor dataområdet – kan gi feil." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er vekstfaktoren ved 10 % nedgang per år?", "options": ["1,10", "0,90", "0,10", "−0,10"], "correct": 1, "explain": "1 − 0,10." },
+    { "id": "q02", "text": "Hva er doblingstiden ved 5 % årlig vekst?", "options": ["Omtrent 14,2 år", "20 år", "5 år", "Omtrent 7,2 år"], "correct": 0, "explain": "ln 2 / ln 1,05." },
+    { "id": "q03", "text": "Hva betyr f′(t) = k · f(t)?", "options": ["Vekstfarten er konstant", "Funksjonen er lineær", "Vekstfarten er proporsjonal med størrelsen", "Funksjonen er avtakende"], "correct": 2, "explain": "Kjennetegn på eksponentiell vekst." },
+    { "id": "q04", "text": "Hva er K i den logistiske modellen N(t) = K/(1 + a · e⁻ᵏᵗ)?", "options": ["Startverdien", "Vekstfaktoren", "Tiden til vendepunktet", "Bæreevnen"], "correct": 3, "explain": "N nærmer seg K når t → ∞." },
+    { "id": "q05", "text": "Hvor er vekstfarten størst i logistisk vekst?", "options": ["Når N = K/2", "Når N = 0", "Når N = K", "I starten"], "correct": 0, "explain": "Vendepunktet." },
+    { "id": "q06", "text": "K = 1000 og a = 9. Hva er N(0)?", "options": ["1000", "100", "111", "9"], "correct": 1, "explain": "1000/(1 + 9)." },
+    { "id": "q07", "text": "Hvilken form har grafen ved logistisk vekst?", "options": ["Rett linje", "Parabel", "S-kurve", "Sirkel"], "correct": 2, "explain": "Først rask vekst, så utflating." },
+    { "id": "q08", "text": "Hvorfor kan ikke eksponentiell vekst fortsette for alltid i naturen?", "options": ["Fordi e er et irrasjonalt tall", "Fordi vekstfaktoren alltid er under 1", "Fordi den deriverte er null", "Fordi ressurser som mat og plass er begrenset"], "correct": 3, "explain": "Derfor passer ofte en logistisk modell bedre." },
+    { "id": "q09", "text": "Hvordan skrives f(t) = 200 · 1,05ᵗ med e?", "options": ["200 · e^(t · ln 1,05)", "200 · e^(1,05t)", "200 · e^(0,05)", "e^(200t)"], "correct": 0, "explain": "k = ln 1,05 ≈ 0,0488." },
+    { "id": "q10", "text": "Hva er en fare ved å bruke en modell til ekstrapolering?", "options": ["Det er ingen fare", "Modellen kan gi urimelige svar utenfor dataområdet", "Modellen blir alltid lineær", "Dataene forsvinner"], "correct": 1, "explain": "Vurder alltid gyldighetsområdet." }
+  ],
+  "mindmap": {
+    "label": "Eksponentiell og logistisk vekst",
+    "children": [
+      { "label": "Eksponentiell", "children": [
+        { "label": "a · bᵗ" },
+        { "label": "a · eᵏᵗ" },
+        { "label": "f′ = kf" }
+      ] },
+      { "label": "Tider", "children": [
+        { "label": "Doblingstid" },
+        { "label": "Halveringstid" }
+      ] },
+      { "label": "Logistisk", "children": [
+        { "label": "K/(1 + a · e⁻ᵏᵗ)" },
+        { "label": "Bæreevne" },
+        { "label": "Vendepunkt ved K/2" }
+      ] },
+      { "label": "Eksempler", "children": [
+        { "label": "Bakterier" },
+        { "label": "Smitte" },
+        { "label": "Ny teknologi" }
+      ] },
+      { "label": "Modellering", "children": [
+        { "label": "Regresjon" },
+        { "label": "Tolke parametere" },
+        { "label": "Vurdere modellen" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I starten ligner logistisk vekst på eksponentiell vekst.", "correct": true, "explain": "Når N er liten, er N/K nær null." },
+      { "id": "m02", "type": "sant-usant", "text": "En logistisk modell kan vokse forbi bæreevnen på lang sikt.", "correct": false, "explain": "Modellen nærmer seg K." },
+      { "id": "m03", "type": "sant-usant", "text": "Halveringstiden ved 10 % årlig nedgang er omtrent 6,6 år.", "correct": true, "explain": "ln 0,5 / ln 0,9." },
+      { "id": "m04", "type": "sant-usant", "text": "En modell som passer godt på dataene, gir alltid gode prognoser langt fram i tid.", "correct": false, "explain": "Ekstrapolering kan gi feil." },
+      { "id": "m05", "type": "flervalg", "text": "K = 1000, a = 9 og k = 0,5. Omtrent når er N = 500?", "options": ["t ≈ 2,2", "t ≈ 4,4", "t ≈ 9", "t ≈ 18"], "correct": 1, "explain": "t = ln 9 / 0,5." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er k når b = 1,05?", "options": ["Omtrent 0,049", "0,05", "1,05", "Omtrent 2,86"], "correct": 0, "explain": "k = ln 1,05." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilken GeoGebra-kommando gir en eksponentiell modell?", "options": ["RegLin", "RegPoly", "RegEksp", "RegSin"], "correct": 2, "explain": "Eksponentiell regresjon." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

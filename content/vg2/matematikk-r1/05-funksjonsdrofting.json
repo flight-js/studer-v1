@@ -1,0 +1,79 @@
+{
+  "id": "funksjonsdrofting",
+  "fagId": "matematikk-r1",
+  "trinnId": "vg2",
+  "name": "Funksjonsdrøfting med derivasjon",
+  "intro": "Hvordan du bruker den deriverte og den andrederiverte til å finne hvor en funksjon vokser og avtar, topp- og bunnpunkter, vendepunkter og krumning – og hvordan du tolker resultatene.",
+  "kompetansemaal": [5],
+  "sammendrag": "## Den deriverte og monotoni\n\n- f′(x) > 0 på et intervall ⇒ f er **voksende** der.\n- f′(x) < 0 på et intervall ⇒ f er **avtakende** der.\n- f′(x) = 0 ⇒ **vannrett tangent** – et mulig **ekstremalpunkt**.\n\n## Fortegnslinje\n\nEn **fortegnslinje** for f′ viser hvor den deriverte er positiv og negativ. Faktoriser f′ og tegn én linje for hver faktor.\n\n**Eksempel**: f(x) = x³ − 3x.\n\nf′(x) = 3x² − 3 = 3(x − 1)(x + 1)\n\n- f′(x) > 0 for x < −1 og for x > 1 → f **vokser**\n- f′(x) < 0 for −1 < x < 1 → f **avtar**\n\n## Ekstremalpunkter\n\n- Der f′ skifter fra **+ til −**, har f et **toppunkt**.\n- Der f′ skifter fra **− til +**, har f et **bunnpunkt**.\n- Der f′ = 0 **uten** fortegnsskifte, har grafen et **terrassepunkt** – som f(x) = x³ i x = 0.\n\nFor f(x) = x³ − 3x:\n\n- **Toppunkt** i (−1, f(−1)) = **(−1, 2)**\n- **Bunnpunkt** i (1, f(1)) = **(1, −2)**\n\n## Den andrederiverte og krumning\n\nDen **andrederiverte** f″ forteller hvordan **stigningstallet** endrer seg:\n\n- f″(x) > 0 ⇒ grafen **krummer oppover** (som en skål, konveks).\n- f″(x) < 0 ⇒ grafen **krummer nedover** (som en hatt, konkav).\n- Der f″ **skifter fortegn**, har grafen et **vendepunkt**.\n\nFor f(x) = x³ − 3x er f″(x) = 6x. Den skifter fortegn i x = 0, så **(0, 0)** er et vendepunkt. Der er stigningstallet minst – den deriverte har et bunnpunkt.\n\n**Andrederiverttesten**: Er f′(a) = 0 og f″(a) < 0, er a et toppunkt; er f″(a) > 0, er a et bunnpunkt. f″(−1) = −6 bekrefter toppunktet i x = −1.\n\n## Lokale og globale ekstremalpunkter\n\nEt **lokalt** toppunkt er høyest i nærheten, et **globalt** toppunkt er høyest i hele definisjonsmengden. På et **lukket intervall** [a, b] må du også sjekke **endepunktene**: Den største verdien kan ligge i et endepunkt.\n\n## Fullstendig drøfting\n\n1. **Definisjonsmengde**\n2. **Nullpunkter** og skjæring med y-aksen\n3. **Asymptoter** (for rasjonale funksjoner)\n4. **f′** og fortegnslinje → monotoni og ekstremalpunkter\n5. **f″** og fortegnslinje → krumning og vendepunkter\n6. **Skisse** av grafen og **kontroll** med digitalt verktøy\n\n## Tolkning\n\nI en modell har punktene en **betydning**. Er f(t) antall besøkende på et nettsted etter t timer, forteller toppunktet **når** trafikken er størst, og vendepunktet **når** den øker **raskest**.",
+  "flashcards": [
+    { "term": "f′(x) > 0", "def": "f er voksende." },
+    { "term": "f′(x) < 0", "def": "f er avtakende." },
+    { "term": "f′(a) = 0", "def": "Vannrett tangent – mulig ekstremalpunkt." },
+    { "term": "Fortegnslinje", "def": "Viser hvor et uttrykk er positivt og negativt." },
+    { "term": "Toppunkt", "def": "f′ skifter fra + til −." },
+    { "term": "Bunnpunkt", "def": "f′ skifter fra − til +." },
+    { "term": "Terrassepunkt", "def": "f′ = 0 uten fortegnsskifte, som x³ i 0." },
+    { "term": "f″(x) > 0", "def": "Grafen krummer oppover (konveks)." },
+    { "term": "f″(x) < 0", "def": "Grafen krummer nedover (konkav)." },
+    { "term": "Vendepunkt", "def": "Der f″ skifter fortegn." },
+    { "term": "Andrederiverttesten", "def": "f′(a) = 0 og f″(a) < 0 gir toppunkt; f″(a) > 0 gir bunnpunkt." },
+    { "term": "Globalt toppunkt", "def": "Høyeste verdi i hele definisjonsmengden." },
+    { "term": "Lukket intervall", "def": "Sjekk også endepunktene." },
+    { "term": "f(x) = x³ − 3x", "def": "Toppunkt (−1, 2), bunnpunkt (1, −2), vendepunkt (0, 0)." },
+    { "term": "Vendepunkt i en modell", "def": "Der veksten er raskest eller langsomst." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr det at f′(x) < 0 på et intervall?", "options": ["f er voksende", "f er avtakende", "f har vendepunkt", "f er konstant"], "correct": 1, "explain": "Stigningstallet er negativt." },
+    { "id": "q02", "text": "f(x) = x³ − 3x. Hvor har f toppunkt?", "options": ["(−1, 2)", "(1, −2)", "(0, 0)", "(−1, −2)"], "correct": 0, "explain": "f′ skifter fra + til − i x = −1." },
+    { "id": "q03", "text": "Hva kjennetegner et vendepunkt?", "options": ["f′ = 0", "f = 0", "f″ skifter fortegn", "f′ skifter fra + til −"], "correct": 2, "explain": "Krumningen endrer seg." },
+    { "id": "q04", "text": "f′(a) = 0 og f″(a) > 0. Hva har f i x = a?", "options": ["Et toppunkt", "Et vendepunkt", "Et terrassepunkt", "Et bunnpunkt"], "correct": 3, "explain": "Grafen krummer oppover." },
+    { "id": "q05", "text": "Hva har f(x) = x³ i x = 0?", "options": ["Et terrassepunkt", "Et toppunkt", "Et bunnpunkt", "En asymptote"], "correct": 0, "explain": "f′ = 0, men ingen fortegnsskifte." },
+    { "id": "q06", "text": "Hvorfor må du sjekke endepunktene på et lukket intervall?", "options": ["Fordi f′ alltid er null der", "Fordi den største eller minste verdien kan ligge der", "Fordi funksjonen ikke er definert der", "Det trenger du ikke"], "correct": 1, "explain": "Globale ekstremalverdier kan ligge i endepunktene." },
+    { "id": "q07", "text": "Hva er f″(x) for f(x) = x³ − 3x?", "options": ["3x²", "3x² − 3", "6x", "6"], "correct": 2, "explain": "Deriver f′(x) = 3x² − 3." },
+    { "id": "q08", "text": "f(t) er antall besøkende på et nettsted. Hva forteller vendepunktet?", "options": ["Når det er flest besøkende", "Når det er færrest besøkende", "Når nettstedet åpner", "Når antallet øker raskest (eller langsomst)"], "correct": 3, "explain": "Vekstfarten har et ekstremalpunkt der." },
+    { "id": "q09", "text": "Hva betyr f″(x) < 0?", "options": ["Grafen krummer nedover", "Grafen krummer oppover", "f er avtakende", "f er negativ"], "correct": 0, "explain": "Stigningstallet minker." },
+    { "id": "q10", "text": "Hvordan faktoriseres f′(x) = 3x² − 3?", "options": ["3(x − 1)²", "3(x − 1)(x + 1)", "3x(x − 1)", "(3x − 1)(x + 3)"], "correct": 1, "explain": "Konjugatsetningen." }
+  ],
+  "mindmap": {
+    "label": "Funksjonsdrøfting",
+    "children": [
+      { "label": "f′", "children": [
+        { "label": "Voksende og avtakende" },
+        { "label": "Fortegnslinje" }
+      ] },
+      { "label": "Ekstremalpunkter", "children": [
+        { "label": "Toppunkt" },
+        { "label": "Bunnpunkt" },
+        { "label": "Terrassepunkt" }
+      ] },
+      { "label": "f″", "children": [
+        { "label": "Krumning" },
+        { "label": "Vendepunkt" },
+        { "label": "Andrederiverttesten" }
+      ] },
+      { "label": "Lokalt og globalt", "children": [
+        { "label": "Endepunkter" }
+      ] },
+      { "label": "Fullstendig drøfting", "children": [
+        { "label": "Df og nullpunkter" },
+        { "label": "Asymptoter" },
+        { "label": "Skisse og tolkning" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "I et vendepunkt har den deriverte et ekstremalpunkt.", "correct": true, "explain": "Stigningstallet er størst eller minst der." },
+      { "id": "m02", "type": "sant-usant", "text": "Alle punkter der f′ = 0, er topp- eller bunnpunkter.", "correct": false, "explain": "Det kan også være terrassepunkter." },
+      { "id": "m03", "type": "sant-usant", "text": "Et lokalt toppunkt trenger ikke være det globale toppunktet.", "correct": true, "explain": "Det kan finnes høyere verdier andre steder." },
+      { "id": "m04", "type": "sant-usant", "text": "f″(x) > 0 betyr at f er voksende.", "correct": false, "explain": "Det betyr at grafen krummer oppover." },
+      { "id": "m05", "type": "flervalg", "text": "f(x) = x² − 4x. Hvor har f bunnpunkt?", "options": ["(4, 0)", "(2, −4)", "(0, 0)", "(−2, 12)"], "correct": 1, "explain": "f′(x) = 2x − 4 = 0 gir x = 2, f(2) = −4." },
+      { "id": "m06", "type": "flervalg", "text": "f(x) = −x² + 6x. Hva er den største verdien til f?", "options": ["9", "6", "3", "36"], "correct": 0, "explain": "f′ = −2x + 6 = 0 gir x = 3, f(3) = 9." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor har f(x) = x³ − 6x² vendepunkt?", "options": ["x = 0", "x = 4", "x = 2", "x = 6"], "correct": 2, "explain": "f″(x) = 6x − 12 = 0 gir x = 2." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
