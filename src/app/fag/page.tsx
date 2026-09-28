@@ -188,7 +188,13 @@ function Fagvalg() {
           </section>
 
           {fag && (
-            <section ref={temaSeksjon} aria-labelledby="tema-label" className="flex flex-col gap-3.5 scroll-mt-24">
+            {/* Minst én skjermhøyde, så siden alltid kan bla temaene helt opp – også
+                mens de hentes, og når faget har få temaer. */}
+            <section
+              ref={temaSeksjon}
+              aria-labelledby="tema-label"
+              className="flex flex-col gap-3.5 scroll-mt-24 min-h-[calc(100dvh-6rem)]"
+            >
               <h2 id="tema-label" className="font-body text-sm font-medium text-muted">
                 Temaer i {fag.navn}
               </h2>
