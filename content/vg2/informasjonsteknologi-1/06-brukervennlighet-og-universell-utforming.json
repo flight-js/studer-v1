@@ -79,5 +79,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva er en god feilmelding i et skjema?", "options": ["«Feil!»", "En rød ramme uten tekst", "En tekst som forklarer hva som er feil og hvordan det rettes", "Ingen melding"], "correct": 2, "explain": "Brukeren må forstå hva som skal gjøres." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk gjeldende krav i forskrift om universell utforming av IKT-løsninger (hvilken WCAG-versjon og hvilke virksomheter som omfattes)."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

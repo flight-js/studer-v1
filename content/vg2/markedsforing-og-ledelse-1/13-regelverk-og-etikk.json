@@ -77,5 +77,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hvorfor gjelder det egne regler for markedsføring mot barn?", "options": ["Barn har mye penger", "Barn ser lite reklame", "Barn er ekstra sårbare for påvirkning", "Barn kan ikke lese"], "correct": 2, "explain": "De har vanskeligere for å gjennomskue reklame." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk gjeldende regler for merking av retusjert reklame, merking av påvirkerreklame og samtykke til elektronisk markedsføring mot Forbrukertilsynets veiledere."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

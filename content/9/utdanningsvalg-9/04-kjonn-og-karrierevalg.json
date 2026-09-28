@@ -78,5 +78,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva er en fordel med mangfold på arbeidsplassen?", "options": ["Det gir ofte bedre løsninger og arbeidsmiljø", "Det gir lavere lønn", "Det gjør alle like", "Det gir færre ansatte"], "correct": 0, "explain": "Ulike perspektiver kan gi bedre løsninger." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk påstandene om kjønnsfordeling i yrker og utdanningsprogram, og at kvinner er i flertall i høyere utdanning, mot ferske tall fra SSB."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

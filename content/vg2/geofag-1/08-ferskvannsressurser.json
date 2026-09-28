@@ -78,5 +78,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hvilken elv har vært kilde til uenighet mellom Etiopia og Egypt?", "options": ["Mekong", "Donau", "Nilen", "Amazonas"], "correct": 2, "explain": "På grunn av en stor demning på Den blå Nilen." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk andelene for drikkevann fra overflatevann og vannkraftens andel av strømproduksjonen i Norge mot nyeste tall (FHI/NVE/SSB)."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

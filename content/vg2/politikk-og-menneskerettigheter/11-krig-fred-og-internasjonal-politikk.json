@@ -78,5 +78,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hvilken teori legger vekt på nasjonalisme og fiendebilder som årsak til konflikt?", "options": ["Realisme", "Liberalisme", "Konstruktivisme", "Funksjonalisme"], "correct": 2, "explain": "Identiteter og ideer." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk omtale av pågående konflikter (Ukraina m.fl.) og NATO-medlemskap mot oppdaterte kilder."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

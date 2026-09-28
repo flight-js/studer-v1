@@ -81,5 +81,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva mente Kierkegaard at friheten til å velge kan skape?", "options": ["Bare glede", "Kjedsomhet", "Angst", "Rikdom"], "correct": 2, "explain": "Når vi selv må velge, kjenner vi på ansvaret." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Telefonnumrene til Alarmtelefonen (116 111) og Mental Helses hjelpetelefon (116 123) bør sjekkes før lansering."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

@@ -141,4 +141,10 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 
 ## Gjenstår
 
-Ingen fag gjenstår. Videre arbeid: gå gjennom temaer med status «sjekkes» (se merknadene i GJENNOMGANG.md) og faktasjekk tall og regelverk før de settes til endelig publisert.
+Ingen fag gjenstår. Faktasjekken av «sjekkes»-temaene ble gjort i september 2026: 58 av 62 er rettet og satt til «utkast». De 4 som fortsatt har status «sjekkes» (se merknadene i GJENNOMGANG.md), venter på noe utenfor innholdet selv:
+
+- to sensitive temaer som en lærer bør lese for balanse (KRLE 10 «Kjønn og seksualitet», Samfunnskunnskap «Kjønn, seksualitet og grenser»)
+- lov om aldersgrense for sosiale medier – oppdater Samfunnsfag 8 «Digitale spor og personvern» når Stortinget har behandlet den
+- ny forvaltningslov – oppdater paragrafnumrene i Rettslære 2 «Forvaltningsrett» når loven trer i kraft
+
+Tall og regelverk som endrer seg jevnlig (G, klimatall, flyktningtall, valgdeltakelse, pågående konflikter) bør sjekkes på nytt rundt hvert skoleårsstart.

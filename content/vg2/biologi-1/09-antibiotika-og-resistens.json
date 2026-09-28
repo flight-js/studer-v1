@@ -79,5 +79,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva er en bakteriofag?", "options": ["En bakterie som spiser virus", "En hvit blodcelle", "Et virus som angriper bakterier", "Et antibiotikum fra sopp"], "correct": 2, "explain": "Mulig alternativ behandling." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk anslaget om over én million dødsfall direkte forårsaket av resistente bakterier i 2019 mot nyeste tall (GRAM/Lancet)."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

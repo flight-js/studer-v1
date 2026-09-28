@@ -80,5 +80,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hvilket yrke utdannes gjennom restaurant- og matfag?", "options": ["Elektriker", "Frisør", "Baker", "Tømrer"], "correct": 2, "explain": "Også kokker, servitører og slaktere utdannes her." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk temperaturgrensene (4 °C, –18 °C, 10–60 °C, over 60 °C) mot Mattilsynets gjeldende råd."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

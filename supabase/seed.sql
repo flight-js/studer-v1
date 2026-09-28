@@ -593,7 +593,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk: Nynorsk: grunnkurs
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('norsk-8:nynorsk-grunnkurs', 'norsk-8', 'nynorsk-grunnkurs', 'Nynorsk: grunnkurs', 'De vanligste ordene og bøyningsmønstrene i nynorsk – pronomen, spørreord, substantiv og verb – for deg som har bokmål som hovedmål.', array[11, 1]::int[], 6, 'sjekkes', array['Nynorskformer (valfrie former som «honom», «me», «òg») bør kontrolleres mot gjeldende nynorsknormal fra 2012.']::text[], false, now())
+  ('norsk-8:nynorsk-grunnkurs', 'norsk-8', 'nynorsk-grunnkurs', 'Nynorsk: grunnkurs', 'De vanligste ordene og bøyningsmønstrene i nynorsk – pronomen, spørreord, substantiv og verb – for deg som har bokmål som hovedmål.', array[11, 1]::int[], 6, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -609,7 +609,7 @@ I Norge har vi to likestilte skriftspråk, **bokmål** og **nynorsk**. Det du br
 
 ## Pronomen
 
-Subjektsform og objektsform: eg – meg, du – deg, han – han (eller honom), ho – henne (eller ho), det – det, vi/me – oss, de – dykk, dei – dei. Legg merke til at «hun» heter **ho**, og at «de» i tredje person flertall heter **dei**.
+Subjektsform og objektsform: eg – meg, du – deg, han – han, ho – henne (eller ho), det – det, vi/me – oss, de – dykk, dei – dei. Legg merke til at «hun» heter **ho**, og at «de» i tredje person flertall heter **dei**.
 
 ## Substantiv
 
@@ -637,7 +637,7 @@ Du kan velge mellom **e-infinitiv** (å kaste) og **a-infinitiv** (å kasta), me
 - Bruk en nynorsk ordbok, for eksempel Nynorskordboka på nett.
 - Slå på nynorsk retteprogram, men les over selv.
 - Les nynorske tekster, så blir ordbildet kjent.
-- Unngå å oversette ord for ord fra bokmål. Noen ord er helt ulike: «begynne» heter ofte **byrje**, «spørsmål» heter **spørsmål**, men «forsøke» heter **freiste** eller **prøve**.', '{"label":"Nynorsk grunnkurs","children":[{"label":"Småord","children":[{"label":"eg, ikkje, no"},{"label":"berre, mykje, heile"},{"label":"kva, kven, kvar","note":"korleis, kvifor"}]},{"label":"Pronomen","children":[{"label":"ho – henne","note":"hun"},{"label":"de – dykk","note":"dere"},{"label":"dei","note":"de/dem"}]},{"label":"Substantiv","children":[{"label":"Hankjønn","note":"gutar – gutane"},{"label":"Hokjønn","note":"jenter – jentene"},{"label":"Inkjekjønn","note":"hus – husa"}]},{"label":"Verb","children":[{"label":"a-verb","note":"kastar – kasta"},{"label":"e-verb","note":"kjøper – kjøpte"},{"label":"Sterke verb","note":"skriv – skreiv"},{"label":"e- eller a-infinitiv"}]},{"label":"Tips","children":[{"label":"Nynorskordboka"},{"label":"Les nynorsk"},{"label":"Ikke ord for ord"}]}]}'::jsonb)
+- Unngå å oversette ord for ord fra bokmål. Noen ord har egne nynorske former: «hjemme» heter **heime**, «spørre» heter **spørje**, og «kjærlighet» heter **kjærleik**. Andre ord kan skrives på flere måter, for eksempel **begynne** eller **byrje**.', '{"label":"Nynorsk grunnkurs","children":[{"label":"Småord","children":[{"label":"eg, ikkje, no"},{"label":"berre, mykje, heile"},{"label":"kva, kven, kvar","note":"korleis, kvifor"}]},{"label":"Pronomen","children":[{"label":"ho – henne","note":"hun"},{"label":"de – dykk","note":"dere"},{"label":"dei","note":"de/dem"}]},{"label":"Substantiv","children":[{"label":"Hankjønn","note":"gutar – gutane"},{"label":"Hokjønn","note":"jenter – jentene"},{"label":"Inkjekjønn","note":"hus – husa"}]},{"label":"Verb","children":[{"label":"a-verb","note":"kastar – kasta"},{"label":"e-verb","note":"kjøper – kjøpte"},{"label":"Sterke verb","note":"skriv – skreiv"},{"label":"e- eller a-infinitiv"}]},{"label":"Tips","children":[{"label":"Nynorskordboka"},{"label":"Les nynorsk"},{"label":"Ikke ord for ord"}]}]}'::jsonb)
 on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
 delete from public.flashcards where tema_id = 'norsk-8:nynorsk-grunnkurs';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
@@ -3300,7 +3300,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsfag: Digitale spor, personvern og samfunnsdebatt
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('samfunnsfag-8:digitale-spor-og-personvern', 'samfunnsfag-8', 'digitale-spor-og-personvern', 'Digitale spor, personvern og samfunnsdebatt', 'Hvilke digitale spor du legger igjen, hvilke rettigheter du har til personvern, sletting og opphavsrett, og hvordan digitale plattformer påvirker samfunnsdebatten.', array[14, 17]::int[], 6, 'sjekkes', array['Aldersgrensen for samtykke (13 år) kan bli endret hvis foreslått aldersgrense på 15 år for sosiale medier vedtas – sjekk gjeldende regler.']::text[], false, now())
+  ('samfunnsfag-8:digitale-spor-og-personvern', 'samfunnsfag-8', 'digitale-spor-og-personvern', 'Digitale spor, personvern og samfunnsdebatt', 'Hvilke digitale spor du legger igjen, hvilke rettigheter du har til personvern, sletting og opphavsrett, og hvordan digitale plattformer påvirker samfunnsdebatten.', array[14, 17]::int[], 6, 'sjekkes', array['Lov om aldersgrense for sosiale medier (fra 1. januar det året man fyller 16) var foreslått, men ikke vedtatt per september 2026. Oppdater temaet når Stortinget har behandlet loven.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -3318,7 +3318,7 @@ Hver gang du bruker internett, legger du igjen **digitale spor**. **Aktive spor*
 - **rett til sletting**, ofte kalt «retten til å bli glemt»
 - rett til å trekke tilbake et samtykke
 
-**Datatilsynet** passer på at reglene følges. Fra du er 13 år, kan du selv samtykke til at sosiale medier behandler opplysninger om deg.
+**Datatilsynet** passer på at reglene følges. Fra du er 13 år, kan du selv samtykke til at sosiale medier behandler opplysninger om deg. Regjeringen har foreslått en egen aldersgrense for sosiale medier fra 1. januar det året du fyller 16, men forslaget var ikke vedtatt i 2026.
 
 ## Å slette spor
 
@@ -3388,14 +3388,14 @@ delete from public.temaer where fag_id = 'krle-8' and slug not in ('kristendomme
 
 -- KRLE: Kristendommen
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('krle-8:kristendommen', 'krle-8', 'kristendommen', 'Kristendommen', 'Jesus og Bibelen, sentrale trosideer og praksiser i kristendommen, de ulike kirkeretningene og hvor kristendommen er utbredt i dag.', array[1, 6]::int[], 0, 'sjekkes', array['Tall for antall kristne i verden (rundt 2,4 milliarder) og andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall.']::text[], false, now())
+  ('krle-8:kristendommen', 'krle-8', 'kristendommen', 'Kristendommen', 'Jesus og Bibelen, sentrale trosideer og praksiser i kristendommen, de ulike kirkeretningene og hvor kristendommen er utbredt i dag.', array[1, 6]::int[], 0, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
 insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
   ('krle-8:kristendommen', '## En verdensreligion
 
-**Kristendommen** er verdens største religion, med rundt 2,4 milliarder tilhengere, omtrent en tredjedel av jordas befolkning. Den oppsto i Palestina i det første århundret, med utgangspunkt i livet og læren til **Jesus fra Nasaret**. De kristne tror at Jesus er **Kristus**, «den salvede», og **Guds sønn**.
+**Kristendommen** er verdens største religion, med rundt 2,3 milliarder tilhengere, nesten tre av ti mennesker på jorda. Den oppsto i Palestina i det første århundret, med utgangspunkt i livet og læren til **Jesus fra Nasaret**. De kristne tror at Jesus er **Kristus**, «den salvede», og **Guds sønn**.
 
 ## Jesus og Bibelen
 
@@ -3712,7 +3712,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE: Samisk religion og urfolks livssyn
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('krle-8:samisk-religion-og-urfolk', 'krle-8', 'samisk-religion-og-urfolk', 'Samisk religion og urfolks livssyn', 'Den førkristne samiske religionen, kristningen av samene, samisk religion og kultur i dag, og fellestrekk ved religionene til urfolk i andre deler av verden.', array[5]::int[], 4, 'sjekkes', array['Navn og roller for samiske guder og makter varierer mellom kilder og samiske områder – bør kvalitetssikres av noen med samisk fagkompetanse.']::text[], false, now())
+  ('krle-8:samisk-religion-og-urfolk', 'krle-8', 'samisk-religion-og-urfolk', 'Samisk religion og urfolks livssyn', 'Den førkristne samiske religionen, kristningen av samene, samisk religion og kultur i dag, og fellestrekk ved religionene til urfolk i andre deler av verden.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -8434,7 +8434,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Naturfag: Drivhuseffekten og klimaendringer
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('naturfag-9:drivhuseffekten-og-klima', 'naturfag-9', 'drivhuseffekten-og-klima', 'Drivhuseffekten og klimaendringer', 'Den naturlige og den forsterkede drivhuseffekten, faktorer som påvirker jordas klima, og følgene av global oppvarming.', array[10, 5]::int[], 4, 'sjekkes', array['Tallene for CO₂-nivå (over 420 ppm) og global oppvarming (over 1 °C) endrer seg over tid og bør kontrolleres mot ferske tall fra IPCC/NOAA.']::text[], false, now())
+  ('naturfag-9:drivhuseffekten-og-klima', 'naturfag-9', 'drivhuseffekten-og-klima', 'Drivhuseffekten og klimaendringer', 'Den naturlige og den forsterkede drivhuseffekten, faktorer som påvirker jordas klima, og følgene av global oppvarming.', array[10, 5]::int[], 4, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -8451,7 +8451,7 @@ De viktigste drivhusgassene er **vanndamp**, **karbondioksid** (CO₂), **metan*
 
 ## Den forsterkede drivhuseffekten
 
-Siden den industrielle revolusjonen har mennesker sluppet ut store mengder drivhusgasser, særlig ved å brenne kull, olje og gass, og ved avskoging og landbruk. Mengden CO₂ i atmosfæren har økt fra rundt 280 ppm før industrialiseringen til over 420 ppm i dag. Når det blir mer drivhusgasser, holdes mer varme igjen, og temperaturen stiger. Dette kalles den **forsterkede drivhuseffekten**. Jordas gjennomsnittstemperatur har allerede steget med over 1 °C.
+Siden den industrielle revolusjonen har mennesker sluppet ut store mengder drivhusgasser, særlig ved å brenne kull, olje og gass, og ved avskoging og landbruk. Mengden CO₂ i atmosfæren har økt fra rundt 280 ppm før industrialiseringen til over 425 ppm i dag. Når det blir mer drivhusgasser, holdes mer varme igjen, og temperaturen stiger. Dette kalles den **forsterkede drivhuseffekten**. Jordas gjennomsnittstemperatur har allerede steget med rundt 1,4 °C.
 
 ## Andre faktorer som påvirker klimaet
 
@@ -8482,7 +8482,7 @@ insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
   ('naturfag-9:drivhuseffekten-og-klima', 'Uten drivhuseffekt', 'Jorda ville hatt en gjennomsnittstemperatur på rundt −18 °C i stedet for +15 °C.', 3),
   ('naturfag-9:drivhuseffekten-og-klima', 'Drivhusgasser', 'Vanndamp, karbondioksid (CO₂), metan (CH₄) og lystgass (N₂O).', 4),
   ('naturfag-9:drivhuseffekten-og-klima', 'Forsterket drivhuseffekt', 'Økt drivhuseffekt på grunn av menneskeskapte utslipp.', 5),
-  ('naturfag-9:drivhuseffekten-og-klima', 'CO₂ i atmosfæren', 'Økt fra rundt 280 ppm før industrialiseringen til over 420 ppm i dag.', 6),
+  ('naturfag-9:drivhuseffekten-og-klima', 'CO₂ i atmosfæren', 'Økt fra rundt 280 ppm før industrialiseringen til over 425 ppm i dag.', 6),
   ('naturfag-9:drivhuseffekten-og-klima', 'Albedo', 'Hvor mye sollys en flate reflekterer. Snø og is har høy albedo.', 7),
   ('naturfag-9:drivhuseffekten-og-klima', 'Tilbakekobling', 'En endring som forsterker eller demper seg selv, som når smeltende is gir mer oppvarming.', 8),
   ('naturfag-9:drivhuseffekten-og-klima', 'FNs klimapanel (IPCC)', 'Sammenstiller klimaforskningen og har konkludert med at mennesker er hovedårsaken til oppvarmingen.', 9),
@@ -9509,7 +9509,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE: Religiøst mangfold og nyreligiøsitet
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('krle-9:religiost-mangfold', 'krle-9', 'religiost-mangfold', 'Religiøst mangfold og nyreligiøsitet', 'Det religiøse landskapet i Norge, nyreligiøsitet og alternativ spiritualitet, nye religiøse bevegelser, folkereligiøsitet og sivilreligion, og hvordan du kan vurdere slike praksiser kritisk.', array[4]::int[], 3, 'sjekkes', array['Andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall fra SSB.']::text[], false, now())
+  ('krle-9:religiost-mangfold', 'krle-9', 'religiost-mangfold', 'Religiøst mangfold og nyreligiøsitet', 'Det religiøse landskapet i Norge, nyreligiøsitet og alternativ spiritualitet, nye religiøse bevegelser, folkereligiøsitet og sivilreligion, og hvordan du kan vurdere slike praksiser kritisk.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -11519,7 +11519,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Arbeidslivsfag: Mat og hygiene i storkjøkken
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('arbeidslivsfag-9:mat-og-hygiene', 'arbeidslivsfag-9', 'mat-og-hygiene', 'Mat og hygiene i storkjøkken', 'Hvordan man lager mat for mange: personlig hygiene, kjøkkenhygiene, temperaturer og holdbarhet, allergener, oppskrifter i større mengder, servering og matsvinn.', array[4, 3, 7]::int[], 1, 'sjekkes', array['Sjekk temperaturgrensene (4 °C, –18 °C, 10–60 °C, over 60 °C) mot Mattilsynets gjeldende råd.']::text[], false, now())
+  ('arbeidslivsfag-9:mat-og-hygiene', 'arbeidslivsfag-9', 'mat-og-hygiene', 'Mat og hygiene i storkjøkken', 'Hvordan man lager mat for mange: personlig hygiene, kjøkkenhygiene, temperaturer og holdbarhet, allergener, oppskrifter i større mengder, servering og matsvinn.', array[4, 3, 7]::int[], 1, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -12073,7 +12073,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Utdanningsvalg: Kjønn og karrierevalg
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'utdanningsvalg-9', 'kjonn-og-karrierevalg', 'Kjønn og karrierevalg', 'Det kjønnsdelte arbeidsmarkedet i Norge, hvorfor jenter og gutter ofte velger ulikt, lønnsforskjeller og deltid, likestillingsloven og hvordan du kan ta valg uten å styres av stereotypier.', array[7]::int[], 3, 'sjekkes', array['Sjekk påstandene om kjønnsfordeling i yrker og utdanningsprogram, og at kvinner er i flertall i høyere utdanning, mot ferske tall fra SSB.']::text[], false, now())
+  ('utdanningsvalg-9:kjonn-og-karrierevalg', 'utdanningsvalg-9', 'kjonn-og-karrierevalg', 'Kjønn og karrierevalg', 'Det kjønnsdelte arbeidsmarkedet i Norge, hvorfor jenter og gutter ofte velger ulikt, lønnsforskjeller og deltid, likestillingsloven og hvordan du kan ta valg uten å styres av stereotypier.', array[7]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -12324,7 +12324,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk: Bokmål, nynorsk og språkene i Norge
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('norsk-10:bokmal-og-nynorsk-historie', 'norsk-10', 'bokmal-og-nynorsk-historie', 'Bokmål, nynorsk og språkene i Norge', 'Hvorfor Norge har to skriftspråk, Ivar Aasen og Knud Knudsen, de viktigste årstallene i språkstriden, og hvilken status de offisielle språkene har i dag.', array[15]::int[], 2, 'sjekkes', array['Andelen elever med nynorsk som hovedmål («rundt en av ti») bør sjekkes mot fersk statistikk fra SSB/Språkrådet.']::text[], false, now())
+  ('norsk-10:bokmal-og-nynorsk-historie', 'norsk-10', 'bokmal-og-nynorsk-historie', 'Bokmål, nynorsk og språkene i Norge', 'Hvorfor Norge har to skriftspråk, Ivar Aasen og Knud Knudsen, de viktigste årstallene i språkstriden, og hvilken status de offisielle språkene har i dag.', array[15]::int[], 2, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -12639,7 +12639,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk: Nynorsk: skriv betre
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('norsk-10:nynorsk-skriving', 'norsk-10', 'nynorsk-skriving', 'Nynorsk: skriv betre', 'Vanlege feil og nyttige ord når du skriv nynorsk som sidemål: substantiv, verb, pronomen, adjektiv, passiv og ord som skil seg frå bokmål.', array[11]::int[], 6, 'sjekkes', array['Sjekk nynorskformene mot nynorsknormalen frå 2012, særleg valfrie former (me/vi, begynne/byrje, tyding/betydning) og tekst skrive på nynorsk.']::text[], false, now())
+  ('norsk-10:nynorsk-skriving', 'norsk-10', 'nynorsk-skriving', 'Nynorsk: skriv betre', 'Vanlege feil og nyttige ord når du skriv nynorsk som sidemål: substantiv, verb, pronomen, adjektiv, passiv og ord som skil seg frå bokmål.', array[11]::int[], 6, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -15077,7 +15077,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsfag: Konflikter i vår tid
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('samfunnsfag-10:konflikter-i-var-tid', 'samfunnsfag-10', 'konflikter-i-var-tid', 'Konflikter i vår tid', 'Hvordan du analyserer en konflikt, vanlige årsaker til væpnede konflikter, eksempler fra vår tid, konsekvensene for mennesker og verden, og hvordan konflikter kan løses.', array[7]::int[], 1, 'sjekkes', array['Pågående konflikter (Ukraina, Israel/Gaza, Syria) endrer seg raskt – sjekk at beskrivelsene fortsatt er dekkende.', 'Tallet på mennesker på flukt (over 100 millioner) bør sjekkes mot siste tall fra UNHCR.']::text[], false, now())
+  ('samfunnsfag-10:konflikter-i-var-tid', 'samfunnsfag-10', 'konflikter-i-var-tid', 'Konflikter i vår tid', 'Hvordan du analyserer en konflikt, vanlige årsaker til væpnede konflikter, eksempler fra vår tid, konsekvensene for mennesker og verden, og hvordan konflikter kan løses.', array[7]::int[], 1, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -15110,12 +15110,12 @@ Ofte virker flere årsaker sammen, og vi skiller mellom **langsiktige** og **utl
 ## Eksempler
 
 - **Russland og Ukraina**: Russland annekterte **Krim** i 2014 og gikk til **fullskala invasjon** av Ukraina 24. februar 2022. Konflikten handler om territorium, sikkerhetspolitikk, identitet og Ukrainas ønske om tilknytning til Vesten.
-- **Israel og Palestina**: Konflikten har røtter tilbake til opprettelsen av Israel i 1948 og handler om land, sikkerhet, Jerusalem og palestinernes krav om egen stat. **Oslo-avtalen** fra 1993 ga håp om fred, men ble aldri fullført. Hamas'' angrep på Israel 7. oktober 2023 ble fulgt av en krig i Gaza med svært mange drepte.
-- **Syria**: En borgerkrig brøt ut i 2011 etter at regimet slo ned på fredelige protester, og millioner flyktet.
+- **Israel og Palestina**: Konflikten har røtter tilbake til opprettelsen av Israel i 1948 og handler om land, sikkerhet, Jerusalem og palestinernes krav om egen stat. **Oslo-avtalen** fra 1993 ga håp om fred, men ble aldri fullført. Hamas'' angrep på Israel 7. oktober 2023 ble fulgt av en krig i Gaza med svært mange drepte. En skjør våpenhvile kom i oktober 2025.
+- **Syria**: En borgerkrig brøt ut i 2011 etter at regimet slo ned på fredelige protester, og millioner flyktet. Assad-regimet falt i desember 2024, men overgangen til et nytt styre har vært preget av uro og vold.
 
 ## Konsekvenser
 
-Væpnede konflikter fører til død, skader og traumer, ødelagte hjem, skoler og sykehus, sult og **flukt**. Over 100 millioner mennesker i verden er i dag på flukt. Konflikter påvirker også resten av verden gjennom høyere mat- og energipriser og økt spenning mellom stormaktene.
+Væpnede konflikter fører til død, skader og traumer, ødelagte hjem, skoler og sykehus, sult og **flukt**. Nesten 120 millioner mennesker i verden var på flukt ved utgangen av 2025, ifølge FNs høykommissær for flyktninger (UNHCR). Konflikter påvirker også resten av verden gjennom høyere mat- og energipriser og økt spenning mellom stormaktene.
 
 ## Konfliktløsning
 
@@ -15338,7 +15338,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsfag: Velferdsstaten og det politiske systemet
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('samfunnsfag-10:velferdsstaten', 'samfunnsfag-10', 'velferdsstaten', 'Velferdsstaten og det politiske systemet', 'Kjennetegn ved den norske velferdsstaten og den nordiske modellen, hvem som har ansvar for hva, hvordan velferden finansieres, og hvilke utfordringer den står overfor.', array[19]::int[], 4, 'sjekkes', array['Tallet på barn i familier med vedvarende lav inntekt (over 100 000) bør sjekkes mot siste tall fra SSB.']::text[], false, now())
+  ('samfunnsfag-10:velferdsstaten', 'samfunnsfag-10', 'velferdsstaten', 'Velferdsstaten og det politiske systemet', 'Kjennetegn ved den norske velferdsstaten og den nordiske modellen, hvem som har ansvar for hva, hvordan velferden finansieres, og hvilke utfordringer den står overfor.', array[19]::int[], 4, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -15383,7 +15383,7 @@ Velferden finansieres først og fremst gjennom **skatter og avgifter**. I tilleg
 
 - **Eldrebølgen**: Vi lever lenger, og det blir flere eldre per person i arbeid. Det gir større utgifter til pensjon og omsorg.
 - **Utenforskap**: Mange unge står utenfor både arbeid og utdanning.
-- **Økende forskjeller**: Over 100 000 barn vokser opp i familier med vedvarende lav inntekt.
+- **Økende forskjeller**: Rundt ett av ti barn – nesten 100 000 – vokser opp i familier med vedvarende lav inntekt.
 - **Press på helsevesenet**: mangel på helsepersonell og lange ventetider.
 - **Integrering** av innvandrere i arbeidslivet.
 - **Omstilling** fra olje og gass til nye næringer.
@@ -15679,7 +15679,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE: Kjønn og seksualitet i religioner og livssyn
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('krle-10:kjonn-og-seksualitet', 'krle-10', 'kjonn-og-seksualitet', 'Kjønn og seksualitet i religioner og livssyn', 'Ulike syn på kjønnsroller, seksualitet og likekjønnet samliv i kristendom, islam, jødedom, hinduisme og livssynshumanisme, og hva norsk lov sier.', array[8]::int[], 1, 'sjekkes', array['Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn.', 'Den katolske kirkes ordning med velsignelse av likekjønnede par (2023) bør sjekkes mot gjeldende praksis.']::text[], false, now())
+  ('krle-10:kjonn-og-seksualitet', 'krle-10', 'kjonn-og-seksualitet', 'Kjønn og seksualitet i religioner og livssyn', 'Ulike syn på kjønnsroller, seksualitet og likekjønnet samliv i kristendom, islam, jødedom, hinduisme og livssynshumanisme, og hva norsk lov sier.', array[8]::int[], 1, 'sjekkes', array['Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn. Fakta sjekket i september 2026.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -15704,7 +15704,7 @@ I mange religioner er **ekteskapet** mellom mann og kvinne den rette rammen for 
 ## Homofili og likekjønnet ekteskap
 
 - **Den norske kirke** vedtok i **2016** at likekjønnede par kan vies i kirken. Noen prester og menigheter er likevel uenige.
-- **Den katolske kirke** lærer at homofil legning ikke er synd, men at homofilt samliv er det. I 2023 åpnet paven for at prester kan velsigne likekjønnede par, men ikke vie dem.
+- **Den katolske kirke** lærer at homofil legning ikke er synd, men at homofilt samliv er det. I 2023 åpnet paven for at prester kan velsigne likekjønnede par, men ikke vie dem. Velsignelsen skal være kort og uformell, ikke en egen seremoni, og pave Leo 14. har understreket at den ikke skal gjøres til et ritual.
 - Mange **muslimer** og **ortodokse jøder** mener at homofilt samliv er i strid med religionen, mens liberale muslimer og reformjøder ofte er mer åpne.
 - **Humanister** støtter at alle skal ha samme rett til å gifte seg.
 - I Sør-Asia finnes en gammel tradisjon med et **tredje kjønn**, som også har plass i hinduistiske fortellinger.
@@ -15759,7 +15759,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE: Eksistensielle spørsmål
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('krle-10:eksistensielle-sporsmal', 'krle-10', 'eksistensielle-sporsmal', 'Eksistensielle spørsmål', 'De store spørsmålene om mening, frihet, lidelse og død, svar fra religioner, livssyn og eksistensialistiske filosofer, og hva det vil si å vokse opp i et mangfoldig og globalt samfunn.', array[13]::int[], 2, 'sjekkes', array['Telefonnumrene til Alarmtelefonen (116 111) og Mental Helses hjelpetelefon (116 123) bør sjekkes før lansering.']::text[], false, now())
+  ('krle-10:eksistensielle-sporsmal', 'krle-10', 'eksistensielle-sporsmal', 'Eksistensielle spørsmål', 'De store spørsmålene om mening, frihet, lidelse og død, svar fra religioner, livssyn og eksistensialistiske filosofer, og hva det vil si å vokse opp i et mangfoldig og globalt samfunn.', array[13]::int[], 2, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -16016,7 +16016,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- KRLE: Menneskerettigheter, bærekraft og fattigdom
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('krle-10:menneskerettigheter-og-fattigdom', 'krle-10', 'menneskerettigheter-og-fattigdom', 'Menneskerettigheter, bærekraft og fattigdom', 'Etiske problemstillinger knyttet til fattigdom, plikten til å hjelpe, handel og menneskerettigheter, og rettferdig fordeling av klimaansvaret.', array[15]::int[], 5, 'sjekkes', array['Verdensbankens grense for ekstrem fattigdom (rundt 3 dollar om dagen) og hvor mange som lever under den, bør sjekkes mot siste tall.']::text[], false, now())
+  ('krle-10:menneskerettigheter-og-fattigdom', 'krle-10', 'menneskerettigheter-og-fattigdom', 'Menneskerettigheter, bærekraft og fattigdom', 'Etiske problemstillinger knyttet til fattigdom, plikten til å hjelpe, handel og menneskerettigheter, og rettferdig fordeling av klimaansvaret.', array[15]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -16027,7 +16027,7 @@ Verden har aldri vært rikere, men godene er svært ujevnt fordelt. Det reiser v
 
 ## Fattigdom
 
-**Absolutt fattigdom** betyr at man ikke har nok til å dekke grunnleggende behov som mat, rent vann, bolig og helsehjelp. Verdensbanken regner som **ekstremt fattige** dem som lever for under rundt 3 dollar om dagen, og det gjelder flere hundre millioner mennesker, de fleste i Afrika sør for Sahara. **Relativ fattigdom** betyr at man har mye mindre enn de fleste andre i samfunnet man bor i. Det finnes også i Norge.
+**Absolutt fattigdom** betyr at man ikke har nok til å dekke grunnleggende behov som mat, rent vann, bolig og helsehjelp. Verdensbanken regner som **ekstremt fattige** dem som lever for under 3 dollar om dagen, og det gjelder rundt 800 millioner mennesker – omtrent én av ti i verden, de fleste i Afrika sør for Sahara. **Relativ fattigdom** betyr at man har mye mindre enn de fleste andre i samfunnet man bor i. Det finnes også i Norge.
 
 Årsakene er sammensatte: krig og konflikt, korrupsjon, klimaendringer, urettferdig handel, gjeld og mangel på utdanning og helsetjenester.
 
@@ -16058,7 +16058,7 @@ on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart 
 delete from public.flashcards where tema_id = 'krle-10:menneskerettigheter-og-fattigdom';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
   ('krle-10:menneskerettigheter-og-fattigdom', 'Absolutt fattigdom', 'Å mangle nok til grunnleggende behov som mat, vann, bolig og helsehjelp.', 0),
-  ('krle-10:menneskerettigheter-og-fattigdom', 'Ekstrem fattigdom', 'Ifølge Verdensbanken å leve for under rundt 3 dollar om dagen.', 1),
+  ('krle-10:menneskerettigheter-og-fattigdom', 'Ekstrem fattigdom', 'Ifølge Verdensbanken å leve for under 3 dollar om dagen (grensen siden 2025).', 1),
   ('krle-10:menneskerettigheter-og-fattigdom', 'Relativ fattigdom', 'Å ha mye mindre enn de fleste andre i samfunnet man bor i.', 2),
   ('krle-10:menneskerettigheter-og-fattigdom', 'Årsaker til fattigdom', 'Blant annet krig, korrupsjon, klimaendringer, urettferdig handel og mangel på utdanning.', 3),
   ('krle-10:menneskerettigheter-og-fattigdom', 'Singers druknende barn', 'Eksempel som skal vise at vi har plikt til å hjelpe mennesker i nød, også langt borte.', 4),
@@ -16660,7 +16660,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Tysk: Miljø og samfunn
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('tysk-10:miljo-og-samfunn', 'tysk-10', 'miljo-og-samfunn', 'Miljø og samfunn', 'Miljøvern, avfall og energi i Tyskland, hvordan du uttrykker meninger om miljø på tysk, trekk ved det tyske samfunnet, og sammenligninger med Norge.', array[8, 5]::int[], 5, 'sjekkes', array['Andelen innbyggere med innvandrerbakgrunn (omtrent hver fjerde) og beskrivelsen av tysk energipolitikk bør sjekkes mot ferske tall.']::text[], false, now())
+  ('tysk-10:miljo-og-samfunn', 'tysk-10', 'miljo-og-samfunn', 'Miljø og samfunn', 'Miljøvern, avfall og energi i Tyskland, hvordan du uttrykker meninger om miljø på tysk, trekk ved det tyske samfunnet, og sammenligninger med Norge.', array[8, 5]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -16682,7 +16682,7 @@ Som i Norge er det **Pfand** (pant) på flasker og bokser. Å gjenvinne heter **
 
 ## Energi og transport
 
-- **Die Energiewende**: Tyskland har gjennomført en stor omstilling til **erneuerbare Energie** (fornybar energi), særlig **Windkraft** (vindkraft) og **Solarenergie** (solenergi). De siste atomkraftverkene ble stengt i 2023, men landet bruker fortsatt noe kull.
+- **Die Energiewende**: Tyskland har gjennomført en stor omstilling til **erneuerbare Energie** (fornybar energi), særlig **Windkraft** (vindkraft) og **Solarenergie** (solenergi). De siste atomkraftverkene ble stengt i 2023, men kull ga fortsatt rundt en femdel av strømmen i 2025.
 - Mange reiser med **öffentliche Verkehrsmittel** (kollektivtransport) eller **mit dem Fahrrad** (sykkel).
 
 ## Hva kan vi gjøre?
@@ -17986,7 +17986,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Arbeidslivsfag: Rettigheter og plikter i arbeidslivet
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'arbeidslivsfag-10', 'rettigheter-og-plikter-i-arbeidslivet', 'Rettigheter og plikter i arbeidslivet', 'Arbeidsavtale, lønn og skatt, feriepenger, arbeidstid, regler for unge arbeidstakere, plikter som arbeidstaker, svart arbeid, fagforeninger og den norske modellen.', array[7]::int[], 1, 'sjekkes', array['Sjekk reglene for unge arbeidstakere (aldersgrenser, arbeidstid og kveldsarbeid) mot arbeidsmiljøloven kap. 11 og forskrift om arbeid for barn og unge.', 'Sjekk overtidstillegg (minst 40 %) og feriepengesats (10,2 %).']::text[], false, now())
+  ('arbeidslivsfag-10:rettigheter-og-plikter-i-arbeidslivet', 'arbeidslivsfag-10', 'rettigheter-og-plikter-i-arbeidslivet', 'Rettigheter og plikter i arbeidslivet', 'Arbeidsavtale, lønn og skatt, feriepenger, arbeidstid, regler for unge arbeidstakere, plikter som arbeidstaker, svart arbeid, fagforeninger og den norske modellen.', array[7]::int[], 1, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -18265,7 +18265,7 @@ delete from public.temaer where fag_id = 'utdanningsvalg-10' and slug not in ('s
 
 -- Utdanningsvalg: Å søke videregående
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('utdanningsvalg-10:soke-videregaende', 'utdanningsvalg-10', 'soke-videregaende', 'Å søke videregående', 'Hvordan søknaden til videregående fungerer: søknadsfrister, ønsker i prioritert rekkefølge, grunnskolepoeng, inntak, fortrinnsrett og individuell behandling, svar på tilbud og hvordan du gjør valget til handling.', array[2, 3, 8]::int[], 0, 'sjekkes', array['Sjekk søknadsfrister (1. februar og 1. mars), søknadsportal (vigo.no) og antall ønsker mot gjeldende regler i fylket.', 'Sjekk formuleringen om rett til videregående opplæring etter ny opplæringslov.']::text[], false, now())
+  ('utdanningsvalg-10:soke-videregaende', 'utdanningsvalg-10', 'soke-videregaende', 'Å søke videregående', 'Hvordan søknaden til videregående fungerer: søknadsfrister, ønsker i prioritert rekkefølge, grunnskolepoeng, inntak, fortrinnsrett og individuell behandling, svar på tilbud og hvordan du gjør valget til handling.', array[2, 3, 8]::int[], 0, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -18547,7 +18547,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Utdanningsvalg: Overganger og mestring
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('utdanningsvalg-10:overganger-og-mestring', 'utdanningsvalg-10', 'overganger-og-mestring', 'Overganger og mestring', 'Hva som endrer seg fra ungdomsskole til videregående, hvordan du kan mestre stress og nye situasjoner, hvor du får hjelp, hvordan omvalg fungerer og hvordan du gjør ideer til handling.', array[9, 8]::int[], 3, 'sjekkes', array['Sjekk at fraværsgrensen i videregående fortsatt gjelder i samme form.']::text[], false, now())
+  ('utdanningsvalg-10:overganger-og-mestring', 'utdanningsvalg-10', 'overganger-og-mestring', 'Overganger og mestring', 'Hva som endrer seg fra ungdomsskole til videregående, hvordan du kan mestre stress og nye situasjoner, hvor du får hjelp, hvordan omvalg fungerer og hvordan du gjør ideer til handling.', array[9, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -19349,7 +19349,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk: Samiske språk og språkrettigheter
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('norsk-vg1:samiske-sprak', 'norsk-vg1', 'samiske-sprak', 'Samiske språk og språkrettigheter', 'Utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og konsekvensene av den, og de språklige rettighetene samer har som urfolk i dag.', array[13]::int[], 8, 'sjekkes', array['Sjekk årstall (Finnefondet 1851, Wexelsen-plakaten 1898, jordsalgsloven 1902, Grunnloven § 108 vedtatt 1988, ILO 169 ratifisert 1990) og beskrivelsen av utbredelsen til lule- og sørsamisk.']::text[], false, now())
+  ('norsk-vg1:samiske-sprak', 'norsk-vg1', 'samiske-sprak', 'Samiske språk og språkrettigheter', 'Utbredelsen av de samiske språkene i Norge, fornorskingspolitikken og konsekvensene av den, og de språklige rettighetene samer har som urfolk i dag.', array[13]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -19382,7 +19382,7 @@ Konsekvensene var store: Mange samer sluttet å snakke samisk med barna sine, og
 Etter andre verdenskrig ble politikken gradvis endret. **Alta-saken** (1979–1981), der samer og miljøvernere protesterte mot en demning i Altaelva, satte samiske rettigheter på dagsordenen.
 
 - **Sameloven** (1987) og **Sametinget**, som ble åpnet i **1989**
-- **Grunnloven § 108** (vedtatt i 1988) slår fast at staten skal legge forholdene til rette for at samene kan sikre og utvikle **språket, kulturen og samfunnslivet** sitt.
+- **Grunnloven § 108** (vedtatt i 1988 som § 110 a, fikk dagens nummer i 2014) slår fast at staten skal legge forholdene til rette for at samene kan sikre og utvikle **språket, kulturen og samfunnslivet** sitt.
 - Norge ratifiserte **ILO-konvensjon nr. 169** om urfolk i 1990 – som første land.
 
 ## Språklige rettigheter i dag
@@ -21846,7 +21846,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Engelsk: Diversity and society in the English-speaking world
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'engelsk-vg1', 'diversity-in-the-english-speaking-world', 'Diversity and society in the English-speaking world', 'Diversity and social issues in the UK, the USA, Canada, Australia, New Zealand, South Africa and India, seen in light of history – colonialism, slavery, civil rights, Indigenous peoples and migration.', array[16]::int[], 7, 'sjekkes', array['Sjekk formuleringen om antall offisielle språk i Sør-Afrika (endret i 2023 da tegnspråk ble lagt til).']::text[], false, now())
+  ('engelsk-vg1:diversity-in-the-english-speaking-world', 'engelsk-vg1', 'diversity-in-the-english-speaking-world', 'Diversity and society in the English-speaking world', 'Diversity and social issues in the UK, the USA, Canada, Australia, New Zealand, South Africa and India, seen in light of history – colonialism, slavery, civil rights, Indigenous peoples and migration.', array[16]::int[], 7, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -21871,7 +21871,7 @@ The USA is often called a **nation of immigrants**, but its history also include
 
 ## South Africa and India
 
-- **South Africa** had **apartheid** – a system of racial segregation – from **1948** to **1994**, when **Nelson Mandela** became the first democratically elected president. The country has eleven or more official languages, and English is one of them.
+- **South Africa** had **apartheid** – a system of racial segregation – from **1948** to **1994**, when **Nelson Mandela** became the first democratically elected president. The country has twelve official languages, and English is one of them. South African Sign Language became the twelfth in 2023.
 - **India** became independent from Britain in **1947**. English is still widely used in government, business and higher education, alongside Hindi and many other languages.
 
 ## Talking about diversity
@@ -22317,7 +22317,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Naturfag: Elektromagnetisk og ioniserende stråling
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('naturfag-vg1:straling', 'naturfag-vg1', 'straling', 'Elektromagnetisk og ioniserende stråling', 'Det elektromagnetiske spekteret, forskjellen på ioniserende og ikke-ioniserende stråling, radioaktivitet med alfa-, beta- og gammastråling, halveringstid, stråledoser og helseeffekter – og hvordan du vurderer informasjon om stråling.', array[7]::int[], 3, 'sjekkes', array['Sjekk formuleringen om radon som en av de største kildene til stråledose i Norge mot DSA.']::text[], false, now())
+  ('naturfag-vg1:straling', 'naturfag-vg1', 'straling', 'Elektromagnetisk og ioniserende stråling', 'Det elektromagnetiske spekteret, forskjellen på ioniserende og ikke-ioniserende stråling, radioaktivitet med alfa-, beta- og gammastråling, halveringstid, stråledoser og helseeffekter – og hvordan du vurderer informasjon om stråling.', array[7]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -22359,7 +22359,7 @@ Alfastråling er likevel **svært farlig** hvis stoffet kommer **inn i kroppen**
 
 ## Stråling i hverdagen
 
-Vi utsettes hele tiden for **bakgrunnsstråling** fra verdensrommet, bakken, maten og **radon** – en radioaktiv gass som kommer fra berggrunnen og kan samle seg i hus. Radon regnes som en av de største kildene til stråledose i Norge og er en viktig årsak til lungekreft etter røyking. I **medisin** brukes stråling til røntgenbilder, CT og kreftbehandling. Fordelene veies opp mot risikoen.
+Vi utsettes hele tiden for **bakgrunnsstråling** fra verdensrommet, bakken, maten og **radon** – en radioaktiv gass som kommer fra berggrunnen og kan samle seg i hus. Radon i inneluft er den største kilden til stråledose i Norge – omtrent halvparten av dosen vi får i gjennomsnitt – og er en viktig årsak til lungekreft etter røyking. I **medisin** brukes stråling til røntgenbilder, CT og kreftbehandling. Fordelene veies opp mot risikoen.
 
 ## Vurdere informasjon om stråling
 
@@ -22762,7 +22762,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Naturfag: Kosthold, helse og livsstil
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('naturfag-vg1:kosthold-og-helse', 'naturfag-vg1', 'kosthold-og-helse', 'Kosthold, helse og livsstil', 'Funksjonene til karbohydrater, fett, proteiner, vitaminer og mineraler, hvorfor et variert kosthold er viktig for helse og bærekraft, aktuelle livsstilsspørsmål og hvordan du vurderer helseinformasjon.', array[12, 13]::int[], 8, 'sjekkes', array['Sjekk kostrådene og anbefalingene om fysisk aktivitet og søvn mot Helsedirektoratets gjeldende råd.']::text[], false, now())
+  ('naturfag-vg1:kosthold-og-helse', 'naturfag-vg1', 'kosthold-og-helse', 'Kosthold, helse og livsstil', 'Funksjonene til karbohydrater, fett, proteiner, vitaminer og mineraler, hvorfor et variert kosthold er viktig for helse og bærekraft, aktuelle livsstilsspørsmål og hvordan du vurderer helseinformasjon.', array[12, 13]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -22791,12 +22791,13 @@ Fett gir omtrent **37 kJ per gram**, mens karbohydrater og proteiner gir omtrent
 
 ## Kostråd
 
-Helsemyndighetene anbefaler blant annet
+Helsedirektoratets kostråd fra 2024 anbefaler blant annet
 
-- **mye frukt, bær og grønnsaker** – «fem om dagen»
-- **fullkorn** framfor fint mel
-- **fisk** flere ganger i uka
-- **begrenset** inntak av rødt og bearbeidet kjøtt, sukker og salt
+- et **variert** kosthold med mest mat fra **planteriket**
+- **frukt, bær eller grønnsaker** til alle måltider – til sammen 500–800 gram om dagen
+- **fullkorn** til flere måltider hver dag
+- oftere **fisk**, **bønner** og **linser** enn rødt kjøtt, og minst mulig **bearbeidet kjøtt**
+- **begrenset** inntak av godteri, snacks og søte bakevarer
 - **vann** som tørstedrikk
 
 ## Kosthold og bærekraft
@@ -22835,7 +22836,7 @@ insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
   ('naturfag-vg1:kosthold-og-helse', 'D-vitamin', 'Viktig for skjelettet; dannes med sollys og finnes i fet fisk.', 9),
   ('naturfag-vg1:kosthold-og-helse', 'Jern', 'Nødvendig for oksygentransport i blodet.', 10),
   ('naturfag-vg1:kosthold-og-helse', 'Kalsium', 'Bygger skjelett og tenner.', 11),
-  ('naturfag-vg1:kosthold-og-helse', 'Fem om dagen', 'Kostråd om frukt, bær og grønnsaker.', 12),
+  ('naturfag-vg1:kosthold-og-helse', 'Frukt, bær og grønnsaker', 'Bør være en del av alle måltider – 500–800 gram om dagen.', 12),
   ('naturfag-vg1:kosthold-og-helse', 'Fysisk aktivitet for unge', 'Minst 60 minutter hver dag.', 13),
   ('naturfag-vg1:kosthold-og-helse', 'Sammenheng og årsak', 'At to ting henger sammen, betyr ikke at den ene forårsaker den andre.', 14);
 delete from public.quiz_sporsmal where tema_id = 'naturfag-vg1:kosthold-og-helse';
@@ -23236,7 +23237,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Geografi: Ressurs- og arealbruk i Norge, Sápmi og nordområdene
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('geografi-vg1:ressurs-og-arealbruk', 'geografi-vg1', 'ressurs-og-arealbruk', 'Ressurs- og arealbruk i Norge, Sápmi og nordområdene', 'Hvilke interesser som støter sammen når areal og ressurser skal brukes – vindkraft og reindrift, gruvedrift, olje og fiske, hytter og natur – og hvordan slike konflikter håndteres i Norge, Sápmi og nordområdene.', array[3]::int[], 2, 'sjekkes', array['Sjekk status for Fosen-saken og gruveplanene ved Repparfjorden, som kan ha endret seg.']::text[], false, now())
+  ('geografi-vg1:ressurs-og-arealbruk', 'geografi-vg1', 'ressurs-og-arealbruk', 'Ressurs- og arealbruk i Norge, Sápmi og nordområdene', 'Hvilke interesser som støter sammen når areal og ressurser skal brukes – vindkraft og reindrift, gruvedrift, olje og fiske, hytter og natur – og hvordan slike konflikter håndteres i Norge, Sápmi og nordområdene.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -23251,11 +23252,11 @@ I Norge er det **kommunene** som vedtar **arealplaner** etter **plan- og bygning
 
 **Sápmi** er samenes tradisjonelle område. **Reindrift** er en viktig samisk næring og kultur som trenger **store, sammenhengende beiteområder**, og reinen bruker ulike områder til ulike årstider. Vindkraftverk, veier, hytter, gruver og kraftlinjer kan **forstyrre** reinen og **stykke opp** beitet.
 
-**Fosen-saken** er et kjent eksempel: I **2021** slo **Høyesterett** fast at to vindkraftverk på Fosen krenket reindriftssamenes rett til å utøve sin **kultur**, som er beskyttet i internasjonale menneskerettigheter. Saken skapte store protester og debatt om hvordan det **grønne skiftet** kan skje uten å gå ut over urfolks rettigheter.
+**Fosen-saken** er et kjent eksempel: I **2021** slo **Høyesterett** fast at to vindkraftverk på Fosen krenket reindriftssamenes rett til å utøve sin **kultur**, som er beskyttet i internasjonale menneskerettigheter. Etter store protester kom partene fram til avtaler i 2023 og 2024: Turbinene blir stående, mens reindrifta får kompensasjon og nye vinterbeiter. Saken skapte store protester og debatt om hvordan det **grønne skiftet** kan skje uten å gå ut over urfolks rettigheter.
 
 ## Gruvedrift
 
-Norge har forekomster av **mineraler** som trengs i det grønne skiftet, for eksempel **kobber**. Gruvedrift kan gi **arbeidsplasser** og **inntekter**, men også **naturinngrep** og **avfall**. Planene om kobbergruve ved **Repparfjorden** i Finnmark skapte konflikt, blant annet fordi gruveavfallet skulle deponeres i fjorden, noe fiskere, miljøvernere og reindriftssamer protesterte mot.
+Norge har forekomster av **mineraler** som trengs i det grønne skiftet, for eksempel **kobber**. Gruvedrift kan gi **arbeidsplasser** og **inntekter**, men også **naturinngrep** og **avfall**. Planene om kobbergruve ved **Repparfjorden** i Finnmark skapte konflikt, blant annet fordi gruveavfallet skulle deponeres i fjorden, noe fiskere, miljøvernere og reindriftssamer protesterte mot. Byggingen av gruva er i gang, men sjødeponiet er fortsatt omstridt.
 
 ## Nordområdene
 
@@ -23959,7 +23960,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnskunnskap: Kjønn, seksualitet, kropp og grenser
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'samfunnskunnskap-vg1', 'kjonn-seksualitet-og-grenser', 'Kjønn, seksualitet, kropp og grenser', 'Grensesetting og samtykke, verdier, normer og lover om kjønn, seksualitet og kropp – seksuell lavalder, deling av bilder, kjønnsmangfold og diskrimineringsvern – og hvordan normene har endret seg over tid.', array[5]::int[], 3, 'sjekkes', array['Sensitivt tema – læreren bør gå gjennom formuleringene.', 'Sjekk gjeldende regler om samtykke i straffeloven (voldtektsbestemmelsen ble endret i 2025) og aldersgrensen for endring av juridisk kjønn.']::text[], false, now())
+  ('samfunnskunnskap-vg1:kjonn-seksualitet-og-grenser', 'samfunnskunnskap-vg1', 'kjonn-seksualitet-og-grenser', 'Kjønn, seksualitet, kropp og grenser', 'Grensesetting og samtykke, verdier, normer og lover om kjønn, seksualitet og kropp – seksuell lavalder, deling av bilder, kjønnsmangfold og diskrimineringsvern – og hvordan normene har endret seg over tid.', array[5]::int[], 3, 'sjekkes', array['Fakta sjekket i september 2026: samtykkebasert voldtektsbestemmelse i kraft fra 1. juli 2025, juridisk kjønn fra 16 år (fra 6 år med samtykke fra foreldrene). Sensitivt tema – en lærer bør likevel gå gjennom formuleringene.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -23973,7 +23974,7 @@ Alle har rett til å bestemme over **egen kropp**. Å sette **grenser** betyr å
 ## Lover om seksualitet og kropp
 
 - Den **seksuelle lavalderen** i Norge er **16 år**.
-- Seksuell omgang uten samtykke er **voldtekt**, og det er straffbart.
+- Seksuell omgang uten samtykke er **voldtekt**, og det er straffbart. Fra 1. juli 2025 sier straffeloven dette direkte: Samtykket må komme fram gjennom ord eller handlinger.
 - Å lage, ha eller dele **seksualiserte bilder** av personer **under 18 år** er straffbart – også når de er tatt av den unge selv.
 - Å dele **krenkende bilder** av andre uten samtykke er straffbart.
 - **Seksuell trakassering** – uønsket seksuell oppmerksomhet – er forbudt etter likestillings- og diskrimineringsloven.
@@ -24232,7 +24233,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnskunnskap: Majoritet og minoriteter i Norge og Sápmi
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'samfunnskunnskap-vg1', 'majoritet-og-minoritet', 'Majoritet og minoriteter i Norge og Sápmi', 'Likheter og ulikheter i kulturuttrykk, identitet og levesett innenfor og mellom majoritet og minoriteter i Norge: samene som urfolk, de nasjonale minoritetene og innvandrere – og begreper som integrering, assimilering og flerkulturell identitet.', array[8]::int[], 6, 'sjekkes', array['Sjekk hvilke land de største innvandrergruppene i Norge kommer fra mot fersk statistikk fra SSB.']::text[], false, now())
+  ('samfunnskunnskap-vg1:majoritet-og-minoritet', 'samfunnskunnskap-vg1', 'majoritet-og-minoritet', 'Majoritet og minoriteter i Norge og Sápmi', 'Likheter og ulikheter i kulturuttrykk, identitet og levesett innenfor og mellom majoritet og minoriteter i Norge: samene som urfolk, de nasjonale minoritetene og innvandrere – og begreper som integrering, assimilering og flerkulturell identitet.', array[8]::int[], 6, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -24261,7 +24262,7 @@ Flere av dem ble utsatt for **fornorsking** og **diskriminering**. Romanifolk bl
 
 ## Innvandrere
 
-En stor del av befolkningen i Norge er **innvandrere** eller **norskfødte med innvandrerforeldre**, med bakgrunn fra mer enn 200 land. De største gruppene har bakgrunn fra blant annet **Polen**, **Litauen**, **Sverige**, **Syria**, **Ukraina** og **Somalia**. Folk kommer som **arbeidsinnvandrere**, **flyktninger**, **familiegjenforente** eller **studenter**.
+En stor del av befolkningen i Norge er **innvandrere** eller **norskfødte med innvandrerforeldre**, med bakgrunn fra mer enn 200 land. De største gruppene har bakgrunn fra blant annet **Polen**, **Ukraina**, **Litauen**, **Syria**, **Somalia**, **Sverige** og **Pakistan**. Folk kommer som **arbeidsinnvandrere**, **flyktninger**, **familiegjenforente** eller **studenter**.
 
 ## Integrering og assimilering
 
@@ -25635,7 +25636,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Fransk: Samfunn i Frankrike og den fransktalende verden
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('fransk-vg1:samfunn-og-aktuelle-saker', 'fransk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Frankrike og den fransktalende verden', 'Hvordan Frankrike er styrt, republikkens verdier og laïcité, protestkultur, den fransktalende verden – og hvordan du uttrykker meninger og bruker relativpronomenene qui, que, où og dont.', array[4, 5, 8]::int[], 3, 'sjekkes', array['Sjekk tallene for antall fransktalende og antall land med fransk som offisielt språk.']::text[], false, now())
+  ('fransk-vg1:samfunn-og-aktuelle-saker', 'fransk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Frankrike og den fransktalende verden', 'Hvordan Frankrike er styrt, republikkens verdier og laïcité, protestkultur, den fransktalende verden – og hvordan du uttrykker meninger og bruker relativpronomenene qui, que, où og dont.', array[4, 5, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -25656,7 +25657,7 @@ Franskmenn har en sterk tradisjon for **demonstrasjoner** (*les manifestations*)
 
 ## La Francophonie
 
-Fransk snakkes av rundt **300 millioner** mennesker på alle kontinenter og er offisielt språk i rundt **30 land**. Den fransktalende verden kalles **la francophonie**:
+Fransk snakkes av nesten **400 millioner** mennesker på alle kontinenter og er offisielt språk i rundt **30 land**. Den fransktalende verden kalles **la francophonie**:
 
 - **Europa**: Frankrike, Belgia, Sveits, Luxembourg, Monaco
 - **Amerika**: Québec i Canada, Haiti
@@ -26197,14 +26198,14 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Spansk: Samfunn i Spania og Latin-Amerika
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('spansk-vg1:samfunn-og-aktuelle-saker', 'spansk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Spania og Latin-Amerika', 'Den spansktalende verden, Spanias regioner og språk, mangfold, ulikhet og migrasjon i Latin-Amerika – og hvordan du uttrykker meninger og ønsker på spansk, blant annet med en første innføring i subjuntivo.', array[4, 5, 8]::int[], 3, 'sjekkes', array['Sjekk tallet på spansktalende (rundt 500 millioner morsmålsbrukere) og antall land med spansk som offisielt språk.']::text[], false, now())
+  ('spansk-vg1:samfunn-og-aktuelle-saker', 'spansk-vg1', 'samfunn-og-aktuelle-saker', 'Samfunn i Spania og Latin-Amerika', 'Den spansktalende verden, Spanias regioner og språk, mangfold, ulikhet og migrasjon i Latin-Amerika – og hvordan du uttrykker meninger og ønsker på spansk, blant annet med en første innføring i subjuntivo.', array[4, 5, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
 insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
   ('spansk-vg1:samfunn-og-aktuelle-saker', '## Den spansktalende verden
 
-Spansk er morsmål for rundt **500 millioner** mennesker og offisielt språk i **21 land**: **Spania**, **Ekvatorial-Guinea** i Afrika og en rekke land i **Latin-Amerika**. **Mexico** er landet med flest spansktalende. Spansk er også mye brukt i **USA**.
+Spansk er morsmål for over **500 millioner** mennesker og offisielt språk i **21 land** (medregnet Puerto Rico): **Spania**, **Ekvatorial-Guinea** i Afrika og en rekke land i **Latin-Amerika**. **Mexico** er landet med flest spansktalende. Spansk er også mye brukt i **USA**.
 
 ## Spania
 
@@ -26973,7 +26974,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kinesisk: Kina: geografi, høytider og kultur
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('kinesisk-vg1:kultur-og-hoytider', 'kinesisk-vg1', 'kultur-og-hoytider', 'Kina: geografi, høytider og kultur', 'Kinas geografi og byer, de viktigste høytidene – vårfestivalen, midthøstfestivalen og dragebåtfestivalen – dyrekretsen, mat og spisepinner, kalligrafi, te og opera, og hvordan kinesisk kultur kan sammenlignes med norsk.', array[8, 9]::int[], 5, 'sjekkes', array['Kinesisk er nytt fag i appen – en lærer med kinesiskkompetanse bør sjekke tegn, pinyin og toner i alle temaene.']::text[], false, now())
+  ('kinesisk-vg1:kultur-og-hoytider', 'kinesisk-vg1', 'kultur-og-hoytider', 'Kina: geografi, høytider og kultur', 'Kinas geografi og byer, de viktigste høytidene – vårfestivalen, midthøstfestivalen og dragebåtfestivalen – dyrekretsen, mat og spisepinner, kalligrafi, te og opera, og hvordan kinesisk kultur kan sammenlignes med norsk.', array[8, 9]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -27696,7 +27697,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Norsk: Språksituasjonen i Norge og språkstriden
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('norsk-vg2:sprakhistorie-og-sprakstriden', 'norsk-vg2', 'sprakhistorie-og-sprakstriden', 'Språksituasjonen i Norge og språkstriden', 'Den historiske bakgrunnen for språksituasjonen i Norge i dag – fra norrønt og dansketiden via Knud Knudsen og Ivar Aasen til bokmål og nynorsk, språkstriden, rettskrivningsreformene, samnorsk og språkloven.', array[9]::int[], 7, 'sjekkes', array['Sjekk andelen elever med nynorsk som hovedmål og årstallet for når samnorsk formelt ble oppgitt.']::text[], false, now())
+  ('norsk-vg2:sprakhistorie-og-sprakstriden', 'norsk-vg2', 'sprakhistorie-og-sprakstriden', 'Språksituasjonen i Norge og språkstriden', 'Den historiske bakgrunnen for språksituasjonen i Norge i dag – fra norrønt og dansketiden via Knud Knudsen og Ivar Aasen til bokmål og nynorsk, språkstriden, rettskrivningsreformene, samnorsk og språkloven.', array[9]::int[], 7, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -29442,7 +29443,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Tysk: Migrasjon, identitet og mangfold
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('tysk-vg2:migrasjon-og-mangfold', 'tysk-vg2', 'migrasjon-og-mangfold', 'Migrasjon, identitet og mangfold', 'Innvandring og mangfold i Tyskland – fra gjestearbeidere til flyktninger – identitet og flerspråklighet, og hvordan du forstår og gjengir andres utsagn med indirekte tale og konjunktiv I.', array[8, 4]::int[], 2, 'sjekkes', array['Sjekk andelen med innvandrerbakgrunn i Tyskland («rundt hver fjerde») mot fersk statistikk.']::text[], false, now())
+  ('tysk-vg2:migrasjon-og-mangfold', 'tysk-vg2', 'migrasjon-og-mangfold', 'Migrasjon, identitet og mangfold', 'Innvandring og mangfold i Tyskland – fra gjestearbeidere til flyktninger – identitet og flerspråklighet, og hvordan du forstår og gjengir andres utsagn med indirekte tale og konjunktiv I.', array[8, 4]::int[], 2, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -29453,7 +29454,7 @@ Etter andre verdenskrig trengte **Vest-Tyskland** arbeidskraft. Fra **1955** ble
 
 I **2015** kom svært mange **flyktninger**, særlig fra **Syria**. Forbundskansler **Angela Merkel** sa *«Wir schaffen das»* («Vi klarer det»). Uttrykket **Willkommenskultur** ble brukt om mottakelsen – men det kom også mye **motstand**. I **2022** kom mange flyktninger fra **Ukraina**.
 
-I dag har rundt **hver fjerde** person i Tyskland **innvandrerbakgrunn** (*Migrationshintergrund*).
+I dag har rundt **hver fjerde** person i Tyskland **innvandrerbakgrunn** (*Einwanderungsgeschichte*) – de har selv innvandret, eller begge foreldrene har det. Regner man med alle som har minst én innvandret forelder (*Migrationshintergrund*), er andelen nesten hver tredje.
 
 ## Identitet og tilhørighet
 
@@ -29516,7 +29517,7 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('tysk-vg2:migrasjon-og-mangfold', 'q04', 'flervalg', 'Hvor brukes konjunktiv I mest?', array['I sms-er til venner', 'I barnebøker', 'I sanger', 'I nyheter og formelle tekster']::text[], 3, 'Den viser at det er andres ord.', true, true, 3),
   ('tysk-vg2:migrasjon-og-mangfold', 'q05', 'flervalg', 'Hva betyr «zweisprachig»?', array['tospråklig', 'tosidig', 'to ganger', 'annenhver']::text[], 0, 'zwei = to, Sprache = språk.', true, true, 4),
   ('tysk-vg2:migrasjon-og-mangfold', 'q06', 'flervalg', 'Hva betyr «Die Ministerin sagte, die Lage sei schwierig»?', array['Ministeren er i en vanskelig situasjon.', 'Ministeren sa at situasjonen var vanskelig.', 'Situasjonen gjorde ministeren sint.', 'Ministeren løste situasjonen.']::text[], 1, 'Indirekte tale med konjunktiv I.', true, true, 5),
-  ('tysk-vg2:migrasjon-og-mangfold', 'q07', 'flervalg', 'Omtrent hvor stor andel av befolkningen i Tyskland har innvandrerbakgrunn?', array['Hver hundrede', 'Hver tiende', 'Hver fjerde', 'Halvparten']::text[], 2, 'Migrationshintergrund.', true, true, 6),
+  ('tysk-vg2:migrasjon-og-mangfold', 'q07', 'flervalg', 'Omtrent hvor stor andel av befolkningen i Tyskland har innvandrerbakgrunn?', array['Hver hundrede', 'Hver tiende', 'Hver fjerde', 'Halvparten']::text[], 2, 'Einwanderungsgeschichte – rundt 26 prosent i 2025.', true, true, 6),
   ('tysk-vg2:migrasjon-og-mangfold', 'q08', 'flervalg', 'Hva betyr «die Heimat»?', array['huset', 'hjemmelekser', 'himmelen', 'hjemstedet']::text[], 3, 'Et ord med sterke følelser.', true, true, 7),
   ('tysk-vg2:migrasjon-og-mangfold', 'q09', 'flervalg', 'Hva er konjunktiv I av «haben» i er-form?', array['habe', 'hat', 'hätte', 'hatte']::text[], 0, 'Er erklärt, er habe keine Zeit.', true, false, 8),
   ('tysk-vg2:migrasjon-og-mangfold', 'q10', 'flervalg', 'Hvilket land kom mange flyktninger til Tyskland fra i 2022?', array['Tyrkia', 'Ukraina', 'Italia', 'Vietnam']::text[], 1, 'Etter Russlands angrep på Ukraina.', true, false, 9),
@@ -31470,7 +31471,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kinesisk: Det moderne Kina
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('kinesisk-vg2:moderne-kina', 'kinesisk-vg2', 'moderne-kina', 'Det moderne Kina', 'Kinas utvikling etter 1978 – økonomisk vekst, byer og teknologi – dagliglivet med mobil og superapper, utfordringer som forurensning og ulikhet, politikk og sensur, og Taiwan og Hongkong – med nyttige ord og uttrykk.', array[8, 9, 4]::int[], 5, 'sjekkes', array['Kinesisk bør gjennomgås av en lærer med kinesiskkompetanse (tegn, pinyin og toner).', 'Politiske formuleringer om Taiwan, Hongkong og menneskerettigheter bør vurderes av lærer.']::text[], false, now())
+  ('kinesisk-vg2:moderne-kina', 'kinesisk-vg2', 'moderne-kina', 'Det moderne Kina', 'Kinas utvikling etter 1978 – økonomisk vekst, byer og teknologi – dagliglivet med mobil og superapper, utfordringer som forurensning og ulikhet, politikk og sensur, og Taiwan og Hongkong – med nyttige ord og uttrykk.', array[8, 9, 4]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -31834,7 +31835,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1: Stoffmengde og støkiometri
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('kjemi-1:stoffmengde-og-stokiometri', 'kjemi-1', 'stoffmengde-og-stokiometri', 'Stoffmengde og støkiometri', 'Mol, molar masse og balanserte reaksjonslikninger – og hvordan du regner ut hvor mye som reagerer og dannes.', array[4, 8]::int[], 3, 'sjekkes', array['Molvolum: læreverk bruker ulike standardbetingelser (22,4 L/mol ved 0 °C og 1 atm, 22,7 L/mol ved 0 °C og 1 bar, 24,5 L/mol ved 25 °C og 1 atm). Sjekk hvilke verdier læreboka og eksamensformelarket bruker.', 'Atommassene er avrundet til to desimaler (H 1,01, C 12,01, O 16,00, S 32,07). Svarene kan avvike litt i siste siffer hvis tabellen i læreboka har andre verdier.']::text[], false, now())
+  ('kjemi-1:stoffmengde-og-stokiometri', 'kjemi-1', 'stoffmengde-og-stokiometri', 'Stoffmengde og støkiometri', 'Mol, molar masse og balanserte reaksjonslikninger – og hvordan du regner ut hvor mye som reagerer og dannes.', array[4, 8]::int[], 3, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -32419,7 +32420,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Kjemi 1: Titrering og spektroskopi
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('kjemi-1:titrering-og-spektroskopi', 'kjemi-1', 'titrering-og-spektroskopi', 'Titrering og spektroskopi', 'Hvordan kjemikere bestemmer konsentrasjoner med titrering, og hvordan lys og spektre avslører hva et stoff består av.', array[2, 10, 11]::int[], 9, 'sjekkes', array['«Gravimetrisk titreranalyse» er tolket som titrering der mengden titrerløsning bestemmes ved veiing. Sjekk at tolkningen stemmer med læreboka.', 'Utvalget av spektroskopiske metoder (spektrofotometri, IR og massespektrometri) bør sjekkes mot læreboka. NMR er utelatt.', 'Flammefarger beskrives litt ulikt i ulike kilder (for eksempel «grønn» eller «blågrønn» for kobber).']::text[], false, now())
+  ('kjemi-1:titrering-og-spektroskopi', 'kjemi-1', 'titrering-og-spektroskopi', 'Titrering og spektroskopi', 'Hvordan kjemikere bestemmer konsentrasjoner med titrering, og hvordan lys og spektre avslører hva et stoff består av.', array[2, 10, 11]::int[], 9, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -32444,7 +32445,7 @@ Alle målinger har usikkerhet. **Tilfeldige feil**, som små forskjeller når du
 
 ## Atomspektre
 
-Elektronene i et atom kan bare ha bestemte energier. Når et atom får tilført energi, for eksempel i en flamme, hopper elektroner opp til høyere energinivåer. Når de faller tilbake, sender de ut lys med en energi som tilsvarer forskjellen mellom nivåene. Jo større energiforskjell, desto kortere bølgelengde. Lyset gir et **linjespekter**, og fordi energinivåene er forskjellige for hvert grunnstoff, har hvert grunnstoff sitt eget spekter. Det brukes i **flammeprøver**: natrium gir gul flamme, kalium lilla og kobber grønn. Sendes hvitt lys gjennom en gass, absorberes de samme bølgelengdene, og vi får mørke linjer i et **absorpsjonsspekter**.
+Elektronene i et atom kan bare ha bestemte energier. Når et atom får tilført energi, for eksempel i en flamme, hopper elektroner opp til høyere energinivåer. Når de faller tilbake, sender de ut lys med en energi som tilsvarer forskjellen mellom nivåene. Jo større energiforskjell, desto kortere bølgelengde. Lyset gir et **linjespekter**, og fordi energinivåene er forskjellige for hvert grunnstoff, har hvert grunnstoff sitt eget spekter. Det brukes i **flammeprøver**: natrium gir gul flamme, kalium lilla og kobber grønn eller blågrønn. Sendes hvitt lys gjennom en gass, absorberes de samme bølgelengdene, og vi får mørke linjer i et **absorpsjonsspekter**.
 
 ## Spektroskopiske metoder
 
@@ -34326,7 +34327,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Biologi 1: Antibiotika og antibiotikaresistens
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('biologi-1:antibiotika-og-resistens', 'biologi-1', 'antibiotika-og-resistens', 'Antibiotika og antibiotikaresistens', 'Hva antibiotika er og hvordan de virker, hvorfor de ikke virker mot virus, hvordan bakterier blir resistente gjennom mutasjoner, genoverføring og seleksjon – og hva vi kan gjøre for å bremse utviklingen.', array[9]::int[], 8, 'sjekkes', array['Sjekk anslaget om over én million dødsfall direkte forårsaket av resistente bakterier i 2019 mot nyeste tall (GRAM/Lancet).']::text[], false, now())
+  ('biologi-1:antibiotika-og-resistens', 'biologi-1', 'antibiotika-og-resistens', 'Antibiotika og antibiotikaresistens', 'Hva antibiotika er og hvordan de virker, hvorfor de ikke virker mot virus, hvordan bakterier blir resistente gjennom mutasjoner, genoverføring og seleksjon – og hva vi kan gjøre for å bremse utviklingen.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -34513,7 +34514,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Biologi 1: Klima, arealbruk og truet mangfold
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('biologi-1:klima-arealbruk-og-mangfold', 'biologi-1', 'klima-arealbruk-og-mangfold', 'Klima, arealbruk og truet mangfold', 'Hvordan arealendringer, klimaendringer og andre påvirkninger truer det biologiske mangfoldet i Norge og verden – og hvilke tiltak som kan gi en mer bærekraftig forvaltning.', array[11]::int[], 10, 'sjekkes', array['Sjekk tallet på truede arter mot nyeste Norsk rødliste for arter (2021-utgaven er brukt; en ny utgave kan være publisert).', 'Sjekk IPBES-anslaget og Naturavtalens mål mot oppdaterte kilder.']::text[], false, now())
+  ('biologi-1:klima-arealbruk-og-mangfold', 'biologi-1', 'klima-arealbruk-og-mangfold', 'Klima, arealbruk og truet mangfold', 'Hvordan arealendringer, klimaendringer og andre påvirkninger truer det biologiske mangfoldet i Norge og verden – og hvilke tiltak som kan gi en mer bærekraftig forvaltning.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -34547,7 +34548,7 @@ Klima og arealbruk **forsterker** hverandre: En art som må flytte på seg på g
 
 ## Rødlista og Fremmedartslista
 
-**Artsdatabanken** vurderer hvor truet artene i Norge er. **Norsk rødliste for arter 2021** vurderte rundt **2750 arter** som **truet**. **Fremmedartslista** vurderer arter som er spredt til Norge ved menneskers hjelp, som **stillehavsøsters** og **hagelupin**, og hvor stor økologisk risiko de utgjør.
+**Artsdatabanken** vurderer hvor truet artene i Norge er. **Norsk rødliste for arter 2021** vurderte rundt **2750 arter** som **truet**. Neste utgave kommer etter planen i 2027. **Fremmedartslista** vurderer arter som er spredt til Norge ved menneskers hjelp, som **stillehavsøsters** og **hagelupin**, og hvor stor økologisk risiko de utgjør.
 
 ## Tiltak for en bærekraftig forvaltning
 
@@ -35284,7 +35285,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Geofag 1: Ferskvann som ressurs
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('geofag-1:ferskvannsressurser', 'geofag-1', 'ferskvannsressurser', 'Ferskvann som ressurs', 'Hvordan ferskvann brukes til drikkevann, jordbruk, industri og energi i Norge og verden, hvorfor vannmangel og konflikter oppstår, og hva bærekraftig vannforvaltning innebærer.', array[8]::int[], 7, 'sjekkes', array['Sjekk andelene for drikkevann fra overflatevann og vannkraftens andel av strømproduksjonen i Norge mot nyeste tall (FHI/NVE/SSB).']::text[], false, now())
+  ('geofag-1:ferskvannsressurser', 'geofag-1', 'ferskvannsressurser', 'Ferskvann som ressurs', 'Hvordan ferskvann brukes til drikkevann, jordbruk, industri og energi i Norge og verden, hvorfor vannmangel og konflikter oppstår, og hva bærekraftig vannforvaltning innebærer.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -35377,7 +35378,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Geofag 1: Geologiske ressurser
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('geofag-1:geologiske-ressurser', 'geofag-1', 'geologiske-ressurser', 'Geologiske ressurser', 'Hvordan malmer, industrimineraler, byggeråstoffer, olje og gass dannes, hvordan de kartlegges og utvinnes i Norge og verden – og hvilke konsekvenser utvinningen har i et bærekraftsperspektiv.', array[9]::int[], 8, 'sjekkes', array['Sjekk status og omtale av Fensfeltet (sjeldne jordartsmetaller) mot oppdaterte kilder.']::text[], false, now())
+  ('geofag-1:geologiske-ressurser', 'geofag-1', 'geologiske-ressurser', 'Geologiske ressurser', 'Hvordan malmer, industrimineraler, byggeråstoffer, olje og gass dannes, hvordan de kartlegges og utvinnes i Norge og verden – og hvilke konsekvenser utvinningen har i et bærekraftsperspektiv.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -35413,7 +35414,7 @@ Malm og mineraler hentes ut i **dagbrudd** eller **gruver** under jorda. Malmen 
 
 - **Olje og gass** fra norsk sokkel har siden 1970-tallet vært Norges viktigste eksportvare og har finansiert **Statens pensjonsfond utland**.
 - Norge har lang **gruvehistorie**, som kobberverket på **Røros** og sølvverket på **Kongsberg**.
-- **Fensfeltet** i Telemark har store forekomster av **sjeldne jordartsmetaller**, som trengs i magneter til vindturbiner og elbiler.
+- **Fensfeltet** i Telemark har store forekomster av **sjeldne jordartsmetaller**, som trengs i magneter til vindturbiner og elbiler. Det planlegges gruvedrift, men den er ikke startet ennå.
 - Det tas også ut mye **pukk** og **grus**, og Norge eksporterer blant annet pukk og industrimineraler.
 
 ## Konsekvenser og bærekraft
@@ -38470,7 +38471,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Informasjonsteknologi 1: Brukervennlighet og universell utforming
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'informasjonsteknologi-1', 'brukervennlighet-og-universell-utforming', 'Brukervennlighet og universell utforming', 'Hvordan du planlegger nettsider som er enkle å bruke for alle – brukersentrert design, prototyper og brukertesting, WCAG-prinsippene, kontrast, alt-tekst og tastaturnavigasjon, og hva loven krever.', array[6]::int[], 5, 'sjekkes', array['Sjekk gjeldende krav i forskrift om universell utforming av IKT-løsninger (hvilken WCAG-versjon og hvilke virksomheter som omfattes).']::text[], false, now())
+  ('informasjonsteknologi-1:brukervennlighet-og-universell-utforming', 'informasjonsteknologi-1', 'brukervennlighet-og-universell-utforming', 'Brukervennlighet og universell utforming', 'Hvordan du planlegger nettsider som er enkle å bruke for alle – brukersentrert design, prototyper og brukertesting, WCAG-prinsippene, kontrast, alt-tekst og tastaturnavigasjon, og hva loven krever.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -38802,7 +38803,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Informasjonsteknologi 1: Personvern og regelverk
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('informasjonsteknologi-1:personvern-og-regelverk', 'informasjonsteknologi-1', 'personvern-og-regelverk', 'Personvern og regelverk', 'Hva personopplysninger er, personvernforordningen (GDPR) og personopplysningsloven, prinsippene for behandling, den registrertes rettigheter, innebygd personvern – og hva regelverket betyr for deg som utvikler.', array[10]::int[], 8, 'sjekkes', array['Sjekk gjeldende regler for informasjonskapsler (ekomloven) og aldersgrensen for samtykke mot oppdaterte kilder.']::text[], false, now())
+  ('informasjonsteknologi-1:personvern-og-regelverk', 'informasjonsteknologi-1', 'personvern-og-regelverk', 'Personvern og regelverk', 'Hva personopplysninger er, personvernforordningen (GDPR) og personopplysningsloven, prinsippene for behandling, den registrertes rettigheter, innebygd personvern – og hva regelverket betyr for deg som utvikler.', array[10]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -40932,7 +40933,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Sosiologi og sosialantropologi: Urfolk – mangfold og rettigheter
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('sosiologi-og-sosialantropologi:urfolk', 'sosiologi-og-sosialantropologi', 'urfolk', 'Urfolk – mangfold og rettigheter', 'Hva som kjennetegner urfolk, mangfoldet i urfolks kulturer og samfunnsliv i verden, samenes historie og rettigheter i Norge, og aktuelle spørsmål om land, språk, selvbestemmelse og forsoning.', array[10]::int[], 9, 'sjekkes', array['Sjekk tallet på urfolk i verden og status i Fosen-saken mot oppdaterte kilder.']::text[], false, now())
+  ('sosiologi-og-sosialantropologi:urfolk', 'sosiologi-og-sosialantropologi', 'urfolk', 'Urfolk – mangfold og rettigheter', 'Hva som kjennetegner urfolk, mangfoldet i urfolks kulturer og samfunnsliv i verden, samenes historie og rettigheter i Norge, og aktuelle spørsmål om land, språk, selvbestemmelse og forsoning.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -40981,7 +40982,7 @@ Mange urfolk deler erfaringer med
 
 ## Aktuelle spørsmål
 
-**Fosen-saken**: I **2021** slo **Høyesterett** fast at vindkraftverk på Fosen krenket reindriftssamenes rett til kulturutøvelse etter FNs konvensjon om sivile og politiske rettigheter. Saken førte til store protester i **2023**.
+**Fosen-saken**: I **2021** slo **Høyesterett** fast at vindkraftverk på Fosen krenket reindriftssamenes rett til kulturutøvelse etter FNs konvensjon om sivile og politiske rettigheter. Saken førte til store protester i **2023**, før partene inngikk avtaler i 2023 og 2024.
 
 Andre spørsmål er **språkrevitalisering**, **representasjon** i media, retten til **konsultasjon** når staten tar beslutninger som berører samiske interesser, og hvordan **klimaendringer** påvirker reindriften.
 
@@ -42865,7 +42866,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Politikk og menneskerettigheter: Valg, velgeratferd og politisk deltakelse
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'politikk-og-menneskerettigheter', 'valg-og-velgeratferd', 'Valg, velgeratferd og politisk deltakelse', 'Den norske valgordningen, forklaringer på hvorfor folk stemmer som de gjør, hvordan meningsmålinger og valgundersøkelser brukes, og hvordan samfunnsvitenskapelig metode kan analysere valgdeltakelse og politisk deltakelse.', array[6]::int[], 4, 'sjekkes', array['Sjekk valgdeltakelsen ved siste stortingsvalg og gjeldende regler for mandatfordeling (første delingstall) mot oppdaterte kilder.']::text[], false, now())
+  ('politikk-og-menneskerettigheter:valg-og-velgeratferd', 'politikk-og-menneskerettigheter', 'valg-og-velgeratferd', 'Valg, velgeratferd og politisk deltakelse', 'Den norske valgordningen, forklaringer på hvorfor folk stemmer som de gjør, hvordan meningsmålinger og valgundersøkelser brukes, og hvordan samfunnsvitenskapelig metode kan analysere valgdeltakelse og politisk deltakelse.', array[6]::int[], 4, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -42893,7 +42894,7 @@ De siste tiårene har **klassestemmegivningen** blitt svakere, og flere velgere 
 
 ## Politisk deltakelse
 
-**Valgdeltakelsen** ved stortingsvalg har de siste valgene ligget på rundt **77–80 %**, og lavere ved kommunevalg. Deltakelsen er ofte lavere blant **unge**, personer med **lav utdanning** og inntekt og blant noen **innvandrergrupper**.
+**Valgdeltakelsen** ved stortingsvalg har de siste valgene ligget på rundt **77–80 %** – 80 % i 2025 – og lavere ved kommunevalg. Deltakelsen er ofte lavere blant **unge**, personer med **lav utdanning** og inntekt og blant noen **innvandrergrupper**.
 
 Andre former for deltakelse er **partimedlemskap** (som har gått ned over tid), **organisasjonsarbeid**, **underskriftskampanjer**, **demonstrasjoner**, **forbrukermakt** og **politiske ytringer i sosiale medier**. Mange unge engasjerer seg mer i **saker** enn i **partier**.
 
@@ -42952,7 +42953,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Politikk og menneskerettigheter: Bærekraft og fordeling i politikken
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'politikk-og-menneskerettigheter', 'barekraft-og-fordeling', 'Bærekraft og fordeling i politikken', 'Dagsaktuelle problemstillinger om bærekraft og fordeling – klimapolitikk, olje og energi, ulikhet i Norge og globalt, fordeling mellom generasjoner og hvordan partiene ser på avveiningene.', array[7]::int[], 5, 'sjekkes', array['Sjekk gjeldende klimamål, handlingsregelen og skatteordninger mot oppdaterte kilder.']::text[], false, now())
+  ('politikk-og-menneskerettigheter:barekraft-og-fordeling', 'politikk-og-menneskerettigheter', 'barekraft-og-fordeling', 'Bærekraft og fordeling i politikken', 'Dagsaktuelle problemstillinger om bærekraft og fordeling – klimapolitikk, olje og energi, ulikhet i Norge og globalt, fordeling mellom generasjoner og hvordan partiene ser på avveiningene.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -42966,7 +42967,7 @@ FN vedtok i **2015** de **17 bærekraftsmålene** med frist i **2030**.
 ## Klimapolitikk
 
 - **Parisavtalen** (2015): Verdens land ble enige om å begrense oppvarmingen til godt under **2 °C**, og helst **1,5 °C**. Hvert land melder inn egne mål.
-- **Norges mål**: å kutte utslippene med minst **55 %** innen 2030 sammenlignet med 1990, og å bli et **lavutslippssamfunn** innen 2050. Målene står i **klimaloven**.
+- **Norges mål**: å kutte utslippene med minst **55 %** innen 2030 og **70–75 %** innen 2035 sammenlignet med 1990, og å bli et **lavutslippssamfunn** innen 2050. Målene står i **klimaloven**.
 - **Virkemidler**: **avgifter** på utslipp, **kvotehandel**, **forbud** og **påbud**, **subsidier** til elbiler og ny teknologi, og **forskning**.
 
 ## Olje, gass og energi
@@ -43053,7 +43054,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Politikk og menneskerettigheter: Urfolks og minoriteters rettigheter
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'politikk-og-menneskerettigheter', 'urfolk-og-minoriteter', 'Urfolks og minoriteters rettigheter', 'Rettighetene til urfolk og minoriteter i Norge og internasjonalt – samer og nasjonale minoriteter, Sametinget og konsultasjonsordningen, ILO 169 og FN-erklæringen – og spørsmål om politisk innflytelse og særrettigheter.', array[8]::int[], 6, 'sjekkes', array['Sjekk status i Fosen-saken og gjeldende regler for konsultasjoner mot oppdaterte kilder.']::text[], false, now())
+  ('politikk-og-menneskerettigheter:urfolk-og-minoriteter', 'politikk-og-menneskerettigheter', 'urfolk-og-minoriteter', 'Urfolks og minoriteters rettigheter', 'Rettighetene til urfolk og minoriteter i Norge og internasjonalt – samer og nasjonale minoriteter, Sametinget og konsultasjonsordningen, ILO 169 og FN-erklæringen – og spørsmål om politisk innflytelse og særrettigheter.', array[8]::int[], 6, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -43080,7 +43081,7 @@ insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
 
 ## Aktuelle saker
 
-- **Fosen-saken**: Høyesterett slo i **2021** fast at vindturbinene på Fosen krenket reindriftssamenes rett etter **SP artikkel 27**. Det tok lang tid før staten og reindriftssamene kom fram til løsninger, noe som førte til store **protester** i 2023.
+- **Fosen-saken**: Høyesterett slo i **2021** fast at vindturbinene på Fosen krenket reindriftssamenes rett etter **SP artikkel 27**. Det tok lang tid før staten og reindriftssamene kom fram til løsninger, noe som førte til store **protester** i 2023. Avtalene kom i desember 2023 og mars 2024: Turbinene blir stående, mens reindrifta får kompensasjon og nye vinterbeiter.
 - **Sannhets- og forsoningskommisjonen** la i **2023** fram rapporten om **fornorskningspolitikken** og uretten den påførte samer, kvener og skogfinner.
 - **Språk**: Flere samiske språk og kvensk er **truet**, og det satses på **revitalisering**.
 
@@ -43433,7 +43434,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Politikk og menneskerettigheter: Krig, fred og internasjonalt samarbeid
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'politikk-og-menneskerettigheter', 'krig-fred-og-internasjonal-politikk', 'Krig, fred og internasjonalt samarbeid', 'Hvordan det internasjonale systemet håndterer krig og fred, sikkerhet og samarbeid – FNs sikkerhetsråd, kollektiv sikkerhet og kollektivt forsvar i NATO, fredsbevaring, sanksjoner og mekling – og hvordan du analyserer en konflikt statsvitenskapelig.', array[13, 4]::int[], 10, 'sjekkes', array['Sjekk omtale av pågående konflikter (Ukraina m.fl.) og NATO-medlemskap mot oppdaterte kilder.']::text[], false, now())
+  ('politikk-og-menneskerettigheter:krig-fred-og-internasjonal-politikk', 'politikk-og-menneskerettigheter', 'krig-fred-og-internasjonal-politikk', 'Krig, fred og internasjonalt samarbeid', 'Hvordan det internasjonale systemet håndterer krig og fred, sikkerhet og samarbeid – FNs sikkerhetsråd, kollektiv sikkerhet og kollektivt forsvar i NATO, fredsbevaring, sanksjoner og mekling – og hvordan du analyserer en konflikt statsvitenskapelig.', array[13, 4]::int[], 10, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -44118,7 +44119,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 1: Arv, testament og uskifte
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-1:arv-og-uskifte', 'rettslare-1', 'arv-og-uskifte', 'Arv, testament og uskifte', 'Reglene i arveloven om hvem som arver etter loven, pliktdelsarv til barn, ektefellers og samboeres arverett, hvordan et gyldig testament lages, og hva det betyr å sitte i uskifte.', array[7]::int[], 5, 'sjekkes', array['Sjekk gjeldende grunnbeløp (G) og beløpsgrensene i arveloven mot Lovdata/NAV.']::text[], false, now())
+  ('rettslare-1:arv-og-uskifte', 'rettslare-1', 'arv-og-uskifte', 'Arv, testament og uskifte', 'Reglene i arveloven om hvem som arver etter loven, pliktdelsarv til barn, ektefellers og samboeres arverett, hvordan et gyldig testament lages, og hva det betyr å sitte i uskifte.', array[7]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -44127,7 +44128,7 @@ insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
 
 Når noen dør, går eiendelene – **dødsboet** – til **arvingene**. Reglene står i **arveloven**, som trådte i kraft i **2021**. Norge har **ingen arveavgift** – den ble fjernet i 2014.
 
-Mange beløp i loven er knyttet til **G** – **grunnbeløpet** i folketrygden, som justeres hvert år (rundt 130 000 kr i 2025).
+Mange beløp i loven er knyttet til **G** – **grunnbeløpet** i folketrygden, som justeres hvert år (136 549 kr fra 1. mai 2026).
 
 ## Slektsarvinger – arvegangsklassene
 
@@ -47391,7 +47392,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Markedsføring og ledelse 1: Regelverk og etikk i markedsføring
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'markedsforing-og-ledelse-1', 'regelverk-og-etikk', 'Regelverk og etikk i markedsføring', 'Hovedreglene i markedsføringsloven – god markedsføringsskikk, forbud mot villedende og aggressiv markedsføring, merking av reklame, vern av barn og regler for e-post og telefonsalg – andre reklameforbud, Forbrukertilsynet og virksomhetens etiske ansvar.', array[13]::int[], 12, 'sjekkes', array['Sjekk gjeldende regler for merking av retusjert reklame, merking av påvirkerreklame og samtykke til elektronisk markedsføring mot Forbrukertilsynets veiledere.']::text[], false, now())
+  ('markedsforing-og-ledelse-1:regelverk-og-etikk', 'markedsforing-og-ledelse-1', 'regelverk-og-etikk', 'Regelverk og etikk i markedsføring', 'Hovedreglene i markedsføringsloven – god markedsføringsskikk, forbud mot villedende og aggressiv markedsføring, merking av reklame, vern av barn og regler for e-post og telefonsalg – andre reklameforbud, Forbrukertilsynet og virksomhetens etiske ansvar.', array[13]::int[], 12, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -48434,7 +48435,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Entreprenørskap og bedriftsutvikling 1: Selskapsformer, risiko og ansvar
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'entreprenorskap-og-bedriftsutvikling-1', 'selskapsformer', 'Selskapsformer, risiko og ansvar', 'De vanligste selskapsformene i Norge – enkeltpersonforetak, aksjeselskap, ansvarlig selskap og samvirke – forskjeller i ansvar, risiko, kapital og krav, registrering i Brønnøysundregistrene og hvordan man velger selskapsform ved etablering.', array[9]::int[], 8, 'sjekkes', array['Sjekk gjeldende beløpsgrenser (aksjekapital, merverdiavgiftsgrensen) og regler for fritak fra revisjon mot Brønnøysundregistrene og Skatteetaten.']::text[], false, now())
+  ('entreprenorskap-og-bedriftsutvikling-1:selskapsformer', 'entreprenorskap-og-bedriftsutvikling-1', 'selskapsformer', 'Selskapsformer, risiko og ansvar', 'De vanligste selskapsformene i Norge – enkeltpersonforetak, aksjeselskap, ansvarlig selskap og samvirke – forskjeller i ansvar, risiko, kapital og krav, registrering i Brønnøysundregistrene og hvordan man velger selskapsform ved etablering.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -49317,7 +49318,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Samfunnsøkonomi 1: Privat og offentlig sektor i Norge
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'samfunnsokonomi-1', 'privat-og-offentlig-sektor', 'Privat og offentlig sektor i Norge', 'Hovedtrekk ved privat og offentlig sektor i Norge – næringsstruktur, oppgavefordeling mellom stat, fylke og kommune, petroleumsnæringen og oljefondet – og muligheter og utfordringer for næringsliv og offentlig sektor i årene framover.', array[4]::int[], 4, 'sjekkes', array['Sjekk andelen sysselsatte i offentlig sektor og gjeldende prosentsats i handlingsregelen mot SSB og regjeringen.no.']::text[], false, now())
+  ('samfunnsokonomi-1:privat-og-offentlig-sektor', 'samfunnsokonomi-1', 'privat-og-offentlig-sektor', 'Privat og offentlig sektor i Norge', 'Hovedtrekk ved privat og offentlig sektor i Norge – næringsstruktur, oppgavefordeling mellom stat, fylke og kommune, petroleumsnæringen og oljefondet – og muligheter og utfordringer for næringsliv og offentlig sektor i årene framover.', array[4]::int[], 4, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -49327,7 +49328,7 @@ insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
 - **Privat sektor** består av virksomheter som eies av **private**. De fleste har som mål å gi **overskudd**, og de finansieres gjennom **salg**.
 - **Offentlig sektor** består av **staten**, **fylkeskommunene** og **kommunene**. Den produserer **velferdstjenester** og finansieres hovedsakelig med **skatter** og **avgifter**.
 
-Norge har en **blandingsøkonomi** der begge sektorene er store. Omtrent **tre av ti** sysselsatte jobber i offentlig sektor.
+Norge har en **blandingsøkonomi** der begge sektorene er store. Omtrent **en av tre** sysselsatte jobber i offentlig sektor.
 
 ## Næringsstrukturen
 
@@ -59169,7 +59170,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Biologi 2: Kommersiell bruk av genteknologi og etikk
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('biologi-2:genteknologi-og-etikk', 'biologi-2', 'genteknologi-og-etikk', 'Kommersiell bruk av genteknologi og etikk', 'Hvordan genteknologi brukes kommersielt i medisin – legemidler, vaksiner, gentester og genterapi – og i matproduksjon – genmodifiserte og genredigerte planter og dyr – norsk regelverk, og etiske problemstillinger som føre var, rettferdighet, patenter og menneskeverd.', array[11]::int[], 10, 'sjekkes', array['Sjekk gjeldende status for regulering av genredigerte organismer i Norge og EU.']::text[], false, now())
+  ('biologi-2:genteknologi-og-etikk', 'biologi-2', 'genteknologi-og-etikk', 'Kommersiell bruk av genteknologi og etikk', 'Hvordan genteknologi brukes kommersielt i medisin – legemidler, vaksiner, gentester og genterapi – og i matproduksjon – genmodifiserte og genredigerte planter og dyr – norsk regelverk, og etiske problemstillinger som føre var, rettferdighet, patenter og menneskeverd.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -59192,7 +59193,7 @@ insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
 
 ## Regelverk
 
-I Norge regulerer **genteknologiloven** bruk av GMO, og **bioteknologiloven** regulerer medisinsk bruk på mennesker. Norge har et **strengt** regelverk: Det skal legges vekt på **samfunnsnytte**, **bærekraft** og **etikk**, og GMO-mat skal **merkes**. Det pågår en debatt om genredigerte organismer bør reguleres **mildere** enn tradisjonelle GMO-er.
+I Norge regulerer **genteknologiloven** bruk av GMO, og **bioteknologiloven** regulerer medisinsk bruk på mennesker. Norge har et **strengt** regelverk: Det skal legges vekt på **samfunnsnytte**, **bærekraft** og **etikk**, og GMO-mat skal **merkes**. Det pågår en debatt om genredigerte organismer bør reguleres **mildere** enn tradisjonelle GMO-er. EU vedtok i 2026 nye regler der mange genredigerte planter reguleres mildere enn andre GMO-er. Reglene er EØS-relevante, og Norge må ta stilling til hvordan de skal gjelde her.
 
 ## Etiske problemstillinger
 
@@ -59740,7 +59741,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Geofag 2: Klimasystemet og menneskeskapt klimapåvirkning
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('geofag-2:klimasystemet', 'geofag-2', 'klimasystemet', 'Klimasystemet og menneskeskapt klimapåvirkning', 'Klimasystemet på ulike skalaer i tid og rom – forskjellen på vær og klima, naturlige variasjoner som El Niño, NAO, vulkaner, sola og jordbanen – og hvordan menneskeskapte utslipp av drivhusgasser og endret arealbruk påvirker klimaet, slik FNs klimapanel vurderer det.', array[6]::int[], 5, 'sjekkes', array['Sjekk gjeldende tall for CO₂-konsentrasjon og global oppvarming mot siste IPCC-rapport og måleserier.']::text[], false, now())
+  ('geofag-2:klimasystemet', 'geofag-2', 'klimasystemet', 'Klimasystemet og menneskeskapt klimapåvirkning', 'Klimasystemet på ulike skalaer i tid og rom – forskjellen på vær og klima, naturlige variasjoner som El Niño, NAO, vulkaner, sola og jordbanen – og hvordan menneskeskapte utslipp av drivhusgasser og endret arealbruk påvirker klimaet, slik FNs klimapanel vurderer det.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -59772,7 +59773,7 @@ I tid varierer klimaet fra **år til år**, over **tiår** og over **tusener** o
 
 Siden **industrialiseringen** har menneskene sluppet ut store mengder **drivhusgasser**:
 
-- **CO₂** fra fossile brensler, sement og avskoging. Konsentrasjonen har økt fra omtrent **280 ppm** før industrialiseringen til over **420 ppm** i dag.
+- **CO₂** fra fossile brensler, sement og avskoging. Konsentrasjonen har økt fra omtrent **280 ppm** før industrialiseringen til over **425 ppm** i dag.
 - **Metan** fra husdyr, risdyrking, avfall og olje- og gassproduksjon
 - **Lystgass** fra gjødsling og industri
 
@@ -59782,7 +59783,7 @@ I tillegg påvirker **arealbruk** – avskoging og drenering – og **aerosoler*
 
 **FNs klimapanel (IPCC)** samler og vurderer forskningen. Panelets hovedkonklusjoner er at
 
-- den globale temperaturen har økt med omtrent **1,1–1,2 °C** siden førindustriell tid
+- den globale temperaturen har økt med omtrent **1,1 °C** fram til tiåret 2011–2020, og i 2025 lå den rundt **1,4 °C** over førindustrielt nivå (WMO)
 - det er **utvetydig** at menneskelig påvirkning har varmet opp atmosfæren, havet og landjorda
 - oppvarmingen gir **havnivåstigning**, **smelting** av is og mer **ekstremvær**
 
@@ -59810,10 +59811,10 @@ insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
   ('geofag-2:klimasystemet', 'NAO', 'Den nordatlantiske oscillasjonen som påvirker vintrene i Norge.', 4),
   ('geofag-2:klimasystemet', 'Positiv NAO', 'Milde og våte vintre i Norge.', 5),
   ('geofag-2:klimasystemet', 'Solsyklus', 'Variasjon i solaktiviteten på omtrent 11 år.', 6),
-  ('geofag-2:klimasystemet', 'CO₂-konsentrasjon', 'Økt fra omtrent 280 ppm til over 420 ppm.', 7),
+  ('geofag-2:klimasystemet', 'CO₂-konsentrasjon', 'Økt fra omtrent 280 ppm til over 425 ppm.', 7),
   ('geofag-2:klimasystemet', 'Metan', 'Drivhusgass fra husdyr, ris, avfall og olje- og gassproduksjon.', 8),
   ('geofag-2:klimasystemet', 'IPCC', 'FNs klimapanel som vurderer klimaforskningen.', 9),
-  ('geofag-2:klimasystemet', 'Global oppvarming', 'Omtrent 1,1–1,2 °C siden førindustriell tid.', 10),
+  ('geofag-2:klimasystemet', 'Global oppvarming', 'Rundt 1,4 °C over førindustrielt nivå i 2025.', 10),
   ('geofag-2:klimasystemet', 'Fingeravtrykk', 'Varmere nedre atmosfære og kaldere stratosfære tyder på drivhuseffekt.', 11),
   ('geofag-2:klimasystemet', 'Isotoper i CO₂', 'Viser at ekstra karbon kommer fra fossilt materiale.', 12),
   ('geofag-2:klimasystemet', 'Attribusjon', 'Forskning på hvor mye klimaendringene påvirker enkelthendelser.', 13),
@@ -59828,7 +59829,7 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('geofag-2:klimasystemet', 'q06', 'flervalg', 'Hva er attribusjonsforskning?', array['Forskning på isotoper', 'Forskning på hvor mye klimaendringene påvirker enkelte ekstremhendelser', 'Forskning på solen', 'Forskning på vulkaner']::text[], 1, 'For eksempel hetebølger.', true, true, 5),
   ('geofag-2:klimasystemet', 'q07', 'flervalg', 'Hvordan har aerosoler påvirket oppvarmingen?', array['Forsterket den kraftig', 'Ikke påvirket den', 'Dempet den til en viss grad', 'Stoppet den helt']::text[], 2, 'De reflekterer sollys.', true, true, 6),
   ('geofag-2:klimasystemet', 'q08', 'flervalg', 'Hvilke endringer er ventet i Norge?', array['Tørrere og kaldere', 'Mindre nedbør', 'Lengre snøsesong overalt', 'Varmere, våtere og mer kraftig nedbør']::text[], 3, 'Også havnivåstigning.', true, true, 7),
-  ('geofag-2:klimasystemet', 'q09', 'flervalg', 'Omtrent hvor mye har den globale temperaturen økt siden førindustriell tid?', array['1,1–1,2 °C', '5 °C', '0,1 °C', '10 °C']::text[], 0, 'Ifølge IPCC.', true, false, 8),
+  ('geofag-2:klimasystemet', 'q09', 'flervalg', 'Omtrent hvor mye har den globale temperaturen økt siden førindustriell tid?', array['Rundt 1,4 °C', '5 °C', '0,1 °C', '10 °C']::text[], 0, 'Ifølge WMO i 2025. IPCC anslo 1,1 °C for tiåret 2011–2020.', true, false, 8),
   ('geofag-2:klimasystemet', 'q10', 'flervalg', 'Hva viser isotopene i atmosfærens CO₂?', array['At karbonet kommer fra vulkaner', 'At det ekstra karbonet kommer fra fossilt materiale', 'At karbonet kommer fra havet', 'Ingenting']::text[], 1, 'Et bevis på menneskelig påvirkning.', true, false, 9),
   ('geofag-2:klimasystemet', 'm01', 'sant-usant', 'El Niño-år er ofte varmere globalt.', array['Sant', 'Usant']::text[], 0, 'Havet avgir varme til atmosfæren.', false, true, 10),
   ('geofag-2:klimasystemet', 'm02', 'sant-usant', 'Solaktiviteten forklarer mesteparten av oppvarmingen de siste tiårene.', array['Sant', 'Usant']::text[], 1, 'Effekten av sola er liten.', false, true, 11),
@@ -59938,7 +59939,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Geofag 2: Konsekvenser av klimaendringer, utslippskutt og tilpasning
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'geofag-2', 'klimaendringer-reduksjon-og-tilpasning', 'Konsekvenser av klimaendringer, utslippskutt og tilpasning', 'Hvilke konsekvenser klimaendringer får for enkeltmennesker, samfunn og økosystemer i Norge og i verden, og hvordan vi kan redusere utslippene og tilpasse oss – fra Parisavtalen og klimapolitikk til bærekraftige valg i hverdagen.', array[8]::int[], 7, 'sjekkes', array['Sjekk gjeldende norske klimamål (2030 og 2050) mot oppdatert klimalov og regjeringens mål.']::text[], false, now())
+  ('geofag-2:klimaendringer-reduksjon-og-tilpasning', 'geofag-2', 'klimaendringer-reduksjon-og-tilpasning', 'Konsekvenser av klimaendringer, utslippskutt og tilpasning', 'Hvilke konsekvenser klimaendringer får for enkeltmennesker, samfunn og økosystemer i Norge og i verden, og hvordan vi kan redusere utslippene og tilpasse oss – fra Parisavtalen og klimapolitikk til bærekraftige valg i hverdagen.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -59982,7 +59983,7 @@ Eksempler på tiltak:
 - **bevaring av skog** og myr
 - **karbonprising**, som **CO₂-avgift** og **kvotesystemer**
 
-Norge har mål om å kutte utslippene kraftig innen 2030 og å bli et **lavutslippssamfunn** innen 2050.
+Etter klimaloven skal Norge kutte utslippene med minst 55 % innen 2030 og 70–75 % innen 2035 sammenlignet med 1990, og bli et **lavutslippssamfunn** innen 2050.
 
 ## Tilpasning
 
@@ -63724,7 +63725,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Rettskilder og juridisk drøfting
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:rettskilder-og-juridisk-drofting', 'rettslare-2', 'rettskilder-og-juridisk-drofting', 'Rettskilder og juridisk drøfting', 'Hvordan du bruker rettskildene til å løse juridiske problemstillinger – tolking av lovtekst, vekting av forarbeider, rettspraksis og reelle hensyn, prinsipper for motstrid – og hvordan du bygger opp en fullstendig juridisk drøfting fra parter og krav til konklusjon.', array[2, 3]::int[], 1, 'sjekkes', array['Sjekk at presumsjonsregelen i forbrukerkjøpsloven (feil som viser seg innen to år antas å ha vært der ved levering) er riktig gjengitt etter lovendringene i 2023.']::text[], false, now())
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'rettslare-2', 'rettskilder-og-juridisk-drofting', 'Rettskilder og juridisk drøfting', 'Hvordan du bruker rettskildene til å løse juridiske problemstillinger – tolking av lovtekst, vekting av forarbeider, rettspraksis og reelle hensyn, prinsipper for motstrid – og hvordan du bygger opp en fullstendig juridisk drøfting fra parter og krav til konklusjon.', array[2, 3]::int[], 1, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -63833,7 +63834,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Dagsaktuelle juridiske problemstillinger
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:aktuelle-rettssporsmal', 'rettslare-2', 'aktuelle-rettssporsmal', 'Dagsaktuelle juridiske problemstillinger', 'Hvordan du utforsker og drøfter dagsaktuelle rettsspørsmål – å finne saken, kildene og interessene, skille mellom gjeldende rett og hva retten bør være – med eksempler som kunstig intelligens og opphavsrett, ytringsfrihet på nett, barnevern og menneskerettigheter, og nye straffebestemmelser.', array[4]::int[], 2, 'sjekkes', array['Sjekk status for samtykkebasert voldtektsbestemmelse, EUs KI-regelverk og nyere EMD-saker mot Norge før bruk – aktuelle saker endrer seg raskt.']::text[], false, now())
+  ('rettslare-2:aktuelle-rettssporsmal', 'rettslare-2', 'aktuelle-rettssporsmal', 'Dagsaktuelle juridiske problemstillinger', 'Hvordan du utforsker og drøfter dagsaktuelle rettsspørsmål – å finne saken, kildene og interessene, skille mellom gjeldende rett og hva retten bør være – med eksempler som kunstig intelligens og opphavsrett, ytringsfrihet på nett, barnevern og menneskerettigheter, og nye straffebestemmelser.', array[4]::int[], 2, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -63871,7 +63872,7 @@ Her møtes **åndsverkloven**, **personvernregler** og nye regler fra **EU** om 
 
 ## Eksempel: nye straffebestemmelser
 
-Straffeloven endres jevnlig. Et eksempel er debatten om en **samtykkebasert** voldtektsbestemmelse, der spørsmålet er om voldtekt skal defineres ut fra **manglende samtykke** i stedet for vold, trusler eller at offeret ikke kunne motsette seg. Her møtes **rettssikkerhet** for den tiltalte, **vern** av ofre og **bevisspørsmål**.
+Straffeloven endres jevnlig. Et eksempel er den **samtykkebaserte** voldtektsbestemmelsen som trådte i kraft 1. juli 2025. I debatten før lovendringen var spørsmålet om voldtekt skulle defineres ut fra **manglende samtykke** i stedet for vold, trusler eller at offeret ikke kunne motsette seg. Her møtes **rettssikkerhet** for den tiltalte, **vern** av ofre og **bevisspørsmål**.
 
 ## Argumenter i debatten
 
@@ -63918,7 +63919,7 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('rettslare-2:aktuelle-rettssporsmal', 'q02', 'flervalg', 'Hvilken artikkel i EMK verner retten til familieliv?', array['Artikkel 8', 'Artikkel 2', 'Artikkel 10', 'Artikkel 3']::text[], 0, 'Viktig i barnevernssaker.', true, true, 1),
   ('rettslare-2:aktuelle-rettssporsmal', 'q03', 'flervalg', 'Hvilket spørsmål reiser KI i opphavsretten?', array['Om KI kan stemme', 'Om KI kan straffes', 'Om det er lovlig å trene KI på beskyttet materiale', 'Om KI trenger pass']::text[], 2, 'Mange spørsmål er uavklarte.', true, true, 2),
   ('rettslare-2:aktuelle-rettssporsmal', 'q04', 'flervalg', 'Hva verner Grunnloven § 100?', array['Eiendomsretten', 'Religionsfriheten', 'Stemmeretten', 'Ytringsfriheten']::text[], 3, 'Med grenser i straffeloven.', true, true, 3),
-  ('rettslare-2:aktuelle-rettssporsmal', 'q05', 'flervalg', 'Hva betyr at en regel er samtykkebasert?', array['At det avgjørende er om det forelå samtykke', 'At begge parter må signere', 'At politiet må samtykke', 'At dommeren må godkjenne']::text[], 0, 'Gjelder debatten om voldtektsbestemmelsen.', true, true, 4),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q05', 'flervalg', 'Hva betyr at en regel er samtykkebasert?', array['At det avgjørende er om det forelå samtykke', 'At begge parter må signere', 'At politiet må samtykke', 'At dommeren må godkjenne']::text[], 0, 'Voldtektsbestemmelsen ble samtykkebasert i 2025.', true, true, 4),
   ('rettslare-2:aktuelle-rettssporsmal', 'q06', 'flervalg', 'Hvorfor er ikke en avisartikkel en rettskilde?', array['Fordi aviser er forbudt', 'Fordi den bare omtaler saken og kan være vinklet', 'Fordi den er for kort', 'Fordi den er gratis']::text[], 1, 'Gå til loven og dommen selv.', true, true, 5),
   ('rettslare-2:aktuelle-rettssporsmal', 'q07', 'flervalg', 'Hva er rettssikkerhet som argument?', array['At straffene er strenge', 'At saker går raskt', 'At reglene er klare og forutsigbare', 'At alle får erstatning']::text[], 2, 'Et sentralt hensyn i rettsstaten.', true, true, 6),
   ('rettslare-2:aktuelle-rettssporsmal', 'q08', 'flervalg', 'Hvorfor bør du oppgi dato når du skriver om aktuelle saker?', array['Fordi det er pent', 'Fordi lærerne krever det', 'Fordi lover aldri endres', 'Fordi aktuelle saker endrer seg raskt']::text[], 3, 'Nye dommer og lover kan komme.', true, true, 7),
@@ -64050,7 +64051,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Demokrati og rettigheter i Sápmi
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:samiske-rettigheter', 'rettslare-2', 'samiske-rettigheter', 'Demokrati og rettigheter i Sápmi', 'Samenes stilling som urfolk i Norge – fra fornorskingspolitikken og Alta-saken til Grunnloven § 108, sameloven, Sametinget, ILO-konvensjon 169, SP artikkel 27, Finnmarksloven og konsultasjonsplikten – og hvordan Fosen-dommen viser at menneskerettighetene verner samisk kultur.', array[5]::int[], 4, 'sjekkes', array['Sjekk status for oppfølgingen av Fosen-dommen (avtaler med reinbeitedistriktene) og andelen av Finnmark som eies av Finnmarkseiendommen.']::text[], false, now())
+  ('rettslare-2:samiske-rettigheter', 'rettslare-2', 'samiske-rettigheter', 'Demokrati og rettigheter i Sápmi', 'Samenes stilling som urfolk i Norge – fra fornorskingspolitikken og Alta-saken til Grunnloven § 108, sameloven, Sametinget, ILO-konvensjon 169, SP artikkel 27, Finnmarksloven og konsultasjonsplikten – og hvordan Fosen-dommen viser at menneskerettighetene verner samisk kultur.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -64093,7 +64094,7 @@ Statlige, fylkeskommunale og kommunale myndigheter har plikt til å **konsultere
 
 I **2021** kom **Høyesterett** i **storkammer** fram til at konsesjonene til to vindkraftverk på **Fosen** var **ugyldige**. Utbyggingen krenket reindriftssamenes rett til **kulturutøvelse** etter **SP artikkel 27**, fordi den truet muligheten til å drive reindrift i området.
 
-Turbinene ble likevel stående i lang tid etter dommen. Det førte til **protestaksjoner**, blant annet ved departementene i Oslo, og en debatt om hvordan staten følger opp **menneskerettsbrudd**. Staten har senere inngått **avtaler** med de berørte reinbeitedistriktene.
+Turbinene ble likevel stående i lang tid etter dommen. Det førte til **protestaksjoner**, blant annet ved departementene i Oslo, og en debatt om hvordan staten følger opp **menneskerettsbrudd**. I desember 2023 og mars 2024 ble det inngått **avtaler** med de to berørte reindriftsgruppene: Turbinene blir stående, mens reindrifta får kompensasjon og nye vinterbeiter.
 
 ## Drøfting
 
@@ -64141,7 +64142,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Individet og forvaltningen
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:forvaltningsrett', 'rettslare-2', 'forvaltningsrett', 'Individet og forvaltningen', 'Rettsforholdet mellom individet og den offentlige forvaltningen – legalitetsprinsippet, enkeltvedtak og forskrifter, de sentrale saksbehandlingsreglene i forvaltningsloven om habilitet, veiledning, forhåndsvarsel, innsyn, begrunnelse og klage – og kontroll gjennom Sivilombudet og domstolene.', array[6]::int[], 5, 'sjekkes', array['Paragrafhenvisningene gjelder forvaltningsloven av 1967. Sjekk om ny forvaltningslov er vedtatt og har trådt i kraft, og oppdater paragrafnumrene.']::text[], false, now())
+  ('rettslare-2:forvaltningsrett', 'rettslare-2', 'forvaltningsrett', 'Individet og forvaltningen', 'Rettsforholdet mellom individet og den offentlige forvaltningen – legalitetsprinsippet, enkeltvedtak og forskrifter, de sentrale saksbehandlingsreglene i forvaltningsloven om habilitet, veiledning, forhåndsvarsel, innsyn, begrunnelse og klage – og kontroll gjennom Sivilombudet og domstolene.', array[6]::int[], 5, 'sjekkes', array['Ny forvaltningslov (LOV-2025-06-20-81) er vedtatt, men var ikke trådt i kraft per september 2026. Oppdater paragrafnumrene når den nye loven trer i kraft.']::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -64201,7 +64202,7 @@ En elev får en standpunktkarakter hen mener er feil. Karakteren er et **enkeltv
 
 ## Lovendringer
 
-En **ny forvaltningslov** er under arbeid og vil endre **paragrafnumrene**. Hovedprinsippene – forsvarlig saksbehandling, innsyn, begrunnelse og klage – videreføres.', '{"label":"Forvaltningsrett","children":[{"label":"Grunnlag","children":[{"label":"Legalitetsprinsippet"},{"label":"Enkeltvedtak og forskrift"}]},{"label":"Saksbehandling","children":[{"label":"Habilitet"},{"label":"Veiledning og utredning"},{"label":"Forhåndsvarsel og innsyn"},{"label":"Begrunnelse"}]},{"label":"Klage","children":[{"label":"Tre ukers frist"},{"label":"Overordnet organ"}]},{"label":"Gyldighet","children":[{"label":"Virkning av feil"},{"label":"Myndighetsmisbruk"}]},{"label":"Kontroll","children":[{"label":"Sivilombudet"},{"label":"Domstolene"},{"label":"Offentleglova og media"}]}]}'::jsonb)
+Stortinget vedtok en **ny forvaltningslov** i juni 2025, men den hadde ikke trådt i kraft i september 2026. Paragrafnumrene i dette temaet gjelder loven fra 1967. Når den nye loven trer i kraft, får reglene nye **paragrafnumre**. Hovedprinsippene – forsvarlig saksbehandling, innsyn, begrunnelse og klage – videreføres.', '{"label":"Forvaltningsrett","children":[{"label":"Grunnlag","children":[{"label":"Legalitetsprinsippet"},{"label":"Enkeltvedtak og forskrift"}]},{"label":"Saksbehandling","children":[{"label":"Habilitet"},{"label":"Veiledning og utredning"},{"label":"Forhåndsvarsel og innsyn"},{"label":"Begrunnelse"}]},{"label":"Klage","children":[{"label":"Tre ukers frist"},{"label":"Overordnet organ"}]},{"label":"Gyldighet","children":[{"label":"Virkning av feil"},{"label":"Myndighetsmisbruk"}]},{"label":"Kontroll","children":[{"label":"Sivilombudet"},{"label":"Domstolene"},{"label":"Offentleglova og media"}]}]}'::jsonb)
 on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
 delete from public.flashcards where tema_id = 'rettslare-2:forvaltningsrett';
 insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
@@ -64575,7 +64576,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Voldslovbrudd og seksuallovbrudd
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:vold-og-seksuallovbrudd', 'rettslare-2', 'vold-og-seksuallovbrudd', 'Voldslovbrudd og seksuallovbrudd', 'Sentrale straffebud om vold – kroppskrenkelse, kroppsskade, trusler, mishandling i nære relasjoner og drap – og om seksuallovbrudd – voldtekt, seksuell lavalder og deling av seksualiserte bilder – med bruk av straffbarhetsvilkårene, nødverge og ofrenes rettigheter.', array[9]::int[], 9, 'sjekkes', array['Sjekk ordlyd, paragrafnummer og ikrafttredelse for den samtykkebaserte voldtektsbestemmelsen, og strafferammene i §§ 271–275.']::text[], false, now())
+  ('rettslare-2:vold-og-seksuallovbrudd', 'rettslare-2', 'vold-og-seksuallovbrudd', 'Voldslovbrudd og seksuallovbrudd', 'Sentrale straffebud om vold – kroppskrenkelse, kroppsskade, trusler, mishandling i nære relasjoner og drap – og om seksuallovbrudd – voldtekt, seksuell lavalder og deling av seksualiserte bilder – med bruk av straffbarhetsvilkårene, nødverge og ofrenes rettigheter.', array[9]::int[], 9, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -64607,7 +64608,7 @@ Eksempel: Aron slår Leo i ansiktet på en fest, og Leo får brukket nesen.
 
 Seksuallovbruddene står i **kapittel 26** i straffeloven. De verner den **seksuelle selvbestemmelsesretten** – retten til selv å bestemme over egen kropp og seksualitet.
 
-**Voldtekt** (§ 291) er et av de mest alvorlige lovbruddene. Norge har gått over til en **samtykkebasert** bestemmelse: Det avgjørende er om den andre har **samtykket** – ikke om det er brukt vold eller trusler. Et samtykke må være **frivillig** og kan **trekkes tilbake**. Den som sover, er bevisstløs eller sterkt beruset, kan ikke samtykke.
+**Voldtekt** (§ 291) er et av de mest alvorlige lovbruddene. Fra **1. juli 2025** er bestemmelsen **samtykkebasert**: Det avgjørende er om den andre har **samtykket** med ord eller handlinger – ikke om det er brukt vold eller trusler. Samtidig ble minstestraffen på tre års fengsel for voldtekt fjernet. Et samtykke må være **frivillig** og kan **trekkes tilbake**. Den som sover, er bevisstløs eller sterkt beruset, kan ikke samtykke.
 
 **Grov voldtekt** gir strengere straff, for eksempel ved **flere** gjerningspersoner eller alvorlig skade.
 
@@ -64674,7 +64675,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Vinningslovbrudd
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:vinningslovbrudd', 'rettslare-2', 'vinningslovbrudd', 'Vinningslovbrudd', 'Lovbrudd som begås for å oppnå uberettiget vinning – tyveri, naskeri, underslag, ran, utpressing, bedrageri, heleri og hvitvasking – hvordan straffebudene skiller seg fra hverandre, hvordan du bruker straffbarhetsvilkårene på konkrete saker, og aktuelle former som nettsvindel og pengemuldyr.', array[9]::int[], 10, 'sjekkes', array['Sjekk paragrafnumre og strafferammer i straffeloven kapittel 27 og 30 (§§ 321–337 og 371–372).']::text[], false, now())
+  ('rettslare-2:vinningslovbrudd', 'rettslare-2', 'vinningslovbrudd', 'Vinningslovbrudd', 'Lovbrudd som begås for å oppnå uberettiget vinning – tyveri, naskeri, underslag, ran, utpressing, bedrageri, heleri og hvitvasking – hvordan straffebudene skiller seg fra hverandre, hvordan du bruker straffbarhetsvilkårene på konkrete saker, og aktuelle former som nettsvindel og pengemuldyr.', array[9]::int[], 10, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -64689,7 +64690,7 @@ insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
 
 **Grovt tyveri** (§ 322): for eksempel **innbrudd** i bolig, tyveri av svært **store** verdier eller tyveri som skjer **organisert**.
 
-**Naskeri** (§ 323): tyveri av **liten verdi** når forholdene ellers tilsier det – straffes med **bot**. Typisk et mindre butikktyveri.
+**Mindre tyveri** (§ 323) – i dagligtale ofte kalt **naskeri**: tyveri av **liten verdi** når forholdene ellers tilsier det – straffes med **bot**. Typisk et mindre butikktyveri.
 
 ## Underslag
 
@@ -64738,7 +64739,7 @@ insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
   ('rettslare-2:vinningslovbrudd', 'Vinningsforsett', 'Forsett om å oppnå uberettiget vinning.', 1),
   ('rettslare-2:vinningslovbrudd', 'Tyveri', 'Å ta en gjenstand som tilhører en annen – § 321.', 2),
   ('rettslare-2:vinningslovbrudd', 'Grovt tyveri', 'For eksempel innbrudd i bolig – § 322.', 3),
-  ('rettslare-2:vinningslovbrudd', 'Naskeri', 'Tyveri av liten verdi – bot, § 323.', 4),
+  ('rettslare-2:vinningslovbrudd', 'Mindre tyveri (naskeri)', 'Tyveri av liten verdi – bot, § 323.', 4),
   ('rettslare-2:vinningslovbrudd', 'Underslag', 'Tilegne seg noe man allerede har i besittelse – § 324.', 5),
   ('rettslare-2:vinningslovbrudd', 'Ran', 'Vinning ved vold eller trusler – § 327.', 6),
   ('rettslare-2:vinningslovbrudd', 'Utpressing', 'Tvinge noen til å gi fra seg verdier ved trusler – § 330.', 7),
@@ -64753,7 +64754,7 @@ delete from public.quiz_sporsmal where tema_id = 'rettslare-2:vinningslovbrudd';
 insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
   ('rettslare-2:vinningslovbrudd', 'q01', 'flervalg', 'Hva skiller underslag fra tyveri?', array['Underslag gjelder bare penger', 'Ved underslag har gjerningspersonen allerede gjenstanden i besittelse', 'Underslag er alltid grovt', 'Det er ingen forskjell']::text[], 1, 'Gjenstanden er betrodd.', true, true, 0),
   ('rettslare-2:vinningslovbrudd', 'q02', 'flervalg', 'Hva er ran?', array['Vinning ved vold eller trusler', 'Tyveri av liten verdi', 'Salg av stjålne ting', 'Villedning på nett']::text[], 0, 'Krenker også personen.', true, true, 1),
-  ('rettslare-2:vinningslovbrudd', 'q03', 'flervalg', 'Hva er naskeri?', array['Innbrudd i bolig', 'Svindel på nett', 'Tyveri av liten verdi som straffes med bot', 'Utpressing']::text[], 2, 'Straffeloven § 323.', true, true, 2),
+  ('rettslare-2:vinningslovbrudd', 'q03', 'flervalg', 'Hva er naskeri?', array['Innbrudd i bolig', 'Svindel på nett', 'Tyveri av liten verdi som straffes med bot', 'Utpressing']::text[], 2, 'Straffeloven § 323 kaller det mindre tyveri.', true, true, 2),
   ('rettslare-2:vinningslovbrudd', 'q04', 'flervalg', 'Hvilket lovbrudd begår den som selger en mobil på nett, får betalt og aldri sender den?', array['Tyveri', 'Heleri', 'Ran', 'Bedrageri']::text[], 3, 'Kjøperen er villedet.', true, true, 3),
   ('rettslare-2:vinningslovbrudd', 'q05', 'flervalg', 'Hva er heleri?', array['Å motta utbytte av en straffbar handling', 'Å stjele fra butikk', 'Å true noen', 'Å låne ut penger']::text[], 0, 'For eksempel å kjøpe en stjålet sykkel.', true, true, 4),
   ('rettslare-2:vinningslovbrudd', 'q06', 'flervalg', 'Hva er et pengemuldyr?', array['En som stjeler dyr', 'En som låner ut bankkontoen sin til å flytte kriminelle penger', 'En bankansatt', 'En som betaler skatt']::text[], 1, 'Kan straffes for hvitvasking.', true, true, 5),
@@ -64774,7 +64775,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Rettslære 2: Miljørett og aktuelle miljøsaker
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('rettslare-2:miljorett', 'rettslare-2', 'miljorett', 'Miljørett og aktuelle miljøsaker', 'Hvordan retten verner miljøet – Grunnloven § 112, naturmangfoldloven med de miljørettslige prinsippene, forurensningsloven, klimaloven og retten til miljøinformasjon – og dagsaktuelle rettsspørsmål som klimasøksmålet, konsekvensutredning av oljefelt, klimasaker for EMD og konflikter mellom grønn energi og natur.', array[10]::int[], 11, 'sjekkes', array['Sjekk status i sakene om konsekvensutredning av nye oljefelt og eventuelle EMD-avgjørelser i klimasaker mot Norge.']::text[], false, now())
+  ('rettslare-2:miljorett', 'rettslare-2', 'miljorett', 'Miljørett og aktuelle miljøsaker', 'Hvordan retten verner miljøet – Grunnloven § 112, naturmangfoldloven med de miljørettslige prinsippene, forurensningsloven, klimaloven og retten til miljøinformasjon – og dagsaktuelle rettsspørsmål som klimasøksmålet, konsekvensutredning av oljefelt, klimasaker for EMD og konflikter mellom grønn energi og natur.', array[10]::int[], 11, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -64804,7 +64805,7 @@ Miljøorganisasjoner saksøkte staten for å ha tildelt **letetillatelser** for 
 
 ## Konsekvensutredning av oljefelt
 
-Senere saker har handlet om hvorvidt staten har **utredet** klimavirkningene av forbrenningsutslipp godt nok før den godkjente nye **oljefelt**. Sakene viser hvordan **saksbehandlingsregler** kan bli viktige i miljøsaker.
+Senere saker har handlet om hvorvidt staten har **utredet** klimavirkningene av forbrenningsutslipp godt nok før den godkjente nye **oljefelt**. I 2025 uttalte **EFTA-domstolen** at utslippene fra forbrenning av oljen og gassen må utredes før utbygging godkjennes. Samme år kom **EMD** fram til at Norge ikke hadde krenket EMK artikkel 8 da staten delte ut letetillatelser i Barentshavet – men at klimavirkningene, også forbrenningsutslippene, må utredes grundig før nye felt kan godkjennes. Sakene viser hvordan **saksbehandlingsregler** kan bli viktige i miljøsaker.
 
 ## Klima og menneskerettigheter
 
@@ -65708,7 +65709,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Psykologi 2: Synet på psykisk helse gjennom tidene
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('psykologi-2:psykisk-helse-i-endring', 'psykologi-2', 'psykisk-helse-i-endring', 'Synet på psykisk helse gjennom tidene', 'Hvordan synet på psykisk helse og behandlingen av psykiske lidelser har endret seg – fra overnaturlige forklaringer og dårekister til asyler, moralsk behandling, psykoanalyse, lobotomi og psykofarmaka, avinstitusjonalisering og opptrappingsplan – og hvilke endringer som pågår i dag.', array[9]::int[], 8, 'sjekkes', array['Sjekk årstall for fjerning av homofili som diagnose i Norge og omtalen av erstatning til lobotomerte.']::text[], false, now())
+  ('psykologi-2:psykisk-helse-i-endring', 'psykologi-2', 'psykisk-helse-i-endring', 'Synet på psykisk helse gjennom tidene', 'Hvordan synet på psykisk helse og behandlingen av psykiske lidelser har endret seg – fra overnaturlige forklaringer og dårekister til asyler, moralsk behandling, psykoanalyse, lobotomi og psykofarmaka, avinstitusjonalisering og opptrappingsplan – og hvilke endringer som pågår i dag.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -65728,7 +65729,7 @@ I Norge kom **sinnssykeloven** i **1848**, og **Gaustad sykehus** ved Oslo åpne
 ## Nye teorier og inngripende behandling
 
 - **Sigmund Freud** og **psykoanalysen** rundt år **1900** la vekt på **ubevisste** konflikter og **samtalebehandling**.
-- I første halvdel av 1900-tallet ble det tatt i bruk **inngripende** biologiske metoder, som **insulinsjokk**, **elektrosjokk** og **lobotomi** – et inngrep i hjernens pannelapp. Mange som ble lobotomert, fikk **varige skader**, og den norske staten har senere gitt **erstatning** til mange av dem.
+- I første halvdel av 1900-tallet ble det tatt i bruk **inngripende** biologiske metoder, som **insulinsjokk**, **elektrosjokk** og **lobotomi** – et inngrep i hjernens pannelapp. Mange som ble lobotomert, fikk **varige skader**, og fra 1996 har den norske staten gitt **erstatning** til mange av dem.
 - Elektrokonvulsiv behandling (**ECT**) brukes fortsatt i dag, men i en **tryggere** form og ved **alvorlig** depresjon.
 
 ## Medisiner og avinstitusjonalisering
@@ -65739,7 +65740,7 @@ På **1960- og 70-tallet** kom sterk **kritikk** av de store institusjonene, som
 
 ## Diagnoser endres
 
-Diagnosesystemene **ICD** og **DSM** revideres jevnlig. **Homofili** ble fjernet som diagnose i Norge på **1970-tallet**. Eksempelet viser at hva som regnes som **sykt**, også påvirkes av **kultur** og **verdier**.
+Diagnosesystemene **ICD** og **DSM** revideres jevnlig. **Homofili** ble fjernet som diagnose i Norge i **1977**, men først i 1990-årene fra WHOs internasjonale diagnosesystem ICD. Eksempelet viser at hva som regnes som **sykt**, også påvirkes av **kultur** og **verdier**.
 
 ## Opptrapping og nærhet
 
@@ -68087,7 +68088,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Markedsføring og ledelse 2: Distribusjonsstrategier, makt og avhengighet
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'markedsforing-og-ledelse-2', 'distribusjonsstrategier-og-makt', 'Distribusjonsstrategier, makt og avhengighet', 'Hvordan virksomheter utvikler distribusjonsstrategier – direkte og indirekte kanaler, intensiv, selektiv og eksklusiv distribusjon, omnikanal og netthandel – og hvordan makt og avhengighet påvirker samarbeidet i en verdikjede, med dagligvarebransjen, vertikal integrasjon og push- og pull-strategier som eksempler.', array[6]::int[], 5, 'sjekkes', array['Sjekk omtalen av loven om god handelsskikk i dagligvarekjeden og Dagligvaretilsynet.']::text[], false, now())
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'markedsforing-og-ledelse-2', 'distribusjonsstrategier-og-makt', 'Distribusjonsstrategier, makt og avhengighet', 'Hvordan virksomheter utvikler distribusjonsstrategier – direkte og indirekte kanaler, intensiv, selektiv og eksklusiv distribusjon, omnikanal og netthandel – og hvordan makt og avhengighet påvirker samarbeidet i en verdikjede, med dagligvarebransjen, vertikal integrasjon og push- og pull-strategier som eksempler.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -68719,7 +68720,7 @@ on conflict (tema_id) do update set minutter = excluded.minutter;
 
 -- Markedsføring og ledelse 2: Samfunnsansvar og omdømme
 insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
-  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'markedsforing-og-ledelse-2', 'samfunnsansvar-og-omdomme', 'Samfunnsansvar og omdømme', 'Hvordan virksomheters samfunnsansvar kan drøftes ut fra et etisk, lovmessig og forretningsmessig perspektiv – Carrolls pyramide, interessenter, åpenhetsloven og aktsomhetsvurderinger, delt verdiskaping – og hvordan samfunnsansvar påvirker omdømmet, med omdømmebygging og krisehåndtering.', array[12]::int[], 11, 'sjekkes', array['Sjekk hvilke virksomheter som omfattes av åpenhetsloven og gjeldende krav til bærekraftsrapportering i regnskapsloven.']::text[], false, now())
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'markedsforing-og-ledelse-2', 'samfunnsansvar-og-omdomme', 'Samfunnsansvar og omdømme', 'Hvordan virksomheters samfunnsansvar kan drøftes ut fra et etisk, lovmessig og forretningsmessig perspektiv – Carrolls pyramide, interessenter, åpenhetsloven og aktsomhetsvurderinger, delt verdiskaping – og hvordan samfunnsansvar påvirker omdømmet, med omdømmebygging og krisehåndtering.', array[12]::int[], 11, 'utkast', '{}'::text[], false, now())
 on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
   sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
   publisert = excluded.publisert, oppdatert = excluded.oppdatert;
@@ -68748,7 +68749,7 @@ insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
 **Lovmessig perspektiv**: Loven setter **minstekrav**:
 
 - **Arbeidsmiljøloven**, **markedsføringsloven** og **miljølovgivning**
-- **Åpenhetsloven** (2022) krever at større virksomheter gjør **aktsomhetsvurderinger** av **menneskerettigheter** og **anstendige arbeidsforhold** i **leverandørkjeden**, og at forbrukere kan be om **informasjon**
+- **Åpenhetsloven** (2022) krever at større virksomheter – som oppfyller minst to av tre vilkår: over 70 millioner kroner i salgsinntekt, over 35 millioner i balansesum eller over 50 årsverk – gjør **aktsomhetsvurderinger** av **menneskerettigheter** og **anstendige arbeidsforhold** i **leverandørkjeden**, og at forbrukere kan be om **informasjon**
 - **Regnskapsloven** stiller krav om **rapportering** om samfunnsansvar for store foretak
 
 **Forretningsmessig perspektiv**: Samfunnsansvar kan **lønne seg**:

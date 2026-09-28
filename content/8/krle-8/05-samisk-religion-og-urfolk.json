@@ -81,5 +81,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva kalles en som formidler mellom mennesker og åndeverdenen i mange urfolksreligioner?", "options": ["Sjaman", "Rabbiner", "Imam", "Biskop"], "correct": 0, "explain": "Hos samene ble denne rollen kalt noaidi." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Navn og roller for samiske guder og makter varierer mellom kilder og samiske områder – bør kvalitetssikres av noen med samisk fagkompetanse."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

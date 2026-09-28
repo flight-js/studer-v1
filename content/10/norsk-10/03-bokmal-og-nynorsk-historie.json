@@ -75,5 +75,5 @@
       { "id": "m07", "type": "flervalg", "text": "Når trådte språkloven i kraft?", "options": ["1885", "1929", "2005", "2022"], "correct": 3, "explain": "Språkloven trådte i kraft 1. januar 2022." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Andelen elever med nynorsk som hovedmål («rundt en av ti») bør sjekkes mot fersk statistikk fra SSB/Språkrådet."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

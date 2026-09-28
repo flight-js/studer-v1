@@ -77,5 +77,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hvordan skattlegges overskuddet i et enkeltpersonforetak?", "options": ["Som selskapsskatt i et AS", "Det skattlegges ikke", "Som eierens personinntekt", "Som arveavgift"], "correct": 2, "explain": "Eieren og foretaket er ikke adskilt." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk gjeldende beløpsgrenser (aksjekapital, merverdiavgiftsgrensen) og regler for fritak fra revisjon mot Brønnøysundregistrene og Skatteetaten."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

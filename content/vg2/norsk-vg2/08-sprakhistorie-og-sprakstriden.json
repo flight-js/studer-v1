@@ -78,5 +78,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva er spesielt med språksituasjonen i Norge?", "options": ["Alle skriver dialekt", "Norge har bare ett skriftspråk", "To likestilte skriftformer og stor aksept for dialekter", "Engelsk er offisielt språk"], "correct": 2, "explain": "Det er et resultat av historien." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk andelen elever med nynorsk som hovedmål og årstallet for når samnorsk formelt ble oppgitt."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

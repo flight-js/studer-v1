@@ -81,5 +81,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva kan skje hvis partene i et lønnsoppgjør ikke blir enige?", "options": ["Bedriften stenger for alltid", "Staten bestemmer lønna til alle", "Ingenting", "Det kan bli streik"], "correct": 3, "explain": "Streik er et lovlig virkemiddel i arbeidslivet." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk reglene for unge arbeidstakere (aldersgrenser, arbeidstid og kveldsarbeid) mot arbeidsmiljøloven kap. 11 og forskrift om arbeid for barn og unge.", "Sjekk overtidstillegg (minst 40 %) og feriepengesats (10,2 %)."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

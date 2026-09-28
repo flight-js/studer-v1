@@ -76,5 +76,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva kan være en ulempe ved vertikal integrasjon for samfunnet?", "options": ["Lavere kostnader", "Bedre kontroll", "Redusert konkurranse", "Flere leverandører"], "correct": 2, "explain": "Kan gi høyere priser." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk omtalen av loven om god handelsskikk i dagligvarekjeden og Dagligvaretilsynet."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

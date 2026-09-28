@@ -81,5 +81,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva er frivillig arbeid?", "options": ["Ubetalt innsats for andre", "En deltidsjobb", "Lekser", "Obligatorisk arbeid"], "correct": 0, "explain": "Frivillig arbeid gir erfaring og nettverk." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk at fraværsgrensen i videregående fortsatt gjelder i samme form."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

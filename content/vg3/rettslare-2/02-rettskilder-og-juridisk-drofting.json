@@ -78,5 +78,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva er et krav i en juridisk sak?", "options": ["Loven som gjelder", "Dommerens navn", "Det den ene parten krever av den andre", "Konklusjonen"], "correct": 2, "explain": "For eksempel erstatning eller heving." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk at presumsjonsregelen i forbrukerkjøpsloven (feil som viser seg innen to år antas å ha vært der ved levering) er riktig gjengitt etter lovendringene i 2023."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

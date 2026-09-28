@@ -76,5 +76,5 @@
       { "id": "m07", "type": "flervalg", "text": "Kva heiter «noen» på nynorsk?", "options": ["nokon", "noko", "noen", "nokre"], "correct": 0, "explain": "Nokon = noen. (Nokre brukast òg i fleirtal: nokre bøker.)" }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk nynorskformene mot nynorsknormalen frå 2012, særleg valfrie former (me/vi, begynne/byrje, tyding/betydning) og tekst skrive på nynorsk."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

@@ -79,5 +79,5 @@
       { "id": "m07", "type": "flervalg", "text": "Når får man vanligvis svar på søknaden til videregående?", "options": ["Før jul", "I februar", "I løpet av sommeren", "Etter skolestart"], "correct": 2, "explain": "Deretter må man svare innen fristen." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk søknadsfrister (1. februar og 1. mars), søknadsportal (vigo.no) og antall ønsker mot gjeldende regler i fylket.", "Sjekk formuleringen om rett til videregående opplæring etter ny opplæringslov."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

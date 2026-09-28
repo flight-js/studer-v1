@@ -80,5 +80,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva regulerer lov om alternativ behandling?", "options": ["Hvem som kan bli prest", "Hvilke høytider som er fridager", "Hva utøvere av alternativ behandling har lov til", "Hvor mange trossamfunn det kan være"], "correct": 2, "explain": "Loven skal beskytte pasienter, særlig ved alvorlig sykdom." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Andelen medlemmer i Den norske kirke (rundt 60 prosent) bør sjekkes mot ferske tall fra SSB."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

@@ -77,5 +77,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva bør du spørre deg selv før du legger inn et nytt felt i et registreringsskjema?", "options": ["Er feltet pent?", "Hvor mange felt har konkurrentene?", "Trenger vi virkelig denne opplysningen?", "Kan vi selge opplysningen?"], "correct": 2, "explain": "Dataminimering." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Sjekk gjeldende regler for informasjonskapsler (ekomloven) og aldersgrensen for samtykke mot oppdaterte kilder."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

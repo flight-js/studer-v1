@@ -79,5 +79,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva kalles Kinas internettsensur ofte?", "options": ["Den kinesiske mur", "Den røde linjen", "Den store brannmuren", "Silkeveien"], "correct": 2, "explain": "Mange vestlige nettsteder er blokkert." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Kinesisk bør gjennomgås av en lærer med kinesiskkompetanse (tegn, pinyin og toner).", "Politiske formuleringer om Taiwan, Hongkong og menneskerettigheter bør vurderes av lærer."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

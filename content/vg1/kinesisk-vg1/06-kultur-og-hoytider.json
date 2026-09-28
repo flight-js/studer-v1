@@ -80,5 +80,5 @@
       { "id": "m07", "type": "flervalg", "text": "Hva har jul i Norge og vårfestivalen i Kina til felles?", "options": ["De feires samme dato", "Begge feires med røde konvolutter", "Begge handler om å samles med familien og spise tradisjonsmat", "Ingenting"], "correct": 2, "explain": "Familie og tradisjonsmat står sentralt i begge." }
     ]
   },
-  "kvalitet": { "status": "sjekkes", "merknader": ["Kinesisk er nytt fag i appen – en lærer med kinesiskkompetanse bør sjekke tegn, pinyin og toner i alle temaene."] }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }

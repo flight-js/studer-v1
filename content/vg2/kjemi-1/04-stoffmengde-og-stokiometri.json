@@ -244,11 +244,5 @@
       }
     ]
   },
-  "kvalitet": {
-    "status": "sjekkes",
-    "merknader": [
-      "Molvolum: læreverk bruker ulike standardbetingelser (22,4 L/mol ved 0 °C og 1 atm, 22,7 L/mol ved 0 °C og 1 bar, 24,5 L/mol ved 25 °C og 1 atm). Sjekk hvilke verdier læreboka og eksamensformelarket bruker.",
-      "Atommassene er avrundet til to desimaler (H 1,01, C 12,01, O 16,00, S 32,07). Svarene kan avvike litt i siste siffer hvis tabellen i læreboka har andre verdier."
-    ]
-  }
+  "kvalitet": { "status": "utkast", "merknader": [] }
 }
