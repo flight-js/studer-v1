@@ -1,6 +1,6 @@
-// Betaling: starter kjøp av abonnement med Stripe Embedded Checkout, og lar
-// eleven avslutte eller fortsette abonnementet. Betalingsskjemaet vises inne
-// på Studer – eleven sendes ikke videre til Stripe.
+// Betaling: starter kjøp av abonnement med Stripe Checkout Elements (kortfelt
+// og Apple Pay / Google Pay-knapper bygget inn på Studer), og lar eleven avslutte
+// eller fortsette abonnementet. Eleven sendes ikke videre til Stripe.
 //
 // Funksjonen skriver aldri abonnementet i profiles. Det gjør bare
 // «stripe-webhook», etter at Stripe har bekreftet betalingen.
@@ -149,16 +149,15 @@ Deno.serve(async (req) => {
         managed_payments: { enabled: false },
         // Kort, Apple Pay og Google Pay fullføres inne på siden. Bare betalingsmåter
         // som krever at eleven sendes til banken sin, kommer tilbake hit etterpå.
-        redirect_on_completion: "if_required" as const,
         return_url: `${retur}/abonnement?betaling=fullfort`,
       };
       let okt: Stripe.Checkout.Session;
       try {
-        okt = await stripe.checkout.sessions.create({ ...felles, ui_mode: "embedded_page" } as Stripe.Checkout.SessionCreateParams);
+        okt = await stripe.checkout.sessions.create({ ...felles, ui_mode: "elements" } as Stripe.Checkout.SessionCreateParams);
       } catch (e) {
-        // Eldre API-versjoner kaller det «embedded».
+        // Eldre API-versjoner kaller det «custom».
         if (!(e instanceof Stripe.errors.StripeInvalidRequestError) || e.param !== "ui_mode") throw e;
-        okt = await stripe.checkout.sessions.create({ ...felles, ui_mode: "embedded" } as unknown as Stripe.Checkout.SessionCreateParams);
+        okt = await stripe.checkout.sessions.create({ ...felles, ui_mode: "custom" } as unknown as Stripe.Checkout.SessionCreateParams);
       }
       return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR });
     }

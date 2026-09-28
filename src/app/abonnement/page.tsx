@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useRef, useState } from "react";
-import { loadStripe, type StripeEmbeddedCheckout } from "@stripe/stripe-js";
+import { loadStripe, type Appearance, type StripeCheckoutLoadActionsSuccess } from "@stripe/stripe-js";
 import { AppBar } from "@/components/AppBar";
 import { ArrowRight, Check, Lock } from "@/components/icons";
 import { Laster } from "@/components/Tilstand";
@@ -13,8 +13,8 @@ import { ARLIG_SPARING, ENHET, FORDELER, PLANNAVN, PRIS, type Plan } from "@/lib
 import { datoTekst, harAbonnement, hentProfil, type Profil } from "@/lib/profil";
 import { useHent } from "@/lib/useHent";
 
-// Kjøp og administrasjon av abonnement. Betalingsskjemaet fra Stripe vises
-// inne på siden (Embedded Checkout). Abonnementet i profilen settes av
+// Kjøp og administrasjon av abonnement. Betalingsskjemaet bygges av Stripes
+// Checkout Elements inne på siden: Apple Pay / Google Pay-knapper og kortfelt. Abonnementet i profilen settes av
 // Stripe-webhooken, så etter betaling venter siden til profilen er oppdatert.
 
 export default function AbonnementPage() {
@@ -203,6 +203,7 @@ function Abonnement() {
           <Betalingsskjema
             clientSecret={okt.clientSecret}
             publishableKey={okt.publishableKey}
+            belop={PRIS[plan]}
             onFullfort={betalingFullfort}
           />
         </div>
@@ -298,60 +299,150 @@ function useProfil(brukerId: string | undefined) {
   return { profil, last, vent };
 }
 
+// Stripe-feltene skal se ut som resten av Studer.
+const UTSEENDE: Appearance = {
+  theme: "stripe",
+  variables: {
+    colorPrimary: "#2c4bd4",
+    colorBackground: "#fffdf9",
+    colorText: "#1b1a2e",
+    colorTextSecondary: "#6b6760",
+    colorDanger: "#c43d3d",
+    fontFamily: '"Instrument Sans", ui-sans-serif, system-ui, sans-serif',
+    fontSizeBase: "15px",
+    borderRadius: "12px",
+    spacingUnit: "4px",
+  },
+  rules: {
+    ".Input": { borderColor: "#d3ccbd", boxShadow: "none" },
+    ".Input:focus": { borderColor: "#2c4bd4", boxShadow: "0 0 0 3px rgba(44, 75, 212, 0.15)" },
+    ".Tab": { borderColor: "#d3ccbd", boxShadow: "none" },
+  },
+};
+
 function Betalingsskjema({
   clientSecret,
   publishableKey,
+  belop,
   onFullfort,
 }: {
   clientSecret: string;
   publishableKey: string;
+  belop: number;
   onFullfort: () => void;
 }) {
-  const beholder = useRef<HTMLDivElement>(null);
+  const ekspressBeholder = useRef<HTMLDivElement>(null);
+  const kortBeholder = useRef<HTMLDivElement>(null);
+  const handlinger = useRef<StripeCheckoutLoadActionsSuccess | null>(null);
   const fullfort = useRef(onFullfort);
   const [status, setStatus] = useState<"laster" | "klar" | "feil">("laster");
+  const [harEkspress, setHarEkspress] = useState(false);
+  const [kanBetale, setKanBetale] = useState(false);
+  const [betaler, setBetaler] = useState(false);
+  const [feil, setFeil] = useState<string | null>(null);
 
   useEffect(() => {
     fullfort.current = onFullfort;
   }, [onFullfort]);
 
   useEffect(() => {
-    let checkout: StripeEmbeddedCheckout | null = null;
     let avbrutt = false;
+    const rydd: Array<() => void> = [];
     (async () => {
       const stripe = await loadStripe(publishableKey);
       if (!stripe || avbrutt) throw new Error("Stripe lastet ikke");
-      const ny = await stripe.createEmbeddedCheckoutPage({
-        fetchClientSecret: async () => clientSecret,
-        onComplete: () => fullfort.current(),
+      const checkout = stripe.initCheckoutElementsSdk({
+        clientSecret,
+        elementsOptions: {
+          appearance: UTSEENDE,
+          fonts: [{ cssSrc: "https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" }],
+        },
       });
-      if (avbrutt) {
-        ny.destroy();
-        return;
-      }
-      checkout = ny;
-      if (beholder.current) checkout.mount(beholder.current);
+      checkout.on("change", (okt) => !avbrutt && setKanBetale(okt.canConfirm));
+      const lastet = await checkout.loadActions();
+      if (lastet.type === "error") throw new Error(lastet.error.message);
+      if (avbrutt) return;
+      handlinger.current = lastet.actions;
+      setKanBetale(lastet.actions.getSession().canConfirm);
+
+      // Apple Pay og Google Pay som egne knapper. «always» gjør at Apple Pay også
+      // vises i Chrome, Edge og Firefox – da betaler eleven ved å skanne en QR-kode
+      // med iPhonen.
+      const ekspress = checkout.createExpressCheckoutElement({
+        buttonHeight: 48,
+        buttonTheme: undefined,
+        buttonType: { applePay: "subscribe", googlePay: "subscribe" },
+        layout: { maxColumns: 2, maxRows: 1, overflow: "never" },
+        paymentMethodOrder: undefined,
+        paymentMethods: { applePay: "always", googlePay: "always", link: "never", paypal: "never", klarna: "never", amazonPay: "never" },
+      });
+      ekspress.on("ready", ({ availablePaymentMethods }) => {
+        if (!avbrutt) setHarEkspress(!!availablePaymentMethods && Object.values(availablePaymentMethods).some(Boolean));
+      });
+      ekspress.on("confirm", async (hendelse) => {
+        setFeil(null);
+        const svar = await lastet.actions.confirm({ expressCheckoutConfirmEvent: hendelse, redirect: "if_required" });
+        if (svar.type === "error") setFeil(svar.error.message ?? "Betalingen ble ikke gjennomført.");
+        else fullfort.current();
+      });
+      if (ekspressBeholder.current) ekspress.mount(ekspressBeholder.current);
+      rydd.push(() => ekspress.destroy());
+
+      const kort = checkout.createPaymentElement({
+        layout: "tabs",
+        wallets: { applePay: "never", googlePay: "never" },
+      });
+      if (kortBeholder.current) kort.mount(kortBeholder.current);
+      rydd.push(() => kort.destroy());
       setStatus("klar");
     })().catch(() => !avbrutt && setStatus("feil"));
     return () => {
       avbrutt = true;
-      checkout?.destroy();
+      rydd.forEach((f) => f());
     };
   }, [clientSecret, publishableKey]);
 
+  const betal = async () => {
+    if (!handlinger.current) return;
+    setFeil(null);
+    setBetaler(true);
+    const svar = await handlinger.current.confirm({ redirect: "if_required" });
+    setBetaler(false);
+    if (svar.type === "error") setFeil(svar.error.message ?? "Betalingen ble ikke gjennomført.");
+    else fullfort.current();
+  };
+
   return (
-    <div className="relative min-h-[32rem] bg-surface border border-border rounded-3xl overflow-hidden">
+    <div className="relative flex flex-col gap-5 bg-surface border border-border rounded-3xl p-5 sm:p-7 min-h-[22rem]">
       {status === "laster" && (
         <div className="absolute inset-0 flex items-center justify-center">
           <Laster tekst="Åpner betalingen" />
         </div>
       )}
-      {status === "feil" && (
-        <div className="absolute inset-0 flex items-center justify-center p-6">
-          <Feilmelding tekst="Fikk ikke åpnet betalingen. Sjekk nettet, slå av eventuelle blokkere for annonser og prøv igjen." />
+      {status === "feil" ? (
+        <Feilmelding tekst="Fikk ikke åpnet betalingen. Sjekk nettet, slå av eventuelle blokkere for annonser og prøv igjen." />
+      ) : (
+        <div className={`flex flex-col gap-5 transition-opacity duration-300 ${status === "klar" ? "opacity-100" : "opacity-0"}`}>
+          <div ref={ekspressBeholder} className={harEkspress ? "" : "hidden"} />
+          {harEkspress && (
+            <div className="flex items-center gap-3 text-xs font-medium text-muted" aria-hidden="true">
+              <span className="h-px flex-1 bg-border" />
+              eller betal med kort
+              <span className="h-px flex-1 bg-border" />
+            </div>
+          )}
+          <div ref={kortBeholder} />
+          {feil && <Feilmelding tekst={feil} />}
+          <button
+            onClick={betal}
+            disabled={!kanBetale || betaler}
+            className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <Lock size={16} />
+            {betaler ? "Behandler betalingen …" : `Betal ${belop} kr`}
+          </button>
         </div>
       )}
-      <div ref={beholder} className="p-2 sm:p-4" />
     </div>
   );
 }
