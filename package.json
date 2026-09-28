@@ -13,6 +13,7 @@
     "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^9.17.0",
     "@supabase/supabase-js": "^2.117.2",
     "next": "16.3.6",
     "react": "19.2.8",

@@ -7,7 +7,7 @@ import { AppBar } from "@/components/AppBar";
 import { ArrowRight, LogOut } from "@/components/icons";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
-import { hentProfil } from "@/lib/profil";
+import { datoTekst, harAbonnement, hentProfil, type Profil } from "@/lib/profil";
 import { supabase } from "@/lib/supabase";
 import { useHent } from "@/lib/useHent";
 
@@ -57,7 +57,7 @@ export default function KontoPage() {
             />
             <Rad
               navn="Abonnement"
-              verdi={profil.data ? (ABONNEMENT[profil.data.abonnement] ?? profil.data.abonnement) : "…"}
+              verdi={profil.data ? abonnementTekst(profil.data) : "…"}
             />
           </dl>
 
@@ -68,6 +68,12 @@ export default function KontoPage() {
             >
               Fortsett å øve
               <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+            </Link>
+            <Link
+              href="/abonnement"
+              className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
+            >
+              {harAbonnement(profil.data) ? "Administrer abonnement" : "Kjøp abonnement"}
             </Link>
             <Link
               href="/nytt-passord"
@@ -88,6 +94,12 @@ export default function KontoPage() {
       )}
     </div>
   );
+}
+
+function abonnementTekst(p: Profil): string {
+  const navn = ABONNEMENT[p.abonnement] ?? p.abonnement;
+  if (!harAbonnement(p) || !p.abonnement_til) return navn;
+  return `${navn} – ${p.abonnement_avsluttes ? "avsluttes" : "fornyes"} ${datoTekst(p.abonnement_til)}`;
 }
 
 function Rad({ navn, verdi }: { navn: string; verdi: string }) {

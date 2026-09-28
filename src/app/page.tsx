@@ -3,11 +3,9 @@ import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
 import { ArrowRight, Check } from "@/components/icons";
+import { ARLIG_SPARING, FORDELER, PRIS, type Plan as Abonnement } from "@/lib/priser";
 import { oktNokkel } from "@/lib/supabase";
 
-const MONTHLY = 59;
-const YEARLY = 499;
-const yearlySaving = MONTHLY * 12 - YEARLY;
 
 const btnPrimary =
   "inline-flex items-center justify-center gap-2 bg-primary text-white rounded-xl font-semibold transition-[background-color,transform,box-shadow] duration-200 hover:bg-primary-dark hover:shadow-[0_10px_24px_-12px_rgba(44,75,212,0.7)] active:scale-[0.98]";
@@ -199,17 +197,19 @@ function Markedsside() {
 
             <div className="grid sm:grid-cols-2 gap-4">
               <Plan
+                plan="maned"
                 name="Månedlig"
-                price={MONTHLY}
+                price={PRIS.maned}
                 unit="/ mnd"
                 cta="Velg månedlig"
               />
               <Plan
+                plan="ar"
                 name="Årlig"
-                price={YEARLY}
+                price={PRIS.ar}
                 unit="/ år"
                 cta="Velg årlig"
-                note={`Spar ${yearlySaving} kr`}
+                note={`Spar ${ARLIG_SPARING} kr`}
                 featured
               />
             </div>
@@ -381,6 +381,7 @@ function MiniOption({
 }
 
 function Plan({
+  plan,
   name,
   price,
   unit,
@@ -388,6 +389,7 @@ function Plan({
   note,
   featured,
 }: {
+  plan: Abonnement;
   name: string;
   price: number;
   unit: string;
@@ -420,7 +422,7 @@ function Plan({
         <span className={`text-sm ${featured ? "text-background/60" : "text-muted"}`}>{unit}</span>
       </div>
       <ul className={`flex flex-col gap-3 text-sm ${featured ? "text-background/80" : "text-ink-soft"}`}>
-        {["Alle fag og trinn", "Ubegrenset quiz og flashcards", "AI-chatbot inkludert"].map((f) => (
+        {FORDELER.map((f) => (
           <li key={f} className="flex items-center gap-2.5">
             <Check size={16} className={featured ? "text-[#8fa3ff]" : "text-primary"} />
             {f}
@@ -428,7 +430,7 @@ function Plan({
         ))}
       </ul>
       <Link
-        href="/registrer"
+        href={`/abonnement?plan=${plan}`}
         className={`mt-auto text-center px-4 py-3.5 rounded-xl text-sm font-semibold transition-[background-color,transform,border-color] duration-200 active:scale-[0.98] ${
           featured
             ? "bg-background text-foreground hover:bg-white"

@@ -56,6 +56,36 @@ export type Database = {
         }
         Relationships: []
       }
+      betaling: {
+        Row: {
+          bruker_id: string
+          gjelder_til: string | null
+          oppdatert: string
+          plan: string | null
+          status: string | null
+          stripe_abonnement: string | null
+          stripe_kunde: string
+        }
+        Insert: {
+          bruker_id: string
+          gjelder_til?: string | null
+          oppdatert?: string
+          plan?: string | null
+          status?: string | null
+          stripe_abonnement?: string | null
+          stripe_kunde: string
+        }
+        Update: {
+          bruker_id?: string
+          gjelder_til?: string | null
+          oppdatert?: string
+          plan?: string | null
+          status?: string | null
+          stripe_abonnement?: string | null
+          stripe_kunde?: string
+        }
+        Relationships: []
+      }
       fag: {
         Row: {
           id: string
@@ -187,6 +217,8 @@ export type Database = {
       profiles: {
         Row: {
           abonnement: string
+          abonnement_avsluttes: boolean
+          abonnement_til: string | null
           id: string
           navn: string | null
           opprettet: string
@@ -194,6 +226,8 @@ export type Database = {
         }
         Insert: {
           abonnement?: string
+          abonnement_avsluttes?: boolean
+          abonnement_til?: string | null
           id: string
           navn?: string | null
           opprettet?: string
@@ -201,6 +235,8 @@ export type Database = {
         }
         Update: {
           abonnement?: string
+          abonnement_avsluttes?: boolean
+          abonnement_til?: string | null
           id?: string
           navn?: string | null
           opprettet?: string
