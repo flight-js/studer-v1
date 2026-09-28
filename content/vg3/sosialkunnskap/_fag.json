@@ -1,0 +1,78 @@
+{
+  "id": "sosialkunnskap",
+  "trinnId": "vg3",
+  "name": "Sosialkunnskap",
+  "lareplan": {
+    "kode": "POS02-02",
+    "url": "https://www.udir.no/lk20/pos02-02/kompetansemaal-og-vurdering/kv892",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "vurdere ulike samfunnsvitenskapelige metoder og teorier og bruke disse til å utforske egne problemstillinger og gjennomføre undersøkelser"
+      },
+      {
+        "nr": 3,
+        "tekst": "gjøre rede for ulike institusjoner, politisk styring, prinsipper og verdier i velferdsstaten og drøfte utfordringer ved velferdsstatens framtid og bærekraft"
+      },
+      {
+        "nr": 4,
+        "tekst": "drøfte årsaker til sosial ulikhet, marginalisering og utenforskap og vurdere konsekvenser for individ og samfunn"
+      },
+      {
+        "nr": 5,
+        "tekst": "gjøre rede for ulike perspektiver på sosialisering og drøfte hvordan sosialiseringen har endret seg over tid"
+      },
+      {
+        "nr": 6,
+        "tekst": "utforske ulike perspektiver på kjønn og identitet og reflektere over holdninger til egen og andres identitet"
+      },
+      {
+        "nr": 7,
+        "tekst": "utforske sammenhenger mellom velferdsforskjeller og sosiale problemer og drøfte konsekvenser for individ og samfunn"
+      },
+      {
+        "nr": 8,
+        "tekst": "gjøre rede for ulike typer sosiale problemer og vurdere forebyggende tiltak"
+      },
+      {
+        "nr": 9,
+        "tekst": "utforske inkludering på ulike nivåer i samfunnet og vurdere tiltak som kan bidra til inkludering i arbeidslivet og velferdssamfunnet"
+      },
+      {
+        "nr": 10,
+        "tekst": "vurdere hvordan menneskerettighetene har påvirket den norske velferdsstaten, og drøfte hvordan menneskerettighetene ivaretas i Norge"
+      },
+      {
+        "nr": 11,
+        "tekst": "gjøre rede for sentrale behov i barne- og ungdomsårene og vurdere sammenhengen mellom behovsdekning, velferd og livsmestring"
+      },
+      {
+        "nr": 12,
+        "tekst": "gjøre rede for ulike former for vold og trakassering og drøfte konsekvenser av vold og trakassering på individ- og samfunnsnivå"
+      },
+      {
+        "nr": 13,
+        "tekst": "vurdere hvordan ulike kriser kan håndteres på individ- og samfunnsnivå"
+      }
+    ]
+  },
+  "temaer": [
+    "kilder-og-informasjon",
+    "samfunnsvitenskapelig-metode-og-teori",
+    "velferdsstaten",
+    "sosial-ulikhet-og-utenforskap",
+    "sosialisering",
+    "kjonn-og-identitet",
+    "velferdsforskjeller-og-sosiale-problemer",
+    "sosiale-problemer-og-forebygging",
+    "inkludering",
+    "menneskerettigheter-og-velferd",
+    "behov-i-barne-og-ungdomsarene",
+    "vold-og-trakassering",
+    "kriser"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "kriser",
+  "fagId": "sosialkunnskap",
+  "trinnId": "vg3",
+  "name": "Kriser på individ- og samfunnsnivå",
+  "intro": "Hvordan ulike kriser kan håndteres – personlige kriser som sykdom, dødsfall og samlivsbrudd, og samfunnskriser som pandemier, naturkatastrofer, terror, krig og økonomiske kriser – med krisereaksjoner, mestring og hjelp for den enkelte og beredskapsprinsipper, samfunnssikkerhet og tillit for samfunnet.",
+  "kompetansemaal": [13],
+  "sammendrag": "## Hva er en krise?\n\nEn **krise** er en situasjon der våre vanlige måter å **mestre** utfordringer på **ikke strekker til**. Kriser kan ramme **enkeltpersoner**, **familier**, **lokalsamfunn** eller **hele samfunnet**.\n\n## Kriser for den enkelte\n\n- **Utviklingskriser**: overganger i livet, som pubertet, flytting hjemmefra eller pensjonering\n- **Traumatiske kriser**: plutselige hendelser som **dødsfall**, **ulykker**, **alvorlig sykdom**, **vold** eller **samlivsbrudd**\n\nVanlige **reaksjoner** er sjokk, **uvirkelighetsfølelse**, angst, søvnvansker, konsentrasjonsvansker, sinne, skyldfølelse og sorg. Dette er **normale** reaksjoner på en **unormal** situasjon, og de fleste blir **gradvis** bedre.\n\n## Mestring for den enkelte\n\n- **Sosial støtte**: å ha noen å snakke med\n- **Informasjon**: å forstå hva som har skjedd\n- **Struktur** og **rutiner**: søvn, mat og aktivitet\n- **Problemfokusert** mestring – å gjøre noe med situasjonen – og **emosjonsfokusert** mestring – å håndtere følelsene\n- **Profesjonell hjelp** når reaksjonene er sterke eller varer lenge: fastlege, helsesykepleier, **kriseteam** i kommunen\n\n## Samfunnskriser\n\n- **Pandemier**: **Covid-19** fra **2020** førte til nedstengning, hjemmeskole og store økonomiske tiltak.\n- **Naturkatastrofer**: flom, skred og **ekstremvær**, som ventes å bli vanligere med **klimaendringer**.\n- **Terror**: **22. juli 2011** rammet regjeringskvartalet og **Utøya** og fikk store konsekvenser for norsk beredskap.\n- **Krig**: Russlands fullskala **invasjon av Ukraina** i **2022** ga flyktningstrøm, høyere **energipriser** og økt fokus på **forsvar**.\n- **Økonomiske kriser**: finanskriser, **prisvekst** og **arbeidsledighet**.\n- **Digitale** angrep mot viktige samfunnsfunksjoner.\n\n## Beredskapsprinsippene\n\nNorsk krisehåndtering bygger på fire **prinsipper**:\n\n1. **Ansvarsprinsippet**: Den som har ansvar for et område til vanlig, har også ansvaret i en krise.\n2. **Likhetsprinsippet**: Organiseringen i krise skal være mest mulig **lik** den vanlige.\n3. **Nærhetsprinsippet**: Kriser skal håndteres på **lavest** mulig nivå.\n4. **Samvirkeprinsippet**: Alle aktører har plikt til å **samarbeide**.\n\n**Direktoratet for samfunnssikkerhet og beredskap (DSB)** har en sentral rolle, sammen med **politiet**, **Sivilforsvaret**, **Forsvaret**, **helsevesenet** og **kommunene**. **Totalforsvaret** betyr at sivile og militære ressurser samarbeider.\n\n## Tillit og informasjon\n\nNorge har høy **tillit** til myndighetene og til hverandre. Under pandemien gjorde tilliten at mange fulgte **rådene** frivillig. Tydelig og ærlig **informasjon** er avgjørende i en krise – mens **desinformasjon** kan svekke krisehåndteringen.\n\n## Egenberedskap\n\nMyndighetene anbefaler at husholdninger har **egenberedskap** – vann, mat, medisiner, radio og varmekilde – slik at de kan klare seg selv i en periode hvis strøm, vann eller kommunikasjon faller ut.\n\n## Sårbare grupper\n\nKriser rammer **ulikt**. Under pandemien ble blant annet **eldre**, **barn i vanskelige hjem**, **ungdom** og **lavinntektsfamilier** hardt rammet. God krisehåndtering tar hensyn til de mest **sårbare**.\n\n## Etterpå\n\nEtter kriser lager myndighetene ofte **evalueringer** – som **22. juli-kommisjonen** og **koronakommisjonen** – for å lære og forbedre **beredskapen**.\n\n## Drøfting\n\nHvordan skal samfunnet balansere **frihet** og **sikkerhet** i en krise? Tiltak som **nedstengning** eller **overvåking** kan redde liv, men også gi store **kostnader** for enkeltpersoner og for **demokratiet**.",
+  "flashcards": [
+    { "term": "Krise", "def": "Situasjon der vanlige måter å mestre på ikke strekker til." },
+    { "term": "Utviklingskrise", "def": "Krise knyttet til overganger i livet." },
+    { "term": "Traumatisk krise", "def": "Krise etter en plutselig, alvorlig hendelse." },
+    { "term": "Normale krisereaksjoner", "def": "Sjokk, angst, søvnvansker, sinne og sorg." },
+    { "term": "Problemfokusert mestring", "def": "Å gjøre noe med situasjonen." },
+    { "term": "Emosjonsfokusert mestring", "def": "Å håndtere følelsene." },
+    { "term": "Kriseteam", "def": "Kommunalt team som hjelper ved kriser." },
+    { "term": "Ansvarsprinsippet", "def": "Den som har ansvar til vanlig, har ansvar i krise." },
+    { "term": "Likhetsprinsippet", "def": "Organiseringen i krise skal ligne den vanlige." },
+    { "term": "Nærhetsprinsippet", "def": "Kriser håndteres på lavest mulig nivå." },
+    { "term": "Samvirkeprinsippet", "def": "Alle aktører har plikt til å samarbeide." },
+    { "term": "DSB", "def": "Direktoratet for samfunnssikkerhet og beredskap." },
+    { "term": "Totalforsvaret", "def": "Samarbeid mellom sivile og militære ressurser." },
+    { "term": "Egenberedskap", "def": "Husholdningens evne til å klare seg selv en periode." },
+    { "term": "Evaluering", "def": "Gjennomgang etter en krise for å lære, som koronakommisjonen." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en traumatisk krise?", "options": ["En overgang som pubertet", "En krise etter en plutselig, alvorlig hendelse", "En økonomisk krise", "En planlagt endring"], "correct": 1, "explain": "For eksempel dødsfall eller ulykke." },
+    { "id": "q02", "text": "Hva sier nærhetsprinsippet?", "options": ["At kriser skal håndteres på lavest mulig nivå", "At alle må bo nær hverandre", "At staten skal ta alle kriser", "At naboer har ansvar"], "correct": 0, "explain": "Ett av fire beredskapsprinsipper." },
+    { "id": "q03", "text": "Hva er normale krisereaksjoner?", "options": ["Glede og energi", "Ingen reaksjoner", "Sjokk, angst, søvnvansker og sorg", "Bare sinne"], "correct": 2, "explain": "Normale reaksjoner på en unormal situasjon." },
+    { "id": "q04", "text": "Hva sier samvirkeprinsippet?", "options": ["At bare politiet har ansvar", "At kriser håndteres lokalt", "At organiseringen skal være lik", "At alle aktører har plikt til å samarbeide"], "correct": 3, "explain": "Viktig i store kriser." },
+    { "id": "q05", "text": "Hvorfor var tillit viktig under pandemien?", "options": ["Fordi mange fulgte rådene frivillig", "Fordi den senket skatten", "Fordi den stoppet viruset", "Den hadde ingen betydning"], "correct": 0, "explain": "Tillit gjør krisehåndtering lettere." },
+    { "id": "q06", "text": "Hva er egenberedskap?", "options": ["At staten ordner alt", "At husholdninger kan klare seg selv en periode", "En forsikring", "En militær øvelse"], "correct": 1, "explain": "Vann, mat, medisiner og radio." },
+    { "id": "q07", "text": "Hva er totalforsvaret?", "options": ["Bare hæren", "Bare politiet", "Samarbeid mellom sivile og militære ressurser", "Et parti"], "correct": 2, "explain": "Hele samfunnet bidrar." },
+    { "id": "q08", "text": "Hva er problemfokusert mestring?", "options": ["Å håndtere følelsene", "Å unngå situasjonen", "Å glemme alt", "Å gjøre noe med situasjonen"], "correct": 3, "explain": "Emosjonsfokusert mestring handler om følelsene." },
+    { "id": "q09", "text": "Hvilken hendelse rammet regjeringskvartalet og Utøya?", "options": ["22. juli 2011", "Covid-19", "Finanskrisen", "Flommen i 1995"], "correct": 0, "explain": "Fikk store konsekvenser for beredskapen." },
+    { "id": "q10", "text": "Hvorfor gjennomføres evalueringer etter kriser?", "options": ["For å straffe alle", "For å lære og forbedre beredskapen", "For å skjule feil", "Fordi det er gøy"], "correct": 1, "explain": "For eksempel koronakommisjonen." }
+  ],
+  "mindmap": {
+    "label": "Kriser",
+    "children": [
+      { "label": "Individ", "children": [
+        { "label": "Utviklingskriser" },
+        { "label": "Traumatiske kriser" },
+        { "label": "Reaksjoner og mestring" }
+      ] },
+      { "label": "Samfunn", "children": [
+        { "label": "Pandemi og naturkatastrofer" },
+        { "label": "Terror og krig" },
+        { "label": "Økonomiske og digitale kriser" }
+      ] },
+      { "label": "Beredskap", "children": [
+        { "label": "Fire prinsipper" },
+        { "label": "DSB og totalforsvaret" },
+        { "label": "Egenberedskap" }
+      ] },
+      { "label": "Tillit", "children": [
+        { "label": "Informasjon" },
+        { "label": "Desinformasjon" }
+      ] },
+      { "label": "Etterarbeid", "children": [
+        { "label": "Sårbare grupper" },
+        { "label": "Evalueringer" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "De fleste krisereaksjoner blir gradvis bedre.", "correct": true, "explain": "Men noen trenger profesjonell hjelp." },
+      { "id": "m02", "type": "sant-usant", "text": "Kriser rammer alle grupper likt.", "correct": false, "explain": "Sårbare grupper rammes ofte hardest." },
+      { "id": "m03", "type": "sant-usant", "text": "Ansvarsprinsippet betyr at den som har ansvar til vanlig, også har det i krise.", "correct": true, "explain": "Ett av fire prinsipper." },
+      { "id": "m04", "type": "sant-usant", "text": "Desinformasjon gjør krisehåndtering lettere.", "correct": false, "explain": "Den kan svekke krisehåndteringen." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken hendelse i 2022 ga flyktningstrøm og høyere energipriser?", "options": ["Covid-19", "Russlands invasjon av Ukraina", "Finanskrisen", "22. juli"], "correct": 1, "explain": "Økt fokus på forsvar." },
+      { "id": "m06", "type": "flervalg", "text": "Hvem kan hjelpe ved kriser i kommunen?", "options": ["Kriseteamet", "Skatteetaten", "Lånekassen", "Tollvesenet"], "correct": 0, "explain": "Også fastlege og helsesykepleier." },
+      { "id": "m07", "type": "flervalg", "text": "Hvilket dilemma oppstår ofte i samfunnskriser?", "options": ["Skatt mot toll", "By mot land", "Frihet mot sikkerhet", "Sport mot kultur"], "correct": 2, "explain": "For eksempel nedstengning." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "velferdsstaten",
+  "fagId": "sosialkunnskap",
+  "trinnId": "vg3",
+  "name": "Velferdsstaten – institusjoner, verdier og framtid",
+  "intro": "Hvordan den norske velferdsstaten er bygd opp – institusjoner som folketrygden, NAV, helsevesen og utdanning, politisk styring på flere nivåer, prinsipper og verdier som universalitet, likhet og solidaritet, ulike velferdsmodeller – og utfordringer for velferdsstatens framtid og bærekraft.",
+  "kompetansemaal": [3],
+  "sammendrag": "## Hva er en velferdsstat?\n\nEn **velferdsstat** er et samfunn der det **offentlige** tar et stort ansvar for innbyggernes **velferd** – helse, utdanning, inntektssikring og omsorg – gjennom hele livet, fra **barnehage** til **eldreomsorg**.\n\n## Institusjoner\n\n- **Folketrygden** (1967) gir blant annet **alderspensjon**, **sykepenger**, **uføretrygd**, **foreldrepenger** og **arbeidsavklaringspenger**.\n- **NAV** – Arbeids- og velferdsforvaltningen – forvalter folketrygden og hjelper folk i **arbeid**.\n- **Helsevesenet**: **spesialisthelsetjenesten** – sykehus – eies av staten gjennom **helseforetak**, mens **kommunene** har fastleger, sykehjem og hjemmetjenester.\n- **Utdanning**: gratis offentlig **skole** og **høyere utdanning**, og **Lånekassen**.\n- **Barnevern**, **barnehager** og **sosialhjelp**.\n\n## Politisk styring\n\nVelferden styres på flere **nivåer**:\n\n- **Staten**: **Stortinget** vedtar lover og budsjett, og **regjeringen** gjennomfører politikken.\n- **Fylkeskommunene**: blant annet **videregående skole** og kollektivtrafikk.\n- **Kommunene**: barnehage, grunnskole, helse- og omsorgstjenester og sosialhjelp.\n\nPolitikerne må **prioritere**: Skal pengene gå til eldreomsorg, skole, skattelette eller forsvar?\n\n## Prinsipper og verdier\n\n- **Universalitet**: Ytelser gjelder **alle** som fyller vilkårene, ikke bare de fattigste – for eksempel barnetrygd.\n- **Likhet**: like **muligheter** uavhengig av bakgrunn og bosted.\n- **Solidaritet**: De som har mye, bidrar til dem som trenger det – gjennom **skatt**.\n- **Omfordeling**: Skatter og overføringer jevner ut forskjeller.\n- **Arbeidslinja**: Det skal lønne seg å **arbeide**, og de som kan, skal delta i arbeidslivet.\n- **Tillit**: Velferdsstaten bygger på at folk **stoler** på hverandre og på det offentlige – og betaler skatt.\n\n## Velferdsmodeller\n\nDen danske sosiologen **Gøsta Esping-Andersen** skilte mellom tre modeller:\n\n- **Den nordiske** eller sosialdemokratiske: **universelle** ordninger, høye skatter, stor offentlig sektor\n- **Den liberale** – som i USA: mer **behovsprøvde** ytelser og vekt på **markedet**\n- **Den konservative** – som i Tyskland: ordninger knyttet til **arbeid** og **familie**\n\n## Finansiering\n\nVelferden finansieres hovedsakelig gjennom **skatter** og **avgifter**. I tillegg bruker staten en del av **avkastningen** fra **Statens pensjonsfond utland** – oljefondet – etter **handlingsregelen**.\n\n## Utfordringer for framtiden\n\n- **Eldrebølgen**: Flere eldre og **færre** i arbeidsfør alder per pensjonist gir økte utgifter til pensjon og omsorg.\n- **Mangel på arbeidskraft** i helse og omsorg.\n- **Mange utenfor arbeidslivet** – på trygd eller uføretrygd.\n- **Lavere oljeinntekter** på sikt og behov for **omstilling**.\n- **Økte forventninger** til tjenestene.\n- **Integrering** av innvandrere i arbeidslivet.\n- **Klimaendringer** og kostnader ved omstilling.\n\n## Løsninger som diskuteres\n\n- flere i **arbeid** og **lengre** yrkeskarrierer\n- **teknologi** og **velferdsteknologi**, som digitale løsninger i eldreomsorgen\n- **prioritering** og **effektivisering**\n- høyere **skatter** eller **egenandeler**\n- **forebygging** for å redusere behovet for dyre tjenester\n\n## Drøfting\n\nEt sentralt spørsmål er om velferdsstaten kan være både **universell** og **bærekraftig**. Noen mener mer **behovsprøving** er nødvendig, mens andre mener at universelle ordninger gir **oppslutning** og **tillit** som gjør modellen robust.",
+  "flashcards": [
+    { "term": "Velferdsstat", "def": "Det offentlige tar stort ansvar for innbyggernes velferd." },
+    { "term": "Folketrygden", "def": "Sosialforsikring fra 1967 med pensjon, sykepenger og mer." },
+    { "term": "NAV", "def": "Arbeids- og velferdsforvaltningen." },
+    { "term": "Helseforetak", "def": "Statlig eide selskaper som driver sykehusene." },
+    { "term": "Kommunens velferdsoppgaver", "def": "Barnehage, grunnskole, helse- og omsorgstjenester, sosialhjelp." },
+    { "term": "Universalitet", "def": "Ytelser gjelder alle som fyller vilkårene." },
+    { "term": "Behovsprøving", "def": "Ytelser gis bare til dem som trenger dem." },
+    { "term": "Solidaritet", "def": "De som har mye, bidrar til dem som trenger det." },
+    { "term": "Omfordeling", "def": "Skatter og overføringer jevner ut forskjeller." },
+    { "term": "Arbeidslinja", "def": "Det skal lønne seg å arbeide." },
+    { "term": "Esping-Andersen", "def": "Delte velferdsstater inn i nordisk, liberal og konservativ modell." },
+    { "term": "Handlingsregelen", "def": "Regel for hvor mye av oljefondet som kan brukes." },
+    { "term": "Eldrebølgen", "def": "Økende andel eldre i befolkningen." },
+    { "term": "Velferdsteknologi", "def": "Teknologi som gir tryggere og mer selvstendig hverdag, særlig i omsorg." },
+    { "term": "Tillit", "def": "Grunnlaget for at folk betaler skatt og støtter velferdsstaten." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr universalitet i velferdsstaten?", "options": ["At bare de fattigste får hjelp", "At ytelser gjelder alle som fyller vilkårene", "At alt er gratis", "At staten eier alt"], "correct": 1, "explain": "For eksempel barnetrygd." },
+    { "id": "q02", "text": "Når ble folketrygden innført?", "options": ["1967", "1814", "1945", "2006"], "correct": 0, "explain": "Samler mange ordninger." },
+    { "id": "q03", "text": "Hvilket forvaltningsnivå har ansvar for videregående skole?", "options": ["Kommunen", "Staten", "Fylkeskommunen", "NAV"], "correct": 2, "explain": "Tre forvaltningsnivåer." },
+    { "id": "q04", "text": "Hva er arbeidslinja?", "options": ["At alle må jobbe i staten", "At pensjonsalderen er 50", "At trygd skal være høyere enn lønn", "At det skal lønne seg å arbeide"], "correct": 3, "explain": "Et sentralt prinsipp." },
+    { "id": "q05", "text": "Hva kjennetegner den nordiske velferdsmodellen?", "options": ["Universelle ordninger og stor offentlig sektor", "Bare private forsikringer", "Ingen skatt", "Ytelser bare gjennom kirken"], "correct": 0, "explain": "Esping-Andersen." },
+    { "id": "q06", "text": "Hva er eldrebølgen?", "options": ["Flere barn", "En økende andel eldre i befolkningen", "Flere innvandrere", "Lavere levealder"], "correct": 1, "explain": "Gir økte utgifter." },
+    { "id": "q07", "text": "Hva regulerer handlingsregelen?", "options": ["Skattesatsene", "Pensjonsalderen", "Hvor mye av oljefondet som kan brukes", "Lønningene"], "correct": 2, "explain": "Bruk av avkastningen." },
+    { "id": "q08", "text": "Hvilken velferdsmodell har mer behovsprøvde ytelser og vekt på markedet?", "options": ["Nordisk", "Konservativ", "Sosialdemokratisk", "Liberal"], "correct": 3, "explain": "Som i USA." },
+    { "id": "q09", "text": "Hvorfor er tillit viktig for velferdsstaten?", "options": ["Fordi folk da betaler skatt og støtter ordningene", "Fordi det gir lavere skatt", "Fordi det erstatter lover", "Fordi det ikke har betydning"], "correct": 0, "explain": "Modellen bygger på tillit." },
+    { "id": "q10", "text": "Hva er et foreslått tiltak for en bærekraftig velferdsstat?", "options": ["Færre i arbeid", "Flere i arbeid og lengre yrkeskarrierer", "Lavere pensjonsalder for alle", "Nedleggelse av NAV"], "correct": 1, "explain": "Øker inntektene og reduserer utgiftene." }
+  ],
+  "mindmap": {
+    "label": "Velferdsstaten",
+    "children": [
+      { "label": "Institusjoner", "children": [
+        { "label": "Folketrygden og NAV" },
+        { "label": "Helse og utdanning" }
+      ] },
+      { "label": "Styring", "children": [
+        { "label": "Stat" },
+        { "label": "Fylke" },
+        { "label": "Kommune" }
+      ] },
+      { "label": "Verdier", "children": [
+        { "label": "Universalitet og likhet" },
+        { "label": "Solidaritet og omfordeling" },
+        { "label": "Arbeidslinja og tillit" }
+      ] },
+      { "label": "Modeller", "children": [
+        { "label": "Nordisk" },
+        { "label": "Liberal" },
+        { "label": "Konservativ" }
+      ] },
+      { "label": "Framtid", "children": [
+        { "label": "Eldrebølge" },
+        { "label": "Arbeidskraft og oljeinntekter" },
+        { "label": "Løsninger" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Velferden finansieres hovedsakelig gjennom skatter og avgifter.", "correct": true, "explain": "I tillegg bruk av oljefondet." },
+      { "id": "m02", "type": "sant-usant", "text": "Kommunene har ansvar for sykehusene.", "correct": false, "explain": "Staten eier dem gjennom helseforetak." },
+      { "id": "m03", "type": "sant-usant", "text": "Velferdsteknologi kan være en del av løsningen på eldrebølgen.", "correct": true, "explain": "Gir mer selvstendig hverdag." },
+      { "id": "m04", "type": "sant-usant", "text": "Behovsprøving betyr at alle får ytelsen.", "correct": false, "explain": "Det betyr at bare de som trenger den, får den." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken ytelse gir folketrygden?", "options": ["Studielån", "Sykepenger", "Boliglån", "Aksjeutbytte"], "correct": 1, "explain": "Også pensjon og foreldrepenger." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket argument brukes for universelle ordninger?", "options": ["De gir bred oppslutning og tillit", "De er billigst", "De gir mindre skatt", "De krever ingen administrasjon"], "correct": 0, "explain": "Alle har nytte av dem." },
+      { "id": "m07", "type": "flervalg", "text": "Hvem vedtar statsbudsjettet?", "options": ["Regjeringen", "Kongen", "Stortinget", "NAV"], "correct": 2, "explain": "Etter forslag fra regjeringen." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

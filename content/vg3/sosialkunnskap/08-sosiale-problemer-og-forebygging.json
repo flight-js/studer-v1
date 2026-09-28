@@ -1,0 +1,80 @@
+{
+  "id": "sosiale-problemer-og-forebygging",
+  "fagId": "sosialkunnskap",
+  "trinnId": "vg3",
+  "name": "Sosiale problemer og forebyggende tiltak",
+  "intro": "Hva et sosialt problem er og hvordan noe blir definert som et problem, ulike typer sosiale problemer som rus, kriminalitet, fattigdom, ensomhet og radikalisering, forebygging på primært, sekundært og tertiært nivå, og hvordan du vurderer forebyggende tiltak.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Hva er et sosialt problem?\n\nEt **sosialt problem** er et forhold som **skader** mange mennesker eller samfunnet, og som man mener at samfunnet bør gjøre noe med.\n\n- Et **objektivt** syn legger vekt på at problemet kan **måles** – for eksempel antall rusavhengige.\n- Et **konstruktivistisk** syn legger vekt på at noe blir et problem når det **defineres** som det – av politikere, medier eller interessegrupper. **Røyking** var lenge vanlig og akseptert, men ble etter hvert definert som et stort **folkehelseproblem**.\n\n## Typer sosiale problemer\n\n- **Fattigdom** og **lavinntekt**\n- **Rusproblemer** – alkohol, narkotika og **spill**avhengighet\n- **Kriminalitet**, blant annet **ungdomskriminalitet** og **gjengkriminalitet**\n- **Psykiske helseproblemer** og **ensomhet**\n- **Mobbing** og **netthets**\n- **Vold i nære relasjoner**\n- **Frafall** fra skolen og **utenforskap**\n- **Radikalisering** og **ekstremisme**\n- **Bostedsløshet**\n\nMange problemer henger **sammen** og **forsterker** hverandre. En ungdom som faller ut av skolen, kan få svakere nettverk, begynne med rus og havne i kriminelle miljøer.\n\n## Risiko- og beskyttende faktorer\n\n**Risikofaktorer** øker sannsynligheten for problemer – for eksempel **omsorgssvikt**, **mobbing**, **rusmiljø** og **fattigdom**. **Beskyttende faktorer** reduserer den – for eksempel en **trygg voksen**, **gode venner**, **mestring** i skolen og **meningsfulle** fritidsaktiviteter.\n\n## Tre nivåer av forebygging\n\n- **Primærforebygging** – eller universell: hindre at problemer **oppstår**. Eksempler: **rusundervisning**, tiltak mot **mobbing**, gratis **fritidstilbud** og **aldersgrenser** for alkohol.\n- **Sekundærforebygging** – eller selektiv og indikert: **fange opp** tidlig og **stoppe** utviklingen. Eksempler: **utekontakter** som oppsøker ungdom, **oppfølgingstjenesten** for elever som faller ut, og **bekymringssamtaler** med politiet.\n- **Tertiærforebygging**: hindre at problemet **forverres** eller **gjentar seg**. Eksempler: **rusbehandling**, **ungdomsoppfølging** i konfliktrådet og **tilbakeføring** etter soning.\n\n## Samarbeid\n\nForebygging krever **samarbeid** mellom skole, barnevern, helsetjeneste, politi, NAV, frivillige organisasjoner og familie. **SLT-modellen** – samordning av lokale **kriminalitetsforebyggende** tiltak – brukes i mange kommuner.\n\n## Vurdere tiltak\n\nNår du vurderer et forebyggende tiltak, kan du spørre:\n\n1. **Virker** det? Finnes det **forskning** eller **evaluering**?\n2. Når det **riktige** målgruppen?\n3. Hva **koster** det sammenlignet med kostnadene ved problemet?\n4. Har det **bivirkninger** – for eksempel **stigmatisering** av en gruppe?\n5. Tar det tak i **årsakene** eller bare **symptomene**?\n\nEt eksempel på et tiltak som kan ha **uønskede** virkninger, er skremselspropaganda om rus. Forskning tyder på at det virker **dårlig** – mens tiltak som styrker **sosial kompetanse** og **mestring**, ofte gir bedre resultater.\n\n## Hvorfor forebygge?\n\n- Det er **menneskelig**: Man slipper lidelse.\n- Det er **lønnsomt**: Tidlig innsats koster ofte mye mindre enn behandling, trygd og fengsel.\n- Det styrker **tillit** og **fellesskap**.\n\n## Drøfting\n\nHvem har **ansvaret** for å forebygge – familien, skolen, staten eller den enkelte? Og hvor langt kan det offentlige gå i å **gripe inn** i folks liv for å forebygge, uten å krenke **privatlivet**?",
+  "flashcards": [
+    { "term": "Sosialt problem", "def": "Forhold som skader mange og som samfunnet bør gjøre noe med." },
+    { "term": "Objektivt syn", "def": "Problemet kan måles." },
+    { "term": "Konstruktivistisk syn", "def": "Noe blir et problem når det defineres som det." },
+    { "term": "Risikofaktor", "def": "Øker sannsynligheten for problemer." },
+    { "term": "Beskyttende faktor", "def": "Reduserer sannsynligheten for problemer." },
+    { "term": "Primærforebygging", "def": "Hindre at problemer oppstår." },
+    { "term": "Sekundærforebygging", "def": "Fange opp tidlig og stoppe utviklingen." },
+    { "term": "Tertiærforebygging", "def": "Hindre at problemet forverres eller gjentar seg." },
+    { "term": "Utekontakt", "def": "Oppsøker ungdom der de er." },
+    { "term": "Oppfølgingstjenesten", "def": "Følger opp unge som ikke er i skole eller arbeid." },
+    { "term": "Bekymringssamtale", "def": "Samtale mellom politi, ungdom og foresatte." },
+    { "term": "SLT-modellen", "def": "Samordning av lokale kriminalitetsforebyggende tiltak." },
+    { "term": "Stigmatisering", "def": "At en gruppe stemples negativt." },
+    { "term": "Evaluering", "def": "Undersøkelse av om et tiltak virker." },
+    { "term": "Radikalisering", "def": "Prosess der noen får ekstreme holdninger som kan føre til vold." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva betyr et konstruktivistisk syn på sosiale problemer?", "options": ["At problemer bare kan måles", "At noe blir et problem når det defineres som det", "At problemer ikke finnes", "At bare staten definerer problemer"], "correct": 1, "explain": "For eksempel røyking." },
+    { "id": "q02", "text": "Hva er primærforebygging?", "options": ["Å hindre at problemer oppstår", "Rusbehandling", "Soning", "Å fange opp tidlig"], "correct": 0, "explain": "Universelle tiltak." },
+    { "id": "q03", "text": "Hvilket tiltak er sekundærforebygging?", "options": ["Rusundervisning for alle", "Aldersgrenser", "Utekontakter som oppsøker ungdom", "Tilbakeføring etter soning"], "correct": 2, "explain": "Fanger opp tidlig." },
+    { "id": "q04", "text": "Hva er tertiærforebygging?", "options": ["Tiltak for alle elever", "Aldersgrenser", "Kampanjer", "Å hindre at problemet forverres eller gjentar seg"], "correct": 3, "explain": "For eksempel rusbehandling." },
+    { "id": "q05", "text": "Hva er SLT-modellen?", "options": ["Samordning av lokale kriminalitetsforebyggende tiltak", "En skole", "En type straff", "En diagnose"], "correct": 0, "explain": "Brukes i mange kommuner." },
+    { "id": "q06", "text": "Hvilken beskyttende faktor er viktig for ungdom?", "options": ["Rusmiljø", "En trygg voksen", "Mobbing", "Fattigdom"], "correct": 1, "explain": "Også venner og mestring." },
+    { "id": "q07", "text": "Hvilket spørsmål er viktig når man vurderer et tiltak?", "options": ["Om det er populært", "Om det er nytt", "Om det virker ifølge forskning eller evaluering", "Om det er dyrt"], "correct": 2, "explain": "Også kostnad og bivirkninger." },
+    { "id": "q08", "text": "Hvorfor kan forebygging være lønnsomt?", "options": ["Fordi det er gratis", "Fordi det ikke trengs ansatte", "Fordi problemer forsvinner av seg selv", "Fordi tidlig innsats ofte koster mindre enn behandling og fengsel"], "correct": 3, "explain": "Og sparer lidelse." },
+    { "id": "q09", "text": "Hva tyder forskning på om skremselspropaganda om rus?", "options": ["At den virker dårlig", "At den er det beste tiltaket", "At den alltid virker", "At den er ulovlig"], "correct": 0, "explain": "Tiltak som styrker mestring virker ofte bedre." },
+    { "id": "q10", "text": "Hvilken bivirkning kan et tiltak rettet mot en bestemt gruppe ha?", "options": ["Bedre helse", "Stigmatisering", "Lavere kostnader", "Mer tillit"], "correct": 1, "explain": "Gruppen kan bli stemplet." }
+  ],
+  "mindmap": {
+    "label": "Sosiale problemer",
+    "children": [
+      { "label": "Definisjon", "children": [
+        { "label": "Objektivt syn" },
+        { "label": "Konstruktivistisk syn" }
+      ] },
+      { "label": "Typer", "children": [
+        { "label": "Fattigdom og rus" },
+        { "label": "Kriminalitet og vold" },
+        { "label": "Ensomhet og radikalisering" }
+      ] },
+      { "label": "Faktorer", "children": [
+        { "label": "Risiko" },
+        { "label": "Beskyttelse" }
+      ] },
+      { "label": "Forebygging", "children": [
+        { "label": "Primær" },
+        { "label": "Sekundær" },
+        { "label": "Tertiær" }
+      ] },
+      { "label": "Vurdering", "children": [
+        { "label": "Virkning og kostnad" },
+        { "label": "Stigmatisering" },
+        { "label": "Samarbeid" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Sosiale problemer kan henge sammen og forsterke hverandre.", "correct": true, "explain": "For eksempel frafall, rus og kriminalitet." },
+      { "id": "m02", "type": "sant-usant", "text": "Forebygging er bare politiets ansvar.", "correct": false, "explain": "Det krever samarbeid mellom mange." },
+      { "id": "m03", "type": "sant-usant", "text": "Aldersgrenser for alkohol er et eksempel på primærforebygging.", "correct": true, "explain": "Hindrer at problemer oppstår." },
+      { "id": "m04", "type": "sant-usant", "text": "Et tiltak som bare behandler symptomene, tar alltid tak i årsakene.", "correct": false, "explain": "Symptomer og årsaker er ulike ting." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket eksempel viser at noe kan bli definert som et problem over tid?", "options": ["Tyngdekraften", "Røyking", "Solnedgang", "Regn"], "correct": 1, "explain": "Fra akseptert til folkehelseproblem." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilket tiltak er tertiærforebygging?", "options": ["Tilbakeføring etter soning", "Gratis fritidstilbud", "Mobbeprogram", "Aldersgrenser"], "correct": 0, "explain": "Hindrer tilbakefall." },
+      { "id": "m07", "type": "flervalg", "text": "Hva er et etisk dilemma ved forebygging?", "options": ["At det er for billig", "At det er for populært", "Hvor langt det offentlige kan gripe inn i folks liv", "At ingen trenger hjelp"], "correct": 2, "explain": "Hensyn til privatliv." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "behov-i-barne-og-ungdomsarene",
+  "fagId": "sosialkunnskap",
+  "trinnId": "vg3",
+  "name": "Behov i barne- og ungdomsårene",
+  "intro": "Sentrale behov i barne- og ungdomsårene – fysiske behov, trygghet, tilknytning, tilhørighet, anerkjennelse, mestring og selvbestemmelse – med Maslows behovspyramide og selvbestemmelsesteorien, og hvordan behovsdekning henger sammen med velferdsordninger og livsmestring.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Grunnleggende behov\n\nBarn og unge har **behov** som må dekkes for at de skal **utvikle seg** og ha det godt:\n\n- **Fysiske** behov: mat, søvn, bolig, klær og helsehjelp\n- **Trygghet**: forutsigbarhet og beskyttelse mot vold og overgrep\n- **Tilknytning** og **kjærlighet**: nære, stabile relasjoner til omsorgspersoner\n- **Tilhørighet**: venner og fellesskap\n- **Anerkjennelse**: å bli sett, verdsatt og tatt på alvor\n- **Mestring**: å oppleve at man **får til** noe\n- **Selvbestemmelse**: å få medvirke og ta egne valg, gradvis mer med alderen\n\n## Maslows behovspyramide\n\n**Abraham Maslow** ordnet behovene i en **pyramide**: fysiologiske behov nederst, deretter **trygghet**, **kjærlighet og tilhørighet**, **anerkjennelse** og øverst **selvrealisering**. Tanken er at de grunnleggende behovene må være dekket før høyere behov blir viktige. Modellen er **kritisert** for å være for **rigid** – mennesker kan søke mening og fellesskap selv når grunnleggende behov ikke er dekket – men den er nyttig for å **tenke** om behov.\n\n## Selvbestemmelsesteorien\n\nPsykologene **Edward Deci** og **Richard Ryan** peker på tre grunnleggende **psykologiske** behov:\n\n- **Autonomi**: å oppleve at man selv styrer handlingene sine\n- **Kompetanse**: å mestre oppgaver\n- **Tilhørighet**: å være knyttet til andre\n\nNår disse behovene dekkes, øker **motivasjon**, **trivsel** og **psykisk helse**.\n\n## Ungdomstiden\n\nI ungdomstiden blir **jevnaldrende** viktigere, behovet for **selvstendighet** øker, og **identitet** utvikles. Samtidig trenger ungdom fortsatt **trygge voksne**. Hjernen er i **utvikling**, særlig områdene for impulskontroll og planlegging.\n\n## Når behov ikke dekkes\n\n**Omsorgssvikt**, **vold**, **rus** eller alvorlig **psykisk sykdom** hos foreldre, **fattigdom** og **mobbing** kan føre til at behov ikke blir dekket. Forskning viser at slike **belastninger** i barndommen henger sammen med økt risiko for problemer med **helse**, **skole** og **relasjoner** senere. Men mange klarer seg godt takket være **beskyttende faktorer** – ofte **én trygg voksen**.\n\n## Velferdsordninger\n\nVelferdsstaten har mange ordninger som skal bidra til at barns behov blir dekket:\n\n- **Barnetrygd** og **foreldrepenger**\n- **Barnehage** med rett til plass\n- **Gratis skole**, **SFO** og **skolehelsetjeneste** med helsesykepleier\n- **Helsestasjon** og **tannhelsetjeneste**\n- **Barnevern** når foreldrene ikke gir forsvarlig omsorg\n- **Fritidskort** og tilskudd til fritidsaktiviteter\n- **Pedagogisk-psykologisk tjeneste (PPT)** og spesialundervisning\n\n## Behov, velferd og livsmestring\n\n**Livsmestring** er å kunne håndtere **utfordringer**, ta **ansvar** for eget liv og ta **gode valg**. Det er et tverrfaglig tema i skolen.\n\nSammenhengen kan beskrives slik:\n\n1. Når **grunnleggende behov** dekkes, får barn **trygghet** og **overskudd**.\n2. **Velferdsordninger** bidrar til at behovene dekkes – også når familien ikke klarer alt selv.\n3. Trygghet, mestring og tilhørighet gir grunnlag for **livsmestring** og **psykisk helse**.\n4. God livsmestring gir bedre muligheter for **utdanning**, **arbeid** og **deltakelse** – som igjen styrker **velferden**.\n\n## Vurdering\n\nVelferdsordningene kan ikke erstatte **omsorg** og **relasjoner**, men de kan **utjevne** forskjeller og gi alle barn et bedre utgangspunkt. En viktig diskusjon er om ordningene når de barna som trenger dem **mest**, og om **tidlig innsats** prioriteres høyt nok.",
+  "flashcards": [
+    { "term": "Fysiske behov", "def": "Mat, søvn, bolig, klær og helsehjelp." },
+    { "term": "Trygghet", "def": "Forutsigbarhet og beskyttelse mot vold og overgrep." },
+    { "term": "Tilknytning", "def": "Nære, stabile relasjoner til omsorgspersoner." },
+    { "term": "Anerkjennelse", "def": "Å bli sett, verdsatt og tatt på alvor." },
+    { "term": "Mestring", "def": "Å oppleve at man får til noe." },
+    { "term": "Maslows behovspyramide", "def": "Fysiologiske behov, trygghet, tilhørighet, anerkjennelse, selvrealisering." },
+    { "term": "Selvrealisering", "def": "Toppen av Maslows pyramide – utvikle sitt potensial." },
+    { "term": "Selvbestemmelsesteorien", "def": "Autonomi, kompetanse og tilhørighet – Deci og Ryan." },
+    { "term": "Autonomi", "def": "Å oppleve at man selv styrer handlingene sine." },
+    { "term": "Omsorgssvikt", "def": "At barnets behov ikke blir dekket av omsorgspersonene." },
+    { "term": "Livsmestring", "def": "Å håndtere utfordringer og ta gode valg." },
+    { "term": "Barnetrygd", "def": "Universell ytelse til familier med barn." },
+    { "term": "Skolehelsetjenesten", "def": "Helsesykepleier og helsetilbud i skolen." },
+    { "term": "PPT", "def": "Pedagogisk-psykologisk tjeneste." },
+    { "term": "Én trygg voksen", "def": "En viktig beskyttende faktor." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er de tre behovene i selvbestemmelsesteorien?", "options": ["Mat, søvn og bolig", "Autonomi, kompetanse og tilhørighet", "Trygghet, penger og status", "Arbeid, skole og fritid"], "correct": 1, "explain": "Deci og Ryan." },
+    { "id": "q02", "text": "Hva ligger nederst i Maslows behovspyramide?", "options": ["Fysiologiske behov", "Selvrealisering", "Anerkjennelse", "Tilhørighet"], "correct": 0, "explain": "Mat, drikke og søvn." },
+    { "id": "q03", "text": "Hva er en vanlig kritikk av Maslows modell?", "options": ["At den er for ny", "At den bare gjelder dyr", "At den er for rigid", "At den handler om økonomi"], "correct": 2, "explain": "Behov dekkes ikke alltid i rekkefølge." },
+    { "id": "q04", "text": "Hvilken velferdsordning griper inn når foreldrene ikke gir forsvarlig omsorg?", "options": ["Lånekassen", "NAV pensjon", "Skatteetaten", "Barnevernet"], "correct": 3, "explain": "Barnets beste." },
+    { "id": "q05", "text": "Hva er livsmestring?", "options": ["Å kunne håndtere utfordringer og ta gode valg", "Å vinne konkurranser", "Å ha mye penger", "Å aldri ha problemer"], "correct": 0, "explain": "Tverrfaglig tema i skolen." },
+    { "id": "q06", "text": "Hva blir viktigere i ungdomstiden?", "options": ["Bare foreldre", "Jevnaldrende og selvstendighet", "Barnehage", "Søvnbehovet forsvinner"], "correct": 1, "explain": "Men ungdom trenger fortsatt trygge voksne." },
+    { "id": "q07", "text": "Hva er autonomi?", "options": ["Å være alene", "Å bestemme over andre", "Å oppleve at man selv styrer handlingene sine", "Å ha egen bil"], "correct": 2, "explain": "Selvbestemmelse." },
+    { "id": "q08", "text": "Hvorfor klarer mange barn seg godt tross belastninger?", "options": ["Fordi belastninger ikke betyr noe", "Fordi de har mye penger", "Fordi de glemmer alt", "På grunn av beskyttende faktorer som en trygg voksen"], "correct": 3, "explain": "Resiliens." },
+    { "id": "q09", "text": "Hvordan henger velferdsordninger sammen med livsmestring?", "options": ["De bidrar til at behov dekkes, som gir grunnlag for mestring", "De har ingen sammenheng", "De erstatter all omsorg", "De hindrer mestring"], "correct": 0, "explain": "Trygghet gir overskudd." },
+    { "id": "q10", "text": "Hva er skolehelsetjenesten?", "options": ["En skatteordning", "Helsesykepleier og helsetilbud i skolen", "En type lærer", "En eksamen"], "correct": 1, "explain": "Lavterskel hjelp." }
+  ],
+  "mindmap": {
+    "label": "Behov hos barn og unge",
+    "children": [
+      { "label": "Behov", "children": [
+        { "label": "Fysiske behov og trygghet" },
+        { "label": "Tilknytning og tilhørighet" },
+        { "label": "Anerkjennelse og mestring" }
+      ] },
+      { "label": "Teorier", "children": [
+        { "label": "Maslow" },
+        { "label": "Selvbestemmelsesteorien" }
+      ] },
+      { "label": "Ungdomstiden", "children": [
+        { "label": "Jevnaldrende" },
+        { "label": "Identitet" }
+      ] },
+      { "label": "Velferdsordninger", "children": [
+        { "label": "Barnetrygd og barnehage" },
+        { "label": "Skolehelsetjeneste og PPT" },
+        { "label": "Barnevern" }
+      ] },
+      { "label": "Livsmestring", "children": [
+        { "label": "Trygghet gir overskudd" },
+        { "label": "Tidlig innsats" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Belastninger i barndommen henger sammen med økt risiko for problemer senere.", "correct": true, "explain": "Men beskyttende faktorer betyr mye." },
+      { "id": "m02", "type": "sant-usant", "text": "Velferdsordninger kan fullt ut erstatte omsorg og relasjoner.", "correct": false, "explain": "De kan utjevne forskjeller, men ikke erstatte omsorg." },
+      { "id": "m03", "type": "sant-usant", "text": "Behovet for selvbestemmelse øker gradvis med alderen.", "correct": true, "explain": "Barn får mer medvirkning." },
+      { "id": "m04", "type": "sant-usant", "text": "Ungdom trenger ikke lenger trygge voksne.", "correct": false, "explain": "De trenger fortsatt trygge voksne." },
+      { "id": "m05", "type": "flervalg", "text": "Hva ligger øverst i Maslows pyramide?", "options": ["Trygghet", "Selvrealisering", "Tilhørighet", "Mat"], "correct": 1, "explain": "Å utvikle sitt potensial." },
+      { "id": "m06", "type": "flervalg", "text": "Hvilken ordning gir tilskudd til fritidsaktiviteter?", "options": ["Fritidskort", "Studielån", "Pensjon", "Sykepenger"], "correct": 0, "explain": "Gir alle barn mulighet til å delta." },
+      { "id": "m07", "type": "flervalg", "text": "Hva kan føre til at barns behov ikke dekkes?", "options": ["Gode venner", "Trygg skole", "Omsorgssvikt, vold eller fattigdom", "Fritidsaktiviteter"], "correct": 2, "explain": "Risikofaktorer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
