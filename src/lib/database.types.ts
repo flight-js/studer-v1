@@ -22,15 +22,36 @@ export type Database = {
           antall: number
           bruker_id: string
           dato: string
+          minutt_antall: number
+          minutt_start: string
         }
         Insert: {
           antall?: number
           bruker_id: string
           dato?: string
+          minutt_antall?: number
+          minutt_start?: string
         }
         Update: {
           antall?: number
           bruker_id?: string
+          dato?: string
+          minutt_antall?: number
+          minutt_start?: string
+        }
+        Relationships: []
+      }
+      ai_bruk_totalt: {
+        Row: {
+          antall: number
+          dato: string
+        }
+        Insert: {
+          antall?: number
+          dato: string
+        }
+        Update: {
+          antall?: number
           dato?: string
         }
         Relationships: []
@@ -346,8 +367,13 @@ export type Database = {
     Functions: {
       ai_angre_melding: { Args: { p_bruker_id: string }; Returns: undefined }
       ai_registrer_melding: {
-        Args: { p_bruker_id: string; p_grense: number }
-        Returns: number
+        Args: {
+          p_bruker_id: string
+          p_dagsgrense: number
+          p_global_grense: number
+          p_minuttgrense: number
+        }
+        Returns: string
       }
       lagre_resultat: {
         Args: {

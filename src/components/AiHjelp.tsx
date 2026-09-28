@@ -8,7 +8,8 @@ import { temaHref } from "@/lib/pensum";
 import { supabase, supabaseKey, supabaseUrl } from "@/lib/supabase";
 
 // Chat med AI-hjelpen i et tema. Svaret strømmes fra edge-funksjonen «chat»
-// (supabase/functions/chat), som har API-nøkkelen og holder dagsgrensen.
+// (supabase/functions/chat), som har API-nøkkelen og holder bruksgrensene.
+// Grensene er skjult: eleven får aldri se tall, bare en vennlig melding.
 // Samtalen finnes bare her i nettleseren og forsvinner når siden lukkes.
 
 type Melding = { rolle: "bruker" | "assistent"; tekst: string };
@@ -33,7 +34,6 @@ export function AiHjelp({
   const [utkast, setUtkast] = useState("");
   const [skriver, setSkriver] = useState(false);
   const [feil, setFeil] = useState<string | null>(null);
-  const [igjen, setIgjen] = useState<number | null>(null);
   const liste = useRef<HTMLDivElement>(null);
   const felt = useRef<HTMLTextAreaElement>(null);
   const avbryt = useRef<AbortController | null>(null);
@@ -77,8 +77,6 @@ export function AiHjelp({
       });
       if (!res.ok || !res.body) throw new Chatfeil(await feiltekst(res));
 
-      const igjenHode = res.headers.get("x-ai-igjen");
-      if (igjenHode !== null) setIgjen(Number(igjenHode));
 
       const leser = res.body.getReader();
       const dekoder = new TextDecoder();
@@ -155,7 +153,7 @@ export function AiHjelp({
             className="px-5 flex flex-col gap-3 max-h-[min(26rem,55vh)] overflow-y-auto overscroll-contain"
           >
             <p className="self-start max-w-[92%] bg-sunken rounded-2xl rounded-bl-md px-4 py-3 text-sm leading-relaxed text-ink-soft">
-              Hva lurer du på i {temaNavn}? Jeg svarer ut fra pensumet i {fagNavn}.
+              Hva lurer du på i {temaNavn}? Jeg svarer på spørsmål om {fagNavn}, ut fra pensumet.
             </p>
             {meldinger.length === 0 && (
               <div className="flex flex-wrap gap-2">
@@ -210,7 +208,7 @@ export function AiHjelp({
                 ref={felt}
                 rows={1}
                 value={utkast}
-                maxLength={2000}
+                maxLength={1500}
                 onChange={(e) => setUtkast(e.target.value)}
                 onKeyDown={(e) => {
                   if (e.key === "Enter" && !e.shiftKey) {
@@ -232,7 +230,6 @@ export function AiHjelp({
             </form>
             <p className="text-[11px] leading-snug text-faint">
               AI kan ta feil – sjekk viktige ting i sammendraget. Ikke del personlige opplysninger.
-              {igjen !== null && ` ${igjen} spørsmål igjen i dag.`}
             </p>
           </div>
         </>
@@ -244,10 +241,13 @@ export function AiHjelp({
 class Chatfeil extends Error {}
 
 async function feiltekst(res: Response): Promise<string> {
-  const body = (await res.json().catch(() => ({}))) as { feil?: string; grense?: number };
+  const body = (await res.json().catch(() => ({}))) as { feil?: string; grunn?: string };
   if (res.status === 401) return "Du må logge inn på nytt for å bruke AI-hjelpen.";
-  if (res.status === 429)
-    return `Du har brukt opp dagens ${body.grense ?? ""} spørsmål. Prøv igjen i morgen.`.replace("  ", " ");
+  if (res.status === 429) {
+    if (body.grunn === "minutt") return "Du sender spørsmål veldig raskt. Vent litt før du spør igjen.";
+    if (body.grunn === "global") return "AI-hjelpen har mye pågang akkurat nå. Prøv igjen senere.";
+    return "Du har brukt AI-hjelpen mye i dag. Ta en pause og prøv igjen i morgen.";
+  }
   if (body.feil === "ikke-satt-opp") return "AI-hjelpen er ikke slått på ennå. Prøv igjen senere.";
   if (res.status === 404) return "Fant ikke temaet. Last inn siden på nytt.";
   return "AI-hjelpen svarer ikke akkurat nå. Prøv igjen om litt.";

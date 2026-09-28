@@ -1,42 +1,60 @@
 // AI-hjelp i temasiden. Eleven sender samtalen og tema-ID-en; funksjonen
 // henter temaets sammendrag og begreper (med elevens egne rettigheter),
-// sjekker dagens meldingsgrense og strømmer svaret fra språkmodellen tilbake
-// som ren tekst.
+// sjekker de skjulte bruksgrensene, lar temavakten avvise spørsmål som ikke
+// hører til faget, og strømmer svaret fra språkmodellen tilbake som ren tekst.
 //
 // API-nøkkelen til språkmodellen ligger bare her, som hemmelighet i Supabase
 // (Edge Functions → Secrets). Samtalene lagres ikke – bare antall meldinger
-// per dag (tabellen ai_bruk).
+// (tabellene ai_bruk og ai_bruk_totalt).
 //
 // Hemmeligheter og innstillinger:
 //   AI_API_KEY            påkrevd – nøkkelen fra OpenAI (eller en annen leverandør)
 //   AI_BASE_URL           standard https://api.openai.com/v1 (EU: https://eu.api.openai.com/v1)
 //   AI_MODELL             standard gpt-6-luna
 //   AI_RESONNERING        standard low (none | low | medium | high) – bare OpenAI
-//   AI_GRENSE_GRATIS      meldinger per dag uten abonnement, standard 15 (0 = stengt)
-//   AI_GRENSE_ABONNEMENT  meldinger per dag med abonnement, standard 150
+//   AI_GRENSE_GRATIS      meldinger per dag uten abonnement, standard 10 (0 = stengt)
+//   AI_GRENSE_ABONNEMENT  meldinger per dag med abonnement, standard 60
+//   AI_GRENSE_MINUTT      meldinger per minutt per elev, standard 5
+//   AI_GRENSE_TOTALT      meldinger per dag for hele appen, standard 3000
+// Grensene vises aldri for eleven.
 
 import { createClient } from "npm:@supabase/supabase-js@2";
-import { KRISESVAR, lagSystemprompt } from "./prompt.ts";
+import {
+  avvisning,
+  type Kategori,
+  KRISESVAR,
+  lagSystemprompt,
+  lagTemavakt,
+  lesKategori,
+  type Melding,
+  type Temakontekst,
+  TEMAVAKT_FORMAT,
+} from "./prompt.ts";
 
 const cors = {
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Access-Control-Expose-Headers": "x-ai-igjen",
 };
 
 const env = (navn: string, standard = "") => Deno.env.get(navn)?.trim() || standard;
+const tall = (navn: string, standard: number) => {
+  const v = Number(env(navn, String(standard)));
+  return Number.isFinite(v) ? v : standard;
+};
 
 const API_NOKKEL = env("AI_API_KEY");
 const BASE_URL = env("AI_BASE_URL", "https://api.openai.com/v1").replace(/\/+$/, "");
 const MODELL = env("AI_MODELL", "gpt-6-luna");
 const RESONNERING = env("AI_RESONNERING", "low");
-const GRENSE_GRATIS = Number(env("AI_GRENSE_GRATIS", "15"));
-const GRENSE_ABONNEMENT = Number(env("AI_GRENSE_ABONNEMENT", "150"));
+const GRENSE_GRATIS = tall("AI_GRENSE_GRATIS", 10);
+const GRENSE_ABONNEMENT = tall("AI_GRENSE_ABONNEMENT", 60);
+const GRENSE_MINUTT = tall("AI_GRENSE_MINUTT", 5);
+const GRENSE_TOTALT = tall("AI_GRENSE_TOTALT", 3000);
 const ER_OPENAI = new URL(BASE_URL).hostname.endsWith("openai.com");
 
-const MAKS_MELDINGER = 12; // så mye av samtalen som sendes med
-const MAKS_TEGN = 2000; // per melding
+const MAKS_MELDINGER = 10; // så mye av samtalen som sendes med
+const MAKS_TEGN = 1500; // per melding
 
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 
@@ -53,9 +71,9 @@ function svar(status: number, body: Record<string, unknown>) {
   });
 }
 
-function tekststrom(tekst: ReadableStream<Uint8Array> | string, ekstra: Record<string, string> = {}) {
+function tekststrom(tekst: ReadableStream<Uint8Array> | string) {
   return new Response(tekst, {
-    headers: { ...cors, ...ekstra, "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store" },
+    headers: { ...cors, "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store" },
   });
 }
 
@@ -63,8 +81,6 @@ async function sha256(tekst: string) {
   const hash = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(tekst));
   return Array.from(new Uint8Array(hash), (b) => b.toString(16).padStart(2, "0")).join("");
 }
-
-type Melding = { rolle: "bruker" | "assistent"; tekst: string };
 
 function lesMeldinger(verdi: unknown): Melding[] | null {
   if (!Array.isArray(verdi)) return null;
@@ -80,23 +96,64 @@ function lesMeldinger(verdi: unknown): Melding[] | null {
   return meldinger;
 }
 
+function kallAi(sti: string, body: Record<string, unknown>, signal?: AbortSignal) {
+  return fetch(`${BASE_URL}${sti}`, {
+    method: "POST",
+    headers: { Authorization: `Bearer ${API_NOKKEL}`, "Content-Type": "application/json" },
+    body: JSON.stringify(body),
+    signal,
+  });
+}
+
 // OpenAIs moderering er gratis. Vi bruker den bare til å fange opp at eleven
 // kan være i fare – da får hen hjelpenumrene med en gang i stedet for et
 // modellsvar. Feiler kallet, går vi videre som vanlig.
 async function trengerKrisesvar(tekst: string): Promise<boolean> {
   if (!ER_OPENAI) return false;
   try {
-    const res = await fetch(`${BASE_URL}/moderations`, {
-      method: "POST",
-      headers: { Authorization: `Bearer ${API_NOKKEL}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ model: "omni-moderation-latest", input: tekst }),
-      signal: AbortSignal.timeout(4000),
-    });
+    const res = await kallAi(
+      "/moderations",
+      { model: "omni-moderation-latest", input: tekst },
+      AbortSignal.timeout(4000)
+    );
     if (!res.ok) return false;
     const kategorier = (await res.json()).results?.[0]?.categories ?? {};
     return !!(kategorier["self-harm/intent"] || kategorier["self-harm/instructions"]);
   } catch {
     return false;
+  }
+}
+
+// Temavakten plasserer spørsmålet i en kategori. Feiler den, slipper vi
+// spørsmålet gjennom – instruksjonene til hovedmodellen avviser det da selv.
+async function temavakt(t: Temakontekst, meldinger: Melding[], sikkerhetsId: string): Promise<Kategori | null> {
+  const { system, bruker } = lagTemavakt(t, meldinger);
+  const body: Record<string, unknown> = {
+    model: MODELL,
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: bruker },
+    ],
+  };
+  if (ER_OPENAI) {
+    body.max_completion_tokens = 50;
+    body.reasoning_effort = "none";
+    body.response_format = TEMAVAKT_FORMAT;
+    body.store = false;
+    body.safety_identifier = sikkerhetsId;
+  } else {
+    body.max_tokens = 20;
+  }
+  try {
+    const res = await kallAi("/chat/completions", body, AbortSignal.timeout(8000));
+    if (!res.ok) {
+      console.error("Temavakten svarte", res.status, (await res.text()).slice(0, 300));
+      return null;
+    }
+    return lesKategori((await res.json()).choices?.[0]?.message?.content ?? "");
+  } catch (e) {
+    console.error("Temavakten feilet", String(e));
+    return null;
   }
 }
 
@@ -171,7 +228,7 @@ Deno.serve(async (req) => {
   if (!tema || !tema.tema_innhold) return svar(404, { feil: "fant-ikke-tema" });
 
   const { data: profil } = await bruker.from("profiles").select("abonnement").eq("id", brukerId).maybeSingle();
-  const grense =
+  const dagsgrense =
     profil?.abonnement && profil.abonnement !== "gratis" ? GRENSE_ABONNEMENT : GRENSE_GRATIS;
 
   const sisteSporsmal = meldinger[meldinger.length - 1].tekst;
@@ -181,64 +238,89 @@ Deno.serve(async (req) => {
   const admin = createClient(SUPABASE_URL, supabaseNokkel("SECRET"), {
     auth: { persistSession: false, autoRefreshToken: false },
   });
-  const { data: antall, error: tellefeil } = await admin.rpc("ai_registrer_melding", {
+  const { data: utfall, error: tellefeil } = await admin.rpc("ai_registrer_melding", {
     p_bruker_id: brukerId,
-    p_grense: grense,
+    p_dagsgrense: dagsgrense,
+    p_minuttgrense: GRENSE_MINUTT,
+    p_global_grense: GRENSE_TOTALT,
   });
   if (tellefeil) {
     console.error("ai_registrer_melding", tellefeil.message);
     return svar(500, { feil: "server" });
   }
-  if (antall === -1) return svar(429, { feil: "grense", grense });
+  if (utfall !== "ok") return svar(429, { feil: "grense", grunn: utfall });
 
   const fag = tema.fag as unknown as { navn: string; trinn: { navn: string } };
   const innhold = tema.tema_innhold as unknown as { sammendrag: string };
-  const system = lagSystemprompt({
+  const kontekst: Temakontekst = {
     trinn: fag.trinn.navn,
     fag: fag.navn,
     tema: tema.navn,
     intro: tema.intro,
     sammendrag: innhold.sammendrag,
     begreper: [...(tema.flashcards ?? [])].sort((a, b) => a.sortering - b.sortering),
-  });
+  };
+  const sikkerhetsId = await sha256(brukerId);
 
   const foresporsel: Record<string, unknown> = {
     model: MODELL,
     stream: true,
     messages: [
-      { role: "system", content: system },
+      { role: "system", content: lagSystemprompt(kontekst) },
       ...meldinger.map((m) => ({ role: m.rolle === "bruker" ? "user" : "assistant", content: m.tekst })),
     ],
   };
   if (ER_OPENAI) {
-    foresporsel.max_completion_tokens = 2000;
+    foresporsel.max_completion_tokens = 1500;
     foresporsel.stream_options = { include_usage: true };
     foresporsel.store = false;
     // Hashet bruker-ID: bryter én elev OpenAIs regler, stenges bare den eleven.
-    foresporsel.safety_identifier = await sha256(brukerId);
+    foresporsel.safety_identifier = sikkerhetsId;
     if (RESONNERING) foresporsel.reasoning_effort = RESONNERING;
   } else {
-    foresporsel.max_tokens = 1200;
+    foresporsel.max_tokens = 1000;
   }
 
-  let modellsvar: Response;
-  try {
-    modellsvar = await fetch(`${BASE_URL}/chat/completions`, {
-      method: "POST",
-      headers: { Authorization: `Bearer ${API_NOKKEL}`, "Content-Type": "application/json" },
-      body: JSON.stringify(foresporsel),
-      signal: AbortSignal.timeout(60_000),
-    });
-  } catch (e) {
-    console.error("AI-kall feilet", String(e));
+  // Temavakten og svaret starter samtidig, så eleven ikke må vente på begge
+  // etter hverandre. Avviser vakten spørsmålet, avbrytes svaret.
+  const avbryt = new AbortController();
+  const tidsgrense = setTimeout(() => avbryt.abort(), 60_000);
+  const svarKall = kallAi("/chat/completions", foresporsel, avbryt.signal).catch((e) => e as Error);
+  const kategori = await temavakt(kontekst, meldinger, sikkerhetsId);
+
+  if (kategori === "annet") {
+    avbryt.abort();
+    clearTimeout(tidsgrense);
+    return tekststrom(avvisning(kontekst));
+  }
+
+  let modellsvar = await svarKall;
+  if (modellsvar instanceof Response && !modellsvar.ok) {
+    const feiltekst = (await modellsvar.text()).slice(0, 500);
+    console.error("AI-tjenesten svarte", modellsvar.status, feiltekst);
+    // Noen modeller krever verifisert organisasjon for strømming. Da prøver vi
+    // én gang til uten strømming og sender hele svaret samlet.
+    if (/stream|verif/i.test(feiltekst)) {
+      const { stream: _s, stream_options: _o, ...utenStromming } = foresporsel;
+      const res = await kallAi("/chat/completions", utenStromming, avbryt.signal).catch((e) => e as Error);
+      if (res instanceof Response && res.ok) {
+        clearTimeout(tidsgrense);
+        const data = await res.json();
+        if (data.usage) console.log(JSON.stringify({ modell: MODELL, bruk: data.usage }));
+        return tekststrom(data.choices?.[0]?.message?.content ?? "");
+      }
+    }
+    modellsvar = new Error("feil fra AI-tjenesten");
+  }
+  if (!(modellsvar instanceof Response) || !modellsvar.body) {
+    clearTimeout(tidsgrense);
+    if (modellsvar instanceof Error) console.error("AI-kall feilet", String(modellsvar));
     await admin.rpc("ai_angre_melding", { p_bruker_id: brukerId });
     return svar(502, { feil: "ai" });
   }
-  if (!modellsvar.ok || !modellsvar.body) {
-    console.error("AI-tjenesten svarte", modellsvar.status, (await modellsvar.text()).slice(0, 500));
-    await admin.rpc("ai_angre_melding", { p_bruker_id: brukerId });
-    return svar(502, { feil: "ai" });
-  }
 
-  return tekststrom(tilTekst(modellsvar.body), { "x-ai-igjen": String(Math.max(0, grense - antall)) });
+  const strom = tilTekst(modellsvar.body).pipeThrough(
+    new TransformStream({ flush: () => clearTimeout(tidsgrense) })
+  );
+  return tekststrom(strom);
 });
