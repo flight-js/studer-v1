@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Logo } from "@/components/Logo";
 import { ArrowUp, ChevronRight } from "@/components/icons";
@@ -29,6 +29,13 @@ export default function FagvalgPage() {
   );
 }
 
+function blaInn(el: HTMLElement | null) {
+  el?.scrollIntoView({
+    behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+    block: "start",
+  });
+}
+
 function Fagvalg() {
   const router = useRouter();
   const params = useSearchParams();
@@ -53,6 +60,23 @@ function Fagvalg() {
 
   const velg = (trinnId: string, fagId?: string) =>
     router.replace(`/fag?trinn=${trinnId}${fagId ? `&fag=${fagId}` : ""}`, { scroll: false });
+
+  // Når eleven velger et fag, blar siden ned til temaene. Det gjelder også når
+  // man kommer hit med et fag i adressen (fra startsiden eller tilbake fra et tema).
+  const temaSeksjon = useRef<HTMLElement>(null);
+  const blaTil = useRef<string | null>(params.get("fag"));
+
+  useEffect(() => {
+    if (!fag || fag.id !== blaTil.current) return;
+    blaTil.current = null;
+    blaInn(temaSeksjon.current);
+  }, [fag]);
+
+  const velgFag = (trinnId: string, fagId: string) => {
+    if (fagId === fag?.id) return blaInn(temaSeksjon.current);
+    blaTil.current = fagId;
+    velg(trinnId, fagId);
+  };
 
   if (!laster && !bruker) {
     return (
@@ -140,7 +164,7 @@ function Fagvalg() {
                     key={f.id}
                     role="radio"
                     aria-checked={active}
-                    onClick={() => velg(trinn.id, f.id)}
+                    onClick={() => velgFag(trinn.id, f.id)}
                     className={`group flex flex-col gap-3 text-left rounded-2xl p-4.5 sm:p-5 border transition-[border-color,background-color,transform] duration-200 active:scale-[0.99] ${
                       active
                         ? "bg-primary-tint border-primary"
@@ -164,7 +188,7 @@ function Fagvalg() {
           </section>
 
           {fag && (
-            <section aria-labelledby="tema-label" className="flex flex-col gap-3.5">
+            <section ref={temaSeksjon} aria-labelledby="tema-label" className="flex flex-col gap-3.5 scroll-mt-24">
               <h2 id="tema-label" className="font-body text-sm font-medium text-muted">
                 Temaer i {fag.navn}
               </h2>
