@@ -45,17 +45,19 @@ export function Feil({
   );
 }
 
-export function KreverInnlogging({ hva = "dette temaet" }: { hva?: string }) {
+export function KreverInnlogging({
+  tittel = "Logg inn for å øve",
+  tekst = "Du trenger en konto for å se flashcards, quiz og miniprøver i dette temaet.",
+}: {
+  tittel?: string;
+  tekst?: string;
+}) {
   const neste = typeof window === "undefined" ? "/fag" : window.location.pathname + window.location.search;
   const q = `?neste=${encodeURIComponent(neste)}`;
   return (
     <div className="flex-1 flex flex-col items-center justify-center gap-5 px-5 py-24 text-center rise">
-      <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-[-0.02em]">
-        Logg inn for å øve
-      </h1>
-      <p className="text-lg text-ink-soft max-w-[40ch]">
-        Du trenger en konto for å se flashcards, quiz og miniprøver i {hva}.
-      </p>
+      <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-[-0.02em]">{tittel}</h1>
+      <p className="text-lg text-ink-soft max-w-[40ch]">{tekst}</p>
       <div className="flex flex-wrap justify-center gap-3 mt-1">
         <Link
           href={`/registrer${q}`}

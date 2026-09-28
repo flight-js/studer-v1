@@ -5,6 +5,10 @@
 // Funksjonen henter alltid ferske data fra Stripe i stedet for å stole på
 // innholdet i hendelsen, så rekkefølgen hendelsene kommer i, spiller ingen rolle.
 //
+// Prøveperioder sjekkes før abonnementet gis: har kontoen, e-posten eller
+// kortet hatt prøveperiode før, avsluttes det nye abonnementet med en gang.
+// Eleven er ikke belastet – prøveperioden koster 0 kr.
+//
 // Hemmeligheter (Edge Functions → Secrets):
 //   STRIPE_SECRET_KEY      sk_live_… / sk_test_…
 //   STRIPE_WEBHOOK_SECRET  whsec_… (fra webhook-endepunktet i Stripe)
@@ -26,6 +30,7 @@ const stripe = HEMMELIG ? new Stripe(HEMMELIG, { httpClient: Stripe.createFetchH
 const krypto = Stripe.createSubtleCryptoProvider();
 
 const AKTIVE = ["active", "trialing", "past_due"];
+const ALDRI_STARTET = ["incomplete", "incomplete_expired"];
 
 function secretKey(): string {
   const nye = Deno.env.get("SUPABASE_SECRET_KEYS");
@@ -50,18 +55,46 @@ function planFor(s: Stripe.Subscription): "maned" | "ar" {
   return pris?.recurring?.interval === "year" ? "ar" : "maned";
 }
 
-async function synkroniser(kunde: string) {
+async function finnBruker(kunde: string): Promise<string | undefined> {
   const { data: rad } = await admin.from("betaling").select("bruker_id").eq("stripe_kunde", kunde).maybeSingle();
-  let brukerId = rad?.bruker_id as string | undefined;
-  if (!brukerId) {
-    const k = await stripe!.customers.retrieve(kunde);
-    if (!k.deleted) brukerId = k.metadata?.bruker_id;
-  }
-  if (!brukerId) {
-    console.error("Fant ingen bruker for Stripe-kunden", kunde);
-    return;
-  }
+  if (rad?.bruker_id) return rad.bruker_id as string;
+  const k = await stripe!.customers.retrieve(kunde);
+  return k.deleted ? undefined : k.metadata?.bruker_id;
+}
 
+async function kortFingeravtrykk(s: Stripe.Subscription, kunde: string): Promise<string | null> {
+  const pm = s.default_payment_method;
+  if (pm && typeof pm === "object") return pm.card?.fingerprint ?? null;
+  const kort = await stripe!.paymentMethods.list({ customer: kunde, type: "card", limit: 1 });
+  return kort.data[0]?.card?.fingerprint ?? null;
+}
+
+async function sjekkProvetider(kunde: string, brukerId: string, epost: string | null) {
+  const liste = await stripe!.subscriptions.list({
+    customer: kunde,
+    status: "trialing",
+    limit: 10,
+    expand: ["data.default_payment_method"],
+  });
+  for (const s of liste.data) {
+    const { data: godkjent, error } = await admin.rpc("provetid_registrer", {
+      p_abonnement: s.id,
+      p_bruker: brukerId,
+      p_epost: epost,
+      p_kort: await kortFingeravtrykk(s, kunde),
+    });
+    if (error) throw new Error(error.message);
+    if (godkjent === false) {
+      // To hendelser for samme kjøp kan komme samtidig – da er det kanskje avsluttet allerede.
+      await stripe!.subscriptions.cancel(s.id).catch(async (e) => {
+        if ((await stripe!.subscriptions.retrieve(s.id)).status !== "canceled") throw e;
+      });
+      console.log(JSON.stringify({ kunde, provetid: "avvist" }));
+    }
+  }
+}
+
+async function synkroniser(kunde: string, brukerId: string, epost: string | null) {
   // Har kunden flere abonnementer, gjelder det aktive med lengst periode.
   const liste = await stripe!.subscriptions.list({ customer: kunde, status: "all", limit: 20 });
   const aktivt = liste.data
@@ -70,6 +103,13 @@ async function synkroniser(kunde: string) {
   const sist = aktivt ?? liste.data[0];
   const til = aktivt ? new Date(periodeslutt(aktivt) * 1000).toISOString() : null;
   const plan = aktivt ? planFor(aktivt) : null;
+  const provetidTil =
+    aktivt?.status === "trialing" && aktivt.trial_end ? new Date(aktivt.trial_end * 1000).toISOString() : null;
+
+  // Brukt = har hatt abonnement før, eller kontoen / e-posten har hatt prøveperiode.
+  const { data: ledig, error: feil0 } = await admin.rpc("provetid_tilgjengelig", { p_bruker: brukerId, p_epost: epost });
+  if (feil0) throw new Error(feil0.message);
+  const provetidBrukt = ledig !== true || liste.data.some((s) => !ALDRI_STARTET.includes(s.status));
 
   const { error: feil1 } = await admin.from("betaling").upsert(
     {
@@ -89,6 +129,8 @@ async function synkroniser(kunde: string) {
       abonnement: plan ?? "gratis",
       abonnement_til: til,
       abonnement_avsluttes: aktivt ? aktivt.cancel_at_period_end || !!aktivt.cancel_at : false,
+      provetid_til: provetidTil,
+      provetid_brukt: provetidBrukt,
     })
     .eq("id", brukerId);
   if (feil1 || feil2) throw new Error((feil1 ?? feil2)!.message);
@@ -122,7 +164,16 @@ Deno.serve(async (req) => {
     case "invoice.payment_failed":
       if (kunde) {
         try {
-          await synkroniser(kunde);
+          const brukerId = await finnBruker(kunde);
+          if (!brukerId) {
+            console.error("Fant ingen bruker for Stripe-kunden", kunde);
+            break;
+          }
+          const { data } = await admin.auth.admin.getUserById(brukerId);
+          const epost = data.user?.email ?? null;
+          // Først prøveperioden, så abonnementet – et avvist abonnement gir aldri tilgang.
+          await sjekkProvetider(kunde, brukerId, epost);
+          await synkroniser(kunde, brukerId, epost);
         } catch (e) {
           console.error("Synkronisering feilet", e instanceof Error ? e.message : String(e));
           // 500 gjør at Stripe prøver igjen senere.

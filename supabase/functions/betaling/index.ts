@@ -5,6 +5,10 @@
 // Funksjonen skriver aldri abonnementet i profiles. Det gjør bare
 // «stripe-webhook», etter at Stripe har bekreftet betalingen.
 //
+// Prøveperiode (14 dager): gis bare hvis kunden aldri har hatt abonnement, og
+// kontoen og e-posten ikke har hatt prøveperiode før (tabellen provetid).
+// Kortet er ikke kjent før eleven har betalt, så det sjekker webhooken.
+//
 // Hemmeligheter (Edge Functions → Secrets):
 //   STRIPE_SECRET_KEY        sk_live_… / sk_test_…
 //   STRIPE_PUBLISHABLE_KEY   pk_live_… / pk_test_… (sendes til nettleseren – den er laget for det)
@@ -32,6 +36,9 @@ const stripe = HEMMELIG ? new Stripe(HEMMELIG, { httpClient: Stripe.createFetchH
 // Abonnementer som gir tilgang. past_due betyr at en fornyelse feilet, men
 // Stripe prøver igjen – eleven beholder tilgangen så lenge.
 const AKTIVE = ["active", "trialing", "past_due"];
+// Forsøk som aldri ble betalt, teller ikke som et tidligere abonnement.
+const ALDRI_STARTET = ["incomplete", "incomplete_expired"];
+const PROVEDAGER = 14;
 
 function supabaseNokkel(type: "PUBLISHABLE" | "SECRET"): string {
   const nye = Deno.env.get(`SUPABASE_${type}_KEYS`);
@@ -134,14 +141,31 @@ Deno.serve(async (req) => {
         }
       }
 
-      if (await aktivtAbonnement(kunde!)) return svar(409, { feil: "har-abonnement" });
+      const tidligere = (await stripe.subscriptions.list({ customer: kunde!, status: "all", limit: 20 })).data;
+      if (tidligere.some((s) => AKTIVE.includes(s.status))) return svar(409, { feil: "har-abonnement" });
+
+      const { data: ledig, error: provefeil } = await admin.rpc("provetid_tilgjengelig", {
+        p_bruker: brukerId,
+        p_epost: typeof claims?.email === "string" ? claims.email : null,
+      });
+      if (provefeil) throw new Error(provefeil.message);
+      const provetid = ledig === true && !tidligere.some((s) => !ALDRI_STARTET.includes(s.status));
 
       const felles = {
         mode: "subscription" as const,
         customer: kunde,
         client_reference_id: brukerId,
         line_items: [{ price: PRISER[plan], quantity: 1 }],
-        subscription_data: { metadata: { bruker_id: brukerId } },
+        subscription_data: {
+          metadata: { bruker_id: brukerId },
+          ...(provetid && {
+            trial_period_days: PROVEDAGER,
+            trial_settings: { end_behavior: { missing_payment_method: "cancel" as const } },
+          }),
+        },
+        // Prøveperioden krever kort (også via Apple Pay / Google Pay), så
+        // webhooken kan kjenne igjen kortet neste gang.
+        ...(provetid && { payment_method_types: ["card" as const], payment_method_collection: "always" as const }),
         metadata: { bruker_id: brukerId },
         locale: "nb" as const,
         // Studer selger selv (ungdomsbedrift uten mva). Managed Payments gjør Stripe
@@ -164,7 +188,7 @@ Deno.serve(async (req) => {
         if (!(e instanceof Stripe.errors.StripeInvalidRequestError) || e.param !== "ui_mode") throw e;
         okt = await stripe.checkout.sessions.create({ ...felles, ...ekstra, ui_mode: modus[1] } as unknown as Stripe.Checkout.SessionCreateParams);
       }
-      return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR });
+      return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR, provetid });
     }
 
     if (handling === "avslutt" || handling === "fortsett") {

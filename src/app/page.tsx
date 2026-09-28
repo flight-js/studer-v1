@@ -3,7 +3,7 @@ import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
 import { ArrowRight, Check } from "@/components/icons";
-import { ARLIG_SPARING, FORDELER, PRIS, type Plan as Abonnement } from "@/lib/priser";
+import { ARLIG_SPARING, FORDELER, PRIS, PROVEDAGER, type Plan as Abonnement } from "@/lib/priser";
 import { oktNokkel } from "@/lib/supabase";
 
 
@@ -62,7 +62,7 @@ function Markedsside() {
             </p>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-4 mt-1">
               <Link href="/registrer" className={`${btnPrimary} group px-6.5 py-4 text-base`}>
-                Kom i gang gratis
+                Prøv gratis i {PROVEDAGER} dager
                 <ArrowRight
                   size={18}
                   className="transition-transform duration-200 group-hover:translate-x-0.5"
@@ -190,8 +190,8 @@ function Markedsside() {
                 Enkel pris
               </h2>
               <p className="text-lg text-ink-soft leading-relaxed max-w-[34ch]">
-                Ett abonnement, alle fag og alle trinn. Ingen pakker å velge
-                mellom.
+                Ett abonnement, alle fag og alle trinn. De første {PROVEDAGER} dagene
+                er gratis, og du kan avslutte når som helst.
               </p>
             </div>
 
@@ -201,14 +201,14 @@ function Markedsside() {
                 name="Månedlig"
                 price={PRIS.maned}
                 unit="/ mnd"
-                cta="Velg månedlig"
+                cta="Prøv månedlig"
               />
               <Plan
                 plan="ar"
                 name="Årlig"
                 price={PRIS.ar}
                 unit="/ år"
-                cta="Velg årlig"
+                cta="Prøv årlig"
                 note={`Spar ${ARLIG_SPARING} kr`}
                 featured
               />
@@ -421,6 +421,9 @@ function Plan({
         </span>
         <span className={`text-sm ${featured ? "text-background/60" : "text-muted"}`}>{unit}</span>
       </div>
+      <span className={`-mt-3 text-sm font-semibold ${featured ? "text-[#8fa3ff]" : "text-primary"}`}>
+        Første {PROVEDAGER} dager gratis
+      </span>
       <ul className={`flex flex-col gap-3 text-sm ${featured ? "text-background/80" : "text-ink-soft"}`}>
         {FORDELER.map((f) => (
           <li key={f} className="flex items-center gap-2.5">

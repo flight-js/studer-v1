@@ -2,9 +2,11 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ArrowUp, Chat, Close } from "@/components/icons";
-import { useAuth } from "@/lib/auth";
+import { ArrowUp, Chat, Close, Lock } from "@/components/icons";
+import { useAuth, useTilgang } from "@/lib/auth";
+import { abonnementHref } from "@/lib/betaling";
 import { temaHref } from "@/lib/pensum";
+import { PROVEDAGER } from "@/lib/priser";
 import { supabase, supabaseKey, supabaseUrl } from "@/lib/supabase";
 
 // Chat med AI-hjelpen i et tema. Svaret strømmes fra edge-funksjonen «chat»
@@ -20,6 +22,8 @@ const FORSLAG = ["Forklar temaet kort", "Hva er de viktigste begrepene?", "Gi me
 // flashcards og sammendrag.
 export function SporAi({ temaId, temaNavn, fagNavn }: { temaId: string; temaNavn: string; fagNavn: string }) {
   const [apen, setApen] = useState(false);
+  const { laster, innlogget, abonnement } = useTilgang();
+  const laast = !laster && innlogget && !abonnement;
 
   useEffect(() => {
     if (!apen) return;
@@ -37,7 +41,7 @@ export function SporAi({ temaId, temaNavn, fagNavn }: { temaId: string; temaNavn
         aria-controls="ai-panel"
         className="flex items-center gap-2.5 h-13 pl-4 pr-5 rounded-2xl bg-foreground text-background font-semibold text-sm shadow-lift transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.97]"
       >
-        {apen ? <Close size={20} /> : <Chat size={20} />}
+        {apen ? <Close size={20} /> : laast ? <Lock size={18} /> : <Chat size={20} />}
         {apen ? "Lukk" : "Spør AI"}
       </button>
     </div>
@@ -58,6 +62,7 @@ function AiHjelp({
   onLukk: () => void;
 }) {
   const { bruker, laster } = useAuth();
+  const { laster: tilgangLaster, abonnement, kanProve } = useTilgang();
   const [meldinger, setMeldinger] = useState<Melding[]>([]);
   const [utkast, setUtkast] = useState("");
   const [skriver, setSkriver] = useState(false);
@@ -172,6 +177,18 @@ function AiHjelp({
             </Link>
           )}
         </div>
+      ) : !tilgangLaster && !abonnement ? (
+        <div className="px-5 pb-5 flex flex-col gap-4">
+          <p className="bg-sunken rounded-2xl rounded-bl-md px-4 py-3 text-sm leading-relaxed text-ink-soft">
+            AI-hjelpen er med i abonnementet. Da kan du spørre om alt i {fagNavn}, få forklaringer og øvingsoppgaver.
+          </p>
+          <Link
+            href={abonnementHref(temaHref("/tema", temaId))}
+            className="text-center px-4 py-3 rounded-xl bg-foreground text-background text-sm font-semibold active:scale-[0.98] transition-transform"
+          >
+            {kanProve ? `Prøv gratis i ${PROVEDAGER} dager` : "Se abonnement"}
+          </Link>
+        </div>
       ) : (
         <>
           <div
@@ -271,6 +288,7 @@ class Chatfeil extends Error {}
 async function feiltekst(res: Response): Promise<string> {
   const body = (await res.json().catch(() => ({}))) as { feil?: string; grunn?: string };
   if (res.status === 401) return "Du må logge inn på nytt for å bruke AI-hjelpen.";
+  if (body.feil === "abonnement") return "AI-hjelpen er med i abonnementet. Last inn siden på nytt hvis du nettopp har kjøpt det.";
   if (res.status === 429) {
     if (body.grunn === "minutt") return "Du sender spørsmål veldig raskt. Vent litt før du spør igjen.";
     if (body.grunn === "global") return "AI-hjelpen har mye pågang akkurat nå. Prøv igjen senere.";

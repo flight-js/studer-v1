@@ -6,24 +6,25 @@ import { ProfilKnapp } from "@/components/AppBar";
 import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
 import { ArrowRight, ChevronRight } from "@/components/icons";
+import { Abonnementskort } from "@/components/Las";
 import { useAuth } from "@/lib/auth";
 import { hentKatalog, hentSisteTemaer, prosentGjennomgatt, sistOvd, temaHref } from "@/lib/pensum";
-import { hentProfil, lagreTrinn } from "@/lib/profil";
+import { lagreTrinn } from "@/lib/profil";
 import { useHent } from "@/lib/useHent";
 
 // Startsiden for innloggede: fortsett der du slapp, og fagene på trinnet ditt.
 export function Hjem() {
-  const { bruker } = useAuth();
+  const { bruker, profil } = useAuth();
   const brukerId = bruker?.id ?? "";
-  const profil = useHent(`profil:${brukerId}`, hentProfil);
+  const profilLaster = profil === undefined;
   const katalog = useHent("katalog", hentKatalog);
   const siste = useHent(`siste:${brukerId}`, () => hentSisteTemaer(4));
   const [valgtTrinn, setValgtTrinn] = useState<string | null>(null);
   const [bytterTrinn, setBytterTrinn] = useState(false);
 
-  const trinnId = valgtTrinn ?? profil.data?.trinn ?? null;
+  const trinnId = valgtTrinn ?? profil?.trinn ?? null;
   const trinn = katalog.data?.find((t) => t.id === trinnId);
-  const navn = (profil.data?.navn || (bruker?.user_metadata?.navn as string | undefined) || "")
+  const navn = (profil?.navn || (bruker?.user_metadata?.navn as string | undefined) || "")
     .trim()
     .split(/\s+/)[0];
   const dato = new Date().toLocaleDateString("nb-NO", { weekday: "long", day: "numeric", month: "long" });
@@ -38,7 +39,7 @@ export function Hjem() {
     }
   }
 
-  const visTrinnvalg = !profil.laster && !!katalog.data && (!trinn || bytterTrinn);
+  const visTrinnvalg = !profilLaster && !!katalog.data && (!trinn || bytterTrinn);
 
   return (
     <div className="flex flex-col flex-1">
@@ -67,6 +68,8 @@ export function Hjem() {
           </h1>
           <p className="text-lg text-ink-soft">Hva vil du øve på i dag?</p>
         </div>
+
+        <Abonnementskort />
 
         <section aria-labelledby="fortsett-label" className="flex flex-col gap-4">
           <h2 id="fortsett-label" className="font-body text-sm font-medium text-muted">
@@ -147,7 +150,7 @@ export function Hjem() {
             )}
           </div>
 
-          {profil.laster || katalog.laster ? (
+          {profilLaster || katalog.laster ? (
             <div className="h-40 bg-surface/60 border border-border rounded-2xl animate-pulse" aria-hidden="true" />
           ) : katalog.feil ? (
             <p className="text-danger-ink">Fikk ikke hentet fagene. Sjekk nettet og prøv igjen.</p>

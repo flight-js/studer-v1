@@ -6,7 +6,8 @@ import { Suspense } from "react";
 import { AppBar } from "@/components/AppBar";
 import { Logo } from "@/components/Logo";
 import { ArrowUp, ChevronRight } from "@/components/icons";
-import { Feil, Laster } from "@/components/Tilstand";
+import { Abonnementskort } from "@/components/Las";
+import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
 import {
   hentFremdrift,
@@ -31,8 +32,9 @@ export default function FagvalgPage() {
 function Fagvalg() {
   const router = useRouter();
   const params = useSearchParams();
-  const { bruker } = useAuth();
-  const katalog = useHent("katalog", hentKatalog);
+  const { bruker, laster } = useAuth();
+  // Antall temaer er bare synlig for innloggede, så katalogen hentes per bruker.
+  const katalog = useHent(bruker ? `katalog:${bruker.id}` : null, hentKatalog);
 
   const alleTrinn = katalog.data ?? [];
   // Uten trinn i adressen er ingenting valgt – eleven velger selv.
@@ -52,6 +54,14 @@ function Fagvalg() {
   const velg = (trinnId: string, fagId?: string) =>
     router.replace(`/fag?trinn=${trinnId}${fagId ? `&fag=${fagId}` : ""}`, { scroll: false });
 
+  if (!laster && !bruker) {
+    return (
+      <KreverInnlogging
+        tittel="Logg inn for å se fagene"
+        tekst="Du trenger en konto for å se fag, temaer og øvinger. Det er gratis å lage konto."
+      />
+    );
+  }
   if (katalog.feil) return <Feil tekst="Fikk ikke hentet fagene. Sjekk nettet og prøv igjen." href="/" lenketekst="Til forsiden" />;
   if (!katalog.data) return <Laster tekst="Henter fag" />;
 
@@ -63,6 +73,8 @@ function Fagvalg() {
       <h1 className="font-display text-4xl sm:text-5xl font-semibold tracking-[-0.02em]">
         Hva vil du øve på?
       </h1>
+
+      <Abonnementskort neste={trinn ? `/fag?trinn=${trinn.id}${fag ? `&fag=${fag.id}` : ""}` : "/fag"} />
 
       <section aria-labelledby="trinn-label" className="flex flex-col gap-3.5">
         <h2 id="trinn-label" className="font-body text-sm font-medium text-muted">

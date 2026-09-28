@@ -2,24 +2,27 @@
 
 import Link from "next/link";
 import { Close } from "@/components/icons";
+import { KreverAbonnement } from "@/components/Las";
 import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
-import { useAuth } from "@/lib/auth";
+import { useAuth, useTilgang } from "@/lib/auth";
 import { temaHref } from "@/lib/pensum";
 import { useHent } from "@/lib/useHent";
 import { useTemaId } from "@/lib/useTemaId";
 
 // Felles for flashcards, quiz, miniprøve og sammendrag: henter innholdet for
-// temaet i adressen, og viser innlogging, lasting og feil på samme måte.
+// temaet i adressen, og viser innlogging, abonnement, lasting og feil på samme måte.
 export function useOvingsinnhold<T>(navn: string, hent: (temaId: string) => Promise<T>) {
   const id = useTemaId();
-  const { bruker, laster: authLaster } = useAuth();
-  const innhold = useHent(id && bruker ? `${navn}:${id}:${bruker.id}` : null, () => hent(id!));
+  const { bruker } = useAuth();
+  const { laster: tilgangLaster, abonnement } = useTilgang();
+  const innhold = useHent(id && bruker && abonnement ? `${navn}:${id}:${bruker.id}` : null, () => hent(id!));
   const tilbake = id ? temaHref("/tema", id) : "/fag";
 
   let tilstand: React.ReactNode = null;
   if (!id) tilstand = <Feil tittel="Fant ikke temaet" tekst="Lenken mangler fag eller tema." />;
-  else if (authLaster) tilstand = <Laster />;
+  else if (tilgangLaster) tilstand = <Laster />;
   else if (!bruker) tilstand = <KreverInnlogging />;
+  else if (!abonnement) tilstand = <KreverAbonnement tilbake={tilbake} />;
   else if (innhold.feil) tilstand = <Feil tekst="Fikk ikke hentet innholdet. Sjekk nettet og prøv igjen." href={tilbake} lenketekst="Tilbake til temaet" />;
   else if (innhold.laster) tilstand = <Laster />;
 

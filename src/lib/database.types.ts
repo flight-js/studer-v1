@@ -222,6 +222,8 @@ export type Database = {
           id: string
           navn: string | null
           opprettet: string
+          provetid_brukt: boolean
+          provetid_til: string | null
           trinn: string | null
         }
         Insert: {
@@ -231,6 +233,8 @@ export type Database = {
           id: string
           navn?: string | null
           opprettet?: string
+          provetid_brukt?: boolean
+          provetid_til?: string | null
           trinn?: string | null
         }
         Update: {
@@ -240,6 +244,8 @@ export type Database = {
           id?: string
           navn?: string | null
           opprettet?: string
+          provetid_brukt?: boolean
+          provetid_til?: string | null
           trinn?: string | null
         }
         Relationships: [
@@ -251,6 +257,36 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      provetid: {
+        Row: {
+          abonnement_id: string
+          avvist: boolean
+          bruker_id: string
+          epost_hash: string | null
+          id: number
+          kort_fingeravtrykk: string | null
+          opprettet: string
+        }
+        Insert: {
+          abonnement_id: string
+          avvist?: boolean
+          bruker_id: string
+          epost_hash?: string | null
+          id?: never
+          kort_fingeravtrykk?: string | null
+          opprettet?: string
+        }
+        Update: {
+          abonnement_id?: string
+          avvist?: boolean
+          bruker_id?: string
+          epost_hash?: string | null
+          id?: never
+          kort_fingeravtrykk?: string | null
+          opprettet?: string
+        }
+        Relationships: []
       }
       quiz_sporsmal: {
         Row: {
@@ -411,6 +447,7 @@ export type Database = {
         }
         Returns: string
       }
+      har_tilgang: { Args: never; Returns: boolean }
       lagre_resultat: {
         Args: {
           p_aktivitet: string
@@ -419,6 +456,20 @@ export type Database = {
           p_tema_id: string
         }
         Returns: undefined
+      }
+      provetid_epostnokkel: { Args: { p_epost: string }; Returns: string }
+      provetid_registrer: {
+        Args: {
+          p_abonnement: string
+          p_bruker: string
+          p_epost: string
+          p_kort: string
+        }
+        Returns: boolean
+      }
+      provetid_tilgjengelig: {
+        Args: { p_bruker: string; p_epost: string }
+        Returns: boolean
       }
     }
     Enums: {

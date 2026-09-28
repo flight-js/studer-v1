@@ -24,8 +24,21 @@ async function kall<T>(body: Record<string, unknown>): Promise<T> {
   return data as T;
 }
 
-export const startBetaling = (plan: Plan) =>
-  kall<{ clientSecret: string; publishableKey: string }>({ handling: "start", plan, skjema: "elements" });
+export type Betalingsokt = { clientSecret: string; publishableKey: string; provetid: boolean };
+
+// Serveren avgjør om eleven får prøveperiode (provetid) – ikke nettsiden.
+export const startBetaling = async (plan: Plan): Promise<Betalingsokt> => {
+  const okt = await kall<Betalingsokt>({ handling: "start", plan, skjema: "elements" });
+  return { ...okt, provetid: okt.provetid === true };
+};
+
+// Lenke til abonnementssiden som sender eleven tilbake dit hen var etter kjøpet.
+export const abonnementHref = (neste?: string) =>
+  `/abonnement${neste ? `?neste=${encodeURIComponent(neste)}` : ""}`;
+
+// Bare adresser inne på Studer (ikke «//annen-side.no»).
+export const tryggNeste = (neste: string | null) =>
+  neste && neste.startsWith("/") && !neste.startsWith("//") ? neste : null;
 
 export const endreFornyelse = (handling: "avslutt" | "fortsett") => kall<{ ok: true }>({ handling });
 

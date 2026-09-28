@@ -13,14 +13,20 @@ import { AppBar } from "@/components/AppBar";
 import { ArrowRight, Check, Lock } from "@/components/icons";
 import { Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
-import { betalingsfeiltekst, endreFornyelse, startBetaling } from "@/lib/betaling";
-import { ARLIG_SPARING, ENHET, FORDELER, PLANNAVN, PRIS, type Plan } from "@/lib/priser";
-import { datoTekst, harAbonnement, hentProfil, type Profil } from "@/lib/profil";
-import { useHent } from "@/lib/useHent";
+import {
+  betalingsfeiltekst,
+  endreFornyelse,
+  startBetaling,
+  tryggNeste,
+  type Betalingsokt,
+} from "@/lib/betaling";
+import { ARLIG_SPARING, ENHET, FORDELER, PLANNAVN, PRIS, PROVEDAGER, type Plan } from "@/lib/priser";
+import { datoTekst, harAbonnement, kanProve, type Profil } from "@/lib/profil";
 
 // Kjøp og administrasjon av abonnement. Betalingsskjemaet bygges av Stripes
-// Checkout Elements inne på siden: Apple Pay / Google Pay-knapper og kortfelt. Abonnementet i profilen settes av
-// Stripe-webhooken, så etter betaling venter siden til profilen er oppdatert.
+// Checkout Elements inne på siden: Apple Pay / Google Pay-knapper og kortfelt.
+// Nye kunder får 14 dager gratis – det avgjør serveren. Abonnementet i profilen
+// settes av Stripe-webhooken, så etter betaling venter siden til profilen er oppdatert.
 
 export default function AbonnementPage() {
   return (
@@ -37,44 +43,54 @@ type Steg = "velg" | "betal" | "ferdig";
 
 function Abonnement() {
   const params = useSearchParams();
-  const { bruker, laster } = useAuth();
+  const { bruker, laster, profil, oppfriskProfil } = useAuth();
   const [plan, setPlan] = useState<Plan>(params.get("plan") === "maned" ? "maned" : "ar");
   const [steg, setSteg] = useState<Steg>(params.get("betaling") === "fullfort" ? "ferdig" : "velg");
-  const [okt, setOkt] = useState<{ clientSecret: string; publishableKey: string } | null>(null);
+  const [okt, setOkt] = useState<Betalingsokt | null>(null);
+  // Når prøveperioden i økten slutter, og om kjøpet som nettopp ble gjort, var en prøveperiode.
+  const [provetidSlutt, setProvetidSlutt] = useState<string | null>(null);
+  const [provetidKjop, setProvetidKjop] = useState(false);
   const [feil, setFeil] = useState<string | null>(null);
   const [jobber, setJobber] = useState(false);
   const [venter, setVenter] = useState(false);
   const [tokLang, setTokLang] = useState(false);
-  const { profil, last, vent } = useProfil(bruker?.id);
+  const vent = useVentPaProfil();
+  const neste = tryggNeste(params.get("neste"));
+  // Uten konto vet vi ikke ennå – de aller fleste nye kan prøve gratis.
+  const visProve = bruker ? kanProve(profil) : true;
 
   const tilBetaling = async () => {
     setFeil(null);
     setJobber(true);
     try {
-      setOkt(await startBetaling(plan));
+      const ny = await startBetaling(plan);
+      setProvetidSlutt(new Date(Date.now() + PROVEDAGER * 86_400_000).toISOString());
+      setOkt(ny);
       setSteg("betal");
     } catch (e) {
       setFeil(betalingsfeiltekst(e));
-      last();
+      oppfriskProfil();
     } finally {
       setJobber(false);
     }
   };
 
-  const betalingFullfort = useCallback(async () => {
+  const betalingFullfort = useCallback(() => {
+    setProvetidKjop(okt?.provetid ?? false);
     setSteg("ferdig");
     setOkt(null);
-  }, []);
+  }, [okt]);
 
-  // Etter betaling: vent til webhooken har aktivert abonnementet.
+  // Etter betaling: vent til webhooken har aktivert abonnementet – eller avvist
+  // prøveperioden fordi kortet, e-posten eller kontoen har hatt en før.
   useEffect(() => {
     if (steg !== "ferdig" || !bruker) return;
     let aktiv = true;
-    vent(harAbonnement).then((ok) => aktiv && setTokLang(!ok));
+    vent((p) => harAbonnement(p) || (provetidKjop && p.provetid_brukt)).then((ok) => aktiv && setTokLang(!ok));
     return () => {
       aktiv = false;
     };
-  }, [steg, bruker, vent]);
+  }, [steg, bruker, vent, provetidKjop]);
 
   const endre = async (handling: "avslutt" | "fortsett") => {
     setFeil(null);
@@ -93,9 +109,21 @@ function Abonnement() {
 
   if (laster || (bruker && profil === undefined)) return <Laster />;
 
+  const fortsett = (
+    <Link
+      href={neste ?? "/"}
+      className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+    >
+      {neste ? "Fortsett" : "Til startsiden"}
+      <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+    </Link>
+  );
+
   // Etter betaling
   if (steg === "ferdig" && bruker) {
     const aktivt = harAbonnement(profil);
+    const avvist = !aktivt && provetidKjop && !!profil?.provetid_brukt;
+    const p = profil?.abonnement === "maned" || profil?.abonnement === "ar" ? profil.abonnement : plan;
     return (
       <Ramme>
         <div className="flex flex-col items-center text-center gap-5 bg-surface border border-border rounded-3xl px-6 py-12 sm:py-16 rise">
@@ -103,51 +131,87 @@ function Abonnement() {
             <span className="w-14 h-14 rounded-2xl bg-success-tint text-success-ink flex items-center justify-center" aria-hidden="true">
               <Check size={28} />
             </span>
+          ) : avvist ? (
+            <span className="w-14 h-14 rounded-2xl bg-sunken text-muted flex items-center justify-center" aria-hidden="true">
+              <Lock size={24} />
+            </span>
           ) : (
             <Prikker />
           )}
           <h1 className="font-display text-3xl sm:text-4xl font-semibold tracking-[-0.02em]" aria-live="polite">
-            {aktivt ? "Abonnementet ditt er aktivt" : "Betalingen er gjennomført"}
+            {aktivt
+              ? profil?.provetid_til
+                ? "Prøveperioden har startet"
+                : "Abonnementet ditt er aktivt"
+              : avvist
+                ? "Prøveperioden ble ikke startet"
+                : provetidKjop
+                  ? "Kortet er registrert"
+                  : "Betalingen er gjennomført"}
           </h1>
-          <p className="text-ink-soft max-w-[42ch]">
-            {aktivt && profil
-              ? `Takk! Du har ${PLANNAVN[profil.abonnement].toLowerCase()} abonnement${profil.abonnement_til ? ` til ${datoTekst(profil.abonnement_til)}` : ""}. Kvitteringen kommer på e-post.`
-              : tokLang
-                ? "Det tar litt lengre tid enn vanlig. Abonnementet dukker opp på kontoen din så snart Stripe har bekreftet betalingen – du kan trygt lukke siden."
-                : "Vi aktiverer abonnementet ditt. Det tar bare noen sekunder."}
+          <p className="text-ink-soft max-w-[44ch]">
+            {aktivt && profil?.provetid_til
+              ? `Du har tilgang til alt fram til ${datoTekst(profil.provetid_til)}. Da trekkes ${PRIS[p]} kr ${ENHET[p]} automatisk – avslutter du før, betaler du ingenting.`
+              : aktivt && profil
+                ? `Takk! Du har ${PLANNAVN[profil.abonnement].toLowerCase()} abonnement${profil.abonnement_til ? ` til ${datoTekst(profil.abonnement_til)}` : ""}. Kvitteringen kommer på e-post.`
+                : avvist
+                  ? "Kortet, e-posten eller kontoen har allerede vært brukt til en prøveperiode, så du fikk ikke en ny. Du er ikke belastet. Du kan fortsatt kjøpe abonnement – da starter det i dag."
+                  : tokLang
+                    ? "Det tar litt lengre tid enn vanlig. Abonnementet dukker opp på kontoen din så snart Stripe har bekreftet det – du kan trygt lukke siden."
+                    : "Vi aktiverer abonnementet ditt. Det tar bare noen sekunder."}
           </p>
-          <Link
-            href="/"
-            className="group mt-2 inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
-          >
-            Til startsiden
-            <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
-          </Link>
+          {avvist ? (
+            <button
+              onClick={() => {
+                setProvetidKjop(false);
+                setSteg("velg");
+              }}
+              className="group mt-2 inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
+            >
+              Velg abonnement
+              <ArrowRight size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+            </button>
+          ) : (
+            <div className="mt-2">{fortsett}</div>
+          )}
         </div>
       </Ramme>
     );
   }
 
-  // Har allerede abonnement
+  // Har allerede abonnement (eller prøveperiode)
   if (bruker && profil && harAbonnement(profil)) {
     const avsluttes = profil.abonnement_avsluttes;
     const dato = profil.abonnement_til ? datoTekst(profil.abonnement_til) : null;
+    const prove = profil.provetid_til ? datoTekst(profil.provetid_til) : null;
+    const p = profil.abonnement === "maned" || profil.abonnement === "ar" ? profil.abonnement : null;
     return (
       <Ramme>
         <Overskrift over="Abonnement" tittel="Ditt abonnement" />
         <div className="flex flex-col gap-6 bg-surface border border-border rounded-3xl p-6 sm:p-8 rise">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
-            <span className="font-display text-3xl font-semibold">{PLANNAVN[profil.abonnement]}</span>
-            {(profil.abonnement === "maned" || profil.abonnement === "ar") && (
+            <span className="flex items-center gap-3">
+              <span className="font-display text-3xl font-semibold">{PLANNAVN[profil.abonnement]}</span>
+              {prove && (
+                <span className="text-xs font-semibold bg-primary-tint text-primary-dark px-2.5 py-1 rounded-md">
+                  Prøveperiode
+                </span>
+              )}
+            </span>
+            {p && (
               <span className="text-ink-soft tabular-nums">
-                {PRIS[profil.abonnement]} kr {ENHET[profil.abonnement]}
+                {PRIS[p]} kr {ENHET[p]}
               </span>
             )}
           </div>
           <p className={`text-sm font-medium ${avsluttes ? "text-danger-ink" : "text-success-ink"}`}>
-            {avsluttes
-              ? `Avsluttes${dato ? ` ${dato}` : ""}. Du har tilgang fram til da.`
-              : `Aktivt${dato ? ` – fornyes automatisk ${dato}` : ""}.`}
+            {prove
+              ? avsluttes
+                ? `Prøveperioden avsluttes ${prove}. Du blir ikke belastet, og har tilgang fram til da.`
+                : `Gratis til ${prove}. Da trekkes ${p ? `${PRIS[p]} kr` : "abonnementet"} for første gang.`
+              : avsluttes
+                ? `Avsluttes${dato ? ` ${dato}` : ""}. Du har tilgang fram til da.`
+                : `Aktivt${dato ? ` – fornyes automatisk ${dato}` : ""}.`}
           </p>
           <ul className="flex flex-col gap-2.5 text-sm text-ink-soft">
             {FORDELER.map((f) => (
@@ -158,6 +222,7 @@ function Abonnement() {
             ))}
           </ul>
           <div className="flex flex-wrap items-center gap-3 pt-2 border-t border-border">
+            {neste && <div className="mt-4">{fortsett}</div>}
             {avsluttes ? (
               <button
                 onClick={() => endre("fortsett")}
@@ -167,7 +232,13 @@ function Abonnement() {
                 {venter ? "Oppdaterer …" : "Fortsett abonnementet"}
               </button>
             ) : (
-              <AvsluttKnapp onBekreft={() => endre("avslutt")} jobber={jobber} venter={venter} dato={dato} />
+              <AvsluttKnapp
+                onBekreft={() => endre("avslutt")}
+                jobber={jobber}
+                venter={venter}
+                dato={prove ?? dato}
+                prove={!!prove}
+              />
             )}
           </div>
           {feil && <Feilmelding tekst={feil} />}
@@ -177,23 +248,44 @@ function Abonnement() {
   }
 
   // Velg plan og betal
-  const neste = `/abonnement?plan=${plan}`;
+  const tilbakeHit = `/abonnement?plan=${plan}${neste ? `&neste=${encodeURIComponent(neste)}` : ""}`;
   return (
     <Ramme bred={steg === "betal"}>
       <Overskrift
         over="Abonnement"
-        tittel={steg === "betal" ? "Betaling" : "Velg abonnement"}
-        tekst={steg === "betal" ? undefined : "Ett abonnement gir tilgang til alt – alle fag, alle trinn."}
+        tittel={
+          steg === "betal"
+            ? okt?.provetid
+              ? "Start prøveperioden"
+              : "Betaling"
+            : visProve
+              ? `Prøv gratis i ${PROVEDAGER} dager`
+              : "Velg abonnement"
+        }
+        tekst={
+          steg === "betal"
+            ? undefined
+            : visProve
+              ? "Du får tilgang til alt med en gang og betaler ingenting før prøveperioden er over. Avslutt når som helst."
+              : "Ett abonnement gir tilgang til alt – alle fag, alle trinn."
+        }
       />
 
       {steg === "betal" && okt ? (
         <div className="flex flex-col gap-4 rise">
           <div className="flex items-center justify-between gap-4 bg-surface border border-border rounded-2xl px-5 py-4">
-            <span className="flex flex-col">
+            <span className="flex flex-col gap-0.5">
               <span className="font-semibold">{PLANNAVN[plan]} abonnement</span>
               <span className="text-sm text-muted tabular-nums">
-                {PRIS[plan]} kr {ENHET[plan]}
+                {okt.provetid && provetidSlutt
+                  ? `0 kr i dag – deretter ${PRIS[plan]} kr ${ENHET[plan]} fra ${datoTekst(provetidSlutt)}`
+                  : `${PRIS[plan]} kr ${ENHET[plan]}`}
               </span>
+              {visProve && !okt.provetid && (
+                <span className="text-sm text-ink-soft">
+                  Du har hatt prøveperiode før, så abonnementet starter i dag.
+                </span>
+              )}
             </span>
             <button
               onClick={() => {
@@ -208,15 +300,21 @@ function Abonnement() {
           <Betalingsskjema
             clientSecret={okt.clientSecret}
             publishableKey={okt.publishableKey}
-            belop={PRIS[plan]}
+            knapp={okt.provetid ? "Start prøveperioden" : `Betal ${PRIS[plan]} kr`}
             onFullfort={betalingFullfort}
           />
+          {okt.provetid && provetidSlutt && (
+            <p className="text-xs leading-relaxed text-muted max-w-[60ch]">
+              Du betaler ingenting nå. {datoTekst(provetidSlutt)} trekkes {PRIS[plan]} kr {ENHET[plan]}, og abonnementet
+              fortsetter til du avslutter det. Avslutter du før prøveperioden er over, blir du ikke belastet.
+            </p>
+          )}
         </div>
       ) : (
         <>
           <div role="radiogroup" aria-label="Abonnement" className="grid sm:grid-cols-2 gap-3 rise">
             {(["maned", "ar"] as const).map((p) => (
-              <Planvalg key={p} plan={p} valgt={plan === p} onVelg={() => setPlan(p)} />
+              <Planvalg key={p} plan={p} valgt={plan === p} prove={visProve} onVelg={() => setPlan(p)} />
             ))}
           </div>
 
@@ -237,20 +335,20 @@ function Abonnement() {
               disabled={jobber}
               className="group self-start inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-60"
             >
-              {jobber ? "Åpner betaling …" : "Til betaling"}
+              {jobber ? "Åpner betaling …" : visProve ? "Start gratis prøveperiode" : "Til betaling"}
               {!jobber && <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />}
             </button>
           ) : (
             <div className="flex flex-wrap items-center gap-3">
               <Link
-                href={`/registrer?neste=${encodeURIComponent(neste)}`}
+                href={`/registrer?neste=${encodeURIComponent(tilbakeHit)}`}
                 className="group inline-flex items-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
               >
-                Lag konto og kjøp
+                Lag konto og prøv gratis
                 <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-0.5" />
               </Link>
               <Link
-                href={`/logg-inn?neste=${encodeURIComponent(neste)}`}
+                href={`/logg-inn?neste=${encodeURIComponent(tilbakeHit)}`}
                 className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
               >
                 Jeg har konto
@@ -260,8 +358,13 @@ function Abonnement() {
 
           <p className="flex items-start gap-2 text-xs leading-relaxed text-muted max-w-[60ch]">
             <Lock size={14} className="shrink-0 mt-0.5" />
-            Abonnementet fornyes automatisk til du avslutter det. Du kan avslutte når som helst og beholder tilgangen ut
-            perioden du har betalt for. Betalingen håndteres av Stripe – vi ser aldri kortnummeret ditt.
+            <span>
+              {visProve &&
+                `Du legger inn kort nå, men betaler ingenting de første ${PROVEDAGER} dagene. Avslutter du før prøveperioden er over, blir du ikke belastet – ellers fortsetter abonnementet automatisk. Prøveperioden gjelder én gang per person og per kort. `}
+              {!visProve &&
+                "Abonnementet fornyes automatisk til du avslutter det. Du kan avslutte når som helst og beholder tilgangen ut perioden du har betalt for. "}
+              Betalingen håndteres av Stripe – vi ser aldri kortnummeret ditt.
+            </span>
           </p>
         </>
       )}
@@ -269,30 +372,11 @@ function Abonnement() {
   );
 }
 
-// Henter profilen og kan vente på at webhooken har oppdatert den.
-function useProfil(brukerId: string | undefined) {
-  const forste = useHent(brukerId ? `profil:${brukerId}` : null, hentProfil);
-  const [oppdatert, setOppdatert] = useState<Profil | undefined>(undefined);
+// Venter på at webhooken har oppdatert profilen: henter den på nytt hvert
+// andre sekund i opptil 30 sekunder.
+function useVentPaProfil() {
+  const { oppfriskProfil } = useAuth();
   const aktiv = useRef(true);
-  const profil = oppdatert ?? (forste.laster ? undefined : (forste.data ?? null));
-
-  const last = useCallback(async () => {
-    const p = await hentProfil().catch(() => null);
-    if (p && aktiv.current) setOppdatert(p);
-    return p;
-  }, []);
-
-  const vent = useCallback(
-    async (betingelse: (p: Profil) => boolean) => {
-      for (let i = 0; i < 15 && aktiv.current; i++) {
-        const p = await last();
-        if (p && betingelse(p)) return true;
-        await new Promise((r) => setTimeout(r, 2000));
-      }
-      return false;
-    },
-    [last]
-  );
 
   useEffect(() => {
     aktiv.current = true;
@@ -301,7 +385,17 @@ function useProfil(brukerId: string | undefined) {
     };
   }, []);
 
-  return { profil, last, vent };
+  return useCallback(
+    async (betingelse: (p: Profil) => boolean) => {
+      for (let i = 0; i < 15 && aktiv.current; i++) {
+        const p = await oppfriskProfil();
+        if (p && betingelse(p)) return true;
+        await new Promise((r) => setTimeout(r, 2000));
+      }
+      return false;
+    },
+    [oppfriskProfil]
+  );
 }
 
 // Stripe-feltene skal se ut som resten av Studer.
@@ -333,12 +427,12 @@ const noenTilgjengelige = (metoder: Lommeboker | undefined) =>
 function Betalingsskjema({
   clientSecret,
   publishableKey,
-  belop,
+  knapp,
   onFullfort,
 }: {
   clientSecret: string;
   publishableKey: string;
-  belop: number;
+  knapp: string;
   onFullfort: () => void;
 }) {
   const ekspressBeholder = useRef<HTMLDivElement>(null);
@@ -458,7 +552,7 @@ function Betalingsskjema({
             className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-4 rounded-xl text-base font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Lock size={16} />
-            {betaler ? "Behandler betalingen …" : `Betal ${belop} kr`}
+            {betaler ? "Behandler …" : knapp}
           </button>
         </div>
       )}
@@ -466,7 +560,17 @@ function Betalingsskjema({
   );
 }
 
-function Planvalg({ plan, valgt, onVelg }: { plan: Plan; valgt: boolean; onVelg: () => void }) {
+function Planvalg({
+  plan,
+  valgt,
+  prove,
+  onVelg,
+}: {
+  plan: Plan;
+  valgt: boolean;
+  prove: boolean;
+  onVelg: () => void;
+}) {
   return (
     <button
       role="radio"
@@ -486,6 +590,11 @@ function Planvalg({ plan, valgt, onVelg }: { plan: Plan; valgt: boolean; onVelg:
         <span className="font-display text-4xl font-semibold tabular-nums tracking-[-0.02em]">{PRIS[plan]} kr</span>
         <span className="text-sm text-muted">{ENHET[plan]}</span>
       </span>
+      {prove && (
+        <span className={`text-sm font-semibold -mt-2 ${valgt ? "text-primary-dark" : "text-foreground"}`}>
+          Første {PROVEDAGER} dager gratis
+        </span>
+      )}
       <span className="text-xs text-muted tabular-nums">
         {plan === "ar"
           ? `Tilsvarer ${(PRIS.ar / 12).toFixed(2).replace(".", ",")} kr i måneden`
@@ -500,11 +609,13 @@ function AvsluttKnapp({
   jobber,
   venter,
   dato,
+  prove,
 }: {
   onBekreft: () => void;
   jobber: boolean;
   venter: boolean;
   dato: string | null;
+  prove: boolean;
 }) {
   const [sikker, setSikker] = useState(false);
   if (!sikker) {
@@ -520,7 +631,9 @@ function AvsluttKnapp({
   return (
     <div className="mt-4 flex flex-col gap-3 w-full">
       <p className="text-sm text-ink-soft">
-        Vil du avslutte? Abonnementet fornyes ikke, og du beholder tilgangen{dato ? ` til ${dato}` : " ut perioden"}.
+        {prove
+          ? `Vil du avslutte? Du blir ikke belastet, og beholder tilgangen${dato ? ` til ${dato}` : " ut prøveperioden"}.`
+          : `Vil du avslutte? Abonnementet fornyes ikke, og du beholder tilgangen${dato ? ` til ${dato}` : " ut perioden"}.`}
       </p>
       <div className="flex flex-wrap gap-3">
         <button

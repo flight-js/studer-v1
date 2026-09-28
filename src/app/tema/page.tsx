@@ -13,8 +13,10 @@ import {
   Quiz,
   Timer,
 } from "@/components/icons";
-import { Feil, Laster } from "@/components/Tilstand";
-import { useAuth } from "@/lib/auth";
+import { Abonnementskort } from "@/components/Las";
+import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
+import { useAuth, useTilgang } from "@/lib/auth";
+import { abonnementHref } from "@/lib/betaling";
 import {
   hentFremdrift,
   hentOmfang,
@@ -45,13 +47,28 @@ export default function TemaPage() {
 function Tema() {
   const id = useTemaId();
   const { bruker, laster: authLaster } = useAuth();
-  const tema = useHent(id, () => hentTema(id!));
+  const { laster: tilgangLaster, abonnement } = useTilgang();
+  // Temaene kan bare leses av innloggede, så vent på innloggingen før de hentes.
+  const tema = useHent(id && bruker ? `${id}:${bruker.id}` : null, () => hentTema(id!));
   const brukerNokkel = id && bruker ? `${id}:${bruker.id}` : null;
-  const omfang = useHent(brukerNokkel, () => hentOmfang(id!));
+  // Uten abonnement er innholdet låst, så antall kort og spørsmål hentes ikke.
+  const omfang = useHent(abonnement ? brukerNokkel : null, () => hentOmfang(id!));
   const fremdrift = useHent(brukerNokkel, () => hentFremdrift([id!]));
 
   const t = tema.data;
   const tilbake = t ? `/fag?trinn=${t.trinnId}&fag=${t.fagId}` : "/fag";
+
+  if (!authLaster && !bruker) {
+    return (
+      <div className="flex flex-col flex-1">
+        <AppBar back="/" backLabel="Forsiden" />
+        <KreverInnlogging
+          tittel="Logg inn for å se temaet"
+          tekst="Du trenger en konto for å se temaer, flashcards, quiz og miniprøver."
+        />
+      </div>
+    );
+  }
 
   if (!id || tema.feil) {
     return (
@@ -66,6 +83,7 @@ function Tema() {
   const pst = prosentGjennomgatt(f);
   const o = omfang.data;
   const innlogget = !!bruker;
+  const laast = !tilgangLaster && !abonnement;
 
   return (
     <div className="flex flex-col flex-1">
@@ -103,12 +121,12 @@ function Tema() {
 
           <section aria-labelledby="ov-label" className="flex flex-col gap-4">
             <h2 id="ov-label" className="font-body text-sm font-medium text-muted">
-              {innlogget || authLaster ? "Velg hvordan du vil øve" : "Logg inn for å øve på temaet"}
+              {laast ? "Øvingene er med i abonnementet" : "Velg hvordan du vil øve"}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <ModeCard
                 href={temaHref("/flashcards", id)}
-                laast={!innlogget}
+                laast={laast}
                 title="Flashcards"
                 text={o ? <>{o.flashcards} kort<Dot />begreper og definisjoner</> : "Begreper og definisjoner"}
                 resultat={f?.flashcards}
@@ -117,7 +135,7 @@ function Tema() {
               />
               <ModeCard
                 href={temaHref("/quiz", id)}
-                laast={!innlogget}
+                laast={laast}
                 title="Quiz"
                 text={o ? <>{o.quiz} spørsmål<Dot />flervalg med forklaring</> : "Flervalg med forklaring"}
                 resultat={f?.quiz}
@@ -125,20 +143,21 @@ function Tema() {
               />
               <ModeCard
                 href={temaHref("/sammendrag", id)}
-                laast={!innlogget}
+                laast={laast}
                 title="Sammendrag"
                 text={<>Hele temaet kort forklart<Dot />med tankekart</>}
                 icon={<Book size={22} />}
               />
               <ModeCard
                 href={temaHref("/miniprove", id)}
-                laast={!innlogget}
+                laast={laast}
                 title="Miniprøve"
                 text={o ? <>{o.miniprove} spørsmål<Dot />{o.minutter} minutter</> : "Blandet format, på tid"}
                 resultat={f?.miniprove}
                 icon={<Timer size={22} />}
               />
             </div>
+            <Abonnementskort neste={temaHref("/tema", id)} />
             {t.status !== "godkjent" && (
               <p className="text-sm text-muted">
                 Innholdet i dette temaet er nytt og blir kvalitetssikret av lærere.
@@ -193,7 +212,8 @@ function ModeCard({
   icon: React.ReactNode;
   featured?: boolean;
 }) {
-  const lenke = laast ? `/logg-inn?neste=${encodeURIComponent(href)}` : href;
+  // Låst: til abonnementet, og derfra rett til øvingen etter kjøpet.
+  const lenke = laast ? abonnementHref(href) : href;
   return (
     <Link
       href={lenke}

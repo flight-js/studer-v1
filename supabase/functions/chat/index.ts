@@ -1,4 +1,5 @@
-// AI-hjelp i temasiden. Eleven sender samtalen og tema-ID-en; funksjonen
+// AI-hjelp i temasiden. Krever abonnement (en prøveperiode teller som
+// abonnement). Eleven sender samtalen og tema-ID-en; funksjonen
 // henter temaets sammendrag og begreper (med elevens egne rettigheter),
 // sjekker de skjulte bruksgrensene, lar temavakten avvise spørsmål som ikke
 // hører til faget, og strømmer svaret fra språkmodellen tilbake som ren tekst.
@@ -12,8 +13,7 @@
 //   AI_BASE_URL           standard https://api.openai.com/v1 (EU: https://eu.api.openai.com/v1)
 //   AI_MODELL             standard gpt-6-luna
 //   AI_RESONNERING        standard low (none | low | medium | high) – bare OpenAI
-//   AI_GRENSE_GRATIS      meldinger per dag uten abonnement, standard 10 (0 = stengt)
-//   AI_GRENSE_ABONNEMENT  meldinger per dag med abonnement, standard 60
+//   AI_GRENSE_ABONNEMENT  meldinger per dag per elev, standard 60
 //   AI_GRENSE_MINUTT      meldinger per minutt per elev, standard 5
 //   AI_GRENSE_TOTALT      meldinger per dag for hele appen, standard 3000
 // Grensene vises aldri for eleven.
@@ -47,7 +47,6 @@ const API_NOKKEL = env("AI_API_KEY");
 const BASE_URL = env("AI_BASE_URL", "https://api.openai.com/v1").replace(/\/+$/, "");
 const MODELL = env("AI_MODELL", "gpt-6-luna");
 const RESONNERING = env("AI_RESONNERING", "low");
-const GRENSE_GRATIS = tall("AI_GRENSE_GRATIS", 10);
 const GRENSE_ABONNEMENT = tall("AI_GRENSE_ABONNEMENT", 60);
 const GRENSE_MINUTT = tall("AI_GRENSE_MINUTT", 5);
 const GRENSE_TOTALT = tall("AI_GRENSE_TOTALT", 3000);
@@ -219,6 +218,9 @@ Deno.serve(async (req) => {
     return svar(400, { feil: "ugyldig" });
   }
 
+  const { data: profil } = await bruker.from("profiles").select("abonnement").eq("id", brukerId).maybeSingle();
+  if (!profil || profil.abonnement === "gratis") return svar(403, { feil: "abonnement" });
+
   // Temaet hentes med elevens rettigheter, så RLS bestemmer hva som er lov.
   const { data: tema } = await bruker
     .from("temaer")
@@ -226,10 +228,6 @@ Deno.serve(async (req) => {
     .eq("id", temaId)
     .maybeSingle();
   if (!tema || !tema.tema_innhold) return svar(404, { feil: "fant-ikke-tema" });
-
-  const { data: profil } = await bruker.from("profiles").select("abonnement").eq("id", brukerId).maybeSingle();
-  const dagsgrense =
-    profil?.abonnement && profil.abonnement !== "gratis" ? GRENSE_ABONNEMENT : GRENSE_GRATIS;
 
   const sisteSporsmal = meldinger[meldinger.length - 1].tekst;
   if (await trengerKrisesvar(sisteSporsmal)) return tekststrom(KRISESVAR);
@@ -240,7 +238,7 @@ Deno.serve(async (req) => {
   });
   const { data: utfall, error: tellefeil } = await admin.rpc("ai_registrer_melding", {
     p_bruker_id: brukerId,
-    p_dagsgrense: dagsgrense,
+    p_dagsgrense: GRENSE_ABONNEMENT,
     p_minuttgrense: GRENSE_MINUTT,
     p_global_grense: GRENSE_TOTALT,
   });

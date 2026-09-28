@@ -7,21 +7,14 @@ import { AppBar } from "@/components/AppBar";
 import { ArrowRight, LogOut } from "@/components/icons";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
-import { datoTekst, harAbonnement, hentProfil, type Profil } from "@/lib/profil";
+import { PLANNAVN, PROVEDAGER } from "@/lib/priser";
+import { datoTekst, harAbonnement, kanProve, type Profil } from "@/lib/profil";
 import { supabase } from "@/lib/supabase";
-import { useHent } from "@/lib/useHent";
-
-const ABONNEMENT: Record<string, string> = {
-  gratis: "Gratis i testperioden",
-  maned: "Månedlig",
-  ar: "Årlig",
-};
 
 export default function KontoPage() {
   const router = useRouter();
-  const { bruker, laster } = useAuth();
+  const { bruker, laster, profil } = useAuth();
   const [loggerUt, setLoggerUt] = useState(false);
-  const profil = useHent(bruker ? `profil:${bruker.id}` : null, hentProfil);
 
   async function loggUt() {
     setLoggerUt(true);
@@ -35,7 +28,7 @@ export default function KontoPage() {
       {laster ? (
         <Laster tekst="Henter kontoen" />
       ) : !bruker ? (
-        <KreverInnlogging hva="kontoen din" />
+        <KreverInnlogging tittel="Logg inn" tekst="Logg inn for å se kontoen din." />
       ) : (
         <main id="innhold" className="px-5 sm:px-8 pt-10 pb-20 flex flex-col gap-10 max-w-2xl w-full mx-auto rise">
           <div className="flex flex-col gap-2">
@@ -57,7 +50,7 @@ export default function KontoPage() {
             />
             <Rad
               navn="Abonnement"
-              verdi={profil.data ? abonnementTekst(profil.data) : "…"}
+              verdi={profil ? abonnementTekst(profil) : "…"}
             />
           </dl>
 
@@ -73,7 +66,11 @@ export default function KontoPage() {
               href="/abonnement"
               className="inline-flex items-center border-[1.5px] border-border-strong px-5 py-3.5 rounded-xl text-sm font-semibold hover:border-foreground transition-colors active:scale-[0.98]"
             >
-              {harAbonnement(profil.data) ? "Administrer abonnement" : "Kjøp abonnement"}
+              {harAbonnement(profil)
+                ? "Administrer abonnement"
+                : kanProve(profil)
+                  ? `Prøv gratis i ${PROVEDAGER} dager`
+                  : "Kjøp abonnement"}
             </Link>
             <Link
               href="/nytt-passord"
@@ -97,8 +94,12 @@ export default function KontoPage() {
 }
 
 function abonnementTekst(p: Profil): string {
-  const navn = ABONNEMENT[p.abonnement] ?? p.abonnement;
-  if (!harAbonnement(p) || !p.abonnement_til) return navn;
+  const navn = PLANNAVN[p.abonnement] ?? p.abonnement;
+  if (!harAbonnement(p)) return "Gratis – øvingene er låst";
+  if (p.provetid_til) {
+    return `Prøveperiode (${navn.toLowerCase()}) – ${p.abonnement_avsluttes ? "avsluttes" : "første trekk"} ${datoTekst(p.provetid_til)}`;
+  }
+  if (!p.abonnement_til) return navn;
   return `${navn} – ${p.abonnement_avsluttes ? "avsluttes" : "fornyes"} ${datoTekst(p.abonnement_til)}`;
 }
 
