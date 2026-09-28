@@ -187,9 +187,9 @@ function Fagvalg() {
             </div>
           </section>
 
+          {/* Minst én skjermhøyde, så siden alltid kan bla temaene helt opp – også
+              mens de hentes, og når faget har få temaer. */}
           {fag && (
-            {/* Minst én skjermhøyde, så siden alltid kan bla temaene helt opp – også
-                mens de hentes, og når faget har få temaer. */}
             <section
               ref={temaSeksjon}
               aria-labelledby="tema-label"
