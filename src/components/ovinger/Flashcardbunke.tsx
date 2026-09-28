@@ -55,6 +55,8 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (done) return;
+      // Ikke snu eller svar mens eleven skriver, for eksempel i AI-chatten.
+      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog]")) return;
       if (e.key === " " && !(e.target as HTMLElement).closest("button")) {
         e.preventDefault();
         setFlipped((v) => !v);
@@ -81,7 +83,7 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
         </div>
       </Ovingstopp>
 
-      <main id="innhold" className="flex-1 flex flex-col items-center justify-center gap-8 px-5 py-10">
+      <main id="innhold" className="flex-1 flex flex-col items-center justify-center gap-8 px-5 pt-10 pb-28">
         {done || !card ? (
           <div className="w-full max-w-md flex flex-col items-center text-center gap-6 rise">
             <p className="text-sm font-medium text-muted">Bunken er ferdig</p>

@@ -1,16 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { Suspense, useEffect, useState } from "react";
-import { AiHjelp } from "@/components/AiHjelp";
+import { Suspense } from "react";
+import { SporAi } from "@/components/AiHjelp";
 import { Dot } from "@/components/Dot";
 import { AppBar } from "@/components/AppBar";
 import {
   Book,
   Cards,
-  Chat,
   ChevronRight,
-  Close,
   Lock,
   Quiz,
   Timer,
@@ -51,14 +49,6 @@ function Tema() {
   const brukerNokkel = id && bruker ? `${id}:${bruker.id}` : null;
   const omfang = useHent(brukerNokkel, () => hentOmfang(id!));
   const fremdrift = useHent(brukerNokkel, () => hentFremdrift([id!]));
-  const [chatOpen, setChatOpen] = useState(false);
-
-  useEffect(() => {
-    if (!chatOpen) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setChatOpen(false);
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [chatOpen]);
 
   const t = tema.data;
   const tilbake = t ? `/fag?trinn=${t.trinnId}&fag=${t.fagId}` : "/fag";
@@ -159,26 +149,7 @@ function Tema() {
       )}
 
       {/* AI-hjelp */}
-      {t && (
-        <div className="fixed bottom-6 right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
-          <AiHjelp
-            temaId={id}
-            temaNavn={t.navn}
-            fagNavn={t.fagNavn}
-            apen={chatOpen}
-            onLukk={() => setChatOpen(false)}
-          />
-          <button
-            onClick={() => setChatOpen((v) => !v)}
-            aria-expanded={chatOpen}
-            aria-controls="ai-panel"
-            className="flex items-center gap-2.5 h-13 pl-4 pr-5 rounded-2xl bg-foreground text-background font-semibold text-sm shadow-lift transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.97]"
-          >
-            {chatOpen ? <Close size={20} /> : <Chat size={20} />}
-            {chatOpen ? "Lukk" : "Spør AI"}
-          </button>
-        </div>
-      )}
+      {t && <SporAi temaId={id} temaNavn={t.navn} fagNavn={t.fagNavn} />}
     </div>
   );
 }

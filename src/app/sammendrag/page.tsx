@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Suspense, useState } from "react";
+import { SporAi } from "@/components/AiHjelp";
 import { AppBar } from "@/components/AppBar";
 import { ArrowRight, Book, Mindmap } from "@/components/icons";
 import { Sammendragtekst } from "@/components/ovinger/Sammendragtekst";
@@ -99,6 +100,7 @@ function Sammendrag() {
             </div>
           </main>
         ))}
+      {data && <SporAi temaId={id} temaNavn={data.tema.navn} fagNavn={data.tema.fagNavn} />}
     </>
   );
 }

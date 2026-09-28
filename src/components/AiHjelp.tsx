@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { ArrowUp, Close } from "@/components/icons";
+import { ArrowUp, Chat, Close } from "@/components/icons";
 import { useAuth } from "@/lib/auth";
 import { temaHref } from "@/lib/pensum";
 import { supabase, supabaseKey, supabaseUrl } from "@/lib/supabase";
@@ -16,7 +16,35 @@ type Melding = { rolle: "bruker" | "assistent"; tekst: string };
 
 const FORSLAG = ["Forklar temaet kort", "Hva er de viktigste begrepene?", "Gi meg en øvingsoppgave"];
 
-export function AiHjelp({
+// Den flytende «Spør AI»-knappen med chatpanelet. Brukes i temasiden,
+// flashcards og sammendrag.
+export function SporAi({ temaId, temaNavn, fagNavn }: { temaId: string; temaNavn: string; fagNavn: string }) {
+  const [apen, setApen] = useState(false);
+
+  useEffect(() => {
+    if (!apen) return;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setApen(false);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [apen]);
+
+  return (
+    <div className="fixed bottom-6 right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
+      <AiHjelp temaId={temaId} temaNavn={temaNavn} fagNavn={fagNavn} apen={apen} onLukk={() => setApen(false)} />
+      <button
+        onClick={() => setApen((v) => !v)}
+        aria-expanded={apen}
+        aria-controls="ai-panel"
+        className="flex items-center gap-2.5 h-13 pl-4 pr-5 rounded-2xl bg-foreground text-background font-semibold text-sm shadow-lift transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.97]"
+      >
+        {apen ? <Close size={20} /> : <Chat size={20} />}
+        {apen ? "Lukk" : "Spør AI"}
+      </button>
+    </div>
+  );
+}
+
+function AiHjelp({
   temaId,
   temaNavn,
   fagNavn,
