@@ -124,6 +124,9 @@ Deno.serve(async (req) => {
         subscription_data: { metadata: { bruker_id: brukerId } },
         metadata: { bruker_id: brukerId },
         locale: "nb" as const,
+        // Studer selger selv (ungdomsbedrift uten mva). Managed Payments gjør Stripe
+        // til selger og legger på skatt – det er på som standard på nye kontoer.
+        managed_payments: { enabled: false },
         // Kort, Apple Pay og Google Pay fullføres inne på siden. Bare betalingsmåter
         // som krever at eleven sendes til banken sin, kommer tilbake hit etterpå.
         redirect_on_completion: "if_required" as const,
