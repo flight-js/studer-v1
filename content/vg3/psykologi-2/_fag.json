@@ -1,0 +1,69 @@
+{
+  "id": "psykologi-2",
+  "trinnId": "vg3",
+  "name": "Psykologi 2",
+  "lareplan": {
+    "kode": "PSY01-04",
+    "url": "https://www.udir.no/lk20/psy01-04/kompetansemaal-og-vurdering/kv884",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "planlegge, beskrive og gjennomføre en undersøkelse av en psykologisk problemstilling, analysere og drøfte resultater"
+      },
+      {
+        "nr": 3,
+        "tekst": "sammenligne og anvende ulike vitenskapelige tilnærminger, teorier, perspektiver og metoder, og vurdere forskjellige forklaringer på psykologiske problemstillinger"
+      },
+      {
+        "nr": 4,
+        "tekst": "drøfte hvordan sosial påvirkning og interaksjon i grupper kan påvirke holdninger, atferd og identitet"
+      },
+      {
+        "nr": 5,
+        "tekst": "drøfte årsaker til utenforskap og reflektere over konsekvenser for individet"
+      },
+      {
+        "nr": 6,
+        "tekst": "gjøre rede for faktorer som påvirker utviklingen av sosial kompetanse, og reflektere over betydningen av sosial kompetanse"
+      },
+      {
+        "nr": 7,
+        "tekst": "gjøre rede for hvordan mellommenneskelige konflikter kan oppstå og utvikle seg, og drøfte hvordan verbal og ikke-verbal kommunikasjon kan bidra til både å utvikle og å løse konflikter"
+      },
+      {
+        "nr": 8,
+        "tekst": "drøfte hvordan ulike former for kommunikasjon påvirker sosial samhandling og livskvalitet"
+      },
+      {
+        "nr": 9,
+        "tekst": "reflektere over hvordan synet på psykisk helse og behandling av psykiske lidelser har endret seg og er i endring"
+      },
+      {
+        "nr": 10,
+        "tekst": "drøfte begrepene normalitet og psykisk helse og reflektere over hva som skiller psykiske vansker og psykiske lidelser"
+      },
+      {
+        "nr": 11,
+        "tekst": "utforske samspillet mellom biologiske, psykologiske og sosiale faktorer for utvikling av god psykisk helse, og drøfte forebygging og behandling av psykiske vansker og lidelser i lys av dette"
+      }
+    ]
+  },
+  "temaer": [
+    "kilder-og-informasjon",
+    "egen-undersokelse",
+    "teorier-og-forklaringer",
+    "sosial-pavirkning-og-grupper",
+    "utenforskap",
+    "sosial-kompetanse",
+    "konflikter-og-kommunikasjon",
+    "kommunikasjon-og-livskvalitet",
+    "psykisk-helse-i-endring",
+    "normalitet-og-psykisk-helse",
+    "biopsykososial-modell",
+    "forebygging-og-behandling"
+  ]
+}

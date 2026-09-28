@@ -1,0 +1,81 @@
+{
+  "id": "egen-undersokelse",
+  "fagId": "psykologi-2",
+  "trinnId": "vg3",
+  "name": "Å gjennomføre en psykologisk undersøkelse",
+  "intro": "Hvordan du planlegger, beskriver og gjennomfører en egen undersøkelse av en psykologisk problemstilling – problemstilling og hypotese, valg av metode og utvalg, forskningsetikk, reliabilitet og validitet – og hvordan du analyserer, drøfter og presenterer resultatene.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Problemstilling og hypotese\n\nEn god undersøkelse starter med en **problemstilling** som er **avgrenset** og **mulig å undersøke**, for eksempel: *Hvordan påvirker gruppepress elevers svar i en klassesituasjon?* eller *Er det sammenheng mellom søvn og konsentrasjon hos elever på Vg3?*\n\nEn **hypotese** er et **begrunnet** forslag til svar som kan **testes**: «Elever som sover mindre enn sju timer, rapporterer dårligere konsentrasjon.»\n\n## Valg av metode\n\n- **Kvantitativ metode** gir **tall** og passer når du vil undersøke **mange** personer og finne **mønstre** – for eksempel et **spørreskjema** eller et enkelt **eksperiment**.\n- **Kvalitativ metode** gir **dybdeinnsikt** i opplevelser og meninger – for eksempel **intervju** eller **observasjon**.\n\nI et **eksperiment** endrer du én faktor – den **uavhengige variabelen** – og måler effekten på den **avhengige variabelen**. En **kontrollgruppe** gjør det mulig å sammenligne. Bare eksperimenter kan gi sterke holdepunkter for **årsak og virkning**.\n\n## Utvalg\n\n**Utvalget** er de personene du undersøker. Et **tilfeldig** og **representativt** utvalg gjør det lettere å **generalisere**. I skolesammenheng bruker man ofte et **bekvemmelighetsutvalg** – for eksempel egen klasse – og da må du være **forsiktig** med å trekke generelle konklusjoner.\n\n## Forskningsetikk\n\n- **Informert samtykke**: Deltakerne skal vite hva de er med på, og at de kan **trekke seg** når som helst.\n- **Anonymitet** og **konfidensialitet**: Svarene skal ikke kunne knyttes til enkeltpersoner.\n- **Ikke skade**: Unngå spørsmål eller situasjoner som kan være **belastende**. Unngå **sensitive** temaer som psykisk helse uten veiledning.\n- **Villedning** må brukes svært forsiktig og følges opp med **debrifing**.\n- **Barn under 16** må ofte ha **foresattes** samtykke.\n\nDe **forskningsetiske retningslinjene** i Norge gir veiledning om dette.\n\n## Reliabilitet og validitet\n\n- **Reliabilitet** – pålitelighet: Gir målingen **samme** resultat hvis den gjentas? Uklare spørsmål og ulike forhold under datainnsamlingen svekker reliabiliteten.\n- **Validitet** – gyldighet: Måler du det du **faktisk** vil måle? Spør du om «stress», må spørsmålene fange opp stress – ikke bare travelhet.\n\n## Gjennomføring\n\n1. Lag og **test** spørreskjemaet eller intervjuguiden på noen få personer – en **pilotundersøkelse**.\n2. Samle inn data under mest mulig **like** forhold.\n3. **Registrer** dataene nøyaktig, for eksempel i et regneark.\n\n## Analyse\n\n- **Kvantitative** data: Regn ut **gjennomsnitt**, **prosentandeler** og eventuelt **spredning**. Vis resultatene i **tabeller** og **diagrammer**.\n- **Kvalitative** data: Les gjennom svarene, finn **temaer** og **mønstre**, og bruk **sitater**.\n\n## Drøfting\n\nI drøftingen\n\n- **tolker** du resultatene: Støtter de **hypotesen**?\n- sammenligner du med **teori** og **tidligere forskning**\n- vurderer du **feilkilder**: lite utvalg, uklare spørsmål, **sosial ønskverdighet** – at folk svarer det de tror er «riktig»\n- drøfter du **alternative forklaringer**\n\n## Presentasjon\n\nEn rapport har gjerne delene **innledning**, **teori**, **metode**, **resultater**, **drøfting** og **konklusjon**. Konklusjonen skal være **forsiktig** og ta hensyn til begrensningene.",
+  "flashcards": [
+    { "term": "Problemstilling", "def": "Avgrenset spørsmål som kan undersøkes." },
+    { "term": "Hypotese", "def": "Begrunnet forslag til svar som kan testes." },
+    { "term": "Kvantitativ metode", "def": "Gir tall og mønstre fra mange personer." },
+    { "term": "Kvalitativ metode", "def": "Gir dybdeinnsikt i opplevelser og meninger." },
+    { "term": "Uavhengig variabel", "def": "Faktoren forskeren endrer i et eksperiment." },
+    { "term": "Avhengig variabel", "def": "Det som måles i et eksperiment." },
+    { "term": "Kontrollgruppe", "def": "Gruppe som ikke får behandlingen – gir sammenligning." },
+    { "term": "Representativt utvalg", "def": "Speiler populasjonen man vil si noe om." },
+    { "term": "Bekvemmelighetsutvalg", "def": "Utvalg av de som er lett tilgjengelige." },
+    { "term": "Informert samtykke", "def": "Deltakerne vet hva de er med på og kan trekke seg." },
+    { "term": "Debrifing", "def": "Samtale etter studien der deltakerne får full informasjon." },
+    { "term": "Reliabilitet", "def": "Pålitelighet – samme resultat ved gjentakelse." },
+    { "term": "Validitet", "def": "Gyldighet – måler det man vil måle." },
+    { "term": "Pilotundersøkelse", "def": "Test av skjema eller intervjuguide på få personer." },
+    { "term": "Sosial ønskverdighet", "def": "At folk svarer det de tror er riktig eller akseptert." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en hypotese?", "options": ["En konklusjon", "Et begrunnet forslag til svar som kan testes", "Et spørreskjema", "En tabell"], "correct": 1, "explain": "Testes i undersøkelsen." },
+    { "id": "q02", "text": "Hva er validitet?", "options": ["At man måler det man faktisk vil måle", "At målingen gir samme resultat hver gang", "At utvalget er stort", "At svarene er anonyme"], "correct": 0, "explain": "Gyldighet." },
+    { "id": "q03", "text": "Hvilken metode passer best for å forstå opplevelser i dybden?", "options": ["Spørreskjema med avkrysning", "Eksperiment", "Intervju", "Statistikk fra SSB"], "correct": 2, "explain": "Kvalitativ metode." },
+    { "id": "q04", "text": "Hva er den uavhengige variabelen i et eksperiment?", "options": ["Det som måles", "Deltakerne", "Resultatet", "Faktoren forskeren endrer"], "correct": 3, "explain": "Den avhengige variabelen måles." },
+    { "id": "q05", "text": "Hva innebærer informert samtykke?", "options": ["At deltakerne vet hva de er med på og kan trekke seg", "At læreren bestemmer", "At svarene publiseres med navn", "At deltakerne får betalt"], "correct": 0, "explain": "Et grunnleggende etisk krav." },
+    { "id": "q06", "text": "Hva er reliabilitet?", "options": ["Gyldighet", "Pålitelighet – samme resultat ved gjentakelse", "Antall deltakere", "Hvor interessant temaet er"], "correct": 1, "explain": "Svekkes av uklare spørsmål." },
+    { "id": "q07", "text": "Hvorfor bør du være forsiktig med å generalisere fra egen klasse?", "options": ["Fordi klassen er for smart", "Fordi det er ulovlig", "Fordi det er et bekvemmelighetsutvalg som kanskje ikke er representativt", "Fordi klassen er for stor"], "correct": 2, "explain": "Kan ikke uten videre overføres til alle." },
+    { "id": "q08", "text": "Hva er sosial ønskverdighet?", "options": ["At alle ønsker å delta", "At forskeren ønsker et bestemt resultat", "At man ønsker venner", "At deltakere svarer det de tror er akseptert"], "correct": 3, "explain": "En vanlig feilkilde." },
+    { "id": "q09", "text": "Hva er en pilotundersøkelse?", "options": ["En test av skjemaet på noen få personer", "Hele undersøkelsen", "En undersøkelse av piloter", "Den endelige rapporten"], "correct": 0, "explain": "Avdekker uklare spørsmål." },
+    { "id": "q10", "text": "Hvilken type undersøkelse kan gi sterkest holdepunkt for årsak og virkning?", "options": ["Intervju", "Eksperiment med kontrollgruppe", "Observasjon", "Spørreskjema"], "correct": 1, "explain": "Man endrer én faktor og sammenligner." }
+  ],
+  "mindmap": {
+    "label": "Egen undersøkelse",
+    "children": [
+      { "label": "Planlegging", "children": [
+        { "label": "Problemstilling" },
+        { "label": "Hypotese" }
+      ] },
+      { "label": "Metode", "children": [
+        { "label": "Kvantitativ" },
+        { "label": "Kvalitativ" },
+        { "label": "Eksperiment" }
+      ] },
+      { "label": "Etikk", "children": [
+        { "label": "Samtykke" },
+        { "label": "Anonymitet" },
+        { "label": "Ikke skade" }
+      ] },
+      { "label": "Kvalitet", "children": [
+        { "label": "Reliabilitet" },
+        { "label": "Validitet" },
+        { "label": "Utvalg" }
+      ] },
+      { "label": "Etterarbeid", "children": [
+        { "label": "Analyse" },
+        { "label": "Drøfting og feilkilder" },
+        { "label": "Rapport" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Deltakere kan trekke seg fra en undersøkelse når som helst.", "correct": true, "explain": "Del av informert samtykke." },
+      { "id": "m02", "type": "sant-usant", "text": "Et spørreskjema gir alltid høy validitet.", "correct": false, "explain": "Spørsmålene må faktisk måle det man vil undersøke." },
+      { "id": "m03", "type": "sant-usant", "text": "I kvalitativ analyse ser man etter temaer og mønstre.", "correct": true, "explain": "Gjerne med sitater." },
+      { "id": "m04", "type": "sant-usant", "text": "Konklusjonen bør se bort fra begrensningene i undersøkelsen.", "correct": false, "explain": "Den skal være forsiktig og ta hensyn til dem." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er den avhengige variabelen i en studie av søvn og konsentrasjon?", "options": ["Søvn", "Konsentrasjon", "Alder", "Skole"], "correct": 1, "explain": "Det som måles som mulig effekt." },
+      { "id": "m06", "type": "flervalg", "text": "Hva må ofte til når deltakerne er under 16 år?", "options": ["Foresattes samtykke", "Politiattest", "Betaling", "Rektors signatur alene"], "correct": 0, "explain": "Etiske krav." },
+      { "id": "m07", "type": "flervalg", "text": "Hva hører hjemme i drøftingen?", "options": ["Bare tabeller", "Bare problemstillingen", "Tolking, sammenligning med teori og feilkilder", "Kun takk til deltakerne"], "correct": 2, "explain": "Også alternative forklaringer." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "forebygging-og-behandling",
+  "fagId": "psykologi-2",
+  "trinnId": "vg3",
+  "name": "Forebygging og behandling av psykiske vansker og lidelser",
+  "intro": "Hvordan psykiske vansker og lidelser kan forebygges og behandles i lys av den biopsykososiale modellen – helsefremming og universell, selektiv og indikert forebygging, hjelpeapparatet i kommunen og spesialisthelsetjenesten, psykoterapi og medisiner, evidensbasert praksis og brukermedvirkning.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Helsefremming og forebygging\n\n- **Helsefremming** styrker det som gir **god** psykisk helse – mestring, tilhørighet og mening.\n- **Forebygging** skal hindre at **problemer** oppstår eller utvikler seg.\n\nForebygging deles ofte inn i tre nivåer:\n\n- **Universell**: rettet mot **alle** – for eksempel **livsmestring** i skolen, fysisk aktivitet og tiltak mot **mobbing**\n- **Selektiv**: rettet mot **risikogrupper** – for eksempel barn av foreldre med psykisk sykdom eller rusproblemer\n- **Indikert**: rettet mot personer med **tidlige symptomer** – for eksempel kurs i å mestre nedstemthet for ungdom\n\n## Forebygging på tre nivåer\n\nI lys av den **biopsykososiale** modellen kan forebygging rette seg mot\n\n- **biologi**: søvn, fysisk aktivitet, kosthold, å utsette **rusdebut**\n- **psykologi**: **emosjonsregulering**, **mestringsstrategier** og realistisk tenkning\n- **sosiale forhold**: trygge **skolemiljøer**, gratis fritidsaktiviteter, støtte til **familier** og tiltak mot **fattigdom**\n\n## Hjelpeapparatet\n\n**Kommunen** – første linje:\n\n- **helsesykepleier** og **skolehelsetjeneste**\n- **fastlege**\n- **psykolog** i kommunen og **Rask psykisk helsehjelp**\n- **helsestasjon for ungdom**\n\n**Spesialisthelsetjenesten** – andre linje:\n\n- **BUP** – barne- og ungdomspsykiatrisk poliklinikk\n- **DPS** – distriktspsykiatrisk senter for voksne\n- **sykehus** ved alvorlige lidelser\n\nMan trenger vanligvis **henvisning** fra fastlegen for å komme til spesialisthelsetjenesten.\n\n## Psykoterapi\n\n- **Kognitiv atferdsterapi (KAT)**: arbeider med sammenhengen mellom **tanker**, **følelser** og **atferd**. Ved angst brukes ofte **eksponering** – gradvis å møte det man frykter. KAT har sterk **forskningsstøtte**.\n- **Psykodynamisk terapi**: utforsker **ubevisste** mønstre og **relasjonserfaringer**.\n- **Interpersonlig terapi**: fokuserer på **relasjoner** og livsendringer.\n- **Familieterapi**: involverer **familien**, særlig når barn og unge strever.\n- **Gruppeterapi**: deltakerne lærer av og støtter hverandre.\n\nForskning viser at **relasjonen** mellom terapeut og klient – **terapeutisk allianse** – har stor betydning for resultatet, uansett metode.\n\n## Medisiner\n\n- **Antidepressiva**, for eksempel **SSRI**, ved moderat til alvorlig depresjon og enkelte angstlidelser\n- **Antipsykotika** ved psykoselidelser\n- **Stemningsstabiliserende** medisiner ved bipolar lidelse\n\nMedisiner kan ha **bivirkninger**, og ved lettere plager anbefales ofte **samtalebehandling** først. Ofte gir **kombinasjonen** av medisiner og terapi best effekt ved alvorlige lidelser.\n\n## Behandling på flere nivåer\n\n- **Biologisk**: medisiner, søvn, fysisk aktivitet\n- **Psykologisk**: terapi og mestringsstrategier\n- **Sosialt**: samarbeid med **skole**, **NAV** og **familie**, tilrettelegging og nettverk\n\n## Evidensbasert praksis og brukermedvirkning\n\n**Evidensbasert praksis** betyr å kombinere **forskning**, **klinisk erfaring** og **pasientens** ønsker og verdier. **Brukermedvirkning** innebærer at pasienten er med på å velge **mål** og **behandling**.\n\n## Aktuelle debatter\n\n- **Ventetider** og økende pågang fra unge\n- Bruk av **medisiner** blant barn og unge\n- **Digitale** behandlingsprogrammer\n- Om skolen gjør **nok** – eller for mye – med psykisk helse\n\n## Å søke hjelp\n\nHar du det vanskelig, kan du snakke med **helsesykepleier**, **fastlege** eller en voksen du stoler på. **Mental Helses hjelpetelefon 116 123** er åpen hele døgnet. Ved **akutt fare** for liv og helse ringer du **113**.",
+  "flashcards": [
+    { "term": "Helsefremming", "def": "Styrke det som gir god psykisk helse." },
+    { "term": "Universell forebygging", "def": "Rettet mot alle, for eksempel livsmestring i skolen." },
+    { "term": "Selektiv forebygging", "def": "Rettet mot risikogrupper." },
+    { "term": "Indikert forebygging", "def": "Rettet mot personer med tidlige symptomer." },
+    { "term": "Første linje", "def": "Kommunale tjenester som helsesykepleier, fastlege og kommunepsykolog." },
+    { "term": "Andre linje", "def": "Spesialisthelsetjenesten – BUP, DPS og sykehus." },
+    { "term": "Henvisning", "def": "Vanligvis fra fastlegen for å komme til spesialisthelsetjenesten." },
+    { "term": "Kognitiv atferdsterapi", "def": "Arbeider med tanker, følelser og atferd – sterk forskningsstøtte." },
+    { "term": "Eksponering", "def": "Gradvis å møte det man frykter." },
+    { "term": "Psykodynamisk terapi", "def": "Utforsker ubevisste mønstre og relasjonserfaringer." },
+    { "term": "Terapeutisk allianse", "def": "Relasjonen mellom terapeut og klient." },
+    { "term": "SSRI", "def": "En type antidepressiva." },
+    { "term": "Evidensbasert praksis", "def": "Forskning, klinisk erfaring og pasientens ønsker." },
+    { "term": "Mental Helses hjelpetelefon", "def": "116 123 – åpen hele døgnet." },
+    { "term": "113", "def": "Nødnummer ved akutt fare for liv og helse." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er universell forebygging?", "options": ["Tiltak for de som allerede er syke", "Tiltak rettet mot alle", "Tiltak bare for risikogrupper", "Medisinering"], "correct": 1, "explain": "For eksempel livsmestring i skolen." },
+    { "id": "q02", "text": "Hva er BUP?", "options": ["Barne- og ungdomspsykiatrisk poliklinikk", "En kommunal skole", "En medisin", "En terapiform"], "correct": 0, "explain": "Del av spesialisthelsetjenesten." },
+    { "id": "q03", "text": "Hva er eksponering i behandling av angst?", "options": ["Å unngå det man frykter", "Å ta medisiner", "Å gradvis møte det man frykter", "Å snakke om barndommen"], "correct": 2, "explain": "En del av kognitiv atferdsterapi." },
+    { "id": "q04", "text": "Hva er terapeutisk allianse?", "options": ["En avtale om betaling", "En medisin", "En diagnose", "Relasjonen mellom terapeut og klient"], "correct": 3, "explain": "Har stor betydning for resultatet." },
+    { "id": "q05", "text": "Hva er evidensbasert praksis?", "options": ["Å kombinere forskning, klinisk erfaring og pasientens ønsker", "Å bare følge egen erfaring", "Å bare bruke medisiner", "Å gjøre som pasienten sier"], "correct": 0, "explain": "Tre kunnskapskilder." },
+    { "id": "q06", "text": "Hvem kan du vanligvis få henvisning fra til spesialisthelsetjenesten?", "options": ["Læreren", "Fastlegen", "Rektor", "Politiet"], "correct": 1, "explain": "Fastlegen henviser." },
+    { "id": "q07", "text": "Hva er selektiv forebygging?", "options": ["Tiltak for alle", "Tiltak for de med diagnose", "Tiltak rettet mot risikogrupper", "Tiltak bare på sykehus"], "correct": 2, "explain": "For eksempel barn av foreldre med rusproblemer." },
+    { "id": "q08", "text": "Hvilket nummer kan du ringe hele døgnet for å snakke med noen?", "options": ["112", "110", "1881", "116 123"], "correct": 3, "explain": "Mental Helses hjelpetelefon." },
+    { "id": "q09", "text": "Hva er et sosialt behandlingstiltak?", "options": ["Samarbeid med skole og NAV om tilrettelegging", "SSRI", "Søvnmedisin", "Eksponering"], "correct": 0, "explain": "Behandling på flere nivåer." },
+    { "id": "q10", "text": "Hva anbefales ofte først ved lettere psykiske plager?", "options": ["Innleggelse", "Samtalebehandling", "Sterke medisiner", "Ingen hjelp"], "correct": 1, "explain": "Medisiner kan ha bivirkninger." }
+  ],
+  "mindmap": {
+    "label": "Forebygging og behandling",
+    "children": [
+      { "label": "Forebygging", "children": [
+        { "label": "Universell" },
+        { "label": "Selektiv" },
+        { "label": "Indikert" }
+      ] },
+      { "label": "Hjelpeapparatet", "children": [
+        { "label": "Kommunen" },
+        { "label": "BUP og DPS" }
+      ] },
+      { "label": "Psykoterapi", "children": [
+        { "label": "KAT og eksponering" },
+        { "label": "Psykodynamisk og familie" },
+        { "label": "Terapeutisk allianse" }
+      ] },
+      { "label": "Medisiner", "children": [
+        { "label": "Antidepressiva" },
+        { "label": "Antipsykotika" }
+      ] },
+      { "label": "Prinsipper", "children": [
+        { "label": "Flere nivåer" },
+        { "label": "Evidensbasert praksis" },
+        { "label": "Brukermedvirkning" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kombinasjonen av medisiner og terapi gir ofte best effekt ved alvorlige lidelser.", "correct": true, "explain": "Virker på flere nivåer." },
+      { "id": "m02", "type": "sant-usant", "text": "Helsefremming handler bare om å behandle sykdom.", "correct": false, "explain": "Den styrker det som gir god helse." },
+      { "id": "m03", "type": "sant-usant", "text": "Ved akutt fare for liv og helse skal man ringe 113.", "correct": true, "explain": "Medisinsk nødhjelp." },
+      { "id": "m04", "type": "sant-usant", "text": "Bare metoden avgjør om terapi virker, ikke relasjonen.", "correct": false, "explain": "Terapeutisk allianse har stor betydning." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken terapiform involverer hele familien?", "options": ["KAT", "Familieterapi", "Interpersonlig terapi", "Eksponering"], "correct": 1, "explain": "Særlig ved barn og unge." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er et eksempel på indikert forebygging?", "options": ["Kurs i å mestre nedstemthet for ungdom med symptomer", "Livsmestring for alle elever", "Gratis fritidsaktiviteter", "Tiltak mot mobbing for alle"], "correct": 0, "explain": "Rettet mot tidlige symptomer." },
+      { "id": "m07", "type": "flervalg", "text": "Hvor kan du få hjelp på skolen?", "options": ["I kantinen", "Hos vaktmesteren", "Hos helsesykepleier i skolehelsetjenesten", "Ingen steder"], "correct": 2, "explain": "Første linje." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}
