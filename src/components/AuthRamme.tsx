@@ -93,7 +93,7 @@ export function Melding({ type, children }: { type: "feil" | "ok"; children: Rea
 }
 
 // Hvor man sendes etter innlogging. Bare lokale stier godtas.
-export function useNeste(standard = "/fag") {
+export function useNeste(standard = "/") {
   const neste = useSearchParams().get("neste");
   return neste && neste.startsWith("/") && !neste.startsWith("//") ? neste : standard;
 }

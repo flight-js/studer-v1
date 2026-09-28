@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { Dot } from "@/components/Dot";
 import { Logo } from "@/components/Logo";
-import { FagOversikt, ForsideMeny } from "@/components/Forside";
+import { FagOversikt, ForsideMeny, Startside } from "@/components/Forside";
 import { ArrowRight, Check } from "@/components/icons";
+import { oktNokkel } from "@/lib/supabase";
 
 const MONTHLY = 59;
 const YEARLY = 499;
@@ -13,7 +14,22 @@ const btnPrimary =
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1">
+    <>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `try{if(localStorage.getItem(${JSON.stringify(oktNokkel)}))document.documentElement.classList.add("har-okt")}catch(e){}`,
+        }}
+      />
+      <Startside>
+        <Markedsside />
+      </Startside>
+    </>
+  );
+}
+
+function Markedsside() {
+  return (
+    <div className="kun-utlogget flex flex-col flex-1">
       <header className="sticky top-0 z-40 bg-background/85 backdrop-blur-md border-b border-border">
         <div className="max-w-6xl mx-auto flex items-center justify-between px-5 sm:px-8 h-18">
           <Link href="/" aria-label="Studer – forsiden" className="rounded-md">

@@ -64,7 +64,7 @@ function LoggInn() {
     );
   }
 
-  const q = neste !== "/fag" ? `?neste=${encodeURIComponent(neste)}` : "";
+  const q = neste !== "/" ? `?neste=${encodeURIComponent(neste)}` : "";
 
   return (
     <AuthRamme

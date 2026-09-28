@@ -138,6 +138,11 @@ body::before {
   transform: rotateY(180deg);
 }
 
+/* Forsiden: skjul markedssiden mens en lagret innlogging sjekkes (se Startside) */
+.har-okt .kun-utlogget {
+  visibility: hidden;
+}
+
 /* Innslide ved sidelast */
 @keyframes rise {
   from {

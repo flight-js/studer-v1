@@ -27,7 +27,7 @@ export default function NyttPassordPage() {
     const { error } = await supabase.auth.updateUser({ password: passord });
     setSender(false);
     if (error) setFeil(feilmelding(error));
-    else router.replace("/fag");
+    else router.replace("/");
   }
 
   if (laster) return <Laster tekst="Sjekker innloggingen" />;

@@ -173,6 +173,38 @@ export async function hentFremdrift(temaIder: string[]): Promise<Record<string, 
   return ut;
 }
 
+export type SistOvdTema = {
+  id: string;
+  navn: string;
+  fagNavn: string;
+  trinnNavn: string;
+  fremdrift: Fremdrift;
+};
+
+// Temaene brukeren har øvd på sist, nyeste først.
+export async function hentSisteTemaer(antall: number): Promise<SistOvdTema[]> {
+  const rader = sjekk(
+    await supabase
+      .from("fremdrift")
+      .select("tema_id, sist_ovd, temaer(navn, fag(navn, trinn(navn)))")
+      .order("sist_ovd", { ascending: false })
+      .limit(antall * 3)
+  );
+  const valgte = new Map<string, Omit<SistOvdTema, "fremdrift">>();
+  for (const r of rader) {
+    if (valgte.size >= antall) break;
+    if (!r.temaer || valgte.has(r.tema_id)) continue;
+    valgte.set(r.tema_id, {
+      id: r.tema_id,
+      navn: r.temaer.navn,
+      fagNavn: r.temaer.fag.navn,
+      trinnNavn: r.temaer.fag.trinn.navn,
+    });
+  }
+  const fremdrift = await hentFremdrift([...valgte.keys()]);
+  return [...valgte.values()].map((t) => ({ ...t, fremdrift: fremdrift[t.id] ?? {} }));
+}
+
 // Andel av temaet som er gjennomgått: snittet av beste resultat i de tre
 // øvingsformene (en form man ikke har prøvd, teller som 0).
 export function prosentGjennomgatt(f: Fremdrift | undefined): number {

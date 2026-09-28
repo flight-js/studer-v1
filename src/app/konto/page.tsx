@@ -7,6 +7,7 @@ import { AppBar } from "@/components/AppBar";
 import { ArrowRight, LogOut } from "@/components/icons";
 import { KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth } from "@/lib/auth";
+import { hentProfil } from "@/lib/profil";
 import { supabase } from "@/lib/supabase";
 import { useHent } from "@/lib/useHent";
 
@@ -20,10 +21,7 @@ export default function KontoPage() {
   const router = useRouter();
   const { bruker, laster } = useAuth();
   const [loggerUt, setLoggerUt] = useState(false);
-  const profil = useHent(bruker ? `profil:${bruker.id}` : null, async () => {
-    const { data } = await supabase.from("profiles").select("navn, abonnement").maybeSingle();
-    return data;
-  });
+  const profil = useHent(bruker ? `profil:${bruker.id}` : null, hentProfil);
 
   async function loggUt() {
     setLoggerUt(true);
@@ -33,7 +31,7 @@ export default function KontoPage() {
 
   return (
     <div className="flex flex-col flex-1">
-      <AppBar back="/fag" backLabel="Fag" />
+      <AppBar back="/" backLabel="Hjem" />
       {laster ? (
         <Laster tekst="Henter kontoen" />
       ) : !bruker ? (
@@ -65,7 +63,7 @@ export default function KontoPage() {
 
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/fag"
+              href="/"
               className="group inline-flex items-center gap-2 bg-primary text-white px-5 py-3.5 rounded-xl text-sm font-semibold hover:bg-primary-dark transition-colors active:scale-[0.98]"
             >
               Fortsett å øve

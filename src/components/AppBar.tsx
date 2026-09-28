@@ -29,14 +29,14 @@ export function AppBar({
         </Link>
         <div className="flex items-center gap-4">
           {children}
-          <Profil />
+          <ProfilKnapp />
         </div>
       </div>
     </header>
   );
 }
 
-function Profil() {
+export function ProfilKnapp() {
   const { bruker, laster } = useAuth();
   if (laster) return <span className="w-9 h-9 rounded-[10px] bg-sunken" aria-hidden="true" />;
   if (!bruker) {

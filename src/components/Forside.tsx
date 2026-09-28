@@ -1,12 +1,25 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect } from "react";
+import { Hjem } from "@/components/Hjem";
 import { useAuth } from "@/lib/auth";
 import { hentKatalog } from "@/lib/pensum";
 import { useHent } from "@/lib/useHent";
 
 // Klientdelene av forsiden: menyknapper som avhenger av innlogging, og
 // fagoversikten, som hentes fra Supabase.
+
+// Innloggede får sin egen startside i stedet for markedssiden. Et lite skript
+// i forsiden skjuler markedssiden med en gang hvis det finnes en lagret økt,
+// så den ikke blinker forbi; klassen fjernes igjen hvis økten ikke var gyldig.
+export function Startside({ children }: { children: React.ReactNode }) {
+  const { bruker, laster } = useAuth();
+  useEffect(() => {
+    if (!laster && !bruker) document.documentElement.classList.remove("har-okt");
+  }, [bruker, laster]);
+  return bruker ? <Hjem /> : children;
+}
 
 export function ForsideMeny({ lenke, knapp }: { lenke: string; knapp: string }) {
   const { bruker, laster } = useAuth();
