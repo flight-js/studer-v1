@@ -62,6 +62,19 @@ async function aktivtAbonnement(kunde: string) {
   return liste.data.find((s) => AKTIVE.includes(s.status)) ?? null;
 }
 
+// Den lagrede kunden finnes ikke hvis den er slettet, eller hvis den ble laget
+// i testmodus og nøklene nå er live (eller omvendt). Da lages en ny.
+async function finnesKunde(id: string | undefined): Promise<boolean> {
+  if (!id) return false;
+  try {
+    const k = await stripe!.customers.retrieve(id);
+    return !k.deleted;
+  } catch (e) {
+    if (e instanceof Stripe.errors.StripeInvalidRequestError && e.code === "resource_missing") return false;
+    throw e;
+  }
+}
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response(null, { status: 204, headers: cors });
   if (req.method !== "POST") return svar(405, { feil: "metode" });
@@ -93,6 +106,8 @@ Deno.serve(async (req) => {
   let kunde = rad?.stripe_kunde as string | undefined;
 
   try {
+    if (kunde && !(await finnesKunde(kunde))) kunde = undefined;
+
     if (handling === "start") {
       if (plan !== "maned" && plan !== "ar") return svar(400, { feil: "ugyldig" });
       const retur = nettstedet(req);
@@ -103,7 +118,12 @@ Deno.serve(async (req) => {
           email: typeof claims?.email === "string" ? claims.email : undefined,
           metadata: { bruker_id: brukerId },
         });
-        const { error } = await admin.from("betaling").insert({ bruker_id: brukerId, stripe_kunde: ny.id });
+        const { error } = rad
+          ? await admin
+              .from("betaling")
+              .update({ stripe_kunde: ny.id, stripe_abonnement: null, status: null, plan: null, gjelder_til: null })
+              .eq("bruker_id", brukerId)
+          : await admin.from("betaling").insert({ bruker_id: brukerId, stripe_kunde: ny.id });
         if (error) {
           // Et samtidig kall rakk å lage kunden først – bruk den.
           const { data: finnes } = await admin.from("betaling").select("stripe_kunde").eq("bruker_id", brukerId).single();
