@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useCallback, useEffect, useRef, useState } from "react";
-import { loadStripe, type Appearance, type StripeCheckoutLoadActionsSuccess } from "@stripe/stripe-js";
+import {
+  loadStripe,
+  type Appearance,
+  type StripeCheckoutLoadActionsSuccess,
+  type StripeExpressCheckoutElement,
+} from "@stripe/stripe-js";
 import { AppBar } from "@/components/AppBar";
 import { ArrowRight, Check, Lock } from "@/components/icons";
 import { Laster } from "@/components/Tilstand";
@@ -320,6 +325,11 @@ const UTSEENDE: Appearance = {
   },
 };
 
+// «ready» melder { applePay: true, … }, «availablepaymentmethodschange» { applePay: { available: true }, … }.
+type Lommeboker = Record<string, boolean | { available: boolean } | undefined>;
+const noenTilgjengelige = (metoder: Lommeboker | undefined) =>
+  !!metoder && Object.values(metoder).some((m) => (typeof m === "boolean" ? m : !!m?.available));
+
 function Betalingsskjema({
   clientSecret,
   publishableKey,
@@ -376,9 +386,14 @@ function Betalingsskjema({
         paymentMethodOrder: undefined,
         paymentMethods: { applePay: "always", googlePay: "always", link: "never", paypal: "never", klarna: "never", amazonPay: "never" },
       });
-      ekspress.on("ready", ({ availablePaymentMethods }) => {
-        if (!avbrutt) setHarEkspress(!!availablePaymentMethods && Object.values(availablePaymentMethods).some(Boolean));
-      });
+      const visKnapper = (metoder: Lommeboker | undefined) => !avbrutt && setHarEkspress(noenTilgjengelige(metoder));
+      ekspress.on("ready", ({ availablePaymentMethods }) => visKnapper(availablePaymentMethods));
+      // Stripe kan finne lommebøkene først etter «ready». Hendelsen finnes, men
+      // mangler i typene til Checkout-versjonen av elementet.
+      (ekspress as unknown as StripeExpressCheckoutElement).on("availablepaymentmethodschange", ({ paymentMethods }) =>
+        visKnapper(paymentMethods),
+      );
+      ekspress.on("loaderror", ({ error }) => console.warn("Apple Pay / Google Pay lastet ikke:", error.message));
       ekspress.on("confirm", async (hendelse) => {
         setFeil(null);
         const svar = await lastet.actions.confirm({ expressCheckoutConfirmEvent: hendelse, redirect: "if_required" });
@@ -423,7 +438,8 @@ function Betalingsskjema({
         <Feilmelding tekst="Fikk ikke åpnet betalingen. Sjekk nettet, slå av eventuelle blokkere for annonser og prøv igjen." />
       ) : (
         <div className={`flex flex-col gap-5 transition-opacity duration-300 ${status === "klar" ? "opacity-100" : "opacity-0"}`}>
-          <div ref={ekspressBeholder} className={harEkspress ? "" : "hidden"} />
+          {/* Ikke display:none – Stripe måler bredden for å vite hvor mange knapper som får plass. */}
+          <div ref={ekspressBeholder} className={harEkspress ? "" : "invisible h-0 overflow-hidden"} />
           {harEkspress && (
             <div className="flex items-center gap-3 text-xs font-medium text-muted" aria-hidden="true">
               <span className="h-px flex-1 bg-border" />
