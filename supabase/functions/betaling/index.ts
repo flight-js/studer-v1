@@ -92,9 +92,9 @@ Deno.serve(async (req) => {
   if (!brukerId) return svar(401, { feil: "ikke-innlogget" });
   if (!stripe || !PUBLISERBAR || !PRISER.maned || !PRISER.ar) return svar(503, { feil: "ikke-satt-opp" });
 
-  let handling: unknown, plan: unknown;
+  let handling: unknown, plan: unknown, skjema: unknown;
   try {
-    ({ handling, plan } = await req.json());
+    ({ handling, plan, skjema } = await req.json());
   } catch {
     return svar(400, { feil: "ugyldig" });
   }
@@ -151,13 +151,18 @@ Deno.serve(async (req) => {
         // som krever at eleven sendes til banken sin, kommer tilbake hit etterpå.
         return_url: `${retur}/abonnement?betaling=fullfort`,
       };
+      // Nettsiden ber om «elements» (egne felt med Apple Pay i alle nettlesere).
+      // Eldre versjoner av siden ber ikke om noe og får det innebygde skjemaet,
+      // så betalingen virker mens en ny versjon av nettsiden rulles ut.
+      const modus = skjema === "elements" ? ["elements", "custom"] : ["embedded_page", "embedded"];
+      const ekstra = skjema === "elements" ? {} : { redirect_on_completion: "if_required" };
       let okt: Stripe.Checkout.Session;
       try {
-        okt = await stripe.checkout.sessions.create({ ...felles, ui_mode: "elements" } as Stripe.Checkout.SessionCreateParams);
+        okt = await stripe.checkout.sessions.create({ ...felles, ...ekstra, ui_mode: modus[0] } as Stripe.Checkout.SessionCreateParams);
       } catch (e) {
-        // Eldre API-versjoner kaller det «custom».
+        // Eldre API-versjoner bruker de gamle navnene.
         if (!(e instanceof Stripe.errors.StripeInvalidRequestError) || e.param !== "ui_mode") throw e;
-        okt = await stripe.checkout.sessions.create({ ...felles, ui_mode: "custom" } as unknown as Stripe.Checkout.SessionCreateParams);
+        okt = await stripe.checkout.sessions.create({ ...felles, ...ekstra, ui_mode: modus[1] } as unknown as Stripe.Checkout.SessionCreateParams);
       }
       return svar(200, { clientSecret: okt.client_secret, publishableKey: PUBLISERBAR });
     }

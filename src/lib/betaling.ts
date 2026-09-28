@@ -25,7 +25,7 @@ async function kall<T>(body: Record<string, unknown>): Promise<T> {
 }
 
 export const startBetaling = (plan: Plan) =>
-  kall<{ clientSecret: string; publishableKey: string }>({ handling: "start", plan });
+  kall<{ clientSecret: string; publishableKey: string }>({ handling: "start", plan, skjema: "elements" });
 
 export const endreFornyelse = (handling: "avslutt" | "fortsett") => kall<{ ok: true }>({ handling });
 
