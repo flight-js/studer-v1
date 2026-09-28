@@ -58,6 +58,7 @@ Status for arbeidet med å lage innhold til alle 83 fag (8. trinn–Vg3), og hvo
 | Rettslære 2 | 12 |
 | Psykologi 2 | 12 |
 | Sosialkunnskap | 13 |
+| Markedsføring og ledelse 2 | 13 |
 
 Hele ungdomstrinnet er ferdig.
 
@@ -65,7 +66,7 @@ Hele Vg1 er ferdig.
 
 Hele Vg2 er ferdig.
 
-**Neste:** Vg3, i denne rekkefølgen: markedsforing-og-ledelse-2.
+Hele Vg3 er ferdig. **Alle 83 fag har innhold.**
 
 **Fremmedspråk nivå I (FSP01-04 KV965)**, samme slugs for tysk, fransk og spansk (`_fag.json` er laget). Forklaringer på norsk, eksempler og flashcard-termer på målspråket:
 
@@ -140,4 +141,4 @@ Kompetansemålene ligger i `scripts/innhold/lk20/` (hent flere med `lk20-hent.mj
 
 ## Gjenstår
 
-Alle Vg3-fag (14 fag, inkl. geofag 2 og historie og filosofi 2). Ungdomstrinnet, Vg1 og Vg2 er ferdige.
+Ingen fag gjenstår. Videre arbeid: gå gjennom temaer med status «sjekkes» (se merknadene i GJENNOMGANG.md) og faktasjekk tall og regelverk før de settes til endelig publisert.

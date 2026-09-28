@@ -1,0 +1,81 @@
+{
+  "id": "markedsmiks-og-effektmaling",
+  "fagId": "markedsforing-og-ledelse-2",
+  "trinnId": "vg3",
+  "name": "Helhetlig markedsmiks og effektmåling",
+  "intro": "Hvordan virksomheter utvikler en helhetlig markedsmiks tilpasset målgruppe, livsfase og posisjonering, og ulike metoder for å måle effekten av markedsføringstiltak – nøkkeltall, kjennskapsmålinger, salgs- og markedsandelstall, digitale måltall som klikkrate og konverteringsrate, A/B-testing, avkastning og kundelojalitet.",
+  "kompetansemaal": [11],
+  "sammendrag": "## Helhetlig markedsmiks\n\n**Markedsmiksen** er kombinasjonen av **konkurransemidlene** – produkt, pris, distribusjon og påvirkning, og for tjenester også **personale**, **prosesser** og **fysiske omgivelser**. En **helhetlig** miks er\n\n- **tilpasset målgruppen** og deres behov\n- **konsistent** med posisjoneringen\n- tilpasset **produktets livsfase**\n- **realistisk** ut fra ressursene\n\n## Markedsmiks gjennom livsløpet\n\n- **Introduksjon**: bygge **kjennskap**, ofte høy pris ved skumming eller lav ved penetrasjon, begrenset distribusjon\n- **Vekst**: utvide **distribusjon** og målgruppe, bygge **preferanse**\n- **Modning**: sterk **konkurranse** – differensiere, forsvare markedsandel, pris- og lojalitetstiltak\n- **Nedgang**: redusere kostnader, **fornye** produktet eller **avvikle**\n\n## Hvorfor måle effekt?\n\nMarkedsføring koster penger. Virksomheten må vite om tiltakene **virker**, slik at den kan **forbedre** dem og bruke budsjettet der det gir mest. Et kjent sitat sier at halvparten av reklamepengene er bortkastet – problemet er å vite **hvilken** halvdel.\n\n## Nøkkeltall – KPI-er\n\n**KPI-er** – key performance indicators – er **nøkkeltall** som viser om målene nås. De må henge sammen med **målene**:\n\n- **Kognitive** mål måles med **kjennskap**: **spontan** kjennskap – kunden nevner merket selv – og **hjulpet** kjennskap – kunden kjenner igjen merket fra en liste.\n- **Affektive** mål måles med **holdningsundersøkelser** og **preferanse**.\n- **Konative** mål måles med **salg**, **markedsandel**, antall **nye kunder** eller **påmeldinger**.\n\n## Digitale måltall\n\n- **Rekkevidde** og **visninger**\n- **Klikkrate** (CTR): andelen som **klikker** på annonsen\n- **Konverteringsrate**: andelen som gjennomfører ønsket **handling**, for eksempel kjøp\n- **Kostnad per klikk** (CPC) og **kostnad per anskaffelse** (CPA)\n- **Engasjement**: likes, delinger og kommentarer\n\n## Metoder\n\n- **Før- og ettermålinger**: måle kjennskap eller salg **før** og **etter** en kampanje\n- **Kontrollgruppe**: sammenligne områder eller grupper som **fikk** og **ikke fikk** kampanjen\n- **A/B-testing**: vise to versjoner av en annonse eller nettside til ulike grupper og se hvilken som gir best resultat\n- **Sporing** med koder, lenker og kampanjekoder\n- **Kundetilfredshet** og **Net Promoter Score (NPS)**: hvor sannsynlig er det at kunden **anbefaler** virksomheten?\n\n## Avkastning\n\n**ROI** – return on investment – viser hvor mye markedsføringen gir **tilbake** sammenlignet med kostnaden. **ROAS** – return on ad spend – viser **inntekter** per krone brukt på annonser.\n\n## Utfordringer ved måling\n\n- Det er vanskelig å skille effekten av **ett** tiltak fra andre forhold – som **sesong**, **konkurrenter** og **vær**.\n- **Merkebygging** gir effekt på **lang** sikt, mens mange digitale måltall bare fanger **kortsiktige** effekter.\n- Kunden møter ofte flere kanaler før kjøpet, og det er vanskelig å vite hvilken som skal få **æren** – **attribusjon**.\n- **Personvernregler** begrenser sporing.\n\n## Vurdering\n\nGod effektmåling bruker **flere** metoder, måler både **kort** og **lang** sikt og brukes aktivt til å **justere** markedsmiksen.",
+  "flashcards": [
+    { "term": "Markedsmiks", "def": "Kombinasjonen av konkurransemidlene." },
+    { "term": "Helhetlig markedsmiks", "def": "Tilpasset målgruppe, posisjonering, livsfase og ressurser." },
+    { "term": "KPI", "def": "Nøkkeltall som viser om målene nås." },
+    { "term": "Spontan kjennskap", "def": "Kunden nevner merket selv." },
+    { "term": "Hjulpet kjennskap", "def": "Kunden kjenner igjen merket fra en liste." },
+    { "term": "Klikkrate (CTR)", "def": "Andelen som klikker på annonsen." },
+    { "term": "Konverteringsrate", "def": "Andelen som gjennomfører ønsket handling." },
+    { "term": "CPA", "def": "Kostnad per anskaffelse." },
+    { "term": "Før- og ettermåling", "def": "Måling før og etter en kampanje." },
+    { "term": "Kontrollgruppe", "def": "Gruppe som ikke får kampanjen – gir sammenligning." },
+    { "term": "A/B-testing", "def": "Sammenligning av to versjoner for å se hva som virker best." },
+    { "term": "NPS", "def": "Net Promoter Score – sannsynligheten for at kunden anbefaler virksomheten." },
+    { "term": "ROI", "def": "Avkastning sammenlignet med kostnaden." },
+    { "term": "ROAS", "def": "Inntekter per krone brukt på annonser." },
+    { "term": "Attribusjon", "def": "Hvilken kanal som får æren for et kjøp." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er spontan kjennskap?", "options": ["At kunden kjenner igjen merket fra en liste", "At kunden nevner merket selv", "At kunden kjøper produktet", "At kunden klikker på annonsen"], "correct": 1, "explain": "Hjulpet kjennskap bruker en liste." },
+    { "id": "q02", "text": "Hva er A/B-testing?", "options": ["Å sammenligne to versjoner for å se hva som virker best", "En type eksamen", "En prisstrategi", "Et regnskap"], "correct": 0, "explain": "Vanlig i digital markedsføring." },
+    { "id": "q03", "text": "Hva måler konverteringsraten?", "options": ["Antall visninger", "Kostnad per klikk", "Andelen som gjennomfører ønsket handling", "Antall ansatte"], "correct": 2, "explain": "For eksempel kjøp." },
+    { "id": "q04", "text": "Hva er en utfordring ved effektmåling?", "options": ["At alt er lett å måle", "At kundene aldri kjøper", "At reklame er gratis", "At det er vanskelig å skille effekten av ett tiltak fra andre forhold"], "correct": 3, "explain": "Sesong, konkurrenter og vær." },
+    { "id": "q05", "text": "Hva er NPS?", "options": ["Et mål på hvor sannsynlig det er at kunden anbefaler virksomheten", "Et prisnivå", "En annonseplattform", "En lov"], "correct": 0, "explain": "Net Promoter Score." },
+    { "id": "q06", "text": "Hvordan måles et kognitivt kommunikasjonsmål?", "options": ["Med salgstall", "Med kjennskapsmålinger", "Med lønnsomhet", "Med sykefravær"], "correct": 1, "explain": "Kjennskap og kunnskap." },
+    { "id": "q07", "text": "Hva er en kontrollgruppe i effektmåling?", "options": ["En gruppe ledere", "En gruppe som får dobbel kampanje", "En gruppe som ikke får kampanjen", "En gruppe konkurrenter"], "correct": 2, "explain": "Gir sammenligning." },
+    { "id": "q08", "text": "Hva er typisk for markedsmiksen i modningsfasen?", "options": ["Bygge kjennskap fra null", "Begrenset distribusjon", "Avvikling", "Sterk konkurranse og fokus på differensiering og lojalitet"], "correct": 3, "explain": "Forsvare markedsandel." },
+    { "id": "q09", "text": "Hva er ROAS?", "options": ["Inntekter per krone brukt på annonser", "Antall annonser", "Klikkrate", "Kjennskap"], "correct": 0, "explain": "Return on ad spend." },
+    { "id": "q10", "text": "Hvorfor kan digitale måltall gi et ufullstendig bilde?", "options": ["Fordi de er feil", "Fordi de ofte bare fanger kortsiktige effekter", "Fordi de er for dyre", "Fordi de er hemmelige"], "correct": 1, "explain": "Merkebygging virker over tid." }
+  ],
+  "mindmap": {
+    "label": "Markedsmiks og måling",
+    "children": [
+      { "label": "Markedsmiks", "children": [
+        { "label": "4P og 7P" },
+        { "label": "Konsistens" },
+        { "label": "Livsløpet" }
+      ] },
+      { "label": "KPI-er", "children": [
+        { "label": "Kjennskap" },
+        { "label": "Holdninger" },
+        { "label": "Salg og markedsandel" }
+      ] },
+      { "label": "Digitalt", "children": [
+        { "label": "CTR og konvertering" },
+        { "label": "CPC og CPA" }
+      ] },
+      { "label": "Metoder", "children": [
+        { "label": "Før og etter" },
+        { "label": "Kontrollgruppe og A/B" },
+        { "label": "NPS" }
+      ] },
+      { "label": "Avkastning og utfordringer", "children": [
+        { "label": "ROI og ROAS" },
+        { "label": "Attribusjon" },
+        { "label": "Kort og lang sikt" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "KPI-er bør henge sammen med målene.", "correct": true, "explain": "Ellers måler man feil ting." },
+      { "id": "m02", "type": "sant-usant", "text": "Merkebygging gir bare effekt samme dag som kampanjen går.", "correct": false, "explain": "Den gir effekt på lang sikt." },
+      { "id": "m03", "type": "sant-usant", "text": "Personvernregler kan begrense sporing av kunder.", "correct": true, "explain": "En utfordring for digital måling." },
+      { "id": "m04", "type": "sant-usant", "text": "Én målemetode er alltid nok.", "correct": false, "explain": "God måling bruker flere metoder." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er CTR?", "options": ["Kostnad per tusen", "Klikkrate – andelen som klikker", "Konverteringsrate", "Kundetilfredshet"], "correct": 1, "explain": "Click-through rate." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er typisk for introduksjonsfasen?", "options": ["Bygge kjennskap", "Avvikle produktet", "Maks distribusjon overalt", "Forsvare markedsandel mot mange konkurrenter"], "correct": 0, "explain": "Kunden må vite at produktet finnes." },
+      { "id": "m07", "type": "flervalg", "text": "Hva handler attribusjon om?", "options": ["Pris", "Logo", "Hvilken kanal som får æren for et kjøp", "Rekruttering"], "correct": 2, "explain": "Kunden møter ofte flere kanaler." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "teorier-og-modeller",
+  "fagId": "markedsforing-og-ledelse-2",
+  "trinnId": "vg3",
+  "name": "Kilder, teorier og modeller i markedsføring og ledelse",
+  "intro": "Hvordan du velger og bruker kilder, teorier og modeller i arbeid med faglige og dagsaktuelle problemstillinger – en oversikt over sentrale modeller som STP, markedsmiks, SWOT, Porters fem krefter, Ansoff og BCG, hva modeller kan og ikke kan, og hvordan du bygger opp en faglig drøfting.",
+  "kompetansemaal": [1],
+  "sammendrag": "## Hvorfor teorier og modeller?\n\nEn **teori** forklarer sammenhenger, mens en **modell** er en **forenklet** framstilling av virkeligheten. I markedsføring og ledelse hjelper modellene oss å **strukturere** analyser, se **sammenhenger** og ta bedre **beslutninger**. Men modellene gir ikke **svaret** – de gir et **rammeverk** for å tenke.\n\n## Sentrale modeller\n\n| Område | Modell | Bruk |\n|---|---|---|\n| Analyse | **SWOT** | styrker, svakheter, muligheter og trusler |\n| Analyse | **PESTEL** | forhold i makroomgivelsene |\n| Bransje | **Porters fem krefter** | konkurransen i en bransje |\n| Vekst | **Ansoffs matrise** | valg av vekststrategi |\n| Portefølje | **BCG-matrisen** | prioritering av produkter |\n| Målgruppe | **STP** | segmentering, målgruppevalg og posisjonering |\n| Tiltak | **Markedsmiksen – 4P/7P** | produkt, pris, distribusjon, påvirkning, pluss personale, prosesser og fysiske omgivelser |\n| Kommunikasjon | **AIDA** | oppmerksomhet, interesse, ønske og handling |\n| Ledelse | **Situasjonsbestemt ledelse** | tilpasse lederstil til medarbeideren |\n\n## Styrker og svakheter ved modeller\n\n**Styrker**:\n\n- gir **struktur** og **oversikt**\n- sikrer at viktige forhold ikke **glemmes**\n- gir et **felles språk** i en bedrift\n\n**Svakheter**:\n\n- er **forenklinger** av en kompleks virkelighet\n- mange er laget for **store** bedrifter i **stabile** markeder, og passer ikke alltid for **små** virksomheter eller **digitale** markeder\n- kan bli en **avkrysningsliste** i stedet for en ekte analyse\n- **fanger ikke** alltid opp raske endringer, som nye teknologier\n\n## Valg og bruk av kilder\n\n- **Fagbøker** og **forskningsartikler** gir teori.\n- **Årsrapporter** og **bedriftenes nettsider** gir fakta om virksomheter – men er skrevet for å gi et **godt inntrykk**.\n- **Bransjeorganisasjoner**, **SSB** og **analysebyråer** gir markedsdata.\n- **Nyheter** og **fagmedier** gir dagsaktuelle eksempler.\n- **Egne undersøkelser** – spørreskjema, intervju og observasjon – gir **primærdata**.\n\nVurder alltid **avsender**, **aktualitet** og **formål**, og skill mellom **fakta** og **markedsføring**.\n\n## Dagsaktuelle problemstillinger\n\nEksempler på aktuelle problemstillinger er\n\n- hvordan **kunstig intelligens** endrer markedsføring og kundeservice\n- hvordan **dagligvarekjedenes** makt påvirker leverandører og priser\n- om **influencere** er troverdige og etiske\n- hvordan bedrifter kan unngå **grønnvasking**\n- hvordan **prisvekst** påvirker forbrukernes valg\n\n## Faglig drøfting\n\n1. **Presenter** problemstillingen og situasjonen.\n2. Velg **relevante** teorier og modeller – ikke alle.\n3. **Bruk** modellene på den konkrete virksomheten.\n4. **Drøft** alternativer med argumenter **for** og **mot**.\n5. **Vurder** modellens begrensninger.\n6. Kom fram til en **begrunnet** anbefaling.\n\nEn god besvarelse viser at du kan **anvende** – ikke bare **gjengi** – teoriene.",
+  "flashcards": [
+    { "term": "Teori", "def": "Forklarer sammenhenger." },
+    { "term": "Modell", "def": "Forenklet framstilling av virkeligheten." },
+    { "term": "SWOT", "def": "Styrker, svakheter, muligheter og trusler." },
+    { "term": "PESTEL", "def": "Analyse av makroomgivelsene." },
+    { "term": "Porters fem krefter", "def": "Analyse av konkurransen i en bransje." },
+    { "term": "Ansoffs matrise", "def": "Valg av vekststrategi ut fra produkt og marked." },
+    { "term": "BCG-matrisen", "def": "Prioritering av produkter ut fra markedsvekst og markedsandel." },
+    { "term": "STP", "def": "Segmentering, målgruppevalg og posisjonering." },
+    { "term": "7P", "def": "4P pluss personale, prosesser og fysiske omgivelser." },
+    { "term": "AIDA", "def": "Attention, interest, desire, action." },
+    { "term": "Primærdata", "def": "Data man samler inn selv." },
+    { "term": "Sekundærdata", "def": "Data som allerede finnes, som statistikk og rapporter." },
+    { "term": "Årsrapport", "def": "Bedriftens rapport om drift og resultater – skrevet for å gi godt inntrykk." },
+    { "term": "Modellens begrensning", "def": "Forenkling som ikke alltid passer virkeligheten." },
+    { "term": "Anvende teori", "def": "Å bruke teorien på en konkret situasjon, ikke bare gjengi den." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en modell i markedsføring?", "options": ["En person i reklame", "En forenklet framstilling av virkeligheten", "En lov", "Et produkt"], "correct": 1, "explain": "Gir et rammeverk for å tenke." },
+    { "id": "q02", "text": "Hvilken modell brukes til å analysere konkurransen i en bransje?", "options": ["Porters fem krefter", "AIDA", "4P", "STP"], "correct": 0, "explain": "Michael Porter." },
+    { "id": "q03", "text": "Hva er en svakhet ved mange modeller?", "options": ["De gir struktur", "De gir felles språk", "De er forenklinger som ikke alltid passer virkeligheten", "De er gratis"], "correct": 2, "explain": "Særlig i raske, digitale markeder." },
+    { "id": "q04", "text": "Hva står STP for?", "options": ["Salg, tid og pris", "Strategi, taktikk og plan", "Styrker, trusler og posisjon", "Segmentering, målgruppevalg og posisjonering"], "correct": 3, "explain": "Targeting er målgruppevalg." },
+    { "id": "q05", "text": "Hva er primærdata?", "options": ["Data man samler inn selv", "Statistikk fra SSB", "Årsrapporter", "Fagbøker"], "correct": 0, "explain": "For eksempel en spørreundersøkelse." },
+    { "id": "q06", "text": "Hvorfor bør du være kritisk til årsrapporter?", "options": ["Fordi de er ulovlige", "Fordi de er skrevet for å gi et godt inntrykk", "Fordi de alltid er feil", "Fordi de er for korte"], "correct": 1, "explain": "Skill mellom fakta og markedsføring." },
+    { "id": "q07", "text": "Hvilken modell hjelper med valg av vekststrategi?", "options": ["PESTEL", "AIDA", "Ansoffs matrise", "SWOT"], "correct": 2, "explain": "Produkt og marked." },
+    { "id": "q08", "text": "Hva kjennetegner en god faglig drøfting?", "options": ["At man gjengir alle teorier", "At man bare gir egen mening", "At man unngår konklusjon", "At man anvender relevante teorier på situasjonen og begrunner anbefalingen"], "correct": 3, "explain": "Anvende, ikke bare gjengi." },
+    { "id": "q09", "text": "Hva brukes BCG-matrisen til?", "options": ["Prioritering av produkter i en portefølje", "Lederstil", "Kommunikasjonsmål", "Prissetting"], "correct": 0, "explain": "Markedsvekst og markedsandel." },
+    { "id": "q10", "text": "Hvilke tre P-er kommer i tillegg i 7P-modellen?", "options": ["Plan, profitt og press", "Personale, prosesser og fysiske omgivelser", "Pris, plass og produkt", "Partner, politikk og PR"], "correct": 1, "explain": "Viktig for tjenester." }
+  ],
+  "mindmap": {
+    "label": "Teorier og modeller",
+    "children": [
+      { "label": "Analyse", "children": [
+        { "label": "SWOT og PESTEL" },
+        { "label": "Porters fem krefter" }
+      ] },
+      { "label": "Strategi", "children": [
+        { "label": "Ansoff" },
+        { "label": "BCG" },
+        { "label": "STP" }
+      ] },
+      { "label": "Tiltak", "children": [
+        { "label": "4P og 7P" },
+        { "label": "AIDA" }
+      ] },
+      { "label": "Kilder", "children": [
+        { "label": "Primær- og sekundærdata" },
+        { "label": "Kildekritikk" }
+      ] },
+      { "label": "Drøfting", "children": [
+        { "label": "Anvende modeller" },
+        { "label": "Begrensninger" },
+        { "label": "Begrunnet anbefaling" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Modeller kan gi et felles språk i en bedrift.", "correct": true, "explain": "En av styrkene." },
+      { "id": "m02", "type": "sant-usant", "text": "En modell gir alltid det riktige svaret.", "correct": false, "explain": "Den gir et rammeverk, ikke svaret." },
+      { "id": "m03", "type": "sant-usant", "text": "Mange modeller er laget for store bedrifter i stabile markeder.", "correct": true, "explain": "Passer ikke alltid for små eller digitale virksomheter." },
+      { "id": "m04", "type": "sant-usant", "text": "I en drøfting bør man bruke alle modeller man kjenner.", "correct": false, "explain": "Velg de relevante." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilken kilde gir dagsaktuelle eksempler?", "options": ["Fagbøker fra 1990", "Nyheter og fagmedier", "Ordbøker", "Leksikon fra 1950"], "correct": 1, "explain": "Aktualitet er viktig." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er en dagsaktuell problemstilling i markedsføring?", "options": ["Hvordan kunstig intelligens endrer markedsføringen", "Hvordan trykkpressen ble oppfunnet", "Hvordan man lager brød", "Hvordan været blir"], "correct": 0, "explain": "Også grønnvasking og kjedemakt." },
+      { "id": "m07", "type": "flervalg", "text": "Hva står D-en i AIDA for?", "options": ["Distribusjon", "Data", "Desire – ønske", "Design"], "correct": 2, "explain": "Attention, interest, desire, action." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

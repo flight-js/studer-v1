@@ -92,10 +92,10 @@ insert into public.fag (id, trinn_id, navn, lareplan_kode, lareplan_url, kompeta
   ('geofag-2', 'vg3', 'Geofag 2', 'GFG01-03', 'https://www.udir.no/lk20/gfg01-03/kompetansemaal-og-vurdering/kv973', '[{"nr":1,"tekst":"gjøre rede for vekselvirkninger mellom de ulike jordsystemene, og hvordan disse kan påvirke havet, atmosfæren og kryosfæren"},{"nr":2,"tekst":"gjøre rede for strålingsbalanse, strålingsfordeling og strålingspådriv og bruke disse til å forstå den globale sirkulasjonen i atmosfæren"},{"nr":3,"tekst":"gjøre rede for konsekvensene av jordens rotasjon, tetthetsforskjeller og trykkforskjeller og hvordan de påvirker havet og atmosfæren"},{"nr":4,"tekst":"gjøre rede for hvordan ulike værsystemer oppstår og utvikler seg på global, regional og lokal skala, og tolke ulike værkart og værutvikling"},{"nr":5,"tekst":"gjøre rede for hvordan numeriske modeller i geofag bygges opp og videreutvikles, og beskrive hvordan modellene brukes innenfor værvarsling, havmodellering og klimaforskning"},{"nr":6,"tekst":"gjøre rede for klimasystemet på ulike skalaer i tid og rom og vurdere antropogen klimapåvirkning"},{"nr":7,"tekst":"gjøre rede for forskning på forhistorisk klima, og hvordan det bidrar til å lage prognoser for framtidens klima"},{"nr":8,"tekst":"drøfte konsekvenser av klimaendringer for enkeltmennesker, samfunn og økosystem, og vurdere bærekraftige løsninger for hvordan enkeltmennesker og samfunn kan redusere og tilpasse seg klimaendringer i nåtid og framtid"},{"nr":9,"tekst":"drøfte hvordan energiressurser fra hav og atmosfære kan utnyttes på en bærekraftig måte, både nasjonalt og globalt"},{"nr":10,"tekst":"gjennomføre geofaglig feltarbeid knyttet til havet, atmosfæren eller kryosfæren, bearbeide og tolke de innsamlede dataene og presentere resultatene"},{"nr":11,"tekst":"vurdere risiko ved naturfarer som følge av fenomener i atmosfæren, havet og kryosfæren og drøfte hvordan klimaendringer kan påvirke disse"}]'::jsonb, 7),
   ('matematikk-r2', 'vg3', 'Matematikk R2', 'MAT03-02', 'https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv294', '[{"nr":1,"tekst":"utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker"},{"nr":2,"tekst":"utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter"},{"nr":3,"tekst":"gjøre rede for integral som en grenseverdi av en følge av summer, og tolke betydningen av denne grenseverdien i ulike situasjoner"},{"nr":4,"tekst":"gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet"},{"nr":5,"tekst":"utvikle algoritmer for å beregne integraler numerisk, og bruke programmering til å utføre algoritmene"},{"nr":6,"tekst":"gi eksempler på ulike situasjoner som kan modelleres ved å bruke ulike matematiske funksjoner, og modellere og analysere slike situasjoner ved å bruke reelle datasett"},{"nr":7,"tekst":"anvende derivasjon og integrasjon til å analysere og tolke egne matematiske modeller av reelle datasett"},{"nr":8,"tekst":"analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon, og anvende integrasjon til å beregne ulike mål av omdreiningslegemer"},{"nr":9,"tekst":"anvende parameterframstillinger til kurver og bruke parameterframstillinger til å løse naturvitenskapelige problemer inkludert problemer knyttet til fart og akselerasjon"},{"nr":10,"tekst":"utforske og forstå regneregler for vektorer i rommet, og bruke vektorer til å beregne ulike størrelser i rommet"},{"nr":11,"tekst":"utforske egenskaper ved radianer og trigonometriske funksjoner og identiteter og anvende disse egenskapene til å løse praktiske problemer"},{"nr":12,"tekst":"analysere og forstå matematiske bevis, forklare de bærende ideene i et matematisk bevis og utvikle egne bevis"}]'::jsonb, 8),
   ('matematikk-s2', 'vg3', 'Matematikk S2', 'MAT04-02', 'https://www.udir.no/lk20/mat04-02/kompetansemaal-og-vurdering/kv296', '[{"nr":1,"tekst":"utforske egenskaper ved ulike rekker og gjøre rede for praktiske anvendelser av egenskaper ved rekker"},{"nr":2,"tekst":"utforske rekursive sammenhenger ved å bruke programmering og presentere egne framgangsmåter"},{"nr":3,"tekst":"forstå definisjonen av det bestemte integralet og anvende integralet til å analysere funksjoner"},{"nr":4,"tekst":"gjøre rede for analysens fundamentalteorem og gjøre rede for konsekvenser av teoremet"},{"nr":5,"tekst":"analysere og tolke ulike funksjoner ved å bruke derivasjon og integrasjon"},{"nr":6,"tekst":"modellere og analysere eksponentiell og logistisk vekst i reelle datasett"},{"nr":7,"tekst":"forstå begrepene forventningsverdi, varians og standardavvik, og bruke disse størrelsene til å tolke stokastiske variabler"},{"nr":8,"tekst":"simulere utfall i, utforske og tolke ulike statistiske fordelinger, og gi eksempler på reelle anvendelser av disse fordelingene"},{"nr":9,"tekst":"finne grensekostnader og grenseinntekter i økonomiske modeller, og gjøre rede for betydningen av disse størrelsene"},{"nr":10,"tekst":"argumentere for sentralgrensesetningen og utforske og tolke praktiske situasjoner ved hjelp av normalfordelingen"},{"nr":11,"tekst":"gjennomføre hypotesetesting i reelle datasett og tolke resultatet"}]'::jsonb, 9),
-  ('rettslare-2', 'vg3', 'Rettslære 2', null, null, '[]'::jsonb, 10),
-  ('psykologi-2', 'vg3', 'Psykologi 2', null, null, '[]'::jsonb, 11),
-  ('sosialkunnskap', 'vg3', 'Sosialkunnskap', null, null, '[]'::jsonb, 12),
-  ('markedsforing-og-ledelse-2', 'vg3', 'Markedsføring og ledelse 2', null, null, '[]'::jsonb, 13)
+  ('rettslare-2', 'vg3', 'Rettslære 2', 'RTL01-05', 'https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv890', '[{"nr":1,"tekst":"utforske og drøfte skiljet mellom rett og rettferd i ein rettsstat"},{"nr":2,"tekst":"utforske og bruke ulike rettskjelder for å løyse juridiske problemstillingar"},{"nr":3,"tekst":"identifisere partar, krav, rettsleg grunnlag og juridisk problemstilling, og gjennomføre juridisk drøfting for å komme fram til ein konklusjon"},{"nr":4,"tekst":"utforske og drøfte dagsaktuelle juridiske problemstillingar eller rettsspørsmål"},{"nr":5,"tekst":"utforske demokratiet si stilling i Noreg og Sápmi/Sábme/Sáepmie, og gjere greie for grunnleggjande menneskerettar som varetek dette"},{"nr":6,"tekst":"utforske rettsforholdet mellom individ og offentleg forvaltning og bruke sentrale reglar om saksbehandling"},{"nr":7,"tekst":"bruke sentrale reglar om personvern og utforske juridiske problemstillingar som oppstår i samband med bruk av informasjons- og kommunikasjonsteknologi"},{"nr":8,"tekst":"bruke grunnleggjande vilkår til å vurdere spørsmål om erstatning"},{"nr":9,"tekst":"utforske reaksjonssystemet og bruke straffleggingsvilkåra til å vurdere straff etter rettsreglar om seksuallovbrot, valdslovbrot og vinningslovbrot"},{"nr":10,"tekst":"utforske og drøfte dagsaktuelle juridiske rettsspørsmål som gjeld varetaking av miljøet"}]'::jsonb, 10),
+  ('psykologi-2', 'vg3', 'Psykologi 2', 'PSY01-04', 'https://www.udir.no/lk20/psy01-04/kompetansemaal-og-vurdering/kv884', '[{"nr":1,"tekst":"finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"},{"nr":2,"tekst":"planlegge, beskrive og gjennomføre en undersøkelse av en psykologisk problemstilling, analysere og drøfte resultater"},{"nr":3,"tekst":"sammenligne og anvende ulike vitenskapelige tilnærminger, teorier, perspektiver og metoder, og vurdere forskjellige forklaringer på psykologiske problemstillinger"},{"nr":4,"tekst":"drøfte hvordan sosial påvirkning og interaksjon i grupper kan påvirke holdninger, atferd og identitet"},{"nr":5,"tekst":"drøfte årsaker til utenforskap og reflektere over konsekvenser for individet"},{"nr":6,"tekst":"gjøre rede for faktorer som påvirker utviklingen av sosial kompetanse, og reflektere over betydningen av sosial kompetanse"},{"nr":7,"tekst":"gjøre rede for hvordan mellommenneskelige konflikter kan oppstå og utvikle seg, og drøfte hvordan verbal og ikke-verbal kommunikasjon kan bidra til både å utvikle og å løse konflikter"},{"nr":8,"tekst":"drøfte hvordan ulike former for kommunikasjon påvirker sosial samhandling og livskvalitet"},{"nr":9,"tekst":"reflektere over hvordan synet på psykisk helse og behandling av psykiske lidelser har endret seg og er i endring"},{"nr":10,"tekst":"drøfte begrepene normalitet og psykisk helse og reflektere over hva som skiller psykiske vansker og psykiske lidelser"},{"nr":11,"tekst":"utforske samspillet mellom biologiske, psykologiske og sosiale faktorer for utvikling av god psykisk helse, og drøfte forebygging og behandling av psykiske vansker og lidelser i lys av dette"}]'::jsonb, 11),
+  ('sosialkunnskap', 'vg3', 'Sosialkunnskap', 'POS02-02', 'https://www.udir.no/lk20/pos02-02/kompetansemaal-og-vurdering/kv892', '[{"nr":1,"tekst":"finne og vurdere informasjon for å analysere faglige spørsmål og problemstillinger"},{"nr":2,"tekst":"vurdere ulike samfunnsvitenskapelige metoder og teorier og bruke disse til å utforske egne problemstillinger og gjennomføre undersøkelser"},{"nr":3,"tekst":"gjøre rede for ulike institusjoner, politisk styring, prinsipper og verdier i velferdsstaten og drøfte utfordringer ved velferdsstatens framtid og bærekraft"},{"nr":4,"tekst":"drøfte årsaker til sosial ulikhet, marginalisering og utenforskap og vurdere konsekvenser for individ og samfunn"},{"nr":5,"tekst":"gjøre rede for ulike perspektiver på sosialisering og drøfte hvordan sosialiseringen har endret seg over tid"},{"nr":6,"tekst":"utforske ulike perspektiver på kjønn og identitet og reflektere over holdninger til egen og andres identitet"},{"nr":7,"tekst":"utforske sammenhenger mellom velferdsforskjeller og sosiale problemer og drøfte konsekvenser for individ og samfunn"},{"nr":8,"tekst":"gjøre rede for ulike typer sosiale problemer og vurdere forebyggende tiltak"},{"nr":9,"tekst":"utforske inkludering på ulike nivåer i samfunnet og vurdere tiltak som kan bidra til inkludering i arbeidslivet og velferdssamfunnet"},{"nr":10,"tekst":"vurdere hvordan menneskerettighetene har påvirket den norske velferdsstaten, og drøfte hvordan menneskerettighetene ivaretas i Norge"},{"nr":11,"tekst":"gjøre rede for sentrale behov i barne- og ungdomsårene og vurdere sammenhengen mellom behovsdekning, velferd og livsmestring"},{"nr":12,"tekst":"gjøre rede for ulike former for vold og trakassering og drøfte konsekvenser av vold og trakassering på individ- og samfunnsnivå"},{"nr":13,"tekst":"vurdere hvordan ulike kriser kan håndteres på individ- og samfunnsnivå"}]'::jsonb, 12),
+  ('markedsforing-og-ledelse-2', 'vg3', 'Markedsføring og ledelse 2', 'MFL01-04', 'https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888', '[{"nr":1,"tekst":"velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger"},{"nr":2,"tekst":"utvikle og vurdere visjoner, forretningsideer og overordnede mål"},{"nr":3,"tekst":"drøfte og begrunne ulike faktorer som påvirker målgruppevalg"},{"nr":4,"tekst":"bruke situasjonsanalyse og bransjeanalyse og vurdere markedsstrategiske beslutninger"},{"nr":5,"tekst":"utvikle merkevarestrategier og vurdere posisjonering i merkevarebygging"},{"nr":6,"tekst":"utvikle distribusjonsstrategier og vurdere påvirkning av makt og avhengighet i en verdikjede"},{"nr":7,"tekst":"drøfte ulike faktorer som påvirker prissetting, og utvikle prisstrategier"},{"nr":8,"tekst":"vurdere og utvikle kommunikasjonsstrategier, utforske dagsaktuelle kommunikasjonskanaler og planlegge mediemiks"},{"nr":9,"tekst":"vurdere lederens rolle og funksjon i utviklingen av markedsstrategi og i internmarkedsføring"},{"nr":10,"tekst":"utvikle og begrunne helhetlige markedsstrategier og drøfte etisk bruk av konkurransemidler"},{"nr":11,"tekst":"vurdere hvordan virksomheter kan utvikle helhetlig markedsmiks, og utforske ulike metoder for å måle effekten av markedsføringstiltakene"},{"nr":12,"tekst":"drøfte virksomheters samfunnsansvar ut fra et etisk, lovmessig og forretningsmessig perspektiv, og vurdere dette opp mot virksomhetens omdømme"},{"nr":13,"tekst":"vurdere bærekraftige valg for virksomheter med tanke på sosiale, økonomiske og miljømessige forhold"}]'::jsonb, 13)
 on conflict (id) do update set trinn_id = excluded.trinn_id, navn = excluded.navn, lareplan_kode = excluded.lareplan_kode,
   lareplan_url = excluded.lareplan_url, kompetansemaal = excluded.kompetansemaal, sortering = excluded.sortering;
 
@@ -63616,6 +63616,5319 @@ insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, ri
   ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 'm07', 'flervalg', 'Hvilken z-verdi brukes for et 99 % konfidensintervall?', array['1,645', '1,96', '2,576', '3']::text[], 2, 'Bredere enn 95 %.', false, true, 16);
 insert into public.miniprover (tema_id, minutter) values
   ('matematikk-s2:gjennomsnitt-og-konfidensintervall', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'rettslare-2' and slug not in ('rett-og-rettferd', 'rettskilder-og-juridisk-drofting', 'aktuelle-rettssporsmal', 'demokrati-og-menneskerettigheter', 'samiske-rettigheter', 'forvaltningsrett', 'personvern-og-ikt', 'erstatningsrett', 'straffeansvar-og-reaksjoner', 'vold-og-seksuallovbrudd', 'vinningslovbrudd', 'miljorett');
+
+-- Rettslære 2: Rett og rettferd i en rettsstat
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:rett-og-rettferd', 'rettslare-2', 'rett-og-rettferd', 'Rett og rettferd i en rettsstat', 'Skillet mellom det som er gjeldende rett og det som oppleves som rettferdig – naturrett og rettspositivisme, formell og materiell rettferdighet, urettferdige lover i historien, sivil ulydighet og hvordan rettsstaten forsøker å bygge bro mellom rett og rettferd.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:rett-og-rettferd', '## Rett og rettferd er ikke det samme
+
+- **Rett** er de reglene som faktisk **gjelder** – det domstolene kommer fram til med juridisk metode.
+- **Rettferd** er en **moralsk** vurdering av hva som er **riktig** og **fortjent**.
+
+Ofte går de hånd i hånd, men ikke alltid. En dom kan være **juridisk riktig** og likevel oppleves som **urettferdig**, for eksempel når en foreldelsesfrist hindrer et offer i å få erstatning.
+
+## Naturrett og rettspositivisme
+
+- **Naturretten** hevder at det finnes **allmenngyldige** moralske prinsipper som står **over** menneskeskapte lover. En lov som bryter grovt med dem, er ikke «ekte» rett. Tanken finnes hos antikke filosofer og i ideen om **menneskerettigheter**.
+- **Rettspositivismen** hevder at retten er det som er **vedtatt** på riktig måte, uavhengig av moralsk innhold. Rett og moral må holdes **atskilt**, slik at vi kan diskutere om en lov er god eller dårlig.
+
+Etter **andre verdenskrig** fikk naturrettstanken ny kraft. Mange av nazistenes forbrytelser var formelt lovlige i Tyskland, og **Nürnbergprosessen** bygde på at noen handlinger er straffbare **uansett** hva nasjonal lov sier.
+
+## Formell og materiell rettferdighet
+
+- **Formell** rettferdighet: like tilfeller behandles **likt**, og reglene følges **upartisk**.
+- **Materiell** rettferdighet: **innholdet** i reglene og resultatet er rettferdig.
+
+Et system kan være formelt rettferdig – alle behandles likt etter reglene – selv om reglene i seg selv er urettferdige.
+
+## Urettferdige lover i historien
+
+- **Jødeparagrafen** i Grunnloven av 1814 nektet jøder adgang til riket fram til 1851.
+- **Fornorskingspolitikken** overfor samer, kvener og skogfinner var forankret i lover og regler, blant annet om **jordkjøp** og **skole**.
+- **Apartheid** i Sør-Afrika og **raseskillelovene** i USA var gjeldende rett.
+
+Disse eksemplene viser at lov **ikke** automatisk er rettferdig.
+
+## Sivil ulydighet
+
+**Sivil ulydighet** er **åpent** og **ikkevoldelig** lovbrudd for å protestere mot noe man mener er urettferdig, der man **aksepterer** straffen. Eksempler er **Rosa Parks** i USA og **Alta-aksjonen** mot utbyggingen av Alta-Kautokeino-vassdraget rundt 1980. Aksjonistene ble straffet, men saken fikk stor betydning for **samiske rettigheter**.
+
+## Rettsstaten som bro
+
+En **rettsstat** skal redusere avstanden mellom rett og rettferd gjennom
+
+- **legalitetsprinsippet**: inngrep i borgernes frihet krever hjemmel i lov
+- **maktfordeling** og **uavhengige domstoler**
+- **menneskerettigheter** i Grunnloven og internasjonale konvensjoner som setter **grenser** for flertallet
+- **likhet for loven**
+- muligheten til å **endre** urettferdige lover gjennom **demokratiske** prosesser
+
+Domstolene kan også bruke **reelle hensyn** – rimelighet og rettferdighet – i tolkingen av uklare regler.
+
+## Drøfting
+
+Når du drøfter rett og rettferd, kan du spørre:
+
+1. Hva sier **gjeldende rett**?
+2. Oppleves resultatet som **rettferdig** – og for **hvem**?
+3. Hvilke **hensyn** taler for og mot regelen – forutsigbarhet, likhet, rimelighet?
+4. Bør loven **endres**? Her skiller vi mellom **de lege lata** – hva retten er – og **de lege ferenda** – hva retten bør være.', '{"label":"Rett og rettferd","children":[{"label":"Begreper","children":[{"label":"Rett"},{"label":"Rettferd"}]},{"label":"Teorier","children":[{"label":"Naturrett"},{"label":"Rettspositivisme"}]},{"label":"Rettferdighet","children":[{"label":"Formell"},{"label":"Materiell"}]},{"label":"Historie","children":[{"label":"Jødeparagrafen"},{"label":"Fornorsking"},{"label":"Sivil ulydighet"}]},{"label":"Rettsstaten","children":[{"label":"Legalitet og maktfordeling"},{"label":"Menneskerettigheter"},{"label":"De lege lata og ferenda"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:rett-og-rettferd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:rett-og-rettferd', 'Rett', 'Reglene som faktisk gjelder.', 0),
+  ('rettslare-2:rett-og-rettferd', 'Rettferd', 'Moralsk vurdering av hva som er riktig og fortjent.', 1),
+  ('rettslare-2:rett-og-rettferd', 'Naturrett', 'Allmenngyldige moralske prinsipper står over menneskeskapte lover.', 2),
+  ('rettslare-2:rett-og-rettferd', 'Rettspositivisme', 'Retten er det som er vedtatt på riktig måte – rett og moral holdes atskilt.', 3),
+  ('rettslare-2:rett-og-rettferd', 'Nürnbergprosessen', 'Rettssakene mot nazistiske ledere etter andre verdenskrig.', 4),
+  ('rettslare-2:rett-og-rettferd', 'Formell rettferdighet', 'Like tilfeller behandles likt og upartisk.', 5),
+  ('rettslare-2:rett-og-rettferd', 'Materiell rettferdighet', 'Innholdet i reglene og resultatet er rettferdig.', 6),
+  ('rettslare-2:rett-og-rettferd', 'Jødeparagrafen', 'Nektet jøder adgang til Norge fram til 1851.', 7),
+  ('rettslare-2:rett-og-rettferd', 'Fornorskingspolitikken', 'Politikk overfor samer, kvener og skogfinner forankret i lover og regler.', 8),
+  ('rettslare-2:rett-og-rettferd', 'Sivil ulydighet', 'Åpent, ikkevoldelig lovbrudd i protest, der man aksepterer straffen.', 9),
+  ('rettslare-2:rett-og-rettferd', 'Alta-aksjonen', 'Protest mot utbygging av Alta-Kautokeino-vassdraget rundt 1980.', 10),
+  ('rettslare-2:rett-og-rettferd', 'Legalitetsprinsippet', 'Inngrep i borgernes frihet krever hjemmel i lov.', 11),
+  ('rettslare-2:rett-og-rettferd', 'Reelle hensyn', 'Rimelighet og rettferdighet i tolkingen av uklare regler.', 12),
+  ('rettslare-2:rett-og-rettferd', 'De lege lata', 'Hva retten er.', 13),
+  ('rettslare-2:rett-og-rettferd', 'De lege ferenda', 'Hva retten bør være.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:rett-og-rettferd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:rett-og-rettferd', 'q01', 'flervalg', 'Hva hevder naturretten?', array['At retten er det som er vedtatt', 'At det finnes moralske prinsipper over menneskeskapte lover', 'At domstolene lager all rett', 'At moral er uviktig']::text[], 1, 'Grove brudd gjør loven ugyldig etter dette synet.', true, true, 0),
+  ('rettslare-2:rett-og-rettferd', 'q02', 'flervalg', 'Hva er formell rettferdighet?', array['At like tilfeller behandles likt og reglene følges upartisk', 'At resultatet alltid er rimelig', 'At alle får det de ønsker', 'At lovene er moralsk gode']::text[], 0, 'Sier ikke noe om innholdet i reglene.', true, true, 1),
+  ('rettslare-2:rett-og-rettferd', 'q03', 'flervalg', 'Hva kjennetegner sivil ulydighet?', array['Hemmelig lovbrudd', 'Voldelig protest', 'Åpent, ikkevoldelig lovbrudd der man aksepterer straffen', 'Lovlig demonstrasjon']::text[], 2, 'For eksempel Alta-aksjonen.', true, true, 2),
+  ('rettslare-2:rett-og-rettferd', 'q04', 'flervalg', 'Hva betyr de lege ferenda?', array['Hva retten er', 'En type dom', 'En klage', 'Hva retten bør være']::text[], 3, 'Brukes når man drøfter lovendring.', true, true, 3),
+  ('rettslare-2:rett-og-rettferd', 'q05', 'flervalg', 'Hva hevder rettspositivismen?', array['At retten er det som er vedtatt på riktig måte', 'At moral står over loven', 'At bare Gud kan gi lover', 'At domstoler ikke trengs']::text[], 0, 'Rett og moral holdes atskilt.', true, true, 4),
+  ('rettslare-2:rett-og-rettferd', 'q06', 'flervalg', 'Hva gjorde jødeparagrafen i Grunnloven av 1814?', array['Ga jøder stemmerett', 'Nektet jøder adgang til riket', 'Beskyttet religionsfrihet', 'Innførte kongedømme']::text[], 1, 'Opphevet i 1851.', true, true, 5),
+  ('rettslare-2:rett-og-rettferd', 'q07', 'flervalg', 'Hvilket prinsipp krever lovhjemmel for inngrep i borgernes frihet?', array['Maktfordelingsprinsippet', 'Offentlighetsprinsippet', 'Legalitetsprinsippet', 'Likhetsprinsippet']::text[], 2, 'Et grunnleggende rettsstatsprinsipp.', true, true, 6),
+  ('rettslare-2:rett-og-rettferd', 'q08', 'flervalg', 'Hvorfor fikk naturrettstanken ny kraft etter andre verdenskrig?', array['Fordi alle lover ble opphevet', 'Fordi FN forbød rettspositivisme', 'Fordi Norge fikk ny grunnlov', 'Fordi mange overgrep hadde vært formelt lovlige']::text[], 3, 'Nürnbergprosessen bygde på dette.', true, true, 7),
+  ('rettslare-2:rett-og-rettferd', 'q09', 'flervalg', 'Hva er materiell rettferdighet?', array['At innholdet i reglene og resultatet er rettferdig', 'At reglene følges likt', 'At dommeren er upartisk', 'At saken går raskt']::text[], 0, 'Handler om innholdet.', true, false, 8),
+  ('rettslare-2:rett-og-rettferd', 'q10', 'flervalg', 'Hvordan kan en rettsstat endre urettferdige lover?', array['Gjennom vold', 'Gjennom demokratiske prosesser', 'Ved at dommerne ignorerer dem', 'Det er ikke mulig']::text[], 1, 'Stortinget kan vedta endringer.', true, false, 9),
+  ('rettslare-2:rett-og-rettferd', 'm01', 'sant-usant', 'En dom kan være juridisk riktig og likevel oppleves som urettferdig.', array['Sant', 'Usant']::text[], 0, 'Rett og rettferd sammenfaller ikke alltid.', false, true, 10),
+  ('rettslare-2:rett-og-rettferd', 'm02', 'sant-usant', 'Alt som er lovlig, er også rettferdig.', array['Sant', 'Usant']::text[], 1, 'Historien har mange eksempler på urettferdige lover.', false, true, 11),
+  ('rettslare-2:rett-og-rettferd', 'm03', 'sant-usant', 'Aksjonistene i Alta-saken ble straffet.', array['Sant', 'Usant']::text[], 0, 'Men saken fikk stor betydning for samiske rettigheter.', false, true, 12),
+  ('rettslare-2:rett-og-rettferd', 'm04', 'sant-usant', 'Rettspositivister mener at en lov er ugyldig hvis den er umoralsk.', array['Sant', 'Usant']::text[], 1, 'Det er naturrettens syn.', false, true, 13),
+  ('rettslare-2:rett-og-rettferd', 'm05', 'flervalg', 'Hvem er et kjent eksempel på sivil ulydighet i USA?', array['Abraham Lincoln', 'Rosa Parks', 'George Washington', 'Richard Nixon']::text[], 1, 'Nektet å gi fra seg setet på bussen.', false, true, 14),
+  ('rettslare-2:rett-og-rettferd', 'm06', 'flervalg', 'Hva betyr de lege lata?', array['Hva retten er', 'Hva retten bør være', 'En type straff', 'En domstol']::text[], 0, 'Gjeldende rett.', false, true, 15),
+  ('rettslare-2:rett-og-rettferd', 'm07', 'flervalg', 'Hvilket spørsmål hører med i en drøfting av rett og rettferd?', array['Hvor lang loven er', 'Hvem som skrev loven', 'Hvilke hensyn taler for og mot regelen', 'Hvilket år loven ble trykt']::text[], 2, 'Forutsigbarhet, likhet og rimelighet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:rett-og-rettferd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Rettskilder og juridisk drøfting
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'rettslare-2', 'rettskilder-og-juridisk-drofting', 'Rettskilder og juridisk drøfting', 'Hvordan du bruker rettskildene til å løse juridiske problemstillinger – tolking av lovtekst, vekting av forarbeider, rettspraksis og reelle hensyn, prinsipper for motstrid – og hvordan du bygger opp en fullstendig juridisk drøfting fra parter og krav til konklusjon.', array[2, 3]::int[], 1, 'sjekkes', array['Sjekk at presumsjonsregelen i forbrukerkjøpsloven (feil som viser seg innen to år antas å ha vært der ved levering) er riktig gjengitt etter lovendringene i 2023.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:rettskilder-og-juridisk-drofting', '## Rettskildene i bruk
+
+I Rettslære 1 lærte du de viktigste **rettskildene**: lov, forarbeider, rettspraksis, forvaltningspraksis, sedvane og reelle hensyn. I Rettslære 2 skal du **bruke** dem til å løse konkrete saker.
+
+## Tolking av lovtekst
+
+Utgangspunktet er **ordlyden** – hva ordene betyr i **vanlig språkbruk**. Men ordlyden kan tolkes:
+
+- **Innskrenkende**: regelen gjelder **færre** tilfeller enn ordlyden tilsier.
+- **Utvidende**: regelen gjelder **flere** tilfeller.
+- **Analogi**: regelen brukes på et **lignende** tilfelle som ikke er nevnt.
+- **Antitetisk** – motsetningsslutning: det som ikke er nevnt, er **ikke** omfattet.
+
+I **strafferetten** er utvidende tolking og analogi til skade for tiltalte **ikke** tillatt, fordi Grunnloven krever klar hjemmel for straff.
+
+## Vekting av rettskilder
+
+- **Forarbeider** viser lovgivers **formål** og veier tungt, særlig for **nye** lover.
+- **Høyesteretts** avgjørelser er svært viktige. Særlig vekt har dommer fra **storkammer** og **plenum**.
+- **Reelle hensyn** – rimelighet, forutsigbarhet og samfunnsmessige konsekvenser – brukes når de andre kildene ikke gir klart svar.
+
+## Motstrid mellom regler
+
+- **Lex superior**: Den **høyere** regelen går foran – Grunnloven foran lov, lov foran forskrift.
+- **Lex specialis**: Den **spesielle** regelen går foran den **generelle**.
+- **Lex posterior**: Den **nyere** regelen går foran den **eldre**.
+
+**Menneskerettsloven** § 3 sier at konvensjonene den inkorporerer, går **foran** annen norsk lov ved motstrid.
+
+## Juridisk drøfting steg for steg
+
+1. **Parter**: Hvem er uenige? For eksempel kjøper og selger.
+2. **Krav**: Hva krever den ene parten? For eksempel heving av kjøpet eller erstatning.
+3. **Rettslig grunnlag**: Hvilken **regel** kan gi kravet? Finn lov og paragraf.
+4. **Juridisk problemstilling**: Formuler spørsmålet presist, for eksempel «Har varen en mangel etter forbrukerkjøpsloven § 15?»
+5. **Drøfting**:
+   - Tolk **vilkårene** i regelen.
+   - Bruk **faktum** – hva har skjedd?
+   - Trekk inn **argumenter** for og mot, med støtte i rettskildene.
+6. **Konklusjon**: Svar klart på problemstillingen.
+
+## Subsumsjon
+
+Kjernen i drøftingen er **subsumsjon**: Du sammenholder **faktum** med **vilkårene** i regelen. Er vilkårene oppfylt, inntrer **rettsvirkningen**.
+
+**Eksempel**: Mia kjøper en mobil som slutter å virke etter seks måneder. Butikken avviser reklamasjonen.
+
+- Parter: Mia og butikken
+- Krav: omlevering eller retting
+- Rettslig grunnlag: forbrukerkjøpsloven
+- Problemstilling: Foreligger det en mangel?
+- Drøfting: Feil som viser seg innen **to år**, **antas** å ha vært der ved levering, med mindre selgeren viser noe annet.
+- Konklusjon: Mia har sannsynligvis krav på retting eller omlevering.
+
+## Flere spørsmål i samme sak
+
+Noen saker har **flere** problemstillinger. Løs dem i en **logisk rekkefølge** – først om det foreligger en mangel, deretter hvilke **krav** kjøperen kan fremme. Bruk **subsidiær** drøfting: Selv om du konkluderer med nei på ett spørsmål, kan du drøfte de neste «for det tilfellet at» svaret er ja.
+
+## Kilder
+
+Lover og forskrifter finner du på **Lovdata**. Avgjørelser fra Høyesterett ligger også der og omtales på **domstol.no**. Forbrukertilsynet, Datatilsynet og Sivilombudet publiserer **uttalelser** som viser forvaltningspraksis.', '{"label":"Juridisk metode","children":[{"label":"Tolking","children":[{"label":"Ordlyd"},{"label":"Innskrenkende og utvidende"},{"label":"Analogi og antitetisk"}]},{"label":"Vekting","children":[{"label":"Forarbeider"},{"label":"Høyesterett"},{"label":"Reelle hensyn"}]},{"label":"Motstrid","children":[{"label":"Lex superior"},{"label":"Lex specialis"},{"label":"Lex posterior"}]},{"label":"Drøfting","children":[{"label":"Parter og krav"},{"label":"Rettslig grunnlag"},{"label":"Subsumsjon"},{"label":"Konklusjon"}]},{"label":"Kilder","children":[{"label":"Lovdata"},{"label":"Tilsyn og ombud"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:rettskilder-og-juridisk-drofting';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Ordlydstolking', 'Hva ordene betyr i vanlig språkbruk.', 0),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Innskrenkende tolking', 'Regelen gjelder færre tilfeller enn ordlyden tilsier.', 1),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Utvidende tolking', 'Regelen gjelder flere tilfeller enn ordlyden tilsier.', 2),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Analogi', 'Regelen brukes på et lignende tilfelle som ikke er nevnt.', 3),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Antitetisk tolking', 'Det som ikke er nevnt, er ikke omfattet.', 4),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Lex superior', 'Den høyere regelen går foran.', 5),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Lex specialis', 'Den spesielle regelen går foran den generelle.', 6),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Lex posterior', 'Den nyere regelen går foran den eldre.', 7),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Menneskerettsloven § 3', 'Inkorporerte konvensjoner går foran annen lov ved motstrid.', 8),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Parter', 'De som er uenige i saken.', 9),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Rettslig grunnlag', 'Regelen som kan gi kravet.', 10),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Juridisk problemstilling', 'Presist formulert rettsspørsmål.', 11),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Subsumsjon', 'Faktum sammenholdes med vilkårene i regelen.', 12),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Rettsvirkning', 'Det som følger når vilkårene er oppfylt.', 13),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'Subsidiær drøfting', 'Drøfting «for det tilfellet at» et tidligere spørsmål besvares annerledes.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:rettskilder-og-juridisk-drofting';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q01', 'flervalg', 'Hva er utgangspunktet når en lovtekst skal tolkes?', array['Dommerens mening', 'Ordlyden', 'Avisomtale', 'Partenes ønsker']::text[], 1, 'Vanlig språkbruk.', true, true, 0),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q02', 'flervalg', 'Hva betyr lex specialis?', array['Den spesielle regelen går foran den generelle', 'Den nyeste regelen går foran', 'Den høyeste regelen går foran', 'Den eldste regelen går foran']::text[], 0, 'Spesialregel foran hovedregel.', true, true, 1),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q03', 'flervalg', 'Hvorfor er analogi til skade for tiltalte ikke tillatt i strafferetten?', array['Fordi den er for tidkrevende', 'Fordi Høyesterett ikke liker analogi', 'Fordi Grunnloven krever klar hjemmel for straff', 'Fordi det ikke finnes straffelover']::text[], 2, 'Legalitetsprinsippet.', true, true, 2),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q04', 'flervalg', 'Hva er subsumsjon?', array['Å finne partene', 'Å skrive konklusjonen', 'Å lete etter lover', 'Å sammenholde faktum med vilkårene i regelen']::text[], 3, 'Kjernen i drøftingen.', true, true, 3),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q05', 'flervalg', 'Hva sier menneskerettsloven § 3?', array['At inkorporerte konvensjoner går foran annen lov ved motstrid', 'At menneskerettighetene ikke gjelder i Norge', 'At forskrifter går foran lover', 'At EU-retten gjelder']::text[], 0, 'En viktig motstridsregel.', true, true, 4),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q06', 'flervalg', 'Hva er riktig rekkefølge i en juridisk drøfting?', array['Konklusjon, faktum, krav', 'Parter, krav, rettslig grunnlag, problemstilling, drøfting, konklusjon', 'Drøfting, parter, lov', 'Problemstilling, konklusjon, parter']::text[], 1, 'Fra hvem og hva til svar.', true, true, 5),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q07', 'flervalg', 'Hva betyr lex superior?', array['Den nyeste regelen går foran', 'Den spesielle regelen går foran', 'Den høyere regelen går foran', 'Den lengste regelen går foran']::text[], 2, 'Grunnloven foran lov.', true, true, 6),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q08', 'flervalg', 'Når får reelle hensyn størst betydning?', array['Når loven er helt klar', 'Aldri', 'Bare i straffesaker', 'Når de andre kildene ikke gir klart svar']::text[], 3, 'Rimelighet og konsekvenser.', true, true, 7),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q09', 'flervalg', 'Hva er antitetisk tolking?', array['Det som ikke er nevnt, er ikke omfattet', 'Å bruke regelen på lignende tilfeller', 'Å utvide regelen', 'Å se bort fra ordlyden']::text[], 0, 'Motsetningsslutning.', true, false, 8),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'q10', 'flervalg', 'Hvilke dommer fra Høyesterett har særlig stor vekt?', array['Dommer i ankeutvalget', 'Dommer fra storkammer og plenum', 'Tingrettsdommer', 'Dommer med dissens']::text[], 1, 'Prinsipielle saker.', true, false, 9),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm01', 'sant-usant', 'Forarbeider veier ofte tungt for nye lover.', array['Sant', 'Usant']::text[], 0, 'De viser lovgivers formål.', false, true, 10),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm02', 'sant-usant', 'En forskrift går foran en lov ved motstrid.', array['Sant', 'Usant']::text[], 1, 'Loven er høyere – lex superior.', false, true, 11),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm03', 'sant-usant', 'En sak kan ha flere problemstillinger som må løses i logisk rekkefølge.', array['Sant', 'Usant']::text[], 0, 'For eksempel mangel før krav.', false, true, 12),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm04', 'sant-usant', 'Konklusjonen kan stå åpen i en juridisk drøfting.', array['Sant', 'Usant']::text[], 1, 'Du skal svare klart på problemstillingen.', false, true, 13),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm05', 'flervalg', 'Hva betyr lex posterior?', array['Den høyere regelen går foran', 'Den nyere regelen går foran den eldre', 'Den spesielle regelen går foran', 'Den eldste regelen går foran']::text[], 1, 'Nyere foran eldre.', false, true, 14),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm06', 'flervalg', 'Hvor finner du norske lover og forskrifter?', array['Lovdata', 'Wikipedia', 'Stortingets kantine', 'Politiets nettside']::text[], 0, 'Også dommer fra Høyesterett.', false, true, 15),
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 'm07', 'flervalg', 'Hva er et krav i en juridisk sak?', array['Loven som gjelder', 'Dommerens navn', 'Det den ene parten krever av den andre', 'Konklusjonen']::text[], 2, 'For eksempel erstatning eller heving.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:rettskilder-og-juridisk-drofting', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Dagsaktuelle juridiske problemstillinger
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:aktuelle-rettssporsmal', 'rettslare-2', 'aktuelle-rettssporsmal', 'Dagsaktuelle juridiske problemstillinger', 'Hvordan du utforsker og drøfter dagsaktuelle rettsspørsmål – å finne saken, kildene og interessene, skille mellom gjeldende rett og hva retten bør være – med eksempler som kunstig intelligens og opphavsrett, ytringsfrihet på nett, barnevern og menneskerettigheter, og nye straffebestemmelser.', array[4]::int[], 2, 'sjekkes', array['Sjekk status for samtykkebasert voldtektsbestemmelse, EUs KI-regelverk og nyere EMD-saker mot Norge før bruk – aktuelle saker endrer seg raskt.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:aktuelle-rettssporsmal', '## Hva er et dagsaktuelt rettsspørsmål?
+
+Et **dagsaktuelt** rettsspørsmål er en juridisk problemstilling som diskuteres **nå** – i nyhetene, i Stortinget eller i domstolene. Ofte er det **uklart** hva gjeldende rett er, eller det pågår en debatt om loven bør **endres**.
+
+## Slik utforsker du et rettsspørsmål
+
+1. **Finn saken**: Hva har skjedd, og hvem er involvert?
+2. **Finn kildene**: Hvilke lover, dommer og konvensjoner gjelder? Bruk **Lovdata**, **domstol.no**, **regjeringen.no** og **stortinget.no**.
+3. **Kartlegg interessene**: Hvem vinner og hvem taper på ulike løsninger?
+4. **Skill mellom** gjeldende rett – **de lege lata** – og hva retten bør være – **de lege ferenda**.
+5. **Vurder kildene kritisk**: En avisartikkel eller et innlegg i sosiale medier er ikke en rettskilde, og kan være **vinklet**.
+6. **Drøft** med argumenter for og mot, og kom fram til et **standpunkt**.
+
+## Eksempel: kunstig intelligens og opphavsrett
+
+KI-verktøy trenes på store mengder tekst, bilder og musikk. Det reiser spørsmål som:
+
+- Er det lovlig å bruke **opphavsrettslig beskyttet** materiale til trening uten samtykke?
+- Hvem eier et bilde eller en tekst som er **laget av KI**?
+- Hvem er **ansvarlig** hvis KI gir feil råd eller krenker noens rettigheter?
+
+Her møtes **åndsverkloven**, **personvernregler** og nye regler fra **EU** om kunstig intelligens. Mange spørsmål er fortsatt **uavklarte**.
+
+## Eksempel: ytringsfrihet på nett
+
+**Grunnloven § 100** verner ytringsfriheten, men **straffeloven** forbyr blant annet **hatefulle ytringer** og **trusler**. Spørsmål er hvor grensen går, og hvilket ansvar **plattformene** har for innholdet brukerne legger ut.
+
+## Eksempel: barnevern og menneskerettigheter
+
+**Den europeiske menneskerettsdomstolen (EMD)** har i flere saker kommet fram til at Norge har krenket **retten til familieliv** i **EMK artikkel 8** i barnevernssaker. Det har ført til endringer i praksis og debatt om balansen mellom **barnets beste** og **foreldrenes rettigheter**.
+
+## Eksempel: nye straffebestemmelser
+
+Straffeloven endres jevnlig. Et eksempel er debatten om en **samtykkebasert** voldtektsbestemmelse, der spørsmålet er om voldtekt skal defineres ut fra **manglende samtykke** i stedet for vold, trusler eller at offeret ikke kunne motsette seg. Her møtes **rettssikkerhet** for den tiltalte, **vern** av ofre og **bevisspørsmål**.
+
+## Argumenter i debatten
+
+Typiske hensyn i drøftingen:
+
+- **Rettssikkerhet**: Er reglene klare og forutsigbare?
+- **Likhet**: Behandles like saker likt?
+- **Effektivitet**: Virker regelen etter hensikten?
+- **Menneskerettigheter**: Er inngrepet nødvendig og forholdsmessig?
+- **Demokrati**: Bør spørsmålet avgjøres av Stortinget eller domstolene?
+
+## Kildekritikk
+
+Når du bruker nyhetssaker:
+
+- Hvem er **avsender**, og hvilke **interesser** har de?
+- Er det **fakta** eller **meninger**?
+- Stemmer omtalen med **dommen** eller **loven** selv?
+
+## Presentasjon
+
+Et godt arbeid med et aktuelt rettsspørsmål **forklarer** saken, viser **gjeldende rett** med kilder, **drøfter** argumentene og ender med et **begrunnet standpunkt**. Husk å oppgi **dato** – aktuelle saker endrer seg raskt.', '{"label":"Aktuelle rettsspørsmål","children":[{"label":"Metode","children":[{"label":"Saken og kildene"},{"label":"Interesser"},{"label":"Lata og ferenda"}]},{"label":"Eksempler","children":[{"label":"KI og opphavsrett"},{"label":"Ytringsfrihet på nett"},{"label":"Barnevern og EMD"},{"label":"Samtykke og voldtekt"}]},{"label":"Argumenter","children":[{"label":"Rettssikkerhet"},{"label":"Menneskerettigheter"},{"label":"Demokrati"}]},{"label":"Kildekritikk","children":[{"label":"Avsender"},{"label":"Fakta og meninger"}]},{"label":"Presentasjon","children":[{"label":"Begrunnet standpunkt"},{"label":"Dato"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:aktuelle-rettssporsmal';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:aktuelle-rettssporsmal', 'Dagsaktuelt rettsspørsmål', 'Juridisk problemstilling som diskuteres nå.', 0),
+  ('rettslare-2:aktuelle-rettssporsmal', 'De lege lata', 'Gjeldende rett.', 1),
+  ('rettslare-2:aktuelle-rettssporsmal', 'De lege ferenda', 'Hva retten bør være.', 2),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Lovdata', 'Nettsted med lover, forskrifter og dommer.', 3),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Interessekartlegging', 'Å finne hvem som vinner og taper på ulike løsninger.', 4),
+  ('rettslare-2:aktuelle-rettssporsmal', 'KI og opphavsrett', 'Spørsmål om trening på beskyttet materiale og eierskap til KI-innhold.', 5),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Åndsverkloven', 'Loven om opphavsrett.', 6),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Grunnloven § 100', 'Verner ytringsfriheten.', 7),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Hatefulle ytringer', 'Straffbare ytringer som angriper grupper, for eksempel på grunn av hudfarge eller religion.', 8),
+  ('rettslare-2:aktuelle-rettssporsmal', 'EMK artikkel 8', 'Retten til privatliv og familieliv.', 9),
+  ('rettslare-2:aktuelle-rettssporsmal', 'EMD', 'Den europeiske menneskerettsdomstolen.', 10),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Samtykkebasert voldtektsbestemmelse', 'Voldtekt defineres ut fra manglende samtykke.', 11),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Forholdsmessighet', 'Inngrepet må stå i rimelig forhold til målet.', 12),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Kildekritikk', 'Vurdering av avsender, interesser, fakta og meninger.', 13),
+  ('rettslare-2:aktuelle-rettssporsmal', 'Begrunnet standpunkt', 'Konklusjon støttet av argumenter og kilder.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:aktuelle-rettssporsmal';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:aktuelle-rettssporsmal', 'q01', 'flervalg', 'Hva er første steg når du skal utforske et aktuelt rettsspørsmål?', array['Skrive konklusjonen', 'Finne ut hva saken handler om og hvem som er involvert', 'Velge side', 'Lese kommentarfelt']::text[], 1, 'Deretter kildene.', true, true, 0),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q02', 'flervalg', 'Hvilken artikkel i EMK verner retten til familieliv?', array['Artikkel 8', 'Artikkel 2', 'Artikkel 10', 'Artikkel 3']::text[], 0, 'Viktig i barnevernssaker.', true, true, 1),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q03', 'flervalg', 'Hvilket spørsmål reiser KI i opphavsretten?', array['Om KI kan stemme', 'Om KI kan straffes', 'Om det er lovlig å trene KI på beskyttet materiale', 'Om KI trenger pass']::text[], 2, 'Mange spørsmål er uavklarte.', true, true, 2),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q04', 'flervalg', 'Hva verner Grunnloven § 100?', array['Eiendomsretten', 'Religionsfriheten', 'Stemmeretten', 'Ytringsfriheten']::text[], 3, 'Med grenser i straffeloven.', true, true, 3),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q05', 'flervalg', 'Hva betyr at en regel er samtykkebasert?', array['At det avgjørende er om det forelå samtykke', 'At begge parter må signere', 'At politiet må samtykke', 'At dommeren må godkjenne']::text[], 0, 'Gjelder debatten om voldtektsbestemmelsen.', true, true, 4),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q06', 'flervalg', 'Hvorfor er ikke en avisartikkel en rettskilde?', array['Fordi aviser er forbudt', 'Fordi den bare omtaler saken og kan være vinklet', 'Fordi den er for kort', 'Fordi den er gratis']::text[], 1, 'Gå til loven og dommen selv.', true, true, 5),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q07', 'flervalg', 'Hva er rettssikkerhet som argument?', array['At straffene er strenge', 'At saker går raskt', 'At reglene er klare og forutsigbare', 'At alle får erstatning']::text[], 2, 'Et sentralt hensyn i rettsstaten.', true, true, 6),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q08', 'flervalg', 'Hvorfor bør du oppgi dato når du skriver om aktuelle saker?', array['Fordi det er pent', 'Fordi lærerne krever det', 'Fordi lover aldri endres', 'Fordi aktuelle saker endrer seg raskt']::text[], 3, 'Nye dommer og lover kan komme.', true, true, 7),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q09', 'flervalg', 'Hva er forholdsmessighet?', array['At inngrepet står i rimelig forhold til målet', 'At straffen er lik for alle', 'At loven er lang', 'At saken er stor']::text[], 0, 'Viktig ved menneskerettighetsinngrep.', true, false, 8),
+  ('rettslare-2:aktuelle-rettssporsmal', 'q10', 'flervalg', 'Hva bør et arbeid med et aktuelt rettsspørsmål ende med?', array['Et sitat', 'Et begrunnet standpunkt', 'En avisoverskrift', 'Et spørsmål']::text[], 1, 'Støttet av argumenter og kilder.', true, false, 9),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm01', 'sant-usant', 'EMD har i flere saker kommet fram til at Norge har krenket retten til familieliv i barnevernssaker.', array['Sant', 'Usant']::text[], 0, 'Det har ført til endringer i praksis.', false, true, 10),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm02', 'sant-usant', 'Alle spørsmål om KI og opphavsrett er ferdig avklart.', array['Sant', 'Usant']::text[], 1, 'Mange er fortsatt uavklarte.', false, true, 11),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm03', 'sant-usant', 'Ytringsfriheten har grenser, for eksempel mot trusler.', array['Sant', 'Usant']::text[], 0, 'Straffeloven setter grenser.', false, true, 12),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm04', 'sant-usant', 'Et innlegg i sosiale medier er en rettskilde.', array['Sant', 'Usant']::text[], 1, 'Det er ikke en rettskilde.', false, true, 13),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm05', 'flervalg', 'Hvilket spørsmål handler om de lege ferenda?', array['Hva sier loven i dag?', 'Bør loven endres?', 'Hva står i paragrafen?', 'Hva sa Høyesterett?']::text[], 1, 'Hva retten bør være.', false, true, 14),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm06', 'flervalg', 'Hvor kan du finne informasjon om lovforslag?', array['stortinget.no og regjeringen.no', 'Bare i aviser', 'På sosiale medier', 'Hos naboen']::text[], 0, 'Offisielle kilder.', false, true, 15),
+  ('rettslare-2:aktuelle-rettssporsmal', 'm07', 'flervalg', 'Hvilket demokratisk spørsmål reiser mange rettsdebatter?', array['Hvem som skal betale skatt', 'Om loven er trykt', 'Om spørsmålet bør avgjøres av Stortinget eller domstolene', 'Om dommerne liker saken']::text[], 2, 'Maktfordeling.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:aktuelle-rettssporsmal', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Demokrati og menneskerettigheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'rettslare-2', 'demokrati-og-menneskerettigheter', 'Demokrati og menneskerettigheter', 'Hvordan demokratiet er forankret i Grunnloven, og hvilke grunnleggende menneskerettigheter som verner det – ytringsfrihet, forsamlings- og foreningsfrihet, stemmerett og retten til rettferdig rettergang – med menneskerettsloven, EMK og Den europeiske menneskerettsdomstolen.', array[5]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:demokrati-og-menneskerettigheter', '## Demokratiet i Grunnloven
+
+Grunnloven av **1814** bygger på **folkesuverenitet** og **maktfordeling**:
+
+- **Stortinget** har den **lovgivende** makten og bevilger penger.
+- **Regjeringen** har den **utøvende** makten.
+- **Domstolene** har den **dømmende** makten.
+
+**Parlamentarismen** – at regjeringen må ha Stortingets **tillit** – ble praksis fra **1884** og skrevet inn i Grunnloven i **2007**.
+
+## Menneskerettigheter i Grunnloven
+
+I **2014** fikk Grunnloven et eget kapittel om **menneskerettigheter**. **§ 92** sier at statens myndigheter skal **respektere og sikre** menneskerettighetene. Viktige bestemmelser for demokratiet:
+
+- **§ 100**: **ytringsfrihet** – også retten til å ta imot informasjon
+- **§ 101**: **forenings**frihet – retten til å danne partier og organisasjoner
+- **§ 49** og **§ 50**: folket utøver lovgivende makt gjennom Stortinget, og **stemmerett** fra 18 år
+- **§ 95**: retten til en **rettferdig** rettergang for uavhengige domstoler
+- **§ 98**: **likhet** for loven og vern mot usaklig forskjellsbehandling
+
+## Internasjonale menneskerettigheter
+
+**Menneskerettsloven** av 1999 gjør flere konvensjoner til norsk lov:
+
+- **EMK** – Den europeiske menneskerettskonvensjonen
+- **SP** – FN-konvensjonen om sivile og politiske rettigheter
+- **ØSK** – FN-konvensjonen om økonomiske, sosiale og kulturelle rettigheter
+- **Barnekonvensjonen**
+- **Kvinnediskrimineringskonvensjonen**
+
+Ved **motstrid** går disse foran annen norsk lov.
+
+## Viktige rettigheter for demokratiet
+
+- **Ytringsfrihet** (EMK artikkel 10): Uten fri debatt kan ikke velgerne ta informerte valg. **Pressen** har en særlig rolle som «**vaktbikkje**».
+- **Forsamlingsfrihet** (EMK artikkel 11): retten til å **demonstrere** fredelig.
+- **Foreningsfrihet**: retten til å danne og melde seg inn i **partier** og **fagforeninger**.
+- **Frie valg** (EMK tilleggsprotokoll 1 artikkel 3): **hemmelige** valg med jevne mellomrom.
+- **Rettferdig rettergang** (EMK artikkel 6): **uavhengige** domstoler som også kan prøve statens handlinger.
+
+## Begrensninger
+
+De fleste rettighetene er ikke **absolutte**. Et inngrep kan være lovlig hvis det
+
+1. har **hjemmel i lov**
+2. har et **legitimt formål**, som å verne andres rettigheter eller nasjonal sikkerhet
+3. er **nødvendig** og **forholdsmessig**
+
+Forbudet mot **tortur** er derimot **absolutt**.
+
+## Domstolkontroll
+
+Norske domstoler kan sette til side en lov som strider mot **Grunnloven** – **prøvingsretten**, nå skrevet inn i **§ 89**. Den som mener at Norge har krenket EMK, kan etter å ha prøvd saken i norske domstoler klage til **Den europeiske menneskerettsdomstolen (EMD)** i **Strasbourg**.
+
+## Demokrati og mindretall
+
+Et demokrati er mer enn **flertallsstyre**. Menneskerettighetene verner **mindretall** mot at flertallet overkjører dem. Samtidig er det en debatt om hvor mye makt domstolene bør ha overfor folkevalgte – ofte kalt **rettsliggjøring**.
+
+## Trusler mot demokratiet
+
+- **Desinformasjon** og påvirkningskampanjer
+- **Hets** og **trusler** mot politikere og journalister, som kan føre til at folk **trekker seg** fra debatten
+- Svekket tillit til **institusjonene**
+
+Rettighetene må derfor både **respekteres** av staten og **sikres** gjennom aktive tiltak.', '{"label":"Demokrati og rettigheter","children":[{"label":"Grunnloven","children":[{"label":"Maktfordeling"},{"label":"Parlamentarisme"},{"label":"Menneskerettighetskapitlet"}]},{"label":"Konvensjoner","children":[{"label":"Menneskerettsloven"},{"label":"EMK, SP, ØSK"}]},{"label":"Demokratiske rettigheter","children":[{"label":"Ytringsfrihet"},{"label":"Forsamling og forening"},{"label":"Frie valg"},{"label":"Rettferdig rettergang"}]},{"label":"Grenser","children":[{"label":"Tre-trinns-test"},{"label":"Absolutt torturforbud"}]},{"label":"Kontroll","children":[{"label":"Prøvingsretten"},{"label":"EMD"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:demokrati-og-menneskerettigheter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Folkesuverenitet', 'Makten kommer fra folket.', 0),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Maktfordeling', 'Lovgivende, utøvende og dømmende makt er delt.', 1),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Parlamentarisme', 'Regjeringen må ha Stortingets tillit – i Grunnloven fra 2007.', 2),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Grunnloven § 92', 'Staten skal respektere og sikre menneskerettighetene.', 3),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Grunnloven § 100', 'Ytringsfrihet.', 4),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Grunnloven § 101', 'Foreningsfrihet.', 5),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Grunnloven § 98', 'Likhet for loven.', 6),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Menneskerettsloven', 'Gjør blant annet EMK, SP, ØSK og barnekonvensjonen til norsk lov.', 7),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'EMK artikkel 10', 'Ytringsfrihet.', 8),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'EMK artikkel 11', 'Forsamlings- og foreningsfrihet.', 9),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'EMK artikkel 6', 'Rettferdig rettergang.', 10),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Vilkår for inngrep', 'Lovhjemmel, legitimt formål, nødvendig og forholdsmessig.', 11),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Absolutt rettighet', 'Forbudet mot tortur – kan ikke begrenses.', 12),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Prøvingsretten', 'Domstolene kan sette til side lover som strider mot Grunnloven – § 89.', 13),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'Rettsliggjøring', 'Makt flyttes fra folkevalgte til domstoler.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:demokrati-og-menneskerettigheter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q01', 'flervalg', 'Hvilket år fikk Grunnloven et eget kapittel om menneskerettigheter?', array['1814', '2014', '1884', '1999']::text[], 1, '200-årsjubileet.', true, true, 0),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q02', 'flervalg', 'Hva sier Grunnloven § 92?', array['At staten skal respektere og sikre menneskerettighetene', 'At Kongen har all makt', 'At det skal være valg hvert fjerde år', 'At Norge er med i EU']::text[], 0, 'Innledningen til menneskerettighetskapitlet.', true, true, 1),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q03', 'flervalg', 'Hvilken rettighet i EMK verner retten til å demonstrere fredelig?', array['Artikkel 3', 'Artikkel 6', 'Artikkel 11', 'Artikkel 2']::text[], 2, 'Forsamlingsfrihet.', true, true, 2),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q04', 'flervalg', 'Hvilken rettighet er absolutt?', array['Ytringsfrihet', 'Forsamlingsfrihet', 'Retten til privatliv', 'Forbudet mot tortur']::text[], 3, 'Kan aldri begrenses.', true, true, 3),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q05', 'flervalg', 'Hva er prøvingsretten?', array['Domstolenes rett til å sette til side lover som strider mot Grunnloven', 'Stortingets rett til å prøve regjeringen', 'Retten til å anke', 'Retten til å stemme']::text[], 0, 'Nå i Grunnloven § 89.', true, true, 4),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q06', 'flervalg', 'Hva gjør menneskerettsloven?', array['Opphever Grunnloven', 'Gjør flere menneskerettskonvensjoner til norsk lov', 'Gir Kongen makt', 'Innfører dødsstraff']::text[], 1, 'Med forrang ved motstrid.', true, true, 5),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q07', 'flervalg', 'Hvilke vilkår må vanligvis være oppfylt for et lovlig inngrep i en rettighet?', array['At flertallet ønsker det', 'At politiet ber om det', 'Lovhjemmel, legitimt formål, nødvendig og forholdsmessig', 'At inngrepet er gratis']::text[], 2, 'Tre-trinns-test.', true, true, 6),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q08', 'flervalg', 'Hvorfor kalles pressen en vaktbikkje?', array['Fordi den eies av staten', 'Fordi den skriver om dyr', 'Fordi den bestemmer lovene', 'Fordi den avslører maktmisbruk']::text[], 3, 'Viktig for demokratiet.', true, true, 7),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q09', 'flervalg', 'Hvor kan man klage hvis man mener Norge har krenket EMK?', array['EMD i Strasbourg', 'FN i New York', 'Stortinget', 'Kongen']::text[], 0, 'Etter å ha prøvd saken nasjonalt.', true, false, 8),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'q10', 'flervalg', 'Hvorfor er demokrati mer enn flertallsstyre?', array['Fordi mindretallet alltid bestemmer', 'Fordi menneskerettighetene verner mindretall', 'Fordi det ikke er valg', 'Fordi Kongen bestemmer']::text[], 1, 'Flertallet kan ikke overkjøre grunnleggende rettigheter.', true, false, 9),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm01', 'sant-usant', 'Parlamentarismen ble skrevet inn i Grunnloven i 2007.', array['Sant', 'Usant']::text[], 0, 'Praksis siden 1884.', false, true, 10),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm02', 'sant-usant', 'Ytringsfriheten er absolutt og kan aldri begrenses.', array['Sant', 'Usant']::text[], 1, 'Den kan begrenses etter tre-trinns-testen.', false, true, 11),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm03', 'sant-usant', 'Barnekonvensjonen er gjort til norsk lov gjennom menneskerettsloven.', array['Sant', 'Usant']::text[], 0, 'Sammen med blant annet EMK.', false, true, 12),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm04', 'sant-usant', 'Hets mot journalister har ingen betydning for demokratiet.', array['Sant', 'Usant']::text[], 1, 'Det kan føre til at folk trekker seg fra debatten.', false, true, 13),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm05', 'flervalg', 'Hvilken artikkel i EMK gjelder rettferdig rettergang?', array['Artikkel 10', 'Artikkel 6', 'Artikkel 8', 'Artikkel 11']::text[], 1, 'Uavhengige domstoler.', false, true, 14),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm06', 'flervalg', 'Hva betyr rettsliggjøring?', array['At makt flyttes fra folkevalgte til domstoler', 'At alle lover skrives om', 'At domstolene legges ned', 'At Stortinget blir domstol']::text[], 0, 'En demokratisk debatt.', false, true, 15),
+  ('rettslare-2:demokrati-og-menneskerettigheter', 'm07', 'flervalg', 'Hvem har den lovgivende makten i Norge?', array['Regjeringen', 'Høyesterett', 'Stortinget', 'Kongen alene']::text[], 2, 'Maktfordelingen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:demokrati-og-menneskerettigheter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Demokrati og rettigheter i Sápmi
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:samiske-rettigheter', 'rettslare-2', 'samiske-rettigheter', 'Demokrati og rettigheter i Sápmi', 'Samenes stilling som urfolk i Norge – fra fornorskingspolitikken og Alta-saken til Grunnloven § 108, sameloven, Sametinget, ILO-konvensjon 169, SP artikkel 27, Finnmarksloven og konsultasjonsplikten – og hvordan Fosen-dommen viser at menneskerettighetene verner samisk kultur.', array[5]::int[], 4, 'sjekkes', array['Sjekk status for oppfølgingen av Fosen-dommen (avtaler med reinbeitedistriktene) og andelen av Finnmark som eies av Finnmarkseiendommen.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:samiske-rettigheter', '## Samene som urfolk
+
+Samene er et **urfolk** med tradisjonelle bosettingsområder i **Norge**, **Sverige**, **Finland** og **Russland** – til sammen kalt **Sápmi** (på sørsamisk **Saepmie**, på lulesamisk **Sábme**). Som urfolk har samene rett til å **bevare og utvikle** sitt språk, sin kultur og sitt samfunnsliv.
+
+**Kvener/norskfinner**, **skogfinner**, **jøder**, **rom** og **romanifolk/tatere** er **nasjonale minoriteter** med egne rettigheter, men de har ikke status som urfolk.
+
+## Fra fornorsking til rettigheter
+
+Fra midten av **1800-tallet** og langt ut på **1900-tallet** førte staten en **fornorskingspolitikk**. Samisk språk ble fortrengt i skolen, og regler om blant annet **jordkjøp** stilte krav om norskkunnskaper. **Sannhets- og forsoningskommisjonen** la fram sin rapport i **2023** og dokumenterte urett og langvarige virkninger.
+
+**Alta-saken** rundt **1980** ble et vendepunkt. Den førte til **Samerettsutvalget** og en rekke rettslige endringer:
+
+- **Sameloven** (1987)
+- En egen grunnlovsbestemmelse i **1988**, i dag **Grunnloven § 108**: Staten skal legge forholdene til rette for at det samiske folk kan sikre og utvikle sitt **språk**, sin **kultur** og sitt **samfunnsliv**.
+- **Sametinget**, som åpnet i **1989**
+
+## Sametinget og samisk demokrati
+
+**Sametinget** er samenes folkevalgte organ. Valg holdes samtidig med **stortingsvalget**, og for å stemme må man stå i **samemanntallet**. Sametinget har **egne oppgaver** innen blant annet språk, kultur og næringsutvikling, og gir **råd** til staten i saker som angår samene.
+
+## Internasjonale rettigheter
+
+- **ILO-konvensjon nr. 169** om urfolk: Norge var i **1990** det første landet som ratifiserte den. Den gir blant annet rett til **konsultasjoner** og rettigheter til **land og ressurser**.
+- **SP artikkel 27**: Minoriteter har rett til å utøve sin **kultur**. For samene omfatter dette **reindrift** og andre tradisjonelle næringer. Retten er gjort til norsk lov gjennom **menneskerettsloven**.
+- FNs **urfolkserklæring** (2007) er ikke bindende, men har stor politisk vekt.
+
+## Land og ressurser
+
+**Finnmarksloven** (2005) overførte om lag 95 % av arealet i Finnmark til **Finnmarkseiendommen**, som styres av representanter fra Sametinget og fylket. **Finnmarkskommisjonen** kartlegger bruks- og eierrettigheter, og **Utmarksdomstolen** avgjør tvister.
+
+## Konsultasjonsplikt
+
+Statlige, fylkeskommunale og kommunale myndigheter har plikt til å **konsultere** Sametinget og andre berørte samiske interesser i saker som kan **påvirke samiske interesser direkte**. Plikten er lovfestet i **sameloven**. Konsultasjonene skal skje i **god tro** med mål om **enighet**.
+
+## Fosen-dommen
+
+I **2021** kom **Høyesterett** i **storkammer** fram til at konsesjonene til to vindkraftverk på **Fosen** var **ugyldige**. Utbyggingen krenket reindriftssamenes rett til **kulturutøvelse** etter **SP artikkel 27**, fordi den truet muligheten til å drive reindrift i området.
+
+Turbinene ble likevel stående i lang tid etter dommen. Det førte til **protestaksjoner**, blant annet ved departementene i Oslo, og en debatt om hvordan staten følger opp **menneskerettsbrudd**. Staten har senere inngått **avtaler** med de berørte reinbeitedistriktene.
+
+## Drøfting
+
+Samiske rettighetssaker handler ofte om å **veie** hensyn mot hverandre – for eksempel **grønn energi** og **mineraler** mot **reindrift** og **kultur**. Spørsmålet er både **juridisk** – hva sier menneskerettighetene? – og **politisk** – hvordan bør flertallet ta hensyn til et urfolk?', '{"label":"Samiske rettigheter","children":[{"label":"Historie","children":[{"label":"Fornorsking"},{"label":"Alta-saken"},{"label":"Sannhetskommisjonen"}]},{"label":"Nasjonal rett","children":[{"label":"Grunnloven § 108"},{"label":"Sameloven"},{"label":"Finnmarksloven"}]},{"label":"Demokrati","children":[{"label":"Sametinget"},{"label":"Samemanntallet"},{"label":"Konsultasjoner"}]},{"label":"Internasjonal rett","children":[{"label":"ILO 169"},{"label":"SP artikkel 27"}]},{"label":"Fosen","children":[{"label":"Høyesterett 2021"},{"label":"Oppfølging og protester"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:samiske-rettigheter';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:samiske-rettigheter', 'Urfolk', 'Folk med tilknytning til et område før dagens statsgrenser, med egen kultur og samfunnsliv.', 0),
+  ('rettslare-2:samiske-rettigheter', 'Sápmi', 'Samenes tradisjonelle områder i Norge, Sverige, Finland og Russland.', 1),
+  ('rettslare-2:samiske-rettigheter', 'Nasjonale minoriteter', 'Kvener/norskfinner, skogfinner, jøder, rom og romanifolk/tatere.', 2),
+  ('rettslare-2:samiske-rettigheter', 'Fornorskingspolitikken', 'Statens politikk for å gjøre samer og kvener norske.', 3),
+  ('rettslare-2:samiske-rettigheter', 'Sannhets- og forsoningskommisjonen', 'La fram rapport om fornorskingen i 2023.', 4),
+  ('rettslare-2:samiske-rettigheter', 'Grunnloven § 108', 'Staten skal legge til rette for samisk språk, kultur og samfunnsliv.', 5),
+  ('rettslare-2:samiske-rettigheter', 'Sametinget', 'Samenes folkevalgte organ – åpnet i 1989.', 6),
+  ('rettslare-2:samiske-rettigheter', 'Samemanntallet', 'Registeret man må stå i for å stemme ved sametingsvalg.', 7),
+  ('rettslare-2:samiske-rettigheter', 'ILO-konvensjon 169', 'Urfolkskonvensjon – Norge ratifiserte som første land i 1990.', 8),
+  ('rettslare-2:samiske-rettigheter', 'SP artikkel 27', 'Minoriteters rett til å utøve sin kultur.', 9),
+  ('rettslare-2:samiske-rettigheter', 'Finnmarksloven', 'Lov fra 2005 om land og ressurser i Finnmark.', 10),
+  ('rettslare-2:samiske-rettigheter', 'Finnmarkseiendommen', 'Eier det meste av grunnen i Finnmark.', 11),
+  ('rettslare-2:samiske-rettigheter', 'Konsultasjonsplikt', 'Plikt til å konsultere samiske interesser i saker som berører dem direkte.', 12),
+  ('rettslare-2:samiske-rettigheter', 'Fosen-dommen', 'Høyesterett 2021: vindkraftkonsesjoner ugyldige på grunn av SP artikkel 27.', 13),
+  ('rettslare-2:samiske-rettigheter', 'Alta-saken', 'Vendepunkt for samiske rettigheter rundt 1980.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:samiske-rettigheter';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:samiske-rettigheter', 'q01', 'flervalg', 'Hva sier Grunnloven § 108?', array['At samisk er eneste offisielle språk', 'At staten skal legge til rette for samisk språk, kultur og samfunnsliv', 'At samer ikke kan stemme', 'At Sametinget er lovgivende']::text[], 1, 'Innført i 1988 som § 110 a.', true, true, 0),
+  ('rettslare-2:samiske-rettigheter', 'q02', 'flervalg', 'Når åpnet Sametinget?', array['1989', '1814', '1945', '2005']::text[], 0, 'Etter Alta-saken og sameloven.', true, true, 1),
+  ('rettslare-2:samiske-rettigheter', 'q03', 'flervalg', 'Hva verner SP artikkel 27?', array['Retten til utdanning', 'Retten til eiendom', 'Minoriteters rett til å utøve sin kultur', 'Ytringsfriheten']::text[], 2, 'Omfatter reindrift.', true, true, 2),
+  ('rettslare-2:samiske-rettigheter', 'q04', 'flervalg', 'Hvilket land ratifiserte ILO-konvensjon 169 først?', array['Sverige', 'Finland', 'Russland', 'Norge']::text[], 3, 'I 1990.', true, true, 3),
+  ('rettslare-2:samiske-rettigheter', 'q05', 'flervalg', 'Hva kom Høyesterett fram til i Fosen-saken?', array['At vindkraftkonsesjonene var ugyldige fordi de krenket SP artikkel 27', 'At reindrift ikke er kultur', 'At staten skulle betale bøter til EU', 'At turbinene var lovlige']::text[], 0, 'Storkammer i 2021.', true, true, 4),
+  ('rettslare-2:samiske-rettigheter', 'q06', 'flervalg', 'Hva gjør Finnmarksloven?', array['Innfører samisk som skolespråk', 'Overfører det meste av grunnen i Finnmark til Finnmarkseiendommen', 'Oppretter Sametinget', 'Forbyr reindrift']::text[], 1, 'Fra 2005.', true, true, 5),
+  ('rettslare-2:samiske-rettigheter', 'q07', 'flervalg', 'Hvem er en nasjonal minoritet, men ikke urfolk?', array['Samene', 'Nordmenn', 'Kvener/norskfinner', 'Inuitter på Grønland']::text[], 2, 'Også skogfinner, jøder, rom og romanifolk/tatere.', true, true, 6),
+  ('rettslare-2:samiske-rettigheter', 'q08', 'flervalg', 'Hva innebærer konsultasjonsplikten?', array['At samer må betale skatt', 'At Sametinget kan nedlegge veto', 'At bare staten kan bestemme', 'At myndighetene skal konsultere samiske interesser i saker som berører dem direkte']::text[], 3, 'I god tro med mål om enighet.', true, true, 7),
+  ('rettslare-2:samiske-rettigheter', 'q09', 'flervalg', 'Hva må man gjøre for å stemme ved sametingsvalg?', array['Stå i samemanntallet', 'Bo i Finnmark', 'Snakke flytende samisk', 'Eie reinsdyr']::text[], 0, 'Manntallet har egne kriterier.', true, false, 8),
+  ('rettslare-2:samiske-rettigheter', 'q10', 'flervalg', 'Hvilken sak regnes som et vendepunkt for samiske rettigheter?', array['Fosen-saken', 'Alta-saken', 'Nürnbergprosessen', 'Unionsoppløsningen']::text[], 1, 'Rundt 1980.', true, false, 9),
+  ('rettslare-2:samiske-rettigheter', 'm01', 'sant-usant', 'Sametingsvalg holdes samtidig med stortingsvalget.', array['Sant', 'Usant']::text[], 0, 'Hvert fjerde år.', false, true, 10),
+  ('rettslare-2:samiske-rettigheter', 'm02', 'sant-usant', 'FNs urfolkserklæring er juridisk bindende for Norge.', array['Sant', 'Usant']::text[], 1, 'Den er ikke bindende, men har politisk vekt.', false, true, 11),
+  ('rettslare-2:samiske-rettigheter', 'm03', 'sant-usant', 'Reindrift er vernet som samisk kulturutøvelse etter SP artikkel 27.', array['Sant', 'Usant']::text[], 0, 'Grunnlaget for Fosen-dommen.', false, true, 12),
+  ('rettslare-2:samiske-rettigheter', 'm04', 'sant-usant', 'Fosen-turbinene ble revet dagen etter dommen.', array['Sant', 'Usant']::text[], 1, 'De ble stående lenge, noe som førte til protester.', false, true, 13),
+  ('rettslare-2:samiske-rettigheter', 'm05', 'flervalg', 'Hva gjør Utmarksdomstolen?', array['Dømmer i straffesaker', 'Avgjør tvister om bruks- og eierrettigheter i Finnmark', 'Velger Sametinget', 'Gir vindkraftkonsesjoner']::text[], 1, 'Etter Finnmarksloven.', false, true, 14),
+  ('rettslare-2:samiske-rettigheter', 'm06', 'flervalg', 'Hvilke hensyn veies ofte mot hverandre i samiske rettighetssaker?', array['Grønn energi og mineraler mot reindrift og kultur', 'Skatt mot toll', 'Skole mot helse', 'Sport mot kultur']::text[], 0, 'Både juridisk og politisk.', false, true, 15),
+  ('rettslare-2:samiske-rettigheter', 'm07', 'flervalg', 'Hvilken lov gjør SP artikkel 27 til norsk lov?', array['Straffeloven', 'Plan- og bygningsloven', 'Menneskerettsloven', 'Opplæringsloven']::text[], 2, 'Med forrang ved motstrid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:samiske-rettigheter', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Individet og forvaltningen
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:forvaltningsrett', 'rettslare-2', 'forvaltningsrett', 'Individet og forvaltningen', 'Rettsforholdet mellom individet og den offentlige forvaltningen – legalitetsprinsippet, enkeltvedtak og forskrifter, de sentrale saksbehandlingsreglene i forvaltningsloven om habilitet, veiledning, forhåndsvarsel, innsyn, begrunnelse og klage – og kontroll gjennom Sivilombudet og domstolene.', array[6]::int[], 5, 'sjekkes', array['Paragrafhenvisningene gjelder forvaltningsloven av 1967. Sjekk om ny forvaltningslov er vedtatt og har trådt i kraft, og oppdater paragrafnumrene.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:forvaltningsrett', '## Hva er forvaltningen?
+
+**Forvaltningen** er de offentlige organene som setter politikken ut i livet: **departementer**, **direktorater**, **statsforvalteren**, **fylkeskommuner**, **kommuner** og etater som **NAV**, **Skatteetaten** og **Lånekassen**. De tar mange avgjørelser som har stor betydning for folks liv – om skoleplass, byggetillatelse, trygd og studielån.
+
+Forholdet mellom individ og forvaltning er **ulikt**: Forvaltningen har **makt**, kunnskap og ressurser. Derfor trengs regler som sikrer **rettssikkerhet**.
+
+## Legalitetsprinsippet
+
+**Grunnloven § 113** krever at myndighetenes **inngrep** overfor den enkelte har **grunnlag i lov**. Jo mer inngripende vedtaket er, desto **klarere** må hjemmelen være.
+
+## Enkeltvedtak og forskrift
+
+Forvaltningsloven skiller mellom
+
+- **enkeltvedtak**: avgjørelser om rettigheter eller plikter for **bestemte** personer – for eksempel avslag på søknad om studielån eller en **standpunktkarakter**
+- **forskrifter**: generelle regler for et **ubestemt** antall personer
+
+De fleste saksbehandlingsreglene gjelder **enkeltvedtak**.
+
+## Sentrale saksbehandlingsregler
+
+- **Habilitet** (§ 6): En saksbehandler må ikke ha **nær tilknytning** til saken eller partene, for eksempel være i slekt med søkeren. Da er hen **inhabil**.
+- **Veiledningsplikt** (§ 11): Forvaltningen skal **hjelpe** folk med å ivareta sine interesser.
+- **Saksbehandlingstid** (§ 11 a): Saken skal avgjøres **uten ugrunnet opphold**.
+- **Forhåndsvarsel** (§ 16): Parten skal som hovedregel få **varsel** og mulighet til å uttale seg før vedtak treffes.
+- **Utredningsplikt** (§ 17): Saken skal være **så godt opplyst som mulig**.
+- **Partsinnsyn** (§ 18): Parten har rett til å se **dokumentene** i sin egen sak.
+- **Begrunnelse** (§ 24–25): Vedtaket skal **begrunnes**, med de reglene og faktiske forholdene det bygger på.
+- **Klage** (§ 28–29): Enkeltvedtak kan **påklages** til et overordnet organ. Klagefristen er **tre uker** fra parten mottok vedtaket.
+
+## Virkningen av feil
+
+Er det gjort **saksbehandlingsfeil**, er vedtaket likevel gyldig hvis det er grunn til å regne med at feilen **ikke** kan ha virket inn på innholdet (§ 41). Er feilen alvorlig, kan vedtaket bli **ugyldig**.
+
+## Forvaltningsskjønn
+
+Mange regler gir forvaltningen et **skjønn** – «kan» innvilge. Domstolene kan ikke overprøve om skjønnet er **klokt**, men de kan prøve om det foreligger **myndighetsmisbruk**: at vedtaket bygger på **usaklige hensyn**, er **vilkårlig**, gir **usaklig forskjellsbehandling** eller er **sterkt urimelig**.
+
+## Innsyn for allmennheten
+
+**Offentleglova** gir **alle** rett til innsyn i forvaltningens dokumenter, med unntak blant annet for **taushetsbelagte** opplysninger. Det er viktig for **pressen** og for **tilliten** til forvaltningen.
+
+## Kontroll med forvaltningen
+
+- **Klage** til overordnet organ
+- **Sivilombudet**: Stortingets ombud som behandler **klager** fra borgere gratis. Uttalelsene er ikke bindende, men blir nesten alltid **fulgt**.
+- **Domstolene**: kan prøve om vedtaket er **gyldig**.
+- **Stortinget** og **media**
+
+## Eksempel
+
+En elev får en standpunktkarakter hen mener er feil. Karakteren er et **enkeltvedtak**. Eleven kan be om **begrunnelse** og **klage** innen fristen. Klagen vurderes etter reglene i opplæringsloven og forskriften, og eleven skal få **skriftlig** svar.
+
+## Lovendringer
+
+En **ny forvaltningslov** er under arbeid og vil endre **paragrafnumrene**. Hovedprinsippene – forsvarlig saksbehandling, innsyn, begrunnelse og klage – videreføres.', '{"label":"Forvaltningsrett","children":[{"label":"Grunnlag","children":[{"label":"Legalitetsprinsippet"},{"label":"Enkeltvedtak og forskrift"}]},{"label":"Saksbehandling","children":[{"label":"Habilitet"},{"label":"Veiledning og utredning"},{"label":"Forhåndsvarsel og innsyn"},{"label":"Begrunnelse"}]},{"label":"Klage","children":[{"label":"Tre ukers frist"},{"label":"Overordnet organ"}]},{"label":"Gyldighet","children":[{"label":"Virkning av feil"},{"label":"Myndighetsmisbruk"}]},{"label":"Kontroll","children":[{"label":"Sivilombudet"},{"label":"Domstolene"},{"label":"Offentleglova og media"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:forvaltningsrett';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:forvaltningsrett', 'Forvaltningen', 'Offentlige organer som setter politikken ut i livet.', 0),
+  ('rettslare-2:forvaltningsrett', 'Legalitetsprinsippet', 'Inngrep overfor den enkelte krever lovhjemmel – Grunnloven § 113.', 1),
+  ('rettslare-2:forvaltningsrett', 'Enkeltvedtak', 'Avgjørelse om rettigheter eller plikter for bestemte personer.', 2),
+  ('rettslare-2:forvaltningsrett', 'Forskrift', 'Generelle regler for et ubestemt antall personer.', 3),
+  ('rettslare-2:forvaltningsrett', 'Habilitet', 'Saksbehandleren har ikke nær tilknytning til saken – § 6.', 4),
+  ('rettslare-2:forvaltningsrett', 'Veiledningsplikt', 'Forvaltningen skal hjelpe folk å ivareta sine interesser – § 11.', 5),
+  ('rettslare-2:forvaltningsrett', 'Forhåndsvarsel', 'Parten får uttale seg før vedtak – § 16.', 6),
+  ('rettslare-2:forvaltningsrett', 'Utredningsplikt', 'Saken skal være så godt opplyst som mulig – § 17.', 7),
+  ('rettslare-2:forvaltningsrett', 'Partsinnsyn', 'Rett til å se dokumentene i egen sak – § 18.', 8),
+  ('rettslare-2:forvaltningsrett', 'Begrunnelse', 'Vedtaket skal vise regler og fakta det bygger på.', 9),
+  ('rettslare-2:forvaltningsrett', 'Klagefrist', 'Tre uker fra vedtaket er mottatt.', 10),
+  ('rettslare-2:forvaltningsrett', 'Myndighetsmisbruk', 'Usaklige hensyn, vilkårlighet, usaklig forskjellsbehandling eller sterk urimelighet.', 11),
+  ('rettslare-2:forvaltningsrett', 'Offentleglova', 'Gir alle rett til innsyn i forvaltningens dokumenter.', 12),
+  ('rettslare-2:forvaltningsrett', 'Sivilombudet', 'Stortingets ombud som behandler klager på forvaltningen.', 13),
+  ('rettslare-2:forvaltningsrett', 'Forvaltningsloven § 41', 'Feil fører ikke til ugyldighet hvis de ikke kan ha virket inn.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:forvaltningsrett';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:forvaltningsrett', 'q01', 'flervalg', 'Hva er et enkeltvedtak?', array['En lov fra Stortinget', 'En avgjørelse om rettigheter eller plikter for bestemte personer', 'En generell forskrift', 'En dom']::text[], 1, 'For eksempel avslag på studielån.', true, true, 0),
+  ('rettslare-2:forvaltningsrett', 'q02', 'flervalg', 'Hva er klagefristen for enkeltvedtak?', array['Tre uker', 'En uke', 'Tre måneder', 'Ett år']::text[], 0, 'Fra parten mottok vedtaket.', true, true, 1),
+  ('rettslare-2:forvaltningsrett', 'q03', 'flervalg', 'Når er en saksbehandler inhabil?', array['Når hen er ny i jobben', 'Når saken er vanskelig', 'Når hen har nær tilknytning til saken eller partene', 'Når hen er syk']::text[], 2, 'For eksempel slektskap.', true, true, 2),
+  ('rettslare-2:forvaltningsrett', 'q04', 'flervalg', 'Hva kreves etter legalitetsprinsippet?', array['At alle vedtak er positive', 'At saken går raskt', 'At alle får innsyn', 'At inngrep overfor den enkelte har grunnlag i lov']::text[], 3, 'Grunnloven § 113.', true, true, 3),
+  ('rettslare-2:forvaltningsrett', 'q05', 'flervalg', 'Hva gir offentleglova?', array['Alle rett til innsyn i forvaltningens dokumenter', 'Politiet rett til ransaking', 'Kommunen rett til skatt', 'Rett til gratis advokat']::text[], 0, 'Med unntak for taushetsbelagte opplysninger.', true, true, 4),
+  ('rettslare-2:forvaltningsrett', 'q06', 'flervalg', 'Hva kan domstolene prøve når forvaltningen har skjønn?', array['Om skjønnet er klokt', 'Om det foreligger myndighetsmisbruk', 'Ingenting', 'Om saksbehandleren er hyggelig']::text[], 1, 'Usaklige hensyn, vilkårlighet og sterk urimelighet.', true, true, 5),
+  ('rettslare-2:forvaltningsrett', 'q07', 'flervalg', 'Hva er Sivilombudet?', array['En domstol', 'En del av regjeringen', 'Stortingets ombud som behandler klager på forvaltningen', 'Et politisk parti']::text[], 2, 'Uttalelsene blir nesten alltid fulgt.', true, true, 6),
+  ('rettslare-2:forvaltningsrett', 'q08', 'flervalg', 'Hva er en standpunktkarakter i forvaltningsrettslig forstand?', array['En forskrift', 'En lov', 'En dom', 'Et enkeltvedtak']::text[], 3, 'Kan påklages.', true, true, 7),
+  ('rettslare-2:forvaltningsrett', 'q09', 'flervalg', 'Hva sier regelen om forhåndsvarsel?', array['At parten skal få uttale seg før vedtak treffes', 'At vedtaket skal sendes etter ett år', 'At pressen skal varsles', 'At klage må sendes før vedtak']::text[], 0, 'Hovedregel for enkeltvedtak.', true, false, 8),
+  ('rettslare-2:forvaltningsrett', 'q10', 'flervalg', 'Når er et vedtak med saksbehandlingsfeil likevel gyldig?', array['Aldri', 'Når feilen ikke kan ha virket inn på innholdet', 'Når parten ikke klager', 'Når feilen er alvorlig']::text[], 1, 'Forvaltningsloven § 41.', true, false, 9),
+  ('rettslare-2:forvaltningsrett', 'm01', 'sant-usant', 'Et vedtak skal begrunnes med reglene og de faktiske forholdene det bygger på.', array['Sant', 'Usant']::text[], 0, 'Slik kan parten vurdere å klage.', false, true, 10),
+  ('rettslare-2:forvaltningsrett', 'm02', 'sant-usant', 'Sivilombudets uttalelser er rettslig bindende dommer.', array['Sant', 'Usant']::text[], 1, 'De er ikke bindende, men blir nesten alltid fulgt.', false, true, 11),
+  ('rettslare-2:forvaltningsrett', 'm03', 'sant-usant', 'Jo mer inngripende et vedtak er, desto klarere må lovhjemmelen være.', array['Sant', 'Usant']::text[], 0, 'Legalitetsprinsippet.', false, true, 12),
+  ('rettslare-2:forvaltningsrett', 'm04', 'sant-usant', 'Forvaltningen har ingen plikt til å hjelpe folk med søknader.', array['Sant', 'Usant']::text[], 1, 'Den har veiledningsplikt.', false, true, 13),
+  ('rettslare-2:forvaltningsrett', 'm05', 'flervalg', 'Hva betyr partsinnsyn?', array['At alle kan lese alle dokumenter', 'At parten kan se dokumentene i sin egen sak', 'At pressen får innsyn', 'At kommunen kan se partens e-post']::text[], 1, 'Forvaltningsloven § 18.', false, true, 14),
+  ('rettslare-2:forvaltningsrett', 'm06', 'flervalg', 'Hvilket av disse er et eksempel på myndighetsmisbruk?', array['Et vedtak bygd på usaklige hensyn', 'Et vedtak med god begrunnelse', 'Et vedtak etter klage', 'Et vedtak innen fristen']::text[], 0, 'Domstolene kan prøve dette.', false, true, 15),
+  ('rettslare-2:forvaltningsrett', 'm07', 'flervalg', 'Hvem behandler vanligvis en klage på et enkeltvedtak?', array['Sivilombudet først', 'Høyesterett', 'Et overordnet forvaltningsorgan', 'Stortinget']::text[], 2, 'Klageinstansen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:forvaltningsrett', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Personvern og juridiske spørsmål på nett
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:personvern-og-ikt', 'rettslare-2', 'personvern-og-ikt', 'Personvern og juridiske spørsmål på nett', 'Sentrale regler om personvern etter personopplysningsloven og GDPR – personopplysninger, prinsipper, behandlingsgrunnlag, samtykke og de registrertes rettigheter – og juridiske spørsmål ved bruk av IKT, som deling av bilder, identitetstyveri, datainnbrudd og netthets.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:personvern-og-ikt', '## Personvern som rettighet
+
+**Personvern** handler om retten til et **privatliv** og til å bestemme over opplysninger om seg selv. Det er vernet i **Grunnloven § 102** og **EMK artikkel 8**.
+
+## Personopplysningsloven og GDPR
+
+Fra **2018** gjelder EUs personvernforordning, **GDPR**, som norsk lov gjennom **personopplysningsloven**.
+
+En **personopplysning** er enhver opplysning som kan knyttes til en **identifiserbar** person – navn, bilde, telefonnummer, IP-adresse og posisjonsdata. **Særlige kategorier**, som opplysninger om **helse**, **religion**, **etnisitet**, **politisk syn**, **seksuell orientering** og **biometri**, har et **sterkere** vern.
+
+## Grunnleggende prinsipper
+
+Opplysninger skal
+
+- behandles **lovlig**, **rettferdig** og **åpent**
+- samles inn for **bestemte formål** – **formålsbegrensning**
+- være **begrenset** til det som er nødvendig – **dataminimering**
+- være **korrekte**
+- ikke **lagres** lenger enn nødvendig
+- beskyttes med god **informasjonssikkerhet**
+
+Den **behandlingsansvarlige** – for eksempel en skole eller en bedrift – må kunne **vise** at reglene følges.
+
+## Behandlingsgrunnlag
+
+All behandling av personopplysninger krever et **rettslig grunnlag**, for eksempel
+
+- **samtykke**
+- at det er nødvendig for å oppfylle en **avtale**
+- en **rettslig forpliktelse**
+- en **oppgave i allmennhetens interesse**, som skolens undervisning
+- en **berettiget interesse** som veier tyngre enn personvernet
+
+**Samtykke** må være **frivillig**, **spesifikt**, **informert** og **utvetydig**, og det kan **trekkes tilbake**. I Norge kan barn fra **13 år** selv samtykke til bruk av sosiale medier og andre nettjenester.
+
+## Dine rettigheter
+
+- **Innsyn**: å få vite hvilke opplysninger som er lagret
+- **Retting** av feil
+- **Sletting** – «retten til å bli glemt»
+- **Dataportabilitet**: å få med seg opplysningene til en annen tjeneste
+- **Protest** mot behandling, for eksempel mot direkte markedsføring
+
+**Datatilsynet** fører tilsyn og kan gi store **overtredelsesgebyrer**. **Personvernnemnda** er klageinstans.
+
+## Bilder og deling
+
+- Etter **åndsverkloven § 104** kan et bilde av en person som hovedregel ikke **offentliggjøres** uten **samtykke**. Unntak gjelder blant annet for bilder av **aktuell** eller **allmenn interesse** og bilder fra **forsamlinger** og **arrangementer** der personen ikke er hovedmotivet.
+- Å dele **intime** eller **krenkende** bilder og filmer uten samtykke er **straffbart** og kan gi fengsel.
+- Å lage og dele **seksualiserte** bilder av personer under 18 år er alltid straffbart – også når de som deler, er unge selv.
+
+## Andre juridiske spørsmål på nett
+
+- **Identitetskrenkelse**: å bruke en annens identitet, for eksempel en falsk profil, for å skade eller oppnå noe – straffeloven § 202
+- **Datainnbrudd**: å skaffe seg adgang til andres kontoer eller datasystemer – straffeloven § 204
+- **Hensynsløs atferd** og **alvorlig personforfølgelse** – netthets og forfølgelse – straffeloven § 266 og § 266 a
+- **Krenkelse av privatlivets fred** – straffeloven § 267
+- **Trusler** – straffeloven § 263
+
+## Drøfting
+
+Personvern må ofte **veies** mot andre hensyn: **ytringsfrihet**, **sikkerhet**, **effektiv** offentlig forvaltning og **kommersielle** interesser. Eksempler er **overvåking** med kamera, bruk av **KI** til å analysere data, og skolens bruk av digitale læringsplattformer. Spør alltid: Er behandlingen **nødvendig**, har den et **grunnlag**, og er den **forholdsmessig**?', '{"label":"Personvern og IKT","children":[{"label":"Grunnlag","children":[{"label":"Grunnloven § 102 og EMK 8"},{"label":"GDPR"}]},{"label":"Regler","children":[{"label":"Prinsipper"},{"label":"Behandlingsgrunnlag"},{"label":"Samtykke fra 13 år"}]},{"label":"Rettigheter","children":[{"label":"Innsyn og retting"},{"label":"Sletting"},{"label":"Datatilsynet"}]},{"label":"Bilder","children":[{"label":"Åndsverkloven § 104"},{"label":"Deling av intime bilder"}]},{"label":"Nettkriminalitet","children":[{"label":"Identitetskrenkelse"},{"label":"Datainnbrudd"},{"label":"Hets og forfølgelse"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:personvern-og-ikt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:personvern-og-ikt', 'Personvern', 'Retten til privatliv og kontroll over opplysninger om seg selv.', 0),
+  ('rettslare-2:personvern-og-ikt', 'Grunnloven § 102', 'Verner privatlivet.', 1),
+  ('rettslare-2:personvern-og-ikt', 'GDPR', 'EUs personvernforordning – norsk lov fra 2018.', 2),
+  ('rettslare-2:personvern-og-ikt', 'Personopplysning', 'Opplysning som kan knyttes til en identifiserbar person.', 3),
+  ('rettslare-2:personvern-og-ikt', 'Særlige kategorier', 'Helse, religion, etnisitet, politisk syn, seksuell orientering, biometri.', 4),
+  ('rettslare-2:personvern-og-ikt', 'Dataminimering', 'Bare samle inn det som er nødvendig.', 5),
+  ('rettslare-2:personvern-og-ikt', 'Formålsbegrensning', 'Opplysninger samles inn for bestemte formål.', 6),
+  ('rettslare-2:personvern-og-ikt', 'Behandlingsgrunnlag', 'Rettslig grunnlag for å behandle personopplysninger.', 7),
+  ('rettslare-2:personvern-og-ikt', 'Gyldig samtykke', 'Frivillig, spesifikt, informert og utvetydig – kan trekkes tilbake.', 8),
+  ('rettslare-2:personvern-og-ikt', 'Aldersgrense for samtykke', '13 år for nettjenester i Norge.', 9),
+  ('rettslare-2:personvern-og-ikt', 'Retten til å bli glemt', 'Retten til sletting.', 10),
+  ('rettslare-2:personvern-og-ikt', 'Datatilsynet', 'Fører tilsyn med personvernreglene.', 11),
+  ('rettslare-2:personvern-og-ikt', 'Åndsverkloven § 104', 'Bilder av personer krever som hovedregel samtykke før offentliggjøring.', 12),
+  ('rettslare-2:personvern-og-ikt', 'Identitetskrenkelse', 'Å bruke andres identitet for å skade eller oppnå noe – straffeloven § 202.', 13),
+  ('rettslare-2:personvern-og-ikt', 'Datainnbrudd', 'Uberettiget adgang til datasystem – straffeloven § 204.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:personvern-og-ikt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:personvern-og-ikt', 'q01', 'flervalg', 'Hva er en personopplysning?', array['Bare fødselsnummer', 'Enhver opplysning som kan knyttes til en identifiserbar person', 'Bare hemmelige opplysninger', 'Bare opplysninger på papir']::text[], 1, 'Også bilde og IP-adresse.', true, true, 0),
+  ('rettslare-2:personvern-og-ikt', 'q02', 'flervalg', 'Hvilken aldersgrense gjelder for å samtykke selv til nettjenester i Norge?', array['13 år', '16 år', '18 år', '10 år']::text[], 0, 'Etter personopplysningsloven.', true, true, 1),
+  ('rettslare-2:personvern-og-ikt', 'q03', 'flervalg', 'Hva betyr dataminimering?', array['At data slettes etter en dag', 'At data krypteres', 'At man bare samler inn det som er nødvendig', 'At data lagres i skyen']::text[], 2, 'Et grunnleggende prinsipp.', true, true, 2),
+  ('rettslare-2:personvern-og-ikt', 'q04', 'flervalg', 'Hvilket krav stilles til et gyldig samtykke?', array['At det er muntlig', 'At det gjelder for alltid', 'At det gis av foreldre', 'At det er frivillig, spesifikt, informert og utvetydig']::text[], 3, 'Og det kan trekkes tilbake.', true, true, 3),
+  ('rettslare-2:personvern-og-ikt', 'q05', 'flervalg', 'Hvem fører tilsyn med personvernreglene i Norge?', array['Datatilsynet', 'Politiet', 'Forbrukertilsynet', 'Sivilombudet']::text[], 0, 'Personvernnemnda er klageinstans.', true, true, 4),
+  ('rettslare-2:personvern-og-ikt', 'q06', 'flervalg', 'Hva sier åndsverkloven § 104?', array['At alle bilder er fritt tilgjengelige', 'At bilder av personer som hovedregel krever samtykke før offentliggjøring', 'At bare journalister kan ta bilder', 'At bilder må slettes etter ett år']::text[], 1, 'Med unntak for blant annet aktualitet.', true, true, 5),
+  ('rettslare-2:personvern-og-ikt', 'q07', 'flervalg', 'Hva er identitetskrenkelse?', array['Å glemme passordet', 'Å endre navn', 'Å bruke andres identitet for å skade eller oppnå noe', 'Å lage egen profil']::text[], 2, 'Straffeloven § 202.', true, true, 6),
+  ('rettslare-2:personvern-og-ikt', 'q08', 'flervalg', 'Hvilken rettighet gir deg mulighet til å få slettet opplysninger?', array['Innsyn', 'Dataportabilitet', 'Protest', 'Retten til å bli glemt']::text[], 3, 'Retten til sletting.', true, true, 7),
+  ('rettslare-2:personvern-og-ikt', 'q09', 'flervalg', 'Hvilke opplysninger har et sterkere vern?', array['Særlige kategorier som helse og religion', 'Navn og adresse', 'Favorittfarge', 'Skostørrelse']::text[], 0, 'Kan være svært sensitive.', true, false, 8),
+  ('rettslare-2:personvern-og-ikt', 'q10', 'flervalg', 'Hva er datainnbrudd?', array['Å kjøpe en ny datamaskin', 'Å skaffe seg uberettiget adgang til andres kontoer eller datasystemer', 'Å laste ned apper', 'Å dele lenker']::text[], 1, 'Straffeloven § 204.', true, false, 9),
+  ('rettslare-2:personvern-og-ikt', 'm01', 'sant-usant', 'En IP-adresse kan være en personopplysning.', array['Sant', 'Usant']::text[], 0, 'Den kan knyttes til en person.', false, true, 10),
+  ('rettslare-2:personvern-og-ikt', 'm02', 'sant-usant', 'Et samtykke kan aldri trekkes tilbake.', array['Sant', 'Usant']::text[], 1, 'Det kan trekkes tilbake når som helst.', false, true, 11),
+  ('rettslare-2:personvern-og-ikt', 'm03', 'sant-usant', 'Datatilsynet kan gi store overtredelsesgebyrer.', array['Sant', 'Usant']::text[], 0, 'For brudd på personvernreglene.', false, true, 12),
+  ('rettslare-2:personvern-og-ikt', 'm04', 'sant-usant', 'Det er lovlig å dele seksualiserte bilder av personer under 18 år hvis den som deler, også er under 18.', array['Sant', 'Usant']::text[], 1, 'Det er alltid straffbart.', false, true, 13),
+  ('rettslare-2:personvern-og-ikt', 'm05', 'flervalg', 'Hvilket av disse er et behandlingsgrunnlag?', array['Nysgjerrighet', 'Samtykke', 'At opplysningene er gratis', 'At alle andre gjør det']::text[], 1, 'Også avtale, rettslig forpliktelse og berettiget interesse.', false, true, 14),
+  ('rettslare-2:personvern-og-ikt', 'm06', 'flervalg', 'Hvilke hensyn veies ofte mot personvern?', array['Ytringsfrihet, sikkerhet og kommersielle interesser', 'Vær og vind', 'Idrett og kultur', 'Mat og drikke']::text[], 0, 'Krever forholdsmessighetsvurdering.', false, true, 15),
+  ('rettslare-2:personvern-og-ikt', 'm07', 'flervalg', 'Hva er dataportabilitet?', array['At data lagres på minnepinne', 'At data slettes', 'Retten til å få med seg opplysningene til en annen tjeneste', 'At data selges']::text[], 2, 'En av de registrertes rettigheter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:personvern-og-ikt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Erstatningsrett
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:erstatningsrett', 'rettslare-2', 'erstatningsrett', 'Erstatningsrett', 'Hva erstatning er og hvorfor vi har erstatningsregler, de tre grunnvilkårene – ansvarsgrunnlag, økonomisk tap og årsakssammenheng – culpaansvar, objektivt ansvar og arbeidsgiveransvar, barns og foreldres ansvar, og regler om medvirkning, lemping og oppreisning.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:erstatningsrett', '## Hva er erstatning?
+
+**Erstatning** er en økonomisk **kompensasjon** for et tap som noen andre er ansvarlig for. Reglene har to formål:
+
+- **Reparasjon**: Skadelidte skal stilles **økonomisk** som om skaden ikke hadde skjedd.
+- **Prevensjon**: Risikoen for å måtte betale skal få folk til å være **forsiktige**.
+
+Vi skiller mellom erstatning **i kontrakt** – for eksempel ved mangel ved et kjøp – og **utenfor kontrakt**, som når noen skader en fremmed. Her ser vi på det siste. Den viktigste loven er **skadeserstatningsloven** (1969), men mye bygger også på **rettspraksis**.
+
+## De tre grunnvilkårene
+
+For at noen skal få erstatning, må **alle** tre vilkår være oppfylt:
+
+1. **Ansvarsgrunnlag**: et rettslig grunnlag for å holde skadevolderen ansvarlig
+2. **Økonomisk tap**: skadelidte må ha tapt penger – for eksempel utgifter til reparasjon, tapt inntekt eller behandling
+3. **Årsakssammenheng**: handlingen må være en **nødvendig betingelse** for tapet, og tapet må være en **påregnelig** – **adekvat** – følge av handlingen
+
+## Ansvarsgrunnlag
+
+**Culpa** – skyldansvar: Skadevolderen har opptrådt **uaktsomt** eller **forsettlig**. Vi spør om en **fornuftig** person i samme situasjon ville ha handlet annerledes. Momenter er
+
+- hvor stor **risiko** handlingen innebar
+- om det fantes **bedre** handlingsalternativer
+- om **regler** og **normer** ble brutt, for eksempel trafikkregler
+- skadevolderens **alder** og **forutsetninger**
+
+**Objektivt ansvar** gjelder **uten** skyld. Det er fastsatt i lover, som **bilansvarsloven** og reglene om **produktansvar**, og gjelder ulovfestet for **farlig** eller **ekstraordinær** virksomhet.
+
+**Arbeidsgiveransvar** (skadeserstatningsloven § 2-1): Arbeidsgiveren svarer for skade som en **ansatt** volder **uaktsomt** i **tjenesten**.
+
+## Barn og foreldre
+
+- **Barn** under 18 år kan bli erstatningsansvarlige for skade de volder **forsettlig** eller **uaktsomt**, så langt det er **rimelig** ut fra blant annet alder, modenhet og økonomi (§ 1-1). Små barn blir sjelden ansvarlige.
+- **Foreldre** kan bli ansvarlige hvis de har forsømt **tilsynet** med barnet. I tillegg har de et **begrenset objektivt ansvar** for skade barnet volder, med et **fast maksimumsbeløp** per skadetilfelle (§ 1-2).
+
+## Reduksjon av erstatningen
+
+- **Medvirkning** (§ 5-1): Har skadelidte selv vært **uaktsom**, kan erstatningen **reduseres** eller falle bort.
+- **Lemping** (§ 5-2): Erstatningen kan **settes ned** hvis den ville virke **urimelig tungt** for skadevolderen.
+
+## Oppreisning
+
+**Oppreisning** er en kompensasjon for **ikke-økonomisk** skade, som krenkelse og smerte. Det krever som hovedregel **forsett** eller **grov uaktsomhet**, for eksempel ved vold.
+
+## Forsikring
+
+Mange skader dekkes av **forsikring**. En **innboforsikring** har ofte en **ansvarsdel** som dekker erstatningsansvar du pådrar deg som privatperson. Forsikringsselskapet kan kreve pengene tilbake fra skadevolderen – **regress** – i noen tilfeller.
+
+## Eksempel
+
+Emil (16) sykler fort på fortauet og treffer en fotgjenger, som får knust brillene og en ødelagt telefon.
+
+- **Ansvarsgrunnlag**: Å sykle fort på fortau der det går folk, er **uaktsomt**.
+- **Økonomisk tap**: utgifter til nye briller og telefon.
+- **Årsakssammenheng**: Uten sammenstøtet ville tingene ikke blitt ødelagt, og skaden er en **påregnelig** følge.
+
+Emil er erstatningsansvarlig, men erstatningen kan vurderes etter § 1-1 og eventuelt dekkes av familiens **ansvarsforsikring**.', '{"label":"Erstatningsrett","children":[{"label":"Formål","children":[{"label":"Reparasjon"},{"label":"Prevensjon"}]},{"label":"Vilkår","children":[{"label":"Ansvarsgrunnlag"},{"label":"Økonomisk tap"},{"label":"Årsakssammenheng"}]},{"label":"Ansvarsgrunnlag","children":[{"label":"Culpa"},{"label":"Objektivt ansvar"},{"label":"Arbeidsgiveransvar"}]},{"label":"Barn og foreldre","children":[{"label":"§ 1-1"},{"label":"§ 1-2"}]},{"label":"Justering","children":[{"label":"Medvirkning"},{"label":"Lemping"},{"label":"Oppreisning og forsikring"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:erstatningsrett';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:erstatningsrett', 'Erstatning', 'Økonomisk kompensasjon for tap noen andre er ansvarlig for.', 0),
+  ('rettslare-2:erstatningsrett', 'Reparasjon', 'Skadelidte stilles økonomisk som om skaden ikke hadde skjedd.', 1),
+  ('rettslare-2:erstatningsrett', 'Prevensjon', 'Risikoen for å betale gjør folk forsiktige.', 2),
+  ('rettslare-2:erstatningsrett', 'Tre grunnvilkår', 'Ansvarsgrunnlag, økonomisk tap og årsakssammenheng.', 3),
+  ('rettslare-2:erstatningsrett', 'Culpa', 'Skyldansvar – uaktsomhet eller forsett.', 4),
+  ('rettslare-2:erstatningsrett', 'Objektivt ansvar', 'Ansvar uten skyld, for eksempel bilansvar.', 5),
+  ('rettslare-2:erstatningsrett', 'Arbeidsgiveransvar', 'Arbeidsgiver svarer for ansattes uaktsomhet i tjenesten – § 2-1.', 6),
+  ('rettslare-2:erstatningsrett', 'Adekvat årsakssammenheng', 'Tapet er en påregnelig følge av handlingen.', 7),
+  ('rettslare-2:erstatningsrett', 'Nødvendig betingelse', 'Tapet ville ikke skjedd uten handlingen.', 8),
+  ('rettslare-2:erstatningsrett', 'Barns ansvar', 'Barn under 18 kan bli ansvarlige så langt det er rimelig – § 1-1.', 9),
+  ('rettslare-2:erstatningsrett', 'Foreldreansvar', 'Ved forsømt tilsyn, pluss et begrenset objektivt ansvar – § 1-2.', 10),
+  ('rettslare-2:erstatningsrett', 'Medvirkning', 'Skadelidtes egen uaktsomhet kan redusere erstatningen – § 5-1.', 11),
+  ('rettslare-2:erstatningsrett', 'Lemping', 'Erstatningen kan settes ned hvis den virker urimelig tungt – § 5-2.', 12),
+  ('rettslare-2:erstatningsrett', 'Oppreisning', 'Kompensasjon for ikke-økonomisk skade.', 13),
+  ('rettslare-2:erstatningsrett', 'Ansvarsforsikring', 'Dekker erstatningsansvar – ofte del av innboforsikringen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:erstatningsrett';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:erstatningsrett', 'q01', 'flervalg', 'Hvilke tre grunnvilkår må være oppfylt for erstatning?', array['Skyld, straff og dom', 'Ansvarsgrunnlag, økonomisk tap og årsakssammenheng', 'Forsikring, avtale og kvittering', 'Politianmeldelse, vitner og bevis']::text[], 1, 'Alle tre må være oppfylt.', true, true, 0),
+  ('rettslare-2:erstatningsrett', 'q02', 'flervalg', 'Hva er culpa?', array['Skyldansvar ved uaktsomhet eller forsett', 'Ansvar uten skyld', 'En type straff', 'En forsikring']::text[], 0, 'Det vanligste ansvarsgrunnlaget.', true, true, 1),
+  ('rettslare-2:erstatningsrett', 'q03', 'flervalg', 'Hva er objektivt ansvar?', array['Ansvar bare ved forsett', 'Ansvar for barn', 'Ansvar uten skyld', 'Ansvar bare for staten']::text[], 2, 'For eksempel etter bilansvarsloven.', true, true, 2),
+  ('rettslare-2:erstatningsrett', 'q04', 'flervalg', 'Hva betyr adekvat årsakssammenheng?', array['At skaden var tilfeldig', 'At skadevolderen er rik', 'At skaden skjedde i tjenesten', 'At tapet er en påregnelig følge av handlingen']::text[], 3, 'Upåregnelige følger dekkes ikke.', true, true, 3),
+  ('rettslare-2:erstatningsrett', 'q05', 'flervalg', 'Hvem svarer for skade en ansatt volder uaktsomt i tjenesten?', array['Arbeidsgiveren', 'Bare den ansatte', 'Staten', 'Ingen']::text[], 0, 'Skadeserstatningsloven § 2-1.', true, true, 4),
+  ('rettslare-2:erstatningsrett', 'q06', 'flervalg', 'Hva kan skje hvis skadelidte selv har vært uaktsom?', array['Erstatningen dobles', 'Erstatningen kan reduseres eller falle bort', 'Skadevolderen straffes', 'Ingenting']::text[], 1, 'Medvirkning etter § 5-1.', true, true, 5),
+  ('rettslare-2:erstatningsrett', 'q07', 'flervalg', 'Hva er oppreisning?', array['Erstatning for tapt inntekt', 'En type forsikring', 'Kompensasjon for ikke-økonomisk skade', 'En bot']::text[], 2, 'Krever som hovedregel forsett eller grov uaktsomhet.', true, true, 6),
+  ('rettslare-2:erstatningsrett', 'q08', 'flervalg', 'Hva er formålet med prevensjon i erstatningsretten?', array['At skadelidte blir rik', 'At staten får inntekter', 'At forsikringsselskaper tjener penger', 'At risikoen for å betale gjør folk forsiktige']::text[], 3, 'Det andre formålet er reparasjon.', true, true, 7),
+  ('rettslare-2:erstatningsrett', 'q09', 'flervalg', 'Hva er lemping?', array['At erstatningen settes ned fordi den ville virke urimelig tungt', 'At erstatningen økes', 'At saken henlegges', 'At forsikringen betaler']::text[], 0, 'Skadeserstatningsloven § 5-2.', true, false, 8),
+  ('rettslare-2:erstatningsrett', 'q10', 'flervalg', 'Kan barn under 18 år bli erstatningsansvarlige?', array['Nei, aldri', 'Ja, så langt det er rimelig ut fra blant annet alder og modenhet', 'Bare hvis de er over 15', 'Bare foreldrene kan bli ansvarlige']::text[], 1, 'Skadeserstatningsloven § 1-1.', true, false, 9),
+  ('rettslare-2:erstatningsrett', 'm01', 'sant-usant', 'Å bryte trafikkregler kan tale for at noen har vært uaktsom.', array['Sant', 'Usant']::text[], 0, 'Normbrudd er et moment i culpavurderingen.', false, true, 10),
+  ('rettslare-2:erstatningsrett', 'm02', 'sant-usant', 'Det holder at ett av de tre grunnvilkårene er oppfylt.', array['Sant', 'Usant']::text[], 1, 'Alle tre må være oppfylt.', false, true, 11),
+  ('rettslare-2:erstatningsrett', 'm03', 'sant-usant', 'Innboforsikring har ofte en ansvarsdel.', array['Sant', 'Usant']::text[], 0, 'Den dekker erstatningsansvar som privatperson.', false, true, 12),
+  ('rettslare-2:erstatningsrett', 'm04', 'sant-usant', 'Foreldre har ubegrenset objektivt ansvar for all skade barna volder.', array['Sant', 'Usant']::text[], 1, 'Det objektive ansvaret har et fast maksimumsbeløp.', false, true, 13),
+  ('rettslare-2:erstatningsrett', 'm05', 'flervalg', 'Hvilken lov er den viktigste for erstatning utenfor kontrakt?', array['Straffeloven', 'Skadeserstatningsloven', 'Forvaltningsloven', 'Arbeidsmiljøloven']::text[], 1, 'Fra 1969.', false, true, 14),
+  ('rettslare-2:erstatningsrett', 'm06', 'flervalg', 'Hvilket spørsmål stilles i culpavurderingen?', array['Ville en fornuftig person ha handlet annerledes?', 'Er skadevolderen rik?', 'Har skadelidte forsikring?', 'Skjedde skaden om natten?']::text[], 0, 'Standarden for aktsomhet.', false, true, 15),
+  ('rettslare-2:erstatningsrett', 'm07', 'flervalg', 'Hva kalles det når forsikringsselskapet krever pengene tilbake fra skadevolderen?', array['Lemping', 'Medvirkning', 'Regress', 'Oppreisning']::text[], 2, 'Gjelder i noen tilfeller.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:erstatningsrett', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Straffbarhetsvilkår og reaksjonssystemet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'rettslare-2', 'straffeansvar-og-reaksjoner', 'Straffbarhetsvilkår og reaksjonssystemet', 'De fire straffbarhetsvilkårene – lovhjemmel, objektiv gjerningsbeskrivelse, ingen straffrihetsgrunn og skyld – tilregnelighet og kriminell lavalder, medvirkning og forsøk, straffens formål, reaksjonene i straffeloven og hvordan en straffesak går fra anmeldelse til dom.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:straffeansvar-og-reaksjoner', '## Straffbarhetsvilkårene
+
+For at noen skal kunne straffes, må **fire** vilkår være oppfylt:
+
+1. **Lovhjemmel**: Handlingen må være **straffbar etter lov** på handlingstidspunktet. Dette følger av **Grunnloven § 96** og **EMK artikkel 7**.
+2. **Objektiv gjerningsbeskrivelse**: Handlingen må passe med **beskrivelsen** i straffebudet – for eksempel å «ta en gjenstand som tilhører en annen».
+3. **Ingen straffrihetsgrunn**: Handlingen er ikke rettmessig på grunn av for eksempel **nødverge** (§ 18) eller **nødrett** (§ 17).
+4. **Skyld**: Gjerningspersonen må ha utvist **forsett** eller, der loven sier det, **uaktsomhet**. Hovedregelen er at det kreves **forsett** (§ 21).
+
+I tillegg må gjerningspersonen være **strafferettslig tilregnelig**.
+
+## Straffrihetsgrunner
+
+- **Nødverge**: å avverge et **ulovlig angrep**, så lenge forsvaret ikke går **klart ut over** det som er forsvarlig.
+- **Nødrett**: å redde liv, helse eller verdier fra en **fare** som ikke kan avverges på annen rimelig måte, når skaden man volder er **langt mindre** enn den man avverger – for eksempel å knuse et bilvindu for å redde et barn.
+
+## Skyld
+
+- **Forsett** (§ 22): Man handler med **hensikt**, regner følgen som **sikker eller mest sannsynlig**, eller holder den for **mulig** og velger å handle **uansett**.
+- **Uaktsomhet** (§ 23): Man handler i strid med **kravet til forsvarlig opptreden** og kan **bebreides**. **Grov** uaktsomhet er en særlig klanderverdig opptreden.
+
+## Tilregnelighet og alder
+
+Den som var **under 15 år** på handlingstidspunktet, kan **ikke** straffes (§ 20). Det samme gjelder blant annet den som var **psykotisk** eller hadde en **alvorlig avvikende sinnstilstand**. Barn under 15 kan likevel få **tiltak** fra barnevernet og bli **erstatningsansvarlige**.
+
+## Medvirkning og forsøk
+
+- **Medvirkning** (§ 15): Den som **hjelper** eller **oppfordrer** til en straffbar handling, kan straffes som om hen gjorde den selv.
+- **Forsøk** (§ 16): Den som har forsett om et lovbrudd og **begynner** på gjennomføringen, kan straffes selv om handlingen ikke fullbyrdes – for lovbrudd med strafferamme på fengsel i ett år eller mer.
+
+## Straffens formål
+
+- **Allmennprevensjon**: avskrekke **folk flest** fra å begå lovbrudd og styrke normene
+- **Individualprevensjon**: hindre at **den domfelte** begår nye lovbrudd
+- **Gjengjeldelse** og **rettferdighet** – at lovbrudd får en rimelig konsekvens
+- **Oppreisning** for **offeret**
+
+## Reaksjonene
+
+Straffeloven § 29 nevner straffene:
+
+- **Fengsel** – ubetinget eller **betinget** med prøvetid
+- **Forvaring** – for farlige lovbrytere med høy fare for gjentakelse
+- **Samfunnsstraff** – samfunnsnyttig tjeneste og program
+- **Ungdomsstraff** – for 15–17-åringer, gjennomføres i **konfliktrådet**
+- **Bot**
+- **Rettighetstap** – for eksempel tap av retten til å kjøre bil
+
+Andre reaksjoner er **påtaleunnlatelse**, **overføring til konfliktråd**, **ungdomsoppfølging** og **inndragning** av utbytte.
+
+## Unge lovbrytere
+
+For personer under 18 år skal **fengsel** bare brukes når det er **særlig påkrevd**, og straffen kan ikke overstige **15 år**. Målet er å unngå at unge blir **stemplet** og havner i en kriminell løpebane.
+
+## Straffesaken
+
+1. **Anmeldelse** til politiet
+2. **Etterforskning**
+3. **Påtalevedtak**: tiltale, forelegg, påtaleunnlatelse eller **henleggelse**
+4. **Hovedforhandling** i **tingretten**
+5. Eventuell **anke** til **lagmannsretten** og **Høyesterett**
+
+Den siktede er **uskyldig** til det motsatte er bevist, og påtalemyndigheten må bevise skyld **utover enhver rimelig tvil**. Tvil skal komme den tiltalte til gode.
+
+## Straffutmåling
+
+Retten fastsetter straffen innenfor **strafferammen**. **Skjerpende** omstendigheter (§ 77), som planlegging og særlig sårbare ofre, og **formildende** omstendigheter (§ 78), som tilståelse og ung alder, påvirker straffen.', '{"label":"Straffeansvar","children":[{"label":"Vilkår","children":[{"label":"Lovhjemmel"},{"label":"Objektiv gjerningsbeskrivelse"},{"label":"Ingen straffrihetsgrunn"},{"label":"Skyld og tilregnelighet"}]},{"label":"Utvidelser","children":[{"label":"Medvirkning"},{"label":"Forsøk"}]},{"label":"Formål","children":[{"label":"Allmenn- og individualprevensjon"},{"label":"Gjengjeldelse"}]},{"label":"Reaksjoner","children":[{"label":"Fengsel og forvaring"},{"label":"Samfunnsstraff og ungdomsstraff"},{"label":"Bot og rettighetstap"}]},{"label":"Prosess","children":[{"label":"Anmeldelse til dom"},{"label":"Utmåling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:straffeansvar-og-reaksjoner';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Fire straffbarhetsvilkår', 'Lovhjemmel, objektiv gjerningsbeskrivelse, ingen straffrihetsgrunn, skyld.', 0),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Grunnloven § 96', 'Ingen kan straffes uten etter lov og dom.', 1),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Objektiv gjerningsbeskrivelse', 'Beskrivelsen av den straffbare handlingen i straffebudet.', 2),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Nødverge', 'Avverge et ulovlig angrep uten å gå klart ut over det forsvarlige – § 18.', 3),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Nødrett', 'Redde verdier fra fare når skaden er langt mindre enn den som avverges – § 17.', 4),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Forsett', 'Hensikt, sikkerhet eller sannsynlighet, eller mulighet og handle uansett – § 22.', 5),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Uaktsomhet', 'Handling i strid med kravet til forsvarlig opptreden – § 23.', 6),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Kriminell lavalder', '15 år.', 7),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Medvirkning', 'Å hjelpe eller oppfordre til et lovbrudd – § 15.', 8),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Forsøk', 'Å begynne på et lovbrudd med forsett – § 16.', 9),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Allmennprevensjon', 'Avskrekke folk flest.', 10),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Individualprevensjon', 'Hindre at den domfelte gjør nye lovbrudd.', 11),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Ungdomsstraff', 'Straff for 15–17-åringer gjennomført i konfliktrådet.', 12),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Forvaring', 'Tidsubestemt reaksjon for farlige lovbrytere.', 13),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'Utover enhver rimelig tvil', 'Beviskravet for skyld i straffesaker.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:straffeansvar-og-reaksjoner';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q01', 'flervalg', 'Hva er kriminell lavalder i Norge?', array['14 år', '15 år', '16 år', '18 år']::text[], 1, 'Straffeloven § 20.', true, true, 0),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q02', 'flervalg', 'Hvilket av disse er et straffbarhetsvilkår?', array['Skyld', 'At offeret har forsikring', 'At saken står i avisen', 'At gjerningspersonen er over 18']::text[], 0, 'Forsett eller uaktsomhet.', true, true, 1),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q03', 'flervalg', 'Hva er nødverge?', array['Å redde et barn fra en brennende bil', 'Å hjelpe noen med et lovbrudd', 'Å avverge et ulovlig angrep uten å gå klart ut over det forsvarlige', 'Å angre et lovbrudd']::text[], 2, 'Straffeloven § 18.', true, true, 2),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q04', 'flervalg', 'Hva er allmennprevensjon?', array['At den domfelte ikke gjør nye lovbrudd', 'At offeret får erstatning', 'At saken henlegges', 'At straff avskrekker folk flest fra lovbrudd']::text[], 3, 'Individualprevensjon gjelder den domfelte.', true, true, 3),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q05', 'flervalg', 'Hvilken reaksjon er beregnet på lovbrytere mellom 15 og 17 år?', array['Ungdomsstraff', 'Forvaring', 'Rettighetstap', 'Betinget fengsel for voksne']::text[], 0, 'Gjennomføres i konfliktrådet.', true, true, 4),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q06', 'flervalg', 'Hvilket beviskrav gjelder for skyld i straffesaker?', array['Mer enn 50 % sannsynlighet', 'Utover enhver rimelig tvil', 'At vitner har sett det', 'At tiltalte tilstår']::text[], 1, 'Tvil kommer tiltalte til gode.', true, true, 5),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q07', 'flervalg', 'Hva er forsøk på et lovbrudd?', array['Å tenke på et lovbrudd', 'Å angre', 'Å begynne på gjennomføringen med forsett', 'Å fullføre lovbruddet']::text[], 2, 'Straffeloven § 16.', true, true, 6),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q08', 'flervalg', 'Hva er hovedregelen for skyldkravet i straffeloven?', array['Uaktsomhet', 'Grov uaktsomhet', 'Ingen skyld kreves', 'Forsett']::text[], 3, 'Uaktsomhet straffes bare når loven sier det.', true, true, 7),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q09', 'flervalg', 'Hva er nødrett?', array['Å redde verdier fra fare når skaden man volder er langt mindre', 'Å forsvare seg mot et angrep', 'Å anke en dom', 'Å anmelde et lovbrudd']::text[], 0, 'Straffeloven § 17.', true, false, 8),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'q10', 'flervalg', 'Hvilken omstendighet er formildende ved straffutmåling?', array['Planlegging', 'Tilståelse', 'Særlig sårbart offer', 'Gjentakelse']::text[], 1, 'Straffeloven § 78.', true, false, 9),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm01', 'sant-usant', 'Den som hjelper til med et lovbrudd, kan straffes for medvirkning.', array['Sant', 'Usant']::text[], 0, 'Straffeloven § 15.', false, true, 10),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm02', 'sant-usant', 'En 14-åring kan dømmes til fengsel.', array['Sant', 'Usant']::text[], 1, 'Personer under 15 år kan ikke straffes.', false, true, 11),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm03', 'sant-usant', 'En straffesak kan henlegges av påtalemyndigheten.', array['Sant', 'Usant']::text[], 0, 'For eksempel ved bevisets stilling.', false, true, 12),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm04', 'sant-usant', 'En person kan straffes for en handling som ble straffbar først etter at den ble gjort.', array['Sant', 'Usant']::text[], 1, 'Grunnloven § 96 og EMK artikkel 7 forbyr det.', false, true, 13),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm05', 'flervalg', 'Hva er høyeste straff for en person under 18 år?', array['21 år', '15 år', '10 år', '5 år']::text[], 1, 'Fengsel skal bare brukes når det er særlig påkrevd.', false, true, 14),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm06', 'flervalg', 'Hvilken domstol behandler normalt en straffesak først?', array['Tingretten', 'Lagmannsretten', 'Høyesterett', 'Forliksrådet']::text[], 0, 'Deretter eventuell anke.', false, true, 15),
+  ('rettslare-2:straffeansvar-og-reaksjoner', 'm07', 'flervalg', 'Hva er forvaring?', array['En bot', 'Samfunnsnyttig tjeneste', 'En tidsubestemt reaksjon for farlige lovbrytere', 'Tap av førerkort']::text[], 2, 'Ved høy fare for gjentakelse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:straffeansvar-og-reaksjoner', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Voldslovbrudd og seksuallovbrudd
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:vold-og-seksuallovbrudd', 'rettslare-2', 'vold-og-seksuallovbrudd', 'Voldslovbrudd og seksuallovbrudd', 'Sentrale straffebud om vold – kroppskrenkelse, kroppsskade, trusler, mishandling i nære relasjoner og drap – og om seksuallovbrudd – voldtekt, seksuell lavalder og deling av seksualiserte bilder – med bruk av straffbarhetsvilkårene, nødverge og ofrenes rettigheter.', array[9]::int[], 9, 'sjekkes', array['Sjekk ordlyd, paragrafnummer og ikrafttredelse for den samtykkebaserte voldtektsbestemmelsen, og strafferammene i §§ 271–275.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:vold-og-seksuallovbrudd', '## Voldslovbrudd
+
+Straffeloven skiller mellom ulike grader av vold. Hvilket straffebud som brukes, avhenger av **handlingen** og **følgene**:
+
+- **Kroppskrenkelse** (§ 271): å slå, skubbe eller på annen måte bruke **vold** mot en annen, eller krenke hen fysisk. Strafferamme: **bot** eller **fengsel inntil 1 år**.
+- **Grov kroppskrenkelse** (§ 272): for eksempel bruk av **våpen**, flere gjerningspersoner eller særlig sårbart offer.
+- **Kroppsskade** (§ 273): Volden fører til **skade** på kropp eller helse, som brudd eller hjernerystelse.
+- **Grov kroppsskade** (§ 274): Følgene er **betydelige**, som varig skade.
+- **Drap** (§ 275): å **drepe** en annen – straffes med fengsel fra **8** inntil **21 år**.
+
+**Trusler** (§ 263) er straffbart når noen truer med en straffbar handling under slike omstendigheter at trusselen er egnet til å fremkalle **alvorlig frykt**. Det gjelder også trusler på nett.
+
+**Mishandling i nære relasjoner** (§ 282) rammer den som ved **trusler**, **tvang**, **vold** eller andre krenkelser **alvorlig eller gjentatt** mishandler en partner, et barn eller andre nærstående. Loven tar hensyn til at vold i hjemmet ofte skjer **over tid**.
+
+## Bruk av straffbarhetsvilkårene
+
+Eksempel: Aron slår Leo i ansiktet på en fest, og Leo får brukket nesen.
+
+- **Lovhjemmel**: straffeloven § 273 om kroppsskade
+- **Objektiv gjerningsbeskrivelse**: Slaget er vold, og brudd er skade på kroppen.
+- **Straffrihetsgrunn**: Var det **nødverge**? Hvis Leo angrep først og Aron forsvarte seg forholdsmessig, kan handlingen være rettmessig.
+- **Skyld**: Aron slo **forsettlig**. For følgen – skaden – er det nok at han kunne ha innsett muligheten.
+
+## Seksuallovbrudd
+
+Seksuallovbruddene står i **kapittel 26** i straffeloven. De verner den **seksuelle selvbestemmelsesretten** – retten til selv å bestemme over egen kropp og seksualitet.
+
+**Voldtekt** (§ 291) er et av de mest alvorlige lovbruddene. Norge har gått over til en **samtykkebasert** bestemmelse: Det avgjørende er om den andre har **samtykket** – ikke om det er brukt vold eller trusler. Et samtykke må være **frivillig** og kan **trekkes tilbake**. Den som sover, er bevisstløs eller sterkt beruset, kan ikke samtykke.
+
+**Grov voldtekt** gir strengere straff, for eksempel ved **flere** gjerningspersoner eller alvorlig skade.
+
+## Barn og seksuell lavalder
+
+- Den **seksuelle lavalderen** er **16 år**. Seksuell omgang med barn under 16 er straffbart (§ 302), selv om barnet sier ja.
+- Seksuell omgang med barn **under 14 år** regnes alltid som **voldtekt** (§ 299).
+- Straffen kan **falle bort** når de to er **omtrent jevnbyrdige** i alder og utvikling.
+
+## Bilder og deling
+
+Å lage, besitte eller dele **seksualiserte** bilder og filmer av personer **under 18 år** er straffbart. Det gjelder også når ungdom deler bilder av **hverandre** videre. Deling av **intime** bilder av voksne uten samtykke er også straffbart.
+
+## Ofrenes rettigheter
+
+- **Bistandsadvokat** betalt av staten i saker om blant annet voldtekt og mishandling i nære relasjoner
+- **Voldsoffererstatning** fra staten når skadevolderen ikke kan betale
+- **Kontaktforbud** – ofte kalt besøksforbud – som beskytter mot en person
+- Hjelp fra **overgrepsmottak**, **krisesentre** og **SMISO** eller lignende sentre
+
+## Drøfting
+
+Volds- og seksuallovbrudd reiser spørsmål om **bevis** – ofte er det ord mot ord – om **rettssikkerhet** for den tiltalte og om **vern** av ofrene. Mange saker **anmeldes ikke**, og mange **henlegges**. Diskusjonen om samtykkelovgivning handler blant annet om lovens **normdannende** effekt.', '{"label":"Vold og seksuallovbrudd","children":[{"label":"Vold","children":[{"label":"Kroppskrenkelse"},{"label":"Kroppsskade"},{"label":"Drap"}]},{"label":"Trusler og mishandling","children":[{"label":"§ 263"},{"label":"§ 282 nære relasjoner"}]},{"label":"Seksuallovbrudd","children":[{"label":"Voldtekt og samtykke"},{"label":"Seksuell lavalder 16"},{"label":"Under 14 år"}]},{"label":"Bilder","children":[{"label":"Under 18 år"},{"label":"Intime bilder uten samtykke"}]},{"label":"Ofre","children":[{"label":"Bistandsadvokat"},{"label":"Voldsoffererstatning"},{"label":"Kontaktforbud"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:vold-og-seksuallovbrudd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Kroppskrenkelse', 'Vold eller fysisk krenkelse – § 271, bot eller fengsel inntil 1 år.', 0),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Kroppsskade', 'Vold som fører til skade på kropp eller helse – § 273.', 1),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Grov kroppsskade', 'Vold med betydelige følger – § 274.', 2),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Drap', '§ 275 – fengsel fra 8 inntil 21 år.', 3),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Trusler', 'Trussel egnet til å fremkalle alvorlig frykt – § 263.', 4),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Mishandling i nære relasjoner', 'Alvorlig eller gjentatt mishandling av nærstående – § 282.', 5),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Seksuell selvbestemmelsesrett', 'Retten til selv å bestemme over egen kropp og seksualitet.', 6),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Voldtekt', '§ 291 – samtykkebasert: avgjørende om den andre har samtykket.', 7),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Gyldig samtykke', 'Frivillig og kan trekkes tilbake – ikke mulig når man sover eller er bevisstløs.', 8),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Seksuell lavalder', '16 år.', 9),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Barn under 14', 'Seksuell omgang regnes alltid som voldtekt – § 299.', 10),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Jevnbyrdige i alder', 'Straffen kan falle bort når partene er omtrent like gamle og modne.', 11),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Bistandsadvokat', 'Advokat for fornærmede betalt av staten.', 12),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Voldsoffererstatning', 'Erstatning fra staten når skadevolderen ikke kan betale.', 13),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'Kontaktforbud', 'Forbud mot å oppsøke eller kontakte en person.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:vold-og-seksuallovbrudd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q01', 'flervalg', 'Hva er forskjellen på kroppskrenkelse og kroppsskade?', array['Det er det samme', 'Kroppsskade krever at volden fører til skade', 'Kroppskrenkelse er alltid grovere', 'Kroppsskade gjelder bare våpen']::text[], 1, 'Følgen avgjør.', true, true, 0),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q02', 'flervalg', 'Hva er den seksuelle lavalderen i Norge?', array['16 år', '15 år', '14 år', '18 år']::text[], 0, 'Straffeloven § 302.', true, true, 1),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q03', 'flervalg', 'Hva er avgjørende i en samtykkebasert voldtektsbestemmelse?', array['Om det er brukt vold', 'Om det finnes vitner', 'Om den andre har samtykket', 'Om partene kjenner hverandre']::text[], 2, 'Samtykket må være frivillig.', true, true, 2),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q04', 'flervalg', 'Hvilket straffebud rammer alvorlig eller gjentatt mishandling av en partner?', array['§ 263 trusler', '§ 271 kroppskrenkelse', '§ 275 drap', '§ 282 mishandling i nære relasjoner']::text[], 3, 'Tar hensyn til vold over tid.', true, true, 3),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q05', 'flervalg', 'Hva er strafferammen for drap?', array['Fengsel fra 8 inntil 21 år', 'Bot', 'Fengsel inntil 1 år', 'Fengsel inntil 3 år']::text[], 0, 'Straffeloven § 275.', true, true, 4),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q06', 'flervalg', 'Kan den som sover, samtykke til seksuell omgang?', array['Ja, hvis hen samtykket tidligere', 'Nei', 'Ja, hvis de er kjærester', 'Ja, hvis hen er over 18']::text[], 1, 'Et samtykke krever at man er i stand til å gi det.', true, true, 5),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q07', 'flervalg', 'Når er trusler straffbare?', array['Alltid når noen blir sint', 'Bare når de skrives på papir', 'Når trusselen er egnet til å fremkalle alvorlig frykt', 'Bare når de gjennomføres']::text[], 2, 'Gjelder også på nett.', true, true, 6),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q08', 'flervalg', 'Hva er straffbart ved deling av bilder?', array['Å dele feriebilder', 'Å dele bilder av natur', 'Å dele egne selfier', 'Å dele seksualiserte bilder av personer under 18 år']::text[], 3, 'Også når ungdom deler bilder av hverandre.', true, true, 7),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q09', 'flervalg', 'Hva gir en bistandsadvokat?', array['Juridisk hjelp til fornærmede betalt av staten', 'Forsvar for tiltalte', 'Råd til politiet', 'Hjelp til dommeren']::text[], 0, 'I blant annet voldtektssaker.', true, false, 8),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'q10', 'flervalg', 'Hva må vurderes hvis gjerningspersonen hevder at hen forsvarte seg?', array['Om offeret har forsikring', 'Om det var nødverge', 'Om det var nødrett', 'Om det var forsøk']::text[], 1, 'En straffrihetsgrunn.', true, false, 9),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm01', 'sant-usant', 'Et samtykke kan trekkes tilbake underveis.', array['Sant', 'Usant']::text[], 0, 'Da må handlingen stoppe.', false, true, 10),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm02', 'sant-usant', 'Seksuell omgang med en 13-åring er lovlig hvis 13-åringen sier ja.', array['Sant', 'Usant']::text[], 1, 'Det regnes alltid som voldtekt av barn under 14.', false, true, 11),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm03', 'sant-usant', 'Mange voldtektssaker blir aldri anmeldt.', array['Sant', 'Usant']::text[], 0, 'Det er en stor utfordring for rettssystemet.', false, true, 12),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm04', 'sant-usant', 'Trusler som fremsettes på sosiale medier, kan aldri være straffbare.', array['Sant', 'Usant']::text[], 1, 'Trusler på nett kan være straffbare.', false, true, 13),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm05', 'flervalg', 'Hva kan gjøre en kroppskrenkelse grov?', array['At den skjer om dagen', 'Bruk av våpen', 'At offeret er voksen', 'At gjerningspersonen er alene']::text[], 1, 'Også særlig sårbart offer.', false, true, 14),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm06', 'flervalg', 'Hvilket rettsgode verner seksuallovbruddene?', array['Den seksuelle selvbestemmelsesretten', 'Eiendomsretten', 'Ytringsfriheten', 'Retten til utdanning']::text[], 0, 'Retten til å bestemme over egen kropp.', false, true, 15),
+  ('rettslare-2:vold-og-seksuallovbrudd', 'm07', 'flervalg', 'Hvem kan gi erstatning når skadevolderen ikke kan betale?', array['Kommunen', 'Skolen', 'Staten gjennom voldsoffererstatning', 'Ingen']::text[], 2, 'En viktig ordning for ofre.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:vold-og-seksuallovbrudd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Vinningslovbrudd
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:vinningslovbrudd', 'rettslare-2', 'vinningslovbrudd', 'Vinningslovbrudd', 'Lovbrudd som begås for å oppnå uberettiget vinning – tyveri, naskeri, underslag, ran, utpressing, bedrageri, heleri og hvitvasking – hvordan straffebudene skiller seg fra hverandre, hvordan du bruker straffbarhetsvilkårene på konkrete saker, og aktuelle former som nettsvindel og pengemuldyr.', array[9]::int[], 10, 'sjekkes', array['Sjekk paragrafnumre og strafferammer i straffeloven kapittel 27 og 30 (§§ 321–337 og 371–372).']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:vinningslovbrudd', '## Hva er vinningslovbrudd?
+
+**Vinningslovbrudd** er lovbrudd der gjerningspersonen vil skaffe seg eller andre en **uberettiget vinning** – en økonomisk fordel man ikke har krav på. Felles for de fleste er kravet om **vinningsforsett**: Gjerningspersonen må ha **forsett** om å oppnå vinningen.
+
+## Tyveri og naskeri
+
+**Tyveri** (§ 321): å **ta** en gjenstand som **tilhører en annen**, med **forsett** om uberettiget vinning ved å **tilegne seg** den. Strafferamme: bot eller fengsel inntil **2 år**.
+
+**Grovt tyveri** (§ 322): for eksempel **innbrudd** i bolig, tyveri av svært **store** verdier eller tyveri som skjer **organisert**.
+
+**Naskeri** (§ 323): tyveri av **liten verdi** når forholdene ellers tilsier det – straffes med **bot**. Typisk et mindre butikktyveri.
+
+## Underslag
+
+**Underslag** (§ 324): å tilegne seg noe man **allerede har i besittelse**, men som tilhører en annen. Eksempel: En kasserer tar penger fra kassen, eller noen beholder en lånt PC og selger den. Forskjellen fra tyveri er at gjenstanden **ikke tas** – den er allerede betrodd gjerningspersonen.
+
+## Ran og utpressing
+
+- **Ran** (§ 327): å skaffe seg vinning ved **vold** eller **trusler** – for eksempel å true til seg en mobil. Ran er langt mer alvorlig enn tyveri fordi det også krenker **personen**.
+- **Utpressing** (§ 330): å tvinge noen til å gi fra seg penger eller verdier ved **trusler**, for eksempel om å spre bilder – ofte kalt **sextortion** når det gjelder intime bilder.
+
+## Bedrageri
+
+**Bedrageri** (§ 371): å **villede** noen – ved løgn eller ved å utnytte en misforståelse – slik at de gjør noe som gir **tap** for dem selv eller andre, med forsett om uberettiget vinning. Straffebudet omfatter også å påvirke **datasystemer** uriktig.
+
+Eksempler:
+
+- selge en mobil på nett, få betalt og **aldri sende** den
+- **phishing**: lure til seg kortinformasjon eller BankID
+- falske **investeringer** og **kjærlighetssvindel**
+
+**Grovt bedrageri** (§ 372) gjelder blant annet store beløp og systematisk svindel.
+
+## Heleri og hvitvasking
+
+- **Heleri** (§ 332): å **motta** eller skaffe seg utbytte av en straffbar handling – for eksempel kjøpe en sykkel man forstår er **stjålet**.
+- **Hvitvasking** (§ 337): å bistå med å **skjule** eller **sikre** utbytte fra straffbare handlinger. Unge som **låner ut bankkontoen** sin mot betaling, kan bli brukt som **pengemuldyr** og straffes for hvitvasking – selv om de ikke visste nøyaktig hva pengene kom fra, dersom de burde ha forstått det.
+
+## Bruk av straffbarhetsvilkårene
+
+**Eksempel**: Sara (17) låner en PS5 av en venn og selger den på nett uten å spørre.
+
+1. **Lovhjemmel**: straffeloven § 324 om underslag
+2. **Objektiv gjerningsbeskrivelse**: Hun hadde gjenstanden i **besittelse** og **tilegnet** seg den ved å selge den.
+3. **Straffrihetsgrunn**: ingen
+4. **Skyld**: Hun visste at den tilhørte vennen og solgte den for å få penger – **forsett** og **vinningsforsett**.
+
+Sara er over 15 år og tilregnelig, så vilkårene for straff er oppfylt. Vennen kan i tillegg kreve **erstatning**.
+
+## Reaksjoner
+
+For unge førstegangslovbrytere er det vanlig med **bot**, **påtaleunnlatelse** eller **overføring til konfliktråd**, der gjerningspersonen møter den fornærmede. Grove og gjentatte lovbrudd kan gi **fengsel**. Retten kan også **inndra** utbyttet.', '{"label":"Vinningslovbrudd","children":[{"label":"Tyveri","children":[{"label":"Tyveri § 321"},{"label":"Grovt tyveri"},{"label":"Naskeri"}]},{"label":"Betrodd","children":[{"label":"Underslag"}]},{"label":"Vold og trusler","children":[{"label":"Ran"},{"label":"Utpressing og sextortion"}]},{"label":"Svindel","children":[{"label":"Bedrageri"},{"label":"Phishing og nettsvindel"}]},{"label":"Utbytte","children":[{"label":"Heleri"},{"label":"Hvitvasking og pengemuldyr"},{"label":"Inndragning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:vinningslovbrudd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:vinningslovbrudd', 'Vinningslovbrudd', 'Lovbrudd for å oppnå uberettiget økonomisk fordel.', 0),
+  ('rettslare-2:vinningslovbrudd', 'Vinningsforsett', 'Forsett om å oppnå uberettiget vinning.', 1),
+  ('rettslare-2:vinningslovbrudd', 'Tyveri', 'Å ta en gjenstand som tilhører en annen – § 321.', 2),
+  ('rettslare-2:vinningslovbrudd', 'Grovt tyveri', 'For eksempel innbrudd i bolig – § 322.', 3),
+  ('rettslare-2:vinningslovbrudd', 'Naskeri', 'Tyveri av liten verdi – bot, § 323.', 4),
+  ('rettslare-2:vinningslovbrudd', 'Underslag', 'Tilegne seg noe man allerede har i besittelse – § 324.', 5),
+  ('rettslare-2:vinningslovbrudd', 'Ran', 'Vinning ved vold eller trusler – § 327.', 6),
+  ('rettslare-2:vinningslovbrudd', 'Utpressing', 'Tvinge noen til å gi fra seg verdier ved trusler – § 330.', 7),
+  ('rettslare-2:vinningslovbrudd', 'Sextortion', 'Utpressing med trussel om å spre intime bilder.', 8),
+  ('rettslare-2:vinningslovbrudd', 'Bedrageri', 'Villede noen til å gjøre noe som gir tap – § 371.', 9),
+  ('rettslare-2:vinningslovbrudd', 'Phishing', 'Lure til seg kortinformasjon eller innloggingsdata.', 10),
+  ('rettslare-2:vinningslovbrudd', 'Heleri', 'Motta utbytte av en straffbar handling – § 332.', 11),
+  ('rettslare-2:vinningslovbrudd', 'Hvitvasking', 'Skjule eller sikre utbytte fra straffbare handlinger – § 337.', 12),
+  ('rettslare-2:vinningslovbrudd', 'Pengemuldyr', 'Person som låner ut kontoen sin til å flytte kriminelle penger.', 13),
+  ('rettslare-2:vinningslovbrudd', 'Inndragning', 'Retten tar fra gjerningspersonen utbyttet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:vinningslovbrudd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:vinningslovbrudd', 'q01', 'flervalg', 'Hva skiller underslag fra tyveri?', array['Underslag gjelder bare penger', 'Ved underslag har gjerningspersonen allerede gjenstanden i besittelse', 'Underslag er alltid grovt', 'Det er ingen forskjell']::text[], 1, 'Gjenstanden er betrodd.', true, true, 0),
+  ('rettslare-2:vinningslovbrudd', 'q02', 'flervalg', 'Hva er ran?', array['Vinning ved vold eller trusler', 'Tyveri av liten verdi', 'Salg av stjålne ting', 'Villedning på nett']::text[], 0, 'Krenker også personen.', true, true, 1),
+  ('rettslare-2:vinningslovbrudd', 'q03', 'flervalg', 'Hva er naskeri?', array['Innbrudd i bolig', 'Svindel på nett', 'Tyveri av liten verdi som straffes med bot', 'Utpressing']::text[], 2, 'Straffeloven § 323.', true, true, 2),
+  ('rettslare-2:vinningslovbrudd', 'q04', 'flervalg', 'Hvilket lovbrudd begår den som selger en mobil på nett, får betalt og aldri sender den?', array['Tyveri', 'Heleri', 'Ran', 'Bedrageri']::text[], 3, 'Kjøperen er villedet.', true, true, 3),
+  ('rettslare-2:vinningslovbrudd', 'q05', 'flervalg', 'Hva er heleri?', array['Å motta utbytte av en straffbar handling', 'Å stjele fra butikk', 'Å true noen', 'Å låne ut penger']::text[], 0, 'For eksempel å kjøpe en stjålet sykkel.', true, true, 4),
+  ('rettslare-2:vinningslovbrudd', 'q06', 'flervalg', 'Hva er et pengemuldyr?', array['En som stjeler dyr', 'En som låner ut bankkontoen sin til å flytte kriminelle penger', 'En bankansatt', 'En som betaler skatt']::text[], 1, 'Kan straffes for hvitvasking.', true, true, 5),
+  ('rettslare-2:vinningslovbrudd', 'q07', 'flervalg', 'Hvilket skyldkrav er felles for de fleste vinningslovbrudd?', array['Uaktsomhet', 'Ingen skyld', 'Vinningsforsett', 'Grov uaktsomhet']::text[], 2, 'Forsett om uberettiget vinning.', true, true, 6),
+  ('rettslare-2:vinningslovbrudd', 'q08', 'flervalg', 'Hva er sextortion?', array['Salg av bilder', 'Deling av memer', 'Et dataprogram', 'Utpressing med trussel om å spre intime bilder']::text[], 3, 'En form for utpressing.', true, true, 7),
+  ('rettslare-2:vinningslovbrudd', 'q09', 'flervalg', 'Hvilket lovbrudd er innbrudd i en bolig typisk?', array['Grovt tyveri', 'Naskeri', 'Underslag', 'Heleri']::text[], 0, 'Straffeloven § 322.', true, false, 8),
+  ('rettslare-2:vinningslovbrudd', 'q10', 'flervalg', 'Hva kan retten gjøre med utbyttet av et lovbrudd?', array['Gi det til gjerningspersonen', 'Inndra det', 'Dele det med vitner', 'Ingenting']::text[], 1, 'Inndragning.', true, false, 9),
+  ('rettslare-2:vinningslovbrudd', 'm01', 'sant-usant', 'Den som kjøper en sykkel og forstår at den er stjålet, kan straffes for heleri.', array['Sant', 'Usant']::text[], 0, 'Straffeloven § 332.', false, true, 10),
+  ('rettslare-2:vinningslovbrudd', 'm02', 'sant-usant', 'Ran er mindre alvorlig enn tyveri.', array['Sant', 'Usant']::text[], 1, 'Ran krenker også personen og straffes strengere.', false, true, 11),
+  ('rettslare-2:vinningslovbrudd', 'm03', 'sant-usant', 'Bedrageri kan også skje ved å påvirke et datasystem uriktig.', array['Sant', 'Usant']::text[], 0, 'Omfattet av straffebudet.', false, true, 12),
+  ('rettslare-2:vinningslovbrudd', 'm04', 'sant-usant', 'Å låne ut bankkontoen sin mot betaling er alltid lovlig.', array['Sant', 'Usant']::text[], 1, 'Det kan være hvitvasking.', false, true, 13),
+  ('rettslare-2:vinningslovbrudd', 'm05', 'flervalg', 'En kasserer tar penger fra kassen. Hvilket lovbrudd er det?', array['Ran', 'Underslag', 'Heleri', 'Naskeri']::text[], 1, 'Pengene var betrodd kassereren.', false, true, 14),
+  ('rettslare-2:vinningslovbrudd', 'm06', 'flervalg', 'Hvilken reaksjon er vanlig for unge førstegangslovbrytere?', array['Overføring til konfliktråd', 'Forvaring', 'Livstidsstraff', 'Utvisning']::text[], 0, 'Møte med den fornærmede.', false, true, 15),
+  ('rettslare-2:vinningslovbrudd', 'm07', 'flervalg', 'Hva er phishing?', array['Ulovlig fiske', 'Hvitvasking', 'Å lure til seg kortinformasjon eller innloggingsdata', 'Tyveri fra butikk']::text[], 2, 'En form for bedrageri.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:vinningslovbrudd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Rettslære 2: Miljørett og aktuelle miljøsaker
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('rettslare-2:miljorett', 'rettslare-2', 'miljorett', 'Miljørett og aktuelle miljøsaker', 'Hvordan retten verner miljøet – Grunnloven § 112, naturmangfoldloven med de miljørettslige prinsippene, forurensningsloven, klimaloven og retten til miljøinformasjon – og dagsaktuelle rettsspørsmål som klimasøksmålet, konsekvensutredning av oljefelt, klimasaker for EMD og konflikter mellom grønn energi og natur.', array[10]::int[], 11, 'sjekkes', array['Sjekk status i sakene om konsekvensutredning av nye oljefelt og eventuelle EMD-avgjørelser i klimasaker mot Norge.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('rettslare-2:miljorett', '## Grunnloven § 112
+
+**Grunnloven § 112** gir **enhver** rett til et **miljø** som sikrer **helsen**, og til en **natur** der **produksjonsevne** og **mangfold** bevares. Naturressursene skal disponeres ut fra et **langsiktig** perspektiv som ivaretar retten også for **etterslekten**. Borgerne har rett til **kunnskap** om miljøets tilstand, og staten skal iverksette **tiltak** som gjennomfører disse prinsippene.
+
+## Viktige miljølover
+
+- **Naturmangfoldloven** (2009) skal ta vare på **naturens mangfold**. Den inneholder **miljørettslige prinsipper** (§§ 8–12) som skal brukes når myndighetene tar beslutninger som berører natur:
+  - beslutninger skal bygge på **kunnskap**
+  - **føre-var-prinsippet**: Mangel på kunnskap skal ikke brukes som begrunnelse for å utsette tiltak mot alvorlig skade
+  - vurdering av **samlet belastning**
+  - **miljøforringeren betaler**
+  - bruk av **miljøforsvarlige** teknikker og lokalisering
+- **Forurensningsloven** forbyr **forurensning** uten tillatelse og gir myndighetene rett til å stille krav.
+- **Plan- og bygningsloven** krever **konsekvensutredning** av store tiltak.
+- **Klimaloven** lovfester Norges **klimamål**.
+- **Miljøinformasjonsloven** gir rett til **miljøinformasjon** fra myndigheter og virksomheter.
+
+**Miljøkriminalitet**, som alvorlig forurensning og ulovlig handel med truede arter, er straffbart og etterforskes blant annet av **Økokrim**.
+
+## Klimasøksmålet
+
+Miljøorganisasjoner saksøkte staten for å ha tildelt **letetillatelser** for olje i **Barentshavet**. De mente det stred mot § 112. **Høyesterett** i **plenum** frifant staten i **2020**. Retten slo fast at § 112 gir **rettigheter**, men at terskelen for at domstolene skal sette til side Stortingets beslutninger, er **høy**. Samtidig ble det lagt vekt på at utslipp fra **forbrenning** av eksportert olje og gass må vurderes før **utbygging**.
+
+## Konsekvensutredning av oljefelt
+
+Senere saker har handlet om hvorvidt staten har **utredet** klimavirkningene av forbrenningsutslipp godt nok før den godkjente nye **oljefelt**. Sakene viser hvordan **saksbehandlingsregler** kan bli viktige i miljøsaker.
+
+## Klima og menneskerettigheter
+
+I **2024** kom **Den europeiske menneskerettsdomstolen** fram til at **Sveits** hadde krenket **EMK artikkel 8** ved ikke å gjøre nok for å beskytte innbyggerne mot alvorlige følger av **klimaendringer**. Saken ble ført av en forening av **eldre kvinner**. Dommen viser at klimapolitikk også kan bli et **menneskerettsspørsmål**.
+
+## Grønn energi mot natur
+
+Mange miljøsaker handler om å **veie** hensyn mot hverandre:
+
+- **Vindkraft** gir fornybar energi, men kan ødelegge **natur**, **fugleliv** og **reindriftsområder** – se **Fosen-saken**.
+- **Gruvedrift** kan gi mineraler til batterier, men gruveavfall kan skade **fjorder** og **vassdrag**.
+- **Nedbygging** av natur til hytter, veier og industri er en av de største truslene mot naturmangfoldet i Norge.
+
+## Internasjonal miljørett
+
+**Parisavtalen**, **naturavtalen** fra **Montreal** (2022) og **Aarhus-konvensjonen** om informasjon og deltakelse påvirker norsk rett. Mange miljøproblemer krysser **landegrenser** og krever **internasjonalt** samarbeid.
+
+## Drøfting
+
+I en miljørettslig drøfting kan du spørre:
+
+1. Hvilke **regler** gjelder – lov, Grunnloven, konvensjoner?
+2. Er saken godt nok **utredet**?
+3. Hvordan er **hensynene** veid – næring, arbeidsplasser, klima, natur og urfolk?
+4. Hvor langt bør **domstolene** gå i å overprøve **politiske** beslutninger?', '{"label":"Miljørett","children":[{"label":"Grunnlov","children":[{"label":"§ 112"},{"label":"Etterslekten"}]},{"label":"Lover","children":[{"label":"Naturmangfoldloven"},{"label":"Forurensningsloven"},{"label":"Klimaloven"}]},{"label":"Prinsipper","children":[{"label":"Føre-var"},{"label":"Samlet belastning"},{"label":"Miljøforringer betaler"}]},{"label":"Saker","children":[{"label":"Klimasøksmålet"},{"label":"Oljefelt og utredning"},{"label":"EMD og Sveits"}]},{"label":"Konflikter","children":[{"label":"Vindkraft og reindrift"},{"label":"Gruvedrift"},{"label":"Nedbygging"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'rettslare-2:miljorett';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('rettslare-2:miljorett', 'Grunnloven § 112', 'Rett til et helsesikrende miljø og en natur der mangfold bevares – også for etterslekten.', 0),
+  ('rettslare-2:miljorett', 'Naturmangfoldloven', 'Lov fra 2009 som skal ta vare på naturens mangfold.', 1),
+  ('rettslare-2:miljorett', 'Miljørettslige prinsipper', 'Naturmangfoldloven §§ 8–12.', 2),
+  ('rettslare-2:miljorett', 'Føre-var-prinsippet', 'Mangel på kunnskap skal ikke utsette tiltak mot alvorlig skade.', 3),
+  ('rettslare-2:miljorett', 'Samlet belastning', 'Summen av påvirkninger på naturen skal vurderes.', 4),
+  ('rettslare-2:miljorett', 'Miljøforringeren betaler', 'Tiltakshaveren bærer kostnadene ved miljøskade.', 5),
+  ('rettslare-2:miljorett', 'Forurensningsloven', 'Forbyr forurensning uten tillatelse.', 6),
+  ('rettslare-2:miljorett', 'Konsekvensutredning', 'Utredning av virkningene av store tiltak før beslutning.', 7),
+  ('rettslare-2:miljorett', 'Klimaloven', 'Lovfester Norges klimamål.', 8),
+  ('rettslare-2:miljorett', 'Miljøinformasjonsloven', 'Gir rett til miljøinformasjon.', 9),
+  ('rettslare-2:miljorett', 'Økokrim', 'Etterforsker blant annet alvorlig miljøkriminalitet.', 10),
+  ('rettslare-2:miljorett', 'Klimasøksmålet', 'Høyesterett frifant staten i 2020 i saken om oljeleting i Barentshavet.', 11),
+  ('rettslare-2:miljorett', 'KlimaSeniorinnen-saken', 'EMD 2024: Sveits krenket EMK artikkel 8 i klimapolitikken.', 12),
+  ('rettslare-2:miljorett', 'Aarhus-konvensjonen', 'Rett til miljøinformasjon og deltakelse.', 13),
+  ('rettslare-2:miljorett', 'Grønn konflikt', 'Fornybar energi og mineraler mot natur og urfolksrettigheter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'rettslare-2:miljorett';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('rettslare-2:miljorett', 'q01', 'flervalg', 'Hva gir Grunnloven § 112?', array['Rett til gratis strøm', 'Rett til et helsesikrende miljø og en natur der mangfold bevares', 'Rett til å bygge hvor man vil', 'Rett til å drive oljeleting']::text[], 1, 'Også for etterslekten.', true, true, 0),
+  ('rettslare-2:miljorett', 'q02', 'flervalg', 'Hva er føre-var-prinsippet?', array['At mangel på kunnskap ikke skal utsette tiltak mot alvorlig skade', 'At man skal vente til alt er bevist', 'At forurenser alltid går fri', 'At bare staten kan handle']::text[], 0, 'Naturmangfoldloven § 9.', true, true, 1),
+  ('rettslare-2:miljorett', 'q03', 'flervalg', 'Hvordan endte klimasøksmålet i Høyesterett i 2020?', array['Staten tapte', 'Saken ble avvist', 'Staten ble frifunnet', 'Oljeleting ble forbudt']::text[], 2, 'Terskelen for å overprøve Stortinget er høy.', true, true, 2),
+  ('rettslare-2:miljorett', 'q04', 'flervalg', 'Hva betyr prinsippet om at miljøforringeren betaler?', array['At staten betaler', 'At naboene betaler', 'At ingen betaler', 'At tiltakshaveren bærer kostnadene ved miljøskade']::text[], 3, 'Naturmangfoldloven § 11.', true, true, 3),
+  ('rettslare-2:miljorett', 'q05', 'flervalg', 'Hva kom EMD fram til i saken mot Sveits i 2024?', array['At Sveits hadde krenket EMK artikkel 8 i klimapolitikken', 'At klima ikke er et menneskerettsspørsmål', 'At Sveits skulle stenge alle fabrikker', 'At saken ikke kunne behandles']::text[], 0, 'Ført av en forening av eldre kvinner.', true, true, 4),
+  ('rettslare-2:miljorett', 'q06', 'flervalg', 'Hva krever plan- og bygningsloven for store tiltak?', array['Folkeavstemning', 'Konsekvensutredning', 'Kongens godkjenning', 'Ingen ting']::text[], 1, 'Virkningene skal utredes.', true, true, 5),
+  ('rettslare-2:miljorett', 'q07', 'flervalg', 'Hvilken lov gir rett til å få informasjon om miljøet?', array['Straffeloven', 'Arbeidsmiljøloven', 'Miljøinformasjonsloven', 'Barneloven']::text[], 2, 'Også Grunnloven § 112.', true, true, 6),
+  ('rettslare-2:miljorett', 'q08', 'flervalg', 'Hvilken konflikt illustrerer Fosen-saken?', array['Olje mot fiske', 'Skole mot helse', 'Skatt mot toll', 'Vindkraft mot reindrift og natur']::text[], 3, 'Grønn energi mot urfolksrettigheter.', true, true, 7),
+  ('rettslare-2:miljorett', 'q09', 'flervalg', 'Hva er vurdering av samlet belastning?', array['At summen av påvirkninger på naturen skal vurderes', 'At bare det største inngrepet teller', 'At kostnadene legges sammen', 'At alle må betale likt']::text[], 0, 'Naturmangfoldloven § 10.', true, false, 8),
+  ('rettslare-2:miljorett', 'q10', 'flervalg', 'Hvem etterforsker alvorlig miljøkriminalitet?', array['Datatilsynet', 'Blant annet Økokrim', 'Sivilombudet', 'Sametinget']::text[], 1, 'Sammen med politiet.', true, false, 9),
+  ('rettslare-2:miljorett', 'm01', 'sant-usant', 'Nedbygging av natur er en av de største truslene mot naturmangfoldet i Norge.', array['Sant', 'Usant']::text[], 0, 'Hytter, veier og industri.', false, true, 10),
+  ('rettslare-2:miljorett', 'm02', 'sant-usant', 'Grunnloven § 112 gjelder bare for dagens generasjon.', array['Sant', 'Usant']::text[], 1, 'Den ivaretar også etterslekten.', false, true, 11),
+  ('rettslare-2:miljorett', 'm03', 'sant-usant', 'Saksbehandlingsregler som krav om konsekvensutredning kan bli avgjørende i miljøsaker.', array['Sant', 'Usant']::text[], 0, 'Som i sakene om nye oljefelt.', false, true, 12),
+  ('rettslare-2:miljorett', 'm04', 'sant-usant', 'Miljøproblemer kan alltid løses av ett land alene.', array['Sant', 'Usant']::text[], 1, 'Mange krysser landegrenser.', false, true, 13),
+  ('rettslare-2:miljorett', 'm05', 'flervalg', 'Hvilken avtale fra 2022 gjelder naturmangfold?', array['Parisavtalen', 'Naturavtalen fra Montreal', 'Kyotoprotokollen', 'Aarhus-konvensjonen']::text[], 1, 'Global avtale om natur.', false, true, 14),
+  ('rettslare-2:miljorett', 'm06', 'flervalg', 'Hvilket spørsmål er sentralt når domstolene behandler miljøsaker?', array['Hvor langt domstolene bør gå i å overprøve politiske beslutninger', 'Hvem som har størst bil', 'Hvor mange som bor i området', 'Hva været er']::text[], 0, 'Maktfordeling.', false, true, 15),
+  ('rettslare-2:miljorett', 'm07', 'flervalg', 'Hva forbyr forurensningsloven?', array['All industri', 'Bruk av bil', 'Forurensning uten tillatelse', 'Fiske']::text[], 2, 'Myndighetene kan gi tillatelse med vilkår.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('rettslare-2:miljorett', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'psykologi-2' and slug not in ('kilder-og-informasjon', 'egen-undersokelse', 'teorier-og-forklaringer', 'sosial-pavirkning-og-grupper', 'utenforskap', 'sosial-kompetanse', 'konflikter-og-kommunikasjon', 'kommunikasjon-og-livskvalitet', 'psykisk-helse-i-endring', 'normalitet-og-psykisk-helse', 'biopsykososial-modell', 'forebygging-og-behandling');
+
+-- Psykologi 2: Å finne og vurdere psykologisk kunnskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:kilder-og-informasjon', 'psykologi-2', 'kilder-og-informasjon', 'Å finne og vurdere psykologisk kunnskap', 'Hvordan du finner og vurderer informasjon om psykologiske spørsmål – forskjellen på forskning, fagformidling og populærpsykologi, fagfellevurdering, oversiktsartikler, replikasjonskrisen, statistiske fallgruver og hvordan du bruker kildene til å analysere en faglig problemstilling.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:kilder-og-informasjon', '## Psykologi i hverdagen
+
+Psykologisk kunnskap er overalt – i **podkaster**, på **sosiale medier**, i **selvhjelpsbøker** og i **nyheter**. Mye er nyttig, men mye er **forenklet**, **feil** eller **kommersielt** motivert. Derfor må du kunne skille mellom ulike typer kilder.
+
+## Typer kilder
+
+- **Primærkilder**: **forskningsartikler** der forskerne selv beskriver en studie – metode, resultater og drøfting.
+- **Oversiktsartikler** og **metaanalyser**: sammenstiller **mange** studier. De gir ofte det mest **pålitelige** bildet av hva forskningen viser.
+- **Fagformidling**: lærebøker, fagnettsteder som **Store norske leksikon**, **Folkehelseinstituttet** og **helsenorge.no**, og artikler skrevet av fagfolk.
+- **Populærpsykologi**: bøker, blogger og innlegg som ofte bygger på **enkelthistorier** og **forenklinger**.
+
+## Fagfellevurdering
+
+Før en forskningsartikkel publiseres i et vitenskapelig tidsskrift, blir den **fagfellevurdert**: Andre forskere vurderer metode og konklusjoner. Det er en **kvalitetskontroll**, men ingen garanti – også fagfellevurderte studier kan inneholde feil.
+
+## Replikasjonskrisen
+
+På **2010-tallet** forsøkte forskere å **gjenta** kjente psykologiske eksperimenter. Mange av resultatene lot seg **ikke** gjenskape, eller effektene var mye **mindre** enn først antatt. Årsakene var blant annet
+
+- **små utvalg**
+- at bare **positive** funn ble publisert – **publiseringsskjevhet**
+- at forskerne prøvde mange analyser og rapporterte den som ga **signifikant** resultat
+
+Som svar har forskere begynt å **forhåndsregistrere** studier, dele **data** åpent og gjøre flere **replikasjoner**.
+
+## Vurdering av en kilde
+
+Still spørsmålene:
+
+1. **Hvem** er avsender – forsker, journalist, influenser, firma?
+2. **Hva** er formålet – informere, overbevise eller selge?
+3. Bygger påstanden på **forskning**, og hvor **mange** studier?
+4. Hvor **stort** og **representativt** var utvalget?
+5. Er det skilt mellom **sammenheng** og **årsak**?
+6. Er kilden **oppdatert**?
+7. Stemmer den med **andre** gode kilder?
+
+## Statistiske fallgruver
+
+- **Korrelasjon er ikke kausalitet**: At ungdom som bruker mye sosiale medier, rapporterer mer uro, betyr ikke nødvendigvis at sosiale medier **forårsaker** uroen. Det kan være **omvendt**, eller en **tredje** faktor kan påvirke begge.
+- **Relativ og absolutt risiko**: «Dobbelt så stor risiko» kan bety en økning fra 1 til 2 av 10 000.
+- **Statistisk signifikans** sier ikke noe om hvor **viktig** en effekt er.
+- **Enkelthistorier** er sterke, men kan ikke vise hva som gjelder for de **fleste**.
+
+## Søk etter informasjon
+
+- **Oria** og **Google Scholar** finner fagartikler.
+- Bruk **presise** søkeord, gjerne på **engelsk** – for eksempel «social media adolescent depression meta-analysis».
+- Les **sammendraget** – abstract – først.
+- Se etter **publiseringsår** og om artikkelen er mye **sitert**.
+
+## Fra kilder til analyse
+
+Når du analyserer en faglig problemstilling, **sammenstiller** du det kildene sier, peker på **enighet** og **uenighet**, vurderer **kvaliteten** og trekker en **forsiktig** konklusjon. Oppgi kildene slik at leseren kan **sjekke** dem.', '{"label":"Kilder i psykologi","children":[{"label":"Kildetyper","children":[{"label":"Primærkilder"},{"label":"Metaanalyser"},{"label":"Fagformidling og populærpsykologi"}]},{"label":"Kvalitet","children":[{"label":"Fagfellevurdering"},{"label":"Replikasjonskrisen"}]},{"label":"Vurdering","children":[{"label":"Avsender og formål"},{"label":"Utvalg"},{"label":"Aktualitet"}]},{"label":"Fallgruver","children":[{"label":"Korrelasjon og kausalitet"},{"label":"Relativ risiko"},{"label":"Enkelthistorier"}]},{"label":"Søk og analyse","children":[{"label":"Oria og Google Scholar"},{"label":"Sammenstille og konkludere"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:kilder-og-informasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:kilder-og-informasjon', 'Primærkilde', 'Forskningsartikkel der forskerne beskriver egen studie.', 0),
+  ('psykologi-2:kilder-og-informasjon', 'Metaanalyse', 'Statistisk sammenstilling av mange studier.', 1),
+  ('psykologi-2:kilder-og-informasjon', 'Oversiktsartikkel', 'Sammenfatter forskningen på et felt.', 2),
+  ('psykologi-2:kilder-og-informasjon', 'Fagformidling', 'Lærebøker og fagnettsteder skrevet av fagfolk.', 3),
+  ('psykologi-2:kilder-og-informasjon', 'Populærpsykologi', 'Forenklet psykologi, ofte basert på enkelthistorier.', 4),
+  ('psykologi-2:kilder-og-informasjon', 'Fagfellevurdering', 'Andre forskere vurderer en artikkel før publisering.', 5),
+  ('psykologi-2:kilder-og-informasjon', 'Replikasjonskrisen', 'Mange kjente funn lot seg ikke gjenskape.', 6),
+  ('psykologi-2:kilder-og-informasjon', 'Publiseringsskjevhet', 'At positive funn publiseres oftere enn negative.', 7),
+  ('psykologi-2:kilder-og-informasjon', 'Forhåndsregistrering', 'Plan og hypoteser registreres før studien gjennomføres.', 8),
+  ('psykologi-2:kilder-og-informasjon', 'Korrelasjon', 'Sammenheng mellom to variabler – ikke nødvendigvis årsak.', 9),
+  ('psykologi-2:kilder-og-informasjon', 'Kausalitet', 'At én ting forårsaker en annen.', 10),
+  ('psykologi-2:kilder-og-informasjon', 'Tredjevariabel', 'En faktor som påvirker begge variablene i en sammenheng.', 11),
+  ('psykologi-2:kilder-og-informasjon', 'Relativ risiko', 'Endring i risiko i prosent av utgangspunktet – kan virke større enn den er.', 12),
+  ('psykologi-2:kilder-og-informasjon', 'Oria', 'Søketjeneste for fagbøker og artikler i norske bibliotek.', 13),
+  ('psykologi-2:kilder-og-informasjon', 'Abstract', 'Kort sammendrag av en forskningsartikkel.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:kilder-og-informasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:kilder-og-informasjon', 'q01', 'flervalg', 'Hvilken kildetype gir ofte det mest pålitelige bildet av forskningen?', array['Et blogginnlegg', 'En metaanalyse', 'En enkelthistorie', 'En reklame']::text[], 1, 'Sammenstiller mange studier.', true, true, 0),
+  ('psykologi-2:kilder-og-informasjon', 'q02', 'flervalg', 'Hva er fagfellevurdering?', array['At andre forskere vurderer en artikkel før publisering', 'At leserne gir stjerner', 'At journalister skriver om forskningen', 'At studien gjentas']::text[], 0, 'En kvalitetskontroll, men ingen garanti.', true, true, 1),
+  ('psykologi-2:kilder-og-informasjon', 'q03', 'flervalg', 'Hva var replikasjonskrisen?', array['At psykologer sluttet å forske', 'At tidsskrifter ble nedlagt', 'At mange kjente funn ikke lot seg gjenskape', 'At alle funn ble bekreftet']::text[], 2, 'Særlig på 2010-tallet.', true, true, 2),
+  ('psykologi-2:kilder-og-informasjon', 'q04', 'flervalg', 'Hva betyr korrelasjon er ikke kausalitet?', array['At statistikk alltid er feil', 'At to ting aldri henger sammen', 'At årsaken alltid er kjent', 'At en sammenheng ikke viser at den ene tingen forårsaker den andre']::text[], 3, 'Det kan være omvendt, eller en tredje faktor.', true, true, 3),
+  ('psykologi-2:kilder-og-informasjon', 'q05', 'flervalg', 'Hva er publiseringsskjevhet?', array['At positive funn publiseres oftere enn negative', 'At forskere skriver på engelsk', 'At studier er for lange', 'At bare kvinner publiserer']::text[], 0, 'Gir et for positivt bilde.', true, true, 4),
+  ('psykologi-2:kilder-og-informasjon', 'q06', 'flervalg', 'Hvorfor kan «dobbelt så stor risiko» være misvisende?', array['Fordi risiko aldri dobles', 'Fordi den absolutte økningen kan være svært liten', 'Fordi det alltid betyr 50 %', 'Fordi det er et sitat']::text[], 1, 'Skill mellom relativ og absolutt risiko.', true, true, 5),
+  ('psykologi-2:kilder-og-informasjon', 'q07', 'flervalg', 'Hva er et tiltak mot replikasjonskrisen?', array['Mindre utvalg', 'Hemmelige data', 'Forhåndsregistrering av studier', 'Å slutte å publisere']::text[], 2, 'Også åpne data og flere replikasjoner.', true, true, 6),
+  ('psykologi-2:kilder-og-informasjon', 'q08', 'flervalg', 'Hvilket spørsmål bør du stille om en kilde?', array['Hvor mange likes den har', 'Hvor fin designen er', 'Hvor lang den er', 'Hvem som er avsender og hva formålet er']::text[], 3, 'Informere, overbevise eller selge?', true, true, 7),
+  ('psykologi-2:kilder-og-informasjon', 'q09', 'flervalg', 'Hvorfor kan enkelthistorier være problematiske som bevis?', array['De kan ikke vise hva som gjelder for de fleste', 'De er alltid løgn', 'De er for korte', 'De er ulovlige']::text[], 0, 'Men de kan gi innsikt.', true, false, 8),
+  ('psykologi-2:kilder-og-informasjon', 'q10', 'flervalg', 'Hva bør du lese først i en forskningsartikkel?', array['Referanselisten', 'Sammendraget – abstract', 'Tabellene', 'Takkeordene']::text[], 1, 'Gir oversikt raskt.', true, false, 9),
+  ('psykologi-2:kilder-og-informasjon', 'm01', 'sant-usant', 'Også fagfellevurderte studier kan inneholde feil.', array['Sant', 'Usant']::text[], 0, 'Fagfellevurdering er ingen garanti.', false, true, 10),
+  ('psykologi-2:kilder-og-informasjon', 'm02', 'sant-usant', 'Statistisk signifikans betyr alltid at effekten er stor og viktig.', array['Sant', 'Usant']::text[], 1, 'Signifikans sier ikke noe om hvor viktig effekten er.', false, true, 11),
+  ('psykologi-2:kilder-og-informasjon', 'm03', 'sant-usant', 'En sammenheng mellom skjermtid og uro kan skyldes en tredje faktor.', array['Sant', 'Usant']::text[], 0, 'For eksempel søvn eller stress.', false, true, 12),
+  ('psykologi-2:kilder-og-informasjon', 'm04', 'sant-usant', 'Et innlegg fra en influenser er like pålitelig som en metaanalyse.', array['Sant', 'Usant']::text[], 1, 'Kildene har svært ulik kvalitet.', false, true, 13),
+  ('psykologi-2:kilder-og-informasjon', 'm05', 'flervalg', 'Hvilken søketjeneste er laget for norske bibliotek?', array['Google Maps', 'Oria', 'Spotify', 'Finn.no']::text[], 1, 'Finner fagbøker og artikler.', false, true, 14),
+  ('psykologi-2:kilder-og-informasjon', 'm06', 'flervalg', 'Hva gjør du når du analyserer en problemstilling ut fra flere kilder?', array['Sammenstiller, vurderer kvalitet og trekker forsiktige konklusjoner', 'Velger kilden du er mest enig i', 'Bruker bare én kilde', 'Kopierer den første kilden']::text[], 0, 'Peker også på enighet og uenighet.', false, true, 15),
+  ('psykologi-2:kilder-og-informasjon', 'm07', 'flervalg', 'Hva var en årsak til replikasjonskrisen?', array['For store utvalg', 'Åpne data', 'Små utvalg og selektiv rapportering', 'For mange replikasjoner']::text[], 2, 'Ga tilfeldige funn.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:kilder-og-informasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Å gjennomføre en psykologisk undersøkelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:egen-undersokelse', 'psykologi-2', 'egen-undersokelse', 'Å gjennomføre en psykologisk undersøkelse', 'Hvordan du planlegger, beskriver og gjennomfører en egen undersøkelse av en psykologisk problemstilling – problemstilling og hypotese, valg av metode og utvalg, forskningsetikk, reliabilitet og validitet – og hvordan du analyserer, drøfter og presenterer resultatene.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:egen-undersokelse', '## Problemstilling og hypotese
+
+En god undersøkelse starter med en **problemstilling** som er **avgrenset** og **mulig å undersøke**, for eksempel: *Hvordan påvirker gruppepress elevers svar i en klassesituasjon?* eller *Er det sammenheng mellom søvn og konsentrasjon hos elever på Vg3?*
+
+En **hypotese** er et **begrunnet** forslag til svar som kan **testes**: «Elever som sover mindre enn sju timer, rapporterer dårligere konsentrasjon.»
+
+## Valg av metode
+
+- **Kvantitativ metode** gir **tall** og passer når du vil undersøke **mange** personer og finne **mønstre** – for eksempel et **spørreskjema** eller et enkelt **eksperiment**.
+- **Kvalitativ metode** gir **dybdeinnsikt** i opplevelser og meninger – for eksempel **intervju** eller **observasjon**.
+
+I et **eksperiment** endrer du én faktor – den **uavhengige variabelen** – og måler effekten på den **avhengige variabelen**. En **kontrollgruppe** gjør det mulig å sammenligne. Bare eksperimenter kan gi sterke holdepunkter for **årsak og virkning**.
+
+## Utvalg
+
+**Utvalget** er de personene du undersøker. Et **tilfeldig** og **representativt** utvalg gjør det lettere å **generalisere**. I skolesammenheng bruker man ofte et **bekvemmelighetsutvalg** – for eksempel egen klasse – og da må du være **forsiktig** med å trekke generelle konklusjoner.
+
+## Forskningsetikk
+
+- **Informert samtykke**: Deltakerne skal vite hva de er med på, og at de kan **trekke seg** når som helst.
+- **Anonymitet** og **konfidensialitet**: Svarene skal ikke kunne knyttes til enkeltpersoner.
+- **Ikke skade**: Unngå spørsmål eller situasjoner som kan være **belastende**. Unngå **sensitive** temaer som psykisk helse uten veiledning.
+- **Villedning** må brukes svært forsiktig og følges opp med **debrifing**.
+- **Barn under 16** må ofte ha **foresattes** samtykke.
+
+De **forskningsetiske retningslinjene** i Norge gir veiledning om dette.
+
+## Reliabilitet og validitet
+
+- **Reliabilitet** – pålitelighet: Gir målingen **samme** resultat hvis den gjentas? Uklare spørsmål og ulike forhold under datainnsamlingen svekker reliabiliteten.
+- **Validitet** – gyldighet: Måler du det du **faktisk** vil måle? Spør du om «stress», må spørsmålene fange opp stress – ikke bare travelhet.
+
+## Gjennomføring
+
+1. Lag og **test** spørreskjemaet eller intervjuguiden på noen få personer – en **pilotundersøkelse**.
+2. Samle inn data under mest mulig **like** forhold.
+3. **Registrer** dataene nøyaktig, for eksempel i et regneark.
+
+## Analyse
+
+- **Kvantitative** data: Regn ut **gjennomsnitt**, **prosentandeler** og eventuelt **spredning**. Vis resultatene i **tabeller** og **diagrammer**.
+- **Kvalitative** data: Les gjennom svarene, finn **temaer** og **mønstre**, og bruk **sitater**.
+
+## Drøfting
+
+I drøftingen
+
+- **tolker** du resultatene: Støtter de **hypotesen**?
+- sammenligner du med **teori** og **tidligere forskning**
+- vurderer du **feilkilder**: lite utvalg, uklare spørsmål, **sosial ønskverdighet** – at folk svarer det de tror er «riktig»
+- drøfter du **alternative forklaringer**
+
+## Presentasjon
+
+En rapport har gjerne delene **innledning**, **teori**, **metode**, **resultater**, **drøfting** og **konklusjon**. Konklusjonen skal være **forsiktig** og ta hensyn til begrensningene.', '{"label":"Egen undersøkelse","children":[{"label":"Planlegging","children":[{"label":"Problemstilling"},{"label":"Hypotese"}]},{"label":"Metode","children":[{"label":"Kvantitativ"},{"label":"Kvalitativ"},{"label":"Eksperiment"}]},{"label":"Etikk","children":[{"label":"Samtykke"},{"label":"Anonymitet"},{"label":"Ikke skade"}]},{"label":"Kvalitet","children":[{"label":"Reliabilitet"},{"label":"Validitet"},{"label":"Utvalg"}]},{"label":"Etterarbeid","children":[{"label":"Analyse"},{"label":"Drøfting og feilkilder"},{"label":"Rapport"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:egen-undersokelse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:egen-undersokelse', 'Problemstilling', 'Avgrenset spørsmål som kan undersøkes.', 0),
+  ('psykologi-2:egen-undersokelse', 'Hypotese', 'Begrunnet forslag til svar som kan testes.', 1),
+  ('psykologi-2:egen-undersokelse', 'Kvantitativ metode', 'Gir tall og mønstre fra mange personer.', 2),
+  ('psykologi-2:egen-undersokelse', 'Kvalitativ metode', 'Gir dybdeinnsikt i opplevelser og meninger.', 3),
+  ('psykologi-2:egen-undersokelse', 'Uavhengig variabel', 'Faktoren forskeren endrer i et eksperiment.', 4),
+  ('psykologi-2:egen-undersokelse', 'Avhengig variabel', 'Det som måles i et eksperiment.', 5),
+  ('psykologi-2:egen-undersokelse', 'Kontrollgruppe', 'Gruppe som ikke får behandlingen – gir sammenligning.', 6),
+  ('psykologi-2:egen-undersokelse', 'Representativt utvalg', 'Speiler populasjonen man vil si noe om.', 7),
+  ('psykologi-2:egen-undersokelse', 'Bekvemmelighetsutvalg', 'Utvalg av de som er lett tilgjengelige.', 8),
+  ('psykologi-2:egen-undersokelse', 'Informert samtykke', 'Deltakerne vet hva de er med på og kan trekke seg.', 9),
+  ('psykologi-2:egen-undersokelse', 'Debrifing', 'Samtale etter studien der deltakerne får full informasjon.', 10),
+  ('psykologi-2:egen-undersokelse', 'Reliabilitet', 'Pålitelighet – samme resultat ved gjentakelse.', 11),
+  ('psykologi-2:egen-undersokelse', 'Validitet', 'Gyldighet – måler det man vil måle.', 12),
+  ('psykologi-2:egen-undersokelse', 'Pilotundersøkelse', 'Test av skjema eller intervjuguide på få personer.', 13),
+  ('psykologi-2:egen-undersokelse', 'Sosial ønskverdighet', 'At folk svarer det de tror er riktig eller akseptert.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:egen-undersokelse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:egen-undersokelse', 'q01', 'flervalg', 'Hva er en hypotese?', array['En konklusjon', 'Et begrunnet forslag til svar som kan testes', 'Et spørreskjema', 'En tabell']::text[], 1, 'Testes i undersøkelsen.', true, true, 0),
+  ('psykologi-2:egen-undersokelse', 'q02', 'flervalg', 'Hva er validitet?', array['At man måler det man faktisk vil måle', 'At målingen gir samme resultat hver gang', 'At utvalget er stort', 'At svarene er anonyme']::text[], 0, 'Gyldighet.', true, true, 1),
+  ('psykologi-2:egen-undersokelse', 'q03', 'flervalg', 'Hvilken metode passer best for å forstå opplevelser i dybden?', array['Spørreskjema med avkrysning', 'Eksperiment', 'Intervju', 'Statistikk fra SSB']::text[], 2, 'Kvalitativ metode.', true, true, 2),
+  ('psykologi-2:egen-undersokelse', 'q04', 'flervalg', 'Hva er den uavhengige variabelen i et eksperiment?', array['Det som måles', 'Deltakerne', 'Resultatet', 'Faktoren forskeren endrer']::text[], 3, 'Den avhengige variabelen måles.', true, true, 3),
+  ('psykologi-2:egen-undersokelse', 'q05', 'flervalg', 'Hva innebærer informert samtykke?', array['At deltakerne vet hva de er med på og kan trekke seg', 'At læreren bestemmer', 'At svarene publiseres med navn', 'At deltakerne får betalt']::text[], 0, 'Et grunnleggende etisk krav.', true, true, 4),
+  ('psykologi-2:egen-undersokelse', 'q06', 'flervalg', 'Hva er reliabilitet?', array['Gyldighet', 'Pålitelighet – samme resultat ved gjentakelse', 'Antall deltakere', 'Hvor interessant temaet er']::text[], 1, 'Svekkes av uklare spørsmål.', true, true, 5),
+  ('psykologi-2:egen-undersokelse', 'q07', 'flervalg', 'Hvorfor bør du være forsiktig med å generalisere fra egen klasse?', array['Fordi klassen er for smart', 'Fordi det er ulovlig', 'Fordi det er et bekvemmelighetsutvalg som kanskje ikke er representativt', 'Fordi klassen er for stor']::text[], 2, 'Kan ikke uten videre overføres til alle.', true, true, 6),
+  ('psykologi-2:egen-undersokelse', 'q08', 'flervalg', 'Hva er sosial ønskverdighet?', array['At alle ønsker å delta', 'At forskeren ønsker et bestemt resultat', 'At man ønsker venner', 'At deltakere svarer det de tror er akseptert']::text[], 3, 'En vanlig feilkilde.', true, true, 7),
+  ('psykologi-2:egen-undersokelse', 'q09', 'flervalg', 'Hva er en pilotundersøkelse?', array['En test av skjemaet på noen få personer', 'Hele undersøkelsen', 'En undersøkelse av piloter', 'Den endelige rapporten']::text[], 0, 'Avdekker uklare spørsmål.', true, false, 8),
+  ('psykologi-2:egen-undersokelse', 'q10', 'flervalg', 'Hvilken type undersøkelse kan gi sterkest holdepunkt for årsak og virkning?', array['Intervju', 'Eksperiment med kontrollgruppe', 'Observasjon', 'Spørreskjema']::text[], 1, 'Man endrer én faktor og sammenligner.', true, false, 9),
+  ('psykologi-2:egen-undersokelse', 'm01', 'sant-usant', 'Deltakere kan trekke seg fra en undersøkelse når som helst.', array['Sant', 'Usant']::text[], 0, 'Del av informert samtykke.', false, true, 10),
+  ('psykologi-2:egen-undersokelse', 'm02', 'sant-usant', 'Et spørreskjema gir alltid høy validitet.', array['Sant', 'Usant']::text[], 1, 'Spørsmålene må faktisk måle det man vil undersøke.', false, true, 11),
+  ('psykologi-2:egen-undersokelse', 'm03', 'sant-usant', 'I kvalitativ analyse ser man etter temaer og mønstre.', array['Sant', 'Usant']::text[], 0, 'Gjerne med sitater.', false, true, 12),
+  ('psykologi-2:egen-undersokelse', 'm04', 'sant-usant', 'Konklusjonen bør se bort fra begrensningene i undersøkelsen.', array['Sant', 'Usant']::text[], 1, 'Den skal være forsiktig og ta hensyn til dem.', false, true, 13),
+  ('psykologi-2:egen-undersokelse', 'm05', 'flervalg', 'Hva er den avhengige variabelen i en studie av søvn og konsentrasjon?', array['Søvn', 'Konsentrasjon', 'Alder', 'Skole']::text[], 1, 'Det som måles som mulig effekt.', false, true, 14),
+  ('psykologi-2:egen-undersokelse', 'm06', 'flervalg', 'Hva må ofte til når deltakerne er under 16 år?', array['Foresattes samtykke', 'Politiattest', 'Betaling', 'Rektors signatur alene']::text[], 0, 'Etiske krav.', false, true, 15),
+  ('psykologi-2:egen-undersokelse', 'm07', 'flervalg', 'Hva hører hjemme i drøftingen?', array['Bare tabeller', 'Bare problemstillingen', 'Tolking, sammenligning med teori og feilkilder', 'Kun takk til deltakerne']::text[], 2, 'Også alternative forklaringer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:egen-undersokelse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Teorier, perspektiver og forklaringer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:teorier-og-forklaringer', 'psykologi-2', 'teorier-og-forklaringer', 'Teorier, perspektiver og forklaringer', 'Hvordan du sammenligner og anvender ulike vitenskapelige tilnærminger i psykologien – biologisk, kognitivt, læringspsykologisk, psykodynamisk, humanistisk og sosiokulturelt perspektiv – og vurderer forklaringer på et fenomen ut fra forklaringsnivå, reduksjonisme, arv og miljø og forskningsstøtte.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:teorier-og-forklaringer', '## Mange perspektiver på samme fenomen
+
+Psykologien har ikke **én** teori som forklarer alt. Ulike **perspektiver** ser på mennesket fra ulike vinkler. For å forstå et fenomen – for eksempel **angst** – er det nyttig å **sammenligne** forklaringene.
+
+## Perspektivene brukt på angst
+
+- **Biologisk**: Angst henger sammen med aktivitet i **amygdala**, **stresshormoner** og **arv**. Noen er mer **sårbare** enn andre.
+- **Kognitivt**: Angst opprettholdes av **tankemønstre** – for eksempel at man **overvurderer** faren og **undervurderer** egen mestring.
+- **Læringspsykologisk**: Angst kan **læres** gjennom **klassisk betinging** – en nøytral situasjon kobles til noe skremmende – og opprettholdes ved **unngåelse**, som gir lettelse og dermed **forsterkes**.
+- **Psykodynamisk**: Angst kan ha røtter i **ubevisste** konflikter og tidlige **relasjonserfaringer**.
+- **Humanistisk**: Angst kan oppstå når man lever i strid med sine **egne verdier** eller mangler **aksept** – vekt på **selvaktualisering**.
+- **Sosiokulturelt**: **Kultur**, **forventninger** og **sosiale forhold** – som prestasjonspress og sosiale medier – påvirker hvordan angst oppstår og uttrykkes.
+
+## Forklaringsnivåer
+
+Forklaringene befinner seg på ulike **nivåer**:
+
+- **Biologisk nivå**: gener, hjerne, hormoner
+- **Psykologisk nivå**: tanker, følelser, læring
+- **Sosialt nivå**: relasjoner, kultur, samfunn
+
+De utelukker ikke hverandre. Den **biopsykososiale modellen** kombinerer nivåene.
+
+## Reduksjonisme og holisme
+
+- **Reduksjonisme**: å forklare et fenomen ved å bryte det ned til **enkle** deler – for eksempel å forklare depresjon bare med signalstoffer. Det gjør forskning **presis**, men kan overse **helheten**.
+- **Holisme**: å se **helheten** og samspillet. Det gir et rikere bilde, men er vanskeligere å **teste**.
+
+## Arv og miljø
+
+Et sentralt spørsmål er hvor mye som skyldes **arv** og hvor mye som skyldes **miljø**. **Tvillingstudier** og **adopsjonsstudier** brukes til å undersøke dette. Svaret er nesten alltid **begge deler** – og de påvirker hverandre. **Epigenetikk** viser at miljøet kan påvirke hvordan gener **uttrykkes**.
+
+## Metoder i perspektivene
+
+- **Biologisk**: hjerneskanning (fMRI), tvillingstudier, målinger av hormoner
+- **Kognitivt**: eksperimenter med reaksjonstid og hukommelse
+- **Læring**: kontrollerte eksperimenter, ofte også med dyr
+- **Psykodynamisk**: kasusstudier og terapeutiske samtaler
+- **Humanistisk**: kvalitative intervjuer og selvrapport
+- **Sosiokulturelt**: feltstudier og tverrkulturelle sammenligninger
+
+## Vurdere forklaringer
+
+Når du vurderer en forklaring, kan du spørre:
+
+1. Er den støttet av **empirisk forskning**?
+2. Kan den **testes** – og i prinsippet **motbevises**?
+3. Hvor mye **forklarer** den – og hva forklarer den ikke?
+4. Er den **nyttig**, for eksempel i behandling?
+5. Gjelder den på tvers av **kulturer**?
+
+**Kognitiv atferdsterapi** for angst bygger på kognitive og læringspsykologiske forklaringer og har sterk forskningsstøtte. Psykodynamiske forklaringer er vanskeligere å teste, men har bidratt med innsikt om **relasjoner** og **ubevisste** prosesser.
+
+## Drøfting
+
+En god drøfting viser at du kan **bruke** flere perspektiver, **sammenligne** styrker og svakheter, og argumentere for at en **helhetlig** forklaring ofte er best.', '{"label":"Teorier og forklaringer","children":[{"label":"Perspektiver","children":[{"label":"Biologisk og kognitivt"},{"label":"Læring og psykodynamisk"},{"label":"Humanistisk og sosiokulturelt"}]},{"label":"Nivåer","children":[{"label":"Biologisk, psykologisk, sosialt"},{"label":"Biopsykososial modell"}]},{"label":"Debatter","children":[{"label":"Reduksjonisme og holisme"},{"label":"Arv og miljø"}]},{"label":"Metoder","children":[{"label":"fMRI og tvillingstudier"},{"label":"Eksperiment og kasus"}]},{"label":"Vurdering","children":[{"label":"Forskningsstøtte"},{"label":"Testbarhet"},{"label":"Nytte"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:teorier-og-forklaringer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:teorier-og-forklaringer', 'Biologisk perspektiv', 'Forklarer med gener, hjerne og hormoner.', 0),
+  ('psykologi-2:teorier-og-forklaringer', 'Kognitivt perspektiv', 'Forklarer med tanker og informasjonsbehandling.', 1),
+  ('psykologi-2:teorier-og-forklaringer', 'Læringspsykologisk perspektiv', 'Forklarer med betinging og forsterkning.', 2),
+  ('psykologi-2:teorier-og-forklaringer', 'Psykodynamisk perspektiv', 'Forklarer med ubevisste prosesser og tidlige erfaringer.', 3),
+  ('psykologi-2:teorier-og-forklaringer', 'Humanistisk perspektiv', 'Vekt på fri vilje, verdier og selvaktualisering.', 4),
+  ('psykologi-2:teorier-og-forklaringer', 'Sosiokulturelt perspektiv', 'Forklarer med kultur, relasjoner og samfunn.', 5),
+  ('psykologi-2:teorier-og-forklaringer', 'Forklaringsnivåer', 'Biologisk, psykologisk og sosialt nivå.', 6),
+  ('psykologi-2:teorier-og-forklaringer', 'Reduksjonisme', 'Å forklare ved å bryte ned til enkle deler.', 7),
+  ('psykologi-2:teorier-og-forklaringer', 'Holisme', 'Å se helheten og samspillet.', 8),
+  ('psykologi-2:teorier-og-forklaringer', 'Tvillingstudier', 'Sammenligner eneggede og toeggede tvillinger for å undersøke arv.', 9),
+  ('psykologi-2:teorier-og-forklaringer', 'Epigenetikk', 'Miljøet påvirker hvordan gener uttrykkes.', 10),
+  ('psykologi-2:teorier-og-forklaringer', 'Unngåelse', 'Gir kortsiktig lettelse og opprettholder angst.', 11),
+  ('psykologi-2:teorier-og-forklaringer', 'Testbarhet', 'At en forklaring i prinsippet kan motbevises.', 12),
+  ('psykologi-2:teorier-og-forklaringer', 'Kasusstudie', 'Grundig studie av én person eller ett tilfelle.', 13),
+  ('psykologi-2:teorier-og-forklaringer', 'Biopsykososial modell', 'Kombinerer biologiske, psykologiske og sosiale forklaringer.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:teorier-og-forklaringer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:teorier-og-forklaringer', 'q01', 'flervalg', 'Hvilket perspektiv forklarer angst med tankemønstre?', array['Biologisk', 'Kognitivt', 'Psykodynamisk', 'Humanistisk']::text[], 1, 'Overvurdering av fare.', true, true, 0),
+  ('psykologi-2:teorier-og-forklaringer', 'q02', 'flervalg', 'Hvordan forklarer læringspsykologien at angst opprettholdes?', array['Gjennom unngåelse som gir lettelse og forsterkes', 'Gjennom gener alene', 'Gjennom ubevisste drifter', 'Gjennom selvaktualisering']::text[], 0, 'Negativ forsterkning.', true, true, 1),
+  ('psykologi-2:teorier-og-forklaringer', 'q03', 'flervalg', 'Hva er reduksjonisme?', array['Å se helheten', 'Å redusere antall deltakere', 'Å forklare ved å bryte ned til enkle deler', 'Å avvise all forskning']::text[], 2, 'Presist, men kan overse helheten.', true, true, 2),
+  ('psykologi-2:teorier-og-forklaringer', 'q04', 'flervalg', 'Hva viser epigenetikk?', array['At gener ikke betyr noe', 'At miljø ikke betyr noe', 'At alle er like', 'At miljøet kan påvirke hvordan gener uttrykkes']::text[], 3, 'Arv og miljø samspiller.', true, true, 3),
+  ('psykologi-2:teorier-og-forklaringer', 'q05', 'flervalg', 'Hvilken metode brukes ofte i det psykodynamiske perspektivet?', array['Kasusstudier', 'fMRI', 'Reaksjonstidsforsøk', 'Dyreforsøk']::text[], 0, 'Grundige studier av enkeltpersoner.', true, true, 4),
+  ('psykologi-2:teorier-og-forklaringer', 'q06', 'flervalg', 'Hvilket spørsmål er viktig når du vurderer en forklaring?', array['Om den er gammel', 'Om den er støttet av empirisk forskning', 'Om den er lang', 'Om den er populær']::text[], 1, 'Også testbarhet og nytte.', true, true, 5),
+  ('psykologi-2:teorier-og-forklaringer', 'q07', 'flervalg', 'Hvilket perspektiv legger vekt på kultur og sosiale forhold?', array['Biologisk', 'Kognitivt', 'Sosiokulturelt', 'Læringspsykologisk']::text[], 2, 'For eksempel prestasjonspress.', true, true, 6),
+  ('psykologi-2:teorier-og-forklaringer', 'q08', 'flervalg', 'Hva brukes tvillingstudier til?', array['Å teste hukommelse', 'Å måle reaksjonstid', 'Å studere drømmer', 'Å undersøke betydningen av arv']::text[], 3, 'Sammenligner eneggede og toeggede tvillinger.', true, true, 7),
+  ('psykologi-2:teorier-og-forklaringer', 'q09', 'flervalg', 'Hvilken behandling for angst bygger på kognitive og læringspsykologiske forklaringer?', array['Kognitiv atferdsterapi', 'Lobotomi', 'Drømmetydning', 'Hypnose']::text[], 0, 'Har sterk forskningsstøtte.', true, false, 8),
+  ('psykologi-2:teorier-og-forklaringer', 'q10', 'flervalg', 'Hvorfor er en helhetlig forklaring ofte best?', array['Fordi den er kortest', 'Fordi fenomener som angst har årsaker på flere nivåer', 'Fordi den bare bruker ett perspektiv', 'Fordi den ikke kan testes']::text[], 1, 'Biologisk, psykologisk og sosialt.', true, false, 9),
+  ('psykologi-2:teorier-og-forklaringer', 'm01', 'sant-usant', 'Ulike perspektiver kan utfylle hverandre.', array['Sant', 'Usant']::text[], 0, 'De forklarer på ulike nivåer.', false, true, 10),
+  ('psykologi-2:teorier-og-forklaringer', 'm02', 'sant-usant', 'Spørsmålet om arv og miljø har som regel svaret «bare arv».', array['Sant', 'Usant']::text[], 1, 'Svaret er nesten alltid begge deler.', false, true, 11),
+  ('psykologi-2:teorier-og-forklaringer', 'm03', 'sant-usant', 'Psykodynamiske forklaringer er ofte vanskelige å teste.', array['Sant', 'Usant']::text[], 0, 'Ubevisste prosesser er vanskelige å måle.', false, true, 12),
+  ('psykologi-2:teorier-og-forklaringer', 'm04', 'sant-usant', 'Holisme gjør det lettere å teste presise hypoteser.', array['Sant', 'Usant']::text[], 1, 'Reduksjonisme gir mer presise tester.', false, true, 13),
+  ('psykologi-2:teorier-og-forklaringer', 'm05', 'flervalg', 'Hvilken hjernestruktur er sentral i biologiske forklaringer på angst?', array['Lillehjernen', 'Amygdala', 'Synsbarken', 'Ryggmargen']::text[], 1, 'Viktig for frykt.', false, true, 14),
+  ('psykologi-2:teorier-og-forklaringer', 'm06', 'flervalg', 'Hva legger det humanistiske perspektivet vekt på?', array['Egne verdier, aksept og selvaktualisering', 'Gener og hormoner', 'Betinging', 'Ubevisste drifter']::text[], 0, 'Maslow og Rogers.', false, true, 15),
+  ('psykologi-2:teorier-og-forklaringer', 'm07', 'flervalg', 'Hvilken metode passer det sosiokulturelle perspektivet?', array['Hjerneskanning', 'Hormonmålinger', 'Tverrkulturelle sammenligninger', 'Dyreforsøk']::text[], 2, 'Også feltstudier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:teorier-og-forklaringer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Sosial påvirkning og grupper
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'psykologi-2', 'sosial-pavirkning-og-grupper', 'Sosial påvirkning og grupper', 'Hvordan sosial påvirkning og samspill i grupper påvirker holdninger, atferd og identitet – konformitet og Asch, lydighet og Milgram, normer og roller, gruppetenkning, sosial identitet og fordommer, holdninger og kognitiv dissonans – og hvordan dette spiller seg ut i sosiale medier.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:sosial-pavirkning-og-grupper', '## Mennesket er sosialt
+
+Vi påvirkes hele tiden av **andre** – ofte uten at vi merker det. **Sosialpsykologien** undersøker hvordan grupper og situasjoner former **holdninger**, **atferd** og **identitet**.
+
+## Konformitet
+
+**Konformitet** er å endre atferd eller meninger for å **passe inn**. I **Solomon Aschs** eksperimenter på 1950-tallet skulle deltakere bedømme lengden på streker. Når de andre i gruppen – som var med på forsøket – svarte **feil**, fulgte mange deltakere flertallet i **noen** av forsøkene, selv om svaret var åpenbart feil.
+
+Vi skiller mellom
+
+- **normativ** påvirkning: å følge gruppen for å bli **likt** og unngå avvisning
+- **informativ** påvirkning: å følge gruppen fordi vi tror de **vet bedre**
+
+Konformiteten **synker** når minst én annen i gruppen er **uenig**.
+
+## Lydighet
+
+I **Stanley Milgrams** eksperimenter trodde deltakerne at de ga **elektriske støt** til en annen person når hen svarte feil. Mange fortsatte til det høyeste nivået fordi en **autoritet** – forsøkslederen – ba dem om det. Studien viste hvor sterkt **autoritet** og **situasjon** kan påvirke atferd, men den er også sterkt **kritisert** for å ha påført deltakerne **stress**.
+
+## Normer og roller
+
+- **Normer** er uskrevne **regler** for hvordan man skal oppføre seg i en gruppe.
+- **Roller** er forventninger knyttet til en **posisjon** – elev, leder, kaptein.
+
+**Stanford-fengselseksperimentet** (1971) ble lenge brukt som eksempel på hvordan roller kan endre atferd, men er i ettertid kritisert for **metodiske svakheter** og for at forsøkslederne påvirket deltakerne.
+
+## Gruppetenkning
+
+**Gruppetenkning** – beskrevet av **Irving Janis** – oppstår når en gruppe er så opptatt av **enighet** at kritiske spørsmål ikke blir stilt. Tegn er **press** mot avvikere, **selvsensur** og en følelse av at gruppen ikke kan ta feil. Det kan føre til **dårlige** beslutninger.
+
+## Sosial identitet og fordommer
+
+Etter **Henri Tajfels** teori om **sosial identitet** henter vi en del av selvfølelsen fra gruppene vi tilhører. Vi deler lett inn i **vi** – **inngruppen** – og **de** – **utgruppen**. Selv tilfeldige grupper kan gi **favorisering** av egen gruppe.
+
+Dette kan føre til **stereotypier**, **fordommer** og **diskriminering**. **Kontakthypotesen** sier at **positiv kontakt** mellom grupper under like vilkår kan redusere fordommer.
+
+## Holdninger og kognitiv dissonans
+
+En **holdning** har tre komponenter: **kognitiv** (tanker), **affektiv** (følelser) og **atferdsmessig**. Holdninger og handlinger stemmer ikke alltid overens.
+
+**Kognitiv dissonans** – beskrevet av **Leon Festinger** – er ubehaget vi kjenner når **handlinger** og **holdninger** krasjer. Vi reduserer ubehaget ved å endre atferden, endre holdningen eller **bortforklare** motsetningen.
+
+## Identitet i grupper
+
+Grupper kan gi **tilhørighet**, **trygghet** og **mening**, og hjelpe oss å utvikle en **identitet**. Men sterk gruppetilhørighet kan også gi **ekskludering** av andre og press mot å endre seg for å passe inn.
+
+## Sosiale medier
+
+- **Likes** og kommentarer virker som **sosial belønning**.
+- **Ekkokamre** og algoritmer kan forsterke **polarisering**.
+- **Påvirkere** bruker **autoritet** og **likhet** for å påvirke holdninger og kjøp.
+
+## Drøfting
+
+Sosial påvirkning er ikke bare **negativt**. Normer får samfunnet til å fungere, og grupper kan motivere til **positive** handlinger. Spørsmålet er når påvirkningen hjelper oss, og når den får oss til å handle mot egne **verdier**.', '{"label":"Sosial påvirkning","children":[{"label":"Konformitet","children":[{"label":"Asch"},{"label":"Normativ og informativ"}]},{"label":"Lydighet","children":[{"label":"Milgram"},{"label":"Etisk kritikk"}]},{"label":"Grupper","children":[{"label":"Normer og roller"},{"label":"Gruppetenkning"}]},{"label":"Identitet","children":[{"label":"Sosial identitet"},{"label":"Fordommer og kontakthypotesen"}]},{"label":"Holdninger","children":[{"label":"Tre komponenter"},{"label":"Kognitiv dissonans"},{"label":"Sosiale medier"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:sosial-pavirkning-og-grupper';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Konformitet', 'Å endre atferd eller meninger for å passe inn.', 0),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Asch', 'Eksperimenter med strekvurdering som viste konformitet.', 1),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Normativ påvirkning', 'Følge gruppen for å bli likt.', 2),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Informativ påvirkning', 'Følge gruppen fordi de antas å vite bedre.', 3),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Milgram', 'Eksperimenter om lydighet mot autoritet.', 4),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Normer', 'Uskrevne regler for oppførsel i en gruppe.', 5),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Roller', 'Forventninger knyttet til en posisjon.', 6),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Gruppetenkning', 'Jakt på enighet hindrer kritisk tenkning – Janis.', 7),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Sosial identitet', 'Selvfølelse hentet fra gruppetilhørighet – Tajfel.', 8),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Inngruppe og utgruppe', '«Vi» og «de».', 9),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Stereotypi', 'Forenklet forestilling om en gruppe.', 10),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Kontakthypotesen', 'Positiv kontakt kan redusere fordommer.', 11),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Holdningens tre komponenter', 'Kognitiv, affektiv og atferdsmessig.', 12),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Kognitiv dissonans', 'Ubehag når handlinger og holdninger krasjer – Festinger.', 13),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'Ekkokammer', 'Miljø der man bare møter meninger som bekrefter egne.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:sosial-pavirkning-og-grupper';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q01', 'flervalg', 'Hva viste Aschs eksperimenter?', array['At folk alltid svarer riktig', 'At mange følger flertallet selv når svaret er åpenbart feil', 'At autoriteter alltid adlydes', 'At grupper tar bedre beslutninger']::text[], 1, 'Konformitet.', true, true, 0),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q02', 'flervalg', 'Hva handlet Milgrams eksperimenter om?', array['Lydighet mot autoritet', 'Hukommelse', 'Søvn', 'Persepsjon']::text[], 0, 'Deltakerne trodde de ga elektriske støt.', true, true, 1),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q03', 'flervalg', 'Hva er gruppetenkning?', array['At grupper tenker raskere', 'At alle i gruppen er smarte', 'At jakten på enighet hindrer kritisk tenkning', 'At grupper aldri er enige']::text[], 2, 'Beskrevet av Janis.', true, true, 2),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q04', 'flervalg', 'Hva er kognitiv dissonans?', array['God hukommelse', 'Glede ved å lære', 'Frykt for grupper', 'Ubehag når handlinger og holdninger krasjer']::text[], 3, 'Festinger.', true, true, 3),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q05', 'flervalg', 'Hva gjør at konformiteten synker i Asch-forsøkene?', array['At minst én annen er uenig', 'At gruppen er større', 'At oppgaven er vanskeligere', 'At forsøkslederen er streng']::text[], 0, 'Én alliert er nok.', true, true, 4),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q06', 'flervalg', 'Hva sier teorien om sosial identitet?', array['At vi ikke påvirkes av grupper', 'At vi henter en del av selvfølelsen fra gruppene vi tilhører', 'At alle grupper er like', 'At identitet bare er biologisk']::text[], 1, 'Tajfel.', true, true, 5),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q07', 'flervalg', 'Hva sier kontakthypotesen?', array['At kontakt alltid øker fordommer', 'At man bør unngå andre grupper', 'At positiv kontakt under like vilkår kan redusere fordommer', 'At kontakt ikke har betydning']::text[], 2, 'Viktig for integrering.', true, true, 6),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q08', 'flervalg', 'Hva er normativ påvirkning?', array['Å følge gruppen fordi de vet bedre', 'Å følge loven', 'Å følge egne verdier', 'Å følge gruppen for å bli likt']::text[], 3, 'Informativ påvirkning handler om kunnskap.', true, true, 7),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q09', 'flervalg', 'Hvorfor er Stanford-fengselseksperimentet kritisert?', array['For metodiske svakheter og påvirkning fra forsøkslederne', 'Fordi det var for kort', 'Fordi det ble gjort i Norge', 'Fordi ingen deltok']::text[], 0, 'Konklusjonene er omstridt.', true, false, 8),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'q10', 'flervalg', 'Hva er de tre komponentene i en holdning?', array['Arv, miljø og tid', 'Kognitiv, affektiv og atferdsmessig', 'Normer, roller og regler', 'Syn, hørsel og lukt']::text[], 1, 'Tanker, følelser og handling.', true, false, 9),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm01', 'sant-usant', 'Selv tilfeldig sammensatte grupper kan gi favorisering av egen gruppe.', array['Sant', 'Usant']::text[], 0, 'Tajfels forsøk.', false, true, 10),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm02', 'sant-usant', 'Sosial påvirkning er alltid negativt.', array['Sant', 'Usant']::text[], 1, 'Normer får samfunnet til å fungere.', false, true, 11),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm03', 'sant-usant', 'Milgram-studien er kritisert for å ha påført deltakerne stress.', array['Sant', 'Usant']::text[], 0, 'Etisk kritikk.', false, true, 12),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm04', 'sant-usant', 'Holdninger og handlinger stemmer alltid overens.', array['Sant', 'Usant']::text[], 1, 'Derfor oppstår kognitiv dissonans.', false, true, 13),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm05', 'flervalg', 'Hva kan algoritmer i sosiale medier forsterke?', array['Hukommelse', 'Polarisering gjennom ekkokamre', 'Søvnkvalitet', 'Konsentrasjon']::text[], 1, 'Man ser mest av det man er enig i.', false, true, 14),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm06', 'flervalg', 'Hvem beskrev gruppetenkning?', array['Irving Janis', 'Leon Festinger', 'Stanley Milgram', 'Henri Tajfel']::text[], 0, 'Analyserte politiske feilbeslutninger.', false, true, 15),
+  ('psykologi-2:sosial-pavirkning-og-grupper', 'm07', 'flervalg', 'Hvordan kan man redusere kognitiv dissonans?', array['Ved å glemme alt', 'Ved å sove', 'Ved å endre atferd, endre holdning eller bortforklare', 'Det er umulig']::text[], 2, 'Tre strategier.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:sosial-pavirkning-og-grupper', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Utenforskap – årsaker og konsekvenser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:utenforskap', 'psykologi-2', 'utenforskap', 'Utenforskap – årsaker og konsekvenser', 'Hva utenforskap er, hvorfor tilhørighet er et grunnleggende menneskelig behov, hvilke årsaker på individ-, familie-, skole- og samfunnsnivå som kan føre til utenforskap, hvilke konsekvenser det kan få for den enkelte, og hva som kan beskytte og inkludere.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:utenforskap', '## Hva er utenforskap?
+
+**Utenforskap** betyr å stå **utenfor** fellesskap som de fleste andre er en del av – venneflokk, klasse, fritidsaktiviteter, utdanning, arbeidsliv eller samfunnet mer generelt.
+
+- **Sosial isolasjon** er **objektiv**: få kontakter og lite samvær.
+- **Ensomhet** er **subjektiv**: en **smertefull** opplevelse av å mangle nære relasjoner. Man kan være ensom blant mange mennesker – og alene uten å være ensom.
+
+## Behovet for å høre til
+
+Psykologene **Roy Baumeister** og **Mark Leary** har argumentert for at mennesket har et grunnleggende **behov for tilhørighet**. Også i **Maslows** behovspyramide er **kjærlighet og tilhørighet** et sentralt behov. Evolusjonært har det å høre til en gruppe vært avgjørende for å **overleve**.
+
+Forsøk har vist at det å bli **utestengt** – selv i et enkelt dataspill der man ikke får ballen – kan gi en opplevelse som minner om **smerte**. Avvisning **gjør vondt**.
+
+## Årsaker til utenforskap
+
+Utenforskap har ofte **flere** årsaker som virker sammen:
+
+- **Individ**: sjenanse, **psykiske vansker**, **funksjonsnedsettelser**, svake sosiale ferdigheter eller lav selvfølelse
+- **Familie**: **lav inntekt** som gjør at barn ikke kan delta i fritidsaktiviteter, **konflikter** og **omsorgssvikt**
+- **Skole**: **mobbing**, **utestengning**, lærevansker og et dårlig **klassemiljø**
+- **Samfunn**: **diskriminering**, **språkbarrierer**, arbeidsledighet, **bosted** og mangel på møteplasser
+- **Digitalt**: utestengning fra **gruppechatter** og **nettmobbing**
+
+## Konsekvenser for individet
+
+- **Psykisk helse**: økt risiko for **angst**, **depresjon** og **selvskading**
+- **Fysisk helse**: langvarig ensomhet henger sammen med **stress**, dårligere **søvn** og svekket helse
+- **Selvbilde**: følelsen av å være **uønsket** kan gi lav selvfølelse
+- **Skole og arbeid**: **frafall** fra videregående kan gi svakere tilknytning til arbeidslivet senere
+- **Risikoatferd**: noen søker tilhørighet i **negative** miljøer, som kriminelle eller ekstreme grupper
+
+## Den onde sirkelen
+
+Ensomhet kan **forsterke seg selv**. Den som er ensom, blir ofte mer **årvåken** for tegn på avvisning, tolker nøytrale signaler som **negative** og trekker seg **tilbake**. Da blir det enda vanskeligere å få kontakt.
+
+## Unge utenfor arbeid og utdanning
+
+En gruppe som får mye oppmerksomhet, er unge som verken er i **arbeid**, **utdanning** eller **opplæring** – ofte kalt **NEET**. Mange av dem har **psykiske helseplager**, og det kan være vanskelig å komme inn igjen.
+
+## Beskyttende faktorer
+
+- **Én god venn** kan utgjøre en stor forskjell.
+- En **voksen** som ser eleven, for eksempel en lærer eller trener.
+- **Fritidsaktiviteter** som er tilgjengelige for alle, uavhengig av økonomi.
+- Et **inkluderende** skolemiljø. Etter opplæringsloven har elever rett til et **trygt og godt skolemiljø**, og skolen har **plikt til å handle** når en elev ikke har det.
+- **Tidlig innsats** fra helsesykepleier, NAV og oppfølgingstjenesten.
+
+## Refleksjon
+
+Utenforskap er både et **individuelt** og et **samfunnsmessig** problem. Når du reflekterer, kan du spørre: Hvem har **ansvar** for å inkludere – den enkelte, klassen, skolen eller samfunnet? Og hvordan kan vi **legge til rette** for at flere får oppleve tilhørighet?', '{"label":"Utenforskap","children":[{"label":"Begreper","children":[{"label":"Ensomhet"},{"label":"Sosial isolasjon"},{"label":"Tilhørighetsbehov"}]},{"label":"Årsaker","children":[{"label":"Individ og familie"},{"label":"Skole"},{"label":"Samfunn og digitalt"}]},{"label":"Konsekvenser","children":[{"label":"Psykisk og fysisk helse"},{"label":"Selvbilde"},{"label":"Frafall og risikoatferd"}]},{"label":"Mekanismer","children":[{"label":"Sosial smerte"},{"label":"Ond sirkel"}]},{"label":"Inkludering","children":[{"label":"Venner og voksne"},{"label":"Skolemiljø"},{"label":"Tidlig innsats"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:utenforskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:utenforskap', 'Utenforskap', 'Å stå utenfor fellesskap de fleste andre er en del av.', 0),
+  ('psykologi-2:utenforskap', 'Sosial isolasjon', 'Objektivt få kontakter og lite samvær.', 1),
+  ('psykologi-2:utenforskap', 'Ensomhet', 'Subjektiv, smertefull opplevelse av å mangle nære relasjoner.', 2),
+  ('psykologi-2:utenforskap', 'Behov for tilhørighet', 'Grunnleggende behov – Baumeister og Leary.', 3),
+  ('psykologi-2:utenforskap', 'Sosial smerte', 'Avvisning kan oppleves som smerte.', 4),
+  ('psykologi-2:utenforskap', 'Individuelle årsaker', 'Sjenanse, psykiske vansker, funksjonsnedsettelser, svake sosiale ferdigheter.', 5),
+  ('psykologi-2:utenforskap', 'Familieårsaker', 'Lav inntekt, konflikter og omsorgssvikt.', 6),
+  ('psykologi-2:utenforskap', 'Skoleårsaker', 'Mobbing, utestengning og dårlig klassemiljø.', 7),
+  ('psykologi-2:utenforskap', 'Samfunnsårsaker', 'Diskriminering, språkbarrierer, arbeidsledighet.', 8),
+  ('psykologi-2:utenforskap', 'Den onde sirkelen', 'Ensomhet gjør en mer årvåken for avvisning og mer tilbaketrukket.', 9),
+  ('psykologi-2:utenforskap', 'NEET', 'Unge som verken er i arbeid, utdanning eller opplæring.', 10),
+  ('psykologi-2:utenforskap', 'Risikoatferd', 'Søke tilhørighet i negative miljøer.', 11),
+  ('psykologi-2:utenforskap', 'Beskyttende faktor', 'For eksempel én god venn eller en voksen som ser deg.', 12),
+  ('psykologi-2:utenforskap', 'Trygt og godt skolemiljø', 'Elevenes rett etter opplæringsloven.', 13),
+  ('psykologi-2:utenforskap', 'Tidlig innsats', 'Hjelp før problemene blir store.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:utenforskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:utenforskap', 'q01', 'flervalg', 'Hva er forskjellen på ensomhet og sosial isolasjon?', array['Det er det samme', 'Ensomhet er subjektiv, isolasjon er objektiv', 'Isolasjon er alltid frivillig', 'Ensomhet gjelder bare eldre']::text[], 1, 'Man kan være ensom blant mange.', true, true, 0),
+  ('psykologi-2:utenforskap', 'q02', 'flervalg', 'Hvem argumenterte for at mennesket har et grunnleggende behov for tilhørighet?', array['Baumeister og Leary', 'Asch og Milgram', 'Piaget og Vygotskij', 'Pavlov og Skinner']::text[], 0, 'The need to belong.', true, true, 1),
+  ('psykologi-2:utenforskap', 'q03', 'flervalg', 'Hva kan være en familieårsak til utenforskap?', array['Mobbing i klassen', 'Diskriminering i arbeidslivet', 'Lav inntekt som hindrer deltakelse i fritidsaktiviteter', 'Gruppechatter']::text[], 2, 'Økonomi påvirker deltakelse.', true, true, 2),
+  ('psykologi-2:utenforskap', 'q04', 'flervalg', 'Hva er den onde sirkelen ved ensomhet?', array['At man får flere venner', 'At ensomhet alltid går over', 'At man blir mer sosial', 'At man blir mer årvåken for avvisning og trekker seg tilbake']::text[], 3, 'Ensomheten forsterkes.', true, true, 3),
+  ('psykologi-2:utenforskap', 'q05', 'flervalg', 'Hva står NEET for?', array['Unge som verken er i arbeid, utdanning eller opplæring', 'En type mobbing', 'En skole', 'En diagnose']::text[], 0, 'Not in employment, education or training.', true, true, 4),
+  ('psykologi-2:utenforskap', 'q06', 'flervalg', 'Hvilken konsekvens kan utenforskap ha for psykisk helse?', array['Bedre konsentrasjon', 'Økt risiko for angst og depresjon', 'Mer energi', 'Ingen konsekvenser']::text[], 1, 'Også selvskading.', true, true, 5),
+  ('psykologi-2:utenforskap', 'q07', 'flervalg', 'Hva viser forsøk med utestengning i enkle dataspill?', array['At ingen bryr seg', 'At spill er farlige', 'At avvisning kan oppleves som smerte', 'At alle blir sinte']::text[], 2, 'Sosial smerte.', true, true, 6),
+  ('psykologi-2:utenforskap', 'q08', 'flervalg', 'Hvilken rett har elever etter opplæringsloven?', array['Rett til gratis mobil', 'Rett til å velge lærer', 'Rett til egne fag', 'Rett til et trygt og godt skolemiljø']::text[], 3, 'Skolen har plikt til å handle.', true, true, 7),
+  ('psykologi-2:utenforskap', 'q09', 'flervalg', 'Hvilken beskyttende faktor kan utgjøre en stor forskjell?', array['Én god venn', 'Mer skjermtid', 'Flere prøver', 'Mindre søvn']::text[], 0, 'Også en voksen som ser eleven.', true, false, 8),
+  ('psykologi-2:utenforskap', 'q10', 'flervalg', 'Hvorfor kan noen som opplever utenforskap, søke seg til negative miljøer?', array['Fordi de er onde', 'Fordi de søker tilhørighet', 'Fordi det er tilfeldig', 'Fordi de er rike']::text[], 1, 'Behovet for tilhørighet er sterkt.', true, false, 9),
+  ('psykologi-2:utenforskap', 'm01', 'sant-usant', 'Man kan være alene uten å være ensom.', array['Sant', 'Usant']::text[], 0, 'Ensomhet er en subjektiv opplevelse.', false, true, 10),
+  ('psykologi-2:utenforskap', 'm02', 'sant-usant', 'Utenforskap har nesten alltid én enkelt årsak.', array['Sant', 'Usant']::text[], 1, 'Ofte virker flere årsaker sammen.', false, true, 11),
+  ('psykologi-2:utenforskap', 'm03', 'sant-usant', 'Utestengning fra gruppechatter er en form for utenforskap.', array['Sant', 'Usant']::text[], 0, 'Digitalt utenforskap.', false, true, 12),
+  ('psykologi-2:utenforskap', 'm04', 'sant-usant', 'Frafall fra videregående har ingen betydning for senere arbeidsliv.', array['Sant', 'Usant']::text[], 1, 'Det kan gi svakere tilknytning til arbeidslivet.', false, true, 13),
+  ('psykologi-2:utenforskap', 'm05', 'flervalg', 'Hvilket nivå hører diskriminering til som årsak?', array['Individ', 'Samfunn', 'Biologi', 'Søvn']::text[], 1, 'Strukturelle forhold.', false, true, 14),
+  ('psykologi-2:utenforskap', 'm06', 'flervalg', 'Hvem kan bidra med tidlig innsats?', array['Helsesykepleier, NAV og oppfølgingstjenesten', 'Bare politiet', 'Ingen', 'Bare foreldre']::text[], 0, 'Flere tjenester samarbeider.', false, true, 15),
+  ('psykologi-2:utenforskap', 'm07', 'flervalg', 'Hvilket nivå i Maslows pyramide handler om tilhørighet?', array['Fysiologiske behov', 'Trygghet', 'Kjærlighet og tilhørighet', 'Selvaktualisering']::text[], 2, 'Et sosialt behov.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:utenforskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Sosial kompetanse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:sosial-kompetanse', 'psykologi-2', 'sosial-kompetanse', 'Sosial kompetanse', 'Hva sosial kompetanse er og hvilke ferdigheter den består av – samarbeid, empati, selvhevdelse, selvkontroll og ansvarlighet – hvilke faktorer som påvirker utviklingen, som tilknytning, foreldrestil, lek, mentalisering, temperament og kultur, og hvorfor sosial kompetanse har stor betydning gjennom livet.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:sosial-kompetanse', '## Hva er sosial kompetanse?
+
+**Sosial kompetanse** er de **kunnskapene**, **ferdighetene** og **holdningene** vi trenger for å mestre sosiale situasjoner, etablere og opprettholde **relasjoner** og samarbeide med andre. Det handler om å kunne **lese** situasjoner og tilpasse seg dem – ikke om å være mest mulig **utadvendt**.
+
+## Fem sentrale ferdigheter
+
+En mye brukt inndeling i Norge peker på fem ferdigheter:
+
+- **Samarbeid**: å dele, hjelpe og følge felles regler
+- **Empati**: å forstå og vise omsorg for andres følelser og perspektiv
+- **Selvhevdelse**: å si sin **mening**, be om hjelp og stå imot negativt gruppepress – på en måte som respekterer andre
+- **Selvkontroll**: å regulere **følelser** og **impulser**, for eksempel sinne
+- **Ansvarlighet**: å vise **respekt**, holde avtaler og ta ansvar for egne handlinger
+
+## Faktorer som påvirker utviklingen
+
+**Tilknytning**: En **trygg** tilknytning til omsorgspersoner gir en «**trygg base**» som barnet kan utforske verden fra. Barnet lærer at andre er **tilgjengelige** og at egne følelser blir **forstått**.
+
+**Foreldrestil**: Psykologen **Diana Baumrind** beskrev ulike foreldrestiler. Den **autoritative** stilen – varm og støttende, men med **tydelige grenser** – henger ofte sammen med god sosial kompetanse. **Autoritær** stil har mye kontroll og lite varme, mens **ettergivende** stil har mye varme og få grenser.
+
+**Lek og jevnaldrende**: I **lek** øver barn på **turtaking**, **forhandling**, **rollespill** og **konfliktløsning**. Venner gir tilbakemelding som voksne ikke kan gi.
+
+**Mentalisering**: Evnen til å forstå at andre har **tanker**, **følelser** og **intensjoner** som kan være annerledes enn ens egne – ofte kalt **theory of mind**. Den utvikles tydelig rundt **fire–fem års** alder og fortsetter å utvikles gjennom ungdomstiden.
+
+**Emosjonsregulering**: Barn lærer å håndtere følelser gjennom voksne som **sammen** med dem roer ned sterke følelser – **samregulering** – før de klarer det selv.
+
+**Modellæring**: Etter **Albert Bandura** lærer barn ved å **observere** og **etterligne** andre.
+
+**Temperament**: Noen barn er født mer **aktive**, **sjenerte** eller **intense** enn andre. Temperamentet påvirker hvordan omgivelsene møter barnet.
+
+**Kultur**: Hva som regnes som **kompetent** – for eksempel øyekontakt, hvor direkte man er, eller hvor mye man snakker – varierer mellom **kulturer**.
+
+## Betydningen av sosial kompetanse
+
+- **Vennskap** og **tilhørighet**
+- **Læring** og trivsel på skolen
+- **Psykisk helse**: sosial kompetanse er en **beskyttende** faktor
+- **Arbeidsliv**: samarbeid og kommunikasjon er etterspurte ferdigheter
+- **Samfunn**: demokratisk deltakelse og **toleranse**
+
+Svak sosial kompetanse kan gi **utenforskap**, **konflikter** og **ensomhet**.
+
+## Kan sosial kompetanse læres?
+
+Ja. Sosial kompetanse er ikke en fast egenskap. Den kan **trenes** gjennom rollespill, tilbakemeldinger og programmer i barnehage og skole. **Ungdomstiden** er en viktig periode, fordi hjernen fortsatt utvikler seg og **jevnaldrende** blir viktigere.
+
+## Refleksjon
+
+Sosial kompetanse er **situasjonsavhengig**: Det som fungerer i en vennegjeng, passer kanskje ikke i et jobbintervju. En **introvert** person kan ha svært god sosial kompetanse. Spørsmålet er om man mestrer de situasjonene man møter – på en måte som tar vare på både **seg selv** og **andre**.', '{"label":"Sosial kompetanse","children":[{"label":"Ferdigheter","children":[{"label":"Samarbeid og empati"},{"label":"Selvhevdelse og selvkontroll"},{"label":"Ansvarlighet"}]},{"label":"Tidlig utvikling","children":[{"label":"Tilknytning"},{"label":"Foreldrestil"},{"label":"Samregulering"}]},{"label":"Sosial læring","children":[{"label":"Lek og jevnaldrende"},{"label":"Modellæring"},{"label":"Theory of mind"}]},{"label":"Individ og kultur","children":[{"label":"Temperament"},{"label":"Kulturelle normer"}]},{"label":"Betydning","children":[{"label":"Vennskap og skole"},{"label":"Psykisk helse"},{"label":"Arbeidsliv"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:sosial-kompetanse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:sosial-kompetanse', 'Sosial kompetanse', 'Kunnskaper, ferdigheter og holdninger for å mestre sosiale situasjoner.', 0),
+  ('psykologi-2:sosial-kompetanse', 'Samarbeid', 'Å dele, hjelpe og følge felles regler.', 1),
+  ('psykologi-2:sosial-kompetanse', 'Empati', 'Å forstå og vise omsorg for andres følelser.', 2),
+  ('psykologi-2:sosial-kompetanse', 'Selvhevdelse', 'Å si sin mening og stå imot press på en respektfull måte.', 3),
+  ('psykologi-2:sosial-kompetanse', 'Selvkontroll', 'Å regulere følelser og impulser.', 4),
+  ('psykologi-2:sosial-kompetanse', 'Ansvarlighet', 'Å vise respekt og ta ansvar for egne handlinger.', 5),
+  ('psykologi-2:sosial-kompetanse', 'Trygg base', 'Trygg tilknytning som barnet kan utforske verden fra.', 6),
+  ('psykologi-2:sosial-kompetanse', 'Autoritativ foreldrestil', 'Varm og støttende med tydelige grenser.', 7),
+  ('psykologi-2:sosial-kompetanse', 'Autoritær foreldrestil', 'Mye kontroll og lite varme.', 8),
+  ('psykologi-2:sosial-kompetanse', 'Ettergivende foreldrestil', 'Mye varme og få grenser.', 9),
+  ('psykologi-2:sosial-kompetanse', 'Theory of mind', 'Forståelse av at andre har egne tanker og følelser.', 10),
+  ('psykologi-2:sosial-kompetanse', 'Samregulering', 'Voksne hjelper barnet å roe ned sterke følelser.', 11),
+  ('psykologi-2:sosial-kompetanse', 'Modellæring', 'Læring ved å observere og etterligne – Bandura.', 12),
+  ('psykologi-2:sosial-kompetanse', 'Temperament', 'Medfødte forskjeller i aktivitet, sjenanse og intensitet.', 13),
+  ('psykologi-2:sosial-kompetanse', 'Situasjonsavhengig', 'Hva som er kompetent, varierer med situasjon og kultur.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:sosial-kompetanse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:sosial-kompetanse', 'q01', 'flervalg', 'Hva er selvhevdelse?', array['Å alltid få viljen sin', 'Å si sin mening og stå imot press på en respektfull måte', 'Å være stille', 'Å dominere andre']::text[], 1, 'Respekterer også andre.', true, true, 0),
+  ('psykologi-2:sosial-kompetanse', 'q02', 'flervalg', 'Hvilken foreldrestil henger ofte sammen med god sosial kompetanse?', array['Autoritativ', 'Autoritær', 'Forsømmende', 'Ettergivende']::text[], 0, 'Varme og tydelige grenser.', true, true, 1),
+  ('psykologi-2:sosial-kompetanse', 'q03', 'flervalg', 'Hva er theory of mind?', array['En teori om hjernen', 'Evnen til å huske', 'Forståelsen av at andre har egne tanker og følelser', 'En type intelligens-test']::text[], 2, 'Mentalisering.', true, true, 2),
+  ('psykologi-2:sosial-kompetanse', 'q04', 'flervalg', 'Hva lærer barn gjennom lek?', array['Bare motorikk', 'Ingenting sosialt', 'Bare regning', 'Turtaking, forhandling og konfliktløsning']::text[], 3, 'Lek er sosial trening.', true, true, 3),
+  ('psykologi-2:sosial-kompetanse', 'q05', 'flervalg', 'Hva er samregulering?', array['At voksne hjelper barnet å roe ned sterke følelser', 'At barn regulerer hverandre', 'At barnet klarer alt selv', 'At følelser undertrykkes']::text[], 0, 'Før barnet klarer det selv.', true, true, 4),
+  ('psykologi-2:sosial-kompetanse', 'q06', 'flervalg', 'Hvem beskrev modellæring?', array['Bowlby', 'Bandura', 'Baumrind', 'Piaget']::text[], 1, 'Læring ved observasjon.', true, true, 5),
+  ('psykologi-2:sosial-kompetanse', 'q07', 'flervalg', 'Hvorfor er sosial kompetanse situasjonsavhengig?', array['Fordi den er medfødt', 'Fordi den aldri endres', 'Fordi det som fungerer, varierer mellom situasjoner og kulturer', 'Fordi den bare gjelder barn']::text[], 2, 'Kulturelle normer varierer.', true, true, 6),
+  ('psykologi-2:sosial-kompetanse', 'q08', 'flervalg', 'Kan sosial kompetanse læres?', array['Nei, den er fast', 'Bare i barndommen', 'Bare av voksne', 'Ja, gjennom trening og tilbakemeldinger']::text[], 3, 'Ungdomstiden er en viktig periode.', true, true, 7),
+  ('psykologi-2:sosial-kompetanse', 'q09', 'flervalg', 'Hva gir en trygg tilknytning?', array['En trygg base for å utforske verden', 'Mer sjenanse', 'Mindre empati', 'Flere konflikter']::text[], 0, 'Bowlby.', true, false, 8),
+  ('psykologi-2:sosial-kompetanse', 'q10', 'flervalg', 'Kan en introvert person ha god sosial kompetanse?', array['Nei, aldri', 'Ja', 'Bare på nett', 'Bare i familien']::text[], 1, 'Kompetanse handler om å mestre situasjoner.', true, false, 9),
+  ('psykologi-2:sosial-kompetanse', 'm01', 'sant-usant', 'Sosial kompetanse er en beskyttende faktor for psykisk helse.', array['Sant', 'Usant']::text[], 0, 'Gir tilhørighet og støtte.', false, true, 10),
+  ('psykologi-2:sosial-kompetanse', 'm02', 'sant-usant', 'Sosial kompetanse betyr å være mest mulig utadvendt.', array['Sant', 'Usant']::text[], 1, 'Det handler om å mestre situasjoner.', false, true, 11),
+  ('psykologi-2:sosial-kompetanse', 'm03', 'sant-usant', 'Temperament kan påvirke hvordan omgivelsene møter et barn.', array['Sant', 'Usant']::text[], 0, 'Samspill mellom barn og miljø.', false, true, 12),
+  ('psykologi-2:sosial-kompetanse', 'm04', 'sant-usant', 'Normer for øyekontakt er like i alle kulturer.', array['Sant', 'Usant']::text[], 1, 'De varierer mellom kulturer.', false, true, 13),
+  ('psykologi-2:sosial-kompetanse', 'm05', 'flervalg', 'Hvilken foreldrestil har mye kontroll og lite varme?', array['Autoritativ', 'Autoritær', 'Ettergivende', 'Forsømmende']::text[], 1, 'Baumrinds inndeling.', false, true, 14),
+  ('psykologi-2:sosial-kompetanse', 'm06', 'flervalg', 'Rundt hvilken alder utvikles theory of mind tydelig?', array['Fire–fem år', 'Ett år', 'Ti år', 'Femten år']::text[], 0, 'Men den utvikles videre gjennom ungdomstiden.', false, true, 15),
+  ('psykologi-2:sosial-kompetanse', 'm07', 'flervalg', 'Hvilken ferdighet handler om å regulere sinne?', array['Empati', 'Samarbeid', 'Selvkontroll', 'Selvhevdelse']::text[], 2, 'Regulering av følelser og impulser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:sosial-kompetanse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Konflikter og kommunikasjon
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:konflikter-og-kommunikasjon', 'psykologi-2', 'konflikter-og-kommunikasjon', 'Konflikter og kommunikasjon', 'Hvordan mellommenneskelige konflikter oppstår og trappes opp – konflikttyper, konflikttrappa og konfliktstiler – og hvordan verbal og ikke-verbal kommunikasjon både kan forverre og løse konflikter, med jeg-budskap, aktiv lytting, mekling og gjenopprettende samtaler.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:konflikter-og-kommunikasjon', '## Hva er en konflikt?
+
+En **konflikt** oppstår når minst én part opplever at en annen **hindrer** egne mål, behov eller verdier. Konflikter er en **naturlig** del av livet og er ikke bare negative – de kan føre til **avklaring**, **utvikling** og bedre **løsninger**.
+
+## Typer konflikter
+
+- **Interessekonflikt**: uenighet om **ressurser** – tid, penger, plass
+- **Verdikonflikt**: uenighet om hva som er **riktig** og **viktig**
+- **Saks- eller faktakonflikt**: uenighet om hva som **faktisk** har skjedd
+- **Relasjonskonflikt**: handler om **følelser**, tillit og hvordan partene **behandler** hverandre
+
+Mange konflikter starter som en **sak** og utvikler seg til å handle om **relasjonen**.
+
+## Konflikttrappa
+
+**Konflikttrappa** beskriver hvordan en konflikt kan **trappes opp**:
+
+1. **Uenighet**: Man er uenige om en sak.
+2. **Personifisering**: Motparten blir sett på som **problemet**.
+3. **Problemet utvides**: Flere saker trekkes inn – «du gjør alltid …».
+4. **Samtalen oppgis**: Man snakker **om** hverandre i stedet for **med** hverandre.
+5. **Fiendebilder**: Motparten blir sett som ond og uforbederlig.
+6. **Åpen fiendtlighet**: Trusler, sabotasje eller vold.
+7. **Polarisering**: Omgivelsene må velge side, og det blir vanskelig å finne tilbake.
+
+Jo **høyere** opp i trappa, desto vanskeligere er konflikten å løse – og desto større behov for **hjelp utenfra**. Den østerrikske konfliktforskeren **Friedrich Glasl** har laget en mer detaljert modell med ni trinn.
+
+## Konfliktstiler
+
+Vi håndterer konflikter på ulike måter, avhengig av hvor opptatt vi er av **egne mål** og av **relasjonen**:
+
+- **Konkurrere**: vinne på bekostning av den andre
+- **Tilpasse**: gi etter for å bevare relasjonen
+- **Unngå**: trekke seg unna konflikten
+- **Kompromiss**: begge gir litt
+- **Samarbeide**: finne en **vinn-vinn**-løsning som ivaretar begge
+
+Ingen stil er riktig i alle situasjoner, men **samarbeid** gir ofte de mest varige løsningene.
+
+## Verbal kommunikasjon
+
+- **Du-budskap** – «Du er så egoistisk!» – oppleves som **angrep** og gjør motparten **defensiv**.
+- **Jeg-budskap** – «Jeg blir lei meg når du ikke svarer» – beskriver egne følelser og behov og er lettere å ta imot.
+- **Aktiv lytting**: gi full oppmerksomhet, still **åpne spørsmål** og **gjenta** med egne ord det du har hørt.
+- Skill **sak** og **person**: Kritiser handlingen, ikke mennesket.
+
+## Ikke-verbal kommunikasjon
+
+**Kroppsspråk**, **blikk**, **ansiktsuttrykk**, **tonefall** og **avstand** sier mye. Når ord og kroppsspråk **ikke stemmer overens**, legger vi ofte mer vekt på kroppsspråket. Himling med øynene, armer i kors eller hevet stemme kan **trappe opp** en konflikt, mens rolig stemme, åpen kroppsholdning og øyekontakt kan **dempe** den.
+
+I **digital** kommunikasjon mangler mange ikke-verbale signaler. Det gir større fare for **misforståelser**, og konflikter kan trappes opp raskere.
+
+## Løse konflikter
+
+- Ta en **pause** når følelsene er sterke.
+- Møtes **ansikt til ansikt**.
+- Finn de **interessene** som ligger bak standpunktene.
+- **Mekling**: En **nøytral** tredjepart hjelper partene til å finne en løsning selv. Mange skoler har **elevmeklere**.
+- **Gjenopprettende samtaler** fokuserer på hva som skjedde, hvem som ble **berørt**, og hvordan skaden kan **repareres**.
+
+## Drøfting
+
+Kommunikasjon kan både **skape** og **løse** konflikter. Den samme setningen kan oppleves ulikt avhengig av tonefall, relasjon og situasjon. Å bli bevisst egen **stil** og eget **kroppsspråk** er et viktig første steg.', '{"label":"Konflikter","children":[{"label":"Typer","children":[{"label":"Interesse og verdi"},{"label":"Sak og relasjon"}]},{"label":"Opptrapping","children":[{"label":"Konflikttrappa"},{"label":"Glasl"}]},{"label":"Stiler","children":[{"label":"Konkurrere og tilpasse"},{"label":"Unngå og kompromiss"},{"label":"Samarbeide"}]},{"label":"Kommunikasjon","children":[{"label":"Jeg-budskap"},{"label":"Aktiv lytting"},{"label":"Kroppsspråk og digitalt"}]},{"label":"Løsning","children":[{"label":"Pause og møte"},{"label":"Mekling"},{"label":"Gjenopprettende samtaler"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:konflikter-og-kommunikasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Konflikt', 'Når minst én part opplever at en annen hindrer egne mål, behov eller verdier.', 0),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Interessekonflikt', 'Uenighet om ressurser.', 1),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Verdikonflikt', 'Uenighet om hva som er riktig og viktig.', 2),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Relasjonskonflikt', 'Handler om følelser, tillit og behandling.', 3),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Konflikttrappa', 'Modell for hvordan konflikter trappes opp.', 4),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Personifisering', 'Motparten blir sett på som problemet.', 5),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Fiendebilder', 'Motparten blir sett som ond og uforbederlig.', 6),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Friedrich Glasl', 'Konfliktforsker med en opptrappingsmodell i ni trinn.', 7),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Samarbeidende stil', 'Finner vinn-vinn-løsninger.', 8),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Unnvikende stil', 'Trekker seg unna konflikten.', 9),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Du-budskap', 'Oppleves som angrep og gjør motparten defensiv.', 10),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Jeg-budskap', 'Beskriver egne følelser og behov.', 11),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Aktiv lytting', 'Full oppmerksomhet, åpne spørsmål og gjentakelse.', 12),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Mekling', 'Nøytral tredjepart hjelper partene å finne en løsning.', 13),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'Gjenopprettende samtale', 'Fokus på hvem som ble berørt og hvordan skaden kan repareres.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:konflikter-og-kommunikasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q01', 'flervalg', 'Hva kjennetegner trinnet «personifisering» i konflikttrappa?', array['Partene blir enige', 'Motparten blir sett på som problemet', 'Konflikten er løst', 'Man snakker sammen']::text[], 1, 'Fokuset flyttes fra sak til person.', true, true, 0),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q02', 'flervalg', 'Hvilket utsagn er et jeg-budskap?', array['Jeg blir lei meg når du ikke svarer', 'Du er så egoistisk', 'Du gjør alltid dette', 'Du ødelegger alt']::text[], 0, 'Beskriver egne følelser.', true, true, 1),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q03', 'flervalg', 'Hva er mekling?', array['At læreren bestemmer', 'At man unngår konflikten', 'At en nøytral tredjepart hjelper partene å finne en løsning', 'At den sterkeste vinner']::text[], 2, 'Partene finner løsningen selv.', true, true, 2),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q04', 'flervalg', 'Hvilken konfliktstil søker vinn-vinn-løsninger?', array['Konkurrere', 'Unngå', 'Tilpasse', 'Samarbeide']::text[], 3, 'Ivaretar både mål og relasjon.', true, true, 3),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q05', 'flervalg', 'Hva gjør vi ofte når ord og kroppsspråk ikke stemmer overens?', array['Legger mer vekt på kroppsspråket', 'Ignorerer begge', 'Legger mest vekt på ordene', 'Spør en annen']::text[], 0, 'Ikke-verbale signaler er sterke.', true, true, 4),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q06', 'flervalg', 'Hvorfor kan konflikter trappes raskere opp digitalt?', array['Fordi folk skriver mer', 'Fordi mange ikke-verbale signaler mangler', 'Fordi det er flere emojier', 'Fordi det er gratis']::text[], 1, 'Større fare for misforståelser.', true, true, 5),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q07', 'flervalg', 'Hva er en verdikonflikt?', array['Uenighet om penger', 'Uenighet om hva som har skjedd', 'Uenighet om hva som er riktig og viktig', 'Uenighet om tid']::text[], 2, 'Ofte vanskelige å løse.', true, true, 6),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q08', 'flervalg', 'Hva skjer på trinnet «samtalen oppgis»?', array['Partene møtes ofte', 'Konflikten løses', 'Partene blir venner', 'Man snakker om hverandre i stedet for med hverandre']::text[], 3, 'Kommunikasjonen bryter sammen.', true, true, 7),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q09', 'flervalg', 'Hva er aktiv lytting?', array['Full oppmerksomhet, åpne spørsmål og gjentakelse med egne ord', 'Å høre på musikk', 'Å avbryte ofte', 'Å tenke på eget svar']::text[], 0, 'Viser at man forstår.', true, false, 8),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'q10', 'flervalg', 'Kan konflikter være positive?', array['Nei, aldri', 'Ja, de kan føre til avklaring og utvikling', 'Bare i idrett', 'Bare hvis man vinner']::text[], 1, 'Håndteringen er avgjørende.', true, false, 9),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm01', 'sant-usant', 'Mange konflikter starter som en sak og utvikler seg til å handle om relasjonen.', array['Sant', 'Usant']::text[], 0, 'Derfor er det viktig å skille sak og person.', false, true, 10),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm02', 'sant-usant', 'Konkurrerende stil er alltid den beste måten å løse konflikter på.', array['Sant', 'Usant']::text[], 1, 'Ingen stil passer i alle situasjoner.', false, true, 11),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm03', 'sant-usant', 'Jo høyere opp i konflikttrappa, desto større behov for hjelp utenfra.', array['Sant', 'Usant']::text[], 0, 'Da er konflikten vanskeligere å løse alene.', false, true, 12),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm04', 'sant-usant', 'Armer i kors og himling med øynene demper vanligvis en konflikt.', array['Sant', 'Usant']::text[], 1, 'Slike signaler kan trappe den opp.', false, true, 13),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm05', 'flervalg', 'Hvilken stil innebærer at begge gir litt?', array['Samarbeid', 'Kompromiss', 'Unngåelse', 'Tilpasning']::text[], 1, 'Ingen får alt de ønsker.', false, true, 14),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm06', 'flervalg', 'Hva kjennetegner siste trinn i konflikttrappa?', array['Polarisering der omgivelsene velger side', 'Uenighet om en sak', 'Personifisering', 'Enighet']::text[], 0, 'Svært vanskelig å finne tilbake.', false, true, 15),
+  ('psykologi-2:konflikter-og-kommunikasjon', 'm07', 'flervalg', 'Hva betyr å skille sak og person?', array['Å unngå å snakke om saken', 'Å snakke bare om personen', 'Å kritisere handlingen, ikke mennesket', 'Å be en annen ta over']::text[], 2, 'Hindrer at konflikten blir personlig.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:konflikter-og-kommunikasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Kommunikasjon, samhandling og livskvalitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'psykologi-2', 'kommunikasjon-og-livskvalitet', 'Kommunikasjon, samhandling og livskvalitet', 'Hvordan ulike former for kommunikasjon – ansikt til ansikt, skriftlig og digital – påvirker sosial samhandling og livskvalitet: kommunikasjonsmodellen, anerkjennelse og sosial støtte, sosiale medier og sosial sammenligning, og kommunikasjonsformer som styrker relasjoner.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:kommunikasjon-og-livskvalitet', '## Hva er kommunikasjon?
+
+**Kommunikasjon** er å **utveksle** meninger, tanker og følelser. En enkel **modell** består av
+
+- en **sender** som har et budskap
+- et **budskap** som sendes gjennom en **kanal** – tale, tekst, bilde
+- en **mottaker** som **tolker** budskapet
+- **tilbakemelding** fra mottakeren
+- **støy**: alt som forstyrrer, for eksempel bråk, stress eller ulike **forventninger**
+
+Mottakeren tolker budskapet ut fra egne **erfaringer**. Derfor er det ikke alltid det vi **sier**, men det andre **hører**, som teller.
+
+## Livskvalitet og relasjoner
+
+**Livskvalitet** handler om hvordan vi **opplever** livet – glede, mening, trygghet og tilhørighet. Forskning peker på at **gode relasjoner** er blant de viktigste faktorene for livskvalitet og helse gjennom livet. Kommunikasjon er **verktøyet** vi bygger relasjoner med.
+
+## Anerkjennelse
+
+**Anerkjennende** kommunikasjon betyr å møte den andre med **respekt**, **lytte** og ta følelsene til den andre **på alvor** – også når man er uenig. Å bli **sett** og **forstått** styrker selvfølelsen.
+
+**Ikkevoldelig kommunikasjon**, utviklet av **Marshall Rosenberg**, har fire trinn:
+
+1. **Observasjon** uten vurdering: «Du kom en time for sent.»
+2. **Følelse**: «Jeg ble bekymret.»
+3. **Behov**: «Jeg trenger å kunne stole på avtaler.»
+4. **Anmodning**: «Kan du sende melding neste gang?»
+
+## Sosial støtte
+
+**Sosial støtte** kan være
+
+- **emosjonell**: omsorg og trøst
+- **praktisk**: konkret hjelp
+- **informativ**: råd og kunnskap
+
+Sosial støtte virker som en **buffer** mot stress. Å vite at noen er der for deg, kan være like viktig som hjelpen i seg selv.
+
+## Ulike former for kommunikasjon
+
+- **Ansikt til ansikt** gir flest signaler – **kroppsspråk**, **tonefall**, **blikk** – og mulighet for rask **tilbakemelding**.
+- **Telefon** og **video** gir tonefall og delvis kroppsspråk.
+- **Tekstmeldinger** og **chat** er raske og praktiske, men mangler mange ikke-verbale signaler. **Emojier** kan erstatte noe, men tolkes ulikt.
+- **Sosiale medier** gjør det mulig å holde kontakt over avstand og finne **fellesskap** – for eksempel for ungdom som føler seg **annerledes** der de bor.
+
+## Sosiale medier og livskvalitet
+
+Sammenhengen mellom sosiale medier og livskvalitet er **omdiskutert**:
+
+- **Sosial sammenligning** – beskrevet av **Leon Festinger** – kan gi dårligere selvbilde når vi sammenligner oss med **redigerte** bilder av andres liv.
+- **FOMO** – frykt for å gå glipp av noe – kan gi uro.
+- **Nettmobbing** og **hets** rammer hardt.
+- Mye bruk kan gå ut over **søvn** og fysisk aktivitet.
+
+Samtidig gir sosiale medier **kontakt**, **støtte** og **informasjon**. Mange forskere peker på at **hvordan** vi bruker dem, betyr mer enn **hvor mye**: **Aktiv** bruk – å kommunisere med venner – ser ut til å være mer positivt enn **passiv** scrolling. Forskningen viser ofte **små** gjennomsnittlige sammenhenger, men **store** forskjeller mellom personer.
+
+## Kommunikasjon som styrker relasjoner
+
+- Vis **interesse** og still **spørsmål**.
+- **Lytt** mer enn du snakker.
+- Gi **ros** og **takk**.
+- Snakk **om** vanskelige ting i stedet for å la dem vokse.
+- Vær **tilgjengelig** – men også **til stede**, uten mobilen mellom dere.
+
+## Drøfting
+
+Kommunikasjon kan gi **tilhørighet** og **støtte**, men også **misforståelser**, **utestengning** og **press**. Å drøfte hvordan ulike former påvirker livskvaliteten, handler om å se både **muligheter** og **risiko** – og å være bevisst egne **vaner**.', '{"label":"Kommunikasjon og livskvalitet","children":[{"label":"Modell","children":[{"label":"Sender og mottaker"},{"label":"Kanal og støy"}]},{"label":"Relasjoner","children":[{"label":"Anerkjennelse"},{"label":"Ikkevoldelig kommunikasjon"},{"label":"Sosial støtte"}]},{"label":"Former","children":[{"label":"Ansikt til ansikt"},{"label":"Tekst og emojier"},{"label":"Sosiale medier"}]},{"label":"Risiko","children":[{"label":"Sosial sammenligning"},{"label":"FOMO og nettmobbing"}]},{"label":"Gode vaner","children":[{"label":"Aktiv bruk"},{"label":"Lytte og være til stede"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:kommunikasjon-og-livskvalitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Kommunikasjonsmodell', 'Sender, budskap, kanal, mottaker og tilbakemelding.', 0),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Støy', 'Alt som forstyrrer kommunikasjonen.', 1),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Livskvalitet', 'Opplevelsen av glede, mening, trygghet og tilhørighet.', 2),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Anerkjennende kommunikasjon', 'Møte den andre med respekt og ta følelsene på alvor.', 3),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Ikkevoldelig kommunikasjon', 'Observasjon, følelse, behov og anmodning – Rosenberg.', 4),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Emosjonell støtte', 'Omsorg og trøst.', 5),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Praktisk støtte', 'Konkret hjelp.', 6),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Informativ støtte', 'Råd og kunnskap.', 7),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Buffer mot stress', 'Sosial støtte demper virkningen av stress.', 8),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Sosial sammenligning', 'Vi vurderer oss selv opp mot andre – Festinger.', 9),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'FOMO', 'Frykt for å gå glipp av noe.', 10),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Aktiv bruk', 'Å kommunisere med andre i sosiale medier.', 11),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Passiv bruk', 'Å scrolle og se på andres innhold.', 12),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Emojier', 'Erstatter noe av det ikke-verbale, men tolkes ulikt.', 13),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'Å være til stede', 'Gi den andre full oppmerksomhet.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:kommunikasjon-og-livskvalitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q01', 'flervalg', 'Hva er støy i kommunikasjonsmodellen?', array['Bare høye lyder', 'Alt som forstyrrer kommunikasjonen', 'Tilbakemeldingen', 'Budskapet']::text[], 1, 'Også stress og ulike forventninger.', true, true, 0),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q02', 'flervalg', 'Hva er de fire trinnene i ikkevoldelig kommunikasjon?', array['Observasjon, følelse, behov, anmodning', 'Kritikk, forsvar, angrep, pause', 'Sender, kanal, mottaker, støy', 'Lytte, snakke, gå, komme']::text[], 0, 'Marshall Rosenberg.', true, true, 1),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q03', 'flervalg', 'Hvilken form for kommunikasjon gir flest signaler?', array['Tekstmelding', 'E-post', 'Ansikt til ansikt', 'Brev']::text[], 2, 'Kroppsspråk, tonefall og blikk.', true, true, 2),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q04', 'flervalg', 'Hva er sosial sammenligning?', array['Å samarbeide', 'Å dele bilder', 'Å hjelpe andre', 'Å vurdere seg selv opp mot andre']::text[], 3, 'Kan gi dårligere selvbilde.', true, true, 3),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q05', 'flervalg', 'Hvilken type sosiale medier-bruk ser ut til å være mest positiv?', array['Aktiv kommunikasjon med venner', 'Passiv scrolling', 'Bruk om natten', 'Bruk uten pauser']::text[], 0, 'Hvordan betyr mer enn hvor mye.', true, true, 4),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q06', 'flervalg', 'Hva er emosjonell støtte?', array['Konkret hjelp', 'Omsorg og trøst', 'Råd og kunnskap', 'Penger']::text[], 1, 'En av tre typer sosial støtte.', true, true, 5),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q07', 'flervalg', 'Hvorfor er relasjoner viktige for livskvalitet?', array['Fordi de gir penger', 'Fordi de erstatter søvn', 'Fordi gode relasjoner er blant de viktigste faktorene for helse og trivsel', 'Fordi de hindrer all sorg']::text[], 2, 'Kommunikasjon er verktøyet.', true, true, 6),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q08', 'flervalg', 'Hva betyr at sosial støtte virker som en buffer?', array['At den gir mer stress', 'At den erstatter behandling', 'At den bare gjelder barn', 'At den demper virkningen av stress']::text[], 3, 'Å vite at noen er der, hjelper.', true, true, 7),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q09', 'flervalg', 'Hva er FOMO?', array['Frykt for å gå glipp av noe', 'En app', 'En type mobbing', 'En kommunikasjonsmodell']::text[], 0, 'Fear of missing out.', true, false, 8),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'q10', 'flervalg', 'Hvorfor kan emojier skape misforståelser?', array['Fordi de er forbudt', 'Fordi de tolkes ulikt', 'Fordi de er for store', 'Fordi de alltid er negative']::text[], 1, 'Erstatter bare delvis kroppsspråk.', true, false, 9),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm01', 'sant-usant', 'Mottakeren tolker budskapet ut fra egne erfaringer.', array['Sant', 'Usant']::text[], 0, 'Derfor kan samme ord forstås ulikt.', false, true, 10),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm02', 'sant-usant', 'Forskningen viser entydig at alle sosiale medier gjør alle ungdommer deprimerte.', array['Sant', 'Usant']::text[], 1, 'Sammenhengene er ofte små og varierer mye.', false, true, 11),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm03', 'sant-usant', 'Sosiale medier kan gi fellesskap for ungdom som føler seg annerledes.', array['Sant', 'Usant']::text[], 0, 'En viktig positiv side.', false, true, 12),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm04', 'sant-usant', 'Anerkjennelse betyr at man alltid må være enig.', array['Sant', 'Usant']::text[], 1, 'Man kan anerkjenne følelser og være uenig.', false, true, 13),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm05', 'flervalg', 'Hvilket utsagn er en observasjon uten vurdering?', array['Du er alltid sen', 'Du kom en time for sent', 'Du bryr deg ikke', 'Du er upålitelig']::text[], 1, 'Beskriver bare hva som skjedde.', false, true, 14),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm06', 'flervalg', 'Hva er informativ støtte?', array['Råd og kunnskap', 'Trøst', 'Konkret hjelp', 'En gave']::text[], 0, 'En av tre typer.', false, true, 15),
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 'm07', 'flervalg', 'Hvordan kan mye skjermbruk påvirke helsen indirekte?', array['Bedre søvn', 'Mer fysisk aktivitet', 'Mindre søvn og fysisk aktivitet', 'Ingen virkning']::text[], 2, 'Fortrenger andre aktiviteter.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:kommunikasjon-og-livskvalitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Synet på psykisk helse gjennom tidene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:psykisk-helse-i-endring', 'psykologi-2', 'psykisk-helse-i-endring', 'Synet på psykisk helse gjennom tidene', 'Hvordan synet på psykisk helse og behandlingen av psykiske lidelser har endret seg – fra overnaturlige forklaringer og dårekister til asyler, moralsk behandling, psykoanalyse, lobotomi og psykofarmaka, avinstitusjonalisering og opptrappingsplan – og hvilke endringer som pågår i dag.', array[9]::int[], 8, 'sjekkes', array['Sjekk årstall for fjerning av homofili som diagnose i Norge og omtalen av erstatning til lobotomerte.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:psykisk-helse-i-endring', '## Tidlige forklaringer
+
+I mange tidlige samfunn ble psykiske lidelser forklart med **overnaturlige** krefter – **ånder**, **demoner** eller **straff** fra gudene. Den greske legen **Hippokrates** mente derimot at sykdom hadde **naturlige** årsaker, som ubalanse i kroppsvæskene.
+
+I Norge ble mennesker med alvorlige psykiske lidelser i lang tid holdt i **dårekister** – små rom eller bur ved sykehus og fattighus – eller satt bort på **legd** hos gårdbrukere.
+
+## Moralsk behandling og asyler
+
+På slutten av 1700-tallet tok den franske legen **Philippe Pinel** til orde for å fjerne **lenkene** og behandle pasientene med **respekt**, ro og meningsfylt arbeid – **moralsk behandling**.
+
+I Norge kom **sinnssykeloven** i **1848**, og **Gaustad sykehus** ved Oslo åpnet i **1855** som et av de første store **asylene**. Tanken var at et rolig miljø utenfor samfunnet kunne **helbrede**. Etter hvert ble mange asyler **overfylte** og mer preget av **oppbevaring** enn behandling.
+
+## Nye teorier og inngripende behandling
+
+- **Sigmund Freud** og **psykoanalysen** rundt år **1900** la vekt på **ubevisste** konflikter og **samtalebehandling**.
+- I første halvdel av 1900-tallet ble det tatt i bruk **inngripende** biologiske metoder, som **insulinsjokk**, **elektrosjokk** og **lobotomi** – et inngrep i hjernens pannelapp. Mange som ble lobotomert, fikk **varige skader**, og den norske staten har senere gitt **erstatning** til mange av dem.
+- Elektrokonvulsiv behandling (**ECT**) brukes fortsatt i dag, men i en **tryggere** form og ved **alvorlig** depresjon.
+
+## Medisiner og avinstitusjonalisering
+
+På **1950-tallet** kom de første effektive **psykofarmaka** – **antipsykotika** og **antidepressiva**. De gjorde det mulig for mange å bo **utenfor** institusjonene.
+
+På **1960- og 70-tallet** kom sterk **kritikk** av de store institusjonene, som ble sett som **umenneskelige** og **stemplende**. Resultatet var **avinstitusjonalisering**: Flere skulle få hjelp **nær hjemmet**.
+
+## Diagnoser endres
+
+Diagnosesystemene **ICD** og **DSM** revideres jevnlig. **Homofili** ble fjernet som diagnose i Norge på **1970-tallet**. Eksempelet viser at hva som regnes som **sykt**, også påvirkes av **kultur** og **verdier**.
+
+## Opptrapping og nærhet
+
+**Opptrappingsplanen for psykisk helse** (1999–2008) ga mer ressurser til **distriktspsykiatriske sentre (DPS)**, **barne- og ungdomspsykiatrien (BUP)** og **kommunale** tjenester. Siden **2020** har kommunene hatt plikt til å ha **psykologkompetanse**.
+
+## Dagens endringer
+
+- **Brukermedvirkning**: Pasienten skal være med på å bestemme egen behandling.
+- **Recovery** – bedringsprosesser: vekt på å leve et **meningsfullt** liv, også med symptomer.
+- **Lavterskeltilbud** som **Rask psykisk helsehjelp** og helsestasjon for ungdom.
+- **Digitale** behandlingsprogrammer og nettbasert terapi.
+- **Pakkeforløp** skal gi mer forutsigbare behandlingsløp.
+- Debatt om **tvang** og om **medisinfrie** behandlingstilbud.
+- **Åpenhet**: Mange forteller offentlig om egne psykiske plager, noe som kan redusere **stigma**.
+- **Livsmestring** er blitt et tverrfaglig tema i skolen.
+
+Samtidig diskuteres det om **flere** normale reaksjoner blir gjort om til **diagnoser**, og om tjenestene klarer å møte den økende **pågangen** fra unge.
+
+## Refleksjon
+
+Historien viser at behandling av psykiske lidelser har vært preget av både **omsorg** og **overgrep**, og at det som var **anerkjent** behandling i én tid, kan bli sett på som **skadelig** senere. Det gir grunn til å være **kritisk** også til dagens metoder – og til å lytte til **pasientenes** erfaringer.', '{"label":"Psykisk helse i endring","children":[{"label":"Tidlig tid","children":[{"label":"Overnaturlige forklaringer"},{"label":"Dårekister og legd"}]},{"label":"1800-tallet","children":[{"label":"Pinel og moralsk behandling"},{"label":"Sinnssykeloven og Gaustad"}]},{"label":"1900-tallet","children":[{"label":"Psykoanalyse"},{"label":"Lobotomi og sjokkbehandling"},{"label":"Psykofarmaka"}]},{"label":"Omlegging","children":[{"label":"Avinstitusjonalisering"},{"label":"Opptrappingsplanen"}]},{"label":"I dag","children":[{"label":"Brukermedvirkning og recovery"},{"label":"Lavterskel og digitalt"},{"label":"Debatt om tvang og diagnoser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:psykisk-helse-i-endring';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:psykisk-helse-i-endring', 'Overnaturlige forklaringer', 'Ånder, demoner eller straff fra gudene.', 0),
+  ('psykologi-2:psykisk-helse-i-endring', 'Hippokrates', 'Mente sykdom hadde naturlige årsaker.', 1),
+  ('psykologi-2:psykisk-helse-i-endring', 'Dårekiste', 'Rom eller bur der mennesker med psykiske lidelser ble holdt.', 2),
+  ('psykologi-2:psykisk-helse-i-endring', 'Philippe Pinel', 'Fransk lege som tok til orde for å fjerne lenkene.', 3),
+  ('psykologi-2:psykisk-helse-i-endring', 'Moralsk behandling', 'Respekt, ro og meningsfylt arbeid.', 4),
+  ('psykologi-2:psykisk-helse-i-endring', 'Sinnssykeloven', 'Norges første lov om psykisk helsevern – 1848.', 5),
+  ('psykologi-2:psykisk-helse-i-endring', 'Gaustad sykehus', 'Asyl ved Oslo som åpnet i 1855.', 6),
+  ('psykologi-2:psykisk-helse-i-endring', 'Lobotomi', 'Inngrep i hjernens pannelapp – ga ofte varige skader.', 7),
+  ('psykologi-2:psykisk-helse-i-endring', 'Psykofarmaka', 'Medisiner mot psykiske lidelser – fra 1950-tallet.', 8),
+  ('psykologi-2:psykisk-helse-i-endring', 'Avinstitusjonalisering', 'Overgang fra store institusjoner til hjelp nær hjemmet.', 9),
+  ('psykologi-2:psykisk-helse-i-endring', 'Opptrappingsplanen', 'Satsing på psykisk helse 1999–2008.', 10),
+  ('psykologi-2:psykisk-helse-i-endring', 'DPS', 'Distriktspsykiatrisk senter.', 11),
+  ('psykologi-2:psykisk-helse-i-endring', 'Brukermedvirkning', 'Pasienten er med på å bestemme egen behandling.', 12),
+  ('psykologi-2:psykisk-helse-i-endring', 'Recovery', 'Bedringsprosess med vekt på et meningsfullt liv.', 13),
+  ('psykologi-2:psykisk-helse-i-endring', 'Stigma', 'Negative holdninger og stempling.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:psykisk-helse-i-endring';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:psykisk-helse-i-endring', 'q01', 'flervalg', 'Hva var dårekister?', array['Medisinskap', 'Rom eller bur der mennesker med psykiske lidelser ble holdt', 'Sykehus med moderne behandling', 'Terapirom']::text[], 1, 'Brukt i Norge før asylene.', true, true, 0),
+  ('psykologi-2:psykisk-helse-i-endring', 'q02', 'flervalg', 'Hvem tok til orde for å fjerne lenkene fra pasientene?', array['Philippe Pinel', 'Sigmund Freud', 'Hippokrates', 'Egas Moniz']::text[], 0, 'Moralsk behandling.', true, true, 1),
+  ('psykologi-2:psykisk-helse-i-endring', 'q03', 'flervalg', 'Når åpnet Gaustad sykehus?', array['1814', '1905', '1855', '1950']::text[], 2, 'Etter sinnssykeloven av 1848.', true, true, 2),
+  ('psykologi-2:psykisk-helse-i-endring', 'q04', 'flervalg', 'Hva gjorde det mulig for mange å bo utenfor institusjonene fra 1950-tallet?', array['Lobotomi', 'Dårekister', 'Asyler', 'Psykofarmaka']::text[], 3, 'Antipsykotika og antidepressiva.', true, true, 3),
+  ('psykologi-2:psykisk-helse-i-endring', 'q05', 'flervalg', 'Hva er avinstitusjonalisering?', array['Overgang fra store institusjoner til hjelp nær hjemmet', 'Bygging av flere asyler', 'Innføring av tvang', 'Nedleggelse av all behandling']::text[], 0, 'Følge av kritikk på 1960- og 70-tallet.', true, true, 4),
+  ('psykologi-2:psykisk-helse-i-endring', 'q06', 'flervalg', 'Hva viser det at homofili ble fjernet som diagnose?', array['At diagnoser aldri endres', 'At synet på sykdom påvirkes av kultur og verdier', 'At alle diagnoser er feil', 'At psykiatrien er ubetydelig']::text[], 1, 'Diagnosesystemer revideres.', true, true, 5),
+  ('psykologi-2:psykisk-helse-i-endring', 'q07', 'flervalg', 'Hva er brukermedvirkning?', array['At legen bestemmer alt', 'At pårørende betaler', 'At pasienten er med på å bestemme egen behandling', 'At brukere driver sykehus']::text[], 2, 'Et sentralt prinsipp i dag.', true, true, 6),
+  ('psykologi-2:psykisk-helse-i-endring', 'q08', 'flervalg', 'Hva var opptrappingsplanen for psykisk helse?', array['En plan for flere asyler', 'En plan for mer lobotomi', 'En plan for nedleggelse av BUP', 'En satsing med mer ressurser til DPS, BUP og kommunene']::text[], 3, '1999–2008.', true, true, 7),
+  ('psykologi-2:psykisk-helse-i-endring', 'q09', 'flervalg', 'Hva la psykoanalysen vekt på?', array['Ubevisste konflikter og samtalebehandling', 'Medisiner', 'Hjernekirurgi', 'Arbeid på gården']::text[], 0, 'Freud rundt år 1900.', true, false, 8),
+  ('psykologi-2:psykisk-helse-i-endring', 'q10', 'flervalg', 'Hva handler recovery om?', array['Kun å fjerne alle symptomer', 'Å leve et meningsfullt liv, også med symptomer', 'Å unngå all behandling', 'Å bli innlagt']::text[], 1, 'Bedringsprosesser.', true, false, 9),
+  ('psykologi-2:psykisk-helse-i-endring', 'm01', 'sant-usant', 'Mange som ble lobotomert, fikk varige skader.', array['Sant', 'Usant']::text[], 0, 'Staten har senere gitt erstatning.', false, true, 10),
+  ('psykologi-2:psykisk-helse-i-endring', 'm02', 'sant-usant', 'Elektrokonvulsiv behandling er helt forbudt i dag.', array['Sant', 'Usant']::text[], 1, 'Den brukes i tryggere form ved alvorlig depresjon.', false, true, 11),
+  ('psykologi-2:psykisk-helse-i-endring', 'm03', 'sant-usant', 'Kommunene har siden 2020 hatt plikt til å ha psykologkompetanse.', array['Sant', 'Usant']::text[], 0, 'Styrker tjenestene nær folk.', false, true, 12),
+  ('psykologi-2:psykisk-helse-i-endring', 'm04', 'sant-usant', 'Asylene var alltid preget av god behandling og få pasienter.', array['Sant', 'Usant']::text[], 1, 'Mange ble overfylte.', false, true, 13),
+  ('psykologi-2:psykisk-helse-i-endring', 'm05', 'flervalg', 'Hva er et lavterskeltilbud?', array['Innleggelse på sykehus', 'Rask psykisk helsehjelp i kommunen', 'Tvangsbehandling', 'Lobotomi']::text[], 1, 'Lett tilgjengelig hjelp.', false, true, 14),
+  ('psykologi-2:psykisk-helse-i-endring', 'm06', 'flervalg', 'Hva er en pågående debatt i psykisk helsevern?', array['Om tvang og medisinfrie tilbud', 'Om å gjeninnføre dårekister', 'Om å forby samtaleterapi', 'Om å stenge alle DPS']::text[], 0, 'Pasientens rettigheter og valg.', false, true, 15),
+  ('psykologi-2:psykisk-helse-i-endring', 'm07', 'flervalg', 'Hva kan åpenhet om psykiske plager bidra til?', array['Mer stigma', 'Flere asyler', 'Redusert stigma', 'Færre behandlinger']::text[], 2, 'Gjør det lettere å søke hjelp.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:psykisk-helse-i-endring', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Normalitet, psykisk helse og psykiske lidelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:normalitet-og-psykisk-helse', 'psykologi-2', 'normalitet-og-psykisk-helse', 'Normalitet, psykisk helse og psykiske lidelser', 'Hva som regnes som normalt – statistiske, sosiale, funksjonelle og subjektive kriterier – hva psykisk helse er, hvordan psykiske vansker skiller seg fra psykiske lidelser, to-kontinua-modellen, og fordeler og ulemper ved diagnoser.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:normalitet-og-psykisk-helse', '## Hva er normalt?
+
+Det finnes ingen **enkel** definisjon av normalitet. Psykologien bruker flere **kriterier**, som alle har svakheter:
+
+- **Statistisk**: Det normale er det **vanlige**. Men også **uvanlige** egenskaper, som svært høy intelligens, kan være positive.
+- **Sosialt** eller **normativt**: Det normale følger samfunnets **normer**. Men normer varierer mellom **kulturer** og endrer seg over **tid**.
+- **Funksjonelt**: Det normale er å **fungere** i hverdagen – skole, jobb og relasjoner. Men noen fungerer godt utad og **lider** likevel.
+- **Subjektivt**: Det avgjørende er om personen selv opplever **plager**. Men noen med alvorlige lidelser har liten **sykdomsinnsikt**.
+- **Ideelt**: Det normale er et **ideal** for god helse. Men da blir nesten ingen normale.
+
+## Kultur og tid
+
+Hva som regnes som avvikende, påvirkes av **kultur**. Å høre stemmer fra avdøde kan i noen kulturer være en **akseptert** del av sorg. **Homofili** var tidligere en diagnose, men regnes i dag som en **naturlig** variasjon. Normalitet er altså delvis **sosialt konstruert**.
+
+## Hva er psykisk helse?
+
+**Verdens helseorganisasjon (WHO)** beskriver psykisk helse som en tilstand av **velvære** der man kan bruke sine **evner**, håndtere **vanlige belastninger**, **arbeide** og bidra i **fellesskapet**. Psykisk helse er altså mer enn **fravær** av sykdom. **Alle** har en psykisk helse – den kan være bedre eller dårligere i ulike perioder.
+
+## Psykiske vansker og psykiske lidelser
+
+- **Psykiske vansker** eller **plager** er symptomer som **nedstemthet**, **bekymring**, **søvnvansker** og **uro**. De kan være belastende, men oppfyller ikke kriteriene for en diagnose. Mange er **normale reaksjoner** på vanskelige hendelser, som **sorg** eller **eksamenspress**.
+- **Psykiske lidelser** er tilstander som oppfyller **kriteriene** for en **diagnose** i diagnosesystemene **ICD** eller **DSM**, for eksempel **depresjon**, **angstlidelser**, **spiseforstyrrelser** og **schizofreni**.
+
+Forskjellen handler om
+
+- **alvorlighet**: hvor sterke symptomene er
+- **varighet**: hvor lenge de har vart
+- **funksjonsnedsettelse**: hvor mye de hindrer hverdagen
+
+Grensen er ikke skarp. Det er et **kontinuum** fra god psykisk helse til alvorlig lidelse.
+
+## To-kontinua-modellen
+
+Psykologen **Corey Keyes** har foreslått at **psykisk helse** og **psykisk lidelse** er to **separate** dimensjoner:
+
+- Man kan ha en **diagnose** og likevel oppleve **god** livskvalitet og mening.
+- Man kan være **uten** diagnose og likevel ha det **dårlig** – for eksempel være ensom og uten mening.
+
+Modellen viser at vi må arbeide både med å **redusere** lidelse og å **fremme** trivsel.
+
+## Diagnoser – fordeler og ulemper
+
+**Fordeler**:
+
+- gir et **felles språk** for fagfolk
+- gir tilgang til **riktig behandling** og **rettigheter** – for eksempel tilrettelegging
+- kan gi **forståelse** og lettelse: «Det er ikke min feil»
+- er nødvendig for **forskning**
+
+**Ulemper**:
+
+- kan gi **stempling** og **stigma**
+- kan bli en del av **identiteten** på en begrensende måte
+- kan føre til **medikalisering** – at normale reaksjoner behandles som sykdom
+- kan skjule **sosiale** årsaker, som mobbing eller fattigdom
+
+## Refleksjon
+
+Når vi snakker om psykisk helse, er det viktig å **normalisere** at alle kan ha det vanskelig i perioder, uten å **bagatellisere** alvorlige lidelser. Spørsmålet «hva er normalt?» har ingen fasit – men det tvinger oss til å tenke over hvem som **definerer** normalitet, og med hvilke **konsekvenser**.', '{"label":"Normalitet og psykisk helse","children":[{"label":"Normalitetskriterier","children":[{"label":"Statistisk og sosialt"},{"label":"Funksjonelt og subjektivt"},{"label":"Kultur og tid"}]},{"label":"Psykisk helse","children":[{"label":"WHO"},{"label":"Alle har psykisk helse"}]},{"label":"Vansker og lidelser","children":[{"label":"Alvorlighet og varighet"},{"label":"Funksjonsnedsettelse"},{"label":"Kontinuum"}]},{"label":"To-kontinua-modellen","children":[{"label":"Helse og lidelse separat"}]},{"label":"Diagnoser","children":[{"label":"Fordeler"},{"label":"Stigma og medikalisering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:normalitet-og-psykisk-helse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Statistisk normalitet', 'Det vanlige er normalt.', 0),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Sosial normalitet', 'Det som følger samfunnets normer.', 1),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Funksjonell normalitet', 'Å fungere i hverdagen.', 2),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Subjektivt kriterium', 'Om personen selv opplever plager.', 3),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Sosialt konstruert', 'Påvirket av kultur og tid.', 4),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Psykisk helse – WHO', 'Velvære, bruke evner, håndtere belastninger og bidra i fellesskapet.', 5),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Psykiske vansker', 'Symptomer som belaster, men ikke oppfyller diagnosekriterier.', 6),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Psykiske lidelser', 'Tilstander som oppfyller kriteriene for en diagnose.', 7),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'ICD og DSM', 'Diagnosesystemer for psykiske lidelser.', 8),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Funksjonsnedsettelse', 'Hvor mye symptomene hindrer hverdagen.', 9),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Kontinuum', 'Glidende overgang fra god helse til alvorlig lidelse.', 10),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'To-kontinua-modellen', 'Psykisk helse og psykisk lidelse er to separate dimensjoner – Keyes.', 11),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Medikalisering', 'Normale reaksjoner behandles som sykdom.', 12),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Stigma', 'Negative holdninger og stempling knyttet til en diagnose.', 13),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'Sykdomsinnsikt', 'Evnen til å forstå at man er syk.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:normalitet-og-psykisk-helse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q01', 'flervalg', 'Hva er en svakhet ved det statistiske normalitetskriteriet?', array['Det er for vanskelig å regne ut', 'Også uvanlige positive egenskaper blir avvikende', 'Det tar hensyn til kultur', 'Det gjelder bare barn']::text[], 1, 'For eksempel svært høy intelligens.', true, true, 0),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q02', 'flervalg', 'Hva skiller en psykisk lidelse fra psykiske vansker?', array['Alvorlighet, varighet og funksjonsnedsettelse', 'Alder', 'Kjønn', 'Bosted']::text[], 0, 'Grensen er ikke skarp.', true, true, 1),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q03', 'flervalg', 'Hva sier to-kontinua-modellen?', array['At alle med diagnose har det dårlig', 'At psykisk helse bare er fravær av sykdom', 'At psykisk helse og psykisk lidelse er to separate dimensjoner', 'At diagnoser er unødvendige']::text[], 2, 'Corey Keyes.', true, true, 2),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q04', 'flervalg', 'Hva er medikalisering?', array['At alle får medisiner', 'At leger blir flere', 'At sykehus bygges', 'At normale reaksjoner behandles som sykdom']::text[], 3, 'En ulempe ved diagnoser.', true, true, 3),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q05', 'flervalg', 'Hvilken fordel kan en diagnose gi?', array['Tilgang til riktig behandling og tilrettelegging', 'Stigma', 'Stempling', 'At sosiale årsaker skjules']::text[], 0, 'Og et felles språk.', true, true, 4),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q06', 'flervalg', 'Hvordan beskriver WHO psykisk helse?', array['Bare fravær av sykdom', 'Velvære der man kan bruke evner, håndtere belastninger og bidra', 'At man aldri er trist', 'At man har mange venner']::text[], 1, 'Mer enn fravær av sykdom.', true, true, 5),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q07', 'flervalg', 'Hva viser eksempelet med homofili?', array['At diagnoser er evige', 'At normalitet bare er biologi', 'At normalitet delvis er sosialt konstruert', 'At WHO tar feil']::text[], 2, 'Endret over tid.', true, true, 6),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q08', 'flervalg', 'Hvilket av disse er vanligvis en normal reaksjon, ikke en lidelse?', array['Schizofreni', 'Spiseforstyrrelse', 'Alvorlig depresjon over lang tid', 'Sorg etter et dødsfall']::text[], 3, 'Men sorg kan også bli komplisert.', true, true, 7),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q09', 'flervalg', 'Hva er en svakhet ved det subjektive kriteriet?', array['Noen med alvorlige lidelser har liten sykdomsinnsikt', 'Det tar ikke hensyn til følelser', 'Det er for objektivt', 'Det gjelder bare voksne']::text[], 0, 'De opplever kanskje ikke seg selv som syke.', true, false, 8),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'q10', 'flervalg', 'Har alle mennesker en psykisk helse?', array['Nei, bare de med diagnose', 'Ja', 'Bare voksne', 'Bare de som er friske']::text[], 1, 'Den kan være bedre eller dårligere.', true, false, 9),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm01', 'sant-usant', 'Man kan ha en psykisk lidelse og likevel oppleve god livskvalitet.', array['Sant', 'Usant']::text[], 0, 'Ifølge to-kontinua-modellen.', false, true, 10),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm02', 'sant-usant', 'Grensen mellom psykiske vansker og lidelser er helt skarp.', array['Sant', 'Usant']::text[], 1, 'Det er et kontinuum.', false, true, 11),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm03', 'sant-usant', 'Normer for hva som er avvikende, varierer mellom kulturer.', array['Sant', 'Usant']::text[], 0, 'Normalitet er delvis sosialt konstruert.', false, true, 12),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm04', 'sant-usant', 'En diagnose kan aldri ha negative konsekvenser.', array['Sant', 'Usant']::text[], 1, 'Den kan gi stempling og stigma.', false, true, 13),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm05', 'flervalg', 'Hvilket diagnosesystem brukes blant annet i Norge?', array['IQ', 'ICD', 'PISA', 'BMI']::text[], 1, 'Utgitt av WHO.', false, true, 14),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm06', 'flervalg', 'Hvilken ulempe har diagnoser?', array['De kan skjule sosiale årsaker som mobbing', 'De gir felles språk', 'De gir rettigheter', 'De hjelper forskning']::text[], 0, 'Problemet plasseres hos individet.', false, true, 15),
+  ('psykologi-2:normalitet-og-psykisk-helse', 'm07', 'flervalg', 'Hva er et psykisk symptom som kan være en vanlig plage?', array['Hallusinasjoner hele tiden', 'Vrangforestillinger', 'Søvnvansker i en stressende periode', 'Total funksjonssvikt']::text[], 2, 'Vanlige plager kan gå over.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:normalitet-og-psykisk-helse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Samspillet mellom biologi, psykologi og sosiale forhold
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:biopsykososial-modell', 'psykologi-2', 'biopsykososial-modell', 'Samspillet mellom biologi, psykologi og sosiale forhold', 'Hvordan biologiske, psykologiske og sosiale faktorer virker sammen i utviklingen av god psykisk helse og av psykiske vansker – den biopsykososiale modellen, sårbarhet-stress-modellen, risiko- og beskyttende faktorer, negative barndomserfaringer og epigenetikk – med depresjon og søvn som eksempler.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:biopsykososial-modell', '## Den biopsykososiale modellen
+
+Den amerikanske psykiateren **George Engel** lanserte i **1977** den **biopsykososiale modellen**. Den sier at helse og sykdom må forstås som et **samspill** mellom
+
+- **biologiske** faktorer: gener, hjerne, hormoner, søvn, kosthold, fysisk helse og rusmidler
+- **psykologiske** faktorer: tankemønstre, følelser, **mestringstro**, personlighet og tidligere erfaringer
+- **sosiale** faktorer: familie, venner, skole, arbeid, økonomi, kultur og diskriminering
+
+Modellen var et svar på en ensidig **biomedisinsk** forståelse der sykdom bare ble sett som noe i kroppen.
+
+## Sårbarhet-stress-modellen
+
+**Sårbarhet-stress-modellen** forklarer hvorfor noen utvikler psykiske lidelser og andre ikke:
+
+- Alle har en viss **sårbarhet** – biologisk, psykologisk eller sosial.
+- Når **stressbelastningen** blir større enn det personen tåler, kan det utløse en **lidelse**.
+- En person med **høy** sårbarhet kan bli syk av **lite** stress, mens en med **lav** sårbarhet tåler mye.
+
+## Risikofaktorer og beskyttende faktorer
+
+| Nivå | Risiko | Beskyttelse |
+|---|---|---|
+| Biologisk | arvelig sårbarhet, kronisk sykdom, lite søvn, rus | god søvn, fysisk aktivitet |
+| Psykologisk | negative tankemønstre, lav selvfølelse | mestringstro, emosjonsregulering |
+| Sosialt | mobbing, ensomhet, fattigdom, vold | støttende familie, venner, trygg skole |
+
+**Beskyttende** faktorer gjør oss mer **motstandsdyktige** – vi snakker om **resiliens**.
+
+## Eksempel: depresjon
+
+- **Biologisk**: Noen har **arvelig** sårbarhet. Langvarig stress påvirker **stresshormoner** og hjernens signalstoffer.
+- **Psykologisk**: **Negative** tankemønstre – «jeg er mislykket» – og **grubling** kan forsterke nedstemthet.
+- **Sosialt**: **Ensomhet**, **mobbing** eller et **brudd** kan utløse depresjon.
+
+Faktorene **påvirker hverandre**: Ensomhet gir negative tanker, negative tanker gir tilbaketrekning, og tilbaketrekning gir mer ensomhet – samtidig som søvn og aktivitet svekkes.
+
+## Eksempel: søvn
+
+Dårlig **søvn** (biologisk) gir dårligere **humør** og **konsentrasjon** (psykologisk), som kan gi **konflikter** og dårligere skoleresultater (sosialt). **Bekymringer** og **skjermbruk** om kvelden kan igjen gi dårligere søvn. Søvn er derfor et viktig **inngangspunkt** for bedre psykisk helse.
+
+## Barndomserfaringer og epigenetikk
+
+Forskning på **negative barndomserfaringer** – som vold, omsorgssvikt og rus i familien – viser at slike erfaringer henger sammen med økt risiko for psykiske og fysiske helseplager senere i livet. Langvarig stress kan påvirke **hjernens utvikling** og **stressystemet**.
+
+**Epigenetikk** viser at **miljøet** kan påvirke hvordan **gener** slås av og på. Arv og miljø er altså ikke **atskilte** – de virker **sammen**.
+
+## God psykisk helse
+
+Modellen gjelder også **positiv** psykisk helse. Faktorer som fremmer god psykisk helse, er blant annet
+
+- **søvn**, **fysisk aktivitet** og **kosthold**
+- **mestring** og følelsen av å ha **kontroll**
+- **mening** og **verdier**
+- **gode relasjoner** og **tilhørighet**
+- **trygge** oppvekstvilkår og **økonomisk** trygghet
+
+## Drøfting
+
+Styrken til modellen er at den er **helhetlig** og forklarer **forskjeller** mellom mennesker. Svakheten er at den kan bli **vag**: Det er vanskelig å vite hvor **mye** hver faktor betyr. Likevel gir den et viktig budskap: **Forebygging** og **behandling** bør rette seg mot **flere nivåer** samtidig.', '{"label":"Biopsykososial modell","children":[{"label":"Tre nivåer","children":[{"label":"Biologisk"},{"label":"Psykologisk"},{"label":"Sosialt"}]},{"label":"Sårbarhet og stress","children":[{"label":"Terskel"},{"label":"Resiliens"}]},{"label":"Faktorer","children":[{"label":"Risikofaktorer"},{"label":"Beskyttende faktorer"}]},{"label":"Eksempler","children":[{"label":"Depresjon"},{"label":"Søvn"},{"label":"Barndomserfaringer"}]},{"label":"Konsekvenser","children":[{"label":"Epigenetikk"},{"label":"Tiltak på flere nivåer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:biopsykososial-modell';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:biopsykososial-modell', 'Biopsykososial modell', 'Helse forstås som samspill mellom biologiske, psykologiske og sosiale faktorer.', 0),
+  ('psykologi-2:biopsykososial-modell', 'George Engel', 'Lanserte den biopsykososiale modellen i 1977.', 1),
+  ('psykologi-2:biopsykososial-modell', 'Biomedisinsk modell', 'Sykdom forstås bare som noe i kroppen.', 2),
+  ('psykologi-2:biopsykososial-modell', 'Sårbarhet-stress-modellen', 'Lidelse utløses når stress overstiger det personen tåler.', 3),
+  ('psykologi-2:biopsykososial-modell', 'Sårbarhet', 'Biologisk, psykologisk eller sosial disposisjon for å utvikle plager.', 4),
+  ('psykologi-2:biopsykososial-modell', 'Risikofaktor', 'Øker sannsynligheten for psykiske vansker.', 5),
+  ('psykologi-2:biopsykososial-modell', 'Beskyttende faktor', 'Gjør oss mer motstandsdyktige.', 6),
+  ('psykologi-2:biopsykososial-modell', 'Resiliens', 'Evnen til å klare seg godt til tross for belastninger.', 7),
+  ('psykologi-2:biopsykososial-modell', 'Mestringstro', 'Troen på at man kan klare en oppgave.', 8),
+  ('psykologi-2:biopsykososial-modell', 'Grubling', 'Gjentatte negative tanker som kan forsterke nedstemthet.', 9),
+  ('psykologi-2:biopsykososial-modell', 'Negative barndomserfaringer', 'Vold, omsorgssvikt og rus i familien – økt risiko senere.', 10),
+  ('psykologi-2:biopsykososial-modell', 'Epigenetikk', 'Miljøet påvirker hvordan gener slås av og på.', 11),
+  ('psykologi-2:biopsykososial-modell', 'Søvn som inngangspunkt', 'Bedre søvn kan bedre humør, konsentrasjon og relasjoner.', 12),
+  ('psykologi-2:biopsykososial-modell', 'Ond sirkel ved depresjon', 'Ensomhet, negative tanker og tilbaketrekning forsterker hverandre.', 13),
+  ('psykologi-2:biopsykososial-modell', 'Tiltak på flere nivåer', 'Forebygging og behandling bør rette seg mot biologi, psykologi og sosiale forhold.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:biopsykososial-modell';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:biopsykososial-modell', 'q01', 'flervalg', 'Hvem lanserte den biopsykososiale modellen?', array['Sigmund Freud', 'George Engel', 'Albert Bandura', 'Corey Keyes']::text[], 1, 'I 1977.', true, true, 0),
+  ('psykologi-2:biopsykososial-modell', 'q02', 'flervalg', 'Hva sier sårbarhet-stress-modellen?', array['At lidelse utløses når stress overstiger det personen tåler', 'At alle blir syke av stress', 'At sårbarhet ikke betyr noe', 'At stress alltid er positivt']::text[], 0, 'Samspill mellom sårbarhet og belastning.', true, true, 1),
+  ('psykologi-2:biopsykososial-modell', 'q03', 'flervalg', 'Hvilken faktor er psykologisk?', array['Gener', 'Fattigdom', 'Negative tankemønstre', 'Søvn']::text[], 2, 'Tanker og følelser.', true, true, 2),
+  ('psykologi-2:biopsykososial-modell', 'q04', 'flervalg', 'Hvilken faktor er en beskyttende sosial faktor?', array['Mobbing', 'Ensomhet', 'Fattigdom', 'Støttende venner']::text[], 3, 'Gir tilhørighet.', true, true, 3),
+  ('psykologi-2:biopsykososial-modell', 'q05', 'flervalg', 'Hva er resiliens?', array['Evnen til å klare seg godt til tross for belastninger', 'En diagnose', 'En medisin', 'En risikofaktor']::text[], 0, 'Motstandsdyktighet.', true, true, 4),
+  ('psykologi-2:biopsykososial-modell', 'q06', 'flervalg', 'Hva viser epigenetikk?', array['At gener aldri påvirkes', 'At miljøet kan påvirke hvordan gener slås av og på', 'At arv er alt', 'At miljø er alt']::text[], 1, 'Arv og miljø samspiller.', true, true, 5),
+  ('psykologi-2:biopsykososial-modell', 'q07', 'flervalg', 'Hvordan kan dårlig søvn påvirke sosiale forhold?', array['Den gir flere venner', 'Den har ingen virkning', 'Dårligere humør kan gi konflikter', 'Den gir bedre skoleresultater']::text[], 2, 'Nivåene påvirker hverandre.', true, true, 6),
+  ('psykologi-2:biopsykososial-modell', 'q08', 'flervalg', 'Hva er en svakhet ved den biopsykososiale modellen?', array['At den er for ensidig', 'At den bare ser på gener', 'At den ignorerer sosiale forhold', 'At det er vanskelig å vite hvor mye hver faktor betyr']::text[], 3, 'Den kan bli vag.', true, true, 7),
+  ('psykologi-2:biopsykososial-modell', 'q09', 'flervalg', 'Hva henger negative barndomserfaringer sammen med?', array['Økt risiko for helseplager senere i livet', 'Bedre helse', 'Høyere intelligens', 'Ingen ting']::text[], 0, 'Påvirker stressystemet.', true, false, 8),
+  ('psykologi-2:biopsykososial-modell', 'q10', 'flervalg', 'Hva betyr modellen for behandling?', array['At bare medisiner virker', 'At tiltak bør rette seg mot flere nivåer', 'At samtaleterapi er unødvendig', 'At sosiale forhold er uviktige']::text[], 1, 'Helhetlig tilnærming.', true, false, 9),
+  ('psykologi-2:biopsykososial-modell', 'm01', 'sant-usant', 'En person med høy sårbarhet kan bli syk av lite stress.', array['Sant', 'Usant']::text[], 0, 'Terskelen er lavere.', false, true, 10),
+  ('psykologi-2:biopsykososial-modell', 'm02', 'sant-usant', 'Den biopsykososiale modellen gjelder bare sykdom, ikke god helse.', array['Sant', 'Usant']::text[], 1, 'Den gjelder også faktorer som fremmer god psykisk helse.', false, true, 11),
+  ('psykologi-2:biopsykososial-modell', 'm03', 'sant-usant', 'Ensomhet, negative tanker og tilbaketrekning kan forsterke hverandre.', array['Sant', 'Usant']::text[], 0, 'En ond sirkel.', false, true, 12),
+  ('psykologi-2:biopsykososial-modell', 'm04', 'sant-usant', 'Arv og miljø virker helt uavhengig av hverandre.', array['Sant', 'Usant']::text[], 1, 'De virker sammen.', false, true, 13),
+  ('psykologi-2:biopsykososial-modell', 'm05', 'flervalg', 'Hvilken faktor fremmer god psykisk helse?', array['Mobbing', 'Mening og gode relasjoner', 'Kronisk stress', 'Lite søvn']::text[], 1, 'Også mestring og fysisk aktivitet.', false, true, 14),
+  ('psykologi-2:biopsykososial-modell', 'm06', 'flervalg', 'Hvilken modell kritiserte Engel?', array['Den ensidig biomedisinske modellen', 'Den kognitive modellen', 'Den humanistiske modellen', 'To-kontinua-modellen']::text[], 0, 'Sykdom som bare noe i kroppen.', false, true, 15),
+  ('psykologi-2:biopsykososial-modell', 'm07', 'flervalg', 'Hvilken faktor er biologisk?', array['Diskriminering', 'Selvfølelse', 'Søvn', 'Venner']::text[], 2, 'Kroppslige prosesser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:biopsykososial-modell', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Psykologi 2: Forebygging og behandling av psykiske vansker og lidelser
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('psykologi-2:forebygging-og-behandling', 'psykologi-2', 'forebygging-og-behandling', 'Forebygging og behandling av psykiske vansker og lidelser', 'Hvordan psykiske vansker og lidelser kan forebygges og behandles i lys av den biopsykososiale modellen – helsefremming og universell, selektiv og indikert forebygging, hjelpeapparatet i kommunen og spesialisthelsetjenesten, psykoterapi og medisiner, evidensbasert praksis og brukermedvirkning.', array[11]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('psykologi-2:forebygging-og-behandling', '## Helsefremming og forebygging
+
+- **Helsefremming** styrker det som gir **god** psykisk helse – mestring, tilhørighet og mening.
+- **Forebygging** skal hindre at **problemer** oppstår eller utvikler seg.
+
+Forebygging deles ofte inn i tre nivåer:
+
+- **Universell**: rettet mot **alle** – for eksempel **livsmestring** i skolen, fysisk aktivitet og tiltak mot **mobbing**
+- **Selektiv**: rettet mot **risikogrupper** – for eksempel barn av foreldre med psykisk sykdom eller rusproblemer
+- **Indikert**: rettet mot personer med **tidlige symptomer** – for eksempel kurs i å mestre nedstemthet for ungdom
+
+## Forebygging på tre nivåer
+
+I lys av den **biopsykososiale** modellen kan forebygging rette seg mot
+
+- **biologi**: søvn, fysisk aktivitet, kosthold, å utsette **rusdebut**
+- **psykologi**: **emosjonsregulering**, **mestringsstrategier** og realistisk tenkning
+- **sosiale forhold**: trygge **skolemiljøer**, gratis fritidsaktiviteter, støtte til **familier** og tiltak mot **fattigdom**
+
+## Hjelpeapparatet
+
+**Kommunen** – første linje:
+
+- **helsesykepleier** og **skolehelsetjeneste**
+- **fastlege**
+- **psykolog** i kommunen og **Rask psykisk helsehjelp**
+- **helsestasjon for ungdom**
+
+**Spesialisthelsetjenesten** – andre linje:
+
+- **BUP** – barne- og ungdomspsykiatrisk poliklinikk
+- **DPS** – distriktspsykiatrisk senter for voksne
+- **sykehus** ved alvorlige lidelser
+
+Man trenger vanligvis **henvisning** fra fastlegen for å komme til spesialisthelsetjenesten.
+
+## Psykoterapi
+
+- **Kognitiv atferdsterapi (KAT)**: arbeider med sammenhengen mellom **tanker**, **følelser** og **atferd**. Ved angst brukes ofte **eksponering** – gradvis å møte det man frykter. KAT har sterk **forskningsstøtte**.
+- **Psykodynamisk terapi**: utforsker **ubevisste** mønstre og **relasjonserfaringer**.
+- **Interpersonlig terapi**: fokuserer på **relasjoner** og livsendringer.
+- **Familieterapi**: involverer **familien**, særlig når barn og unge strever.
+- **Gruppeterapi**: deltakerne lærer av og støtter hverandre.
+
+Forskning viser at **relasjonen** mellom terapeut og klient – **terapeutisk allianse** – har stor betydning for resultatet, uansett metode.
+
+## Medisiner
+
+- **Antidepressiva**, for eksempel **SSRI**, ved moderat til alvorlig depresjon og enkelte angstlidelser
+- **Antipsykotika** ved psykoselidelser
+- **Stemningsstabiliserende** medisiner ved bipolar lidelse
+
+Medisiner kan ha **bivirkninger**, og ved lettere plager anbefales ofte **samtalebehandling** først. Ofte gir **kombinasjonen** av medisiner og terapi best effekt ved alvorlige lidelser.
+
+## Behandling på flere nivåer
+
+- **Biologisk**: medisiner, søvn, fysisk aktivitet
+- **Psykologisk**: terapi og mestringsstrategier
+- **Sosialt**: samarbeid med **skole**, **NAV** og **familie**, tilrettelegging og nettverk
+
+## Evidensbasert praksis og brukermedvirkning
+
+**Evidensbasert praksis** betyr å kombinere **forskning**, **klinisk erfaring** og **pasientens** ønsker og verdier. **Brukermedvirkning** innebærer at pasienten er med på å velge **mål** og **behandling**.
+
+## Aktuelle debatter
+
+- **Ventetider** og økende pågang fra unge
+- Bruk av **medisiner** blant barn og unge
+- **Digitale** behandlingsprogrammer
+- Om skolen gjør **nok** – eller for mye – med psykisk helse
+
+## Å søke hjelp
+
+Har du det vanskelig, kan du snakke med **helsesykepleier**, **fastlege** eller en voksen du stoler på. **Mental Helses hjelpetelefon 116 123** er åpen hele døgnet. Ved **akutt fare** for liv og helse ringer du **113**.', '{"label":"Forebygging og behandling","children":[{"label":"Forebygging","children":[{"label":"Universell"},{"label":"Selektiv"},{"label":"Indikert"}]},{"label":"Hjelpeapparatet","children":[{"label":"Kommunen"},{"label":"BUP og DPS"}]},{"label":"Psykoterapi","children":[{"label":"KAT og eksponering"},{"label":"Psykodynamisk og familie"},{"label":"Terapeutisk allianse"}]},{"label":"Medisiner","children":[{"label":"Antidepressiva"},{"label":"Antipsykotika"}]},{"label":"Prinsipper","children":[{"label":"Flere nivåer"},{"label":"Evidensbasert praksis"},{"label":"Brukermedvirkning"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'psykologi-2:forebygging-og-behandling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('psykologi-2:forebygging-og-behandling', 'Helsefremming', 'Styrke det som gir god psykisk helse.', 0),
+  ('psykologi-2:forebygging-og-behandling', 'Universell forebygging', 'Rettet mot alle, for eksempel livsmestring i skolen.', 1),
+  ('psykologi-2:forebygging-og-behandling', 'Selektiv forebygging', 'Rettet mot risikogrupper.', 2),
+  ('psykologi-2:forebygging-og-behandling', 'Indikert forebygging', 'Rettet mot personer med tidlige symptomer.', 3),
+  ('psykologi-2:forebygging-og-behandling', 'Første linje', 'Kommunale tjenester som helsesykepleier, fastlege og kommunepsykolog.', 4),
+  ('psykologi-2:forebygging-og-behandling', 'Andre linje', 'Spesialisthelsetjenesten – BUP, DPS og sykehus.', 5),
+  ('psykologi-2:forebygging-og-behandling', 'Henvisning', 'Vanligvis fra fastlegen for å komme til spesialisthelsetjenesten.', 6),
+  ('psykologi-2:forebygging-og-behandling', 'Kognitiv atferdsterapi', 'Arbeider med tanker, følelser og atferd – sterk forskningsstøtte.', 7),
+  ('psykologi-2:forebygging-og-behandling', 'Eksponering', 'Gradvis å møte det man frykter.', 8),
+  ('psykologi-2:forebygging-og-behandling', 'Psykodynamisk terapi', 'Utforsker ubevisste mønstre og relasjonserfaringer.', 9),
+  ('psykologi-2:forebygging-og-behandling', 'Terapeutisk allianse', 'Relasjonen mellom terapeut og klient.', 10),
+  ('psykologi-2:forebygging-og-behandling', 'SSRI', 'En type antidepressiva.', 11),
+  ('psykologi-2:forebygging-og-behandling', 'Evidensbasert praksis', 'Forskning, klinisk erfaring og pasientens ønsker.', 12),
+  ('psykologi-2:forebygging-og-behandling', 'Mental Helses hjelpetelefon', '116 123 – åpen hele døgnet.', 13),
+  ('psykologi-2:forebygging-og-behandling', '113', 'Nødnummer ved akutt fare for liv og helse.', 14);
+delete from public.quiz_sporsmal where tema_id = 'psykologi-2:forebygging-og-behandling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('psykologi-2:forebygging-og-behandling', 'q01', 'flervalg', 'Hva er universell forebygging?', array['Tiltak for de som allerede er syke', 'Tiltak rettet mot alle', 'Tiltak bare for risikogrupper', 'Medisinering']::text[], 1, 'For eksempel livsmestring i skolen.', true, true, 0),
+  ('psykologi-2:forebygging-og-behandling', 'q02', 'flervalg', 'Hva er BUP?', array['Barne- og ungdomspsykiatrisk poliklinikk', 'En kommunal skole', 'En medisin', 'En terapiform']::text[], 0, 'Del av spesialisthelsetjenesten.', true, true, 1),
+  ('psykologi-2:forebygging-og-behandling', 'q03', 'flervalg', 'Hva er eksponering i behandling av angst?', array['Å unngå det man frykter', 'Å ta medisiner', 'Å gradvis møte det man frykter', 'Å snakke om barndommen']::text[], 2, 'En del av kognitiv atferdsterapi.', true, true, 2),
+  ('psykologi-2:forebygging-og-behandling', 'q04', 'flervalg', 'Hva er terapeutisk allianse?', array['En avtale om betaling', 'En medisin', 'En diagnose', 'Relasjonen mellom terapeut og klient']::text[], 3, 'Har stor betydning for resultatet.', true, true, 3),
+  ('psykologi-2:forebygging-og-behandling', 'q05', 'flervalg', 'Hva er evidensbasert praksis?', array['Å kombinere forskning, klinisk erfaring og pasientens ønsker', 'Å bare følge egen erfaring', 'Å bare bruke medisiner', 'Å gjøre som pasienten sier']::text[], 0, 'Tre kunnskapskilder.', true, true, 4),
+  ('psykologi-2:forebygging-og-behandling', 'q06', 'flervalg', 'Hvem kan du vanligvis få henvisning fra til spesialisthelsetjenesten?', array['Læreren', 'Fastlegen', 'Rektor', 'Politiet']::text[], 1, 'Fastlegen henviser.', true, true, 5),
+  ('psykologi-2:forebygging-og-behandling', 'q07', 'flervalg', 'Hva er selektiv forebygging?', array['Tiltak for alle', 'Tiltak for de med diagnose', 'Tiltak rettet mot risikogrupper', 'Tiltak bare på sykehus']::text[], 2, 'For eksempel barn av foreldre med rusproblemer.', true, true, 6),
+  ('psykologi-2:forebygging-og-behandling', 'q08', 'flervalg', 'Hvilket nummer kan du ringe hele døgnet for å snakke med noen?', array['112', '110', '1881', '116 123']::text[], 3, 'Mental Helses hjelpetelefon.', true, true, 7),
+  ('psykologi-2:forebygging-og-behandling', 'q09', 'flervalg', 'Hva er et sosialt behandlingstiltak?', array['Samarbeid med skole og NAV om tilrettelegging', 'SSRI', 'Søvnmedisin', 'Eksponering']::text[], 0, 'Behandling på flere nivåer.', true, false, 8),
+  ('psykologi-2:forebygging-og-behandling', 'q10', 'flervalg', 'Hva anbefales ofte først ved lettere psykiske plager?', array['Innleggelse', 'Samtalebehandling', 'Sterke medisiner', 'Ingen hjelp']::text[], 1, 'Medisiner kan ha bivirkninger.', true, false, 9),
+  ('psykologi-2:forebygging-og-behandling', 'm01', 'sant-usant', 'Kombinasjonen av medisiner og terapi gir ofte best effekt ved alvorlige lidelser.', array['Sant', 'Usant']::text[], 0, 'Virker på flere nivåer.', false, true, 10),
+  ('psykologi-2:forebygging-og-behandling', 'm02', 'sant-usant', 'Helsefremming handler bare om å behandle sykdom.', array['Sant', 'Usant']::text[], 1, 'Den styrker det som gir god helse.', false, true, 11),
+  ('psykologi-2:forebygging-og-behandling', 'm03', 'sant-usant', 'Ved akutt fare for liv og helse skal man ringe 113.', array['Sant', 'Usant']::text[], 0, 'Medisinsk nødhjelp.', false, true, 12),
+  ('psykologi-2:forebygging-og-behandling', 'm04', 'sant-usant', 'Bare metoden avgjør om terapi virker, ikke relasjonen.', array['Sant', 'Usant']::text[], 1, 'Terapeutisk allianse har stor betydning.', false, true, 13),
+  ('psykologi-2:forebygging-og-behandling', 'm05', 'flervalg', 'Hvilken terapiform involverer hele familien?', array['KAT', 'Familieterapi', 'Interpersonlig terapi', 'Eksponering']::text[], 1, 'Særlig ved barn og unge.', false, true, 14),
+  ('psykologi-2:forebygging-og-behandling', 'm06', 'flervalg', 'Hva er et eksempel på indikert forebygging?', array['Kurs i å mestre nedstemthet for ungdom med symptomer', 'Livsmestring for alle elever', 'Gratis fritidsaktiviteter', 'Tiltak mot mobbing for alle']::text[], 0, 'Rettet mot tidlige symptomer.', false, true, 15),
+  ('psykologi-2:forebygging-og-behandling', 'm07', 'flervalg', 'Hvor kan du få hjelp på skolen?', array['I kantinen', 'Hos vaktmesteren', 'Hos helsesykepleier i skolehelsetjenesten', 'Ingen steder']::text[], 2, 'Første linje.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('psykologi-2:forebygging-og-behandling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'sosialkunnskap' and slug not in ('kilder-og-informasjon', 'samfunnsvitenskapelig-metode-og-teori', 'velferdsstaten', 'sosial-ulikhet-og-utenforskap', 'sosialisering', 'kjonn-og-identitet', 'velferdsforskjeller-og-sosiale-problemer', 'sosiale-problemer-og-forebygging', 'inkludering', 'menneskerettigheter-og-velferd', 'behov-i-barne-og-ungdomsarene', 'vold-og-trakassering', 'kriser');
+
+-- Sosialkunnskap: Kilder og informasjon i sosialkunnskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:kilder-og-informasjon', 'sosialkunnskap', 'kilder-og-informasjon', 'Kilder og informasjon i sosialkunnskap', 'Hvordan du finner og vurderer informasjon for å analysere samfunnsspørsmål – offentlig statistikk, forskningsrapporter og offentlige utredninger, nyheter og sosiale medier – kildekritiske spørsmål, bruk og misbruk av statistikk, og desinformasjon.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:kilder-og-informasjon', '## Hvorfor kilder er viktige
+
+Sosialkunnskap handler om **samfunnsspørsmål** der det ofte finnes **ulike** meninger – om fattigdom, velferd, kriminalitet og inkludering. For å analysere slike spørsmål må du bygge på **pålitelig** informasjon og kunne skille **fakta** fra **meninger**.
+
+## Viktige kildetyper
+
+- **Offentlig statistikk**: **Statistisk sentralbyrå (SSB)** lager statistikk om befolkning, inntekt, utdanning og arbeid. **Folkehelseinstituttet** har tall om helse.
+- **Spørreundersøkelser blant unge**: **Ungdata** kartlegger hvordan ungdom har det – venner, skole, fritid og helse.
+- **Offentlige utredninger**: **NOU-er** er grundige utredninger som ofte ligger til grunn for nye lover og reformer.
+- **Forskningsrapporter** fra universiteter og **forskningsinstitutter**.
+- **Stortingsmeldinger** viser regjeringens politikk.
+- **Nyheter** og **reportasjer**: viktige for aktuelle saker, men kan være **vinklet**.
+- **Interesseorganisasjoner**: kan ha god kunnskap, men arbeider for **bestemte** saker.
+- **Sosiale medier**: raske og mangfoldige, men uten redaksjonell kontroll.
+
+## Kildekritiske spørsmål
+
+1. **Hvem** står bak kilden, og hvilke **interesser** har de?
+2. **Når** ble den laget – er den **oppdatert**?
+3. **Hvordan** er kunnskapen framskaffet – **metode** og **utvalg**?
+4. Er det **fakta**, **tolkning** eller **mening**?
+5. Stemmer det med **andre** kilder?
+6. Hva **mangler** – hvem får ikke komme til orde?
+
+## Redaktørstyrte medier
+
+Norske **redaktørstyrte** medier følger **Vær Varsom-plakaten**, som krever at kildene er **kontrollert** og at den som angripes, får **svare**. Klager kan sendes til **Pressens Faglige Utvalg (PFU)**. Slike rutiner finnes ikke i sosiale medier.
+
+## Statistikk – bruk og misbruk
+
+- **Gjennomsnitt** og **median**: Noen få svært høye inntekter kan trekke **gjennomsnittet** opp. **Medianen** – den midterste verdien – gir ofte et bedre bilde av den typiske inntekten.
+- **Prosent** og **prosentpoeng**: Går andelen fra 10 til 15 %, er økningen **5 prosentpoeng**, men **50 prosent**.
+- **Sammenheng og årsak**: At to forhold henger sammen, betyr ikke at det ene **forårsaker** det andre.
+- **Utvalg**: En nettavstemning der hvem som helst kan svare, er ikke **representativ**.
+- **Grafer** kan villede, for eksempel ved at **aksen** ikke starter på null.
+
+## Desinformasjon
+
+**Desinformasjon** er **bevisst** falsk eller villedende informasjon, mens **feilinformasjon** er feil som spres **uten** vilje til å villede. Tegn på falske saker er **sensasjonelle** overskrifter, manglende **kilder**, **manipulerte** bilder og innhold som spiller på sterke **følelser**. **Faktisk.no** sjekker påstander i norsk offentlighet.
+
+## Fra kilder til analyse
+
+Når du analyserer et samfunnsspørsmål:
+
+- samle kilder med **ulike** perspektiver
+- vurder **kvaliteten** på hver kilde
+- bruk **fakta** og **statistikk** til å beskrive situasjonen
+- bruk **teori** for å forklare
+- **drøft** ulike syn og kom fram til en **begrunnet** konklusjon
+- oppgi kildene **tydelig**', '{"label":"Kilder","children":[{"label":"Kildetyper","children":[{"label":"SSB og Ungdata"},{"label":"NOU og forskning"},{"label":"Medier og sosiale medier"}]},{"label":"Kildekritikk","children":[{"label":"Hvem og hvorfor"},{"label":"Når og hvordan"},{"label":"Fakta eller mening"}]},{"label":"Presse","children":[{"label":"Vær Varsom-plakaten"},{"label":"PFU"}]},{"label":"Statistikk","children":[{"label":"Median og gjennomsnitt"},{"label":"Prosentpoeng"},{"label":"Villedende grafer"}]},{"label":"Desinformasjon","children":[{"label":"Tegn på falske saker"},{"label":"Faktasjekk"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:kilder-og-informasjon';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:kilder-og-informasjon', 'SSB', 'Statistisk sentralbyrå – lager offisiell statistikk.', 0),
+  ('sosialkunnskap:kilder-og-informasjon', 'Ungdata', 'Undersøkelse om hvordan ungdom har det.', 1),
+  ('sosialkunnskap:kilder-og-informasjon', 'NOU', 'Norsk offentlig utredning.', 2),
+  ('sosialkunnskap:kilder-og-informasjon', 'Stortingsmelding', 'Dokument som viser regjeringens politikk.', 3),
+  ('sosialkunnskap:kilder-og-informasjon', 'Interesseorganisasjon', 'Arbeider for bestemte saker – kan ha interesser.', 4),
+  ('sosialkunnskap:kilder-og-informasjon', 'Vær Varsom-plakaten', 'Etiske regler for norsk presse.', 5),
+  ('sosialkunnskap:kilder-og-informasjon', 'PFU', 'Pressens Faglige Utvalg – behandler klager på presseetikk.', 6),
+  ('sosialkunnskap:kilder-og-informasjon', 'Median', 'Den midterste verdien når tallene er sortert.', 7),
+  ('sosialkunnskap:kilder-og-informasjon', 'Gjennomsnitt', 'Summen delt på antallet – påvirkes av ekstreme verdier.', 8),
+  ('sosialkunnskap:kilder-og-informasjon', 'Prosentpoeng', 'Forskjellen mellom to prosenttall.', 9),
+  ('sosialkunnskap:kilder-og-informasjon', 'Representativt utvalg', 'Speiler befolkningen man vil si noe om.', 10),
+  ('sosialkunnskap:kilder-og-informasjon', 'Desinformasjon', 'Bevisst falsk eller villedende informasjon.', 11),
+  ('sosialkunnskap:kilder-og-informasjon', 'Feilinformasjon', 'Feil som spres uten vilje til å villede.', 12),
+  ('sosialkunnskap:kilder-og-informasjon', 'Faktisk.no', 'Norsk faktasjekktjeneste.', 13),
+  ('sosialkunnskap:kilder-og-informasjon', 'Kildekritikk', 'Vurdering av hvem, når, hvordan og hvorfor.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:kilder-og-informasjon';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:kilder-og-informasjon', 'q01', 'flervalg', 'Hvem lager offisiell statistikk i Norge?', array['NRK', 'Statistisk sentralbyrå', 'Stortinget', 'Faktisk.no']::text[], 1, 'SSB.', true, true, 0),
+  ('sosialkunnskap:kilder-og-informasjon', 'q02', 'flervalg', 'Hvorfor er medianinntekt ofte bedre enn gjennomsnittsinntekt?', array['Fordi den ikke påvirkes så mye av noen få svært høye inntekter', 'Fordi den alltid er høyere', 'Fordi den er lettere å regne ut', 'Fordi den er nyere']::text[], 0, 'Viser den typiske inntekten.', true, true, 1),
+  ('sosialkunnskap:kilder-og-informasjon', 'q03', 'flervalg', 'Andelen øker fra 10 % til 15 %. Hvor mange prosentpoeng er det?', array['50', '15', '5', '1,5']::text[], 2, 'Men en økning på 50 prosent.', true, true, 2),
+  ('sosialkunnskap:kilder-og-informasjon', 'q04', 'flervalg', 'Hva er en NOU?', array['En nyhetsartikkel', 'En lov', 'En statistikkbank', 'En grundig offentlig utredning']::text[], 3, 'Ligger ofte til grunn for reformer.', true, true, 3),
+  ('sosialkunnskap:kilder-og-informasjon', 'q05', 'flervalg', 'Hva er desinformasjon?', array['Bevisst falsk eller villedende informasjon', 'Feil uten vilje til å villede', 'Offentlig statistikk', 'Satire']::text[], 0, 'Feilinformasjon er utilsiktet.', true, true, 4),
+  ('sosialkunnskap:kilder-og-informasjon', 'q06', 'flervalg', 'Hvilke etiske regler følger redaktørstyrte medier?', array['Straffeloven alene', 'Vær Varsom-plakaten', 'Ingen regler', 'Reglene til sosiale medier']::text[], 1, 'Klager går til PFU.', true, true, 5),
+  ('sosialkunnskap:kilder-og-informasjon', 'q07', 'flervalg', 'Hvorfor er en nettavstemning ofte ikke representativ?', array['Fordi den er digital', 'Fordi den er gratis', 'Fordi hvem som helst kan svare', 'Fordi den er for stor']::text[], 2, 'Utvalget er selvvalgt.', true, true, 6),
+  ('sosialkunnskap:kilder-og-informasjon', 'q08', 'flervalg', 'Hvilket kildekritisk spørsmål handler om interesser?', array['Når ble den laget?', 'Hvor lang er den?', 'Hvilken font brukes?', 'Hvem står bak, og hva vil de oppnå?']::text[], 3, 'Avsender og formål.', true, true, 7),
+  ('sosialkunnskap:kilder-og-informasjon', 'q09', 'flervalg', 'Hva kartlegger Ungdata?', array['Hvordan ungdom har det', 'Boligpriser', 'Valgresultater', 'Været']::text[], 0, 'Venner, skole, fritid og helse.', true, false, 8),
+  ('sosialkunnskap:kilder-og-informasjon', 'q10', 'flervalg', 'Hvordan kan en graf villede?', array['Ved å ha farger', 'Ved at aksen ikke starter på null', 'Ved å ha tittel', 'Ved å vise tall']::text[], 1, 'Små forskjeller ser store ut.', true, false, 9),
+  ('sosialkunnskap:kilder-og-informasjon', 'm01', 'sant-usant', 'Interesseorganisasjoner kan ha god kunnskap, men arbeider for bestemte saker.', array['Sant', 'Usant']::text[], 0, 'Vurder formålet.', false, true, 10),
+  ('sosialkunnskap:kilder-og-informasjon', 'm02', 'sant-usant', 'At to forhold henger sammen, beviser at det ene forårsaker det andre.', array['Sant', 'Usant']::text[], 1, 'Sammenheng er ikke årsak.', false, true, 11),
+  ('sosialkunnskap:kilder-og-informasjon', 'm03', 'sant-usant', 'Sosiale medier har ikke samme redaksjonelle kontroll som redaktørstyrte medier.', array['Sant', 'Usant']::text[], 0, 'Vær derfor ekstra kritisk.', false, true, 12),
+  ('sosialkunnskap:kilder-og-informasjon', 'm04', 'sant-usant', 'En kilde som mangler kildehenvisninger, er alltid pålitelig.', array['Sant', 'Usant']::text[], 1, 'Manglende kilder er et varselsignal.', false, true, 13),
+  ('sosialkunnskap:kilder-og-informasjon', 'm05', 'flervalg', 'Hva gjør Faktisk.no?', array['Lager statistikk', 'Sjekker påstander i offentligheten', 'Skriver lover', 'Driver meningsmålinger']::text[], 1, 'Faktasjekk.', false, true, 14),
+  ('sosialkunnskap:kilder-og-informasjon', 'm06', 'flervalg', 'Hva bør en god analyse av et samfunnsspørsmål inneholde?', array['Fakta, teori, drøfting og begrunnet konklusjon', 'Bare egne meninger', 'Bare én kilde', 'Bare statistikk']::text[], 0, 'Med tydelige kildehenvisninger.', false, true, 15),
+  ('sosialkunnskap:kilder-og-informasjon', 'm07', 'flervalg', 'Hvilket spørsmål handler om metode?', array['Hvem står bak?', 'Når ble den laget?', 'Hvordan er kunnskapen framskaffet?', 'Hvem liker den?']::text[], 2, 'Utvalg og framgangsmåte.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:kilder-og-informasjon', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Samfunnsvitenskapelige metoder og teorier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'sosialkunnskap', 'samfunnsvitenskapelig-metode-og-teori', 'Samfunnsvitenskapelige metoder og teorier', 'Kvantitative og kvalitative metoder i samfunnsvitenskapen – spørreskjema, intervju, observasjon og dokumentanalyse – og sentrale teorier og perspektiver som funksjonalisme, konfliktperspektivet, symbolsk interaksjonisme, aktør og struktur og Bourdieus kapitalformer, og hvordan du bruker dem i egne undersøkelser.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', '## Metode
+
+**Metode** er framgangsmåten vi bruker for å skaffe **kunnskap** om samfunnet.
+
+**Kvantitative** metoder gir **tall** og kan si noe om **mange**:
+
+- **Spørreskjema** med faste svaralternativer
+- **Statistikk** fra SSB og andre
+
+Styrken er at vi kan finne **mønstre** og **sammenhenger** og **generalisere** hvis utvalget er representativt. Svakheten er at vi får lite **dybde**.
+
+**Kvalitative** metoder gir **dybdeinnsikt** i hvordan mennesker **opplever** og **forstår** verden:
+
+- **Intervju** – ofte **semistrukturert** med en intervjuguide
+- **Observasjon** – å se hva folk faktisk **gjør**, gjerne som **deltakende** observatør
+- **Dokumentanalyse** – av tekster, lover, nettsider eller medieinnhold
+
+Styrken er **nyanser** og **forståelse**. Svakheten er at resultatene er vanskeligere å **generalisere**.
+
+Mange undersøkelser **kombinerer** metodene.
+
+## Kvalitet og etikk
+
+- **Reliabilitet**: Er dataene **pålitelige**?
+- **Validitet**: Måler vi det vi **vil** måle?
+- **Etikk**: **informert samtykke**, **anonymitet** og at deltakerne ikke skal **skades**. Når en undersøkelse samler inn personopplysninger, gjelder **personvernreglene**.
+
+## Teorier og perspektiver
+
+**Teorier** hjelper oss å **forklare** det vi finner.
+
+**Funksjonalisme** – blant andre **Émile Durkheim**: Samfunnet er som en **organisme** der institusjonene – familie, skole, rettsvesen – har **funksjoner** som holder samfunnet **stabilt**. Felles **normer** og **verdier** skaper **samhold**.
+
+**Konfliktperspektivet** – med røtter hos **Karl Marx**: Samfunnet preges av **motsetninger** mellom grupper med ulik **makt** og ulike **interesser**. Institusjoner kan **opprettholde** ulikhet.
+
+**Symbolsk interaksjonisme** – blant andre **George Herbert Mead** og **Erving Goffman**: Samfunnet skapes i **samhandling** mellom mennesker. Vi tolker **symboler** og spiller **roller**. Goffman sammenlignet sosialt liv med et **teater** med **frontstage** og **backstage**.
+
+## Aktør og struktur
+
+- **Aktørperspektivet**: Mennesker gjør **valg** og kan påvirke eget liv.
+- **Strukturperspektivet**: **Rammer** som økonomi, klasse, kjønn og lover begrenser og former valgene.
+
+De fleste samfunnsforskere mener at **begge** deler betyr noe.
+
+## Bourdieus kapitalformer
+
+Den franske sosiologen **Pierre Bourdieu** beskrev ulike former for **kapital**:
+
+- **Økonomisk kapital**: penger og eiendom
+- **Kulturell kapital**: utdanning, kunnskap, språk og **smak**
+- **Sosial kapital**: **nettverk** og kontakter
+
+Kapitalen **arves** delvis og kan forklare hvorfor barn av foreldre med høy utdanning oftere tar høyere utdanning selv.
+
+## Bruke metode og teori i egne undersøkelser
+
+1. Formuler en **problemstilling** – for eksempel: *Hvordan påvirker foreldrenes økonomi ungdoms deltakelse i fritidsaktiviteter?*
+2. Velg **metode** som passer – spørreskjema for å finne omfang, intervju for å forstå opplevelser.
+3. Samle inn og **analyser** dataene.
+4. **Forklar** funnene med **teori** – for eksempel Bourdieus kapitalformer.
+5. **Vurder** svakheter i metoden og hvor langt du kan **generalisere**.
+
+## Vurdering av teorier
+
+Ingen teori forklarer alt. Funksjonalismen forklarer **stabilitet**, men mindre om **konflikt** og **endring**. Konfliktperspektivet forklarer **ulikhet**, men kan overse **samarbeid**. Interaksjonismen forklarer **hverdagslivet**, men sier mindre om store **strukturer**.', '{"label":"Metode og teori","children":[{"label":"Kvantitativ","children":[{"label":"Spørreskjema"},{"label":"Statistikk"}]},{"label":"Kvalitativ","children":[{"label":"Intervju"},{"label":"Observasjon"},{"label":"Dokumentanalyse"}]},{"label":"Kvalitet og etikk","children":[{"label":"Reliabilitet og validitet"},{"label":"Samtykke og anonymitet"}]},{"label":"Teorier","children":[{"label":"Funksjonalisme"},{"label":"Konfliktperspektiv"},{"label":"Symbolsk interaksjonisme"}]},{"label":"Begreper","children":[{"label":"Aktør og struktur"},{"label":"Bourdieus kapitalformer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:samfunnsvitenskapelig-metode-og-teori';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Kvantitativ metode', 'Gir tall og kan si noe om mange.', 0),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Kvalitativ metode', 'Gir dybdeinnsikt i opplevelser og forståelse.', 1),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Semistrukturert intervju', 'Intervju med en guide, men rom for oppfølgingsspørsmål.', 2),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Deltakende observasjon', 'Forskeren deltar i miljøet hen studerer.', 3),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Dokumentanalyse', 'Analyse av tekster, lover eller medieinnhold.', 4),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Reliabilitet', 'Pålitelighet.', 5),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Validitet', 'Gyldighet – måler det man vil måle.', 6),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Funksjonalisme', 'Institusjonene har funksjoner som holder samfunnet stabilt – Durkheim.', 7),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Konfliktperspektivet', 'Samfunnet preges av motsetninger og ulik makt – Marx.', 8),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Symbolsk interaksjonisme', 'Samfunnet skapes i samhandling – Mead og Goffman.', 9),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Frontstage og backstage', 'Goffmans bilde på roller vi spiller og når vi slapper av.', 10),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Aktørperspektiv', 'Vekt på menneskers valg.', 11),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Strukturperspektiv', 'Vekt på rammer som begrenser valgene.', 12),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Kulturell kapital', 'Utdanning, kunnskap, språk og smak – Bourdieu.', 13),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'Sosial kapital', 'Nettverk og kontakter.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:samfunnsvitenskapelig-metode-og-teori';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q01', 'flervalg', 'Hvilken metode passer best for å forstå hvordan ungdom opplever fattigdom?', array['Statistikk fra SSB', 'Intervju', 'Spørreskjema med avkrysning', 'Registerdata']::text[], 1, 'Kvalitativ dybdeinnsikt.', true, true, 0),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q02', 'flervalg', 'Hva hevder funksjonalismen?', array['At institusjonene har funksjoner som holder samfunnet stabilt', 'At samfunnet preges av klassekamp', 'At samfunnet bare skapes i samtaler', 'At individer ikke betyr noe']::text[], 0, 'Durkheim.', true, true, 1),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q03', 'flervalg', 'Hva er kulturell kapital?', array['Penger', 'Nettverk', 'Utdanning, kunnskap, språk og smak', 'Eiendom']::text[], 2, 'Bourdieu.', true, true, 2),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q04', 'flervalg', 'Hva legger konfliktperspektivet vekt på?', array['Harmoni', 'Symboler', 'Individuelle valg', 'Motsetninger og ulik makt']::text[], 3, 'Røtter hos Marx.', true, true, 3),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q05', 'flervalg', 'Hvem sammenlignet sosialt liv med et teater?', array['Erving Goffman', 'Karl Marx', 'Émile Durkheim', 'Pierre Bourdieu']::text[], 0, 'Frontstage og backstage.', true, true, 4),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q06', 'flervalg', 'Hva er en styrke ved kvantitative metoder?', array['Stor dybde', 'Mulighet til å finne mønstre og generalisere', 'Nyanserte beskrivelser', 'Personlige historier']::text[], 1, 'Hvis utvalget er representativt.', true, true, 5),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q07', 'flervalg', 'Hva er strukturperspektivet?', array['At alt skyldes egne valg', 'At samfunnet er et teater', 'At rammer som økonomi og klasse former valgene', 'At metode er unødvendig']::text[], 2, 'Aktørperspektivet vektlegger valg.', true, true, 6),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q08', 'flervalg', 'Hva er sosial kapital?', array['Utdanning', 'Smak', 'Penger', 'Nettverk og kontakter']::text[], 3, 'Bourdieu.', true, true, 7),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q09', 'flervalg', 'Hva er en svakhet ved funksjonalismen?', array['Den sier lite om konflikt og endring', 'Den forklarer bare konflikt', 'Den ignorerer institusjoner', 'Den handler bare om individer']::text[], 0, 'Forklarer best stabilitet.', true, false, 8),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'q10', 'flervalg', 'Hvorfor kombinerer mange forskere metoder?', array['For å spare tid', 'For å få både omfang og dybde', 'Fordi det er lovpålagt', 'For å unngå etikk']::text[], 1, 'Metodene utfyller hverandre.', true, false, 9),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm01', 'sant-usant', 'De fleste samfunnsforskere mener at både aktør og struktur betyr noe.', array['Sant', 'Usant']::text[], 0, 'Valg skjer innenfor rammer.', false, true, 10),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm02', 'sant-usant', 'Kvalitative metoder er lettest å generalisere fra.', array['Sant', 'Usant']::text[], 1, 'Kvantitative med representativt utvalg er lettere å generalisere fra.', false, true, 11),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm03', 'sant-usant', 'Kapital kan delvis arves etter Bourdieu.', array['Sant', 'Usant']::text[], 0, 'Forklarer sosial reproduksjon.', false, true, 12),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm04', 'sant-usant', 'Én teori kan forklare alle samfunnsfenomener.', array['Sant', 'Usant']::text[], 1, 'Teoriene utfyller hverandre.', false, true, 13),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm05', 'flervalg', 'Hvilken metode er å analysere lover og medieinnhold?', array['Intervju', 'Dokumentanalyse', 'Observasjon', 'Spørreskjema']::text[], 1, 'Kvalitativ eller kvantitativ.', false, true, 14),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm06', 'flervalg', 'Hvilken teori kan forklare at barn av høyt utdannede oftere tar høyere utdanning?', array['Bourdieus kapitalformer', 'Goffmans teater', 'Maslows pyramide', 'Durkheims organisme']::text[], 0, 'Kulturell kapital.', false, true, 15),
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 'm07', 'flervalg', 'Hva er første steg i en egen undersøkelse?', array['Skrive konklusjonen', 'Velge teori', 'Formulere en problemstilling', 'Analysere data']::text[], 2, 'Styrer valg av metode.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:samfunnsvitenskapelig-metode-og-teori', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Velferdsstaten – institusjoner, verdier og framtid
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:velferdsstaten', 'sosialkunnskap', 'velferdsstaten', 'Velferdsstaten – institusjoner, verdier og framtid', 'Hvordan den norske velferdsstaten er bygd opp – institusjoner som folketrygden, NAV, helsevesen og utdanning, politisk styring på flere nivåer, prinsipper og verdier som universalitet, likhet og solidaritet, ulike velferdsmodeller – og utfordringer for velferdsstatens framtid og bærekraft.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:velferdsstaten', '## Hva er en velferdsstat?
+
+En **velferdsstat** er et samfunn der det **offentlige** tar et stort ansvar for innbyggernes **velferd** – helse, utdanning, inntektssikring og omsorg – gjennom hele livet, fra **barnehage** til **eldreomsorg**.
+
+## Institusjoner
+
+- **Folketrygden** (1967) gir blant annet **alderspensjon**, **sykepenger**, **uføretrygd**, **foreldrepenger** og **arbeidsavklaringspenger**.
+- **NAV** – Arbeids- og velferdsforvaltningen – forvalter folketrygden og hjelper folk i **arbeid**.
+- **Helsevesenet**: **spesialisthelsetjenesten** – sykehus – eies av staten gjennom **helseforetak**, mens **kommunene** har fastleger, sykehjem og hjemmetjenester.
+- **Utdanning**: gratis offentlig **skole** og **høyere utdanning**, og **Lånekassen**.
+- **Barnevern**, **barnehager** og **sosialhjelp**.
+
+## Politisk styring
+
+Velferden styres på flere **nivåer**:
+
+- **Staten**: **Stortinget** vedtar lover og budsjett, og **regjeringen** gjennomfører politikken.
+- **Fylkeskommunene**: blant annet **videregående skole** og kollektivtrafikk.
+- **Kommunene**: barnehage, grunnskole, helse- og omsorgstjenester og sosialhjelp.
+
+Politikerne må **prioritere**: Skal pengene gå til eldreomsorg, skole, skattelette eller forsvar?
+
+## Prinsipper og verdier
+
+- **Universalitet**: Ytelser gjelder **alle** som fyller vilkårene, ikke bare de fattigste – for eksempel barnetrygd.
+- **Likhet**: like **muligheter** uavhengig av bakgrunn og bosted.
+- **Solidaritet**: De som har mye, bidrar til dem som trenger det – gjennom **skatt**.
+- **Omfordeling**: Skatter og overføringer jevner ut forskjeller.
+- **Arbeidslinja**: Det skal lønne seg å **arbeide**, og de som kan, skal delta i arbeidslivet.
+- **Tillit**: Velferdsstaten bygger på at folk **stoler** på hverandre og på det offentlige – og betaler skatt.
+
+## Velferdsmodeller
+
+Den danske sosiologen **Gøsta Esping-Andersen** skilte mellom tre modeller:
+
+- **Den nordiske** eller sosialdemokratiske: **universelle** ordninger, høye skatter, stor offentlig sektor
+- **Den liberale** – som i USA: mer **behovsprøvde** ytelser og vekt på **markedet**
+- **Den konservative** – som i Tyskland: ordninger knyttet til **arbeid** og **familie**
+
+## Finansiering
+
+Velferden finansieres hovedsakelig gjennom **skatter** og **avgifter**. I tillegg bruker staten en del av **avkastningen** fra **Statens pensjonsfond utland** – oljefondet – etter **handlingsregelen**.
+
+## Utfordringer for framtiden
+
+- **Eldrebølgen**: Flere eldre og **færre** i arbeidsfør alder per pensjonist gir økte utgifter til pensjon og omsorg.
+- **Mangel på arbeidskraft** i helse og omsorg.
+- **Mange utenfor arbeidslivet** – på trygd eller uføretrygd.
+- **Lavere oljeinntekter** på sikt og behov for **omstilling**.
+- **Økte forventninger** til tjenestene.
+- **Integrering** av innvandrere i arbeidslivet.
+- **Klimaendringer** og kostnader ved omstilling.
+
+## Løsninger som diskuteres
+
+- flere i **arbeid** og **lengre** yrkeskarrierer
+- **teknologi** og **velferdsteknologi**, som digitale løsninger i eldreomsorgen
+- **prioritering** og **effektivisering**
+- høyere **skatter** eller **egenandeler**
+- **forebygging** for å redusere behovet for dyre tjenester
+
+## Drøfting
+
+Et sentralt spørsmål er om velferdsstaten kan være både **universell** og **bærekraftig**. Noen mener mer **behovsprøving** er nødvendig, mens andre mener at universelle ordninger gir **oppslutning** og **tillit** som gjør modellen robust.', '{"label":"Velferdsstaten","children":[{"label":"Institusjoner","children":[{"label":"Folketrygden og NAV"},{"label":"Helse og utdanning"}]},{"label":"Styring","children":[{"label":"Stat"},{"label":"Fylke"},{"label":"Kommune"}]},{"label":"Verdier","children":[{"label":"Universalitet og likhet"},{"label":"Solidaritet og omfordeling"},{"label":"Arbeidslinja og tillit"}]},{"label":"Modeller","children":[{"label":"Nordisk"},{"label":"Liberal"},{"label":"Konservativ"}]},{"label":"Framtid","children":[{"label":"Eldrebølge"},{"label":"Arbeidskraft og oljeinntekter"},{"label":"Løsninger"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:velferdsstaten';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:velferdsstaten', 'Velferdsstat', 'Det offentlige tar stort ansvar for innbyggernes velferd.', 0),
+  ('sosialkunnskap:velferdsstaten', 'Folketrygden', 'Sosialforsikring fra 1967 med pensjon, sykepenger og mer.', 1),
+  ('sosialkunnskap:velferdsstaten', 'NAV', 'Arbeids- og velferdsforvaltningen.', 2),
+  ('sosialkunnskap:velferdsstaten', 'Helseforetak', 'Statlig eide selskaper som driver sykehusene.', 3),
+  ('sosialkunnskap:velferdsstaten', 'Kommunens velferdsoppgaver', 'Barnehage, grunnskole, helse- og omsorgstjenester, sosialhjelp.', 4),
+  ('sosialkunnskap:velferdsstaten', 'Universalitet', 'Ytelser gjelder alle som fyller vilkårene.', 5),
+  ('sosialkunnskap:velferdsstaten', 'Behovsprøving', 'Ytelser gis bare til dem som trenger dem.', 6),
+  ('sosialkunnskap:velferdsstaten', 'Solidaritet', 'De som har mye, bidrar til dem som trenger det.', 7),
+  ('sosialkunnskap:velferdsstaten', 'Omfordeling', 'Skatter og overføringer jevner ut forskjeller.', 8),
+  ('sosialkunnskap:velferdsstaten', 'Arbeidslinja', 'Det skal lønne seg å arbeide.', 9),
+  ('sosialkunnskap:velferdsstaten', 'Esping-Andersen', 'Delte velferdsstater inn i nordisk, liberal og konservativ modell.', 10),
+  ('sosialkunnskap:velferdsstaten', 'Handlingsregelen', 'Regel for hvor mye av oljefondet som kan brukes.', 11),
+  ('sosialkunnskap:velferdsstaten', 'Eldrebølgen', 'Økende andel eldre i befolkningen.', 12),
+  ('sosialkunnskap:velferdsstaten', 'Velferdsteknologi', 'Teknologi som gir tryggere og mer selvstendig hverdag, særlig i omsorg.', 13),
+  ('sosialkunnskap:velferdsstaten', 'Tillit', 'Grunnlaget for at folk betaler skatt og støtter velferdsstaten.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:velferdsstaten';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:velferdsstaten', 'q01', 'flervalg', 'Hva betyr universalitet i velferdsstaten?', array['At bare de fattigste får hjelp', 'At ytelser gjelder alle som fyller vilkårene', 'At alt er gratis', 'At staten eier alt']::text[], 1, 'For eksempel barnetrygd.', true, true, 0),
+  ('sosialkunnskap:velferdsstaten', 'q02', 'flervalg', 'Når ble folketrygden innført?', array['1967', '1814', '1945', '2006']::text[], 0, 'Samler mange ordninger.', true, true, 1),
+  ('sosialkunnskap:velferdsstaten', 'q03', 'flervalg', 'Hvilket forvaltningsnivå har ansvar for videregående skole?', array['Kommunen', 'Staten', 'Fylkeskommunen', 'NAV']::text[], 2, 'Tre forvaltningsnivåer.', true, true, 2),
+  ('sosialkunnskap:velferdsstaten', 'q04', 'flervalg', 'Hva er arbeidslinja?', array['At alle må jobbe i staten', 'At pensjonsalderen er 50', 'At trygd skal være høyere enn lønn', 'At det skal lønne seg å arbeide']::text[], 3, 'Et sentralt prinsipp.', true, true, 3),
+  ('sosialkunnskap:velferdsstaten', 'q05', 'flervalg', 'Hva kjennetegner den nordiske velferdsmodellen?', array['Universelle ordninger og stor offentlig sektor', 'Bare private forsikringer', 'Ingen skatt', 'Ytelser bare gjennom kirken']::text[], 0, 'Esping-Andersen.', true, true, 4),
+  ('sosialkunnskap:velferdsstaten', 'q06', 'flervalg', 'Hva er eldrebølgen?', array['Flere barn', 'En økende andel eldre i befolkningen', 'Flere innvandrere', 'Lavere levealder']::text[], 1, 'Gir økte utgifter.', true, true, 5),
+  ('sosialkunnskap:velferdsstaten', 'q07', 'flervalg', 'Hva regulerer handlingsregelen?', array['Skattesatsene', 'Pensjonsalderen', 'Hvor mye av oljefondet som kan brukes', 'Lønningene']::text[], 2, 'Bruk av avkastningen.', true, true, 6),
+  ('sosialkunnskap:velferdsstaten', 'q08', 'flervalg', 'Hvilken velferdsmodell har mer behovsprøvde ytelser og vekt på markedet?', array['Nordisk', 'Konservativ', 'Sosialdemokratisk', 'Liberal']::text[], 3, 'Som i USA.', true, true, 7),
+  ('sosialkunnskap:velferdsstaten', 'q09', 'flervalg', 'Hvorfor er tillit viktig for velferdsstaten?', array['Fordi folk da betaler skatt og støtter ordningene', 'Fordi det gir lavere skatt', 'Fordi det erstatter lover', 'Fordi det ikke har betydning']::text[], 0, 'Modellen bygger på tillit.', true, false, 8),
+  ('sosialkunnskap:velferdsstaten', 'q10', 'flervalg', 'Hva er et foreslått tiltak for en bærekraftig velferdsstat?', array['Færre i arbeid', 'Flere i arbeid og lengre yrkeskarrierer', 'Lavere pensjonsalder for alle', 'Nedleggelse av NAV']::text[], 1, 'Øker inntektene og reduserer utgiftene.', true, false, 9),
+  ('sosialkunnskap:velferdsstaten', 'm01', 'sant-usant', 'Velferden finansieres hovedsakelig gjennom skatter og avgifter.', array['Sant', 'Usant']::text[], 0, 'I tillegg bruk av oljefondet.', false, true, 10),
+  ('sosialkunnskap:velferdsstaten', 'm02', 'sant-usant', 'Kommunene har ansvar for sykehusene.', array['Sant', 'Usant']::text[], 1, 'Staten eier dem gjennom helseforetak.', false, true, 11),
+  ('sosialkunnskap:velferdsstaten', 'm03', 'sant-usant', 'Velferdsteknologi kan være en del av løsningen på eldrebølgen.', array['Sant', 'Usant']::text[], 0, 'Gir mer selvstendig hverdag.', false, true, 12),
+  ('sosialkunnskap:velferdsstaten', 'm04', 'sant-usant', 'Behovsprøving betyr at alle får ytelsen.', array['Sant', 'Usant']::text[], 1, 'Det betyr at bare de som trenger den, får den.', false, true, 13),
+  ('sosialkunnskap:velferdsstaten', 'm05', 'flervalg', 'Hvilken ytelse gir folketrygden?', array['Studielån', 'Sykepenger', 'Boliglån', 'Aksjeutbytte']::text[], 1, 'Også pensjon og foreldrepenger.', false, true, 14),
+  ('sosialkunnskap:velferdsstaten', 'm06', 'flervalg', 'Hvilket argument brukes for universelle ordninger?', array['De gir bred oppslutning og tillit', 'De er billigst', 'De gir mindre skatt', 'De krever ingen administrasjon']::text[], 0, 'Alle har nytte av dem.', false, true, 15),
+  ('sosialkunnskap:velferdsstaten', 'm07', 'flervalg', 'Hvem vedtar statsbudsjettet?', array['Regjeringen', 'Kongen', 'Stortinget', 'NAV']::text[], 2, 'Etter forslag fra regjeringen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:velferdsstaten', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Sosial ulikhet, marginalisering og utenforskap
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'sosialkunnskap', 'sosial-ulikhet-og-utenforskap', 'Sosial ulikhet, marginalisering og utenforskap', 'Hva sosial ulikhet er og hvordan den måles, årsaker til ulikhet, marginalisering og utenforskap – familiebakgrunn og sosial arv, utdanning, arbeidsmarked, helse, diskriminering og bosted – og hvilke konsekvenser dette får for individ og samfunn.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', '## Hva er sosial ulikhet?
+
+**Sosial ulikhet** betyr at grupper i samfunnet har **ulik tilgang** til goder som **inntekt**, **formue**, **utdanning**, **helse**, **makt** og **status**. Norge har **små** forskjeller sammenlignet med mange land, men forskjellene har **økt** de siste tiårene, særlig i **formue**.
+
+## Måling
+
+- **Gini-koeffisienten** måler inntektsulikhet fra **0** – alle har like mye – til **1** – én person har alt.
+- **Relativ fattigdom** – eller **lavinntekt** – måles ofte som husholdninger med under **60 %** av **medianinntekten**.
+- **Absolutt fattigdom** betyr at man mangler det mest **grunnleggende** – mat, bolig og klær.
+
+I Norge snakker vi mest om **relativ** fattigdom: å ha så lite at man ikke kan delta på **vanlige** aktiviteter i samfunnet.
+
+## Marginalisering og utenforskap
+
+- **Marginalisering** er en **prosess** der personer eller grupper skyves ut mot **kanten** av samfunnet – med svakere tilknytning til arbeid, utdanning og sosiale fellesskap.
+- **Utenforskap** er **resultatet**: å stå **utenfor** arbeidsliv, utdanning eller sosiale fellesskap.
+
+## Årsaker
+
+**Familiebakgrunn og sosial arv**: Barn av foreldre med **høy utdanning** og **inntekt** tar oftere høyere utdanning selv. Etter **Pierre Bourdieu** handler det om **kulturell**, **sosial** og **økonomisk kapital** som overføres. **Sosial mobilitet** – å bevege seg mellom lag – er likevel relativt **høy** i Norge.
+
+**Utdanning**: Å **fullføre** videregående er en av de viktigste faktorene for å komme i **arbeid**. Frafall øker risikoen for utenforskap.
+
+**Arbeidsmarkedet**: Det er stadig færre jobber for dem **uten** formell kompetanse. **Automatisering** og krav til **språk** og **digitale** ferdigheter kan stenge noen ute.
+
+**Helse**: **Psykiske** og **fysiske** helseproblemer kan gi frafall fra skole og arbeid – og lav inntekt kan igjen gi dårligere helse.
+
+**Diskriminering**: Personer med **minoritetsbakgrunn**, **funksjonsnedsettelser** eller som er **LHBTIQ+**, kan møte diskriminering – for eksempel i jobbsøking.
+
+**Bosted**: Opphopning av **levekårsutfordringer** i enkelte bydeler og kommuner kan gi dårligere tilgang til gode skoler, nettverk og arbeid.
+
+## Konsekvenser for individet
+
+- dårligere **helse** og kortere **levealder**
+- **ensomhet**, **skam** og lav **selvfølelse**
+- at barn ikke kan delta på **fritidsaktiviteter** og bursdager
+- større risiko for **rus** og **kriminalitet**
+- at utenforskap **går i arv**
+
+## Konsekvenser for samfunnet
+
+- **Tapt arbeidskraft** og **skatteinntekter**, og økte utgifter til **trygd**
+- svekket **tillit** mellom grupper og til institusjonene
+- **polarisering** og økt fare for **radikalisering**
+- mindre **samhold**
+
+Forskerne **Richard Wilkinson** og **Kate Pickett** har argumentert for at samfunn med **store** forskjeller har flere **sosiale problemer** – også for de rike.
+
+## Tiltak
+
+- **Gratis** eller rimelige barnehager og fritidstilbud
+- **Tidlig innsats** i skolen og tiltak mot **frafall**
+- **Omfordeling** gjennom skatt og ytelser
+- **Arbeidsrettede** tiltak fra NAV
+- Tiltak mot **diskriminering**
+
+## Drøfting
+
+Er ulikhet et resultat av **individuelle valg** eller av **strukturelle** forhold? De fleste samfunnsforskere mener at **begge** spiller inn – men at strukturelle forhold ofte er **undervurdert** i den offentlige debatten.', '{"label":"Sosial ulikhet","children":[{"label":"Måling","children":[{"label":"Gini"},{"label":"Relativ og absolutt fattigdom"}]},{"label":"Begreper","children":[{"label":"Marginalisering"},{"label":"Utenforskap"},{"label":"Sosial arv og mobilitet"}]},{"label":"Årsaker","children":[{"label":"Familie og utdanning"},{"label":"Arbeidsmarked og helse"},{"label":"Diskriminering og bosted"}]},{"label":"Konsekvenser","children":[{"label":"Individ"},{"label":"Samfunn"}]},{"label":"Tiltak","children":[{"label":"Tidlig innsats"},{"label":"Omfordeling"},{"label":"Arbeidsrettede tiltak"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:sosial-ulikhet-og-utenforskap';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Sosial ulikhet', 'Ulik tilgang til inntekt, formue, utdanning, helse, makt og status.', 0),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Gini-koeffisienten', 'Mål på inntektsulikhet fra 0 til 1.', 1),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Relativ fattigdom', 'Under 60 % av medianinntekten – kan ikke delta på vanlige aktiviteter.', 2),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Absolutt fattigdom', 'Mangler mat, bolig og klær.', 3),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Marginalisering', 'Prosess der noen skyves ut mot kanten av samfunnet.', 4),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Utenforskap', 'Å stå utenfor arbeid, utdanning eller sosiale fellesskap.', 5),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Sosial arv', 'Levekår og muligheter overføres fra foreldre til barn.', 6),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Sosial mobilitet', 'Bevegelse mellom sosiale lag.', 7),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Frafall', 'Å ikke fullføre videregående – øker risikoen for utenforskap.', 8),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Automatisering', 'Maskiner overtar oppgaver – færre jobber uten kompetanse.', 9),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Levekårsutfordringer', 'Opphopning av lav inntekt, dårlig helse og trangboddhet.', 10),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Diskriminering', 'Usaklig forskjellsbehandling.', 11),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Wilkinson og Pickett', 'Mener store forskjeller gir flere sosiale problemer.', 12),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Omfordeling', 'Skatt og ytelser som jevner ut forskjeller.', 13),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'Tidlig innsats', 'Hjelp før problemene vokser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:sosial-ulikhet-og-utenforskap';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q01', 'flervalg', 'Hva måler Gini-koeffisienten?', array['Arbeidsledighet', 'Inntektsulikhet', 'Befolkningsvekst', 'Levealder']::text[], 1, 'Fra 0 til 1.', true, true, 0),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q02', 'flervalg', 'Hvordan måles relativ fattigdom ofte?', array['Under 60 % av medianinntekten', 'Mindre enn 1000 kr i måneden', 'Ingen bolig', 'Arbeidsledig i ett år']::text[], 0, 'EU-definisjonen.', true, true, 1),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q03', 'flervalg', 'Hva er marginalisering?', array['Et resultat', 'En type skatt', 'En prosess der noen skyves ut mot kanten av samfunnet', 'En velferdsordning']::text[], 2, 'Utenforskap er resultatet.', true, true, 2),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q04', 'flervalg', 'Hva er sosial arv?', array['Arv av penger alene', 'Gener', 'Lover', 'At levekår og muligheter overføres fra foreldre til barn']::text[], 3, 'Bourdieus kapitalformer.', true, true, 3),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q05', 'flervalg', 'Hvilken faktor er en av de viktigste for å komme i arbeid?', array['Å fullføre videregående', 'Å bo i by', 'Å ha mange følgere', 'Å være født om sommeren']::text[], 0, 'Frafall øker risikoen for utenforskap.', true, true, 4),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q06', 'flervalg', 'Hvilken konsekvens har utenforskap for samfunnet?', array['Økte skatteinntekter', 'Tapt arbeidskraft og svekket tillit', 'Mer samhold', 'Lavere trygdeutgifter']::text[], 1, 'Også polarisering.', true, true, 5),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q07', 'flervalg', 'Hva mener Wilkinson og Pickett?', array['At ulikhet ikke betyr noe', 'At bare fattige rammes', 'At samfunn med store forskjeller har flere sosiale problemer', 'At rike land alltid er lykkeligst']::text[], 2, 'Også for de rike.', true, true, 6),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q08', 'flervalg', 'Hva har økt mest i Norge de siste tiårene?', array['Likhet i formue', 'Absolutt fattigdom', 'Andelen uten skolegang', 'Forskjeller i formue']::text[], 3, 'Forskjellene er likevel små internasjonalt.', true, true, 7),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q09', 'flervalg', 'Hvordan kan automatisering bidra til utenforskap?', array['Ved at det blir færre jobber for dem uten formell kompetanse', 'Ved å gi flere jobber til alle', 'Ved å senke skatten', 'Ved å øke lønningene']::text[], 0, 'Kravene i arbeidslivet øker.', true, false, 8),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'q10', 'flervalg', 'Hva mener de fleste samfunnsforskere om årsakene til ulikhet?', array['At det bare skyldes valg', 'At både individuelle valg og strukturer spiller inn', 'At det bare skyldes flaks', 'At det bare skyldes gener']::text[], 1, 'Aktør og struktur.', true, false, 9),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm01', 'sant-usant', 'Sosial mobilitet er relativt høy i Norge.', array['Sant', 'Usant']::text[], 0, 'Men sosial arv har likevel betydning.', false, true, 10),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm02', 'sant-usant', 'Relativ fattigdom betyr at man mangler mat og bolig.', array['Sant', 'Usant']::text[], 1, 'Det er absolutt fattigdom.', false, true, 11),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm03', 'sant-usant', 'Lav inntekt og dårlig helse kan forsterke hverandre.', array['Sant', 'Usant']::text[], 0, 'Helse og økonomi henger sammen.', false, true, 12),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm04', 'sant-usant', 'Utenforskap har bare konsekvenser for den enkelte, ikke for samfunnet.', array['Sant', 'Usant']::text[], 1, 'Det gir tapt arbeidskraft og svekket tillit.', false, true, 13),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm05', 'flervalg', 'Hva betyr en Gini-koeffisient på 0?', array['At én person har alt', 'At alle har like mye', 'At ingen har inntekt', 'At ulikheten er stor']::text[], 1, 'Fullstendig likhet.', false, true, 14),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm06', 'flervalg', 'Hvilket tiltak kan motvirke at utenforskap går i arv?', array['Gratis eller rimelige fritidstilbud for barn', 'Høyere egenandeler', 'Færre barnehager', 'Kutt i skolehelsetjenesten']::text[], 0, 'Gir alle barn mulighet til å delta.', false, true, 15),
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 'm07', 'flervalg', 'Hvilken gruppe kan møte diskriminering i jobbsøking?', array['Bare eldre', 'Ingen', 'Personer med minoritetsbakgrunn eller funksjonsnedsettelse', 'Bare de med høy utdanning']::text[], 2, 'Diskriminering er en årsak til utenforskap.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:sosial-ulikhet-og-utenforskap', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Sosialisering i endring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:sosialisering', 'sosialkunnskap', 'sosialisering', 'Sosialisering i endring', 'Hva sosialisering er, primær og sekundær sosialisering og de viktigste sosialiseringsagentene, ulike perspektiver – funksjonalistisk, konfliktperspektiv og interaksjonistisk med Mead og Cooley – og hvordan sosialiseringen har endret seg fra det tradisjonelle til det senmoderne og digitale samfunnet.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:sosialisering', '## Hva er sosialisering?
+
+**Sosialisering** er prosessen der vi lærer **normer**, **verdier**, **roller** og **ferdigheter** som gjør at vi kan fungere i samfunnet. Den varer **hele livet** – fra småbarn til pensjonist.
+
+- **Primær sosialisering** skjer i de første leveårene, først og fremst i **familien**. Barnet lærer språk, grunnleggende normer og følelsesmessig **tilknytning**.
+- **Sekundær sosialisering** skjer gjennom **barnehage**, **skole**, **venner**, **medier**, **fritidsaktiviteter** og senere **arbeidslivet**.
+
+De som påvirker oss, kalles **sosialiseringsagenter**.
+
+## Perspektiver på sosialisering
+
+**Funksjonalistisk perspektiv**: Sosialisering **overfører** felles normer og verdier fra én generasjon til den neste, slik at samfunnet blir **stabilt**. Skolen lærer for eksempel barna punktlighet og samarbeid.
+
+**Konfliktperspektivet**: Sosialisering kan **reprodusere** ulikhet. Etter **Bourdieu** får barn i ulike **klasser** ulik **kulturell kapital** hjemme, og skolen belønner ofte den kapitalen middelklassen har. Sosialisering kan også opprettholde tradisjonelle **kjønnsroller**.
+
+**Interaksjonistisk perspektiv**: Identitet skapes i **samspill** med andre.
+
+- **Charles Horton Cooley** beskrev **speilingsselvet**: Vi ser oss selv gjennom hvordan vi tror **andre** ser oss.
+- **George Herbert Mead** skilte mellom **signifikante andre** – nære personer som foreldre – og **den generaliserte andre** – samfunnets allmenne forventninger. Barnet lærer gjennom **lek** og **spill** å ta andres **perspektiv**.
+
+## Aktiv sosialisering
+
+Barn og unge er ikke bare **mottakere**. De **velger**, **tolker** og **påvirker** selv – og påvirker også foreldre og andre voksne. Vi snakker om **aktiv** sosialisering.
+
+## Endringer over tid
+
+**Det tradisjonelle samfunnet**: Familien og **lokalsamfunnet** var de viktigste agentene. Barn lærte **yrket** av foreldrene, og **kirken** hadde stor innflytelse. Normene var ofte **klare** og **felles**.
+
+**Det moderne samfunnet**: **Skolen** og **arbeidslivet** ble viktigere, og flere tok **utdanning**. Kvinner gikk ut i arbeid, og **barnehager** ble vanlige.
+
+**Det senmoderne samfunnet**: Den britiske sosiologen **Anthony Giddens** beskrev hvordan **tradisjoner** mister makt, og hvordan vi må **velge** og **skape** vår egen identitet – han kalte det **refleksivitet**. Mulighetene er mange, men det kan også gi **usikkerhet** og **press**.
+
+## Digital sosialisering
+
+- **Sosiale medier**, **spill** og **strømmetjenester** er blitt viktige sosialiseringsagenter.
+- Barn og unge møter **normer** og **idealer** fra hele verden – og fra **påvirkere**.
+- Jevnaldrende påvirker hverandre også **på nett**.
+- Foreldre og skole har **mindre kontroll** over hvilke verdier barna møter.
+
+## Andre endringer
+
+- **Flere familieformer**: samboere, skilte foreldre, regnbuefamilier og **bonusfamilier**
+- **Mer tid i institusjoner**: barnehage, skole og SFO
+- **Flerkulturelle** samfunn der barn kan møte ulike normer hjemme og ute
+- **Forhandlingsfamilien**: mer **dialog** og mindre **autoritær** oppdragelse
+
+## Drøfting
+
+Har familien mistet betydning? Mange mener at familien fortsatt er den **viktigste** sosialiseringsagenten, særlig for **verdier** og **tilknytning**, men at den deler innflytelsen med **flere** agenter enn før. Endringene gir **frihet** og **muligheter**, men også nye **utfordringer**.', '{"label":"Sosialisering","children":[{"label":"Typer","children":[{"label":"Primær"},{"label":"Sekundær"},{"label":"Aktiv sosialisering"}]},{"label":"Perspektiver","children":[{"label":"Funksjonalisme"},{"label":"Konflikt og Bourdieu"},{"label":"Interaksjonisme"}]},{"label":"Interaksjonisme","children":[{"label":"Speilingsselvet"},{"label":"Signifikante og generaliserte andre"}]},{"label":"Endring","children":[{"label":"Tradisjonelt"},{"label":"Moderne"},{"label":"Senmoderne"}]},{"label":"I dag","children":[{"label":"Digital sosialisering"},{"label":"Nye familieformer"},{"label":"Flerkulturelt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:sosialisering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:sosialisering', 'Sosialisering', 'Prosessen der vi lærer normer, verdier, roller og ferdigheter.', 0),
+  ('sosialkunnskap:sosialisering', 'Primær sosialisering', 'Første leveår, særlig i familien.', 1),
+  ('sosialkunnskap:sosialisering', 'Sekundær sosialisering', 'Gjennom barnehage, skole, venner, medier og arbeid.', 2),
+  ('sosialkunnskap:sosialisering', 'Sosialiseringsagent', 'Person eller institusjon som påvirker sosialiseringen.', 3),
+  ('sosialkunnskap:sosialisering', 'Funksjonalistisk syn', 'Sosialisering overfører felles normer og gir stabilitet.', 4),
+  ('sosialkunnskap:sosialisering', 'Konfliktperspektiv', 'Sosialisering kan reprodusere ulikhet.', 5),
+  ('sosialkunnskap:sosialisering', 'Speilingsselvet', 'Vi ser oss selv gjennom hvordan andre ser oss – Cooley.', 6),
+  ('sosialkunnskap:sosialisering', 'Signifikante andre', 'Nære personer som foreldre – Mead.', 7),
+  ('sosialkunnskap:sosialisering', 'Den generaliserte andre', 'Samfunnets allmenne forventninger – Mead.', 8),
+  ('sosialkunnskap:sosialisering', 'Aktiv sosialisering', 'Barn og unge velger, tolker og påvirker selv.', 9),
+  ('sosialkunnskap:sosialisering', 'Senmoderne samfunn', 'Tradisjoner mister makt, og identitet må skapes.', 10),
+  ('sosialkunnskap:sosialisering', 'Refleksivitet', 'Å vurdere og velge egen identitet – Giddens.', 11),
+  ('sosialkunnskap:sosialisering', 'Digital sosialisering', 'Sosiale medier og spill som sosialiseringsagenter.', 12),
+  ('sosialkunnskap:sosialisering', 'Forhandlingsfamilien', 'Mer dialog og mindre autoritær oppdragelse.', 13),
+  ('sosialkunnskap:sosialisering', 'Bonusfamilie', 'Familie med stebarn og steforeldre.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:sosialisering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:sosialisering', 'q01', 'flervalg', 'Hvor skjer primær sosialisering først og fremst?', array['I skolen', 'I familien', 'På jobb', 'I sosiale medier']::text[], 1, 'I de første leveårene.', true, true, 0),
+  ('sosialkunnskap:sosialisering', 'q02', 'flervalg', 'Hva er speilingsselvet?', array['At vi ser oss selv gjennom hvordan andre ser oss', 'At vi ser oss i speilet', 'At vi etterligner foreldre', 'At vi er like alle andre']::text[], 0, 'Cooley.', true, true, 1),
+  ('sosialkunnskap:sosialisering', 'q03', 'flervalg', 'Hva mener konfliktperspektivet om sosialisering?', array['At den alltid gir likhet', 'At den bare skjer i familien', 'At den kan reprodusere ulikhet', 'At den ikke finnes']::text[], 2, 'For eksempel gjennom kulturell kapital.', true, true, 2),
+  ('sosialkunnskap:sosialisering', 'q04', 'flervalg', 'Hva er den generaliserte andre?', array['En nær venn', 'En lærer', 'Foreldre', 'Samfunnets allmenne forventninger']::text[], 3, 'Mead.', true, true, 3),
+  ('sosialkunnskap:sosialisering', 'q05', 'flervalg', 'Hva kjennetegner det senmoderne samfunnet ifølge Giddens?', array['At tradisjoner mister makt og identitet må skapes', 'At kirken bestemmer alt', 'At alle har samme yrke som foreldrene', 'At familien er uten betydning']::text[], 0, 'Refleksivitet.', true, true, 4),
+  ('sosialkunnskap:sosialisering', 'q06', 'flervalg', 'Hva betyr aktiv sosialisering?', array['At barn er passive mottakere', 'At barn og unge velger, tolker og påvirker selv', 'At bare voksne sosialiseres', 'At sosialisering skjer ved trening']::text[], 1, 'Også foreldre påvirkes.', true, true, 5),
+  ('sosialkunnskap:sosialisering', 'q07', 'flervalg', 'Hvilken endring har skjedd i sosialiseringen?', array['Færre sosialiseringsagenter', 'Mer makt til kirken', 'Flere agenter, blant annet digitale medier', 'Mindre tid i institusjoner']::text[], 2, 'Barn tilbringer mer tid i barnehage og skole.', true, true, 6),
+  ('sosialkunnskap:sosialisering', 'q08', 'flervalg', 'Hva er en sosialiseringsagent?', array['En hemmelig agent', 'En lov', 'En type skole', 'En person eller institusjon som påvirker sosialiseringen']::text[], 3, 'Familie, skole, venner, medier.', true, true, 7),
+  ('sosialkunnskap:sosialisering', 'q09', 'flervalg', 'Hva mener mange om familiens betydning i dag?', array['At den fortsatt er viktigst, men deler innflytelsen med flere', 'At den ikke betyr noe', 'At den har all makt', 'At skolen har overtatt helt']::text[], 0, 'Særlig for verdier og tilknytning.', true, false, 8),
+  ('sosialkunnskap:sosialisering', 'q10', 'flervalg', 'Hva er forhandlingsfamilien?', array['En familie som selger varer', 'En familie med mer dialog og mindre autoritær oppdragelse', 'En familie uten regler', 'En storfamilie']::text[], 1, 'Barn får mer innflytelse.', true, false, 9),
+  ('sosialkunnskap:sosialisering', 'm01', 'sant-usant', 'Sosialisering varer hele livet.', array['Sant', 'Usant']::text[], 0, 'Vi lærer nye roller hele tiden.', false, true, 10),
+  ('sosialkunnskap:sosialisering', 'm02', 'sant-usant', 'I det tradisjonelle samfunnet var normene ofte uklare og svært ulike.', array['Sant', 'Usant']::text[], 1, 'Normene var ofte klare og felles.', false, true, 11),
+  ('sosialkunnskap:sosialisering', 'm03', 'sant-usant', 'Påvirkere i sosiale medier kan fungere som sosialiseringsagenter.', array['Sant', 'Usant']::text[], 0, 'De formidler normer og idealer.', false, true, 12),
+  ('sosialkunnskap:sosialisering', 'm04', 'sant-usant', 'Etter Bourdieu belønner skolen alle former for kulturell kapital likt.', array['Sant', 'Usant']::text[], 1, 'Den belønner ofte middelklassens kapital.', false, true, 13),
+  ('sosialkunnskap:sosialisering', 'm05', 'flervalg', 'Hvem beskrev signifikante og generaliserte andre?', array['Giddens', 'Mead', 'Durkheim', 'Marx']::text[], 1, 'Gjennom lek og spill.', false, true, 14),
+  ('sosialkunnskap:sosialisering', 'm06', 'flervalg', 'Hva kan være en utfordring i det senmoderne samfunnet?', array['Usikkerhet og press ved mange valg', 'For få valgmuligheter', 'Ingen utdanning', 'At alle har samme yrke']::text[], 0, 'Frihet gir også ansvar.', false, true, 15),
+  ('sosialkunnskap:sosialisering', 'm07', 'flervalg', 'Hvilken endring har skjedd i familieformer?', array['Bare kjernefamilier', 'Færre skilsmisser', 'Flere familieformer som bonus- og regnbuefamilier', 'Ingen endring']::text[], 2, 'Mangfoldet har økt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:sosialisering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Kjønn og identitet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:kjonn-og-identitet', 'sosialkunnskap', 'kjonn-og-identitet', 'Kjønn og identitet', 'Ulike perspektiver på kjønn – biologisk, sosialt og juridisk kjønn, kjønnsroller i endring, kjønnsidentitet og kjønnsuttrykk, seksuell orientering, essensialisme og sosialkonstruktivisme, interseksjonalitet – og refleksjon over holdninger til egen og andres identitet.', array[6]::int[], 5, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:kjonn-og-identitet', '## Hva er kjønn?
+
+Kjønn kan forstås på flere måter:
+
+- **Biologisk kjønn**: kromosomer, hormoner og kroppslige kjennetegn. Noen er født med **variasjoner** i kjønnsutvikling.
+- **Sosialt kjønn**: forventninger, normer og **roller** som samfunnet knytter til det å være kvinne eller mann.
+- **Juridisk kjønn**: kjønnet som er registrert i **folkeregisteret**. Siden **2016** kan personer over 16 år selv søke om å endre juridisk kjønn.
+
+## Kjønnsidentitet, kjønnsuttrykk og seksualitet
+
+- **Kjønnsidentitet**: hvilket kjønn man **opplever** å være. Den kan være i samsvar med kjønnet man ble tildelt ved fødselen (**cis**), eller ikke (**trans**). Noen opplever seg som **ikke-binære** – verken bare kvinne eller mann.
+- **Kjønnsuttrykk**: hvordan man **uttrykker** kjønn gjennom klær, hår, kroppsspråk og stemme.
+- **Seksuell orientering**: hvem man blir **forelsket** i eller tiltrukket av – for eksempel hetero, homo, bi eller aseksuell.
+
+Dette er **ulike** dimensjoner. En person kan for eksempel være trans og hetero, eller cis og homofil.
+
+## Kjønnsroller i endring
+
+I det **tradisjonelle** samfunnet var det tydelig **arbeidsdeling**: Menn var **forsørgere**, og kvinner hadde ansvar for **hjem** og **barn**. Fra 1970-tallet har rollene endret seg mye i Norge:
+
+- Kvinner tar mer **utdanning** enn menn og er i stor grad i **arbeid**.
+- **Fedrekvoten** har gitt flere fedre omsorgsansvar.
+- **Likestillingsloven** og senere **likestillings- og diskrimineringsloven** forbyr diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering.
+
+Likevel finnes forskjeller: **Kjønnsdelt** arbeidsmarked, **lønnsforskjeller**, flere kvinner i **deltid** og flere menn i **toppledelse**.
+
+## Perspektiver
+
+- **Essensialisme**: Forskjeller mellom kjønnene skyldes i hovedsak **medfødte**, biologiske forskjeller.
+- **Sosialkonstruktivisme**: Mye av det vi forbinder med kjønn, er **skapt** av kultur, sosialisering og forventninger – og kan derfor **endres**.
+- **Samspill**: Mange forskere mener at biologi og kultur **samvirker**.
+
+**Interseksjonalitet** betyr at kjønn **krysser** andre kategorier som **klasse**, **etnisitet**, **funksjonsevne** og **seksualitet**. En minoritetskvinne kan møte andre utfordringer enn en majoritetskvinne.
+
+## Identitet
+
+**Identitet** er vår oppfatning av **hvem vi er**. Den består av **personlig** identitet – egenskaper og erfaringer – og **sosial** identitet – gruppene vi tilhører. I det senmoderne samfunnet er identitet i større grad noe man **skaper** og **utforsker**.
+
+## Holdninger og minoritetsstress
+
+Holdninger til kjønn og seksualitet har blitt mer **åpne** i Norge, men mange **LHBTIQ+**-personer opplever fortsatt **hets**, **diskriminering** og **utestengning**. **Minoritetsstress** er den ekstra belastningen ved å tilhøre en gruppe som møter **fordommer** – for eksempel å måtte vurdere om man kan være åpen. Forskning viser at mange i disse gruppene har høyere forekomst av **psykiske helseplager**.
+
+**Negativ sosial kontroll** – at familie eller miljø begrenser hvem man kan være sammen med eller hvordan man kan leve – rammer også noen unge.
+
+## Refleksjon
+
+Når du reflekterer over holdninger til egen og andres identitet, kan du spørre:
+
+- Hvilke **forventninger** har jeg møtt knyttet til kjønn?
+- Hvilke **ord** og **vitser** bruker vi, og hvordan kan de oppleves?
+- Hvordan kan jeg bidra til at andre kan **være seg selv**?
+
+Respekt for andres identitet handler ikke om å være **enig** i alt, men om å anerkjenne andres rett til å **definere seg selv** og leve et **trygt** liv.', '{"label":"Kjønn og identitet","children":[{"label":"Kjønn","children":[{"label":"Biologisk"},{"label":"Sosialt"},{"label":"Juridisk"}]},{"label":"Dimensjoner","children":[{"label":"Kjønnsidentitet"},{"label":"Kjønnsuttrykk"},{"label":"Seksuell orientering"}]},{"label":"Roller","children":[{"label":"Tradisjonell arbeidsdeling"},{"label":"Likestilling og fedrekvote"},{"label":"Gjenstående forskjeller"}]},{"label":"Perspektiver","children":[{"label":"Essensialisme"},{"label":"Sosialkonstruktivisme"},{"label":"Interseksjonalitet"}]},{"label":"Holdninger","children":[{"label":"Minoritetsstress"},{"label":"Negativ sosial kontroll"},{"label":"Respekt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:kjonn-og-identitet';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:kjonn-og-identitet', 'Biologisk kjønn', 'Kromosomer, hormoner og kroppslige kjennetegn.', 0),
+  ('sosialkunnskap:kjonn-og-identitet', 'Sosialt kjønn', 'Forventninger og roller samfunnet knytter til kjønn.', 1),
+  ('sosialkunnskap:kjonn-og-identitet', 'Juridisk kjønn', 'Kjønnet registrert i folkeregisteret.', 2),
+  ('sosialkunnskap:kjonn-og-identitet', 'Kjønnsidentitet', 'Hvilket kjønn man opplever å være.', 3),
+  ('sosialkunnskap:kjonn-og-identitet', 'Cis', 'Kjønnsidentitet i samsvar med kjønnet tildelt ved fødselen.', 4),
+  ('sosialkunnskap:kjonn-og-identitet', 'Trans', 'Kjønnsidentitet ikke i samsvar med kjønnet tildelt ved fødselen.', 5),
+  ('sosialkunnskap:kjonn-og-identitet', 'Ikke-binær', 'Opplever seg verken bare som kvinne eller mann.', 6),
+  ('sosialkunnskap:kjonn-og-identitet', 'Kjønnsuttrykk', 'Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk.', 7),
+  ('sosialkunnskap:kjonn-og-identitet', 'Seksuell orientering', 'Hvem man blir forelsket i eller tiltrukket av.', 8),
+  ('sosialkunnskap:kjonn-og-identitet', 'Essensialisme', 'Kjønnsforskjeller skyldes i hovedsak biologi.', 9),
+  ('sosialkunnskap:kjonn-og-identitet', 'Sosialkonstruktivisme', 'Mye av kjønn er skapt av kultur og forventninger.', 10),
+  ('sosialkunnskap:kjonn-og-identitet', 'Interseksjonalitet', 'Kjønn krysser klasse, etnisitet, funksjonsevne og seksualitet.', 11),
+  ('sosialkunnskap:kjonn-og-identitet', 'Fedrekvoten', 'Del av foreldrepermisjonen forbeholdt far.', 12),
+  ('sosialkunnskap:kjonn-og-identitet', 'Minoritetsstress', 'Ekstra belastning ved å tilhøre en gruppe som møter fordommer.', 13),
+  ('sosialkunnskap:kjonn-og-identitet', 'Negativ sosial kontroll', 'Familie eller miljø begrenser hvordan man kan leve.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:kjonn-og-identitet';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:kjonn-og-identitet', 'q01', 'flervalg', 'Hva er kjønnsidentitet?', array['Hvem man blir forelsket i', 'Hvilket kjønn man opplever å være', 'Hvordan man kler seg', 'Kjønnet i passet']::text[], 1, 'Ulikt seksuell orientering.', true, true, 0),
+  ('sosialkunnskap:kjonn-og-identitet', 'q02', 'flervalg', 'Fra hvilket år kan personer over 16 år selv søke om å endre juridisk kjønn?', array['2016', '1972', '2000', '2023']::text[], 0, 'Lov om endring av juridisk kjønn.', true, true, 1),
+  ('sosialkunnskap:kjonn-og-identitet', 'q03', 'flervalg', 'Hva hevder sosialkonstruktivismen?', array['At alt skyldes gener', 'At kjønn ikke finnes', 'At mye av det vi forbinder med kjønn, er skapt av kultur og forventninger', 'At kjønnsroller aldri endres']::text[], 2, 'Kan derfor endres.', true, true, 2),
+  ('sosialkunnskap:kjonn-og-identitet', 'q04', 'flervalg', 'Hva er interseksjonalitet?', array['Et trafikkryss', 'En lov', 'En diagnose', 'At kjønn krysser andre kategorier som klasse og etnisitet']::text[], 3, 'Gir ulike erfaringer.', true, true, 3),
+  ('sosialkunnskap:kjonn-og-identitet', 'q05', 'flervalg', 'Hva er minoritetsstress?', array['Ekstra belastning ved å tilhøre en gruppe som møter fordommer', 'Stress på jobben', 'Eksamenspress', 'Stress ved flytting']::text[], 0, 'Kan gi psykiske helseplager.', true, true, 4),
+  ('sosialkunnskap:kjonn-og-identitet', 'q06', 'flervalg', 'Hvilken endring i kjønnsroller har skjedd i Norge?', array['Færre kvinner i arbeid', 'Kvinner tar mer utdanning enn menn', 'Menn tar all omsorg', 'Ingen endring']::text[], 1, 'Store endringer siden 1970-tallet.', true, true, 5),
+  ('sosialkunnskap:kjonn-og-identitet', 'q07', 'flervalg', 'Hva er kjønnsuttrykk?', array['Kjønn i folkeregisteret', 'Kromosomer', 'Hvordan man uttrykker kjønn gjennom klær, hår og kroppsspråk', 'Hvem man er forelsket i']::text[], 2, 'Kan variere uavhengig av identitet.', true, true, 6),
+  ('sosialkunnskap:kjonn-og-identitet', 'q08', 'flervalg', 'Hva forbyr likestillings- og diskrimineringsloven?', array['Deltid', 'Fedrekvote', 'Utdanning', 'Diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering']::text[], 3, 'Også andre grunnlag.', true, true, 7),
+  ('sosialkunnskap:kjonn-og-identitet', 'q09', 'flervalg', 'Hva hevder essensialismen?', array['At kjønnsforskjeller i hovedsak skyldes biologi', 'At kjønn er helt sosialt skapt', 'At kjønn er juridisk', 'At kjønn ikke betyr noe']::text[], 0, 'Medfødte forskjeller.', true, false, 8),
+  ('sosialkunnskap:kjonn-og-identitet', 'q10', 'flervalg', 'Hva innebærer respekt for andres identitet?', array['At man må være enig i alt', 'At man anerkjenner andres rett til å definere seg selv', 'At man ikke snakker om kjønn', 'At alle skal være like']::text[], 1, 'Og leve et trygt liv.', true, false, 9),
+  ('sosialkunnskap:kjonn-og-identitet', 'm01', 'sant-usant', 'Kjønnsidentitet og seksuell orientering er ulike dimensjoner.', array['Sant', 'Usant']::text[], 0, 'En person kan være trans og hetero.', false, true, 10),
+  ('sosialkunnskap:kjonn-og-identitet', 'm02', 'sant-usant', 'Det finnes ikke lenger kjønnsforskjeller i det norske arbeidsmarkedet.', array['Sant', 'Usant']::text[], 1, 'Det er fortsatt et kjønnsdelt arbeidsmarked og lønnsforskjeller.', false, true, 11),
+  ('sosialkunnskap:kjonn-og-identitet', 'm03', 'sant-usant', 'Mange forskere mener at biologi og kultur samvirker.', array['Sant', 'Usant']::text[], 0, 'Ikke enten–eller.', false, true, 12),
+  ('sosialkunnskap:kjonn-og-identitet', 'm04', 'sant-usant', 'Alle LHBTIQ+-personer i Norge opplever full aksept.', array['Sant', 'Usant']::text[], 1, 'Mange opplever fortsatt hets og diskriminering.', false, true, 13),
+  ('sosialkunnskap:kjonn-og-identitet', 'm05', 'flervalg', 'Hva betyr ikke-binær?', array['Å være homofil', 'Å oppleve seg verken bare som kvinne eller mann', 'Å være cis', 'Å ikke ha noen identitet']::text[], 1, 'En kjønnsidentitet.', false, true, 14),
+  ('sosialkunnskap:kjonn-og-identitet', 'm06', 'flervalg', 'Hva har fedrekvoten ført til?', array['At flere fedre tar omsorgsansvar', 'At færre kvinner jobber', 'Lavere fødselstall', 'At mødre får mindre permisjon totalt']::text[], 0, 'Endrede kjønnsroller.', false, true, 15),
+  ('sosialkunnskap:kjonn-og-identitet', 'm07', 'flervalg', 'Hva er sosial identitet?', array['Ens personlighet', 'Ens gener', 'Gruppene man tilhører', 'Ens navn']::text[], 2, 'Personlig identitet er egenskaper og erfaringer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:kjonn-og-identitet', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Velferdsforskjeller og sosiale problemer
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'sosialkunnskap', 'velferdsforskjeller-og-sosiale-problemer', 'Velferdsforskjeller og sosiale problemer', 'Hvordan forskjeller i inntekt, utdanning, bolig og helse henger sammen med sosiale problemer som dårlig helse, rus, kriminalitet og frafall – den sosiale gradienten, barn i lavinntektsfamilier, opphopning av levekårsutfordringer – og hvilke konsekvenser det får for individ og samfunn.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', '## Hva er velferdsforskjeller?
+
+**Velferdsforskjeller** er forskjeller i **levekår** – inntekt, formue, utdanning, bolig, helse, arbeid og sosiale nettverk. Selv i et rikt land som Norge er det store forskjeller mellom grupper og mellom **bydeler** og **kommuner**.
+
+## Den sosiale gradienten
+
+Forskning viser en **sosial gradient** i helse: For hvert trinn **opp** på inntekts- og utdanningsstigen blir helsen i gjennomsnitt **bedre**. Personer med **høy** inntekt og utdanning lever i gjennomsnitt **flere år** lenger enn personer med lav inntekt og utdanning. Gradienten gjelder ikke bare de fattigste – den går gjennom **hele** befolkningen.
+
+## Sammenhenger med sosiale problemer
+
+**Helse**: Lav inntekt henger sammen med mer **røyking**, mindre fysisk aktivitet, dårligere **kosthold** og mer **stress**. Samtidig kan **sykdom** føre til lav inntekt. Sammenhengen går **begge veier**.
+
+**Psykisk helse**: Økonomiske bekymringer, **trangboddhet** og utrygghet gir **stress** i familien, som kan gå ut over både voksne og barn.
+
+**Rus**: Rusproblemer finnes i alle lag, men **konsekvensene** – tap av bolig, arbeid og helse – er ofte størst for dem med få ressurser.
+
+**Kriminalitet**: Kriminalitet er mer utbredt i områder med **opphopning** av levekårsutfordringer. Årsakene er sammensatte: **fattigdom**, **frafall**, **utenforskap**, svake **nettverk** og **negative** miljøer.
+
+**Utdanning og frafall**: Barn fra familier med **lav** inntekt og utdanning har i gjennomsnitt **svakere** skoleresultater og høyere **frafall**.
+
+## Barn i lavinntektsfamilier
+
+Andelen barn som vokser opp i familier med **vedvarende lavinntekt**, har **økt** i Norge de siste tiårene. Mange av dem har foreldre med **innvandrerbakgrunn** eller foreldre som står **utenfor** arbeidslivet. For barna kan det bety
+
+- at de ikke kan delta i **fritidsaktiviteter**, turer og bursdager
+- **trangboddhet** og hyppige **flyttinger**
+- **skam** og **utenforskap**
+- at **ulikheten går i arv**
+
+## Årsak eller sammenheng?
+
+Når vi ser at to forhold henger sammen, må vi spørre om det ene **forårsaker** det andre, om det går **begge veier**, eller om en **tredje** faktor påvirker begge. Fattigdom kan gi dårlig helse, dårlig helse kan gi fattigdom, og lav utdanning kan påvirke begge.
+
+## Konsekvenser for individet
+
+- dårligere **helse** og kortere **levealder**
+- færre **muligheter** til utdanning og arbeid
+- **stress**, **skam** og **ensomhet**
+- større risiko for å bli **utsatt** for eller **begå** kriminalitet
+
+## Konsekvenser for samfunnet
+
+- høyere utgifter til **helse**, **trygd** og **rettsvesen**
+- tapt **arbeidskraft**
+- svekket **tillit** og **samhold**
+- risiko for **segregering** – at grupper bor og lever **atskilt**
+
+## Tiltak
+
+- **Områdesatsinger** i utsatte bydeler med bedre skoler, møteplasser og tjenester
+- **Fritidskort** og gratis aktiviteter for barn
+- **Familiestøtte** og arbeidsrettede tiltak for foreldre
+- **Folkehelsetiltak** som når alle, for eksempel røykeslutt og fysisk aktivitet i skolen
+
+## Drøfting
+
+Skal politikken rette seg mot de **fattigste**, eller mot hele **gradienten**? Mange folkehelseforskere argumenterer for **proporsjonal universalisme**: tiltak for **alle**, men med **mer** innsats der behovet er størst.', '{"label":"Velferdsforskjeller","children":[{"label":"Forskjeller","children":[{"label":"Inntekt og formue"},{"label":"Bolig og bosted"},{"label":"Helse og utdanning"}]},{"label":"Sammenhenger","children":[{"label":"Sosial gradient"},{"label":"Rus og kriminalitet"},{"label":"Frafall"}]},{"label":"Barn","children":[{"label":"Vedvarende lavinntekt"},{"label":"Utenforskap"}]},{"label":"Konsekvenser","children":[{"label":"Individ"},{"label":"Samfunn og segregering"}]},{"label":"Tiltak","children":[{"label":"Områdesatsing"},{"label":"Fritidskort"},{"label":"Proporsjonal universalisme"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:velferdsforskjeller-og-sosiale-problemer';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Velferdsforskjeller', 'Forskjeller i levekår som inntekt, bolig, helse og utdanning.', 0),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Sosial gradient', 'For hvert trinn opp på stigen blir helsen bedre.', 1),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Levealdersforskjeller', 'Høy inntekt og utdanning gir i gjennomsnitt flere leveår.', 2),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Toveis sammenheng', 'Fattigdom kan gi sykdom, og sykdom kan gi fattigdom.', 3),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Trangboddhet', 'For lite plass i boligen i forhold til antall personer.', 4),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Vedvarende lavinntekt', 'Lav inntekt over flere år.', 5),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Opphopning av levekårsutfordringer', 'Mange problemer samlet i samme område eller familie.', 6),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Segregering', 'At grupper bor og lever atskilt.', 7),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Områdesatsing', 'Samlet innsats i utsatte bydeler.', 8),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Fritidskort', 'Ordning som gir barn mulighet til fritidsaktiviteter.', 9),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Folkehelsetiltak', 'Tiltak som når hele befolkningen.', 10),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Proporsjonal universalisme', 'Tiltak for alle, men mer innsats der behovet er størst.', 11),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Tredjevariabel', 'En faktor som påvirker begge forholdene i en sammenheng.', 12),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Frafall', 'Å ikke fullføre videregående opplæring.', 13),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'Sosiale problemer', 'Forhold som skader mange og krever samfunnets innsats.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:velferdsforskjeller-og-sosiale-problemer';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q01', 'flervalg', 'Hva er den sosiale gradienten i helse?', array['At bare de fattigste har dårlig helse', 'At helsen i gjennomsnitt blir bedre for hvert trinn opp på inntekts- og utdanningsstigen', 'At alle har like god helse', 'At rike har dårligst helse']::text[], 1, 'Gjelder hele befolkningen.', true, true, 0),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q02', 'flervalg', 'Hva betyr at sammenhengen mellom fattigdom og helse går begge veier?', array['At fattigdom kan gi dårlig helse, og dårlig helse kan gi fattigdom', 'At det ikke er noen sammenheng', 'At helse bare påvirker inntekt', 'At inntekt bare påvirker helse']::text[], 0, 'Toveis sammenheng.', true, true, 1),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q03', 'flervalg', 'Hva har skjedd med andelen barn i vedvarende lavinntekt i Norge de siste tiårene?', array['Den har falt kraftig', 'Den er uendret', 'Den har økt', 'Den er null']::text[], 2, 'Et viktig politisk tema.', true, true, 2),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q04', 'flervalg', 'Hva er segregering?', array['Integrering', 'En skatt', 'En velferdsordning', 'At grupper bor og lever atskilt']::text[], 3, 'En mulig konsekvens av store forskjeller.', true, true, 3),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q05', 'flervalg', 'Hva er proporsjonal universalisme?', array['Tiltak for alle, men mer innsats der behovet er størst', 'Tiltak bare for de rikeste', 'Ingen tiltak', 'Like tiltak for alle uten forskjell']::text[], 0, 'Rettet mot hele gradienten.', true, true, 4),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q06', 'flervalg', 'Hvilken konsekvens kan lavinntekt ha for barn?', array['Flere fritidsaktiviteter', 'At de ikke kan delta i aktiviteter som andre barn', 'Bedre skoleresultater', 'Mer plass hjemme']::text[], 1, 'Kan gi skam og utenforskap.', true, true, 5),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q07', 'flervalg', 'Hva er en områdesatsing?', array['En skatteordning', 'En idrettskonkurranse', 'Samlet innsats i utsatte bydeler', 'En type lån']::text[], 2, 'Bedre skoler, møteplasser og tjenester.', true, true, 6),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q08', 'flervalg', 'Hvorfor må vi skille mellom sammenheng og årsak?', array['Fordi statistikk alltid er feil', 'Fordi det er lovpålagt', 'Fordi sammenhenger aldri finnes', 'Fordi en tredje faktor kan påvirke begge forholdene']::text[], 3, 'For eksempel utdanning.', true, true, 7),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q09', 'flervalg', 'Hvilken samfunnskonsekvens har store velferdsforskjeller?', array['Høyere utgifter til helse, trygd og rettsvesen', 'Mer tillit', 'Lavere utgifter', 'Flere i arbeid']::text[], 0, 'Og tapt arbeidskraft.', true, false, 8),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'q10', 'flervalg', 'Hvilke faktorer bidrar til kriminalitet i utsatte områder?', array['Bare gener', 'Fattigdom, frafall, utenforskap og svake nettverk', 'Bare været', 'Høy inntekt']::text[], 1, 'Sammensatte årsaker.', true, false, 9),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm01', 'sant-usant', 'Rusproblemer finnes i alle samfunnslag.', array['Sant', 'Usant']::text[], 0, 'Men konsekvensene er ofte størst for dem med få ressurser.', false, true, 10),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm02', 'sant-usant', 'Den sosiale gradienten gjelder bare de aller fattigste.', array['Sant', 'Usant']::text[], 1, 'Den går gjennom hele befolkningen.', false, true, 11),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm03', 'sant-usant', 'Trangboddhet kan gi stress i familien.', array['Sant', 'Usant']::text[], 0, 'Påvirker både voksne og barn.', false, true, 12),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm04', 'sant-usant', 'Det er ingen levekårsforskjeller mellom bydeler i norske byer.', array['Sant', 'Usant']::text[], 1, 'Forskjellene kan være store.', false, true, 13),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm05', 'flervalg', 'Hvilket tiltak når hele befolkningen?', array['Områdesatsing', 'Folkehelsetiltak som fysisk aktivitet i skolen', 'Sosialhjelp', 'Fengselsstraff']::text[], 1, 'Universelle tiltak.', false, true, 14),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm06', 'flervalg', 'Hvilken gruppe er overrepresentert blant barn i lavinntektsfamilier?', array['Barn med foreldre med innvandrerbakgrunn eller utenfor arbeidslivet', 'Barn av ledere', 'Barn i spredtbygde strøk alene', 'Ingen gruppe']::text[], 0, 'Arbeidstilknytning er avgjørende.', false, true, 15),
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 'm07', 'flervalg', 'Hva kan være en tredje faktor bak sammenhengen mellom inntekt og helse?', array['Hårfarge', 'Stjernetegn', 'Utdanning', 'Høyde']::text[], 2, 'Påvirker både inntekt og helse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:velferdsforskjeller-og-sosiale-problemer', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Sosiale problemer og forebyggende tiltak
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'sosialkunnskap', 'sosiale-problemer-og-forebygging', 'Sosiale problemer og forebyggende tiltak', 'Hva et sosialt problem er og hvordan noe blir definert som et problem, ulike typer sosiale problemer som rus, kriminalitet, fattigdom, ensomhet og radikalisering, forebygging på primært, sekundært og tertiært nivå, og hvordan du vurderer forebyggende tiltak.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', '## Hva er et sosialt problem?
+
+Et **sosialt problem** er et forhold som **skader** mange mennesker eller samfunnet, og som man mener at samfunnet bør gjøre noe med.
+
+- Et **objektivt** syn legger vekt på at problemet kan **måles** – for eksempel antall rusavhengige.
+- Et **konstruktivistisk** syn legger vekt på at noe blir et problem når det **defineres** som det – av politikere, medier eller interessegrupper. **Røyking** var lenge vanlig og akseptert, men ble etter hvert definert som et stort **folkehelseproblem**.
+
+## Typer sosiale problemer
+
+- **Fattigdom** og **lavinntekt**
+- **Rusproblemer** – alkohol, narkotika og **spill**avhengighet
+- **Kriminalitet**, blant annet **ungdomskriminalitet** og **gjengkriminalitet**
+- **Psykiske helseproblemer** og **ensomhet**
+- **Mobbing** og **netthets**
+- **Vold i nære relasjoner**
+- **Frafall** fra skolen og **utenforskap**
+- **Radikalisering** og **ekstremisme**
+- **Bostedsløshet**
+
+Mange problemer henger **sammen** og **forsterker** hverandre. En ungdom som faller ut av skolen, kan få svakere nettverk, begynne med rus og havne i kriminelle miljøer.
+
+## Risiko- og beskyttende faktorer
+
+**Risikofaktorer** øker sannsynligheten for problemer – for eksempel **omsorgssvikt**, **mobbing**, **rusmiljø** og **fattigdom**. **Beskyttende faktorer** reduserer den – for eksempel en **trygg voksen**, **gode venner**, **mestring** i skolen og **meningsfulle** fritidsaktiviteter.
+
+## Tre nivåer av forebygging
+
+- **Primærforebygging** – eller universell: hindre at problemer **oppstår**. Eksempler: **rusundervisning**, tiltak mot **mobbing**, gratis **fritidstilbud** og **aldersgrenser** for alkohol.
+- **Sekundærforebygging** – eller selektiv og indikert: **fange opp** tidlig og **stoppe** utviklingen. Eksempler: **utekontakter** som oppsøker ungdom, **oppfølgingstjenesten** for elever som faller ut, og **bekymringssamtaler** med politiet.
+- **Tertiærforebygging**: hindre at problemet **forverres** eller **gjentar seg**. Eksempler: **rusbehandling**, **ungdomsoppfølging** i konfliktrådet og **tilbakeføring** etter soning.
+
+## Samarbeid
+
+Forebygging krever **samarbeid** mellom skole, barnevern, helsetjeneste, politi, NAV, frivillige organisasjoner og familie. **SLT-modellen** – samordning av lokale **kriminalitetsforebyggende** tiltak – brukes i mange kommuner.
+
+## Vurdere tiltak
+
+Når du vurderer et forebyggende tiltak, kan du spørre:
+
+1. **Virker** det? Finnes det **forskning** eller **evaluering**?
+2. Når det **riktige** målgruppen?
+3. Hva **koster** det sammenlignet med kostnadene ved problemet?
+4. Har det **bivirkninger** – for eksempel **stigmatisering** av en gruppe?
+5. Tar det tak i **årsakene** eller bare **symptomene**?
+
+Et eksempel på et tiltak som kan ha **uønskede** virkninger, er skremselspropaganda om rus. Forskning tyder på at det virker **dårlig** – mens tiltak som styrker **sosial kompetanse** og **mestring**, ofte gir bedre resultater.
+
+## Hvorfor forebygge?
+
+- Det er **menneskelig**: Man slipper lidelse.
+- Det er **lønnsomt**: Tidlig innsats koster ofte mye mindre enn behandling, trygd og fengsel.
+- Det styrker **tillit** og **fellesskap**.
+
+## Drøfting
+
+Hvem har **ansvaret** for å forebygge – familien, skolen, staten eller den enkelte? Og hvor langt kan det offentlige gå i å **gripe inn** i folks liv for å forebygge, uten å krenke **privatlivet**?', '{"label":"Sosiale problemer","children":[{"label":"Definisjon","children":[{"label":"Objektivt syn"},{"label":"Konstruktivistisk syn"}]},{"label":"Typer","children":[{"label":"Fattigdom og rus"},{"label":"Kriminalitet og vold"},{"label":"Ensomhet og radikalisering"}]},{"label":"Faktorer","children":[{"label":"Risiko"},{"label":"Beskyttelse"}]},{"label":"Forebygging","children":[{"label":"Primær"},{"label":"Sekundær"},{"label":"Tertiær"}]},{"label":"Vurdering","children":[{"label":"Virkning og kostnad"},{"label":"Stigmatisering"},{"label":"Samarbeid"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:sosiale-problemer-og-forebygging';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Sosialt problem', 'Forhold som skader mange og som samfunnet bør gjøre noe med.', 0),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Objektivt syn', 'Problemet kan måles.', 1),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Konstruktivistisk syn', 'Noe blir et problem når det defineres som det.', 2),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Risikofaktor', 'Øker sannsynligheten for problemer.', 3),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Beskyttende faktor', 'Reduserer sannsynligheten for problemer.', 4),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Primærforebygging', 'Hindre at problemer oppstår.', 5),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Sekundærforebygging', 'Fange opp tidlig og stoppe utviklingen.', 6),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Tertiærforebygging', 'Hindre at problemet forverres eller gjentar seg.', 7),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Utekontakt', 'Oppsøker ungdom der de er.', 8),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Oppfølgingstjenesten', 'Følger opp unge som ikke er i skole eller arbeid.', 9),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Bekymringssamtale', 'Samtale mellom politi, ungdom og foresatte.', 10),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'SLT-modellen', 'Samordning av lokale kriminalitetsforebyggende tiltak.', 11),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Stigmatisering', 'At en gruppe stemples negativt.', 12),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Evaluering', 'Undersøkelse av om et tiltak virker.', 13),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'Radikalisering', 'Prosess der noen får ekstreme holdninger som kan føre til vold.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:sosiale-problemer-og-forebygging';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q01', 'flervalg', 'Hva betyr et konstruktivistisk syn på sosiale problemer?', array['At problemer bare kan måles', 'At noe blir et problem når det defineres som det', 'At problemer ikke finnes', 'At bare staten definerer problemer']::text[], 1, 'For eksempel røyking.', true, true, 0),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q02', 'flervalg', 'Hva er primærforebygging?', array['Å hindre at problemer oppstår', 'Rusbehandling', 'Soning', 'Å fange opp tidlig']::text[], 0, 'Universelle tiltak.', true, true, 1),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q03', 'flervalg', 'Hvilket tiltak er sekundærforebygging?', array['Rusundervisning for alle', 'Aldersgrenser', 'Utekontakter som oppsøker ungdom', 'Tilbakeføring etter soning']::text[], 2, 'Fanger opp tidlig.', true, true, 2),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q04', 'flervalg', 'Hva er tertiærforebygging?', array['Tiltak for alle elever', 'Aldersgrenser', 'Kampanjer', 'Å hindre at problemet forverres eller gjentar seg']::text[], 3, 'For eksempel rusbehandling.', true, true, 3),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q05', 'flervalg', 'Hva er SLT-modellen?', array['Samordning av lokale kriminalitetsforebyggende tiltak', 'En skole', 'En type straff', 'En diagnose']::text[], 0, 'Brukes i mange kommuner.', true, true, 4),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q06', 'flervalg', 'Hvilken beskyttende faktor er viktig for ungdom?', array['Rusmiljø', 'En trygg voksen', 'Mobbing', 'Fattigdom']::text[], 1, 'Også venner og mestring.', true, true, 5),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q07', 'flervalg', 'Hvilket spørsmål er viktig når man vurderer et tiltak?', array['Om det er populært', 'Om det er nytt', 'Om det virker ifølge forskning eller evaluering', 'Om det er dyrt']::text[], 2, 'Også kostnad og bivirkninger.', true, true, 6),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q08', 'flervalg', 'Hvorfor kan forebygging være lønnsomt?', array['Fordi det er gratis', 'Fordi det ikke trengs ansatte', 'Fordi problemer forsvinner av seg selv', 'Fordi tidlig innsats ofte koster mindre enn behandling og fengsel']::text[], 3, 'Og sparer lidelse.', true, true, 7),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q09', 'flervalg', 'Hva tyder forskning på om skremselspropaganda om rus?', array['At den virker dårlig', 'At den er det beste tiltaket', 'At den alltid virker', 'At den er ulovlig']::text[], 0, 'Tiltak som styrker mestring virker ofte bedre.', true, false, 8),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'q10', 'flervalg', 'Hvilken bivirkning kan et tiltak rettet mot en bestemt gruppe ha?', array['Bedre helse', 'Stigmatisering', 'Lavere kostnader', 'Mer tillit']::text[], 1, 'Gruppen kan bli stemplet.', true, false, 9),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm01', 'sant-usant', 'Sosiale problemer kan henge sammen og forsterke hverandre.', array['Sant', 'Usant']::text[], 0, 'For eksempel frafall, rus og kriminalitet.', false, true, 10),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm02', 'sant-usant', 'Forebygging er bare politiets ansvar.', array['Sant', 'Usant']::text[], 1, 'Det krever samarbeid mellom mange.', false, true, 11),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm03', 'sant-usant', 'Aldersgrenser for alkohol er et eksempel på primærforebygging.', array['Sant', 'Usant']::text[], 0, 'Hindrer at problemer oppstår.', false, true, 12),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm04', 'sant-usant', 'Et tiltak som bare behandler symptomene, tar alltid tak i årsakene.', array['Sant', 'Usant']::text[], 1, 'Symptomer og årsaker er ulike ting.', false, true, 13),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm05', 'flervalg', 'Hvilket eksempel viser at noe kan bli definert som et problem over tid?', array['Tyngdekraften', 'Røyking', 'Solnedgang', 'Regn']::text[], 1, 'Fra akseptert til folkehelseproblem.', false, true, 14),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm06', 'flervalg', 'Hvilket tiltak er tertiærforebygging?', array['Tilbakeføring etter soning', 'Gratis fritidstilbud', 'Mobbeprogram', 'Aldersgrenser']::text[], 0, 'Hindrer tilbakefall.', false, true, 15),
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 'm07', 'flervalg', 'Hva er et etisk dilemma ved forebygging?', array['At det er for billig', 'At det er for populært', 'Hvor langt det offentlige kan gripe inn i folks liv', 'At ingen trenger hjelp']::text[], 2, 'Hensyn til privatliv.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:sosiale-problemer-og-forebygging', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Inkludering i arbeidsliv og velferdssamfunn
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:inkludering', 'sosialkunnskap', 'inkludering', 'Inkludering i arbeidsliv og velferdssamfunn', 'Hva inkludering betyr på individ-, gruppe- og samfunnsnivå, forskjellen på inkludering, integrering og assimilering, barrierer mot deltakelse, og tiltak for inkludering i arbeidslivet og velferdssamfunnet – NAV-tiltak, introduksjonsprogrammet, universell utforming, inkluderende arbeidsliv og frivillighet.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:inkludering', '## Hva er inkludering?
+
+**Inkludering** betyr at alle skal kunne **delta** og oppleve **tilhørighet** – uavhengig av bakgrunn, funksjonsevne, alder, kjønn eller seksuell orientering. Inkludering handler både om **muligheter** og om å bli **møtt** med respekt.
+
+## Inkludering på ulike nivåer
+
+- **Individnivå**: å ha venner, nettverk og oppleve å bli sett
+- **Gruppenivå**: i klassen, på arbeidsplassen og i idrettslaget
+- **Samfunnsnivå**: lik tilgang til **utdanning**, **arbeid**, **bolig**, **helsetjenester** og **politisk** deltakelse
+
+## Inkludering, integrering og assimilering
+
+- **Assimilering**: Minoriteter må gi opp egen kultur og bli **lik** majoriteten.
+- **Integrering**: Man deltar i fellesskapet og følger felles **regler**, men kan **beholde** egen kultur og identitet.
+- **Segregering**: Grupper lever **atskilt**.
+- **Inkludering**: Fellesskapet **tilpasser seg** slik at **alle** kan delta – ansvaret ligger ikke bare hos den som skal inkluderes.
+
+## Barrierer
+
+- **Diskriminering** i ansettelser og boligmarked
+- **Språk** og manglende **godkjenning** av utdanning fra andre land
+- **Fysiske** barrierer for mennesker med funksjonsnedsettelser
+- **Helseplager** og manglende **tilrettelegging**
+- **Økonomi**: Aktiviteter og utstyr koster penger
+- **Fordommer** og **holdninger**
+
+## Hvorfor er arbeid så viktig?
+
+Arbeid gir **inntekt**, men også **nettverk**, **mestring**, **struktur** og **identitet**. Å stå utenfor arbeidslivet over tid henger sammen med dårligere **helse** og **levekår**. For samfunnet betyr høy **sysselsetting** mer skatteinntekter og lavere trygdeutgifter.
+
+## Tiltak i arbeidslivet
+
+- **NAV** tilbyr blant annet **arbeidstrening**, **lønnstilskudd** – der NAV dekker deler av lønnen – og **mentorordninger**.
+- **Individuell jobbstøtte (IPS)** hjelper personer med psykiske helseplager eller rusproblemer ut i ordinært arbeid, med **tett oppfølging**.
+- **Kvalifiseringsprogrammet** gir tett oppfølging til personer med svært svak tilknytning til arbeidslivet.
+- **Introduksjonsprogrammet** for **flyktninger** gir opplæring i norsk, samfunnskunnskap og arbeid.
+- **IA-avtalen** – avtalen om et **inkluderende arbeidsliv** – er et samarbeid mellom partene i arbeidslivet og myndighetene for å redusere **sykefravær** og frafall.
+- **Anonymiserte** søknader og mål om **mangfold** kan motvirke diskriminering.
+
+## Tiltak i velferdssamfunnet
+
+- **Universell utforming**: Bygg, transport og digitale tjenester skal kunne brukes av **alle** uten spesialtilpasning.
+- **Gratis kjernetid** i barnehage og **fritidskort** for barn.
+- **Tolketjenester** og informasjon på flere **språk**.
+- **Likestillings- og diskrimineringsloven** forbyr diskriminering og krever at arbeidsgivere arbeider **aktivt** for likestilling.
+
+## Frivillighet og sivilsamfunn
+
+**Idrettslag**, **kor**, **språkkafeer** og **frivillige organisasjoner** er viktige arenaer for inkludering. De gir **nettverk**, **mestring** og **tilhørighet** på tvers av bakgrunn.
+
+## Vurdering av tiltak
+
+Når du vurderer tiltak, kan du spørre om de
+
+- fører til **varig** deltakelse, ikke bare kortsiktige løsninger
+- tar hensyn til den enkeltes **ønsker** og **behov**
+- endrer **systemet** eller bare **individet**
+- kan ha **uønskede** virkninger, som at arbeidsgivere bare ansetter mens tilskuddet varer
+
+## Drøfting
+
+Er inkludering først og fremst **individets** ansvar – å lære språk, ta utdanning og søke jobb – eller **samfunnets** ansvar – å fjerne barrierer og diskriminering? De fleste mener at det må være et **gjensidig** ansvar.', '{"label":"Inkludering","children":[{"label":"Begreper","children":[{"label":"Inkludering"},{"label":"Integrering og assimilering"},{"label":"Segregering"}]},{"label":"Nivåer","children":[{"label":"Individ"},{"label":"Gruppe"},{"label":"Samfunn"}]},{"label":"Barrierer","children":[{"label":"Diskriminering"},{"label":"Språk og helse"},{"label":"Fysiske hindringer"}]},{"label":"Arbeidsliv","children":[{"label":"NAV-tiltak og IPS"},{"label":"Introduksjonsprogrammet"},{"label":"IA-avtalen"}]},{"label":"Samfunn","children":[{"label":"Universell utforming"},{"label":"Frivillighet"},{"label":"Diskrimineringsvern"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:inkludering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:inkludering', 'Inkludering', 'At alle kan delta og oppleve tilhørighet – fellesskapet tilpasser seg.', 0),
+  ('sosialkunnskap:inkludering', 'Integrering', 'Deltakelse i fellesskapet med rett til å beholde egen kultur.', 1),
+  ('sosialkunnskap:inkludering', 'Assimilering', 'Minoriteter må bli lik majoriteten.', 2),
+  ('sosialkunnskap:inkludering', 'Segregering', 'Grupper lever atskilt.', 3),
+  ('sosialkunnskap:inkludering', 'Barriere', 'Hindring for deltakelse, som diskriminering eller språk.', 4),
+  ('sosialkunnskap:inkludering', 'Arbeidstrening', 'NAV-tiltak der man prøver seg i arbeid.', 5),
+  ('sosialkunnskap:inkludering', 'Lønnstilskudd', 'NAV dekker deler av lønnen for en periode.', 6),
+  ('sosialkunnskap:inkludering', 'Individuell jobbstøtte (IPS)', 'Tett oppfølging ut i ordinært arbeid ved psykiske plager eller rus.', 7),
+  ('sosialkunnskap:inkludering', 'Kvalifiseringsprogrammet', 'Tett oppfølging for personer med svært svak arbeidstilknytning.', 8),
+  ('sosialkunnskap:inkludering', 'Introduksjonsprogrammet', 'Opplæring i norsk, samfunnskunnskap og arbeid for flyktninger.', 9),
+  ('sosialkunnskap:inkludering', 'IA-avtalen', 'Avtale om et inkluderende arbeidsliv.', 10),
+  ('sosialkunnskap:inkludering', 'Universell utforming', 'Løsninger som kan brukes av alle uten spesialtilpasning.', 11),
+  ('sosialkunnskap:inkludering', 'Anonymiserte søknader', 'Tiltak mot diskriminering i ansettelser.', 12),
+  ('sosialkunnskap:inkludering', 'Frivillighet', 'Idrettslag, kor og organisasjoner som arenaer for inkludering.', 13),
+  ('sosialkunnskap:inkludering', 'Gjensidig ansvar', 'Både individ og samfunn må bidra til inkludering.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:inkludering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:inkludering', 'q01', 'flervalg', 'Hva er forskjellen på integrering og assimilering?', array['Det er det samme', 'Ved integrering kan man beholde egen kultur, ved assimilering må man bli lik majoriteten', 'Assimilering betyr å bo atskilt', 'Integrering betyr å gi opp egen kultur']::text[], 1, 'Segregering betyr atskillelse.', true, true, 0),
+  ('sosialkunnskap:inkludering', 'q02', 'flervalg', 'Hva er universell utforming?', array['Løsninger som kan brukes av alle uten spesialtilpasning', 'En uniform', 'En type skole', 'En skatteordning']::text[], 0, 'Bygg, transport og digitale tjenester.', true, true, 1),
+  ('sosialkunnskap:inkludering', 'q03', 'flervalg', 'Hva er lønnstilskudd?', array['Høyere lønn til ledere', 'En bonus', 'At NAV dekker deler av lønnen for en periode', 'En skatt']::text[], 2, 'Gjør det lettere å bli ansatt.', true, true, 2),
+  ('sosialkunnskap:inkludering', 'q04', 'flervalg', 'Hvem er introduksjonsprogrammet for?', array['Pensjonister', 'Studenter', 'Ledere', 'Flyktninger']::text[], 3, 'Norsk, samfunnskunnskap og arbeid.', true, true, 3),
+  ('sosialkunnskap:inkludering', 'q05', 'flervalg', 'Hvorfor er arbeid viktig for inkludering?', array['Det gir inntekt, nettverk, mestring og identitet', 'Det gir bare penger', 'Det er lovpålagt for alle', 'Det har ingen betydning']::text[], 0, 'Utenforskap over tid gir dårligere helse.', true, true, 4),
+  ('sosialkunnskap:inkludering', 'q06', 'flervalg', 'Hva er IPS?', array['En skatteordning', 'Individuell jobbstøtte med tett oppfølging', 'Et parti', 'En diagnose']::text[], 1, 'For personer med psykiske helseplager eller rusproblemer.', true, true, 5),
+  ('sosialkunnskap:inkludering', 'q07', 'flervalg', 'Hva er en barriere for inkludering?', array['Språkkafé', 'Fritidskort', 'Diskriminering i ansettelser', 'Universell utforming']::text[], 2, 'Hindrer deltakelse.', true, true, 6),
+  ('sosialkunnskap:inkludering', 'q08', 'flervalg', 'Hva er IA-avtalen?', array['En handelsavtale', 'En skoleavtale', 'En husleieavtale', 'En avtale om et inkluderende arbeidsliv']::text[], 3, 'Mellom partene og myndighetene.', true, true, 7),
+  ('sosialkunnskap:inkludering', 'q09', 'flervalg', 'Hva kjennetegner inkludering sammenlignet med integrering?', array['At fellesskapet tilpasser seg så alle kan delta', 'At minoriteten må tilpasse seg alene', 'At grupper lever atskilt', 'At alle blir like']::text[], 0, 'Ansvaret deles.', true, false, 8),
+  ('sosialkunnskap:inkludering', 'q10', 'flervalg', 'Hvilken uønsket virkning kan lønnstilskudd ha?', array['At flere får jobb varig', 'At arbeidsgivere bare ansetter mens tilskuddet varer', 'At lønningene stiger', 'At ingen søker jobb']::text[], 1, 'Tiltak bør gi varig deltakelse.', true, false, 9),
+  ('sosialkunnskap:inkludering', 'm01', 'sant-usant', 'Frivillige organisasjoner er viktige arenaer for inkludering.', array['Sant', 'Usant']::text[], 0, 'Gir nettverk og tilhørighet.', false, true, 10),
+  ('sosialkunnskap:inkludering', 'm02', 'sant-usant', 'Inkludering betyr at bare den som skal inkluderes, må endre seg.', array['Sant', 'Usant']::text[], 1, 'Fellesskapet må også tilpasse seg.', false, true, 11),
+  ('sosialkunnskap:inkludering', 'm03', 'sant-usant', 'Manglende godkjenning av utdanning fra andre land kan være en barriere.', array['Sant', 'Usant']::text[], 0, 'Kompetanse blir ikke brukt.', false, true, 12),
+  ('sosialkunnskap:inkludering', 'm04', 'sant-usant', 'Høy sysselsetting har ingen betydning for velferdsstaten.', array['Sant', 'Usant']::text[], 1, 'Det gir skatteinntekter og lavere trygdeutgifter.', false, true, 13),
+  ('sosialkunnskap:inkludering', 'm05', 'flervalg', 'Hvilket tiltak er rettet mot barn?', array['IA-avtalen', 'Fritidskort', 'Lønnstilskudd', 'Kvalifiseringsprogrammet']::text[], 1, 'Gir mulighet til fritidsaktiviteter.', false, true, 14),
+  ('sosialkunnskap:inkludering', 'm06', 'flervalg', 'Hva krever likestillings- og diskrimineringsloven av arbeidsgivere?', array['At de arbeider aktivt for likestilling', 'At de ansetter bare menn', 'At de betaler mer skatt', 'At de har kantine']::text[], 0, 'Aktivitetsplikt.', false, true, 15),
+  ('sosialkunnskap:inkludering', 'm07', 'flervalg', 'Hva mener de fleste om ansvaret for inkludering?', array['At bare individet har ansvar', 'At bare staten har ansvar', 'At ansvaret er gjensidig', 'At ingen har ansvar']::text[], 2, 'Både individ og samfunn må bidra.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:inkludering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Menneskerettigheter og velferdsstaten
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'sosialkunnskap', 'menneskerettigheter-og-velferd', 'Menneskerettigheter og velferdsstaten', 'Hvordan menneskerettighetene har påvirket den norske velferdsstaten – økonomiske, sosiale og kulturelle rettigheter, barnekonvensjonen og rettighetene til mennesker med funksjonsnedsettelser – og hvordan menneskerettighetene ivaretas i Norge, med kontrollorganer og områder der Norge får kritikk.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:menneskerettigheter-og-velferd', '## Menneskerettighetene
+
+**FNs verdenserklæring om menneskerettighetene** fra **1948** slo fast at alle mennesker er født **frie** og **like** i verdighet og rettigheter. Senere kom bindende **konvensjoner**:
+
+- **SP**: sivile og politiske rettigheter – ytringsfrihet, stemmerett, rettferdig rettergang
+- **ØSK**: økonomiske, sosiale og kulturelle rettigheter – rett til **arbeid**, **sosial trygghet**, **helse**, **utdanning** og en tilfredsstillende **levestandard**
+- **Barnekonvensjonen** (1989)
+- **Kvinnediskrimineringskonvensjonen**
+- **Konvensjonen om rettighetene til mennesker med nedsatt funksjonsevne (CRPD)**
+
+## Velferd som rettighet
+
+Menneskerettighetene har bidratt til at velferd i Norge ses som **rettigheter** – ikke **veldedighet**. Grunnloven har egne bestemmelser:
+
+- **§ 104**: **Barnets beste** skal være et grunnleggende hensyn, og barn har rett til å bli **hørt**.
+- **§ 109**: Rett til **utdanning**.
+- **§ 110**: Staten skal legge til rette for at alle kan tjene til livets opphold gjennom **arbeid**, og de som ikke kan det, har rett til **støtte**.
+- **§ 98**: **Likhet** for loven og vern mot usaklig forskjellsbehandling.
+
+## Barnekonvensjonen
+
+Barnekonvensjonen er gjort til **norsk lov** gjennom menneskerettsloven. Viktige prinsipper:
+
+- **Barnets beste** (artikkel 3)
+- **Retten til å bli hørt** (artikkel 12)
+- **Ikke-diskriminering**
+- **Retten til liv og utvikling**
+
+Konvensjonen har påvirket blant annet **barnevernsloven**, **barneloven** og **opplæringsloven**, og barn skal i større grad **høres** i saker som angår dem. **Barneombudet** skal fremme barns interesser.
+
+## Funksjonsnedsettelser og likestilling
+
+**CRPD** krever at mennesker med funksjonsnedsettelser skal kunne delta i samfunnet på **like** vilkår. Det har påvirket arbeidet med **universell utforming**, **brukerstyrt personlig assistanse** og **diskrimineringsvern**.
+
+## Hvordan ivaretas rettighetene i Norge?
+
+- **Grunnloven** og **menneskerettsloven** gir rettighetene **rettslig** vern.
+- **Domstolene** kan prøve om staten bryter menneskerettighetene.
+- **Norges institusjon for menneskerettigheter (NIM)** overvåker og gir råd.
+- **Likestillings- og diskrimineringsombudet** og **Diskrimineringsnemnda** behandler saker om diskriminering.
+- **Sivilombudet** kontrollerer forvaltningen.
+- **FN-komiteer** vurderer jevnlig hvordan Norge følger konvensjonene og gir **anbefalinger**.
+
+## Områder med kritikk
+
+Norge regnes som et land der menneskerettighetene i stor grad blir **respektert**, men får kritikk på noen områder:
+
+- **Barnevern**: Den europeiske menneskerettsdomstolen har i flere saker kommet fram til at Norge har krenket **retten til familieliv**.
+- **Barnefattigdom**: økende andel barn i lavinntektsfamilier
+- **Tvang** i psykisk helsevern
+- **Samiske rettigheter**, som i Fosen-saken
+- **Isolasjon** i fengsler
+- **Diskriminering** i arbeids- og boligmarkedet
+
+## Menneskerettigheter og velferdspolitikk
+
+Menneskerettighetene gir **minimumskrav**, men sier lite om **hvor mye** velferd staten skal gi. Mange rettigheter skal oppfylles **gradvis** ut fra landets **ressurser**. Derfor er velferdspolitikk også **politikk**: Innenfor rammene må politikerne prioritere.
+
+## Drøfting
+
+Har menneskerettighetene gitt **domstolene** for mye makt over velferdspolitikken? Eller er de et nødvendig **vern** for **svake grupper** mot flertallet? Svaret avhenger av hvordan man veier **demokrati** og **rettighetsvern**.', '{"label":"Menneskerettigheter og velferd","children":[{"label":"Konvensjoner","children":[{"label":"SP og ØSK"},{"label":"Barnekonvensjonen"},{"label":"CRPD"}]},{"label":"Grunnloven","children":[{"label":"§ 104 barn"},{"label":"§ 109 utdanning"},{"label":"§ 110 arbeid"}]},{"label":"Påvirkning","children":[{"label":"Velferd som rettighet"},{"label":"Barns rett til å bli hørt"},{"label":"Universell utforming"}]},{"label":"Kontroll","children":[{"label":"Domstoler"},{"label":"NIM og ombud"},{"label":"FN-komiteer"}]},{"label":"Kritikk","children":[{"label":"Barnevern"},{"label":"Barnefattigdom"},{"label":"Tvang og samiske rettigheter"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:menneskerettigheter-og-velferd';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Verdenserklæringen', 'FNs erklæring om menneskerettighetene fra 1948.', 0),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'SP', 'Konvensjonen om sivile og politiske rettigheter.', 1),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'ØSK', 'Konvensjonen om økonomiske, sosiale og kulturelle rettigheter.', 2),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Velferd som rettighet', 'Velferd ses som rett, ikke veldedighet.', 3),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Grunnloven § 104', 'Barnets beste og barns rett til å bli hørt.', 4),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Grunnloven § 109', 'Rett til utdanning.', 5),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Grunnloven § 110', 'Rett til arbeid eller støtte.', 6),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Barnets beste', 'Grunnleggende hensyn – barnekonvensjonen artikkel 3.', 7),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Retten til å bli hørt', 'Barnekonvensjonen artikkel 12.', 8),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'CRPD', 'Konvensjonen om rettighetene til mennesker med nedsatt funksjonsevne.', 9),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Barneombudet', 'Skal fremme barns interesser.', 10),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'NIM', 'Norges institusjon for menneskerettigheter.', 11),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Diskrimineringsnemnda', 'Behandler klager om diskriminering.', 12),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'FN-komiteer', 'Vurderer hvordan land følger konvensjonene.', 13),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'Gradvis oppfyllelse', 'Sosiale rettigheter oppfylles ut fra landets ressurser.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:menneskerettigheter-og-velferd';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q01', 'flervalg', 'Hvilken konvensjon gir rett til arbeid, helse og sosial trygghet?', array['SP', 'ØSK', 'EMK artikkel 10', 'Genèvekonvensjonen']::text[], 1, 'Økonomiske, sosiale og kulturelle rettigheter.', true, true, 0),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q02', 'flervalg', 'Hva sier Grunnloven § 104?', array['At barnets beste skal være et grunnleggende hensyn', 'At alle har stemmerett', 'At kongen er ukrenkelig', 'At skolen er gratis']::text[], 0, 'Og at barn har rett til å bli hørt.', true, true, 1),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q03', 'flervalg', 'Hva betyr at velferd ses som en rettighet?', array['At velferd er veldedighet', 'At bare noen får hjelp', 'At man har krav på hjelp når vilkårene er oppfylt', 'At velferd er gratis for alle']::text[], 2, 'Ikke avhengig av godvilje.', true, true, 2),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q04', 'flervalg', 'Hvilken institusjon overvåker menneskerettighetene i Norge?', array['NAV', 'Lånekassen', 'Skatteetaten', 'Norges institusjon for menneskerettigheter']::text[], 3, 'NIM.', true, true, 3),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q05', 'flervalg', 'På hvilket område har Norge fått kritikk fra EMD?', array['Barnevern', 'Skatt', 'Veibygging', 'Fiskeri']::text[], 0, 'Retten til familieliv.', true, true, 4),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q06', 'flervalg', 'Hva krever CRPD?', array['At alle skal ha bil', 'At mennesker med funksjonsnedsettelser kan delta på like vilkår', 'At alle må jobbe', 'At skolen er privat']::text[], 1, 'Har påvirket universell utforming.', true, true, 5),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q07', 'flervalg', 'Hvilken artikkel i barnekonvensjonen handler om retten til å bli hørt?', array['Artikkel 1', 'Artikkel 3', 'Artikkel 12', 'Artikkel 30']::text[], 2, 'Artikkel 3 er barnets beste.', true, true, 6),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q08', 'flervalg', 'Hvorfor er velferdspolitikk fortsatt politikk selv med menneskerettigheter?', array['Fordi rettighetene ikke gjelder', 'Fordi politikere kan se bort fra dem', 'Fordi alt er bestemt av FN', 'Fordi rettighetene gir minimumskrav og skal oppfylles gradvis']::text[], 3, 'Innenfor rammene må det prioriteres.', true, true, 7),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q09', 'flervalg', 'Når kom FNs verdenserklæring om menneskerettighetene?', array['1948', '1814', '1989', '2014']::text[], 0, 'Etter andre verdenskrig.', true, false, 8),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'q10', 'flervalg', 'Hvem behandler klager om diskriminering?', array['Stortinget', 'Diskrimineringsnemnda', 'NAV', 'Politiet alene']::text[], 1, 'Etter veiledning fra ombudet.', true, false, 9),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm01', 'sant-usant', 'Barnekonvensjonen er gjort til norsk lov.', array['Sant', 'Usant']::text[], 0, 'Gjennom menneskerettsloven.', false, true, 10),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm02', 'sant-usant', 'Norge får aldri kritikk for menneskerettighetsbrudd.', array['Sant', 'Usant']::text[], 1, 'Norge får kritikk på flere områder.', false, true, 11),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm03', 'sant-usant', 'Grunnloven § 110 handler om retten til arbeid eller støtte.', array['Sant', 'Usant']::text[], 0, 'Staten skal legge til rette.', false, true, 12),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm04', 'sant-usant', 'Menneskerettighetene bestemmer nøyaktig hvor store trygdeytelsene skal være.', array['Sant', 'Usant']::text[], 1, 'De gir minimumskrav.', false, true, 13),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm05', 'flervalg', 'Hva gjør Barneombudet?', array['Dømmer i barnevernssaker', 'Fremmer barns interesser', 'Driver barnehager', 'Utbetaler barnetrygd']::text[], 1, 'Et talerør for barn.', false, true, 14),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm06', 'flervalg', 'Hvilket dilemma drøftes ofte om menneskerettigheter og velferd?', array['Demokrati mot rettighetsvern', 'Skatt mot toll', 'Skole mot helse', 'By mot land']::text[], 0, 'Hvor mye makt skal domstolene ha?', false, true, 15),
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 'm07', 'flervalg', 'Hvilken lov har blitt påvirket av barnekonvensjonen?', array['Veitrafikkloven', 'Skatteloven', 'Barnevernsloven', 'Tolloven']::text[], 2, 'Også barneloven og opplæringsloven.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:menneskerettigheter-og-velferd', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Behov i barne- og ungdomsårene
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'sosialkunnskap', 'behov-i-barne-og-ungdomsarene', 'Behov i barne- og ungdomsårene', 'Sentrale behov i barne- og ungdomsårene – fysiske behov, trygghet, tilknytning, tilhørighet, anerkjennelse, mestring og selvbestemmelse – med Maslows behovspyramide og selvbestemmelsesteorien, og hvordan behovsdekning henger sammen med velferdsordninger og livsmestring.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', '## Grunnleggende behov
+
+Barn og unge har **behov** som må dekkes for at de skal **utvikle seg** og ha det godt:
+
+- **Fysiske** behov: mat, søvn, bolig, klær og helsehjelp
+- **Trygghet**: forutsigbarhet og beskyttelse mot vold og overgrep
+- **Tilknytning** og **kjærlighet**: nære, stabile relasjoner til omsorgspersoner
+- **Tilhørighet**: venner og fellesskap
+- **Anerkjennelse**: å bli sett, verdsatt og tatt på alvor
+- **Mestring**: å oppleve at man **får til** noe
+- **Selvbestemmelse**: å få medvirke og ta egne valg, gradvis mer med alderen
+
+## Maslows behovspyramide
+
+**Abraham Maslow** ordnet behovene i en **pyramide**: fysiologiske behov nederst, deretter **trygghet**, **kjærlighet og tilhørighet**, **anerkjennelse** og øverst **selvrealisering**. Tanken er at de grunnleggende behovene må være dekket før høyere behov blir viktige. Modellen er **kritisert** for å være for **rigid** – mennesker kan søke mening og fellesskap selv når grunnleggende behov ikke er dekket – men den er nyttig for å **tenke** om behov.
+
+## Selvbestemmelsesteorien
+
+Psykologene **Edward Deci** og **Richard Ryan** peker på tre grunnleggende **psykologiske** behov:
+
+- **Autonomi**: å oppleve at man selv styrer handlingene sine
+- **Kompetanse**: å mestre oppgaver
+- **Tilhørighet**: å være knyttet til andre
+
+Når disse behovene dekkes, øker **motivasjon**, **trivsel** og **psykisk helse**.
+
+## Ungdomstiden
+
+I ungdomstiden blir **jevnaldrende** viktigere, behovet for **selvstendighet** øker, og **identitet** utvikles. Samtidig trenger ungdom fortsatt **trygge voksne**. Hjernen er i **utvikling**, særlig områdene for impulskontroll og planlegging.
+
+## Når behov ikke dekkes
+
+**Omsorgssvikt**, **vold**, **rus** eller alvorlig **psykisk sykdom** hos foreldre, **fattigdom** og **mobbing** kan føre til at behov ikke blir dekket. Forskning viser at slike **belastninger** i barndommen henger sammen med økt risiko for problemer med **helse**, **skole** og **relasjoner** senere. Men mange klarer seg godt takket være **beskyttende faktorer** – ofte **én trygg voksen**.
+
+## Velferdsordninger
+
+Velferdsstaten har mange ordninger som skal bidra til at barns behov blir dekket:
+
+- **Barnetrygd** og **foreldrepenger**
+- **Barnehage** med rett til plass
+- **Gratis skole**, **SFO** og **skolehelsetjeneste** med helsesykepleier
+- **Helsestasjon** og **tannhelsetjeneste**
+- **Barnevern** når foreldrene ikke gir forsvarlig omsorg
+- **Fritidskort** og tilskudd til fritidsaktiviteter
+- **Pedagogisk-psykologisk tjeneste (PPT)** og spesialundervisning
+
+## Behov, velferd og livsmestring
+
+**Livsmestring** er å kunne håndtere **utfordringer**, ta **ansvar** for eget liv og ta **gode valg**. Det er et tverrfaglig tema i skolen.
+
+Sammenhengen kan beskrives slik:
+
+1. Når **grunnleggende behov** dekkes, får barn **trygghet** og **overskudd**.
+2. **Velferdsordninger** bidrar til at behovene dekkes – også når familien ikke klarer alt selv.
+3. Trygghet, mestring og tilhørighet gir grunnlag for **livsmestring** og **psykisk helse**.
+4. God livsmestring gir bedre muligheter for **utdanning**, **arbeid** og **deltakelse** – som igjen styrker **velferden**.
+
+## Vurdering
+
+Velferdsordningene kan ikke erstatte **omsorg** og **relasjoner**, men de kan **utjevne** forskjeller og gi alle barn et bedre utgangspunkt. En viktig diskusjon er om ordningene når de barna som trenger dem **mest**, og om **tidlig innsats** prioriteres høyt nok.', '{"label":"Behov hos barn og unge","children":[{"label":"Behov","children":[{"label":"Fysiske behov og trygghet"},{"label":"Tilknytning og tilhørighet"},{"label":"Anerkjennelse og mestring"}]},{"label":"Teorier","children":[{"label":"Maslow"},{"label":"Selvbestemmelsesteorien"}]},{"label":"Ungdomstiden","children":[{"label":"Jevnaldrende"},{"label":"Identitet"}]},{"label":"Velferdsordninger","children":[{"label":"Barnetrygd og barnehage"},{"label":"Skolehelsetjeneste og PPT"},{"label":"Barnevern"}]},{"label":"Livsmestring","children":[{"label":"Trygghet gir overskudd"},{"label":"Tidlig innsats"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:behov-i-barne-og-ungdomsarene';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Fysiske behov', 'Mat, søvn, bolig, klær og helsehjelp.', 0),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Trygghet', 'Forutsigbarhet og beskyttelse mot vold og overgrep.', 1),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Tilknytning', 'Nære, stabile relasjoner til omsorgspersoner.', 2),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Anerkjennelse', 'Å bli sett, verdsatt og tatt på alvor.', 3),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Mestring', 'Å oppleve at man får til noe.', 4),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Maslows behovspyramide', 'Fysiologiske behov, trygghet, tilhørighet, anerkjennelse, selvrealisering.', 5),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Selvrealisering', 'Toppen av Maslows pyramide – utvikle sitt potensial.', 6),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Selvbestemmelsesteorien', 'Autonomi, kompetanse og tilhørighet – Deci og Ryan.', 7),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Autonomi', 'Å oppleve at man selv styrer handlingene sine.', 8),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Omsorgssvikt', 'At barnets behov ikke blir dekket av omsorgspersonene.', 9),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Livsmestring', 'Å håndtere utfordringer og ta gode valg.', 10),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Barnetrygd', 'Universell ytelse til familier med barn.', 11),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Skolehelsetjenesten', 'Helsesykepleier og helsetilbud i skolen.', 12),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'PPT', 'Pedagogisk-psykologisk tjeneste.', 13),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'Én trygg voksen', 'En viktig beskyttende faktor.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:behov-i-barne-og-ungdomsarene';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q01', 'flervalg', 'Hva er de tre behovene i selvbestemmelsesteorien?', array['Mat, søvn og bolig', 'Autonomi, kompetanse og tilhørighet', 'Trygghet, penger og status', 'Arbeid, skole og fritid']::text[], 1, 'Deci og Ryan.', true, true, 0),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q02', 'flervalg', 'Hva ligger nederst i Maslows behovspyramide?', array['Fysiologiske behov', 'Selvrealisering', 'Anerkjennelse', 'Tilhørighet']::text[], 0, 'Mat, drikke og søvn.', true, true, 1),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q03', 'flervalg', 'Hva er en vanlig kritikk av Maslows modell?', array['At den er for ny', 'At den bare gjelder dyr', 'At den er for rigid', 'At den handler om økonomi']::text[], 2, 'Behov dekkes ikke alltid i rekkefølge.', true, true, 2),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q04', 'flervalg', 'Hvilken velferdsordning griper inn når foreldrene ikke gir forsvarlig omsorg?', array['Lånekassen', 'NAV pensjon', 'Skatteetaten', 'Barnevernet']::text[], 3, 'Barnets beste.', true, true, 3),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q05', 'flervalg', 'Hva er livsmestring?', array['Å kunne håndtere utfordringer og ta gode valg', 'Å vinne konkurranser', 'Å ha mye penger', 'Å aldri ha problemer']::text[], 0, 'Tverrfaglig tema i skolen.', true, true, 4),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q06', 'flervalg', 'Hva blir viktigere i ungdomstiden?', array['Bare foreldre', 'Jevnaldrende og selvstendighet', 'Barnehage', 'Søvnbehovet forsvinner']::text[], 1, 'Men ungdom trenger fortsatt trygge voksne.', true, true, 5),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q07', 'flervalg', 'Hva er autonomi?', array['Å være alene', 'Å bestemme over andre', 'Å oppleve at man selv styrer handlingene sine', 'Å ha egen bil']::text[], 2, 'Selvbestemmelse.', true, true, 6),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q08', 'flervalg', 'Hvorfor klarer mange barn seg godt tross belastninger?', array['Fordi belastninger ikke betyr noe', 'Fordi de har mye penger', 'Fordi de glemmer alt', 'På grunn av beskyttende faktorer som en trygg voksen']::text[], 3, 'Resiliens.', true, true, 7),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q09', 'flervalg', 'Hvordan henger velferdsordninger sammen med livsmestring?', array['De bidrar til at behov dekkes, som gir grunnlag for mestring', 'De har ingen sammenheng', 'De erstatter all omsorg', 'De hindrer mestring']::text[], 0, 'Trygghet gir overskudd.', true, false, 8),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'q10', 'flervalg', 'Hva er skolehelsetjenesten?', array['En skatteordning', 'Helsesykepleier og helsetilbud i skolen', 'En type lærer', 'En eksamen']::text[], 1, 'Lavterskel hjelp.', true, false, 9),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm01', 'sant-usant', 'Belastninger i barndommen henger sammen med økt risiko for problemer senere.', array['Sant', 'Usant']::text[], 0, 'Men beskyttende faktorer betyr mye.', false, true, 10),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm02', 'sant-usant', 'Velferdsordninger kan fullt ut erstatte omsorg og relasjoner.', array['Sant', 'Usant']::text[], 1, 'De kan utjevne forskjeller, men ikke erstatte omsorg.', false, true, 11),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm03', 'sant-usant', 'Behovet for selvbestemmelse øker gradvis med alderen.', array['Sant', 'Usant']::text[], 0, 'Barn får mer medvirkning.', false, true, 12),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm04', 'sant-usant', 'Ungdom trenger ikke lenger trygge voksne.', array['Sant', 'Usant']::text[], 1, 'De trenger fortsatt trygge voksne.', false, true, 13),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm05', 'flervalg', 'Hva ligger øverst i Maslows pyramide?', array['Trygghet', 'Selvrealisering', 'Tilhørighet', 'Mat']::text[], 1, 'Å utvikle sitt potensial.', false, true, 14),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm06', 'flervalg', 'Hvilken ordning gir tilskudd til fritidsaktiviteter?', array['Fritidskort', 'Studielån', 'Pensjon', 'Sykepenger']::text[], 0, 'Gir alle barn mulighet til å delta.', false, true, 15),
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 'm07', 'flervalg', 'Hva kan føre til at barns behov ikke dekkes?', array['Gode venner', 'Trygg skole', 'Omsorgssvikt, vold eller fattigdom', 'Fritidsaktiviteter']::text[], 2, 'Risikofaktorer.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:behov-i-barne-og-ungdomsarene', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Vold og trakassering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:vold-og-trakassering', 'sosialkunnskap', 'vold-og-trakassering', 'Vold og trakassering', 'Ulike former for vold og trakassering – fysisk, psykisk, seksuell, materiell og digital vold, vold i nære relasjoner, negativ sosial kontroll og æresrelatert vold, seksuell trakassering, mobbing og netthets – og konsekvensene for individ og samfunn, med hjelpeinstanser og forebygging.', array[12]::int[], 11, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:vold-og-trakassering', '## Hva er vold?
+
+**Vold** er enhver handling som gjennom å **skade**, **smerte**, **skremme** eller **krenke** får en person til å gjøre noe mot sin vilje eller slutte å gjøre noe hen vil. Vold kan ta mange former:
+
+- **Fysisk vold**: slag, spark, lugging, kvelertak
+- **Psykisk vold**: trusler, **kontroll**, ydmykelser, isolering og sjalusi
+- **Seksuell vold**: seksuelle handlinger uten **samtykke**
+- **Materiell vold**: å ødelegge ting
+- **Økonomisk vold**: å kontrollere den andres **penger**
+- **Digital vold**: overvåking av mobil, deling av bilder, trusler på nett
+- **Latent vold**: frykten for ny vold som styrer hverdagen
+
+## Vold i nære relasjoner
+
+Mye vold skjer i **hjemmet** – mellom **partnere** eller mot **barn**. Barn som **opplever** vold mellom foreldrene, er også utsatt for vold, selv om de ikke selv blir slått. Vold i nære relasjoner er ofte **gjentatt** og **skjult**, og den som utsettes, kan være **avhengig** av den som utøver volden.
+
+## Negativ sosial kontroll og æresrelatert vold
+
+**Negativ sosial kontroll** er når familie eller miljø **begrenser** en persons frihet – hvem hen kan være venner med, hvordan hen kan kle seg, eller hvem hen kan gifte seg med. Det kan være knyttet til forestillinger om familiens **ære**. **Tvangsekteskap** og **kjønnslemlestelse** er alvorlige overgrep og **forbudt** i Norge.
+
+## Trakassering
+
+**Trakassering** er handlinger, unnlatelser eller ytringer som virker eller har til formål å være **krenkende**, **skremmende**, **fiendtlige**, **nedverdigende** eller **ydmykende**.
+
+- **Seksuell trakassering** er **uønsket** seksuell oppmerksomhet – kommentarer, berøring eller bilder. Det er forbudt etter **likestillings- og diskrimineringsloven**.
+- **Mobbing** er gjentatte negative handlinger fra én eller flere mot en person som har vanskelig for å **forsvare** seg.
+- **Netthets** er trakassering i sosiale medier og kommentarfelt – ofte rettet mot **kvinner**, **minoriteter**, **politikere** og **journalister**.
+
+## Konsekvenser for individet
+
+- **Fysiske** skader
+- **Psykiske** plager: angst, depresjon, søvnvansker og **traumer**
+- **Skam**, **skyldfølelse** og lav **selvfølelse**
+- **Frafall** fra skole og arbeid
+- Vansker med **tillit** og **relasjoner**
+- For barn: påvirket **utvikling** og læring
+
+## Konsekvenser for samfunnet
+
+- Store **kostnader** til helse, rettsvesen, barnevern og tapt arbeidskraft
+- **Ytringsklima**: Hets kan føre til at folk **trekker seg** fra offentlig debatt – en trussel mot **demokratiet**
+- **Utrygghet** og redusert **tillit**
+- Vold kan **gå i arv** mellom generasjoner
+
+## Hjelp og beskyttelse
+
+- **Alarmtelefonen for barn og unge**: **116 111**
+- **Politiet**: **112** ved akutt fare, ellers **02800**
+- **Krisesentre** for voksne og barn som utsettes for vold i nære relasjoner
+- **Statens barnehus**: avhør og oppfølging av barn som kan ha vært utsatt for vold eller overgrep
+- **Helsesykepleier**, **lærere** og andre trygge voksne
+- **Kontaktforbud** kan beskytte mot den som utøver vold
+
+Mange yrkesgrupper har **avvergeplikt** og **opplysningsplikt** til barnevernet når de er bekymret for et barn.
+
+## Forebygging
+
+- **Undervisning** om grenser, samtykke og vold i skolen
+- **Holdningsarbeid** mot hets og trakassering
+- **Tidlig** hjelp til familier med konflikter
+- **Sinnemestring** og behandling for dem som utøver vold, for eksempel gjennom **Alternativ til Vold**
+- **Tydelige** reaksjoner fra arbeidsplasser og skoler
+
+## Drøfting
+
+Hvorfor er det vanskelig å si fra om vold? **Skam**, **frykt**, **lojalitet** og **avhengighet** gjør at mange tier. Et viktig spørsmål er hvordan samfunnet kan **senke terskelen** for å be om hjelp – og hvordan vi som **medmennesker** kan reagere når vi ser noe.', '{"label":"Vold og trakassering","children":[{"label":"Voldsformer","children":[{"label":"Fysisk og psykisk"},{"label":"Seksuell og økonomisk"},{"label":"Digital og latent"}]},{"label":"Nære relasjoner","children":[{"label":"Partnervold"},{"label":"Barn som vitner"},{"label":"Negativ sosial kontroll"}]},{"label":"Trakassering","children":[{"label":"Seksuell trakassering"},{"label":"Mobbing"},{"label":"Netthets"}]},{"label":"Konsekvenser","children":[{"label":"Helse og traumer"},{"label":"Kostnader og ytringsklima"}]},{"label":"Hjelp","children":[{"label":"116 111 og 112"},{"label":"Krisesenter og barnehus"},{"label":"Forebygging"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:vold-og-trakassering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:vold-og-trakassering', 'Vold', 'Handling som skader, skremmer eller krenker for å styre en annen.', 0),
+  ('sosialkunnskap:vold-og-trakassering', 'Psykisk vold', 'Trusler, kontroll, ydmykelser og isolering.', 1),
+  ('sosialkunnskap:vold-og-trakassering', 'Seksuell vold', 'Seksuelle handlinger uten samtykke.', 2),
+  ('sosialkunnskap:vold-og-trakassering', 'Økonomisk vold', 'Å kontrollere den andres penger.', 3),
+  ('sosialkunnskap:vold-og-trakassering', 'Digital vold', 'Overvåking, deling av bilder og trusler på nett.', 4),
+  ('sosialkunnskap:vold-og-trakassering', 'Latent vold', 'Frykten for ny vold som styrer hverdagen.', 5),
+  ('sosialkunnskap:vold-og-trakassering', 'Vold i nære relasjoner', 'Vold mellom partnere eller mot barn i familien.', 6),
+  ('sosialkunnskap:vold-og-trakassering', 'Negativ sosial kontroll', 'Familie eller miljø begrenser en persons frihet.', 7),
+  ('sosialkunnskap:vold-og-trakassering', 'Seksuell trakassering', 'Uønsket seksuell oppmerksomhet.', 8),
+  ('sosialkunnskap:vold-og-trakassering', 'Mobbing', 'Gjentatte negative handlinger mot en som har vanskelig for å forsvare seg.', 9),
+  ('sosialkunnskap:vold-og-trakassering', 'Netthets', 'Trakassering i sosiale medier og kommentarfelt.', 10),
+  ('sosialkunnskap:vold-og-trakassering', '116 111', 'Alarmtelefonen for barn og unge.', 11),
+  ('sosialkunnskap:vold-og-trakassering', 'Statens barnehus', 'Avhør og oppfølging av barn utsatt for vold eller overgrep.', 12),
+  ('sosialkunnskap:vold-og-trakassering', 'Krisesenter', 'Tilbud for personer utsatt for vold i nære relasjoner.', 13),
+  ('sosialkunnskap:vold-og-trakassering', 'Alternativ til Vold', 'Behandlingstilbud for personer som utøver vold.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:vold-og-trakassering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:vold-og-trakassering', 'q01', 'flervalg', 'Hva er psykisk vold?', array['Bare slag og spark', 'Trusler, kontroll, ydmykelser og isolering', 'Å ødelegge ting', 'Å stjele penger']::text[], 1, 'Kan være like skadelig som fysisk vold.', true, true, 0),
+  ('sosialkunnskap:vold-og-trakassering', 'q02', 'flervalg', 'Hvilket nummer har Alarmtelefonen for barn og unge?', array['116 111', '113', '110', '1881']::text[], 0, 'Gratis og åpen.', true, true, 1),
+  ('sosialkunnskap:vold-og-trakassering', 'q03', 'flervalg', 'Hva er negativ sosial kontroll?', array['Positiv oppdragelse', 'Politiets kontroll', 'At familie eller miljø begrenser en persons frihet', 'Skolens regler']::text[], 2, 'Kan være knyttet til ære.', true, true, 2),
+  ('sosialkunnskap:vold-og-trakassering', 'q04', 'flervalg', 'Hva er seksuell trakassering?', array['Et kjæresteforhold', 'En kompliment man ønsker', 'Et samtykke', 'Uønsket seksuell oppmerksomhet']::text[], 3, 'Forbudt etter likestillings- og diskrimineringsloven.', true, true, 3),
+  ('sosialkunnskap:vold-og-trakassering', 'q05', 'flervalg', 'Hvorfor er barn som opplever vold mellom foreldrene, også utsatt for vold?', array['Fordi det skader dem selv om de ikke blir slått', 'Fordi de alltid blir slått', 'Fordi de ikke merker noe', 'Det er de ikke']::text[], 0, 'Å være vitne til vold er skadelig.', true, true, 4),
+  ('sosialkunnskap:vold-og-trakassering', 'q06', 'flervalg', 'Hvilken samfunnskonsekvens har netthets?', array['Bedre debatt', 'At folk trekker seg fra offentlig debatt', 'Flere journalister', 'Høyere tillit']::text[], 1, 'En trussel mot demokratiet.', true, true, 5),
+  ('sosialkunnskap:vold-og-trakassering', 'q07', 'flervalg', 'Hva gjør Statens barnehus?', array['Driver barnehager', 'Utbetaler barnetrygd', 'Avhører og følger opp barn som kan ha vært utsatt for vold eller overgrep', 'Dømmer i saker']::text[], 2, 'Tilpasset barn.', true, true, 6),
+  ('sosialkunnskap:vold-og-trakassering', 'q08', 'flervalg', 'Hva er latent vold?', array['Vold i filmer', 'Vold på nett', 'Vold mot ting', 'Frykten for ny vold som styrer hverdagen']::text[], 3, 'Volden trenger ikke skje igjen for å virke.', true, true, 7),
+  ('sosialkunnskap:vold-og-trakassering', 'q09', 'flervalg', 'Hvorfor kan det være vanskelig å si fra om vold?', array['Skam, frykt, lojalitet og avhengighet', 'Fordi det er forbudt', 'Fordi ingen vil hjelpe', 'Fordi vold ikke er alvorlig']::text[], 0, 'Terskelen for å be om hjelp må senkes.', true, false, 8),
+  ('sosialkunnskap:vold-og-trakassering', 'q10', 'flervalg', 'Hvilket tilbud er for personer som utøver vold?', array['Krisesenter', 'Alternativ til Vold', 'Barnehus', 'Alarmtelefonen']::text[], 1, 'Behandling kan forebygge ny vold.', true, false, 9),
+  ('sosialkunnskap:vold-og-trakassering', 'm01', 'sant-usant', 'Tvangsekteskap og kjønnslemlestelse er forbudt i Norge.', array['Sant', 'Usant']::text[], 0, 'Alvorlige overgrep.', false, true, 10),
+  ('sosialkunnskap:vold-og-trakassering', 'm02', 'sant-usant', 'Vold i nære relasjoner er som regel en enkelt hendelse.', array['Sant', 'Usant']::text[], 1, 'Den er ofte gjentatt og skjult.', false, true, 11),
+  ('sosialkunnskap:vold-og-trakassering', 'm03', 'sant-usant', 'Mange yrkesgrupper har opplysningsplikt til barnevernet.', array['Sant', 'Usant']::text[], 0, 'Ved bekymring for et barn.', false, true, 12),
+  ('sosialkunnskap:vold-og-trakassering', 'm04', 'sant-usant', 'Å overvåke partnerens mobil kan aldri være vold.', array['Sant', 'Usant']::text[], 1, 'Det kan være digital og psykisk vold.', false, true, 13),
+  ('sosialkunnskap:vold-og-trakassering', 'm05', 'flervalg', 'Hvilket nummer ringer du til politiet ved akutt fare?', array['113', '112', '110', '116 123']::text[], 1, '02800 når det ikke haster.', false, true, 14),
+  ('sosialkunnskap:vold-og-trakassering', 'm06', 'flervalg', 'Hvilket forebyggende tiltak kan skolen bidra med?', array['Undervisning om grenser, samtykke og vold', 'Mer lekser', 'Færre voksne', 'Ingen tiltak']::text[], 0, 'Holdningsarbeid.', false, true, 15),
+  ('sosialkunnskap:vold-og-trakassering', 'm07', 'flervalg', 'Hva kan beskytte mot den som utøver vold?', array['Sosialhjelp', 'Studielån', 'Kontaktforbud', 'Barnetrygd']::text[], 2, 'Også kalt besøksforbud.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:vold-og-trakassering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Sosialkunnskap: Kriser på individ- og samfunnsnivå
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('sosialkunnskap:kriser', 'sosialkunnskap', 'kriser', 'Kriser på individ- og samfunnsnivå', 'Hvordan ulike kriser kan håndteres – personlige kriser som sykdom, dødsfall og samlivsbrudd, og samfunnskriser som pandemier, naturkatastrofer, terror, krig og økonomiske kriser – med krisereaksjoner, mestring og hjelp for den enkelte og beredskapsprinsipper, samfunnssikkerhet og tillit for samfunnet.', array[13]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('sosialkunnskap:kriser', '## Hva er en krise?
+
+En **krise** er en situasjon der våre vanlige måter å **mestre** utfordringer på **ikke strekker til**. Kriser kan ramme **enkeltpersoner**, **familier**, **lokalsamfunn** eller **hele samfunnet**.
+
+## Kriser for den enkelte
+
+- **Utviklingskriser**: overganger i livet, som pubertet, flytting hjemmefra eller pensjonering
+- **Traumatiske kriser**: plutselige hendelser som **dødsfall**, **ulykker**, **alvorlig sykdom**, **vold** eller **samlivsbrudd**
+
+Vanlige **reaksjoner** er sjokk, **uvirkelighetsfølelse**, angst, søvnvansker, konsentrasjonsvansker, sinne, skyldfølelse og sorg. Dette er **normale** reaksjoner på en **unormal** situasjon, og de fleste blir **gradvis** bedre.
+
+## Mestring for den enkelte
+
+- **Sosial støtte**: å ha noen å snakke med
+- **Informasjon**: å forstå hva som har skjedd
+- **Struktur** og **rutiner**: søvn, mat og aktivitet
+- **Problemfokusert** mestring – å gjøre noe med situasjonen – og **emosjonsfokusert** mestring – å håndtere følelsene
+- **Profesjonell hjelp** når reaksjonene er sterke eller varer lenge: fastlege, helsesykepleier, **kriseteam** i kommunen
+
+## Samfunnskriser
+
+- **Pandemier**: **Covid-19** fra **2020** førte til nedstengning, hjemmeskole og store økonomiske tiltak.
+- **Naturkatastrofer**: flom, skred og **ekstremvær**, som ventes å bli vanligere med **klimaendringer**.
+- **Terror**: **22. juli 2011** rammet regjeringskvartalet og **Utøya** og fikk store konsekvenser for norsk beredskap.
+- **Krig**: Russlands fullskala **invasjon av Ukraina** i **2022** ga flyktningstrøm, høyere **energipriser** og økt fokus på **forsvar**.
+- **Økonomiske kriser**: finanskriser, **prisvekst** og **arbeidsledighet**.
+- **Digitale** angrep mot viktige samfunnsfunksjoner.
+
+## Beredskapsprinsippene
+
+Norsk krisehåndtering bygger på fire **prinsipper**:
+
+1. **Ansvarsprinsippet**: Den som har ansvar for et område til vanlig, har også ansvaret i en krise.
+2. **Likhetsprinsippet**: Organiseringen i krise skal være mest mulig **lik** den vanlige.
+3. **Nærhetsprinsippet**: Kriser skal håndteres på **lavest** mulig nivå.
+4. **Samvirkeprinsippet**: Alle aktører har plikt til å **samarbeide**.
+
+**Direktoratet for samfunnssikkerhet og beredskap (DSB)** har en sentral rolle, sammen med **politiet**, **Sivilforsvaret**, **Forsvaret**, **helsevesenet** og **kommunene**. **Totalforsvaret** betyr at sivile og militære ressurser samarbeider.
+
+## Tillit og informasjon
+
+Norge har høy **tillit** til myndighetene og til hverandre. Under pandemien gjorde tilliten at mange fulgte **rådene** frivillig. Tydelig og ærlig **informasjon** er avgjørende i en krise – mens **desinformasjon** kan svekke krisehåndteringen.
+
+## Egenberedskap
+
+Myndighetene anbefaler at husholdninger har **egenberedskap** – vann, mat, medisiner, radio og varmekilde – slik at de kan klare seg selv i en periode hvis strøm, vann eller kommunikasjon faller ut.
+
+## Sårbare grupper
+
+Kriser rammer **ulikt**. Under pandemien ble blant annet **eldre**, **barn i vanskelige hjem**, **ungdom** og **lavinntektsfamilier** hardt rammet. God krisehåndtering tar hensyn til de mest **sårbare**.
+
+## Etterpå
+
+Etter kriser lager myndighetene ofte **evalueringer** – som **22. juli-kommisjonen** og **koronakommisjonen** – for å lære og forbedre **beredskapen**.
+
+## Drøfting
+
+Hvordan skal samfunnet balansere **frihet** og **sikkerhet** i en krise? Tiltak som **nedstengning** eller **overvåking** kan redde liv, men også gi store **kostnader** for enkeltpersoner og for **demokratiet**.', '{"label":"Kriser","children":[{"label":"Individ","children":[{"label":"Utviklingskriser"},{"label":"Traumatiske kriser"},{"label":"Reaksjoner og mestring"}]},{"label":"Samfunn","children":[{"label":"Pandemi og naturkatastrofer"},{"label":"Terror og krig"},{"label":"Økonomiske og digitale kriser"}]},{"label":"Beredskap","children":[{"label":"Fire prinsipper"},{"label":"DSB og totalforsvaret"},{"label":"Egenberedskap"}]},{"label":"Tillit","children":[{"label":"Informasjon"},{"label":"Desinformasjon"}]},{"label":"Etterarbeid","children":[{"label":"Sårbare grupper"},{"label":"Evalueringer"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'sosialkunnskap:kriser';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('sosialkunnskap:kriser', 'Krise', 'Situasjon der vanlige måter å mestre på ikke strekker til.', 0),
+  ('sosialkunnskap:kriser', 'Utviklingskrise', 'Krise knyttet til overganger i livet.', 1),
+  ('sosialkunnskap:kriser', 'Traumatisk krise', 'Krise etter en plutselig, alvorlig hendelse.', 2),
+  ('sosialkunnskap:kriser', 'Normale krisereaksjoner', 'Sjokk, angst, søvnvansker, sinne og sorg.', 3),
+  ('sosialkunnskap:kriser', 'Problemfokusert mestring', 'Å gjøre noe med situasjonen.', 4),
+  ('sosialkunnskap:kriser', 'Emosjonsfokusert mestring', 'Å håndtere følelsene.', 5),
+  ('sosialkunnskap:kriser', 'Kriseteam', 'Kommunalt team som hjelper ved kriser.', 6),
+  ('sosialkunnskap:kriser', 'Ansvarsprinsippet', 'Den som har ansvar til vanlig, har ansvar i krise.', 7),
+  ('sosialkunnskap:kriser', 'Likhetsprinsippet', 'Organiseringen i krise skal ligne den vanlige.', 8),
+  ('sosialkunnskap:kriser', 'Nærhetsprinsippet', 'Kriser håndteres på lavest mulig nivå.', 9),
+  ('sosialkunnskap:kriser', 'Samvirkeprinsippet', 'Alle aktører har plikt til å samarbeide.', 10),
+  ('sosialkunnskap:kriser', 'DSB', 'Direktoratet for samfunnssikkerhet og beredskap.', 11),
+  ('sosialkunnskap:kriser', 'Totalforsvaret', 'Samarbeid mellom sivile og militære ressurser.', 12),
+  ('sosialkunnskap:kriser', 'Egenberedskap', 'Husholdningens evne til å klare seg selv en periode.', 13),
+  ('sosialkunnskap:kriser', 'Evaluering', 'Gjennomgang etter en krise for å lære, som koronakommisjonen.', 14);
+delete from public.quiz_sporsmal where tema_id = 'sosialkunnskap:kriser';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('sosialkunnskap:kriser', 'q01', 'flervalg', 'Hva er en traumatisk krise?', array['En overgang som pubertet', 'En krise etter en plutselig, alvorlig hendelse', 'En økonomisk krise', 'En planlagt endring']::text[], 1, 'For eksempel dødsfall eller ulykke.', true, true, 0),
+  ('sosialkunnskap:kriser', 'q02', 'flervalg', 'Hva sier nærhetsprinsippet?', array['At kriser skal håndteres på lavest mulig nivå', 'At alle må bo nær hverandre', 'At staten skal ta alle kriser', 'At naboer har ansvar']::text[], 0, 'Ett av fire beredskapsprinsipper.', true, true, 1),
+  ('sosialkunnskap:kriser', 'q03', 'flervalg', 'Hva er normale krisereaksjoner?', array['Glede og energi', 'Ingen reaksjoner', 'Sjokk, angst, søvnvansker og sorg', 'Bare sinne']::text[], 2, 'Normale reaksjoner på en unormal situasjon.', true, true, 2),
+  ('sosialkunnskap:kriser', 'q04', 'flervalg', 'Hva sier samvirkeprinsippet?', array['At bare politiet har ansvar', 'At kriser håndteres lokalt', 'At organiseringen skal være lik', 'At alle aktører har plikt til å samarbeide']::text[], 3, 'Viktig i store kriser.', true, true, 3),
+  ('sosialkunnskap:kriser', 'q05', 'flervalg', 'Hvorfor var tillit viktig under pandemien?', array['Fordi mange fulgte rådene frivillig', 'Fordi den senket skatten', 'Fordi den stoppet viruset', 'Den hadde ingen betydning']::text[], 0, 'Tillit gjør krisehåndtering lettere.', true, true, 4),
+  ('sosialkunnskap:kriser', 'q06', 'flervalg', 'Hva er egenberedskap?', array['At staten ordner alt', 'At husholdninger kan klare seg selv en periode', 'En forsikring', 'En militær øvelse']::text[], 1, 'Vann, mat, medisiner og radio.', true, true, 5),
+  ('sosialkunnskap:kriser', 'q07', 'flervalg', 'Hva er totalforsvaret?', array['Bare hæren', 'Bare politiet', 'Samarbeid mellom sivile og militære ressurser', 'Et parti']::text[], 2, 'Hele samfunnet bidrar.', true, true, 6),
+  ('sosialkunnskap:kriser', 'q08', 'flervalg', 'Hva er problemfokusert mestring?', array['Å håndtere følelsene', 'Å unngå situasjonen', 'Å glemme alt', 'Å gjøre noe med situasjonen']::text[], 3, 'Emosjonsfokusert mestring handler om følelsene.', true, true, 7),
+  ('sosialkunnskap:kriser', 'q09', 'flervalg', 'Hvilken hendelse rammet regjeringskvartalet og Utøya?', array['22. juli 2011', 'Covid-19', 'Finanskrisen', 'Flommen i 1995']::text[], 0, 'Fikk store konsekvenser for beredskapen.', true, false, 8),
+  ('sosialkunnskap:kriser', 'q10', 'flervalg', 'Hvorfor gjennomføres evalueringer etter kriser?', array['For å straffe alle', 'For å lære og forbedre beredskapen', 'For å skjule feil', 'Fordi det er gøy']::text[], 1, 'For eksempel koronakommisjonen.', true, false, 9),
+  ('sosialkunnskap:kriser', 'm01', 'sant-usant', 'De fleste krisereaksjoner blir gradvis bedre.', array['Sant', 'Usant']::text[], 0, 'Men noen trenger profesjonell hjelp.', false, true, 10),
+  ('sosialkunnskap:kriser', 'm02', 'sant-usant', 'Kriser rammer alle grupper likt.', array['Sant', 'Usant']::text[], 1, 'Sårbare grupper rammes ofte hardest.', false, true, 11),
+  ('sosialkunnskap:kriser', 'm03', 'sant-usant', 'Ansvarsprinsippet betyr at den som har ansvar til vanlig, også har det i krise.', array['Sant', 'Usant']::text[], 0, 'Ett av fire prinsipper.', false, true, 12),
+  ('sosialkunnskap:kriser', 'm04', 'sant-usant', 'Desinformasjon gjør krisehåndtering lettere.', array['Sant', 'Usant']::text[], 1, 'Den kan svekke krisehåndteringen.', false, true, 13),
+  ('sosialkunnskap:kriser', 'm05', 'flervalg', 'Hvilken hendelse i 2022 ga flyktningstrøm og høyere energipriser?', array['Covid-19', 'Russlands invasjon av Ukraina', 'Finanskrisen', '22. juli']::text[], 1, 'Økt fokus på forsvar.', false, true, 14),
+  ('sosialkunnskap:kriser', 'm06', 'flervalg', 'Hvem kan hjelpe ved kriser i kommunen?', array['Kriseteamet', 'Skatteetaten', 'Lånekassen', 'Tollvesenet']::text[], 0, 'Også fastlege og helsesykepleier.', false, true, 15),
+  ('sosialkunnskap:kriser', 'm07', 'flervalg', 'Hvilket dilemma oppstår ofte i samfunnskriser?', array['Skatt mot toll', 'By mot land', 'Frihet mot sikkerhet', 'Sport mot kultur']::text[], 2, 'For eksempel nedstengning.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('sosialkunnskap:kriser', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2 (vg3): rydd bort fjernede temaer
+delete from public.temaer where fag_id = 'markedsforing-og-ledelse-2' and slug not in ('teorier-og-modeller', 'visjon-forretningside-og-mal', 'malgruppevalg', 'situasjons-og-bransjeanalyse', 'merkevarestrategier-og-posisjonering', 'distribusjonsstrategier-og-makt', 'prisstrategier', 'kommunikasjonsstrategier-og-mediemiks', 'lederens-rolle-og-internmarkedsforing', 'helhetlig-markedsstrategi-og-etikk', 'markedsmiks-og-effektmaling', 'samfunnsansvar-og-omdomme', 'barekraftige-valg');
+
+-- Markedsføring og ledelse 2: Kilder, teorier og modeller i markedsføring og ledelse
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'markedsforing-og-ledelse-2', 'teorier-og-modeller', 'Kilder, teorier og modeller i markedsføring og ledelse', 'Hvordan du velger og bruker kilder, teorier og modeller i arbeid med faglige og dagsaktuelle problemstillinger – en oversikt over sentrale modeller som STP, markedsmiks, SWOT, Porters fem krefter, Ansoff og BCG, hva modeller kan og ikke kan, og hvordan du bygger opp en faglig drøfting.', array[1]::int[], 0, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', '## Hvorfor teorier og modeller?
+
+En **teori** forklarer sammenhenger, mens en **modell** er en **forenklet** framstilling av virkeligheten. I markedsføring og ledelse hjelper modellene oss å **strukturere** analyser, se **sammenhenger** og ta bedre **beslutninger**. Men modellene gir ikke **svaret** – de gir et **rammeverk** for å tenke.
+
+## Sentrale modeller
+
+| Område | Modell | Bruk |
+|---|---|---|
+| Analyse | **SWOT** | styrker, svakheter, muligheter og trusler |
+| Analyse | **PESTEL** | forhold i makroomgivelsene |
+| Bransje | **Porters fem krefter** | konkurransen i en bransje |
+| Vekst | **Ansoffs matrise** | valg av vekststrategi |
+| Portefølje | **BCG-matrisen** | prioritering av produkter |
+| Målgruppe | **STP** | segmentering, målgruppevalg og posisjonering |
+| Tiltak | **Markedsmiksen – 4P/7P** | produkt, pris, distribusjon, påvirkning, pluss personale, prosesser og fysiske omgivelser |
+| Kommunikasjon | **AIDA** | oppmerksomhet, interesse, ønske og handling |
+| Ledelse | **Situasjonsbestemt ledelse** | tilpasse lederstil til medarbeideren |
+
+## Styrker og svakheter ved modeller
+
+**Styrker**:
+
+- gir **struktur** og **oversikt**
+- sikrer at viktige forhold ikke **glemmes**
+- gir et **felles språk** i en bedrift
+
+**Svakheter**:
+
+- er **forenklinger** av en kompleks virkelighet
+- mange er laget for **store** bedrifter i **stabile** markeder, og passer ikke alltid for **små** virksomheter eller **digitale** markeder
+- kan bli en **avkrysningsliste** i stedet for en ekte analyse
+- **fanger ikke** alltid opp raske endringer, som nye teknologier
+
+## Valg og bruk av kilder
+
+- **Fagbøker** og **forskningsartikler** gir teori.
+- **Årsrapporter** og **bedriftenes nettsider** gir fakta om virksomheter – men er skrevet for å gi et **godt inntrykk**.
+- **Bransjeorganisasjoner**, **SSB** og **analysebyråer** gir markedsdata.
+- **Nyheter** og **fagmedier** gir dagsaktuelle eksempler.
+- **Egne undersøkelser** – spørreskjema, intervju og observasjon – gir **primærdata**.
+
+Vurder alltid **avsender**, **aktualitet** og **formål**, og skill mellom **fakta** og **markedsføring**.
+
+## Dagsaktuelle problemstillinger
+
+Eksempler på aktuelle problemstillinger er
+
+- hvordan **kunstig intelligens** endrer markedsføring og kundeservice
+- hvordan **dagligvarekjedenes** makt påvirker leverandører og priser
+- om **influencere** er troverdige og etiske
+- hvordan bedrifter kan unngå **grønnvasking**
+- hvordan **prisvekst** påvirker forbrukernes valg
+
+## Faglig drøfting
+
+1. **Presenter** problemstillingen og situasjonen.
+2. Velg **relevante** teorier og modeller – ikke alle.
+3. **Bruk** modellene på den konkrete virksomheten.
+4. **Drøft** alternativer med argumenter **for** og **mot**.
+5. **Vurder** modellens begrensninger.
+6. Kom fram til en **begrunnet** anbefaling.
+
+En god besvarelse viser at du kan **anvende** – ikke bare **gjengi** – teoriene.', '{"label":"Teorier og modeller","children":[{"label":"Analyse","children":[{"label":"SWOT og PESTEL"},{"label":"Porters fem krefter"}]},{"label":"Strategi","children":[{"label":"Ansoff"},{"label":"BCG"},{"label":"STP"}]},{"label":"Tiltak","children":[{"label":"4P og 7P"},{"label":"AIDA"}]},{"label":"Kilder","children":[{"label":"Primær- og sekundærdata"},{"label":"Kildekritikk"}]},{"label":"Drøfting","children":[{"label":"Anvende modeller"},{"label":"Begrensninger"},{"label":"Begrunnet anbefaling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:teorier-og-modeller';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Teori', 'Forklarer sammenhenger.', 0),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Modell', 'Forenklet framstilling av virkeligheten.', 1),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'SWOT', 'Styrker, svakheter, muligheter og trusler.', 2),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'PESTEL', 'Analyse av makroomgivelsene.', 3),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Porters fem krefter', 'Analyse av konkurransen i en bransje.', 4),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Ansoffs matrise', 'Valg av vekststrategi ut fra produkt og marked.', 5),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'BCG-matrisen', 'Prioritering av produkter ut fra markedsvekst og markedsandel.', 6),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'STP', 'Segmentering, målgruppevalg og posisjonering.', 7),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', '7P', '4P pluss personale, prosesser og fysiske omgivelser.', 8),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'AIDA', 'Attention, interest, desire, action.', 9),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Primærdata', 'Data man samler inn selv.', 10),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Sekundærdata', 'Data som allerede finnes, som statistikk og rapporter.', 11),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Årsrapport', 'Bedriftens rapport om drift og resultater – skrevet for å gi godt inntrykk.', 12),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Modellens begrensning', 'Forenkling som ikke alltid passer virkeligheten.', 13),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'Anvende teori', 'Å bruke teorien på en konkret situasjon, ikke bare gjengi den.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:teorier-og-modeller';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q01', 'flervalg', 'Hva er en modell i markedsføring?', array['En person i reklame', 'En forenklet framstilling av virkeligheten', 'En lov', 'Et produkt']::text[], 1, 'Gir et rammeverk for å tenke.', true, true, 0),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q02', 'flervalg', 'Hvilken modell brukes til å analysere konkurransen i en bransje?', array['Porters fem krefter', 'AIDA', '4P', 'STP']::text[], 0, 'Michael Porter.', true, true, 1),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q03', 'flervalg', 'Hva er en svakhet ved mange modeller?', array['De gir struktur', 'De gir felles språk', 'De er forenklinger som ikke alltid passer virkeligheten', 'De er gratis']::text[], 2, 'Særlig i raske, digitale markeder.', true, true, 2),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q04', 'flervalg', 'Hva står STP for?', array['Salg, tid og pris', 'Strategi, taktikk og plan', 'Styrker, trusler og posisjon', 'Segmentering, målgruppevalg og posisjonering']::text[], 3, 'Targeting er målgruppevalg.', true, true, 3),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q05', 'flervalg', 'Hva er primærdata?', array['Data man samler inn selv', 'Statistikk fra SSB', 'Årsrapporter', 'Fagbøker']::text[], 0, 'For eksempel en spørreundersøkelse.', true, true, 4),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q06', 'flervalg', 'Hvorfor bør du være kritisk til årsrapporter?', array['Fordi de er ulovlige', 'Fordi de er skrevet for å gi et godt inntrykk', 'Fordi de alltid er feil', 'Fordi de er for korte']::text[], 1, 'Skill mellom fakta og markedsføring.', true, true, 5),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q07', 'flervalg', 'Hvilken modell hjelper med valg av vekststrategi?', array['PESTEL', 'AIDA', 'Ansoffs matrise', 'SWOT']::text[], 2, 'Produkt og marked.', true, true, 6),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q08', 'flervalg', 'Hva kjennetegner en god faglig drøfting?', array['At man gjengir alle teorier', 'At man bare gir egen mening', 'At man unngår konklusjon', 'At man anvender relevante teorier på situasjonen og begrunner anbefalingen']::text[], 3, 'Anvende, ikke bare gjengi.', true, true, 7),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q09', 'flervalg', 'Hva brukes BCG-matrisen til?', array['Prioritering av produkter i en portefølje', 'Lederstil', 'Kommunikasjonsmål', 'Prissetting']::text[], 0, 'Markedsvekst og markedsandel.', true, false, 8),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'q10', 'flervalg', 'Hvilke tre P-er kommer i tillegg i 7P-modellen?', array['Plan, profitt og press', 'Personale, prosesser og fysiske omgivelser', 'Pris, plass og produkt', 'Partner, politikk og PR']::text[], 1, 'Viktig for tjenester.', true, false, 9),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm01', 'sant-usant', 'Modeller kan gi et felles språk i en bedrift.', array['Sant', 'Usant']::text[], 0, 'En av styrkene.', false, true, 10),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm02', 'sant-usant', 'En modell gir alltid det riktige svaret.', array['Sant', 'Usant']::text[], 1, 'Den gir et rammeverk, ikke svaret.', false, true, 11),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm03', 'sant-usant', 'Mange modeller er laget for store bedrifter i stabile markeder.', array['Sant', 'Usant']::text[], 0, 'Passer ikke alltid for små eller digitale virksomheter.', false, true, 12),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm04', 'sant-usant', 'I en drøfting bør man bruke alle modeller man kjenner.', array['Sant', 'Usant']::text[], 1, 'Velg de relevante.', false, true, 13),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm05', 'flervalg', 'Hvilken kilde gir dagsaktuelle eksempler?', array['Fagbøker fra 1990', 'Nyheter og fagmedier', 'Ordbøker', 'Leksikon fra 1950']::text[], 1, 'Aktualitet er viktig.', false, true, 14),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm06', 'flervalg', 'Hva er en dagsaktuell problemstilling i markedsføring?', array['Hvordan kunstig intelligens endrer markedsføringen', 'Hvordan trykkpressen ble oppfunnet', 'Hvordan man lager brød', 'Hvordan været blir']::text[], 0, 'Også grønnvasking og kjedemakt.', false, true, 15),
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 'm07', 'flervalg', 'Hva står D-en i AIDA for?', array['Distribusjon', 'Data', 'Desire – ønske', 'Design']::text[], 2, 'Attention, interest, desire, action.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:teorier-og-modeller', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Visjon, forretningsidé og overordnede mål
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'markedsforing-og-ledelse-2', 'visjon-forretningside-og-mal', 'Visjon, forretningsidé og overordnede mål', 'Hvordan virksomheter utvikler og vurderer visjoner, forretningsideer, verdier og overordnede mål – forskjellen på visjon og virksomhetsidé, forretningsideens elementer, målhierarkiet fra hovedmål til delmål, SMART-mål og balansert målstyring – og hvordan de henger sammen med strategien.', array[2]::int[], 1, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', '## Strategiens grunnmur
+
+Før en virksomhet velger strategi, må den vite **hvor** den vil, **hvorfor** den finnes og **hva** den vil oppnå. Det uttrykkes i **visjon**, **forretningsidé**, **verdier** og **mål**.
+
+## Visjon
+
+En **visjon** er et **langsiktig**, **inspirerende** bilde av hva virksomheten vil **bli** eller **oppnå**. Den skal gi **retning** og **motivasjon**, men er ofte ikke direkte **målbar**.
+
+En god visjon er
+
+- **kort** og lett å huske
+- **ambisiøs**, men troverdig
+- **meningsfull** for ansatte og kunder
+
+## Virksomhetsidé og forretningsidé
+
+- **Virksomhetsideen** – eller **misjonen** – sier hvorfor virksomheten **finnes** og hvilket **behov** den dekker.
+- **Forretningsideen** beskriver mer konkret **hvordan** virksomheten skal tjene penger.
+
+Forretningsideen svarer på tre spørsmål:
+
+1. **Hva** tilbyr vi? – produkt eller tjeneste og **kundefordelen**
+2. **Hvem** tilbyr vi det til? – **målgruppen**
+3. **Hvordan** skal vi gjøre det? – **ressurser**, **kompetanse** og **konkurransefortrinn**
+
+En god forretningsidé er **realistisk**, har en **tydelig** målgruppe og et **konkurransefortrinn** som er vanskelig å **kopiere**.
+
+## Verdier
+
+**Verdier** beskriver hva virksomheten **står for** og hvordan de ansatte skal **opptre** – for eksempel ærlighet, nytenkning eller bærekraft. Verdiene må **etterleves** for å være troverdige. Verdier som bare står på veggen, kan skade **omdømmet**.
+
+## Målhierarkiet
+
+- **Hovedmål** – overordnede mål – uttrykker hva virksomheten vil oppnå på **lang** sikt, for eksempel å bli markedsleder i Norden.
+- **Delmål** bryter hovedmålene ned for **avdelinger** og **perioder**, for eksempel markedsmål, salgsmål og kommunikasjonsmål.
+- **Handlingsplaner** viser de konkrete **tiltakene**.
+
+Målene må **henge sammen**: Delmålene skal bidra til hovedmålet, som skal bidra til visjonen.
+
+## SMART-mål
+
+Gode mål er
+
+- **Spesifikke**
+- **Målbare**
+- **Akseptert** av dem som skal nå dem
+- **Realistiske**
+- **Tidsbestemte**
+
+Eksempel: «Øke markedsandelen i Norge fra 8 til 10 % innen utgangen av neste år.»
+
+## Ulike typer mål
+
+- **Økonomiske** mål: lønnsomhet, omsetning, vekst
+- **Markedsmål**: markedsandel, antall kunder, kjennskap
+- **Sosiale** og **miljømessige** mål: redusere utslipp, øke trivsel
+
+Mål kan komme i **konflikt** – for eksempel kortsiktig **lønnsomhet** mot **bærekraft**.
+
+## Balansert målstyring
+
+**Balansert målstyring** – balanced scorecard – måler virksomheten fra fire perspektiver: **økonomi**, **kunder**, **interne prosesser** og **læring og utvikling**. Poenget er at virksomheten ikke bare skal styre etter **tall** på kort sikt.
+
+## Vurdering
+
+Når du vurderer en visjon, forretningsidé eller et mål, kan du spørre: Er den **tydelig**? **Troverdig**? Henger den **sammen** med strategien og ressursene? Blir den **fulgt opp**? En virksomhet som endrer seg – for eksempel mot **bærekraft** – må kanskje **revidere** både visjon og forretningsidé.', '{"label":"Visjon og mål","children":[{"label":"Visjon","children":[{"label":"Langsiktig"},{"label":"Inspirerende"}]},{"label":"Idé","children":[{"label":"Virksomhetsidé"},{"label":"Forretningsidé: hva, hvem, hvordan"}]},{"label":"Verdier","children":[{"label":"Hva vi står for"},{"label":"Må etterleves"}]},{"label":"Mål","children":[{"label":"Hovedmål og delmål"},{"label":"SMART"},{"label":"Målkonflikter"}]},{"label":"Styring","children":[{"label":"Balansert målstyring"},{"label":"Handlingsplaner"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:visjon-forretningside-og-mal';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Visjon', 'Langsiktig, inspirerende bilde av hva virksomheten vil bli.', 0),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Virksomhetsidé', 'Hvorfor virksomheten finnes og hvilket behov den dekker.', 1),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Forretningsidé', 'Hvordan virksomheten skal tjene penger – hva, hvem og hvordan.', 2),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Kundefordel', 'Nytten kunden får av produktet.', 3),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Konkurransefortrinn', 'Noe virksomheten gjør bedre enn konkurrentene.', 4),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Verdier', 'Hva virksomheten står for og hvordan ansatte skal opptre.', 5),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Hovedmål', 'Overordnet mål på lang sikt.', 6),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Delmål', 'Mål for avdelinger og perioder som bidrar til hovedmålet.', 7),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Handlingsplan', 'Konkrete tiltak for å nå målene.', 8),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'SMART', 'Spesifikt, målbart, akseptert, realistisk, tidsbestemt.', 9),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Markedsmål', 'Mål om markedsandel, kunder eller kjennskap.', 10),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Målkonflikt', 'At mål trekker i ulike retninger.', 11),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Balansert målstyring', 'Økonomi, kunder, interne prosesser og læring.', 12),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Målhierarki', 'Visjon, hovedmål, delmål og tiltak henger sammen.', 13),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'Troverdige verdier', 'Verdier som faktisk etterleves.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:visjon-forretningside-og-mal';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q01', 'flervalg', 'Hva er en visjon?', array['Et budsjett', 'Et langsiktig, inspirerende bilde av hva virksomheten vil bli', 'En reklamekampanje', 'Et delmål']::text[], 1, 'Gir retning og motivasjon.', true, true, 0),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q02', 'flervalg', 'Hvilke tre spørsmål svarer forretningsideen på?', array['Hva, hvem og hvordan', 'Når, hvor og hvorfor', 'Pris, plass og produkt', 'Styrker, svakheter og trusler']::text[], 0, 'Tilbud, målgruppe og ressurser.', true, true, 1),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q03', 'flervalg', 'Hva står M-en i SMART for?', array['Moderne', 'Motiverende', 'Målbar', 'Maksimal']::text[], 2, 'Man må kunne måle om målet er nådd.', true, true, 2),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q04', 'flervalg', 'Hva er et delmål?', array['En visjon', 'En verdi', 'En forretningsidé', 'Et mål for en avdeling eller periode som bidrar til hovedmålet']::text[], 3, 'Målhierarkiet.', true, true, 3),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q05', 'flervalg', 'Hvilke fire perspektiver har balansert målstyring?', array['Økonomi, kunder, interne prosesser og læring', 'Pris, produkt, plass og påvirkning', 'Styrker, svakheter, muligheter og trusler', 'Politikk, økonomi, sosialt og teknologi']::text[], 0, 'Ikke bare tall på kort sikt.', true, true, 4),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q06', 'flervalg', 'Hva kan skje hvis verdiene ikke etterleves?', array['Omdømmet styrkes', 'Omdømmet kan skades', 'Ingenting', 'Salget dobles']::text[], 1, 'Verdier må være troverdige.', true, true, 5),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q07', 'flervalg', 'Hva er et konkurransefortrinn?', array['Et lavt budsjett', 'Mange ansatte', 'Noe virksomheten gjør bedre enn konkurrentene', 'En visjon']::text[], 2, 'Bør være vanskelig å kopiere.', true, true, 6),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q08', 'flervalg', 'Hva er et eksempel på målkonflikt?', array['Høy trivsel og god kundeservice', 'Mange kunder og høy kjennskap', 'Lave kostnader og effektivitet', 'Kortsiktig lønnsomhet mot bærekraft']::text[], 3, 'Mål kan trekke i ulike retninger.', true, true, 7),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q09', 'flervalg', 'Hva beskriver virksomhetsideen?', array['Hvorfor virksomheten finnes og hvilket behov den dekker', 'Hvor mye den tjener', 'Hvem som er leder', 'Hvilke farger logoen har']::text[], 0, 'Også kalt misjon.', true, false, 8),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'q10', 'flervalg', 'Hvilket mål er SMART?', array['Bli best i verden', 'Øke markedsandelen fra 8 til 10 % innen utgangen av neste år', 'Få flere kunder', 'Bli mer kjent']::text[], 1, 'Spesifikt, målbart og tidsbestemt.', true, false, 9),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm01', 'sant-usant', 'En visjon er ofte ikke direkte målbar.', array['Sant', 'Usant']::text[], 0, 'Den gir retning, mens målene kan måles.', false, true, 10),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm02', 'sant-usant', 'Delmål trenger ikke henge sammen med hovedmålet.', array['Sant', 'Usant']::text[], 1, 'Delmålene skal bidra til hovedmålet.', false, true, 11),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm03', 'sant-usant', 'En virksomhet kan måtte revidere visjonen når den endrer retning.', array['Sant', 'Usant']::text[], 0, 'For eksempel mot bærekraft.', false, true, 12),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm04', 'sant-usant', 'Et mål som ingen ansatte aksepterer, er et godt SMART-mål.', array['Sant', 'Usant']::text[], 1, 'Målet må være akseptert.', false, true, 13),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm05', 'flervalg', 'Hvilket mål er et markedsmål?', array['Redusere utslipp', 'Øke kjennskapen til merket', 'Øke trivselen', 'Redusere sykefraværet']::text[], 1, 'Markedsandel, kunder eller kjennskap.', false, true, 14),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm06', 'flervalg', 'Hva kjennetegner en god forretningsidé?', array['Realistisk, tydelig målgruppe og konkurransefortrinn', 'Vag og generell', 'Uten målgruppe', 'Lett å kopiere']::text[], 0, 'Vanskelig å kopiere.', false, true, 15),
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 'm07', 'flervalg', 'Hva viser handlingsplanen?', array['Visjonen', 'Verdiene', 'De konkrete tiltakene', 'Konkurrentene']::text[], 2, 'Nederst i målhierarkiet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:visjon-forretningside-og-mal', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Segmentering og målgruppevalg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'markedsforing-og-ledelse-2', 'malgruppevalg', 'Segmentering og målgruppevalg', 'Faktorer som påvirker valg av målgruppe – segmenteringskriterier, krav til gode segmenter, markedsdekningsstrategier som udifferensiert, differensiert, konsentrert og individuell markedsføring – og hvordan ressurser, konkurranse, produktets livsfase, data og etikk påvirker valget.', array[3]::int[], 2, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:malgruppevalg', '## Fra marked til målgruppe
+
+Ingen virksomhet kan være alt for alle. **STP-prosessen** hjelper virksomheten å velge hvem den skal satse på:
+
+1. **Segmentering**: dele markedet i grupper med **like** behov
+2. **Målgruppevalg** – targeting: velge hvilke segmenter man skal satse på
+3. **Posisjonering**: bestemme hvordan man vil **oppfattes** av målgruppen
+
+## Segmenteringskriterier
+
+- **Geografiske**: land, region, by eller bygd
+- **Demografiske**: alder, kjønn, inntekt, utdanning, livsfase
+- **Psykografiske**: livsstil, verdier, personlighet og interesser
+- **Atferdsbaserte**: bruksfrekvens, lojalitet, kjøpsanledning og hvilken **nytte** kunden søker
+
+I **bedriftsmarkedet** brukes blant annet bransje, bedriftsstørrelse og innkjøpsatferd.
+
+Med **digitale data** kan virksomheter segmentere svært **presist** – ut fra hva folk søker etter, klikker på og kjøper.
+
+## Krav til gode segmenter
+
+Et segment bør være
+
+- **målbart**: Vi kan anslå størrelse og kjøpekraft.
+- **stort nok** til å være **lønnsomt**
+- **tilgjengelig**: Vi kan nå det med kommunikasjon og distribusjon.
+- **forskjellig** fra andre segmenter, slik at det reagerer ulikt på markedsføringen
+- **stabilt** nok over tid
+
+## Markedsdekningsstrategier
+
+- **Udifferensiert** markedsføring: samme tilbud til **hele** markedet. Passer for **standardvarer** som salt og strøm. Gir lave kostnader, men lite tilpasning.
+- **Differensiert** markedsføring: ulike tilbud til **flere** segmenter – for eksempel en bilprodusent med ulike modeller. Gir bedre tilpasning, men høyere kostnader.
+- **Konsentrert** markedsføring – nisje: satse på **ett** segment. Passer for **små** virksomheter med begrensede ressurser, men gir høy **risiko** hvis segmentet svikter.
+- **Individuell** markedsføring – one-to-one: tilpasse tilbudet til hver **enkelt** kunde, for eksempel personlige anbefalinger i nettbutikker.
+
+## Faktorer som påvirker målgruppevalget
+
+- **Ressurser**: Små virksomheter velger ofte **konsentrert** markedsføring.
+- **Produktet**: Standardvarer passer for udifferensiert, mens produkter som kan **tilpasses**, passer for differensiert.
+- **Produktets livsfase**: I **introduksjonsfasen** satser man ofte på én målgruppe, mens man i **modningsfasen** kan utvide til flere.
+- **Konkurransen**: Mange sterke konkurrenter kan gjøre det lurt å finne en **nisje**.
+- **Markedets størrelse og vekst**
+- **Virksomhetens mål** og **forretningsidé**
+- **Etikk og regelverk**: Markedsføring rettet mot **barn** er strengt regulert, og noen varer – som **alkohol** – kan ikke markedsføres i det hele tatt.
+
+## Primær- og sekundærmålgruppe
+
+Mange virksomheter har en **primærmålgruppe** – de viktigste kundene – og en **sekundærmålgruppe**, for eksempel dem som **påvirker** kjøpet. Leker kjøpes ofte av **foreldre**, men **barna** påvirker valget.
+
+## Etiske spørsmål
+
+Presis **datadrevet** segmentering kan gi relevante tilbud, men reiser spørsmål om **personvern** og om å utnytte **sårbare** grupper – for eksempel å målrette **forbrukslån** eller **pengespill** mot personer med dårlig økonomi.
+
+## Drøfting
+
+Når du drøfter målgruppevalg, må du **begrunne** valget ut fra virksomhetens **situasjon**: ressurser, konkurranse, produkt og mål. Det finnes sjelden ett **riktig** svar, men valget må henge **logisk** sammen med resten av strategien.', '{"label":"Målgruppevalg","children":[{"label":"STP","children":[{"label":"Segmentering"},{"label":"Targeting"},{"label":"Posisjonering"}]},{"label":"Kriterier","children":[{"label":"Geografisk og demografisk"},{"label":"Psykografisk og atferd"}]},{"label":"Strategier","children":[{"label":"Udifferensiert"},{"label":"Differensiert"},{"label":"Konsentrert og individuell"}]},{"label":"Faktorer","children":[{"label":"Ressurser og produkt"},{"label":"Livsfase og konkurranse"},{"label":"Regelverk"}]},{"label":"Etikk","children":[{"label":"Personvern"},{"label":"Sårbare grupper"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:malgruppevalg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Segmentering', 'Å dele markedet i grupper med like behov.', 0),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Targeting', 'Å velge hvilke segmenter man satser på.', 1),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Demografisk segmentering', 'Alder, kjønn, inntekt, utdanning, livsfase.', 2),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Psykografisk segmentering', 'Livsstil, verdier og interesser.', 3),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Atferdsbasert segmentering', 'Bruksfrekvens, lojalitet og søkt nytte.', 4),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Krav til segmenter', 'Målbart, stort nok, tilgjengelig, forskjellig og stabilt.', 5),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Udifferensiert markedsføring', 'Samme tilbud til hele markedet.', 6),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Differensiert markedsføring', 'Ulike tilbud til flere segmenter.', 7),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Konsentrert markedsføring', 'Satsing på ett segment – nisje.', 8),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Individuell markedsføring', 'Tilbud tilpasset hver enkelt kunde.', 9),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Primærmålgruppe', 'De viktigste kundene.', 10),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Sekundærmålgruppe', 'For eksempel de som påvirker kjøpet.', 11),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Nisje', 'Lite, avgrenset segment.', 12),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Datadrevet segmentering', 'Segmentering ut fra søk, klikk og kjøp.', 13),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'Sårbare grupper', 'Grupper som kan utnyttes av målrettet markedsføring.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:malgruppevalg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q01', 'flervalg', 'Hva er psykografisk segmentering?', array['Etter alder', 'Etter livsstil, verdier og interesser', 'Etter bosted', 'Etter bruksfrekvens']::text[], 1, 'Handler om hvordan folk lever og tenker.', true, true, 0),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q02', 'flervalg', 'Hvilken strategi passer ofte for små virksomheter?', array['Konsentrert markedsføring', 'Udifferensiert markedsføring', 'Differensiert markedsføring med mange segmenter', 'Ingen strategi']::text[], 0, 'Begrensede ressurser.', true, true, 1),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q03', 'flervalg', 'Hvilket krav stilles til et godt segment?', array['At det er ukjent', 'At det er umulig å nå', 'At det er stort nok til å være lønnsomt', 'At det er likt alle andre segmenter']::text[], 2, 'Også målbart og tilgjengelig.', true, true, 2),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q04', 'flervalg', 'Hva er udifferensiert markedsføring?', array['Tilbud til hver kunde', 'Tilbud til én nisje', 'Ulike tilbud til flere segmenter', 'Samme tilbud til hele markedet']::text[], 3, 'Passer for standardvarer.', true, true, 3),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q05', 'flervalg', 'Hva er en risiko ved konsentrert markedsføring?', array['At virksomheten rammes hardt hvis segmentet svikter', 'At kostnadene blir svært høye', 'At man når for mange', 'At produktet blir for billig']::text[], 0, 'Alle egg i én kurv.', true, true, 4),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q06', 'flervalg', 'Hva er en sekundærmålgruppe for leker?', array['Leketøysbutikker', 'Barna som påvirker kjøpet', 'Konkurrenter', 'Staten']::text[], 1, 'Foreldrene kjøper.', true, true, 5),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q07', 'flervalg', 'Hvilket etisk problem kan presis datadrevet segmentering gi?', array['For lite reklame', 'Lavere priser', 'At sårbare grupper utnyttes', 'At kunder får irrelevante tilbud']::text[], 2, 'For eksempel forbrukslån.', true, true, 6),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q08', 'flervalg', 'Hva er atferdsbasert segmentering?', array['Etter kjønn', 'Etter region', 'Etter personlighet', 'Etter bruksfrekvens, lojalitet og søkt nytte']::text[], 3, 'Hvordan kunden oppfører seg.', true, true, 7),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q09', 'flervalg', 'Hva er individuell markedsføring?', array['Tilbud tilpasset hver enkelt kunde', 'Samme tilbud til alle', 'Ett segment', 'Markedsføring bare på TV']::text[], 0, 'For eksempel personlige anbefalinger.', true, false, 8),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'q10', 'flervalg', 'Hvordan påvirker produktets livsfase målgruppevalget?', array['Ikke i det hele tatt', 'I introduksjonsfasen satser man ofte på én målgruppe, senere flere', 'Man satser alltid på alle', 'Man slutter å segmentere']::text[], 1, 'Utvidelse i modningsfasen.', true, false, 9),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm01', 'sant-usant', 'Markedsføring rettet mot barn er strengt regulert.', array['Sant', 'Usant']::text[], 0, 'Hensyn til sårbare grupper.', false, true, 10),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm02', 'sant-usant', 'Differensiert markedsføring gir alltid lavere kostnader enn udifferensiert.', array['Sant', 'Usant']::text[], 1, 'Den gir ofte høyere kostnader.', false, true, 11),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm03', 'sant-usant', 'Mange sterke konkurrenter kan gjøre det lurt å finne en nisje.', array['Sant', 'Usant']::text[], 0, 'Unngå direkte konkurranse.', false, true, 12),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm04', 'sant-usant', 'Et segment som ikke kan nås med kommunikasjon, er et godt segment.', array['Sant', 'Usant']::text[], 1, 'Det må være tilgjengelig.', false, true, 13),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm05', 'flervalg', 'Hvilket kriterium er demografisk?', array['Livsstil', 'Inntekt', 'Lojalitet', 'Verdier']::text[], 1, 'Også alder og utdanning.', false, true, 14),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm06', 'flervalg', 'Hvilken strategi passer for en bilprodusent med mange modeller?', array['Differensiert markedsføring', 'Udifferensiert markedsføring', 'Ingen segmentering', 'Bare nisje']::text[], 0, 'Ulike tilbud til ulike segmenter.', false, true, 15),
+  ('markedsforing-og-ledelse-2:malgruppevalg', 'm07', 'flervalg', 'Hva må et målgruppevalg henge sammen med?', array['Konkurrentenes logo', 'Tilfeldigheter', 'Virksomhetens situasjon og strategi', 'Været']::text[], 2, 'Ressurser, mål og konkurranse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:malgruppevalg', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Situasjonsanalyse, bransjeanalyse og markedsstrategiske valg
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'markedsforing-og-ledelse-2', 'situasjons-og-bransjeanalyse', 'Situasjonsanalyse, bransjeanalyse og markedsstrategiske valg', 'Hvordan situasjonsanalyse og bransjeanalyse brukes som grunnlag for markedsstrategiske beslutninger – fra SWOT til strategier, Porters fem krefter, markedsformer, Porters generiske strategier, Ansoffs vekstmatrise og BCG-matrisen – og hvordan du vurderer strategiske valg.', array[4]::int[], 3, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', '## Fra analyse til strategi
+
+En **situasjonsanalyse** kartlegger **interne** forhold – ressurser, kompetanse, økonomi – og **eksterne** forhold – marked, konkurrenter og makroomgivelser. Analysen skal ende i **strategiske valg**, ikke bare en liste.
+
+## Fra SWOT til strategier
+
+SWOT kan brukes **aktivt** ved å kombinere faktorene:
+
+- **Styrker + muligheter**: **Offensive** strategier – bruk styrkene til å utnytte mulighetene.
+- **Svakheter + muligheter**: **Forbedre** svakhetene for å kunne utnytte mulighetene.
+- **Styrker + trusler**: **Forsvar** – bruk styrkene til å møte truslene.
+- **Svakheter + trusler**: **Defensive** strategier – reduser risikoen, kanskje trekk deg ut.
+
+## Porters fem krefter
+
+**Michael Porter** viste at lønnsomheten i en **bransje** avhenger av fem krefter:
+
+1. **Rivalisering** mellom eksisterende konkurrenter
+2. **Trusselen fra nye aktører** – høye **etableringsbarrierer** som store investeringer beskytter bransjen
+3. **Trusselen fra substitutter** – produkter som dekker samme behov på en annen måte
+4. **Kundenes forhandlingsmakt**
+5. **Leverandørenes forhandlingsmakt**
+
+Jo **sterkere** kreftene er, desto **lavere** lønnsomhet. **Dagligvarebransjen** i Norge preges for eksempel av noen få store **kjeder** med stor makt overfor **leverandørene**.
+
+## Markedsformer
+
+- **Fullkommen konkurranse**: mange tilbydere, like produkter
+- **Monopolistisk konkurranse**: mange tilbydere, **differensierte** produkter – som frisører og restauranter
+- **Oligopol**: **få** store aktører – som mobiloperatører og dagligvarekjeder
+- **Monopol**: **én** tilbyder
+
+## Porters generiske strategier
+
+En virksomhet kan skaffe seg **konkurransefortrinn** på to måter – i hele markedet eller i en **nisje**:
+
+- **Kostnadsledelse**: lavest kostnader og ofte lavest pris
+- **Differensiering**: unike egenskaper kunden er villig til å betale **mer** for
+- **Fokus**: kostnadsledelse eller differensiering i et **avgrenset** segment
+
+Porter advarte mot å bli «**stuck in the middle**» – verken billigst eller best.
+
+## Ansoffs vekstmatrise
+
+| | Eksisterende produkter | Nye produkter |
+|---|---|---|
+| **Eksisterende marked** | Markedspenetrasjon | Produktutvikling |
+| **Nytt marked** | Markedsutvikling | Diversifisering |
+
+**Markedspenetrasjon** har **lavest** risiko, mens **diversifisering** har **høyest**.
+
+## BCG-matrisen
+
+BCG-matrisen plasserer produktene etter **markedsvekst** og **relativ markedsandel**:
+
+- **Stjerner**: høy vekst, høy andel – investér
+- **Melkekuer**: lav vekst, høy andel – gir **overskudd** som kan finansiere andre produkter
+- **Spørsmålstegn**: høy vekst, lav andel – satse eller avvikle?
+- **Hunder**: lav vekst, lav andel – ofte avvikle
+
+## Vurdering av strategiske beslutninger
+
+En god strategi
+
+- bygger på **analysen** og utnytter **styrkene**
+- er **realistisk** ut fra ressursene
+- skiller virksomheten fra **konkurrentene**
+- henger sammen med **visjon** og **mål**
+- tar hensyn til **risiko**
+
+Når du vurderer en strategi, drøfter du **alternativer**, **konsekvenser** og hvordan **konkurrentene** kan reagere.', '{"label":"Analyse og strategi","children":[{"label":"SWOT","children":[{"label":"Offensiv og forbedring"},{"label":"Forsvar og defensiv"}]},{"label":"Bransje","children":[{"label":"Porters fem krefter"},{"label":"Markedsformer"}]},{"label":"Konkurransestrategi","children":[{"label":"Kostnadsledelse"},{"label":"Differensiering"},{"label":"Fokus"}]},{"label":"Vekst","children":[{"label":"Ansoff"},{"label":"BCG"}]},{"label":"Vurdering","children":[{"label":"Realisme og risiko"},{"label":"Konkurrentenes reaksjon"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Offensiv strategi', 'Bruke styrker til å utnytte muligheter.', 0),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Defensiv strategi', 'Redusere risiko når svakheter møter trusler.', 1),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Porters fem krefter', 'Rivalisering, nye aktører, substitutter, kunders og leverandørers makt.', 2),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Etableringsbarriere', 'Hindring for nye aktører, som store investeringer.', 3),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Substitutt', 'Produkt som dekker samme behov på en annen måte.', 4),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Oligopol', 'Få store aktører.', 5),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Monopolistisk konkurranse', 'Mange tilbydere med differensierte produkter.', 6),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Kostnadsledelse', 'Konkurransefortrinn gjennom lavest kostnader.', 7),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Differensiering', 'Unike egenskaper kunden vil betale mer for.', 8),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Fokusstrategi', 'Kostnadsledelse eller differensiering i en nisje.', 9),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Stuck in the middle', 'Verken billigst eller best.', 10),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Markedspenetrasjon', 'Selge mer av eksisterende produkter i eksisterende marked.', 11),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Diversifisering', 'Nye produkter i nye markeder – høyest risiko.', 12),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Melkeku', 'Lav vekst, høy markedsandel – gir overskudd.', 13),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'Spørsmålstegn', 'Høy vekst, lav markedsandel.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q01', 'flervalg', 'Hvilken strategi kombinerer styrker og muligheter?', array['Defensiv', 'Offensiv', 'Avvikling', 'Forsvar']::text[], 1, 'Bruk styrkene aktivt.', true, true, 0),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q02', 'flervalg', 'Hva er en substitutt?', array['Et produkt som dekker samme behov på en annen måte', 'En direkte konkurrent', 'En leverandør', 'En kunde']::text[], 0, 'For eksempel strømmetjeneste mot kino.', true, true, 1),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q03', 'flervalg', 'Hva kjennetegner et oligopol?', array['Én tilbyder', 'Mange små tilbydere', 'Få store aktører', 'Ingen konkurranse']::text[], 2, 'Som dagligvarekjeder.', true, true, 2),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q04', 'flervalg', 'Hvilken vekststrategi har høyest risiko?', array['Markedspenetrasjon', 'Markedsutvikling', 'Produktutvikling', 'Diversifisering']::text[], 3, 'Nye produkter i nye markeder.', true, true, 3),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q05', 'flervalg', 'Hva er en melkeku i BCG-matrisen?', array['Lav vekst og høy markedsandel', 'Høy vekst og lav andel', 'Lav vekst og lav andel', 'Høy vekst og høy andel']::text[], 0, 'Gir overskudd.', true, true, 4),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q06', 'flervalg', 'Hva advarte Porter mot?', array['Differensiering', 'Å bli «stuck in the middle»', 'Kostnadsledelse', 'Fokus']::text[], 1, 'Verken billigst eller best.', true, true, 5),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q07', 'flervalg', 'Hva gjør høye etableringsbarrierer?', array['Øker konkurransen', 'Senker prisene', 'Beskytter bransjen mot nye aktører', 'Gir flere substitutter']::text[], 2, 'Gir høyere lønnsomhet for de etablerte.', true, true, 6),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q08', 'flervalg', 'Hva er markedsutvikling i Ansoffs matrise?', array['Nye produkter i eksisterende marked', 'Mer salg av eksisterende produkter', 'Nye produkter i nye markeder', 'Eksisterende produkter i nye markeder']::text[], 3, 'For eksempel eksport.', true, true, 7),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q09', 'flervalg', 'Hva er differensiering?', array['Unike egenskaper kunden vil betale mer for', 'Lavest pris', 'Å selge i alle land', 'Å kutte kostnader']::text[], 0, 'En av Porters generiske strategier.', true, false, 8),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'q10', 'flervalg', 'Hvordan påvirker sterke krefter i en bransje lønnsomheten?', array['Den øker', 'Den synker', 'Den er uendret', 'Den dobles']::text[], 1, 'Mer press på marginene.', true, false, 9),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm01', 'sant-usant', 'En situasjonsanalyse bør ende i strategiske valg.', array['Sant', 'Usant']::text[], 0, 'Ikke bare en liste.', false, true, 10),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm02', 'sant-usant', 'Markedspenetrasjon har høyest risiko i Ansoffs matrise.', array['Sant', 'Usant']::text[], 1, 'Den har lavest risiko.', false, true, 11),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm03', 'sant-usant', 'Melkekuer kan finansiere andre produkter.', array['Sant', 'Usant']::text[], 0, 'De gir overskudd.', false, true, 12),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm04', 'sant-usant', 'Kundenes forhandlingsmakt har ingen betydning for lønnsomheten.', array['Sant', 'Usant']::text[], 1, 'Sterk kundemakt presser prisene.', false, true, 13),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm05', 'flervalg', 'Hvilken markedsform kjennetegner frisører og restauranter?', array['Monopol', 'Monopolistisk konkurranse', 'Oligopol', 'Fullkommen konkurranse']::text[], 1, 'Mange tilbydere med ulike tilbud.', false, true, 14),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm06', 'flervalg', 'Hva kalles et produkt med høy vekst og høy markedsandel?', array['Stjerne', 'Hund', 'Melkeku', 'Spørsmålstegn']::text[], 0, 'Investér.', false, true, 15),
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 'm07', 'flervalg', 'Hvilken kraft handler om at kjedene presser leverandørene?', array['Substitutter', 'Nye aktører', 'Kundenes forhandlingsmakt', 'Rivalisering']::text[], 2, 'Kjedene er leverandørenes kunder.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:situasjons-og-bransjeanalyse', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Merkevarestrategier og posisjonering
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'markedsforing-og-ledelse-2', 'merkevarestrategier-og-posisjonering', 'Merkevarestrategier og posisjonering', 'Hvordan virksomheter utvikler merkevarestrategier – merkekapital, produsentmerker og egne merkevarer, paraply-, familie- og individuelle merker, merkeutvidelse og samarbeidsmerker – og hvordan de vurderer posisjonering med posisjoneringskart, likhets- og forskjellspunkter og reposisjonering.', array[5]::int[], 4, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', '## Hva er en merkevare?
+
+En **merkevare** er mer enn et navn og en logo. Den er summen av **forestillinger**, **følelser** og **erfaringer** kundene har med produktet. Sterke merkevarer gjør at kunder velger produktet **igjen**, betaler **mer** og **anbefaler** det.
+
+## Merkekapital
+
+**Merkekapital** – brand equity – er den **verdien** merket tilfører produktet. **David Aaker** peker på fire kilder:
+
+- **Merkekjennskap**: at kundene **kjenner** merket
+- **Kvalitetsoppfatning**: at merket forbindes med **kvalitet**
+- **Merkeassosiasjoner**: hva merket får folk til å **tenke** på
+- **Merkelojalitet**: at kundene **kjøper igjen**
+
+## Merkevarestrategier
+
+**Hvem eier merket?**
+
+- **Produsentmerker**: eies av produsenten, som Freia eller Tine.
+- **Egne merkevarer (EMV)**: eies av **kjeden**, som dagligvarekjedenes egne merker. EMV gir kjeden **høyere marginer** og mer **makt** overfor leverandørene.
+
+**Hvordan organiseres merkene?**
+
+- **Paraplymerke**: Alle produkter har **samme** navn – for eksempel et selskap som setter firmanavnet på alt. Det gir **lave** kostnader, men én skandale kan ramme **alt**.
+- **Familiemerke**: Én **produktlinje** har et felles navn.
+- **Individuelle merker**: Hvert produkt har **eget** navn og egen profil. Det gir **fleksibilitet** og spredning av **risiko**, men **høye** kostnader.
+
+**Hvordan vokse med merket?**
+
+- **Linjeutvidelse**: nye varianter i samme kategori – nye smaker eller størrelser.
+- **Merkeutvidelse**: merket brukes i en **ny** kategori. Det utnytter kjennskapen, men kan **svekke** merket hvis det ikke passer.
+- **Samarbeidsmerker** – co-branding: to merker samarbeider om et produkt.
+- **Ny merkevare**: når virksomheten går inn i et område som ikke passer eksisterende merker.
+
+## Posisjonering
+
+**Posisjonering** er hvordan virksomheten ønsker at målgruppen skal **oppfatte** merket **sammenlignet med konkurrentene**. God posisjonering er
+
+- **relevant** for målgruppen
+- **tydelig** og **enkel**
+- **troverdig** – merket må kunne **innfri** løftet
+- **unik** – forskjellig fra konkurrentene
+
+**Posisjoneringsgrunnlag** kan være **pris** og **kvalitet**, **bruksområde**, **brukergruppe**, **opprinnelse** – som «norsk» – eller **bærekraft**.
+
+## Likhets- og forskjellspunkter
+
+- **Likhetspunkter** – points of parity: egenskaper merket **må** ha for å være med i kategorien.
+- **Forskjellspunkter** – points of difference: egenskaper som gjør merket **unikt** og gir kundene en grunn til å velge det.
+
+## Posisjoneringskart
+
+Et **posisjoneringskart** viser hvordan kunder oppfatter merker langs to **dimensjoner**, for eksempel **pris** og **helse**. Kartet kan avsløre **ledige** posisjoner i markedet – men også om en posisjon er ledig fordi ingen **ønsker** den.
+
+## Reposisjonering
+
+Når markedet endrer seg eller merket har fått et **uønsket** image, kan virksomheten **reposisjonere** – endre hvordan merket oppfattes. Det tar **tid** og krever **konsistent** kommunikasjon og ofte endringer i **produktet**.
+
+## Vurdering
+
+Når du vurderer en merkevarestrategi, spør du: Passer den **målgruppen** og **ressursene**? Beskytter den merket mot **risiko**? Er posisjoneringen **troverdig**, og henger den sammen med **pris**, **distribusjon** og **kommunikasjon**?', '{"label":"Merkevare","children":[{"label":"Merkekapital","children":[{"label":"Kjennskap og kvalitet"},{"label":"Assosiasjoner og lojalitet"}]},{"label":"Eierskap","children":[{"label":"Produsentmerker"},{"label":"EMV"}]},{"label":"Struktur","children":[{"label":"Paraply"},{"label":"Familie"},{"label":"Individuelle"}]},{"label":"Vekst","children":[{"label":"Linjeutvidelse"},{"label":"Merkeutvidelse"},{"label":"Co-branding"}]},{"label":"Posisjonering","children":[{"label":"Likhets- og forskjellspunkter"},{"label":"Posisjoneringskart"},{"label":"Reposisjonering"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Merkevare', 'Summen av forestillinger, følelser og erfaringer kundene har med produktet.', 0),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Merkekapital', 'Verdien merket tilfører produktet.', 1),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Aakers fire kilder', 'Kjennskap, kvalitetsoppfatning, assosiasjoner og lojalitet.', 2),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Produsentmerke', 'Merke som eies av produsenten.', 3),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'EMV', 'Egne merkevarer som eies av kjeden.', 4),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Paraplymerke', 'Samme navn på alle produkter.', 5),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Individuelle merker', 'Hvert produkt har eget navn og egen profil.', 6),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Linjeutvidelse', 'Nye varianter i samme kategori.', 7),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Merkeutvidelse', 'Merket brukes i en ny kategori.', 8),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Co-branding', 'To merker samarbeider om et produkt.', 9),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Posisjonering', 'Hvordan man ønsker å bli oppfattet sammenlignet med konkurrentene.', 10),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Likhetspunkter', 'Egenskaper merket må ha for å være med i kategorien.', 11),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Forskjellspunkter', 'Egenskaper som gjør merket unikt.', 12),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Posisjoneringskart', 'Viser merker langs to dimensjoner.', 13),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'Reposisjonering', 'Å endre hvordan merket oppfattes.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q01', 'flervalg', 'Hva er merkekapital?', array['Bedriftens egenkapital', 'Verdien merket tilfører produktet', 'Reklamebudsjettet', 'Antall produkter']::text[], 1, 'Brand equity.', true, true, 0),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q02', 'flervalg', 'Hva er EMV?', array['Egne merkevarer som eies av kjeden', 'En EU-regel', 'En type reklame', 'En produsents merke']::text[], 0, 'Gir kjeden høyere marginer.', true, true, 1),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q03', 'flervalg', 'Hva er en ulempe ved paraplymerke?', array['Høye kostnader', 'Lite kjennskap', 'At én skandale kan ramme alle produktene', 'At produktene får ulike navn']::text[], 2, 'Risikoen samles.', true, true, 2),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q04', 'flervalg', 'Hva er merkeutvidelse?', array['Nye smaker i samme kategori', 'Større logo', 'Flere butikker', 'Å bruke merket i en ny kategori']::text[], 3, 'Kan svekke merket hvis det ikke passer.', true, true, 3),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q05', 'flervalg', 'Hva er forskjellspunkter?', array['Egenskaper som gjør merket unikt', 'Egenskaper alle i kategorien har', 'Prisforskjeller', 'Forskjeller mellom ansatte']::text[], 0, 'Gir kundene en grunn til å velge merket.', true, true, 4),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q06', 'flervalg', 'Hva kjennetegner god posisjonering?', array['At den er lik konkurrentenes', 'At den er relevant, tydelig, troverdig og unik', 'At den endres hver uke', 'At den er hemmelig']::text[], 1, 'Må kunne innfris.', true, true, 5),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q07', 'flervalg', 'Hva viser et posisjoneringskart?', array['Butikkenes plassering', 'Salgstall', 'Hvordan kunder oppfatter merker langs to dimensjoner', 'Organisasjonskartet']::text[], 2, 'Kan vise ledige posisjoner.', true, true, 6),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q08', 'flervalg', 'Hva er en fordel med individuelle merker?', array['Lave kostnader', 'Én reklame for alle', 'Samme navn på alt', 'Spredning av risiko og fleksibilitet']::text[], 3, 'Men høye kostnader.', true, true, 7),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q09', 'flervalg', 'Hvilken av Aakers kilder handler om at kundene kjøper igjen?', array['Merkelojalitet', 'Merkekjennskap', 'Kvalitetsoppfatning', 'Assosiasjoner']::text[], 0, 'Gjentatte kjøp.', true, false, 8),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'q10', 'flervalg', 'Hvorfor tar reposisjonering tid?', array['Fordi det er forbudt', 'Fordi kundenes oppfatninger endres sakte og krever konsistent kommunikasjon', 'Fordi logoen må godkjennes av staten', 'Fordi det er gratis']::text[], 1, 'Ofte også endringer i produktet.', true, false, 9),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm01', 'sant-usant', 'EMV kan gi dagligvarekjedene mer makt overfor leverandørene.', array['Sant', 'Usant']::text[], 0, 'Kjeden eier merket og hylleplassen.', false, true, 10),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm02', 'sant-usant', 'En ledig posisjon i et posisjoneringskart er alltid lønnsom.', array['Sant', 'Usant']::text[], 1, 'Den kan være ledig fordi ingen ønsker den.', false, true, 11),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm03', 'sant-usant', 'Posisjoneringen må henge sammen med pris, distribusjon og kommunikasjon.', array['Sant', 'Usant']::text[], 0, 'Helhetlig markedsmiks.', false, true, 12),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm04', 'sant-usant', 'En merkevare er bare navnet og logoen.', array['Sant', 'Usant']::text[], 1, 'Den er summen av forestillinger og erfaringer.', false, true, 13),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm05', 'flervalg', 'Hva er et eksempel på linjeutvidelse?', array['En sjokoladeprodusent lanserer klær', 'En ny smak av en eksisterende sjokolade', 'En ny logo', 'Et nytt firma']::text[], 1, 'Samme kategori.', false, true, 14),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm06', 'flervalg', 'Hva er et posisjoneringsgrunnlag?', array['Opprinnelse, som «norsk»', 'Antall ansatte', 'Kontortid', 'Regnskapsår']::text[], 0, 'Også pris, kvalitet og bærekraft.', false, true, 15),
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 'm07', 'flervalg', 'Hvem beskrev fire kilder til merkekapital?', array['Michael Porter', 'Igor Ansoff', 'David Aaker', 'Philip Kotler']::text[], 2, 'Brand equity-modellen.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:merkevarestrategier-og-posisjonering', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Distribusjonsstrategier, makt og avhengighet
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'markedsforing-og-ledelse-2', 'distribusjonsstrategier-og-makt', 'Distribusjonsstrategier, makt og avhengighet', 'Hvordan virksomheter utvikler distribusjonsstrategier – direkte og indirekte kanaler, intensiv, selektiv og eksklusiv distribusjon, omnikanal og netthandel – og hvordan makt og avhengighet påvirker samarbeidet i en verdikjede, med dagligvarebransjen, vertikal integrasjon og push- og pull-strategier som eksempler.', array[6]::int[], 5, 'sjekkes', array['Sjekk omtalen av loven om god handelsskikk i dagligvarekjeden og Dagligvaretilsynet.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', '## Distribusjon som strategi
+
+**Distribusjon** handler om å gjøre produktet **tilgjengelig** for kunden – på **riktig** sted, til **riktig** tid og på en måte som passer **posisjoneringen**.
+
+## Kanaler
+
+- **Direkte distribusjon**: Produsenten selger **rett** til kunden – gjennom egen **nettbutikk**, egne butikker eller salg fra gården.
+- **Indirekte distribusjon**: Produktet går gjennom **mellomledd** som **grossister** og **detaljister**.
+
+**Direkte** gir mer **kontroll**, bedre **kundedata** og høyere margin, men krever mer **ressurser**. **Indirekte** gir større **dekning**, men mindre kontroll.
+
+## Distribusjonsintensitet
+
+- **Intensiv**: Produktet selges **overalt** – som brus og tyggegummi.
+- **Selektiv**: Produktet selges gjennom **utvalgte** forhandlere – som merkeklær og elektronikk.
+- **Eksklusiv**: Én eller svært få forhandlere per område – som luksusbiler. Styrker **eksklusivitet** og **kontroll**.
+
+Valget må passe **produktet**, **målgruppen** og **posisjoneringen**. Et luksusmerke som selges overalt, kan miste **eksklusiviteten**.
+
+## Omnikanal og netthandel
+
+**Omnikanal** betyr at kunden kan bevege seg **sømløst** mellom kanaler – se varen på nett, prøve den i butikk og få den levert hjem. **Netthandel** har økt kraftig og gitt nye løsninger som **klikk og hent**, **hentepunkter** og **abonnementsleveranser**. Samtidig må fysiske butikker gi **opplevelser** og **service** som nettet ikke kan gi.
+
+## Verdikjeden
+
+En **verdikjede** består av alle leddene fra **råvare** til **sluttkunde**: råvareleverandør, produsent, grossist, detaljist og kunde. Hvert ledd skal tilføre **verdi** og ta en **margin**.
+
+## Makt og avhengighet
+
+Leddene i en verdikjede er **avhengige** av hverandre, men har ulik **makt**. Makt avhenger blant annet av
+
+- **størrelse** og **markedsandel**
+- hvor mange **alternativer** partene har
+- **sterke merkevarer** som kundene etterspør
+- kontroll over **kundedata** og **hylleplass**
+
+**Dagligvarebransjen** i Norge er et tydelig eksempel. Noen få **kjeder** står for nesten hele markedet og eier også **grossistleddet**. Det gir dem stor **forhandlingsmakt** overfor leverandørene. Kjedene kan bruke **egne merkevarer** og **hylleplass** som maktmiddel. For å sikre mer **balanserte** forhold ble det innført en egen lov om **god handelsskikk** i dagligvarekjeden, med et eget **Dagligvaretilsyn**.
+
+Leverandører med **sterke** merkevarer har mer makt fordi kjedene **må** ha produktene i hyllene.
+
+## Vertikal integrasjon
+
+**Vertikal integrasjon** betyr at én aktør **eier** flere ledd i verdikjeden – for eksempel en kjede som eier grossist og produsent. Det gir **kontroll** og **kostnadsfordeler**, men kan redusere **konkurransen**.
+
+## Push og pull
+
+- **Push-strategi**: Produsenten «dytter» produktet gjennom kjeden med **rabatter** og tiltak rettet mot **forhandlerne**.
+- **Pull-strategi**: Produsenten skaper **etterspørsel** hos **sluttkunden** gjennom reklame, slik at kunden «trekker» produktet gjennom kjeden.
+
+En sterk pull-strategi øker leverandørens **makt**.
+
+## Vurdering
+
+Når du utvikler en distribusjonsstrategi, må du vurdere **kostnader**, **kontroll**, **dekning**, **kundens ønsker** og **makten** i verdikjeden – og hvordan distribusjonen støtter **posisjoneringen**.', '{"label":"Distribusjon og makt","children":[{"label":"Kanaler","children":[{"label":"Direkte"},{"label":"Indirekte"},{"label":"Omnikanal"}]},{"label":"Intensitet","children":[{"label":"Intensiv"},{"label":"Selektiv"},{"label":"Eksklusiv"}]},{"label":"Verdikjede","children":[{"label":"Ledd og marginer"},{"label":"Vertikal integrasjon"}]},{"label":"Makt","children":[{"label":"Dagligvarekjedene"},{"label":"EMV og hylleplass"},{"label":"Sterke merkevarer"}]},{"label":"Strategi","children":[{"label":"Push"},{"label":"Pull"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Direkte distribusjon', 'Produsenten selger rett til kunden.', 0),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Indirekte distribusjon', 'Produktet går gjennom mellomledd.', 1),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Grossist', 'Mellomledd som selger videre til detaljister.', 2),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Intensiv distribusjon', 'Produktet selges overalt.', 3),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Selektiv distribusjon', 'Salg gjennom utvalgte forhandlere.', 4),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Eksklusiv distribusjon', 'Én eller svært få forhandlere per område.', 5),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Omnikanal', 'Sømløs bevegelse mellom kanaler.', 6),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Klikk og hent', 'Kjøpe på nett og hente i butikk.', 7),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Verdikjede', 'Alle ledd fra råvare til sluttkunde.', 8),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Forhandlingsmakt', 'Evnen til å presse fram gode betingelser.', 9),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Hylleplass', 'Plass i butikken – et maktmiddel for kjedene.', 10),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Dagligvaretilsynet', 'Fører tilsyn med god handelsskikk i dagligvarekjeden.', 11),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Vertikal integrasjon', 'Én aktør eier flere ledd i verdikjeden.', 12),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Push-strategi', 'Tiltak rettet mot forhandlerne.', 13),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'Pull-strategi', 'Skaper etterspørsel hos sluttkunden.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q01', 'flervalg', 'Hvilken distribusjonsintensitet passer for tyggegummi?', array['Eksklusiv', 'Intensiv', 'Selektiv', 'Ingen']::text[], 1, 'Skal være tilgjengelig overalt.', true, true, 0),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q02', 'flervalg', 'Hva er en fordel med direkte distribusjon?', array['Mer kontroll og bedre kundedata', 'Større dekning uten kostnader', 'Ingen ansvar', 'Lavere ressursbehov']::text[], 0, 'Men krever mer ressurser.', true, true, 1),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q03', 'flervalg', 'Hva er omnikanal?', array['Bare netthandel', 'Bare fysiske butikker', 'Sømløs bevegelse mellom kanaler', 'En type reklame']::text[], 2, 'Se på nett, prøve i butikk.', true, true, 2),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q04', 'flervalg', 'Hva er vertikal integrasjon?', array['Samarbeid mellom konkurrenter', 'En type reklame', 'Salg til utlandet', 'At én aktør eier flere ledd i verdikjeden']::text[], 3, 'Gir kontroll og kostnadsfordeler.', true, true, 3),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q05', 'flervalg', 'Hva gir dagligvarekjedene stor makt?', array['Store markedsandeler, eierskap til grossistleddet og hylleplass', 'At de er små', 'At de har få kunder', 'At leverandørene har mange alternativer']::text[], 0, 'Få kjeder dominerer.', true, true, 4),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q06', 'flervalg', 'Hva er en pull-strategi?', array['Rabatter til forhandlerne', 'Å skape etterspørsel hos sluttkunden', 'Å selge direkte', 'Å kutte priser']::text[], 1, 'Kunden trekker produktet gjennom kjeden.', true, true, 5),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q07', 'flervalg', 'Hvorfor kan et luksusmerke tape på intensiv distribusjon?', array['Fordi det blir for dyrt', 'Fordi det blir for lite solgt', 'Fordi det kan miste eksklusiviteten', 'Fordi det er ulovlig']::text[], 2, 'Distribusjonen må passe posisjoneringen.', true, true, 6),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q08', 'flervalg', 'Hvilke leverandører har mest makt overfor kjedene?', array['De uten merkevare', 'De minste', 'De nyeste', 'De med sterke merkevarer kundene etterspør']::text[], 3, 'Kjedene må ha produktene.', true, true, 7),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q09', 'flervalg', 'Hva er en push-strategi?', array['Tiltak rettet mot forhandlerne', 'Reklame mot sluttkunden', 'Direktesalg', 'Omnikanal']::text[], 0, 'For eksempel rabatter.', true, false, 8),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'q10', 'flervalg', 'Hvorfor ble det innført en lov om god handelsskikk i dagligvarekjeden?', array['For å øke prisene', 'For å sikre mer balanserte forhold mellom partene', 'For å forby EMV', 'For å stenge butikker']::text[], 1, 'Med et eget tilsyn.', true, false, 9),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm01', 'sant-usant', 'En sterk pull-strategi kan øke leverandørens makt.', array['Sant', 'Usant']::text[], 0, 'Kundene etterspør produktet.', false, true, 10),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm02', 'sant-usant', 'Indirekte distribusjon gir alltid mer kontroll enn direkte.', array['Sant', 'Usant']::text[], 1, 'Direkte gir mer kontroll.', false, true, 11),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm03', 'sant-usant', 'Hvert ledd i verdikjeden tar en margin.', array['Sant', 'Usant']::text[], 0, 'Og skal tilføre verdi.', false, true, 12),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm04', 'sant-usant', 'Fysiske butikker har ingen fordeler etter at netthandelen vokste.', array['Sant', 'Usant']::text[], 1, 'De kan gi opplevelser og service.', false, true, 13),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm05', 'flervalg', 'Hvilken distribusjonsintensitet passer for luksusbiler?', array['Intensiv', 'Eksklusiv', 'Selektiv til alle butikker', 'Automater']::text[], 1, 'Få forhandlere per område.', false, true, 14),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm06', 'flervalg', 'Hva er et mellomledd i indirekte distribusjon?', array['Grossist', 'Sluttkunde', 'Produsent', 'Råvare']::text[], 0, 'Også detaljist.', false, true, 15),
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 'm07', 'flervalg', 'Hva kan være en ulempe ved vertikal integrasjon for samfunnet?', array['Lavere kostnader', 'Bedre kontroll', 'Redusert konkurranse', 'Flere leverandører']::text[], 2, 'Kan gi høyere priser.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:distribusjonsstrategier-og-makt', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Prissetting og prisstrategier
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:prisstrategier', 'markedsforing-og-ledelse-2', 'prisstrategier', 'Prissetting og prisstrategier', 'Faktorer som påvirker prissetting – kostnader, etterspørsel og priselastisitet, konkurrenter, mål, posisjonering og regelverk – og prisstrategier som kostnadsbasert, konkurransebasert og verdibasert prising, skumming og penetrasjon, prestisjepris, psykologiske priser, prisdifferensiering, dynamisk prising, pakkepriser og abonnement.', array[7]::int[], 6, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:prisstrategier', '## Pris er spesiell
+
+**Prisen** er det eneste konkurransemiddelet som gir **inntekter** – de andre koster penger. Prisen påvirker både **salg**, **lønnsomhet** og hvordan produktet **oppfattes**.
+
+## Faktorer som påvirker prisen
+
+- **Kostnader**: Prisen bør over tid dekke **faste** og **variable** kostnader. **Dekningsbidraget** – pris minus variable kostnader per enhet – skal dekke de faste kostnadene.
+- **Etterspørsel**: Hvor **mye** kundene vil kjøpe til ulike priser.
+- **Priselastisitet**: hvor **følsom** etterspørselen er for prisendringer. Ved **elastisk** etterspørsel gir en prisøkning **stort** salgsfall. Ved **uelastisk** etterspørsel – som for nødvendighetsvarer og varer uten alternativer – påvirkes salget lite.
+- **Konkurrenter**: Kundene sammenligner priser, særlig på nett.
+- **Mål**: Vil virksomheten ha **høy fortjeneste**, **markedsandel** eller **overleve**?
+- **Posisjonering**: En premiumposisjon krever **høy** pris.
+- **Regelverk**: **Markedsføringsloven** forbyr blant annet **falske førpriser**, og **konkurranseloven** forbyr **prissamarbeid**.
+
+## Tre grunnleggende metoder
+
+- **Kostnadsbasert** prising: kostnad pluss et **påslag**. Enkel, men tar ikke hensyn til hva kundene er villige til å betale.
+- **Konkurransebasert** prising: pris i forhold til **konkurrentene**. Vanlig i markeder med like produkter.
+- **Verdibasert** prising: pris etter hvilken **verdi** kunden opplever. Krever god kunnskap om **kundene**.
+
+## Prisstrategier ved lansering
+
+- **Skumming**: **høy** pris ved lansering for å «skumme» kunder som vil betale mye – som ny teknologi – og så **senke** prisen gradvis.
+- **Penetrasjon**: **lav** pris for raskt å vinne **markedsandel** – krever at virksomheten tåler lav margin i starten.
+
+## Andre prisstrategier
+
+- **Prestisjepris**: høy pris som signaliserer **kvalitet** og **status**.
+- **Psykologiske priser**: 199 i stedet for 200 kr – oppleves som **billigere**.
+- **Lokkepris**: svært lav pris på enkelte varer for å trekke kunder til butikken.
+- **Prisdifferensiering**: ulike priser til ulike **grupper** eller **tider** – studentrabatt, rushtidspriser.
+- **Dynamisk prising**: prisen endres **automatisk** etter etterspørsel – som flybilletter og konsertbilletter.
+- **Pakkepris** – bundling: flere produkter sammen til lavere samlet pris.
+- **Abonnement**: fast pris per måned – gir **forutsigbare** inntekter og **lojale** kunder.
+- **Freemium**: gratis grunnversjon og betaling for ekstra funksjoner.
+
+## Utvikle en prisstrategi
+
+1. Sett **prismål** ut fra virksomhetens mål.
+2. Analyser **kostnader**, **etterspørsel** og **konkurrenter**.
+3. Velg **metode** og **strategi** som passer posisjoneringen.
+4. Bestem **pris** og **rabatter**.
+5. **Følg med** og juster.
+
+## Etikk og pris
+
+**Dynamisk prising** og **personaliserte** priser basert på kundedata kan oppleves som **urettferdig**. Skjulte **gebyrer**, «tilbud» med falske førpriser og **prispress** i kriser kan skade **tilliten**. Priser må også være **tydelige** og **oppgitt med alle kostnader**.
+
+## Vurdering
+
+En god prisstrategi henger sammen med **målgruppen**, **posisjoneringen** og resten av **markedsmiksen**. Lav pris på et produkt som skal oppfattes som eksklusivt, gir et **motstridende** signal.', '{"label":"Prisstrategier","children":[{"label":"Faktorer","children":[{"label":"Kostnader og dekningsbidrag"},{"label":"Etterspørsel og elastisitet"},{"label":"Konkurrenter og regelverk"}]},{"label":"Metoder","children":[{"label":"Kostnadsbasert"},{"label":"Konkurransebasert"},{"label":"Verdibasert"}]},{"label":"Lansering","children":[{"label":"Skumming"},{"label":"Penetrasjon"}]},{"label":"Andre strategier","children":[{"label":"Prestisje og psykologiske priser"},{"label":"Differensiering og dynamisk"},{"label":"Bundling, abonnement og freemium"}]},{"label":"Etikk","children":[{"label":"Falske førpriser"},{"label":"Personaliserte priser"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:prisstrategier';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Dekningsbidrag', 'Pris minus variable kostnader per enhet.', 0),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Priselastisitet', 'Hvor følsom etterspørselen er for prisendringer.', 1),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Elastisk etterspørsel', 'Prisøkning gir stort salgsfall.', 2),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Uelastisk etterspørsel', 'Salget påvirkes lite av prisen.', 3),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Kostnadsbasert prising', 'Kostnad pluss påslag.', 4),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Konkurransebasert prising', 'Pris i forhold til konkurrentene.', 5),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Verdibasert prising', 'Pris etter verdien kunden opplever.', 6),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Skumming', 'Høy lanseringspris som senkes gradvis.', 7),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Penetrasjon', 'Lav lanseringspris for å vinne markedsandel.', 8),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Prestisjepris', 'Høy pris som signaliserer kvalitet og status.', 9),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Psykologisk pris', 'For eksempel 199 i stedet for 200 kr.', 10),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Prisdifferensiering', 'Ulike priser til ulike grupper eller tider.', 11),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Dynamisk prising', 'Prisen endres automatisk etter etterspørsel.', 12),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Bundling', 'Flere produkter sammen til lavere samlet pris.', 13),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'Freemium', 'Gratis grunnversjon, betaling for ekstra.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:prisstrategier';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q01', 'flervalg', 'Hva betyr at etterspørselen er uelastisk?', array['At salget faller mye ved prisøkning', 'At salget påvirkes lite av prisen', 'At det ikke finnes etterspørsel', 'At prisen er fast']::text[], 1, 'Typisk for nødvendighetsvarer.', true, true, 0),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q02', 'flervalg', 'Hva er skumming?', array['Høy lanseringspris som senkes gradvis', 'Lav lanseringspris', 'Gratis produkt', 'Fast pris for alltid']::text[], 0, 'Typisk for ny teknologi.', true, true, 1),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q03', 'flervalg', 'Hva er dekningsbidraget?', array['Faste kostnader', 'Overskudd etter skatt', 'Pris minus variable kostnader per enhet', 'Salgsinntekten']::text[], 2, 'Skal dekke de faste kostnadene.', true, true, 2),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q04', 'flervalg', 'Hva er verdibasert prising?', array['Kostnad pluss påslag', 'Samme pris som konkurrentene', 'Laveste mulige pris', 'Pris etter verdien kunden opplever']::text[], 3, 'Krever kundekunnskap.', true, true, 3),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q05', 'flervalg', 'Hvilken strategi passer for raskt å vinne markedsandel?', array['Penetrasjon', 'Skumming', 'Prestisjepris', 'Eksklusiv distribusjon']::text[], 0, 'Lav lanseringspris.', true, true, 4),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q06', 'flervalg', 'Hva er dynamisk prising?', array['Fast pris', 'At prisen endres automatisk etter etterspørsel', 'En type rabatt for studenter', 'En pakkepris']::text[], 1, 'Som flybilletter.', true, true, 5),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q07', 'flervalg', 'Hva forbyr konkurranseloven?', array['Rabatter', 'Høye priser', 'Prissamarbeid mellom konkurrenter', 'Tilbud']::text[], 2, 'Sikrer konkurranse.', true, true, 6),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q08', 'flervalg', 'Hvorfor er prisen spesiell blant konkurransemidlene?', array['Den er alltid lav', 'Den er hemmelig', 'Den bestemmes av staten', 'Den er det eneste som gir inntekter']::text[], 3, 'De andre koster penger.', true, true, 7),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q09', 'flervalg', 'Hva er et etisk problem ved personaliserte priser?', array['De kan oppleves som urettferdige', 'De er alltid lavere', 'De er ulovlige overalt', 'De gir færre kunder']::text[], 0, 'Basert på kundedata.', true, false, 8),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'q10', 'flervalg', 'Hva gir et motstridende signal?', array['Høy pris på et eksklusivt produkt', 'Lav pris på et produkt som skal oppfattes som eksklusivt', 'Studentrabatt', 'Abonnement']::text[], 1, 'Pris må passe posisjoneringen.', true, false, 9),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm01', 'sant-usant', 'Abonnement gir forutsigbare inntekter.', array['Sant', 'Usant']::text[], 0, 'Og ofte lojale kunder.', false, true, 10),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm02', 'sant-usant', 'Kostnadsbasert prising tar full hensyn til hva kundene vil betale.', array['Sant', 'Usant']::text[], 1, 'Den bygger på kostnader, ikke betalingsvilje.', false, true, 11),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm03', 'sant-usant', 'Falske førpriser er forbudt etter markedsføringsloven.', array['Sant', 'Usant']::text[], 0, 'Villedende prisinformasjon.', false, true, 12),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm04', 'sant-usant', 'Penetrasjonsprising krever ingen evne til å tåle lav margin.', array['Sant', 'Usant']::text[], 1, 'Marginen er lav i starten.', false, true, 13),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm05', 'flervalg', 'Hva er et eksempel på prisdifferensiering?', array['Samme pris for alle', 'Studentrabatt', 'Prissamarbeid', 'Falsk førpris']::text[], 1, 'Ulike priser til ulike grupper.', false, true, 14),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm06', 'flervalg', 'Hva er en lokkepris?', array['Svært lav pris på enkelte varer for å trekke kunder', 'Høy pris for status', 'Pris etter kostnad', 'Abonnementspris']::text[], 0, 'Kundene kjøper ofte mer.', false, true, 15),
+  ('markedsforing-og-ledelse-2:prisstrategier', 'm07', 'flervalg', 'Hva er første steg i å utvikle en prisstrategi?', array['Sette rabatter', 'Endre logoen', 'Sette prismål ut fra virksomhetens mål', 'Velge leverandør']::text[], 2, 'Deretter analyse.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:prisstrategier', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Kommunikasjonsstrategier og mediemiks
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'markedsforing-og-ledelse-2', 'kommunikasjonsstrategier-og-mediemiks', 'Kommunikasjonsstrategier og mediemiks', 'Hvordan virksomheter vurderer og utvikler kommunikasjonsstrategier – kommunikasjonsmål, budskap og kreativ idé, integrert markedskommunikasjon – utforsker dagsaktuelle kanaler med PESO-modellen, sosiale medier, påvirkere, strømming og programmatisk annonsering, og planlegger mediemiks med dekning, frekvens og kontaktpris.', array[8]::int[], 7, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', '## Fra strategi til kommunikasjon
+
+En **kommunikasjonsstrategi** beskriver **hva** virksomheten vil oppnå med kommunikasjonen, **hvem** den skal nå, **hva** den skal si og **hvor** den skal si det. Den skal støtte **markedsstrategien** og **posisjoneringen**.
+
+## Kommunikasjonsmål
+
+Målene følger ofte kundens **kjøpsprosess**:
+
+- **Kognitive** mål: skape **kjennskap** og **kunnskap**
+- **Affektive** mål: skape **positive holdninger** og **preferanse**
+- **Konative** mål: få kunden til å **handle** – kjøpe, laste ned, melde seg på
+
+**AIDA-modellen** – oppmerksomhet, interesse, ønske og handling – beskriver den samme prosessen. Målene bør være **SMART**, for eksempel «øke spontan kjennskap i målgruppen fra 20 til 30 % innen ett år».
+
+## Budskap og kreativ idé
+
+- **Budskapet** er det **viktigste** målgruppen skal sitte igjen med – ofte knyttet til **forskjellspunktet**.
+- **Rasjonelle** appeller bruker fakta og argumenter, mens **emosjonelle** appeller spiller på følelser som humor, glede eller frykt.
+- En sterk **kreativ idé** gjør at budskapet blir lagt merke til og **husket**.
+
+## Integrert markedskommunikasjon
+
+**Integrert markedskommunikasjon** betyr at alle kanaler og virkemidler sender et **konsistent** budskap med samme **visuelle** uttrykk. Da forsterker de hverandre.
+
+## Kanaler – PESO-modellen
+
+- **Paid** – betalte medier: annonser i sosiale medier, søkeannonser, TV, radio, utendørsreklame
+- **Earned** – fortjente medier: omtale i nyheter, anmeldelser og **deling**
+- **Shared** – delte medier: innhold i **sosiale medier** som brukerne deler og kommenterer
+- **Owned** – egne medier: nettside, app, nyhetsbrev og egne kontoer
+
+## Dagsaktuelle kanaler
+
+- **Sosiale medier** med korte **videoer** og algoritmestyrt spredning
+- **Påvirkere**: kan gi **troverdighet** og nå smale målgrupper, men må **merke** reklame tydelig
+- **Strømmetjenester** og **podkaster**
+- **Programmatisk** annonsering: automatisk kjøp av annonseplass rettet mot bestemte **profiler**
+- **Søkemotoroptimalisering** og søkeannonser
+- **Digital utendørsreklame**
+
+Ved valg av kanal må virksomheten tenke på **målgruppens** mediebruk, **budskapet**, **budsjettet** og **personvern** ved bruk av data.
+
+## Mediemiks
+
+**Mediemiksen** er kombinasjonen av kanaler i en kampanje. Viktige begreper:
+
+- **Dekning**: hvor mange i målgruppen som nås minst én gang
+- **Frekvens**: hvor mange ganger hver person i snitt nås
+- **Kontaktpris**: hva det koster å nå **tusen** personer – ofte kalt **CPM**
+- **Timing**: når kampanjen går – sesong, ukedag og tid på døgnet
+
+Ofte må man velge mellom høy **dekning** og høy **frekvens** innenfor et gitt **budsjett**.
+
+## Planlegge en kampanje
+
+1. **Situasjon** og **målgruppe**
+2. **Kommunikasjonsmål**
+3. **Budskap** og **kreativ idé**
+4. **Mediemiks** og **timing**
+5. **Budsjett**
+6. **Måling** og **evaluering**
+
+## Vurdering
+
+En god kommunikasjonsstrategi er **målrettet**, **konsistent** og **etisk** – den følger markedsføringsloven, er tydelig på hva som er **reklame** og tar hensyn til **barn** og **sårbare** grupper.', '{"label":"Kommunikasjon","children":[{"label":"Mål","children":[{"label":"Kognitive"},{"label":"Affektive"},{"label":"Konative"}]},{"label":"Budskap","children":[{"label":"Rasjonelt og emosjonelt"},{"label":"Kreativ idé"},{"label":"Integrert kommunikasjon"}]},{"label":"Kanaler","children":[{"label":"PESO"},{"label":"Påvirkere og sosiale medier"},{"label":"Programmatisk og strømming"}]},{"label":"Mediemiks","children":[{"label":"Dekning og frekvens"},{"label":"CPM"},{"label":"Timing"}]},{"label":"Kampanje","children":[{"label":"Plan og budsjett"},{"label":"Etikk og måling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Kommunikasjonsstrategi', 'Plan for hva, til hvem, hvordan og hvor man kommuniserer.', 0),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Kognitive mål', 'Kjennskap og kunnskap.', 1),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Affektive mål', 'Positive holdninger og preferanse.', 2),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Konative mål', 'Få kunden til å handle.', 3),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Rasjonell appell', 'Budskap basert på fakta og argumenter.', 4),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Emosjonell appell', 'Budskap som spiller på følelser.', 5),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Integrert markedskommunikasjon', 'Konsistent budskap i alle kanaler.', 6),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'PESO', 'Paid, earned, shared og owned media.', 7),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Earned media', 'Fortjent omtale, anmeldelser og deling.', 8),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Owned media', 'Egne kanaler som nettside og nyhetsbrev.', 9),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Programmatisk annonsering', 'Automatisk kjøp av annonseplass rettet mot profiler.', 10),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Dekning', 'Andelen av målgruppen som nås minst én gang.', 11),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Frekvens', 'Hvor mange ganger hver person i snitt nås.', 12),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'CPM', 'Kostnad per tusen kontakter.', 13),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'Mediemiks', 'Kombinasjonen av kanaler i en kampanje.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q01', 'flervalg', 'Hva er et affektivt kommunikasjonsmål?', array['Å skape kjennskap', 'Å skape positive holdninger og preferanse', 'Å få kunden til å kjøpe', 'Å øke prisen']::text[], 1, 'Følelser og holdninger.', true, true, 0),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q02', 'flervalg', 'Hva står E-en i PESO for?', array['Earned – fortjente medier', 'Email', 'Event', 'Export']::text[], 0, 'Omtale og deling.', true, true, 1),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q03', 'flervalg', 'Hva er dekning i mediemiksen?', array['Hvor mye kampanjen koster', 'Hvor mange ganger en person nås', 'Andelen av målgruppen som nås minst én gang', 'Hvor lenge kampanjen varer']::text[], 2, 'Frekvens er antall ganger.', true, true, 2),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q04', 'flervalg', 'Hva er integrert markedskommunikasjon?', array['Kommunikasjon bare på TV', 'Ulike budskap i hver kanal', 'Kommunikasjon bare internt', 'Konsistent budskap og uttrykk i alle kanaler']::text[], 3, 'Kanalene forsterker hverandre.', true, true, 3),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q05', 'flervalg', 'Hva måler CPM?', array['Kostnad per tusen kontakter', 'Antall klikk', 'Antall salg', 'Kundetilfredshet']::text[], 0, 'Kontaktpris.', true, true, 4),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q06', 'flervalg', 'Hva er et konativt mål?', array['Kjennskap', 'Å få kunden til å handle', 'Holdningsendring', 'Preferanse']::text[], 1, 'Kjøpe, laste ned eller melde seg på.', true, true, 5),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q07', 'flervalg', 'Hva må påvirkere gjøre med betalt innhold?', array['Skjule det', 'Slette det', 'Merke det tydelig som reklame', 'Sende det til Stortinget']::text[], 2, 'Skjult reklame er forbudt.', true, true, 6),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q08', 'flervalg', 'Hva er owned media?', array['Betalte annonser', 'Omtale i avisen', 'Delinger fra brukere', 'Egne kanaler som nettside og nyhetsbrev']::text[], 3, 'Virksomheten kontrollerer dem.', true, true, 7),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q09', 'flervalg', 'Hva er programmatisk annonsering?', array['Automatisk kjøp av annonseplass rettet mot profiler', 'TV-reklame', 'Plakater', 'Radioreklame']::text[], 0, 'Datadrevet.', true, false, 8),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'q10', 'flervalg', 'Hvilket valg må man ofte ta innenfor et gitt budsjett?', array['Mellom logo og farge', 'Mellom høy dekning og høy frekvens', 'Mellom pris og produkt', 'Mellom leder og ansatt']::text[], 1, 'Begge koster penger.', true, false, 9),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm01', 'sant-usant', 'Kommunikasjonsstrategien skal støtte posisjoneringen.', array['Sant', 'Usant']::text[], 0, 'Og markedsstrategien.', false, true, 10),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm02', 'sant-usant', 'Earned media er annonser man betaler for.', array['Sant', 'Usant']::text[], 1, 'Det er fortjent omtale og deling.', false, true, 11),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm03', 'sant-usant', 'Målgruppens mediebruk bør styre kanalvalget.', array['Sant', 'Usant']::text[], 0, 'Man må være der målgruppen er.', false, true, 12),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm04', 'sant-usant', 'Et SMART kommunikasjonsmål kan være «bli mer kjent».', array['Sant', 'Usant']::text[], 1, 'Det er verken målbart eller tidsbestemt.', false, true, 13),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm05', 'flervalg', 'Hva er en emosjonell appell?', array['En tabell med fakta', 'Humor eller glede i reklamen', 'En pris', 'En garanti']::text[], 1, 'Spiller på følelser.', false, true, 14),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm06', 'flervalg', 'Hva er frekvens?', array['Hvor mange ganger hver person i snitt nås', 'Hvor mange som nås', 'Hva kampanjen koster', 'Når kampanjen går']::text[], 0, 'Gjentakelse.', false, true, 15),
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 'm07', 'flervalg', 'Hva bør siste steg i en kampanjeplan være?', array['Velge logo', 'Ansette flere', 'Måling og evaluering', 'Endre visjonen']::text[], 2, 'Nådde vi målene?', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:kommunikasjonsstrategier-og-mediemiks', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Lederens rolle i markedsstrategi og internmarkedsføring
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'markedsforing-og-ledelse-2', 'lederens-rolle-og-internmarkedsforing', 'Lederens rolle i markedsstrategi og internmarkedsføring', 'Hvilken rolle og funksjon lederen har i utviklingen og gjennomføringen av markedsstrategien – ledernivåer, lederstiler, situasjonsbestemt og transformasjonsledelse, forankring og endringsledelse – og hvordan internmarkedsføring gjør de ansatte til ambassadører gjennom kommunikasjon, opplæring, motivasjon og kultur.', array[9]::int[], 8, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', '## Lederens funksjoner
+
+En **leder** skal sørge for at virksomheten når **målene** sine gjennom andre mennesker. Klassiske lederfunksjoner er å **planlegge**, **organisere**, **lede** – motivere og kommunisere – og **kontrollere**.
+
+## Ledernivåer
+
+- **Toppledelsen** – strategisk nivå: utformer **visjon**, **mål** og **overordnet strategi**.
+- **Mellomledere** – taktisk nivå: omsetter strategien til **planer** for avdelingene.
+- **Førstelinjeledere** – operativt nivå: følger opp det **daglige** arbeidet.
+
+I markedsstrategien må alle nivåer **henge sammen**: En strategi som ikke når fram til de som møter kundene, blir ikke gjennomført.
+
+## Lederstiler
+
+- **Autoritær**: lederen bestemmer alene – effektivt i **kriser**, men kan gi lite motivasjon.
+- **Demokratisk**: medarbeiderne tas med i beslutninger – gir **eierskap**, men tar tid.
+- **Laissez-faire**: lederen gir stor frihet – kan fungere med svært **kompetente** medarbeidere.
+
+**Situasjonsbestemt ledelse** betyr at lederen tilpasser stilen til medarbeiderens **kompetanse** og **motivasjon** – mer **instruksjon** til nyansatte og mer **delegering** til erfarne.
+
+**Transformasjonsledelse** handler om å **inspirere** medarbeiderne gjennom en tydelig **visjon**, være et **forbilde** og se hver enkelt. Det kan gi høy **motivasjon** og **endringsvilje**.
+
+## Lederen i markedsstrategien
+
+- **Analyse**: sørge for god kunnskap om marked og kunder
+- **Retning**: formulere mål og velge strategi
+- **Forankring**: involvere de ansatte slik at de **forstår** og **støtter** strategien
+- **Gjennomføring**: fordele **ressurser** og ansvar
+- **Oppfølging**: måle resultater og **justere**
+
+Nye strategier krever ofte **endring**. **Endringsledelse** handler om å forklare **hvorfor** endringen er nødvendig, **involvere** de ansatte og håndtere **motstand**.
+
+## Internmarkedsføring
+
+**Internmarkedsføring** betyr å se de **ansatte** som virksomhetens **første marked**. Før man kan love kundene noe, må de ansatte **forstå**, **tro på** og **kunne levere** løftet.
+
+Dette er særlig viktig i **tjenesteytende** virksomheter, der de ansatte møter kundene direkte – de er **deltidsmarkedsførere**.
+
+**Tjenestetrekanten** viser tre typer markedsføring:
+
+- **Ekstern**: virksomheten gir **løfter** til kundene
+- **Intern**: virksomheten gjør de ansatte i stand til å **holde** løftene
+- **Interaktiv**: de ansatte **holder** løftene i møte med kundene
+
+## Virkemidler i internmarkedsføring
+
+- **Intern kommunikasjon**: informere om strategi, kampanjer og resultater – **før** kundene ser dem
+- **Opplæring** i produkter, service og verdier
+- **Motivasjon**: anerkjennelse, gode arbeidsforhold, utviklingsmuligheter og belønning
+- **Medvirkning** i beslutninger
+- **Bedriftskultur**: felles verdier og normer
+- **Rekruttering** av folk som passer kulturen – og **employer branding** for å tiltrekke gode søkere
+
+## Vurdering
+
+Ledere som bare fokuserer på **eksterne** kampanjer og glemmer de ansatte, risikerer at kundene møter noe annet enn det **reklamen** lover. Det svekker **troverdigheten** og **omdømmet**. God ledelse og internmarkedsføring gir **engasjerte** ansatte, bedre **kundeopplevelser** og en strategi som faktisk blir **gjennomført**.', '{"label":"Ledelse og internmarkedsføring","children":[{"label":"Lederen","children":[{"label":"Funksjoner"},{"label":"Strategisk, taktisk, operativt"}]},{"label":"Lederstiler","children":[{"label":"Autoritær, demokratisk, laissez-faire"},{"label":"Situasjonsbestemt"},{"label":"Transformasjonsledelse"}]},{"label":"Strategiarbeid","children":[{"label":"Forankring"},{"label":"Gjennomføring og oppfølging"},{"label":"Endringsledelse"}]},{"label":"Internmarkedsføring","children":[{"label":"Ansatte som første marked"},{"label":"Tjenestetrekanten"}]},{"label":"Virkemidler","children":[{"label":"Kommunikasjon og opplæring"},{"label":"Motivasjon og kultur"},{"label":"Employer branding"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Lederfunksjoner', 'Planlegge, organisere, lede og kontrollere.', 0),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Strategisk nivå', 'Toppledelsen – visjon, mål og overordnet strategi.', 1),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Taktisk nivå', 'Mellomledere – planer for avdelingene.', 2),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Operativt nivå', 'Førstelinjeledere – det daglige arbeidet.', 3),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Autoritær lederstil', 'Lederen bestemmer alene.', 4),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Demokratisk lederstil', 'Medarbeiderne tas med i beslutninger.', 5),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Laissez-faire', 'Lederen gir stor frihet.', 6),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Situasjonsbestemt ledelse', 'Stilen tilpasses medarbeiderens kompetanse og motivasjon.', 7),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Transformasjonsledelse', 'Inspirere gjennom visjon og være et forbilde.', 8),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Forankring', 'Å få ansatte til å forstå og støtte strategien.', 9),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Endringsledelse', 'Lede endringer og håndtere motstand.', 10),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Internmarkedsføring', 'Å se de ansatte som første marked.', 11),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Deltidsmarkedsførere', 'Ansatte som møter kundene og påvirker opplevelsen.', 12),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Tjenestetrekanten', 'Ekstern, intern og interaktiv markedsføring.', 13),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'Employer branding', 'Å bygge et attraktivt arbeidsgivermerke.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q01', 'flervalg', 'Hvilket ledernivå utformer visjon og overordnet strategi?', array['Operativt', 'Strategisk – toppledelsen', 'Taktisk', 'Ingen']::text[], 1, 'Toppledelsen.', true, true, 0),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q02', 'flervalg', 'Hva er internmarkedsføring?', array['Å se de ansatte som virksomhetens første marked', 'Reklame i egen butikk', 'Salg til ansatte', 'Markedsføring i utlandet']::text[], 0, 'Ansatte må forstå og tro på løftet.', true, true, 1),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q03', 'flervalg', 'Hva er situasjonsbestemt ledelse?', array['Samme stil for alle', 'Bare autoritær ledelse', 'Å tilpasse stilen til medarbeiderens kompetanse og motivasjon', 'Å la alle bestemme selv']::text[], 2, 'Instruksjon til nye, delegering til erfarne.', true, true, 2),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q04', 'flervalg', 'Hva er interaktiv markedsføring i tjenestetrekanten?', array['Løfter til kundene', 'Opplæring av ansatte', 'Reklame på nett', 'At de ansatte holder løftene i møte med kundene']::text[], 3, 'Sannhetens øyeblikk.', true, true, 3),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q05', 'flervalg', 'Hva kjennetegner transformasjonsledelse?', array['Inspirasjon gjennom visjon og å være et forbilde', 'Streng kontroll', 'Ingen ledelse', 'Bare belønning i penger']::text[], 0, 'Gir motivasjon og endringsvilje.', true, true, 4),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q06', 'flervalg', 'Hvorfor er forankring viktig?', array['For å spare penger', 'For at de ansatte skal forstå og støtte strategien', 'For å unngå kunder', 'For å bytte leder']::text[], 1, 'Ellers blir strategien ikke gjennomført.', true, true, 5),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q07', 'flervalg', 'Når kan autoritær lederstil være effektiv?', array['Alltid', 'Aldri', 'I kriser der raske beslutninger trengs', 'Når alle er eksperter']::text[], 2, 'Men kan gi lite motivasjon over tid.', true, true, 6),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q08', 'flervalg', 'Hva er et virkemiddel i internmarkedsføring?', array['TV-reklame', 'Prisrabatt til kunder', 'Utendørsplakater', 'Opplæring i produkter, service og verdier']::text[], 3, 'Også intern kommunikasjon og motivasjon.', true, true, 7),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q09', 'flervalg', 'Hva kan skje hvis lederen glemmer de ansatte i en kampanje?', array['Kundene møter noe annet enn reklamen lover', 'Salget dobles', 'Omdømmet styrkes', 'Ingenting']::text[], 0, 'Troverdigheten svekkes.', true, false, 8),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'q10', 'flervalg', 'Hva er employer branding?', array['En type logo', 'Å bygge et attraktivt arbeidsgivermerke', 'En prisstrategi', 'En distribusjonskanal']::text[], 1, 'Tiltrekker gode søkere.', true, false, 9),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm01', 'sant-usant', 'Ansatte bør få vite om nye kampanjer før kundene ser dem.', array['Sant', 'Usant']::text[], 0, 'Slik kan de svare og levere.', false, true, 10),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm02', 'sant-usant', 'Internmarkedsføring er bare viktig i produksjonsbedrifter uten kundekontakt.', array['Sant', 'Usant']::text[], 1, 'Den er særlig viktig i tjenesteytende virksomheter.', false, true, 11),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm03', 'sant-usant', 'Endringsledelse innebærer å håndtere motstand.', array['Sant', 'Usant']::text[], 0, 'Og forklare hvorfor endringen trengs.', false, true, 12),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm04', 'sant-usant', 'Laissez-faire passer best for nyansatte uten erfaring.', array['Sant', 'Usant']::text[], 1, 'Den passer best for svært kompetente medarbeidere.', false, true, 13),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm05', 'flervalg', 'Hvilket ledernivå følger opp det daglige arbeidet?', array['Strategisk', 'Operativt', 'Taktisk', 'Styret']::text[], 1, 'Førstelinjeledere.', false, true, 14),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm06', 'flervalg', 'Hva er ekstern markedsføring i tjenestetrekanten?', array['Løfter til kundene', 'Opplæring', 'Kundemøter', 'Rekruttering']::text[], 0, 'For eksempel reklame.', false, true, 15),
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 'm07', 'flervalg', 'Hva gir demokratisk lederstil ofte?', array['Raske beslutninger', 'Ingen involvering', 'Eierskap hos medarbeiderne', 'Mindre motivasjon']::text[], 2, 'Men tar tid.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:lederens-rolle-og-internmarkedsforing', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Helhetlige markedsstrategier og etisk bruk av konkurransemidler
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'markedsforing-og-ledelse-2', 'helhetlig-markedsstrategi-og-etikk', 'Helhetlige markedsstrategier og etisk bruk av konkurransemidler', 'Hvordan virksomheter utvikler og begrunner helhetlige markedsstrategier gjennom markedsplanen – fra analyse og mål til STP, markedsmiks, budsjett og kontroll – og hvordan de drøfter etisk bruk av konkurransemidlene, med markedsføringsloven, etiske teorier og dilemmaer som kroppspress, grønnvasking og manipulerende design.', array[10]::int[], 9, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', '## Den helhetlige markedsstrategien
+
+En **markedsstrategi** beskriver hvordan virksomheten skal nå sine **markedsmål**. Den er **helhetlig** når alle delene **henger sammen** og **støtter** hverandre. Strategien samles ofte i en **markedsplan**:
+
+1. **Situasjonsanalyse**: interne og eksterne forhold, SWOT
+2. **Mål**: markedsmål og kommunikasjonsmål
+3. **Strategi**: **segmentering**, **målgruppe** og **posisjonering**
+4. **Markedsmiks**: produkt, pris, distribusjon, påvirkning – og for tjenester også personale, prosesser og fysiske omgivelser
+5. **Budsjett** og **handlingsplan**
+6. **Kontroll** og **evaluering**
+
+## Konsistens
+
+Alle konkurransemidlene må sende **samme** signal:
+
+- Et **premiumprodukt** trenger **høy** pris, **selektiv** eller **eksklusiv** distribusjon, **eksklusiv** kommunikasjon og **kompetente** ansatte.
+- Et **lavpriskonsept** trenger **effektive** prosesser, **intensiv** distribusjon og **prisfokusert** kommunikasjon.
+
+Når elementene **spriker**, blir kundene **forvirret**, og posisjoneringen **svekkes**.
+
+## Begrunnelse
+
+En strategi må **begrunnes**: Hvorfor passer denne målgruppen? Hvorfor denne posisjoneringen? Hvilke **alternativer** ble vurdert, og hvorfor ble de valgt bort? Begrunnelsen bør bygge på **analysen** og vise hvordan strategien bidrar til **målene**.
+
+## Etikk i markedsføring
+
+**Etikk** handler om hva som er **rett** og **galt**. I markedsføring er det ikke nok at noe er **lovlig** – det bør også være **anstendig**.
+
+To etiske perspektiver:
+
+- **Konsekvensetikk**: Handlingen vurderes ut fra **følgene** – gir den mest mulig godt for flest mulig?
+- **Pliktetikk**: Noen handlinger er **riktige** eller **gale** uansett følger – for eksempel å **lyve** for kunder.
+
+## Regelverket
+
+**Markedsføringsloven** krever **god markedsføringsskikk**. Den forbyr blant annet
+
+- **villedende** markedsføring – for eksempel falske påstander om egenskaper eller pris
+- **aggressiv** markedsføring som presser forbrukerne
+- **skjult** reklame – reklame skal være **tydelig merket**
+- markedsføring som **utnytter** barns godtroenhet
+
+Retusjert reklame der kroppens form er endret, skal **merkes**. **Forbrukertilsynet** fører tilsyn og kan ilegge **overtredelsesgebyr**.
+
+## Etiske dilemmaer
+
+- **Produkt**: planlagt foreldelse – produkter som lages for å gå i stykker
+- **Pris**: falske førpriser, skjulte gebyrer og prispress
+- **Distribusjon**: dårlige arbeidsforhold i **leverandørkjeden**
+- **Påvirkning**: **kroppspress**, **grønnvasking** – å framstille seg som mer miljøvennlig enn man er – og **manipulerende design** som skjuler hvordan man avslutter et abonnement
+- **Data**: innsamling og bruk av **persondata** uten god informasjon
+- **Målgrupper**: markedsføring av **usunn mat**, **pengespill** eller **forbrukslån** mot sårbare grupper
+
+## Etikk lønner seg – ofte
+
+Uetisk markedsføring kan gi **kortsiktig** gevinst, men kan skade **tillit** og **omdømme** når det blir kjent – særlig i sosiale medier. Mange kunder, særlig unge, forventer at virksomheter tar **ansvar**.
+
+## Drøfting
+
+Når du drøfter en markedsstrategi, bør du vurdere både **lønnsomhet** og **etikk**: Er strategien **effektiv**? Er den **lovlig**? Er den **anstendig**? Og hvordan vil den påvirke **omdømmet** på lang sikt?', '{"label":"Helhetlig strategi og etikk","children":[{"label":"Markedsplan","children":[{"label":"Analyse og mål"},{"label":"STP"},{"label":"Markedsmiks, budsjett og kontroll"}]},{"label":"Helhet","children":[{"label":"Konsistens"},{"label":"Begrunnelse"}]},{"label":"Etikk","children":[{"label":"Konsekvensetikk"},{"label":"Pliktetikk"}]},{"label":"Regelverk","children":[{"label":"Markedsføringsloven"},{"label":"Forbrukertilsynet"}]},{"label":"Dilemmaer","children":[{"label":"Grønnvasking og kroppspress"},{"label":"Manipulerende design"},{"label":"Sårbare grupper"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Markedsstrategi', 'Hvordan virksomheten skal nå sine markedsmål.', 0),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Markedsplan', 'Analyse, mål, strategi, markedsmiks, budsjett og kontroll.', 1),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Helhetlig strategi', 'Alle deler henger sammen og støtter hverandre.', 2),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Konsistens', 'Alle konkurransemidler sender samme signal.', 3),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Begrunnelse', 'Forklaring av valg ut fra analyse og mål.', 4),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Konsekvensetikk', 'Handlingen vurderes ut fra følgene.', 5),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Pliktetikk', 'Noen handlinger er rette eller gale uansett følger.', 6),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'God markedsføringsskikk', 'Grunnkrav i markedsføringsloven.', 7),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Villedende markedsføring', 'Falske eller misvisende påstander.', 8),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Aggressiv markedsføring', 'Markedsføring som presser forbrukerne.', 9),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Grønnvasking', 'Å framstille seg som mer miljøvennlig enn man er.', 10),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Planlagt foreldelse', 'Produkter som lages for å gå i stykker.', 11),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Manipulerende design', 'Design som lurer brukere, for eksempel ved oppsigelse.', 12),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Kroppspress', 'Press om å se ut på en bestemt måte.', 13),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'Forbrukertilsynet', 'Fører tilsyn med markedsføringsloven.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q01', 'flervalg', 'Hva betyr at en markedsstrategi er helhetlig?', array['At den er lang', 'At alle delene henger sammen og støtter hverandre', 'At den bare handler om pris', 'At den gjelder hele verden']::text[], 1, 'Konsistens i markedsmiksen.', true, true, 0),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q02', 'flervalg', 'Hva er pliktetikk?', array['At noen handlinger er rette eller gale uansett følger', 'At bare følgene teller', 'At loven er alt', 'At alle plikter å kjøpe']::text[], 0, 'For eksempel å ikke lyve.', true, true, 1),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q03', 'flervalg', 'Hva er grønnvasking?', array['Miljøvennlig vask', 'En type sertifisering', 'Å framstille seg som mer miljøvennlig enn man er', 'Å bruke grønn logo']::text[], 2, 'Villedende markedsføring.', true, true, 2),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q04', 'flervalg', 'Hvilken markedsmiks passer et premiumprodukt?', array['Lav pris og intensiv distribusjon', 'Prisfokusert kommunikasjon', 'Tilbudsaviser', 'Høy pris, selektiv distribusjon og eksklusiv kommunikasjon']::text[], 3, 'Alt må sende samme signal.', true, true, 3),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q05', 'flervalg', 'Hva krever markedsføringsloven?', array['God markedsføringsskikk', 'At all reklame er på TV', 'At prisene er lave', 'At alle produkter er norske']::text[], 0, 'Forbyr villedende og aggressiv markedsføring.', true, true, 4),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q06', 'flervalg', 'Hva er manipulerende design?', array['Pent design', 'Design som lurer brukerne, for eksempel ved oppsigelse', 'Et designprogram', 'En logo']::text[], 1, 'Ofte kalt dark patterns.', true, true, 5),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q07', 'flervalg', 'Hva skjer når elementene i markedsmiksen spriker?', array['Posisjoneringen styrkes', 'Salget øker alltid', 'Kundene blir forvirret og posisjoneringen svekkes', 'Ingenting']::text[], 2, 'Konsistens er viktig.', true, true, 6),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q08', 'flervalg', 'Hvorfor kan uetisk markedsføring skade virksomheten?', array['Fordi den er dyr', 'Fordi den er treg', 'Fordi den er ukjent', 'Fordi den kan skade tillit og omdømme når den blir kjent']::text[], 3, 'Særlig i sosiale medier.', true, true, 7),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q09', 'flervalg', 'Hva er første del av en markedsplan?', array['Situasjonsanalyse', 'Budsjett', 'Kontroll', 'Kampanje']::text[], 0, 'Grunnlaget for alt annet.', true, false, 8),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'q10', 'flervalg', 'Hva er et etisk dilemma knyttet til distribusjon?', array['Kroppspress', 'Dårlige arbeidsforhold i leverandørkjeden', 'Falske førpriser', 'Planlagt foreldelse']::text[], 1, 'Ansvar for hele kjeden.', true, false, 9),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm01', 'sant-usant', 'Noe kan være lovlig og likevel uetisk.', array['Sant', 'Usant']::text[], 0, 'Etikk handler om mer enn lov.', false, true, 10),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm02', 'sant-usant', 'Skjult reklame er tillatt hvis produktet er godt.', array['Sant', 'Usant']::text[], 1, 'Reklame skal alltid være tydelig merket.', false, true, 11),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm03', 'sant-usant', 'Retusjert reklame der kroppens form er endret, skal merkes.', array['Sant', 'Usant']::text[], 0, 'For å motvirke kroppspress.', false, true, 12),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm04', 'sant-usant', 'En strategi trenger ingen begrunnelse hvis den er kreativ.', array['Sant', 'Usant']::text[], 1, 'Den må begrunnes ut fra analyse og mål.', false, true, 13),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm05', 'flervalg', 'Hvilken markedsmiks passer et lavpriskonsept?', array['Eksklusiv distribusjon', 'Effektive prosesser og intensiv distribusjon', 'Prestisjepris', 'Luksuriøse butikker']::text[], 1, 'Lave kostnader gjennom hele kjeden.', false, true, 14),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm06', 'flervalg', 'Hvem kan ilegge overtredelsesgebyr for brudd på markedsføringsloven?', array['Forbrukertilsynet', 'Datatilsynet alene', 'Stortinget', 'Kundene']::text[], 0, 'Tilsynsmyndigheten.', false, true, 15),
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 'm07', 'flervalg', 'Hvilket spørsmål hører med i en etisk vurdering av strategien?', array['Er logoen pen?', 'Er kontoret stort?', 'Er strategien anstendig og hvordan påvirker den omdømmet?', 'Hvor mange ansatte har vi?']::text[], 2, 'I tillegg til lønnsomhet og lovlighet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:helhetlig-markedsstrategi-og-etikk', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Helhetlig markedsmiks og effektmåling
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'markedsforing-og-ledelse-2', 'markedsmiks-og-effektmaling', 'Helhetlig markedsmiks og effektmåling', 'Hvordan virksomheter utvikler en helhetlig markedsmiks tilpasset målgruppe, livsfase og posisjonering, og ulike metoder for å måle effekten av markedsføringstiltak – nøkkeltall, kjennskapsmålinger, salgs- og markedsandelstall, digitale måltall som klikkrate og konverteringsrate, A/B-testing, avkastning og kundelojalitet.', array[11]::int[], 10, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', '## Helhetlig markedsmiks
+
+**Markedsmiksen** er kombinasjonen av **konkurransemidlene** – produkt, pris, distribusjon og påvirkning, og for tjenester også **personale**, **prosesser** og **fysiske omgivelser**. En **helhetlig** miks er
+
+- **tilpasset målgruppen** og deres behov
+- **konsistent** med posisjoneringen
+- tilpasset **produktets livsfase**
+- **realistisk** ut fra ressursene
+
+## Markedsmiks gjennom livsløpet
+
+- **Introduksjon**: bygge **kjennskap**, ofte høy pris ved skumming eller lav ved penetrasjon, begrenset distribusjon
+- **Vekst**: utvide **distribusjon** og målgruppe, bygge **preferanse**
+- **Modning**: sterk **konkurranse** – differensiere, forsvare markedsandel, pris- og lojalitetstiltak
+- **Nedgang**: redusere kostnader, **fornye** produktet eller **avvikle**
+
+## Hvorfor måle effekt?
+
+Markedsføring koster penger. Virksomheten må vite om tiltakene **virker**, slik at den kan **forbedre** dem og bruke budsjettet der det gir mest. Et kjent sitat sier at halvparten av reklamepengene er bortkastet – problemet er å vite **hvilken** halvdel.
+
+## Nøkkeltall – KPI-er
+
+**KPI-er** – key performance indicators – er **nøkkeltall** som viser om målene nås. De må henge sammen med **målene**:
+
+- **Kognitive** mål måles med **kjennskap**: **spontan** kjennskap – kunden nevner merket selv – og **hjulpet** kjennskap – kunden kjenner igjen merket fra en liste.
+- **Affektive** mål måles med **holdningsundersøkelser** og **preferanse**.
+- **Konative** mål måles med **salg**, **markedsandel**, antall **nye kunder** eller **påmeldinger**.
+
+## Digitale måltall
+
+- **Rekkevidde** og **visninger**
+- **Klikkrate** (CTR): andelen som **klikker** på annonsen
+- **Konverteringsrate**: andelen som gjennomfører ønsket **handling**, for eksempel kjøp
+- **Kostnad per klikk** (CPC) og **kostnad per anskaffelse** (CPA)
+- **Engasjement**: likes, delinger og kommentarer
+
+## Metoder
+
+- **Før- og ettermålinger**: måle kjennskap eller salg **før** og **etter** en kampanje
+- **Kontrollgruppe**: sammenligne områder eller grupper som **fikk** og **ikke fikk** kampanjen
+- **A/B-testing**: vise to versjoner av en annonse eller nettside til ulike grupper og se hvilken som gir best resultat
+- **Sporing** med koder, lenker og kampanjekoder
+- **Kundetilfredshet** og **Net Promoter Score (NPS)**: hvor sannsynlig er det at kunden **anbefaler** virksomheten?
+
+## Avkastning
+
+**ROI** – return on investment – viser hvor mye markedsføringen gir **tilbake** sammenlignet med kostnaden. **ROAS** – return on ad spend – viser **inntekter** per krone brukt på annonser.
+
+## Utfordringer ved måling
+
+- Det er vanskelig å skille effekten av **ett** tiltak fra andre forhold – som **sesong**, **konkurrenter** og **vær**.
+- **Merkebygging** gir effekt på **lang** sikt, mens mange digitale måltall bare fanger **kortsiktige** effekter.
+- Kunden møter ofte flere kanaler før kjøpet, og det er vanskelig å vite hvilken som skal få **æren** – **attribusjon**.
+- **Personvernregler** begrenser sporing.
+
+## Vurdering
+
+God effektmåling bruker **flere** metoder, måler både **kort** og **lang** sikt og brukes aktivt til å **justere** markedsmiksen.', '{"label":"Markedsmiks og måling","children":[{"label":"Markedsmiks","children":[{"label":"4P og 7P"},{"label":"Konsistens"},{"label":"Livsløpet"}]},{"label":"KPI-er","children":[{"label":"Kjennskap"},{"label":"Holdninger"},{"label":"Salg og markedsandel"}]},{"label":"Digitalt","children":[{"label":"CTR og konvertering"},{"label":"CPC og CPA"}]},{"label":"Metoder","children":[{"label":"Før og etter"},{"label":"Kontrollgruppe og A/B"},{"label":"NPS"}]},{"label":"Avkastning og utfordringer","children":[{"label":"ROI og ROAS"},{"label":"Attribusjon"},{"label":"Kort og lang sikt"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:markedsmiks-og-effektmaling';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Markedsmiks', 'Kombinasjonen av konkurransemidlene.', 0),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Helhetlig markedsmiks', 'Tilpasset målgruppe, posisjonering, livsfase og ressurser.', 1),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'KPI', 'Nøkkeltall som viser om målene nås.', 2),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Spontan kjennskap', 'Kunden nevner merket selv.', 3),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Hjulpet kjennskap', 'Kunden kjenner igjen merket fra en liste.', 4),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Klikkrate (CTR)', 'Andelen som klikker på annonsen.', 5),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Konverteringsrate', 'Andelen som gjennomfører ønsket handling.', 6),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'CPA', 'Kostnad per anskaffelse.', 7),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Før- og ettermåling', 'Måling før og etter en kampanje.', 8),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Kontrollgruppe', 'Gruppe som ikke får kampanjen – gir sammenligning.', 9),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'A/B-testing', 'Sammenligning av to versjoner for å se hva som virker best.', 10),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'NPS', 'Net Promoter Score – sannsynligheten for at kunden anbefaler virksomheten.', 11),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'ROI', 'Avkastning sammenlignet med kostnaden.', 12),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'ROAS', 'Inntekter per krone brukt på annonser.', 13),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'Attribusjon', 'Hvilken kanal som får æren for et kjøp.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:markedsmiks-og-effektmaling';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q01', 'flervalg', 'Hva er spontan kjennskap?', array['At kunden kjenner igjen merket fra en liste', 'At kunden nevner merket selv', 'At kunden kjøper produktet', 'At kunden klikker på annonsen']::text[], 1, 'Hjulpet kjennskap bruker en liste.', true, true, 0),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q02', 'flervalg', 'Hva er A/B-testing?', array['Å sammenligne to versjoner for å se hva som virker best', 'En type eksamen', 'En prisstrategi', 'Et regnskap']::text[], 0, 'Vanlig i digital markedsføring.', true, true, 1),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q03', 'flervalg', 'Hva måler konverteringsraten?', array['Antall visninger', 'Kostnad per klikk', 'Andelen som gjennomfører ønsket handling', 'Antall ansatte']::text[], 2, 'For eksempel kjøp.', true, true, 2),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q04', 'flervalg', 'Hva er en utfordring ved effektmåling?', array['At alt er lett å måle', 'At kundene aldri kjøper', 'At reklame er gratis', 'At det er vanskelig å skille effekten av ett tiltak fra andre forhold']::text[], 3, 'Sesong, konkurrenter og vær.', true, true, 3),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q05', 'flervalg', 'Hva er NPS?', array['Et mål på hvor sannsynlig det er at kunden anbefaler virksomheten', 'Et prisnivå', 'En annonseplattform', 'En lov']::text[], 0, 'Net Promoter Score.', true, true, 4),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q06', 'flervalg', 'Hvordan måles et kognitivt kommunikasjonsmål?', array['Med salgstall', 'Med kjennskapsmålinger', 'Med lønnsomhet', 'Med sykefravær']::text[], 1, 'Kjennskap og kunnskap.', true, true, 5),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q07', 'flervalg', 'Hva er en kontrollgruppe i effektmåling?', array['En gruppe ledere', 'En gruppe som får dobbel kampanje', 'En gruppe som ikke får kampanjen', 'En gruppe konkurrenter']::text[], 2, 'Gir sammenligning.', true, true, 6),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q08', 'flervalg', 'Hva er typisk for markedsmiksen i modningsfasen?', array['Bygge kjennskap fra null', 'Begrenset distribusjon', 'Avvikling', 'Sterk konkurranse og fokus på differensiering og lojalitet']::text[], 3, 'Forsvare markedsandel.', true, true, 7),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q09', 'flervalg', 'Hva er ROAS?', array['Inntekter per krone brukt på annonser', 'Antall annonser', 'Klikkrate', 'Kjennskap']::text[], 0, 'Return on ad spend.', true, false, 8),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'q10', 'flervalg', 'Hvorfor kan digitale måltall gi et ufullstendig bilde?', array['Fordi de er feil', 'Fordi de ofte bare fanger kortsiktige effekter', 'Fordi de er for dyre', 'Fordi de er hemmelige']::text[], 1, 'Merkebygging virker over tid.', true, false, 9),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm01', 'sant-usant', 'KPI-er bør henge sammen med målene.', array['Sant', 'Usant']::text[], 0, 'Ellers måler man feil ting.', false, true, 10),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm02', 'sant-usant', 'Merkebygging gir bare effekt samme dag som kampanjen går.', array['Sant', 'Usant']::text[], 1, 'Den gir effekt på lang sikt.', false, true, 11),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm03', 'sant-usant', 'Personvernregler kan begrense sporing av kunder.', array['Sant', 'Usant']::text[], 0, 'En utfordring for digital måling.', false, true, 12),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm04', 'sant-usant', 'Én målemetode er alltid nok.', array['Sant', 'Usant']::text[], 1, 'God måling bruker flere metoder.', false, true, 13),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm05', 'flervalg', 'Hva er CTR?', array['Kostnad per tusen', 'Klikkrate – andelen som klikker', 'Konverteringsrate', 'Kundetilfredshet']::text[], 1, 'Click-through rate.', false, true, 14),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm06', 'flervalg', 'Hva er typisk for introduksjonsfasen?', array['Bygge kjennskap', 'Avvikle produktet', 'Maks distribusjon overalt', 'Forsvare markedsandel mot mange konkurrenter']::text[], 0, 'Kunden må vite at produktet finnes.', false, true, 15),
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 'm07', 'flervalg', 'Hva handler attribusjon om?', array['Pris', 'Logo', 'Hvilken kanal som får æren for et kjøp', 'Rekruttering']::text[], 2, 'Kunden møter ofte flere kanaler.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:markedsmiks-og-effektmaling', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Samfunnsansvar og omdømme
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'markedsforing-og-ledelse-2', 'samfunnsansvar-og-omdomme', 'Samfunnsansvar og omdømme', 'Hvordan virksomheters samfunnsansvar kan drøftes ut fra et etisk, lovmessig og forretningsmessig perspektiv – Carrolls pyramide, interessenter, åpenhetsloven og aktsomhetsvurderinger, delt verdiskaping – og hvordan samfunnsansvar påvirker omdømmet, med omdømmebygging og krisehåndtering.', array[12]::int[], 11, 'sjekkes', array['Sjekk hvilke virksomheter som omfattes av åpenhetsloven og gjeldende krav til bærekraftsrapportering i regnskapsloven.']::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', '## Hva er samfunnsansvar?
+
+**Samfunnsansvar** – ofte kalt **CSR** – handler om hvordan virksomheter tar hensyn til **mennesker**, **samfunn** og **miljø** i det de gjør – også utover det loven krever.
+
+## Carrolls pyramide
+
+**Archie Carroll** beskrev fire nivåer av samfunnsansvar:
+
+1. **Økonomisk** ansvar: være **lønnsom**, skape arbeidsplasser og betale skatt
+2. **Juridisk** ansvar: følge **lover** og regler
+3. **Etisk** ansvar: gjøre det som er **rett** og **rettferdig**, også når loven ikke krever det
+4. **Filantropisk** ansvar: bidra **frivillig** til samfunnet – sponsing, gaver og frivillig arbeid
+
+## Interessenter
+
+**Interessenter** er grupper som påvirkes av eller kan påvirke virksomheten: **eiere**, **ansatte**, **kunder**, **leverandører**, **lokalsamfunn**, **myndigheter**, **media** og **interesseorganisasjoner**. Samfunnsansvar handler om å ta **hensyn** til interessentene – og å **balansere** ulike interesser.
+
+## Tre perspektiver
+
+**Etisk perspektiv**: Virksomheter har en **plikt** til å unngå å skade mennesker og miljø, uavhengig av lønnsomhet.
+
+**Lovmessig perspektiv**: Loven setter **minstekrav**:
+
+- **Arbeidsmiljøloven**, **markedsføringsloven** og **miljølovgivning**
+- **Åpenhetsloven** (2022) krever at større virksomheter gjør **aktsomhetsvurderinger** av **menneskerettigheter** og **anstendige arbeidsforhold** i **leverandørkjeden**, og at forbrukere kan be om **informasjon**
+- **Regnskapsloven** stiller krav om **rapportering** om samfunnsansvar for store foretak
+
+**Forretningsmessig perspektiv**: Samfunnsansvar kan **lønne seg**:
+
+- bedre **omdømme** og **kundelojalitet**
+- lettere å **rekruttere** og beholde ansatte
+- lavere **risiko** for skandaler og bøter
+- tilgang til **investorer** som vektlegger bærekraft
+
+**Michael Porter** og **Mark Kramer** lanserte begrepet **delt verdiskaping** – shared value – der virksomheter skaper **økonomisk** verdi ved å løse **samfunnsproblemer**.
+
+Kritikere mener at bedrifters oppgave først og fremst er å **tjene penger** innenfor lovens rammer, og at samfunnsansvar noen ganger bare er **markedsføring**.
+
+## Omdømme
+
+**Omdømme** er summen av **oppfatningene** interessentene har av virksomheten over tid. Det bygges av det virksomheten **gjør** – ikke bare det den **sier**. Et godt omdømme gir **tillit**, **lojalitet** og **handlingsrom**.
+
+Omdømme skiller seg fra **identitet** – hvordan virksomheten ser på **seg selv** – og **profil** – hvordan den **ønsker** å bli sett. Et gap mellom profil og faktisk atferd kan gi **omdømmetap**.
+
+## Omdømmekriser
+
+Skandaler – som barnearbeid hos leverandører, lekkasjer av persondata eller grønnvasking – kan skade omdømmet **raskt**, særlig i **sosiale medier**. God **krisehåndtering** innebærer å
+
+1. reagere **raskt**
+2. være **ærlig** og **åpen**
+3. ta **ansvar** og beklage
+4. fortelle hva som gjøres for å **rette opp**
+5. **følge opp** over tid
+
+## Vurdering
+
+Når du vurderer samfunnsansvar, kan du spørre: Er tiltakene **ekte** og knyttet til kjernevirksomheten, eller er de **pynt**? Blir de **fulgt opp** og **rapportert**? Og hvordan påvirker de **omdømmet** og **lønnsomheten** på lang sikt?', '{"label":"Samfunnsansvar","children":[{"label":"Carroll","children":[{"label":"Økonomisk og juridisk"},{"label":"Etisk og filantropisk"}]},{"label":"Interessenter","children":[{"label":"Eiere og ansatte"},{"label":"Kunder og lokalsamfunn"}]},{"label":"Perspektiver","children":[{"label":"Etisk"},{"label":"Lovmessig – åpenhetsloven"},{"label":"Forretningsmessig – delt verdi"}]},{"label":"Omdømme","children":[{"label":"Identitet og profil"},{"label":"Omdømmegap"}]},{"label":"Kriser","children":[{"label":"Raskt og ærlig"},{"label":"Ansvar og oppfølging"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Samfunnsansvar (CSR)', 'Hensyn til mennesker, samfunn og miljø – også utover loven.', 0),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Carrolls pyramide', 'Økonomisk, juridisk, etisk og filantropisk ansvar.', 1),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Filantropisk ansvar', 'Frivillige bidrag som sponsing og gaver.', 2),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Interessenter', 'Grupper som påvirkes av eller kan påvirke virksomheten.', 3),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Åpenhetsloven', 'Krav om aktsomhetsvurderinger i leverandørkjeden – fra 2022.', 4),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Aktsomhetsvurdering', 'Kartlegging av risiko for brudd på menneskerettigheter og arbeidsforhold.', 5),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Delt verdiskaping', 'Økonomisk verdi ved å løse samfunnsproblemer – Porter og Kramer.', 6),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Omdømme', 'Summen av interessentenes oppfatninger over tid.', 7),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Identitet', 'Hvordan virksomheten ser på seg selv.', 8),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Profil', 'Hvordan virksomheten ønsker å bli sett.', 9),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Omdømmegap', 'Forskjell mellom profil og faktisk atferd.', 10),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Krisehåndtering', 'Raskt, ærlig, ta ansvar og rette opp.', 11),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Leverandørkjede', 'Alle leverandører bak et produkt.', 12),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Handlingsrom', 'Frihet et godt omdømme gir i vanskelige situasjoner.', 13),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'Kritikk av CSR', 'At samfunnsansvar kan være ren markedsføring.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q01', 'flervalg', 'Hva er de fire nivåene i Carrolls pyramide?', array['Pris, produkt, plass og påvirkning', 'Økonomisk, juridisk, etisk og filantropisk', 'Styrker, svakheter, muligheter og trusler', 'Planlegge, organisere, lede og kontrollere']::text[], 1, 'Fra lønnsomhet til frivillige bidrag.', true, true, 0),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q02', 'flervalg', 'Hva krever åpenhetsloven?', array['Aktsomhetsvurderinger av menneskerettigheter og arbeidsforhold i leverandørkjeden', 'At alle priser er offentlige', 'At bedrifter betaler mer skatt', 'At alle ansatte får bonus']::text[], 0, 'For større virksomheter.', true, true, 1),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q03', 'flervalg', 'Hva er delt verdiskaping?', array['Å dele overskuddet likt', 'Å gi bort produkter', 'Å skape økonomisk verdi ved å løse samfunnsproblemer', 'Å samarbeide med konkurrenter']::text[], 2, 'Porter og Kramer.', true, true, 2),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q04', 'flervalg', 'Hva er omdømme?', array['Virksomhetens logo', 'Hvordan virksomheten ser på seg selv', 'Hvordan virksomheten ønsker å bli sett', 'Summen av interessentenes oppfatninger over tid']::text[], 3, 'Bygges av handlinger.', true, true, 3),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q05', 'flervalg', 'Hva er et forretningsmessig argument for samfunnsansvar?', array['Bedre omdømme og lettere rekruttering', 'Høyere kostnader', 'Mindre kontroll', 'Færre kunder']::text[], 0, 'Også lavere risiko.', true, true, 4),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q06', 'flervalg', 'Hva er første steg i god krisehåndtering?', array['Å tie', 'Å reagere raskt', 'Å skylde på andre', 'Å slette kontoer']::text[], 1, 'Deretter ærlighet og ansvar.', true, true, 5),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q07', 'flervalg', 'Hvem er interessenter?', array['Bare eierne', 'Bare kundene', 'Grupper som påvirkes av eller kan påvirke virksomheten', 'Bare konkurrentene']::text[], 2, 'Ansatte, kunder, lokalsamfunn og flere.', true, true, 6),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q08', 'flervalg', 'Hva kan et gap mellom profil og faktisk atferd føre til?', array['Bedre omdømme', 'Høyere lønn', 'Flere ansatte', 'Omdømmetap']::text[], 3, 'Troverdigheten svekkes.', true, true, 7),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q09', 'flervalg', 'Hva er filantropisk ansvar?', array['Frivillige bidrag til samfunnet', 'Å følge loven', 'Å være lønnsom', 'Å betale skatt']::text[], 0, 'Toppen av pyramiden.', true, false, 8),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'q10', 'flervalg', 'Hva er en kritikk av samfunnsansvar?', array['At det er ulovlig', 'At det noen ganger bare er markedsføring', 'At det alltid er for dyrt', 'At kunder ikke bryr seg']::text[], 1, 'Tiltakene må være ekte.', true, false, 9),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm01', 'sant-usant', 'Omdømme bygges av det virksomheten gjør, ikke bare det den sier.', array['Sant', 'Usant']::text[], 0, 'Handlinger teller mest.', false, true, 10),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm02', 'sant-usant', 'Samfunnsansvar handler bare om å følge loven.', array['Sant', 'Usant']::text[], 1, 'Det handler også om etisk og frivillig ansvar.', false, true, 11),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm03', 'sant-usant', 'Forbrukere kan be om informasjon etter åpenhetsloven.', array['Sant', 'Usant']::text[], 0, 'Om hvordan virksomheten håndterer risiko.', false, true, 12),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm04', 'sant-usant', 'Et godt omdømme har ingen verdi i en krise.', array['Sant', 'Usant']::text[], 1, 'Det gir tillit og handlingsrom.', false, true, 13),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm05', 'flervalg', 'Hva er et eksempel på en omdømmekrise?', array['En ny logo', 'Barnearbeid hos en leverandør', 'En sommerkampanje', 'En ny butikk']::text[], 1, 'Spres raskt i sosiale medier.', false, true, 14),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm06', 'flervalg', 'Hva skiller ekte samfunnsansvar fra pynt?', array['At tiltakene er knyttet til kjernevirksomheten og følges opp', 'At det er mye reklame for det', 'At det er billig', 'At ingen vet om det']::text[], 0, 'Og rapporteres.', false, true, 15),
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 'm07', 'flervalg', 'Hva er profil?', array['Summen av oppfatninger', 'Hvordan virksomheten ser seg selv', 'Hvordan virksomheten ønsker å bli sett', 'Regnskapet']::text[], 2, 'Identitet er selvbildet.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:samfunnsansvar-og-omdomme', 15)
+on conflict (tema_id) do update set minutter = excluded.minutter;
+
+-- Markedsføring og ledelse 2: Bærekraftige valg for virksomheter
+insert into public.temaer (id, fag_id, slug, navn, intro, kompetansemaal, sortering, status, merknader, publisert, oppdatert) values
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'markedsforing-og-ledelse-2', 'barekraftige-valg', 'Bærekraftige valg for virksomheter', 'Hvordan virksomheter kan vurdere bærekraftige valg med tanke på sosiale, økonomiske og miljømessige forhold – trippel bunnlinje, FNs bærekraftsmål, sirkulær økonomi og livsløpsvurdering, bærekraft i markedsmiksen, miljøsertifiseringer – og hvordan de unngår grønnvasking og håndterer dilemmaer.', array[13]::int[], 12, 'utkast', '{}'::text[], false, now())
+on conflict (id) do update set navn = excluded.navn, intro = excluded.intro, kompetansemaal = excluded.kompetansemaal,
+  sortering = excluded.sortering, status = excluded.status, merknader = excluded.merknader,
+  publisert = excluded.publisert, oppdatert = excluded.oppdatert;
+insert into public.tema_innhold (tema_id, sammendrag, tankekart) values
+  ('markedsforing-og-ledelse-2:barekraftige-valg', '## Tre dimensjoner
+
+**Bærekraftig utvikling** er utvikling som dekker dagens behov uten å ødelegge mulighetene for **kommende generasjoner**. For virksomheter brukes ofte **trippel bunnlinje**:
+
+- **Miljømessig** – planet: klima, natur, ressurser og forurensning
+- **Sosial** – people: arbeidsforhold, menneskerettigheter, helse og lokalsamfunn
+- **Økonomisk** – profit: lønnsomhet og **langsiktig** verdiskaping
+
+En virksomhet som ikke er **lønnsom**, overlever ikke – men lønnsomhet på bekostning av miljø og mennesker er ikke bærekraftig.
+
+## FNs bærekraftsmål
+
+**FNs 17 bærekraftsmål** gir en felles ramme. Mange virksomheter velger ut de målene der de har størst **påvirkning** – for eksempel **ansvarlig forbruk og produksjon** eller **anstendig arbeid**.
+
+## Sirkulær økonomi
+
+I en **lineær** økonomi **utvinner**, **produserer**, **bruker** og **kaster** vi. I en **sirkulær** økonomi holdes ressursene i bruk så lenge som mulig:
+
+- **Design** for lang levetid og reparasjon
+- **Gjenbruk**, **reparasjon** og **utleie**
+- **Materialgjenvinning**
+- **Ombruk** av brukte produkter
+
+## Livsløpsvurdering
+
+En **livsløpsvurdering** kartlegger miljøbelastningen gjennom **hele** livet til et produkt – råvarer, produksjon, transport, bruk og avfall. Den kan avsløre at det største avtrykket ligger et **annet** sted enn man tror.
+
+## Bærekraft i markedsmiksen
+
+- **Produkt**: mer miljøvennlige materialer, lang levetid, reparerbarhet og mindre **emballasje**
+- **Pris**: prisen bør dekke de **reelle** kostnadene. Bærekraftige produkter kan koste mer – hvordan får man kundene til å betale?
+- **Distribusjon**: kortreiste varer, effektiv logistikk og **utslippsfri** transport
+- **Påvirkning**: **ærlig** og **dokumentert** kommunikasjon om bærekraft
+- **Personale** og **prosesser**: gode **arbeidsforhold** og **energieffektiv** drift
+
+## Sertifiseringer og merker
+
+**Miljøsertifiseringer** og **merkeordninger** – som **Svanemerket**, **EU Ecolabel**, **Fairtrade** og miljøledelsessystemer som **Miljøfyrtårn** og **ISO 14001** – kan dokumentere innsatsen og gi **troverdighet**.
+
+## Grønnvasking
+
+**Grønnvasking** er å gi inntrykk av at et produkt eller en virksomhet er mer **miljøvennlig** enn det er. Eksempler er vage ord som «**grønn**» og «**klimanøytral**» uten dokumentasjon, eller å fremheve én liten forbedring mens resten av virksomheten er uendret. **Forbrukertilsynet** har laget veiledning, og miljøpåstander må kunne **dokumenteres**. Grønnvasking kan gi **bøter** og **omdømmetap**.
+
+## Dilemmaer
+
+- **Kostnad** mot **miljø**: Bærekraftige løsninger kan være dyrere på kort sikt.
+- **Vekst** mot **ressursbruk**: Er det bærekraftig å selge **mer**?
+- **Arbeidsplasser** mot **miljøhensyn**: Å legge ned forurensende produksjon kan koste jobber.
+- **Kundenes ønsker** mot **handling**: Mange sier de vil kjøpe bærekraftig, men velger ofte det **billigste**.
+
+## Vurdering
+
+Når du vurderer et bærekraftig valg, kan du spørre:
+
+1. Hvilken **effekt** har tiltaket på miljø, mennesker og økonomi?
+2. Er det **dokumentert** og **målbart**?
+3. Er det knyttet til **kjernevirksomheten**?
+4. Er det **lønnsomt** på **lang** sikt?
+5. Kan det kommuniseres **ærlig** uten å overdrive?
+
+Bærekraft handler om **helhet** og **langsiktighet** – og om å ta **valg** mellom hensyn som ikke alltid trekker i samme retning.', '{"label":"Bærekraftige valg","children":[{"label":"Dimensjoner","children":[{"label":"Miljø"},{"label":"Sosial"},{"label":"Økonomi"}]},{"label":"Rammer","children":[{"label":"FNs bærekraftsmål"},{"label":"Sirkulær økonomi"},{"label":"Livsløpsvurdering"}]},{"label":"Markedsmiks","children":[{"label":"Produkt og emballasje"},{"label":"Pris og distribusjon"},{"label":"Ærlig kommunikasjon"}]},{"label":"Dokumentasjon","children":[{"label":"Sertifiseringer og merker"},{"label":"Unngå grønnvasking"}]},{"label":"Dilemmaer","children":[{"label":"Kostnad og vekst"},{"label":"Arbeidsplasser"},{"label":"Holdning og handling"}]}]}'::jsonb)
+on conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;
+delete from public.flashcards where tema_id = 'markedsforing-og-ledelse-2:barekraftige-valg';
+insert into public.flashcards (tema_id, begrep, forklaring, sortering) values
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Bærekraftig utvikling', 'Dekke dagens behov uten å ødelegge for kommende generasjoner.', 0),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Trippel bunnlinje', 'Miljø, sosiale forhold og økonomi.', 1),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'FNs bærekraftsmål', '17 mål som felles ramme for bærekraft.', 2),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Lineær økonomi', 'Utvinne, produsere, bruke og kaste.', 3),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Sirkulær økonomi', 'Ressurser holdes i bruk så lenge som mulig.', 4),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Ombruk', 'Brukte produkter tas i bruk igjen.', 5),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Livsløpsvurdering', 'Miljøbelastning gjennom hele produktets liv.', 6),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Svanemerket', 'Nordisk miljømerke.', 7),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Fairtrade', 'Merke for rettferdig handel og bedre vilkår for produsenter.', 8),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Miljøfyrtårn', 'Norsk miljøledelsessertifisering.', 9),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'ISO 14001', 'Internasjonal standard for miljøledelse.', 10),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Grønnvasking', 'Å gi inntrykk av å være mer miljøvennlig enn man er.', 11),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Dokumentasjonskrav', 'Miljøpåstander må kunne dokumenteres.', 12),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Holdning–handling-gap', 'Kunder sier de vil kjøpe bærekraftig, men velger ofte billigst.', 13),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'Reelle kostnader', 'Prisen dekker også miljø- og samfunnskostnader.', 14);
+delete from public.quiz_sporsmal where tema_id = 'markedsforing-og-ledelse-2:barekraftige-valg';
+insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q01', 'flervalg', 'Hva er de tre dimensjonene i trippel bunnlinje?', array['Pris, produkt og plass', 'Miljø, sosiale forhold og økonomi', 'Styrker, svakheter og trusler', 'Stat, fylke og kommune']::text[], 1, 'Planet, people og profit.', true, true, 0),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q02', 'flervalg', 'Hva kjennetegner sirkulær økonomi?', array['Ressurser holdes i bruk så lenge som mulig', 'Utvinne, bruke og kaste', 'Bare resirkulering av papir', 'Ingen produksjon']::text[], 0, 'Gjenbruk, reparasjon og gjenvinning.', true, true, 1),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q03', 'flervalg', 'Hva er en livsløpsvurdering?', array['En vurdering av ansatte', 'En markedsundersøkelse', 'Kartlegging av miljøbelastning gjennom hele produktets liv', 'En prisstrategi']::text[], 2, 'Fra råvare til avfall.', true, true, 2),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q04', 'flervalg', 'Hva er grønnvasking?', array['Miljøsertifisering', 'Ærlig miljøkommunikasjon', 'Resirkulering', 'Å gi inntrykk av å være mer miljøvennlig enn man er']::text[], 3, 'Kan gi bøter og omdømmetap.', true, true, 3),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q05', 'flervalg', 'Hva må miljøpåstander i markedsføring kunne?', array['Dokumenteres', 'Være vage', 'Bruke grønn farge', 'Være på engelsk']::text[], 0, 'Forbrukertilsynets veiledning.', true, true, 4),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q06', 'flervalg', 'Hva er et bærekraftig produkttiltak?', array['Mer emballasje', 'Lang levetid og reparerbarhet', 'Planlagt foreldelse', 'Kortere garanti']::text[], 1, 'Design for lang levetid.', true, true, 5),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q07', 'flervalg', 'Hva er holdning–handling-gapet?', array['At ansatte ikke møter', 'At lederen ikke lytter', 'At kunder sier de vil kjøpe bærekraftig, men ofte velger billigst', 'At priser er høye']::text[], 2, 'Et dilemma for virksomheter.', true, true, 6),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q08', 'flervalg', 'Hvilket merke handler om rettferdig handel?', array['ISO 14001', 'Miljøfyrtårn', 'Svanemerket', 'Fairtrade']::text[], 3, 'Bedre vilkår for produsenter.', true, true, 7),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q09', 'flervalg', 'Hvorfor er lønnsomhet en del av bærekraft?', array['Fordi en virksomhet som ikke er lønnsom, ikke overlever', 'Fordi bare penger teller', 'Fordi miljø ikke betyr noe', 'Det er det ikke']::text[], 0, 'Økonomisk dimensjon.', true, false, 8),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'q10', 'flervalg', 'Hva er et dilemma ved bærekraftige valg?', array['At alt er gratis', 'At bærekraftige løsninger kan være dyrere på kort sikt', 'At kundene alltid betaler mer', 'At det ikke finnes valg']::text[], 1, 'Kostnad mot miljø.', true, false, 9),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm01', 'sant-usant', 'En livsløpsvurdering kan vise at det største avtrykket ligger et annet sted enn man tror.', array['Sant', 'Usant']::text[], 0, 'For eksempel i bruksfasen.', false, true, 10),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm02', 'sant-usant', 'Ordet «grønn» i reklame trenger ingen dokumentasjon.', array['Sant', 'Usant']::text[], 1, 'Miljøpåstander må kunne dokumenteres.', false, true, 11),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm03', 'sant-usant', 'Utleie og reparasjon er eksempler på sirkulær økonomi.', array['Sant', 'Usant']::text[], 0, 'Ressursene holdes i bruk.', false, true, 12),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm04', 'sant-usant', 'Bærekraft handler bare om miljø.', array['Sant', 'Usant']::text[], 1, 'Også sosiale og økonomiske forhold.', false, true, 13),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm05', 'flervalg', 'Hvilket tiltak gjør distribusjonen mer bærekraftig?', array['Mer flyfrakt', 'Utslippsfri transport og effektiv logistikk', 'Mer emballasje', 'Lengre transport']::text[], 1, 'Også kortreiste varer.', false, true, 14),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm06', 'flervalg', 'Hva er Miljøfyrtårn?', array['En norsk miljøledelsessertifisering', 'Et fyrtårn', 'En lov', 'En type reklame']::text[], 0, 'Dokumenterer miljøinnsats.', false, true, 15),
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 'm07', 'flervalg', 'Hvilket spørsmål hører med når du vurderer et bærekraftig valg?', array['Er logoen grønn?', 'Er det populært på nett?', 'Er effekten dokumentert og målbar?', 'Er det billigst?']::text[], 2, 'Også lønnsomhet på lang sikt.', false, true, 16);
+insert into public.miniprover (tema_id, minutter) values
+  ('markedsforing-og-ledelse-2:barekraftige-valg', 15)
 on conflict (tema_id) do update set minutter = excluded.minutter;
 
 commit;

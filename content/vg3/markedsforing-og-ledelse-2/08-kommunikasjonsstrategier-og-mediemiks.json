@@ -1,0 +1,81 @@
+{
+  "id": "kommunikasjonsstrategier-og-mediemiks",
+  "fagId": "markedsforing-og-ledelse-2",
+  "trinnId": "vg3",
+  "name": "Kommunikasjonsstrategier og mediemiks",
+  "intro": "Hvordan virksomheter vurderer og utvikler kommunikasjonsstrategier – kommunikasjonsmål, budskap og kreativ idé, integrert markedskommunikasjon – utforsker dagsaktuelle kanaler med PESO-modellen, sosiale medier, påvirkere, strømming og programmatisk annonsering, og planlegger mediemiks med dekning, frekvens og kontaktpris.",
+  "kompetansemaal": [8],
+  "sammendrag": "## Fra strategi til kommunikasjon\n\nEn **kommunikasjonsstrategi** beskriver **hva** virksomheten vil oppnå med kommunikasjonen, **hvem** den skal nå, **hva** den skal si og **hvor** den skal si det. Den skal støtte **markedsstrategien** og **posisjoneringen**.\n\n## Kommunikasjonsmål\n\nMålene følger ofte kundens **kjøpsprosess**:\n\n- **Kognitive** mål: skape **kjennskap** og **kunnskap**\n- **Affektive** mål: skape **positive holdninger** og **preferanse**\n- **Konative** mål: få kunden til å **handle** – kjøpe, laste ned, melde seg på\n\n**AIDA-modellen** – oppmerksomhet, interesse, ønske og handling – beskriver den samme prosessen. Målene bør være **SMART**, for eksempel «øke spontan kjennskap i målgruppen fra 20 til 30 % innen ett år».\n\n## Budskap og kreativ idé\n\n- **Budskapet** er det **viktigste** målgruppen skal sitte igjen med – ofte knyttet til **forskjellspunktet**.\n- **Rasjonelle** appeller bruker fakta og argumenter, mens **emosjonelle** appeller spiller på følelser som humor, glede eller frykt.\n- En sterk **kreativ idé** gjør at budskapet blir lagt merke til og **husket**.\n\n## Integrert markedskommunikasjon\n\n**Integrert markedskommunikasjon** betyr at alle kanaler og virkemidler sender et **konsistent** budskap med samme **visuelle** uttrykk. Da forsterker de hverandre.\n\n## Kanaler – PESO-modellen\n\n- **Paid** – betalte medier: annonser i sosiale medier, søkeannonser, TV, radio, utendørsreklame\n- **Earned** – fortjente medier: omtale i nyheter, anmeldelser og **deling**\n- **Shared** – delte medier: innhold i **sosiale medier** som brukerne deler og kommenterer\n- **Owned** – egne medier: nettside, app, nyhetsbrev og egne kontoer\n\n## Dagsaktuelle kanaler\n\n- **Sosiale medier** med korte **videoer** og algoritmestyrt spredning\n- **Påvirkere**: kan gi **troverdighet** og nå smale målgrupper, men må **merke** reklame tydelig\n- **Strømmetjenester** og **podkaster**\n- **Programmatisk** annonsering: automatisk kjøp av annonseplass rettet mot bestemte **profiler**\n- **Søkemotoroptimalisering** og søkeannonser\n- **Digital utendørsreklame**\n\nVed valg av kanal må virksomheten tenke på **målgruppens** mediebruk, **budskapet**, **budsjettet** og **personvern** ved bruk av data.\n\n## Mediemiks\n\n**Mediemiksen** er kombinasjonen av kanaler i en kampanje. Viktige begreper:\n\n- **Dekning**: hvor mange i målgruppen som nås minst én gang\n- **Frekvens**: hvor mange ganger hver person i snitt nås\n- **Kontaktpris**: hva det koster å nå **tusen** personer – ofte kalt **CPM**\n- **Timing**: når kampanjen går – sesong, ukedag og tid på døgnet\n\nOfte må man velge mellom høy **dekning** og høy **frekvens** innenfor et gitt **budsjett**.\n\n## Planlegge en kampanje\n\n1. **Situasjon** og **målgruppe**\n2. **Kommunikasjonsmål**\n3. **Budskap** og **kreativ idé**\n4. **Mediemiks** og **timing**\n5. **Budsjett**\n6. **Måling** og **evaluering**\n\n## Vurdering\n\nEn god kommunikasjonsstrategi er **målrettet**, **konsistent** og **etisk** – den følger markedsføringsloven, er tydelig på hva som er **reklame** og tar hensyn til **barn** og **sårbare** grupper.",
+  "flashcards": [
+    { "term": "Kommunikasjonsstrategi", "def": "Plan for hva, til hvem, hvordan og hvor man kommuniserer." },
+    { "term": "Kognitive mål", "def": "Kjennskap og kunnskap." },
+    { "term": "Affektive mål", "def": "Positive holdninger og preferanse." },
+    { "term": "Konative mål", "def": "Få kunden til å handle." },
+    { "term": "Rasjonell appell", "def": "Budskap basert på fakta og argumenter." },
+    { "term": "Emosjonell appell", "def": "Budskap som spiller på følelser." },
+    { "term": "Integrert markedskommunikasjon", "def": "Konsistent budskap i alle kanaler." },
+    { "term": "PESO", "def": "Paid, earned, shared og owned media." },
+    { "term": "Earned media", "def": "Fortjent omtale, anmeldelser og deling." },
+    { "term": "Owned media", "def": "Egne kanaler som nettside og nyhetsbrev." },
+    { "term": "Programmatisk annonsering", "def": "Automatisk kjøp av annonseplass rettet mot profiler." },
+    { "term": "Dekning", "def": "Andelen av målgruppen som nås minst én gang." },
+    { "term": "Frekvens", "def": "Hvor mange ganger hver person i snitt nås." },
+    { "term": "CPM", "def": "Kostnad per tusen kontakter." },
+    { "term": "Mediemiks", "def": "Kombinasjonen av kanaler i en kampanje." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er et affektivt kommunikasjonsmål?", "options": ["Å skape kjennskap", "Å skape positive holdninger og preferanse", "Å få kunden til å kjøpe", "Å øke prisen"], "correct": 1, "explain": "Følelser og holdninger." },
+    { "id": "q02", "text": "Hva står E-en i PESO for?", "options": ["Earned – fortjente medier", "Email", "Event", "Export"], "correct": 0, "explain": "Omtale og deling." },
+    { "id": "q03", "text": "Hva er dekning i mediemiksen?", "options": ["Hvor mye kampanjen koster", "Hvor mange ganger en person nås", "Andelen av målgruppen som nås minst én gang", "Hvor lenge kampanjen varer"], "correct": 2, "explain": "Frekvens er antall ganger." },
+    { "id": "q04", "text": "Hva er integrert markedskommunikasjon?", "options": ["Kommunikasjon bare på TV", "Ulike budskap i hver kanal", "Kommunikasjon bare internt", "Konsistent budskap og uttrykk i alle kanaler"], "correct": 3, "explain": "Kanalene forsterker hverandre." },
+    { "id": "q05", "text": "Hva måler CPM?", "options": ["Kostnad per tusen kontakter", "Antall klikk", "Antall salg", "Kundetilfredshet"], "correct": 0, "explain": "Kontaktpris." },
+    { "id": "q06", "text": "Hva er et konativt mål?", "options": ["Kjennskap", "Å få kunden til å handle", "Holdningsendring", "Preferanse"], "correct": 1, "explain": "Kjøpe, laste ned eller melde seg på." },
+    { "id": "q07", "text": "Hva må påvirkere gjøre med betalt innhold?", "options": ["Skjule det", "Slette det", "Merke det tydelig som reklame", "Sende det til Stortinget"], "correct": 2, "explain": "Skjult reklame er forbudt." },
+    { "id": "q08", "text": "Hva er owned media?", "options": ["Betalte annonser", "Omtale i avisen", "Delinger fra brukere", "Egne kanaler som nettside og nyhetsbrev"], "correct": 3, "explain": "Virksomheten kontrollerer dem." },
+    { "id": "q09", "text": "Hva er programmatisk annonsering?", "options": ["Automatisk kjøp av annonseplass rettet mot profiler", "TV-reklame", "Plakater", "Radioreklame"], "correct": 0, "explain": "Datadrevet." },
+    { "id": "q10", "text": "Hvilket valg må man ofte ta innenfor et gitt budsjett?", "options": ["Mellom logo og farge", "Mellom høy dekning og høy frekvens", "Mellom pris og produkt", "Mellom leder og ansatt"], "correct": 1, "explain": "Begge koster penger." }
+  ],
+  "mindmap": {
+    "label": "Kommunikasjon",
+    "children": [
+      { "label": "Mål", "children": [
+        { "label": "Kognitive" },
+        { "label": "Affektive" },
+        { "label": "Konative" }
+      ] },
+      { "label": "Budskap", "children": [
+        { "label": "Rasjonelt og emosjonelt" },
+        { "label": "Kreativ idé" },
+        { "label": "Integrert kommunikasjon" }
+      ] },
+      { "label": "Kanaler", "children": [
+        { "label": "PESO" },
+        { "label": "Påvirkere og sosiale medier" },
+        { "label": "Programmatisk og strømming" }
+      ] },
+      { "label": "Mediemiks", "children": [
+        { "label": "Dekning og frekvens" },
+        { "label": "CPM" },
+        { "label": "Timing" }
+      ] },
+      { "label": "Kampanje", "children": [
+        { "label": "Plan og budsjett" },
+        { "label": "Etikk og måling" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "Kommunikasjonsstrategien skal støtte posisjoneringen.", "correct": true, "explain": "Og markedsstrategien." },
+      { "id": "m02", "type": "sant-usant", "text": "Earned media er annonser man betaler for.", "correct": false, "explain": "Det er fortjent omtale og deling." },
+      { "id": "m03", "type": "sant-usant", "text": "Målgruppens mediebruk bør styre kanalvalget.", "correct": true, "explain": "Man må være der målgruppen er." },
+      { "id": "m04", "type": "sant-usant", "text": "Et SMART kommunikasjonsmål kan være «bli mer kjent».", "correct": false, "explain": "Det er verken målbart eller tidsbestemt." },
+      { "id": "m05", "type": "flervalg", "text": "Hva er en emosjonell appell?", "options": ["En tabell med fakta", "Humor eller glede i reklamen", "En pris", "En garanti"], "correct": 1, "explain": "Spiller på følelser." },
+      { "id": "m06", "type": "flervalg", "text": "Hva er frekvens?", "options": ["Hvor mange ganger hver person i snitt nås", "Hvor mange som nås", "Hva kampanjen koster", "Når kampanjen går"], "correct": 0, "explain": "Gjentakelse." },
+      { "id": "m07", "type": "flervalg", "text": "Hva bør siste steg i en kampanjeplan være?", "options": ["Velge logo", "Ansette flere", "Måling og evaluering", "Endre visjonen"], "correct": 2, "explain": "Nådde vi målene?" }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

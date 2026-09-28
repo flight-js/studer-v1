@@ -1,0 +1,78 @@
+{
+  "id": "visjon-forretningside-og-mal",
+  "fagId": "markedsforing-og-ledelse-2",
+  "trinnId": "vg3",
+  "name": "Visjon, forretningsidé og overordnede mål",
+  "intro": "Hvordan virksomheter utvikler og vurderer visjoner, forretningsideer, verdier og overordnede mål – forskjellen på visjon og virksomhetsidé, forretningsideens elementer, målhierarkiet fra hovedmål til delmål, SMART-mål og balansert målstyring – og hvordan de henger sammen med strategien.",
+  "kompetansemaal": [2],
+  "sammendrag": "## Strategiens grunnmur\n\nFør en virksomhet velger strategi, må den vite **hvor** den vil, **hvorfor** den finnes og **hva** den vil oppnå. Det uttrykkes i **visjon**, **forretningsidé**, **verdier** og **mål**.\n\n## Visjon\n\nEn **visjon** er et **langsiktig**, **inspirerende** bilde av hva virksomheten vil **bli** eller **oppnå**. Den skal gi **retning** og **motivasjon**, men er ofte ikke direkte **målbar**.\n\nEn god visjon er\n\n- **kort** og lett å huske\n- **ambisiøs**, men troverdig\n- **meningsfull** for ansatte og kunder\n\n## Virksomhetsidé og forretningsidé\n\n- **Virksomhetsideen** – eller **misjonen** – sier hvorfor virksomheten **finnes** og hvilket **behov** den dekker.\n- **Forretningsideen** beskriver mer konkret **hvordan** virksomheten skal tjene penger.\n\nForretningsideen svarer på tre spørsmål:\n\n1. **Hva** tilbyr vi? – produkt eller tjeneste og **kundefordelen**\n2. **Hvem** tilbyr vi det til? – **målgruppen**\n3. **Hvordan** skal vi gjøre det? – **ressurser**, **kompetanse** og **konkurransefortrinn**\n\nEn god forretningsidé er **realistisk**, har en **tydelig** målgruppe og et **konkurransefortrinn** som er vanskelig å **kopiere**.\n\n## Verdier\n\n**Verdier** beskriver hva virksomheten **står for** og hvordan de ansatte skal **opptre** – for eksempel ærlighet, nytenkning eller bærekraft. Verdiene må **etterleves** for å være troverdige. Verdier som bare står på veggen, kan skade **omdømmet**.\n\n## Målhierarkiet\n\n- **Hovedmål** – overordnede mål – uttrykker hva virksomheten vil oppnå på **lang** sikt, for eksempel å bli markedsleder i Norden.\n- **Delmål** bryter hovedmålene ned for **avdelinger** og **perioder**, for eksempel markedsmål, salgsmål og kommunikasjonsmål.\n- **Handlingsplaner** viser de konkrete **tiltakene**.\n\nMålene må **henge sammen**: Delmålene skal bidra til hovedmålet, som skal bidra til visjonen.\n\n## SMART-mål\n\nGode mål er\n\n- **Spesifikke**\n- **Målbare**\n- **Akseptert** av dem som skal nå dem\n- **Realistiske**\n- **Tidsbestemte**\n\nEksempel: «Øke markedsandelen i Norge fra 8 til 10 % innen utgangen av neste år.»\n\n## Ulike typer mål\n\n- **Økonomiske** mål: lønnsomhet, omsetning, vekst\n- **Markedsmål**: markedsandel, antall kunder, kjennskap\n- **Sosiale** og **miljømessige** mål: redusere utslipp, øke trivsel\n\nMål kan komme i **konflikt** – for eksempel kortsiktig **lønnsomhet** mot **bærekraft**.\n\n## Balansert målstyring\n\n**Balansert målstyring** – balanced scorecard – måler virksomheten fra fire perspektiver: **økonomi**, **kunder**, **interne prosesser** og **læring og utvikling**. Poenget er at virksomheten ikke bare skal styre etter **tall** på kort sikt.\n\n## Vurdering\n\nNår du vurderer en visjon, forretningsidé eller et mål, kan du spørre: Er den **tydelig**? **Troverdig**? Henger den **sammen** med strategien og ressursene? Blir den **fulgt opp**? En virksomhet som endrer seg – for eksempel mot **bærekraft** – må kanskje **revidere** både visjon og forretningsidé.",
+  "flashcards": [
+    { "term": "Visjon", "def": "Langsiktig, inspirerende bilde av hva virksomheten vil bli." },
+    { "term": "Virksomhetsidé", "def": "Hvorfor virksomheten finnes og hvilket behov den dekker." },
+    { "term": "Forretningsidé", "def": "Hvordan virksomheten skal tjene penger – hva, hvem og hvordan." },
+    { "term": "Kundefordel", "def": "Nytten kunden får av produktet." },
+    { "term": "Konkurransefortrinn", "def": "Noe virksomheten gjør bedre enn konkurrentene." },
+    { "term": "Verdier", "def": "Hva virksomheten står for og hvordan ansatte skal opptre." },
+    { "term": "Hovedmål", "def": "Overordnet mål på lang sikt." },
+    { "term": "Delmål", "def": "Mål for avdelinger og perioder som bidrar til hovedmålet." },
+    { "term": "Handlingsplan", "def": "Konkrete tiltak for å nå målene." },
+    { "term": "SMART", "def": "Spesifikt, målbart, akseptert, realistisk, tidsbestemt." },
+    { "term": "Markedsmål", "def": "Mål om markedsandel, kunder eller kjennskap." },
+    { "term": "Målkonflikt", "def": "At mål trekker i ulike retninger." },
+    { "term": "Balansert målstyring", "def": "Økonomi, kunder, interne prosesser og læring." },
+    { "term": "Målhierarki", "def": "Visjon, hovedmål, delmål og tiltak henger sammen." },
+    { "term": "Troverdige verdier", "def": "Verdier som faktisk etterleves." }
+  ],
+  "quiz": [
+    { "id": "q01", "text": "Hva er en visjon?", "options": ["Et budsjett", "Et langsiktig, inspirerende bilde av hva virksomheten vil bli", "En reklamekampanje", "Et delmål"], "correct": 1, "explain": "Gir retning og motivasjon." },
+    { "id": "q02", "text": "Hvilke tre spørsmål svarer forretningsideen på?", "options": ["Hva, hvem og hvordan", "Når, hvor og hvorfor", "Pris, plass og produkt", "Styrker, svakheter og trusler"], "correct": 0, "explain": "Tilbud, målgruppe og ressurser." },
+    { "id": "q03", "text": "Hva står M-en i SMART for?", "options": ["Moderne", "Motiverende", "Målbar", "Maksimal"], "correct": 2, "explain": "Man må kunne måle om målet er nådd." },
+    { "id": "q04", "text": "Hva er et delmål?", "options": ["En visjon", "En verdi", "En forretningsidé", "Et mål for en avdeling eller periode som bidrar til hovedmålet"], "correct": 3, "explain": "Målhierarkiet." },
+    { "id": "q05", "text": "Hvilke fire perspektiver har balansert målstyring?", "options": ["Økonomi, kunder, interne prosesser og læring", "Pris, produkt, plass og påvirkning", "Styrker, svakheter, muligheter og trusler", "Politikk, økonomi, sosialt og teknologi"], "correct": 0, "explain": "Ikke bare tall på kort sikt." },
+    { "id": "q06", "text": "Hva kan skje hvis verdiene ikke etterleves?", "options": ["Omdømmet styrkes", "Omdømmet kan skades", "Ingenting", "Salget dobles"], "correct": 1, "explain": "Verdier må være troverdige." },
+    { "id": "q07", "text": "Hva er et konkurransefortrinn?", "options": ["Et lavt budsjett", "Mange ansatte", "Noe virksomheten gjør bedre enn konkurrentene", "En visjon"], "correct": 2, "explain": "Bør være vanskelig å kopiere." },
+    { "id": "q08", "text": "Hva er et eksempel på målkonflikt?", "options": ["Høy trivsel og god kundeservice", "Mange kunder og høy kjennskap", "Lave kostnader og effektivitet", "Kortsiktig lønnsomhet mot bærekraft"], "correct": 3, "explain": "Mål kan trekke i ulike retninger." },
+    { "id": "q09", "text": "Hva beskriver virksomhetsideen?", "options": ["Hvorfor virksomheten finnes og hvilket behov den dekker", "Hvor mye den tjener", "Hvem som er leder", "Hvilke farger logoen har"], "correct": 0, "explain": "Også kalt misjon." },
+    { "id": "q10", "text": "Hvilket mål er SMART?", "options": ["Bli best i verden", "Øke markedsandelen fra 8 til 10 % innen utgangen av neste år", "Få flere kunder", "Bli mer kjent"], "correct": 1, "explain": "Spesifikt, målbart og tidsbestemt." }
+  ],
+  "mindmap": {
+    "label": "Visjon og mål",
+    "children": [
+      { "label": "Visjon", "children": [
+        { "label": "Langsiktig" },
+        { "label": "Inspirerende" }
+      ] },
+      { "label": "Idé", "children": [
+        { "label": "Virksomhetsidé" },
+        { "label": "Forretningsidé: hva, hvem, hvordan" }
+      ] },
+      { "label": "Verdier", "children": [
+        { "label": "Hva vi står for" },
+        { "label": "Må etterleves" }
+      ] },
+      { "label": "Mål", "children": [
+        { "label": "Hovedmål og delmål" },
+        { "label": "SMART" },
+        { "label": "Målkonflikter" }
+      ] },
+      { "label": "Styring", "children": [
+        { "label": "Balansert målstyring" },
+        { "label": "Handlingsplaner" }
+      ] }
+    ]
+  },
+  "miniprove": {
+    "minutter": 15,
+    "quizRefs": ["q01", "q02", "q03", "q04", "q05", "q06", "q07", "q08"],
+    "ekstra": [
+      { "id": "m01", "type": "sant-usant", "text": "En visjon er ofte ikke direkte målbar.", "correct": true, "explain": "Den gir retning, mens målene kan måles." },
+      { "id": "m02", "type": "sant-usant", "text": "Delmål trenger ikke henge sammen med hovedmålet.", "correct": false, "explain": "Delmålene skal bidra til hovedmålet." },
+      { "id": "m03", "type": "sant-usant", "text": "En virksomhet kan måtte revidere visjonen når den endrer retning.", "correct": true, "explain": "For eksempel mot bærekraft." },
+      { "id": "m04", "type": "sant-usant", "text": "Et mål som ingen ansatte aksepterer, er et godt SMART-mål.", "correct": false, "explain": "Målet må være akseptert." },
+      { "id": "m05", "type": "flervalg", "text": "Hvilket mål er et markedsmål?", "options": ["Redusere utslipp", "Øke kjennskapen til merket", "Øke trivselen", "Redusere sykefraværet"], "correct": 1, "explain": "Markedsandel, kunder eller kjennskap." },
+      { "id": "m06", "type": "flervalg", "text": "Hva kjennetegner en god forretningsidé?", "options": ["Realistisk, tydelig målgruppe og konkurransefortrinn", "Vag og generell", "Uten målgruppe", "Lett å kopiere"], "correct": 0, "explain": "Vanskelig å kopiere." },
+      { "id": "m07", "type": "flervalg", "text": "Hva viser handlingsplanen?", "options": ["Visjonen", "Verdiene", "De konkrete tiltakene", "Konkurrentene"], "correct": 2, "explain": "Nederst i målhierarkiet." }
+    ]
+  },
+  "kvalitet": { "status": "utkast", "merknader": [] }
+}

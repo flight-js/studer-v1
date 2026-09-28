@@ -1,0 +1,78 @@
+{
+  "id": "markedsforing-og-ledelse-2",
+  "trinnId": "vg3",
+  "name": "Markedsføring og ledelse 2",
+  "lareplan": {
+    "kode": "MFL01-04",
+    "url": "https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888",
+    "kompetansemaal": [
+      {
+        "nr": 1,
+        "tekst": "velge og bruke kilder, markedsførings- og ledelsesteorier og modeller i arbeid med faglige spørsmål, emner og dagsaktuelle problemstillinger"
+      },
+      {
+        "nr": 2,
+        "tekst": "utvikle og vurdere visjoner, forretningsideer og overordnede mål"
+      },
+      {
+        "nr": 3,
+        "tekst": "drøfte og begrunne ulike faktorer som påvirker målgruppevalg"
+      },
+      {
+        "nr": 4,
+        "tekst": "bruke situasjonsanalyse og bransjeanalyse og vurdere markedsstrategiske beslutninger"
+      },
+      {
+        "nr": 5,
+        "tekst": "utvikle merkevarestrategier og vurdere posisjonering i merkevarebygging"
+      },
+      {
+        "nr": 6,
+        "tekst": "utvikle distribusjonsstrategier og vurdere påvirkning av makt og avhengighet i en verdikjede"
+      },
+      {
+        "nr": 7,
+        "tekst": "drøfte ulike faktorer som påvirker prissetting, og utvikle prisstrategier"
+      },
+      {
+        "nr": 8,
+        "tekst": "vurdere og utvikle kommunikasjonsstrategier, utforske dagsaktuelle kommunikasjonskanaler og planlegge mediemiks"
+      },
+      {
+        "nr": 9,
+        "tekst": "vurdere lederens rolle og funksjon i utviklingen av markedsstrategi og i internmarkedsføring"
+      },
+      {
+        "nr": 10,
+        "tekst": "utvikle og begrunne helhetlige markedsstrategier og drøfte etisk bruk av konkurransemidler"
+      },
+      {
+        "nr": 11,
+        "tekst": "vurdere hvordan virksomheter kan utvikle helhetlig markedsmiks, og utforske ulike metoder for å måle effekten av markedsføringstiltakene"
+      },
+      {
+        "nr": 12,
+        "tekst": "drøfte virksomheters samfunnsansvar ut fra et etisk, lovmessig og forretningsmessig perspektiv, og vurdere dette opp mot virksomhetens omdømme"
+      },
+      {
+        "nr": 13,
+        "tekst": "vurdere bærekraftige valg for virksomheter med tanke på sosiale, økonomiske og miljømessige forhold"
+      }
+    ]
+  },
+  "temaer": [
+    "teorier-og-modeller",
+    "visjon-forretningside-og-mal",
+    "malgruppevalg",
+    "situasjons-og-bransjeanalyse",
+    "merkevarestrategier-og-posisjonering",
+    "distribusjonsstrategier-og-makt",
+    "prisstrategier",
+    "kommunikasjonsstrategier-og-mediemiks",
+    "lederens-rolle-og-internmarkedsforing",
+    "helhetlig-markedsstrategi-og-etikk",
+    "markedsmiks-og-effektmaling",
+    "samfunnsansvar-og-omdomme",
+    "barekraftige-valg"
+  ]
+}

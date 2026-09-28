@@ -1067,6 +1067,26 @@ Læreplan: [KJE01-02](https://www.udir.no/lk20/kje01-02/kompetansemaal-og-vurder
 - 🟡 **Biologiske makromolekyler** – utkast (416 ord · 16 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Metaller, plast og grønn kjemi** – utkast (445 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
+## Markedsføring og ledelse 2 (vg3) – 13 av 13 temaer ferdig
+
+Læreplan: [MFL01-04](https://www.udir.no/lk20/mfl01-04/kompetansemaal-og-vurdering/kv888)
+
+- 🟡 **Kilder, teorier og modeller i markedsføring og ledelse** – utkast (394 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Visjon, forretningsidé og overordnede mål** – utkast (407 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Segmentering og målgruppevalg** – utkast (436 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Situasjonsanalyse, bransjeanalyse og markedsstrategiske valg** – utkast (410 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Merkevarestrategier og posisjonering** – utkast (441 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Distribusjonsstrategier, makt og avhengighet** – sjekkes (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk omtalen av loven om god handelsskikk i dagligvarekjeden og Dagligvaretilsynet.
+- 🟡 **Prissetting og prisstrategier** – utkast (439 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kommunikasjonsstrategier og mediemiks** – utkast (408 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Lederens rolle i markedsstrategi og internmarkedsføring** – utkast (425 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Helhetlige markedsstrategier og etisk bruk av konkurransemidler** – utkast (429 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Helhetlig markedsmiks og effektmåling** – utkast (420 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🔴 **Samfunnsansvar og omdømme** – sjekkes (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+  - Sjekk: Sjekk hvilke virksomheter som omfattes av åpenhetsloven og gjeldende krav til bærekraftsrapportering i regnskapsloven.
+- 🟡 **Bærekraftige valg for virksomheter** – utkast (449 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+
 ## Matematikk R2 (vg3) – 15 av 15 temaer ferdig
 
 Læreplan: [MAT03-02](https://www.udir.no/lk20/mat03-02/kompetansemaal-og-vurdering/kv294)
@@ -1122,6 +1142,24 @@ Læreplan: [NOR01-08](https://www.udir.no/lk20/nor01-08/kompetansemaal-og-vurder
 - 🟡 **Muntlige presentasjoner, samtaler og fordypning** – utkast (428 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Talespråk i endring** – utkast (483 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
 
+## Psykologi 2 (vg3) – 12 av 12 temaer ferdig
+
+Læreplan: [PSY01-04](https://www.udir.no/lk20/psy01-04/kompetansemaal-og-vurdering/kv884)
+
+- 🟡 **Å finne og vurdere psykologisk kunnskap** – utkast (430 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Å gjennomføre en psykologisk undersøkelse** – utkast (444 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Teorier, perspektiver og forklaringer** – utkast (455 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Sosial påvirkning og grupper** – utkast (505 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Utenforskap – årsaker og konsekvenser** – utkast (471 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sosial kompetanse** – utkast (492 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Konflikter og kommunikasjon** – utkast (529 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Kommunikasjon, samhandling og livskvalitet** – utkast (516 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🔴 **Synet på psykisk helse gjennom tidene** – sjekkes (512 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+  - Sjekk: Sjekk årstall for fjerning av homofili som diagnose i Norge og omtalen av erstatning til lobotomerte.
+- 🟡 **Normalitet, psykisk helse og psykiske lidelser** – utkast (514 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+- 🟡 **Samspillet mellom biologi, psykologi og sosiale forhold** – utkast (461 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Forebygging og behandling av psykiske vansker og lidelser** – utkast (443 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+
 ## Religion og etikk (vg3) – 16 av 16 temaer ferdig
 
 Læreplan: [REL01-02](https://www.udir.no/lk20/rel01-02/kompetansemaal-og-vurdering/kv172)
@@ -1142,4 +1180,46 @@ Læreplan: [REL01-02](https://www.udir.no/lk20/rel01-02/kompetansemaal-og-vurder
 - 🟡 **Etikk i kommunikasjon, relasjoner og identitet** – utkast (446 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Menneskeverd og naturens egenverdi i møte med teknologi** – utkast (456 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 - 🟡 **Fordommer, rasisme og diskriminering** – utkast (460 ord · 16 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+
+## Rettslære 2 (vg3) – 12 av 12 temaer ferdig
+
+Læreplan: [RTL01-05](https://www.udir.no/lk20/rtl01-05/kompetansemaal-og-vurdering/kv890)
+
+- 🟡 **Rett og rettferd i en rettsstat** – utkast (455 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🔴 **Rettskilder og juridisk drøfting** – sjekkes (465 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+  - Sjekk: Sjekk at presumsjonsregelen i forbrukerkjøpsloven (feil som viser seg innen to år antas å ha vært der ved levering) er riktig gjengitt etter lovendringene i 2023.
+- 🔴 **Dagsaktuelle juridiske problemstillinger** – sjekkes (451 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk status for samtykkebasert voldtektsbestemmelse, EUs KI-regelverk og nyere EMD-saker mot Norge før bruk – aktuelle saker endrer seg raskt.
+- 🟡 **Demokrati og menneskerettigheter** – utkast (434 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Demokrati og rettigheter i Sápmi** – sjekkes (501 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk status for oppfølgingen av Fosen-dommen (avtaler med reinbeitedistriktene) og andelen av Finnmark som eies av Finnmarkseiendommen.
+- 🔴 **Individet og forvaltningen** – sjekkes (482 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Paragrafhenvisningene gjelder forvaltningsloven av 1967. Sjekk om ny forvaltningslov er vedtatt og har trådt i kraft, og oppdater paragrafnumrene.
+- 🟡 **Personvern og juridiske spørsmål på nett** – utkast (479 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Erstatningsrett** – utkast (492 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Straffbarhetsvilkår og reaksjonssystemet** – utkast (541 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🔴 **Voldslovbrudd og seksuallovbrudd** – sjekkes (529 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+  - Sjekk: Sjekk ordlyd, paragrafnummer og ikrafttredelse for den samtykkebaserte voldtektsbestemmelsen, og strafferammene i §§ 271–275.
+- 🔴 **Vinningslovbrudd** – sjekkes (511 ord · 15 kort · 10 quiz · 15 i miniprøve · 17 noder i tankekart)
+  - Sjekk: Sjekk paragrafnumre og strafferammer i straffeloven kapittel 27 og 30 (§§ 321–337 og 371–372).
+- 🔴 **Miljørett og aktuelle miljøsaker** – sjekkes (467 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+  - Sjekk: Sjekk status i sakene om konsekvensutredning av nye oljefelt og eventuelle EMD-avgjørelser i klimasaker mot Norge.
+
+## Sosialkunnskap (vg3) – 13 av 13 temaer ferdig
+
+Læreplan: [POS02-02](https://www.udir.no/lk20/pos02-02/kompetansemaal-og-vurdering/kv892)
+
+- 🟡 **Kilder og informasjon i sosialkunnskap** – utkast (421 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Samfunnsvitenskapelige metoder og teorier** – utkast (448 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Velferdsstaten – institusjoner, verdier og framtid** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Sosial ulikhet, marginalisering og utenforskap** – utkast (460 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Sosialisering i endring** – utkast (452 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Kjønn og identitet** – utkast (520 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Velferdsforskjeller og sosiale problemer** – utkast (455 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Sosiale problemer og forebyggende tiltak** – utkast (442 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
+- 🟡 **Inkludering i arbeidsliv og velferdssamfunn** – utkast (461 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Menneskerettigheter og velferdsstaten** – utkast (437 ord · 15 kort · 10 quiz · 15 i miniprøve · 21 noder i tankekart)
+- 🟡 **Behov i barne- og ungdomsårene** – utkast (476 ord · 15 kort · 10 quiz · 15 i miniprøve · 18 noder i tankekart)
+- 🟡 **Vold og trakassering** – utkast (535 ord · 15 kort · 10 quiz · 15 i miniprøve · 20 noder i tankekart)
+- 🟡 **Kriser på individ- og samfunnsnivå** – utkast (470 ord · 15 kort · 10 quiz · 15 i miniprøve · 19 noder i tankekart)
 
