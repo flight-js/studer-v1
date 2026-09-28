@@ -382,7 +382,8 @@ function Betalingsskjema({
         buttonHeight: 48,
         buttonTheme: undefined,
         buttonType: { applePay: "subscribe", googlePay: "subscribe" },
-        layout: { maxColumns: 2, maxRows: 1, overflow: "never" },
+        // maxRows 0 = ingen grense. Stripe godtar bare overflow «never» sammen med det.
+        layout: { maxColumns: 2, maxRows: 0, overflow: "never" },
         paymentMethodOrder: undefined,
         paymentMethods: { applePay: "always", googlePay: "always", link: "never", paypal: "never", klarna: "never", amazonPay: "never" },
       });
