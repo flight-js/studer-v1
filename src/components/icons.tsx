@@ -95,6 +95,12 @@ export const Chat = (p: IconProps) => (
   </Svg>
 );
 
+export const ArrowUp = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 19V5M5 12l7-7 7 7" />
+  </Svg>
+);
+
 export const Lock = (p: IconProps) => (
   <Svg {...p}>
     <rect x="5" y="11" width="14" height="9" rx="2" />

@@ -17,6 +17,24 @@ export type Database = {
   }
   public: {
     Tables: {
+      ai_bruk: {
+        Row: {
+          antall: number
+          bruker_id: string
+          dato: string
+        }
+        Insert: {
+          antall?: number
+          bruker_id: string
+          dato?: string
+        }
+        Update: {
+          antall?: number
+          bruker_id?: string
+          dato?: string
+        }
+        Relationships: []
+      }
       fag: {
         Row: {
           id: string
@@ -326,6 +344,11 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      ai_angre_melding: { Args: { p_bruker_id: string }; Returns: undefined }
+      ai_registrer_melding: {
+        Args: { p_bruker_id: string; p_grense: number }
+        Returns: number
+      }
       lagre_resultat: {
         Args: {
           p_aktivitet: string

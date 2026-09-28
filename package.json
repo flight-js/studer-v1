@@ -9,7 +9,8 @@
     "lint": "eslint",
     "content:check": "node scripts/check-content.mjs",
     "content:seed": "node scripts/check-content.mjs && node scripts/build-seed.mjs",
-    "content:import": "node scripts/check-content.mjs && node scripts/import-supabase.mjs"
+    "content:import": "node scripts/check-content.mjs && node scripts/import-supabase.mjs",
+    "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",

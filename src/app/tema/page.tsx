@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Suspense, useEffect, useState } from "react";
+import { AiHjelp } from "@/components/AiHjelp";
 import { Dot } from "@/components/Dot";
 import { AppBar } from "@/components/AppBar";
 import {
@@ -160,39 +161,13 @@ function Tema() {
       {/* AI-hjelp */}
       {t && (
         <div className="fixed bottom-6 right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
-          {chatOpen && (
-            <div
-              id="ai-panel"
-              role="dialog"
-              aria-label="AI-hjelp"
-              className="w-[min(22rem,calc(100vw-2.5rem))] bg-surface border border-border rounded-3xl p-5 shadow-lift flex flex-col gap-4 rise"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-sm font-semibold">AI-hjelp</span>
-                <button
-                  onClick={() => setChatOpen(false)}
-                  aria-label="Lukk AI-hjelp"
-                  className="p-1.5 -m-1.5 rounded-lg text-muted hover:text-foreground hover:bg-sunken transition-colors"
-                >
-                  <Close size={18} />
-                </button>
-              </div>
-              <div className="self-start bg-sunken rounded-2xl rounded-bl-md px-4 py-3 text-sm leading-relaxed text-ink-soft">
-                Hva lurer du på i {t.navn}? Jeg svarer ut fra pensumet i {t.fagNavn}.
-              </div>
-              <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
-                <label htmlFor="ai-input" className="sr-only">
-                  Skriv et spørsmål
-                </label>
-                <input
-                  id="ai-input"
-                  disabled
-                  placeholder="Chat kommer snart"
-                  className="flex-1 min-w-0 bg-background border border-border rounded-xl px-3.5 py-2.5 text-base sm:text-sm placeholder:text-faint disabled:cursor-not-allowed"
-                />
-              </form>
-            </div>
-          )}
+          <AiHjelp
+            temaId={id}
+            temaNavn={t.navn}
+            fagNavn={t.fagNavn}
+            apen={chatOpen}
+            onLukk={() => setChatOpen(false)}
+          />
           <button
             onClick={() => setChatOpen((v) => !v)}
             aria-expanded={chatOpen}
