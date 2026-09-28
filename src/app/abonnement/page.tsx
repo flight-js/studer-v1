@@ -406,7 +406,9 @@ function Betalingsskjema({
 
       const kort = checkout.createPaymentElement({
         layout: "tabs",
-        wallets: { applePay: "never", googlePay: "never" },
+        // Apple Pay og Google Pay ligger i knapperaden over. Link («Lagre informasjonen
+        // min») ber om mobilnummer og navn og er tatt bort.
+        wallets: { applePay: "never", googlePay: "never", link: "never" },
       });
       if (kortBeholder.current) kort.mount(kortBeholder.current);
       rydd.push(() => kort.destroy());
