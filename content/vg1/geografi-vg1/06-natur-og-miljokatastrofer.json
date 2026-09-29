@@ -35,7 +35,8 @@
     },
     {
       "term": "Tsunamien i Indiahavet",
-      "def": "26. desember 2004, rundt 230 000 døde."
+      "def": "26. desember 2004, rundt 230 000 døde.",
+      "niva": "eksempel"
     },
     {
       "term": "Tropisk syklon",
@@ -51,19 +52,23 @@
     },
     {
       "term": "Gjerdrum-skredet",
-      "def": "Kvikkleireskred 30. desember 2020 der 11 mennesker omkom."
+      "def": "Kvikkleireskred 30. desember 2020 der 11 mennesker omkom.",
+      "niva": "eksempel"
     },
     {
       "term": "Tsjernobyl",
-      "def": "Atomulykke i 1986 som spredte radioaktivt nedfall over Europa."
+      "def": "Atomulykke i 1986 som spredte radioaktivt nedfall over Europa.",
+      "niva": "eksempel"
     },
     {
       "term": "Aralsjøen",
-      "def": "Innsjø som nesten har tørket inn på grunn av vanning av bomull."
+      "def": "Innsjø som nesten har tørket inn på grunn av vanning av bomull.",
+      "niva": "eksempel"
     },
     {
       "term": "Varsom.no",
-      "def": "Nettsted med varsler om skred og flom i Norge."
+      "def": "Nettsted med varsler om skred og flom i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Beredskap",
@@ -153,7 +158,8 @@
         "1986"
       ],
       "correct": 2,
-      "explain": "11 mennesker omkom."
+      "explain": "11 mennesker omkom.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +171,8 @@
         "Varsom.no"
       ],
       "correct": 3,
-      "explain": "Varsom.no drives av blant andre NVE."
+      "explain": "Varsom.no drives av blant andre NVE.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +184,8 @@
         "Et vulkanutbrudd"
       ],
       "correct": 0,
-      "explain": "Det er et eksempel på en menneskeskapt miljøkatastrofe."
+      "explain": "Det er et eksempel på en menneskeskapt miljøkatastrofe.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -288,7 +296,8 @@
         "type": "sant-usant",
         "text": "Tsjernobyl-ulykken ga radioaktivt nedfall også i Norge.",
         "correct": true,
-        "explain": "Nedfallet påvirket blant annet reindrift og sauehold."
+        "explain": "Nedfallet påvirket blant annet reindrift og sauehold.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -322,7 +331,8 @@
           "2023"
         ],
         "correct": 1,
-        "explain": "Rundt 230 000 mennesker døde."
+        "explain": "Rundt 230 000 mennesker døde.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -405,7 +415,8 @@
         "kriterier": [
           "Regner med 50 001 som minste mulige tall fordi det var over 50 000 dødsfall.",
           "Viser eller beskriver regnestykket 50 001 − 11 og får svaret 49 990."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -414,7 +425,8 @@
         "kriterier": [
           "Viser regnestykket 2023 − 2004 eller en tilsvarende utregning.",
           "Oppgir at det er 19 år mellom årstallene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -430,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

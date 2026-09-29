@@ -51,11 +51,13 @@
     },
     {
       "term": "Esping-Andersen",
-      "def": "Delte velferdsstater inn i nordisk, liberal og konservativ modell."
+      "def": "Delte velferdsstater inn i nordisk, liberal og konservativ modell.",
+      "niva": "eksempel"
     },
     {
       "term": "Handlingsregelen",
-      "def": "Regel for hvor mye av oljefondet som kan brukes."
+      "def": "Regel for hvor mye av oljefondet som kan brukes.",
+      "niva": "eksempel"
     },
     {
       "term": "Eldrebølgen",
@@ -93,7 +95,8 @@
         "2006"
       ],
       "correct": 0,
-      "explain": "Samler mange ordninger."
+      "explain": "Samler mange ordninger.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -153,7 +156,8 @@
         "Lønningene"
       ],
       "correct": 2,
-      "explain": "Bruk av avkastningen."
+      "explain": "Bruk av avkastningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -422,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

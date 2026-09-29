@@ -309,14 +309,16 @@
         "type": "sant-usant",
         "text": "A podcast can also be a way to present a topic.",
         "correct": true,
-        "explain": "The same principles of structure and audience apply."
+        "explain": "The same principles of structure and audience apply.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "You don't need to show sources for pictures you use.",
         "correct": false,
-        "explain": "Pictures are protected by copyright, so you must credit them."
+        "explain": "Pictures are protected by copyright, so you must credit them.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -435,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

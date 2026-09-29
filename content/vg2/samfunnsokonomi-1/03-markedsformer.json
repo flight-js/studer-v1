@@ -59,7 +59,8 @@
     },
     {
       "term": "Vinmonopolet",
-      "def": "Statlig monopol som skal begrense alkoholskadene."
+      "def": "Statlig monopol som skal begrense alkoholskadene.",
+      "niva": "eksempel"
     },
     {
       "term": "Konkurransetilsynet",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Dominerende stilling",
-      "def": "Så stor markedsmakt at man kan opptre uavhengig av konkurrentene."
+      "def": "Så stor markedsmakt at man kan opptre uavhengig av konkurrentene.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -189,7 +191,8 @@
         "Fordi det er et patent"
       ],
       "correct": 1,
-      "explain": "Et helsepolitisk formål."
+      "explain": "Et helsepolitisk formål.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -401,7 +404,8 @@
         "kriterier": [
           "Forklarer at dominerende stilling innebærer stor markedsmakt og mulighet til å opptre uavhengig av konkurrentene.",
           "Knytter forbudet mot misbruk til at konkurransen kan begrenses."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -416,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

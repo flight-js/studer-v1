@@ -15,7 +15,8 @@
     },
     {
       "term": "Planlagt foreldelse",
-      "def": "At produkter lages for å ha kort levetid."
+      "def": "At produkter lages for å ha kort levetid.",
+      "niva": "eksempel"
     },
     {
       "term": "Økologisk fotavtrykk",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Nøysomhet",
-      "def": "Å forbruke mindre og prioritere tid og relasjoner."
+      "def": "Å forbruke mindre og prioritere tid og relasjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Nedvekst",
-      "def": "Ideen om at rike land må redusere produksjon og forbruk."
+      "def": "Ideen om at rike land må redusere produksjon og forbruk.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +96,8 @@
         "En miljølov"
       ],
       "correct": 0,
-      "explain": "Øker forbruket."
+      "explain": "Øker forbruket.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -189,7 +193,8 @@
         "Å reise mye"
       ],
       "correct": 1,
-      "explain": "Et alternativ til forbrukersamfunnet."
+      "explain": "Et alternativ til forbrukersamfunnet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -282,7 +287,8 @@
         "type": "sant-usant",
         "text": "Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt flere jordkloder.",
         "correct": true,
-        "explain": "Stort økologisk fotavtrykk."
+        "explain": "Stort økologisk fotavtrykk.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -329,7 +335,8 @@
           "Et forbruksmønster"
         ],
         "correct": 0,
-        "explain": "Et alternativ til grønn vekst."
+        "explain": "Et alternativ til grønn vekst.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -342,7 +349,8 @@
           "Planlagt foreldelse"
         ],
         "correct": 2,
-        "explain": "Et alternativt natursyn."
+        "explain": "Et alternativt natursyn.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -371,7 +379,8 @@
         "kriterier": [
           "Nevner reparasjon eller gjenbruk som alternativer til å kjøpe nytt.",
           "Knytter resirkulering til å utnytte ressursene videre dersom apparatet ikke kan brukes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -389,7 +398,8 @@
         "kriterier": [
           "Forklarer at utilitarismen vurderer samlet velferd.",
           "Forklarer at kapabilitetstilnærmingen vurderer menneskers reelle muligheter eller evner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,12 +426,14 @@
         "kriterier": [
           "Forklarer at grønn vekst handler om muligheten for bærekraftig økonomisk vekst.",
           "Forklarer at nedvekst innebærer å redusere produksjon og forbruk i rike land."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

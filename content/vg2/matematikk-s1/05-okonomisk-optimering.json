@@ -51,15 +51,18 @@
     },
     {
       "term": "K(x) = 0,5x² + 20x + 800, pris 100 kr",
-      "def": "Største overskudd 2400 kr ved x = 80."
+      "def": "Største overskudd 2400 kr ved x = 80.",
+      "niva": "eksempel"
     },
     {
       "term": "Minste enhetskostnad i eksempelet",
-      "def": "60 kr ved x = 40."
+      "def": "60 kr ved x = 40.",
+      "niva": "eksempel"
     },
     {
       "term": "p(x) = 200 − 2x",
-      "def": "Største inntekt 5000 kr ved x = 50."
+      "def": "Største inntekt 5000 kr ved x = 50.",
+      "niva": "eksempel"
     },
     {
       "term": "Største inntekt og største overskudd",
@@ -420,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

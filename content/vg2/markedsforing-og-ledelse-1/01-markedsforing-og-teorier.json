@@ -43,7 +43,8 @@
     },
     {
       "term": "Relasjonsmarkedsføring",
-      "def": "Å bygge langsiktige forhold til kundene."
+      "def": "Å bygge langsiktige forhold til kundene.",
+      "niva": "eksempel"
     },
     {
       "term": "Konkurransemidler",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Sju P-er",
-      "def": "De fire P-ene pluss personale, prosess og fysiske omgivelser."
+      "def": "De fire P-ene pluss personale, prosess og fysiske omgivelser.",
+      "niva": "eksempel"
     },
     {
       "term": "Ledelse",
@@ -121,7 +123,8 @@
         "Personale, prosess og fysiske omgivelser"
       ],
       "correct": 3,
-      "explain": "Sju P-er."
+      "explain": "Sju P-er.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -133,7 +136,8 @@
         "Å senke prisene"
       ],
       "correct": 0,
-      "explain": "Det er ofte billigere å beholde en kunde enn å skaffe en ny."
+      "explain": "Det er ofte billigere å beholde en kunde enn å skaffe en ny.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -304,7 +308,8 @@
         "type": "sant-usant",
         "text": "Det er alltid billigere å skaffe en ny kunde enn å beholde en gammel.",
         "correct": false,
-        "explain": "Det er ofte omvendt."
+        "explain": "Det er ofte omvendt.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -330,7 +335,8 @@
           "Et nettforum"
         ],
         "correct": 0,
-        "explain": "Statistisk sentralbyrå."
+        "explain": "Statistisk sentralbyrå.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -417,12 +423,14 @@
         "kriterier": [
           "Foreslår et relevant tiltak, som god service, kundeklubb eller dialog.",
           "Knytter tiltaket til langsiktige kundeforhold eller til at det ofte er billigere å beholde kunder enn å skaffe nye."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

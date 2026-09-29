@@ -19,7 +19,8 @@
     },
     {
       "term": "Positiv tilbakekobling",
-      "def": "Responsen forsterker endringen, som under fødsel."
+      "def": "Responsen forsterker endringen, som under fødsel.",
+      "niva": "eksempel"
     },
     {
       "term": "Sensor, kontrollsenter, effektor",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Kortisol",
-      "def": "Stresshormon som ved langvarig stress kan påvirke mange reguleringer."
+      "def": "Stresshormon som ved langvarig stress kan påvirke mange reguleringer.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -141,7 +143,8 @@
         "Alkohol stimulerer insulin"
       ],
       "correct": 1,
-      "explain": "Nyrene holder tilbake mindre vann."
+      "explain": "Nyrene holder tilbake mindre vann.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +180,8 @@
         "Skjelving"
       ],
       "correct": 0,
-      "explain": "Endringen forsterkes til fødselen er over."
+      "explain": "Endringen forsterkes til fødselen er over.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -345,7 +349,8 @@
           "ADH"
         ],
         "correct": 2,
-        "explain": "Det skilles ut fra binyrene."
+        "explain": "Det skilles ut fra binyrene.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -422,12 +427,14 @@
         "kriterier": [
           "Knytter langvarig stress til høye nivåer av kortisol.",
           "Nevner to av disse: søvn, blodsukker eller immunforsvar."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

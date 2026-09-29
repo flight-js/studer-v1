@@ -282,7 +282,8 @@
         "type": "sant-usant",
         "text": "Bentham mente at dyrs lidelse også teller moralsk.",
         "correct": true,
-        "explain": "Evnen til å lide er det avgjørende."
+        "explain": "Evnen til å lide er det avgjørende.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -316,7 +317,8 @@
           "Klokskap"
         ],
         "correct": 1,
-        "explain": "Den gylne middelvei."
+        "explain": "Den gylne middelvei.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -362,7 +364,8 @@
         "kriterier": [
           "Forklarer at dyden ligger mellom to ytterpunkter.",
           "Viser hvordan gavmildhet skiller seg fra både gjerrighet og ødselhet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -389,7 +392,8 @@
         "kriterier": [
           "Får fram at man ikke vet hvem man selv blir eller hvilken posisjon man får.",
           "Forklarer at dette kan gjøre regelvalget mer rettferdig fordi man ikke kan tilpasse reglene til egen posisjon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +402,8 @@
         "kriterier": [
           "Knytter vurderingen til glede, smerte eller lykke.",
           "Forklarer at dyrs lidelse må tas med i vurderingen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

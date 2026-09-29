@@ -69,7 +69,8 @@
     },
     {
       "term": "北京烤鸭 Běijīng kǎoyā",
-      "def": "Peking-and"
+      "def": "Peking-and",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -143,7 +144,8 @@
         "Hongkong"
       ],
       "correct": 1,
-      "explain": "Sichuanpepper og chili."
+      "explain": "Sichuanpepper og chili.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -155,7 +157,8 @@
         "Peking-and"
       ],
       "correct": 2,
-      "explain": "点心 diǎnxin."
+      "explain": "点心 diǎnxin.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -179,7 +182,8 @@
         "Man bestiller bare én rett"
       ],
       "correct": 0,
-      "explain": "Deling er vanlig."
+      "explain": "Deling er vanlig.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -291,7 +295,8 @@
         "type": "sant-usant",
         "text": "I Kina er det vanlig at alle betaler for seg selv på restaurant.",
         "correct": false,
-        "explain": "Det er vanlig at én betaler for alle."
+        "explain": "Det er vanlig at én betaler for alle.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -344,7 +349,8 @@
           "Dim sum"
         ],
         "correct": 2,
-        "explain": "En berømt rett fra Beijing."
+        "explain": "En berømt rett fra Beijing.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -408,7 +414,8 @@
         "kriterier": [
           "Knytter Sichuan-mat til sterk krydring med chili og/eller sichuanpepper.",
           "Knytter kantonesisk mat til dim sum og beskriver det som små retter til te."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -417,12 +424,14 @@
         "kriterier": [
           "Oppgir 北京烤鸭 som rettens kinesiske navn.",
           "Knytter retten til Beijing."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

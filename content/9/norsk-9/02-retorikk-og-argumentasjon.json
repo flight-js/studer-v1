@@ -33,7 +33,8 @@
     },
     {
       "term": "Aristoteles",
-      "def": "Gresk filosof som beskrev de tre appellformene i antikken."
+      "def": "Gresk filosof som beskrev de tre appellformene i antikken.",
+      "niva": "eksempel"
     },
     {
       "term": "Retorisk spørsmål",
@@ -57,11 +58,13 @@
     },
     {
       "term": "Stråmann",
-      "def": "Å gjengi motpartens syn feil og så angripe den feilaktige versjonen."
+      "def": "Å gjengi motpartens syn feil og så angripe den feilaktige versjonen.",
+      "niva": "eksempel"
     },
     {
       "term": "Svartmaling",
-      "def": "Å beskrive konsekvensene av et forslag mye verre enn de er."
+      "def": "Å beskrive konsekvensene av et forslag mye verre enn de er.",
+      "niva": "eksempel"
     },
     {
       "term": "Generalisering",
@@ -143,7 +146,8 @@
         "Å gjenta et ord tre ganger"
       ],
       "correct": 0,
-      "explain": "Stråmannen er lettere å slå enn det motparten egentlig mente."
+      "explain": "Stråmannen er lettere å slå enn det motparten egentlig mente.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -319,7 +323,8 @@
           "Etos"
         ],
         "correct": 1,
-        "explain": "Svartmaling skaper frykt for motpartens forslag på et overdrevet grunnlag."
+        "explain": "Svartmaling skaper frykt for motpartens forslag på et overdrevet grunnlag.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -374,7 +379,8 @@
         "kriterier": [
           "Får fram at Aristoteles beskrev de tre måtene å overbevise på.",
           "Nevner appellformene etos, patos og logos."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -401,7 +407,8 @@
         "kriterier": [
           "Identifiserer svartmaling.",
           "Forklarer at konsekvensen blir framstilt som mye verre eller mer omfattende."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -425,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

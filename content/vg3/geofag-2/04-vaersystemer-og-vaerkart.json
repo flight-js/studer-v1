@@ -35,11 +35,13 @@
     },
     {
       "term": "Bergensskolen",
-      "def": "Norske meteorologer som utviklet polarfrontteorien."
+      "def": "Norske meteorologer som utviklet polarfrontteorien.",
+      "niva": "eksempel"
     },
     {
       "term": "Vilhelm Bjerknes",
-      "def": "Ledet Bergensskolen."
+      "def": "Ledet Bergensskolen.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekstratropisk lavtrykk",
@@ -93,7 +95,8 @@
         "Albert Einstein"
       ],
       "correct": 0,
-      "explain": "Tidlig på 1900-tallet."
+      "explain": "Tidlig på 1900-tallet.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -307,7 +310,8 @@
           "Monsuner"
         ],
         "correct": 1,
-        "explain": "I Atlanterhavet kalles de orkaner."
+        "explain": "I Atlanterhavet kalles de orkaner.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -320,7 +324,8 @@
           "Vind i orkaner"
         ],
         "correct": 0,
-        "explain": "Vanlig i fjorder og daler."
+        "explain": "Vanlig i fjorder og daler.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -413,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

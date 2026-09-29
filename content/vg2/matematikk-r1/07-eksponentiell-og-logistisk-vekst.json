@@ -55,7 +55,8 @@
     },
     {
       "term": "N′ = kN(1 − N/K)",
-      "def": "Differensiallikningen for logistisk vekst."
+      "def": "Differensiallikningen for logistisk vekst.",
+      "niva": "over-niva"
     },
     {
       "term": "S-kurve",
@@ -63,7 +64,8 @@
     },
     {
       "term": "RegLogist",
-      "def": "GeoGebra-kommando for logistisk regresjon."
+      "def": "GeoGebra-kommando for logistisk regresjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekstrapolering",
@@ -342,7 +344,8 @@
           "RegSin"
         ],
         "correct": 2,
-        "explain": "Eksponentiell regresjon."
+        "explain": "Eksponentiell regresjon.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -416,12 +419,14 @@
         "kriterier": [
           "Nevner å plotte dataene og bruke RegLogist til å tilpasse modellen.",
           "Nevner en relevant kontroll, for eksempel å vurdere hvor godt modellen passer dataene."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

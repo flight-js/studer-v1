@@ -35,15 +35,18 @@
     },
     {
       "term": "Luddittene",
-      "def": "Engelske arbeidere som knuste maskiner i protest tidlig på 1800-tallet."
+      "def": "Engelske arbeidere som knuste maskiner i protest tidlig på 1800-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Hovedbanen",
-      "def": "Norges første jernbane, mellom Christiania og Eidsvoll, åpnet i 1854."
+      "def": "Norges første jernbane, mellom Christiania og Eidsvoll, åpnet i 1854.",
+      "niva": "eksempel"
     },
     {
       "term": "Akerselva",
-      "def": "Elv i Oslo der mange av de første norske fabrikkene lå."
+      "def": "Elv i Oslo der mange av de første norske fabrikkene lå.",
+      "niva": "eksempel"
     },
     {
       "term": "Vannkraft",
@@ -51,7 +54,8 @@
     },
     {
       "term": "Norsk Hydro",
-      "def": "Industriselskap grunnlagt i 1905, med fabrikker på Notodden og Rjukan."
+      "def": "Industriselskap grunnlagt i 1905, med fabrikker på Notodden og Rjukan.",
+      "niva": "eksempel"
     },
     {
       "term": "Samlebånd",
@@ -141,7 +145,8 @@
         "1945"
       ],
       "correct": 2,
-      "explain": "Hovedbanen gikk mellom Christiania og Eidsvoll."
+      "explain": "Hovedbanen gikk mellom Christiania og Eidsvoll.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +182,8 @@
         "Norske politikere"
       ],
       "correct": 2,
-      "explain": "De var redde for at maskinene skulle ta arbeidet deres."
+      "explain": "De var redde for at maskinene skulle ta arbeidet deres.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -315,7 +321,8 @@
         "type": "sant-usant",
         "text": "Norsk Hydro ble grunnlagt for å utvinne olje i Nordsjøen.",
         "correct": false,
-        "explain": "Norsk Hydro ble grunnlagt i 1905 og brukte vannkraft til å lage kunstgjødsel."
+        "explain": "Norsk Hydro ble grunnlagt i 1905 og brukte vannkraft til å lage kunstgjødsel.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -341,7 +348,8 @@
           "At internett forsvinner"
         ],
         "correct": 0,
-        "explain": "Som tidligere teknologi endrer KI hvilke oppgaver mennesker gjør."
+        "explain": "Som tidligere teknologi endrer KI hvilke oppgaver mennesker gjør.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -434,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

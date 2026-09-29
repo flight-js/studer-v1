@@ -23,7 +23,8 @@
     },
     {
       "term": "Straffeloven",
-      "def": "Loven som sier hva som er straffbart, og hvilke straffer som kan gis."
+      "def": "Loven som sier hva som er straffbart, og hvilke straffer som kan gis.",
+      "niva": "eksempel"
     },
     {
       "term": "Rettsstat",
@@ -35,7 +36,8 @@
     },
     {
       "term": "Domstolenes tre nivåer",
-      "def": "Tingrett, lagmannsrett og Høyesterett."
+      "def": "Tingrett, lagmannsrett og Høyesterett.",
+      "niva": "eksempel"
     },
     {
       "term": "Kriminell lavalder",
@@ -43,27 +45,33 @@
     },
     {
       "term": "Samfunnsstraff",
-      "def": "Straff der den dømte gjør samfunnsnyttig arbeid i stedet for å sitte i fengsel."
+      "def": "Straff der den dømte gjør samfunnsnyttig arbeid i stedet for å sitte i fengsel.",
+      "niva": "eksempel"
     },
     {
       "term": "Ungdomsstraff",
-      "def": "Straffereaksjon for lovbrytere mellom 15 og 18 år med tett oppfølging."
+      "def": "Straffereaksjon for lovbrytere mellom 15 og 18 år med tett oppfølging.",
+      "niva": "eksempel"
     },
     {
       "term": "Konfliktråd",
-      "def": "Tilbud der gjerningsperson og offer møtes for å løse saken."
+      "def": "Tilbud der gjerningsperson og offer møtes for å løse saken.",
+      "niva": "eksempel"
     },
     {
       "term": "Allmennprevensjon",
-      "def": "Straff skal avskrekke andre fra å begå lovbrudd."
+      "def": "Straff skal avskrekke andre fra å begå lovbrudd.",
+      "niva": "over-niva"
     },
     {
       "term": "Individualprevensjon",
-      "def": "Straff skal hindre at den dømte gjør det igjen."
+      "def": "Straff skal hindre at den dømte gjør det igjen.",
+      "niva": "over-niva"
     },
     {
       "term": "Politiattest",
-      "def": "Dokument som viser om en person har begått visse lovbrudd. Kreves for noen jobber."
+      "def": "Dokument som viser om en person har begått visse lovbrudd. Kreves for noen jobber.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosial sanksjon",
@@ -105,7 +113,8 @@
         "En komité på Stortinget"
       ],
       "correct": 2,
-      "explain": "I konfliktrådet kan gjerningspersonen gjøre opp for seg overfor den som er rammet."
+      "explain": "I konfliktrådet kan gjerningspersonen gjøre opp for seg overfor den som er rammet.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +126,8 @@
         "At straff skal avskrekke andre fra å begå lovbrudd"
       ],
       "correct": 3,
-      "explain": "Tanken er at synlige straffer gjør at færre bryter loven."
+      "explain": "Tanken er at synlige straffer gjør at færre bryter loven.",
+      "niva": "over-niva"
     },
     {
       "id": "q05",
@@ -141,7 +151,8 @@
         "Konfliktrådet"
       ],
       "correct": 0,
-      "explain": "Høyesterett er siste instans, og dommene der kan ikke ankes."
+      "explain": "Høyesterett er siste instans, og dommene der kan ikke ankes.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +164,8 @@
         "Det kan det ikke"
       ],
       "correct": 0,
-      "explain": "Politiattest kreves blant annet for jobber med barn og unge."
+      "explain": "Politiattest kreves blant annet for jobber med barn og unge.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -302,7 +314,8 @@
         "type": "sant-usant",
         "text": "Grunnloven er den øverste loven i Norge.",
         "correct": true,
-        "explain": "Andre lover kan ikke være i strid med Grunnloven."
+        "explain": "Andre lover kan ikke være i strid med Grunnloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -316,7 +329,8 @@
         "type": "sant-usant",
         "text": "Det er lov å dele nakenbilder av andre under 18 år hvis du selv er under 18.",
         "correct": false,
-        "explain": "Deling av slike bilder er straffbart uansett alderen til den som deler."
+        "explain": "Deling av slike bilder er straffbart uansett alderen til den som deler.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -355,7 +369,8 @@
           "Bot"
         ],
         "correct": 0,
-        "explain": "Ungdomsstraff gjennomføres med tett oppfølging, ofte gjennom konfliktrådet."
+        "explain": "Ungdomsstraff gjennomføres med tett oppfølging, ofte gjennom konfliktrådet.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -375,7 +390,8 @@
         "kriterier": [
           "Forklarer at politiet etterforsker lovbrudd.",
           "Forklarer at påtalemyndigheten avgjør om noen skal tiltales, og at domstolene avgjør saken."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -392,7 +408,8 @@
         "fasit": "Samfunnsstraff betyr at den dømte gjør samfunnsnyttig arbeid i stedet for å sitte i fengsel.",
         "kriterier": [
           "Forklarer at samfunnsstraff innebærer samfunnsnyttig arbeid i stedet for fengsel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -401,7 +418,8 @@
         "kriterier": [
           "Forklarer at individualprevensjon skal hindre at den dømte gjør nye lovbrudd.",
           "Forklarer at rehabilitering handler om å hjelpe den dømte til et liv uten kriminalitet."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -410,7 +428,8 @@
         "kriterier": [
           "Får fram at deling av nakenbilder av personer under 18 år er straffbart.",
           "Får fram at regelen også gjelder den som deler, selv om personen er under 18."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -428,12 +447,14 @@
         "kriterier": [
           "Forklarer at normer kan endre seg og noen ganger bli til lover.",
           "Bruker forbudet mot røyking på serveringssteder som eksempel."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

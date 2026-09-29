@@ -65,7 +65,8 @@
     },
     {
       "term": "IPCC",
-      "def": "FNs klimapanel, som sammenstiller klimaforskningen."
+      "def": "FNs klimapanel, som sammenstiller klimaforskningen.",
+      "niva": "eksempel"
     },
     {
       "term": "Vær og klima",
@@ -424,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

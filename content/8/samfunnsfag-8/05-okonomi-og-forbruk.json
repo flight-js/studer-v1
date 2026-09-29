@@ -153,7 +153,8 @@
         "Skrevet på engelsk"
       ],
       "correct": 1,
-      "explain": "Skjult reklame er ulovlig fordi den lurer forbrukerne."
+      "explain": "Skjult reklame er ulovlig fordi den lurer forbrukerne.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +190,8 @@
         "Inngå en boliglånsavtale"
       ],
       "correct": 2,
-      "explain": "Umyndige kan råde over penger de har tjent ved eget arbeid."
+      "explain": "Umyndige kan råde over penger de har tjent ved eget arbeid.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -304,7 +306,8 @@
         "type": "sant-usant",
         "text": "Skjult reklame er lov på sosiale medier.",
         "correct": false,
-        "explain": "Reklame skal være tydelig merket, også hos influensere."
+        "explain": "Reklame skal være tydelig merket, også hos influensere.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -350,7 +353,8 @@
           "Å handle mest mulig på salg"
         ],
         "correct": 1,
-        "explain": "Å bruke ting lenger sparer både penger og ressurser."
+        "explain": "Å bruke ting lenger sparer både penger og ressurser.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -406,7 +410,8 @@
         "kriterier": [
           "Forklarer at influensere kan påvirke ønsker om å kjøpe varer.",
           "Knytter påvirkningen til press om å kjøpe bestemte ting eller merker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -415,7 +420,8 @@
         "kriterier": [
           "Forklarer at reparasjon kan redusere bruken av ressurser eller energi.",
           "Nevner at reparasjon også kan spare penger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -430,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

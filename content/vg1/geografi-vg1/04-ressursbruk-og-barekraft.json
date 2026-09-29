@@ -31,7 +31,8 @@
     },
     {
       "term": "Brundtland-rapporten",
-      "def": "Rapport fra 1987 som gjorde begrepet bærekraftig utvikling kjent."
+      "def": "Rapport fra 1987 som gjorde begrepet bærekraftig utvikling kjent.",
+      "niva": "eksempel"
     },
     {
       "term": "Økologisk fotavtrykk",
@@ -39,11 +40,13 @@
     },
     {
       "term": "Jordas overforbruksdag",
-      "def": "Datoen da menneskeheten har brukt opp det naturen fornyer på et år."
+      "def": "Datoen da menneskeheten har brukt opp det naturen fornyer på et år.",
+      "niva": "eksempel"
     },
     {
       "term": "Oljefondet",
-      "def": "Statens pensjonsfond utland, der oljeinntektene plasseres."
+      "def": "Statens pensjonsfond utland, der oljeinntektene plasseres.",
+      "niva": "eksempel"
     },
     {
       "term": "Vannkraft",
@@ -51,7 +54,8 @@
     },
     {
       "term": "Lakselus",
-      "def": "Parasitt som er en utfordring for oppdrettsnæringen og villaks."
+      "def": "Parasitt som er en utfordring for oppdrettsnæringen og villaks.",
+      "niva": "eksempel"
     },
     {
       "term": "Overfiske",
@@ -59,7 +63,8 @@
     },
     {
       "term": "Globale verdikjeder",
-      "def": "Produksjon fordelt over mange land fra råvare til ferdig vare."
+      "def": "Produksjon fordelt over mange land fra råvare til ferdig vare.",
+      "niva": "eksempel"
     },
     {
       "term": "Tre dimensjoner av bærekraft",
@@ -117,7 +122,8 @@
         "Brundtland-rapporten"
       ],
       "correct": 3,
-      "explain": "Den ble ledet av Gro Harlem Brundtland."
+      "explain": "Den ble ledet av Gro Harlem Brundtland.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +159,8 @@
         "For få kunder"
       ],
       "correct": 2,
-      "explain": "Lakselus kan også skade villaksen."
+      "explain": "Lakselus kan også skade villaksen.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +172,8 @@
         "Datoen da menneskeheten har brukt opp det naturen fornyer på et år"
       ],
       "correct": 3,
-      "explain": "Etter denne datoen lever vi på «kreditt» fra naturen."
+      "explain": "Etter denne datoen lever vi på «kreditt» fra naturen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -285,7 +293,8 @@
         "type": "sant-usant",
         "text": "Hvis alle levde som gjennomsnittsnordmannen, ville vi trengt mer enn én jordklode.",
         "correct": true,
-        "explain": "Norge har et høyt forbruk per person."
+        "explain": "Norge har et høyt forbruk per person.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -319,7 +328,8 @@
           "En miljøorganisasjon"
         ],
         "correct": 1,
-        "explain": "Fondet skal komme både dagens og framtidens generasjoner til gode."
+        "explain": "Fondet skal komme både dagens og framtidens generasjoner til gode.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -383,7 +393,8 @@
         "kriterier": [
           "Forklarer at produksjonen foregår i flere land, fra råvarer til ferdig produkt.",
           "Knytter mobilforbruk i Norge til forholdene der mineralene utvinnes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

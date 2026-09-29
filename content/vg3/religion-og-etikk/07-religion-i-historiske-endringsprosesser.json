@@ -39,15 +39,18 @@
     },
     {
       "term": "Martin Luther King",
-      "def": "Bygde borgerrettighetskampen på kristen tro og ikkevold."
+      "def": "Bygde borgerrettighetskampen på kristen tro og ikkevold.",
+      "niva": "eksempel"
     },
     {
       "term": "Frigjøringsteologi",
-      "def": "Latinamerikansk teologi om rettferdighet for de fattige."
+      "def": "Latinamerikansk teologi om rettferdighet for de fattige.",
+      "niva": "eksempel"
     },
     {
       "term": "Den iranske revolusjonen",
-      "def": "Gjorde Iran til en islamsk republikk i 1979."
+      "def": "Gjorde Iran til en islamsk republikk i 1979.",
+      "niva": "eksempel"
     },
     {
       "term": "Sekularisering",
@@ -59,7 +62,8 @@
     },
     {
       "term": "Dissenterloven 1845",
-      "def": "Tillot andre kristne trossamfunn i Norge."
+      "def": "Tillot andre kristne trossamfunn i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Statskirkeordningen",
@@ -67,7 +71,8 @@
     },
     {
       "term": "Tros- og livssynsloven",
-      "def": "Lov fra 2021 om trossamfunn og livssynssamfunn."
+      "def": "Lov fra 2021 om trossamfunn og livssynssamfunn.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +122,8 @@
         "Landet ble en islamsk republikk"
       ],
       "correct": 3,
-      "explain": "Religion som politisk kraft."
+      "explain": "Religion som politisk kraft.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +135,8 @@
         "Nasjonalisme"
       ],
       "correct": 0,
-      "explain": "Religion som frigjørende kraft."
+      "explain": "Religion som frigjørende kraft.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -165,7 +172,8 @@
         "Teologi om rettferdighet for de fattige"
       ],
       "correct": 3,
-      "explain": "Fra Latin-Amerika."
+      "explain": "Fra Latin-Amerika.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +197,8 @@
         "Jødedom"
       ],
       "correct": 1,
-      "explain": "Jøder fikk adgang i 1851."
+      "explain": "Jøder fikk adgang i 1851.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -296,7 +305,8 @@
         "type": "sant-usant",
         "text": "Den norske kirke ble et eget rettssubjekt i 2017.",
         "correct": true,
-        "explain": "Etter at statskirken ble avviklet."
+        "explain": "Etter at statskirken ble avviklet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -316,7 +326,8 @@
           "Paulus"
         ],
         "correct": 1,
-        "explain": "Erkebiskop i Sør-Afrika."
+        "explain": "Erkebiskop i Sør-Afrika.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -342,7 +353,8 @@
           "I Midtøsten"
         ],
         "correct": 2,
-        "explain": "Tyngdepunktet har flyttet seg."
+        "explain": "Tyngdepunktet har flyttet seg.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -380,7 +392,8 @@
         "kriterier": [
           "Identifiserer frigjøringsteologi.",
           "Forklarer at religion eller bibeltolkning brukes til å fremme rettferdighet for fattige."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -389,7 +402,8 @@
         "kriterier": [
           "Får fram at religion kan ha stor politisk betydning også i moderne tid.",
           "Knytter dette til at Iran ble styrt som en islamsk republikk av religiøse ledere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +412,8 @@
         "kriterier": [
           "Forklarer sekularisering som mindre betydning for religion i samfunnet.",
           "Forklarer religionens tilbakekomst som økt plass for religion i offentligheten, med et relevant eksempel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +422,8 @@
         "kriterier": [
           "Beskriver overgangen fra evangelisk-luthersk statsreligion til at andre kristne trossamfunn ble tillatt.",
           "Forklarer at avviklingen av statskirkeordningen markerte en endring i forholdet mellom stat og kirke."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +432,14 @@
         "kriterier": [
           "Forklarer at King brukte kristen tro og ikkevold som grunnlag for borgerrettighetskampen.",
           "Forklarer at religion i Iran var knyttet til styringen av landet gjennom religiøse ledere."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -43,15 +43,18 @@
     },
     {
       "term": "Kongofristaten",
-      "def": "Leopold IIs private koloni fra 1885 med brutalt tvangsarbeid."
+      "def": "Leopold IIs private koloni fra 1885 med brutalt tvangsarbeid.",
+      "niva": "eksempel"
     },
     {
       "term": "Det britiske ostindiske kompani",
-      "def": "Handelskompani som kontrollerte India før 1858."
+      "def": "Handelskompani som kontrollerte India før 1858.",
+      "niva": "eksempel"
     },
     {
       "term": "Gandhi",
-      "def": "Ledet Indias ikkevoldelige frigjøringskamp."
+      "def": "Ledet Indias ikkevoldelige frigjøringskamp.",
+      "niva": "eksempel"
     },
     {
       "term": "Avkolonisering",
@@ -67,7 +70,8 @@
     },
     {
       "term": "Tilbakeføring",
-      "def": "At kunstgjenstander leveres tilbake til opprinnelseslandet."
+      "def": "At kunstgjenstander leveres tilbake til opprinnelseslandet.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +133,8 @@
         "Gandhi"
       ],
       "correct": 0,
-      "explain": "Fra 1885 til 1908."
+      "explain": "Fra 1885 til 1908.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "1975"
       ],
       "correct": 1,
-      "explain": "Etter en lang frigjøringskamp."
+      "explain": "Etter en lang frigjøringskamp.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +195,8 @@
         "Om sommertid"
       ],
       "correct": 1,
-      "explain": "Også unnskyldninger og erstatning."
+      "explain": "Også unnskyldninger og erstatning.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -310,7 +317,8 @@
           "Sukker"
         ],
         "correct": 1,
-        "explain": "Under brutalt tvangsarbeid."
+        "explain": "Under brutalt tvangsarbeid.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -374,7 +382,8 @@
         "kriterier": [
           "Beskriver Kongofristaten som Leopold IIs private eiendom og nevner tvangsarbeidet med gummi.",
           "Nevner kompaniets rolle i India og at Storbritannia tok direkte kontroll fra 1858."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -392,7 +401,8 @@
         "kriterier": [
           "Forklarer at ressurser ble tatt ut eller at økonomien ble innrettet mot kolonimaktens behov.",
           "Nevner at lokal industri i India tapte for britiske varer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

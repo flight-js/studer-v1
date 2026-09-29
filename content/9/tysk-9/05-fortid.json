@@ -299,7 +299,8 @@
         "type": "sant-usant",
         "text": "Verb på -ieren får ge- i partisippet, som «getelefoniert».",
         "correct": false,
-        "explain": "Det heter «telefoniert», uten ge-."
+        "explain": "Det heter «telefoniert», uten ge-.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -410,7 +411,8 @@
         "kriterier": [
           "Oppgir telefoniert og forklarer at verb på -ieren ikke får ge-.",
           "Oppgir gemacht og får fram at regelrette verb som machen dannes med ge- og -t."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -420,7 +422,8 @@
           "Lager en grammatisk Perfekt-setning med einkaufen og letztes Wochenende.",
           "Bruker hjelpeverbet haben og partisippet eingekauft.",
           "Forklarer at ge- bei trennbaren Verben in der Mitte steht."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -435,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

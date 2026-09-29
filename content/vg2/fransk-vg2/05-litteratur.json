@@ -12,23 +12,28 @@
   "flashcards": [
     {
       "term": "Albert Camus",
-      "def": "Forfatter av L'Étranger (1942), Nobelprisen 1957"
+      "def": "Forfatter av L'Étranger (1942), Nobelprisen 1957",
+      "niva": "eksempel"
     },
     {
       "term": "L'Étranger",
-      "def": "Den fremmede – roman om Meursault og det absurde"
+      "def": "Den fremmede – roman om Meursault og det absurde",
+      "niva": "eksempel"
     },
     {
       "term": "l'absurde",
-      "def": "det absurde – livet har ingen gitt mening"
+      "def": "det absurde – livet har ingen gitt mening",
+      "niva": "eksempel"
     },
     {
       "term": "Jacques Prévert",
-      "def": "Dikter kjent for enkle hverdagsdikt"
+      "def": "Dikter kjent for enkle hverdagsdikt",
+      "niva": "eksempel"
     },
     {
       "term": "Déjeuner du matin",
-      "def": "Dikt av Prévert om taushet og ensomhet"
+      "def": "Dikt av Prévert om taushet og ensomhet",
+      "niva": "eksempel"
     },
     {
       "term": "la nouvelle",
@@ -40,11 +45,13 @@
     },
     {
       "term": "Guy de Maupassant",
-      "def": "Klassisk fransk novelleforfatter"
+      "def": "Klassisk fransk novelleforfatter",
+      "niva": "eksempel"
     },
     {
       "term": "Annie Ernaux",
-      "def": "Fransk forfatter, Nobelprisen i litteratur 2022"
+      "def": "Fransk forfatter, Nobelprisen i litteratur 2022",
+      "niva": "eksempel"
     },
     {
       "term": "le personnage principal",
@@ -82,7 +89,8 @@
         "Le Petit Prince"
       ],
       "correct": 1,
-      "explain": "Han reagerer nesten ikke på morens død."
+      "explain": "Han reagerer nesten ikke på morens død.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -94,7 +102,8 @@
         "Realisme"
       ],
       "correct": 0,
-      "explain": "Livet har ingen gitt mening, men vi søker mening likevel."
+      "explain": "Livet har ingen gitt mening, men vi søker mening likevel.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +115,8 @@
         "Bare om krig"
       ],
       "correct": 2,
-      "explain": "Mange franske elever lærer dem utenat."
+      "explain": "Mange franske elever lærer dem utenat.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -130,7 +140,8 @@
         "1913"
       ],
       "correct": 0,
-      "explain": "Annie Ernaux fikk den i 2022."
+      "explain": "Annie Ernaux fikk den i 2022.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -154,7 +165,8 @@
         "Conditionnel"
       ],
       "correct": 2,
-      "explain": "Det er uvanlig for en roman."
+      "explain": "Det er uvanlig for en roman.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +178,8 @@
         "En mann som ikke snakker med eller ser på den andre, som gråter"
       ],
       "correct": 3,
-      "explain": "Det usagte sier mye om ensomhet."
+      "explain": "Det usagte sier mye om ensomhet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -286,28 +299,32 @@
         "type": "sant-usant",
         "text": "Camus vokste opp i Algerie.",
         "correct": true,
-        "explain": "L'Étranger foregår også i Algerie."
+        "explain": "L'Étranger foregår også i Algerie.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Meursault gråter mye i morens begravelse.",
         "correct": false,
-        "explain": "Han gråter ikke, og det brukes mot ham i rettssaken."
+        "explain": "Han gråter ikke, og det brukes mot ham i rettssaken.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Annie Ernaux fikk Nobelprisen i litteratur i 2022.",
         "correct": true,
-        "explain": "Hun skriver mye om eget liv og samfunnsklasser."
+        "explain": "Hun skriver mye om eget liv og samfunnsklasser.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Préverts dikt er kjent for et vanskelig og gammeldags språk.",
         "correct": false,
-        "explain": "Han brukte enkle ord og hverdagsspråk."
+        "explain": "Han brukte enkle ord og hverdagsspråk.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -333,7 +350,8 @@
           "Les Misérables"
         ],
         "correct": 0,
-        "explain": "La Parure har en berømt chute."
+        "explain": "La Parure har en berømt chute.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -357,7 +375,8 @@
         "kriterier": [
           "Får fram at Meursault ikke gråt eller viste sterk sorg i begravelsen.",
           "Knytter dette til at retten dømmer ham for mer enn selve drapet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -366,7 +385,8 @@
         "kriterier": [
           "Knytter språkformen eller de korte setningene til en nøktern tone.",
           "Får fram at tonen kan virke nesten likegyldig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -375,7 +395,8 @@
         "kriterier": [
           "Forklarer at livet ikke har en gitt mening.",
           "Får fram at mennesket likevel søker mening."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -384,7 +405,8 @@
         "kriterier": [
           "Skiller mellom romanen «L'Étranger» og Préverts dikt.",
           "Knytter verkene til relevante temaer: det absurde hos Camus og ensomhet eller kjærlighet som tar slutt hos Prévert."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -402,7 +424,8 @@
         "kriterier": [
           "Knytter tausheten eller mangelen på kontakt til ensomhet.",
           "Får fram forbindelsen til kjærlighet som tar slutt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -411,7 +434,8 @@
         "kriterier": [
           "Skiller mellom Maupassant som klassisk novelleforfatter og Ernaux som nyere forfatter.",
           "Nevner at Ernaux fikk Nobelprisen i litteratur i 2022."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +450,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

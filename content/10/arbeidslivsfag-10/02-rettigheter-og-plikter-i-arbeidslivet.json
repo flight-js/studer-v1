@@ -51,7 +51,8 @@
     },
     {
       "term": "Lojalitetsplikt",
-      "def": "Plikt til å ivareta arbeidsgiverens interesser."
+      "def": "Plikt til å ivareta arbeidsgiverens interesser.",
+      "niva": "over-niva"
     },
     {
       "term": "Svart arbeid",
@@ -419,7 +420,8 @@
         "kriterier": [
           "Knytter minstelønn i noen bransjer til allmenngjorte tariffavtaler.",
           "Skiller mellom minstelønn i enkelte bransjer og en generell minstelønn."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -434,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

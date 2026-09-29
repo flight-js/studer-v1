@@ -20,7 +20,8 @@
     },
     {
       "term": "das Abendbrot",
-      "def": "kveldsmaten, ofte brød med pålegg"
+      "def": "kveldsmaten, ofte brød med pålegg",
+      "niva": "eksempel"
     },
     {
       "term": "das Brötchen",
@@ -182,7 +183,8 @@
         "Et kveldsmåltid med brød og pålegg"
       ],
       "correct": 3,
-      "explain": "Ordet betyr bokstavelig «kveldsbrød»."
+      "explain": "Ordet betyr bokstavelig «kveldsbrød».",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -307,7 +309,8 @@
         "type": "sant-usant",
         "text": "I Tyskland er det vanlig å runde opp eller gi litt tips på restaurant.",
         "correct": true,
-        "explain": "Tips kalles «Trinkgeld»."
+        "explain": "Tips kalles «Trinkgeld».",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -353,7 +356,8 @@
           "Tschüs!"
         ],
         "correct": 2,
-        "explain": "«Prost!» betyr «Skål!»."
+        "explain": "«Prost!» betyr «Skål!».",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -364,7 +368,8 @@
         "kriterier": [
           "Plasserer Mittagessen midt på dagen og nevner at det tradisjonelt var dagens varme hovedmåltid.",
           "Forklarer at Abendbrot er kveldsmat som ofte består av brød med pålegg."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -400,7 +405,8 @@
         "kriterier": [
           "Forklarer at Sprudel er vann med kullsyre.",
           "Nevner Wasser mit Kohlensäure som en annen formulering."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -409,7 +415,8 @@
         "kriterier": [
           "Forklarer at Trinkgeld er tips som gis i forbindelse med betalingen.",
           "Nevner at det ofte er 5–10 prosent eller at man runder opp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -427,12 +434,14 @@
         "kriterier": [
           "Nevner Brötchen som frokostmat.",
           "Tar med to passende ting å ha på Brötchen, for eksempel Butter, Käse, Wurst eller Marmelade."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

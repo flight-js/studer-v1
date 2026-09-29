@@ -282,7 +282,8 @@
         "type": "sant-usant",
         "text": "Stortinget kan ikke oppløses før valgperioden er over.",
         "correct": true,
-        "explain": "Det skiller Norge fra mange andre land."
+        "explain": "Det skiller Norge fra mange andre land.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
@@ -389,7 +390,8 @@
         "kriterier": [
           "Får fram at kongens rolle i praksis er symbolsk.",
           "Får fram at regjeringens vedtak formelt fattes i statsråd med kongen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

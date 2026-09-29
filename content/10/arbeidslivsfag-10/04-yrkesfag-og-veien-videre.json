@@ -32,7 +32,8 @@
     },
     {
       "term": "Lærlinglønn",
-      "def": "Lønn til lærlinger som øker gradvis gjennom læretiden."
+      "def": "Lønn til lærlinger som øker gradvis gjennom læretiden.",
+      "niva": "eksempel"
     },
     {
       "term": "Fagprøve",
@@ -48,7 +49,8 @@
     },
     {
       "term": "Mesterbrev",
-      "def": "Videreutdanning etter fagbrev som gir rett til å drive og lede egen bedrift."
+      "def": "Videreutdanning etter fagbrev som gir rett til å drive og lede egen bedrift.",
+      "niva": "eksempel"
     },
     {
       "term": "Fagskole",
@@ -60,11 +62,13 @@
     },
     {
       "term": "Y-veien",
-      "def": "Vei til ingeniørutdanning for søkere med fagbrev."
+      "def": "Vei til ingeniørutdanning for søkere med fagbrev.",
+      "niva": "eksempel"
     },
     {
       "term": "Hospitering",
-      "def": "Å besøke og prøve et utdanningsprogram eller en arbeidsplass."
+      "def": "Å besøke og prøve et utdanningsprogram eller en arbeidsplass.",
+      "niva": "eksempel"
     },
     {
       "term": "Livslang læring",
@@ -118,7 +122,8 @@
         "Restaurant- og matfag"
       ],
       "correct": 2,
-      "explain": "Automatiker og dataelektroniker hører også hit."
+      "explain": "Automatiker og dataelektroniker hører også hit.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -166,7 +171,8 @@
         "Helse- og oppvekstfag"
       ],
       "correct": 3,
-      "explain": "Barne- og ungdomsarbeidere utdannes også her."
+      "explain": "Barne- og ungdomsarbeidere utdannes også her.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -190,7 +196,8 @@
         "Velge det første på lista"
       ],
       "correct": 2,
-      "explain": "Erfaringer fra arbeidslivsfag er også nyttige."
+      "explain": "Erfaringer fra arbeidslivsfag er også nyttige.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -292,7 +299,8 @@
         "type": "sant-usant",
         "text": "Med fagbrev kan man senere ta mesterbrev.",
         "correct": true,
-        "explain": "Mesterbrevet gir rett til å lede egen bedrift i mange håndverksfag."
+        "explain": "Mesterbrevet gir rett til å lede egen bedrift i mange håndverksfag.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -326,7 +334,8 @@
           "Elektriker"
         ],
         "correct": 2,
-        "explain": "Kokk og servitør hører også hit."
+        "explain": "Kokk og servitør hører også hit.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -339,7 +348,8 @@
           "Et utdanningsprogram på ungdomsskolen"
         ],
         "correct": 0,
-        "explain": "Y-veien bygger på fagbrevet."
+        "explain": "Y-veien bygger på fagbrevet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -352,7 +362,8 @@
           "Yr.no"
         ],
         "correct": 1,
-        "explain": "Også utdanning.no har mye informasjon om yrker."
+        "explain": "Også utdanning.no har mye informasjon om yrker.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -381,7 +392,8 @@
         "kriterier": [
           "Forklarer at lærlinglønn er lønn til en lærling.",
           "Får fram at lønnen øker gradvis gjennom læretiden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -399,7 +411,8 @@
         "kriterier": [
           "Nevner Y-veien.",
           "Forklarer at enkelte ingeniørutdanninger tar opp søkere med fagbrev."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -408,7 +421,8 @@
         "kriterier": [
           "Velger restaurant- og matfag.",
           "Knytter programmet til baker eller baking."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -432,6 +446,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

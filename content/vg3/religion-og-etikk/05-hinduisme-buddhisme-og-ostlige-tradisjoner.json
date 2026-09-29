@@ -19,7 +19,8 @@
     },
     {
       "term": "Bhagavadgita",
-      "def": "En av de mest leste hinduistiske tekstene."
+      "def": "En av de mest leste hinduistiske tekstene.",
+      "niva": "eksempel"
     },
     {
       "term": "Brahman og atman",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Guru Nanak",
-      "def": "Grunnla sikhismen rundt år 1500."
+      "def": "Grunnla sikhismen rundt år 1500.",
+      "niva": "eksempel"
     },
     {
       "term": "Langar",
-      "def": "Gratis fellesmåltid i sikhenes tempel."
+      "def": "Gratis fellesmåltid i sikhenes tempel.",
+      "niva": "eksempel"
     },
     {
       "term": "Yin og yang",
@@ -145,7 +148,8 @@
         "En fest"
       ],
       "correct": 1,
-      "explain": "Uttrykk for likeverd."
+      "explain": "Uttrykk for likeverd.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -294,7 +298,8 @@
         "type": "sant-usant",
         "text": "Diskriminering på grunn av kaste er forbudt i Indias grunnlov.",
         "correct": true,
-        "explain": "Men kaste har fortsatt betydning."
+        "explain": "Men kaste har fortsatt betydning.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -314,7 +319,8 @@
           "Reform"
         ],
         "correct": 1,
-        "explain": "Med Dalai Lama."
+        "explain": "Med Dalai Lama.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -340,7 +346,8 @@
           "Beaivi, Máttaráhkká og Uksáhkká"
         ],
         "correct": 2,
-        "explain": "Mange andre guder dyrkes også."
+        "explain": "Mange andre guder dyrkes også.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -387,7 +394,8 @@
         "kriterier": [
           "Får fram at Vedaene er de eldste hellige skriftene.",
           "Skiller mellom Upanishadenes filosofiske innhold og Bhagavadgitas utbredelse som en mye lest tekst."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -396,7 +404,8 @@
         "kriterier": [
           "Nevner at sikhismen legger vekt på likeverd mellom alle mennesker.",
           "Knytter langar, der alle kan spise gratis sammen, til likeverd."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -420,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -19,7 +19,8 @@
     },
     {
       "term": "Den fruktbare halvmåne",
-      "def": "Område i Midtøsten der jordbruket først oppsto."
+      "def": "Område i Midtøsten der jordbruket først oppsto.",
+      "niva": "eksempel"
     },
     {
       "term": "Bofast",
@@ -35,11 +36,13 @@
     },
     {
       "term": "Jordbruk i Norge",
-      "def": "Kom for rundt 6000 år siden."
+      "def": "Kom for rundt 6000 år siden.",
+      "niva": "eksempel"
     },
     {
       "term": "Tørrfisk",
-      "def": "Viktig eksportvare fra Lofoten i middelalderen."
+      "def": "Viktig eksportvare fra Lofoten i middelalderen.",
+      "niva": "eksempel"
     },
     {
       "term": "Uår",
@@ -47,7 +50,8 @@
     },
     {
       "term": "Poteten",
-      "def": "Kom til Norge på 1700-tallet og reduserte sult."
+      "def": "Kom til Norge på 1700-tallet og reduserte sult.",
+      "niva": "eksempel"
     },
     {
       "term": "Landbruksrevolusjonen",
@@ -93,7 +97,8 @@
         "I Australia"
       ],
       "correct": 0,
-      "explain": "Jordbruk oppsto også uavhengig andre steder."
+      "explain": "Jordbruk oppsto også uavhengig andre steder.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +122,8 @@
         "Tørrfisk"
       ],
       "correct": 3,
-      "explain": "Tørrfisken kom fra Lofoten."
+      "explain": "Tørrfisken kom fra Lofoten.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +159,8 @@
         "På 1700-tallet"
       ],
       "correct": 2,
-      "explain": "Før det levde folk av jakt, fangst og fiske."
+      "explain": "Før det levde folk av jakt, fangst og fiske.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +184,8 @@
         "Bananen"
       ],
       "correct": 0,
-      "explain": "Poteten ga stor avling på liten plass."
+      "explain": "Poteten ga stor avling på liten plass.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -329,7 +337,8 @@
           "Japan og Korea"
         ],
         "correct": 1,
-        "explain": "Hundrevis av millioner slapp sult."
+        "explain": "Hundrevis av millioner slapp sult.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -422,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

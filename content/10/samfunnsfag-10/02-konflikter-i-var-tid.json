@@ -39,19 +39,23 @@
     },
     {
       "term": "Kolonigrenser",
-      "def": "Grenser trukket av kolonimakter uten hensyn til folkegruppene."
+      "def": "Grenser trukket av kolonimakter uten hensyn til folkegruppene.",
+      "niva": "eksempel"
     },
     {
       "term": "Annektering",
-      "def": "Å innlemme et område i sin egen stat, ofte med makt, som Russland gjorde med Krim i 2014."
+      "def": "Å innlemme et område i sin egen stat, ofte med makt, som Russland gjorde med Krim i 2014.",
+      "niva": "eksempel"
     },
     {
       "term": "Fullskala invasjon",
-      "def": "Russlands angrep på hele Ukraina fra 24. februar 2022."
+      "def": "Russlands angrep på hele Ukraina fra 24. februar 2022.",
+      "niva": "eksempel"
     },
     {
       "term": "Oslo-avtalen",
-      "def": "Avtale fra 1993 mellom Israel og PLO som skulle lede til fred."
+      "def": "Avtale fra 1993 mellom Israel og PLO som skulle lede til fred.",
+      "niva": "eksempel"
     },
     {
       "term": "Flyktning",
@@ -105,7 +109,8 @@
         "Kolonitiden har ingen betydning"
       ],
       "correct": 2,
-      "explain": "Grupper som ble delt eller tvunget sammen, har ofte havnet i konflikt."
+      "explain": "Grupper som ble delt eller tvunget sammen, har ofte havnet i konflikt.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +122,8 @@
         "2022"
       ],
       "correct": 3,
-      "explain": "Invasjonen startet 24. februar 2022, åtte år etter annekteringen av Krim."
+      "explain": "Invasjonen startet 24. februar 2022, åtte år etter annekteringen av Krim.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +147,8 @@
         "En klimaavtale"
       ],
       "correct": 1,
-      "explain": "Avtalen ga palestinerne begrenset selvstyre, men den endelige fredsavtalen kom aldri."
+      "explain": "Avtalen ga palestinerne begrenset selvstyre, men den endelige fredsavtalen kom aldri.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -298,14 +305,16 @@
         "type": "sant-usant",
         "text": "Russland annekterte Krim i 2014.",
         "correct": true,
-        "explain": "Annekteringen ble ikke anerkjent av de fleste land i verden."
+        "explain": "Annekteringen ble ikke anerkjent av de fleste land i verden.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Norge har vært mekler i fredsprosesser i andre land.",
         "correct": true,
-        "explain": "Blant annet i Colombia, Sri Lanka og mellom Israel og palestinerne."
+        "explain": "Blant annet i Colombia, Sri Lanka og mellom Israel og palestinerne.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -338,7 +347,8 @@
           "Å sende nødhjelp til et område"
         ],
         "correct": 0,
-        "explain": "Annektering med makt er i strid med folkeretten."
+        "explain": "Annektering med makt er i strid med folkeretten.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -351,7 +361,8 @@
           "Vietnamkrigen"
         ],
         "correct": 1,
-        "explain": "Protestene var en del av den arabiske våren."
+        "explain": "Protestene var en del av den arabiske våren.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -388,7 +399,8 @@
         "kriterier": [
           "Forklarer at annektering er å innlemme et område i sin egen stat.",
           "Knytter forklaringen til Russlands handling på Krim."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -428,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

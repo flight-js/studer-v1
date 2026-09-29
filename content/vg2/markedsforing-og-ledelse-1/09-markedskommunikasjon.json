@@ -307,7 +307,8 @@
         "type": "sant-usant",
         "text": "Direkte markedsføring på e-post kan alltid sendes uten samtykke.",
         "correct": false,
-        "explain": "Det krever ofte samtykke."
+        "explain": "Det krever ofte samtykke.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -426,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

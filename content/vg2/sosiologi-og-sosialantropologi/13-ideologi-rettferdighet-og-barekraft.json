@@ -60,7 +60,8 @@
     },
     {
       "term": "Wilkinson og Pickett",
-      "def": "Hevdet at land med mindre ulikhet har færre sosiale problemer."
+      "def": "Hevdet at land med mindre ulikhet har færre sosiale problemer.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosial bærekraft",
@@ -68,7 +69,8 @@
     },
     {
       "term": "Rettferdig omstilling",
-      "def": "Byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest."
+      "def": "Byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -166,7 +168,8 @@
         "At byrdene ved klimakutt fordeles slik at de svakeste ikke betaler mest"
       ],
       "correct": 3,
-      "explain": "Kobling mellom klima og fordeling."
+      "explain": "Kobling mellom klima og fordeling.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -190,7 +193,8 @@
         "At skatt bør avskaffes"
       ],
       "correct": 1,
-      "explain": "Ulikhet påvirker hele samfunnet."
+      "explain": "Ulikhet påvirker hele samfunnet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -333,7 +337,8 @@
           "2001"
         ],
         "correct": 0,
-        "explain": "«A Theory of Justice»."
+        "explain": "«A Theory of Justice».",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -426,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

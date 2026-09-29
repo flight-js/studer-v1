@@ -11,11 +11,13 @@
   "flashcards": [
     {
       "term": "Empire Windrush",
-      "def": "Ship that brought Caribbean migrants to Britain in 1948."
+      "def": "Ship that brought Caribbean migrants to Britain in 1948.",
+      "niva": "eksempel"
     },
     {
       "term": "Brexit",
-      "def": "The UK's departure from the EU, decided in a 2016 referendum."
+      "def": "The UK's departure from the EU, decided in a 2016 referendum.",
+      "niva": "eksempel"
     },
     {
       "term": "Segregation",
@@ -31,23 +33,28 @@
     },
     {
       "term": "Civil Rights Act",
-      "def": "US law from 1964 that banned discrimination."
+      "def": "US law from 1964 that banned discrimination.",
+      "niva": "eksempel"
     },
     {
       "term": "Black Lives Matter",
-      "def": "Movement against racism and police violence."
+      "def": "Movement against racism and police violence.",
+      "niva": "eksempel"
     },
     {
       "term": "Stolen Generations",
-      "def": "Aboriginal children removed from their families in Australia."
+      "def": "Aboriginal children removed from their families in Australia.",
+      "niva": "eksempel"
     },
     {
       "term": "Treaty of Waitangi",
-      "def": "Treaty from 1840 between the British Crown and Māori chiefs."
+      "def": "Treaty from 1840 between the British Crown and Māori chiefs.",
+      "niva": "eksempel"
     },
     {
       "term": "Residential schools",
-      "def": "Canadian boarding schools that tried to assimilate Indigenous children."
+      "def": "Canadian boarding schools that tried to assimilate Indigenous children.",
+      "niva": "eksempel"
     },
     {
       "term": "Apartheid",
@@ -63,7 +70,8 @@
     },
     {
       "term": "The danger of a single story",
-      "def": "Adichie's warning against seeing a people through only one story."
+      "def": "Adichie's warning against seeing a people through only one story.",
+      "niva": "eksempel"
     },
     {
       "term": "Stereotype",
@@ -81,7 +89,8 @@
         "Irish emigrants to the USA"
       ],
       "correct": 1,
-      "explain": "The ship Empire Windrush arrived in 1948."
+      "explain": "The ship Empire Windrush arrived in 1948.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +102,8 @@
         "The Emancipation Proclamation"
       ],
       "correct": 0,
-      "explain": "The Voting Rights Act followed in 1965."
+      "explain": "The Voting Rights Act followed in 1965.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +127,8 @@
         "Aboriginal children taken from their families in Australia"
       ],
       "correct": 3,
-      "explain": "The Australian government apologised in 2008."
+      "explain": "The Australian government apologised in 2008.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +140,8 @@
         "The Civil Rights Act"
       ],
       "correct": 0,
-      "explain": "It was signed in 1840 by the British Crown and Māori chiefs."
+      "explain": "It was signed in 1840 by the British Crown and Māori chiefs.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +165,8 @@
         "That history is boring"
       ],
       "correct": 2,
-      "explain": "The phrase comes from Chimamanda Ngozi Adichie."
+      "explain": "The phrase comes from Chimamanda Ngozi Adichie.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +178,8 @@
         "First Nations, Inuit and Métis"
       ],
       "correct": 3,
-      "explain": "Many suffered under the residential school system."
+      "explain": "Many suffered under the residential school system.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -302,7 +316,8 @@
         "type": "sant-usant",
         "text": "Māori is an official language in New Zealand.",
         "correct": true,
-        "explain": "Māori language and culture have been revitalised in recent decades."
+        "explain": "Māori language and culture have been revitalised in recent decades.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -322,7 +337,8 @@
           "1994"
         ],
         "correct": 2,
-        "explain": "The speech was given during the March on Washington."
+        "explain": "The speech was given during the March on Washington.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -335,7 +351,8 @@
           "Private schools for the rich"
         ],
         "correct": 0,
-        "explain": "A Truth and Reconciliation Commission reported on them in 2015."
+        "explain": "A Truth and Reconciliation Commission reported on them in 2015.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -348,7 +365,8 @@
           "On voting age"
         ],
         "correct": 1,
-        "explain": "A majority voted to leave the EU."
+        "explain": "A majority voted to leave the EU.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -377,7 +395,8 @@
         "kriterier": [
           "Describes the civil rights movement as a struggle for equal rights for African Americans in the 1950s and 1960s.",
           "Describes Black Lives Matter as opposing racism and police violence."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -386,7 +405,8 @@
         "kriterier": [
           "Gives the four nations of the UK, or explains that they each have their own identity.",
           "Mentions class or regional differences as another factor."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -395,7 +415,8 @@
         "kriterier": [
           "States that English is one of South Africa’s twelve official languages.",
           "Explains that English is widely used in India in government, business or higher education alongside other languages."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -404,7 +425,8 @@
         "kriterier": [
           "Explains that the schools tried to assimilate Indigenous children.",
           "Identifies the Commission’s final report and gives the year 2015."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,12 +444,14 @@
         "kriterier": [
           "Explains that Brexit is the UK’s departure from the EU, decided in a 2016 referendum.",
           "Connects the UK’s debates to immigration."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -32,7 +32,8 @@
     },
     {
       "term": "Glokalisering",
-      "def": "Globale produkter tilpasses lokale forhold."
+      "def": "Globale produkter tilpasses lokale forhold.",
+      "niva": "over-niva"
     },
     {
       "term": "Nasjonale minoriteter",
@@ -190,7 +191,8 @@
         "At verden blir mindre"
       ],
       "correct": 1,
-      "explain": "For eksempel menyer tilpasset hvert land."
+      "explain": "For eksempel menyer tilpasset hvert land.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -317,7 +319,8 @@
           "Dansker"
         ],
         "correct": 1,
-        "explain": "Samer er urfolk, ikke nasjonal minoritet."
+        "explain": "Samer er urfolk, ikke nasjonal minoritet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -372,7 +375,8 @@
         "kriterier": [
           "Identifiserer glokalisering.",
           "Forklarer at noe globalt tilpasses lokale forhold."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -423,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

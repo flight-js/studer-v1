@@ -333,7 +333,8 @@
           "Dobbeltspiralen"
         ],
         "correct": 0,
-        "explain": "Boka beskrev evolusjon ved naturlig utvalg."
+        "explain": "Boka beskrev evolusjon ved naturlig utvalg.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -426,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

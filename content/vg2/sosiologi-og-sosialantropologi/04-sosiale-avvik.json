@@ -55,7 +55,8 @@
     },
     {
       "term": "Sosial kontroll-teori",
-      "def": "Bånd til andre hindrer de fleste i å bryte normer."
+      "def": "Bånd til andre hindrer de fleste i å bryte normer.",
+      "niva": "over-niva"
     },
     {
       "term": "Formell sosial kontroll",
@@ -93,7 +94,8 @@
         "Max Weber"
       ],
       "correct": 0,
-      "explain": "Boka Outsiders."
+      "explain": "Boka Outsiders.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -129,7 +131,8 @@
         "Avvik er arvelig"
       ],
       "correct": 0,
-      "explain": "Vi har noe å tape."
+      "explain": "Vi har noe å tape.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -299,7 +302,8 @@
         "type": "sant-usant",
         "text": "Norske fengsler legger stor vekt på rehabilitering.",
         "correct": true,
-        "explain": "Målet er tilbakeføring til samfunnet."
+        "explain": "Målet er tilbakeføring til samfunnet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -345,7 +349,8 @@
           "Erving Goffman"
         ],
         "correct": 2,
-        "explain": "Begrepet «folkedjevler»."
+        "explain": "Begrepet «folkedjevler».",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -425,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

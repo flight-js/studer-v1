@@ -329,7 +329,8 @@
           "Rektors signatur alene"
         ],
         "correct": 0,
-        "explain": "Etiske krav."
+        "explain": "Etiske krav.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -422,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

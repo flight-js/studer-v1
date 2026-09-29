@@ -330,7 +330,8 @@
           "Triglyserid"
         ],
         "correct": 0,
-        "explain": "Flere proteinkjeder sammen."
+        "explain": "Flere proteinkjeder sammen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -343,7 +344,8 @@
           "Ingenting"
         ],
         "correct": 2,
-        "explain": "En ytre faktor som påvirker makromolekyler."
+        "explain": "En ytre faktor som påvirker makromolekyler.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -407,7 +409,8 @@
         "fasit": "Skade på DNA fra UV-stråling kan føre til mutasjoner.",
         "kriterier": [
           "Knytter UV-skade på DNA til at det kan oppstå mutasjoner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

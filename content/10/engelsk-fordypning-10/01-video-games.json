@@ -28,7 +28,8 @@
     },
     {
       "term": "RPG",
-      "def": "Role-playing game, where you develop a character in a story world."
+      "def": "Role-playing game, where you develop a character in a story world.",
+      "niva": "eksempel"
     },
     {
       "term": "Gameplay",
@@ -48,11 +49,13 @@
     },
     {
       "term": "In-game purchases",
-      "def": "Things you can buy with real money inside a game."
+      "def": "Things you can buy with real money inside a game.",
+      "niva": "eksempel"
     },
     {
       "term": "Loot box",
-      "def": "A random reward you can buy in a game, often compared to gambling."
+      "def": "A random reward you can buy in a game, often compared to gambling.",
+      "niva": "eksempel"
     },
     {
       "term": "NPC",
@@ -68,7 +71,8 @@
     },
     {
       "term": "E-sports",
-      "def": "Competitive gaming, often with big tournaments."
+      "def": "Competitive gaming, often with big tournaments.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -142,7 +146,8 @@
         "They improve graphics"
       ],
       "correct": 1,
-      "explain": "Players pay for random rewards without knowing what they will get."
+      "explain": "Players pay for random rewards without knowing what they will get.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -178,7 +183,8 @@
         "Good game"
       ],
       "correct": 3,
-      "explain": "Players often write GG at the end of a match."
+      "explain": "Players often write GG at the end of a match.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +196,8 @@
         "Electronic sports equipment"
       ],
       "correct": 1,
-      "explain": "The best e-sports players are professionals."
+      "explain": "The best e-sports players are professionals.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -316,7 +323,8 @@
         "type": "sant-usant",
         "text": "Research clearly shows that all violent games make players violent.",
         "correct": false,
-        "explain": "Research does not give a simple answer."
+        "explain": "Research does not give a simple answer.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -342,7 +350,8 @@
           "Racing"
         ],
         "correct": 2,
-        "explain": "In RPGs, characters grow stronger through the story."
+        "explain": "In RPGs, characters grow stronger through the story.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -420,7 +429,8 @@
         "kriterier": [
           "Forklarer at den første betalingen gjelder en bestemt ting i spillet.",
           "Forklarer at en loot box gir en tilfeldig belønning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -435,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -38,11 +38,13 @@
     },
     {
       "term": "Yours faithfully",
-      "def": "British closing after Dear Sir or Madam."
+      "def": "British closing after Dear Sir or Madam.",
+      "niva": "eksempel"
     },
     {
       "term": "Yours sincerely",
-      "def": "British closing after a greeting with the person's name."
+      "def": "British closing after a greeting with the person's name.",
+      "niva": "eksempel"
     },
     {
       "term": "Report",
@@ -108,7 +110,8 @@
         "Love"
       ],
       "correct": 2,
-      "explain": "Yours sincerely is used when you know the person's name."
+      "explain": "Yours sincerely is used when you know the person's name.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -168,7 +171,8 @@
         "Following the school's rules and checking the output"
       ],
       "correct": 3,
-      "explain": "AI can be wrong, and your text should show your own skills."
+      "explain": "AI can be wrong, and your text should show your own skills.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -331,7 +335,8 @@
           "Regards, mate"
         ],
         "correct": 1,
-        "explain": "Use Yours sincerely when you know the name."
+        "explain": "Use Yours sincerely when you know the name.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -344,7 +349,8 @@
           "A reference list"
         ],
         "correct": 2,
-        "explain": "Speeches use repetition and rhetorical questions."
+        "explain": "Speeches use repetition and rhetorical questions.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -398,7 +404,8 @@
         "kriterier": [
           "Explains how the image and words can support the same message.",
           "Says that an image made by someone else should be credited."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -426,7 +433,8 @@
         "kriterier": [
           "Names two suitable speech techniques, such as rhetorical questions, repetition or a strong ending.",
           "Explains how the techniques can support the speech when it is heard."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -441,6 +449,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

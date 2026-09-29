@@ -40,7 +40,8 @@
     },
     {
       "term": "André Bjerke",
-      "def": "Kritiserte modernismen som «tungetale fra Parnasset»."
+      "def": "Kritiserte modernismen som «tungetale fra Parnasset».",
+      "niva": "eksempel"
     },
     {
       "term": "Tarjei Vesaas",
@@ -68,11 +69,13 @@
     },
     {
       "term": "Egalias døtre",
-      "def": "Brantenbergs satiriske roman fra 1977 med snudde kjønnsroller."
+      "def": "Brantenbergs satiriske roman fra 1977 med snudde kjønnsroller.",
+      "niva": "eksempel"
     },
     {
       "term": "Dalen Portland",
-      "def": "Fløgstads roman fra 1977 om industrisamfunnet."
+      "def": "Fløgstads roman fra 1977 om industrisamfunnet.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -146,7 +149,8 @@
         "Skriver om naturen"
       ],
       "correct": 1,
-      "explain": "En satire over kjønnsroller."
+      "explain": "En satire over kjønnsroller.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -158,7 +162,8 @@
         "En bil"
       ],
       "correct": 2,
-      "explain": "Vakkert og farlig på samme tid."
+      "explain": "Vakkert og farlig på samme tid.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -298,7 +303,8 @@
         "type": "sant-usant",
         "text": "Kjartan Fløgstad skrev om industrisamfunnet i Dalen Portland.",
         "correct": true,
-        "explain": "Fra 1977."
+        "explain": "Fra 1977.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -331,7 +337,8 @@
           "Olav H. Hauge"
         ],
         "correct": 0,
-        "explain": "Han skrev selv modernistisk lyrikk."
+        "explain": "Han skrev selv modernistisk lyrikk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -418,12 +425,14 @@
         "kriterier": [
           "Knytter romanens industrisamfunn til arbeidsliv eller samfunnsforhold.",
           "Plasserer romanen i 1970-tallets sosialrealistiske eller politiske litteratur."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -19,7 +19,8 @@
     },
     {
       "term": "Aristotle",
-      "def": "Greek philosopher who described ethos, pathos and logos."
+      "def": "Greek philosopher who described ethos, pathos and logos.",
+      "niva": "eksempel"
     },
     {
       "term": "Ethos",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Straw man",
-      "def": "Twisting the other side's argument and attacking that version."
+      "def": "Twisting the other side's argument and attacking that version.",
+      "niva": "over-niva"
     },
     {
       "term": "Counterargument",
@@ -153,7 +155,8 @@
         "Twisting the other side's argument and attacking that version"
       ],
       "correct": 3,
-      "explain": "It is easier to defeat a weaker version of an argument."
+      "explain": "It is easier to defeat a weaker version of an argument.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -304,7 +307,8 @@
         "type": "sant-usant",
         "text": "Aristotle described ethos, pathos and logos.",
         "correct": true,
-        "explain": "His ideas are still used to analyse persuasion."
+        "explain": "His ideas are still used to analyse persuasion.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -437,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

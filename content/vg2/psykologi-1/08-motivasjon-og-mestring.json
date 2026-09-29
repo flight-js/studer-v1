@@ -67,7 +67,8 @@
     },
     {
       "term": "Carol Dweck",
-      "def": "Psykolog kjent for teorien om tankesett."
+      "def": "Psykolog kjent for teorien om tankesett.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -413,6 +414,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

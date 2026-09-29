@@ -48,23 +48,28 @@
     },
     {
       "term": "Planleggingslogikk",
-      "def": "Starte med et mål og lage en detaljert plan."
+      "def": "Starte med et mål og lage en detaljert plan.",
+      "niva": "eksempel"
     },
     {
       "term": "Effektuering",
-      "def": "Starte med egne ressurser og teste seg fram i små steg."
+      "def": "Starte med egne ressurser og teste seg fram i små steg.",
+      "niva": "eksempel"
     },
     {
       "term": "Akseptabelt tap",
-      "def": "Å bare ta risiko man har råd til å tape."
+      "def": "Å bare ta risiko man har råd til å tape.",
+      "niva": "eksempel"
     },
     {
       "term": "Brønnøysundregistrene",
-      "def": "Offentlige registre med selskapsinformasjon og regnskap."
+      "def": "Offentlige registre med selskapsinformasjon og regnskap.",
+      "niva": "eksempel"
     },
     {
       "term": "Innovasjon Norge",
-      "def": "Statlig virkemiddelaktør som gir råd og finansiering til gründere."
+      "def": "Statlig virkemiddelaktør som gir råd og finansiering til gründere.",
+      "niva": "eksempel"
     },
     {
       "term": "Verdiskaping",
@@ -130,7 +135,8 @@
         "Å kopiere konkurrentene"
       ],
       "correct": 0,
-      "explain": "Vanlig blant erfarne gründere."
+      "explain": "Vanlig blant erfarne gründere.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -154,7 +160,8 @@
         "Hos Arbeidstilsynet"
       ],
       "correct": 2,
-      "explain": "Offentlige registre."
+      "explain": "Offentlige registre.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +185,8 @@
         "Å låne penger for å dekke tap"
       ],
       "correct": 0,
-      "explain": "En del av effektuering."
+      "explain": "En del av effektuering.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -314,7 +322,8 @@
           "Datatilsynet"
         ],
         "correct": 1,
-        "explain": "En statlig virkemiddelaktør."
+        "explain": "En statlig virkemiddelaktør.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -340,7 +349,8 @@
           "For å redusere eksporten"
         ],
         "correct": 2,
-        "explain": "Omstilling av økonomien."
+        "explain": "Omstilling av økonomien.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +379,8 @@
         "kriterier": [
           "Forklarer at planleggingslogikk starter med et mål og en detaljert plan.",
           "Forklarer at effektuering starter med tilgjengelige ressurser og testing i små steg."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -387,7 +398,8 @@
         "kriterier": [
           "Knytter kommersielt entreprenørskap til målet om overskudd.",
           "Knytter kulturelt entreprenørskap til å skape verdier innen kunst, musikk eller kultur."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -396,7 +408,8 @@
         "kriterier": [
           "Forklarer at modeller hjelper med å strukturere analysen eller tenkningen.",
           "Forklarer at modeller er forenklinger og at gruppen må vurdere om modellen passer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -405,7 +418,8 @@
         "kriterier": [
           "Velger SSB.",
           "Forklarer at SSB har statistikk om befolkning og markeder som kan brukes til å undersøke kundegrupper."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -414,12 +428,14 @@
         "kriterier": [
           "Velger Innovasjon Norge.",
           "Nevner både råd og finansiering som støtte organisasjonen kan gi gründere."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

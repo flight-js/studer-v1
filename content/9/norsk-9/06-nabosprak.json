@@ -39,7 +39,8 @@
     },
     {
       "term": "halvtreds",
-      "def": "Dansk for 50."
+      "def": "Dansk for 50.",
+      "niva": "eksempel"
     },
     {
       "term": "Falske venner",
@@ -47,23 +48,28 @@
     },
     {
       "term": "rolig (svensk)",
-      "def": "Betyr morsom."
+      "def": "Betyr morsom.",
+      "niva": "eksempel"
     },
     {
       "term": "glass (svensk)",
-      "def": "Betyr iskrem."
+      "def": "Betyr iskrem.",
+      "niva": "eksempel"
     },
     {
       "term": "semester (svensk)",
-      "def": "Betyr ferie."
+      "def": "Betyr ferie.",
+      "niva": "eksempel"
     },
     {
       "term": "frokost (dansk)",
-      "def": "Betyr lunsj. Dansk «morgenmad» er frokost."
+      "def": "Betyr lunsj. Dansk «morgenmad» er frokost.",
+      "niva": "eksempel"
     },
     {
       "term": "grine (dansk)",
-      "def": "Betyr å le."
+      "def": "Betyr å le.",
+      "niva": "eksempel"
     },
     {
       "term": "Bokmål og dansk",
@@ -81,7 +87,8 @@
         "Trøtt"
       ],
       "correct": 1,
-      "explain": "«Rolig» på svensk betyr morsom. Det er en falsk venn."
+      "explain": "«Rolig» på svensk betyr morsom. Det er en falsk venn.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +100,8 @@
         "Is på vannet"
       ],
       "correct": 2,
-      "explain": "«Glass» er svensk for iskrem. Et drikkeglass heter «glas»."
+      "explain": "«Glass» er svensk for iskrem. Et drikkeglass heter «glas».",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +113,8 @@
         "Kveldsmat"
       ],
       "correct": 0,
-      "explain": "På dansk er «frokost» lunsj. Morgenmåltidet heter «morgenmad»."
+      "explain": "På dansk er «frokost» lunsj. Morgenmåltidet heter «morgenmad».",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -153,7 +162,8 @@
         "53"
       ],
       "correct": 0,
-      "explain": "Det danske tallsystemet er annerledes. «Halvtreds» betyr 50."
+      "explain": "Det danske tallsystemet er annerledes. «Halvtreds» betyr 50.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +199,8 @@
         "Ferie"
       ],
       "correct": 3,
-      "explain": "Svensk «semester» betyr ferie. Et skolehalvår heter «termin»."
+      "explain": "Svensk «semester» betyr ferie. Et skolehalvår heter «termin».",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -302,14 +313,16 @@
         "type": "sant-usant",
         "text": "Dansk «grine» betyr å gråte.",
         "correct": false,
-        "explain": "Dansk «grine» betyr å le."
+        "explain": "Dansk «grine» betyr å le.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Svensk «kjol» betyr skjørt.",
         "correct": true,
-        "explain": "«Kjol» er en falsk venn: det betyr skjørt, ikke kjole."
+        "explain": "«Kjol» er en falsk venn: det betyr skjørt, ikke kjole.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -342,7 +355,8 @@
           "kvinde"
         ],
         "correct": 0,
-        "explain": "«Flicka» er svensk for jente. «Pige» og «kvinde» er dansk, og «jente» er norsk."
+        "explain": "«Flicka» er svensk for jente. «Pige» og «kvinde» er dansk, og «jente» er norsk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -355,7 +369,8 @@
           "Middag"
         ],
         "correct": 1,
-        "explain": "«Morgenmad» er frokost på dansk."
+        "explain": "«Morgenmad» er frokost på dansk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -384,7 +399,8 @@
         "kriterier": [
           "Forklarer at svensk «rolig» betyr morsom.",
           "Forklarer at ordet kan misforstås fordi det ligner et norsk ord med en annen betydning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -393,7 +409,8 @@
         "kriterier": [
           "Bruker «flicka» som eksempel på at svenske ord kan være ulike norske ord.",
           "Forklarer at svenske flertallsendelser kan skille seg fra norske, gjerne med et eksempel."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -420,7 +437,8 @@
         "kriterier": [
           "Forklarer at «rar» betyr snill eller søt på både dansk og svensk.",
           "Får fram forskjellen i bruk: særlig om personer på dansk, også om ting på svensk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -429,12 +447,14 @@
         "kriterier": [
           "Forklarer at islandsk og færøysk har bevart mer av det gamle språket.",
           "Knytter dette til at språkene er vanskeligere for nordmenn å forstå."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

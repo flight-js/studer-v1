@@ -55,7 +55,8 @@
     },
     {
       "term": "DSB",
-      "def": "Direktoratet for samfunnssikkerhet og beredskap."
+      "def": "Direktoratet for samfunnssikkerhet og beredskap.",
+      "niva": "eksempel"
     },
     {
       "term": "Totalforsvaret",
@@ -177,7 +178,8 @@
         "Flommen i 1995"
       ],
       "correct": 0,
-      "explain": "Fikk store konsekvenser for beredskapen."
+      "explain": "Fikk store konsekvenser for beredskapen.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -313,7 +315,8 @@
           "22. juli"
         ],
         "correct": 1,
-        "explain": "Økt fokus på forsvar."
+        "explain": "Økt fokus på forsvar.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -358,7 +361,8 @@
         "kriterier": [
           "Viser forskjellen i omfang mellom individ og samfunn.",
           "Bruker et relevant eksempel på hver type krise."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -418,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

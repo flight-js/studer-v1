@@ -59,15 +59,18 @@
     },
     {
       "term": "Fedrekvoten",
-      "def": "Del av foreldrepermisjonen forbeholdt far."
+      "def": "Del av foreldrepermisjonen forbeholdt far.",
+      "niva": "eksempel"
     },
     {
       "term": "Minoritetsstress",
-      "def": "Ekstra belastning ved å tilhøre en gruppe som møter fordommer."
+      "def": "Ekstra belastning ved å tilhøre en gruppe som møter fordommer.",
+      "niva": "over-niva"
     },
     {
       "term": "Negativ sosial kontroll",
-      "def": "Familie eller miljø begrenser hvordan man kan leve."
+      "def": "Familie eller miljø begrenser hvordan man kan leve.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -93,7 +96,8 @@
         "2023"
       ],
       "correct": 0,
-      "explain": "Lov om endring av juridisk kjønn."
+      "explain": "Lov om endring av juridisk kjønn.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -129,7 +133,8 @@
         "Stress ved flytting"
       ],
       "correct": 0,
-      "explain": "Kan gi psykiske helseplager."
+      "explain": "Kan gi psykiske helseplager.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Ingen endring"
       ],
       "correct": 1,
-      "explain": "Store endringer siden 1970-tallet."
+      "explain": "Store endringer siden 1970-tallet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +171,8 @@
         "Diskriminering på grunn av kjønn, kjønnsidentitet og seksuell orientering"
       ],
       "correct": 3,
-      "explain": "Også andre grunnlag."
+      "explain": "Også andre grunnlag.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -332,7 +339,8 @@
           "At mødre får mindre permisjon totalt"
         ],
         "correct": 0,
-        "explain": "Endrede kjønnsroller."
+        "explain": "Endrede kjønnsroller.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -356,7 +364,8 @@
         "kriterier": [
           "Forklarer at sosialt kjønn handler om samfunnets forventninger eller roller.",
           "Forklarer at juridisk kjønn handler om registreringen i folkeregisteret."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -375,7 +384,8 @@
         "kriterier": [
           "Forklarer at fedrekvoten er en del av foreldrepermisjonen som er forbeholdt far.",
           "Knytter fedrekvoten til at far får omsorgsansvar og at arbeidsdelingen kan bli mindre tradisjonell."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -402,7 +412,8 @@
         "kriterier": [
           "Peker på at familien begrenser ungdommens valg eller mulighet til å leve slik hen ønsker.",
           "Knytter begrensningen til hvem ungdommen kan være sammen med eller hvordan hen kan leve."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -411,7 +422,8 @@
         "kriterier": [
           "Skiller mellom personlige egenskaper eller erfaringer og gruppene man tilhører.",
           "Får fram at identitet i det senmoderne samfunnet i større grad skapes eller utforskes."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -420,12 +432,14 @@
         "kriterier": [
           "Skiller mellom et forbud mot diskriminering og at ulikheter fortsatt kan finnes i samfunnet.",
           "Nevner et annet eksempel på en kjønnsforskjell, som lønnsforskjeller, flere kvinner i deltid eller flere menn i toppledelse."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

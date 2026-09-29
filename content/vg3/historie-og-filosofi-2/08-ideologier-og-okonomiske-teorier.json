@@ -165,7 +165,8 @@
         "Evig vekst"
       ],
       "correct": 3,
-      "explain": "Vil legge naturens tålegrenser til grunn."
+      "explain": "Vil legge naturens tålegrenser til grunn.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +178,8 @@
         "Hayek"
       ],
       "correct": 0,
-      "explain": "I 1848."
+      "explain": "I 1848.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -300,7 +302,8 @@
         "type": "sant-usant",
         "text": "Fascismen forsvarte frie valg og opposisjon.",
         "correct": false,
-        "explain": "Den undertrykte all opposisjon."
+        "explain": "Den undertrykte all opposisjon.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -326,7 +329,8 @@
           "1944"
         ],
         "correct": 0,
-        "explain": "Adam Smith."
+        "explain": "Adam Smith.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -386,7 +390,8 @@
         "kriterier": [
           "Beskriver konservatismen som opptatt av tradisjon og gradvis endring.",
           "Beskriver grønn politisk tenkning som kritisk til evig vekst og opptatt av naturens tålegrenser."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -404,7 +409,8 @@
         "kriterier": [
           "Knytter Friedmans forklaring på inflasjon til for mye penger i omløp.",
           "Får fram at han ønsket mindre statlig inngrep."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -419,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -39,7 +39,8 @@
     },
     {
       "term": "Algebra",
-      "def": "Gren av matematikken som ble utviklet av muslimske lærde."
+      "def": "Gren av matematikken som ble utviklet av muslimske lærde.",
+      "niva": "eksempel"
     },
     {
       "term": "Korstogene",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Det Norske Misjonsselskap",
-      "def": "Norsk misjonsorganisasjon fra 1842, blant annet aktiv på Madagaskar."
+      "def": "Norsk misjonsorganisasjon fra 1842, blant annet aktiv på Madagaskar.",
+      "niva": "eksempel"
     },
     {
       "term": "Hans Nielsen Hauge",
@@ -63,7 +65,8 @@
     },
     {
       "term": "Dissenterloven",
-      "def": "Lov fra 1845 som ga andre kristne rett til egne trossamfunn."
+      "def": "Lov fra 1845 som ga andre kristne rett til egne trossamfunn.",
+      "niva": "eksempel"
     },
     {
       "term": "Sekularisering",
@@ -117,7 +120,8 @@
         "Oppdagelsen av Amerika"
       ],
       "correct": 1,
-      "explain": "Mye av den greske filosofien nådde Europa via arabiske oversettelser."
+      "explain": "Mye av den greske filosofien nådde Europa via arabiske oversettelser.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +157,8 @@
         "At den var for liten"
       ],
       "correct": 2,
-      "explain": "Misjonen hadde både positive og negative følger for folkene den møtte."
+      "explain": "Misjonen hadde både positive og negative følger for folkene den møtte.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "Skille mellom kirke og stat"
       ],
       "correct": 1,
-      "explain": "Loven var et viktig steg mot religionsfrihet i Norge."
+      "explain": "Loven var et viktig steg mot religionsfrihet i Norge.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -340,7 +346,8 @@
           "Sicilia"
         ],
         "correct": 1,
-        "explain": "Misjonsselskapet var også aktivt i Sør-Afrika."
+        "explain": "Misjonsselskapet var også aktivt i Sør-Afrika.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -391,7 +398,8 @@
         "kriterier": [
           "Får fram at både klostrene og lærde i Bagdad bidro til å ta vare på kunnskap.",
           "Nevner en relevant forskjell mellom rollene deres, for eksempel klostrenes skoler og sykehus eller lærdes arbeid med vitenskap og filosofitekster."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -409,7 +417,8 @@
         "kriterier": [
           "Får fram at religion var knyttet til begge personenes arbeid for endring.",
           "Nevner at King var baptistprest, og at Gandhi bygde ikkevoldskampen på religiøse ideer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -433,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -24,7 +24,8 @@
     },
     {
       "term": "el AVE",
-      "def": "spanske høyhastighetstog"
+      "def": "spanske høyhastighetstog",
+      "niva": "eksempel"
     },
     {
       "term": "el albergue juvenil",
@@ -194,7 +195,8 @@
         "Spanske høyhastighetstog"
       ],
       "correct": 3,
-      "explain": "Togene kjører i over 300 km/t."
+      "explain": "Togene kjører i over 300 km/t.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -304,7 +306,8 @@
         "type": "sant-usant",
         "text": "Spania er et av nordmenns mest populære feriemål.",
         "correct": true,
-        "explain": "Særlig Kanariøyene og kysten ved Middelhavet."
+        "explain": "Særlig Kanariøyene og kysten ved Middelhavet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -370,7 +373,8 @@
         "kriterier": [
           "Forklarer at begge ordene betyr billett.",
           "Knytter «el boleto» til Latin-Amerika."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -387,7 +391,8 @@
         "kriterier": [
           "Velger AVE som et passende tog mellom byene.",
           "Forklarer at AVE er raskt og forbinder store spanske byer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -405,7 +410,8 @@
         "kriterier": [
           "Knytter indefinido til avsluttede handlinger på reisen.",
           "Knytter imperfecto til beskrivelse av været."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -429,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

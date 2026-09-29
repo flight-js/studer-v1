@@ -43,7 +43,8 @@
     },
     {
       "term": "Sommerfugleffekten",
-      "def": "Lorenz' bilde på kaos i atmosfæren."
+      "def": "Lorenz' bilde på kaos i atmosfæren.",
+      "niva": "eksempel"
     },
     {
       "term": "Ensemblevarsel",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Meteorologisk institutt",
-      "def": "Lager værvarslene i Norge."
+      "def": "Lager værvarslene i Norge.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +167,8 @@
         "Varsle stormflo og spore oljeutslipp"
       ],
       "correct": 3,
-      "explain": "Også havbruk og lakselus."
+      "explain": "Også havbruk og lakselus.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -307,7 +310,8 @@
           "Albert Einstein"
         ],
         "correct": 1,
-        "explain": "Kaos i atmosfæren."
+        "explain": "Kaos i atmosfæren.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -413,6 +417,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

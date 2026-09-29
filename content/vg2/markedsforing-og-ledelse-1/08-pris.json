@@ -75,7 +75,8 @@
     },
     {
       "term": "Lokkevare",
-      "def": "Svært billig vare som skal trekke kunder inn."
+      "def": "Svært billig vare som skal trekke kunder inn.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -197,7 +198,8 @@
         "Å bruke psykologisk prising"
       ],
       "correct": 1,
-      "explain": "Tilbudet må ikke framstå bedre enn det er."
+      "explain": "Tilbudet må ikke framstå bedre enn det er.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -327,7 +329,8 @@
           "Gratis produkter"
         ],
         "correct": 1,
-        "explain": "Vanlig for flybilletter og hotell."
+        "explain": "Vanlig for flybilletter og hotell.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -353,7 +356,8 @@
           "En vare som ikke selges"
         ],
         "correct": 2,
-        "explain": "Kundene handler ofte mer når de først er i butikken."
+        "explain": "Kundene handler ofte mer når de først er i butikken.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -400,7 +404,8 @@
         "kriterier": [
           "Forklarer at skumming starter med høy pris som senkes etter hvert.",
           "Forklarer at prestisjeprising bruker høy pris for å signalisere kvalitet eller status."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -409,7 +414,8 @@
         "kriterier": [
           "Identifiserer dette som dynamisk prising.",
           "Forklarer at prisen endres etter etterspørselen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -418,7 +424,8 @@
         "kriterier": [
           "Beskriver modellen som gratis grunnversjon med betalte tillegg.",
           "Forklarer at ekstra funksjoner koster penger selv om grunnversjonen er gratis."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -427,12 +434,14 @@
         "kriterier": [
           "Identifiserer varene som lokkevarer.",
           "Forklarer at den lave prisen skal trekke kunder inn i butikken."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

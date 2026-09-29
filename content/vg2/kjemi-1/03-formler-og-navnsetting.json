@@ -63,11 +63,13 @@
     },
     {
       "term": "Acetat",
-      "def": "CH₃COO⁻ – anionet fra eddiksyre."
+      "def": "CH₃COO⁻ – anionet fra eddiksyre.",
+      "niva": "eksempel"
     },
     {
       "term": "Permanganat",
-      "def": "MnO₄⁻ – finnes i kaliumpermanganat, KMnO₄."
+      "def": "MnO₄⁻ – finnes i kaliumpermanganat, KMnO₄.",
+      "niva": "eksempel"
     },
     {
       "term": "Greske tallprefikser",
@@ -75,7 +77,8 @@
     },
     {
       "term": "Karbonmonoksid",
-      "def": "CO – giftig gass som dannes ved ufullstendig forbrenning."
+      "def": "CO – giftig gass som dannes ved ufullstendig forbrenning.",
+      "niva": "eksempel"
     },
     {
       "term": "Saltsyre",
@@ -437,7 +440,8 @@
           "KMnO₃"
         ],
         "correct": 0,
-        "explain": "Permanganat er MnO₄⁻ med ladning −1, og kalium danner K⁺. Da trengs ett av hvert."
+        "explain": "Permanganat er MnO₄⁻ med ladning −1, og kalium danner K⁺. Da trengs ett av hvert.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -555,7 +559,8 @@
         "kriterier": [
           "Forklarer at vannmolekylene forsvinner fra krystallen ved oppvarming.",
           "Nevner at saltet blir hvitt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -573,6 +578,7 @@
     "merknader": [
       "Læreplanen sier ikke direkte om enkel organisk navnsetting (alkaner, alkoholer osv.) hører til Kjemi 1. Vurder om det trengs et eget tema for det.",
       "Skrivemåten for sammensatte navn varierer litt mellom læreverk (for eksempel «kobber(II)sulfatpentahydrat» med eller uten bindestrek)."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

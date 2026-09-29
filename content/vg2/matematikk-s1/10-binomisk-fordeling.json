@@ -55,7 +55,8 @@
     },
     {
       "term": "Overbooking",
-      "def": "Anvendelse av binomisk fordeling i flybransjen."
+      "def": "Anvendelse av binomisk fordeling i flybransjen.",
+      "niva": "eksempel"
     },
     {
       "term": "Trekk fra liten gruppe uten tilbakelegging",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Binomisk(n, p, k, true)",
-      "def": "GeoGebra-kommando for P(X ≤ k)."
+      "def": "GeoGebra-kommando for P(X ≤ k).",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -398,7 +400,8 @@
         "kriterier": [
           "Beskriver X som antall passasjerer som møter opp.",
           "Knytter beregningen til risikoen for at flere møter opp enn det er seter til."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

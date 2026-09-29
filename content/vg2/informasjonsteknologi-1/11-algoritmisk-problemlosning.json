@@ -31,7 +31,8 @@
     },
     {
       "term": "Bursdagsparadokset",
-      "def": "Med 23 personer er det over 50 % sjanse for felles bursdag."
+      "def": "Med 23 personer er det over 50 % sjanse for felles bursdag.",
+      "niva": "eksempel"
     },
     {
       "term": "Simulering",
@@ -39,7 +40,8 @@
     },
     {
       "term": "random.randint(1, 365)",
-      "def": "Gir en tilfeldig dag i året i Python."
+      "def": "Gir en tilfeldig dag i året i Python.",
+      "niva": "eksempel"
     },
     {
       "term": "Pseudokode",
@@ -59,7 +61,8 @@
     },
     {
       "term": "matplotlib",
-      "def": "Python-bibliotek for grafer."
+      "def": "Python-bibliotek for grafer.",
+      "niva": "eksempel"
     },
     {
       "term": "Forenkling",
@@ -105,7 +108,8 @@
         "365"
       ],
       "correct": 2,
-      "explain": "Bursdagsparadokset."
+      "explain": "Bursdagsparadokset.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -141,7 +145,8 @@
         "Slette koden"
       ],
       "correct": 1,
-      "explain": "Stemmer simuleringen, styrkes tilliten."
+      "explain": "Stemmer simuleringen, styrkes tilliten.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +158,8 @@
         "At bare to personer er med"
       ],
       "correct": 2,
-      "explain": "En abstraksjon av virkeligheten."
+      "explain": "En abstraksjon av virkeligheten.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +195,8 @@
         "Sorterer bursdagene"
       ],
       "correct": 1,
-      "explain": "Den finner den minste n."
+      "explain": "Den finner den minste n.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -332,7 +339,8 @@
           "math"
         ],
         "correct": 0,
-        "explain": "For å presentere resultatene."
+        "explain": "For å presentere resultatene.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

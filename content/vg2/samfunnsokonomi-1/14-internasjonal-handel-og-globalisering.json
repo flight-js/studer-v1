@@ -27,7 +27,8 @@
     },
     {
       "term": "David Ricardo",
-      "def": "Økonom som beskrev komparative fortrinn."
+      "def": "Økonom som beskrev komparative fortrinn.",
+      "niva": "eksempel"
     },
     {
       "term": "Åpen økonomi",
@@ -59,7 +60,8 @@
     },
     {
       "term": "EFTA",
-      "def": "Frihandelsorganisasjon som Norge er medlem av."
+      "def": "Frihandelsorganisasjon som Norge er medlem av.",
+      "niva": "eksempel"
     },
     {
       "term": "Globalisering",
@@ -169,7 +171,8 @@
         "At mangel på én komponent kan stanse produksjon verden over"
       ],
       "correct": 3,
-      "explain": "Verdikjedene er sårbare."
+      "explain": "Verdikjedene er sårbare.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -317,7 +320,8 @@
           "IT"
         ],
         "correct": 1,
-        "explain": "For å sikre norsk matproduksjon."
+        "explain": "For å sikre norsk matproduksjon.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -399,7 +403,8 @@
         "kriterier": [
           "Beskriver WTOs rolle med regler for internasjonal handel og å redusere handelshindringer.",
           "Beskriver EFTA som en organisasjon Norge har frihandelsavtaler gjennom."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

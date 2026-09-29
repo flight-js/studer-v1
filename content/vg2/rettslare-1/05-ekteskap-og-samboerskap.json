@@ -63,7 +63,8 @@
     },
     {
       "term": "Husstandsfellesskapsloven",
-      "def": "Kan gi rett til å overta felles bolig og innbo."
+      "def": "Kan gi rett til å overta felles bolig og innbo.",
+      "niva": "eksempel"
     },
     {
       "term": "Samboerkontrakt",
@@ -342,7 +343,8 @@
           "2020"
         ],
         "correct": 2,
-        "explain": "Endring i ekteskapsloven."
+        "explain": "Endring i ekteskapsloven.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -407,7 +409,8 @@
         "kriterier": [
           "Navngir husstandsfellesskapsloven.",
           "Får fram at loven i noen tilfeller kan gi rett til å overta felles bolig og innbo."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

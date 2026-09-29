@@ -32,7 +32,8 @@
     },
     {
       "term": "William Caxton",
-      "def": "Brought the printing press to England in 1476."
+      "def": "Brought the printing press to England in 1476.",
+      "niva": "eksempel"
     },
     {
       "term": "Shakespeare",
@@ -40,7 +41,8 @@
     },
     {
       "term": "Noah Webster",
-      "def": "Wrote an American dictionary (1828) that shaped American spelling."
+      "def": "Wrote an American dictionary (1828) that shaped American spelling.",
+      "niva": "eksempel"
     },
     {
       "term": "Lingua franca",
@@ -48,15 +50,18 @@
     },
     {
       "term": "Inner circle",
-      "def": "Countries where English is the main native language."
+      "def": "Countries where English is the main native language.",
+      "niva": "eksempel"
     },
     {
       "term": "Outer circle",
-      "def": "Countries where English is an official or second language, such as India."
+      "def": "Countries where English is an official or second language, such as India.",
+      "niva": "eksempel"
     },
     {
       "term": "Expanding circle",
-      "def": "Countries where English is learned as a foreign language, such as Norway."
+      "def": "Countries where English is learned as a foreign language, such as Norway.",
+      "niva": "eksempel"
     },
     {
       "term": "World Englishes",
@@ -68,7 +73,8 @@
     },
     {
       "term": "eventually",
-      "def": "«til slutt» – not «eventuelt»."
+      "def": "«til slutt» – not «eventuelt».",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -130,7 +136,8 @@
         "None of them"
       ],
       "correct": 0,
-      "explain": "In Norway, English is learned as a foreign language."
+      "explain": "In Norway, English is learned as a foreign language.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +149,8 @@
         "Because of the internet"
       ],
       "correct": 1,
-      "explain": "Webster simplified many spellings in his dictionary from 1828."
+      "explain": "Webster simplified many spellings in his dictionary from 1828.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +162,8 @@
         "heldigvis"
       ],
       "correct": 2,
-      "explain": "Eventually is a false friend for Norwegian learners."
+      "explain": "Eventually is a false friend for Norwegian learners.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +187,8 @@
         "Brazil"
       ],
       "correct": 0,
-      "explain": "English is an official language in India because of colonial history."
+      "explain": "English is an official language in India because of colonial history.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +200,8 @@
         "William Caxton"
       ],
       "correct": 1,
-      "explain": "Chaucer wrote it in Middle English in the late fourteenth century."
+      "explain": "Chaucer wrote it in Middle English in the late fourteenth century.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -300,14 +311,16 @@
         "type": "sant-usant",
         "text": "Nigerian English is a variety of English.",
         "correct": true,
-        "explain": "There are many World Englishes."
+        "explain": "There are many World Englishes.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "The English word actual means «aktuell».",
         "correct": false,
-        "explain": "Actual means «faktisk»."
+        "explain": "Actual means «faktisk».",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -320,7 +333,8 @@
           "they"
         ],
         "correct": 2,
-        "explain": "Many legal and political words are French."
+        "explain": "Many legal and political words are French.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -333,7 +347,8 @@
           "1755"
         ],
         "correct": 0,
-        "explain": "Printing helped standardise English spelling."
+        "explain": "Printing helped standardise English spelling.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -346,7 +361,8 @@
           "sensasjonell"
         ],
         "correct": 1,
-        "explain": "Sensible is a false friend."
+        "explain": "Sensible is a false friend.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -375,7 +391,8 @@
         "kriterier": [
           "Connects printing with the production or wider spread of written material.",
           "Explains that this helped standardise spelling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -384,7 +401,8 @@
         "kriterier": [
           "Explains Caxton’s connection to printing and spelling standardisation.",
           "Explains the Bible’s role in spreading a common written language."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -393,7 +411,8 @@
         "kriterier": [
           "Identifies the outer circle.",
           "Explains that English is an official or second language there, often due to colonial history."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -402,7 +421,8 @@
         "kriterier": [
           "Explains that English has multiple varieties around the world.",
           "Connects the varieties to differences such as vocabulary or pronunciation, rather than treating one as the only correct English."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -411,7 +431,8 @@
         "kriterier": [
           "Identifies the words as a false friend or explains that they look similar but have different meanings.",
           "Gives the correct meaning of “sensible”: “fornuftig”."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +447,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

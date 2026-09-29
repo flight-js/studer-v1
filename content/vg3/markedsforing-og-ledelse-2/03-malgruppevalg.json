@@ -279,7 +279,8 @@
         "type": "sant-usant",
         "text": "Markedsføring rettet mot barn er strengt regulert.",
         "correct": true,
-        "explain": "Hensyn til sårbare grupper."
+        "explain": "Hensyn til sårbare grupper.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -395,7 +396,8 @@
         "kriterier": [
           "Knytter bransje, bedriftsstørrelse og innkjøpsatferd til segmentering i bedriftsmarkedet.",
           "Forklarer at kriteriene brukes til å skille mellom ulike grupper av bedriftskunder."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

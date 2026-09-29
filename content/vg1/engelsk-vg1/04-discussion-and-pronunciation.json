@@ -69,7 +69,8 @@
     },
     {
       "term": "Shadowing",
-      "def": "Repeating right after a speaker to practise pronunciation."
+      "def": "Repeating right after a speaker to practise pronunciation.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -430,12 +431,14 @@
         "kriterier": [
           "Explains that shadowing means repeating right after a speaker.",
           "Names another relevant practice method, such as recording yourself and comparing or using an online dictionary that plays pronunciation."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -36,11 +36,13 @@
     },
     {
       "term": "Checks and balances",
-      "def": "System i USA der maktene kontrollerer hverandre."
+      "def": "System i USA der maktene kontrollerer hverandre.",
+      "niva": "eksempel"
     },
     {
       "term": "Kongressen",
-      "def": "USAs lovgivende forsamling med Representantenes hus og Senatet."
+      "def": "USAs lovgivende forsamling med Representantenes hus og Senatet.",
+      "niva": "eksempel"
     },
     {
       "term": "Ettpartistat",
@@ -48,11 +50,13 @@
     },
     {
       "term": "Teokrati",
-      "def": "Styre der religiøse ledere har øverste makt, som i Iran."
+      "def": "Styre der religiøse ledere har øverste makt, som i Iran.",
+      "niva": "eksempel"
     },
     {
       "term": "Max Weber om makt",
-      "def": "Evnen til å få gjennomført sin vilje, også mot andres motstand."
+      "def": "Evnen til å få gjennomført sin vilje, også mot andres motstand.",
+      "niva": "eksempel"
     },
     {
       "term": "Mediemakt",
@@ -118,7 +122,8 @@
         "Evnen til å få gjennomført sin vilje, også mot andres motstand"
       ],
       "correct": 3,
-      "explain": "Definisjonen brukes mye i samfunnsfag."
+      "explain": "Definisjonen brukes mye i samfunnsfag.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -130,7 +135,8 @@
         "Styre av en konge uten makt"
       ],
       "correct": 0,
-      "explain": "Iran er et eksempel."
+      "explain": "Iran er et eksempel.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +148,8 @@
         "Å avskaffe domstolene"
       ],
       "correct": 1,
-      "explain": "Maktene kontrollerer hverandre."
+      "explain": "Maktene kontrollerer hverandre.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -299,7 +306,8 @@
         "type": "sant-usant",
         "text": "Russland har frie og rettferdige valg med en sterk opposisjon.",
         "correct": false,
-        "explain": "Opposisjonen undertrykkes og valgene er ikke frie."
+        "explain": "Opposisjonen undertrykkes og valgene er ikke frie.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -313,7 +321,8 @@
         "type": "sant-usant",
         "text": "I USA kan ikke Høyesterett oppheve lover.",
         "correct": false,
-        "explain": "Høyesterett kan oppheve lover som bryter med grunnloven."
+        "explain": "Høyesterett kan oppheve lover som bryter med grunnloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -326,7 +335,8 @@
           "Rådet og Parlamentet"
         ],
         "correct": 1,
-        "explain": "Sammen vedtar de lover."
+        "explain": "Sammen vedtar de lover.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -352,7 +362,8 @@
           "Klimautslipp"
         ],
         "correct": 2,
-        "explain": "Mange land ligger mellom demokrati og diktatur."
+        "explain": "Mange land ligger mellom demokrati og diktatur.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -381,7 +392,8 @@
         "kriterier": [
           "Forklarer at Kinas makt ligger hos ett parti.",
           "Forklarer at Irans øverste makt ligger hos religiøse ledere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -417,7 +429,8 @@
         "kriterier": [
           "Forklarer at legitim makt blir godtatt som rettmessig.",
           "Forklarer at autoritet bygger på respekt eller posisjon."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -432,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

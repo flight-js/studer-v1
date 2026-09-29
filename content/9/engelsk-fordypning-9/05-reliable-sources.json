@@ -35,11 +35,13 @@
     },
     {
       "term": "Lateral reading",
-      "def": "Opening new tabs to see what other sources say about a topic and sender."
+      "def": "Opening new tabs to see what other sources say about a topic and sender.",
+      "niva": "eksempel"
     },
     {
       "term": "Reverse image search",
-      "def": "Searching with a picture to find where else it has been published."
+      "def": "Searching with a picture to find where else it has been published.",
+      "niva": "eksempel"
     },
     {
       "term": "Fact-checking",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Creative Commons",
-      "def": "Licences that let creators allow others to use their work on certain conditions."
+      "def": "Licences that let creators allow others to use their work on certain conditions.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +96,8 @@
         "Reading very fast"
       ],
       "correct": 0,
-      "explain": "Professional fact-checkers use this method."
+      "explain": "Professional fact-checkers use this method.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +109,8 @@
         "Whether a picture is old, edited or taken out of context"
       ],
       "correct": 3,
-      "explain": "Old pictures are often reused in fake news."
+      "explain": "Old pictures are often reused in fake news.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -153,7 +158,8 @@
         "Only for pictures"
       ],
       "correct": 1,
-      "explain": "Anyone can edit Wikipedia, so check where the information comes from."
+      "explain": "Anyone can edit Wikipedia, so check where the information comes from.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +183,8 @@
         "Because it is always old"
       ],
       "correct": 2,
-      "explain": "Strong emotions make people share without checking."
+      "explain": "Strong emotions make people share without checking.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -357,7 +364,8 @@
           "A clip from a new cinema film"
         ],
         "correct": 2,
-        "explain": "Creative Commons licences give permission on certain conditions."
+        "explain": "Creative Commons licences give permission on certain conditions.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -431,12 +439,14 @@
         "kriterier": [
           "Says to check that the picture is allowed to be used.",
           "Gives an acceptable example, such as their own picture or one with a Creative Commons licence, and recognises that licence conditions apply."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

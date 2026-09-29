@@ -55,7 +55,8 @@
     },
     {
       "term": "Åpen lisens",
-      "def": "En lisens som gir lov til å bruke et verk på visse vilkår, ofte med navngivelse."
+      "def": "En lisens som gir lov til å bruke et verk på visse vilkår, ofte med navngivelse.",
+      "niva": "over-niva"
     },
     {
       "term": "Avsender",
@@ -67,7 +68,8 @@
     },
     {
       "term": "KI-verktøy og kilder",
-      "def": "KI kan finne på fakta og kilder. Oppgi bruken og kontroller opplysningene."
+      "def": "KI kan finne på fakta og kilder. Oppgi bruken og kontroller opplysningene.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +179,8 @@
         "Fordi de er ulovlige"
       ],
       "correct": 1,
-      "explain": "KI-verktøy kan gi svar som høres riktige ut, men er feil. Kontroller opplysningene og oppgi bruken."
+      "explain": "KI-verktøy kan gi svar som høres riktige ut, men er feil. Kontroller opplysningene og oppgi bruken.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -385,7 +388,8 @@
         "kriterier": [
           "Får fram at vilkårene for den åpne lisensen må følges.",
           "Får fram at bildeskaperen skal oppgis."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -394,7 +398,8 @@
         "kriterier": [
           "Får fram at opplysninger og foreslåtte kilder må kontrolleres.",
           "Får fram at bruken av KI-verktøyet bør oppgis."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -418,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

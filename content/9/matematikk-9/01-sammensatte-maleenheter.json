@@ -51,7 +51,8 @@
     },
     {
       "term": "Tettheten til vann",
-      "def": "Omtrent 1 g/cm³. Stoffer med lavere tetthet flyter i vann."
+      "def": "Omtrent 1 g/cm³. Stoffer med lavere tetthet flyter i vann.",
+      "niva": "eksempel"
     },
     {
       "term": "Enhetspris",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Kilowattime (kWh)",
-      "def": "Enhet for energi: effekt i kilowatt ganget med tid i timer."
+      "def": "Enhet for energi: effekt i kilowatt ganget med tid i timer.",
+      "niva": "over-niva"
     },
     {
       "term": "Enheter i utregningen",
@@ -189,7 +191,8 @@
         "Det kan ikke avgjøres"
       ],
       "correct": 1,
-      "explain": "Tettheten er lavere enn vannets, som er omtrent 1 g/cm³. Da flyter klossen."
+      "explain": "Tettheten er lavere enn vannets, som er omtrent 1 g/cm³. Da flyter klossen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -409,7 +412,8 @@
         "kriterier": [
           "Oppgir at kWh er en enhet for energi.",
           "Forklarer at kWh henger sammen med effekt i kilowatt ganget med tid i timer."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -424,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

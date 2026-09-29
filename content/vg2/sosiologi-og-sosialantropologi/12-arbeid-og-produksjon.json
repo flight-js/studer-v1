@@ -12,7 +12,8 @@
   "flashcards": [
     {
       "term": "Marie Jahoda",
-      "def": "Studerte arbeidsledige og beskrev arbeidets skjulte funksjoner."
+      "def": "Studerte arbeidsledige og beskrev arbeidets skjulte funksjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Arbeidets skjulte funksjoner",
@@ -64,7 +65,8 @@
     },
     {
       "term": "Rana Plaza",
-      "def": "Fabrikkollaps i Bangladesh 2013 der over 1100 omkom."
+      "def": "Fabrikkollaps i Bangladesh 2013 der over 1100 omkom.",
+      "niva": "eksempel"
     },
     {
       "term": "Tjenesteytende næringer",
@@ -82,7 +84,8 @@
         "At arbeid er skadelig"
       ],
       "correct": 1,
-      "explain": "Studien i Marienthal."
+      "explain": "Studien i Marienthal.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -106,7 +109,8 @@
         "Plattformarbeid"
       ],
       "correct": 2,
-      "explain": "Masseproduksjon av biler."
+      "explain": "Masseproduksjon av biler.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -166,7 +170,8 @@
         "En fabrikkbygning raste sammen, og over 1100 tekstilarbeidere omkom"
       ],
       "correct": 3,
-      "explain": "Satte søkelys på arbeidsforhold i globale verdikjeder."
+      "explain": "Satte søkelys på arbeidsforhold i globale verdikjeder.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -190,7 +195,8 @@
         "Nesten ingen"
       ],
       "correct": 1,
-      "explain": "Tertiærnæringene dominerer."
+      "explain": "Tertiærnæringene dominerer.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -423,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

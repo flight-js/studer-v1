@@ -43,19 +43,23 @@
     },
     {
       "term": "halvtreds",
-      "def": "Dansk for 50."
+      "def": "Dansk for 50.",
+      "niva": "eksempel"
     },
     {
       "term": "rolig (svensk)",
-      "def": "morsom"
+      "def": "morsom",
+      "niva": "eksempel"
     },
     {
       "term": "rar (svensk)",
-      "def": "søt, snill"
+      "def": "søt, snill",
+      "niva": "eksempel"
     },
     {
       "term": "grine (dansk)",
-      "def": "le"
+      "def": "le",
+      "niva": "eksempel"
     },
     {
       "term": "Dobbel bestemthet",
@@ -117,7 +121,8 @@
         "morsom"
       ],
       "correct": 3,
-      "explain": "Norsk rolig heter lugn på svensk."
+      "explain": "Norsk rolig heter lugn på svensk.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +134,8 @@
         "53"
       ],
       "correct": 0,
-      "explain": "Tres er 60 og halvfems 90."
+      "explain": "Tres er 60 og halvfems 90.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +183,8 @@
         "grave"
       ],
       "correct": 0,
-      "explain": "På norsk betyr grine å gråte."
+      "explain": "På norsk betyr grine å gråte.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -303,7 +310,8 @@
         "type": "sant-usant",
         "text": "Svensk «glass» betyr drikkeglass.",
         "correct": false,
-        "explain": "Svensk glass betyr iskrem."
+        "explain": "Svensk glass betyr iskrem.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -316,7 +324,8 @@
           "boog"
         ],
         "correct": 1,
-        "explain": "Dansk har ofte g der norsk har k."
+        "explain": "Dansk har ofte g der norsk har k.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +338,8 @@
           "fest"
         ],
         "correct": 0,
-        "explain": "Et klassisk eksempel på en falsk venn."
+        "explain": "Et klassisk eksempel på en falsk venn.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -342,7 +352,8 @@
           "makt"
         ],
         "correct": 2,
-        "explain": "Mange norrøne ord er gjenkjennelige."
+        "explain": "Mange norrøne ord er gjenkjennelige.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -387,7 +398,8 @@
         "kriterier": [
           "Forklarer at svensk «semester» betyr ferie.",
           "Viser at ordet kan misforstås fordi det ser ut som et norsk ord med en annen betydning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -420,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

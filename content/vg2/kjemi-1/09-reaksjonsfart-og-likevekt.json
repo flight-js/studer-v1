@@ -40,7 +40,8 @@
     },
     {
       "term": "Enzym",
-      "def": "Protein som virker som katalysator i levende organismer."
+      "def": "Protein som virker som katalysator i levende organismer.",
+      "niva": "eksempel"
     },
     {
       "term": "Reversibel reaksjon",
@@ -88,7 +89,8 @@
     },
     {
       "term": "Haber–Bosch-prosessen",
-      "def": "Industriell produksjon av ammoniakk: N₂ + 3H₂ ⇌ 2NH₃. Høyt trykk og en jernkatalysator gir godt utbytte med brukbar fart."
+      "def": "Industriell produksjon av ammoniakk: N₂ + 3H₂ ⇌ 2NH₃. Høyt trykk og en jernkatalysator gir godt utbytte med brukbar fart.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -234,7 +236,8 @@
         "En likevektskonstant"
       ],
       "correct": 1,
-      "explain": "Enzymer er proteiner som katalyserer reaksjoner i levende organismer, for eksempel nedbrytingen av stivelse i munnen."
+      "explain": "Enzymer er proteiner som katalyserer reaksjoner i levende organismer, for eksempel nedbrytingen av stivelse i munnen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -520,6 +523,7 @@
     "merknader": [
       "Regelen om at 10 °C høyere temperatur dobler farten er bare omtrentlig og gjelder mange, men ikke alle reaksjoner.",
       "Likevektskonstanten K er tatt med. Noen læreverk regner med K først i Kjemi 2 – sjekk avgrensningen."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -376,7 +376,8 @@
         "kriterier": [
           "Forklarer at Erasmus+ er EUs utvekslingsprogram.",
           "Får fram at Norge deltar."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -427,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

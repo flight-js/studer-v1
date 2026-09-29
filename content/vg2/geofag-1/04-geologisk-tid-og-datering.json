@@ -47,7 +47,8 @@
     },
     {
       "term": "Uran–bly-datering",
-      "def": "Brukes på svært gamle bergarter, ofte i zirkon."
+      "def": "Brukes på svært gamle bergarter, ofte i zirkon.",
+      "niva": "eksempel"
     },
     {
       "term": "Karbon-14",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Varv",
-      "def": "Årlige lag i innsjøsedimenter."
+      "def": "Årlige lag i innsjøsedimenter.",
+      "niva": "eksempel"
     },
     {
       "term": "Prekambrium",
@@ -189,7 +191,8 @@
         "Vulkanske ganger"
       ],
       "correct": 1,
-      "explain": "De kan telles som årringer."
+      "explain": "De kan telles som årringer.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -316,7 +319,8 @@
           "Menneskets opprinnelse"
         ],
         "correct": 1,
-        "explain": "Dinosaurene, unntatt fuglene, døde ut."
+        "explain": "Dinosaurene, unntatt fuglene, døde ut.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +333,8 @@
           "Gips"
         ],
         "correct": 0,
-        "explain": "Zirkon er svært motstandsdyktig."
+        "explain": "Zirkon er svært motstandsdyktig.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -407,7 +412,8 @@
         "kriterier": [
           "Knytter uran–bly til svært gamle bergarter, ofte zirkon.",
           "Knytter karbon-14 til organisk materiale og den aktuelle aldersgrensen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +422,14 @@
         "kriterier": [
           "Knytter meteorittnedslaget til at det bidro til masseutryddelsen.",
           "Forklarer at dinosaurene døde ut, men at fuglene var et unntak."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

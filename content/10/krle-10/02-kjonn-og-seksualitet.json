@@ -19,23 +19,28 @@
     },
     {
       "term": "Ingrid Bjerkås",
-      "def": "Den norske kirkes første kvinnelige prest, ordinert i 1961."
+      "def": "Den norske kirkes første kvinnelige prest, ordinert i 1961.",
+      "niva": "eksempel"
     },
     {
       "term": "Rosemarie Köhn",
-      "def": "Den norske kirkes første kvinnelige biskop, fra 1993."
+      "def": "Den norske kirkes første kvinnelige biskop, fra 1993.",
+      "niva": "eksempel"
     },
     {
       "term": "Mannlige prester",
-      "def": "Den katolske og den ortodokse kirken har bare menn som prester."
+      "def": "Den katolske og den ortodokse kirken har bare menn som prester.",
+      "niva": "eksempel"
     },
     {
       "term": "Muslimsk feminisme",
-      "def": "Muslimer som tolker Koranen på nye måter og krever større likestilling."
+      "def": "Muslimer som tolker Koranen på nye måter og krever større likestilling.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvinnelige rabbinere",
-      "def": "Finnes i reformjødedommen, men ikke i ortodoks jødedom."
+      "def": "Finnes i reformjødedommen, men ikke i ortodoks jødedom.",
+      "niva": "eksempel"
     },
     {
       "term": "Likestilling",
@@ -47,15 +52,18 @@
     },
     {
       "term": "Likekjønnet vigsel",
-      "def": "Den norske kirke vedtok i 2016 at likekjønnede par kan vies i kirken."
+      "def": "Den norske kirke vedtok i 2016 at likekjønnede par kan vies i kirken.",
+      "niva": "eksempel"
     },
     {
       "term": "Katolsk syn på homofili",
-      "def": "Legningen er ikke synd, men homofilt samliv regnes som synd."
+      "def": "Legningen er ikke synd, men homofilt samliv regnes som synd.",
+      "niva": "eksempel"
     },
     {
       "term": "Tredje kjønn",
-      "def": "Gammel tradisjon i Sør-Asia med en egen kjønnskategori ved siden av mann og kvinne."
+      "def": "Gammel tradisjon i Sør-Asia med en egen kjønnskategori ved siden av mann og kvinne.",
+      "niva": "eksempel"
     },
     {
       "term": "Kjønnsnøytral ekteskapslov",
@@ -63,7 +71,8 @@
     },
     {
       "term": "Unntak for trossamfunn",
-      "def": "Trossamfunn kan selv bestemme hvem de vier, og hvem som kan være religiøse ledere."
+      "def": "Trossamfunn kan selv bestemme hvem de vier, og hvem som kan være religiøse ledere.",
+      "niva": "eksempel"
     },
     {
       "term": "Mangfold innad",
@@ -93,7 +102,8 @@
         "1961"
       ],
       "correct": 3,
-      "explain": "Ingrid Bjerkås ble ordinert i 1961."
+      "explain": "Ingrid Bjerkås ble ordinert i 1961.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +115,8 @@
         "Ingen kirker"
       ],
       "correct": 0,
-      "explain": "Også den ortodokse kirken har bare mannlige prester."
+      "explain": "Også den ortodokse kirken har bare mannlige prester.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +128,8 @@
         "At prevensjon er forbudt"
       ],
       "correct": 2,
-      "explain": "Vedtaket ble gjort av Kirkemøtet."
+      "explain": "Vedtaket ble gjort av Kirkemøtet.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +141,8 @@
         "At homofile par kan vies i kirken"
       ],
       "correct": 0,
-      "explain": "Kirken skiller mellom legning og handling."
+      "explain": "Kirken skiller mellom legning og handling.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +166,8 @@
         "I Skandinavia"
       ],
       "correct": 1,
-      "explain": "Tradisjonen har også plass i hinduistiske fortellinger."
+      "explain": "Tradisjonen har også plass i hinduistiske fortellinger.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +191,8 @@
         "Å bestemme hvem de vil vie, og hvem som kan være religiøse ledere"
       ],
       "correct": 3,
-      "explain": "Dette er et unntak fra diskrimineringsloven for religiøse spørsmål."
+      "explain": "Dette er et unntak fra diskrimineringsloven for religiøse spørsmål.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -297,7 +312,8 @@
         "type": "sant-usant",
         "text": "Rosemarie Köhn ble Den norske kirkes første kvinnelige biskop i 1993.",
         "correct": true,
-        "explain": "Hun ble biskop i Hamar."
+        "explain": "Hun ble biskop i Hamar.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -311,7 +327,8 @@
         "type": "sant-usant",
         "text": "Reformjødedommen har kvinnelige rabbinere.",
         "correct": true,
-        "explain": "Ortodoks jødedom har bare mannlige rabbinere."
+        "explain": "Ortodoks jødedom har bare mannlige rabbinere.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -331,7 +348,8 @@
           "At prester kan gifte seg"
         ],
         "correct": 1,
-        "explain": "Velsignelse er ikke det samme som vigsel, og ordningen er omstridt i kirken."
+        "explain": "Velsignelse er ikke det samme som vigsel, og ordningen er omstridt i kirken.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -386,7 +404,8 @@
         "kriterier": [
           "Får fram at ortodoks jødedom har mannlige rabbinere.",
           "Får fram at reformjødedommen har kvinnelige rabbinere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -413,7 +432,8 @@
         "kriterier": [
           "Skiller mellom at paret kan få en velsignelse og at presten ikke kan vie dem.",
           "Får fram at velsignelsen skal være kort og uformell, ikke en egen seremoni eller et ritual."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,7 +442,8 @@
         "kriterier": [
           "Forklarer at norsk lov åpner for ekteskap mellom to av samme kjønn.",
           "Forklarer at trossamfunn selv kan bestemme hvem de vier."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -431,7 +452,8 @@
         "kriterier": [
           "Får fram at muslimske feminister tolker Koranen på nye måter.",
           "Forklarer at de krever større likestilling eller utfordrer ulike kjønnsroller."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
@@ -439,6 +461,7 @@
     "status": "sjekkes",
     "merknader": [
       "Sensitivt tema – bør gjennomgås av lærer for balanse og presisjon i beskrivelsen av de ulike religionenes syn. Fakta sjekket i september 2026."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

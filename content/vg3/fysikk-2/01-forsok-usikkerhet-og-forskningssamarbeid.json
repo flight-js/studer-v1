@@ -49,27 +49,33 @@
     },
     {
       "term": "CERN",
-      "def": "Europeisk forskningssenter for partikkelfysikk der Norge er medlem."
+      "def": "Europeisk forskningssenter for partikkelfysikk der Norge er medlem.",
+      "niva": "eksempel"
     },
     {
       "term": "Higgs-partikkelen",
-      "def": "Påvist ved CERN i 2012 – forklarer hvordan partikler får masse."
+      "def": "Påvist ved CERN i 2012 – forklarer hvordan partikler får masse.",
+      "niva": "eksempel"
     },
     {
       "term": "LIGO",
-      "def": "Detektor som målte gravitasjonsbølger i 2015."
+      "def": "Detektor som målte gravitasjonsbølger i 2015.",
+      "niva": "eksempel"
     },
     {
       "term": "Gravitasjonsbølger",
-      "def": "Krusninger i romtiden fra for eksempel sorte hull som smelter sammen."
+      "def": "Krusninger i romtiden fra for eksempel sorte hull som smelter sammen.",
+      "niva": "eksempel"
     },
     {
       "term": "Event Horizon Telescope",
-      "def": "Globalt nettverk av teleskoper som avbildet et sort hull i 2019."
+      "def": "Globalt nettverk av teleskoper som avbildet et sort hull i 2019.",
+      "niva": "eksempel"
     },
     {
       "term": "James Webb-romteleskopet",
-      "def": "Romteleskop fra 2021 som studerer de første galaksene."
+      "def": "Romteleskop fra 2021 som studerer de første galaksene.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -119,7 +125,8 @@
         "Higgs-partikkelen"
       ],
       "correct": 3,
-      "explain": "Med LHC-akseleratoren."
+      "explain": "Med LHC-akseleratoren.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -131,7 +138,8 @@
         "Nøytrinoer"
       ],
       "correct": 0,
-      "explain": "Fra to sorte hull som smeltet sammen."
+      "explain": "Fra to sorte hull som smeltet sammen.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -167,7 +175,8 @@
         "Det første bildet av skyggen av et sort hull"
       ],
       "correct": 3,
-      "explain": "Teleskoper over hele jorda ble koblet sammen."
+      "explain": "Teleskoper over hele jorda ble koblet sammen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -278,7 +287,8 @@
         "type": "sant-usant",
         "text": "Norge er medlem av CERN.",
         "correct": true,
-        "explain": "Norske forskere deltar i eksperimentene."
+        "explain": "Norske forskere deltar i eksperimentene.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -292,14 +302,16 @@
         "type": "sant-usant",
         "text": "Gravitasjonsbølgene som ble målt, bekreftet Einsteins generelle relativitetsteori.",
         "correct": true,
-        "explain": "Forutsagt rundt hundre år tidligere."
+        "explain": "Forutsagt rundt hundre år tidligere.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Et enkelt land kunne lett bygget LHC alene.",
         "correct": false,
-        "explain": "Prosjektet krever mange lands samarbeid."
+        "explain": "Prosjektet krever mange lands samarbeid.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -325,7 +337,8 @@
           "Havstrømmer"
         ],
         "correct": 0,
-        "explain": "Og atmosfæren til eksoplaneter."
+        "explain": "Og atmosfæren til eksoplaneter.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -402,7 +415,8 @@
         "kriterier": [
           "Beskriver hva Event Horizon Telescope viste eller hvordan nettverket av teleskoper ble brukt.",
           "Beskriver minst ett av områdene James Webb-romteleskopet studerer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -417,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

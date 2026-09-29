@@ -523,6 +523,7 @@
     "status": "utkast",
     "merknader": [
       "ppm er definert som mg per kg (masse). Noen læreverk bruker mg/L for vannløsninger, som er tilnærmet det samme for fortynnede løsninger."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

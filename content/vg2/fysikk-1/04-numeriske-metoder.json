@@ -67,7 +67,8 @@
     },
     {
       "term": "Fallskjermhopper",
-      "def": "Klassisk eksempel på bevegelse med ikke-konstant akselerasjon."
+      "def": "Klassisk eksempel på bevegelse med ikke-konstant akselerasjon.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

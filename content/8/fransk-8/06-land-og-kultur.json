@@ -24,7 +24,8 @@
     },
     {
       "term": "le Mont Blanc",
-      "def": "Det høyeste fjellet i Alpene"
+      "def": "Det høyeste fjellet i Alpene",
+      "niva": "eksempel"
     },
     {
       "term": "la baguette",
@@ -48,11 +49,13 @@
     },
     {
       "term": "la Chandeleur",
-      "def": "2. februar, da man spiser crêpes"
+      "def": "2. februar, da man spiser crêpes",
+      "niva": "eksempel"
     },
     {
       "term": "le poisson d'avril",
-      "def": "Aprilspøk der man fester en papirfisk på ryggen til noen"
+      "def": "Aprilspøk der man fester en papirfisk på ryggen til noen",
+      "niva": "eksempel"
     },
     {
       "term": "Liberté, égalité, fraternité",
@@ -64,11 +67,13 @@
     },
     {
       "term": "le Tour de France",
-      "def": "Verdens mest kjente sykkelritt"
+      "def": "Verdens mest kjente sykkelritt",
+      "niva": "eksempel"
     },
     {
       "term": "Karl Johan",
-      "def": "Den franske marskalken Bernadotte, konge av Sverige og Norge fra 1818"
+      "def": "Den franske marskalken Bernadotte, konge av Sverige og Norge fra 1818",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -142,7 +147,8 @@
         "Ost"
       ],
       "correct": 2,
-      "explain": "De runde, gylne pannekakene minner om sola."
+      "explain": "De runde, gylne pannekakene minner om sola.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +160,8 @@
         "Portugal"
       ],
       "correct": 3,
-      "explain": "I Portugal snakker man portugisisk."
+      "explain": "I Portugal snakker man portugisisk.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +173,8 @@
         "Charles de Gaulle"
       ],
       "correct": 1,
-      "explain": "Karl Johans gate i Oslo er oppkalt etter ham."
+      "explain": "Karl Johans gate i Oslo er oppkalt etter ham.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +186,8 @@
         "Et slott"
       ],
       "correct": 0,
-      "explain": "Mont Blanc ligger på grensen mellom Frankrike og Italia."
+      "explain": "Mont Blanc ligger på grensen mellom Frankrike og Italia.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +199,8 @@
         "En togtur"
       ],
       "correct": 2,
-      "explain": "Rittet arrangeres hver sommer og avsluttes i Paris."
+      "explain": "Rittet arrangeres hver sommer og avsluttes i Paris.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -298,7 +308,8 @@
         "type": "sant-usant",
         "text": "Mange norske ord, som «restaurant» og «sjåfør», kommer fra fransk.",
         "correct": true,
-        "explain": "Fransk var lenge et viktig kulturspråk i Europa."
+        "explain": "Fransk var lenge et viktig kulturspråk i Europa.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -319,7 +330,8 @@
         "type": "sant-usant",
         "text": "På «poisson d'avril» spiser man fisk til frokost.",
         "correct": false,
-        "explain": "Det er en aprilspøk der man fester papirfisker på ryggen til folk."
+        "explain": "Det er en aprilspøk der man fester papirfisker på ryggen til folk.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -345,7 +357,8 @@
           "Nattevakten"
         ],
         "correct": 0,
-        "explain": "Mona Lisa er malt av Leonardo da Vinci."
+        "explain": "Mona Lisa er malt av Leonardo da Vinci.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -358,7 +371,8 @@
           "Garfield"
         ],
         "correct": 2,
-        "explain": "Astérix handler om en landsby i Gallia som kjemper mot romerne."
+        "explain": "Astérix handler om en landsby i Gallia som kjemper mot romerne.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +383,8 @@
         "kriterier": [
           "Sier at la Seine renner gjennom Paris.",
           "Sier at la Loire er kjent for slottene sine."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -378,7 +393,8 @@
         "kriterier": [
           "Forklarer at fransk brukes i land utenfor Frankrike.",
           "Nevner et riktig eksempel fra Afrika og et riktig eksempel utenfor Afrika."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -405,7 +421,8 @@
         "kriterier": [
           "Knytter le poisson d'avril til 1. april og papirfiskespøken.",
           "Knytter la Fête de la musique til 21. juni og gratis konserter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -414,7 +431,8 @@
         "kriterier": [
           "Nevner to riktige norske lånord fra fransk.",
           "Forklarer at lånordene viser fransk påvirkning på norsk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,7 +441,8 @@
         "kriterier": [
           "Plasserer Martinique i Karibia og Réunion i Det indiske hav.",
           "Forklarer at områdene ligger langt unna og i ulike deler av verden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -433,12 +452,14 @@
           "Knytter Karl Johan til den franske marskalken Jean-Baptiste Bernadotte.",
           "Sier at han ble konge av Sverige og Norge i 1818 under navnet Karl Johan.",
           "Knytter navnet Karl Johan til Karl Johans gate i Oslo."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

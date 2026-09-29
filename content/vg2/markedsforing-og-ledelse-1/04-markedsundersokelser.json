@@ -31,7 +31,8 @@
     },
     {
       "term": "A/B-testing",
-      "def": "To versjoner testes mot hverandre for å se hvilken som virker best."
+      "def": "To versjoner testes mot hverandre for å se hvilken som virker best.",
+      "niva": "eksempel"
     },
     {
       "term": "Dybdeintervju",
@@ -71,7 +72,8 @@
     },
     {
       "term": "GDPR",
-      "def": "Personvernregelverket for behandling av personopplysninger."
+      "def": "Personvernregelverket for behandling av personopplysninger.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -109,7 +111,8 @@
         "En type segmentering"
       ],
       "correct": 2,
-      "explain": "Et eksperiment."
+      "explain": "Et eksperiment.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -169,7 +172,8 @@
         "Personvernregelverket (GDPR)"
       ],
       "correct": 3,
-      "explain": "Deltakerne skal vite hva dataene brukes til."
+      "explain": "Deltakerne skal vite hva dataene brukes til.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -349,7 +353,8 @@
           "At utvalget er stort"
         ],
         "correct": 2,
-        "explain": "En feilkilde."
+        "explain": "En feilkilde.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -429,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

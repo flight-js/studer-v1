@@ -337,7 +337,8 @@
           "hjest"
         ],
         "correct": 0,
-        "explain": "«Gjest» skrives med stum g: gj-."
+        "explain": "«Gjest» skrives med stum g: gj-.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -430,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

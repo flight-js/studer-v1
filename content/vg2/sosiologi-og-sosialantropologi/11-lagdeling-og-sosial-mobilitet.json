@@ -60,7 +60,8 @@
     },
     {
       "term": "Great Gatsby-kurven",
-      "def": "Land med stor ulikhet har ofte lav mobilitet."
+      "def": "Land med stor ulikhet har ofte lav mobilitet.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosial arv",
@@ -118,7 +119,8 @@
         "At land med stor ulikhet ofte har lav sosial mobilitet"
       ],
       "correct": 3,
-      "explain": "Lange trinn på stigen er vanskelige å klatre."
+      "explain": "Lange trinn på stigen er vanskelige å klatre.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -190,7 +192,8 @@
         "Det finnes ingen ulikhet"
       ],
       "correct": 1,
-      "explain": "Formue er mye skjevere fordelt."
+      "explain": "Formue er mye skjevere fordelt.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -294,7 +297,8 @@
         "type": "sant-usant",
         "text": "De nordiske landene har relativt høy sosial mobilitet.",
         "correct": true,
-        "explain": "Blant annet på grunn av gratis utdanning og små lønnsforskjeller."
+        "explain": "Blant annet på grunn av gratis utdanning og små lønnsforskjeller.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -420,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

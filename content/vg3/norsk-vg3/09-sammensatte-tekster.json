@@ -39,7 +39,8 @@
     },
     {
       "term": "Gyldne snitt",
-      "def": "Komposisjonsprinsipp der motivet plasseres utenfor midten."
+      "def": "Komposisjonsprinsipp der motivet plasseres utenfor midten.",
+      "niva": "eksempel"
     },
     {
       "term": "Forsterkende samspill",
@@ -353,7 +354,8 @@
         "kriterier": [
           "Forklarer at det handler om plasseringen av motivet.",
           "Får fram at motivet plasseres utenfor midten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -406,7 +408,8 @@
         "fasit": "Innlegget må merkes som reklame, siden reklame i sosiale medier skal være merket.",
         "kriterier": [
           "Sier at innlegget må merkes som reklame."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

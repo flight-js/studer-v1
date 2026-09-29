@@ -31,11 +31,13 @@
     },
     {
       "term": "Inspirerende ledelse",
-      "def": "Motiverer gjennom visjon, mening og personlig oppfølging."
+      "def": "Motiverer gjennom visjon, mening og personlig oppfølging.",
+      "niva": "eksempel"
     },
     {
       "term": "Psykologisk trygghet",
-      "def": "At det er trygt å si ifra og ta feil."
+      "def": "At det er trygt å si ifra og ta feil.",
+      "niva": "over-niva"
     },
     {
       "term": "Tuckmans faser",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Motivasjon i arbeidet",
-      "def": "Selvstendighet, mestring og mening."
+      "def": "Selvstendighet, mestring og mening.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +168,8 @@
         "Selvstendighet, mestring og mening"
       ],
       "correct": 3,
-      "explain": "Indre motivasjon."
+      "explain": "Indre motivasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +193,8 @@
         "For å slippe å jobbe"
       ],
       "correct": 1,
-      "explain": "Helst skriftlig."
+      "explain": "Helst skriftlig.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -282,7 +287,8 @@
         "type": "sant-usant",
         "text": "Mange investorer legger like stor vekt på teamet som på ideen.",
         "correct": true,
-        "explain": "Et godt team kan gjennomføre."
+        "explain": "Et godt team kan gjennomføre.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -329,7 +335,8 @@
           "Bare belønning i penger"
         ],
         "correct": 0,
-        "explain": "Kalles også transformasjonsledelse."
+        "explain": "Kalles også transformasjonsledelse.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -389,7 +396,8 @@
         "kriterier": [
           "Forklarer psykologisk trygghet som at det er trygt å si ifra og ta feil.",
           "Knytter tryggheten til at medarbeideren kan ta opp feilen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -416,12 +424,14 @@
         "kriterier": [
           "Forklarer at lederen kan motivere ved å tydeliggjøre en visjon eller meningen med arbeidet.",
           "Får fram personlig oppfølging av medarbeiderne."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

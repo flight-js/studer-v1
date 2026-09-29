@@ -28,15 +28,18 @@
     },
     {
       "term": "RegPoly(liste, 2)",
-      "def": "Andregradsregresjon i GeoGebra."
+      "def": "Andregradsregresjon i GeoGebra.",
+      "niva": "over-niva"
     },
     {
       "term": "RegEksp",
-      "def": "Eksponentiell regresjon i GeoGebra."
+      "def": "Eksponentiell regresjon i GeoGebra.",
+      "niva": "over-niva"
     },
     {
       "term": "RegPot",
-      "def": "Potensregresjon i GeoGebra."
+      "def": "Potensregresjon i GeoGebra.",
+      "niva": "over-niva"
     },
     {
       "term": "Velge modelltype",
@@ -106,7 +109,8 @@
         "Nullpunkt(liste)"
       ],
       "correct": 2,
-      "explain": "Tallet 2 angir graden."
+      "explain": "Tallet 2 angir graden.",
+      "niva": "over-niva"
     },
     {
       "id": "q04",
@@ -423,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

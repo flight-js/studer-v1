@@ -307,7 +307,8 @@
         "type": "sant-usant",
         "text": "Alle land i Latin-Amerika bruker euro.",
         "correct": false,
-        "explain": "Landene har egne valutaer, som peso."
+        "explain": "Landene har egne valutaer, som peso.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -371,7 +372,8 @@
         "kriterier": [
           "Explica que «la talla» se usa para la ropa.",
           "Explica que «el número» se usa para los zapatos."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -398,7 +400,8 @@
         "kriterier": [
           "Relaciona España con el euro.",
           "Relaciona México con el peso."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,7 +428,8 @@
         "kriterier": [
           "Explica que las dos palabras se refieren a la misma prenda.",
           "Relaciona «el jersey» con España y «el suéter» con muchos países de América Latina."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -434,12 +438,14 @@
         "kriterier": [
           "Indica que la empresa viene de Galicia.",
           "Sitúa Galicia en el noroeste de España."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

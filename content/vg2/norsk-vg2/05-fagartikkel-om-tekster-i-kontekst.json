@@ -330,7 +330,8 @@
           "Hvem var Njål?"
         ],
         "correct": 1,
-        "explain": "Den er avgrenset og legger opp til drøfting."
+        "explain": "Den er avgrenset og legger opp til drøfting.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -423,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

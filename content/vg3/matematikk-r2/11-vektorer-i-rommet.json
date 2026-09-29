@@ -67,7 +67,8 @@
     },
     {
       "term": "Dreiemoment",
-      "def": "τ = r × F"
+      "def": "τ = r × F",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -336,7 +337,8 @@
           "Temperatur"
         ],
         "correct": 2,
-        "explain": "Arbeid bruker skalarproduktet."
+        "explain": "Arbeid bruker skalarproduktet.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -410,12 +412,14 @@
         "kriterier": [
           "Forklarer at vektorproduktet gir en vektor vinkelrett på begge kantvektorene.",
           "Knytter normalvektoren til hvordan lys faller på flaten."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -63,7 +63,8 @@
     },
     {
       "term": "Oppreisning",
-      "def": "Erstatning for ikke-økonomisk skade."
+      "def": "Erstatning for ikke-økonomisk skade.",
+      "niva": "over-niva"
     },
     {
       "term": "Delt bevisbyrde",
@@ -293,7 +294,8 @@
         "type": "sant-usant",
         "text": "Det er gratis å klage til Diskrimineringsnemnda.",
         "correct": true,
-        "explain": "Senker terskelen for å klage."
+        "explain": "Senker terskelen for å klage.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -326,7 +328,8 @@
           "Kortere søknadsfrist"
         ],
         "correct": 0,
-        "explain": "Fjerner informasjon om grunnlag."
+        "explain": "Fjerner informasjon om grunnlag.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -339,7 +342,8 @@
           "Retten til overtidstillegg"
         ],
         "correct": 2,
-        "explain": "Også ytringsfrihet."
+        "explain": "Også ytringsfrihet.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -395,7 +399,8 @@
         "kriterier": [
           "Knytter et av tiltakene til å forebygge, avdekke eller redusere diskriminering.",
           "Forklarer kort hvordan tiltaket kan virke."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -403,7 +408,8 @@
         "fasit": "Oppreisning er erstatning for ikke-økonomisk skade. Det gjelder skade som ikke først og fremst handler om et økonomisk tap.",
         "kriterier": [
           "Forklarer at oppreisning er erstatning for ikke-økonomisk skade."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -411,12 +417,14 @@
         "fasit": "Saken kan bringes inn for domstolene.",
         "kriterier": [
           "Nevner domstolene som en annen instans saken kan bringes inn for."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -24,7 +24,8 @@
     },
     {
       "term": "Informasjonskapsel (cookie)",
-      "def": "Liten fil som nettsteder bruker til å huske og spore deg."
+      "def": "Liten fil som nettsteder bruker til å huske og spore deg.",
+      "niva": "eksempel"
     },
     {
       "term": "Personvern",
@@ -36,7 +37,8 @@
     },
     {
       "term": "GDPR",
-      "def": "Personvernforordningen, som gjelder i EU og EØS, også i Norge."
+      "def": "Personvernforordningen, som gjelder i EU og EØS, også i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Rett til sletting",
@@ -44,7 +46,8 @@
     },
     {
       "term": "Datatilsynet",
-      "def": "Myndigheten som passer på at personvernreglene følges i Norge."
+      "def": "Myndigheten som passer på at personvernreglene følges i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Samtykke",
@@ -56,7 +59,8 @@
     },
     {
       "term": "Creative Commons",
-      "def": "Lisenser som lar skapere gi andre lov til å bruke verket på bestemte vilkår."
+      "def": "Lisenser som lar skapere gi andre lov til å bruke verket på bestemte vilkår.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekkokammer",
@@ -118,7 +122,8 @@
         "Datatilsynet"
       ],
       "correct": 3,
-      "explain": "Datatilsynet kan gi pålegg og bøter til virksomheter som bryter reglene."
+      "explain": "Datatilsynet kan gi pålegg og bøter til virksomheter som bryter reglene.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -190,7 +195,8 @@
         "En type passord"
       ],
       "correct": 0,
-      "explain": "Lisensen sier hva andre har lov til, for eksempel å dele med navn på skaperen."
+      "explain": "Lisensen sier hva andre har lov til, for eksempel å dele med navn på skaperen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -306,7 +312,8 @@
         "type": "sant-usant",
         "text": "IP-adressen din kan være en personopplysning.",
         "correct": true,
-        "explain": "IP-adressen kan brukes til å knytte aktivitet på nett til deg."
+        "explain": "IP-adressen kan brukes til å knytte aktivitet på nett til deg.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -339,7 +346,8 @@
           "Et bildeprogram"
         ],
         "correct": 0,
-        "explain": "GDPR gir alle i EU og EØS de samme grunnleggende personvernrettighetene."
+        "explain": "GDPR gir alle i EU og EØS de samme grunnleggende personvernrettighetene.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -372,7 +380,8 @@
         "kriterier": [
           "Kjenner igjen retten til å få feil opplysninger rettet.",
           "Forklarer at tjenesten kan bes om å endre den uriktige opplysningen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -381,7 +390,8 @@
         "kriterier": [
           "Nevner retten til å trekke tilbake samtykke.",
           "Viser at samtykket var et ja til behandling av opplysninger, og at det kan ombestemmes."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -417,7 +427,8 @@
         "kriterier": [
           "Forklarer at opphavsrett gir skaperen kontroll over bruken av bildet.",
           "Forklarer at Creative Commons kan gi tillatelse til bruk på bestemte vilkår."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -434,6 +445,7 @@
     "status": "sjekkes",
     "merknader": [
       "Lov om aldersgrense for sosiale medier (fra 1. januar det året man fyller 16) var foreslått, men ikke vedtatt per september 2026. Oppdater temaet når Stortinget har behandlet loven."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

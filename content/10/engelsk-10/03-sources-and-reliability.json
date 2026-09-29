@@ -37,7 +37,8 @@
     },
     {
       "term": "Lateral reading",
-      "def": "Checking what other sources say about a website or claim, in new tabs."
+      "def": "Checking what other sources say about a website or claim, in new tabs.",
+      "niva": "eksempel"
     },
     {
       "term": "Fact-checking",
@@ -57,7 +58,8 @@
     },
     {
       "term": "Signal phrase",
-      "def": "Words that introduce a source: According to…, As … argues…"
+      "def": "Words that introduce a source: According to…, As … argues…",
+      "niva": "eksempel"
     },
     {
       "term": "List of references",
@@ -69,7 +71,8 @@
     },
     {
       "term": "AI and sources",
-      "def": "AI tools can invent facts and sources. Always check and be open about your use."
+      "def": "AI tools can invent facts and sources. Always check and be open about your use.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -131,7 +134,8 @@
         "Reading very slowly"
       ],
       "correct": 0,
-      "explain": "Fact-checkers often leave a site quickly to see what others say about it."
+      "explain": "Fact-checkers often leave a site quickly to see what others say about it.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -143,7 +147,8 @@
         "The end"
       ],
       "correct": 1,
-      "explain": "“According to…” introduces a source in your text."
+      "explain": "“According to…” introduces a source in your text.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -167,7 +172,8 @@
         "Because AI can produce convincing text that is wrong"
       ],
       "correct": 3,
-      "explain": "AI tools can make mistakes and even invent sources."
+      "explain": "AI tools can make mistakes and even invent sources.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -307,7 +313,8 @@
         "type": "sant-usant",
         "text": "AI chatbots can invent sources that do not exist.",
         "correct": true,
-        "explain": "This is why all facts and references from AI must be checked."
+        "explain": "This is why all facts and references from AI must be checked.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -391,7 +398,8 @@
         "kriterier": [
           "Describes checking the website or claim using other sources in new tabs.",
           "Mentions checking whether other reliable sources support the claim or using a fact-checking site."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -418,7 +426,8 @@
         "kriterier": [
           "Says to verify the fact using reliable sources and recognises that the chatbot may invent information or sources.",
           "Says to be open about how AI was used."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -433,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

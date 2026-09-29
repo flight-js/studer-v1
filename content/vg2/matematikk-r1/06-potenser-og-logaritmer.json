@@ -67,7 +67,8 @@
     },
     {
       "term": "pH",
-      "def": "−lg[H₃O⁺]"
+      "def": "−lg[H₃O⁺]",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +178,8 @@
         "7"
       ],
       "correct": 0,
-      "explain": "pH = −lg 10⁻³."
+      "explain": "pH = −lg 10⁻³.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -302,7 +304,8 @@
         "type": "sant-usant",
         "text": "En løsning med pH 3 er ti ganger så sur som en løsning med pH 4.",
         "correct": true,
-        "explain": "pH-skalaen er logaritmisk."
+        "explain": "pH-skalaen er logaritmisk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -422,12 +425,14 @@
         "kriterier": [
           "Kobler en økning på 10 dB til lydintensiteten.",
           "Sier at intensiteten blir ti ganger så stor."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -60,7 +60,8 @@
     },
     {
       "term": "l'ordonnance",
-      "def": "resepten"
+      "def": "resepten",
+      "niva": "eksempel"
     },
     {
       "term": "devoir: je dois",
@@ -72,7 +73,8 @@
     },
     {
       "term": "112 / 15",
-      "def": "Nødnummer i EU / ambulanse i Frankrike"
+      "def": "Nødnummer i EU / ambulanse i Frankrike",
+      "niva": "eksempel"
     },
     {
       "term": "manger équilibré",
@@ -162,7 +164,8 @@
         "Timen"
       ],
       "correct": 0,
-      "explain": "Du tar med resepten til apoteket."
+      "explain": "Du tar med resepten til apoteket.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -174,7 +177,8 @@
         "110"
       ],
       "correct": 1,
-      "explain": "I Frankrike kan du også ringe 15 for ambulanse."
+      "explain": "I Frankrike kan du også ringe 15 for ambulanse.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -311,14 +315,16 @@
         "type": "sant-usant",
         "text": "I Frankrike kan du ringe 15 for å få ambulanse.",
         "correct": true,
-        "explain": "112 virker også i hele EU."
+        "explain": "112 virker også i hele EU.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "«J'ai mal au cœur» betyr at jeg er forelsket.",
         "correct": false,
-        "explain": "Uttrykket betyr at jeg er kvalm."
+        "explain": "Uttrykket betyr at jeg er kvalm.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -331,7 +337,8 @@
           "Hvor høy feber har De?"
         ],
         "correct": 0,
-        "explain": "«depuis» betyr siden."
+        "explain": "«depuis» betyr siden.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -421,7 +428,8 @@
         "kriterier": [
           "Gir et råd om å sove nok.",
           "Gir et råd om å begrense skjermtiden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -436,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

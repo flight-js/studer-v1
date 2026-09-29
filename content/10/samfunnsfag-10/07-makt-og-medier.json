@@ -29,7 +29,8 @@
     },
     {
       "term": "Lobbyisme",
-      "def": "Å prøve å påvirke politikere på vegne av bedrifter eller organisasjoner."
+      "def": "Å prøve å påvirke politikere på vegne av bedrifter eller organisasjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Etos",
@@ -49,11 +50,13 @@
     },
     {
       "term": "Vær Varsom-plakaten",
-      "def": "Presseetiske regler for norske medier."
+      "def": "Presseetiske regler for norske medier.",
+      "niva": "eksempel"
     },
     {
       "term": "PFU",
-      "def": "Pressens Faglige Utvalg, som behandler klager på medier."
+      "def": "Pressens Faglige Utvalg, som behandler klager på medier.",
+      "niva": "eksempel"
     },
     {
       "term": "Dagsorden",
@@ -65,7 +68,8 @@
     },
     {
       "term": "Deepfake",
-      "def": "KI-laget bilde eller video som ser ekte ut."
+      "def": "KI-laget bilde eller video som ser ekte ut.",
+      "niva": "eksempel"
     },
     {
       "term": "Faktasjekk",
@@ -95,7 +99,8 @@
         "Teller stemmer"
       ],
       "correct": 1,
-      "explain": "Lobbyisme er lovlig, men åpenhet om hvem som påvirker, er viktig i et demokrati."
+      "explain": "Lobbyisme er lovlig, men åpenhet om hvem som påvirker, er viktig i et demokrati.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -131,7 +136,8 @@
         "En plakat i klasserommet"
       ],
       "correct": 0,
-      "explain": "Reglene handler blant annet om kildebruk, personvern og retten til å svare på kritikk."
+      "explain": "Reglene handler blant annet om kildebruk, personvern og retten til å svare på kritikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -155,7 +161,8 @@
         "En hemmelig chat"
       ],
       "correct": 2,
-      "explain": "Deepfakes kan brukes til å spre desinformasjon."
+      "explain": "Deepfakes kan brukes til å spre desinformasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -305,7 +312,8 @@
         "type": "sant-usant",
         "text": "Regler vedtatt i EU kan få betydning i Norge gjennom EØS-avtalen.",
         "correct": true,
-        "explain": "Norge er ikke medlem av EU, men må ta inn mange EU-regler gjennom EØS."
+        "explain": "Norge er ikke medlem av EU, men må ta inn mange EU-regler gjennom EØS.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -339,7 +347,8 @@
           "NAV"
         ],
         "correct": 0,
-        "explain": "PFU vurderer om mediene har fulgt Vær Varsom-plakaten."
+        "explain": "PFU vurderer om mediene har fulgt Vær Varsom-plakaten.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -421,7 +430,8 @@
         "kriterier": [
           "Forklarer at Vær Varsom-plakaten er presseetiske regler for norske medier.",
           "Forklarer at PFU behandler klager på medier."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -430,7 +440,8 @@
         "kriterier": [
           "Knytter EØS-avtalen til at EU-regler får betydning i Norge.",
           "Forklarer at beslutninger utenfor Norge dermed kan påvirke landet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -445,6 +456,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

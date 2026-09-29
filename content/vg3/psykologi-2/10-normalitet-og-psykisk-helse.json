@@ -67,7 +67,8 @@
     },
     {
       "term": "Sykdomsinnsikt",
-      "def": "Evnen til å forstå at man er syk."
+      "def": "Evnen til å forstå at man er syk.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -153,7 +154,8 @@
         "At WHO tar feil"
       ],
       "correct": 2,
-      "explain": "Endret over tid."
+      "explain": "Endret over tid.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +179,8 @@
         "Det gjelder bare voksne"
       ],
       "correct": 0,
-      "explain": "De opplever kanskje ikke seg selv som syke."
+      "explain": "De opplever kanskje ikke seg selv som syke.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -413,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

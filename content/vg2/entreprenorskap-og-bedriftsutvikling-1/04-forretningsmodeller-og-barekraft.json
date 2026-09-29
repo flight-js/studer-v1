@@ -59,7 +59,8 @@
     },
     {
       "term": "Annonsefinansiering",
-      "def": "Gratis for brukerne, annonsører betaler."
+      "def": "Gratis for brukerne, annonsører betaler.",
+      "niva": "eksempel"
     },
     {
       "term": "Utleie og deling",
@@ -93,7 +94,8 @@
         "Adam Smith"
       ],
       "correct": 0,
-      "explain": "Ni byggeklosser på ett ark."
+      "explain": "Ni byggeklosser på ett ark.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -177,7 +179,8 @@
         "De er ulovlige"
       ],
       "correct": 0,
-      "explain": "Brukeren betaler med data."
+      "explain": "Brukeren betaler med data.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -299,14 +302,16 @@
         "type": "sant-usant",
         "text": "En annonsefinansiert tjeneste kan være gratis for brukerne.",
         "correct": true,
-        "explain": "Annonsørene betaler."
+        "explain": "Annonsørene betaler.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Å bruke FNs bærekraftsmål i markedsføringen er alltid troverdig, uansett hva virksomheten gjør.",
         "correct": false,
-        "explain": "Det må være ærlig og konkret, ellers blir det grønnvasking."
+        "explain": "Det må være ærlig og konkret, ellers blir det grønnvasking.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -374,7 +379,8 @@
         "kriterier": [
           "Knytter gratis basis og betaling for ekstrafunksjoner til gratis grunnversjon.",
           "Knytter gratis bruk og betaling fra annonsører til annonsefinansiering."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -425,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

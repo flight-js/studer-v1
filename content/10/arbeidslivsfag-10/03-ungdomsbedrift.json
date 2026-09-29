@@ -24,7 +24,8 @@
     },
     {
       "term": "Ungt Entreprenørskap",
-      "def": "Organisasjon som støtter skoler som driver elev- og ungdomsbedrifter."
+      "def": "Organisasjon som støtter skoler som driver elev- og ungdomsbedrifter.",
+      "niva": "eksempel"
     },
     {
       "term": "Forretningsidé",
@@ -56,7 +57,8 @@
     },
     {
       "term": "Andel",
-      "def": "Eierandel i bedriften som selges for å skaffe startkapital."
+      "def": "Eierandel i bedriften som selges for å skaffe startkapital.",
+      "niva": "eksempel"
     },
     {
       "term": "Resultat",
@@ -154,7 +156,8 @@
         "Ved å ta pengene fra skolen"
       ],
       "correct": 1,
-      "explain": "Andelseierne får pengene tilbake ved avviklingen."
+      "explain": "Andelseierne får pengene tilbake ved avviklingen.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -190,7 +193,8 @@
         "Skolen overtar bedriften"
       ],
       "correct": 2,
-      "explain": "Avviklingen skjer ved slutten av skoleåret."
+      "explain": "Avviklingen skjer ved slutten av skoleåret.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -306,7 +310,8 @@
         "type": "sant-usant",
         "text": "Viktige beslutninger i elevbedriften kan tas på styremøter.",
         "correct": true,
-        "explain": "Styremøtene gir alle mulighet til å komme med forslag."
+        "explain": "Styremøtene gir alle mulighet til å komme med forslag.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -339,7 +344,8 @@
           "Ungt Entreprenørskap"
         ],
         "correct": 3,
-        "explain": "Ungt Entreprenørskap arrangerer også messer og konkurranser."
+        "explain": "Ungt Entreprenørskap arrangerer også messer og konkurranser.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -371,7 +377,8 @@
         "kriterier": [
           "Forklarer at elevbedrift drives av elever på ungdomsskolen som læring.",
           "Forklarer at Ungt Entreprenørskap støtter skoler som driver slike bedrifter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -416,7 +423,8 @@
         "kriterier": [
           "Peker på produksjonsansvarlig.",
           "Knytter rollen til både innkjøp og produksjon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -431,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

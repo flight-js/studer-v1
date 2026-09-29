@@ -56,7 +56,8 @@
     },
     {
       "term": "Docstring",
-      "def": "Beskrivelse øverst i en funksjon."
+      "def": "Beskrivelse øverst i en funksjon.",
+      "niva": "over-niva"
     },
     {
       "term": "Syntaksfeil",
@@ -68,7 +69,8 @@
     },
     {
       "term": "Debugger",
-      "def": "Verktøy for å gå gjennom koden steg for steg."
+      "def": "Verktøy for å gå gjennom koden steg for steg.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -166,7 +168,8 @@
         "5"
       ],
       "correct": 3,
-      "explain": "80 % er minst 75, men under 90."
+      "explain": "80 % er minst 75, men under 90.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -399,7 +402,8 @@
         "kriterier": [
           "Nevner hva funksjonen gjør.",
           "Nevner både parameterne og verdien funksjonen returnerer."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -423,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

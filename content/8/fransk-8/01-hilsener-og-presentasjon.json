@@ -194,7 +194,8 @@
         "En fransk sang"
       ],
       "correct": 2,
-      "explain": "Venner og familie hilser ofte med kinnkyss i Frankrike."
+      "explain": "Venner og familie hilser ofte med kinnkyss i Frankrike.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -298,7 +299,8 @@
         "type": "sant-usant",
         "text": "Fransk snakkes i mange land i Afrika.",
         "correct": true,
-        "explain": "For eksempel i Senegal og Elfenbenskysten."
+        "explain": "For eksempel i Senegal og Elfenbenskysten.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -369,7 +371,8 @@
         "kriterier": [
           "Forklarer at det handler om et fellesskap av fransktalende land.",
           "Får fram at fransk snakkes i flere land enn Frankrike."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -378,7 +381,8 @@
         "kriterier": [
           "Knytter «bonjour» til høflighet i butikken.",
           "Forklarer at det er en vanlig hilsen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -438,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

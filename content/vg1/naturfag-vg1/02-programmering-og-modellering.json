@@ -31,7 +31,8 @@
     },
     {
       "term": "matplotlib",
-      "def": "Python-bibliotek for å lage grafer."
+      "def": "Python-bibliotek for å lage grafer.",
+      "niva": "eksempel"
     },
     {
       "term": "Tidssteg (dt)",
@@ -153,7 +154,8 @@
         "Å lage nettsider"
       ],
       "correct": 2,
-      "explain": "Grafer gjør det lett å tolke resultatene."
+      "explain": "Grafer gjør det lett å tolke resultatene.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -383,7 +385,8 @@
         "kriterier": [
           "Velger en liste for å lagre flere målinger.",
           "Velger matplotlib for å lage grafen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

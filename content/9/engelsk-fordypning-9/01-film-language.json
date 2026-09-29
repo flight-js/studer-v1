@@ -64,7 +64,8 @@
     },
     {
       "term": "Hero's journey",
-      "def": "A story pattern where the hero leaves home, faces challenges, changes and returns."
+      "def": "A story pattern where the hero leaves home, faces challenges, changes and returns.",
+      "niva": "eksempel"
     },
     {
       "term": "Target audience",
@@ -166,7 +167,8 @@
         "To replace the film"
       ],
       "correct": 1,
-      "explain": "A trailer is a form of advertising."
+      "explain": "A trailer is a form of advertising.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -190,7 +192,8 @@
         "A film festival"
       ],
       "correct": 0,
-      "explain": "Many adventure and fantasy films follow this pattern."
+      "explain": "Many adventure and fantasy films follow this pattern.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -426,7 +429,8 @@
         "kriterier": [
           "Explains that a documentary can inform.",
           "Explains that a trailer aims to persuade people to watch the film."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -441,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

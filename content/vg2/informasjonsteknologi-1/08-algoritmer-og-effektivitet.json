@@ -35,7 +35,8 @@
     },
     {
       "term": "Utvalgssortering",
-      "def": "Finner minste element og setter det først, gang på gang."
+      "def": "Finner minste element og setter det først, gang på gang.",
+      "niva": "eksempel"
     },
     {
       "term": "Flettesortering",
@@ -55,7 +56,8 @@
     },
     {
       "term": "set og dict",
-      "def": "Datastrukturer med svært raske oppslag."
+      "def": "Datastrukturer med svært raske oppslag.",
+      "niva": "eksempel"
     },
     {
       "term": "Rekursiv algoritme",
@@ -63,11 +65,13 @@
     },
     {
       "term": "Grådig algoritme",
-      "def": "Velger det som ser best ut i hvert steg."
+      "def": "Velger det som ser best ut i hvert steg.",
+      "niva": "eksempel"
     },
     {
       "term": "Modulen time",
-      "def": "Brukes til å måle kjøretid i Python."
+      "def": "Brukes til å måle kjøretid i Python.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +169,8 @@
         "Set har svært raske oppslag uten å gå gjennom alle elementene"
       ],
       "correct": 3,
-      "explain": "Nær konstant tid."
+      "explain": "Nær konstant tid.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +182,8 @@
         "Målet"
       ],
       "correct": 0,
-      "explain": "Etter at alle elementene er sjekket."
+      "explain": "Etter at alle elementene er sjekket.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -326,7 +332,8 @@
           "Sorterer alltid først"
         ],
         "correct": 0,
-        "explain": "For eksempel vekslepenger med færrest mynter."
+        "explain": "For eksempel vekslepenger med færrest mynter.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -413,12 +420,14 @@
         "kriterier": [
           "Identifiserer algoritmen som grådig.",
           "Forklarer at den velger det som ser best ut i hvert steg."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

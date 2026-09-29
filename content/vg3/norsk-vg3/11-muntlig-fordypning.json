@@ -93,7 +93,8 @@
         "Litteratur og samfunn"
       ],
       "correct": 0,
-      "explain": "Gir en tydelig retning."
+      "explain": "Gir en tydelig retning.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -377,7 +378,8 @@
         "kriterier": [
           "Nevner primærtekstene og faglitteratur eller kontekst som relevante kilder.",
           "Knytter arbeidet med kildene til å utvikle eller støtte hovedpoeng, for eksempel med eksempler eller sitater."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

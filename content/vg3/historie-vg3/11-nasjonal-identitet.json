@@ -15,7 +15,8 @@
     },
     {
       "term": "Forestilte fellesskap",
-      "def": "Benedict Andersons betegnelse på nasjoner."
+      "def": "Benedict Andersons betegnelse på nasjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Nasjonalromantikken",
@@ -23,7 +24,8 @@
     },
     {
       "term": "P.A. Munch",
-      "def": "Historiker som framstilte sagatiden som en storhetstid."
+      "def": "Historiker som framstilte sagatiden som en storhetstid.",
+      "niva": "eksempel"
     },
     {
       "term": "Firehundreårsnatten",
@@ -31,15 +33,18 @@
     },
     {
       "term": "Asbjørnsen og Moe",
-      "def": "Samlet norske folkeeventyr."
+      "def": "Samlet norske folkeeventyr.",
+      "niva": "eksempel"
     },
     {
       "term": "Ivar Aasen",
-      "def": "Laget landsmålet, dagens nynorsk."
+      "def": "Laget landsmålet, dagens nynorsk.",
+      "niva": "eksempel"
     },
     {
       "term": "Brudeferden i Hardanger",
-      "def": "Tidemand og Gudes idealiserte maleri av bonde og natur."
+      "def": "Tidemand og Gudes idealiserte maleri av bonde og natur.",
+      "niva": "eksempel"
     },
     {
       "term": "Fornorskingspolitikk",
@@ -51,7 +56,8 @@
     },
     {
       "term": "Jordsalgsloven 1902",
-      "def": "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark."
+      "def": "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark.",
+      "niva": "eksempel"
     },
     {
       "term": "Romanifolket",
@@ -81,7 +87,8 @@
         "At nasjoner er naturlige"
       ],
       "correct": 1,
-      "explain": "Nasjoner bygges."
+      "explain": "Nasjoner bygges.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -117,7 +124,8 @@
         "Gjorde det vanskelig for folk som ikke kunne norsk, å kjøpe jord i Finnmark"
       ],
       "correct": 3,
-      "explain": "Et virkemiddel i fornorskingen."
+      "explain": "Et virkemiddel i fornorskingen.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +137,8 @@
         "Handelsstanden"
       ],
       "correct": 0,
-      "explain": "Også kalt tatere."
+      "explain": "Også kalt tatere.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +162,8 @@
         "Asbjørnsen"
       ],
       "correct": 2,
-      "explain": "Dagens nynorsk."
+      "explain": "Dagens nynorsk.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +175,8 @@
         "En rapport om fornorskingen av samer, kvener og skogfinner"
       ],
       "correct": 3,
-      "explain": "Om uretten som ble begått."
+      "explain": "Om uretten som ble begått.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +200,8 @@
         "1945"
       ],
       "correct": 1,
-      "explain": "Etter blant annet Wergelands kamp."
+      "explain": "Etter blant annet Wergelands kamp.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -313,7 +325,8 @@
           "Munch og Aasen"
         ],
         "correct": 1,
-        "explain": "På 1840-tallet."
+        "explain": "På 1840-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -339,7 +352,8 @@
           "Om 17. mai skal flyttes"
         ],
         "correct": 2,
-        "explain": "Norge er et mangfoldig samfunn."
+        "explain": "Norge er et mangfoldig samfunn.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -368,7 +382,8 @@
         "kriterier": [
           "Skiller riktig mellom folkeeventyrene til Asbjørnsen og Moe og dialektarbeidet til Aasen.",
           "Forklarer hvordan arbeidet deres bidro til å løfte fram norsk kultur eller identitet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -386,7 +401,8 @@
         "kriterier": [
           "Knytter bildet til bonden og naturen som uttrykk for det norske.",
           "Forklarer at idealiseringen innebærer at bildet framstiller et utvalgt eller opphøyd bilde av Norge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -419,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -67,7 +67,8 @@
     },
     {
       "term": "Krisepakker",
-      "def": "Ekstra offentlige tiltak i en krise, som under pandemien."
+      "def": "Ekstra offentlige tiltak i en krise, som under pandemien.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +178,8 @@
         "Stengte bankene"
       ],
       "correct": 0,
-      "explain": "For å holde etterspørselen oppe."
+      "explain": "For å holde etterspørselen oppe.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

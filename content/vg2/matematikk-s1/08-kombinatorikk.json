@@ -51,11 +51,13 @@
     },
     {
       "term": "PIN-kode med 4 siffer",
-      "def": "10 000 muligheter."
+      "def": "10 000 muligheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Gull, sølv og bronse blant 10",
-      "def": "720 muligheter."
+      "def": "720 muligheter.",
+      "niva": "eksempel"
     },
     {
       "term": "C(10, 3)",
@@ -63,11 +65,13 @@
     },
     {
       "term": "C(34, 7)",
-      "def": "5 379 616 – antall Lotto-rekker."
+      "def": "5 379 616 – antall Lotto-rekker.",
+      "niva": "eksempel"
     },
     {
       "term": "Pascals trekant",
-      "def": "Tabell over binomialkoeffisientene."
+      "def": "Tabell over binomialkoeffisientene.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -141,7 +145,8 @@
         "Uordnet med tilbakelegging"
       ],
       "correct": 1,
-      "explain": "Rekkefølgen spiller ingen rolle, og et tall trekkes bare én gang."
+      "explain": "Rekkefølgen spiller ingen rolle, og et tall trekkes bare én gang.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -287,7 +292,8 @@
         "type": "sant-usant",
         "text": "Det finnes over fem millioner mulige Lotto-rekker med 7 av 34 tall.",
         "correct": true,
-        "explain": "C(34, 7) = 5 379 616."
+        "explain": "C(34, 7) = 5 379 616.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -407,12 +413,14 @@
         "kriterier": [
           "Nevner at tallene i Pascals trekant er binomialkoeffisienter.",
           "Forklarer at et tall finnes ved å summere de to tallene over det."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

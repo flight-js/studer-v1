@@ -11,59 +11,73 @@
   "flashcards": [
     {
       "term": "Velázquez – Las Meninas",
-      "def": "Berømt maleri fra 1600-tallet i Museo del Prado"
+      "def": "Berømt maleri fra 1600-tallet i Museo del Prado",
+      "niva": "eksempel"
     },
     {
       "term": "Goya",
-      "def": "Spansk maler av kongelige portretter og krigsbilder"
+      "def": "Spansk maler av kongelige portretter og krigsbilder",
+      "niva": "eksempel"
     },
     {
       "term": "Picasso – Guernica",
-      "def": "Maleri om bombingen av Guernica i 1937"
+      "def": "Maleri om bombingen av Guernica i 1937",
+      "niva": "eksempel"
     },
     {
       "term": "Dalí",
-      "def": "Surrealistisk maler, kjent for smeltende klokker"
+      "def": "Surrealistisk maler, kjent for smeltende klokker",
+      "niva": "eksempel"
     },
     {
       "term": "Frida Kahlo",
-      "def": "Meksikansk maler kjent for selvportretter"
+      "def": "Meksikansk maler kjent for selvportretter",
+      "niva": "eksempel"
     },
     {
       "term": "Gaudí",
-      "def": "Arkitekten bak Sagrada Família og Park Güell"
+      "def": "Arkitekten bak Sagrada Família og Park Güell",
+      "niva": "eksempel"
     },
     {
       "term": "la Alhambra",
-      "def": "Praktfullt palass i Granada fra den muslimske tiden"
+      "def": "Praktfullt palass i Granada fra den muslimske tiden",
+      "niva": "eksempel"
     },
     {
       "term": "Don Quijote",
-      "def": "Roman av Cervantes fra 1605"
+      "def": "Roman av Cervantes fra 1605",
+      "niva": "eksempel"
     },
     {
       "term": "García Márquez",
-      "def": "Colombiansk forfatter av Hundre års ensomhet, magisk realisme"
+      "def": "Colombiansk forfatter av Hundre års ensomhet, magisk realisme",
+      "niva": "eksempel"
     },
     {
       "term": "Pablo Neruda",
-      "def": "Chilensk poet, Nobelpris i 1971"
+      "def": "Chilensk poet, Nobelpris i 1971",
+      "niva": "eksempel"
     },
     {
       "term": "el flamenco",
-      "def": "Sang, gitar og dans fra Andalucía"
+      "def": "Sang, gitar og dans fra Andalucía",
+      "niva": "eksempel"
     },
     {
       "term": "el tango",
-      "def": "Dans og musikk fra Argentina og Uruguay"
+      "def": "Dans og musikk fra Argentina og Uruguay",
+      "niva": "eksempel"
     },
     {
       "term": "el mariachi",
-      "def": "Tradisjonell musikk fra Mexico"
+      "def": "Tradisjonell musikk fra Mexico",
+      "niva": "eksempel"
     },
     {
       "term": "Guillermo del Toro",
-      "def": "Meksikansk filmskaper som har vunnet Oscar for beste film"
+      "def": "Meksikansk filmskaper som har vunnet Oscar for beste film",
+      "niva": "eksempel"
     },
     {
       "term": "El libro trata de …",
@@ -85,7 +99,8 @@
         "Skrik"
       ],
       "correct": 1,
-      "explain": "Maleriet henger i Museo Reina Sofía i Madrid."
+      "explain": "Maleriet henger i Museo Reina Sofía i Madrid.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -97,7 +112,8 @@
         "Salvador Dalí"
       ],
       "correct": 3,
-      "explain": "Surrealismen skildrer drømmeaktige verdener."
+      "explain": "Surrealismen skildrer drømmeaktige verdener.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -109,7 +125,8 @@
         "Miguel de Cervantes"
       ],
       "correct": 0,
-      "explain": "Romanen handler om familien Buendía i den oppdiktede byen Macondo."
+      "explain": "Romanen handler om familien Buendía i den oppdiktede byen Macondo.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -121,7 +138,8 @@
         "Cuba"
       ],
       "correct": 2,
-      "explain": "Mariachi-musikere har ofte store hatter og tradisjonelle drakter."
+      "explain": "Mariachi-musikere har ofte store hatter og tradisjonelle drakter.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -133,7 +151,8 @@
         "Granada"
       ],
       "correct": 3,
-      "explain": "Alhambra ligger i Andalucía i Sør-Spania."
+      "explain": "Alhambra ligger i Andalucía i Sør-Spania.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -145,7 +164,8 @@
         "Pablo Picasso"
       ],
       "correct": 1,
-      "explain": "Frida Kahlo er et ikon i Mexico."
+      "explain": "Frida Kahlo er et ikon i Mexico.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -157,7 +177,8 @@
         "Jota"
       ],
       "correct": 0,
-      "explain": "Flamenco kommer fra Spania."
+      "explain": "Flamenco kommer fra Spania.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -169,7 +190,8 @@
         "Toy Story"
       ],
       "correct": 2,
-      "explain": "Filmen viser tradisjonene med ofrendas og ringblomster."
+      "explain": "Filmen viser tradisjonene med ofrendas og ringblomster.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -193,7 +215,8 @@
         "Miguel de Cervantes"
       ],
       "correct": 0,
-      "explain": "Neruda er kjent for sine kjærlighetsdikt."
+      "explain": "Neruda er kjent for sine kjærlighetsdikt.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -289,28 +312,32 @@
         "type": "sant-usant",
         "text": "«Don Quijote» regnes som en av verdens første moderne romaner.",
         "correct": true,
-        "explain": "Den kom ut i 1605."
+        "explain": "Den kom ut i 1605.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Flamenco kommer fra Mexico.",
         "correct": false,
-        "explain": "Flamenco kommer fra Andalucía i Sør-Spania."
+        "explain": "Flamenco kommer fra Andalucía i Sør-Spania.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Museo del Prado i Madrid er et av verdens mest kjente kunstmuseer.",
         "correct": true,
-        "explain": "Der henger blant annet «Las Meninas»."
+        "explain": "Der henger blant annet «Las Meninas».",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Antoni Gaudí var en berømt fotballspiller.",
         "correct": false,
-        "explain": "Gaudí var arkitekt."
+        "explain": "Gaudí var arkitekt.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -323,7 +350,8 @@
           "Romantikk"
         ],
         "correct": 1,
-        "explain": "García Márquez er den mest kjente forfatteren i denne stilen."
+        "explain": "García Márquez er den mest kjente forfatteren i denne stilen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -349,7 +377,8 @@
           "Luc Besson"
         ],
         "correct": 2,
-        "explain": "Almodóvar er fra Spania."
+        "explain": "Almodóvar er fra Spania.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -360,7 +389,8 @@
         "kriterier": [
           "Forklarer at magiske hendelser skjer i en realistisk verden.",
           "Knytter magisk realisme til Gabriel García Márquez."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -369,7 +399,8 @@
         "kriterier": [
           "Nevner både kongelige portretter og krigsbilder som temaer hos Goya.",
           "Forklarer at Guernica viser grusomhetene ved bombingen av byen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -378,7 +409,8 @@
         "kriterier": [
           "Nevner både Sagrada Família og Park Güell.",
           "Beskriver de myke, fargerike formene som inspirert av naturen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -387,7 +419,8 @@
         "kriterier": [
           "Forklarer at Don Quijote tror vindmøllene er kjemper og kjemper mot dem.",
           "Nevner Cervantes og årstallet 1605."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -396,7 +429,8 @@
         "kriterier": [
           "Plasserer flamenco i Andalucía og tango i Argentina og Uruguay.",
           "Nevner sang, gitar og dans som deler av flamenco."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -406,7 +440,8 @@
           "Knytter Las Meninas til Velázquez og 1600-tallet.",
           "Oppgir Museo del Prado i Madrid som stedet der maleriet henger.",
           "Avslutter med den oppgitte meningssetningen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -415,7 +450,8 @@
         "kriterier": [
           "Knytter Frida Kahlo til selvportrettene.",
           "Knytter Diego Rivera til store veggmalerier om Mexicos historie."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -424,12 +460,14 @@
         "kriterier": [
           "Oppgir La Alhambra i Granada som palasset fra den muslimske tiden.",
           "Oppgir Machu Picchu i Peru som byen fra inkakulturen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

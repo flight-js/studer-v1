@@ -67,7 +67,8 @@
     },
     {
       "term": "Harmonisk rekke",
-      "def": "1 + 1/2 + 1/3 + … – divergerer."
+      "def": "1 + 1/2 + 1/3 + … – divergerer.",
+      "niva": "over-niva"
     },
     {
       "term": "Sum av 1 + 2 + … + n",
@@ -157,7 +158,8 @@
         "Den er geometrisk"
       ],
       "correct": 2,
-      "explain": "Selv om leddene går mot 0."
+      "explain": "Selv om leddene går mot 0.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -420,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

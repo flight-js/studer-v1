@@ -21,7 +21,8 @@
     },
     {
       "term": "Mikrokontroller",
-      "def": "Liten programmerbar datamaskin, som micro:bit, som kan lese sensorer."
+      "def": "Liten programmerbar datamaskin, som micro:bit, som kan lese sensorer.",
+      "niva": "over-niva"
     },
     {
       "term": "Sensor",
@@ -33,7 +34,8 @@
     },
     {
       "term": "Liste",
-      "def": "Struktur i et program som lagrer mange verdier, for eksempel målinger."
+      "def": "Struktur i et program som lagrer mange verdier, for eksempel målinger.",
+      "niva": "over-niva"
     },
     {
       "term": "Tidssteg",
@@ -45,11 +47,13 @@
     },
     {
       "term": "Rovdyr–byttedyr-modell",
-      "def": "Simulering av hvordan antall rovdyr og byttedyr påvirker hverandre."
+      "def": "Simulering av hvordan antall rovdyr og byttedyr påvirker hverandre.",
+      "niva": "eksempel"
     },
     {
       "term": "Halveringstid",
-      "def": "Tiden det tar før halvparten av et radioaktivt stoff har brutt ned."
+      "def": "Tiden det tar før halvparten av et radioaktivt stoff har brutt ned.",
+      "niva": "eksempel"
     },
     {
       "term": "Betingelse i måleprogram",
@@ -57,7 +61,8 @@
     },
     {
       "term": "Tilfeldige tall",
-      "def": "Brukes til å etterligne tilfeldige hendelser i simuleringer."
+      "def": "Brukes til å etterligne tilfeldige hendelser i simuleringer.",
+      "niva": "over-niva"
     },
     {
       "term": "Kontrollere sensoren",
@@ -155,7 +160,8 @@
         "De er aldri nyttige"
       ],
       "correct": 1,
-      "explain": "Mange prosesser i naturen har et tilfeldig element som kan etterlignes med tilfeldige tall."
+      "explain": "Mange prosesser i naturen har et tilfeldig element som kan etterlignes med tilfeldige tall.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -191,7 +197,8 @@
         "Å telle elevene i klassen"
       ],
       "correct": 2,
-      "explain": "Simuleringer kan vise prosesser som tar altfor lang tid å observere direkte."
+      "explain": "Simuleringer kan vise prosesser som tar altfor lang tid å observere direkte.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,14 +297,16 @@
         "type": "sant-usant",
         "text": "Værmeldinger bygger på dataprogrammer som simulerer atmosfæren.",
         "correct": true,
-        "explain": "Meteorologer bruker store datamodeller for å beregne været."
+        "explain": "Meteorologer bruker store datamodeller for å beregne været.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Målinger fra en sensor kan lagres i en liste i programmet.",
         "correct": true,
-        "explain": "Lister gjør det mulig å lagre og senere analysere mange målinger."
+        "explain": "Lister gjør det mulig å lagre og senere analysere mange målinger.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -317,7 +326,8 @@
           "En tredel"
         ],
         "correct": 1,
-        "explain": "Etter én halveringstid er halvparten igjen, etter to er det en firedel."
+        "explain": "Etter én halveringstid er halvparten igjen, etter to er det en firedel.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -363,7 +373,8 @@
         "kriterier": [
           "Forklarer at sensoren måler lysstyrken i omgivelsene.",
           "Forklarer at micro:bit-en leser sensoren eller behandler målingen med programmet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -372,7 +383,8 @@
         "kriterier": [
           "Forklarer at lista lagrer flere måleverdier.",
           "Knytter bruk av verdiene til å vise eller undersøke endringer, for eksempel med en graf."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -399,7 +411,8 @@
         "kriterier": [
           "Forklarer at populasjonsvekst handler om økning i antall individer.",
           "Forklarer at rovdyr–byttedyr-modellen handler om hvordan antallet av de to påvirker hverandre."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -408,7 +421,8 @@
         "kriterier": [
           "Forklarer at halveringstid er tiden det tar før halvparten av stoffet brytes ned.",
           "Viser at mengden blir halvert for hver halveringstid."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -423,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -19,7 +19,8 @@
     },
     {
       "term": "Retusjert reklame",
-      "def": "Reklame med endret kropp eller hud skal merkes."
+      "def": "Reklame med endret kropp eller hud skal merkes.",
+      "niva": "eksempel"
     },
     {
       "term": "Skjult reklame",
@@ -39,7 +40,8 @@
     },
     {
       "term": "Falsk førpris",
-      "def": "Oppdiktet «før»-pris som får tilbudet til å virke bedre."
+      "def": "Oppdiktet «før»-pris som får tilbudet til å virke bedre.",
+      "niva": "eksempel"
     },
     {
       "term": "Vern av barn",
@@ -63,7 +65,8 @@
     },
     {
       "term": "Overtredelsesgebyr",
-      "def": "Bot tilsynet kan gi ved brudd på loven."
+      "def": "Bot tilsynet kan gi ved brudd på loven.",
+      "niva": "eksempel"
     },
     {
       "term": "Samfunnsansvar",
@@ -71,7 +74,8 @@
     },
     {
       "term": "Manipulerende design",
-      "def": "Nettsider som lurer brukeren, for eksempel med skjulte knapper."
+      "def": "Nettsider som lurer brukeren, for eksempel med skjulte knapper.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -121,7 +125,8 @@
         "At reklamen er retusjert"
       ],
       "correct": 3,
-      "explain": "Regelen skal motvirke kroppspress."
+      "explain": "Regelen skal motvirke kroppspress.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -193,7 +198,8 @@
         "En prisliste"
       ],
       "correct": 1,
-      "explain": "Lurer brukeren."
+      "explain": "Lurer brukeren.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -423,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

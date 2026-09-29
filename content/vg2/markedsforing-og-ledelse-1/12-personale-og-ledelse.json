@@ -15,7 +15,8 @@
     },
     {
       "term": "Jan Carlzon",
-      "def": "Svensk flyselskapsleder som gjorde «sannhetens øyeblikk» kjent."
+      "def": "Svensk flyselskapsleder som gjorde «sannhetens øyeblikk» kjent.",
+      "niva": "eksempel"
     },
     {
       "term": "Intern markedsføring",
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

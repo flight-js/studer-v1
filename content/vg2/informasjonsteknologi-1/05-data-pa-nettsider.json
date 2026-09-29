@@ -63,7 +63,8 @@
     },
     {
       "term": "Chart.js",
-      "def": "JavaScript-bibliotek for diagrammer."
+      "def": "JavaScript-bibliotek for diagrammer.",
+      "niva": "eksempel"
     },
     {
       "term": "Ærlig framstilling",
@@ -316,7 +317,8 @@
           "Søylediagram med én søyle"
         ],
         "correct": 1,
-        "explain": "Punktdiagram viser sammenhenger."
+        "explain": "Punktdiagram viser sammenhenger.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -398,7 +400,8 @@
         "kriterier": [
           "Forklarer at Chart.js er et JavaScript-bibliotek.",
           "Forklarer at det gjør det enklere å lage diagrammer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,12 +419,14 @@
         "kriterier": [
           "Nevner testing med ekte brukere.",
           "Knytter testingen til om visningen er forståelig eller hjelper brukerne med å få vite det de trenger."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

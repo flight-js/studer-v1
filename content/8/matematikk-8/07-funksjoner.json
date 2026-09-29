@@ -64,7 +64,8 @@
     },
     {
       "term": "Ikke-lineær funksjon",
-      "def": "En funksjon med krum graf, for eksempel A = s², som vokser raskere og raskere."
+      "def": "En funksjon med krum graf, for eksempel A = s², som vokser raskere og raskere.",
+      "niva": "over-niva"
     },
     {
       "term": "Skala på aksene",
@@ -396,7 +397,8 @@
         "kriterier": [
           "Beskriver grafen til den lineære funksjonen som en rett linje med jevn endring.",
           "Beskriver A = s² som krum og med økende vekst."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -429,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

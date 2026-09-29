@@ -71,7 +71,8 @@
     },
     {
       "term": "Varmepumpe",
-      "def": "Flytter varme fra kaldt til varmt ved hjelp av arbeid."
+      "def": "Flytter varme fra kaldt til varmt ved hjelp av arbeid.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -346,7 +347,8 @@
           "Den bruker ingen energi"
         ],
         "correct": 2,
-        "explain": "Termodynamikkens andre lov krever tilført arbeid."
+        "explain": "Termodynamikkens andre lov krever tilført arbeid.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -411,7 +413,8 @@
         "kriterier": [
           "Forklarer at varme av seg selv går fra varmt til kaldt.",
           "Forklarer at arbeid må tilføres for å flytte varme fra kaldt til varmt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

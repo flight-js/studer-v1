@@ -47,7 +47,8 @@
     },
     {
       "term": "Bobo-dukke-forsøket",
-      "def": "Banduras forsøk der barn etterlignet en voksens aggresjon."
+      "def": "Banduras forsøk der barn etterlignet en voksens aggresjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Assimilasjon",
@@ -125,7 +126,8 @@
         "At barn lærer ved å observere voksne"
       ],
       "correct": 3,
-      "explain": "Modellæring."
+      "explain": "Modellæring.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -185,7 +187,8 @@
         "De gir søvn"
       ],
       "correct": 0,
-      "explain": "Brukes i pengespill og apper."
+      "explain": "Brukes i pengespill og apper.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -318,7 +321,8 @@
           "Det konkret operasjonelle"
         ],
         "correct": 1,
-        "explain": "Fra ungdomsalderen."
+        "explain": "Fra ungdomsalderen.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -382,7 +386,8 @@
         "kriterier": [
           "Nevner oppmerksomhet og hukommelse som nødvendige forutsetninger.",
           "Nevner evne til å utføre handlingen og motivasjon."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -424,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

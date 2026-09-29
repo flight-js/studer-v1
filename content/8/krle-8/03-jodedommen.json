@@ -311,14 +311,16 @@
         "type": "sant-usant",
         "text": "Jøder var utestengt fra Norge i Grunnloven fram til 1851.",
         "correct": true,
-        "explain": "Henrik Wergeland kjempet for å fjerne forbudet."
+        "explain": "Henrik Wergeland kjempet for å fjerne forbudet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Hanukka er en høytid om sommeren.",
         "correct": false,
-        "explain": "Hanukka er en lysfest som feires i desember."
+        "explain": "Hanukka er en lysfest som feires i desember.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -386,7 +388,8 @@
         "kriterier": [
           "Får fram at ortodokse følger loven strengt og ser den som gitt én gang for alle.",
           "Skiller mellom konservatives tilpasning av tradisjonen og reformjøders syn på ny tolkning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -431,12 +434,14 @@
         "kriterier": [
           "Knytter Rosh hashana til det jødiske nyttåret.",
           "Knytter Hanukka til en lysfest i desember."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

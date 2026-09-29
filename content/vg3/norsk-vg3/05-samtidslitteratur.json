@@ -19,15 +19,18 @@
     },
     {
       "term": "Jan Kjærstad",
-      "def": "Postmodernistisk forfatter, skrev Homo falsus og Wergeland-trilogien."
+      "def": "Postmodernistisk forfatter, skrev Homo falsus og Wergeland-trilogien.",
+      "niva": "eksempel"
     },
     {
       "term": "Beatles",
-      "def": "Lars Saabye Christensens oppvekstroman fra 1984."
+      "def": "Lars Saabye Christensens oppvekstroman fra 1984.",
+      "niva": "eksempel"
     },
     {
       "term": "Herbjørg Wassmo",
-      "def": "Skrev Tora-bøkene og Dinas bok."
+      "def": "Skrev Tora-bøkene og Dinas bok.",
+      "niva": "eksempel"
     },
     {
       "term": "Jon Fosse",
@@ -43,23 +46,28 @@
     },
     {
       "term": "Min kamp",
-      "def": "Knausgårds romanverk i seks bind (2009–2011)."
+      "def": "Knausgårds romanverk i seks bind (2009–2011).",
+      "niva": "eksempel"
     },
     {
       "term": "Arv og miljø",
-      "def": "Vigdis Hjorths roman fra 2016 om en familiekonflikt."
+      "def": "Vigdis Hjorths roman fra 2016 om en familiekonflikt.",
+      "niva": "eksempel"
     },
     {
       "term": "Alle utlendinger har lukka gardiner",
-      "def": "Maria Navarro Skarangers roman fra 2015."
+      "def": "Maria Navarro Skarangers roman fra 2015.",
+      "niva": "eksempel"
     },
     {
       "term": "Tante Ulrikkes vei",
-      "def": "Zeshan Shakars roman fra 2017 om unge menn i en drabantby."
+      "def": "Zeshan Shakars roman fra 2017 om unge menn i en drabantby.",
+      "niva": "eksempel"
     },
     {
       "term": "Bienes historie",
-      "def": "Maja Lundes klimaroman fra 2015."
+      "def": "Maja Lundes klimaroman fra 2015.",
+      "niva": "eksempel"
     },
     {
       "term": "Klimalitteratur",
@@ -67,7 +75,8 @@
     },
     {
       "term": "Spoken word",
-      "def": "Poesi skrevet for å framføres muntlig."
+      "def": "Poesi skrevet for å framføres muntlig.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -105,7 +114,8 @@
         "Jan Kjærstad"
       ],
       "correct": 2,
-      "explain": "Han skriver på nynorsk."
+      "explain": "Han skriver på nynorsk.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -129,7 +139,8 @@
         "Om rim i lyrikken"
       ],
       "correct": 0,
-      "explain": "Knausgård skrev om egen familie."
+      "explain": "Knausgård skrev om egen familie.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +152,8 @@
         "En konflikt på en øy"
       ],
       "correct": 1,
-      "explain": "Zeshan Shakar, 2017."
+      "explain": "Zeshan Shakar, 2017.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +165,8 @@
         "Min kamp"
       ],
       "correct": 2,
-      "explain": "Maja Lunde, 2015."
+      "explain": "Maja Lunde, 2015.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +190,8 @@
         "Engelsk"
       ],
       "correct": 0,
-      "explain": "Nær muntlig ungdomsspråk."
+      "explain": "Nær muntlig ungdomsspråk.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -276,14 +290,16 @@
         "type": "sant-usant",
         "text": "Sakprosa har fått stor plass i samtidslitteraturen.",
         "correct": true,
-        "explain": "Grensen mellom sjangre er flytende."
+        "explain": "Grensen mellom sjangre er flytende.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Min kamp består av tre bind.",
         "correct": false,
-        "explain": "Den består av seks bind."
+        "explain": "Den består av seks bind.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -310,7 +326,8 @@
           "Linn Ullmann"
         ],
         "correct": 1,
-        "explain": "Om jenta Tora."
+        "explain": "Om jenta Tora.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -323,7 +340,8 @@
           "Dinas bok"
         ],
         "correct": 0,
-        "explain": "Lars Saabye Christensen."
+        "explain": "Lars Saabye Christensen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -347,7 +365,8 @@
         "kriterier": [
           "Knytter postmodernismen til lek med fortellere eller forventninger.",
           "Forklarer hvordan dette kommer fram i Homo falsus."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -356,7 +375,8 @@
         "kriterier": [
           "Får fram at Beatles handler om fire gutter som vokser opp i Oslo på 1960- og 70-tallet.",
           "Får fram at De usynlige handler om livet på en liten øy på Helgeland."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -365,7 +385,8 @@
         "kriterier": [
           "Nevner at romanen handler om krigsbarn.",
           "Nevner at romanen tar opp overgrep."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -374,7 +395,8 @@
         "kriterier": [
           "Får fram forbindelsen mellom Min kamp og Knausgårds eget liv eller familie.",
           "Får fram at lesere knyttet konflikten i Arv og miljø til Hjorths egen familie."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -383,7 +405,8 @@
         "kriterier": [
           "Knytter romanene til unge mennesker eller miljøer i Oslo.",
           "Nevner et relevant tema, som identitet, tilhørighet, fordommer eller klasse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -392,7 +415,8 @@
         "kriterier": [
           "Bruker begrepet spoken word.",
           "Forklarer at det er poesi laget for muntlig framføring."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -401,7 +425,8 @@
         "kriterier": [
           "Knytter bienes mulige forsvinning til menneskets forhold til naturen.",
           "Knytter romanens spørsmål til framtiden eller klimalitteratur."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

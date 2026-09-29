@@ -55,7 +55,8 @@
     },
     {
       "term": "Dagligvaretilsynet",
-      "def": "Fører tilsyn med god handelsskikk i dagligvarekjeden."
+      "def": "Fører tilsyn med god handelsskikk i dagligvarekjeden.",
+      "niva": "eksempel"
     },
     {
       "term": "Vertikal integrasjon",
@@ -189,7 +190,8 @@
         "For å stenge butikker"
       ],
       "correct": 1,
-      "explain": "Med et eget tilsyn."
+      "explain": "Med et eget tilsyn.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

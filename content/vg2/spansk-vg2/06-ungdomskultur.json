@@ -17,7 +17,8 @@
     },
     {
       "term": "Las Fallas",
-      "def": "Fest i Valencia i mars der figurer brennes"
+      "def": "Fest i Valencia i mars der figurer brennes",
+      "niva": "eksempel"
     },
     {
       "term": "La Tomatina",
@@ -29,11 +30,13 @@
     },
     {
       "term": "El Clásico",
-      "def": "Fotballkampen mellom Real Madrid og FC Barcelona"
+      "def": "Fotballkampen mellom Real Madrid og FC Barcelona",
+      "niva": "eksempel"
     },
     {
       "term": "guay / mola",
-      "def": "kult (Spania)"
+      "def": "kult (Spania)",
+      "niva": "eksempel"
     },
     {
       "term": "vale",
@@ -41,11 +44,13 @@
     },
     {
       "term": "chévere",
-      "def": "kult (Colombia, Venezuela m.fl.)"
+      "def": "kult (Colombia, Venezuela m.fl.)",
+      "niva": "eksempel"
     },
     {
       "term": "chido",
-      "def": "kult (Mexico)"
+      "def": "kult (Mexico)",
+      "niva": "eksempel"
     },
     {
       "term": "para ti",
@@ -155,7 +160,8 @@
         "En dans"
       ],
       "correct": 2,
-      "explain": "Følges over hele verden."
+      "explain": "Følges over hele verden.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -179,7 +185,8 @@
         "tío"
       ],
       "correct": 0,
-      "explain": "Guay er vanlig i Spania."
+      "explain": "Guay er vanlig i Spania.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -347,7 +354,8 @@
           "Enrique Iglesias"
         ],
         "correct": 2,
-        "explain": "Rosalía er fra Spania og Shakira fra Colombia."
+        "explain": "Rosalía er fra Spania og Shakira fra Colombia.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -358,7 +366,8 @@
         "kriterier": [
           "Plasserer Las Fallas i Valencia i mars og nevner at figurer brennes.",
           "Plasserer La Tomatina i Buñol i august og beskriver den som en tomatkrig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -367,7 +376,8 @@
         "kriterier": [
           "Nevner minst to av elementene: altere, blomster, sukkerhodeskaller eller musikk.",
           "Knytter elementene til at de døde minnes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -376,7 +386,8 @@
         "kriterier": [
           "Forklarer at begge uttrykkene betyr «kult».",
           "Knytter «chévere» til Venezuela eller andre land som Colombia, og «mola» til Spania."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -394,7 +405,8 @@
         "kriterier": [
           "Plasserer Bad Bunny i Puerto Rico.",
           "Plasserer Rosalía i Spania."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -412,7 +424,8 @@
         "kriterier": [
           "Forklarer at eleven får øve på spansk med en spansktalende partner.",
           "Forklarer at partneren kan få øve på norsk eller engelsk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -421,12 +434,14 @@
         "kriterier": [
           "Forklarer at klokka 20 er tidligere enn det som ofte er vanlig.",
           "Oppgir at kvelden ofte starter etter klokka 22."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

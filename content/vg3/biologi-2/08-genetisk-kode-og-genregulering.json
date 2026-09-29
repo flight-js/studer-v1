@@ -51,7 +51,8 @@
     },
     {
       "term": "Lac-operonet",
-      "def": "Gener hos bakterier som slås på når laktose er til stede."
+      "def": "Gener hos bakterier som slås på når laktose er til stede.",
+      "niva": "eksempel"
     },
     {
       "term": "Transkripsjonsfaktorer",
@@ -141,7 +142,8 @@
         "DNA-et endres"
       ],
       "correct": 1,
-      "explain": "Enzymene lages bare når de trengs."
+      "explain": "Enzymene lages bare når de trengs.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -300,7 +302,8 @@
         "type": "sant-usant",
         "text": "mRNA-vaksiner endrer arvestoffet i cellekjernen.",
         "correct": false,
-        "explain": "De gir en oppskrift som cellene bruker til å lage et protein."
+        "explain": "De gir en oppskrift som cellene bruker til å lage et protein.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -339,7 +342,8 @@
           "Fra fisk"
         ],
         "correct": 2,
-        "explain": "Rekombinant DNA."
+        "explain": "Rekombinant DNA.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -368,7 +372,8 @@
         "kriterier": [
           "Beskriver at menneskets insulin-gen settes inn i bakteriene.",
           "Forklarer at bakteriene dermed kan produsere insulin."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -377,7 +382,8 @@
         "kriterier": [
           "Forklarer at genterapi tilfører eller reparerer gener for å behandle arvelige sykdommer.",
           "Forklarer at mRNA-vaksiner gir en oppskrift på et protein som trener immunforsvaret."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -386,7 +392,8 @@
         "kriterier": [
           "Knytter transkripsjonsfaktorer til regulering av gener ved binding til DNA.",
           "Knytter små RNA-molekyler til nedbryting av mRNA eller hindring av translasjon."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -419,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -31,7 +31,8 @@
     },
     {
       "term": "Medianinntekt",
-      "def": "Brukes fordi få svært høye inntekter ikke påvirker den mye."
+      "def": "Brukes fordi få svært høye inntekter ikke påvirker den mye.",
+      "niva": "eksempel"
     },
     {
       "term": "Spredningsmål",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Varians",
-      "def": "Gjennomsnittet av de kvadrerte avvikene – standardavviket i andre."
+      "def": "Gjennomsnittet av de kvadrerte avvikene – standardavviket i andre.",
+      "niva": "over-niva"
     },
     {
       "term": "Klassemidtpunkt",
@@ -345,7 +347,8 @@
           "Q3 − Q1"
         ],
         "correct": 2,
-        "explain": "Standardavviket er kvadratroten av variansen."
+        "explain": "Standardavviket er kvadratroten av variansen.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -356,7 +359,8 @@
         "kriterier": [
           "Forklarer at variansen bygger på kvadrerte avvik fra gjennomsnittet.",
           "Forklarer at standardavviket er kvadratroten av variansen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -392,7 +396,8 @@
         "kriterier": [
           "Bruker de kvadrerte avvikene til å finne variansen.",
           "Deler summen 32 på 8 og får variansen 4."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -425,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

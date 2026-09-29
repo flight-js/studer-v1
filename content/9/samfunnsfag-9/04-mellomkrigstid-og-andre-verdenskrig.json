@@ -166,7 +166,8 @@
         "Bergensbanen"
       ],
       "correct": 1,
-      "explain": "Tungtvann kunne brukes i tysk atomforskning."
+      "explain": "Tungtvann kunne brukes i tysk atomforskning.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -403,7 +404,8 @@
         "kriterier": [
           "Forklarer at Storbritannia og Frankrike ga etter for Hitlers krav.",
           "Får fram at målet deres var å unngå krig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -445,6 +447,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

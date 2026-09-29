@@ -301,7 +301,8 @@
         "type": "sant-usant",
         "text": "Det er vanskelig å få togbilletter i Kina under vårfestivalen.",
         "correct": true,
-        "explain": "Hundrevis av millioner reiser hjem."
+        "explain": "Hundrevis av millioner reiser hjem.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -385,7 +386,8 @@
         "kriterier": [
           "Forklarer at 高铁 er et høyhastighetstog.",
           "Gir en korrekt opplysning om nettets størrelse, hastighet eller forbindelser mellom store byer i Kina."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -394,7 +396,8 @@
         "kriterier": [
           "Nevner minst to av bruksområdene billetter, kart og betaling.",
           "Knytter bruksområdene til praktiske behov på reisen, som å ordne billetter eller finne fram."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -403,7 +406,8 @@
         "kriterier": [
           "Får fram at svært mange mennesker reiser hjem under vårfestivalen.",
           "Knytter det store antallet reisende til at det er vanskelig å få billetter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -412,7 +416,8 @@
         "kriterier": [
           "Skriver en forespørsel om en billett til Shanghai på kinesisk.",
           "Bruker 张 som mengdeord for billetten og får fram at den skal til Shanghai."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -427,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

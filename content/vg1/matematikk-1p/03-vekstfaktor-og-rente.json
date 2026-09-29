@@ -64,7 +64,8 @@
     },
     {
       "term": "Forbrukslån",
-      "def": "Lån uten sikkerhet, ofte med svært høy rente."
+      "def": "Lån uten sikkerhet, ofte med svært høy rente.",
+      "niva": "eksempel"
     },
     {
       "term": "Premiss",
@@ -178,7 +179,8 @@
         "De må betales tilbake på én dag"
       ],
       "correct": 0,
-      "explain": "Høy rente gjør at gjelden kan vokse raskt."
+      "explain": "Høy rente gjør at gjelden kan vokse raskt.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -423,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

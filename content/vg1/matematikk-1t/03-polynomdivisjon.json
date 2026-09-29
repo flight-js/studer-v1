@@ -67,7 +67,8 @@
     },
     {
       "term": "Skrå asymptote",
-      "def": "Kan finnes med polynomdivisjon for rasjonale funksjoner."
+      "def": "Kan finnes med polynomdivisjon for rasjonale funksjoner.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

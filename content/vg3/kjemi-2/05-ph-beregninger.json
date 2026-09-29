@@ -63,15 +63,18 @@
     },
     {
       "term": "Ekvivalenspunkt",
-      "def": "Punktet i en titrering der stoffmengdene er ekvivalente."
+      "def": "Punktet i en titrering der stoffmengdene er ekvivalente.",
+      "niva": "over-niva"
     },
     {
       "term": "Halvtitrerpunkt",
-      "def": "Her er pH = pKa for en svak syre."
+      "def": "Her er pH = pKa for en svak syre.",
+      "niva": "over-niva"
     },
     {
       "term": "Indikator",
-      "def": "Stoff som skifter farge i et bestemt pH-område."
+      "def": "Stoff som skifter farge i et bestemt pH-område.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -169,7 +172,8 @@
         "Lik pKa"
       ],
       "correct": 3,
-      "explain": "Da er [HA] = [A⁻]."
+      "explain": "Da er [HA] = [A⁻].",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -327,7 +331,8 @@
           "Den spiller ingen rolle"
         ],
         "correct": 0,
-        "explain": "Omslagsområdet må passe."
+        "explain": "Omslagsområdet må passe.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -387,7 +392,8 @@
         "kriterier": [
           "Plasserer ekvivalenspunktet i en titrering.",
           "Forklarer at stoffmengdene da er ekvivalente."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -396,7 +402,8 @@
         "kriterier": [
           "Knytter valget av indikator til pH-området der den skifter farge.",
           "Knytter indikatorvalget til pH-en ved ekvivalenspunktet."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -420,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

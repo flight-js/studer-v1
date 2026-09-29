@@ -153,7 +153,8 @@
         "Mindre forskning"
       ],
       "correct": 2,
-      "explain": "Nye næringer med lave utslipp."
+      "explain": "Nye næringer med lave utslipp.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -379,7 +380,8 @@
         "fasit": "Staten har ansvar for både NAV og universiteter. Begge er blant oppgavene som ligger på statlig nivå.",
         "kriterier": [
           "Plasserer ansvaret for både NAV og universiteter hos staten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -421,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

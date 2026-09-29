@@ -165,7 +165,8 @@
         "Et enkeltvedtak"
       ],
       "correct": 3,
-      "explain": "Kan påklages."
+      "explain": "Kan påklages.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -386,7 +387,8 @@
         "kriterier": [
           "Nevner at eleven kan be om begrunnelse og klage.",
           "Sier at eleven skal få skriftlig svar på klagen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -413,7 +415,8 @@
         "kriterier": [
           "Sier at paragrafnumrene i den gamle forvaltningsloven fra 1967 gjelder.",
           "Får fram at den nye loven var vedtatt, men ennå ikke trådt i kraft i september 2026."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
@@ -421,6 +424,7 @@
     "status": "sjekkes",
     "merknader": [
       "Ny forvaltningslov (LOV-2025-06-20-81) er vedtatt, men var ikke trådt i kraft per september 2026. Oppdater paragrafnumrene når den nye loven trer i kraft."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

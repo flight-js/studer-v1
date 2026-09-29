@@ -20,7 +20,8 @@
     },
     {
       "term": "«Firehundreårsnatten»",
-      "def": "Nasjonalromantisk betegnelse på tiden under Danmark."
+      "def": "Nasjonalromantisk betegnelse på tiden under Danmark.",
+      "niva": "eksempel"
     },
     {
       "term": "Minnekultur",
@@ -28,7 +29,8 @@
     },
     {
       "term": "Deportasjonen av norske jøder",
-      "def": "Skjedde i 1942 under okkupasjonen."
+      "def": "Skjedde i 1942 under okkupasjonen.",
+      "niva": "eksempel"
     },
     {
       "term": "Historiesyn",
@@ -52,11 +54,13 @@
     },
     {
       "term": "Annales-skolen",
-      "def": "Vekt på langsomme strukturer som geografi og mentalitet."
+      "def": "Vekt på langsomme strukturer som geografi og mentalitet.",
+      "niva": "eksempel"
     },
     {
       "term": "Fernand Braudel",
-      "def": "Historiker kjent for «den lange varigheten»."
+      "def": "Historiker kjent for «den lange varigheten».",
+      "niva": "eksempel"
     },
     {
       "term": "Aktørorientert historiesyn",
@@ -118,7 +122,8 @@
         "Langsomme strukturer som geografi, klima og mentalitet"
       ],
       "correct": 3,
-      "explain": "«Den lange varigheten»."
+      "explain": "«Den lange varigheten».",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -178,7 +183,8 @@
         "Krigen blir ikke lenger studert"
       ],
       "correct": 0,
-      "explain": "Ny forskning ga nye perspektiver."
+      "explain": "Ny forskning ga nye perspektiver.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -283,14 +289,16 @@
         "type": "sant-usant",
         "text": "Det kristne historiesynet er lineært.",
         "correct": true,
-        "explain": "Fra skapelsen mot dommedag."
+        "explain": "Fra skapelsen mot dommedag.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Nasjonalromantikken la vekt på tiden under Danmark som en gullalder.",
         "correct": false,
-        "explain": "Vikingtiden og middelalderen ble framstilt som gullalder."
+        "explain": "Vikingtiden og middelalderen ble framstilt som gullalder.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -330,7 +338,8 @@
           "Postkolonialisme"
         ],
         "correct": 0,
-        "explain": "Fornuft og vitenskap skulle gi framskritt."
+        "explain": "Fornuft og vitenskap skulle gi framskritt.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -417,12 +426,14 @@
         "kriterier": [
           "Knytter det kristne historiesynet til en utvikling fra skapelsen mot dommedag.",
           "Knytter framskrittstroen til bedre tilstander og til fornuft, vitenskap eller frihet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

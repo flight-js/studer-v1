@@ -19,7 +19,8 @@
     },
     {
       "term": "Anstendig arbeid",
-      "def": "Arbeid med rettferdig lønn, trygge forhold og uten barnearbeid."
+      "def": "Arbeid med rettferdig lønn, trygge forhold og uten barnearbeid.",
+      "niva": "eksempel"
     },
     {
       "term": "Lineær økonomi",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Redesign",
-      "def": "Å lage noe nytt av noe gammelt."
+      "def": "Å lage noe nytt av noe gammelt.",
+      "niva": "eksempel"
     },
     {
       "term": "Kildesortering",
@@ -59,15 +61,18 @@
     },
     {
       "term": "Svanemerket",
-      "def": "Nordisk miljømerke for produkter med lavere miljøbelastning."
+      "def": "Nordisk miljømerke for produkter med lavere miljøbelastning.",
+      "niva": "eksempel"
     },
     {
       "term": "Fairtrade",
-      "def": "Merke som viser at produsentene har fått en rettferdig betaling."
+      "def": "Merke som viser at produsentene har fått en rettferdig betaling.",
+      "niva": "eksempel"
     },
     {
       "term": "Grønne jobber",
-      "def": "Jobber som bidrar til et mer bærekraftig samfunn."
+      "def": "Jobber som bidrar til et mer bærekraftig samfunn.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -141,7 +146,8 @@
         "At produktet er økologisk"
       ],
       "correct": 0,
-      "explain": "Fairtrade handler om den sosiale dimensjonen av bærekraft."
+      "explain": "Fairtrade handler om den sosiale dimensjonen av bærekraft.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +171,8 @@
         "Å kjøre tom lastebil"
       ],
       "correct": 1,
-      "explain": "Fornybar energi, reparasjon og ombruk gir grønne jobber."
+      "explain": "Fornybar energi, reparasjon og ombruk gir grønne jobber.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +184,8 @@
         "Mål 8"
       ],
       "correct": 3,
-      "explain": "Mål 8 handler om anstendig arbeid og økonomisk vekst."
+      "explain": "Mål 8 handler om anstendig arbeid og økonomisk vekst.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -322,7 +330,8 @@
           "Å kjøpe nye materialer"
         ],
         "correct": 1,
-        "explain": "For eksempel en veske laget av gamle jeans."
+        "explain": "For eksempel en veske laget av gamle jeans.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -335,7 +344,8 @@
           "Et merke for billige varer"
         ],
         "correct": 0,
-        "explain": "Svanemerkede produkter har lavere miljøbelastning."
+        "explain": "Svanemerkede produkter har lavere miljøbelastning.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -368,7 +378,8 @@
         "kriterier": [
           "Nevner rettferdig lønn og trygge forhold.",
           "Nevner at arbeidet skal være uten barnearbeid."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -386,7 +397,8 @@
         "kriterier": [
           "Kjenner igjen handlingen som redesign.",
           "Forklarer at redesign er å lage noe nytt av noe gammelt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -395,7 +407,8 @@
         "kriterier": [
           "Nevner at Svanemerket er et miljømerke.",
           "Får fram at merket viser til lavere miljøbelastning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -413,7 +426,8 @@
         "kriterier": [
           "Får fram at reparasjon kan holde produkter i bruk lenger.",
           "Kaller slike jobber grønne jobber."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

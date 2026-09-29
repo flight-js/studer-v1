@@ -293,7 +293,8 @@
         "type": "sant-usant",
         "text": "Mange voldtektssaker blir aldri anmeldt.",
         "correct": true,
-        "explain": "Det er en stor utfordring for rettssystemet."
+        "explain": "Det er en stor utfordring for rettssystemet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +314,8 @@
           "At gjerningspersonen er alene"
         ],
         "correct": 1,
-        "explain": "Også særlig sårbart offer."
+        "explain": "Også særlig sårbart offer.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -395,7 +397,8 @@
         "kriterier": [
           "Knytter flere gjerningspersoner til vurderingen av grov voldtekt.",
           "Får fram at grov voldtekt gir strengere straff."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -419,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

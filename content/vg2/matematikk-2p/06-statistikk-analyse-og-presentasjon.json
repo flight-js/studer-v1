@@ -322,7 +322,8 @@
           "En tilfeldig blogg"
         ],
         "correct": 0,
-        "explain": "SSB har kommunestatistikk."
+        "explain": "SSB har kommunestatistikk.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -426,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

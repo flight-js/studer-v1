@@ -28,7 +28,8 @@
     },
     {
       "term": "Bentham og Mill",
-      "def": "Engelske filosofer som utviklet utilitarismen."
+      "def": "Engelske filosofer som utviklet utilitarismen.",
+      "niva": "eksempel"
     },
     {
       "term": "Pliktetikk",
@@ -292,7 +293,8 @@
         "type": "sant-usant",
         "text": "Kant mente at det aldri er riktig å lyve.",
         "correct": true,
-        "explain": "Ifølge Kant kan ikke løgn bli en allmenn lov, uansett hva følgene blir."
+        "explain": "Ifølge Kant kan ikke løgn bli en allmenn lov, uansett hva følgene blir.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -352,7 +354,8 @@
           "Sinnelagsetikk"
         ],
         "correct": 1,
-        "explain": "Utilitarismen er en form for konsekvensetikk."
+        "explain": "Utilitarismen er en form for konsekvensetikk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -432,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

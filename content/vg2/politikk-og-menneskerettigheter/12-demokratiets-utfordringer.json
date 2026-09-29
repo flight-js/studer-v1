@@ -36,7 +36,8 @@
     },
     {
       "term": "PST",
-      "def": "Politiets sikkerhetstjeneste, som advarer mot påvirkningsoperasjoner."
+      "def": "Politiets sikkerhetstjeneste, som advarer mot påvirkningsoperasjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Netthets",
@@ -52,15 +53,18 @@
     },
     {
       "term": "Demokratisk underskudd (EØS)",
-      "def": "Norge innfører EU-regler uten stemmerett i EU."
+      "def": "Norge innfører EU-regler uten stemmerett i EU.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekspertvelde",
-      "def": "At fagfolk og byråkrati får stor makt over beslutninger."
+      "def": "At fagfolk og byråkrati får stor makt over beslutninger.",
+      "niva": "over-niva"
     },
     {
       "term": "Offentlighetsloven",
-      "def": "Gir innsyn i offentlige dokumenter."
+      "def": "Gir innsyn i offentlige dokumenter.",
+      "niva": "eksempel"
     },
     {
       "term": "Lokalt selvstyre",
@@ -94,7 +98,8 @@
         "Fordi Norge har for mange partier"
       ],
       "correct": 0,
-      "explain": "Norge deltar ikke i vedtakene."
+      "explain": "Norge deltar ikke i vedtakene.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -130,7 +135,8 @@
         "Rett til å demonstrere"
       ],
       "correct": 0,
-      "explain": "Åpenhet i forvaltningen."
+      "explain": "Åpenhet i forvaltningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +148,8 @@
         "Sametinget"
       ],
       "correct": 1,
-      "explain": "Politiets sikkerhetstjeneste."
+      "explain": "Politiets sikkerhetstjeneste.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -190,7 +197,8 @@
         "Fordi KI stopper all falsk informasjon"
       ],
       "correct": 1,
-      "explain": "Deepfakes."
+      "explain": "Deepfakes.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -283,7 +291,8 @@
         "type": "sant-usant",
         "text": "Norge scorer høyt på internasjonale målinger av demokrati.",
         "correct": true,
-        "explain": "Men demokratiet har likevel utfordringer."
+        "explain": "Men demokratiet har likevel utfordringer.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -304,7 +313,8 @@
         "type": "sant-usant",
         "text": "Partiene har flere medlemmer i dag enn før.",
         "correct": false,
-        "explain": "Partimedlemskap har gått ned."
+        "explain": "Partimedlemskap har gått ned.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -317,7 +327,8 @@
           "Bare ministre"
         ],
         "correct": 1,
-        "explain": "Det svekker mangfoldet."
+        "explain": "Det svekker mangfoldet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -381,7 +392,8 @@
         "kriterier": [
           "Knytter rettsliggjøring til at domstolene avgjør flere politiske spørsmål.",
           "Knytter ekspertvelde til stor innflytelse fra fagfolk eller forvaltningen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -408,7 +420,8 @@
         "kriterier": [
           "Forklarer at skolevalg gir elever kunnskap eller erfaring med demokratisk deltakelse.",
           "Knytter dette til samfunnsopplæring eller til å styrke demokratiet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -423,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

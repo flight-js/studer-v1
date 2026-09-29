@@ -31,7 +31,8 @@
     },
     {
       "term": "Zoonose",
-      "def": "Sykdom som smitter mellom dyr og mennesker."
+      "def": "Sykdom som smitter mellom dyr og mennesker.",
+      "niva": "eksempel"
     },
     {
       "term": "Førstelinjeforsvaret",
@@ -141,7 +142,8 @@
         "Hudceller"
       ],
       "correct": 1,
-      "explain": "Hele immunforsvaret svekkes."
+      "explain": "Hele immunforsvaret svekkes.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +179,8 @@
         "En sykdom uten symptomer"
       ],
       "correct": 0,
-      "explain": "Mange nye sykdommer har kommet fra dyr."
+      "explain": "Mange nye sykdommer har kommet fra dyr.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -299,7 +302,8 @@
         "type": "sant-usant",
         "text": "Borreliose smitter med flått.",
         "correct": true,
-        "explain": "Flåtten er en vektor."
+        "explain": "Flåtten er en vektor.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +323,8 @@
           "Borreliose"
         ],
         "correct": 1,
-        "explain": "De andre skyldes bakterier."
+        "explain": "De andre skyldes bakterier.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -345,7 +350,8 @@
           "Gjennom sollys"
         ],
         "correct": 2,
-        "explain": "God håndhygiene er viktig."
+        "explain": "God håndhygiene er viktig.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -401,7 +407,8 @@
         "kriterier": [
           "Forklarer at HIV angriper T-hjelpeceller, og at dette svekker immunforsvaret.",
           "Knytter det svekkede immunforsvaret til at vanlige infeksjoner kan bli livstruende uten behandling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -425,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -59,15 +59,18 @@
     },
     {
       "term": "√2 er irrasjonal",
-      "def": "Klassisk motsigelsesbevis."
+      "def": "Klassisk motsigelsesbevis.",
+      "niva": "eksempel"
     },
     {
       "term": "Euklids setning",
-      "def": "Det finnes uendelig mange primtall."
+      "def": "Det finnes uendelig mange primtall.",
+      "niva": "eksempel"
     },
     {
       "term": "Sirkelargument",
-      "def": "Å bruke det man skal bevise som forutsetning."
+      "def": "Å bruke det man skal bevise som forutsetning.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -141,7 +144,8 @@
         "n = 5"
       ],
       "correct": 1,
-      "explain": "1681 = 41 · 41."
+      "explain": "1681 = 41 · 41.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +181,8 @@
         "2n²"
       ],
       "correct": 0,
-      "explain": "Kan vises med induksjon."
+      "explain": "Kan vises med induksjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -276,7 +281,8 @@
         "type": "sant-usant",
         "text": "Euklid beviste at det finnes uendelig mange primtall.",
         "correct": true,
-        "explain": "Med et motsigelsesbevis."
+        "explain": "Med et motsigelsesbevis.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -310,7 +316,8 @@
           "Direkte bevis med eksempler"
         ],
         "correct": 1,
-        "explain": "Anta at √2 = p/q."
+        "explain": "Anta at √2 = p/q.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -392,7 +399,8 @@
         "kriterier": [
           "Setter n = 4 og finner 4² = 16.",
           "Viser at summen av de fire oddetallene er 16."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,12 +418,14 @@
         "kriterier": [
           "Forklarer at både p og q blir partall.",
           "Knytter dette til at brøken kan forkortes med 2, i strid med antakelsen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -44,7 +44,8 @@
     },
     {
       "term": "Menneskerettsloven § 3",
-      "def": "Inkorporerte konvensjoner går foran annen lov ved motstrid."
+      "def": "Inkorporerte konvensjoner går foran annen lov ved motstrid.",
+      "niva": "eksempel"
     },
     {
       "term": "Parter",
@@ -130,7 +131,8 @@
         "At EU-retten gjelder"
       ],
       "correct": 0,
-      "explain": "En viktig motstridsregel."
+      "explain": "En viktig motstridsregel.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -190,7 +192,8 @@
         "Dommer med dissens"
       ],
       "correct": 1,
-      "explain": "Prinsipielle saker."
+      "explain": "Prinsipielle saker.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -393,7 +396,8 @@
         "kriterier": [
           "Anvender toårsregelen og sier at feilen antas å ha vært til stede ved levering.",
           "Får fram at selgeren kan vise at feilen oppsto senere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -426,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -189,7 +189,8 @@
         "At krig er forbudt uten unntak"
       ],
       "correct": 1,
-      "explain": "Vedtatt i 2005."
+      "explain": "Vedtatt i 2005.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -289,7 +290,8 @@
         "type": "sant-usant",
         "text": "USA, Russland og Kina er medlemmer av ICC.",
         "correct": false,
-        "explain": "Ingen av dem er med."
+        "explain": "Ingen av dem er med.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

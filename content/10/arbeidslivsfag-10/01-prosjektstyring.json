@@ -64,7 +64,8 @@
     },
     {
       "term": "Prototyp",
-      "def": "Første utkast av et produkt som testes før endelig produksjon."
+      "def": "Første utkast av et produkt som testes før endelig produksjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Sluttrapport",
@@ -306,7 +307,8 @@
         "type": "sant-usant",
         "text": "En prototyp testes før endelig produksjon.",
         "correct": true,
-        "explain": "Da kan feil rettes før man lager mange eksemplarer."
+        "explain": "Da kan feil rettes før man lager mange eksemplarer.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -408,7 +410,8 @@
         "kriterier": [
           "Forklarer at en prototyp er et første utkast av produktet.",
           "Forklarer at den testes før produktet lages ferdig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -432,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -15,7 +15,8 @@
     },
     {
       "term": "George Engel",
-      "def": "Lanserte den biopsykososiale modellen i 1977."
+      "def": "Lanserte den biopsykososiale modellen i 1977.",
+      "niva": "eksempel"
     },
     {
       "term": "Biomedisinsk modell",
@@ -81,7 +82,8 @@
         "Corey Keyes"
       ],
       "correct": 1,
-      "explain": "I 1977."
+      "explain": "I 1977.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -323,7 +325,8 @@
           "To-kontinua-modellen"
         ],
         "correct": 0,
-        "explain": "Sykdom som bare noe i kroppen."
+        "explain": "Sykdom som bare noe i kroppen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -416,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

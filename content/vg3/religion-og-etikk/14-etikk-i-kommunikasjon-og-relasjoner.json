@@ -40,7 +40,8 @@
     },
     {
       "term": "K.E. Løgstrup",
-      "def": "Dansk filosof: vi holder noe av et annet menneskes liv i våre hender."
+      "def": "Dansk filosof: vi holder noe av et annet menneskes liv i våre hender.",
+      "niva": "eksempel"
     },
     {
       "term": "Hvit løgn",
@@ -56,7 +57,8 @@
     },
     {
       "term": "Psykisk vold",
-      "def": "Kontroll, trusler og nedverdigelse i en relasjon."
+      "def": "Kontroll, trusler og nedverdigelse i en relasjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Perspektivtaking",
@@ -118,7 +120,8 @@
         "At vi holder noe av et annet menneskes liv i våre hender"
       ],
       "correct": 3,
-      "explain": "Nærhetsetikk."
+      "explain": "Nærhetsetikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -178,7 +181,8 @@
         "Ja, hvis bildet er gammelt"
       ],
       "correct": 0,
-      "explain": "Krenker personvern og integritet."
+      "explain": "Krenker personvern og integritet.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -314,7 +318,8 @@
           "Marx og Freud"
         ],
         "correct": 1,
-        "explain": "Mest mulig lykke for flest mulig."
+        "explain": "Mest mulig lykke for flest mulig.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -327,7 +332,8 @@
           "Å være uenig om film"
         ],
         "correct": 0,
-        "explain": "Kan være vanskelig å oppdage."
+        "explain": "Kan være vanskelig å oppdage.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -420,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

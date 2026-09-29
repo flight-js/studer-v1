@@ -55,7 +55,8 @@
     },
     {
       "term": "Moms",
-      "def": "Merverdiavgift. Vanlig sats i Norge er 25 %, så prisen med moms er prisen uten · 1,25."
+      "def": "Merverdiavgift. Vanlig sats i Norge er 25 %, så prisen med moms er prisen uten · 1,25.",
+      "niva": "eksempel"
     },
     {
       "term": "Verditap",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Dobling",
-      "def": "Med 7 % vekst i året dobles et beløp på omtrent 10 år, fordi 1,07¹⁰ ≈ 1,97."
+      "def": "Med 7 % vekst i året dobles et beløp på omtrent 10 år, fordi 1,07¹⁰ ≈ 1,97.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -417,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

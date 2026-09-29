@@ -68,7 +68,8 @@
     },
     {
       "term": "Basestasjon",
-      "def": "Sender og mottaker som dekker en celle i mobilnettet."
+      "def": "Sender og mottaker som dekker en celle i mobilnettet.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -352,7 +353,8 @@
           "Ved å spørre nærmeste basestasjon om adressen"
         ],
         "correct": 2,
-        "explain": "Tidsforskjellene mellom signalene gir avstanden til hver satellitt."
+        "explain": "Tidsforskjellene mellom signalene gir avstanden til hver satellitt.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -390,7 +392,8 @@
         "kriterier": [
           "Knytter kraftige svingninger til resonans.",
           "Får fram at påvirkningen skjer med systemets naturlige frekvens."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -432,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

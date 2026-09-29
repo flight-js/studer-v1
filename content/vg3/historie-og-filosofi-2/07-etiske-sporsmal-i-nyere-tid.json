@@ -35,7 +35,8 @@
     },
     {
       "term": "Robert Oppenheimer",
-      "def": "Fysiker som ledet arbeidet med atombomben."
+      "def": "Fysiker som ledet arbeidet med atombomben.",
+      "niva": "eksempel"
     },
     {
       "term": "Vitenskapens ansvar",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Klimaangst",
-      "def": "Bekymring og uro knyttet til klimaendringene."
+      "def": "Bekymring og uro knyttet til klimaendringene.",
+      "niva": "eksempel"
     },
     {
       "term": "Skjevheter i data",
@@ -165,7 +167,8 @@
         "77"
       ],
       "correct": 3,
-      "explain": "I Regjeringskvartalet og på Utøya."
+      "explain": "I Regjeringskvartalet og på Utøya.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -284,7 +287,8 @@
         "type": "sant-usant",
         "text": "Etter 22. juli la mange vekt på mer demokrati og åpenhet.",
         "correct": true,
-        "explain": "Et svar på ekstremisme."
+        "explain": "Et svar på ekstremisme.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -330,7 +334,8 @@
           "Bare forskere"
         ],
         "correct": 2,
-        "explain": "Et etisk spørsmål om tiltakenes kostnader."
+        "explain": "Et etisk spørsmål om tiltakenes kostnader.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -395,7 +400,8 @@
         "kriterier": [
           "Forklarer klimaangst som bekymring eller uro knyttet til klimaendringene.",
           "Nevner et eksistensielt spørsmål om hvordan vi skal leve eller hva vi må gi opp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -410,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

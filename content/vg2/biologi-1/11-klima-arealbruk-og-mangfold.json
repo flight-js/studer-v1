@@ -11,7 +11,8 @@
   "flashcards": [
     {
       "term": "IPBES",
-      "def": "Naturpanelet – FNs kunnskapsorgan for natur og mangfold."
+      "def": "Naturpanelet – FNs kunnskapsorgan for natur og mangfold.",
+      "niva": "eksempel"
     },
     {
       "term": "Største trussel på land",
@@ -43,15 +44,18 @@
     },
     {
       "term": "Artsdatabanken",
-      "def": "Vurderer hvor truet artene i Norge er."
+      "def": "Vurderer hvor truet artene i Norge er.",
+      "niva": "eksempel"
     },
     {
       "term": "Rødlista",
-      "def": "Oversikt over arter med risiko for å dø ut i Norge."
+      "def": "Oversikt over arter med risiko for å dø ut i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Fremmedartslista",
-      "def": "Vurdering av arter spredt til Norge med menneskers hjelp."
+      "def": "Vurdering av arter spredt til Norge med menneskers hjelp.",
+      "niva": "eksempel"
     },
     {
       "term": "Fremmed art",
@@ -67,7 +71,8 @@
     },
     {
       "term": "Naturavtalen (2022)",
-      "def": "Mål om å bevare 30 % av land og hav innen 2030."
+      "def": "Mål om å bevare 30 % av land og hav innen 2030.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -81,7 +86,8 @@
         "Jakt"
       ],
       "correct": 1,
-      "explain": "Nedbygging og ødeleggelse av leveområder."
+      "explain": "Nedbygging og ødeleggelse av leveområder.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -141,7 +147,8 @@
         "Fiskekvoter"
       ],
       "correct": 1,
-      "explain": "For eksempel stillehavsøsters og hagelupin."
+      "explain": "For eksempel stillehavsøsters og hagelupin.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +160,8 @@
         "Brenne den"
       ],
       "correct": 2,
-      "explain": "Da kommer vannet tilbake."
+      "explain": "Da kommer vannet tilbake.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +185,8 @@
         "Å plante 30 % mer skog i Norge"
       ],
       "correct": 0,
-      "explain": "Ofte kalt 30 × 30."
+      "explain": "Ofte kalt 30 × 30.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +198,8 @@
         "Hagelupin"
       ],
       "correct": 1,
-      "explain": "Veier og hytter fragmenterer leveområdene."
+      "explain": "Veier og hytter fragmenterer leveområdene.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -322,7 +332,8 @@
           "Meteorologisk institutt"
         ],
         "correct": 1,
-        "explain": "Den vurderer risiko for utdøing."
+        "explain": "Den vurderer risiko for utdøing.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -348,7 +359,8 @@
           "Bever"
         ],
         "correct": 2,
-        "explain": "Den fortrenger stedegne planter."
+        "explain": "Den fortrenger stedegne planter.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -377,7 +389,8 @@
         "kriterier": [
           "Beskriver at Rødlista vurderer arters risiko for å dø ut i Norge.",
           "Beskriver at Fremmedartslista vurderer menneskespredte arter og deres økologiske risiko."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -395,7 +408,8 @@
         "kriterier": [
           "Forklarer at vern beskytter naturområder, med et relevant eksempel.",
           "Forklarer at restaurering gjenoppretter ødelagt natur, med et relevant eksempel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -413,7 +427,8 @@
         "kriterier": [
           "Viser regnestykket 100 % − 30 %.",
           "Oppgir svaret 70 prosentpoeng."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,12 +437,14 @@
         "kriterier": [
           "Viser at antallet skal dobles, for eksempel med 2750 × 2.",
           "Oppgir rundt 5500 arter."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

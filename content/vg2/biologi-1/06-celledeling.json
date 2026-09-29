@@ -157,7 +157,8 @@
         "Bryter ned cellemembranen"
       ],
       "correct": 2,
-      "explain": "Det er et tumorsuppressorprotein."
+      "explain": "Det er et tumorsuppressorprotein.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -333,7 +334,8 @@
           "Vann"
         ],
         "correct": 0,
-        "explain": "UV kan skade DNA."
+        "explain": "UV kan skade DNA.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -426,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

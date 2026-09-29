@@ -47,7 +47,8 @@
     },
     {
       "term": "Aldersgrense for eget samtykke",
-      "def": "13 år for sosiale medier og lignende tjenester i Norge."
+      "def": "13 år for sosiale medier og lignende tjenester i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Retten til å bli glemt",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Dataportabilitet",
-      "def": "Retten til å ta med dataene sine til en annen tjeneste."
+      "def": "Retten til å ta med dataene sine til en annen tjeneste.",
+      "niva": "eksempel"
     },
     {
       "term": "Innebygd personvern",
@@ -63,11 +65,13 @@
     },
     {
       "term": "Frist for å melde avvik",
-      "def": "Som hovedregel 72 timer til Datatilsynet."
+      "def": "Som hovedregel 72 timer til Datatilsynet.",
+      "niva": "eksempel"
     },
     {
       "term": "DPIA",
-      "def": "Personvernkonsekvensvurdering ved høy risiko."
+      "def": "Personvernkonsekvensvurdering ved høy risiko.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -141,7 +145,8 @@
         "Det trengs ikke"
       ],
       "correct": 1,
-      "explain": "Avvik skal meldes raskt."
+      "explain": "Avvik skal meldes raskt.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +158,8 @@
         "18 år"
       ],
       "correct": 2,
-      "explain": "Norge har valgt 13 år."
+      "explain": "Norge har valgt 13 år.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +183,8 @@
         "At data er krypterte"
       ],
       "correct": 0,
-      "explain": "En av den registrertes rettigheter."
+      "explain": "En av den registrertes rettigheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +196,8 @@
         "Bare for amerikanske selskaper"
       ],
       "correct": 1,
-      "explain": "Regelverket følger personene."
+      "explain": "Regelverket følger personene.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -303,7 +311,8 @@
         "type": "sant-usant",
         "text": "Alle informasjonskapsler kan brukes uten samtykke.",
         "correct": false,
-        "explain": "Ikke-nødvendige informasjonskapsler krever samtykke."
+        "explain": "Ikke-nødvendige informasjonskapsler krever samtykke.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -316,7 +325,8 @@
           "Det finnes ingen gebyrer"
         ],
         "correct": 1,
-        "explain": "Det største av de to beløpene."
+        "explain": "Det største av de to beløpene.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -398,7 +408,8 @@
         "kriterier": [
           "Identifiserer annonsekapselen som den som krever samtykke.",
           "Begrunner det med at den ikke er nødvendig for at tjenesten skal virke."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,12 +427,14 @@
         "kriterier": [
           "Navngir personvernkonsekvensvurdering eller DPIA.",
           "Knytter kravet til høy risiko."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

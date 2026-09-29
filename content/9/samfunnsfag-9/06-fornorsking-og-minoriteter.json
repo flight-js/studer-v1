@@ -31,7 +31,8 @@
     },
     {
       "term": "Jordsalgsloven",
-      "def": "Lov fra 1902 om at bare de som kunne norsk, fikk kjøpe jord i Finnmark."
+      "def": "Lov fra 1902 om at bare de som kunne norsk, fikk kjøpe jord i Finnmark.",
+      "niva": "eksempel"
     },
     {
       "term": "Rasetenkning",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Svanviken arbeidskoloni",
-      "def": "Sted der romanifamilier ble sendt for å bli «bofaste» og tilpasset."
+      "def": "Sted der romanifamilier ble sendt for å bli «bofaste» og tilpasset.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvener",
@@ -55,11 +57,13 @@
     },
     {
       "term": "ILO-konvensjon 169",
-      "def": "Avtale om urfolks rettigheter. Norge ratifiserte den som første land i 1990."
+      "def": "Avtale om urfolks rettigheter. Norge ratifiserte den som første land i 1990.",
+      "niva": "eksempel"
     },
     {
       "term": "Sannhets- og forsoningskommisjonen",
-      "def": "Kommisjon som i 2023 la fram en rapport om fornorskingen og uretten."
+      "def": "Kommisjon som i 2023 la fram en rapport om fornorskingen og uretten.",
+      "niva": "eksempel"
     },
     {
       "term": "Revitalisering",
@@ -105,7 +109,8 @@
         "At jord ikke kunne selges"
       ],
       "correct": 1,
-      "explain": "Loven presset samer og kvener til å bli norske."
+      "explain": "Loven presset samer og kvener til å bli norske.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -141,7 +146,8 @@
         "Jødene"
       ],
       "correct": 1,
-      "explain": "Staten og Norsk misjon blant hjemløse sto bak store overgrep."
+      "explain": "Staten og Norsk misjon blant hjemløse sto bak store overgrep.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +171,8 @@
         "Frykt for at minoritetene var lojale mot Finland eller Russland"
       ],
       "correct": 3,
-      "explain": "Myndighetene så på minoritetene i nord som en sikkerhetsrisiko."
+      "explain": "Myndighetene så på minoritetene i nord som en sikkerhetsrisiko.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +184,8 @@
         "En handelsavtale"
       ],
       "correct": 1,
-      "explain": "Norge var det første landet som ratifiserte den."
+      "explain": "Norge var det første landet som ratifiserte den.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +197,8 @@
         "Et nytt statsbudsjett"
       ],
       "correct": 0,
-      "explain": "Rapporten beskriver uretten og foreslår tiltak for forsoning."
+      "explain": "Rapporten beskriver uretten og foreslår tiltak for forsoning.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -305,7 +314,8 @@
         "type": "sant-usant",
         "text": "Rom ble nektet innreise til Norge fra 1927.",
         "correct": true,
-        "explain": "Forbudet gjorde at mange rom ikke fikk komme til Norge og ble drept under Holocaust."
+        "explain": "Forbudet gjorde at mange rom ikke fikk komme til Norge og ble drept under Holocaust.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -358,7 +368,8 @@
           "FNs generalsekretær"
         ],
         "correct": 1,
-        "explain": "Kongen ba om unnskyldning i talen ved åpningen av Sametinget."
+        "explain": "Kongen ba om unnskyldning i talen ved åpningen av Sametinget.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -396,7 +407,8 @@
         "kriterier": [
           "Beskriver en konkret form for urett mot rom, for eksempel innreisenektelsen fra 1927.",
           "Beskriver en konkret form for urett mot jøder, for eksempel utestengelsen i Grunnloven eller deportasjonene under andre verdenskrig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -432,12 +444,14 @@
         "kriterier": [
           "Nevner to konkrete endringer, for eksempel sameloven, en egen paragraf i Grunnloven eller opprettelsen av Sametinget.",
           "Knytter endringene til sterkere eller tydeligere anerkjennelse av samenes rettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

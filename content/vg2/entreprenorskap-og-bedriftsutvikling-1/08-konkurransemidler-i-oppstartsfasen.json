@@ -15,11 +15,13 @@
     },
     {
       "term": "Minimumsprodukt",
-      "def": "Enkel første versjon som løser kjernebehovet."
+      "def": "Enkel første versjon som løser kjernebehovet.",
+      "niva": "eksempel"
     },
     {
       "term": "Domenenavn",
-      "def": "Adressen til nettsiden – bør sjekkes tidlig."
+      "def": "Adressen til nettsiden – bør sjekkes tidlig.",
+      "niva": "eksempel"
     },
     {
       "term": "Introduksjonspris",
@@ -35,11 +37,13 @@
     },
     {
       "term": "Pop-up-butikk",
-      "def": "Midlertidig butikk som er billig å etablere."
+      "def": "Midlertidig butikk som er billig å etablere.",
+      "niva": "eksempel"
     },
     {
       "term": "Markedsplass på nett",
-      "def": "Nettsted der mange selgere når mange kunder."
+      "def": "Nettsted der mange selgere når mange kunder.",
+      "niva": "eksempel"
     },
     {
       "term": "Jungeltelegrafen",
@@ -47,15 +51,18 @@
     },
     {
       "term": "PR i oppstarten",
-      "def": "Gratis omtale i lokale medier."
+      "def": "Gratis omtale i lokale medier.",
+      "niva": "eksempel"
     },
     {
       "term": "Geriljamarkedsføring",
-      "def": "Kreative, overraskende og billige aktiviteter."
+      "def": "Kreative, overraskende og billige aktiviteter.",
+      "niva": "eksempel"
     },
     {
       "term": "Mikropåvirker",
-      "def": "Påvirker med liten, men engasjert følgerskare."
+      "def": "Påvirker med liten, men engasjert følgerskare.",
+      "niva": "eksempel"
     },
     {
       "term": "Personlig service",
@@ -67,7 +74,8 @@
     },
     {
       "term": "Ambassadør",
-      "def": "Fornøyd kunde som anbefaler virksomheten til andre."
+      "def": "Fornøyd kunde som anbefaler virksomheten til andre.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -105,7 +113,8 @@
         "At navnet ligner konkurrentens"
       ],
       "correct": 2,
-      "explain": "Unngå konflikter senere."
+      "explain": "Unngå konflikter senere.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +126,8 @@
         "Kreative, overraskende og billige aktiviteter"
       ],
       "correct": 3,
-      "explain": "Passer når budsjettet er lite."
+      "explain": "Passer når budsjettet er lite.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +163,8 @@
         "De har ingen kunder"
       ],
       "correct": 2,
-      "explain": "Midlertidige."
+      "explain": "Midlertidige.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +200,8 @@
         "Ingenting"
       ],
       "correct": 1,
-      "explain": "Skjult reklame er forbudt."
+      "explain": "Skjult reklame er forbudt.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -276,7 +288,8 @@
         "type": "sant-usant",
         "text": "Lokale medier skriver ofte gjerne om nye og spennende virksomheter.",
         "correct": true,
-        "explain": "Gratis PR."
+        "explain": "Gratis PR.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -290,7 +303,8 @@
         "type": "sant-usant",
         "text": "De første kundene kan bli viktige ambassadører for virksomheten.",
         "correct": true,
-        "explain": "De anbefaler videre."
+        "explain": "De anbefaler videre.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -347,7 +361,8 @@
         "kriterier": [
           "Forklarer at minimumsproduktet er en enkel første versjon som dekker kjernebehovet.",
           "Knytter tilbakemeldinger til videre forbedring av produktet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -365,7 +380,8 @@
         "kriterier": [
           "Nevner at en markedsplass på nett kan gi tilgang til mange kunder.",
           "Nevner at virksomheten trenger god logistikk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -392,7 +408,8 @@
         "kriterier": [
           "Foreslår PR gjennom lokale medier.",
           "Forklarer at omtalen kan være gratis og passer når virksomheten har lite penger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -401,7 +418,8 @@
         "kriterier": [
           "Nevner to passende betalingsmåter, som kort og mobilbetaling.",
           "Forklarer at en enkel betalingsløsning gjør det lettere for kundene å betale."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

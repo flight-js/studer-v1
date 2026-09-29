@@ -27,7 +27,8 @@
     },
     {
       "term": "BNP for Fastlands-Norge",
-      "def": "BNP uten olje- og gassutvinning og utenriks sjøfart."
+      "def": "BNP uten olje- og gassutvinning og utenriks sjøfart.",
+      "niva": "eksempel"
     },
     {
       "term": "Økonomisk vekst",
@@ -55,15 +56,18 @@
     },
     {
       "term": "HDI",
-      "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt."
+      "def": "FNs indeks for menneskelig utvikling: levealder, utdanning og inntekt.",
+      "niva": "eksempel"
     },
     {
       "term": "Nasjonalformue",
-      "def": "Hva et land eier – i Norge er humankapitalen størst."
+      "def": "Hva et land eier – i Norge er humankapitalen størst.",
+      "niva": "over-niva"
     },
     {
       "term": "Grønn vekst",
-      "def": "Økt verdiskaping samtidig som utslipp og ressursbruk går ned."
+      "def": "Økt verdiskaping samtidig som utslipp og ressursbruk går ned.",
+      "niva": "eksempel"
     },
     {
       "term": "Konjunkturer",
@@ -117,7 +121,8 @@
         "Olje- og gassutvinning og utenriks sjøfart"
       ],
       "correct": 3,
-      "explain": "Gir et bedre bilde av resten av økonomien."
+      "explain": "Gir et bedre bilde av resten av økonomien.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +158,8 @@
         "Eksport og skatt"
       ],
       "correct": 2,
-      "explain": "FNs indeks for menneskelig utvikling."
+      "explain": "FNs indeks for menneskelig utvikling.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +171,8 @@
         "Fordi vi tærer på en ressurs som ikke kommer tilbake"
       ],
       "correct": 3,
-      "explain": "Formuen reduseres."
+      "explain": "Formuen reduseres.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +184,8 @@
         "Skogen"
       ],
       "correct": 0,
-      "explain": "Arbeidskraften vår."
+      "explain": "Arbeidskraften vår.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -189,7 +197,8 @@
         "At staten eier alt"
       ],
       "correct": 1,
-      "explain": "Et sentralt spørsmål i klimadebatten."
+      "explain": "Et sentralt spørsmål i klimadebatten.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -401,7 +410,8 @@
         "kriterier": [
           "Forklarer at BNP handler om produksjon i en periode.",
           "Forklarer at nasjonalformue handler om hva landet eier."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -410,7 +420,8 @@
         "kriterier": [
           "Forklarer at landet konsentrerer seg om det det er best til å produsere.",
           "Knytter handel og spesialisering til at de kan bidra til økonomisk vekst."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -425,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -409,7 +409,8 @@
         "kriterier": [
           "Bruker forholdet 6 O₂-molekyler per glukosemolekyl.",
           "Kommer fram til 12 O₂-molekyler."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -418,12 +419,14 @@
         "kriterier": [
           "Bruker forholdet 6 O₂-molekyler per glukosemolekyl.",
           "Kommer fram til 2 glukosemolekyler."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

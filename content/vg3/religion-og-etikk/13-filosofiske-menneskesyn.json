@@ -63,7 +63,8 @@
     },
     {
       "term": "Ubuntu",
-      "def": "Afrikansk tradisjon: «jeg er fordi vi er»."
+      "def": "Afrikansk tradisjon: «jeg er fordi vi er».",
+      "niva": "eksempel"
     },
     {
       "term": "Individ og fellesskap",
@@ -141,7 +142,8 @@
         "Gud er død"
       ],
       "correct": 1,
-      "explain": "Mennesket blir menneske gjennom andre."
+      "explain": "Mennesket blir menneske gjennom andre.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +155,8 @@
         "Som kroppen alene"
       ],
       "correct": 2,
-      "explain": "Anatta."
+      "explain": "Anatta.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +168,8 @@
         "At «mennesket» i filosofien ofte har vært tenkt som en mann"
       ],
       "correct": 3,
-      "explain": "Vektlegger kropp, omsorg og relasjoner."
+      "explain": "Vektlegger kropp, omsorg og relasjoner.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +193,8 @@
         "Som et dyr uten fornuft"
       ],
       "correct": 1,
-      "explain": "Familie og samfunn er sentrale."
+      "explain": "Familie og samfunn er sentrale.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -293,7 +298,8 @@
         "type": "sant-usant",
         "text": "Ubuntu ble viktig i forsoningsarbeidet i Sør-Afrika.",
         "correct": true,
-        "explain": "Mennesket blir menneske gjennom andre."
+        "explain": "Mennesket blir menneske gjennom andre.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -404,7 +410,8 @@
         "kriterier": [
           "Knytter ubuntu til at mennesket blir menneske gjennom andre mennesker eller fellesskapet.",
           "Forklarer hvordan inkludering eller omsorg i situasjonen viser denne sammenhengen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -420,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -12,7 +12,8 @@
   "flashcards": [
     {
       "term": "SSB",
-      "def": "Statistisk sentralbyrå – hovedkilde til norsk statistikk."
+      "def": "Statistisk sentralbyrå – hovedkilde til norsk statistikk.",
+      "niva": "eksempel"
     },
     {
       "term": "t = antall år etter startår",
@@ -28,7 +29,8 @@
     },
     {
       "term": "Logistisk modell",
-      "def": "Vekst som flater ut mot et tak."
+      "def": "Vekst som flater ut mot et tak.",
+      "niva": "over-niva"
     },
     {
       "term": "Polynommodell",
@@ -142,7 +144,8 @@
         "Tredjegrads med negativ ledende koeffisient"
       ],
       "correct": 1,
-      "explain": "Andelen kan ikke bli over 100 %."
+      "explain": "Andelen kan ikke bli over 100 %.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -190,7 +193,8 @@
         "Et debattinnlegg"
       ],
       "correct": 1,
-      "explain": "Offisiell statistikk."
+      "explain": "Offisiell statistikk.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -426,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

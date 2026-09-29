@@ -35,11 +35,13 @@
     },
     {
       "term": "1814 som kontinuitet",
-      "def": "Embetsmennene styrte videre, og bøndene levde som før."
+      "def": "Embetsmennene styrte videre, og bøndene levde som før.",
+      "niva": "eksempel"
     },
     {
       "term": "Kriseforliket 1935",
-      "def": "Avtale mellom Arbeiderpartiet og Bondepartiet som la grunnlaget for ny politikk."
+      "def": "Avtale mellom Arbeiderpartiet og Bondepartiet som la grunnlaget for ny politikk.",
+      "niva": "eksempel"
     },
     {
       "term": "Historisk betydning",
@@ -129,7 +131,8 @@
         "Kongen abdiserte"
       ],
       "correct": 0,
-      "explain": "Politikken bygde videre på kriseforliket."
+      "explain": "Politikken bygde videre på kriseforliket.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -313,7 +316,8 @@
           "1972"
         ],
         "correct": 1,
-        "explain": "Et brudd med tidligere nøytralitet."
+        "explain": "Et brudd med tidligere nøytralitet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -419,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

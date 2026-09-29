@@ -40,7 +40,8 @@
     },
     {
       "term": "die Stasi",
-      "def": "det hemmelige politiet i DDR"
+      "def": "det hemmelige politiet i DDR",
+      "niva": "eksempel"
     },
     {
       "term": "die Berliner Mauer",
@@ -56,11 +57,13 @@
     },
     {
       "term": "der Tag der Deutschen Einheit",
-      "def": "Tysklands nasjonaldag, 3. oktober"
+      "def": "Tysklands nasjonaldag, 3. oktober",
+      "niva": "eksempel"
     },
     {
       "term": "die Stolpersteine",
-      "def": "snublesteiner til minne om ofre for nazismen"
+      "def": "snublesteiner til minne om ofre for nazismen",
+      "niva": "eksempel"
     },
     {
       "term": "wurde gebaut",
@@ -106,7 +109,8 @@
         "En avis"
       ],
       "correct": 2,
-      "explain": "Stasi overvåket innbyggerne i Øst-Tyskland."
+      "explain": "Stasi overvåket innbyggerne i Øst-Tyskland.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -154,7 +158,8 @@
         "En type brostein fra keisertiden"
       ],
       "correct": 2,
-      "explain": "De ligger utenfor der ofrene bodde."
+      "explain": "De ligger utenfor der ofrene bodde.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -297,7 +302,8 @@
         "type": "sant-usant",
         "text": "3. oktober er Tysklands nasjonaldag.",
         "correct": true,
-        "explain": "Der Tag der Deutschen Einheit."
+        "explain": "Der Tag der Deutschen Einheit.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -399,7 +405,8 @@
         "kriterier": [
           "Forklarer at Holocaust-minnesmerket i Berlin er et minne om Holocaust.",
           "Beskriver snublesteinene som messingplater i fortauet utenfor hjemmene til ofre for nazismen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

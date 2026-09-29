@@ -23,7 +23,8 @@
     },
     {
       "term": "Anthony Giddens",
-      "def": "Struktur og aktør påvirker hverandre."
+      "def": "Struktur og aktør påvirker hverandre.",
+      "niva": "eksempel"
     },
     {
       "term": "Makronivå",
@@ -55,11 +56,13 @@
     },
     {
       "term": "George Herbert Mead",
-      "def": "Identitet utvikles i samspill med andre."
+      "def": "Identitet utvikles i samspill med andre.",
+      "niva": "eksempel"
     },
     {
       "term": "Erving Goffman",
-      "def": "Hverdagslivet som teater med scene og bakscene."
+      "def": "Hverdagslivet som teater med scene og bakscene.",
+      "niva": "eksempel"
     },
     {
       "term": "Max Weber",
@@ -117,7 +120,8 @@
         "Erving Goffman"
       ],
       "correct": 3,
-      "explain": "Scene og bakscene."
+      "explain": "Scene og bakscene.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +157,8 @@
         "De har ingenting med hverandre å gjøre"
       ],
       "correct": 2,
-      "explain": "Strukturer begrenser og muliggjør handling."
+      "explain": "Strukturer begrenser og muliggjør handling.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "Skolen belønner kulturen og språket høyere klasser har med hjemmefra"
       ],
       "correct": 3,
-      "explain": "Ulikhet reproduseres."
+      "explain": "Ulikhet reproduseres.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -389,7 +395,8 @@
         "kriterier": [
           "Forklarer at identiteten utvikles gjennom samspill med andre.",
           "Knytter vennenes reaksjoner til ungdommens syn på seg selv."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,12 +414,14 @@
         "kriterier": [
           "Knytter deltakelsen på familiefesten til tradisjonell handling.",
           "Knytter ropingen til handling styrt av følelser."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

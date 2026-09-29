@@ -11,27 +11,33 @@
   "flashcards": [
     {
       "term": "1973",
-      "def": "Første samtale fra en håndholdt mobiltelefon (Motorola)."
+      "def": "Første samtale fra en håndholdt mobiltelefon (Motorola).",
+      "niva": "eksempel"
     },
     {
       "term": "NMT",
-      "def": "Nordisk analogt mobilnett fra 1981."
+      "def": "Nordisk analogt mobilnett fra 1981.",
+      "niva": "eksempel"
     },
     {
       "term": "GSM (2G)",
-      "def": "Digitalt mobilnett fra 1990-tallet, med SMS."
+      "def": "Digitalt mobilnett fra 1990-tallet, med SMS.",
+      "niva": "eksempel"
     },
     {
       "term": "2007",
-      "def": "iPhone kom, og smarttelefonen slo gjennom."
+      "def": "iPhone kom, og smarttelefonen slo gjennom.",
+      "niva": "eksempel"
     },
     {
       "term": "4G",
-      "def": "Rask mobilforbindelse for video og strømming."
+      "def": "Rask mobilforbindelse for video og strømming.",
+      "niva": "eksempel"
     },
     {
       "term": "5G",
-      "def": "Høy hastighet og kort forsinkelse."
+      "def": "Høy hastighet og kort forsinkelse.",
+      "niva": "eksempel"
     },
     {
       "term": "Celle",
@@ -55,7 +61,8 @@
     },
     {
       "term": "Kapasitiv berøringsskjerm",
-      "def": "Registrerer fingerens påvirkning på et strømførende lag."
+      "def": "Registrerer fingerens påvirkning på et strømførende lag.",
+      "niva": "eksempel"
     },
     {
       "term": "Litium-ion-batteri",
@@ -63,7 +70,8 @@
     },
     {
       "term": "Konfliktmineraler",
-      "def": "Metaller utvunnet under vanskelige forhold, for eksempel kobolt."
+      "def": "Metaller utvunnet under vanskelige forhold, for eksempel kobolt.",
+      "niva": "eksempel"
     },
     {
       "term": "Elektronisk avfall",
@@ -81,7 +89,8 @@
         "2007"
       ],
       "correct": 1,
-      "explain": "Martin Cooper hos Motorola."
+      "explain": "Martin Cooper hos Motorola.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +102,8 @@
         "En app"
       ],
       "correct": 0,
-      "explain": "Nordisk mobiltelefoni."
+      "explain": "Nordisk mobiltelefoni.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -129,7 +139,8 @@
         "Den registrerer lyd"
       ],
       "correct": 0,
-      "explain": "Derfor virker den ikke med vanlige hansker."
+      "explain": "Derfor virker den ikke med vanlige hansker.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -165,7 +176,8 @@
         "Stor berøringsskjerm og apper"
       ],
       "correct": 3,
-      "explain": "iPhone endret markedet."
+      "explain": "iPhone endret markedet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +201,8 @@
         "Den har ikke hatt betydning"
       ],
       "correct": 1,
-      "explain": "Et eksempel på samfunnsnytte."
+      "explain": "Et eksempel på samfunnsnytte.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -295,14 +308,16 @@
         "type": "sant-usant",
         "text": "NMT-nettet var digitalt.",
         "correct": false,
-        "explain": "NMT var analogt; GSM var digitalt."
+        "explain": "NMT var analogt; GSM var digitalt.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Smarttelefonen har mange sensorer, som akselerometer og GPS.",
         "correct": true,
-        "explain": "Den kan brukes som måleinstrument."
+        "explain": "Den kan brukes som måleinstrument.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -322,7 +337,8 @@
           "5G"
         ],
         "correct": 1,
-        "explain": "Det digitale GSM-nettet."
+        "explain": "Det digitale GSM-nettet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -368,7 +384,8 @@
         "kriterier": [
           "Beskriver at 4G ga rask nok forbindelse til video eller strømming.",
           "Beskriver at 5G har høyere hastighet og kortere forsinkelse, og knytter det til industri eller tingenes internett."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -377,7 +394,8 @@
         "kriterier": [
           "Setter opp forskjellen mellom 1981 og 1973.",
           "Oppgir 8 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -404,7 +422,8 @@
         "kriterier": [
           "Knytter 4G til rask nok forbindelse for video eller strømming.",
           "Nevner minst to av bruksområdene lommebok, kart og billett."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -413,7 +432,8 @@
         "kriterier": [
           "Identifiserer GPS som relevant sensor.",
           "Forklarer at GPS kan bidra med telefonens posisjon ved ulykken."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,6 +448,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

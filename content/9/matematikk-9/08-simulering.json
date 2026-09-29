@@ -55,7 +55,8 @@
     },
     {
       "term": "Bursdagsproblemet",
-      "def": "Sannsynligheten for at to i en gruppe har samme bursdag. Egnet for simulering."
+      "def": "Sannsynligheten for at to i en gruppe har samme bursdag. Egnet for simulering.",
+      "niva": "eksempel"
     },
     {
       "term": "Simulere to terninger",
@@ -368,7 +369,8 @@
         "kriterier": [
           "Beskriver at bursdager simuleres for elevene, og at en runde sjekker om noen deler bursdag.",
           "Forklarer at antall runder med match telles og brukes til å finne relativ frekvens."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

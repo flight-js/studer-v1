@@ -35,7 +35,8 @@
     },
     {
       "term": "Bromvannstest",
-      "def": "Bromvann avfarges av stoffer med dobbeltbinding."
+      "def": "Bromvann avfarges av stoffer med dobbeltbinding.",
+      "niva": "eksempel"
     },
     {
       "term": "Karbokation",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Såpekoking",
-      "def": "Basisk hydrolyse av fett."
+      "def": "Basisk hydrolyse av fett.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -105,7 +107,8 @@
         "Kalkvann blir grumsete"
       ],
       "correct": 2,
-      "explain": "Brom adderes til dobbeltbindingen."
+      "explain": "Brom adderes til dobbeltbindingen.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -296,14 +299,16 @@
         "type": "sant-usant",
         "text": "Nedbrytning av proteiner i fordøyelsen er hydrolyse.",
         "correct": true,
-        "explain": "Katalysert av enzymer."
+        "explain": "Katalysert av enzymer.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Estere har ofte en ubehagelig lukt.",
         "correct": false,
-        "explain": "Mange estere lukter frukt og blomster."
+        "explain": "Mange estere lukter frukt og blomster.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -316,7 +321,8 @@
           "Substitusjon"
         ],
         "correct": 1,
-        "explain": "Vann spaltes av ved hver binding."
+        "explain": "Vann spaltes av ved hver binding.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -398,7 +404,8 @@
         "kriterier": [
           "Forklarer at molekyler kobles sammen i kondensasjon.",
           "Får fram at små molekyler, ofte vann, spaltes av, og knytter sammenkoblingene til oppbygging av polymer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

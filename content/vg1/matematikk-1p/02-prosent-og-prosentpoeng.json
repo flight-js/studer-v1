@@ -47,7 +47,8 @@
     },
     {
       "term": "Promillegrensen for bilkjøring",
-      "def": "0,2 ‰ i Norge."
+      "def": "0,2 ‰ i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Merverdiavgift (moms)",
@@ -189,7 +190,8 @@
         "0 ‰"
       ],
       "correct": 0,
-      "explain": "Grensen er 0,2 promille alkohol i blodet."
+      "explain": "Grensen er 0,2 promille alkohol i blodet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

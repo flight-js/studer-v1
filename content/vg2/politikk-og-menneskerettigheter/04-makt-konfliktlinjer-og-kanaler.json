@@ -11,7 +11,8 @@
   "flashcards": [
     {
       "term": "Maktutredningen",
-      "def": "Konkluderte i 2003 med at folkestyret var svekket."
+      "def": "Konkluderte i 2003 med at folkestyret var svekket.",
+      "niva": "eksempel"
     },
     {
       "term": "Økonomisk høyre–venstre",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Klimasøksmålet",
-      "def": "Rettssak mot staten om oljeboring og miljørettigheter."
+      "def": "Rettssak mot staten om oljeboring og miljørettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Høring",
@@ -81,7 +83,8 @@
         "At media ikke har makt"
       ],
       "correct": 1,
-      "explain": "Makt var flyttet til blant annet markeder og domstoler."
+      "explain": "Makt var flyttet til blant annet markeder og domstoler.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -105,7 +108,8 @@
         "Å gå til Høyesterett"
       ],
       "correct": 2,
-      "explain": "Aksjoner setter saker på dagsordenen."
+      "explain": "Aksjoner setter saker på dagsordenen.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -302,7 +306,8 @@
         "type": "sant-usant",
         "text": "Fosen-dommen i Høyesterett er et eksempel på den rettslige kanalen.",
         "correct": true,
-        "explain": "Reindriftssamer fikk medhold i 2021."
+        "explain": "Reindriftssamer fikk medhold i 2021.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -322,7 +327,8 @@
           "Domstolene og politiet"
         ],
         "correct": 1,
-        "explain": "Arbeidstakere, arbeidsgivere og staten."
+        "explain": "Arbeidstakere, arbeidsgivere og staten.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -413,7 +419,8 @@
         "kriterier": [
           "Forklarer at verdikonflikten gjelder ulike syn på religion.",
           "Forklarer at EU-spørsmålet gjelder nasjonal selvråderett mot europeisk samarbeid."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,12 +429,14 @@
         "kriterier": [
           "Forklarer at makt flyttes bort fra folkevalgte.",
           "Knytter dette til at folkestyret eller folkevalgtes kontroll blir svekket."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

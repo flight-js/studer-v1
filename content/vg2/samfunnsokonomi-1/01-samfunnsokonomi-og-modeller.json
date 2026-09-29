@@ -173,7 +173,8 @@
         "SSB"
       ],
       "correct": 3,
-      "explain": "Statistisk sentralbyrå."
+      "explain": "Statistisk sentralbyrå.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -350,7 +351,8 @@
           "Konkurransetilsynet"
         ],
         "correct": 2,
-        "explain": "Sentralbanken."
+        "explain": "Sentralbanken.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -406,7 +408,8 @@
         "kriterier": [
           "Velger Norges Bank som relevant kilde.",
           "Knytter kilden til informasjon om både renter og pengepolitikk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -430,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

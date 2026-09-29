@@ -141,7 +141,8 @@
         "Piaget"
       ],
       "correct": 1,
-      "explain": "Læring ved observasjon."
+      "explain": "Læring ved observasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -329,7 +330,8 @@
           "Femten år"
         ],
         "correct": 0,
-        "explain": "Men den utvikles videre gjennom ungdomstiden."
+        "explain": "Men den utvikles videre gjennom ungdomstiden.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

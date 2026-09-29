@@ -59,11 +59,13 @@
     },
     {
       "term": "Sjeldne jordartsmetaller",
-      "def": "Metaller til magneter i vindturbiner og elbiler, funnet blant annet i Fensfeltet."
+      "def": "Metaller til magneter i vindturbiner og elbiler, funnet blant annet i Fensfeltet.",
+      "niva": "eksempel"
     },
     {
       "term": "Sjødeponi",
-      "def": "Plassering av gruveavfall i sjøen – ofte omstridt."
+      "def": "Plassering av gruveavfall i sjøen – ofte omstridt.",
+      "niva": "eksempel"
     },
     {
       "term": "Sirkulærøkonomi",
@@ -141,7 +143,8 @@
         "Det har mye gull"
       ],
       "correct": 1,
-      "explain": "Viktig for det grønne skiftet."
+      "explain": "Viktig for det grønne skiftet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -305,7 +308,8 @@
         "type": "sant-usant",
         "text": "Røros er kjent for gammel kobbergruvedrift.",
         "correct": true,
-        "explain": "Kobberverket drev i flere hundre år."
+        "explain": "Kobberverket drev i flere hundre år.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -351,7 +355,8 @@
           "Et havbunnsanlegg for gass"
         ],
         "correct": 2,
-        "explain": "Det er ofte omstridt."
+        "explain": "Det er ofte omstridt.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -398,7 +403,8 @@
         "kriterier": [
           "Forklarer at seismikk bruker lydbølger til å kartlegge lag i undergrunnen.",
           "Forklarer at geokjemiske analyser undersøker materiale som stein, jord eller bekkesand."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -432,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

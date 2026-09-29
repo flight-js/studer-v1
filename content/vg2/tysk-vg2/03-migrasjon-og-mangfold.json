@@ -20,7 +20,8 @@
     },
     {
       "term": "Wir schaffen das.",
-      "def": "Vi klarer det. (Merkel, 2015)"
+      "def": "Vi klarer det. (Merkel, 2015)",
+      "niva": "eksempel"
     },
     {
       "term": "die Willkommenskultur",
@@ -94,7 +95,8 @@
         "Greta Thunberg"
       ],
       "correct": 0,
-      "explain": "Det handlet om mottakelsen av flyktninger."
+      "explain": "Det handlet om mottakelsen av flyktninger.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -154,7 +156,8 @@
         "Halvparten"
       ],
       "correct": 2,
-      "explain": "Einwanderungsgeschichte – rundt 26 prosent i 2025."
+      "explain": "Einwanderungsgeschichte – rundt 26 prosent i 2025.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -190,7 +193,8 @@
         "Vietnam"
       ],
       "correct": 1,
-      "explain": "Etter Russlands angrep på Ukraina."
+      "explain": "Etter Russlands angrep på Ukraina.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -301,7 +305,8 @@
         "type": "sant-usant",
         "text": "DDR hadde ingen arbeidsinnvandring.",
         "correct": false,
-        "explain": "DDR hadde kontraktarbeidere fra blant annet Vietnam."
+        "explain": "DDR hadde kontraktarbeidere fra blant annet Vietnam.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -360,7 +365,8 @@
         "kriterier": [
           "Skiller mellom gjestearbeidere i Vest-Tyskland og kontraktarbeidere i DDR.",
           "Nevner et riktig opprinnelsesland for hver del av Tyskland."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -369,7 +375,8 @@
         "kriterier": [
           "Forklarer hvem som regnes med i «Einwanderungsgeschichte».",
           "Forklarer at «Migrationshintergrund» også omfatter personer med én innvandret forelder."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -396,7 +403,8 @@
         "kriterier": [
           "Erklärt «Willkommenskultur» als positive Aufnahme oder Begrüßung der Flüchtlinge.",
           "Nennt den Widerstand als Gegensatz."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -420,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

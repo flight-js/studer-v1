@@ -296,7 +296,8 @@
         "type": "sant-usant",
         "text": "Dopamin og serotonin er eksempler på signalstoffer i hjernen.",
         "correct": true,
-        "explain": "De overfører signaler mellom nerveceller."
+        "explain": "De overfører signaler mellom nerveceller.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -405,7 +406,8 @@
         "kriterier": [
           "Identifiserer skjoldbruskkjertelen.",
           "Knytter kjertelen til påvirkning av stoffskiftet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,12 +425,14 @@
         "kriterier": [
           "Multipliserer 4 nerveimpulser per sekund med 3 sekunder.",
           "Oppgir 12 nerveimpulser som svar."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

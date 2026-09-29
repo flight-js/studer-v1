@@ -12,31 +12,38 @@
   "flashcards": [
     {
       "term": "Federico García Lorca",
-      "def": "Andalusisk dikter og dramatiker, drept i 1936"
+      "def": "Andalusisk dikter og dramatiker, drept i 1936",
+      "niva": "eksempel"
     },
     {
       "term": "Romancero gitano",
-      "def": "Diktsamling av Lorca (1928)"
+      "def": "Diktsamling av Lorca (1928)",
+      "niva": "eksempel"
     },
     {
       "term": "La casa de Bernarda Alba",
-      "def": "Lorca-skuespill (1936) om en mor som sperrer inne døtrene sine"
+      "def": "Lorca-skuespill (1936) om en mor som sperrer inne døtrene sine",
+      "niva": "eksempel"
     },
     {
       "term": "el qué dirán",
-      "def": "hva folk sier – frykten for sladder"
+      "def": "hva folk sier – frykten for sladder",
+      "niva": "eksempel"
     },
     {
       "term": "Gabriela Mistral",
-      "def": "Chilensk dikter, første latinamerikanske Nobelprisvinner i litteratur (1945)"
+      "def": "Chilensk dikter, første latinamerikanske Nobelprisvinner i litteratur (1945)",
+      "niva": "eksempel"
     },
     {
       "term": "Julio Cortázar",
-      "def": "Argentinsk forfatter av korte fortellinger"
+      "def": "Argentinsk forfatter av korte fortellinger",
+      "niva": "eksempel"
     },
     {
       "term": "Continuidad de los parques",
-      "def": "Cortázar-fortelling der leseren blir offer i romanen han leser"
+      "def": "Cortázar-fortelling der leseren blir offer i romanen han leser",
+      "niva": "eksempel"
     },
     {
       "term": "el cuento",
@@ -82,7 +89,8 @@
         "Å bli nonner"
       ],
       "correct": 1,
-      "explain": "Stykket handler om undertrykkelse og ære."
+      "explain": "Stykket handler om undertrykkelse og ære.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -94,7 +102,8 @@
         "García Lorca"
       ],
       "correct": 0,
-      "explain": "Hun fikk prisen i 1945."
+      "explain": "Hun fikk prisen i 1945.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +115,8 @@
         "En gutt mister sin hund"
       ],
       "correct": 2,
-      "explain": "Fortellingen leker med fiksjon og virkelighet."
+      "explain": "Fortellingen leker med fiksjon og virkelighet.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -130,7 +140,8 @@
         "Hva vi skal si"
       ],
       "correct": 0,
-      "explain": "Et sentralt tema i Bernarda Alba."
+      "explain": "Et sentralt tema i Bernarda Alba.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +153,8 @@
         "Av alderdom"
       ],
       "correct": 1,
-      "explain": "Han ble drept av nasjonalistene i 1936."
+      "explain": "Han ble drept av nasjonalistene i 1936.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -166,7 +178,8 @@
         "Argentina"
       ],
       "correct": 3,
-      "explain": "Han er kjent for sine cuentos."
+      "explain": "Han er kjent for sine cuentos.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -283,14 +296,16 @@
         "type": "sant-usant",
         "text": "García Lorca var fra Andalucía.",
         "correct": true,
-        "explain": "Andalucía preger mange av diktene hans."
+        "explain": "Andalucía preger mange av diktene hans.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Gabriela Mistral var fra Argentina.",
         "correct": false,
-        "explain": "Hun var fra Chile."
+        "explain": "Hun var fra Chile.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -304,7 +319,8 @@
         "type": "sant-usant",
         "text": "«La casa de Bernarda Alba» er en lykkelig komedie.",
         "correct": false,
-        "explain": "Det er et tragisk drama om undertrykkelse."
+        "explain": "Det er et tragisk drama om undertrykkelse.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -343,7 +359,8 @@
           "Gabriela Mistral"
         ],
         "correct": 2,
-        "explain": "Hundre års ensomhet er et hovedverk."
+        "explain": "Hundre års ensomhet er et hovedverk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -354,7 +371,8 @@
         "kriterier": [
           "Forklarer at diktsamlingen bruker folkelige former og sterke bilder.",
           "Knytter bildene til Andalucía og minst ett av temaene døden eller lidenskap."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -363,7 +381,8 @@
         "kriterier": [
           "Forklarer at døtrene mangler frihet eller blir undertrykt.",
           "Knytter *el qué dirán* til frykt for sladder eller hva andre mener."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -372,7 +391,8 @@
         "kriterier": [
           "Nevner en relevant forskjell mellom temaene eller bildene hos Lorca og Mistral.",
           "Knytter opplysningene til riktig forfatter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -390,7 +410,8 @@
         "kriterier": [
           "Forklarer at handlingen i romanen knyttes til mannen som leser.",
           "Viser at dette gjør grensen mellom fiksjon og virkelighet uklar."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -408,7 +429,8 @@
         "kriterier": [
           "Forklarer at *el protagonista* betyr hovedpersonen.",
           "Identifiserer mannen som leser som hovedpersonen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -423,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

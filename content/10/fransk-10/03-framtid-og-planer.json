@@ -44,15 +44,18 @@
     },
     {
       "term": "le bac",
-      "def": "eksamen som avslutter lycée"
+      "def": "eksamen som avslutter lycée",
+      "niva": "eksempel"
     },
     {
       "term": "le stage",
-      "def": "praksisperioden"
+      "def": "praksisperioden",
+      "niva": "eksempel"
     },
     {
       "term": "l'apprentissage",
-      "def": "lærlingordning, yrkesopplæring i bedrift"
+      "def": "lærlingordning, yrkesopplæring i bedrift",
+      "niva": "eksempel"
     },
     {
       "term": "parce que",
@@ -134,7 +137,8 @@
         "Et skolefag"
       ],
       "correct": 2,
-      "explain": "Mange franske elever har stage allerede i collège."
+      "explain": "Mange franske elever har stage allerede i collège.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -158,7 +162,8 @@
         "Eksamen som avslutter lycée"
       ],
       "correct": 3,
-      "explain": "Bac gir adgang til høyere utdanning."
+      "explain": "Bac gir adgang til høyere utdanning.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -194,7 +199,8 @@
         "En type lærer"
       ],
       "correct": 0,
-      "explain": "«apprendre» betyr å lære."
+      "explain": "«apprendre» betyr å lære.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -367,7 +373,8 @@
         "kriterier": [
           "Explique qu’un stage est une période de pratique.",
           "Explique que l’apprentissage est une formation professionnelle en entreprise."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -376,7 +383,8 @@
         "kriterier": [
           "Indique qu’après le collège, on va au lycée et que le bac termine le lycée.",
           "Indique une possibilité d’études après le lycée : l’université ou une grande école."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -412,7 +420,8 @@
         "kriterier": [
           "Utilise la forme « je ferai ».",
           "Exprime bien l’idée d’un stage dans cinq ans."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -427,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

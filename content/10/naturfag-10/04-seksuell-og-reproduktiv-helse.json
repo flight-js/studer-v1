@@ -177,7 +177,8 @@
         "I butikken"
       ],
       "correct": 0,
-      "explain": "Helsestasjon for ungdom tilbyr gratis og konfidensiell hjelp."
+      "explain": "Helsestasjon for ungdom tilbyr gratis og konfidensiell hjelp.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +190,8 @@
         "Ja, hvis man er over 16"
       ],
       "correct": 2,
-      "explain": "Deling av slike bilder uten samtykke er straffbart og kan skade den som blir utsatt for det."
+      "explain": "Deling av slike bilder uten samtykke er straffbart og kan skade den som blir utsatt for det.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -432,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

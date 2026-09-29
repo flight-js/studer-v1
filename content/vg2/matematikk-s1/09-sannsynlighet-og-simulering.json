@@ -64,7 +64,8 @@
     },
     {
       "term": "Spillerens feilslutning",
-      "def": "Å tro at tidligere utfall påvirker uavhengige kast."
+      "def": "Å tro at tidligere utfall påvirker uavhengige kast.",
+      "niva": "eksempel"
     },
     {
       "term": "Valgtre",
@@ -190,7 +191,8 @@
         "ANTALL(1; 6)"
       ],
       "correct": 1,
-      "explain": "Brukes til simulering."
+      "explain": "Brukes til simulering.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -426,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

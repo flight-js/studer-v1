@@ -35,7 +35,8 @@
     },
     {
       "term": "Regresjon",
-      "def": "Å finne den funksjonen som passer best til en samling datapunkter, ofte med digitalt verktøy."
+      "def": "Å finne den funksjonen som passer best til en samling datapunkter, ofte med digitalt verktøy.",
+      "niva": "over-niva"
     },
     {
       "term": "Gyldighetsområde",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Beste tilpasning",
-      "def": "Den funksjonen som ligger nærmest punktene. Må også gi mening i situasjonen."
+      "def": "Den funksjonen som ligger nærmest punktene. Må også gi mening i situasjonen.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -153,7 +155,8 @@
         "Regner ut gjennomsnittet"
       ],
       "correct": 0,
-      "explain": "Regresjon tilpasser en valgt funksjonstype til dataene, slik at vi får et funksjonsuttrykk å regne med."
+      "explain": "Regresjon tilpasser en valgt funksjonstype til dataene, slik at vi får et funksjonsuttrykk å regne med.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -418,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -67,7 +67,8 @@
     },
     {
       "term": "Celsius fra fahrenheit",
-      "def": "C = (F − 32)/1,8"
+      "def": "C = (F − 32)/1,8",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -276,7 +277,8 @@
         "type": "sant-usant",
         "text": "10ˣ og lg x er omvendte funksjoner.",
         "correct": true,
-        "explain": "10^(lg x) = x."
+        "explain": "10^(lg x) = x.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -310,7 +312,8 @@
           "212 °C"
         ],
         "correct": 1,
-        "explain": "(100 − 32)/1,8 ≈ 37,8."
+        "explain": "(100 − 32)/1,8 ≈ 37,8.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -365,7 +368,8 @@
         "kriterier": [
           "Setter F = 100 inn i formelen og får 68/1,8.",
           "Regner ut riktig svar, 340/9 °C eller 37 7/9 °C."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -416,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

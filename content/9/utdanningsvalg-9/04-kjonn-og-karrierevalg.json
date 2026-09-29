@@ -39,23 +39,28 @@
     },
     {
       "term": "Likestillings- og diskrimineringsloven",
-      "def": "Lov som forbyr diskriminering, blant annet på grunn av kjønn."
+      "def": "Lov som forbyr diskriminering, blant annet på grunn av kjønn.",
+      "niva": "eksempel"
     },
     {
       "term": "Likestillings- og diskrimineringsombudet",
-      "def": "Offentlig organ som gir veiledning om diskriminering."
+      "def": "Offentlig organ som gir veiledning om diskriminering.",
+      "niva": "eksempel"
     },
     {
       "term": "Diskrimineringsnemnda",
-      "def": "Organ som behandler klager om diskriminering."
+      "def": "Organ som behandler klager om diskriminering.",
+      "niva": "eksempel"
     },
     {
       "term": "Aktivitetsplikt",
-      "def": "Arbeidsgiveres plikt til å jobbe aktivt for likestilling."
+      "def": "Arbeidsgiveres plikt til å jobbe aktivt for likestilling.",
+      "niva": "over-niva"
     },
     {
       "term": "Kjønnspoeng",
-      "def": "Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier."
+      "def": "Ekstra poeng til det underrepresenterte kjønnet ved opptak til enkelte studier.",
+      "niva": "eksempel"
     },
     {
       "term": "Mangfold",
@@ -93,7 +98,8 @@
         "Helse- og oppvekstfag"
       ],
       "correct": 3,
-      "explain": "De tekniske programmene har flest gutter."
+      "explain": "De tekniske programmene har flest gutter.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +123,8 @@
         "Vegtrafikkloven"
       ],
       "correct": 2,
-      "explain": "Loven gjelder blant annet ved ansettelse og lønn."
+      "explain": "Loven gjelder blant annet ved ansettelse og lønn.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -177,7 +184,8 @@
         "En karakter"
       ],
       "correct": 0,
-      "explain": "Tiltaket skal gi en jevnere kjønnsbalanse."
+      "explain": "Tiltaket skal gi en jevnere kjønnsbalanse.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -299,7 +307,8 @@
         "type": "sant-usant",
         "text": "Det er nå flere kvinner enn menn i høyere utdanning i Norge.",
         "correct": true,
-        "explain": "Kvinner er i flertall blant studentene."
+        "explain": "Kvinner er i flertall blant studentene.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +328,8 @@
           "Kommunestyret"
         ],
         "correct": 2,
-        "explain": "Ombudet gir veiledning, og nemnda behandler klager."
+        "explain": "Ombudet gir veiledning, og nemnda behandler klager.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -365,7 +375,8 @@
         "kriterier": [
           "Knytter veiledning til Likestillings- og diskrimineringsombudet.",
           "Knytter behandling av klager til Diskrimineringsnemnda."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -419,12 +430,14 @@
         "kriterier": [
           "Forklarer at arbeidsgivere har plikt til å jobbe aktivt for likestilling.",
           "Får fram at plikten innebærer mer enn bare å unngå diskriminering."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

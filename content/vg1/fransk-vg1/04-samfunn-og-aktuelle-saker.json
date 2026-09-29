@@ -41,7 +41,8 @@
     },
     {
       "term": "les gilets jaunes",
-      "def": "de gule vestene – protestbevegelse fra 2018"
+      "def": "de gule vestene – protestbevegelse fra 2018",
+      "niva": "eksempel"
     },
     {
       "term": "la francophonie",
@@ -49,7 +50,8 @@
     },
     {
       "term": "le Québec",
-      "def": "fransktalende provins i Canada"
+      "def": "fransktalende provins i Canada",
+      "niva": "eksempel"
     },
     {
       "term": "À mon avis …",
@@ -131,7 +133,8 @@
         "I Belgia"
       ],
       "correct": 0,
-      "explain": "Mye av utbredelsen skyldes kolonihistorien."
+      "explain": "Mye av utbredelsen skyldes kolonihistorien.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -143,7 +146,8 @@
         "Pensjonsalderen"
       ],
       "correct": 1,
-      "explain": "Protesten ble senere en bred protest mot ulikhet."
+      "explain": "Protesten ble senere en bred protest mot ulikhet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -281,7 +285,8 @@
         "type": "sant-usant",
         "text": "La Réunion er en del av Frankrike og EU.",
         "correct": true,
-        "explain": "Oversjøiske områder er fullverdige deler av landet."
+        "explain": "Oversjøiske områder er fullverdige deler av landet.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -328,7 +333,8 @@
           "Peru"
         ],
         "correct": 0,
-        "explain": "Også Québec i Canada er fransktalende."
+        "explain": "Også Québec i Canada er fransktalende.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -361,7 +367,8 @@
         "kriterier": [
           "Slår fast at tydelige religiøse symboler ikke er tillatt for elever i offentlige skoler.",
           "Knytter regelen til statens religiøse nøytralitet eller at religion og stat er atskilt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -370,7 +377,8 @@
         "kriterier": [
           "Oppgir at fastlands-Frankrike har 13 regioner.",
           "Gir et riktig eksempel på et oversjøisk område og får fram at slike områder er en del av Frankrike og EU."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -379,7 +387,8 @@
         "kriterier": [
           "Får fram at protesten begynte i 2018 mot høyere drivstoffavgifter.",
           "Forklarer at den utviklet seg til en bredere protest mot sosial ulikhet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -388,7 +397,8 @@
         "kriterier": [
           "Knytter utbredelsen av fransk til kolonihistorien.",
           "Nevner et riktig fransktalende land i Afrika og et i Amerika."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -421,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

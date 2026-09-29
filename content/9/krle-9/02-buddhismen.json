@@ -64,11 +64,13 @@
     },
     {
       "term": "Dalai Lama",
-      "def": "Leder i tibetansk buddhisme."
+      "def": "Leder i tibetansk buddhisme.",
+      "niva": "eksempel"
     },
     {
       "term": "Vesak",
-      "def": "Høytid til minne om Buddhas fødsel, oppvåkning og død."
+      "def": "Høytid til minne om Buddhas fødsel, oppvåkning og død.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -166,7 +168,8 @@
         "Theravada"
       ],
       "correct": 3,
-      "explain": "Theravada betyr «de eldres lære»."
+      "explain": "Theravada betyr «de eldres lære».",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +181,8 @@
         "Buddha selv"
       ],
       "correct": 2,
-      "explain": "Dalai Lama fikk Nobels fredspris i 1989."
+      "explain": "Dalai Lama fikk Nobels fredspris i 1989.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +194,8 @@
         "Dalai Lamas fødsel"
       ],
       "correct": 0,
-      "explain": "Vesak er den viktigste buddhistiske høytiden."
+      "explain": "Vesak er den viktigste buddhistiske høytiden.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -310,7 +315,8 @@
         "type": "sant-usant",
         "text": "Mindfulness har røtter i buddhistisk meditasjon.",
         "correct": true,
-        "explain": "Mindfulness brukes i dag ofte uten religiøst innhold."
+        "explain": "Mindfulness brukes i dag ofte uten religiøst innhold.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -330,7 +336,8 @@
           "Colombo"
         ],
         "correct": 1,
-        "explain": "Lumbini er i dag et viktig pilegrimsmål."
+        "explain": "Lumbini er i dag et viktig pilegrimsmål.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -436,6 +443,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

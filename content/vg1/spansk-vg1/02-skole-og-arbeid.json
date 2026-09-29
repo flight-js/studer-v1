@@ -155,7 +155,8 @@
         "Punktum"
       ],
       "correct": 2,
-      "explain": "Estimado señor:"
+      "explain": "Estimado señor:",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -179,7 +180,8 @@
         "50 av 100"
       ],
       "correct": 0,
-      "explain": "Skalaen går fra 0 til 10."
+      "explain": "Skalaen går fra 0 til 10.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -361,7 +363,8 @@
         "kriterier": [
           "Får fram at skoledagen i Spania kan vare til midt på ettermiddagen.",
           "Får fram at lunsjen ofte spises senere i Spania enn i Norge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -421,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -17,7 +17,8 @@
     },
     {
       "term": "SKAM",
-      "def": "NRK-serie (2015–2017) om ungdom i Oslo, kjent for realistisk skildring og bruk av sosiale medier."
+      "def": "NRK-serie (2015–2017) om ungdom i Oslo, kjent for realistisk skildring og bruk av sosiale medier.",
+      "niva": "eksempel"
     },
     {
       "term": "Identitet",
@@ -155,7 +156,8 @@
         "Den var på svensk"
       ],
       "correct": 1,
-      "explain": "Klipp, meldinger og innlegg ble publisert på nett i sanntid, som om personene fantes."
+      "explain": "Klipp, meldinger og innlegg ble publisert på nett i sanntid, som om personene fantes.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -432,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

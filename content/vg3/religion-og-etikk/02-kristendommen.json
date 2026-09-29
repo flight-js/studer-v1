@@ -51,7 +51,8 @@
     },
     {
       "term": "Pinsebevegelsen",
-      "def": "Karismatisk bevegelse som vokser raskt i det globale sør."
+      "def": "Karismatisk bevegelse som vokser raskt i det globale sør.",
+      "niva": "eksempel"
     },
     {
       "term": "Dåp",
@@ -415,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

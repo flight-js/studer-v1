@@ -63,7 +63,8 @@
     },
     {
       "term": "Numerisk volum",
-      "def": "Trapesmetoden på A(x) = π · r(x)² fra målinger."
+      "def": "Trapesmetoden på A(x) = π · r(x)² fra målinger.",
+      "niva": "eksempel"
     },
     {
       "term": "Enhet for volum",
@@ -287,7 +288,8 @@
         "type": "sant-usant",
         "text": "Volumet av en trestamme kan regnes ut numerisk fra målte radier.",
         "correct": true,
-        "explain": "Trapesmetoden på π · r(x)²."
+        "explain": "Trapesmetoden på π · r(x)².",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -398,7 +400,8 @@
         "kriterier": [
           "Gjør målingene av radius om til tverrsnittsareal med πr(x)².",
           "Bruker trapesmetoden på arealene langs stammen for å anslå volumet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -413,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

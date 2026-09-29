@@ -64,7 +64,8 @@
     },
     {
       "term": "Dobbeltblind studie",
-      "def": "Verken deltakere eller forskere vet hvem som er i hvilken gruppe."
+      "def": "Verken deltakere eller forskere vet hvem som er i hvilken gruppe.",
+      "niva": "over-niva"
     },
     {
       "term": "Informert samtykke",
@@ -76,7 +77,8 @@
     },
     {
       "term": "Phineas Gage",
-      "def": "Kjent kasus: personlighetsendring etter skade i frontallappen."
+      "def": "Kjent kasus: personlighetsendring etter skade i frontallappen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -150,7 +152,8 @@
         "Det er to forskere"
       ],
       "correct": 1,
-      "explain": "Hindrer forventningseffekter."
+      "explain": "Hindrer forventningseffekter.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -198,7 +201,8 @@
         "Det var for kort"
       ],
       "correct": 1,
-      "explain": "Forskningsetikken krever at deltakerne ikke skades."
+      "explain": "Forskningsetikken krever at deltakerne ikke skades.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -338,7 +342,8 @@
           "Feltarbeid i geologi"
         ],
         "correct": 0,
-        "explain": "Eneggede tvillinger har samme gener."
+        "explain": "Eneggede tvillinger har samme gener.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -431,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

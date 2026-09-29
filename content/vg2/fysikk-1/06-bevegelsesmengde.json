@@ -55,7 +55,8 @@
     },
     {
       "term": "Rakettprinsippet",
-      "def": "Gass skytes bakover, raketten får p framover."
+      "def": "Gass skytes bakover, raketten får p framover.",
+      "niva": "eksempel"
     },
     {
       "term": "Vektor",
@@ -290,7 +291,8 @@
         "type": "sant-usant",
         "text": "En rakett kan akselerere i verdensrommet uten noe å skyve mot.",
         "correct": true,
-        "explain": "Den skyver gass bakover og får bevegelsesmengde framover."
+        "explain": "Den skyver gass bakover og får bevegelsesmengde framover.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -383,7 +385,8 @@
         "kriterier": [
           "Beskriver at gassen får bevegelsesmengde bakover.",
           "Knytter rakettens bevegelse framover til bevaring av samlet bevegelsesmengde."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

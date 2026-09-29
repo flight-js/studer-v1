@@ -313,7 +313,8 @@
           "(1,5; 2)"
         ],
         "correct": 1,
-        "explain": "Gjennomsnittet av koordinatene."
+        "explain": "Gjennomsnittet av koordinatene.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

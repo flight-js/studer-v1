@@ -28,7 +28,8 @@
     },
     {
       "term": "ttest_1samp",
-      "def": "Python-funksjon for t-test av ett gjennomsnitt."
+      "def": "Python-funksjon for t-test av ett gjennomsnitt.",
+      "niva": "eksempel"
     },
     {
       "term": "95 % konfidensintervall for μ",
@@ -415,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

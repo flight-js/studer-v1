@@ -27,7 +27,8 @@
     },
     {
       "term": "Oslo Børs",
-      "def": "Markedsplass for handel med aksjer i Norge."
+      "def": "Markedsplass for handel med aksjer i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Kanalisere sparing",
@@ -47,7 +48,8 @@
     },
     {
       "term": "Finanskrisen 2008",
-      "def": "Tap på amerikanske boliglån spredte seg til banker verden over."
+      "def": "Tap på amerikanske boliglån spredte seg til banker verden over.",
+      "niva": "eksempel"
     },
     {
       "term": "Bankpanikk",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Finanstilsynet",
-      "def": "Fører tilsyn med banker og finansmarkedene."
+      "def": "Fører tilsyn med banker og finansmarkedene.",
+      "niva": "eksempel"
     },
     {
       "term": "Innskuddsgaranti",
@@ -67,7 +70,8 @@
     },
     {
       "term": "Grønne obligasjoner",
-      "def": "Lån som skal finansiere klimavennlige prosjekter."
+      "def": "Lån som skal finansiere klimavennlige prosjekter.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +133,8 @@
         "En pandemi"
       ],
       "correct": 0,
-      "explain": "Tapene spredte seg til banker verden over."
+      "explain": "Tapene spredte seg til banker verden over.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Datatilsynet"
       ],
       "correct": 1,
-      "explain": "Også forsikring og verdipapirmarkedet."
+      "explain": "Også forsikring og verdipapirmarkedet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +195,8 @@
         "Ved å øke gjelden"
       ],
       "correct": 1,
-      "explain": "For eksempel grønne obligasjoner."
+      "explain": "For eksempel grønne obligasjoner.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -292,14 +299,16 @@
         "type": "sant-usant",
         "text": "Kryptovaluta er en investering uten risiko.",
         "correct": false,
-        "explain": "Den gir stor risiko og fare for svindel."
+        "explain": "Den gir stor risiko og fare for svindel.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Boliglånsregler begrenser hvor mye folk kan låne.",
         "correct": true,
-        "explain": "I forhold til inntekt og boligverdi."
+        "explain": "I forhold til inntekt og boligverdi.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -332,7 +341,8 @@
           "Ved å forby sparing"
         ],
         "correct": 0,
-        "explain": "Bidrar til finansiell stabilitet."
+        "explain": "Bidrar til finansiell stabilitet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -410,7 +420,8 @@
         "kriterier": [
           "Beskriver Finanstilsynets oppgave med å føre tilsyn.",
           "Beskriver Norges Banks rolle ved kriser eller arbeidet for finansiell stabilitet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -425,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

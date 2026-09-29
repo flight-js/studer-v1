@@ -32,7 +32,8 @@
     },
     {
       "term": "Registerdata",
-      "def": "Opplysninger fra offentlige registre, som hos SSB."
+      "def": "Opplysninger fra offentlige registre, som hos SSB.",
+      "niva": "eksempel"
     },
     {
       "term": "Deltakende observasjon",
@@ -40,7 +41,8 @@
     },
     {
       "term": "Bronisław Malinowski",
-      "def": "Grunnla moderne feltarbeid på Trobriandøyene."
+      "def": "Grunnla moderne feltarbeid på Trobriandøyene.",
+      "niva": "eksempel"
     },
     {
       "term": "Halvstrukturert intervju",
@@ -106,7 +108,8 @@
         "Max Weber"
       ],
       "correct": 2,
-      "explain": "Feltarbeid på Trobriandøyene."
+      "explain": "Feltarbeid på Trobriandøyene.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

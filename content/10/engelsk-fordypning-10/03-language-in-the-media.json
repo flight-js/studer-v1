@@ -27,11 +27,13 @@
     },
     {
       "term": "Tabloid",
-      "def": "A newspaper with dramatic, emotional language and big headlines."
+      "def": "A newspaper with dramatic, emotional language and big headlines.",
+      "niva": "eksempel"
     },
     {
       "term": "Broadsheet",
-      "def": "A newspaper with more serious, neutral language."
+      "def": "A newspaper with more serious, neutral language.",
+      "niva": "eksempel"
     },
     {
       "term": "Hashtag",
@@ -141,7 +143,8 @@
         "SHOCK AS STAR'S SECRET REVEALED!"
       ],
       "correct": 3,
-      "explain": "Tabloids use dramatic, emotional language."
+      "explain": "Tabloids use dramatic, emotional language.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -377,7 +380,8 @@
         "kriterier": [
           "Beskriver tabloidens dramatiske eller følelsesladde språk.",
           "Setter dette opp mot broadsheetens mer seriøse eller nøytrale språk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -431,12 +435,14 @@
         "kriterier": [
           "Forklarer at innlegget både deler en personlig historie og promoterer et produkt.",
           "Knytter produktanbefalingen til markedsføring eller salg."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

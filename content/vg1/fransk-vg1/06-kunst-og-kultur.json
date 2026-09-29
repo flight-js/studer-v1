@@ -12,43 +12,53 @@
   "flashcards": [
     {
       "term": "Molière",
-      "def": "komedieforfatter på 1600-tallet"
+      "def": "komedieforfatter på 1600-tallet",
+      "niva": "eksempel"
     },
     {
       "term": "la langue de Molière",
-      "def": "kallenavn på fransk"
+      "def": "kallenavn på fransk",
+      "niva": "eksempel"
     },
     {
       "term": "Victor Hugo",
-      "def": "skrev Les Misérables (1862) og Notre-Dame de Paris (1831)"
+      "def": "skrev Les Misérables (1862) og Notre-Dame de Paris (1831)",
+      "niva": "eksempel"
     },
     {
       "term": "Le Petit Prince",
-      "def": "Den lille prinsen (1943) av Saint-Exupéry"
+      "def": "Den lille prinsen (1943) av Saint-Exupéry",
+      "niva": "eksempel"
     },
     {
       "term": "l'impressionnisme",
-      "def": "kunstretning fra 1870-tallet som ville fange lys og øyeblikk"
+      "def": "kunstretning fra 1870-tallet som ville fange lys og øyeblikk",
+      "niva": "eksempel"
     },
     {
       "term": "Claude Monet",
-      "def": "impresjonist som malte Impression, soleil levant (1872)"
+      "def": "impresjonist som malte Impression, soleil levant (1872)",
+      "niva": "eksempel"
     },
     {
       "term": "le Louvre",
-      "def": "kunstmuseum i Paris med Mona Lisa"
+      "def": "kunstmuseum i Paris med Mona Lisa",
+      "niva": "eksempel"
     },
     {
       "term": "la chanson",
-      "def": "fransk visetradisjon"
+      "def": "fransk visetradisjon",
+      "niva": "eksempel"
     },
     {
       "term": "Édith Piaf",
-      "def": "sanger kjent for La Vie en rose"
+      "def": "sanger kjent for La Vie en rose",
+      "niva": "eksempel"
     },
     {
       "term": "Stromae",
-      "def": "belgisk artist"
+      "def": "belgisk artist",
+      "niva": "eksempel"
     },
     {
       "term": "la bande dessinée (BD)",
@@ -56,7 +66,8 @@
     },
     {
       "term": "Intouchables",
-      "def": "fransk film fra 2011 om et uventet vennskap"
+      "def": "fransk film fra 2011 om et uventet vennskap",
+      "niva": "eksempel"
     },
     {
       "term": "je voudrais",
@@ -82,7 +93,8 @@
         "Monet"
       ],
       "correct": 1,
-      "explain": "Romanen kom i 1862."
+      "explain": "Romanen kom i 1862.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -94,7 +106,8 @@
         "En sang av Édith Piaf"
       ],
       "correct": 0,
-      "explain": "Impression, soleil levant (1872)."
+      "explain": "Impression, soleil levant (1872).",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -118,7 +131,8 @@
         "Belgia"
       ],
       "correct": 3,
-      "explain": "Belgia har fransk som et av sine offisielle språk."
+      "explain": "Belgia har fransk som et av sine offisielle språk.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -154,7 +168,8 @@
         "Guernica"
       ],
       "correct": 2,
-      "explain": "Louvre er verdens mest besøkte kunstmuseum."
+      "explain": "Louvre er verdens mest besøkte kunstmuseum.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +181,8 @@
         "Antoine de Saint-Exupéry"
       ],
       "correct": 3,
-      "explain": "Boka kom i 1943."
+      "explain": "Boka kom i 1943.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -190,7 +206,8 @@
         "Claude Monet"
       ],
       "correct": 1,
-      "explain": "Piaf er et symbol på fransk chanson."
+      "explain": "Piaf er et symbol på fransk chanson.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -286,14 +303,16 @@
         "type": "sant-usant",
         "text": "Tintin ble skapt av den belgiske tegneren Hergé.",
         "correct": true,
-        "explain": "Tintin er en av verdens mest kjente tegneseriefigurer."
+        "explain": "Tintin er en av verdens mest kjente tegneseriefigurer.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Impresjonistene malte helst mørke scener innendørs.",
         "correct": false,
-        "explain": "De ville fange lys og farger, ofte utendørs."
+        "explain": "De ville fange lys og farger, ofte utendørs.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -307,7 +326,8 @@
         "type": "sant-usant",
         "text": "Molière levde på 1900-tallet.",
         "correct": false,
-        "explain": "Molière levde på 1600-tallet."
+        "explain": "Molière levde på 1600-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -333,7 +353,8 @@
           "Bordeaux"
         ],
         "correct": 0,
-        "explain": "Festivalen arrangeres hver vår."
+        "explain": "Festivalen arrangeres hver vår.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -357,7 +378,8 @@
         "kriterier": [
           "Plasserer impresjonismen i Frankrike på 1870-tallet.",
           "Forklarer at malerne ville fange lys, farger eller øyeblikket."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -366,7 +388,8 @@
         "kriterier": [
           "Forklarer at Molière var en fransk komedieforfatter.",
           "Knytter kallenavnet «la langue de Molière» til Molière."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -375,7 +398,8 @@
         "kriterier": [
           "Forklarer at teksten står sentralt i chanson.",
           "Nevner at Stromae blander elektronisk musikk og hiphop eller skriver om alvorlige temaer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -402,7 +426,8 @@
         "kriterier": [
           "Knytter begge bøkene til fattigdom og urettferdighet.",
           "Plasserer handlingstemaene i Frankrike på 1800-tallet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -411,7 +436,8 @@
         "kriterier": [
           "Forklarer at det viktigste ikke nødvendigvis kan sees med øynene.",
           "Får fram at hjertet gjør det mulig å se godt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -420,12 +446,14 @@
         "kriterier": [
           "Bruker en forståelig fransk setning som begynner med «Ce film parle de…».",
           "Får fram vennskapet mellom en rik mann i rullestol og hjelperen hans fra forstedene."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

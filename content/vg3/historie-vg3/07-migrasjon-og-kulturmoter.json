@@ -39,7 +39,8 @@
     },
     {
       "term": "Amerika-brev",
-      "def": "Brev fra utvandrere som lokket flere til å reise."
+      "def": "Brev fra utvandrere som lokket flere til å reise.",
+      "niva": "eksempel"
     },
     {
       "term": "Arbeidsinnvandring",
@@ -93,7 +94,8 @@
         "Rundt 8 millioner"
       ],
       "correct": 0,
-      "explain": "En av de største utvandringene i Europa i forhold til folketallet."
+      "explain": "En av de største utvandringene i Europa i forhold til folketallet.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +107,8 @@
         "Skattebrev"
       ],
       "correct": 2,
-      "explain": "En pull-faktor."
+      "explain": "En pull-faktor.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -141,7 +144,8 @@
         "Turisme"
       ],
       "correct": 1,
-      "explain": "Millioner ble tvunget."
+      "explain": "Millioner ble tvunget.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +157,8 @@
         "Fordi Norge ble med i EU"
       ],
       "correct": 2,
-      "explain": "Fri flyt av arbeidskraft."
+      "explain": "Fri flyt av arbeidskraft.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "Jord som tilhørte urfolk"
       ],
       "correct": 3,
-      "explain": "Et annet perspektiv på utvandringen."
+      "explain": "Et annet perspektiv på utvandringen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -299,14 +305,16 @@
         "type": "sant-usant",
         "text": "Norske utvandrere bygde egne kirker og aviser i Amerika.",
         "correct": true,
-        "explain": "De bevarte deler av kulturen sin."
+        "explain": "De bevarte deler av kulturen sin.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Innvandringsstoppen i 1975 stanset også familiegjenforening.",
         "correct": false,
-        "explain": "Familiegjenforening fortsatte."
+        "explain": "Familiegjenforening fortsatte.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -319,7 +327,8 @@
           "USA"
         ],
         "correct": 1,
-        "explain": "Også Tyrkia og Marokko."
+        "explain": "Også Tyrkia og Marokko.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -365,7 +374,8 @@
         "kriterier": [
           "Knytter brevene til informasjon om muligheter i USA.",
           "Forklarer at brevene kunne trekke flere til å utvandre."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -374,7 +384,8 @@
         "kriterier": [
           "Får fram at nordmennenes utvandring var frivillig.",
           "Får fram at flyttingen i slavehandelen var tvungen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -383,7 +394,8 @@
         "kriterier": [
           "Knytter den første personen til arbeidsinnvandring.",
           "Knytter den andre personen til flyktningmigrasjon fra krig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -390,7 +390,8 @@
         "fasit": "Man tar gjerne imot med begge hender.",
         "kriterier": [
           "Sier at man bruker begge hender når man tar imot noe."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -399,7 +400,8 @@
         "kriterier": [
           "Forklarer at svaret på komplimenter ofte er beskjedent.",
           "Gir betydningen «ikke i det hele tatt» for 哪里哪里."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -424,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

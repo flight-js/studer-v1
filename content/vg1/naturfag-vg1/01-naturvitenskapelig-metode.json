@@ -53,7 +53,8 @@
     },
     {
       "term": "Rutherford",
-      "def": "Oppdaget atomkjernen."
+      "def": "Oppdaget atomkjernen.",
+      "niva": "eksempel"
     },
     {
       "term": "Risikovurdering",
@@ -61,15 +62,18 @@
     },
     {
       "term": "Sikkerhetsdatablad",
-      "def": "Dokument med informasjon om farer og håndtering av et kjemikalie."
+      "def": "Dokument med informasjon om farer og håndtering av et kjemikalie.",
+      "niva": "eksempel"
     },
     {
       "term": "Avtrekksskap",
-      "def": "Skap med avsug som brukes ved giftige gasser."
+      "def": "Skap med avsug som brukes ved giftige gasser.",
+      "niva": "eksempel"
     },
     {
       "term": "Tungmetallavfall",
-      "def": "Skal aldri i vasken, men i egne merkede beholdere."
+      "def": "Skal aldri i vasken, men i egne merkede beholdere.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -131,7 +135,8 @@
         "Thomson"
       ],
       "correct": 0,
-      "explain": "Thomson oppdaget elektronet, og Bohr plasserte elektronene i skall."
+      "explain": "Thomson oppdaget elektronet, og Bohr plasserte elektronene i skall.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -155,7 +160,8 @@
         "I papirkurven"
       ],
       "correct": 2,
-      "explain": "Tungmetaller er skadelige for miljøet."
+      "explain": "Tungmetaller er skadelige for miljøet.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -191,7 +197,8 @@
         "På nettsiden til skolen"
       ],
       "correct": 1,
-      "explain": "Sikkerhetsdatabladet beskriver farer, verneutstyr og avfallshåndtering."
+      "explain": "Sikkerhetsdatabladet beskriver farer, verneutstyr og avfallshåndtering.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -314,7 +321,8 @@
         "type": "sant-usant",
         "text": "Organiske løsemidler kan helles i vasken.",
         "correct": false,
-        "explain": "De skal i egne avfallsbeholdere."
+        "explain": "De skal i egne avfallsbeholdere.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -340,7 +348,8 @@
           "Alltid når du bruker vann"
         ],
         "correct": 2,
-        "explain": "Avtrekket fjerner gassene."
+        "explain": "Avtrekket fjerner gassene.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -409,7 +418,8 @@
         "kriterier": [
           "Knytter endringene i atommodellen til nye data eller oppdagelser.",
           "Får fram at nyere modeller kan forklare mer enn tidligere modeller."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -433,6 +443,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

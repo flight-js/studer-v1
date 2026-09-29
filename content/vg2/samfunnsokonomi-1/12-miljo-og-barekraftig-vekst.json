@@ -47,7 +47,8 @@
     },
     {
       "term": "EUs kvotesystem",
-      "def": "Kvotemarked for industri, kraft og luftfart som Norge er med i."
+      "def": "Kvotemarked for industri, kraft og luftfart som Norge er med i.",
+      "niva": "eksempel"
     },
     {
       "term": "Kostnadseffektiv",
@@ -55,11 +56,13 @@
     },
     {
       "term": "Avkobling",
-      "def": "Verdiskapingen øker uten at utslippene øker."
+      "def": "Verdiskapingen øker uten at utslippene øker.",
+      "niva": "over-niva"
     },
     {
       "term": "Tilbakeslagseffekt",
-      "def": "Effektivisering gjør noe billigere, så vi bruker mer av det."
+      "def": "Effektivisering gjør noe billigere, så vi bruker mer av det.",
+      "niva": "over-niva"
     },
     {
       "term": "Gratispassasjer",
@@ -67,7 +70,8 @@
     },
     {
       "term": "Parisavtalen",
-      "def": "Klimaavtale fra 2015 om å begrense oppvarmingen til godt under 2 grader."
+      "def": "Klimaavtale fra 2015 om å begrense oppvarmingen til godt under 2 grader.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +157,8 @@
         "At handel stanser"
       ],
       "correct": 2,
-      "explain": "Nøkkelen til grønn vekst."
+      "explain": "Nøkkelen til grønn vekst.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "At effektivisering gjør noe billigere, så vi bruker mer av det"
       ],
       "correct": 3,
-      "explain": "Miljøgevinsten blir mindre."
+      "explain": "Miljøgevinsten blir mindre.",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -177,7 +183,8 @@
         "Forby elbiler"
       ],
       "correct": 0,
-      "explain": "Avtalen er fra 2015."
+      "explain": "Avtalen er fra 2015.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -300,7 +307,8 @@
         "type": "sant-usant",
         "text": "Norges eksport av olje og gass gir ingen utslipp.",
         "correct": false,
-        "explain": "Utslippene skjer når de brennes i andre land."
+        "explain": "Utslippene skjer når de brennes i andre land.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -395,7 +403,8 @@
         "kriterier": [
           "Forklarer at merkingen gir forbrukerne informasjon.",
           "Knytter informasjonen til at forbrukerne lettere kan velge miljøvennlig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +413,8 @@
         "kriterier": [
           "Nevner verdiskaping eller arbeidsplasser fra olje- og gasseksport.",
           "Forklarer at utslipp fra bruken av olje og gass må veies mot klimahensyn eller mulighetene for grønn industri."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

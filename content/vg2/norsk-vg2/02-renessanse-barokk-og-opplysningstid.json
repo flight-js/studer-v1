@@ -23,7 +23,8 @@
     },
     {
       "term": "Peder Claussøn Friis",
-      "def": "Oversatte Snorres kongesagaer til dansk."
+      "def": "Oversatte Snorres kongesagaer til dansk.",
+      "niva": "eksempel"
     },
     {
       "term": "Barokken",
@@ -189,7 +190,8 @@
         "Oslo"
       ],
       "correct": 1,
-      "explain": "Han levde senere i København."
+      "explain": "Han levde senere i København.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -296,7 +298,8 @@
         "type": "sant-usant",
         "text": "Holbergs komedier brukes fortsatt på teatre i dag.",
         "correct": true,
-        "explain": "Temaene er tidløse."
+        "explain": "Temaene er tidløse.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -380,7 +383,8 @@
         "kriterier": [
           "Får fram at Friis oversatte Snorres kongesagaer til dansk.",
           "Forklarer at oversettelsen gjorde sagaene tilgjengelige eller kjente for flere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -422,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

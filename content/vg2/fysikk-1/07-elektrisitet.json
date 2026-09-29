@@ -35,7 +35,8 @@
     },
     {
       "term": "Resistivitet",
-      "def": "Materialegenskap i R = ρL / A."
+      "def": "Materialegenskap i R = ρL / A.",
+      "niva": "over-niva"
     },
     {
       "term": "Seriekobling",
@@ -71,7 +72,8 @@
     },
     {
       "term": "Jordfeilbryter",
-      "def": "Bryter kretsen når strøm lekker ut."
+      "def": "Bryter kretsen når strøm lekker ut.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -317,7 +319,8 @@
           "Den firedobles"
         ],
         "correct": 1,
-        "explain": "R = ρL/A."
+        "explain": "R = ρL/A.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -343,7 +346,8 @@
           "Måler effekten"
         ],
         "correct": 2,
-        "explain": "Den hindrer overoppheting og brann."
+        "explain": "Den hindrer overoppheting og brann.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -399,7 +403,8 @@
         "kriterier": [
           "Peker ut den lengre ledningen som den med størst resistans.",
           "Begrunner svaret med at resistansen øker med lengden når materialet og tverrsnittsarealet er likt."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -417,12 +422,14 @@
         "kriterier": [
           "Knytter sikringen til at strømmen blir for stor.",
           "Knytter jordfeilbryteren til strømlekkasje ut av kretsen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

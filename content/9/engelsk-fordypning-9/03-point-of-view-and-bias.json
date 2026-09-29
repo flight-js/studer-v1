@@ -27,7 +27,8 @@
     },
     {
       "term": "Unreliable narrator",
-      "def": "A narrator we cannot fully trust, who may misunderstand or lie."
+      "def": "A narrator we cannot fully trust, who may misunderstand or lie.",
+      "niva": "over-niva"
     },
     {
       "term": "Third-person limited",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Representation",
-      "def": "How different groups are shown in texts and media."
+      "def": "How different groups are shown in texts and media.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -141,7 +143,8 @@
         "Because they are always the villain"
       ],
       "correct": 0,
-      "explain": "We only see the story through one person's eyes."
+      "explain": "We only see the story through one person's eyes.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -422,12 +425,14 @@
         "kriterier": [
           "Explains that representation is how groups are shown.",
           "Explains that showing a group in a narrow or repeated way can shape readers’ impressions."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

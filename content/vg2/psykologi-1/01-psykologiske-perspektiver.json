@@ -68,11 +68,13 @@
     },
     {
       "term": "Carl Rogers",
-      "def": "Humanistisk psykolog som vektla egenverd og ubetinget aksept."
+      "def": "Humanistisk psykolog som vektla egenverd og ubetinget aksept.",
+      "niva": "eksempel"
     },
     {
       "term": "Lev Vygotskij",
-      "def": "Mente at vi lærer og utvikler oss gjennom samhandling med andre."
+      "def": "Mente at vi lærer og utvikler oss gjennom samhandling med andre.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -134,7 +136,8 @@
         "Pavlov og Thorndike"
       ],
       "correct": 0,
-      "explain": "De vektla egenverd og selvrealisering."
+      "explain": "De vektla egenverd og selvrealisering.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -194,7 +197,8 @@
         "Gener"
       ],
       "correct": 1,
-      "explain": "Et sosiokulturelt syn på læring."
+      "explain": "Et sosiokulturelt syn på læring.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -326,7 +330,8 @@
           "Det psykodynamiske"
         ],
         "correct": 1,
-        "explain": "Hjernen og stresshormonene."
+        "explain": "Hjernen og stresshormonene.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -432,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

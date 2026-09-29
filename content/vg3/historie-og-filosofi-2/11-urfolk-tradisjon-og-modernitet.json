@@ -27,7 +27,8 @@
     },
     {
       "term": "Duodji",
-      "def": "Samisk håndverk."
+      "def": "Samisk håndverk.",
+      "niva": "eksempel"
     },
     {
       "term": "Reindrift",
@@ -51,11 +52,13 @@
     },
     {
       "term": "Sametinget",
-      "def": "Samenes folkevalgte organ i Norge."
+      "def": "Samenes folkevalgte organ i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Fosen-saken",
-      "def": "Høyesterett fant i 2021 at vindkraftverk krenket reindriftssamers rettigheter."
+      "def": "Høyesterett fant i 2021 at vindkraftverk krenket reindriftssamers rettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Grønn omstilling",
@@ -117,7 +120,8 @@
         "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"
       ],
       "correct": 3,
-      "explain": "Et symbol på konflikten mellom grønn omstilling og urfolksrettigheter."
+      "explain": "Et symbol på konflikten mellom grønn omstilling og urfolksrettigheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +133,8 @@
         "En reinflokk"
       ],
       "correct": 0,
-      "explain": "En viktig kulturbærer."
+      "explain": "En viktig kulturbærer.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Ved å slutte å snakke samisk"
       ],
       "correct": 1,
-      "explain": "Tradisjon og modernitet er ikke motsetninger."
+      "explain": "Tradisjon og modernitet er ikke motsetninger.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -296,7 +302,8 @@
         "type": "sant-usant",
         "text": "Det finnes urfolk i over 90 land.",
         "correct": true,
-        "explain": "For eksempel inuitter og maorier."
+        "explain": "For eksempel inuitter og maorier.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -342,7 +349,8 @@
           "Samer"
         ],
         "correct": 2,
-        "explain": "Maoriene er urfolk i New Zealand."
+        "explain": "Maoriene er urfolk i New Zealand.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -407,7 +415,8 @@
         "kriterier": [
           "Forklarer at vindkraft er knyttet til grønn omstilling eller fornybar energi.",
           "Får fram at vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

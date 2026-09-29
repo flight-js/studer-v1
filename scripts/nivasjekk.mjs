@@ -40,7 +40,7 @@ const ER_OPENAI = new URL(BASE_URL).hostname.endsWith("openai.com");
 const PRISER = { "gpt-6-luna": { inn: 0.1, ut: 0.5 }, "gpt-6-sol": { inn: 2, ut: 10 }, "gpt-6-astra": { inn: 10, ut: 50 } };
 const PRIS = PRISER[MODELL] ?? PRISER["gpt-6-luna"];
 const NIVAER = ["kjerne", "eksempel", "over-niva"];
-// Hvert tema vurderes flere ganger, og flertallet avgjør (modellen svinger litt).
+// Hvert tema vurderes opptil tre ganger, og flertallet avgjør (modellen svinger litt).
 const KJORINGER = 3;
 
 const args = process.argv.slice(2);
@@ -127,7 +127,7 @@ const jobber = alle.filter(
   (j) => (!bareFag.length || bareFag.includes(j.fag)) && (paNytt || !lesJson(j.sti).kvalitet.nivasjekk)
 );
 const valgte = jobber.slice(0, maks);
-console.log(`Modell: ${MODELL} · resonnering: ${ER_OPENAI ? RESONNERING : "–"} · ${KJORINGER} kjøringer per tema · ${valgte.length} temaer`);
+console.log(`Modell: ${MODELL} · resonnering: ${ER_OPENAI ? RESONNERING : "–"} · opptil ${KJORINGER} kjøringer per tema · ${valgte.length} temaer`);
 
 // Instruksjonene ----------------------------------------------------------------------
 
@@ -156,7 +156,8 @@ Slik vurderer du:
 - Et spørsmål eller en skriveoppgave får samme nivå som det den krever at eleven kan. Krever den et eksempel eller noe over nivå, merkes den slik – også om den ellers er enkel.
 - Et spørsmål som bruker et vanlig, konkret tilfelle for å øve på et kjernebegrep, er kjerne. Eksempler: atomnummeret til karbon (øver på atomnummer), hvilket virkemiddel en boikott er, eller å bruke kjernekunnskap på en ny situasjon.
 - Merk bare når du har god grunn til å tro at mange klasser ikke har lært det. Er du i tvil, velg kjerne.
-- I språkfag er grammatikk, ordforråd og tekstkunnskap som hører til trinnet, kjerne. Bestemte forfattere, verk og kulturelle eksempler er ofte eksempel.
+- I språkfag er grammatikk, ordforråd og tekstkunnskap som hører til trinnet, kjerne.
+- I litteraturhistorie er de sentrale forfatterne og verkene i perioden kjerne – de som nesten alle lærebøker tar med, som Wergeland, Welhaven og Asbjørnsen og Moe i romantikken, Ibsen og «Et dukkehjem» i realismen, eller Hamsun og Amalie Skram i naturalismen og nyromantikken. Mindre kjente forfattere og verk, og samtidslitteratur som lærere velger ulikt, er eksempel.
 - I matematikk og realfag er metoder, formler og begreper fra kompetansemålene kjerne.
 - I historie er de sentrale hendelsene i et tema kjerne – de som nesten alle lærebøker forteller om, som Krystallnatten i et tema om Holocaust eller skuddene i Sarajevo i et tema om første verdenskrig. Eksempel er saker, personer, organisasjoner og avtaler som lærere velger ulikt for å belyse et åpent kompetansemål.
 - Det vanlige er at de fleste begrepene er kjerne. Men er temaet bygd opp rundt eksempler som skoler velger ulikt, kan mange være eksempel.`;
@@ -297,7 +298,13 @@ async function sjekk(jobb) {
   };
   if (ER_OPENAI) Object.assign(body, { response_format: FORMAT, store: false, reasoning_effort: RESONNERING });
 
-  const runder = await Promise.all(Array.from({ length: KJORINGER }, () => vurder(jobb, t, body)));
+  // To kjøringer først. Er de enige om hva som er kjerne, endrer ikke en
+  // tredje utfallet, så den trengs bare der de er uenige.
+  const runder = await Promise.all([1, 2].map(() => vurder(jobb, t, body)));
+  const kjerne = (r) => ["begreper", "sporsmal", "skriv"].flatMap((del) => [...r.svar[del]].map(([k, v]) => `${del}|${k}|${v === "kjerne"}`)).sort().join();
+  if (KJORINGER > 2 && kjerne(runder[0]) !== kjerne(runder[1])) {
+    runder.push(...(await Promise.all(Array.from({ length: KJORINGER - 2 }, () => vurder(jobb, t, body)))));
+  }
   const kostnad = runder.reduce((s, r) => s + r.kostnad, 0);
   const niva = (del, nokkel) => flertall(runder.map((r) => r.svar[del].get(nokkel)));
 
@@ -314,7 +321,7 @@ async function sjekk(jobb) {
   console.log(
     `✓ ${jobb.navn} · ${fersk.flashcards.length - ekstra.length} kjerne, ${ekstra.length} merket` +
       (ekstra.length ? ` (${ekstra.map((c) => c.term).join(", ")})` : "") +
-      ` · ${sp} spørsmål merket · ${((Date.now() - start) / 1000).toFixed(1)} s · ${(kostnad * 100).toFixed(2)} cent`
+      ` · ${sp} spørsmål merket · ${runder.length} kjøringer · ${((Date.now() - start) / 1000).toFixed(1)} s · ${(kostnad * 100).toFixed(2)} cent`
   );
   return kostnad;
 }

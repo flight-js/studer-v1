@@ -28,15 +28,18 @@
     },
     {
       "term": "Elsa Laula Renberg",
-      "def": "Sørsamisk forkjemper, tok initiativ til landsmøtet i 1917."
+      "def": "Sørsamisk forkjemper, tok initiativ til landsmøtet i 1917.",
+      "niva": "eksempel"
     },
     {
       "term": "Nelson Mandela",
-      "def": "Kjempet mot apartheid og ble Sør-Afrikas president i 1994."
+      "def": "Kjempet mot apartheid og ble Sør-Afrikas president i 1994.",
+      "niva": "eksempel"
     },
     {
       "term": "Apartheid",
-      "def": "Raseskillepolitikk i Sør-Afrika."
+      "def": "Raseskillepolitikk i Sør-Afrika.",
+      "niva": "eksempel"
     },
     {
       "term": "Motstand",
@@ -44,11 +47,13 @@
     },
     {
       "term": "Sivil ulydighet",
-      "def": "Å bevisst bryte regler i protest, uten vold."
+      "def": "Å bevisst bryte regler i protest, uten vold.",
+      "niva": "eksempel"
     },
     {
       "term": "Lærerstriden 1942",
-      "def": "Mange lærere nektet å melde seg inn i nazistenes lærersamband."
+      "def": "Mange lærere nektet å melde seg inn i nazistenes lærersamband.",
+      "niva": "eksempel"
     },
     {
       "term": "Tilpasning",
@@ -68,7 +73,8 @@
     },
     {
       "term": "Kontrafaktisk tenkning",
-      "def": "Å spørre «hva om?» for å vurdere betydningen av valg."
+      "def": "Å spørre «hva om?» for å vurdere betydningen av valg.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -106,7 +112,8 @@
         "Grunnloven"
       ],
       "correct": 2,
-      "explain": "Holdt i Trondheim."
+      "explain": "Holdt i Trondheim.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +125,8 @@
         "Forsoning"
       ],
       "correct": 3,
-      "explain": "Han ble president i 1994."
+      "explain": "Han ble president i 1994.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -130,7 +138,8 @@
         "At lærerne meldte seg inn i NS"
       ],
       "correct": 0,
-      "explain": "Et eksempel på sivil ulydighet."
+      "explain": "Et eksempel på sivil ulydighet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -166,7 +175,8 @@
         "Å spørre «hva om?»"
       ],
       "correct": 3,
-      "explain": "Viser betydningen av valg og tilfeldigheter."
+      "explain": "Viser betydningen av valg og tilfeldigheter.",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -304,7 +314,8 @@
         "type": "sant-usant",
         "text": "Kontrafaktiske spørsmål kan besvares med full sikkerhet.",
         "correct": false,
-        "explain": "De kan ikke besvares sikkert."
+        "explain": "De kan ikke besvares sikkert.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -343,7 +354,8 @@
           "50 år"
         ],
         "correct": 2,
-        "explain": "Han ble løslatt i 1990."
+        "explain": "Han ble løslatt i 1990.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -363,7 +375,8 @@
         "kriterier": [
           "Knytter begrensningene til fornorskingspolitikken og/eller kjønnsrollene.",
           "Forklarer hvordan hun selv handlet og utfordret begrensningene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -390,7 +403,8 @@
         "kriterier": [
           "Identifiserer handlingen som sivil ulydighet og forklarer at regelbruddet er bevisst og skjer i protest uten vold.",
           "Forklarer at handlingen er motstand mot okkupanten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -399,7 +413,8 @@
         "kriterier": [
           "Beskriver en relevant begrensning eller motstand for hver av personene.",
           "Sammenligner hvordan de handlet for å påvirke samfunnet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

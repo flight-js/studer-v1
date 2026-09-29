@@ -15,7 +15,8 @@
     },
     {
       "term": "Tros- og livssynsloven",
-      "def": "Lov fra 2021 om støtte til tros- og livssynssamfunn."
+      "def": "Lov fra 2021 om støtte til tros- og livssynssamfunn.",
+      "niva": "eksempel"
     },
     {
       "term": "Statsreligion",
@@ -23,7 +24,8 @@
     },
     {
       "term": "Laïcité",
-      "def": "Fransk streng sekularisme med religiøse symboler forbudt i offentlige skoler."
+      "def": "Fransk streng sekularisme med religiøse symboler forbudt i offentlige skoler.",
+      "niva": "eksempel"
     },
     {
       "term": "Livssynsnøytralitet",
@@ -43,11 +45,13 @@
     },
     {
       "term": "Kristelig Folkeparti",
-      "def": "Parti som bygger politikken på kristne verdier."
+      "def": "Parti som bygger politikken på kristne verdier.",
+      "niva": "eksempel"
     },
     {
       "term": "Hindunasjonalisme",
-      "def": "Politisk bevegelse som vil gjøre India mer hinduistisk."
+      "def": "Politisk bevegelse som vil gjøre India mer hinduistisk.",
+      "niva": "eksempel"
     },
     {
       "term": "Religion og konflikt",
@@ -63,11 +67,13 @@
     },
     {
       "term": "Menneskerettsloven",
-      "def": "Lov som gjør sentrale menneskerettigheter til norsk lov."
+      "def": "Lov som gjør sentrale menneskerettigheter til norsk lov.",
+      "niva": "eksempel"
     },
     {
       "term": "Skolegudstjeneste",
-      "def": "Gudstjeneste i skoletiden, ofte før jul – omdiskutert."
+      "def": "Gudstjeneste i skoletiden, ofte før jul – omdiskutert.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +99,8 @@
         "Islamsk lov"
       ],
       "correct": 0,
-      "explain": "Ulik den norske modellen."
+      "explain": "Ulik den norske modellen.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -153,7 +160,8 @@
         "Rødt"
       ],
       "correct": 2,
-      "explain": "Også andre partier henter argumenter fra livssyn."
+      "explain": "Også andre partier henter argumenter fra livssyn.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +173,8 @@
         "Om offentlige seremonier skal være kirkelige eller livssynsnøytrale"
       ],
       "correct": 3,
-      "explain": "For eksempel minnemarkeringer."
+      "explain": "For eksempel minnemarkeringer.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +186,8 @@
         "Religion er blitt forbudt"
       ],
       "correct": 0,
-      "explain": "Mange muslimer opplever diskriminering."
+      "explain": "Mange muslimer opplever diskriminering.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -300,7 +310,8 @@
         "type": "sant-usant",
         "text": "Konflikten mellom Israel og palestinerne handler bare om religion.",
         "correct": false,
-        "explain": "Den handler også om land, makt og nasjonalisme."
+        "explain": "Den handler også om land, makt og nasjonalisme.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -313,7 +324,8 @@
           "USA"
         ],
         "correct": 1,
-        "explain": "Religiøse ledere styrer landet."
+        "explain": "Religiøse ledere styrer landet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -350,7 +362,8 @@
         "kriterier": [
           "Sier at begrensningen må være nødvendig.",
           "Knytter begrensningen til beskyttelse av andres rettigheter, sikkerhet eller helse."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -359,7 +372,8 @@
         "kriterier": [
           "Forklarer at menneskerettsloven gjør sentrale menneskerettigheter til norsk lov.",
           "Forklarer at tros- og livssynsloven blant annet handler om statsstøtte."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -368,7 +382,8 @@
         "kriterier": [
           "Beskriver at religiøse ledere styrer i Iran.",
           "Beskriver USA som et land med skille mellom stat og religion."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -395,7 +410,8 @@
         "kriterier": [
           "Forklarer at religion kan forsterke konflikten gjennom identitet eller det hellige.",
           "Nevner andre forhold som land, makt eller nasjonalisme."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -413,12 +429,14 @@
         "kriterier": [
           "Beskriver politisk innflytelse fra kristne velgergrupper i USA.",
           "Beskriver at religiøse ledere styrer i Iran."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

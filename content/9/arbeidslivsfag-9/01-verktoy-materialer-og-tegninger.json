@@ -28,11 +28,13 @@
     },
     {
       "term": "Høvel",
-      "def": "Verktøy som tar bort tynne lag fra treoverflater."
+      "def": "Verktøy som tar bort tynne lag fra treoverflater.",
+      "niva": "eksempel"
     },
     {
       "term": "Impregnert tre",
-      "def": "Tre som er behandlet for å tåle fukt og råte."
+      "def": "Tre som er behandlet for å tåle fukt og råte.",
+      "niva": "eksempel"
     },
     {
       "term": "Materialegenskaper",
@@ -56,19 +58,23 @@
     },
     {
       "term": "Projeksjonstegning",
-      "def": "Tegning som viser et produkt forfra, fra siden og ovenfra."
+      "def": "Tegning som viser et produkt forfra, fra siden og ovenfra.",
+      "niva": "over-niva"
     },
     {
       "term": "Perspektivtegning",
-      "def": "Tegning som får et produkt til å se tredimensjonalt ut."
+      "def": "Tegning som får et produkt til å se tredimensjonalt ut.",
+      "niva": "eksempel"
     },
     {
       "term": "Stykkliste",
-      "def": "Oversikt over delene i et produkt med antall, mål og materiale."
+      "def": "Oversikt over delene i et produkt med antall, mål og materiale.",
+      "niva": "eksempel"
     },
     {
       "term": "Laserkutter",
-      "def": "Maskin som skjærer ut deler fra en digital tegning."
+      "def": "Maskin som skjærer ut deler fra en digital tegning.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -106,7 +112,8 @@
         "En handleliste til kjøkkenet"
       ],
       "correct": 0,
-      "explain": "Stykklisten hører til arbeidstegningen."
+      "explain": "Stykklisten hører til arbeidstegningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -130,7 +137,8 @@
         "Det er pent"
       ],
       "correct": 0,
-      "explain": "Ubehandlet tre kan råtne når det står ute."
+      "explain": "Ubehandlet tre kan råtne når det står ute.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +150,8 @@
         "Et fotografi"
       ],
       "correct": 1,
-      "explain": "Hver visning viser mål i to retninger."
+      "explain": "Hver visning viser mål i to retninger.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -306,7 +315,8 @@
         "type": "sant-usant",
         "text": "En laserkutter kan lage deler direkte fra en digital tegning.",
         "correct": true,
-        "explain": "Teknologien gjør det mulig å lage presise deler raskt."
+        "explain": "Teknologien gjør det mulig å lage presise deler raskt.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -339,7 +349,8 @@
           "En tegning av et kart"
         ],
         "correct": 0,
-        "explain": "Perspektivtegningen gir et bilde av hvordan produktet ser ut."
+        "explain": "Perspektivtegningen gir et bilde av hvordan produktet ser ut.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -399,7 +410,8 @@
         "kriterier": [
           "Knytter projeksjonstegning til visning forfra, fra siden og ovenfra.",
           "Knytter perspektivtegning til at produktet ser tredimensjonalt ut."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -432,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

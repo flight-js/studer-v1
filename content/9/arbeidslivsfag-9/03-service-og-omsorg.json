@@ -12,7 +12,8 @@
   "flashcards": [
     {
       "term": "Helse- og oppvekstfag",
-      "def": "Yrkesfaglig utdanningsprogram for blant annet helsefagarbeidere og barne- og ungdomsarbeidere."
+      "def": "Yrkesfaglig utdanningsprogram for blant annet helsefagarbeidere og barne- og ungdomsarbeidere.",
+      "niva": "eksempel"
     },
     {
       "term": "Helsefagarbeider",
@@ -32,7 +33,8 @@
     },
     {
       "term": "Demens",
-      "def": "Sykdom som gir svekket hukommelse og evne til å klare seg i hverdagen."
+      "def": "Sykdom som gir svekket hukommelse og evne til å klare seg i hverdagen.",
+      "niva": "eksempel"
     },
     {
       "term": "Verbal kommunikasjon",
@@ -106,7 +108,8 @@
         "Helst ikke i det hele tatt"
       ],
       "correct": 2,
-      "explain": "Det gjør det lettere for personen å forstå."
+      "explain": "Det gjør det lettere for personen å forstå.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -142,7 +145,8 @@
         "Elektriker"
       ],
       "correct": 1,
-      "explain": "Også barne- og ungdomsarbeidere utdannes her."
+      "explain": "Også barne- og ungdomsarbeidere utdannes her.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -333,7 +337,8 @@
           "En skade i beinet"
         ],
         "correct": 0,
-        "explain": "Demens er vanligst hos eldre."
+        "explain": "Demens er vanligst hos eldre.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -346,7 +351,8 @@
           "Naturbruk"
         ],
         "correct": 2,
-        "explain": "Her lærer man om service, salg og vertskap."
+        "explain": "Her lærer man om service, salg og vertskap.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -425,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

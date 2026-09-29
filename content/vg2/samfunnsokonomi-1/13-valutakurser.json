@@ -59,7 +59,8 @@
     },
     {
       "term": "Felles valuta",
-      "def": "Flere land bruker samme valuta, som euroen."
+      "def": "Flere land bruker samme valuta, som euroen.",
+      "niva": "eksempel"
     },
     {
       "term": "Valutamarked",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Oljefondet i kroner",
-      "def": "Øker i verdi når kronen svekkes."
+      "def": "Øker i verdi når kronen svekkes.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +167,8 @@
         "Landet mister muligheten til å bruke renten til å styre egen økonomi"
       ],
       "correct": 3,
-      "explain": "Renten må brukes til å holde kursen."
+      "explain": "Renten må brukes til å holde kursen.",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -189,7 +192,8 @@
         "Fordi oljeprisen faller"
       ],
       "correct": 1,
-      "explain": "Utenlandske verdier blir verdt flere kroner."
+      "explain": "Utenlandske verdier blir verdt flere kroner.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -419,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

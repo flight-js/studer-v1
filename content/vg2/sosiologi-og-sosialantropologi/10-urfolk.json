@@ -15,11 +15,13 @@
     },
     {
       "term": "Antall urfolk i verden",
-      "def": "Rundt 476 millioner i over 90 land."
+      "def": "Rundt 476 millioner i over 90 land.",
+      "niva": "eksempel"
     },
     {
       "term": "ILO-konvensjon 169",
-      "def": "Internasjonal konvensjon om urfolks rettigheter; Norge ratifiserte først, i 1990."
+      "def": "Internasjonal konvensjon om urfolks rettigheter; Norge ratifiserte først, i 1990.",
+      "niva": "eksempel"
     },
     {
       "term": "Selvidentifikasjon",
@@ -27,7 +29,8 @@
     },
     {
       "term": "Waitangi-traktaten",
-      "def": "Avtale fra 1840 mellom maorier og britene."
+      "def": "Avtale fra 1840 mellom maorier og britene.",
+      "niva": "eksempel"
     },
     {
       "term": "Samiske språk",
@@ -35,11 +38,13 @@
     },
     {
       "term": "Duodji",
-      "def": "Samisk håndverk."
+      "def": "Samisk håndverk.",
+      "niva": "eksempel"
     },
     {
       "term": "Joik",
-      "def": "Tradisjonell samisk sangform."
+      "def": "Tradisjonell samisk sangform.",
+      "niva": "eksempel"
     },
     {
       "term": "Fornorskning",
@@ -47,7 +52,8 @@
     },
     {
       "term": "Sannhets- og forsoningskommisjonen",
-      "def": "La fram rapport om fornorskningen i 2023."
+      "def": "La fram rapport om fornorskningen i 2023.",
+      "niva": "eksempel"
     },
     {
       "term": "Altasaken",
@@ -59,15 +65,18 @@
     },
     {
       "term": "Grunnloven § 108",
-      "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv."
+      "def": "Staten skal legge til rette for samisk språk, kultur og samfunnsliv.",
+      "niva": "eksempel"
     },
     {
       "term": "Samefolkets dag",
-      "def": "6. februar."
+      "def": "6. februar.",
+      "niva": "eksempel"
     },
     {
       "term": "Fosen-dommen",
-      "def": "Høyesterett 2021: vindkraftverk krenket reindriftssamenes rettigheter."
+      "def": "Høyesterett 2021: vindkraftverk krenket reindriftssamenes rettigheter.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +126,8 @@
         "At vindkraftverkene krenket reindriftssamenes rett til kulturutøvelse"
       ],
       "correct": 3,
-      "explain": "Etter FNs konvensjon om sivile og politiske rettigheter."
+      "explain": "Etter FNs konvensjon om sivile og politiske rettigheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +139,8 @@
         "USA"
       ],
       "correct": 0,
-      "explain": "I 1990."
+      "explain": "I 1990.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +188,8 @@
         "En plan for vindkraft"
       ],
       "correct": 0,
-      "explain": "Om samer, kvener og skogfinner."
+      "explain": "Om samer, kvener og skogfinner.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +201,8 @@
         "At samer ikke har stemmerett"
       ],
       "correct": 1,
-      "explain": "Tidligere § 110 a, fra 1988."
+      "explain": "Tidligere § 110 a, fra 1988.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -299,7 +312,8 @@
         "type": "sant-usant",
         "text": "6. februar er samefolkets dag.",
         "correct": true,
-        "explain": "Til minne om landsmøtet i Trondheim i 1917."
+        "explain": "Til minne om landsmøtet i Trondheim i 1917.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +333,8 @@
           "En samisk høytid"
         ],
         "correct": 1,
-        "explain": "Joik er sangformen."
+        "explain": "Joik er sangformen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +347,8 @@
           "Versailles-traktaten"
         ],
         "correct": 0,
-        "explain": "Fra 1840."
+        "explain": "Fra 1840.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -365,7 +381,8 @@
         "kriterier": [
           "Knytter inuittene til Arktis og nevner tradisjonell fangst av sel eller hval.",
           "Knytter maoriene til New Zealand og nevner Waitangi-traktatens betydning eller bakgrunn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -392,7 +409,8 @@
         "kriterier": [
           "Forklarer at reindrift kan være en del av samisk kulturutøvelse.",
           "Får fram at Høyesterett mente vindkraftverkene på Fosen krenket denne retten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -401,7 +419,8 @@
         "kriterier": [
           "Knytter § 108 til å sikre og utvikle samisk språk, kultur og samfunnsliv.",
           "Knytter Finnmarksloven til økt råderett over grunnen for befolkningen i Finnmark."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,7 +429,8 @@
         "kriterier": [
           "Forklarer at duodji er samisk håndverk.",
           "Forklarer at joik er en tradisjonell samisk sangform."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -425,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

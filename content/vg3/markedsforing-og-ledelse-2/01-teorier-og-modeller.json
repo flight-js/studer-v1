@@ -47,7 +47,8 @@
     },
     {
       "term": "AIDA",
-      "def": "Attention, interest, desire, action."
+      "def": "Attention, interest, desire, action.",
+      "niva": "eksempel"
     },
     {
       "term": "Primærdata",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Årsrapport",
-      "def": "Bedriftens rapport om drift og resultater – skrevet for å gi godt inntrykk."
+      "def": "Bedriftens rapport om drift og resultater – skrevet for å gi godt inntrykk.",
+      "niva": "eksempel"
     },
     {
       "term": "Modellens begrensning",
@@ -141,7 +143,8 @@
         "Fordi de er for korte"
       ],
       "correct": 1,
-      "explain": "Skill mellom fakta og markedsføring."
+      "explain": "Skill mellom fakta og markedsføring.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -290,7 +293,8 @@
         "type": "sant-usant",
         "text": "Mange modeller er laget for store bedrifter i stabile markeder.",
         "correct": true,
-        "explain": "Passer ikke alltid for små eller digitale virksomheter."
+        "explain": "Passer ikke alltid for små eller digitale virksomheter.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -336,7 +340,8 @@
           "Design"
         ],
         "correct": 2,
-        "explain": "Attention, interest, desire, action."
+        "explain": "Attention, interest, desire, action.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -374,7 +379,8 @@
         "kriterier": [
           "Beskriver trinnene oppmerksomhet, interesse, ønske og handling i riktig rekkefølge.",
           "Viser at trinnene brukes til å føre kunden fra å legge merke til annonsen til å handle."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -393,7 +399,8 @@
         "kriterier": [
           "Viser til vurdering av avsender, aktualitet og/eller formål.",
           "Forklarer at årsrapporten kan være vinklet fordi den skal gi et godt inntrykk, og at fakta må skilles fra markedsføring."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -411,12 +418,14 @@
         "kriterier": [
           "Forklarer at lederstilen skal tilpasses medarbeideren.",
           "Knytter tilpasningen til at medarbeidere kan ha ulike behov."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

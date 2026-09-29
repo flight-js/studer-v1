@@ -143,7 +143,8 @@
         "Kanariøyene"
       ],
       "correct": 1,
-      "explain": "Mange katalanere ønsker uavhengighet, andre ikke."
+      "explain": "Mange katalanere ønsker uavhengighet, andre ikke.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -290,14 +291,16 @@
         "type": "sant-usant",
         "text": "Spansk er offisielt språk i Ekvatorial-Guinea i Afrika.",
         "correct": true,
-        "explain": "Landet var tidligere en spansk koloni."
+        "explain": "Landet var tidligere en spansk koloni.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Spania er en republikk uten konge.",
         "correct": false,
-        "explain": "Spania er et konstitusjonelt monarki."
+        "explain": "Spania er et konstitusjonelt monarki.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -337,7 +340,8 @@
           "Inuitter"
         ],
         "correct": 0,
-        "explain": "Quechua er også et levende språk."
+        "explain": "Quechua er også et levende språk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -388,7 +392,8 @@
         "kriterier": [
           "Forklarer migrasjon som flytting mellom land eller steder.",
           "Nevner USA som et annet reisemål."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -406,7 +411,8 @@
         "kriterier": [
           "Bruker *Estoy en contra de* på en forståelig måte.",
           "Uttrykker motstand mot avskoging i Amazonas."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -430,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

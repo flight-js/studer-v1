@@ -39,7 +39,8 @@
     },
     {
       "term": "Personlig garanti",
-      "def": "Eieren garanterer for et lån med egne midler."
+      "def": "Eieren garanterer for et lån med egne midler.",
+      "niva": "eksempel"
     },
     {
       "term": "ANS",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Stiftelse",
-      "def": "Har ingen eiere og drives for et bestemt formål."
+      "def": "Har ingen eiere og drives for et bestemt formål.",
+      "niva": "over-niva"
     },
     {
       "term": "Organisasjonsnummer",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Merverdiavgiftsregisteret",
-      "def": "Registrering kreves som hovedregel når omsetningen passerer 50 000 kr på tolv måneder."
+      "def": "Registrering kreves som hovedregel når omsetningen passerer 50 000 kr på tolv måneder.",
+      "niva": "over-niva"
     },
     {
       "term": "Selskapsavtale",
@@ -133,7 +136,8 @@
         "Loven forbyr begrenset ansvar"
       ],
       "correct": 0,
-      "explain": "Eieren hefter da for lånet."
+      "explain": "Eieren hefter da for lånet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -181,7 +185,8 @@
         "Når den har ti ansatte"
       ],
       "correct": 0,
-      "explain": "Da må den legge merverdiavgift på prisene."
+      "explain": "Da må den legge merverdiavgift på prisene.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -193,7 +198,8 @@
         "Medlemmer som eiere"
       ],
       "correct": 1,
-      "explain": "Formålet styrer driften."
+      "explain": "Formålet styrer driften.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -283,7 +289,8 @@
         "type": "sant-usant",
         "text": "Årsregnskapet til et aksjeselskap er offentlig.",
         "correct": true,
-        "explain": "Det sendes til Regnskapsregisteret."
+        "explain": "Det sendes til Regnskapsregisteret.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
@@ -343,7 +350,8 @@
           "Som arveavgift"
         ],
         "correct": 2,
-        "explain": "Eieren og foretaket er ikke adskilt."
+        "explain": "Eieren og foretaket er ikke adskilt.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -363,7 +371,8 @@
         "kriterier": [
           "Forklarer at overskuddet i ENK skattlegges som eierens personinntekt.",
           "Forklarer at AS skattlegges for overskuddet som et eget rettssubjekt."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -417,12 +426,14 @@
         "kriterier": [
           "Nevner at årsregnskapet sendes til Regnskapsregisteret og er offentlig.",
           "Nevner at små aksjeselskaper i mange tilfeller kan velge bort revisjon."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -11,11 +11,13 @@
   "flashcards": [
     {
       "term": "Kileskrift",
-      "def": "Skrift fra Mesopotamia for over 5000 år siden."
+      "def": "Skrift fra Mesopotamia for over 5000 år siden.",
+      "niva": "eksempel"
     },
     {
       "term": "Runer",
-      "def": "Skrifttegn brukt i Norden fra rundt 200 e.Kr."
+      "def": "Skrifttegn brukt i Norden fra rundt 200 e.Kr.",
+      "niva": "eksempel"
     },
     {
       "term": "Johannes Gutenberg",
@@ -27,7 +29,8 @@
     },
     {
       "term": "1763",
-      "def": "Den første norske avisen kom."
+      "def": "Den første norske avisen kom.",
+      "niva": "eksempel"
     },
     {
       "term": "Telegraf",
@@ -35,15 +38,18 @@
     },
     {
       "term": "NRK radio",
-      "def": "Startet i 1933."
+      "def": "Startet i 1933.",
+      "niva": "eksempel"
     },
     {
       "term": "NRK TV",
-      "def": "Ordinære sendinger fra 1960."
+      "def": "Ordinære sendinger fra 1960.",
+      "niva": "eksempel"
     },
     {
       "term": "World Wide Web",
-      "def": "Lansert i 1991."
+      "def": "Lansert i 1991.",
+      "niva": "eksempel"
     },
     {
       "term": "Kulturmøte",
@@ -55,11 +61,13 @@
     },
     {
       "term": "Den colombianske utvekslingen",
-      "def": "Utveksling av planter, dyr og sykdommer mellom Amerika og Europa etter 1492."
+      "def": "Utveksling av planter, dyr og sykdommer mellom Amerika og Europa etter 1492.",
+      "niva": "eksempel"
     },
     {
       "term": "Fornorsking",
-      "def": "Politikk for å gjøre samer og kvener norske."
+      "def": "Politikk for å gjøre samer og kvener norske.",
+      "niva": "eksempel"
     },
     {
       "term": "Flerkulturelt samfunn",
@@ -67,7 +75,8 @@
     },
     {
       "term": "Polarisering",
-      "def": "At meninger og grupper trekkes lenger fra hverandre."
+      "def": "At meninger og grupper trekkes lenger fra hverandre.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -81,7 +90,8 @@
         "I Norden"
       ],
       "correct": 1,
-      "explain": "For over 5000 år siden."
+      "explain": "For over 5000 år siden.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -117,7 +127,8 @@
         "1960"
       ],
       "correct": 3,
-      "explain": "Radiosendingene startet i 1933."
+      "explain": "Radiosendingene startet i 1933.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +152,8 @@
         "Epler og pærer"
       ],
       "correct": 1,
-      "explain": "Dette er en del av den colombianske utvekslingen."
+      "explain": "Dette er en del av den colombianske utvekslingen.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +201,8 @@
         "Rundt 1800"
       ],
       "correct": 1,
-      "explain": "Med kristendommen kom det latinske alfabetet."
+      "explain": "Med kristendommen kom det latinske alfabetet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -309,7 +322,8 @@
         "type": "sant-usant",
         "text": "World Wide Web ble lansert på 1960-tallet.",
         "correct": false,
-        "explain": "Det ble lansert i 1991."
+        "explain": "Det ble lansert i 1991.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -322,7 +336,8 @@
           "Kileskrift"
         ],
         "correct": 0,
-        "explain": "Kristendommen kom gradvis til Norden."
+        "explain": "Kristendommen kom gradvis til Norden.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -348,7 +363,8 @@
           "En type kommunikasjon"
         ],
         "correct": 2,
-        "explain": "Sosiale medier kan bidra til polarisering."
+        "explain": "Sosiale medier kan bidra til polarisering.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -422,12 +438,14 @@
         "kriterier": [
           "Forklarer at fornorsking var en politikk for å gjøre samer og kvener norske.",
           "Knytter fornorskingen til undertrykkelse eller til at forholdet også hadde sider utover handel og samarbeid."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

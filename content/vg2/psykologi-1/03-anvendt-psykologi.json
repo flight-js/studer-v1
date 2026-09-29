@@ -43,7 +43,8 @@
     },
     {
       "term": "PP-tjenesten",
-      "def": "Pedagogisk-psykologisk tjeneste som utreder elevers behov."
+      "def": "Pedagogisk-psykologisk tjeneste som utreder elevers behov.",
+      "niva": "eksempel"
     },
     {
       "term": "Arbeids- og organisasjonspsykologi",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Visualisering",
-      "def": "Å se for seg en prestasjon i detalj som mental trening."
+      "def": "Å se for seg en prestasjon i detalj som mental trening.",
+      "niva": "eksempel"
     },
     {
       "term": "Rettspsykologi",
@@ -63,15 +65,18 @@
     },
     {
       "term": "Statens barnehus",
-      "def": "Sted der barn avhøres og får hjelp etter vold eller overgrep."
+      "def": "Sted der barn avhøres og får hjelp etter vold eller overgrep.",
+      "niva": "eksempel"
     },
     {
       "term": "Knapphet i markedsføring",
-      "def": "Å få en vare til å virke sjelden for å øke lysten til å kjøpe."
+      "def": "Å få en vare til å virke sjelden for å øke lysten til å kjøpe.",
+      "niva": "eksempel"
     },
     {
       "term": "Beskyttet tittel",
-      "def": "Bare autoriserte psykologer kan kalle seg psykolog."
+      "def": "Bare autoriserte psykologer kan kalle seg psykolog.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -121,7 +126,8 @@
         "Utreder elever som trenger spesialundervisning"
       ],
       "correct": 3,
-      "explain": "Pedagogisk-psykologisk tjeneste."
+      "explain": "Pedagogisk-psykologisk tjeneste.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -157,7 +163,8 @@
         "Å ha åpent om søndagen"
       ],
       "correct": 2,
-      "explain": "Knapphet øker lysten til å kjøpe."
+      "explain": "Knapphet øker lysten til å kjøpe.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -181,7 +188,8 @@
         "Bare hvis de jobber i skolen"
       ],
       "correct": 0,
-      "explain": "Krever autorisasjon."
+      "explain": "Krever autorisasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -302,7 +310,8 @@
         "type": "sant-usant",
         "text": "Mange apper er designet for å holde på oppmerksomheten vår.",
         "correct": true,
-        "explain": "Blant annet med varsler og belønninger."
+        "explain": "Blant annet med varsler og belønninger.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -322,7 +331,8 @@
           "Å tegne treningsplaner"
         ],
         "correct": 1,
-        "explain": "En form for mental trening."
+        "explain": "En form for mental trening.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -335,7 +345,8 @@
           "I Stortinget"
         ],
         "correct": 0,
-        "explain": "Avhøret tilpasses barnet."
+        "explain": "Avhøret tilpasses barnet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -386,7 +397,8 @@
         "kriterier": [
           "Kjenner igjen mental treningsmetode som visualisering.",
           "Forklarer at utøveren ser for seg prestasjonen i detalj."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -395,7 +407,8 @@
         "kriterier": [
           "Forklarer at barn kan avhøres ved Statens barnehus.",
           "Får fram at barn også kan få hjelp der etter vold eller overgrep."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -404,7 +417,8 @@
         "kriterier": [
           "Forklarer at varen framstilles som sjelden eller begrenset tilgjengelig.",
           "Knytter dette til økt kjøpelyst."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -413,7 +427,8 @@
         "kriterier": [
           "Forklarer at varsler eller belønninger kan trekke oppmerksomheten tilbake til appen.",
           "Nevner en relevant etisk bekymring, for eksempel påvirkning eller manipulering av brukerne."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,6 +443,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

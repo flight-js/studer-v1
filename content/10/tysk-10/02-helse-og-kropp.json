@@ -76,7 +76,8 @@
     },
     {
       "term": "112",
-      "def": "Nødnummer for ambulanse og brannvesen i Tyskland og resten av EU"
+      "def": "Nødnummer for ambulanse og brannvesen i Tyskland og resten av EU",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -174,7 +175,8 @@
         "110"
       ],
       "correct": 1,
-      "explain": "110 er nummeret til politiet."
+      "explain": "110 er nummeret til politiet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -317,7 +319,8 @@
         "type": "sant-usant",
         "text": "Nordmenn på reise i Europa kan bruke Europeisk helsetrygdkort.",
         "correct": true,
-        "explain": "Kortet gir rett til nødvendig helsehjelp i andre EØS-land."
+        "explain": "Kortet gir rett til nødvendig helsehjelp i andre EØS-land.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -400,7 +403,8 @@
         "kriterier": [
           "Knytter 112 til ambulanse.",
           "Knytter 110 til politiet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -436,12 +440,14 @@
         "kriterier": [
           "Nevner Europeisk helsetrygdkort.",
           "Knytter rådet til reise i Europa."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

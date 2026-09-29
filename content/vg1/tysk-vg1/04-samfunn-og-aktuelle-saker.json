@@ -37,7 +37,8 @@
     },
     {
       "term": "der Gastarbeiter",
-      "def": "gjestearbeideren"
+      "def": "gjestearbeideren",
+      "niva": "eksempel"
     },
     {
       "term": "der Migrationshintergrund",
@@ -155,7 +156,8 @@
         "Diplomater"
       ],
       "correct": 2,
-      "explain": "Mange kom fra Tyrkia, Italia og Hellas."
+      "explain": "Mange kom fra Tyrkia, Italia og Hellas.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -291,14 +293,16 @@
         "type": "sant-usant",
         "text": "Sveits er medlem av EU.",
         "correct": false,
-        "explain": "Sveits er ikke medlem av EU."
+        "explain": "Sveits er ikke medlem av EU.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "«Pfand» er pant på flasker.",
         "correct": true,
-        "explain": "Pantesystemet er vanlig i Tyskland."
+        "explain": "Pantesystemet er vanlig i Tyskland.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -373,7 +377,8 @@
         "kriterier": [
           "Knytter gjestearbeiderne etter andre verdenskrig til Vest-Tyskland og nevner et eksempel på hvor de kom fra.",
           "Nevner minst ett av temaene integrering, språk eller arbeid i dagens debatter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -391,7 +396,8 @@
         "kriterier": [
           "Forklarer at Mülltrennung er sortering av avfall.",
           "Forklarer at Pfand er pant på flasker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -418,12 +424,14 @@
         "kriterier": [
           "Får med at de siste kjernekraftverkene ble stengt i 2023.",
           "Får med at Energiewende innebærer overgang fra kull til fornybar energi."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -55,7 +55,8 @@
     },
     {
       "term": "SSRI",
-      "def": "En type antidepressiva."
+      "def": "En type antidepressiva.",
+      "niva": "eksempel"
     },
     {
       "term": "Evidensbasert praksis",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Mental Helses hjelpetelefon",
-      "def": "116 123 – åpen hele døgnet."
+      "def": "116 123 – åpen hele døgnet.",
+      "niva": "eksempel"
     },
     {
       "term": "113",
-      "def": "Nødnummer ved akutt fare for liv og helse."
+      "def": "Nødnummer ved akutt fare for liv og helse.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +168,8 @@
         "116 123"
       ],
       "correct": 3,
-      "explain": "Mental Helses hjelpetelefon."
+      "explain": "Mental Helses hjelpetelefon.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -293,7 +297,8 @@
         "type": "sant-usant",
         "text": "Ved akutt fare for liv og helse skal man ringe 113.",
         "correct": true,
-        "explain": "Medisinsk nødhjelp."
+        "explain": "Medisinsk nødhjelp.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +318,8 @@
           "Eksponering"
         ],
         "correct": 1,
-        "explain": "Særlig ved barn og unge."
+        "explain": "Særlig ved barn og unge.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -386,7 +392,8 @@
         "kriterier": [
           "Knytter antipsykotika til psykoselidelser.",
           "Knytter stemningsstabiliserende medisiner til bipolar lidelse."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -413,12 +420,14 @@
         "kriterier": [
           "Oppgir 113.",
           "Knytter nummeret til akutt fare for liv og helse."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

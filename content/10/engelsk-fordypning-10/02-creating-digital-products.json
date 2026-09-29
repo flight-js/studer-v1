@@ -32,15 +32,18 @@
     },
     {
       "term": "Podcast",
-      "def": "An audio programme, good for interviews, discussions and stories."
+      "def": "An audio programme, good for interviews, discussions and stories.",
+      "niva": "eksempel"
     },
     {
       "term": "Infographic",
-      "def": "A visual presentation of facts and numbers."
+      "def": "A visual presentation of facts and numbers.",
+      "niva": "eksempel"
     },
     {
       "term": "Digital story",
-      "def": "A short personal story told with narration, pictures and music."
+      "def": "A short personal story told with narration, pictures and music.",
+      "niva": "eksempel"
     },
     {
       "term": "Script",
@@ -106,7 +109,8 @@
         "An infographic"
       ],
       "correct": 3,
-      "explain": "Infographics use charts, icons and short texts."
+      "explain": "Infographics use charts, icons and short texts.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -315,7 +319,8 @@
         "type": "sant-usant",
         "text": "A podcast can be a digital product.",
         "correct": true,
-        "explain": "Podcasts combine voice, music and sound effects."
+        "explain": "Podcasts combine voice, music and sound effects.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -348,7 +353,8 @@
           "A comic"
         ],
         "correct": 1,
-        "explain": "Podcasts are built around voices."
+        "explain": "Podcasts are built around voices.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -381,7 +387,8 @@
         "kriterier": [
           "Explains that a podcast is well suited to an interview because it uses sound.",
           "Describes something a video can show that a podcast cannot, such as people or their actions."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -399,7 +406,8 @@
         "kriterier": [
           "Identifies the format as suitable for a short personal story.",
           "Explains that it combines narration, pictures and music."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -441,6 +449,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -65,7 +65,8 @@
     },
     {
       "term": "Haiku",
-      "def": "Japansk diktform med tre linjer på 5, 7 og 5 stavelser."
+      "def": "Japansk diktform med tre linjer på 5, 7 og 5 stavelser.",
+      "niva": "eksempel"
     },
     {
       "term": "Effekt av virkemiddel",
@@ -107,7 +108,8 @@
         "20"
       ],
       "correct": 2,
-      "explain": "En haiku har 5 + 7 + 5 = 17 stavelser."
+      "explain": "En haiku har 5 + 7 + 5 = 17 stavelser.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -317,7 +319,8 @@
         "type": "sant-usant",
         "text": "En sonett har 14 linjer.",
         "correct": true,
-        "explain": "Sonetten er en fast diktform med 14 verselinjer."
+        "explain": "Sonetten er en fast diktform med 14 verselinjer.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -394,7 +397,8 @@
         "kriterier": [
           "Kaller diktformen et prosadikt.",
           "Forklarer at det kan være et dikt uten linjeskift fordi det har fortetting og bilder."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -430,12 +434,14 @@
         "kriterier": [
           "Knytter romantikkens naturdikt til kjærlighet til fedrelandet.",
           "Knytter et moderne naturdikt til klimaendringer."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

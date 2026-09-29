@@ -23,11 +23,13 @@
     },
     {
       "term": "Norges klimamål for 2030",
-      "def": "Minst 55 % kutt fra 1990-nivå."
+      "def": "Minst 55 % kutt fra 1990-nivå.",
+      "niva": "eksempel"
     },
     {
       "term": "Klimaloven",
-      "def": "Lov som fastsetter Norges klimamål."
+      "def": "Lov som fastsetter Norges klimamål.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvotehandel",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Klimafinansiering",
-      "def": "Støtte fra rike land til klimatiltak i fattige land."
+      "def": "Støtte fra rike land til klimatiltak i fattige land.",
+      "niva": "eksempel"
     },
     {
       "term": "Generasjonsrettferdighet",
@@ -129,7 +132,8 @@
         "Å doble utslippene"
       ],
       "correct": 0,
-      "explain": "Fastsatt i klimaloven."
+      "explain": "Fastsatt i klimaloven.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -300,7 +304,8 @@
         "type": "sant-usant",
         "text": "FNs bærekraftsmål ble vedtatt i 1990.",
         "correct": false,
-        "explain": "De ble vedtatt i 2015."
+        "explain": "De ble vedtatt i 2015.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -339,7 +344,8 @@
           "Covid-19"
         ],
         "correct": 2,
-        "explain": "Europa ble mindre avhengig av russisk gass."
+        "explain": "Europa ble mindre avhengig av russisk gass.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -368,7 +374,8 @@
         "kriterier": [
           "Får fram at landene selv melder inn mål under Parisavtalen.",
           "Får fram at Norges klimamål står i klimaloven."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -395,7 +402,8 @@
         "kriterier": [
           "Forklarer at klimafinansiering er støtte fra rike til fattige land.",
           "Knytter støtten til klimatiltak eller til å møte klimaendringene i fattige land."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

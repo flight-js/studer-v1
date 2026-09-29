@@ -51,11 +51,13 @@
     },
     {
       "term": "Prokaryot celle",
-      "def": "Celle uten cellekjerne, som bakterier."
+      "def": "Celle uten cellekjerne, som bakterier.",
+      "niva": "over-niva"
     },
     {
       "term": "Eukaryot celle",
-      "def": "Celle med cellekjerne, som dyre-, plante- og soppceller."
+      "def": "Celle med cellekjerne, som dyre-, plante- og soppceller.",
+      "niva": "over-niva"
     },
     {
       "term": "Spesialiserte celler",
@@ -141,7 +143,8 @@
         "For å frakte oksygen"
       ],
       "correct": 1,
-      "explain": "Formen gjør det mulig å nå langt og koble seg til mange andre celler."
+      "explain": "Formen gjør det mulig å nå langt og koble seg til mange andre celler.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +180,8 @@
         "En død celle"
       ],
       "correct": 0,
-      "explain": "Dyre-, plante- og soppceller har kjerne og er eukaryote."
+      "explain": "Dyre-, plante- og soppceller har kjerne og er eukaryote.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -189,7 +193,8 @@
         "For å lage fotosyntese"
       ],
       "correct": 1,
-      "explain": "Uten kjerne har de mer plass til hemoglobin, som frakter oksygen."
+      "explain": "Uten kjerne har de mer plass til hemoglobin, som frakter oksygen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -397,7 +402,8 @@
         "kriterier": [
           "Nevner rothårcellen eller en annen spesialisert celle fra pensum.",
           "Knytter cellens form til oppgaven, for eksempel at rothårcellens lange utløpere gir stor overflate for vannopptak."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -430,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

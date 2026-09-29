@@ -56,7 +56,8 @@
     },
     {
       "term": "Tillitsvalgt",
-      "def": "Person som representerer arbeidstakerne overfor ledelsen."
+      "def": "Person som representerer arbeidstakerne overfor ledelsen.",
+      "niva": "eksempel"
     },
     {
       "term": "Egenvurdering",
@@ -142,7 +143,8 @@
         "En person som representerer arbeidstakerne overfor ledelsen"
       ],
       "correct": 3,
-      "explain": "Den tillitsvalgte velges av medlemmene i fagforeningen."
+      "explain": "Den tillitsvalgte velges av medlemmene i fagforeningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -430,12 +432,14 @@
         "kriterier": [
           "Forklarer at medbestemmelse innebærer at arbeidstakere kan være med og påvirke.",
           "Forklarer at den tillitsvalgte representerer arbeidstakerne overfor ledelsen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

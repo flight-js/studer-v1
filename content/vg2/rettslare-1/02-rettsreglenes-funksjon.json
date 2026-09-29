@@ -19,11 +19,13 @@
     },
     {
       "term": "Forliksrådet",
-      "def": "Lokalt organ som mekler og avgjør mindre sivile tvister."
+      "def": "Lokalt organ som mekler og avgjør mindre sivile tvister.",
+      "niva": "eksempel"
     },
     {
       "term": "Konfliktrådet",
-      "def": "Tilbud om mekling mellom partene i en konflikt."
+      "def": "Tilbud om mekling mellom partene i en konflikt.",
+      "niva": "eksempel"
     },
     {
       "term": "Selvtekt",
@@ -177,7 +179,8 @@
         "Reglene om mat"
       ],
       "correct": 0,
-      "explain": "Lover kan uttrykke og endre verdier."
+      "explain": "Lover kan uttrykke og endre verdier.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -300,7 +303,8 @@
         "type": "sant-usant",
         "text": "En forbruker kan avtale seg bort fra rettighetene i forbrukerkjøpsloven.",
         "correct": false,
-        "explain": "Reglene er preseptoriske til fordel for forbrukeren."
+        "explain": "Reglene er preseptoriske til fordel for forbrukeren.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -339,7 +343,8 @@
           "Arveloven"
         ],
         "correct": 2,
-        "explain": "Et eksempel på vern og verdier."
+        "explain": "Et eksempel på vern og verdier.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -419,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -48,15 +48,18 @@
     },
     {
       "term": "Sirkelargument",
-      "def": "Konklusjonen står allerede i premissene."
+      "def": "Konklusjonen står allerede i premissene.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturalistisk feilslutning",
-      "def": "Å slutte fra hvordan noe er, til hvordan det bør være."
+      "def": "Å slutte fra hvordan noe er, til hvordan det bør være.",
+      "niva": "eksempel"
     },
     {
       "term": "Appell til flertallet",
-      "def": "Å mene noe er riktig fordi mange mener det."
+      "def": "Å mene noe er riktig fordi mange mener det.",
+      "niva": "eksempel"
     },
     {
       "term": "Originaltekst",
@@ -130,7 +133,8 @@
         "Å bruke to alternativer"
       ],
       "correct": 0,
-      "explain": "Naturlig betyr ikke riktig."
+      "explain": "Naturlig betyr ikke riktig.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +146,8 @@
         "Kant"
       ],
       "correct": 1,
-      "explain": "Han stilte spørsmål i Athen."
+      "explain": "Han stilte spørsmål i Athen.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +159,8 @@
         "Et argument med moteksempel"
       ],
       "correct": 2,
-      "explain": "Det beviser ingenting nytt."
+      "explain": "Det beviser ingenting nytt.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -190,7 +196,8 @@
         "Sirkelargument"
       ],
       "correct": 1,
-      "explain": "Flertallet kan ta feil."
+      "explain": "Flertallet kan ta feil.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -383,7 +390,8 @@
         "kriterier": [
           "Identifiserer stråmann.",
           "Forklarer at det første elevens syn blir forvrengt eller overdrevet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

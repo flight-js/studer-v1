@@ -19,7 +19,8 @@
     },
     {
       "term": "Acetatbuffer",
-      "def": "Eddiksyre og acetat – pKa 4,74."
+      "def": "Eddiksyre og acetat – pKa 4,74.",
+      "niva": "eksempel"
     },
     {
       "term": "Bufferligningen",
@@ -59,15 +60,18 @@
     },
     {
       "term": "Kalking",
-      "def": "Tilsetting av kalk for å heve pH i forsurede vassdrag."
+      "def": "Tilsetting av kalk for å heve pH i forsurede vassdrag.",
+      "niva": "eksempel"
     },
     {
       "term": "Kalibrering",
-      "def": "Justering av pH-meter med bufferløsninger."
+      "def": "Justering av pH-meter med bufferløsninger.",
+      "niva": "eksempel"
     },
     {
       "term": "Fosfatbuffer",
-      "def": "Buffersystem i cellene."
+      "def": "Buffersystem i cellene.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +193,8 @@
         "For å fjerne fisk"
       ],
       "correct": 1,
-      "explain": "Kalk nøytraliserer syre."
+      "explain": "Kalk nøytraliserer syre.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -287,7 +292,8 @@
         "type": "sant-usant",
         "text": "Kalkrik berggrunn kan buffre innsjøer mot sur nedbør.",
         "correct": true,
-        "explain": "Karbonat nøytraliserer syre."
+        "explain": "Karbonat nøytraliserer syre.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -320,7 +326,8 @@
           "Oppvarming"
         ],
         "correct": 0,
-        "explain": "De har kjent og stabil pH."
+        "explain": "De har kjent og stabil pH.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -333,7 +340,8 @@
           "For å gi farge"
         ],
         "correct": 2,
-        "explain": "Unngår irritasjon."
+        "explain": "Unngår irritasjon.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -380,7 +388,8 @@
         "kriterier": [
           "Forklarer at kalibrering innebærer å justere pH-meteret.",
           "Nevner at justeringen gjøres med bufferløsninger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -389,7 +398,8 @@
         "kriterier": [
           "Knytter opptak av CO₂ til dannelse av mer karbonsyre og lavere pH.",
           "Knytter lavere pH til at det blir vanskeligere å bygge kalkskall."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -413,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

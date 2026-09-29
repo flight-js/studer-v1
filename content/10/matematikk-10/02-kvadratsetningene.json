@@ -67,7 +67,8 @@
     },
     {
       "term": "Bruk av kvadratsetningene",
-      "def": "Hoderegning, faktorisering, forkorting av brøker og løsning av andregradslikninger."
+      "def": "Hoderegning, faktorisering, forkorting av brøker og løsning av andregradslikninger.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -416,12 +417,14 @@
         "kriterier": [
           "Faktoriserer telleren som (x + 4)(x − 4).",
           "Forkorter fellesfaktoren og får x − 4."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

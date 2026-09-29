@@ -35,7 +35,8 @@
     },
     {
       "term": "Magnus Erlingsson",
-      "def": "Første norske konge som ble kronet av kirken (1160-årene)."
+      "def": "Første norske konge som ble kronet av kirken (1160-årene).",
+      "niva": "eksempel"
     },
     {
       "term": "Magnus Lagabøtes landslov",
@@ -51,19 +52,23 @@
     },
     {
       "term": "Kongeloven",
-      "def": "Lov fra 1665 som ga kongen all makt."
+      "def": "Lov fra 1665 som ga kongen all makt.",
+      "niva": "eksempel"
     },
     {
       "term": "Thomas Hobbes",
-      "def": "Skrev Leviathan (1651) om behovet for en sterk hersker."
+      "def": "Skrev Leviathan (1651) om behovet for en sterk hersker.",
+      "niva": "eksempel"
     },
     {
       "term": "John Locke",
-      "def": "Filosof som mente mennesker har naturlige rettigheter."
+      "def": "Filosof som mente mennesker har naturlige rettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Montesquieu",
-      "def": "Filosof som ville dele makten i tre (1748)."
+      "def": "Filosof som ville dele makten i tre (1748).",
+      "niva": "eksempel"
     },
     {
       "term": "Folkesuverenitet",
@@ -141,7 +146,8 @@
         "At det ikke trengs lover"
       ],
       "correct": 1,
-      "explain": "Maktfordelingsprinsippet ble viktig for Grunnloven."
+      "explain": "Maktfordelingsprinsippet ble viktig for Grunnloven.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +171,8 @@
         "At mennesker har naturlige rettigheter, og at makten bygger på en samfunnskontrakt"
       ],
       "correct": 3,
-      "explain": "Folket kan avsette en hersker som bryter kontrakten."
+      "explain": "Folket kan avsette en hersker som bryter kontrakten.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +184,8 @@
         "Montesquieu"
       ],
       "correct": 0,
-      "explain": "Han argumenterte for en sterk hersker."
+      "explain": "Han argumenterte for en sterk hersker.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -302,14 +310,16 @@
         "type": "sant-usant",
         "text": "Svartedauden svekket både adel, kirke og kongemakt i Norge.",
         "correct": true,
-        "explain": "Inntektene falt kraftig."
+        "explain": "Inntektene falt kraftig.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Rousseau mente makten tilhørte kongen alene.",
         "correct": false,
-        "explain": "Rousseau mente makten tilhørte folket."
+        "explain": "Rousseau mente makten tilhørte folket.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -348,7 +358,8 @@
           "Fordi folket stemte ofte"
         ],
         "correct": 2,
-        "explain": "Eneveldet var ikke vilkårlig styre."
+        "explain": "Eneveldet var ikke vilkårlig styre.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -386,7 +397,8 @@
         "kriterier": [
           "Nevner at adel, kirke og kongemakt ble svekket.",
           "Nevner at Norge etter hvert kom i union med Danmark."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -413,7 +425,8 @@
         "kriterier": [
           "Nevner både kaos og vold, eller beskriver tydelig disse farene.",
           "Forklarer at den sterke herskeren skulle hindre eller begrense farene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,12 +435,14 @@
         "kriterier": [
           "Knytter Hobbes til behovet for en sterk hersker for å unngå kaos og vold.",
           "Knytter Rousseau til at makten tilhører folket."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

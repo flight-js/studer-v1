@@ -326,7 +326,8 @@
           "Gult"
         ],
         "correct": 2,
-        "explain": "Kalde farger som blått forbindes ofte med ro, avstand eller tristhet."
+        "explain": "Kalde farger som blått forbindes ofte med ro, avstand eller tristhet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -432,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

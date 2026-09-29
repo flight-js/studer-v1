@@ -16,7 +16,8 @@
     },
     {
       "term": "Lingua franca",
-      "def": "A shared language used by people with different first languages."
+      "def": "A shared language used by people with different first languages.",
+      "niva": "eksempel"
     },
     {
       "term": "Direct communication",
@@ -60,15 +61,18 @@
     },
     {
       "term": "Toxic behaviour",
-      "def": "Harassment and rude behaviour towards others, often online."
+      "def": "Harassment and rude behaviour towards others, often online.",
+      "niva": "eksempel"
     },
     {
       "term": "Individualism",
-      "def": "A focus on the individual and personal freedom."
+      "def": "A focus on the individual and personal freedom.",
+      "niva": "eksempel"
     },
     {
       "term": "Collectivism",
-      "def": "A focus on the group and on “us”."
+      "def": "A focus on the group and on “us”.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -82,7 +86,8 @@
         "A shared language used by people with different first languages"
       ],
       "correct": 3,
-      "explain": "English is the most widely used lingua franca today."
+      "explain": "English is the most widely used lingua franca today.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -130,7 +135,8 @@
         "Because they are very indirect"
       ],
       "correct": 1,
-      "explain": "Norwegian is often more direct than English."
+      "explain": "Norwegian is often more direct than English.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -154,7 +160,8 @@
         "Using emojis"
       ],
       "correct": 0,
-      "explain": "Anonymity can make toxic behaviour more common."
+      "explain": "Anonymity can make toxic behaviour more common.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +173,8 @@
         "A political party"
       ],
       "correct": 2,
-      "explain": "In collectivist cultures, family and group needs often come first."
+      "explain": "In collectivist cultures, family and group needs often come first.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +186,8 @@
         "It is positive in many countries, but offensive in some"
       ],
       "correct": 3,
-      "explain": "Gestures do not always travel well between cultures."
+      "explain": "Gestures do not always travel well between cultures.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -432,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

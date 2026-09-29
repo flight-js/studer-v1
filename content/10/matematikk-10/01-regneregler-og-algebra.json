@@ -51,7 +51,8 @@
     },
     {
       "term": "Negativ eksponent",
-      "def": "a⁻ⁿ = 1/aⁿ. For eksempel er 2⁻³ = 1/8 og 10⁻² = 0,01."
+      "def": "a⁻ⁿ = 1/aⁿ. For eksempel er 2⁻³ = 1/8 og 10⁻² = 0,01.",
+      "niva": "over-niva"
     },
     {
       "term": "Generalisere",
@@ -129,7 +130,8 @@
         "1/8"
       ],
       "correct": 3,
-      "explain": "Negativ eksponent betyr én delt på potensen: 2⁻³ = 1/2³ = 1/8."
+      "explain": "Negativ eksponent betyr én delt på potensen: 2⁻³ = 1/2³ = 1/8.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -300,7 +302,8 @@
         "type": "sant-usant",
         "text": "10⁻² = 0,01.",
         "correct": true,
-        "explain": "10⁻² = 1/10² = 1/100 = 0,01."
+        "explain": "10⁻² = 1/10² = 1/100 = 0,01.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -411,7 +414,8 @@
         "kriterier": [
           "Skriver a⁻ⁿ som 1/aⁿ.",
           "Forklarer sammenhengen mellom negativ eksponent og plassering i nevneren."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -426,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -63,7 +63,8 @@
     },
     {
       "term": "Handlingsregelen",
-      "def": "Staten skal over tid bare bruke omtrent den forventede avkastningen av oljefondet."
+      "def": "Staten skal over tid bare bruke omtrent den forventede avkastningen av oljefondet.",
+      "niva": "eksempel"
     },
     {
       "term": "Eldrebølgen",
@@ -141,7 +142,8 @@
         "At skatten skal fjernes"
       ],
       "correct": 1,
-      "explain": "Slik skal også framtidige generasjoner få glede av oljeinntektene."
+      "explain": "Slik skal også framtidige generasjoner få glede av oljeinntektene.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -301,7 +303,8 @@
         "type": "sant-usant",
         "text": "Folketrygden ble innført i 1967.",
         "correct": true,
-        "explain": "Folketrygden samlet flere trygdeordninger i én."
+        "explain": "Folketrygden samlet flere trygdeordninger i én.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -441,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

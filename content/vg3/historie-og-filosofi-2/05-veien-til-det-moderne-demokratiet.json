@@ -15,7 +15,8 @@
     },
     {
       "term": "Bill of Rights",
-      "def": "Engelsk lov fra 1689 som styrket parlamentet."
+      "def": "Engelsk lov fra 1689 som styrket parlamentet.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturlige rettigheter",
@@ -39,7 +40,8 @@
     },
     {
       "term": "Mary Wollstonecraft",
-      "def": "Krevde i 1792 like rettigheter for kvinner."
+      "def": "Krevde i 1792 like rettigheter for kvinner.",
+      "niva": "eksempel"
     },
     {
       "term": "Flertallets tyranni",
@@ -129,7 +131,8 @@
         "Mindre utdanning"
       ],
       "correct": 0,
-      "explain": "I 1792."
+      "explain": "I 1792.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +156,8 @@
         "Den innførte demokrati overalt"
       ],
       "correct": 2,
-      "explain": "Rasisme ble brukt som begrunnelse."
+      "explain": "Rasisme ble brukt som begrunnelse.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -285,7 +289,8 @@
         "type": "sant-usant",
         "text": "I Athen var kvinner og slaver utelukket fra folkeforsamlingen.",
         "correct": true,
-        "explain": "Bare frie menn deltok."
+        "explain": "Bare frie menn deltok.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -299,7 +304,8 @@
         "type": "sant-usant",
         "text": "Mill forsvarte både ytringsfrihet og kvinners rettigheter.",
         "correct": true,
-        "explain": "En viktig liberal tenker."
+        "explain": "En viktig liberal tenker.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -356,7 +362,8 @@
         "kriterier": [
           "Får fram at deltakelse i Athen var begrenset til frie menn, og at flere grupper var utelukket.",
           "Får fram at stemmeretten senere ble utvidet til alle menn og deretter kvinner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -365,7 +372,8 @@
         "kriterier": [
           "Får fram at parlamentet fikk større makt.",
           "Knytter endringen til at kongens makt ble begrenset eller at maktforholdet ble forskjøvet til fordel for parlamentet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

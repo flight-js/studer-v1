@@ -43,11 +43,13 @@
     },
     {
       "term": "Skjæring",
-      "def": "GeoGebra-kommando for skjæringspunkt."
+      "def": "GeoGebra-kommando for skjæringspunkt.",
+      "niva": "eksempel"
     },
     {
       "term": "Løs",
-      "def": "CAS-kommando i GeoGebra for likninger."
+      "def": "CAS-kommando i GeoGebra for likninger.",
+      "niva": "eksempel"
     },
     {
       "term": "99 + 0,5x = 199",
@@ -165,7 +167,8 @@
         "Løs"
       ],
       "correct": 3,
-      "explain": "Løs kan også løse likningssett."
+      "explain": "Løs kan også løse likningssett.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -416,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

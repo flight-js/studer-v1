@@ -47,7 +47,8 @@
     },
     {
       "term": "Ester",
-      "def": "Dannes av alkohol og karboksylsyre og har ofte god lukt."
+      "def": "Dannes av alkohol og karboksylsyre og har ofte god lukt.",
+      "niva": "eksempel"
     },
     {
       "term": "Polymer",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Kalkstein (CaCO₃)",
-      "def": "Karbonat som reagerer med syre og gir CO₂."
+      "def": "Karbonat som reagerer med syre og gir CO₂.",
+      "niva": "eksempel"
     },
     {
       "term": "Fotosyntese",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Havforsuring",
-      "def": "Havet blir surere når det tar opp CO₂."
+      "def": "Havet blir surere når det tar opp CO₂.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +192,8 @@
         "Det blir basisk"
       ],
       "correct": 1,
-      "explain": "Havforsuring skader blant annet koraller og skjell."
+      "explain": "Havforsuring skader blant annet koraller og skjell.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -302,7 +306,8 @@
         "type": "sant-usant",
         "text": "Estere brukes ofte i parfyme og smaksstoffer.",
         "correct": true,
-        "explain": "Mange estere har god lukt."
+        "explain": "Mange estere har god lukt.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -335,7 +340,8 @@
           "En polymer"
         ],
         "correct": 0,
-        "explain": "Reaksjonen kalles forestring."
+        "explain": "Reaksjonen kalles forestring.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -386,7 +392,8 @@
         "kriterier": [
           "Nevner at en alkohol reagerer med en karboksylsyre og danner en ester.",
           "Knytter at estere ofte har god lukt til bruk i parfyme eller smaksstoffer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -395,7 +402,8 @@
         "kriterier": [
           "Forklarer at plast brytes svært sakte ned.",
           "Nevner mikroplast som et økende miljøproblem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,12 +430,14 @@
         "kriterier": [
           "Bruker forholdet 1 : 1 mellom CaCO₃ og CO₂ fra likningen.",
           "Oppgir at det dannes 3 formelenheter CO₂."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

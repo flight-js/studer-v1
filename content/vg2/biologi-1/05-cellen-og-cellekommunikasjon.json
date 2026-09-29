@@ -63,7 +63,8 @@
     },
     {
       "term": "Natrium-kalium-pumpen",
-      "def": "Membranprotein som pumper ioner aktivt."
+      "def": "Membranprotein som pumper ioner aktivt.",
+      "niva": "eksempel"
     },
     {
       "term": "Reseptor",
@@ -71,7 +72,8 @@
     },
     {
       "term": "Synapse",
-      "def": "Koblingen mellom to nerveceller."
+      "def": "Koblingen mellom to nerveceller.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -133,7 +135,8 @@
         "Til celleveggen"
       ],
       "correct": 0,
-      "explain": "Insulin er vannløselig."
+      "explain": "Insulin er vannløselig.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -193,7 +196,8 @@
         "I blodet"
       ],
       "correct": 1,
-      "explain": "Signalstoffer krysser en smal spalte."
+      "explain": "Signalstoffer krysser en smal spalte.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -329,7 +333,8 @@
           "Membranen løses opp"
         ],
         "correct": 1,
-        "explain": "Cellen tar opp mer glukose."
+        "explain": "Cellen tar opp mer glukose.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -435,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -52,7 +52,8 @@
     },
     {
       "term": "l'Accord de Paris",
-      "def": "Parisavtalen om klima fra 2015"
+      "def": "Parisavtalen om klima fra 2015",
+      "niva": "eksempel"
     },
     {
       "term": "On devrait …",
@@ -68,7 +69,8 @@
     },
     {
       "term": "l'Assemblée nationale",
-      "def": "Frankrikes nasjonalforsamling"
+      "def": "Frankrikes nasjonalforsamling",
+      "niva": "eksempel"
     },
     {
       "term": "la manifestation",
@@ -110,7 +112,8 @@
         "Parisavtalen"
       ],
       "correct": 3,
-      "explain": "Avtalen ble vedtatt på klimatoppmøtet COP21 i Paris."
+      "explain": "Avtalen ble vedtatt på klimatoppmøtet COP21 i Paris.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -293,14 +296,16 @@
         "type": "sant-usant",
         "text": "I Frankrike må store matbutikker gi bort mat de ikke har solgt, i stedet for å kaste den.",
         "correct": true,
-        "explain": "Loven skal redusere matsløsing."
+        "explain": "Loven skal redusere matsløsing.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Frankrike har ingen president.",
         "correct": false,
-        "explain": "Frankrike har en president som velges for fem år."
+        "explain": "Frankrike har en president som velges for fem år.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -340,7 +345,8 @@
           "En avis"
         ],
         "correct": 1,
-        "explain": "Den tilsvarer Stortinget i Norge."
+        "explain": "Den tilsvarer Stortinget i Norge.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -364,7 +370,8 @@
         "kriterier": [
           "Forklarer at le gaspillage betyr sløsing, her med mat.",
           "Knytter loven om å gi bort usolgt mat til at mindre mat blir kastet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -382,7 +389,8 @@
         "kriterier": [
           "Knytter vindmøller til vindenergi.",
           "Knytter solcellepaneler til solenergi."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -391,7 +399,8 @@
         "kriterier": [
           "Nevner kollektivtransport og sykkel som transportmuligheter.",
           "Nevner at Paris har bygd mange nye sykkelveier."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -409,7 +418,8 @@
         "kriterier": [
           "Nevner at folket velger presidenten for fem år.",
           "Oppgir navnet l'Assemblée nationale på nasjonalforsamlingen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -418,7 +428,8 @@
         "kriterier": [
           "Nevner to av disse områdene: Nord-Afrika, Vest-Afrika, Karibia eller Stillehavet.",
           "Knytter ulike geografiske røtter til at Frankrike er mangfoldig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -433,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

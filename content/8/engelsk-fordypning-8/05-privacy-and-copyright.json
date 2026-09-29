@@ -32,7 +32,8 @@
     },
     {
       "term": "GDPR",
-      "def": "EU privacy rules that also apply in Norway."
+      "def": "EU privacy rules that also apply in Norway.",
+      "niva": "eksempel"
     },
     {
       "term": "Privacy settings",
@@ -40,7 +41,8 @@
     },
     {
       "term": "Two-step verification",
-      "def": "An extra security step, like a code sent to your phone."
+      "def": "An extra security step, like a code sent to your phone.",
+      "niva": "eksempel"
     },
     {
       "term": "Consent",
@@ -106,7 +108,8 @@
         "Have your personal data deleted"
       ],
       "correct": 3,
-      "explain": "This is often called “the right to be forgotten”."
+      "explain": "This is often called “the right to be forgotten”.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -130,7 +133,8 @@
         "Until 70 years after the creator's death"
       ],
       "correct": 3,
-      "explain": "After that, the work becomes free for everyone to use."
+      "explain": "After that, the work becomes free for everyone to use.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -178,7 +182,8 @@
         "Using the same password everywhere"
       ],
       "correct": 1,
-      "explain": "Strong passwords make it harder for others to access your accounts."
+      "explain": "Strong passwords make it harder for others to access your accounts.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -384,7 +389,8 @@
         "kriterier": [
           "Explains that a second step is needed in addition to the password.",
           "Gives a suitable example, such as a code sent to a phone."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -426,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

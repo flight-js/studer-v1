@@ -31,7 +31,8 @@
     },
     {
       "term": "Investiturstriden",
-      "def": "Strid på 1000-tallet mellom pave og keiser om utnevnelse av biskoper."
+      "def": "Strid på 1000-tallet mellom pave og keiser om utnevnelse av biskoper.",
+      "niva": "eksempel"
     },
     {
       "term": "Stiklestad 1030",
@@ -39,7 +40,8 @@
     },
     {
       "term": "Magnus Lagabøtes landslov",
-      "def": "Felles lov for Norge fra 1274."
+      "def": "Felles lov for Norge fra 1274.",
+      "niva": "eksempel"
     },
     {
       "term": "Statsdanning",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Kongeloven",
-      "def": "Ga kongen i Danmark-Norge all makt (1665)."
+      "def": "Ga kongen i Danmark-Norge all makt (1665).",
+      "niva": "eksempel"
     },
     {
       "term": "Kongens guddommelige rett",
@@ -63,7 +66,8 @@
     },
     {
       "term": "Den westfalske freden",
-      "def": "1648 – start på systemet med suverene stater."
+      "def": "1648 – start på systemet med suverene stater.",
+      "niva": "eksempel"
     },
     {
       "term": "Reformasjonen i Danmark-Norge",
@@ -129,7 +133,8 @@
         "Kalmarunionen"
       ],
       "correct": 0,
-      "explain": "Stater bestemmer innenfor egne grenser."
+      "explain": "Stater bestemmer innenfor egne grenser.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Handel med silke"
       ],
       "correct": 1,
-      "explain": "Strid mellom pave og keiser."
+      "explain": "Strid mellom pave og keiser.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -319,7 +325,8 @@
           "Frans 1."
         ],
         "correct": 1,
-        "explain": "Styrte fra Versailles."
+        "explain": "Styrte fra Versailles.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +339,8 @@
           "Et parlament"
         ],
         "correct": 0,
-        "explain": "Derav tilnavnet Lagabøte."
+        "explain": "Derav tilnavnet Lagabøte.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -345,7 +353,8 @@
           "Hansaforbundet"
         ],
         "correct": 2,
-        "explain": "Med Danmark og Sverige."
+        "explain": "Med Danmark og Sverige.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -401,7 +410,8 @@
         "kriterier": [
           "Forklarer at Magna Carta begrenset kongens makt ved å kreve at kongen fulgte loven.",
           "Forklarer at Kongeloven samlet all makt hos kongen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -425,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

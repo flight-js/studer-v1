@@ -88,7 +88,8 @@
     },
     {
       "term": "Kuldepose",
-      "def": "Pose der et salt, for eksempel ammoniumnitrat, løses i vann i en endoterm prosess, slik at posen blir kald."
+      "def": "Pose der et salt, for eksempel ammoniumnitrat, løses i vann i en endoterm prosess, slik at posen blir kald.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -198,7 +199,8 @@
         "Fotosyntese"
       ],
       "correct": 3,
-      "explain": "I fotosyntesen tas energi fra sollyset opp og lagres i glukose. Forbrenning, nøytralisering og kondensasjon avgir varme."
+      "explain": "I fotosyntesen tas energi fra sollyset opp og lagres i glukose. Forbrenning, nøytralisering og kondensasjon avgir varme.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -407,7 +409,8 @@
         "type": "sant-usant",
         "text": "En kuldepose virker fordi et salt løses i vann i en endoterm prosess.",
         "correct": true,
-        "explain": "Når for eksempel ammoniumnitrat løses i vann, tas varme opp fra omgivelsene. Posen og det den ligger mot, blir kalde."
+        "explain": "Når for eksempel ammoniumnitrat løses i vann, tas varme opp fra omgivelsene. Posen og det den ligger mot, blir kalde.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -523,6 +526,7 @@
     "merknader": [
       "Bindingsenergiene er gjennomsnittsverdier. Tabellen i læreboka kan ha verdier som avviker med noen kJ/mol.",
       "Entropi og Gibbs fri energi er utelatt, fordi kompetansemålet bare nevner entalpi. Sjekk mot læreboka."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

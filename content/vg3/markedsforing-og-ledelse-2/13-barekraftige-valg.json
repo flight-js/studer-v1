@@ -39,19 +39,23 @@
     },
     {
       "term": "Svanemerket",
-      "def": "Nordisk miljømerke."
+      "def": "Nordisk miljømerke.",
+      "niva": "eksempel"
     },
     {
       "term": "Fairtrade",
-      "def": "Merke for rettferdig handel og bedre vilkår for produsenter."
+      "def": "Merke for rettferdig handel og bedre vilkår for produsenter.",
+      "niva": "eksempel"
     },
     {
       "term": "Miljøfyrtårn",
-      "def": "Norsk miljøledelsessertifisering."
+      "def": "Norsk miljøledelsessertifisering.",
+      "niva": "eksempel"
     },
     {
       "term": "ISO 14001",
-      "def": "Internasjonal standard for miljøledelse."
+      "def": "Internasjonal standard for miljøledelse.",
+      "niva": "eksempel"
     },
     {
       "term": "Grønnvasking",
@@ -63,11 +67,13 @@
     },
     {
       "term": "Holdning–handling-gap",
-      "def": "Kunder sier de vil kjøpe bærekraftig, men velger ofte billigst."
+      "def": "Kunder sier de vil kjøpe bærekraftig, men velger ofte billigst.",
+      "niva": "eksempel"
     },
     {
       "term": "Reelle kostnader",
-      "def": "Prisen dekker også miljø- og samfunnskostnader."
+      "def": "Prisen dekker også miljø- og samfunnskostnader.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -153,7 +159,8 @@
         "At priser er høye"
       ],
       "correct": 2,
-      "explain": "Et dilemma for virksomheter."
+      "explain": "Et dilemma for virksomheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +172,8 @@
         "Fairtrade"
       ],
       "correct": 3,
-      "explain": "Bedre vilkår for produsenter."
+      "explain": "Bedre vilkår for produsenter.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -329,7 +337,8 @@
           "En type reklame"
         ],
         "correct": 0,
-        "explain": "Dokumenterer miljøinnsats."
+        "explain": "Dokumenterer miljøinnsats.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -362,7 +371,8 @@
         "kriterier": [
           "Velger anstendig arbeid som relevant bærekraftsmål.",
           "Begrunner valget med virksomhetens påvirkning på arbeidsforhold."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -389,7 +399,8 @@
         "kriterier": [
           "Knytter Svanemerket til miljø.",
           "Knytter Fairtrade til rettferdig handel eller bedre vilkår for produsenter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +409,8 @@
         "kriterier": [
           "Forklarer at miljø- og samfunnskostnader kan bidra til en høyere pris.",
           "Knytter prisen til at de reelle kostnadene skal dekkes."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -422,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

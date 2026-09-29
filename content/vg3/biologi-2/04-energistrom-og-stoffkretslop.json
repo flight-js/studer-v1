@@ -316,7 +316,8 @@
           "På isbreer"
         ],
         "correct": 1,
-        "explain": "Mye lys, varme og næring."
+        "explain": "Mye lys, varme og næring.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -342,7 +343,8 @@
           "Denitrifikasjon"
         ],
         "correct": 2,
-        "explain": "Vann fordamper fra bladene."
+        "explain": "Vann fordamper fra bladene.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -398,7 +400,8 @@
         "kriterier": [
           "Kaller plantenes avgivelse av vann til lufta transpirasjon.",
           "Plasserer transpirasjon som en del av vannets kretsløp."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

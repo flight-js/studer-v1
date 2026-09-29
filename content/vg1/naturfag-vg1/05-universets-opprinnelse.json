@@ -27,7 +27,8 @@
     },
     {
       "term": "Edwin Hubble",
-      "def": "Viste i 1929 at fjerne galakser fjerner seg raskere enn nære."
+      "def": "Viste i 1929 at fjerne galakser fjerner seg raskere enn nære.",
+      "niva": "eksempel"
     },
     {
       "term": "Kosmisk bakgrunnsstråling",
@@ -35,15 +36,18 @@
     },
     {
       "term": "Penzias og Wilson",
-      "def": "Oppdaget den kosmiske bakgrunnsstrålingen i 1965."
+      "def": "Oppdaget den kosmiske bakgrunnsstrålingen i 1965.",
+      "niva": "eksempel"
     },
     {
       "term": "2,7 K",
-      "def": "Temperaturen til den kosmiske bakgrunnsstrålingen."
+      "def": "Temperaturen til den kosmiske bakgrunnsstrålingen.",
+      "niva": "over-niva"
     },
     {
       "term": "380 000 år",
-      "def": "Omtrent da de første nøytrale atomene ble dannet."
+      "def": "Omtrent da de første nøytrale atomene ble dannet.",
+      "niva": "over-niva"
     },
     {
       "term": "Hydrogen og helium",
@@ -63,11 +67,13 @@
     },
     {
       "term": "Mørk materie",
-      "def": "Usynlig materie som påvirker galakser med tyngdekraften."
+      "def": "Usynlig materie som påvirker galakser med tyngdekraften.",
+      "niva": "over-niva"
     },
     {
       "term": "Mørk energi",
-      "def": "Ukjent energi som ser ut til å få universet til å utvide seg stadig raskere."
+      "def": "Ukjent energi som ser ut til å få universet til å utvide seg stadig raskere.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -117,7 +123,8 @@
         "Edwin Hubble"
       ],
       "correct": 3,
-      "explain": "Hubble fant at fjerne galakser fjerner seg raskere enn nære."
+      "explain": "Hubble fant at fjerne galakser fjerner seg raskere enn nære.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -165,7 +172,8 @@
         "De første nøytrale atomene ble dannet, og lyset kunne bevege seg fritt"
       ],
       "correct": 3,
-      "explain": "Dette lyset ser vi i dag som bakgrunnsstråling."
+      "explain": "Dette lyset ser vi i dag som bakgrunnsstråling.",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -299,7 +307,8 @@
         "type": "sant-usant",
         "text": "Universets utvidelse ser ut til å gå stadig raskere.",
         "correct": true,
-        "explain": "Dette forklares med mørk energi."
+        "explain": "Dette forklares med mørk energi.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -319,7 +328,8 @@
           "Darwin og Wallace"
         ],
         "correct": 0,
-        "explain": "Oppdagelsen ble gjort i 1965."
+        "explain": "Oppdagelsen ble gjort i 1965.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +342,8 @@
           "Omtrent 5500 °C"
         ],
         "correct": 2,
-        "explain": "Det er bare litt over det absolutte nullpunkt."
+        "explain": "Det er bare litt over det absolutte nullpunkt.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -345,7 +356,8 @@
           "Materie fra supernovaer"
         ],
         "correct": 1,
-        "explain": "Vi vet ennå ikke hva mørk materie består av."
+        "explain": "Vi vet ennå ikke hva mørk materie består av.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -383,7 +395,8 @@
         "kriterier": [
           "Knytter mørk materie til tyngdekraftens påvirkning på galakser.",
           "Knytter mørk energi til at universets utvidelse ser ut til å gå stadig raskere."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -401,7 +414,8 @@
         "kriterier": [
           "Setter opp eller bruker differansen 1965 − 1929.",
           "Oppgir svaret 36 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,12 +433,14 @@
         "kriterier": [
           "Forklarer at observasjoner kan støtte teorien selv om ikke alle spørsmål er besvart.",
           "Nevner mørk materie, mørk energi eller hva som skjedde helt i begynnelsen som et åpent spørsmål."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

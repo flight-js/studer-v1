@@ -55,11 +55,13 @@
     },
     {
       "term": "Planlagt foreldelse",
-      "def": "Produkter som lages for å gå i stykker."
+      "def": "Produkter som lages for å gå i stykker.",
+      "niva": "eksempel"
     },
     {
       "term": "Manipulerende design",
-      "def": "Design som lurer brukere, for eksempel ved oppsigelse."
+      "def": "Design som lurer brukere, for eksempel ved oppsigelse.",
+      "niva": "eksempel"
     },
     {
       "term": "Kroppspress",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Forbrukertilsynet",
-      "def": "Fører tilsyn med markedsføringsloven."
+      "def": "Fører tilsyn med markedsføringsloven.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -141,7 +144,8 @@
         "En logo"
       ],
       "correct": 1,
-      "explain": "Ofte kalt dark patterns."
+      "explain": "Ofte kalt dark patterns.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +193,8 @@
         "Planlagt foreldelse"
       ],
       "correct": 1,
-      "explain": "Ansvar for hele kjeden."
+      "explain": "Ansvar for hele kjeden.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +295,8 @@
         "type": "sant-usant",
         "text": "Retusjert reklame der kroppens form er endret, skal merkes.",
         "correct": true,
-        "explain": "For å motvirke kroppspress."
+        "explain": "For å motvirke kroppspress.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -323,7 +329,8 @@
           "Kundene"
         ],
         "correct": 0,
-        "explain": "Tilsynsmyndigheten."
+        "explain": "Tilsynsmyndigheten.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -392,7 +399,8 @@
         "kriterier": [
           "Identifiserer praksisen som planlagt foreldelse.",
           "Forklarer at produktene med vilje lages for å gå i stykker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,12 +418,14 @@
         "kriterier": [
           "Sier at reklamen må merkes.",
           "Identifiserer Forbrukertilsynet som instansen som fører tilsyn med markedsføringsloven."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

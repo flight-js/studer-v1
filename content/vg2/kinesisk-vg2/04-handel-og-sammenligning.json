@@ -57,7 +57,8 @@
     },
     {
       "term": "微信支付 Wēixìn zhīfù",
-      "def": "WeChat Pay – mobilbetaling"
+      "def": "WeChat Pay – mobilbetaling",
+      "niva": "eksempel"
     },
     {
       "term": "A 比 B 贵",
@@ -301,7 +302,8 @@
         "type": "sant-usant",
         "text": "11. november er en stor handledag på nett i Kina.",
         "correct": true,
-        "explain": "Singles' Day."
+        "explain": "Singles' Day.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -347,7 +349,8 @@
           "En bank i Norge"
         ],
         "correct": 2,
-        "explain": "Zhīfùbǎo."
+        "explain": "Zhīfùbǎo.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -403,7 +406,8 @@
         "kriterier": [
           "Forklarer at mobilbetaling foregår ved at man skanner en QR-kode.",
           "Nevner WeChat Pay eller Alipay som en betalingsapp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -412,7 +416,8 @@
         "kriterier": [
           "Knytter Singles’ Day til netthandel eller en handledag på nett.",
           "Oppgir datoen 11. november."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -427,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

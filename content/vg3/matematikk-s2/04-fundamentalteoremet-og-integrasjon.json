@@ -63,11 +63,13 @@
     },
     {
       "term": "Integral av grensekostnad",
-      "def": "Økningen i kostnad."
+      "def": "Økningen i kostnad.",
+      "niva": "eksempel"
     },
     {
       "term": "Newton og Leibniz",
-      "def": "Fant fundamentalteoremet."
+      "def": "Fant fundamentalteoremet.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -320,7 +322,8 @@
           "70 000 kr"
         ],
         "correct": 0,
-        "explain": "[0,02x² + 50x]₁₀₀₀²⁰⁰⁰."
+        "explain": "[0,02x² + 50x]₁₀₀₀²⁰⁰⁰.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -407,12 +410,14 @@
         "kriterier": [
           "Nevner sammenhengen mellom derivasjon og integrasjon",
           "Nevner at tangent- og arealproblemer ble knyttet sammen"
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -19,11 +19,13 @@
     },
     {
       "term": "Ulykkestrygden 1894",
-      "def": "Første trygd for fabrikkarbeidere i Norge."
+      "def": "Første trygd for fabrikkarbeidere i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Syketrygden 1909",
-      "def": "Trygd ved sykdom for lavtlønte."
+      "def": "Trygd ved sykdom for lavtlønte.",
+      "niva": "eksempel"
     },
     {
       "term": "Kriseforliket 1935",
@@ -31,19 +33,23 @@
     },
     {
       "term": "Hovedavtalen 1935",
-      "def": "Avtale mellom LO og arbeidsgiverne om samarbeid."
+      "def": "Avtale mellom LO og arbeidsgiverne om samarbeid.",
+      "niva": "eksempel"
     },
     {
       "term": "Alderstrygden 1936",
-      "def": "Tidlig pensjonsordning for eldre."
+      "def": "Tidlig pensjonsordning for eldre.",
+      "niva": "eksempel"
     },
     {
       "term": "Fellesprogrammet",
-      "def": "Partienes felles plan for gjenreisning etter krigen."
+      "def": "Partienes felles plan for gjenreisning etter krigen.",
+      "niva": "eksempel"
     },
     {
       "term": "Einar Gerhardsen",
-      "def": "Arbeiderparti-statsminister under gjenreisningen."
+      "def": "Arbeiderparti-statsminister under gjenreisningen.",
+      "niva": "eksempel"
     },
     {
       "term": "Barnetrygd",
@@ -93,7 +99,8 @@
         "Alderstrygden"
       ],
       "correct": 0,
-      "explain": "Den første sosialforsikringen."
+      "explain": "Den første sosialforsikringen.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -153,7 +160,8 @@
         "Marcus Thrane"
       ],
       "correct": 2,
-      "explain": "Statsminister i mange år etter krigen."
+      "explain": "Statsminister i mange år etter krigen.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +173,8 @@
         "Eldrebølgen og lavere oljeinntekter"
       ],
       "correct": 3,
-      "explain": "Gjør det dyrere å finansiere velferden."
+      "explain": "Gjør det dyrere å finansiere velferden.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +186,8 @@
         "Niårig skole"
       ],
       "correct": 0,
-      "explain": "Mellom LO og arbeidsgiverne."
+      "explain": "Mellom LO og arbeidsgiverne.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -279,7 +289,8 @@
         "type": "sant-usant",
         "text": "Mottakere av fattighjelp kunne i en periode miste stemmeretten.",
         "correct": true,
-        "explain": "Hjelpen var nedverdigende."
+        "explain": "Hjelpen var nedverdigende.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -313,7 +324,8 @@
           "1978"
         ],
         "correct": 1,
-        "explain": "Rett etter krigen."
+        "explain": "Rett etter krigen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +338,8 @@
           "For få skoler"
         ],
         "correct": 0,
-        "explain": "Også høye kostnader."
+        "explain": "Også høye kostnader.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -350,7 +363,8 @@
         "kriterier": [
           "Forklarer at fattigvesenet var hjelp rettet mot fattige, og at hjelpen kunne ha negative følger for mottakerne.",
           "Forklarer at universelle ytelser gjelder alle, ikke bare de fattigste."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -368,7 +382,8 @@
         "kriterier": [
           "Identifiserer syketrygden som ordningen ved sykdom for lavtlønte.",
           "Forklarer at tidlige trygder bare gjaldt bestemte grupper."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -377,7 +392,8 @@
         "kriterier": [
           "Knytter minst ett av tiltakene til at flere fikk tilgang til eller kunne finansiere utdanning.",
           "Forklarer sammenhengen mellom utdanning og muligheten til å få et annet liv enn foreldrene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -386,7 +402,8 @@
         "kriterier": [
           "Skiller riktig mellom partene i kriseforliket og partene i Hovedavtalen.",
           "Forklarer at kriseforliket var politisk, mens Hovedavtalen la grunnlag for samarbeid i arbeidslivet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -419,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

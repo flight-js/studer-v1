@@ -20,7 +20,8 @@
     },
     {
       "term": "British Isles",
-      "def": "Geographical name for Great Britain, Ireland and the smaller islands around them."
+      "def": "Geographical name for Great Britain, Ireland and the smaller islands around them.",
+      "niva": "eksempel"
     },
     {
       "term": "Republic of Ireland",
@@ -48,11 +49,13 @@
     },
     {
       "term": "Brexit",
-      "def": "The UK leaving the EU after the referendum in 2016. The UK left in 2020."
+      "def": "The UK leaving the EU after the referendum in 2016. The UK left in 2020.",
+      "niva": "eksempel"
     },
     {
       "term": "Referendum",
-      "def": "A vote where all voters decide on a single question."
+      "def": "A vote where all voters decide on a single question.",
+      "niva": "eksempel"
     },
     {
       "term": "Welsh",
@@ -68,7 +71,8 @@
     },
     {
       "term": "BBC",
-      "def": "The British Broadcasting Corporation, the UK's public broadcaster."
+      "def": "The British Broadcasting Corporation, the UK's public broadcaster.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -130,7 +134,8 @@
         "The British royal family"
       ],
       "correct": 1,
-      "explain": "Brexit is short for “Britain exit”, the UK leaving the EU after the 2016 referendum."
+      "explain": "Brexit is short for “Britain exit”, the UK leaving the EU after the 2016 referendum.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -178,7 +183,8 @@
         "Astrid Lindgren"
       ],
       "correct": 1,
-      "explain": "William Shakespeare is one of the most famous writers in the English language."
+      "explain": "William Shakespeare is one of the most famous writers in the English language.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -319,7 +325,8 @@
         "type": "sant-usant",
         "text": "Scotland has its own parliament that decides on some matters.",
         "correct": true,
-        "explain": "The Scottish Parliament decides on issues like education and health."
+        "explain": "The Scottish Parliament decides on issues like education and health.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -332,7 +339,8 @@
           "2008"
         ],
         "correct": 2,
-        "explain": "The referendum was in 2016, but the UK formally left the EU in 2020."
+        "explain": "The referendum was in 2016, but the UK formally left the EU in 2020.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -358,7 +366,8 @@
           "A bank"
         ],
         "correct": 1,
-        "explain": "The British Broadcasting Corporation is a well-known public broadcaster."
+        "explain": "The British Broadcasting Corporation is a well-known public broadcaster.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +378,8 @@
         "kriterier": [
           "Explains that the British Isles is a geographical name, not the name of one country.",
           "States that the Republic of Ireland is independent and not part of the UK."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -423,7 +433,8 @@
         "kriterier": [
           "States that English is the main language but not the only one used.",
           "Names Welsh and where it is spoken, and mentions Scottish Gaelic or Irish."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -432,12 +443,14 @@
         "kriterier": [
           "Identifies the parliaments or assemblies in Scotland, Wales and Northern Ireland as bodies that may decide on these matters.",
           "Distinguishes their role from the UK Parliament in London."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -15,7 +15,8 @@
     },
     {
       "term": "Lloyd Bitzer",
-      "def": "Retoriker som beskrev den retoriske situasjonen i 1968."
+      "def": "Retoriker som beskrev den retoriske situasjonen i 1968.",
+      "niva": "eksempel"
     },
     {
       "term": "Det påtrengende problemet",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Minnetale",
-      "def": "Tale til minne om noen, som krever verdig tone."
+      "def": "Tale til minne om noen, som krever verdig tone.",
+      "niva": "eksempel"
     },
     {
       "term": "Inkluderende «vi»",
@@ -63,7 +65,8 @@
     },
     {
       "term": "Leserinnlegg",
-      "def": "Kort meningstekst fra en leser i en avis."
+      "def": "Kort meningstekst fra en leser i en avis.",
+      "niva": "eksempel"
     },
     {
       "term": "Effekt",
@@ -81,7 +84,8 @@
         "Berit Ås"
       ],
       "correct": 1,
-      "explain": "Artikkelen kom i 1968."
+      "explain": "Artikkelen kom i 1968.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -329,7 +333,8 @@
           "Kairos"
         ],
         "correct": 2,
-        "explain": "Exigence betyr noe som krever handling."
+        "explain": "Exigence betyr noe som krever handling.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -407,7 +412,8 @@
         "kriterier": [
           "Knytter kontekst til tiden eller situasjonen teksten ble til i.",
           "Forklarer hvordan konteksten hjelper oss å vurdere innhold eller effekt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

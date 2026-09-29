@@ -19,7 +19,8 @@
     },
     {
       "term": "Protagoras",
-      "def": "Gresk filosof: «Mennesket er alle tings mål.»"
+      "def": "Gresk filosof: «Mennesket er alle tings mål.»",
+      "niva": "eksempel"
     },
     {
       "term": "Renessansehumanisme",
@@ -93,7 +94,8 @@
         "Kant"
       ],
       "correct": 0,
-      "explain": "Gresk filosof i antikken."
+      "explain": "Gresk filosof i antikken.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +119,8 @@
         "1956"
       ],
       "correct": 3,
-      "explain": "En stor humanistisk organisasjon."
+      "explain": "En stor humanistisk organisasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -165,7 +168,8 @@
         "At det er uklart hvordan den begrunner menneskeverdet uten noe høyere"
       ],
       "correct": 3,
-      "explain": "Også for stor tro på fremskritt."
+      "explain": "Også for stor tro på fremskritt.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -310,7 +314,8 @@
           "Ateisme"
         ],
         "correct": 1,
-        "explain": "Nyreligiøsitet."
+        "explain": "Nyreligiøsitet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -383,7 +388,8 @@
         "kriterier": [
           "Forklarer at ulike livssyn skal behandles likt.",
           "Knytter dette til kritikken av kirkens særstilling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

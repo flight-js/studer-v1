@@ -40,19 +40,23 @@
     },
     {
       "term": "Ludwig Feuerbach",
-      "def": "Filosof som mente at gudene er menneskenes egne idealer."
+      "def": "Filosof som mente at gudene er menneskenes egne idealer.",
+      "niva": "eksempel"
     },
     {
       "term": "Karl Marx",
-      "def": "Kalte religion «folkets opium»."
+      "def": "Kalte religion «folkets opium».",
+      "niva": "eksempel"
     },
     {
       "term": "Ninian Smart",
-      "def": "Religionsforsker som beskrev religioner ut fra sju dimensjoner."
+      "def": "Religionsforsker som beskrev religioner ut fra sju dimensjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Religionens dimensjoner",
-      "def": "Lære, fortellinger, etikk, ritualer, erfaring, organisasjon og materielle uttrykk."
+      "def": "Lære, fortellinger, etikk, ritualer, erfaring, organisasjon og materielle uttrykk.",
+      "niva": "eksempel"
     },
     {
       "term": "Overgangsrite",
@@ -60,7 +64,8 @@
     },
     {
       "term": "Ortodoksi og ortopraksi",
-      "def": "Vekt på rett lære og vekt på rett praksis."
+      "def": "Vekt på rett lære og vekt på rett praksis.",
+      "niva": "over-niva"
     },
     {
       "term": "Fundamentalisme",
@@ -118,7 +123,8 @@
         "«Fornuftens fiende»"
       ],
       "correct": 1,
-      "explain": "Marx mente religion fikk folk til å godta urettferdighet."
+      "explain": "Marx mente religion fikk folk til å godta urettferdighet.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +148,8 @@
         "Ortodoksi er rett lære, ortopraksi er rett praksis"
       ],
       "correct": 3,
-      "explain": "Noen religioner legger mest vekt på tro, andre på handling."
+      "explain": "Noen religioner legger mest vekt på tro, andre på handling.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -154,7 +161,8 @@
         "Ludwig Feuerbach"
       ],
       "correct": 0,
-      "explain": "Dimensjonene brukes ofte til å sammenligne religioner."
+      "explain": "Dimensjonene brukes ofte til å sammenligne religioner.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -332,7 +340,8 @@
           "Geografi"
         ],
         "correct": 1,
-        "explain": "Ritualer er for eksempel bønn, gudstjeneste og høytider."
+        "explain": "Ritualer er for eksempel bønn, gudstjeneste og høytider.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -358,7 +367,8 @@
           "At de styrer historien"
         ],
         "correct": 2,
-        "explain": "Han mente mennesker projiserer sine beste egenskaper over på gudene."
+        "explain": "Han mente mennesker projiserer sine beste egenskaper over på gudene.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -396,7 +406,8 @@
         "kriterier": [
           "Gjengir Feuerbachs syn på gudene som menneskenes egne idealer.",
           "Nevner at Luther kritiserte kirken, og skiller dette fra Feuerbachs syn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -406,7 +417,8 @@
           "Knytter fortellinger til dimensjonen fortellinger.",
           "Knytter høytider og bønn til ritualer.",
           "Knytter bygninger og symboler til materielle uttrykk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -439,6 +451,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

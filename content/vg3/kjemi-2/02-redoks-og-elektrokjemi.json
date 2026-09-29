@@ -286,7 +286,8 @@
         "type": "sant-usant",
         "text": "Når et litium-ion-batteri lades, drives reaksjonen baklengs.",
         "correct": true,
-        "explain": "Elektrisk energi lagres som kjemisk energi."
+        "explain": "Elektrisk energi lagres som kjemisk energi.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -346,7 +347,8 @@
           "Å smelte metall"
         ],
         "correct": 2,
-        "explain": "Beskytter mot korrosjon."
+        "explain": "Beskytter mot korrosjon.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -426,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

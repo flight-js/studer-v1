@@ -44,7 +44,8 @@
     },
     {
       "term": "Spesiell studiekompetanse",
-      "def": "Krav om bestemte fag for å komme inn på enkelte studier."
+      "def": "Krav om bestemte fag for å komme inn på enkelte studier.",
+      "niva": "over-niva"
     },
     {
       "term": "Påbygging",
@@ -64,11 +65,13 @@
     },
     {
       "term": "Vilbli.no",
-      "def": "Nettsted med oversikt over utdanningsprogram i videregående."
+      "def": "Nettsted med oversikt over utdanningsprogram i videregående.",
+      "niva": "eksempel"
     },
     {
       "term": "Hospitering",
-      "def": "Å besøke en skole eller arbeidsplass for å prøve den."
+      "def": "Å besøke en skole eller arbeidsplass for å prøve den.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -94,7 +97,8 @@
         "Helse- og oppvekstfag"
       ],
       "correct": 0,
-      "explain": "De andre er yrkesfaglige program."
+      "explain": "De andre er yrkesfaglige program.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -142,7 +146,8 @@
         "En bachelorgrad"
       ],
       "correct": 1,
-      "explain": "For eksempel krav til matematikk og fysikk for ingeniørstudier."
+      "explain": "For eksempel krav til matematikk og fysikk for ingeniørstudier.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -154,7 +159,8 @@
         "Nrk.no"
       ],
       "correct": 2,
-      "explain": "Vilbli.no viser alle veier gjennom videregående."
+      "explain": "Vilbli.no viser alle veier gjennom videregående.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -292,14 +298,16 @@
         "type": "sant-usant",
         "text": "Medier og kommunikasjon er et studieforberedende utdanningsprogram.",
         "correct": true,
-        "explain": "Programmet ble studieforberedende med fagfornyelsen."
+        "explain": "Programmet ble studieforberedende med fagfornyelsen.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Med fagbrev er det umulig å bli ingeniør.",
         "correct": false,
-        "explain": "Y-veien og påbygging gir muligheter videre."
+        "explain": "Y-veien og påbygging gir muligheter videre.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -352,7 +360,8 @@
           "Å søke jobb"
         ],
         "correct": 1,
-        "explain": "Hospitering gir et inntrykk av hvordan det er i praksis."
+        "explain": "Hospitering gir et inntrykk av hvordan det er i praksis.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -399,7 +408,8 @@
         "kriterier": [
           "Nevner Y-veien.",
           "Forklarer at den gir personer med fagbrev mulighet til å bli ingeniør."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -408,7 +418,8 @@
         "kriterier": [
           "Forklarer at hospitering innebærer å besøke en skole eller arbeidsplass for å prøve den.",
           "Knytter besøket til at eleven kan få erfaring eller et inntrykk før hun velger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -417,7 +428,8 @@
         "kriterier": [
           "Plasserer mastergrad etter bachelorgrad og ph.d. etter mastergrad.",
           "Oppgir vanlig varighet: bachelor tre år, master to år og ph.d. tre år etter master."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -432,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

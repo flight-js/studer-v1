@@ -83,11 +83,13 @@
     },
     {
       "term": "Bromtymolblått",
-      "def": "Indikator som er gul i sur løsning, grønn nær nøytral og blå i basisk løsning."
+      "def": "Indikator som er gul i sur løsning, grønn nær nøytral og blå i basisk løsning.",
+      "niva": "eksempel"
     },
     {
       "term": "Fenolftalein",
-      "def": "Indikator som er fargeløs i sur og nøytral løsning og rosa i basisk løsning."
+      "def": "Indikator som er fargeløs i sur og nøytral løsning og rosa i basisk løsning.",
+      "niva": "eksempel"
     },
     {
       "term": "Syre + uedelt metall",
@@ -217,7 +219,8 @@
         "Den er sur"
       ],
       "correct": 3,
-      "explain": "Bromtymolblått er gult i sur løsning, grønt rundt nøytral og blått i basisk løsning."
+      "explain": "Bromtymolblått er gult i sur løsning, grønt rundt nøytral og blått i basisk løsning.",
+      "niva": "eksempel"
     },
     {
       "id": "q11",
@@ -452,7 +455,8 @@
           "Fenolftalein"
         ],
         "correct": 3,
-        "explain": "Fenolftalein er fargeløs under omtrent pH 8 og blir rosa i basisk løsning. Den brukes mye ved titrering av syre med sterk base."
+        "explain": "Fenolftalein er fargeløs under omtrent pH 8 og blir rosa i basisk løsning. Den brukes mye ved titrering av syre med sterk base.",
+        "niva": "eksempel"
       },
       {
         "id": "m08",
@@ -506,7 +510,8 @@
         "kriterier": [
           "Knytter grønn bromtymolblått til en løsning nær nøytral.",
           "Forklarer at fargeløs fenolftalein ikke alene skiller mellom sur og nøytral løsning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -541,6 +546,7 @@
     "status": "utkast",
     "merknader": [
       "Syrekonstanten Ka er bare nevnt kvalitativt. pH-beregning for svake syrer og buffere hører vanligvis til Kjemi 2 – sjekk at avgrensningen stemmer med læreboka."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

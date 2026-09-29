@@ -15,7 +15,8 @@
     },
     {
       "term": "Folkemordkonvensjonen",
-      "def": "FN-avtale fra 1948 som gjør folkemord til en internasjonal forbrytelse."
+      "def": "FN-avtale fra 1948 som gjør folkemord til en internasjonal forbrytelse.",
+      "niva": "eksempel"
     },
     {
       "term": "Holocaust",
@@ -27,7 +28,8 @@
     },
     {
       "term": "Nürnberglovene",
-      "def": "Nazistiske lover fra 1935 som fratok jøder rettigheter."
+      "def": "Nazistiske lover fra 1935 som fratok jøder rettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Krystallnatten",
@@ -43,7 +45,8 @@
     },
     {
       "term": "Donau",
-      "def": "Skipet som 26. november 1942 fraktet over 500 jøder fra Oslo."
+      "def": "Skipet som 26. november 1942 fraktet over 500 jøder fra Oslo.",
+      "niva": "eksempel"
     },
     {
       "term": "Avhumanisering",
@@ -55,19 +58,23 @@
     },
     {
       "term": "Rwanda 1994",
-      "def": "Folkemord der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager."
+      "def": "Folkemord der rundt 800 000 tutsier og moderate hutuer ble drept på omtrent 100 dager.",
+      "niva": "eksempel"
     },
     {
       "term": "Srebrenica 1995",
-      "def": "Folkemord i Bosnia der om lag 8000 bosniakiske menn og gutter ble drept."
+      "def": "Folkemord i Bosnia der om lag 8000 bosniakiske menn og gutter ble drept.",
+      "niva": "eksempel"
     },
     {
       "term": "Nürnbergprosessen",
-      "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig."
+      "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig.",
+      "niva": "eksempel"
     },
     {
       "term": "ICC",
-      "def": "Den internasjonale straffedomstolen, opprettet i 2002."
+      "def": "Den internasjonale straffedomstolen, opprettet i 2002.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -105,7 +112,8 @@
         "Regler for de olympiske lekene"
       ],
       "correct": 1,
-      "explain": "Lovene gjorde jøder til annenrangs borgere og forbød blant annet ekteskap med ikke-jøder."
+      "explain": "Lovene gjorde jøder til annenrangs borgere og forbød blant annet ekteskap med ikke-jøder.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +125,8 @@
         "Over 500 jøder ble sendt fra Oslo med skipet Donau"
       ],
       "correct": 3,
-      "explain": "De fleste av dem ble drept i Auschwitz."
+      "explain": "De fleste av dem ble drept i Auschwitz.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +150,8 @@
         "Rwanda"
       ],
       "correct": 3,
-      "explain": "Ofrene var tutsier og moderate hutuer."
+      "explain": "Ofrene var tutsier og moderate hutuer.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +175,8 @@
         "En tysk propagandakampanje"
       ],
       "correct": 2,
-      "explain": "Rettssakene slo fast at ledere kan straffes for forbrytelser mot menneskeheten."
+      "explain": "Rettssakene slo fast at ledere kan straffes for forbrytelser mot menneskeheten.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -316,7 +327,8 @@
         "type": "sant-usant",
         "text": "Folkemordkonvensjonen ble vedtatt av FN i 1998.",
         "correct": false,
-        "explain": "Konvensjonen ble vedtatt i 1948."
+        "explain": "Konvensjonen ble vedtatt i 1948.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -355,7 +367,8 @@
           "Den europeiske menneskerettsdomstolen"
         ],
         "correct": 2,
-        "explain": "ICC ligger i Haag i Nederland."
+        "explain": "ICC ligger i Haag i Nederland.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -365,7 +378,8 @@
         "fasit": "Folkemordkonvensjonen gjorde folkemord til en forbrytelse etter internasjonal rett.",
         "kriterier": [
           "Får fram at avtalen gjør folkemord til en internasjonal forbrytelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -410,7 +424,8 @@
         "kriterier": [
           "Nevner tutsier og moderate hutuer og omtrent 800 000 drepte i Rwanda.",
           "Nevner bosniakiske menn og gutter og om lag 8000 drepte i Srebrenica."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -434,6 +449,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

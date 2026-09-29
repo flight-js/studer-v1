@@ -41,11 +41,13 @@
     },
     {
       "term": "Pytagoreisk trippel",
-      "def": "Tre hele tall som passer i a² + b² = c², for eksempel 3, 4, 5 og 5, 12, 13."
+      "def": "Tre hele tall som passer i a² + b² = c², for eksempel 3, 4, 5 og 5, 12, 13.",
+      "niva": "eksempel"
     },
     {
       "term": "3-4-5-regelen",
-      "def": "Måler du 3 og 4 langs to vegger og avstanden er 5, er hjørnet rett."
+      "def": "Måler du 3 og 4 langs to vegger og avstanden er 5, er hjørnet rett.",
+      "niva": "eksempel"
     },
     {
       "term": "Omvendt Pytagoras",
@@ -53,7 +55,8 @@
     },
     {
       "term": "Stump vinkel",
-      "def": "Hvis c² > a² + b², er vinkelen overfor c stump (over 90°)."
+      "def": "Hvis c² > a² + b², er vinkelen overfor c stump (over 90°).",
+      "niva": "over-niva"
     },
     {
       "term": "Diagonal i rektangel",
@@ -61,7 +64,8 @@
     },
     {
       "term": "Avstand i koordinatsystem",
-      "def": "Avstanden mellom to punkter er hypotenusen i en trekant med sidene Δx og Δy."
+      "def": "Avstanden mellom to punkter er hypotenusen i en trekant med sidene Δx og Δy.",
+      "niva": "eksempel"
     },
     {
       "term": "Kontroll av svar",
@@ -119,7 +123,8 @@
         "6, 7, 8"
       ],
       "correct": 2,
-      "explain": "5² + 12² = 25 + 144 = 169 = 13². De andre settene passer ikke."
+      "explain": "5² + 12² = 25 + 144 = 169 = 13². De andre settene passer ikke.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -179,7 +184,8 @@
         "5"
       ],
       "correct": 3,
-      "explain": "Δx = 3 og Δy = 4. Avstanden er √(3² + 4²) = √25 = 5."
+      "explain": "Δx = 3 og Δy = 4. Avstanden er √(3² + 4²) = √25 = 5.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -191,7 +197,8 @@
         "Veggene er parallelle"
       ],
       "correct": 1,
-      "explain": "5,2² = 27,04 er større enn 3² + 4² = 25. Da er vinkelen stump, altså litt over 90°."
+      "explain": "5,2² = 27,04 er større enn 3² + 4² = 25. Da er vinkelen stump, altså litt over 90°.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -292,7 +299,8 @@
         "type": "sant-usant",
         "text": "6, 8 og 10 er en pytagoreisk trippel.",
         "correct": true,
-        "explain": "36 + 64 = 100 = 10². Settet er 3, 4, 5 ganget med 2."
+        "explain": "36 + 64 = 100 = 10². Settet er 3, 4, 5 ganget med 2.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -338,7 +346,8 @@
           "4, 4, 5"
         ],
         "correct": 0,
-        "explain": "6² = 36 er større enn 3² + 4² = 25. Da er vinkelen overfor den lengste siden stump."
+        "explain": "6² = 36 er større enn 3² + 4² = 25. Da er vinkelen overfor den lengste siden stump.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -394,7 +403,8 @@
         "kriterier": [
           "Finner den nye trippelen 6, 8, 10 ved å gange alle tallene med 2.",
           "Viser at 6² + 8² = 10²."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -403,7 +413,8 @@
         "kriterier": [
           "Knytter likhet mellom c² og a² + b² til en rett vinkel.",
           "Knytter c² > a² + b² til en stump vinkel overfor c."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -412,12 +423,14 @@
         "kriterier": [
           "Forklarer at Δx og Δy er katetene i en rettvinklet trekant.",
           "Forklarer at avstanden mellom punktene er hypotenusen og kan finnes med Pytagoras' setning."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

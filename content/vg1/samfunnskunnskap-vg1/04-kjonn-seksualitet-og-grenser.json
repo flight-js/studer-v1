@@ -35,7 +35,8 @@
     },
     {
       "term": "Slettmeg.no",
-      "def": "Tjeneste som hjelper folk med krenkende innhold på nett."
+      "def": "Tjeneste som hjelper folk med krenkende innhold på nett.",
+      "niva": "eksempel"
     },
     {
       "term": "Kjønnsidentitet",
@@ -51,7 +52,8 @@
     },
     {
       "term": "Endring av juridisk kjønn",
-      "def": "Kan gjøres selv fra 16 år i Norge."
+      "def": "Kan gjøres selv fra 16 år i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Seksuell orientering",
@@ -59,11 +61,13 @@
     },
     {
       "term": "Kjønnsnøytral ekteskapslov",
-      "def": "Innført i Norge i 2009."
+      "def": "Innført i Norge i 2009.",
+      "niva": "eksempel"
     },
     {
       "term": "1972",
-      "def": "Året homofili sluttet å være straffbart i Norge."
+      "def": "Året homofili sluttet å være straffbart i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Lover, normer og verdier",
@@ -129,7 +133,8 @@
         "2020"
       ],
       "correct": 0,
-      "explain": "Da fikk likekjønnede par rett til å gifte seg."
+      "explain": "Da fikk likekjønnede par rett til å gifte seg.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Ekteskapsloven"
       ],
       "correct": 1,
-      "explain": "Loven verner også mot seksuell trakassering."
+      "explain": "Loven verner også mot seksuell trakassering.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +159,8 @@
         "2009"
       ],
       "correct": 2,
-      "explain": "Normene om seksualitet har endret seg mye."
+      "explain": "Normene om seksualitet har endret seg mye.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -299,7 +306,8 @@
         "type": "sant-usant",
         "text": "I Norge kan man fra 16 år selv endre juridisk kjønn.",
         "correct": true,
-        "explain": "Yngre barn kan gjøre det med samtykke fra foreldrene."
+        "explain": "Yngre barn kan gjøre det med samtykke fra foreldrene.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -401,7 +409,8 @@
         "kriterier": [
           "Får fram at normer om kjønn og seksualitet kan endre seg over tid.",
           "Nevner en relevant faktor som religion, kultur, generasjon eller politikk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,7 +419,8 @@
         "kriterier": [
           "Sier at man fra 16 år selv kan endre juridisk kjønn i Norge.",
           "Skiller mellom formell endring av juridisk kjønn og kjønnsidentitet som egen opplevelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,7 +429,8 @@
         "kriterier": [
           "Nevner likestillings- og diskrimineringsloven som beskyttelse mot diskriminering.",
           "Identifiserer kjønnsuttrykk som det saken gjelder."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
@@ -427,6 +438,7 @@
     "status": "sjekkes",
     "merknader": [
       "Fakta sjekket i september 2026: samtykkebasert voldtektsbestemmelse i kraft fra 1. juli 2025, juridisk kjønn fra 16 år (fra 6 år med samtykke fra foreldrene). Sensitivt tema – en lærer bør likevel gå gjennom formuleringene."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

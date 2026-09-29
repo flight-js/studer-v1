@@ -15,11 +15,13 @@
     },
     {
       "term": "Arduino Uno",
-      "def": "Kort med 14 digitale pinner og 6 analoge innganger."
+      "def": "Kort med 14 digitale pinner og 6 analoge innganger.",
+      "niva": "eksempel"
     },
     {
       "term": "micro:bit",
-      "def": "Kort med innebygde knapper, lysdioder og sensorer."
+      "def": "Kort med innebygde knapper, lysdioder og sensorer.",
+      "niva": "eksempel"
     },
     {
       "term": "Inngang",
@@ -63,11 +65,13 @@
     },
     {
       "term": "Transistor",
-      "def": "Brukes til å styre større strømmer, som motorer."
+      "def": "Brukes til å styre større strømmer, som motorer.",
+      "niva": "over-niva"
     },
     {
       "term": "Seriell monitor",
-      "def": "Viser verdier fra mikrokontrolleren på datamaskinen."
+      "def": "Viser verdier fra mikrokontrolleren på datamaskinen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +157,8 @@
         "Å tegne kretser"
       ],
       "correct": 2,
-      "explain": "Nyttig ved feilsøking."
+      "explain": "Nyttig ved feilsøking.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +182,8 @@
         "Gassensor"
       ],
       "correct": 0,
-      "explain": "Også kompass, lys og temperatur."
+      "explain": "Også kompass, lys og temperatur.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -342,7 +348,8 @@
           "Et koblingsbrett"
         ],
         "correct": 2,
-        "explain": "Data kan sendes til en app."
+        "explain": "Data kan sendes til en app.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -353,7 +360,8 @@
         "kriterier": [
           "Oppgir en riktig egenskap ved Arduino Uno.",
           "Oppgir en riktig egenskap ved micro:bit og får fram en relevant forskjell."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -380,7 +388,8 @@
         "kriterier": [
           "Viser eller beskriver regnestykket 14 + 6.",
           "Oppgir riktig svar: 20."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -389,7 +398,8 @@
         "kriterier": [
           "Bruker riktig regneoperasjon for rader og kolonner: 5 × 5.",
           "Oppgir riktig svar: 25 lysdioder."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

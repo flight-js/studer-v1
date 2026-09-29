@@ -55,7 +55,8 @@
     },
     {
       "term": "Relativsetning",
-      "def": "Leddsetning som beskriver et substantiv, ofte innledet med «som»."
+      "def": "Leddsetning som beskriver et substantiv, ofte innledet med «som».",
+      "niva": "over-niva"
     },
     {
       "term": "V2-regelen",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Konnektiv",
-      "def": "Ord som viser logiske sammenhenger, som «derfor» og «likevel»."
+      "def": "Ord som viser logiske sammenhenger, som «derfor» og «likevel».",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -165,7 +167,8 @@
         "likevel"
       ],
       "correct": 3,
-      "explain": "«Derfor» viser årsak, «dessuten» tillegg og «deretter» tid."
+      "explain": "«Derfor» viser årsak, «dessuten» tillegg og «deretter» tid.",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -189,7 +192,8 @@
         "En setning med konjunksjon"
       ],
       "correct": 1,
-      "explain": "Eksempel: «boka som jeg leste»."
+      "explain": "Eksempel: «boka som jeg leste».",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -428,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

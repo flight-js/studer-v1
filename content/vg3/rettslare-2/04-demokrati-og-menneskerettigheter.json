@@ -35,7 +35,8 @@
     },
     {
       "term": "Grunnloven § 98",
-      "def": "Likhet for loven."
+      "def": "Likhet for loven.",
+      "niva": "eksempel"
     },
     {
       "term": "Menneskerettsloven",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Prøvingsretten",
-      "def": "Domstolene kan sette til side lover som strider mot Grunnloven – § 89."
+      "def": "Domstolene kan sette til side lover som strider mot Grunnloven – § 89.",
+      "niva": "over-niva"
     },
     {
       "term": "Rettsliggjøring",
-      "def": "Makt flyttes fra folkevalgte til domstoler."
+      "def": "Makt flyttes fra folkevalgte til domstoler.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -81,7 +84,8 @@
         "1999"
       ],
       "correct": 1,
-      "explain": "200-årsjubileet."
+      "explain": "200-årsjubileet.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -129,7 +133,8 @@
         "Retten til å stemme"
       ],
       "correct": 0,
-      "explain": "Nå i Grunnloven § 89."
+      "explain": "Nå i Grunnloven § 89.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -279,7 +284,8 @@
         "type": "sant-usant",
         "text": "Parlamentarismen ble skrevet inn i Grunnloven i 2007.",
         "correct": true,
-        "explain": "Praksis siden 1884."
+        "explain": "Praksis siden 1884.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -326,7 +332,8 @@
           "At Stortinget blir domstol"
         ],
         "correct": 0,
-        "explain": "En demokratisk debatt."
+        "explain": "En demokratisk debatt.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -386,7 +393,8 @@
         "kriterier": [
           "Identifiserer § 98 eller prinsippet om likhet for loven.",
           "Forklarer at bestemmelsen verner mot usaklig forskjellsbehandling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -413,12 +421,14 @@
         "kriterier": [
           "Forklarer at makt flyttes fra folkevalgte til domstolene.",
           "Får fram uenigheten om hvor mye makt domstolene bør ha overfor folkevalgte."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

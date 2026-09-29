@@ -186,7 +186,8 @@
         "las piñas"
       ],
       "correct": 2,
-      "explain": "I Spania heter det «las patatas»."
+      "explain": "I Spania heter det «las patatas».",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -309,7 +310,8 @@
         "type": "sant-usant",
         "text": "«el zumo» og «el jugo» betyr begge juice.",
         "correct": true,
-        "explain": "«zumo» brukes i Spania og «jugo» i Latin-Amerika."
+        "explain": "«zumo» brukes i Spania og «jugo» i Latin-Amerika.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -409,7 +411,8 @@
         "kriterier": [
           "Plasserer el zumo i Spania.",
           "Plasserer el jugo i Latin-Amerika."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -427,7 +430,8 @@
         "kriterier": [
           "Forklarer at propina er tips.",
           "Får fram at tips kan gis når man er fornøyd, men ikke er påkrevd."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -436,12 +440,14 @@
         "kriterier": [
           "Knytter ¡Buen provecho! til «God appetitt!».",
           "Knytter ¡Salud! til «Skål!»."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

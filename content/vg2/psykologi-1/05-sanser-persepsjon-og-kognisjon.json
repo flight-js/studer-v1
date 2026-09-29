@@ -48,7 +48,8 @@
     },
     {
       "term": "Cocktailselskap-effekten",
-      "def": "Vi reagerer på navnet vårt selv om vi ikke følger med."
+      "def": "Vi reagerer på navnet vårt selv om vi ikke følger med.",
+      "niva": "eksempel"
     },
     {
       "term": "Uoppmerksomhetsblindhet",
@@ -80,7 +81,8 @@
     },
     {
       "term": "Fundamental attribusjonsfeil",
-      "def": "Å overvurdere personlighet og undervurdere situasjonen hos andre."
+      "def": "Å overvurdere personlighet og undervurdere situasjonen hos andre.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -202,7 +204,8 @@
         "Å se synsbedrag"
       ],
       "correct": 1,
-      "explain": "Vi tror for lett at andres atferd skyldes hvem de er."
+      "explain": "Vi tror for lett at andres atferd skyldes hvem de er.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -332,7 +335,8 @@
           "At vi hører dårligere i støy"
         ],
         "correct": 1,
-        "explain": "Viser at vi bearbeider noe av det vi ikke fokuserer på."
+        "explain": "Viser at vi bearbeider noe av det vi ikke fokuserer på.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -345,7 +349,8 @@
           "Å stole på eksperter"
         ],
         "correct": 0,
-        "explain": "Beskytter selvbildet."
+        "explain": "Beskytter selvbildet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -358,7 +363,8 @@
           "At vi ser dybde"
         ],
         "correct": 2,
-        "explain": "Brukes ofte i prisforhandlinger."
+        "explain": "Brukes ofte i prisforhandlinger.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -396,7 +402,8 @@
         "kriterier": [
           "Knytter overlapping til at noe kan oppfattes som nærmere enn det som dekkes.",
           "Knytter mindre størrelse til at noe kan oppfattes som lenger unna."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -405,7 +412,8 @@
         "kriterier": [
           "Forklarer at selektiv oppmerksomhet retter fokus mot én samtale mens andre inntrykk i stor grad overses.",
           "Forklarer at reaksjonen på eget navn illustrerer cocktailselskap-effekten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -432,12 +440,14 @@
         "kriterier": [
           "Forklarer at det første tallet fungerer som et anker.",
           "Forklarer at ankeret påvirker den senere vurderingen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

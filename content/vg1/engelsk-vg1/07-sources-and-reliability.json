@@ -28,19 +28,23 @@
     },
     {
       "term": "Misinformation",
-      "def": "False information spread by mistake."
+      "def": "False information spread by mistake.",
+      "niva": "eksempel"
     },
     {
       "term": "Disinformation",
-      "def": "False information spread on purpose."
+      "def": "False information spread on purpose.",
+      "niva": "eksempel"
     },
     {
       "term": "CRAAP",
-      "def": "Currency, Relevance, Authority, Accuracy, Purpose."
+      "def": "Currency, Relevance, Authority, Accuracy, Purpose.",
+      "niva": "eksempel"
     },
     {
       "term": "Lateral reading",
-      "def": "Checking what other sources say about a website or claim."
+      "def": "Checking what other sources say about a website or claim.",
+      "niva": "eksempel"
     },
     {
       "term": "Primary source",
@@ -64,7 +68,8 @@
     },
     {
       "term": "APA in-text reference",
-      "def": "(Smith, 2023, p. 12)"
+      "def": "(Smith, 2023, p. 12)",
+      "niva": "eksempel"
     },
     {
       "term": "Plagiarism",
@@ -106,7 +111,8 @@
         "Is it funny?"
       ],
       "correct": 2,
-      "explain": "Authority is about who stands behind the information."
+      "explain": "Authority is about who stands behind the information.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +124,8 @@
         "False information spread on purpose"
       ],
       "correct": 3,
-      "explain": "Misinformation is spread by mistake."
+      "explain": "Misinformation is spread by mistake.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -130,7 +137,8 @@
         "Reading a text twice"
       ],
       "correct": 0,
-      "explain": "Professional fact-checkers use this method."
+      "explain": "Professional fact-checkers use this method.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -293,7 +301,8 @@
         "type": "sant-usant",
         "text": "Copying text from an AI tool without saying so is not plagiarism.",
         "correct": false,
-        "explain": "Presenting work that is not your own is plagiarism."
+        "explain": "Presenting work that is not your own is plagiarism.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -320,7 +329,8 @@
           "Is it a primary source?"
         ],
         "correct": 0,
-        "explain": "The purpose affects how you should read it."
+        "explain": "The purpose affects how you should read it.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -333,7 +343,8 @@
           "Smith said it"
         ],
         "correct": 2,
-        "explain": "MLA uses the author's name and page number."
+        "explain": "MLA uses the author's name and page number.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -357,7 +368,8 @@
         "kriterier": [
           "Skiller mellom spredning ved en feil og spredning med vilje.",
           "Knytter riktig begrep til hver handling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -384,7 +396,8 @@
         "kriterier": [
           "Knytter Currency til om informasjonen er oppdatert.",
           "Knytter Accuracy til støtte i bevis eller mulighet for å kontrollere påstandene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -420,12 +433,14 @@
         "kriterier": [
           "Bruker forfatterens kvalifikasjoner til å vurdere Authority.",
           "Forklarer at formålet om å selge kan påvirke framstillingen, og bør tas med i vurderingen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

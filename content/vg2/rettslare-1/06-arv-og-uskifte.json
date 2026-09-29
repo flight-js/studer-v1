@@ -19,7 +19,8 @@
     },
     {
       "term": "Arveavgift",
-      "def": "Fjernet i Norge i 2014."
+      "def": "Fjernet i Norge i 2014.",
+      "niva": "eksempel"
     },
     {
       "term": "G",
@@ -282,7 +283,8 @@
         "type": "sant-usant",
         "text": "Norge har ikke arveavgift.",
         "correct": true,
-        "explain": "Den ble fjernet i 2014."
+        "explain": "Den ble fjernet i 2014.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -303,7 +305,8 @@
         "type": "sant-usant",
         "text": "Den som sitter i uskifte, kan gi bort fast eiendom uten samtykke.",
         "correct": false,
-        "explain": "Det krever samtykke fra arvingene."
+        "explain": "Det krever samtykke fra arvingene.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -406,7 +409,8 @@
         "kriterier": [
           "Får fram at fast eiendom ikke kan gis bort uten arvingenes samtykke.",
           "Får fram at gaver i misforhold til formuen heller ikke kan gis uten samtykke."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -421,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

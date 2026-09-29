@@ -59,11 +59,13 @@
     },
     {
       "term": "Plattformarbeid",
-      "def": "Arbeid formidlet gjennom apper, for eksempel leveringstjenester."
+      "def": "Arbeid formidlet gjennom apper, for eksempel leveringstjenester.",
+      "niva": "eksempel"
     },
     {
       "term": "Frilanser",
-      "def": "Person som tar oppdrag for flere uten fast ansettelse."
+      "def": "Person som tar oppdrag for flere uten fast ansettelse.",
+      "niva": "eksempel"
     },
     {
       "term": "Robust lokalsamfunn",
@@ -141,7 +143,8 @@
         "Engangsplast"
       ],
       "correct": 1,
-      "explain": "Hydrogen, batterier og karbonfangst er andre eksempler."
+      "explain": "Hydrogen, batterier og karbonfangst er andre eksempler.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +156,8 @@
         "Det krever ingen app"
       ],
       "correct": 2,
-      "explain": "Mange er ikke ansatt og har færre rettigheter."
+      "explain": "Mange er ikke ansatt og har færre rettigheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +181,8 @@
         "Lofoten"
       ],
       "correct": 0,
-      "explain": "Også Årdal og Sunndalsøra er slike industristeder."
+      "explain": "Også Årdal og Sunndalsøra er slike industristeder.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -302,7 +307,8 @@
         "type": "sant-usant",
         "text": "Mange bransjer i Norge mangler fagarbeidere.",
         "correct": true,
-        "explain": "Særlig helse og bygg."
+        "explain": "Særlig helse og bygg.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -322,7 +328,8 @@
           "Lillehammer"
         ],
         "correct": 0,
-        "explain": "Stavanger kalles ofte oljehovedstaden."
+        "explain": "Stavanger kalles ofte oljehovedstaden.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -359,7 +366,8 @@
         "kriterier": [
           "Nevner en relevant næring fra kystsamfunn, for eksempel fiske eller havbruk.",
           "Nevner en relevant næring eller type arbeidsplass fra storbyer, for eksempel tjenester eller IT."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -368,7 +376,8 @@
         "kriterier": [
           "Knytter Mo i Rana til vannkraft og metallindustri.",
           "Knytter Stavanger til petroleumsnæringen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -404,7 +413,8 @@
         "kriterier": [
           "Nevner to aktuelle næringer, for eksempel havvind, hydrogen, batterier, karbonfangst eller grønn skipsfart.",
           "Får fram at det er usikkert hvor raskt de nye næringene kan erstatte de gamle."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -413,7 +423,8 @@
         "kriterier": [
           "Knytter Amir til frilansarbeid og forklarer at han tar oppdrag for flere uten fast ansettelse.",
           "Knytter Liv til plattformarbeid og forklarer at oppdragene formidles gjennom en app."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,12 +433,14 @@
         "kriterier": [
           "Foreslår to relevante typer næringer eller arbeidsplasser, for eksempel reiseliv, jordbruk eller offentlige arbeidsplasser.",
           "Forklarer at større variasjon gir mindre avhengighet av én bedrift og gjør lokalsamfunnet bedre i stand til å tåle endringer."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

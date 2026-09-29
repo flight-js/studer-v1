@@ -59,7 +59,8 @@
     },
     {
       "term": "Sufisme",
-      "def": "Mystisk retning i islam."
+      "def": "Mystisk retning i islam.",
+      "niva": "eksempel"
     },
     {
       "term": "Sharia",
@@ -71,7 +72,8 @@
     },
     {
       "term": "Islamisme",
-      "def": "Politiske bevegelser som vil bygge samfunnet på en tolkning av islam."
+      "def": "Politiske bevegelser som vil bygge samfunnet på en tolkning av islam.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -169,7 +171,8 @@
         "Indonesia"
       ],
       "correct": 3,
-      "explain": "De fleste muslimer bor i Asia og Afrika."
+      "explain": "De fleste muslimer bor i Asia og Afrika.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -193,7 +196,8 @@
         "Islam er en politisk ideologi"
       ],
       "correct": 1,
-      "explain": "Viktig å skille mellom."
+      "explain": "Viktig å skille mellom.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -343,7 +347,8 @@
           "Motstand mot bønn"
         ],
         "correct": 2,
-        "explain": "En mystisk retning."
+        "explain": "En mystisk retning.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -417,12 +422,14 @@
         "kriterier": [
           "Knytter den som følger praksiser tett, til begrepet praktiserende muslim.",
           "Knytter den som har en kulturell tilknytning og praktiserer mindre, til begrepet kulturell muslim."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

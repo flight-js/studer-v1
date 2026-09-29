@@ -48,7 +48,8 @@
     },
     {
       "term": "Oslo-avtalene",
-      "def": "Avtale mellom Israel og PLO i 1993 med norsk tilrettelegging."
+      "def": "Avtale mellom Israel og PLO i 1993 med norsk tilrettelegging.",
+      "niva": "eksempel"
     },
     {
       "term": "Sanksjoner",
@@ -64,7 +65,8 @@
     },
     {
       "term": "Demokratisk fred",
-      "def": "Tesen om at demokratier sjelden kriger mot hverandre."
+      "def": "Tesen om at demokratier sjelden kriger mot hverandre.",
+      "niva": "eksempel"
     },
     {
       "term": "Borgerkrig",
@@ -142,7 +144,8 @@
         "2014"
       ],
       "correct": 1,
-      "explain": "Etter Russlands fullskala invasjon av Ukraina."
+      "explain": "Etter Russlands fullskala invasjon av Ukraina.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +157,8 @@
         "At krig er umulig"
       ],
       "correct": 2,
-      "explain": "En liberal forklaring."
+      "explain": "En liberal forklaring.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -300,7 +304,8 @@
         "type": "sant-usant",
         "text": "Norge var tilrettelegger for fredsprosessen i Colombia.",
         "correct": true,
-        "explain": "Avtalen kom i 2016."
+        "explain": "Avtalen kom i 2016.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -333,7 +338,8 @@
           "Aldri"
         ],
         "correct": 0,
-        "explain": "Som valgt medlem."
+        "explain": "Som valgt medlem.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -426,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

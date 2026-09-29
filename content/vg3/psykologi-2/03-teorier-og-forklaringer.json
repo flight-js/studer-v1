@@ -51,7 +51,8 @@
     },
     {
       "term": "Epigenetikk",
-      "def": "Miljøet påvirker hvordan gener uttrykkes."
+      "def": "Miljøet påvirker hvordan gener uttrykkes.",
+      "niva": "over-niva"
     },
     {
       "term": "Unngåelse",
@@ -117,7 +118,8 @@
         "At miljøet kan påvirke hvordan gener uttrykkes"
       ],
       "correct": 3,
-      "explain": "Arv og miljø samspiller."
+      "explain": "Arv og miljø samspiller.",
+      "niva": "over-niva"
     },
     {
       "id": "q05",
@@ -177,7 +179,8 @@
         "Hypnose"
       ],
       "correct": 0,
-      "explain": "Har sterk forskningsstøtte."
+      "explain": "Har sterk forskningsstøtte.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -310,7 +313,8 @@
           "Ryggmargen"
         ],
         "correct": 1,
-        "explain": "Viktig for frykt."
+        "explain": "Viktig for frykt.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -336,7 +340,8 @@
           "Dyreforsøk"
         ],
         "correct": 2,
-        "explain": "Også feltstudier."
+        "explain": "Også feltstudier.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -416,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

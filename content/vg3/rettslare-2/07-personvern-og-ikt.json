@@ -47,7 +47,8 @@
     },
     {
       "term": "Aldersgrense for samtykke",
-      "def": "13 år for nettjenester i Norge."
+      "def": "13 år for nettjenester i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Retten til å bli glemt",
@@ -93,7 +94,8 @@
         "10 år"
       ],
       "correct": 0,
-      "explain": "Etter personopplysningsloven."
+      "explain": "Etter personopplysningsloven.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -300,7 +302,8 @@
         "type": "sant-usant",
         "text": "Det er lovlig å dele seksualiserte bilder av personer under 18 år hvis den som deler, også er under 18.",
         "correct": false,
-        "explain": "Det er alltid straffbart."
+        "explain": "Det er alltid straffbart.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -386,7 +389,8 @@
         "kriterier": [
           "Får fram at offentliggjøring som hovedregel krever samtykke.",
           "Forklarer at arrangementsunntaket forutsetter at personen ikke er hovedmotivet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -419,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

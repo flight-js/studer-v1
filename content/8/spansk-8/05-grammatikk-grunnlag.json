@@ -291,7 +291,8 @@
         "type": "sant-usant",
         "text": "«el día» er hankjønn selv om ordet slutter på -a.",
         "correct": true,
-        "explain": "Det er et av unntakene du må lære."
+        "explain": "Det er et av unntakene du må lære.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -312,7 +313,8 @@
         "type": "sant-usant",
         "text": "«vosotros» brukes mye i Latin-Amerika.",
         "correct": false,
-        "explain": "I Latin-Amerika bruker man «ustedes» i stedet."
+        "explain": "I Latin-Amerika bruker man «ustedes» i stedet.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -371,7 +373,8 @@
         "kriterier": [
           "Viser at endelsen kan være misvisende, med riktig kjønn på både «día» og «mano».",
           "Forklarer at artikkelen bør læres sammen med substantivet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -398,7 +401,8 @@
         "kriterier": [
           "Oppgir vosotros/vosotras for «dere» i Spania.",
           "Oppgir ustedes for «dere» i Latin-Amerika."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -431,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

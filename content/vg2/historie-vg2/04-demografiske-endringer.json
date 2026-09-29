@@ -23,23 +23,28 @@
     },
     {
       "term": "1801",
-      "def": "Norge hadde rundt 880 000 innbyggere."
+      "def": "Norge hadde rundt 880 000 innbyggere.",
+      "niva": "eksempel"
     },
     {
       "term": "«Freden, vaksinen og poteten»",
-      "def": "Tegnérs forklaring på befolkningsveksten på 1800-tallet."
+      "def": "Tegnérs forklaring på befolkningsveksten på 1800-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Koppevaksine",
-      "def": "Påbudt i Norge fra 1810."
+      "def": "Påbudt i Norge fra 1810.",
+      "niva": "eksempel"
     },
     {
       "term": "Restauration",
-      "def": "Skipet som i 1825 startet den organiserte utvandringen til Amerika."
+      "def": "Skipet som i 1825 startet den organiserte utvandringen til Amerika.",
+      "niva": "eksempel"
     },
     {
       "term": "800 000",
-      "def": "Omtrent så mange nordmenn utvandret til Amerika 1825–1930."
+      "def": "Omtrent så mange nordmenn utvandret til Amerika 1825–1930.",
+      "niva": "eksempel"
     },
     {
       "term": "Push- og pull-faktorer",
@@ -59,7 +64,8 @@
     },
     {
       "term": "EU-utvidelsen 2004",
-      "def": "Ga mye arbeidsinnvandring fra Polen og Litauen."
+      "def": "Ga mye arbeidsinnvandring fra Polen og Litauen.",
+      "niva": "eksempel"
     },
     {
       "term": "Eldrebølgen",
@@ -93,7 +99,8 @@
         "Eldrebølgen"
       ],
       "correct": 0,
-      "explain": "Dødeligheten falt, mens fødselstallet var høyt."
+      "explain": "Dødeligheten falt, mens fødselstallet var høyt.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +112,8 @@
         "8 millioner"
       ],
       "correct": 2,
-      "explain": "De fleste dro til USA."
+      "explain": "De fleste dro til USA.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -165,7 +173,8 @@
         "Polen"
       ],
       "correct": 3,
-      "explain": "Også Litauen."
+      "explain": "Også Litauen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +198,8 @@
         "1800"
       ],
       "correct": 1,
-      "explain": "Rundt 1800 var vi om lag én milliard."
+      "explain": "Rundt 1800 var vi om lag én milliard.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -279,7 +289,8 @@
         "type": "sant-usant",
         "text": "Bare Irland hadde større utvandring enn Norge i forhold til folketallet.",
         "correct": true,
-        "explain": "Utvandringen var svært stor fra Norge."
+        "explain": "Utvandringen var svært stor fra Norge.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -293,14 +304,16 @@
         "type": "sant-usant",
         "text": "Arbeidsinnvandrere fra Pakistan kom til Norge på 1970-tallet.",
         "correct": true,
-        "explain": "Senere kom flyktninger fra mange land."
+        "explain": "Senere kom flyktninger fra mange land.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Norge hadde over fem millioner innbyggere i 1900.",
         "correct": false,
-        "explain": "Norge hadde litt over to millioner i 1900."
+        "explain": "Norge hadde litt over to millioner i 1900.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -313,7 +326,8 @@
           "I Afrika"
         ],
         "correct": 0,
-        "explain": "Det oppsto store norsk-amerikanske miljøer der."
+        "explain": "Det oppsto store norsk-amerikanske miljøer der.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +340,8 @@
           "1960"
         ],
         "correct": 1,
-        "explain": "Vaksinen bidro til at dødeligheten falt."
+        "explain": "Vaksinen bidro til at dødeligheten falt.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -359,7 +374,8 @@
         "kriterier": [
           "Oppgir omtrent 880 000 innbyggere i 1801 og over to millioner i 1900.",
           "Beskriver at tallene viser en kraftig økning, mer enn en dobling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -395,7 +411,8 @@
         "kriterier": [
           "Nevner Pakistan som et eksempel på opprinnelsesland fra 1970-tallet.",
           "Nevner Polen og Litauen som opprinnelsesland etter EU-utvidelsen i 2004."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

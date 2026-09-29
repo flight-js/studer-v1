@@ -19,15 +19,18 @@
     },
     {
       "term": "Beaivi",
-      "def": "Sola, en viktig makt i samisk religion."
+      "def": "Sola, en viktig makt i samisk religion.",
+      "niva": "eksempel"
     },
     {
       "term": "Horagalles",
-      "def": "Tordenguden i samisk religion."
+      "def": "Tordenguden i samisk religion.",
+      "niva": "eksempel"
     },
     {
       "term": "Máttaráhkká",
-      "def": "Urmoren, som sammen med døtrene hjalp ved fødsler og beskyttet hjemmet."
+      "def": "Urmoren, som sammen med døtrene hjalp ved fødsler og beskyttet hjemmet.",
+      "niva": "eksempel"
     },
     {
       "term": "Sieidi",
@@ -47,11 +50,13 @@
     },
     {
       "term": "Thomas von Westen",
-      "def": "Prest som ledet misjonen blant samene fra 1716."
+      "def": "Prest som ledet misjonen blant samene fra 1716.",
+      "niva": "eksempel"
     },
     {
       "term": "Læstadianismen",
-      "def": "Kristen vekkelsesbevegelse fra 1800-tallet med sterk stilling blant samer og kvener."
+      "def": "Kristen vekkelsesbevegelse fra 1800-tallet med sterk stilling blant samer og kvener.",
+      "niva": "eksempel"
     },
     {
       "term": "Urfolk",
@@ -63,7 +68,8 @@
     },
     {
       "term": "Drømmetiden",
-      "def": "Aboriginernes fortellinger om hvordan forfedrene skapte verden og landskapet."
+      "def": "Aboriginernes fortellinger om hvordan forfedrene skapte verden og landskapet.",
+      "niva": "eksempel"
     },
     {
       "term": "Muntlig tradisjon",
@@ -129,7 +135,8 @@
         "Metodismen"
       ],
       "correct": 2,
-      "explain": "Bevegelsen er oppkalt etter presten Lars Levi Læstadius."
+      "explain": "Bevegelsen er oppkalt etter presten Lars Levi Læstadius.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +148,8 @@
         "Hans Nielsen Hauge"
       ],
       "correct": 0,
-      "explain": "Han ble kalt «samenes apostel»."
+      "explain": "Han ble kalt «samenes apostel».",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +173,8 @@
         "En type meditasjon"
       ],
       "correct": 1,
-      "explain": "Fortellingene knytter folket til bestemte steder i landskapet."
+      "explain": "Fortellingene knytter folket til bestemte steder i landskapet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +198,8 @@
         "Å bestemme over alle land"
       ],
       "correct": 0,
-      "explain": "Erklæringen ble vedtatt i 2007."
+      "explain": "Erklæringen ble vedtatt i 2007.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -342,7 +352,8 @@
           "En misjonær"
         ],
         "correct": 2,
-        "explain": "Hun og døtrene hennes var knyttet til fødsel og hjem."
+        "explain": "Hun og døtrene hennes var knyttet til fødsel og hjem.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -375,7 +386,8 @@
         "kriterier": [
           "Knytter Beaivi til sola.",
           "Knytter Horagalles til torden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -435,6 +447,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

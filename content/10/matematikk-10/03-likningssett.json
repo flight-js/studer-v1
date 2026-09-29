@@ -47,7 +47,8 @@
     },
     {
       "term": "Sammenfallende linjer",
-      "def": "To likninger som beskriver samme linje. Da er det uendelig mange løsninger."
+      "def": "To likninger som beskriver samme linje. Da er det uendelig mange løsninger.",
+      "niva": "over-niva"
     },
     {
       "term": "Sette prøve",
@@ -380,7 +381,8 @@
         "kriterier": [
           "Knytter parallelle linjer til ingen løsning.",
           "Knytter sammenfallende linjer til uendelig mange løsninger."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -413,6 +415,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

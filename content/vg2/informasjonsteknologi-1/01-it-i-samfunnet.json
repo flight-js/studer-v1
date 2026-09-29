@@ -19,7 +19,8 @@
     },
     {
       "term": "Deepfake",
-      "def": "Falsk bilde, video eller lyd laget med KI."
+      "def": "Falsk bilde, video eller lyd laget med KI.",
+      "niva": "eksempel"
     },
     {
       "term": "Skjevhet i KI",
@@ -93,7 +94,8 @@
         "Et sikkert passord"
       ],
       "correct": 0,
-      "explain": "Kan brukes til å spre feilinformasjon."
+      "explain": "Kan brukes til å spre feilinformasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -329,7 +331,8 @@
           "En musikkstrømmetjeneste"
         ],
         "correct": 0,
-        "explain": "Også sykehus og vannforsyning."
+        "explain": "Også sykehus og vannforsyning.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

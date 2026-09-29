@@ -45,7 +45,8 @@
     },
     {
       "term": "das Tempolimit",
-      "def": "fartsgrensen"
+      "def": "fartsgrensen",
+      "niva": "eksempel"
     },
     {
       "term": "Der Müll wird getrennt.",
@@ -107,7 +108,8 @@
         "En debatt om arbeidstid"
       ],
       "correct": 2,
-      "explain": "Store deler av Autobahn har ingen generell fartsgrense."
+      "explain": "Store deler av Autobahn har ingen generell fartsgrense.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -155,7 +157,8 @@
         "Mülltrennung"
       ],
       "correct": 2,
-      "explain": "Den fikk stor oppslutning i Tyskland fra 2019."
+      "explain": "Den fikk stor oppslutning i Tyskland fra 2019.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -284,7 +287,8 @@
         "type": "sant-usant",
         "text": "Tyskland stengte de siste kjernekraftverkene i 2023.",
         "correct": true,
-        "explain": "Det var en del av Energiewende."
+        "explain": "Det var en del av Energiewende.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -305,7 +309,8 @@
         "type": "sant-usant",
         "text": "Norge får mesteparten av strømmen fra kull.",
         "correct": false,
-        "explain": "Norge får nesten all strøm fra vannkraft."
+        "explain": "Norge får nesten all strøm fra vannkraft.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -364,7 +369,8 @@
         "kriterier": [
           "Beschreibt den Übergang von Kernkraft und Kohle zu erneuerbarer Energie.",
           "Nennt sowohl die Schließung der letzten Kernkraftwerke 2023 als auch die weitere Nutzung von Kohle."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -373,7 +379,8 @@
         "kriterier": [
           "Unterscheidet die Schließung der Kernkraftwerke von der Nutzung der Kohle.",
           "Stellt klar, dass Kohle weiterhin genutzt wird."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -382,7 +389,8 @@
         "kriterier": [
           "Nennt Norwegens Wasserkraft und seine Rolle als Öl- und Gasexporteur.",
           "Nennt Deutschlands Kohlenutzung und den Ausbau von Wind- und Solarenergie."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -409,7 +417,8 @@
         "kriterier": [
           "Nennt Mülltrennung als Teil des Alltags in Deutschland.",
           "Nennt Pfand ebenfalls als Teil des Alltags in Deutschland."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -418,12 +427,14 @@
         "kriterier": [
           "Verwendet „Ich bin der Meinung, dass …“ passend.",
           "Begründet die Position mit dem Fakt, dass Kohle in Deutschland weiterhin genutzt wird."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

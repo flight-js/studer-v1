@@ -129,7 +129,8 @@
         "Et valg"
       ],
       "correct": 0,
-      "explain": "En vitenskapelig revolusjon."
+      "explain": "En vitenskapelig revolusjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +142,8 @@
         "At medisin er ferdig"
       ],
       "correct": 1,
-      "explain": "Sykdommer hos kvinner ble mindre undersøkt."
+      "explain": "Sykdommer hos kvinner ble mindre undersøkt.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -313,7 +315,8 @@
           "2001"
         ],
         "correct": 1,
-        "explain": "Om vitenskapelige revolusjoner."
+        "explain": "Om vitenskapelige revolusjoner.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -419,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

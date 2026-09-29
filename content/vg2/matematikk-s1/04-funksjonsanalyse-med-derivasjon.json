@@ -47,7 +47,8 @@
     },
     {
       "term": "f(x) = x³ − 6x² + 9x + 1",
-      "def": "Topp (1, 5), bunn (3, 1), vendepunkt (2, 3)."
+      "def": "Topp (1, 5), bunn (3, 1), vendepunkt (2, 3).",
+      "niva": "eksempel"
     },
     {
       "term": "f′(x) = 3(x − 1)(x − 3)",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Ekstremalpunkt(f)",
-      "def": "GeoGebra-kommando for topp- og bunnpunkter."
+      "def": "GeoGebra-kommando for topp- og bunnpunkter.",
+      "niva": "eksempel"
     },
     {
       "term": "Vendepunkt(f)",
-      "def": "GeoGebra-kommando for vendepunkter."
+      "def": "GeoGebra-kommando for vendepunkter.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -401,7 +404,8 @@
         "kriterier": [
           "Oppgir Ekstremalpunkt(f) for topp- og bunnpunkter.",
           "Oppgir Vendepunkt(f) for vendepunktene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

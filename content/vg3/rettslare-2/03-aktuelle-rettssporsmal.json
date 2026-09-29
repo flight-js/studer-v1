@@ -23,7 +23,8 @@
     },
     {
       "term": "Lovdata",
-      "def": "Nettsted med lover, forskrifter og dommer."
+      "def": "Nettsted med lover, forskrifter og dommer.",
+      "niva": "eksempel"
     },
     {
       "term": "Interessekartlegging",
@@ -31,31 +32,38 @@
     },
     {
       "term": "KI og opphavsrett",
-      "def": "Spørsmål om trening på beskyttet materiale og eierskap til KI-innhold."
+      "def": "Spørsmål om trening på beskyttet materiale og eierskap til KI-innhold.",
+      "niva": "eksempel"
     },
     {
       "term": "Åndsverkloven",
-      "def": "Loven om opphavsrett."
+      "def": "Loven om opphavsrett.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven § 100",
-      "def": "Verner ytringsfriheten."
+      "def": "Verner ytringsfriheten.",
+      "niva": "eksempel"
     },
     {
       "term": "Hatefulle ytringer",
-      "def": "Straffbare ytringer som angriper grupper, for eksempel på grunn av hudfarge eller religion."
+      "def": "Straffbare ytringer som angriper grupper, for eksempel på grunn av hudfarge eller religion.",
+      "niva": "eksempel"
     },
     {
       "term": "EMK artikkel 8",
-      "def": "Retten til privatliv og familieliv."
+      "def": "Retten til privatliv og familieliv.",
+      "niva": "eksempel"
     },
     {
       "term": "EMD",
-      "def": "Den europeiske menneskerettsdomstolen."
+      "def": "Den europeiske menneskerettsdomstolen.",
+      "niva": "eksempel"
     },
     {
       "term": "Samtykkebasert voldtektsbestemmelse",
-      "def": "Voldtekt defineres ut fra manglende samtykke."
+      "def": "Voldtekt defineres ut fra manglende samtykke.",
+      "niva": "eksempel"
     },
     {
       "term": "Forholdsmessighet",
@@ -93,7 +101,8 @@
         "Artikkel 3"
       ],
       "correct": 0,
-      "explain": "Viktig i barnevernssaker."
+      "explain": "Viktig i barnevernssaker.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +114,8 @@
         "Om KI trenger pass"
       ],
       "correct": 2,
-      "explain": "Mange spørsmål er uavklarte."
+      "explain": "Mange spørsmål er uavklarte.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +127,8 @@
         "Ytringsfriheten"
       ],
       "correct": 3,
-      "explain": "Med grenser i straffeloven."
+      "explain": "Med grenser i straffeloven.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +140,8 @@
         "At dommeren må godkjenne"
       ],
       "correct": 0,
-      "explain": "Voldtektsbestemmelsen ble samtykkebasert i 2025."
+      "explain": "Voldtektsbestemmelsen ble samtykkebasert i 2025.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -282,14 +294,16 @@
         "type": "sant-usant",
         "text": "EMD har i flere saker kommet fram til at Norge har krenket retten til familieliv i barnevernssaker.",
         "correct": true,
-        "explain": "Det har ført til endringer i praksis."
+        "explain": "Det har ført til endringer i praksis.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Alle spørsmål om KI og opphavsrett er ferdig avklart.",
         "correct": false,
-        "explain": "Mange er fortsatt uavklarte."
+        "explain": "Mange er fortsatt uavklarte.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -329,7 +343,8 @@
           "Hos naboen"
         ],
         "correct": 0,
-        "explain": "Offisielle kilder."
+        "explain": "Offisielle kilder.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -362,7 +377,8 @@
         "kriterier": [
           "Nevner Lovdata som kilde til lovtekst.",
           "Nevner en egnet kilde til dommer, for eksempel Lovdata eller domstol.no."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -389,7 +405,8 @@
         "kriterier": [
           "Identifiserer både aktører som trener KI og rettighetshavere som berørte interesser.",
           "Forklarer hvordan ulike løsninger kan gi fordeler eller ulemper for disse aktørene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +415,8 @@
         "kriterier": [
           "Knytter EMDs avgjørelser til endringer i norsk praksis.",
           "Forklarer at de aktualiserer balansen mellom barnets beste og foreldrenes rettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +425,8 @@
         "kriterier": [
           "Knytter rettssikkerhet til klarhet eller forutsigbarhet for den tiltalte.",
           "Får fram både hensynet til vern av ofre og at bevis for manglende samtykke kan være et spørsmål."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -31,7 +31,8 @@
     },
     {
       "term": "Ludwig Feuerbach",
-      "def": "Mente at Gud er en projeksjon av menneskets idealer."
+      "def": "Mente at Gud er en projeksjon av menneskets idealer.",
+      "niva": "eksempel"
     },
     {
       "term": "Opium for folket",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Blasfemiparagrafen",
-      "def": "Straffebestemmelse mot gudsbespottelse, opphevet i 2015."
+      "def": "Straffebestemmelse mot gudsbespottelse, opphevet i 2015.",
+      "niva": "eksempel"
     },
     {
       "term": "Hatefulle ytringer",
@@ -153,7 +155,8 @@
         "2021"
       ],
       "correct": 2,
-      "explain": "Hatefulle ytringer mot personer er fortsatt forbudt."
+      "explain": "Hatefulle ytringer mot personer er fortsatt forbudt.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +168,8 @@
         "At den kan ha en naiv tro på fornuft og fremskritt"
       ],
       "correct": 3,
-      "explain": "Også spørsmål om begrunnelsen for menneskeverdet."
+      "explain": "Også spørsmål om begrunnelsen for menneskeverdet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +181,8 @@
         "At Gud er død"
       ],
       "correct": 0,
-      "explain": "Påvirket Marx."
+      "explain": "Påvirket Marx.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -377,7 +382,8 @@
         "kriterier": [
           "Forklarer Feuerbachs tanke om Gud som en projeksjon av menneskelige idealer.",
           "Forklarer Freuds tanke om religion som knyttet til behovet for en beskyttende farsfigur."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -419,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

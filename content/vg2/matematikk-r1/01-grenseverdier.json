@@ -340,7 +340,8 @@
           "K/2"
         ],
         "correct": 2,
-        "explain": "Populasjonen nærmer seg bæreevnen."
+        "explain": "Populasjonen nærmer seg bæreevnen.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -405,7 +406,8 @@
         "kriterier": [
           "Forklarer at modellen nærmer seg en bestemt fart på lang sikt.",
           "Knytter denne farten til terminalfarten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -420,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

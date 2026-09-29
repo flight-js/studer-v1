@@ -23,7 +23,8 @@
     },
     {
       "term": "Tertiær sosialisering",
-      "def": "Når voksne lærer nye normer, for eksempel etter flytting."
+      "def": "Når voksne lærer nye normer, for eksempel etter flytting.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosialiseringsagent",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Resosialisering",
-      "def": "Å lære helt nye normer, for eksempel etter soning."
+      "def": "Å lære helt nye normer, for eksempel etter soning.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +167,8 @@
         "Å lære helt nye normer, for eksempel etter soning"
       ],
       "correct": 3,
-      "explain": "Også i militæret."
+      "explain": "Også i militæret.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +180,8 @@
         "Radio"
       ],
       "correct": 0,
-      "explain": "De påvirker normer og selvbilde."
+      "explain": "De påvirker normer og selvbilde.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -329,7 +333,8 @@
           "Stempling"
         ],
         "correct": 0,
-        "explain": "Sosialisering i voksen alder."
+        "explain": "Sosialisering i voksen alder.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -416,12 +421,14 @@
         "kriterier": [
           "Identifiserer læring av normer etter flytting som tertiær sosialisering.",
           "Identifiserer læring av helt nye normer etter soning som resosialisering."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

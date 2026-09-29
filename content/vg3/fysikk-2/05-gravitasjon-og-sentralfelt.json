@@ -67,7 +67,8 @@
     },
     {
       "term": "Romstasjonen",
-      "def": "Går omtrent 400 km over bakken med omløpstid rundt 92 min."
+      "def": "Går omtrent 400 km over bakken med omløpstid rundt 92 min.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +178,8 @@
         "30 km/s"
       ],
       "correct": 0,
-      "explain": "v = √(γM / r) med r ≈ 6,77 · 10⁶ m."
+      "explain": "v = √(γM / r) med r ≈ 6,77 · 10⁶ m.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -290,7 +292,8 @@
         "type": "sant-usant",
         "text": "Geostasjonære satellitter brukes til kommunikasjon og værovervåking.",
         "correct": true,
-        "explain": "De står stille over samme punkt."
+        "explain": "De står stille over samme punkt.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -310,7 +313,8 @@
           "1 uke"
         ],
         "correct": 1,
-        "explain": "T = 2πr / v."
+        "explain": "T = 2πr / v.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -383,7 +387,8 @@
         "kriterier": [
           "Oppgir geostasjonær satellitts omløpstid og at den står over samme punkt på bakken.",
           "Sammenligner med romstasjonen ved hjelp av høyde eller omløpstid."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

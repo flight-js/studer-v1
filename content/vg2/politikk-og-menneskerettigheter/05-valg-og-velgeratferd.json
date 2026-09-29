@@ -31,7 +31,8 @@
     },
     {
       "term": "Sainte-Laguës metode",
-      "def": "Metode for å fordele mandater mellom partiene."
+      "def": "Metode for å fordele mandater mellom partiene.",
+      "niva": "over-niva"
     },
     {
       "term": "Sosiologisk forklaring",
@@ -342,7 +343,8 @@
           "Avskaffe skolevalg"
         ],
         "correct": 2,
-        "explain": "Prøvd ut i enkelte kommuner."
+        "explain": "Prøvd ut i enkelte kommuner.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

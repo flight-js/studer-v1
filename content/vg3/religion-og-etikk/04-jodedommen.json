@@ -31,7 +31,8 @@
     },
     {
       "term": "Sjema",
-      "def": "Bønnen «Hør, Israel! Herren er vår Gud, Herren er én.»"
+      "def": "Bønnen «Hør, Israel! Herren er vår Gud, Herren er én.»",
+      "niva": "eksempel"
     },
     {
       "term": "Kosher",
@@ -303,7 +304,8 @@
         "type": "sant-usant",
         "text": "Reformjødedommen tillater ikke kvinnelige rabbinere.",
         "correct": false,
-        "explain": "Den har kvinnelige rabbinere."
+        "explain": "Den har kvinnelige rabbinere.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

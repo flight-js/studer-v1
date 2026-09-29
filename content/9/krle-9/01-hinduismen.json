@@ -178,7 +178,8 @@
         "At den er forbudt"
       ],
       "correct": 3,
-      "explain": "Grunnloven fra 1950 forbyr diskriminering på grunn av kaste."
+      "explain": "Grunnloven fra 1950 forbyr diskriminering på grunn av kaste.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -349,7 +350,8 @@
           "Kolkata"
         ],
         "correct": 2,
-        "explain": "Mange ønsker å bli kremert i Varanasi og få asken strødd i Ganges."
+        "explain": "Mange ønsker å bli kremert i Varanasi og få asken strødd i Ganges.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -382,7 +384,8 @@
         "kriterier": [
           "Beskriver Vedaene som eldre skrifter med hymner og ritualer.",
           "Beskriver Upanishadene som filosofiske tekster om mennesket og det guddommelige."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -418,7 +421,8 @@
         "kriterier": [
           "Forklarer at en avatar er en skikkelse en gud tar når den kommer til jorda.",
           "Nevner Rama og Krishna som eksempler."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -442,6 +446,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

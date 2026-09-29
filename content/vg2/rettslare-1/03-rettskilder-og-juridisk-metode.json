@@ -48,7 +48,8 @@
     },
     {
       "term": "Lovdata",
-      "def": "Nettsted med norske lover og forskrifter."
+      "def": "Nettsted med norske lover og forskrifter.",
+      "niva": "eksempel"
     },
     {
       "term": "Ordlydstolking",
@@ -190,7 +191,8 @@
         "Aviser"
       ],
       "correct": 1,
-      "explain": "Den offisielle databasen."
+      "explain": "Den offisielle databasen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -310,7 +312,8 @@
         "type": "sant-usant",
         "text": "Menneskerettighetene er ikke en rettskilde i Norge.",
         "correct": false,
-        "explain": "De er en viktig rettskilde, også gjennom menneskerettsloven."
+        "explain": "De er en viktig rettskilde, også gjennom menneskerettsloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -323,7 +326,8 @@
           "Erstatning"
         ],
         "correct": 1,
-        "explain": "Ny vare av samme slag."
+        "explain": "Ny vare av samme slag.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -336,7 +340,8 @@
           "Leserinnlegg"
         ],
         "correct": 0,
-        "explain": "Norges offentlige utredninger."
+        "explain": "Norges offentlige utredninger.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -405,7 +410,8 @@
         "kriterier": [
           "Bruker opplysningen om at Ida ikke mistet telefonen i vurderingen.",
           "Knytter vurderingen til at en ny telefon skal tåle vanlig bruk, og at feilen derfor trolig er en mangel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -414,7 +420,8 @@
         "kriterier": [
           "Nevner at selgeren kan nekte hvis omlevering er umulig eller gir urimelige kostnader sammenlignet med retting.",
           "Konkluderer med at retten til omlevering er betinget, ikke ubetinget."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -423,12 +430,14 @@
         "kriterier": [
           "Plasserer EØS-retten og menneskerettighetene blant de internasjonale kildene.",
           "Plasserer fagboka som juridisk teori og knytter det til fagbøker eller artikler."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

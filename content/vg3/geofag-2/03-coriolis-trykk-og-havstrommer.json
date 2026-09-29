@@ -67,7 +67,8 @@
     },
     {
       "term": "Omveltningssirkulasjonen",
-      "def": "Den atlantiske sirkulasjonen som kan svekkes av mer ferskvann."
+      "def": "Den atlantiske sirkulasjonen som kan svekkes av mer ferskvann.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +190,8 @@
         "Stoppe tidevannet"
       ],
       "correct": 1,
-      "explain": "Mindre dypvannsdannelse."
+      "explain": "Mindre dypvannsdannelse.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +292,8 @@
         "type": "sant-usant",
         "text": "Den termohaline sirkulasjonen kan bruke rundt tusen år på én runde.",
         "correct": true,
-        "explain": "Det globale transportbåndet."
+        "explain": "Det globale transportbåndet.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -336,7 +339,8 @@
           "I Mjøsa"
         ],
         "correct": 2,
-        "explain": "Rike fiskeområder."
+        "explain": "Rike fiskeområder.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -416,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

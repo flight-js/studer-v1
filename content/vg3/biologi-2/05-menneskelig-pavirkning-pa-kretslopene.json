@@ -11,7 +11,8 @@
   "flashcards": [
     {
       "term": "Antropocen",
-      "def": "Tidsalder der mennesket er den viktigste kraften som endrer jorda."
+      "def": "Tidsalder der mennesket er den viktigste kraften som endrer jorda.",
+      "niva": "over-niva"
     },
     {
       "term": "Drivhuseffekt",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Karbonfangst og -lagring",
-      "def": "CO₂ fanges og lagres, for eksempel under havbunnen."
+      "def": "CO₂ fanges og lagres, for eksempel under havbunnen.",
+      "niva": "eksempel"
     },
     {
       "term": "Presis gjødsling",
@@ -177,7 +179,8 @@
         "At tiltak aldri virker"
       ],
       "correct": 0,
-      "explain": "Avtaler om luftforurensning."
+      "explain": "Avtaler om luftforurensning.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +192,8 @@
         "Fjernet nitrogen fra lufta helt"
       ],
       "correct": 1,
-      "explain": "Gjennom kunstgjødsel."
+      "explain": "Gjennom kunstgjødsel.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -339,7 +343,8 @@
           "Mer importert mat alltid"
         ],
         "correct": 2,
-        "explain": "Mindre ressursbruk."
+        "explain": "Mindre ressursbruk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -350,7 +355,8 @@
         "kriterier": [
           "Forklarer at mennesket er den viktigste kraften som endrer jorda.",
           "Knytter dette til at menneskelig aktivitet endrer globale kretsløp."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -395,7 +401,8 @@
         "kriterier": [
           "Beregner at en tredel av 36 er 12.",
           "Finner at 24 enheter ikke blir fanget."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -413,12 +420,14 @@
         "kriterier": [
           "Nevner effekt, kostnad og rettferdighet som hensyn i vurderingen.",
           "Forklarer konflikten mellom utbygging av vindkraft og vern av natur."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

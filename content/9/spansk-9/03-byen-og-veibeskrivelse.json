@@ -430,12 +430,14 @@
         "kriterier": [
           "Beskriver Plaza Mayor som et stort torg i sentrum.",
           "Nevner at folk møtes der."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

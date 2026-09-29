@@ -23,7 +23,8 @@
     },
     {
       "term": "Størst vekst i logistisk modell",
-      "def": "Når bestanden er K/2."
+      "def": "Når bestanden er K/2.",
+      "niva": "eksempel"
     },
     {
       "term": "Integral av en rate",
@@ -51,11 +52,13 @@
     },
     {
       "term": "Avkjølingsmodell",
-      "def": "T′ = −k(T − Tₒ) med løsning T = Tₒ + C · e^(−kt)."
+      "def": "T′ = −k(T − Tₒ) med løsning T = Tₒ + C · e^(−kt).",
+      "niva": "eksempel"
     },
     {
       "term": "Logistisk vekstfart",
-      "def": "y′ = k · y(1 − y/K)"
+      "def": "y′ = k · y(1 − y/K)",
+      "niva": "eksempel"
     },
     {
       "term": "Kontroll av løsning",
@@ -93,7 +96,8 @@
         "Aldri"
       ],
       "correct": 0,
-      "explain": "I vendepunktet."
+      "explain": "I vendepunktet.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -189,7 +193,8 @@
         "Vendepunkt"
       ],
       "correct": 1,
-      "explain": "Vurder alltid rimeligheten."
+      "explain": "Vurder alltid rimeligheten.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -293,7 +298,8 @@
         "type": "sant-usant",
         "text": "T = Tₒ + C · e^(−kt) beskriver avkjøling mot omgivelsestemperaturen.",
         "correct": true,
-        "explain": "Løsningen av T′ = −k(T − Tₒ)."
+        "explain": "Løsningen av T′ = −k(T − Tₒ).",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -326,7 +332,8 @@
           "Omtrent 50 uker"
         ],
         "correct": 0,
-        "explain": "t = ln 99/0,4."
+        "explain": "t = ln 99/0,4.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -350,7 +357,8 @@
         "kriterier": [
           "Forklarer at eksponentiell vekstfart er proporsjonal med y.",
           "Forklarer at logistisk vekst bremses når y nærmer seg K."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -359,7 +367,8 @@
         "kriterier": [
           "Knytter T > Tₒ til at T − Tₒ er positiv.",
           "Forklarer at T′ blir negativ og at temperaturen synker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -395,7 +404,8 @@
         "kriterier": [
           "Løser likningen og får t = ln 99/0,4.",
           "Oppgir omtrent 11,5 uker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

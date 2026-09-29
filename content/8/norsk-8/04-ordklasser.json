@@ -68,7 +68,8 @@
     },
     {
       "term": "Infinitivsmerke",
-      "def": "«å» foran verb i infinitiv. Regnes ofte som en egen liten ordklasse."
+      "def": "«å» foran verb i infinitiv. Regnes ofte som en egen liten ordklasse.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -439,7 +440,8 @@
         "kriterier": [
           "Forklarer at «å» er infinitivsmerket.",
           "Forklarer at «løpe» står i infinitiv eller grunnform."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
@@ -447,6 +449,7 @@
     "status": "utkast",
     "merknader": [
       "Antall ordklasser varierer mellom framstillinger (ti, eventuelt med infinitivsmerke som egen klasse). Sjekk mot læreverket skolen bruker."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

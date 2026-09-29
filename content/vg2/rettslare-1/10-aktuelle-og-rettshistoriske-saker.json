@@ -31,27 +31,33 @@
     },
     {
       "term": "Stemmerett for kvinner",
-      "def": "Innført i Norge i 1913."
+      "def": "Innført i Norge i 1913.",
+      "niva": "eksempel"
     },
     {
       "term": "Dødsstraff",
-      "def": "Avskaffet i fredstid i 1902 og helt i 1979."
+      "def": "Avskaffet i fredstid i 1902 og helt i 1979.",
+      "niva": "eksempel"
     },
     {
       "term": "Landssvikoppgjøret",
-      "def": "Rettsoppgjøret etter andre verdenskrig."
+      "def": "Rettsoppgjøret etter andre verdenskrig.",
+      "niva": "eksempel"
     },
     {
       "term": "Homofili avkriminalisert",
-      "def": "I Norge i 1972."
+      "def": "I Norge i 1972.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven § 112",
-      "def": "Retten til et sunt miljø."
+      "def": "Retten til et sunt miljø.",
+      "niva": "eksempel"
     },
     {
       "term": "Klimasøksmålet",
-      "def": "Rettssak om oljeboring og miljøparagrafen."
+      "def": "Rettssak om oljeboring og miljøparagrafen.",
+      "niva": "eksempel"
     },
     {
       "term": "De lege lata",
@@ -63,7 +69,8 @@
     },
     {
       "term": "KI og opphavsrett",
-      "def": "Aktuelt spørsmål om rettigheter til innhold laget av KI."
+      "def": "Aktuelt spørsmål om rettigheter til innhold laget av KI.",
+      "niva": "eksempel"
     },
     {
       "term": "Juridisk drøfting",
@@ -93,7 +100,8 @@
         "1945"
       ],
       "correct": 0,
-      "explain": "Menn fikk allmenn stemmerett i 1898."
+      "explain": "Menn fikk allmenn stemmerett i 1898.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +113,8 @@
         "2000"
       ],
       "correct": 2,
-      "explain": "I fredstid allerede i 1902."
+      "explain": "I fredstid allerede i 1902.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -129,7 +138,8 @@
         "§ 104"
       ],
       "correct": 0,
-      "explain": "Brukt i klimasøksmålet."
+      "explain": "Brukt i klimasøksmålet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +151,8 @@
         "Hvor gammel man må være for å gifte seg"
       ],
       "correct": 1,
-      "explain": "Et dagsaktuelt spørsmål."
+      "explain": "Et dagsaktuelt spørsmål.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +164,8 @@
         "2009"
       ],
       "correct": 2,
-      "explain": "I dag er seksuell orientering vernet mot diskriminering."
+      "explain": "I dag er seksuell orientering vernet mot diskriminering.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -282,14 +294,16 @@
         "type": "sant-usant",
         "text": "Dødsstraff ble brukt i landssvikoppgjøret etter andre verdenskrig.",
         "correct": true,
-        "explain": "Selv om den var avskaffet i fredstid."
+        "explain": "Selv om den var avskaffet i fredstid.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Norge har aldri tapt saker i Den europeiske menneskerettsdomstolen.",
         "correct": false,
-        "explain": "Norge har tapt flere saker, blant annet om barnevern."
+        "explain": "Norge har tapt flere saker, blant annet om barnevern.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -329,7 +343,8 @@
           "Ingen hensyn"
         ],
         "correct": 0,
-        "explain": "Veid mot retten til familieliv."
+        "explain": "Veid mot retten til familieliv.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -371,7 +386,8 @@
         "kriterier": [
           "Skiller mellom avskaffelsen i fredstid i 1902 og at dødsstraff fortsatt ble brukt i landssvikoppgjøret.",
           "Får fram at dødsstraff først ble helt avskaffet i 1979."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -398,7 +414,8 @@
         "kriterier": [
           "Knytter saken til reindriftssamenes rettigheter og vindkraftverkene.",
           "Får fram at Høyesterett kom fram til at rettighetene var krenket."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,12 +433,14 @@
         "kriterier": [
           "Får fram at drøftingen må undersøke relevant gjeldende rett, som lover eller dommer.",
           "Får fram at ulike hensyn eller argumenter må vurderes før en begrunnet konklusjon."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

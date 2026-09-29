@@ -178,7 +178,8 @@
         "Indonesia"
       ],
       "correct": 3,
-      "explain": "De fleste muslimer bor i Asia, ikke i Midtøsten."
+      "explain": "De fleste muslimer bor i Asia, ikke i Midtøsten.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -303,7 +304,8 @@
         "type": "sant-usant",
         "text": "De fleste muslimer i verden er arabere.",
         "correct": false,
-        "explain": "Bare omtrent én av fem muslimer er araber."
+        "explain": "Bare omtrent én av fem muslimer er araber.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -317,7 +319,8 @@
         "type": "sant-usant",
         "text": "Sjiamuslimer er i flertall i Saudi-Arabia.",
         "correct": false,
-        "explain": "Saudi-Arabia har sunnimuslimsk flertall. Sjiamuslimer er i flertall i blant annet Iran og Irak."
+        "explain": "Saudi-Arabia har sunnimuslimsk flertall. Sjiamuslimer er i flertall i blant annet Iran og Irak.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -356,7 +359,8 @@
           "En mystisk retning som søker nærhet til Gud"
         ],
         "correct": 3,
-        "explain": "Sufier bruker blant annet meditasjon, musikk og dans."
+        "explain": "Sufier bruker blant annet meditasjon, musikk og dans.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -412,7 +416,8 @@
         "kriterier": [
           "Får fram at muslimer samles i moskeen til fredagsbønn.",
           "Får fram at imamen ofte leder bønnen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -421,7 +426,8 @@
         "kriterier": [
           "Forklarer at sufisme søker nærhet til Gud, gjerne gjennom meditasjon, musikk eller dans.",
           "Får fram at sufisme finnes både blant sunni- og sjiamuslimer."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -430,12 +436,14 @@
         "kriterier": [
           "Får fram at bare omtrent én av fem muslimer er arabere.",
           "Nevner Indonesia som landet med flest muslimer."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

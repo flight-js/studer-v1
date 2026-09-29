@@ -28,7 +28,8 @@
     },
     {
       "term": "Infrarødt lys",
-      "def": "Usynlig lys som brukes i fjernkontroller."
+      "def": "Usynlig lys som brukes i fjernkontroller.",
+      "niva": "eksempel"
     },
     {
       "term": "Radiobølger",
@@ -36,7 +37,8 @@
     },
     {
       "term": "Optisk fiber",
-      "def": "Tynn glasstråd som leder lys og gir svært rask dataoverføring."
+      "def": "Tynn glasstråd som leder lys og gir svært rask dataoverføring.",
+      "niva": "eksempel"
     },
     {
       "term": "Analogt signal",
@@ -64,7 +66,8 @@
     },
     {
       "term": "Ekkolodd",
-      "def": "Sender lydbølger og måler ekkoet for å finne dybde eller fisk."
+      "def": "Sender lydbølger og måler ekkoet for å finne dybde eller fisk.",
+      "niva": "eksempel"
     },
     {
       "term": "Støy",
@@ -94,7 +97,8 @@
         "Kabel"
       ],
       "correct": 0,
-      "explain": "Fjernkontrollen sender pulser av infrarødt lys som TV-en fanger opp."
+      "explain": "Fjernkontrollen sender pulser av infrarødt lys som TV-en fanger opp.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -154,7 +158,8 @@
         "Lys"
       ],
       "correct": 3,
-      "explain": "Optiske fibre leder lys og kan overføre enorme datamengder raskt."
+      "explain": "Optiske fibre leder lys og kan overføre enorme datamengder raskt.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -283,7 +288,8 @@
         "type": "sant-usant",
         "text": "Radiobølger går med lysets fart.",
         "correct": true,
-        "explain": "Radiobølger er elektromagnetiske bølger, som lys."
+        "explain": "Radiobølger er elektromagnetiske bølger, som lys.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
@@ -317,7 +323,8 @@
           "Optisk fiber"
         ],
         "correct": 1,
-        "explain": "Ekkoloddet sender lyd og måler hvor lang tid ekkoet bruker."
+        "explain": "Ekkoloddet sender lyd og måler hvor lang tid ekkoet bruker.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -398,7 +405,8 @@
         "kriterier": [
           "Forklarer at lydbølger sendes ut og kommer tilbake som ekko.",
           "Knytter målingen av ekkoet til å finne dybde eller fisk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -420,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

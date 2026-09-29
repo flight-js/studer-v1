@@ -27,7 +27,8 @@
     },
     {
       "term": "Nürnbergprosessen",
-      "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig."
+      "def": "Rettssakene mot nazistiske ledere etter andre verdenskrig.",
+      "niva": "eksempel"
     },
     {
       "term": "Formell rettferdighet",
@@ -39,11 +40,13 @@
     },
     {
       "term": "Jødeparagrafen",
-      "def": "Nektet jøder adgang til Norge fram til 1851."
+      "def": "Nektet jøder adgang til Norge fram til 1851.",
+      "niva": "eksempel"
     },
     {
       "term": "Fornorskingspolitikken",
-      "def": "Politikk overfor samer, kvener og skogfinner forankret i lover og regler."
+      "def": "Politikk overfor samer, kvener og skogfinner forankret i lover og regler.",
+      "niva": "eksempel"
     },
     {
       "term": "Sivil ulydighet",
@@ -51,7 +54,8 @@
     },
     {
       "term": "Alta-aksjonen",
-      "def": "Protest mot utbygging av Alta-Kautokeino-vassdraget rundt 1980."
+      "def": "Protest mot utbygging av Alta-Kautokeino-vassdraget rundt 1980.",
+      "niva": "eksempel"
     },
     {
       "term": "Legalitetsprinsippet",
@@ -63,11 +67,13 @@
     },
     {
       "term": "De lege lata",
-      "def": "Hva retten er."
+      "def": "Hva retten er.",
+      "niva": "over-niva"
     },
     {
       "term": "De lege ferenda",
-      "def": "Hva retten bør være."
+      "def": "Hva retten bør være.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -117,7 +123,8 @@
         "Hva retten bør være"
       ],
       "correct": 3,
-      "explain": "Brukes når man drøfter lovendring."
+      "explain": "Brukes når man drøfter lovendring.",
+      "niva": "over-niva"
     },
     {
       "id": "q05",
@@ -141,7 +148,8 @@
         "Innførte kongedømme"
       ],
       "correct": 1,
-      "explain": "Opphevet i 1851."
+      "explain": "Opphevet i 1851.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -290,7 +298,8 @@
         "type": "sant-usant",
         "text": "Aksjonistene i Alta-saken ble straffet.",
         "correct": true,
-        "explain": "Men saken fikk stor betydning for samiske rettigheter."
+        "explain": "Men saken fikk stor betydning for samiske rettigheter.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -310,7 +319,8 @@
           "Richard Nixon"
         ],
         "correct": 1,
-        "explain": "Nektet å gi fra seg setet på bussen."
+        "explain": "Nektet å gi fra seg setet på bussen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -323,7 +333,8 @@
           "En domstol"
         ],
         "correct": 0,
-        "explain": "Gjeldende rett."
+        "explain": "Gjeldende rett.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -356,7 +367,8 @@
         "kriterier": [
           "Får fram at lover som gjelder, ikke nødvendigvis er rettferdige.",
           "Knytter dette til at lovene kunne ramme eller utestenge bestemte grupper."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -392,7 +404,8 @@
         "kriterier": [
           "Nevner betydningen aksjonen fikk for samiske rettigheter.",
           "Får fram at aksjonen hadde betydning utover at aksjonistene ble straffet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,12 +423,14 @@
         "kriterier": [
           "Knytter de lege lata til hva retten er eller krever nå.",
           "Knytter de lege ferenda til hva retten bør være eller hvordan den bør endres."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

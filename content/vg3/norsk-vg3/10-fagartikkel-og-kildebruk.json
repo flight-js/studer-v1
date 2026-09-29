@@ -44,7 +44,8 @@
     },
     {
       "term": "APA-stilen",
-      "def": "Vanlig henvisningsstil: (Etternavn, år, s. 12)."
+      "def": "Vanlig henvisningsstil: (Etternavn, år, s. 12).",
+      "niva": "eksempel"
     },
     {
       "term": "Litteraturliste",
@@ -130,7 +131,8 @@
         "Fordi de er for korte"
       ],
       "correct": 0,
-      "explain": "Sjekk mot pålitelige kilder."
+      "explain": "Sjekk mot pålitelige kilder.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -190,7 +192,8 @@
         "Bare tittelen"
       ],
       "correct": 1,
-      "explain": "Full referanse står i litteraturlisten."
+      "explain": "Full referanse står i litteraturlisten.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -427,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

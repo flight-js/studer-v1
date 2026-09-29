@@ -15,35 +15,43 @@
     },
     {
       "term": "Kristusfigur",
-      "def": "Person i en fortelling som ofrer seg for andre og kommer tilbake."
+      "def": "Person i en fortelling som ofrer seg for andre og kommer tilbake.",
+      "niva": "eksempel"
     },
     {
       "term": "Aslan",
-      "def": "Løven i Narnia, en tydelig Kristusfigur."
+      "def": "Løven i Narnia, en tydelig Kristusfigur.",
+      "niva": "eksempel"
     },
     {
       "term": "The Matrix",
-      "def": "Film med frelserfiguren Neo og ideen om at verden er en illusjon."
+      "def": "Film med frelserfiguren Neo og ideen om at verden er en illusjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Kraften i Star Wars",
-      "def": "Ide som minner om buddhisme og daoisme, med meditasjon og balanse."
+      "def": "Ide som minner om buddhisme og daoisme, med meditasjon og balanse.",
+      "niva": "eksempel"
     },
     {
       "term": "Norrøn mytologi i film",
-      "def": "Brukes blant annet i Marvel-filmene om Thor og i serien Ragnarok."
+      "def": "Brukes blant annet i Marvel-filmene om Thor og i serien Ragnarok.",
+      "niva": "eksempel"
     },
     {
       "term": "Sana i Skam",
-      "def": "Muslimsk hovedperson som fikk ros for en nyansert framstilling."
+      "def": "Muslimsk hovedperson som fikk ros for en nyansert framstilling.",
+      "niva": "eksempel"
     },
     {
       "term": "Gospel",
-      "def": "Kristen musikk som vokste fram blant svarte kristne i USA."
+      "def": "Kristen musikk som vokste fram blant svarte kristne i USA.",
+      "niva": "eksempel"
     },
     {
       "term": "Spirituals",
-      "def": "Religiøse sanger fra slaveriets tid i USA, forløperen til gospel."
+      "def": "Religiøse sanger fra slaveriets tid i USA, forløperen til gospel.",
+      "niva": "eksempel"
     },
     {
       "term": "Religiøse symboler i reklame",
@@ -55,15 +63,18 @@
     },
     {
       "term": "Life of Brian",
-      "def": "Film fra 1979 som vakte sterke reaksjoner for måten den behandlet religion på."
+      "def": "Film fra 1979 som vakte sterke reaksjoner for måten den behandlet religion på.",
+      "niva": "eksempel"
     },
     {
       "term": "Muhammed-tegningene",
-      "def": "Tegninger fra 2005 som førte til protester og debatt om ytringsfrihet og respekt."
+      "def": "Tegninger fra 2005 som førte til protester og debatt om ytringsfrihet og respekt.",
+      "niva": "eksempel"
     },
     {
       "term": "Blasfemiparagrafen",
-      "def": "Tidligere bestemmelse som forbød å håne religion. Den er fjernet fra straffeloven."
+      "def": "Tidligere bestemmelse som forbød å håne religion. Den er fjernet fra straffeloven.",
+      "niva": "eksempel"
     },
     {
       "term": "Stereotypi",
@@ -81,7 +92,8 @@
         "En person som ofrer seg for andre og kommer tilbake"
       ],
       "correct": 3,
-      "explain": "Figuren trenger ikke være religiøs, men ligner Jesus i det den gjør."
+      "explain": "Figuren trenger ikke være religiøs, men ligner Jesus i det den gjør.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +105,8 @@
         "Peter"
       ],
       "correct": 0,
-      "explain": "Aslan ofrer livet for Edmund og står opp igjen."
+      "explain": "Aslan ofrer livet for Edmund og står opp igjen.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +118,8 @@
         "Romersk"
       ],
       "correct": 2,
-      "explain": "Tor var tordenguden i norrøn religion."
+      "explain": "Tor var tordenguden i norrøn religion.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +131,8 @@
         "I India"
       ],
       "correct": 1,
-      "explain": "Musikken har påvirket soul, rock og pop."
+      "explain": "Musikken har påvirket soul, rock og pop.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +144,8 @@
         "At kua er hellig"
       ],
       "correct": 0,
-      "explain": "Ideen finnes blant annet i hinduisme og buddhisme."
+      "explain": "Ideen finnes blant annet i hinduisme og buddhisme.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +169,8 @@
         "Spørsmål om skolemat"
       ],
       "correct": 1,
-      "explain": "Saken skapte debatt og protester i mange land."
+      "explain": "Saken skapte debatt og protester i mange land.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +182,8 @@
         "En lov om religionsfrihet"
       ],
       "correct": 2,
-      "explain": "Bestemmelsen er fjernet fra straffeloven."
+      "explain": "Bestemmelsen er fjernet fra straffeloven.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +195,8 @@
         "Fordi hun ikke hadde noen religion"
       ],
       "correct": 0,
-      "explain": "Mange mente serien motvirket stereotypier om muslimer."
+      "explain": "Mange mente serien motvirket stereotypier om muslimer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -325,7 +344,8 @@
           "Norrøn religion"
         ],
         "correct": 2,
-        "explain": "Jediene mediterer og søker balanse, omtrent som munker."
+        "explain": "Jediene mediterer og søker balanse, omtrent som munker.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -351,7 +371,8 @@
           "Titanic"
         ],
         "correct": 1,
-        "explain": "Filmen ble en tid forbudt i flere land, blant annet i Norge."
+        "explain": "Filmen ble en tid forbudt i flere land, blant annet i Norge.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -371,7 +392,8 @@
         "kriterier": [
           "Forklarer sammenhengen mellom spirituals og gospel, inkludert at spirituals kom før gospel.",
           "Nevner at gospel har påvirket senere musikksjangre, for eksempel soul, rock eller pop."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -380,7 +402,8 @@
         "kriterier": [
           "Knytter Kraften eller jediene til både buddhisme og daoisme.",
           "Nevner meditasjon og/eller balanse som en relevant side ved jediene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -407,7 +430,8 @@
         "kriterier": [
           "Skiller mellom satire om religion og hatefulle ytringer rettet mot mennesker på grunn av religion.",
           "Får fram at blasfemiparagrafen er fjernet, mens hatefulle ytringer på grunn av religion fortsatt er forbudt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,7 +440,8 @@
         "kriterier": [
           "Beskriver gospel som kristen musikk.",
           "Forklarer at noen miljøer i norsk black metal på 1990-tallet gjorde opprør mot kristendommen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -425,12 +450,14 @@
         "kriterier": [
           "Forklarer at Neo har trekk av en frelserfigur.",
           "Knytter ideen om verden som en illusjon til hinduisme og buddhisme."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

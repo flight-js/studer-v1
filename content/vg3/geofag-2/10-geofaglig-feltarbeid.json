@@ -31,7 +31,8 @@
     },
     {
       "term": "Byvarmeøy",
-      "def": "Byer er varmere enn omgivelsene."
+      "def": "Byer er varmere enn omgivelsene.",
+      "niva": "eksempel"
     },
     {
       "term": "CTD-sonde",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Borgerforskning",
-      "def": "Forskning der frivillige samler inn data."
+      "def": "Forskning der frivillige samler inn data.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +191,8 @@
         "En varm havstrøm"
       ],
       "correct": 1,
-      "explain": "Kan undersøkes med temperaturmålinger."
+      "explain": "Kan undersøkes med temperaturmålinger.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -313,7 +316,8 @@
           "Med hygrometer"
         ],
         "correct": 1,
-        "explain": "Posisjonen måles over tid."
+        "explain": "Posisjonen måles over tid.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +330,8 @@
           "Snødybde"
         ],
         "correct": 0,
-        "explain": "Sier noe om vannkvaliteten."
+        "explain": "Sier noe om vannkvaliteten.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -377,7 +382,8 @@
         "kriterier": [
           "Foreslår å måle temperatur både i byen og på landet.",
           "Forklarer at høyere temperatur i byen støtter hypotesen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -395,7 +401,8 @@
         "kriterier": [
           "Beskriver snøprofilen som en undersøkelse av snødekkets lag og egenskaper.",
           "Beskriver istykkelsesmålingen som en måling av tykkelsen på innsjøisen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +411,8 @@
         "kriterier": [
           "Nevner oksygen.",
           "Nevner næringssalter og pH."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

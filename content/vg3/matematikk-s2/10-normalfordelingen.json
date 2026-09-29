@@ -190,7 +190,8 @@
         "Høyde"
       ],
       "correct": 1,
-      "explain": "Skjevfordelt med lang hale."
+      "explain": "Skjevfordelt med lang hale.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -298,7 +299,8 @@
         "type": "sant-usant",
         "text": "Normalfordelingens tetthet kan enkelt integreres med kjente funksjoner.",
         "correct": false,
-        "explain": "Vi må bruke tabell eller verktøy."
+        "explain": "Vi må bruke tabell eller verktøy.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -417,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

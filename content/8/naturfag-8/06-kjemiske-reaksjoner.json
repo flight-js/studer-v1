@@ -44,7 +44,8 @@
     },
     {
       "term": "Lavoisier",
-      "def": "Fransk kjemiker som viste massebevaring på 1700-tallet."
+      "def": "Fransk kjemiker som viste massebevaring på 1700-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Balansert likning",
@@ -423,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

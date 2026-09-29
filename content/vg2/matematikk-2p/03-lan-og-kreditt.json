@@ -43,7 +43,8 @@
     },
     {
       "term": "Funksjonen AVDRAG i regneark",
-      "def": "Regner ut terminbeløpet på et annuitetslån."
+      "def": "Regner ut terminbeløpet på et annuitetslån.",
+      "niva": "over-niva"
     },
     {
       "term": "Nominell rente",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Gjeldsregisteret",
-      "def": "Register over usikret gjeld."
+      "def": "Register over usikret gjeld.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +179,8 @@
         "MEDIAN"
       ],
       "correct": 0,
-      "explain": "AVDRAG tar rente, antall terminer og lånebeløp."
+      "explain": "AVDRAG tar rente, antall terminer og lånebeløp.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -299,7 +302,8 @@
         "type": "sant-usant",
         "text": "Gjeldsregisteret viser bankene hvor mye usikret gjeld du har.",
         "correct": true,
-        "explain": "Det skal hindre at folk får for mye gjeld."
+        "explain": "Det skal hindre at folk får for mye gjeld.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -419,12 +423,14 @@
         "kriterier": [
           "Identifiserer Gjeldsregisteret.",
           "Oppgir at registeret viser hvor mye usikret gjeld personen har."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

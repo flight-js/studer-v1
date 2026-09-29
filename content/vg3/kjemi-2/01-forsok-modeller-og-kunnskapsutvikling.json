@@ -14,7 +14,8 @@
   "flashcards": [
     {
       "term": "IUPAC",
-      "def": "Internasjonal organisasjon som lager regler for navn og symboler i kjemi."
+      "def": "Internasjonal organisasjon som lager regler for navn og symboler i kjemi.",
+      "niva": "eksempel"
     },
     {
       "term": "Stoffmengde",
@@ -74,7 +75,8 @@
     },
     {
       "term": "Fagfellevurdering",
-      "def": "Andre forskere vurderer arbeidet før publisering."
+      "def": "Andre forskere vurderer arbeidet før publisering.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -160,7 +162,8 @@
         "Godkjenner medisiner"
       ],
       "correct": 2,
-      "explain": "Gjør at kjemikere forstår hverandre."
+      "explain": "Gjør at kjemikere forstår hverandre.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -294,7 +297,8 @@
         "type": "sant-usant",
         "text": "Rutherford oppdaget at atomet har en liten, tett kjerne.",
         "correct": true,
-        "explain": "Gullfolieforsøket."
+        "explain": "Gullfolieforsøket.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -327,7 +331,8 @@
           "Den kvantemekaniske modellen"
         ],
         "correct": 0,
-        "explain": "Senere erstattet av orbitaler."
+        "explain": "Senere erstattet av orbitaler.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -387,7 +392,8 @@
         "kriterier": [
           "Forklarer at fagfellevurdering innebærer at andre forskere vurderer arbeidet før publisering.",
           "Forklarer at gjentakelse undersøker om resultatene kan gjenfinnes eller holder."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -420,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

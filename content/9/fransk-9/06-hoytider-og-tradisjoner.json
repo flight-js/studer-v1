@@ -20,7 +20,8 @@
     },
     {
       "term": "la bûche de Noël",
-      "def": "julekake formet som en vedkubbe"
+      "def": "julekake formet som en vedkubbe",
+      "niva": "eksempel"
     },
     {
       "term": "le Père Noël",
@@ -40,23 +41,28 @@
     },
     {
       "term": "la galette des rois",
-      "def": "kake som spises rundt 6. januar"
+      "def": "kake som spises rundt 6. januar",
+      "niva": "eksempel"
     },
     {
       "term": "la fève",
-      "def": "liten figur gjemt i kongekaka"
+      "def": "liten figur gjemt i kongekaka",
+      "niva": "eksempel"
     },
     {
       "term": "la Chandeleur",
-      "def": "2. februar, da man steker crêpes"
+      "def": "2. februar, da man steker crêpes",
+      "niva": "eksempel"
     },
     {
       "term": "les cloches de Pâques",
-      "def": "påskeklokkene, som ifølge tradisjonen kommer med sjokoladeegg"
+      "def": "påskeklokkene, som ifølge tradisjonen kommer med sjokoladeegg",
+      "niva": "eksempel"
     },
     {
       "term": "le muguet",
-      "def": "liljekonvall, som gis bort 1. mai"
+      "def": "liljekonvall, som gis bort 1. mai",
+      "niva": "eksempel"
     },
     {
       "term": "le 14 juillet",
@@ -64,7 +70,8 @@
     },
     {
       "term": "la Toussaint",
-      "def": "allehelgensdag, 1. november"
+      "def": "allehelgensdag, 1. november",
+      "niva": "eksempel"
     },
     {
       "term": "Joyeux anniversaire !",
@@ -72,7 +79,8 @@
     },
     {
       "term": "le temps des sucres",
-      "def": "tiden om våren da man lager lønnesirup i Québec"
+      "def": "tiden om våren da man lager lønnesirup i Québec",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -86,7 +94,8 @@
         "En julegave"
       ],
       "correct": 1,
-      "explain": "«la bûche» betyr vedkubben."
+      "explain": "«la bûche» betyr vedkubben.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -98,7 +107,8 @@
         "La galette des rois"
       ],
       "correct": 3,
-      "explain": "«rois» betyr konger."
+      "explain": "«rois» betyr konger.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -110,7 +120,8 @@
         "Den må synge"
       ],
       "correct": 0,
-      "explain": "Kaka selges ofte med en papirkrone."
+      "explain": "Kaka selges ofte med en papirkrone.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -122,7 +133,8 @@
         "Heksene"
       ],
       "correct": 2,
-      "explain": "Klokkene «flyr til Roma» og kommer tilbake påskemorgen."
+      "explain": "Klokkene «flyr til Roma» og kommer tilbake påskemorgen.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -134,7 +146,8 @@
         "Påskeegg"
       ],
       "correct": 0,
-      "explain": "Liljekonvallen skal bringe lykke."
+      "explain": "Liljekonvallen skal bringe lykke.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -158,7 +171,8 @@
         "Legger blomster på gravene"
       ],
       "correct": 3,
-      "explain": "Dagen er allehelgensdag."
+      "explain": "Dagen er allehelgensdag.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -194,7 +208,8 @@
         "En sukkerfri uke"
       ],
       "correct": 0,
-      "explain": "Lønnesirup er et symbol på Québec og Canada."
+      "explain": "Lønnesirup er et symbol på Québec og Canada.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -306,21 +321,24 @@
         "type": "sant-usant",
         "text": "La Chandeleur feires med påskeegg.",
         "correct": false,
-        "explain": "På la Chandeleur steker man crêpes."
+        "explain": "På la Chandeleur steker man crêpes.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Karnevalet i Nice er kjent over hele verden.",
         "correct": true,
-        "explain": "Det er kjent for blomsterparadene."
+        "explain": "Det er kjent for blomsterparadene.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "I fransk tradisjon er det julenissen som kommer med påskeeggene.",
         "correct": false,
-        "explain": "Ifølge tradisjonen er det kirkeklokkene, les cloches de Pâques."
+        "explain": "Ifølge tradisjonen er det kirkeklokkene, les cloches de Pâques.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -346,7 +364,8 @@
           "Revolusjonen"
         ],
         "correct": 0,
-        "explain": "Våpenhvilen ble inngått 11. november 1918."
+        "explain": "Våpenhvilen ble inngått 11. november 1918.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -370,7 +389,8 @@
         "kriterier": [
           "Forklarer at la crèche er en julekrybbe eller krybbescene.",
           "Nevner at den har små figurer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -387,7 +407,8 @@
         "fasit": "De tror at det skal gi lykke.",
         "kriterier": [
           "Forklarer at handlingen ifølge tradisjonen skal bringe lykke."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -396,7 +417,8 @@
         "kriterier": [
           "Nevner papirfisker.",
           "Forklarer at de festes på ryggen til andre."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -405,7 +427,8 @@
         "kriterier": [
           "Knytter gaveutdelingen i Belgia til Saint-Nicolas og 6. desember.",
           "Skiller den fra den franske tradisjonen med le Père Noël rundt 25. desember."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -414,7 +437,8 @@
         "kriterier": [
           "Identifiserer Nice.",
           "Nevner blomsterparadene som et kjennetegn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,7 +447,8 @@
         "kriterier": [
           "Knytter la Fête de la musique til gratis konserter over hele landet.",
           "Knytter le 14 juillet til militærparade på Champs-Élysées og/eller fyrverkeri."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -431,12 +456,14 @@
         "fasit": "Den 11. november er en minnedag for slutten på første verdenskrig.",
         "kriterier": [
           "Nevner at dagen markerer eller minnes slutten på første verdenskrig."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

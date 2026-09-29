@@ -67,7 +67,8 @@
     },
     {
       "term": "Den arabiske våren",
-      "def": "Opprør for demokrati i arabiske land fra 2010–2011."
+      "def": "Opprør for demokrati i arabiske land fra 2010–2011.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +118,8 @@
         "Slaver, urfolk og kvinner"
       ],
       "correct": 3,
-      "explain": "Idealene gjaldt ikke alle."
+      "explain": "Idealene gjaldt ikke alle.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +155,8 @@
         "1945"
       ],
       "correct": 2,
-      "explain": "Menn fikk allmenn stemmerett i 1898."
+      "explain": "Menn fikk allmenn stemmerett i 1898.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +192,8 @@
         "Motstandsbevegelsen"
       ],
       "correct": 1,
-      "explain": "En tidlig arbeiderbevegelse."
+      "explain": "En tidlig arbeiderbevegelse.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -296,14 +300,16 @@
         "type": "sant-usant",
         "text": "Grunnloven av 1814 var inspirert av den amerikanske og den franske revolusjonen.",
         "correct": true,
-        "explain": "Maktfordeling og folkesuverenitet."
+        "explain": "Maktfordeling og folkesuverenitet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Den arabiske våren førte til stabile demokratier i alle land.",
         "correct": false,
-        "explain": "Flere land fikk borgerkrig eller nye diktaturer."
+        "explain": "Flere land fikk borgerkrig eller nye diktaturer.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -398,7 +404,8 @@
         "kriterier": [
           "Forklarer at det var et gap mellom idealet om likhet og hvem som faktisk fikk rettigheter.",
           "Nevner minst én gruppe som ble holdt utenfor."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +414,8 @@
         "kriterier": [
           "Forklarer at krav om demokrati ikke garanterer et demokratisk utfall.",
           "Knytter forklaringen til borgerkrig eller nye diktaturer som utfall."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +424,14 @@
         "kriterier": [
           "Får fram at liberalismens rettigheter først var begrenset til menn med eiendom.",
           "Forklarer at arbeiderbevegelsen/sosialismen og kvinnebevegelsen bidro til å utvide stemmeretten."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

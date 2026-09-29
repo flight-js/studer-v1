@@ -60,7 +60,8 @@
     },
     {
       "term": "Tvetydig tilfelle",
-      "def": "Sinussetningen kan gi to mulige vinkler, v og 180° − v."
+      "def": "Sinussetningen kan gi to mulige vinkler, v og 180° − v.",
+      "niva": "over-niva"
     },
     {
       "term": "Skisse",
@@ -283,7 +284,8 @@
         "type": "sant-usant",
         "text": "Sinussetningen kan gi to mulige trekanter når man kjenner to sider og en vinkel som ikke ligger mellom dem.",
         "correct": true,
-        "explain": "sin v = sin(180° − v), så to vinkler kan passe."
+        "explain": "sin v = sin(180° − v), så to vinkler kan passe.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
@@ -399,7 +401,8 @@
         "kriterier": [
           "Forklarer at v og 180° − v kan ha samme sinus.",
           "Sier at vinkelsummen må være under 180° for at løsningen skal gi en mulig trekant."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -423,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

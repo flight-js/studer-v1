@@ -301,7 +301,8 @@
         "type": "sant-usant",
         "text": "Spansk er offisielt språk i over 20 land.",
         "correct": true,
-        "explain": "De fleste av dem ligger i Latin-Amerika."
+        "explain": "De fleste av dem ligger i Latin-Amerika.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -322,7 +323,8 @@
         "type": "sant-usant",
         "text": "I hele den spansktalende verden uttales z som engelsk «th».",
         "correct": false,
-        "explain": "Det gjelder det meste av Spania. I Latin-Amerika uttales z som s."
+        "explain": "Det gjelder det meste av Spania. I Latin-Amerika uttales z som s.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -348,7 +350,8 @@
           "Colombia"
         ],
         "correct": 0,
-        "explain": "Mexico har over 120 millioner innbyggere."
+        "explain": "Mexico har over 120 millioner innbyggere.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -408,7 +411,8 @@
         "kriterier": [
           "Plasserer skikken i Spania.",
           "Forklarer at det er et kyss på hvert kinn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -417,7 +421,8 @@
         "kriterier": [
           "Sier at «z» i det meste av Spania uttales omtrent som engelsk «th».",
           "Sier at «z» i Latin-Amerika uttales som «s»."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -426,7 +431,8 @@
         "kriterier": [
           "Bruker «perdón» eller «lo siento».",
           "Forklarer at uttrykket brukes for å be om unnskyldning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -441,6 +447,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

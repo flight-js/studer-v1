@@ -31,7 +31,8 @@
     },
     {
       "term": "Latent vold",
-      "def": "Frykten for ny vold som styrer hverdagen."
+      "def": "Frykten for ny vold som styrer hverdagen.",
+      "niva": "eksempel"
     },
     {
       "term": "Vold i nære relasjoner",
@@ -55,11 +56,13 @@
     },
     {
       "term": "116 111",
-      "def": "Alarmtelefonen for barn og unge."
+      "def": "Alarmtelefonen for barn og unge.",
+      "niva": "eksempel"
     },
     {
       "term": "Statens barnehus",
-      "def": "Avhør og oppfølging av barn utsatt for vold eller overgrep."
+      "def": "Avhør og oppfølging av barn utsatt for vold eller overgrep.",
+      "niva": "eksempel"
     },
     {
       "term": "Krisesenter",
@@ -67,7 +70,8 @@
     },
     {
       "term": "Alternativ til Vold",
-      "def": "Behandlingstilbud for personer som utøver vold."
+      "def": "Behandlingstilbud for personer som utøver vold.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +97,8 @@
         "1881"
       ],
       "correct": 0,
-      "explain": "Gratis og åpen."
+      "explain": "Gratis og åpen.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -153,7 +158,8 @@
         "Dømmer i saker"
       ],
       "correct": 2,
-      "explain": "Tilpasset barn."
+      "explain": "Tilpasset barn.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +171,8 @@
         "Frykten for ny vold som styrer hverdagen"
       ],
       "correct": 3,
-      "explain": "Volden trenger ikke skje igjen for å virke."
+      "explain": "Volden trenger ikke skje igjen for å virke.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +196,8 @@
         "Alarmtelefonen"
       ],
       "correct": 1,
-      "explain": "Behandling kan forebygge ny vold."
+      "explain": "Behandling kan forebygge ny vold.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -282,7 +290,8 @@
         "type": "sant-usant",
         "text": "Tvangsekteskap og kjønnslemlestelse er forbudt i Norge.",
         "correct": true,
-        "explain": "Alvorlige overgrep."
+        "explain": "Alvorlige overgrep.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -296,7 +305,8 @@
         "type": "sant-usant",
         "text": "Mange yrkesgrupper har opplysningsplikt til barnevernet.",
         "correct": true,
-        "explain": "Ved bekymring for et barn."
+        "explain": "Ved bekymring for et barn.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -316,7 +326,8 @@
           "116 123"
         ],
         "correct": 1,
-        "explain": "02800 når det ikke haster."
+        "explain": "02800 når det ikke haster.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -342,7 +353,8 @@
           "Barnetrygd"
         ],
         "correct": 2,
-        "explain": "Også kalt besøksforbud."
+        "explain": "Også kalt besøksforbud.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -422,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

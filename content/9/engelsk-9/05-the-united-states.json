@@ -65,7 +65,8 @@
     },
     {
       "term": "Melting pot / salad bowl",
-      "def": "Two images of diversity: cultures blending together, or living side by side."
+      "def": "Two images of diversity: cultures blending together, or living side by side.",
+      "niva": "eksempel"
     },
     {
       "term": "The American Dream",
@@ -167,7 +168,8 @@
         "Cultures living side by side while keeping their identities"
       ],
       "correct": 3,
-      "explain": "In a salad bowl the ingredients are mixed, but each keeps its own character."
+      "explain": "In a salad bowl the ingredients are mixed, but each keeps its own character.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -313,7 +315,8 @@
         "type": "sant-usant",
         "text": "The USA has many political parties with equal power.",
         "correct": false,
-        "explain": "American politics is dominated by two parties: the Democrats and the Republicans."
+        "explain": "American politics is dominated by two parties: the Democrats and the Republicans.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -326,7 +329,8 @@
           "Chicago"
         ],
         "correct": 2,
-        "explain": "New York is the largest city in the USA."
+        "explain": "New York is the largest city in the USA.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -432,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

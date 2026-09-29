@@ -93,7 +93,8 @@
         "Ved at platene glir fra hverandre"
       ],
       "correct": 0,
-      "explain": "Kollisjonen presser opp fjellkjeder."
+      "explain": "Kollisjonen presser opp fjellkjeder.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -341,7 +342,8 @@
           "For 400 millioner år siden"
         ],
         "correct": 2,
-        "explain": "Isen trakk seg tilbake for rundt 10 000 år siden."
+        "explain": "Isen trakk seg tilbake for rundt 10 000 år siden.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -354,7 +356,8 @@
           "Vindkraft"
         ],
         "correct": 1,
-        "explain": "Varmen i undergrunnen gir strøm og oppvarming."
+        "explain": "Varmen i undergrunnen gir strøm og oppvarming.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -410,7 +413,8 @@
         "kriterier": [
           "Knytter morener til jordbruksjord.",
           "Knytter materiale fra morener til bruk i byggebransjen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,7 +423,8 @@
         "kriterier": [
           "Regner ut forskjellen ved å trekke 10 000 fra 400 000 000.",
           "Oppgir omtrent 399 990 000 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,12 +433,14 @@
         "kriterier": [
           "Deler 10 000 på 1 000.",
           "Oppgir 10 perioder."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

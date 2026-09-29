@@ -48,7 +48,8 @@
     },
     {
       "term": "black-blanc-beur",
-      "def": "betegnelse på det mangfoldige franske VM-laget i 1998"
+      "def": "betegnelse på det mangfoldige franske VM-laget i 1998",
+      "niva": "eksempel"
     },
     {
       "term": "Il a dit qu'il était fatigué.",
@@ -130,7 +131,8 @@
         "Cristiano Ronaldo"
       ],
       "correct": 0,
-      "explain": "Han var en av stjernene på VM-laget i 1998."
+      "explain": "Han var en av stjernene på VM-laget i 1998.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -286,7 +288,8 @@
         "type": "sant-usant",
         "text": "Den franske staten registrerer ikke innbyggernes etnisitet.",
         "correct": true,
-        "explain": "Det henger sammen med den republikanske tradisjonen."
+        "explain": "Det henger sammen med den republikanske tradisjonen.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -300,7 +303,8 @@
         "type": "sant-usant",
         "text": "Forstedene er kjent for kreativitet innen rap og dans.",
         "correct": true,
-        "explain": "Mange kjente artister kommer derfra."
+        "explain": "Mange kjente artister kommer derfra.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -346,7 +350,8 @@
           "2015"
         ],
         "correct": 2,
-        "explain": "Opptøyene spredte seg til mange byer."
+        "explain": "Opptøyene spredte seg til mange byer.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -357,7 +362,8 @@
         "kriterier": [
           "Identifie l’Europe du Sud et le Maghreb comme des régions d’origine.",
           "Indique que l’immigration du Maghreb a été particulièrement importante après la Seconde Guerre mondiale, quand la France avait besoin de travailleurs."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -375,7 +381,8 @@
         "kriterier": [
           "Explique que la laïcité correspond à la neutralité religieuse de l’État et peut être considérée comme une garantie d’égalité.",
           "Présente la critique liée à la difficulté de parler de discrimination ou d’exprimer son identité religieuse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -384,7 +391,8 @@
         "kriterier": [
           "Associe les parents de Zidane à l’Algérie.",
           "Indique que Mbappé a des racines au Cameroun et en Algérie."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -393,7 +401,8 @@
         "kriterier": [
           "Explique que le modèle républicain met l’accent sur l’égalité entre les citoyens.",
           "Indique que l’État ne relève pas l’origine ethnique."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -426,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

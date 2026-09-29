@@ -31,7 +31,8 @@
     },
     {
       "term": "Collingridge-dilemmaet",
-      "def": "Lett å endre tidlig, men da vet vi lite; når vi vet mer, er det vanskelig å endre."
+      "def": "Lett å endre tidlig, men da vet vi lite; når vi vet mer, er det vanskelig å endre.",
+      "niva": "over-niva"
     },
     {
       "term": "Ansvar",
@@ -47,23 +48,28 @@
     },
     {
       "term": "Selvkjørende biler",
-      "def": "Reiser spørsmål om valg i ulykker og ansvar."
+      "def": "Reiser spørsmål om valg i ulykker og ansvar.",
+      "niva": "eksempel"
     },
     {
       "term": "CRISPR",
-      "def": "Metode for genredigering."
+      "def": "Metode for genredigering.",
+      "niva": "eksempel"
     },
     {
       "term": "Tingenes internett",
-      "def": "Hverdagsgjenstander koblet til nettet."
+      "def": "Hverdagsgjenstander koblet til nettet.",
+      "niva": "eksempel"
     },
     {
       "term": "Teknologirådet",
-      "def": "Gir råd til Stortinget om ny teknologi."
+      "def": "Gir råd til Stortinget om ny teknologi.",
+      "niva": "eksempel"
     },
     {
       "term": "Forskningsetiske komiteer",
-      "def": "Gir retningslinjer for forskningen i Norge."
+      "def": "Gir retningslinjer for forskningen i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Teknologi er ikke nøytral",
@@ -105,7 +111,8 @@
         "At etikk og teknologi ikke henger sammen"
       ],
       "correct": 2,
-      "explain": "Når vi vet mer, er den vanskelig å endre."
+      "explain": "Når vi vet mer, er den vanskelig å endre.",
+      "niva": "over-niva"
     },
     {
       "id": "q04",
@@ -141,7 +148,8 @@
         "NRK"
       ],
       "correct": 1,
-      "explain": "Et uavhengig råd."
+      "explain": "Et uavhengig råd.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +173,8 @@
         "Om naturlighet, risiko og endringer som arves"
       ],
       "correct": 3,
-      "explain": "Særlig ved endringer i kjønnsceller."
+      "explain": "Særlig ved endringer i kjønnsceller.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -299,7 +308,8 @@
         "type": "sant-usant",
         "text": "Droner kan brukes både til redning og til krig.",
         "correct": true,
-        "explain": "Samme teknologi kan ha ulik bruk."
+        "explain": "Samme teknologi kan ha ulik bruk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +329,8 @@
           "At tingene slutter å virke uten internett alltid"
         ],
         "correct": 1,
-        "explain": "Flere tilkoblede enheter gir flere angrepspunkter."
+        "explain": "Flere tilkoblede enheter gir flere angrepspunkter.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -402,7 +413,8 @@
         "kriterier": [
           "Knytter Teknologirådet til råd om ny teknologi til Stortinget.",
           "Knytter forskningsetiske komiteer til retningslinjer for forskning i Norge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -411,7 +423,8 @@
         "kriterier": [
           "Nevner risiko for innbrudd i systemer.",
           "Nevner innsamling av data."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

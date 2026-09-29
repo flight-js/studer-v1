@@ -394,7 +394,8 @@
         "kriterier": [
           "Forklarer at mange yrker har hankjønnsform på *-o* og hunkjønnsform på *-a*, med *médico/médica* som eksempel.",
           "Får fram at *periodista* har samme form for begge kjønn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -427,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

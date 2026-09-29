@@ -60,7 +60,8 @@
     },
     {
       "term": "guay / chévere",
-      "def": "kult (Spania / Latin-Amerika)"
+      "def": "kult (Spania / Latin-Amerika)",
+      "niva": "eksempel"
     },
     {
       "term": "palabras transparentes",
@@ -72,7 +73,8 @@
     },
     {
       "term": "Instituto Cervantes",
-      "def": "Institusjon som fremmer spansk språk og kultur i verden"
+      "def": "Institusjon som fremmer spansk språk og kultur i verden",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -134,7 +136,8 @@
         "Dyrt"
       ],
       "correct": 0,
-      "explain": "Slang varierer mellom landene."
+      "explain": "Slang varierer mellom landene.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -158,7 +161,8 @@
         "Brydd"
       ],
       "correct": 2,
-      "explain": "Flau heter «avergonzado» eller «avergonzada»."
+      "explain": "Flau heter «avergonzado» eller «avergonzada».",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -182,7 +186,8 @@
         "Zara"
       ],
       "correct": 0,
-      "explain": "Instituttet er oppkalt etter forfatteren Miguel de Cervantes."
+      "explain": "Instituttet er oppkalt etter forfatteren Miguel de Cervantes.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -194,7 +199,8 @@
         "el celular"
       ],
       "correct": 2,
-      "explain": "I Latin-Amerika heter den «la computadora»."
+      "explain": "I Latin-Amerika heter den «la computadora».",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -376,7 +382,8 @@
         "kriterier": [
           "Får fram at Instituto Cervantes arbeider for å fremme spansk språk og kultur.",
           "Får fram at RTVE tilbyr nyheter, serier eller programmer på nett."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -429,12 +436,14 @@
         "kriterier": [
           "Forklarer at uttrykket betyr «Hva skjer?» eller har tilsvarende betydning.",
           "Plasserer uttrykket i Mexico."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

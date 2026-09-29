@@ -52,15 +52,18 @@
     },
     {
       "term": "Budsjett",
-      "def": "Oversikt over hva oppdraget vil koste."
+      "def": "Oversikt over hva oppdraget vil koste.",
+      "niva": "eksempel"
     },
     {
       "term": "Materialliste",
-      "def": "Oversikt over materialene som trengs."
+      "def": "Oversikt over materialene som trengs.",
+      "niva": "eksempel"
     },
     {
       "term": "Arbeidstegning",
-      "def": "Tegning som viser hvordan noe skal lages, med mål."
+      "def": "Tegning som viser hvordan noe skal lages, med mål.",
+      "niva": "eksempel"
     },
     {
       "term": "Logg",
@@ -130,7 +133,8 @@
         "En logg"
       ],
       "correct": 2,
-      "explain": "Budsjettet viser utgiftene til blant annet materialer."
+      "explain": "Budsjettet viser utgiftene til blant annet materialer.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -178,7 +182,8 @@
         "En tidsplan"
       ],
       "correct": 0,
-      "explain": "Materiallisten brukes også når man lager budsjett."
+      "explain": "Materiallisten brukes også når man lager budsjett.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -349,7 +354,8 @@
           "En tegneserie"
         ],
         "correct": 2,
-        "explain": "Arbeidstegninger brukes blant annet i bygg og produksjon."
+        "explain": "Arbeidstegninger brukes blant annet i bygg og produksjon.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -396,7 +402,8 @@
         "kriterier": [
           "Forklarer at arbeidstegningen viser hvordan benken skal lages.",
           "Får fram at mål i tegningen hjelper gruppa med utformingen eller størrelsen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -429,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

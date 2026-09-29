@@ -133,7 +133,8 @@
         "Den er utryddet"
       ],
       "correct": 0,
-      "explain": "Mange arter drar nytte av dammene."
+      "explain": "Mange arter drar nytte av dammene.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -193,7 +194,8 @@
         "Rachel Carson"
       ],
       "correct": 1,
-      "explain": "En norsk filosof."
+      "explain": "En norsk filosof.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -414,7 +416,8 @@
         "kriterier": [
           "Forklarer at moderate forstyrrelser kan gi plass til nye arter.",
           "Skiller dette fra en forstyrrelse som ødelegger hele økosystemet."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -429,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

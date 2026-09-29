@@ -37,7 +37,8 @@
     },
     {
       "term": "los bulos",
-      "def": "falske nyheter (Spania)"
+      "def": "falske nyheter (Spania)",
+      "niva": "eksempel"
     },
     {
       "term": "estar enganchado/a",
@@ -57,11 +58,13 @@
     },
     {
       "term": "Sigue lloviendo.",
-      "def": "Det fortsetter å regne."
+      "def": "Det fortsetter å regne.",
+      "niva": "over-niva"
     },
     {
       "term": "Llevo dos horas estudiando.",
-      "def": "Jeg har lest i to timer."
+      "def": "Jeg har lest i to timer.",
+      "niva": "over-niva"
     },
     {
       "term": "Acabo de …",
@@ -131,7 +134,8 @@
         "Jeg bærer to bøker."
       ],
       "correct": 0,
-      "explain": "llevar + tid + gerundio."
+      "explain": "llevar + tid + gerundio.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -155,7 +159,8 @@
         "bildene"
       ],
       "correct": 2,
-      "explain": "Ord brukt i Spania."
+      "explain": "Ord brukt i Spania.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -179,7 +184,8 @@
         "Det regnet i går."
       ],
       "correct": 0,
-      "explain": "seguir + gerundio."
+      "explain": "seguir + gerundio.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -397,7 +403,8 @@
         "kriterier": [
           "Knytter innsamling av data til personvern eller beskyttelse av data.",
           "Skriver ut RGPD som Reglamento General de Protección de Datos."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -430,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

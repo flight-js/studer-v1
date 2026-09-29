@@ -31,27 +31,33 @@
     },
     {
       "term": "Kvinnediskrimineringskonvensjonen",
-      "def": "FN-avtale fra 1979 mot diskriminering av kvinner."
+      "def": "FN-avtale fra 1979 mot diskriminering av kvinner.",
+      "niva": "eksempel"
     },
     {
       "term": "EMK",
-      "def": "Den europeiske menneskerettskonvensjonen fra 1950."
+      "def": "Den europeiske menneskerettskonvensjonen fra 1950.",
+      "niva": "eksempel"
     },
     {
       "term": "Menneskerettsdomstolen",
-      "def": "Den europeiske domstolen i Strasbourg som dømmer i saker etter EMK."
+      "def": "Den europeiske domstolen i Strasbourg som dømmer i saker etter EMK.",
+      "niva": "eksempel"
     },
     {
       "term": "Menneskerettsloven",
-      "def": "Norsk lov fra 1999 som gjør viktige konvensjoner til norsk lov."
+      "def": "Norsk lov fra 1999 som gjør viktige konvensjoner til norsk lov.",
+      "niva": "eksempel"
     },
     {
       "term": "ILO-konvensjon 169",
-      "def": "Avtale fra 1989 om urfolks rettigheter, blant annet til å bli konsultert."
+      "def": "Avtale fra 1989 om urfolks rettigheter, blant annet til å bli konsultert.",
+      "niva": "eksempel"
     },
     {
       "term": "Fosen-saken",
-      "def": "Høyesterett slo i 2021 fast at vindkraftverk krenket samiske reindriftsutøveres rettigheter."
+      "def": "Høyesterett slo i 2021 fast at vindkraftverk krenket samiske reindriftsutøveres rettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Likeverd",
@@ -67,7 +73,8 @@
     },
     {
       "term": "Amnesty International",
-      "def": "Organisasjon som avdekker og protesterer mot brudd på menneskerettighetene."
+      "def": "Organisasjon som avdekker og protesterer mot brudd på menneskerettighetene.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -81,7 +88,8 @@
         "2007"
       ],
       "correct": 1,
-      "explain": "10. desember markeres som menneskerettighetsdagen."
+      "explain": "10. desember markeres som menneskerettighetsdagen.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -129,7 +137,8 @@
         "At samene ikke er urfolk"
       ],
       "correct": 0,
-      "explain": "Dommen viser hvordan urfolksrettigheter påvirker norsk politikk."
+      "explain": "Dommen viser hvordan urfolksrettigheter påvirker norsk politikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +162,8 @@
         "Strasbourg"
       ],
       "correct": 3,
-      "explain": "Domstolen hører til Europarådet, ikke EU."
+      "explain": "Domstolen hører til Europarådet, ikke EU.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +199,8 @@
         "Rett til egen hær"
       ],
       "correct": 2,
-      "explain": "Staten må for eksempel konsultere Sametinget før vedtak som berører samene."
+      "explain": "Staten må for eksempel konsultere Sametinget før vedtak som berører samene.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -305,14 +316,16 @@
         "type": "sant-usant",
         "text": "Norge kan bli dømt i Den europeiske menneskerettsdomstolen.",
         "correct": true,
-        "explain": "Norge er blant annet dømt i flere barnevernssaker."
+        "explain": "Norge er blant annet dømt i flere barnevernssaker.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Grunnloven har et eget kapittel om menneskerettigheter.",
         "correct": true,
-        "explain": "Kapittelet kom inn i Grunnloven i 2014."
+        "explain": "Kapittelet kom inn i Grunnloven i 2014.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -332,7 +345,8 @@
           "100"
         ],
         "correct": 1,
-        "explain": "De 30 artiklene dekker både sivile, politiske, økonomiske og sosiale rettigheter."
+        "explain": "De 30 artiklene dekker både sivile, politiske, økonomiske og sosiale rettigheter.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -345,7 +359,8 @@
           "Skatteetaten"
         ],
         "correct": 0,
-        "explain": "Ombudet gir gratis veiledning om diskriminering."
+        "explain": "Ombudet gir gratis veiledning om diskriminering.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -358,7 +373,8 @@
           "Leder FN"
         ],
         "correct": 2,
-        "explain": "Amnesty er en frivillig organisasjon med medlemmer over hele verden."
+        "explain": "Amnesty er en frivillig organisasjon med medlemmer over hele verden.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -396,7 +412,8 @@
         "kriterier": [
           "Knytter kvinnediskrimineringskonvensjonen til diskriminering av kvinner.",
           "Knytter barnekonvensjonen til egne rettigheter for barn under 18 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -414,7 +431,8 @@
         "kriterier": [
           "Forklarer at EMK er en menneskerettighetsavtale.",
           "Forklarer at domstolen behandler saker etter EMK og kan dømme stater."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -432,12 +450,14 @@
         "kriterier": [
           "Nevner at Amnesty International avdekker brudd på menneskerettighetene.",
           "Nevner at organisasjonen protesterer mot brudd."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

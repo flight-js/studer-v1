@@ -39,7 +39,8 @@
     },
     {
       "term": "Myoner",
-      "def": "Partikler som når bakken takket være tidsforlengelse."
+      "def": "Partikler som når bakken takket være tidsforlengelse.",
+      "niva": "eksempel"
     },
     {
       "term": "Lengdeforkortning",
@@ -67,7 +68,8 @@
     },
     {
       "term": "GPS og relativitet",
-      "def": "Satellittene må korrigeres, ellers blir posisjonen feil."
+      "def": "Satellittene må korrigeres, ellers blir posisjonen feil.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +119,8 @@
         "På grunn av tidsforlengelse"
       ],
       "correct": 3,
-      "explain": "Deres tid går langsommere sett fra oss."
+      "explain": "Deres tid går langsommere sett fra oss.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -165,7 +168,8 @@
         "Lysavbøyning rundt sola"
       ],
       "correct": 3,
-      "explain": "Bekreftet generell relativitet."
+      "explain": "Bekreftet generell relativitet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +181,8 @@
         "Det trengs ikke"
       ],
       "correct": 0,
-      "explain": "Både spesiell og generell relativitet."
+      "explain": "Både spesiell og generell relativitet.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -323,7 +328,8 @@
           "Månens faser"
         ],
         "correct": 0,
-        "explain": "Perihelforskyvningen."
+        "explain": "Perihelforskyvningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -392,7 +398,8 @@
         "kriterier": [
           "Sier at klokken i sterkere gravitasjonsfelt går langsommere.",
           "Knytter relativistisk tidsforskjell til behovet for å korrigere GPS-satellittenes klokker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

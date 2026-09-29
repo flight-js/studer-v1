@@ -286,7 +286,8 @@
         "type": "sant-usant",
         "text": "Harlows forsøk regnes i dag som helt uproblematiske etisk.",
         "correct": false,
-        "explain": "De er kritisert for å være uetiske."
+        "explain": "De er kritisert for å være uetiske.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -326,7 +327,8 @@
           "Ingen steder"
         ],
         "correct": 0,
-        "explain": "For eksempel i foreldreveiledning."
+        "explain": "For eksempel i foreldreveiledning.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -404,7 +406,8 @@
         "kriterier": [
           "Forklarer at kunnskapen brukes til å forstå barnets behov eller signaler.",
           "Knytter veiledningen til hvordan foreldrene kan møte eller svare på barnet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

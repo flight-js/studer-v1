@@ -67,7 +67,8 @@
     },
     {
       "term": "Ettbarnspolitikken",
-      "def": "Kinesisk politikk fra 1980 til 2015 som begrenset antall barn per familie."
+      "def": "Kinesisk politikk fra 1980 til 2015 som begrenset antall barn per familie.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +118,8 @@
         "Fordi det er tørt og lite vann"
       ],
       "correct": 3,
-      "explain": "Tilgang på vann er en av de viktigste forutsetningene for bosetting."
+      "explain": "Tilgang på vann er en av de viktigste forutsetningene for bosetting.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -177,7 +179,8 @@
         "Gamle kriger har ingen betydning"
       ],
       "correct": 0,
-      "explain": "Grenser og økonomiske strukturer fra kolonitiden preger fortsatt mange land."
+      "explain": "Grenser og økonomiske strukturer fra kolonitiden preger fortsatt mange land.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -298,7 +301,8 @@
         "type": "sant-usant",
         "text": "Verdens befolkning har passert 8 milliarder.",
         "correct": true,
-        "explain": "Ifølge FN passerte vi 8 milliarder i 2022."
+        "explain": "Ifølge FN passerte vi 8 milliarder i 2022.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -312,14 +316,16 @@
         "type": "sant-usant",
         "text": "Japan har en befolkningspyramide med svært bred bunn.",
         "correct": false,
-        "explain": "Japan har få fødsler og en aldrende befolkning, så pyramiden er smal nederst."
+        "explain": "Japan har få fødsler og en aldrende befolkning, så pyramiden er smal nederst.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Et fruktbarhetstall på rundt 2,1 gir på sikt en stabil befolkning uten innvandring.",
         "correct": true,
-        "explain": "Hver generasjon erstatter da seg selv."
+        "explain": "Hver generasjon erstatter da seg selv.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -358,7 +364,8 @@
           "En skoleordning i Afrika"
         ],
         "correct": 1,
-        "explain": "Politikken varte fra 1980 til 2015 og har gitt Kina en raskt aldrende befolkning."
+        "explain": "Politikken varte fra 1980 til 2015 og har gitt Kina en raskt aldrende befolkning.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -432,12 +439,14 @@
         "kriterier": [
           "Forklarer at begrensningen kan føre til færre barn eller færre fødsler.",
           "Knytter færre fødsler til en endring i befolkningsveksten eller befolkningens utvikling."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

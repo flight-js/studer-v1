@@ -44,19 +44,23 @@
     },
     {
       "term": "mRNA-vaksiner",
-      "def": "Vaksiner som gir cellene oppskrift på et virusprotein. Nobelpris i medisin 2023."
+      "def": "Vaksiner som gir cellene oppskrift på et virusprotein. Nobelpris i medisin 2023.",
+      "niva": "eksempel"
     },
     {
       "term": "CRISPR",
-      "def": "Metode for presis genredigering. Nobelpris i kjemi 2020."
+      "def": "Metode for presis genredigering. Nobelpris i kjemi 2020.",
+      "niva": "eksempel"
     },
     {
       "term": "James Webb-teleskopet",
-      "def": "Romteleskop skutt opp i 2021 som studerer de tidligste galaksene."
+      "def": "Romteleskop skutt opp i 2021 som studerer de tidligste galaksene.",
+      "niva": "eksempel"
     },
     {
       "term": "CERN",
-      "def": "Stort europeisk forskningssenter for partikkelfysikk med forskere fra mange land."
+      "def": "Stort europeisk forskningssenter for partikkelfysikk med forskere fra mange land.",
+      "niva": "eksempel"
     },
     {
       "term": "Kritisk tilnærming",
@@ -130,7 +134,8 @@
         "Kloning"
       ],
       "correct": 0,
-      "explain": "CRISPR gjør det mulig å endre gener svært presist."
+      "explain": "CRISPR gjør det mulig å endre gener svært presist.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +147,8 @@
         "CRISPR"
       ],
       "correct": 1,
-      "explain": "Forskningen gjorde det mulig å utvikle mRNA-vaksiner, blant annet mot covid-19."
+      "explain": "Forskningen gjorde det mulig å utvikle mRNA-vaksiner, blant annet mot covid-19.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -178,7 +184,8 @@
         "Været i Norge"
       ],
       "correct": 0,
-      "explain": "Teleskopet ser infrarødt lys fra svært fjerne og gamle galakser."
+      "explain": "Teleskopet ser infrarødt lys fra svært fjerne og gamle galakser.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -295,7 +302,8 @@
         "type": "sant-usant",
         "text": "CRISPR reiser også etiske spørsmål.",
         "correct": true,
-        "explain": "Muligheten til å endre gener, også hos mennesker, gir viktige etiske diskusjoner."
+        "explain": "Muligheten til å endre gener, også hos mennesker, gir viktige etiske diskusjoner.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -328,7 +336,8 @@
           "2015"
         ],
         "correct": 1,
-        "explain": "Teleskopet ble skutt opp i desember 2021."
+        "explain": "Teleskopet ble skutt opp i desember 2021.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -341,7 +350,8 @@
           "Et romteleskop"
         ],
         "correct": 2,
-        "explain": "Ved CERN samarbeider forskere fra hele verden om å forstå materiens minste byggesteiner."
+        "explain": "Ved CERN samarbeider forskere fra hele verden om å forstå materiens minste byggesteiner.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -388,7 +398,8 @@
         "kriterier": [
           "Forklarer at mRNA-vaksiner gir cellene en oppskrift på et virusprotein.",
           "Forklarer at CRISPR brukes til presis genredigering."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -397,7 +408,8 @@
         "kriterier": [
           "Får fram at forskning kan organiseres som samarbeid mellom forskere fra flere land.",
           "Knytter eksempelet til store forskningsprosjekter eller store forskerteam."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -406,7 +418,8 @@
         "kriterier": [
           "Viser eller beskriver subtraksjonen 2023 − 2020.",
           "Oppgir 3 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -415,12 +428,14 @@
         "kriterier": [
           "Viser eller beskriver subtraksjonen 2023 − 2021.",
           "Oppgir 2 år."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

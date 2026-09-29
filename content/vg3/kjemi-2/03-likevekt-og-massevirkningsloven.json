@@ -59,11 +59,13 @@
     },
     {
       "term": "Haber–Bosch-prosessen",
-      "def": "Industriell produksjon av ammoniakk."
+      "def": "Industriell produksjon av ammoniakk.",
+      "niva": "eksempel"
     },
     {
       "term": "Kompromisstemperatur",
-      "def": "Balanse mellom godt utbytte og rask reaksjon."
+      "def": "Balanse mellom godt utbytte og rask reaksjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Rene faste stoffer i K",
@@ -189,7 +191,8 @@
         "Fordi katalysatoren smelter"
       ],
       "correct": 1,
-      "explain": "Balanse mellom utbytte og fart."
+      "explain": "Balanse mellom utbytte og fart.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -310,7 +313,8 @@
           "Medisin"
         ],
         "correct": 1,
-        "explain": "Avgjørende for matproduksjonen."
+        "explain": "Avgjørende for matproduksjonen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -374,7 +378,8 @@
         "kriterier": [
           "Fjerning av ammoniakk reduserer mengden av et produkt.",
           "Likevekten forskyves mot produktene, slik at mer ammoniakk dannes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -417,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

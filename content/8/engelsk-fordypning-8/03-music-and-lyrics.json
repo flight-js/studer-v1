@@ -60,7 +60,8 @@
     },
     {
       "term": "Protest song",
-      "def": "A song that criticises something in society."
+      "def": "A song that criticises something in society.",
+      "niva": "eksempel"
     },
     {
       "term": "Genre",
@@ -68,7 +69,8 @@
     },
     {
       "term": "Music video",
-      "def": "A video that adds pictures and often a story to a song."
+      "def": "A video that adds pictures and often a story to a song.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -118,7 +120,8 @@
         "A song without lyrics"
       ],
       "correct": 1,
-      "explain": "Protest songs were important in the civil rights movement."
+      "explain": "Protest songs were important in the civil rights movement.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -355,7 +358,8 @@
           "A new chorus"
         ],
         "correct": 2,
-        "explain": "The video can strengthen or change how we understand the song."
+        "explain": "The video can strengthen or change how we understand the song.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -402,7 +406,8 @@
         "kriterier": [
           "Gives catchy choruses as a typical pop feature.",
           "Gives storytelling as a typical country feature."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -411,7 +416,8 @@
         "kriterier": [
           "Explains that a music video adds pictures.",
           "Mentions that it often adds a story or helps the audience experience the song through visuals."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -435,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -23,7 +23,8 @@
     },
     {
       "term": "Skarre-r",
-      "def": "R uttalt bak i munnen – har spredt seg langs kysten."
+      "def": "R uttalt bak i munnen – har spredt seg langs kysten.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosiolekt",
@@ -35,7 +36,8 @@
     },
     {
       "term": "Kebabnorsk",
-      "def": "Uformell betegnelse på multietnolektisk ungdomsspråk."
+      "def": "Uformell betegnelse på multietnolektisk ungdomsspråk.",
+      "niva": "eksempel"
     },
     {
       "term": "V2-regelen",
@@ -51,7 +53,8 @@
     },
     {
       "term": "Domenetap",
-      "def": "At et språk mister terreng innen et område, som forskning."
+      "def": "At et språk mister terreng innen et område, som forskning.",
+      "niva": "over-niva"
     },
     {
       "term": "Språk og identitet",
@@ -59,11 +62,13 @@
     },
     {
       "term": "Språkloven",
-      "def": "Lov fra 2022 om norsk, samisk, minoritetsspråk og tegnspråk."
+      "def": "Lov fra 2022 om norsk, samisk, minoritetsspråk og tegnspråk.",
+      "niva": "eksempel"
     },
     {
       "term": "Nasjonale minoritetsspråk",
-      "def": "Kvensk, romani, romanes og skogfinsk."
+      "def": "Kvensk, romani, romanes og skogfinsk.",
+      "niva": "eksempel"
     },
     {
       "term": "Mobilitet",
@@ -117,7 +122,8 @@
         "Lånord, egen rytme og ordstilling der verbet ikke står på andreplass"
       ],
       "correct": 3,
-      "explain": "«I går jeg var på kino»."
+      "explain": "«I går jeg var på kino».",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +147,8 @@
         "At ord får ny betydning"
       ],
       "correct": 1,
-      "explain": "For eksempel i forskning."
+      "explain": "For eksempel i forskning.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -153,7 +160,8 @@
         "Flere dialekter oppstår"
       ],
       "correct": 2,
-      "explain": "«En bok» i stedet for «ei bok»."
+      "explain": "«En bok» i stedet for «ei bok».",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +173,8 @@
         "Samisk"
       ],
       "correct": 3,
-      "explain": "Kvensk er nasjonalt minoritetsspråk."
+      "explain": "Kvensk er nasjonalt minoritetsspråk.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -316,7 +325,8 @@
           "«Ha det»"
         ],
         "correct": 1,
-        "explain": "Et lånord fra arabisk."
+        "explain": "Et lånord fra arabisk.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +339,8 @@
           "Svensk"
         ],
         "correct": 0,
-        "explain": "Samisk er urfolksspråk."
+        "explain": "Samisk er urfolksspråk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -371,7 +382,8 @@
         "kriterier": [
           "Forklarer at r-en uttales bak i munnen.",
           "Beskriver spredningen langs kysten fra Bergen og Stavanger nordover og østover."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -407,7 +419,8 @@
         "kriterier": [
           "Nevner kvensk og romani.",
           "Nevner romanes og skogfinsk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

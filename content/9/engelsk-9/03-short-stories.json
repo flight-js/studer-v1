@@ -56,15 +56,18 @@
     },
     {
       "term": "Indirect characterisation",
-      "def": "We learn about a character through actions, words and thoughts."
+      "def": "We learn about a character through actions, words and thoughts.",
+      "niva": "eksempel"
     },
     {
       "term": "Round character",
-      "def": "A complex character who changes during the story."
+      "def": "A complex character who changes during the story.",
+      "niva": "eksempel"
     },
     {
       "term": "Flat character",
-      "def": "A simple character with few traits who does not develop."
+      "def": "A simple character with few traits who does not develop.",
+      "niva": "eksempel"
     },
     {
       "term": "Present tense in analysis",
@@ -154,7 +157,8 @@
         "The character is described in a list"
       ],
       "correct": 1,
-      "explain": "Indirect characterisation lets the reader draw conclusions from what the character does and says."
+      "explain": "Indirect characterisation lets the reader draw conclusions from what the character does and says.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +182,8 @@
         "a round character"
       ],
       "correct": 3,
-      "explain": "Round characters are complex and often change, while flat characters stay the same."
+      "explain": "Round characters are complex and often change, while flat characters stay the same.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -399,7 +404,8 @@
         "kriterier": [
           "Explains that direct characterisation tells the reader about the character.",
           "Explains that indirect characterisation lets the reader infer traits from evidence such as actions, words or thoughts."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -417,7 +423,8 @@
         "kriterier": [
           "Identifies Mia as round and connects this to her change or development.",
           "Identifies Ben as flat and connects this to his lack of development."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -432,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

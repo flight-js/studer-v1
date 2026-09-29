@@ -43,11 +43,13 @@
     },
     {
       "term": "Checks and balances",
-      "def": "Maktene i USA balanserer og kontrollerer hverandre."
+      "def": "Maktene i USA balanserer og kontrollerer hverandre.",
+      "niva": "eksempel"
     },
     {
       "term": "Semipresidentstyre",
-      "def": "Både valgt president og statsminister, som i Frankrike."
+      "def": "Både valgt president og statsminister, som i Frankrike.",
+      "niva": "eksempel"
     },
     {
       "term": "Konstitusjonelt monarki",
@@ -63,7 +65,8 @@
     },
     {
       "term": "Hybrid regime",
-      "def": "Noen demokratiske trekk, men ikke fullt fritt."
+      "def": "Noen demokratiske trekk, men ikke fullt fritt.",
+      "niva": "eksempel"
     },
     {
       "term": "Demokratisk tilbakegang",
@@ -105,7 +108,8 @@
         "Tyskland"
       ],
       "correct": 2,
-      "explain": "Med checks and balances."
+      "explain": "Med checks and balances.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -141,7 +145,8 @@
         "At valg er forbudt"
       ],
       "correct": 1,
-      "explain": "Demokratiet er under press."
+      "explain": "Demokratiet er under press.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +158,8 @@
         "Saudi-Arabia"
       ],
       "correct": 2,
-      "explain": "Folket stemmer over mange saker."
+      "explain": "Folket stemmer over mange saker.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +171,8 @@
         "Et regime med noen demokratiske trekk, men som ikke er fullt fritt"
       ],
       "correct": 3,
-      "explain": "Valg kan finnes, men er ikke frie."
+      "explain": "Valg kan finnes, men er ikke frie.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -319,7 +326,8 @@
           "Kina"
         ],
         "correct": 1,
-        "explain": "President og statsminister."
+        "explain": "President og statsminister.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +340,8 @@
           "Rundt 2020"
         ],
         "correct": 0,
-        "explain": "Mange land i Øst-Europa ble demokratier."
+        "explain": "Mange land i Øst-Europa ble demokratier.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -383,7 +392,8 @@
         "kriterier": [
           "Beskriver at semipresidentstyre har både president og statsminister.",
           "Får fram at statsministeren må ha parlamentets tillit, eller at presidenten i presidentstyre ikke kan felles med mistillit."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

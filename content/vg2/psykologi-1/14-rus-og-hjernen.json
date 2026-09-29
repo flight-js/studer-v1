@@ -67,7 +67,8 @@
     },
     {
       "term": "«Alle andre gjør det»",
-      "def": "Vanlig overvurdering av jevnaldrendes rusbruk."
+      "def": "Vanlig overvurdering av jevnaldrendes rusbruk.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +130,8 @@
         "Å trene"
       ],
       "correct": 0,
-      "explain": "Særlig hos sårbare personer."
+      "explain": "Særlig hos sårbare personer.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -285,7 +287,8 @@
         "type": "sant-usant",
         "text": "De fleste ungdommer i Norge bruker ikke narkotika.",
         "correct": true,
-        "explain": "Mange overvurderer hva andre gjør."
+        "explain": "Mange overvurderer hva andre gjør.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -345,7 +348,8 @@
           "Den gjør rus lovlig"
         ],
         "correct": 2,
-        "explain": "Sosiale normer påvirker atferd."
+        "explain": "Sosiale normer påvirker atferd.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -410,7 +414,8 @@
         "kriterier": [
           "Forklarer at mange overvurderer hvor vanlig narkotikabruk er blant jevnaldrende.",
           "Forklarer at kunnskap om den faktiske bruken kan korrigere inntrykket og dempe presset."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,12 +424,14 @@
         "kriterier": [
           "Nevner minst én av helsesykepleier, fastlege eller rådgiver som en ungdom kan snakke med.",
           "Nevner ung.no som kilde til anonym informasjon, eller forklarer relevant hjelp fra en annen nevnt kontakt."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

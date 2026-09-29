@@ -11,11 +11,13 @@
   "flashcards": [
     {
       "term": "Sporingspiksel",
-      "def": "Usynlig element som registrerer at du har åpnet en side eller e-post."
+      "def": "Usynlig element som registrerer at du har åpnet en side eller e-post.",
+      "niva": "eksempel"
     },
     {
       "term": "Datamegler",
-      "def": "Selskap som kjøper, samler og selger opplysninger om personer."
+      "def": "Selskap som kjøper, samler og selger opplysninger om personer.",
+      "niva": "eksempel"
     },
     {
       "term": "Stordata",
@@ -35,7 +37,8 @@
     },
     {
       "term": "Cambridge Analytica",
-      "def": "Sak fra 2018 der Facebook-data ble brukt til politisk målretting."
+      "def": "Sak fra 2018 der Facebook-data ble brukt til politisk målretting.",
+      "niva": "eksempel"
     },
     {
       "term": "Algoritmisk skjevhet",
@@ -43,7 +46,8 @@
     },
     {
       "term": "Nedkjølingseffekt",
-      "def": "Folk ytrer seg mindre fritt fordi de føler seg overvåket."
+      "def": "Folk ytrer seg mindre fritt fordi de føler seg overvåket.",
+      "niva": "over-niva"
     },
     {
       "term": "Datalekkasje",
@@ -59,11 +63,13 @@
     },
     {
       "term": "Pseudonymiserte data",
-      "def": "Navn byttet ut med kode, men kan kobles tilbake."
+      "def": "Navn byttet ut med kode, men kan kobles tilbake.",
+      "niva": "over-niva"
     },
     {
       "term": "Reidentifisering",
-      "def": "Å finne igjen personer i «anonyme» data ved å kombinere kilder."
+      "def": "Å finne igjen personer i «anonyme» data ved å kombinere kilder.",
+      "niva": "over-niva"
     },
     {
       "term": "App-tillatelser",
@@ -93,7 +99,8 @@
         "En konkurranse i programmering"
       ],
       "correct": 0,
-      "explain": "Avslørt i 2018."
+      "explain": "Avslørt i 2018.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +112,8 @@
         "Anonymiserte data inneholder navn"
       ],
       "correct": 2,
-      "explain": "Pseudonymisering bytter navn med kode."
+      "explain": "Pseudonymisering bytter navn med kode.",
+      "niva": "over-niva"
     },
     {
       "id": "q04",
@@ -129,7 +137,8 @@
         "At data slettes"
       ],
       "correct": 0,
-      "explain": "Et demokratisk problem."
+      "explain": "Et demokratisk problem.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -141,7 +150,8 @@
         "Salg av passord"
       ],
       "correct": 1,
-      "explain": "Gir ny kunnskap om sykdommer."
+      "explain": "Gir ny kunnskap om sykdommer.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +163,8 @@
         "Det kan aldri skje"
       ],
       "correct": 2,
-      "explain": "For eksempel postnummer, fødselsdato og kjønn."
+      "explain": "For eksempel postnummer, fødselsdato og kjønn.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -165,7 +176,8 @@
         "Kjøper, samler og selger opplysninger om personer"
       ],
       "correct": 3,
-      "explain": "Ofte uten at personene vet det."
+      "explain": "Ofte uten at personene vet det.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -295,7 +307,8 @@
         "type": "sant-usant",
         "text": "Pseudonymiserte data kan aldri kobles tilbake til personer.",
         "correct": false,
-        "explain": "Koden kan kobles tilbake til personen."
+        "explain": "Koden kan kobles tilbake til personen.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -348,7 +361,8 @@
           "En lagringsenhet"
         ],
         "correct": 2,
-        "explain": "Brukes til sporing og statistikk."
+        "explain": "Brukes til sporing og statistikk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -359,7 +373,8 @@
         "kriterier": [
           "Forklarer at den registrerer at e-posten er åpnet.",
           "Får fram at sporingspikselen er usynlig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -413,7 +428,8 @@
         "kriterier": [
           "Forklarer at store datamengder kan analyseres for å finne mønstre.",
           "Knytter mønstrene til ny kunnskap om sykdommer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

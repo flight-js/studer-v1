@@ -25,19 +25,23 @@
     },
     {
       "term": "P = 50 + 15x",
-      "def": "Taxipris med 50 kr i startpris og 15 kr per km."
+      "def": "Taxipris med 50 kr i startpris og 15 kr per km.",
+      "niva": "eksempel"
     },
     {
       "term": "F = 1,8C + 32",
-      "def": "Omregning fra celsius til fahrenheit."
+      "def": "Omregning fra celsius til fahrenheit.",
+      "niva": "eksempel"
     },
     {
       "term": "C = (F − 32)/1,8",
-      "def": "Omregning fra fahrenheit til celsius."
+      "def": "Omregning fra fahrenheit til celsius.",
+      "niva": "eksempel"
     },
     {
       "term": "KMI",
-      "def": "Vekt i kg delt på høyde i meter opphøyd i andre."
+      "def": "Vekt i kg delt på høyde i meter opphøyd i andre.",
+      "niva": "eksempel"
     },
     {
       "term": "A = πr²",
@@ -57,7 +61,8 @@
     },
     {
       "term": "K = 150n + 50",
-      "def": "Pris for n billetter à 150 kr med 50 kr i gebyr."
+      "def": "Pris for n billetter à 150 kr med 50 kr i gebyr.",
+      "niva": "eksempel"
     },
     {
       "term": "Bruttolønn",
@@ -107,7 +112,8 @@
         "122,5"
       ],
       "correct": 2,
-      "explain": "70 / 1,75² = 70 / 3,0625 ≈ 22,9."
+      "explain": "70 / 1,75² = 70 / 3,0625 ≈ 22,9.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -331,7 +337,8 @@
           "kg/m"
         ],
         "correct": 1,
-        "explain": "Vekt i kg delt på høyde i m opphøyd i andre."
+        "explain": "Vekt i kg delt på høyde i m opphøyd i andre.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -424,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

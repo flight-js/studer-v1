@@ -48,19 +48,23 @@
     },
     {
       "term": "Dalton",
-      "def": "Så atomer som små, udelelige kuler (tidlig 1800-tall)."
+      "def": "Så atomer som små, udelelige kuler (tidlig 1800-tall).",
+      "niva": "eksempel"
     },
     {
       "term": "Thomson",
-      "def": "Oppdaget elektronet i 1897. «Rosinbollemodellen»."
+      "def": "Oppdaget elektronet i 1897. «Rosinbollemodellen».",
+      "niva": "eksempel"
     },
     {
       "term": "Rutherford",
-      "def": "Viste i 1911 at atomet har en liten, tett kjerne."
+      "def": "Viste i 1911 at atomet har en liten, tett kjerne.",
+      "niva": "eksempel"
     },
     {
       "term": "Bohr",
-      "def": "Plasserte elektronene i bestemte skall rundt kjernen (1913)."
+      "def": "Plasserte elektronene i bestemte skall rundt kjernen (1913).",
+      "niva": "eksempel"
     },
     {
       "term": "Modeller endres",
@@ -68,7 +72,8 @@
     },
     {
       "term": "Globus",
-      "def": "Viser jordas form og kontinenter, men ikke høyder eller at jorda er litt flattrykt."
+      "def": "Viser jordas form og kontinenter, men ikke høyder eller at jorda er litt flattrykt.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -118,7 +123,8 @@
         "Ernest Rutherford"
       ],
       "correct": 3,
-      "explain": "Rutherfords forsøk i 1911 viste at det meste av atomet er tomrom rundt en liten kjerne."
+      "explain": "Rutherfords forsøk i 1911 viste at det meste av atomet er tomrom rundt en liten kjerne.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -154,7 +160,8 @@
         "Charles Darwin"
       ],
       "correct": 0,
-      "explain": "Bohrs modell fra 1913 forklarte blant annet lysspektre fra atomer."
+      "explain": "Bohrs modell fra 1913 forklarte blant annet lysspektre fra atomer.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -190,7 +197,8 @@
         "En tett kjerne med tomrom rundt"
       ],
       "correct": 1,
-      "explain": "Thomsons modell kalles ofte rosinbollemodellen."
+      "explain": "Thomsons modell kalles ofte rosinbollemodellen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -292,7 +300,8 @@
         "type": "sant-usant",
         "text": "Dagens atommodell er den samme som Daltons.",
         "correct": false,
-        "explain": "Atommodellen har blitt endret mange ganger siden Dalton."
+        "explain": "Atommodellen har blitt endret mange ganger siden Dalton.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -332,7 +341,8 @@
           "Den har ingen begrensninger"
         ],
         "correct": 0,
-        "explain": "Modellen er nyttig, men dagens kvantemekaniske modell viser at elektronene ikke har faste baner."
+        "explain": "Modellen er nyttig, men dagens kvantemekaniske modell viser at elektronene ikke har faste baner.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -345,7 +355,8 @@
           "1913"
         ],
         "correct": 2,
-        "explain": "J.J. Thomson oppdaget elektronet i 1897."
+        "explain": "J.J. Thomson oppdaget elektronet i 1897.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -383,7 +394,8 @@
         "kriterier": [
           "Nevner at tegningen kan hjelpe med å forstå skall eller periodesystemet.",
           "Forklarer at elektronene ikke egentlig beveger seg i sirkelbaner slik tegningen viser."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -392,7 +404,8 @@
         "kriterier": [
           "Beskriver Daltons atom som en liten, udelelig kule.",
           "Får fram at elektronene i den kvantemekaniske modellen ikke har bestemte baner."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -425,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -63,7 +63,8 @@
     },
     {
       "term": "Trinnskatt",
-      "def": "Skatt som øker med høyere inntekt."
+      "def": "Skatt som øker med høyere inntekt.",
+      "niva": "over-niva"
     },
     {
       "term": "Prosenttrekk",
@@ -177,7 +178,8 @@
         "NAV"
       ],
       "correct": 0,
-      "explain": "Statistisk sentralbyrå."
+      "explain": "Statistisk sentralbyrå.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -416,12 +418,14 @@
         "kriterier": [
           "Forklarer at trinnskatten øker når inntekten blir høyere.",
           "Forklarer at prosenttrekk er en fast prosent av lønnen."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -16,11 +16,13 @@
     },
     {
       "term": "Fraværsgrense",
-      "def": "Grense for udokumentert fravær i videregående som kan gi tap av karakter."
+      "def": "Grense for udokumentert fravær i videregående som kan gi tap av karakter.",
+      "niva": "eksempel"
     },
     {
       "term": "Hybel",
-      "def": "Eget rom eller liten leilighet, ofte for elever som bor borte fra familien."
+      "def": "Eget rom eller liten leilighet, ofte for elever som bor borte fra familien.",
+      "niva": "eksempel"
     },
     {
       "term": "Mestringsstrategi",
@@ -52,11 +54,13 @@
     },
     {
       "term": "PP-tjenesten",
-      "def": "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker."
+      "def": "Pedagogisk-psykologisk tjeneste som hjelper ved lærevansker.",
+      "niva": "eksempel"
     },
     {
       "term": "Ung.no",
-      "def": "Offentlig nettsted der unge kan finne informasjon og stille spørsmål anonymt."
+      "def": "Offentlig nettsted der unge kan finne informasjon og stille spørsmål anonymt.",
+      "niva": "eksempel"
     },
     {
       "term": "Omvalg",
@@ -64,11 +68,13 @@
     },
     {
       "term": "Fra idé til handling",
-      "def": "Idé, mål, plan, handling og evaluering."
+      "def": "Idé, mål, plan, handling og evaluering.",
+      "niva": "eksempel"
     },
     {
       "term": "Frivillig arbeid",
-      "def": "Ubetalt innsats for andre, for eksempel i et idrettslag."
+      "def": "Ubetalt innsats for andre, for eksempel i et idrettslag.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -118,7 +124,8 @@
         "Du får ekstra ferie"
       ],
       "correct": 2,
-      "explain": "I videregående gjelder en fraværsgrense."
+      "explain": "I videregående gjelder en fraværsgrense.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -166,7 +173,8 @@
         "Å vente"
       ],
       "correct": 2,
-      "explain": "Deretter lager du en plan og tar det første steget."
+      "explain": "Deretter lager du en plan og tar det første steget.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +186,8 @@
         "Et offentlig nettsted der unge kan finne informasjon og spørre anonymt"
       ],
       "correct": 3,
-      "explain": "Nettstedet har informasjon om mange temaer."
+      "explain": "Nettstedet har informasjon om mange temaer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -329,7 +338,8 @@
           "En fagforening"
         ],
         "correct": 1,
-        "explain": "PP-tjenesten kan gi råd om tilrettelegging."
+        "explain": "PP-tjenesten kan gi råd om tilrettelegging.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -355,7 +365,8 @@
           "Obligatorisk arbeid"
         ],
         "correct": 0,
-        "explain": "Frivillig arbeid gir erfaring og nettverk."
+        "explain": "Frivillig arbeid gir erfaring og nettverk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -385,7 +396,8 @@
           "Knytter utdanningsvalg til rådgiveren.",
           "Knytter lærevansker eller tilrettelegging til PP-tjenesten.",
           "Viser at de to tjenestene hjelper med ulike behov."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -412,7 +424,8 @@
         "kriterier": [
           "Nevner PP-tjenesten.",
           "Knytter hjelpen til lærevansker eller tilrettelegging."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -437,6 +450,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

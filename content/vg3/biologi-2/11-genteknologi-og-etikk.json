@@ -35,11 +35,13 @@
     },
     {
       "term": "CAR-T-behandling",
-      "def": "Pasientens immunceller genmodifiseres til å angripe kreft."
+      "def": "Pasientens immunceller genmodifiseres til å angripe kreft.",
+      "niva": "eksempel"
     },
     {
       "term": "Gyllen ris",
-      "def": "Genmodifisert ris med vitamin A."
+      "def": "Genmodifisert ris med vitamin A.",
+      "niva": "eksempel"
     },
     {
       "term": "Genteknologiloven",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Merking av GMO",
-      "def": "Krav om at GMO-mat skal merkes i Norge."
+      "def": "Krav om at GMO-mat skal merkes i Norge.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -105,7 +108,8 @@
         "Ris fra Norge"
       ],
       "correct": 2,
-      "explain": "Skal motvirke vitamin A-mangel."
+      "explain": "Skal motvirke vitamin A-mangel.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +121,8 @@
         "Fordi endringer i embryoer arves videre og er forbudt i de fleste land"
       ],
       "correct": 3,
-      "explain": "Et spørsmål om menneskeverd og sikkerhet."
+      "explain": "Et spørsmål om menneskeverd og sikkerhet.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -165,7 +170,8 @@
         "Genmodifisering av pasientens immunceller mot kreft"
       ],
       "correct": 3,
-      "explain": "En ny kreftbehandling."
+      "explain": "En ny kreftbehandling.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -296,7 +302,8 @@
         "type": "sant-usant",
         "text": "Steril oppdrettslaks kan hindre krysning med villaks.",
         "correct": true,
-        "explain": "Et forskningsfelt i havbruk."
+        "explain": "Et forskningsfelt i havbruk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -380,7 +387,8 @@
         "kriterier": [
           "Beskriver at maisen produserer et stoff.",
           "Forklarer at stoffet dreper skadeinsekter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -398,7 +406,8 @@
         "kriterier": [
           "Viser en riktig utregning av forskjellen mellom årstallene.",
           "Oppgir svaret 8 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +416,8 @@
         "kriterier": [
           "Viser regnestykket 2 ÷ 2.",
           "Oppgir at jentene utgjør 1 tvillingpar."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -65,7 +65,8 @@
     },
     {
       "term": "Løs(likning, x)",
-      "def": "CAS-kommando i GeoGebra for å løse likninger."
+      "def": "CAS-kommando i GeoGebra for å løse likninger.",
+      "niva": "eksempel"
     },
     {
       "term": "Uendelig mange løsninger",
@@ -334,7 +335,8 @@
           "RegLin"
         ],
         "correct": 1,
-        "explain": "Løs(likning, x) gir løsningen."
+        "explain": "Løs(likning, x) gir løsningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -422,12 +424,14 @@
           "Oppgir riktig syntaks for kommandoen Løs(likning, x).",
           "Oppgir riktig syntaks for likningssettkommandoen med begge likningene og begge ukjente.",
           "Skiller mellom å løse én likning og et likningssett."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

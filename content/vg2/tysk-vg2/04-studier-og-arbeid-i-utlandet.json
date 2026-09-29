@@ -29,7 +29,8 @@
     },
     {
       "term": "das Freiwillige Soziale Jahr (FSJ)",
-      "def": "et frivillig sosialt år"
+      "def": "et frivillig sosialt år",
+      "niva": "eksempel"
     },
     {
       "term": "die Sprachkenntnisse",
@@ -143,7 +144,8 @@
         "En type jobbkontrakt"
       ],
       "correct": 1,
-      "explain": "Freiwilliges Soziales Jahr."
+      "explain": "Freiwilliges Soziales Jahr.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -284,7 +286,8 @@
         "type": "sant-usant",
         "text": "Norge deltar i Erasmus+.",
         "correct": true,
-        "explain": "Norske studenter kan reise på utveksling gjennom programmet."
+        "explain": "Norske studenter kan reise på utveksling gjennom programmet.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -382,7 +385,8 @@
         "kriterier": [
           "Beschreibt mindestens zwei typische Aspekte der Au-pair-Möglichkeit.",
           "Beschreibt das FSJ als freiwillige soziale Arbeit und nennt einen passenden Einsatzort."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -424,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -57,7 +57,8 @@
     },
     {
       "term": "Protest song",
-      "def": "A song that criticises injustice or supports a cause."
+      "def": "A song that criticises injustice or supports a cause.",
+      "niva": "eksempel"
     },
     {
       "term": "Review",
@@ -155,7 +156,8 @@
         "A song without lyrics"
       ],
       "correct": 2,
-      "explain": "Protest songs have been important in movements for civil rights and peace."
+      "explain": "Protest songs have been important in movements for civil rights and peace.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -418,7 +420,8 @@
         "kriterier": [
           "States that English-language culture comes from many countries, not just the USA and the UK.",
           "Explains that exploring different places shows the variety of the English-speaking world."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -433,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

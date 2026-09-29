@@ -55,11 +55,13 @@
     },
     {
       "term": "LED-pære",
-      "def": "Har høy virkningsgrad fordi det meste av energien blir lys."
+      "def": "Har høy virkningsgrad fordi det meste av energien blir lys.",
+      "niva": "eksempel"
     },
     {
       "term": "Glødepære",
-      "def": "Har lav virkningsgrad fordi det meste blir varme."
+      "def": "Har lav virkningsgrad fordi det meste blir varme.",
+      "niva": "eksempel"
     },
     {
       "term": "Energilagring",
@@ -129,7 +131,8 @@
         "Stillingsenergi"
       ],
       "correct": 1,
-      "explain": "Energien forsvinner ikke. Det meste blir til varme med lav kvalitet."
+      "explain": "Energien forsvinner ikke. Det meste blir til varme med lav kvalitet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -302,7 +305,8 @@
         "type": "sant-usant",
         "text": "En LED-pære har høyere virkningsgrad enn en glødepære.",
         "correct": true,
-        "explain": "LED-pæra gjør mer av strømmen om til lys og mindre til varme."
+        "explain": "LED-pæra gjør mer av strømmen om til lys og mindre til varme.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -395,7 +399,8 @@
         "kriterier": [
           "Forklarer at det meste av energien i LED-pæren blir lys.",
           "Forklarer at det meste av energien i glødepæren blir varme, og knytter dette til lav virkningsgrad."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -428,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

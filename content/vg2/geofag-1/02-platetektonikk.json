@@ -67,7 +67,8 @@
     },
     {
       "term": "Den kaledonske fjellkjeden",
-      "def": "Dannet ved kollisjon mellom Baltika og Laurentia."
+      "def": "Dannet ved kollisjon mellom Baltika og Laurentia.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +154,8 @@
         "Varm flekk"
       ],
       "correct": 2,
-      "explain": "Platene glir forbi hverandre."
+      "explain": "Platene glir forbi hverandre.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +167,8 @@
         "Ved en kollisjon mellom Baltika og Laurentia"
       ],
       "correct": 3,
-      "explain": "For rundt 400–430 millioner år siden."
+      "explain": "For rundt 400–430 millioner år siden.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -296,7 +299,8 @@
         "type": "sant-usant",
         "text": "Island ligger på Den midtatlantiske ryggen.",
         "correct": true,
-        "explain": "Derfor er det mye vulkanisme der."
+        "explain": "Derfor er det mye vulkanisme der.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -316,7 +320,8 @@
           "Kollisjon mellom kontinenter"
         ],
         "correct": 1,
-        "explain": "Hawaii ligger midt på en plate."
+        "explain": "Hawaii ligger midt på en plate.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +334,8 @@
           "For 1 million år siden"
         ],
         "correct": 0,
-        "explain": "Grønland og Norge har drevet fra hverandre siden."
+        "explain": "Grønland og Norge har drevet fra hverandre siden.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -390,7 +396,8 @@
         "kriterier": [
           "Nevner at spenninger fra Den midtatlantiske ryggen forplanter seg inn i skorpa.",
           "Nevner landhevingen etter istida som en kilde til spenninger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -423,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

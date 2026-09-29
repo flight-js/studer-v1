@@ -65,7 +65,8 @@
     },
     {
       "term": "Konstruktivisme",
-      "def": "Ideer, identiteter og normer former stater."
+      "def": "Ideer, identiteter og normer former stater.",
+      "niva": "eksempel"
     },
     {
       "term": "Maktressurser",
@@ -155,7 +156,8 @@
         "Bare geografi"
       ],
       "correct": 2,
-      "explain": "Hvordan stater oppfatter hverandre."
+      "explain": "Hvordan stater oppfatter hverandre.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -179,7 +181,8 @@
         "Katolikk–protestant"
       ],
       "correct": 0,
-      "explain": "Også innvandring og verdier."
+      "explain": "Også innvandring og verdier.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -191,7 +194,8 @@
         "En reklame"
       ],
       "correct": 1,
-      "explain": "Offisiell statistikk."
+      "explain": "Offisiell statistikk.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -281,7 +285,8 @@
         "type": "sant-usant",
         "text": "Nynorsk og bokmål hører til den kulturelle konfliktlinjen hos Rokkan.",
         "correct": true,
-        "explain": "Sammen med religion og avholdssak."
+        "explain": "Sammen med religion og avholdssak.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -379,7 +384,8 @@
         "kriterier": [
           "Får fram at ideer, identiteter eller normer former staters oppfatninger.",
           "Knytter dette til at statene kan forstå eller tolke handlingen ulikt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -421,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

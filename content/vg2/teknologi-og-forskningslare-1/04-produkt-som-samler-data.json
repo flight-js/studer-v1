@@ -23,7 +23,8 @@
     },
     {
       "term": "SD-kort",
-      "def": "Minnekort for lagring av målinger."
+      "def": "Minnekort for lagring av målinger.",
+      "niva": "eksempel"
     },
     {
       "term": "Målefrekvens",
@@ -31,7 +32,8 @@
     },
     {
       "term": "Tommelfingerregel for målefrekvens",
-      "def": "Mål minst dobbelt så ofte som de raskeste endringene."
+      "def": "Mål minst dobbelt så ofte som de raskeste endringene.",
+      "niva": "over-niva"
     },
     {
       "term": "For høy målefrekvens",
@@ -47,11 +49,13 @@
     },
     {
       "term": "Kalibrert instrument",
-      "def": "Referanse loggeren kan sammenlignes med."
+      "def": "Referanse loggeren kan sammenlignes med.",
+      "niva": "eksempel"
     },
     {
       "term": "Kabinett",
-      "def": "Beskytter elektronikken uten å påvirke målingen."
+      "def": "Beskytter elektronikken uten å påvirke målingen.",
+      "niva": "eksempel"
     },
     {
       "term": "Feilmåling",
@@ -63,7 +67,8 @@
     },
     {
       "term": "CO₂ i ppm",
-      "def": "Mål for luftkvalitet innendørs."
+      "def": "Mål for luftkvalitet innendørs.",
+      "niva": "eksempel"
     },
     {
       "term": "Vurdering",
@@ -105,7 +110,8 @@
         "Én måling per uke"
       ],
       "correct": 2,
-      "explain": "Temperaturen endrer seg sakte."
+      "explain": "Temperaturen endrer seg sakte.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -177,7 +183,8 @@
         "At det er for mange vinduer"
       ],
       "correct": 0,
-      "explain": "Frisk luft senker CO₂-nivået."
+      "explain": "Frisk luft senker CO₂-nivået.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -296,7 +303,8 @@
         "type": "sant-usant",
         "text": "En datalogger bør testes mot et kalibrert instrument.",
         "correct": true,
-        "explain": "Da vet du om målingene stemmer."
+        "explain": "Da vet du om målingene stemmer.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -380,7 +388,8 @@
         "kriterier": [
           "Bruker det kalibrerte instrumentet som referanse for den samme størrelsen.",
           "Forklarer at målingene sammenlignes for å kontrollere loggerens verdier."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -389,7 +398,8 @@
         "kriterier": [
           "Beskriver SD-kort som lagring på et minnekort.",
           "Beskriver trådløs løsning som overføring til en skytjeneste."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

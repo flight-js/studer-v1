@@ -63,11 +63,13 @@
     },
     {
       "term": "Psykologisk førstehjelp",
-      "def": "Trygghet, ro, kontakt, mestring og håp."
+      "def": "Trygghet, ro, kontakt, mestring og håp.",
+      "niva": "eksempel"
     },
     {
       "term": "Kriseteam",
-      "def": "Kommunalt team som hjelper ved alvorlige hendelser."
+      "def": "Kommunalt team som hjelper ved alvorlige hendelser.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +179,8 @@
         "Å analysere drømmer"
       ],
       "correct": 0,
-      "explain": "Å lytte og være til stede."
+      "explain": "Å lytte og være til stede.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +192,8 @@
         "1881"
       ],
       "correct": 1,
-      "explain": "Medisinsk nødtelefon."
+      "explain": "Medisinsk nødtelefon.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -342,7 +346,8 @@
           "Assimilasjon"
         ],
         "correct": 2,
-        "explain": "Kan dempe smerten en stund."
+        "explain": "Kan dempe smerten en stund.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -416,12 +421,14 @@
         "kriterier": [
           "Beskriver minst én konkret handling, som å lytte, være til stede eller gi praktisk hjelp.",
           "Knytter hjelpen til trygghet, ro, kontakt, mestring eller håp."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

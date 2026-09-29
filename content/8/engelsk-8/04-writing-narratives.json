@@ -41,7 +41,8 @@
     },
     {
       "term": "In medias res",
-      "def": "Starting a story in the middle of the action."
+      "def": "Starting a story in the middle of the action.",
+      "niva": "over-niva"
     },
     {
       "term": "First-person narrator",
@@ -435,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

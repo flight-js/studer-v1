@@ -31,7 +31,8 @@
     },
     {
       "term": "Kompatibilisme",
-      "def": "Fri vilje og determinisme kan forenes."
+      "def": "Fri vilje og determinisme kan forenes.",
+      "niva": "eksempel"
     },
     {
       "term": "Kunnskap (klassisk)",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Tabula rasa",
-      "def": "Sinnet som et ubeskrevet blad ved fødselen (Locke)."
+      "def": "Sinnet som et ubeskrevet blad ved fødselen (Locke).",
+      "niva": "eksempel"
     },
     {
       "term": "Induksjonsproblemet",
@@ -141,7 +143,8 @@
         "At kropp og sjel er ett"
       ],
       "correct": 1,
-      "explain": "Vi er frie når vi handler uten ytre tvang."
+      "explain": "Vi er frie når vi handler uten ytre tvang.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +192,8 @@
         "At alt er bestemt"
       ],
       "correct": 1,
-      "explain": "Lockes empirisme."
+      "explain": "Lockes empirisme.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -374,7 +378,8 @@
         "kriterier": [
           "Viser til at hun handler ut fra egne ønsker.",
           "Viser til fravær av ytre tvang og knytter dette til at fri vilje kan forenes med determinisme."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -416,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

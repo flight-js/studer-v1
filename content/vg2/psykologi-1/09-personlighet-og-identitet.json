@@ -19,7 +19,8 @@
     },
     {
       "term": "Epigenetikk",
-      "def": "Miljøet påvirker hvilke gener som skrus av og på."
+      "def": "Miljøet påvirker hvilke gener som skrus av og på.",
+      "niva": "over-niva"
     },
     {
       "term": "Tvillingstudier",
@@ -113,7 +114,8 @@
         "At gener aldri endres"
       ],
       "correct": 2,
-      "explain": "Et eksempel på samspill mellom arv og miljø."
+      "explain": "Et eksempel på samspill mellom arv og miljø.",
+      "niva": "over-niva"
     },
     {
       "id": "q04",
@@ -173,7 +175,8 @@
         "Selvbildet og avstanden til den man ønsker å være"
       ],
       "correct": 3,
-      "explain": "Et humanistisk perspektiv."
+      "explain": "Et humanistisk perspektiv.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -385,7 +388,8 @@
         "kriterier": [
           "Forklarer at det er avstanden mellom hvem personen er og ønsker å være som kan skape vansker.",
           "Knytter dette til Rogers’ vekt på selvbildet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -394,7 +398,8 @@
         "kriterier": [
           "Knytter elevens følelser eller tanker til personen, og handlingen til atferd.",
           "Knytter klassekameratenes reaksjoner til miljøet og forklarer at de tre delene inngår i et samspill."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -412,7 +417,8 @@
         "kriterier": [
           "Knytter Freuds teori til ubevisste konflikter og barndommen.",
           "Knytter Rogers’ teori til selvbildet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -427,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -386,7 +386,8 @@
         "kriterier": [
           "Identifiserer generalisering ut fra få eksempler.",
           "Forklarer at grunnlaget er for lite til å trekke en konklusjon om alle."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -428,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

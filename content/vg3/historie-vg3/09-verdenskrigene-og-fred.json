@@ -71,7 +71,8 @@
     },
     {
       "term": "Sannhets- og forsoningskommisjonen",
-      "def": "Norsk kommisjon som i 2023 la fram rapport om fornorskingen."
+      "def": "Norsk kommisjon som i 2023 la fram rapport om fornorskingen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -133,7 +134,8 @@
         "Den kalde krigen"
       ],
       "correct": 0,
-      "explain": "Grunnlaget for EU."
+      "explain": "Grunnlaget for EU.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -157,7 +159,8 @@
         "En fredsavtale"
       ],
       "correct": 2,
-      "explain": "Om samer, kvener og skogfinner."
+      "explain": "Om samer, kvener og skogfinner.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -293,7 +296,8 @@
         "type": "sant-usant",
         "text": "Oslo-avtalene fra 1993 skapte varig fred mellom Israel og palestinerne.",
         "correct": false,
-        "explain": "De ga håp, men ikke varig fred."
+        "explain": "De ga håp, men ikke varig fred.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -320,7 +324,8 @@
           "München-avtalen"
         ],
         "correct": 1,
-        "explain": "Etter krigen i Bosnia."
+        "explain": "Etter krigen i Bosnia.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -346,7 +351,8 @@
           "2008"
         ],
         "correct": 2,
-        "explain": "Viste at krig mellom stater i Europa ikke er historie."
+        "explain": "Viste at krig mellom stater i Europa ikke er historie.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -411,7 +417,8 @@
         "kriterier": [
           "Forklarer at forsoning handler om å erkjenne urett.",
           "Knytter kommisjonen etter apartheid til arbeidet med å bygge tillit eller forsoning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

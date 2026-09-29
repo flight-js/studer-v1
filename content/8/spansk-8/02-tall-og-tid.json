@@ -186,7 +186,8 @@
         "Aldri"
       ],
       "correct": 2,
-      "explain": "Landene ligger på den sørlige halvkule."
+      "explain": "Landene ligger på den sørlige halvkule.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -440,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

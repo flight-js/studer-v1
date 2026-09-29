@@ -55,11 +55,13 @@
     },
     {
       "term": "RegEksp",
-      "def": "GeoGebra-kommando for eksponentiell regresjon."
+      "def": "GeoGebra-kommando for eksponentiell regresjon.",
+      "niva": "eksempel"
     },
     {
       "term": "RegLogistisk",
-      "def": "GeoGebra-kommando for logistisk regresjon."
+      "def": "GeoGebra-kommando for logistisk regresjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Logistisk vekstfart",
@@ -189,7 +191,8 @@
         "RegLin"
       ],
       "correct": 1,
-      "explain": "RegEksp er for eksponentiell."
+      "explain": "RegEksp er for eksponentiell.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -342,7 +345,8 @@
           "En fast månedslønn"
         ],
         "correct": 2,
-        "explain": "Stopper når nesten alle har tatt den i bruk."
+        "explain": "Stopper når nesten alle har tatt den i bruk.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -407,7 +411,8 @@
         "kriterier": [
           "Velger RegLogistisk ut fra at punktene flater ut.",
           "Identifiserer K som bæreevnen eller øvre grense."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

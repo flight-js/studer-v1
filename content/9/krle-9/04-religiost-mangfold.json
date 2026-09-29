@@ -27,15 +27,18 @@
     },
     {
       "term": "Healing",
-      "def": "Tro på at energier eller håndspåleggelse kan helbrede."
+      "def": "Tro på at energier eller håndspåleggelse kan helbrede.",
+      "niva": "eksempel"
     },
     {
       "term": "Astrologi",
-      "def": "Troen på at stjernenes og planetenes stilling påvirker livet vårt."
+      "def": "Troen på at stjernenes og planetenes stilling påvirker livet vårt.",
+      "niva": "eksempel"
     },
     {
       "term": "Reinkarnasjon",
-      "def": "Troen på at sjelen blir født på nytt i en ny kropp."
+      "def": "Troen på at sjelen blir født på nytt i en ny kropp.",
+      "niva": "eksempel"
     },
     {
       "term": "Privatreligiøsitet",
@@ -43,15 +46,18 @@
     },
     {
       "term": "Mindfulness",
-      "def": "Oppmerksomhetstrening med røtter i buddhistisk meditasjon."
+      "def": "Oppmerksomhetstrening med røtter i buddhistisk meditasjon.",
+      "niva": "eksempel"
     },
     {
       "term": "St. Olavsleden",
-      "def": "Pilegrimsled til Nidaros som er blitt populær igjen."
+      "def": "Pilegrimsled til Nidaros som er blitt populær igjen.",
+      "niva": "eksempel"
     },
     {
       "term": "Åsatro",
-      "def": "Norrøn tro som har fått nye tilhengere i vår tid."
+      "def": "Norrøn tro som har fått nye tilhengere i vår tid.",
+      "niva": "eksempel"
     },
     {
       "term": "Nye religiøse bevegelser",
@@ -67,7 +73,8 @@
     },
     {
       "term": "Lov om alternativ behandling",
-      "def": "Norsk lov som regulerer hva utøvere av alternativ behandling har lov til."
+      "def": "Norsk lov som regulerer hva utøvere av alternativ behandling har lov til.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +100,8 @@
         "Healing med energier"
       ],
       "correct": 3,
-      "explain": "De andre er praksiser i etablerte religioner."
+      "explain": "De andre er praksiser i etablerte religioner.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +125,8 @@
         "Omskjæring"
       ],
       "correct": 2,
-      "explain": "Mindfulness brukes blant annet i skoler og helsevesen."
+      "explain": "Mindfulness brukes blant annet i skoler og helsevesen.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +138,8 @@
         "En kirke i Oslo"
       ],
       "correct": 2,
-      "explain": "Pilegrimsvandring har fått en ny oppblomstring de siste tiårene."
+      "explain": "Pilegrimsvandring har fått en ny oppblomstring de siste tiårene.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +151,8 @@
         "En katolsk orden"
       ],
       "correct": 1,
-      "explain": "Noen åsatrusamfunn er registrerte trossamfunn i Norge."
+      "explain": "Noen åsatrusamfunn er registrerte trossamfunn i Norge.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +176,8 @@
         "Ortodoks jødedom"
       ],
       "correct": 0,
-      "explain": "Jehovas vitner oppsto i USA på 1870-tallet."
+      "explain": "Jehovas vitner oppsto i USA på 1870-tallet.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -298,7 +310,8 @@
         "type": "sant-usant",
         "text": "Yoga kan bare praktiseres av hinduer.",
         "correct": false,
-        "explain": "Yoga har røtter i hinduismen, men praktiseres av mange uten religiøst innhold."
+        "explain": "Yoga har røtter i hinduismen, men praktiseres av mange uten religiøst innhold.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -325,7 +338,8 @@
           "Troen på én Gud"
         ],
         "correct": 0,
-        "explain": "Ideen finnes blant annet i hinduisme og buddhisme, og hos mange nyreligiøse."
+        "explain": "Ideen finnes blant annet i hinduisme og buddhisme, og hos mange nyreligiøse.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -338,7 +352,8 @@
           "En pilegrimsreise"
         ],
         "correct": 1,
-        "explain": "Vitenskapen om himmellegemene heter astronomi."
+        "explain": "Vitenskapen om himmellegemene heter astronomi.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -351,7 +366,8 @@
           "Hvor mange trossamfunn det kan være"
         ],
         "correct": 2,
-        "explain": "Loven skal beskytte pasienter, særlig ved alvorlig sykdom."
+        "explain": "Loven skal beskytte pasienter, særlig ved alvorlig sykdom.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -371,7 +387,8 @@
         "kriterier": [
           "Forklarer astrologi som en tro på at stjernenes og planetenes stilling påvirker livet.",
           "Forklarer reinkarnasjon som at sjelen blir født på nytt i en ny kropp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -389,7 +406,8 @@
         "kriterier": [
           "Nevner at yoga har røtter i hinduisme og buddhisme.",
           "Forklarer at yoga også kan praktiseres uten religiøst innhold."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -398,7 +416,8 @@
         "kriterier": [
           "Forklarer at pilegrimsvandringen kan ha en religiøs betydning.",
           "Forklarer at den også kan oppleves som en tur eller naturopplevelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -407,7 +426,8 @@
         "kriterier": [
           "Får fram at Jehovas vitner er en organisert religiøs bevegelse.",
           "Skiller dette fra astrologi som en tro eller praksis innen alternativ spiritualitet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,7 +436,8 @@
         "kriterier": [
           "Nevner at loven regulerer alternativ behandling og begrenser behandling av alvorlige sykdommer.",
           "Peker på at påstanden om å kunne kurere sykdommen bør vurderes kritisk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -431,6 +452,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

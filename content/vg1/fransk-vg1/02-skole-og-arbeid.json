@@ -155,7 +155,8 @@
         "0–100"
       ],
       "correct": 2,
-      "explain": "10 av 20 er bestått."
+      "explain": "10 av 20 er bestått.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -167,7 +168,8 @@
         "Elle est avocate."
       ],
       "correct": 3,
-      "explain": "Ingen artikkel foran yrket etter être."
+      "explain": "Ingen artikkel foran yrket etter être.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -292,7 +294,8 @@
         "type": "sant-usant",
         "text": "«une infirmière» betyr en sykepleier.",
         "correct": true,
-        "explain": "Hankjønn: un infirmier."
+        "explain": "Hankjønn: un infirmier.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -367,7 +370,8 @@
         "kriterier": [
           "Indique que les journées sont souvent longues.",
           "Indique que beaucoup d’élèves ont le mercredi libre ou une demi-journée de libre."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -403,7 +407,8 @@
         "kriterier": [
           "Utilise vendeur pour l’homme et vendeuse pour la femme.",
           "Utilise correctement être pour présenter le métier, sans article devant celui-ci."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -418,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

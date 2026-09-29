@@ -322,7 +322,8 @@
           "Barnehagelærer"
         ],
         "correct": 0,
-        "explain": "Bilmekanikere jobber nå mye med elektronikk og programvare."
+        "explain": "Bilmekanikere jobber nå mye med elektronikk og programvare.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -422,12 +423,14 @@
         "kriterier": [
           "Nevner både fagarbeidere og personer med høyere utdanning.",
           "Nevner helse og omsorg som et område med stort behov for arbeidskraft."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

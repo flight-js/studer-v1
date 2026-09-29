@@ -56,7 +56,8 @@
     },
     {
       "term": "die Energiewende",
-      "def": "Tysklands omstilling til fornybar energi"
+      "def": "Tysklands omstilling til fornybar energi",
+      "niva": "eksempel"
     },
     {
       "term": "Man sollte …",
@@ -68,11 +69,13 @@
     },
     {
       "term": "der Bundestag",
-      "def": "Tysklands nasjonalforsamling"
+      "def": "Tysklands nasjonalforsamling",
+      "niva": "eksempel"
     },
     {
       "term": "die Einwanderungsgeschichte",
-      "def": "innvandrerbakgrunn"
+      "def": "innvandrerbakgrunn",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -158,7 +161,8 @@
         "Der Mauerfall"
       ],
       "correct": 0,
-      "explain": "«die Wende» betyr vendepunktet."
+      "explain": "«die Wende» betyr vendepunktet.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -170,7 +174,8 @@
         "En avis"
       ],
       "correct": 1,
-      "explain": "Bundestag ligger i Berlin, i Riksdagsbygningen."
+      "explain": "Bundestag ligger i Berlin, i Riksdagsbygningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -300,14 +305,16 @@
         "type": "sant-usant",
         "text": "Tyskland produserer fortsatt mye strøm fra atomkraft.",
         "correct": false,
-        "explain": "De siste atomkraftverkene ble stengt i 2023."
+        "explain": "De siste atomkraftverkene ble stengt i 2023.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Angela Merkel var Tysklands forbundskansler fra 2005 til 2021.",
         "correct": true,
-        "explain": "Hun var den første kvinnen i vervet."
+        "explain": "Hun var den første kvinnen i vervet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -340,7 +347,8 @@
           "12"
         ],
         "correct": 1,
-        "explain": "Delstatene kalles «Bundesländer»."
+        "explain": "Delstatene kalles «Bundesländer».",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -364,7 +372,8 @@
         "kriterier": [
           "Plasserer emballasje av plast og metall i den gule dunken og papir og papp i den blå.",
           "Plasserer matavfall i Biotonne og restavfall i Restmüll."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -373,7 +382,8 @@
         "kriterier": [
           "Forklarer at omstillingen går mot fornybar energi, og nevner vindkraft eller solenergi.",
           "Får fram at kull fortsatt ga rundt en femdel av strømmen i 2025."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -382,7 +392,8 @@
         "kriterier": [
           "Nevner at begge land satser på fornybar energi.",
           "Nevner at Norge eksporterer både gass og strøm til Tyskland."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -400,7 +411,8 @@
         "kriterier": [
           "Nevner at omtrent hver fjerde innbygger har innvandrerbakgrunn.",
           "Nevner at den største gruppen har røtter i Tyrkia."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -409,7 +421,8 @@
         "kriterier": [
           "Nevner minst to av temaene andre verdenskrig, Holocaust og delingen av Tyskland.",
           "Knytter temaene til at historien fortsatt preger samfunnet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -418,7 +431,8 @@
         "kriterier": [
           "Forklarer at Bundestag er nasjonalforsamlingen.",
           "Forklarer at forbundskansleren leder regjeringen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -432,6 +446,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

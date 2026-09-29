@@ -51,11 +51,13 @@
     },
     {
       "term": "Pinatubo 1991",
-      "def": "Vulkanutbrudd som ga global avkjøling på omtrent en halv grad."
+      "def": "Vulkanutbrudd som ga global avkjøling på omtrent en halv grad.",
+      "niva": "eksempel"
     },
     {
       "term": "El Niño",
-      "def": "Samspill mellom hav og atmosfære i Stillehavet som påvirker været globalt."
+      "def": "Samspill mellom hav og atmosfære i Stillehavet som påvirker været globalt.",
+      "niva": "eksempel"
     },
     {
       "term": "Havforsuring",
@@ -105,7 +107,8 @@
         "Ingenting"
       ],
       "correct": 2,
-      "explain": "Svovelpartikler reflekterte sollys."
+      "explain": "Svovelpartikler reflekterte sollys.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -177,7 +180,8 @@
         "Den øker albedo"
       ],
       "correct": 0,
-      "explain": "Over millioner av år."
+      "explain": "Over millioner av år.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -342,7 +346,8 @@
           "Bare gjennom jordskjelv"
         ],
         "correct": 2,
-        "explain": "Endrer havstrømmer og klima."
+        "explain": "Endrer havstrømmer og klima.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -380,7 +385,8 @@
         "kriterier": [
           "Identifiserer havet og atmosfæren som systemene som samspiller.",
           "Nevner at været kan påvirkes over store deler av verden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -422,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

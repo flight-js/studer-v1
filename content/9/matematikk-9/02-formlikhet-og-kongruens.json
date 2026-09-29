@@ -69,11 +69,13 @@
     },
     {
       "term": "Areal ved forstørrelse",
-      "def": "Ganges alle lengder med k, blir arealet k² ganger så stort."
+      "def": "Ganges alle lengder med k, blir arealet k² ganger så stort.",
+      "niva": "over-niva"
     },
     {
       "term": "Skyggemetoden",
-      "def": "Sollys gir formlike trekanter. Høyden av et tre kan finnes fra skyggen til en kjent pinne."
+      "def": "Sollys gir formlike trekanter. Høyden av et tre kan finnes fra skyggen til en kjent pinne.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -159,7 +161,8 @@
         "Det blir fire ganger så stort"
       ],
       "correct": 3,
-      "explain": "Arealet ganges med k² = 2² = 4. Et kvadrat med side 3 har areal 9, med side 6 har det areal 36."
+      "explain": "Arealet ganges med k² = 2² = 4. Et kvadrat med side 3 har areal 9, med side 6 har det areal 36.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -346,7 +349,8 @@
           "9"
         ],
         "correct": 3,
-        "explain": "Arealet ganges med 3² = 9."
+        "explain": "Arealet ganges med 3² = 9.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -393,7 +397,8 @@
         "kriterier": [
           "Finner at arealet blir 9 ganger så stort.",
           "Begrunner svaret med at arealfaktoren er kvadratet av lengdefaktoren."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -426,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

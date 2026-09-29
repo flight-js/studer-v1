@@ -55,7 +55,8 @@
     },
     {
       "term": "Kontakthypotesen",
-      "def": "Positiv kontakt kan redusere fordommer."
+      "def": "Positiv kontakt kan redusere fordommer.",
+      "niva": "eksempel"
     },
     {
       "term": "Holdningens tre komponenter",
@@ -153,7 +154,8 @@
         "At kontakt ikke har betydning"
       ],
       "correct": 2,
-      "explain": "Viktig for integrering."
+      "explain": "Viktig for integrering.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +179,8 @@
         "Fordi ingen deltok"
       ],
       "correct": 0,
-      "explain": "Konklusjonene er omstridt."
+      "explain": "Konklusjonene er omstridt.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -273,7 +276,8 @@
         "type": "sant-usant",
         "text": "Selv tilfeldig sammensatte grupper kan gi favorisering av egen gruppe.",
         "correct": true,
-        "explain": "Tajfels forsøk."
+        "explain": "Tajfels forsøk.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -414,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

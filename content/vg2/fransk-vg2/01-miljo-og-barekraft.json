@@ -41,11 +41,13 @@
     },
     {
       "term": "l'Accord de Paris",
-      "def": "Parisavtalen (2015)"
+      "def": "Parisavtalen (2015)",
+      "niva": "eksempel"
     },
     {
       "term": "la Convention citoyenne pour le climat",
-      "def": "borgerpanelet for klima med 150 loddtrukne innbyggere"
+      "def": "borgerpanelet for klima med 150 loddtrukne innbyggere",
+      "niva": "eksempel"
     },
     {
       "term": "Il faut que + subjonctif",
@@ -95,7 +97,8 @@
         "Solkraft"
       ],
       "correct": 0,
-      "explain": "Det gir lave CO₂-utslipp, men atomavfall."
+      "explain": "Det gir lave CO₂-utslipp, men atomavfall.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -131,7 +134,8 @@
         "I Brussel i 2020"
       ],
       "correct": 0,
-      "explain": "L'Accord de Paris."
+      "explain": "L'Accord de Paris.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -143,7 +147,8 @@
         "En klimalov"
       ],
       "correct": 1,
-      "explain": "Panelet foreslo klimatiltak i 2019–2020."
+      "explain": "Panelet foreslo klimatiltak i 2019–2020.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -373,7 +378,8 @@
         "kriterier": [
           "Kobler Norge til vannkraft og Frankrike til kjernekraft.",
           "Forklarer at begge har lave utslipp fra strømproduksjon på grunn av energikildene de bruker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -382,7 +388,8 @@
         "kriterier": [
           "Oppgir at målet er å begrense den globale oppvarmingen.",
           "Får med at grensen er godt under 2 grader."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -423,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

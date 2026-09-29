@@ -305,7 +305,8 @@
         "type": "sant-usant",
         "text": "Tysk snakkes bare i Tyskland.",
         "correct": false,
-        "explain": "Tysk er også offisielt språk i blant annet Østerrike og Sveits."
+        "explain": "Tysk er også offisielt språk i blant annet Østerrike og Sveits.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -404,7 +405,8 @@
         "kriterier": [
           "Nevner at tysk og norsk er i slekt.",
           "Gir to riktige par med lignende ord på tysk og norsk."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -431,12 +433,14 @@
         "kriterier": [
           "Nevner Tyskland, Østerrike, Sveits og Liechtenstein.",
           "Nevner deler av Belgia, Luxembourg eller Italia som et annet sted der tysk snakkes."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

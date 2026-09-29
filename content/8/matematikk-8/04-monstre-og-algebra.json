@@ -28,7 +28,8 @@
     },
     {
       "term": "Trekanttall",
-      "def": "Tallene 1, 3, 6, 10, 15 …, som gir antall prikker i trekanter som vokser."
+      "def": "Tallene 1, 3, 6, 10, 15 …, som gir antall prikker i trekanter som vokser.",
+      "niva": "eksempel"
     },
     {
       "term": "Variabel",
@@ -190,7 +191,8 @@
         "16"
       ],
       "correct": 0,
-      "explain": "Økningen blir én større for hver figur: +2, +3, +4, og så +5. 10 + 5 = 15."
+      "explain": "Økningen blir én større for hver figur: +2, +3, +4, og så +5. 10 + 5 = 15.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -394,7 +396,8 @@
         "kriterier": [
           "Knytter kvadrattallene til n².",
           "Forklarer at trekanttallene er antall prikker i voksende trekanter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -427,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

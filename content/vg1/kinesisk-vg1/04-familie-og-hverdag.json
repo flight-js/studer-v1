@@ -191,7 +191,8 @@
         "Platon"
       ],
       "correct": 1,
-      "explain": "Konfucius' ideer har preget kinesisk kultur i over 2000 år."
+      "explain": "Konfucius' ideer har preget kinesisk kultur i over 2000 år.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -301,7 +302,8 @@
         "type": "sant-usant",
         "text": "Kina hadde en ettbarnspolitikk fra 1980 til 2015.",
         "correct": true,
-        "explain": "I dag er det lov med flere barn."
+        "explain": "I dag er det lov med flere barn.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -334,7 +336,8 @@
           "sove"
         ],
         "correct": 0,
-        "explain": "Te er en viktig del av kinesisk kultur."
+        "explain": "Te er en viktig del av kinesisk kultur.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -347,7 +350,8 @@
           "søster"
         ],
         "correct": 2,
-        "explain": "爷爷 er farfar."
+        "explain": "爷爷 er farfar.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -403,7 +407,8 @@
         "kriterier": [
           "Nevner at familier i dag har lov til å få flere barn.",
           "Nevner at mange likevel velger å få få barn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -427,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

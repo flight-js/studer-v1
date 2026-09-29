@@ -63,11 +63,13 @@
     },
     {
       "term": "Massespektrometer",
-      "def": "Instrument som identifiserer stoffer, ofte koblet til GC eller HPLC."
+      "def": "Instrument som identifiserer stoffer, ofte koblet til GC eller HPLC.",
+      "niva": "over-niva"
     },
     {
       "term": "Dopingkontroll",
-      "def": "Bruk av kromatografi for å påvise forbudte stoffer."
+      "def": "Bruk av kromatografi for å påvise forbudte stoffer.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -329,7 +331,8 @@
           "Termometer"
         ],
         "correct": 0,
-        "explain": "Gir molekylenes masse og struktur."
+        "explain": "Gir molekylenes masse og struktur.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -407,7 +410,8 @@
         "kriterier": [
           "Knytter kromatografi til analyse av giftstoffer i rettsmedisin.",
           "Forklarer at massespektrometeret brukes til å identifisere stoffer."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -422,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

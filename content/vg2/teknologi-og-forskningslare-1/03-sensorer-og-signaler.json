@@ -27,11 +27,13 @@
     },
     {
       "term": "10-biters AD-omformer",
-      "def": "Gir verdier fra 0 til 1023."
+      "def": "Gir verdier fra 0 til 1023.",
+      "niva": "eksempel"
     },
     {
       "term": "Omregning fra verdi til spenning",
-      "def": "U = verdi · 5,0 / 1023"
+      "def": "U = verdi · 5,0 / 1023",
+      "niva": "eksempel"
     },
     {
       "term": "Oppløsning",
@@ -39,11 +41,13 @@
     },
     {
       "term": "TMP36",
-      "def": "T = (U − 0,5) · 100"
+      "def": "T = (U − 0,5) · 100",
+      "niva": "eksempel"
     },
     {
       "term": "LDR",
-      "def": "Fotoresistor med lavere resistans i sterkere lys."
+      "def": "Fotoresistor med lavere resistans i sterkere lys.",
+      "niva": "eksempel"
     },
     {
       "term": "Spenningsdeler",
@@ -51,15 +55,18 @@
     },
     {
       "term": "Ultralydsensor",
-      "def": "avstand = tid · lydfart / 2"
+      "def": "avstand = tid · lydfart / 2",
+      "niva": "eksempel"
     },
     {
       "term": "Akselerometer",
-      "def": "Måler akselerasjon i tre retninger."
+      "def": "Måler akselerasjon i tre retninger.",
+      "niva": "eksempel"
     },
     {
       "term": "PIR-sensor",
-      "def": "Oppdager varme kropper som beveger seg."
+      "def": "Oppdager varme kropper som beveger seg.",
+      "niva": "eksempel"
     },
     {
       "term": "Kalibrering",
@@ -93,7 +100,8 @@
         "0–5"
       ],
       "correct": 0,
-      "explain": "2¹⁰ = 1024 verdier."
+      "explain": "2¹⁰ = 1024 verdier.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +113,8 @@
         "50 °C"
       ],
       "correct": 2,
-      "explain": "(0,75 − 0,5) · 100."
+      "explain": "(0,75 − 0,5) · 100.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +126,8 @@
         "Fordi lyden går fram og tilbake"
       ],
       "correct": 3,
-      "explain": "Tiden gjelder begge veier."
+      "explain": "Tiden gjelder begge veier.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +139,8 @@
         "Den blir null"
       ],
       "correct": 0,
-      "explain": "Brukes i lysmålere og nattlys."
+      "explain": "Brukes i lysmålere og nattlys.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +164,8 @@
         "686 m"
       ],
       "correct": 2,
-      "explain": "0,002 · 343 / 2."
+      "explain": "0,002 · 343 / 2.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +177,8 @@
         "Akselerometer"
       ],
       "correct": 3,
-      "explain": "Den registrerer plutselig nedbremsing."
+      "explain": "Den registrerer plutselig nedbremsing.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +190,8 @@
         "512 V"
       ],
       "correct": 0,
-      "explain": "512 · 5,0 / 1023."
+      "explain": "512 · 5,0 / 1023.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -316,7 +330,8 @@
           "10 mV"
         ],
         "correct": 1,
-        "explain": "5 V / 1023."
+        "explain": "5 V / 1023.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +344,8 @@
           "Fuktighetssensor"
         ],
         "correct": 0,
-        "explain": "Den måler avstand."
+        "explain": "Den måler avstand.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -342,7 +358,8 @@
           "Uten ledninger"
         ],
         "correct": 2,
-        "explain": "Spenningen endrer seg med lyset."
+        "explain": "Spenningen endrer seg med lyset.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -362,7 +379,8 @@
         "kriterier": [
           "Beskriver TMP36-signalet som analog spenning som varierer med temperaturen.",
           "Beskriver at den digitale sensoren sender et ferdig tall over en databuss."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -380,7 +398,8 @@
         "kriterier": [
           "Setter 0,8 V inn i formelen og viser at 0,8 − 0,5 = 0,3.",
           "Får fram svaret 30 °C."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -389,7 +408,8 @@
         "kriterier": [
           "Bruker verdien 204 i formelen for å finne spenningen.",
           "Oppgir omtrent 1,0 V."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +418,8 @@
         "kriterier": [
           "Forklarer at LDR-ens resistans blir lavere når det blir lysere.",
           "Knytter spenningsdeleren til en spenningsendring som mikrokontrolleren kan lese."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +428,8 @@
         "kriterier": [
           "Forklarer at PIR-sensoren oppdager varme kropper i bevegelse.",
           "Forklarer at akselerometeret måler akselerasjon i tre retninger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -37,11 +37,13 @@
     },
     {
       "term": "妈 mā",
-      "def": "mor"
+      "def": "mor",
+      "niva": "eksempel"
     },
     {
       "term": "马 mǎ",
-      "def": "hest"
+      "def": "hest",
+      "niva": "eksempel"
     },
     {
       "term": "吗 ma",
@@ -107,7 +109,8 @@
         "spørrepartikkel"
       ],
       "correct": 2,
-      "explain": "Tonen avgjør betydningen."
+      "explain": "Tonen avgjør betydningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -315,7 +318,8 @@
           "skjelle ut"
         ],
         "correct": 1,
-        "explain": "1. tone: høy og jevn."
+        "explain": "1. tone: høy og jevn.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -351,7 +355,8 @@
         "fasit": "Mandarin er offisielt språk i Kina og Taiwan. I Singapore er det ett av de offisielle språkene.",
         "kriterier": [
           "Skiller mellom offisielt språk i Kina og Taiwan og ett av de offisielle språkene i Singapore."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -369,7 +374,8 @@
         "kriterier": [
           "Beskriver mā som høy og jevn og oppgir at det betyr mor.",
           "Beskriver má som stigende og oppgir at det betyr hamp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -420,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

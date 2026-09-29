@@ -39,7 +39,8 @@
     },
     {
       "term": "Paul Ekman",
-      "def": "Fant at grunnemosjoner gjenkjennes på tvers av kulturer."
+      "def": "Fant at grunnemosjoner gjenkjennes på tvers av kulturer.",
+      "niva": "eksempel"
     },
     {
       "term": "Avsky",
@@ -117,7 +118,8 @@
         "At grunnemosjoner gjenkjennes på tvers av kulturer"
       ],
       "correct": 3,
-      "explain": "Et argument for at emosjoner er medfødte."
+      "explain": "Et argument for at emosjoner er medfødte.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +143,8 @@
         "Vennskap"
       ],
       "correct": 1,
-      "explain": "Nyttig når mat var knapp."
+      "explain": "Nyttig når mat var knapp.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +192,8 @@
         "Fordi det skyldes sosiale medier alene"
       ],
       "correct": 1,
-      "explain": "Vi er tilpasset et liv i små grupper."
+      "explain": "Vi er tilpasset et liv i små grupper.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -296,7 +300,8 @@
         "type": "sant-usant",
         "text": "Stressreaksjonen var opprinnelig tilpasset korte, fysiske farer.",
         "correct": true,
-        "explain": "I dag aktiveres den av prøver og e-post."
+        "explain": "I dag aktiveres den av prøver og e-post.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -389,7 +394,8 @@
         "kriterier": [
           "Forklarer at enkelte trekk ved partnervalg kan være felles på tvers av land eller kulturer.",
           "Får fram at kulturelle eller individuelle forskjeller også påvirker partnervalg."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

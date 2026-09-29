@@ -55,19 +55,23 @@
     },
     {
       "term": "Fingeravtrykk",
-      "def": "Varmere nedre atmosfære og kaldere stratosfære tyder på drivhuseffekt."
+      "def": "Varmere nedre atmosfære og kaldere stratosfære tyder på drivhuseffekt.",
+      "niva": "over-niva"
     },
     {
       "term": "Isotoper i CO₂",
-      "def": "Viser at ekstra karbon kommer fra fossilt materiale."
+      "def": "Viser at ekstra karbon kommer fra fossilt materiale.",
+      "niva": "over-niva"
     },
     {
       "term": "Attribusjon",
-      "def": "Forskning på hvor mye klimaendringene påvirker enkelthendelser."
+      "def": "Forskning på hvor mye klimaendringene påvirker enkelthendelser.",
+      "niva": "over-niva"
     },
     {
       "term": "Aerosoler",
-      "def": "Partikler som har dempet noe av oppvarmingen."
+      "def": "Partikler som har dempet noe av oppvarmingen.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -129,7 +133,8 @@
         "Mer is"
       ],
       "correct": 0,
-      "explain": "Solen ville varmet begge."
+      "explain": "Solen ville varmet begge.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Forskning på vulkaner"
       ],
       "correct": 1,
-      "explain": "For eksempel hetebølger."
+      "explain": "For eksempel hetebølger.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -153,7 +159,8 @@
         "Stoppet den helt"
       ],
       "correct": 2,
-      "explain": "De reflekterer sollys."
+      "explain": "De reflekterer sollys.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -189,7 +196,8 @@
         "Ingenting"
       ],
       "correct": 1,
-      "explain": "Et bevis på menneskelig påvirkning."
+      "explain": "Et bevis på menneskelig påvirkning.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -293,7 +301,8 @@
         "type": "sant-usant",
         "text": "Drivhuseffekten har vært kjent i over hundre år.",
         "correct": true,
-        "explain": "Grunnleggende fysikk."
+        "explain": "Grunnleggende fysikk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -419,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

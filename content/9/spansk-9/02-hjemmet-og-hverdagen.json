@@ -194,7 +194,8 @@
         "Å vaske klær"
       ],
       "correct": 2,
-      "explain": "«los platos» betyr tallerkenene."
+      "explain": "«los platos» betyr tallerkenene.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -385,7 +386,8 @@
         "kriterier": [
           "Forklarer at begge ordene kan bety soverom.",
           "Viser at ordene kan brukes om samme rom."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -412,7 +414,8 @@
         "kriterier": [
           "Bruker handlingene me levanto, me ducho og me visto i riktig rekkefølge.",
           "Bruker uttrykkene for først, så og til slutt på en måte som viser rekkefølgen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -421,7 +424,8 @@
         "kriterier": [
           "Oppgir pasar la aspiradora.",
           "Knytter uttrykket til å støvsuge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -436,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

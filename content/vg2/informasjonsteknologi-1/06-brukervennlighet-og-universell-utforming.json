@@ -19,7 +19,8 @@
     },
     {
       "term": "Persona",
-      "def": "Oppdiktet, typisk bruker."
+      "def": "Oppdiktet, typisk bruker.",
+      "niva": "eksempel"
     },
     {
       "term": "Wireframe",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Digitaliseringsdirektoratet",
-      "def": "Fører tilsyn med universell utforming av IKT."
+      "def": "Fører tilsyn med universell utforming av IKT.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +167,8 @@
         "Digitaliseringsdirektoratet"
       ],
       "correct": 3,
-      "explain": "Det kan gi pålegg."
+      "explain": "Det kan gi pålegg.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -335,7 +338,8 @@
           "En type diagram"
         ],
         "correct": 0,
-        "explain": "Hjelper deg å tenke på brukernes behov."
+        "explain": "Hjelper deg å tenke på brukernes behov.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -377,7 +381,8 @@
         "kriterier": [
           "Forklarer at en persona er oppdiktet og typisk.",
           "Forklarer at brukertesting innebærer at ekte brukere prøver løsningen mens noen observerer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -424,12 +429,14 @@
           "Får fram at kravet gjelder både offentlige og private virksomheter.",
           "Knytter kravet hovedsakelig til WCAG.",
           "Nevner tilgjengelighetserklæring som et ekstra krav for offentlige nettsteder."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

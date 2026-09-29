@@ -57,7 +57,8 @@
     },
     {
       "term": "I'm on the fence",
-      "def": "I haven't decided yet."
+      "def": "I haven't decided yet.",
+      "niva": "eksempel"
     },
     {
       "term": "That makes sense",
@@ -65,7 +66,8 @@
     },
     {
       "term": "It's up to you",
-      "def": "You decide."
+      "def": "You decide.",
+      "niva": "eksempel"
     },
     {
       "term": "Intonation",
@@ -119,7 +121,8 @@
         "I haven't decided yet"
       ],
       "correct": 3,
-      "explain": "The idiom means you have not made up your mind."
+      "explain": "The idiom means you have not made up your mind.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -296,7 +299,8 @@
         "type": "sant-usant",
         "text": "“That's a good point” is a way of agreeing.",
         "correct": true,
-        "explain": "It shows that you appreciate what the other person said."
+        "explain": "It shows that you appreciate what the other person said.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -310,7 +314,8 @@
         "type": "sant-usant",
         "text": "“To be honest” is an idiomatic expression.",
         "correct": true,
-        "explain": "It is a common phrase used to introduce an honest opinion."
+        "explain": "It is a common phrase used to introduce an honest opinion.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -336,7 +341,8 @@
           "You are late"
         ],
         "correct": 0,
-        "explain": "“It's up to you” means the choice is yours."
+        "explain": "“It's up to you” means the choice is yours.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -378,7 +384,8 @@
         "kriterier": [
           "Uses “I see what you mean, but…” to disagree politely.",
           "Clearly expresses the view that everyone should have a chance to speak."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -423,12 +430,14 @@
         "kriterier": [
           "Uses “It’s up to you” in a reply to the situation.",
           "Explains that the friend is the one who gets to decide."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

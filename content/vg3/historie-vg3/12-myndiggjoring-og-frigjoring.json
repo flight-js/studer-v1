@@ -19,11 +19,13 @@
     },
     {
       "term": "LO",
-      "def": "Landsorganisasjonen, stiftet i 1899."
+      "def": "Landsorganisasjonen, stiftet i 1899.",
+      "niva": "eksempel"
     },
     {
       "term": "8-timersdagen",
-      "def": "Lovfestet i 1919."
+      "def": "Lovfestet i 1919.",
+      "niva": "eksempel"
     },
     {
       "term": "Parlamentarismen",
@@ -31,23 +33,28 @@
     },
     {
       "term": "Norsk Kvinnesaksforening",
-      "def": "Stiftet i 1884, kjempet for kvinners rettigheter."
+      "def": "Stiftet i 1884, kjempet for kvinners rettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Gina Krog",
-      "def": "Leder i kampen for kvinners stemmerett."
+      "def": "Leder i kampen for kvinners stemmerett.",
+      "niva": "eksempel"
     },
     {
       "term": "Likestillingsloven",
-      "def": "Lov fra 1978 mot kjønnsdiskriminering."
+      "def": "Lov fra 1978 mot kjønnsdiskriminering.",
+      "niva": "eksempel"
     },
     {
       "term": "Gro Harlem Brundtland",
-      "def": "Norges første kvinnelige statsminister, 1981."
+      "def": "Norges første kvinnelige statsminister, 1981.",
+      "niva": "eksempel"
     },
     {
       "term": "Samefolkets dag",
-      "def": "6. februar – til minne om landsmøtet i 1917."
+      "def": "6. februar – til minne om landsmøtet i 1917.",
+      "niva": "eksempel"
     },
     {
       "term": "Alta-saken",
@@ -59,15 +66,18 @@
     },
     {
       "term": "ILO-konvensjonen om urfolk",
-      "def": "Norge ratifiserte den som første land i 1990."
+      "def": "Norge ratifiserte den som første land i 1990.",
+      "niva": "eksempel"
     },
     {
       "term": "Partnerskapsloven",
-      "def": "Lov fra 1993 som ga likekjønnede par rett til registrert partnerskap."
+      "def": "Lov fra 1993 som ga likekjønnede par rett til registrert partnerskap.",
+      "niva": "eksempel"
     },
     {
       "term": "Ansvarsreformen",
-      "def": "Reform tidlig på 1990-tallet som la ned institusjoner for utviklingshemmede."
+      "def": "Reform tidlig på 1990-tallet som la ned institusjoner for utviklingshemmede.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -141,7 +151,8 @@
         "LO ble stiftet"
       ],
       "correct": 1,
-      "explain": "Senere kom vern mot diskriminering og ekteskapslov."
+      "explain": "Senere kom vern mot diskriminering og ekteskapslov.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +164,8 @@
         "Gro Harlem Brundtland"
       ],
       "correct": 2,
-      "explain": "6. februar er samefolkets dag."
+      "explain": "6. februar er samefolkets dag.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +177,8 @@
         "La ned institusjoner og ga kommunene ansvaret for utviklingshemmede"
       ],
       "correct": 3,
-      "explain": "Flere fikk bo i egne hjem."
+      "explain": "Flere fikk bo i egne hjem.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +202,8 @@
         "1972"
       ],
       "correct": 1,
-      "explain": "Gir likekjønnede par rett til å gifte seg."
+      "explain": "Gir likekjønnede par rett til å gifte seg.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -279,7 +293,8 @@
         "type": "sant-usant",
         "text": "Grunnloven fikk en egen sameparagraf i 1988.",
         "correct": true,
-        "explain": "Staten skal legge forholdene til rette for samisk språk, kultur og samfunnsliv."
+        "explain": "Staten skal legge forholdene til rette for samisk språk, kultur og samfunnsliv.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -293,7 +308,8 @@
         "type": "sant-usant",
         "text": "Loven om selvbestemt abort kom i 1978.",
         "correct": true,
-        "explain": "Samme år som likestillingsloven."
+        "explain": "Samme år som likestillingsloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +329,8 @@
           "1919"
         ],
         "correct": 1,
-        "explain": "LO kom i 1899."
+        "explain": "LO kom i 1899.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +343,8 @@
           "Danmark"
         ],
         "correct": 0,
-        "explain": "I 1990."
+        "explain": "I 1990.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -339,7 +357,8 @@
           "Den hadde ingen statsråder"
         ],
         "correct": 2,
-        "explain": "Kalt «kvinneregjeringen»."
+        "explain": "Kalt «kvinneregjeringen».",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -359,7 +378,8 @@
         "kriterier": [
           "Forklarer at organisering samler arbeidere om felles krav eller interesser.",
           "Knytter organisering til større innflytelse eller en sterkere stemme i samfunnet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -395,7 +415,8 @@
         "kriterier": [
           "Forklarer at Sametinget gir samene et folkevalgt organ eller en politisk stemme.",
           "Forklarer at ratifiseringen innebar at Norge sluttet seg til en konvensjon om urfolks rettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +425,8 @@
         "kriterier": [
           "Nevner at sex mellom menn ble avkriminalisert eller at homofile fikk vern mot diskriminering.",
           "Nevner at partnerskapsloven ga likekjønnede par rett til registrert partnerskap."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

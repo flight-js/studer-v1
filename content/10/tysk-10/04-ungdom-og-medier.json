@@ -60,7 +60,8 @@
     },
     {
       "term": "Jugendwort des Jahres",
-      "def": "årets ungdomsord i Tyskland"
+      "def": "årets ungdomsord i Tyskland",
+      "niva": "eksempel"
     },
     {
       "term": "Skumlesing",
@@ -72,7 +73,8 @@
     },
     {
       "term": "Deutsche Welle",
-      "def": "Tysk kringkaster med gratis ressurser for å lære tysk"
+      "def": "Tysk kringkaster med gratis ressurser for å lære tysk",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -170,7 +172,8 @@
         "En skoleprøve"
       ],
       "correct": 1,
-      "explain": "Mange av ordene er lånt fra engelsk."
+      "explain": "Mange av ordene er lånt fra engelsk.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -296,7 +299,8 @@
         "type": "sant-usant",
         "text": "Deutsche Welle tilbyr gratis ressurser for å lære tysk.",
         "correct": true,
-        "explain": "Der finnes både kurs, videoer og nyheter på lett tysk."
+        "explain": "Der finnes både kurs, videoer og nyheter på lett tysk.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -385,7 +389,8 @@
         "kriterier": [
           "Får fram at ungdomsspråk endrer seg raskt.",
           "Forklarer at mange ungdomsord er lånt fra engelsk, og bruker «cringe» som eksempel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -421,7 +426,8 @@
         "kriterier": [
           "Knytter Tagesschau eller logo! til nyheter.",
           "Knytter Deutsche Welle til gratis kurs og videoer for dem som lærer tysk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -436,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

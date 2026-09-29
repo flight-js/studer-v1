@@ -12,47 +12,58 @@
   "flashcards": [
     {
       "term": "Don Quijote",
-      "def": "roman av Cervantes (1605), ofte kalt den første moderne romanen"
+      "def": "roman av Cervantes (1605), ofte kalt den første moderne romanen",
+      "niva": "eksempel"
     },
     {
       "term": "Sancho Panza",
-      "def": "Don Quijotes praktiske væpner"
+      "def": "Don Quijotes praktiske væpner",
+      "niva": "eksempel"
     },
     {
       "term": "Cien años de soledad",
-      "def": "Hundre års ensomhet (1967) av García Márquez"
+      "def": "Hundre års ensomhet (1967) av García Márquez",
+      "niva": "eksempel"
     },
     {
       "term": "el realismo mágico",
-      "def": "magisk realisme – det overnaturlige som en del av hverdagen"
+      "def": "magisk realisme – det overnaturlige som en del av hverdagen",
+      "niva": "eksempel"
     },
     {
       "term": "Las Meninas",
-      "def": "maleri av Velázquez (1656)"
+      "def": "maleri av Velázquez (1656)",
+      "niva": "eksempel"
     },
     {
       "term": "Guernica",
-      "def": "Picassos antikrigsmaleri fra 1937"
+      "def": "Picassos antikrigsmaleri fra 1937",
+      "niva": "eksempel"
     },
     {
       "term": "el cubismo",
-      "def": "kubismen – kunstretning Picasso var med på å skape"
+      "def": "kubismen – kunstretning Picasso var med på å skape",
+      "niva": "eksempel"
     },
     {
       "term": "Frida Kahlo",
-      "def": "meksikansk kunstner kjent for selvportretter"
+      "def": "meksikansk kunstner kjent for selvportretter",
+      "niva": "eksempel"
     },
     {
       "term": "el flamenco",
-      "def": "sang, gitar og dans fra Andalucía"
+      "def": "sang, gitar og dans fra Andalucía",
+      "niva": "eksempel"
     },
     {
       "term": "el tango",
-      "def": "dans og musikk fra Buenos Aires og Montevideo"
+      "def": "dans og musikk fra Buenos Aires og Montevideo",
+      "niva": "eksempel"
     },
     {
       "term": "Pedro Almodóvar",
-      "def": "Spanias mest kjente filmregissør"
+      "def": "Spanias mest kjente filmregissør",
+      "niva": "eksempel"
     },
     {
       "term": "Me gustaría …",
@@ -82,7 +93,8 @@
         "Isabel Allende"
       ],
       "correct": 1,
-      "explain": "Første del kom i 1605."
+      "explain": "Første del kom i 1605.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -94,7 +106,8 @@
         "En flamencodanser"
       ],
       "correct": 0,
-      "explain": "Maleriet er fra 1937."
+      "explain": "Maleriet er fra 1937.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +119,8 @@
         "Realistiske malerier"
       ],
       "correct": 2,
-      "explain": "Hundre års ensomhet er et hovedverk."
+      "explain": "Hundre års ensomhet er et hovedverk.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +132,8 @@
         "Buenos Aires og Montevideo"
       ],
       "correct": 3,
-      "explain": "Tango er knyttet til Argentina og Uruguay."
+      "explain": "Tango er knyttet til Argentina og Uruguay.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +157,8 @@
         "Picasso"
       ],
       "correct": 1,
-      "explain": "Frida Kahlo var fra Mexico."
+      "explain": "Frida Kahlo var fra Mexico.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -166,7 +182,8 @@
         "Andalucía"
       ],
       "correct": 3,
-      "explain": "Flamenco er på UNESCOs liste over immateriell kulturarv."
+      "explain": "Flamenco er på UNESCOs liste over immateriell kulturarv.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +195,8 @@
         "Romantikken"
       ],
       "correct": 0,
-      "explain": "Dalí er kjent for surrealismen."
+      "explain": "Dalí er kjent for surrealismen.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +208,8 @@
         "2010"
       ],
       "correct": 1,
-      "explain": "Hundre års ensomhet kom i 1967."
+      "explain": "Hundre års ensomhet kom i 1967.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -283,14 +302,16 @@
         "type": "sant-usant",
         "text": "Uttrykket «å kjempe mot vindmøller» kommer fra Don Quijote.",
         "correct": true,
-        "explain": "Don Quijote tror vindmøllene er kjemper."
+        "explain": "Don Quijote tror vindmøllene er kjemper.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Frida Kahlo var fra Spania.",
         "correct": false,
-        "explain": "Frida Kahlo var fra Mexico."
+        "explain": "Frida Kahlo var fra Mexico.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -304,7 +325,8 @@
         "type": "sant-usant",
         "text": "Salvador Dalí er kjent for kubistiske malerier med smeltende klokker.",
         "correct": false,
-        "explain": "Dalí var surrealist."
+        "explain": "Dalí var surrealist.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -330,7 +352,8 @@
           "Dalí"
         ],
         "correct": 0,
-        "explain": "Maleriet er fra 1656."
+        "explain": "Maleriet er fra 1656.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -354,7 +377,8 @@
         "kriterier": [
           "Får fram at Don Quijote drar ut som ridder etter å ha lest mange ridderromaner.",
           "Forklarer at Sancho Panza er hans praktiske væpner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -363,7 +387,8 @@
         "kriterier": [
           "Sier at både Allende og Neruda er fra Chile.",
           "Nevner at Neruda skrev kjærlighetsdikt og politisk poesi."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -372,7 +397,8 @@
         "kriterier": [
           "Knytter Velázquez til «Las Meninas» og får fram at maleriet leker med hvem som ser på hvem.",
           "Knytter Picasso til «Guernica» og får fram at bildet viser bombingen av en baskisk by under borgerkrigen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -381,7 +407,8 @@
         "kriterier": [
           "Knytter Salvador Dalí til surrealistiske malerier.",
           "Nevner smeltende klokker som en kjent detalj."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -390,7 +417,8 @@
         "kriterier": [
           "Nevner sang, gitar og dans som deler av flamenco.",
           "Får fram at flamenco står på UNESCOs liste over immateriell kulturarv."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -399,7 +427,8 @@
         "kriterier": [
           "Knytter Almodóvar til Spania og filmene hans til familie, kjærlighet og identitet.",
           "Knytter del Toro og Cuarón til Mexico og sier at begge har vunnet Oscar."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -423,6 +452,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

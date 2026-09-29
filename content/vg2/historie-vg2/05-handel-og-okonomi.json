@@ -31,11 +31,13 @@
     },
     {
       "term": "12 millioner",
-      "def": "Omtrent så mange afrikanere ble fraktet over Atlanterhavet som slaver."
+      "def": "Omtrent så mange afrikanere ble fraktet over Atlanterhavet som slaver.",
+      "niva": "eksempel"
     },
     {
       "term": "Dansk Vestindia",
-      "def": "Danmark-Norges kolonier i Karibia, blant annet St. Croix."
+      "def": "Danmark-Norges kolonier i Karibia, blant annet St. Croix.",
+      "niva": "eksempel"
     },
     {
       "term": "Merkantilisme",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Det kommunistiske manifest",
-      "def": "Skrift av Marx og Engels fra 1848."
+      "def": "Skrift av Marx og Engels fra 1848.",
+      "niva": "eksempel"
     },
     {
       "term": "Planøkonomi",
@@ -129,7 +132,8 @@
         "John Locke"
       ],
       "correct": 0,
-      "explain": "Boka kom i 1776."
+      "explain": "Boka kom i 1776.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +157,8 @@
         "Bare etter 1900"
       ],
       "correct": 2,
-      "explain": "St. Croix var en av koloniene."
+      "explain": "St. Croix var en av koloniene.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +182,8 @@
         "1928"
       ],
       "correct": 0,
-      "explain": "Det kritiserte kapitalismen."
+      "explain": "Det kritiserte kapitalismen.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -282,14 +288,16 @@
         "type": "sant-usant",
         "text": "Hanseatenes makt i Bergen avtok på 1500-tallet.",
         "correct": true,
-        "explain": "Norske og danske handelsmenn tok gradvis over."
+        "explain": "Norske og danske handelsmenn tok gradvis over.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Planøkonomien i Sovjetunionen ga god tilgang på alle varer.",
         "correct": false,
-        "explain": "Den ga ofte mangel på varer og ineffektivitet."
+        "explain": "Den ga ofte mangel på varer og ineffektivitet.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -342,7 +350,8 @@
           "1991"
         ],
         "correct": 2,
-        "explain": "Planene skulle gi rask industrialisering."
+        "explain": "Planene skulle gi rask industrialisering.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -398,7 +407,8 @@
         "kriterier": [
           "Nevner rask industrialisering som et positivt resultat.",
           "Nevner minst to av problemene mangel på varer, ineffektivitet og undertrykkelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

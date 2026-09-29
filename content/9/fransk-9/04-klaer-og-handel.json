@@ -334,7 +334,8 @@
           "le numéro"
         ],
         "correct": 1,
-        "explain": "«la taille» brukes om klesstørrelse."
+        "explain": "«la taille» brukes om klesstørrelse.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -371,7 +372,8 @@
         "kriterier": [
           "Forklarer at det er et prøverom.",
           "Knytter det til å prøve klær i en butikk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -415,7 +417,8 @@
         "kriterier": [
           "Knytter «la taille» til størrelse på klær.",
           "Knytter «la pointure» til skostørrelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -433,12 +436,14 @@
         "kriterier": [
           "Nevner at brukte klær kan spare penger.",
           "Nevner hensynet til miljøet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

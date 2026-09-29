@@ -67,7 +67,8 @@
     },
     {
       "term": "Forhåndsbestilling",
-      "def": "Kunder bestiller før produktet finnes – sterkt bevis på etterspørsel."
+      "def": "Kunder bestiller før produktet finnes – sterkt bevis på etterspørsel.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +154,8 @@
         "At ideen er original"
       ],
       "correct": 2,
-      "explain": "Det kundene gjør, teller mest."
+      "explain": "Det kundene gjør, teller mest.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +167,8 @@
         "Statistikk fra SSB"
       ],
       "correct": 3,
-      "explain": "Informasjon som allerede finnes."
+      "explain": "Informasjon som allerede finnes.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -416,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

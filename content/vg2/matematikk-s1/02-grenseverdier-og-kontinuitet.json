@@ -64,7 +64,8 @@
     },
     {
       "term": "Trinnskatt",
-      "def": "Satsen for ekstra inntekt øker i trinn."
+      "def": "Satsen for ekstra inntekt øker i trinn.",
+      "niva": "eksempel"
     },
     {
       "term": "Polynomfunksjoner",
@@ -414,12 +415,14 @@
         "kriterier": [
           "Nevner at den deriverte bygger på en grenseverdi.",
           "Knytter grenseverdien til den gjennomsnittlige vekstfarten."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

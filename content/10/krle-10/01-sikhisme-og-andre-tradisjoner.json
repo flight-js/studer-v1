@@ -43,7 +43,8 @@
     },
     {
       "term": "Det gylne tempel",
-      "def": "Sikhismens mest kjente gudshus, i Amritsar."
+      "def": "Sikhismens mest kjente gudshus, i Amritsar.",
+      "niva": "eksempel"
     },
     {
       "term": "De fem K-ene",
@@ -51,7 +52,8 @@
     },
     {
       "term": "Singh og Kaur",
-      "def": "Navn for sikhmenn («løve») og sikhkvinner («prinsesse»)."
+      "def": "Navn for sikhmenn («løve») og sikhkvinner («prinsesse»).",
+      "niva": "eksempel"
     },
     {
       "term": "Dao",
@@ -177,7 +179,8 @@
         "Varanasi"
       ],
       "correct": 2,
-      "explain": "Tempelet i Amritsar besøkes av mange tusen mennesker hver dag."
+      "explain": "Tempelet i Amritsar besøkes av mange tusen mennesker hver dag.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -303,7 +306,8 @@
         "type": "sant-usant",
         "text": "Mange japanere kombinerer shinto og buddhisme.",
         "correct": true,
-        "explain": "Shinto brukes ofte ved fødsel og bryllup, buddhisme ved død og gravferd."
+        "explain": "Shinto brukes ofte ved fødsel og bryllup, buddhisme ved død og gravferd.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -323,7 +327,8 @@
           "Elev"
         ],
         "correct": 0,
-        "explain": "Kvinner får navnet Kaur, som betyr «prinsesse»."
+        "explain": "Kvinner får navnet Kaur, som betyr «prinsesse».",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -423,12 +428,14 @@
         "kriterier": [
           "Oppgir betydningen av Singh og Kaur riktig.",
           "Forklarer at navnene skulle uttrykke at kaste ikke betyr noe."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

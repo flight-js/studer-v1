@@ -364,7 +364,8 @@
         "kriterier": [
           "Får fram at brukte klær er billigere.",
           "Får fram at det er bedre for miljøet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -433,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

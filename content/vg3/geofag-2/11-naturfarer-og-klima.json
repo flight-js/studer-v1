@@ -43,7 +43,8 @@
     },
     {
       "term": "Jøkulhlaup",
-      "def": "Plutselig tømming av en bredemt sjø."
+      "def": "Plutselig tømming av en bredemt sjø.",
+      "niva": "eksempel"
     },
     {
       "term": "Farevarsel",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Varsom.no",
-      "def": "NVEs nettsted for skred- og flomvarsler."
+      "def": "NVEs nettsted for skred- og flomvarsler.",
+      "niva": "eksempel"
     },
     {
       "term": "Arealplanlegging",
@@ -129,7 +131,8 @@
         "regjeringen.no"
       ],
       "correct": 0,
-      "explain": "Snøskred, jordskred og flom."
+      "explain": "Snøskred, jordskred og flom.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +156,8 @@
         "En tørkeperiode"
       ],
       "correct": 2,
-      "explain": "En brerelatert fare."
+      "explain": "En brerelatert fare.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -419,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

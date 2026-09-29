@@ -61,7 +61,8 @@
     },
     {
       "term": "Essay",
-      "def": "En reflekterende og personlig tekst som undrer seg over et tema."
+      "def": "En reflekterende og personlig tekst som undrer seg over et tema.",
+      "niva": "eksempel"
     },
     {
       "term": "Drøftingsord",
@@ -131,7 +132,8 @@
         "Det består bare av tall"
       ],
       "correct": 0,
-      "explain": "Essayet utforsker et tema fra flere vinkler og kan være personlig."
+      "explain": "Essayet utforsker et tema fra flere vinkler og kan være personlig.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -318,7 +320,8 @@
           "Leserinnlegg"
         ],
         "correct": 2,
-        "explain": "Essayet er reflekterende og undrende."
+        "explain": "Essayet er reflekterende og undrende.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -418,12 +421,14 @@
         "kriterier": [
           "Forklarer at essayet utforsker et tema og ikke trenger en fast konklusjon.",
           "Forklarer at debattinnlegget vil overbevise, og knytter det til en avslutning som oppfordrer leseren eller understreker standpunktet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

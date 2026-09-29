@@ -40,11 +40,13 @@
     },
     {
       "term": "obtain",
-      "def": "Formal word for get."
+      "def": "Formal word for get.",
+      "niva": "eksempel"
     },
     {
       "term": "considerable",
-      "def": "Formal word for a lot of or large."
+      "def": "Formal word for a lot of or large.",
+      "niva": "eksempel"
     },
     {
       "term": "Idiom",
@@ -52,11 +54,13 @@
     },
     {
       "term": "the tip of the iceberg",
-      "def": "A small visible part of a much bigger problem."
+      "def": "A small visible part of a much bigger problem.",
+      "niva": "eksempel"
     },
     {
       "term": "a double-edged sword",
-      "def": "Something with both advantages and disadvantages."
+      "def": "Something with both advantages and disadvantages.",
+      "niva": "eksempel"
     },
     {
       "term": "Complex sentence",
@@ -64,7 +68,8 @@
     },
     {
       "term": "Fronting",
-      "def": "Starting a sentence with a phrase for emphasis or variation."
+      "def": "Starting a sentence with a phrase for emphasis or variation.",
+      "niva": "over-niva"
     },
     {
       "term": "Purpose, audience, situation",
@@ -118,7 +123,8 @@
         "discover"
       ],
       "correct": 3,
-      "explain": "Discover or determine are more formal."
+      "explain": "Discover or determine are more formal.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +148,8 @@
         "A strong argument"
       ],
       "correct": 1,
-      "explain": "It is an idiom used about things that can both help and harm."
+      "explain": "It is an idiom used about things that can both help and harm.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -320,7 +327,8 @@
           "reckon"
         ],
         "correct": 0,
-        "explain": "Illustrate and indicate are other options."
+        "explain": "Illustrate and indicate are other options.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -333,7 +341,8 @@
           "The end of a discussion"
         ],
         "correct": 1,
-        "explain": "Most of an iceberg is hidden under water."
+        "explain": "Most of an iceberg is hidden under water.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -393,7 +402,8 @@
         "kriterier": [
           "Uses “the tip of the iceberg” in a relevant sentence.",
           "Explains that the visible sign is only a small part of a bigger problem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -426,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

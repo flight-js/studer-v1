@@ -45,15 +45,18 @@
     },
     {
       "term": "colour / color",
-      "def": "British and American spelling of the same word."
+      "def": "British and American spelling of the same word.",
+      "niva": "eksempel"
     },
     {
       "term": "flat / apartment",
-      "def": "British and American words for “leilighet”."
+      "def": "British and American words for “leilighet”.",
+      "niva": "eksempel"
     },
     {
       "term": "autumn / fall",
-      "def": "British and American words for “høst”."
+      "def": "British and American words for “høst”.",
+      "niva": "eksempel"
     },
     {
       "term": "Be consistent",
@@ -61,7 +64,8 @@
     },
     {
       "term": "Domain loss",
-      "def": "When a language, like Norwegian, is pushed aside by another language in an area such as research."
+      "def": "When a language, like Norwegian, is pushed aside by another language in an area such as research.",
+      "niva": "over-niva"
     },
     {
       "term": "Loanword",
@@ -69,7 +73,8 @@
     },
     {
       "term": "eventually",
-      "def": "False friend: means “til slutt”, not “eventuelt”."
+      "def": "False friend: means “til slutt”, not “eventuelt”.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -119,7 +124,8 @@
         "tube"
       ],
       "correct": 0,
-      "explain": "British English says “lift”, American English says “elevator”."
+      "explain": "British English says “lift”, American English says “elevator”.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -131,7 +137,8 @@
         "Japan"
       ],
       "correct": 1,
-      "explain": "India has English as one of its official languages, together with Hindi and many regional languages."
+      "explain": "India has English as one of its official languages, together with Hindi and many regional languages.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -143,7 +150,8 @@
         "straks"
       ],
       "correct": 2,
-      "explain": "“Eventually” is a false friend. It means “til slutt” or “etter hvert”."
+      "explain": "“Eventually” is a false friend. It means “til slutt” or “etter hvert”.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -155,7 +163,8 @@
         "When you forget words"
       ],
       "correct": 0,
-      "explain": "Some fear that Norwegian may lose ground to English in areas like higher education and business."
+      "explain": "Some fear that Norwegian may lose ground to English in areas like higher education and business.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -191,7 +200,8 @@
         "chip"
       ],
       "correct": 0,
-      "explain": "British “biscuit” is usually “cookie” in American English."
+      "explain": "British “biscuit” is usually “cookie” in American English.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +300,8 @@
         "type": "sant-usant",
         "text": "English is an official language in Nigeria.",
         "correct": true,
-        "explain": "English is the official language of Nigeria, where hundreds of other languages are also spoken."
+        "explain": "English is the official language of Nigeria, where hundreds of other languages are also spoken.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -324,7 +335,8 @@
           "socks"
         ],
         "correct": 1,
-        "explain": "British “trousers” are American “pants”. In British English, “pants” means underwear."
+        "explain": "British “trousers” are American “pants”. In British English, “pants” means underwear.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -430,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -24,11 +24,13 @@
     },
     {
       "term": "Tafjord 1934",
-      "def": "Fjellskred og flodbølge der 40 omkom."
+      "def": "Fjellskred og flodbølge der 40 omkom.",
+      "niva": "eksempel"
     },
     {
       "term": "Åknes",
-      "def": "Ustabilt fjellparti i Storfjorden som overvåkes døgnet rundt."
+      "def": "Ustabilt fjellparti i Storfjorden som overvåkes døgnet rundt.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvikkleire",
@@ -36,7 +38,8 @@
     },
     {
       "term": "Gjerdrum 2020",
-      "def": "Kvikkleireskred som krevde 11 liv."
+      "def": "Kvikkleireskred som krevde 11 liv.",
+      "niva": "eksempel"
     },
     {
       "term": "Stormflo",
@@ -68,7 +71,8 @@
     },
     {
       "term": "varsom.no",
-      "def": "Nettsted med varsler om skred og flom."
+      "def": "Nettsted med varsler om skred og flom.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -106,7 +110,8 @@
         "En vulkan"
       ],
       "correct": 2,
-      "explain": "40 mennesker omkom."
+      "explain": "40 mennesker omkom.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -142,7 +147,8 @@
         "Det har kvikkleire"
       ],
       "correct": 1,
-      "explain": "Bevegelsene måles døgnet rundt."
+      "explain": "Bevegelsene måles døgnet rundt.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +160,8 @@
         "Artsdatabanken"
       ],
       "correct": 2,
-      "explain": "Drevet av NVE."
+      "explain": "Drevet av NVE.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -420,12 +427,14 @@
         "kriterier": [
           "Regner ut 40 − 11.",
           "Oppgir at forskjellen er 29 personer."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

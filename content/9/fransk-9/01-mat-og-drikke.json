@@ -301,7 +301,8 @@
         "type": "sant-usant",
         "text": "Mange franske barn drikker kakao fra en bolle til frokost.",
         "correct": true,
-        "explain": "En bolle heter «un bol» på fransk."
+        "explain": "En bolle heter «un bol» på fransk.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -322,7 +323,8 @@
         "type": "sant-usant",
         "text": "«le menu» betyr alltid hele menyen på en restaurant.",
         "correct": false,
-        "explain": "«le menu» er en fast meny til fast pris. Hele menyen heter «la carte»."
+        "explain": "«le menu» er en fast meny til fast pris. Hele menyen heter «la carte».",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -381,7 +383,8 @@
         "kriterier": [
           "Har med forrett, hovedrett, ost og dessert.",
           "Setter rettene i riktig rekkefølge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -426,7 +429,8 @@
         "kriterier": [
           "Forklarer at la carte er restaurantens meny med retter.",
           "Forklarer at le menu er en fast meny til fast pris."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -435,12 +439,14 @@
         "kriterier": [
           "Forklarer at service er inkludert i prisen.",
           "Nevner at mange likevel legger igjen litt ekstra."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

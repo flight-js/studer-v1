@@ -23,7 +23,8 @@
     },
     {
       "term": "NEET",
-      "def": "Unge som verken er i arbeid, utdanning eller opplæring."
+      "def": "Unge som verken er i arbeid, utdanning eller opplæring.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosialt utenforskap",
@@ -35,7 +36,8 @@
     },
     {
       "term": "Diskriminering i arbeidslivet",
-      "def": "Søkere med utenlandskklingende navn kalles inn til færre intervjuer."
+      "def": "Søkere med utenlandskklingende navn kalles inn til færre intervjuer.",
+      "niva": "eksempel"
     },
     {
       "term": "Stigma",
@@ -51,15 +53,18 @@
     },
     {
       "term": "NAV",
-      "def": "Arbeids- og velferdsforvaltningen med arbeidsrettede tiltak."
+      "def": "Arbeids- og velferdsforvaltningen med arbeidsrettede tiltak.",
+      "niva": "eksempel"
     },
     {
       "term": "Individuell jobbstøtte (IPS)",
-      "def": "Hjelp til ordinært arbeid med tett oppfølging."
+      "def": "Hjelp til ordinært arbeid med tett oppfølging.",
+      "niva": "eksempel"
     },
     {
       "term": "Likestillings- og diskrimineringsloven",
-      "def": "Forbyr diskriminering på grunn av blant annet etnisitet og kjønn."
+      "def": "Forbyr diskriminering på grunn av blant annet etnisitet og kjønn.",
+      "niva": "eksempel"
     },
     {
       "term": "Frivillige organisasjoner",
@@ -93,7 +98,8 @@
         "En diagnose"
       ],
       "correct": 0,
-      "explain": "En utsatt gruppe."
+      "explain": "En utsatt gruppe.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +111,8 @@
         "De søker ikke jobb"
       ],
       "correct": 2,
-      "explain": "Selv med like kvalifikasjoner."
+      "explain": "Selv med like kvalifikasjoner.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -129,7 +136,8 @@
         "En skatteordning"
       ],
       "correct": 0,
-      "explain": "Arbeid som del av behandlingen."
+      "explain": "Arbeid som del av behandlingen.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -189,7 +197,8 @@
         "Individuell trening"
       ],
       "correct": 1,
-      "explain": "Endrer rammene, ikke bare individet."
+      "explain": "Endrer rammene, ikke bare individet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -306,7 +315,8 @@
         "type": "sant-usant",
         "text": "Diskriminering i arbeidslivet er ikke dokumentert i Norge.",
         "correct": false,
-        "explain": "Forskning har dokumentert det."
+        "explain": "Forskning har dokumentert det.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -332,7 +342,8 @@
           "Datatilsynet"
         ],
         "correct": 0,
-        "explain": "Arbeids- og velferdsforvaltningen."
+        "explain": "Arbeids- og velferdsforvaltningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -417,12 +428,14 @@
         "kriterier": [
           "Nevner to relevante tiltak fra sosialhjelp, bostøtte og startlån.",
           "Knytter minst ett av tiltakene til familiens økonomiske vansker eller boligsituasjon."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

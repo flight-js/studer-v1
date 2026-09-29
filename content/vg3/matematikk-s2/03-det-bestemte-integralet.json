@@ -59,11 +59,13 @@
     },
     {
       "term": "Integral av grenseinntekt",
-      "def": "Inntekt."
+      "def": "Inntekt.",
+      "niva": "eksempel"
     },
     {
       "term": "SumVenstre og SumHøyre",
-      "def": "GeoGebra-kommandoer for rektangelsummer."
+      "def": "GeoGebra-kommandoer for rektangelsummer.",
+      "niva": "eksempel"
     },
     {
       "term": "Oppdeling av intervall",
@@ -394,7 +396,8 @@
         "kriterier": [
           "Knytter integralet til samlet inntekt fra 0 til x.",
           "Forklarer at integralet summerer grenseinntekten over intervallet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -403,12 +406,14 @@
         "kriterier": [
           "Knytter SumVenstre til venstresummen og SumHøyre til høyresummen.",
           "Oppgir Integral som kommandoen for integralet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -283,7 +283,8 @@
         "type": "sant-usant",
         "text": "Med luftmotstand er den beste kastevinkelen alltid større enn 45°.",
         "correct": false,
-        "explain": "Den er ofte mindre enn 45°."
+        "explain": "Den er ofte mindre enn 45°.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -336,7 +337,8 @@
           "Bare massen"
         ],
         "correct": 2,
-        "explain": "Virkelige kast er mer komplekse."
+        "explain": "Virkelige kast er mer komplekse.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -409,12 +411,14 @@
         "fasit": "Utgangshøyde, spinn og vind kan påvirke banen. To av disse forholdene er utgangshøyde og vind.",
         "kriterier": [
           "Nevner to relevante forhold blant utgangshøyde, spinn og vind."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -63,11 +63,13 @@
     },
     {
       "term": "Overbooking",
-      "def": "Flyselskaper selger flere billetter enn seter – binomisk modell."
+      "def": "Flyselskaper selger flere billetter enn seter – binomisk modell.",
+      "niva": "eksempel"
     },
     {
       "term": "random.randint(1, 6)",
-      "def": "Tilfeldig heltall fra 1 til 6 i Python."
+      "def": "Tilfeldig heltall fra 1 til 6 i Python.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +191,8 @@
         "For å beregne flytid"
       ],
       "correct": 1,
-      "explain": "Noen passasjerer møter ikke."
+      "explain": "Noen passasjerer møter ikke.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -284,7 +287,8 @@
         "type": "sant-usant",
         "text": "Lotto kan beskrives med hypergeometrisk fordeling.",
         "correct": true,
-        "explain": "Kulene trekkes uten tilbakelegging."
+        "explain": "Kulene trekkes uten tilbakelegging.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -395,7 +399,8 @@
         "kriterier": [
           "Angir at resultatet er et tilfeldig heltall fra 1 til 6, inklusive begge endepunktene.",
           "Knytter resultatet til et terningkast i simuleringen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -410,6 +415,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

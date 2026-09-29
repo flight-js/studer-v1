@@ -19,11 +19,13 @@
     },
     {
       "term": "Plan- og bygningsloven",
-      "def": "Lov som regulerer arealplanlegging og bygging."
+      "def": "Lov som regulerer arealplanlegging og bygging.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturmangfoldloven",
-      "def": "Lov som skal sikre at naturen tas vare på."
+      "def": "Lov som skal sikre at naturen tas vare på.",
+      "niva": "eksempel"
     },
     {
       "term": "Sápmi",
@@ -35,7 +37,8 @@
     },
     {
       "term": "Fosen-saken",
-      "def": "Høyesterett slo i 2021 fast at vindkraftverk på Fosen krenket reindriftssamenes kulturrett."
+      "def": "Høyesterett slo i 2021 fast at vindkraftverk på Fosen krenket reindriftssamenes kulturrett.",
+      "niva": "eksempel"
     },
     {
       "term": "Det grønne skiftet",
@@ -43,11 +46,13 @@
     },
     {
       "term": "Repparfjorden",
-      "def": "Sted i Finnmark med omstridte planer om kobbergruve og sjødeponi."
+      "def": "Sted i Finnmark med omstridte planer om kobbergruve og sjødeponi.",
+      "niva": "eksempel"
     },
     {
       "term": "Sjødeponi",
-      "def": "At gruveavfall legges på bunnen av en fjord."
+      "def": "At gruveavfall legges på bunnen av en fjord.",
+      "niva": "eksempel"
     },
     {
       "term": "Nordområdene",
@@ -55,15 +60,18 @@
     },
     {
       "term": "Barentshavet",
-      "def": "Havområde med store fiske-, olje- og gassressurser."
+      "def": "Havområde med store fiske-, olje- og gassressurser.",
+      "niva": "eksempel"
     },
     {
       "term": "Svalbardtraktaten",
-      "def": "Traktat fra 1920 som gir Norge suverenitet over Svalbard."
+      "def": "Traktat fra 1920 som gir Norge suverenitet over Svalbard.",
+      "niva": "eksempel"
     },
     {
       "term": "Villrein",
-      "def": "Dyr som trenger store uforstyrrede fjellområder."
+      "def": "Dyr som trenger store uforstyrrede fjellområder.",
+      "niva": "eksempel"
     },
     {
       "term": "Bit for bit-nedbygging",
@@ -93,7 +101,8 @@
         "At Fosen tilhører Sverige"
       ],
       "correct": 0,
-      "explain": "Retten til kulturutøvelse er vernet av internasjonale menneskerettigheter."
+      "explain": "Retten til kulturutøvelse er vernet av internasjonale menneskerettigheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +126,8 @@
         "Norge suverenitet, men like næringsrettigheter for borgere fra landene som har signert"
       ],
       "correct": 3,
-      "explain": "Traktaten kalles også Spitsbergentraktaten."
+      "explain": "Traktaten kalles også Spitsbergentraktaten.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +139,8 @@
         "Gull"
       ],
       "correct": 0,
-      "explain": "Barentshavet har en av verdens største torskebestander."
+      "explain": "Barentshavet har en av verdens største torskebestander.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +152,8 @@
         "Fordi gruven skulle drives av staten"
       ],
       "correct": 1,
-      "explain": "Fiskere, miljøvernere og reindriftssamer var bekymret."
+      "explain": "Fiskere, miljøvernere og reindriftssamer var bekymret.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +165,8 @@
         "Hjort"
       ],
       "correct": 2,
-      "explain": "Villreinen trenger store uforstyrrede fjellområder."
+      "explain": "Villreinen trenger store uforstyrrede fjellområder.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -325,7 +338,8 @@
           "Straffeloven"
         ],
         "correct": 0,
-        "explain": "Loven stiller krav til kunnskap og forsiktighet ved inngrep."
+        "explain": "Loven stiller krav til kunnskap og forsiktighet ved inngrep.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -338,7 +352,8 @@
           "Kull"
         ],
         "correct": 2,
-        "explain": "Kobber brukes blant annet i elektriske ledninger."
+        "explain": "Kobber brukes blant annet i elektriske ledninger.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -351,7 +366,8 @@
           "Fordi hovedstaden ligger der"
         ],
         "correct": 1,
-        "explain": "Nordområdene har stor strategisk betydning."
+        "explain": "Nordområdene har stor strategisk betydning.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -371,7 +387,8 @@
         "kriterier": [
           "Forklarer at arealplanen handler om hvordan arealer skal brukes.",
           "Forklarer at Naturmangfoldloven skal beskytte naturen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -416,7 +433,8 @@
         "kriterier": [
           "Forklarer at hytter eller veier kan forstyrre villreinen eller redusere leveområdene.",
           "Forklarer at mange små inngrep samlet kan få stor betydning for villreinens behov for store, uforstyrrede områder."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -425,12 +443,14 @@
         "kriterier": [
           "Får med at vindturbinene blir stående.",
           "Får med at reindrifta får kompensasjon og nye vinterbeiter."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

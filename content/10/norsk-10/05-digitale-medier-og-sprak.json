@@ -67,7 +67,8 @@
     },
     {
       "term": "Meme",
-      "def": "Et bilde eller en video med tekst som spres og endres av mange brukere."
+      "def": "Et bilde eller en video med tekst som spres og endres av mange brukere.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +178,8 @@
         "En plakat"
       ],
       "correct": 2,
-      "explain": "Podkasten bygger videre på radioformatet med samtaler og intervjuer."
+      "explain": "Podkasten bygger videre på radioformatet med samtaler og intervjuer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -398,7 +400,8 @@
         "kriterier": [
           "Nevner at et meme er et bilde eller en video med tekst.",
           "Forklarer at det spres og kan endres av mange brukere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -431,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

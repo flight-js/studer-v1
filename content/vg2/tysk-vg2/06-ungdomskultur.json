@@ -17,7 +17,8 @@
     },
     {
       "term": "die Bundesliga",
-      "def": "den øverste fotballigaen i Tyskland"
+      "def": "den øverste fotballigaen i Tyskland",
+      "niva": "eksempel"
     },
     {
       "term": "die Jugendsprache",
@@ -25,7 +26,8 @@
     },
     {
       "term": "das Jugendwort des Jahres",
-      "def": "årets ungdomsord"
+      "def": "årets ungdomsord",
+      "niva": "eksempel"
     },
     {
       "term": "der gute Film",
@@ -155,7 +157,8 @@
         "En skoletype"
       ],
       "correct": 2,
-      "explain": "En av verdens sterkeste ligaer."
+      "explain": "En av verdens sterkeste ligaer.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -376,7 +379,8 @@
         "kriterier": [
           "Forklarer at en Verein er en forening eller et lag, gjerne innen idrett eller musikk.",
           "Forteller at festivaler som Rock am Ring samler mange unge hver sommer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -385,7 +389,8 @@
         "kriterier": [
           "Forklarer at ungdomsspråket låner mye fra engelsk eller endrer seg raskt.",
           "Nevner at årets ungdomsord kåres hvert år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -421,12 +426,14 @@
         "kriterier": [
           "Nevner at fotball er den største sporten, eller at Bundesliga er en av verdens sterkeste ligaer.",
           "Nevner at tysk rap eller pop er svært populært, eller at mange artister synger på tysk."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

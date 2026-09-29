@@ -31,11 +31,13 @@
     },
     {
       "term": "for-løkke",
-      "def": "En løkke som gjentas et bestemt antall ganger, for eksempel for hvert tall fra 1 til 100."
+      "def": "En løkke som gjentas et bestemt antall ganger, for eksempel for hvert tall fra 1 til 100.",
+      "niva": "eksempel"
     },
     {
       "term": "while-løkke",
-      "def": "En løkke som gjentas så lenge en betingelse er sann."
+      "def": "En løkke som gjentas så lenge en betingelse er sann.",
+      "niva": "eksempel"
     },
     {
       "term": "Betingelse (if)",
@@ -43,15 +45,18 @@
     },
     {
       "term": "% (modulo)",
-      "def": "Gir resten ved divisjon. 17 % 5 = 2. Et tall er partall hvis tall % 2 == 0."
+      "def": "Gir resten ved divisjon. 17 % 5 = 2. Et tall er partall hvis tall % 2 == 0.",
+      "niva": "eksempel"
     },
     {
       "term": "print",
-      "def": "Kommando i Python som skriver ut en verdi eller tekst på skjermen."
+      "def": "Kommando i Python som skriver ut en verdi eller tekst på skjermen.",
+      "niva": "eksempel"
     },
     {
       "term": "Flytskjema",
-      "def": "En tegning av en algoritme med bokser for handlinger og valg, bundet sammen med piler."
+      "def": "En tegning av en algoritme med bokser for handlinger og valg, bundet sammen med piler.",
+      "niva": "eksempel"
     },
     {
       "term": "Teste",
@@ -67,7 +72,8 @@
     },
     {
       "term": "Effektiv algoritme",
-      "def": "En algoritme som bruker få steg. Summen 1 + … + n kan regnes direkte med n(n + 1)/2."
+      "def": "En algoritme som bruker få steg. Summen 1 + … + n kan regnes direkte med n(n + 1)/2.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -105,7 +111,8 @@
         "18"
       ],
       "correct": 0,
-      "explain": "% gir resten ved divisjon. 23 = 4 · 5 + 3, så resten er 3."
+      "explain": "% gir resten ved divisjon. 23 = 4 · 5 + 3, så resten er 3.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -129,7 +136,8 @@
         "t == 2"
       ],
       "correct": 2,
-      "explain": "Et partall gir rest 0 ved deling på 2. Derfor bruker vi t % 2 == 0."
+      "explain": "Et partall gir rest 0 ved deling på 2. Derfor bruker vi t % 2 == 0.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -294,21 +302,24 @@
         "type": "sant-usant",
         "text": "En for-løkke brukes ofte når vi vet hvor mange ganger noe skal gjentas.",
         "correct": true,
-        "explain": "For-løkka går gjennom et bestemt område, for eksempel tallene fra 1 til 10."
+        "explain": "For-løkka går gjennom et bestemt område, for eksempel tallene fra 1 til 10.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "I Python har innrykk betydning for hvilke linjer som hører til en løkke.",
         "correct": true,
-        "explain": "Linjer med innrykk under en for- eller if-setning hører til den. Feil innrykk gir feil oppførsel."
+        "explain": "Linjer med innrykk under en for- eller if-setning hører til den. Feil innrykk gir feil oppførsel.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "17 % 3 er lik 5.",
         "correct": false,
-        "explain": "% gir resten. 17 = 5 · 3 + 2, så 17 % 3 = 2. Tallet 5 er kvotienten, ikke resten."
+        "explain": "% gir resten. 17 = 5 · 3 + 2, så 17 % 3 = 2. Tallet 5 er kvotienten, ikke resten.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -334,7 +345,8 @@
           "n + 100"
         ],
         "correct": 2,
-        "explain": "n(n + 1)/2 gir for eksempel 4 · 5 / 2 = 10 for n = 4, og 1 + 2 + 3 + 4 = 10."
+        "explain": "n(n + 1)/2 gir for eksempel 4 · 5 / 2 = 10 for n = 4, og 1 + 2 + 3 + 4 = 10.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -376,7 +388,8 @@
         "kriterier": [
           "Forklarer at en for-løkke gjentas et bestemt antall ganger.",
           "Forklarer at en while-løkke fortsetter mens betingelsen er sann."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -394,7 +407,8 @@
         "kriterier": [
           "Oppgir at verdien er 2.",
           "Forklarer at modulo gir resten ved divisjon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -403,7 +417,8 @@
         "kriterier": [
           "Oppgir riktig utskrift for både 18 og 19.",
           "Knytter valget til om tallet er delelig med 2 uten rest."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -412,7 +427,8 @@
         "kriterier": [
           "Forklarer at betingelsen aldri blir usann fordi n ikke endres.",
           "Foreslår at n endres slik at det til slutt ikke lenger er mindre enn 5."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -421,12 +437,14 @@
         "kriterier": [
           "Setter n til 6 og bruker formelen n(n + 1)/2.",
           "Oppgir at summen er 21."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

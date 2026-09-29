@@ -39,7 +39,8 @@
     },
     {
       "term": "Norsk Hydro",
-      "def": "Industriselskap grunnlagt i 1905 basert på vannkraft."
+      "def": "Industriselskap grunnlagt i 1905 basert på vannkraft.",
+      "niva": "eksempel"
     },
     {
       "term": "Samlebånd",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Maskinstormere",
-      "def": "Arbeidere i England som ødela maskiner som tok jobbene deres."
+      "def": "Arbeidere i England som ødela maskiner som tok jobbene deres.",
+      "niva": "eksempel"
     },
     {
       "term": "Fremskrittstro",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Verdensutstillingene",
-      "def": "Utstillinger på 1800-tallet som viste fram nye oppfinnelser."
+      "def": "Utstillinger på 1800-tallet som viste fram nye oppfinnelser.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +132,8 @@
         "Politikere"
       ],
       "correct": 0,
-      "explain": "Uttrykk for frykt for arbeidsløshet."
+      "explain": "Uttrykk for frykt for arbeidsløshet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +145,8 @@
         "De forbød kvinner å jobbe"
       ],
       "correct": 1,
-      "explain": "Lettere husarbeid."
+      "explain": "Lettere husarbeid.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +158,8 @@
         "At fremskritt er umulig"
       ],
       "correct": 2,
-      "explain": "Endret forventningene til framtiden."
+      "explain": "Endret forventningene til framtiden.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -316,7 +322,8 @@
           "1969"
         ],
         "correct": 1,
-        "explain": "Samme år som unionsoppløsningen."
+        "explain": "Samme år som unionsoppløsningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -380,7 +387,8 @@
         "kriterier": [
           "Forklarer at vannkraft ga energi som kraftkrevende industri trengte.",
           "Bruker Norsk Hydro som et relevant eksempel og får fram at selskapet ble grunnlagt i 1905."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -398,7 +406,8 @@
         "kriterier": [
           "Knytter verdensutstillingene til optimisme eller tro på teknologisk fremskritt.",
           "Knytter ødeleggelsen av maskiner til frykt for tap av arbeid."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

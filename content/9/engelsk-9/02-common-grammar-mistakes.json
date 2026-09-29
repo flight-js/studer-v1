@@ -53,23 +53,28 @@
     },
     {
       "term": "eventually",
-      "def": "False friend: til slutt."
+      "def": "False friend: til slutt.",
+      "niva": "eksempel"
     },
     {
       "term": "actually",
-      "def": "False friend: faktisk."
+      "def": "False friend: faktisk.",
+      "niva": "eksempel"
     },
     {
       "term": "sensible",
-      "def": "False friend: fornuftig. (sensitive = sensibel)"
+      "def": "False friend: fornuftig. (sensitive = sensibel)",
+      "niva": "eksempel"
     },
     {
       "term": "fabric",
-      "def": "False friend: stoff. (factory = fabrikk)"
+      "def": "False friend: stoff. (factory = fabrikk)",
+      "niva": "eksempel"
     },
     {
       "term": "brave",
-      "def": "False friend: modig. (well-behaved = brav)"
+      "def": "False friend: modig. (well-behaved = brav)",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -143,7 +148,8 @@
         "straks"
       ],
       "correct": 2,
-      "explain": "“Eventually” means “til slutt”. “Eventuelt” is “possibly” or “if necessary”."
+      "explain": "“Eventually” means “til slutt”. “Eventuelt” is “possibly” or “if necessary”.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -179,7 +185,8 @@
         "sanselig"
       ],
       "correct": 0,
-      "explain": "“Sensible” means “fornuftig”. “Sensibel” in Norwegian is “sensitive” in English."
+      "explain": "“Sensible” means “fornuftig”. “Sensibel” in Norwegian is “sensitive” in English.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -296,7 +303,8 @@
         "type": "sant-usant",
         "text": "“Actually” means “faktisk”.",
         "correct": true,
-        "explain": "“Actually” is a false friend. “Aktuelt” is “relevant” or “current”."
+        "explain": "“Actually” is a false friend. “Aktuelt” is “relevant” or “current”.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -323,7 +331,8 @@
           "fasade"
         ],
         "correct": 1,
-        "explain": "“Fabric” is cloth or material. A factory is “fabrikk”."
+        "explain": "“Fabric” is cloth or material. A factory is “fabrikk”.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -396,7 +405,8 @@
         "kriterier": [
           "Explains that “actually” means “faktisk,” not “possibly”.",
           "Replaces “Actually” with “Possibly” or another suitable way to express “possibly”."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -405,7 +415,8 @@
         "kriterier": [
           "Corrects “fabric” to “factory” in the sentence.",
           "Distinguishes the meanings: fabric is stoff and factory is fabrikk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -414,7 +425,8 @@
         "kriterier": [
           "Gives the meaning of “brave” as “modig”.",
           "Explains that it does not mean Norwegian “brav” (well-behaved)."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -429,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

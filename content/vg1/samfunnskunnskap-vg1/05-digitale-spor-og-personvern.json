@@ -27,7 +27,8 @@
     },
     {
       "term": "Databroker",
-      "def": "Selskap som kjøper og selger data om personer."
+      "def": "Selskap som kjøper og selger data om personer.",
+      "niva": "eksempel"
     },
     {
       "term": "Målrettet reklame",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Cambridge Analytica",
-      "def": "Skandale fra 2018 der Facebook-data ble brukt til politisk påvirkning uten samtykke."
+      "def": "Skandale fra 2018 der Facebook-data ble brukt til politisk påvirkning uten samtykke.",
+      "niva": "eksempel"
     },
     {
       "term": "Identitetstyveri",
@@ -51,7 +53,8 @@
     },
     {
       "term": "Doxing",
-      "def": "Å publisere private opplysninger om noen på nett."
+      "def": "Å publisere private opplysninger om noen på nett.",
+      "niva": "eksempel"
     },
     {
       "term": "GDPR",
@@ -105,7 +108,8 @@
         "En passordlekkasje fra en bank"
       ],
       "correct": 2,
-      "explain": "Skandalen ble kjent i 2018."
+      "explain": "Skandalen ble kjent i 2018.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -153,7 +157,8 @@
         "Å bruke tofaktorautentisering"
       ],
       "correct": 2,
-      "explain": "Doxing brukes ofte som hets eller trusler."
+      "explain": "Doxing brukes ofte som hets eller trusler.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "Sterke passord og tofaktorautentisering"
       ],
       "correct": 3,
-      "explain": "Tofaktor gjør det mye vanskeligere å bryte seg inn."
+      "explain": "Tofaktor gjør det mye vanskeligere å bryte seg inn.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -325,7 +331,8 @@
           "1998"
         ],
         "correct": 1,
-        "explain": "Den ble innført gjennom personopplysningsloven."
+        "explain": "Den ble innført gjennom personopplysningsloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -338,7 +345,8 @@
           "Passer på personvernet"
         ],
         "correct": 0,
-        "explain": "Dataene brukes blant annet til reklame."
+        "explain": "Dataene brukes blant annet til reklame.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -380,7 +388,8 @@
         "kriterier": [
           "Forklarer at plattformen samler inn brukerdata.",
           "Forklarer at databrokeren kjøper og selger data om personer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -431,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

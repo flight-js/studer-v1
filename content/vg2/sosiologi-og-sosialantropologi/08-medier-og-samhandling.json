@@ -59,7 +59,8 @@
     },
     {
       "term": "#MeToo",
-      "def": "Eksempel på bevegelse som fikk gjennomslag via sosiale medier."
+      "def": "Eksempel på bevegelse som fikk gjennomslag via sosiale medier.",
+      "niva": "eksempel"
     },
     {
       "term": "Netthets",
@@ -93,7 +94,8 @@
         "Max Weber"
       ],
       "correct": 0,
-      "explain": "Digitale nettverk på tvers av grenser."
+      "explain": "Digitale nettverk på tvers av grenser.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -129,7 +131,8 @@
         "Sosiale medier har ingen publikum"
       ],
       "correct": 0,
-      "explain": "Inntrykksstyring."
+      "explain": "Inntrykksstyring.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -285,14 +288,16 @@
         "type": "sant-usant",
         "text": "Reklame fra influensere skal merkes tydelig.",
         "correct": true,
-        "explain": "Det er et krav i markedsføringsregelverket."
+        "explain": "Det er et krav i markedsføringsregelverket.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Forskerne er helt enige om hvor sterk effekten av ekkokamre er.",
         "correct": false,
-        "explain": "Det er faglig uenighet om styrken."
+        "explain": "Det er faglig uenighet om styrken.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -319,7 +324,8 @@
           "Hanseatene"
         ],
         "correct": 1,
-        "explain": "Fra 2017."
+        "explain": "Fra 2017.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -383,7 +389,8 @@
         "kriterier": [
           "Forklarer hvordan nærhet, opplevd tillit eller en parasosial relasjon kan påvirke følgerne.",
           "Får fram at reklame skal merkes tydelig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -392,7 +399,8 @@
         "kriterier": [
           "Forklarer en sammenheng mellom algoritmevalgt innhold og at grupper kan bevege seg lenger fra hverandre.",
           "Nevner at forskere er uenige eller usikre på hvor sterke effektene er."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

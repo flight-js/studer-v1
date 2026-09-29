@@ -67,7 +67,8 @@
     },
     {
       "term": "Arbeidstilsynet",
-      "def": "Fører tilsyn med arbeidsmiljøloven."
+      "def": "Fører tilsyn med arbeidsmiljøloven.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -332,7 +333,8 @@
           "Politiet"
         ],
         "correct": 0,
-        "explain": "Kan gi pålegg og reaksjoner."
+        "explain": "Kan gi pålegg og reaksjoner.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -410,7 +412,8 @@
         "kriterier": [
           "Nevner at arbeidstakeren kan kreve forhandlinger.",
           "Nevner at arbeidstakeren deretter kan reise søksmål."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -419,12 +422,14 @@
         "kriterier": [
           "Forklarer at Arbeidstilsynet fører tilsyn med at arbeidsmiljøloven følges.",
           "Nevner fagforeninger og/eller verneombud som viktige for å ivareta arbeidstakernes rettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

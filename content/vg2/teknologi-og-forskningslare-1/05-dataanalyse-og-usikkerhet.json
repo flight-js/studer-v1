@@ -39,7 +39,8 @@
     },
     {
       "term": "STDAV",
-      "def": "Regnearkfunksjon for standardavvik."
+      "def": "Regnearkfunksjon for standardavvik.",
+      "niva": "eksempel"
     },
     {
       "term": "Relativ usikkerhet",
@@ -51,7 +52,8 @@
     },
     {
       "term": "Glidende gjennomsnitt",
-      "def": "Enkelt filter som jevner ut støy."
+      "def": "Enkelt filter som jevner ut støy.",
+      "niva": "over-niva"
     },
     {
       "term": "Feilstolper",
@@ -389,7 +391,8 @@
         "kriterier": [
           "Forklarer at standardavvik beskriver det typiske avviket fra gjennomsnittet.",
           "Oppgir STDAV som regnearkfunksjon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,12 +419,14 @@
         "kriterier": [
           "Forklarer at glidende gjennomsnitt brukes som et filter.",
           "Får fram at filteret jevner ut støy eller tilfeldige variasjoner."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

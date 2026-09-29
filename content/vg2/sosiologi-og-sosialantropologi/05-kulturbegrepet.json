@@ -19,11 +19,13 @@
     },
     {
       "term": "Edward B. Tylor",
-      "def": "Definerte kultur som en kompleks helhet i 1871."
+      "def": "Definerte kultur som en kompleks helhet i 1871.",
+      "niva": "eksempel"
     },
     {
       "term": "Clifford Geertz",
-      "def": "Kultur som et nett av meninger som må tolkes."
+      "def": "Kultur som et nett av meninger som må tolkes.",
+      "niva": "eksempel"
     },
     {
       "term": "Kultur som prosess",
@@ -39,11 +41,13 @@
     },
     {
       "term": "Marcel Mauss",
-      "def": "Skrev «Gaven» om gavers forpliktelser (1925)."
+      "def": "Skrev «Gaven» om gavers forpliktelser (1925).",
+      "niva": "eksempel"
     },
     {
       "term": "Gavens tre plikter",
-      "def": "Å gi, å ta imot og å gi tilbake."
+      "def": "Å gi, å ta imot og å gi tilbake.",
+      "niva": "eksempel"
     },
     {
       "term": "Overgangsrite",
@@ -51,11 +55,13 @@
     },
     {
       "term": "Arnold van Gennep",
-      "def": "Beskrev overgangsriter med tre faser."
+      "def": "Beskrev overgangsriter med tre faser.",
+      "niva": "eksempel"
     },
     {
       "term": "Liminal fase",
-      "def": "Overgangsfasen «mellom» to statuser."
+      "def": "Overgangsfasen «mellom» to statuser.",
+      "niva": "eksempel"
     },
     {
       "term": "Slektskap",
@@ -105,7 +111,8 @@
         "At gaver er uviktige"
       ],
       "correct": 2,
-      "explain": "Å gi, ta imot og gi tilbake."
+      "explain": "Å gi, ta imot og gi tilbake.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +124,8 @@
         "Atskillelse, overgang og innlemmelse"
       ],
       "correct": 3,
-      "explain": "Overgangen er en liminal fase."
+      "explain": "Overgangen er en liminal fase.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +137,8 @@
         "Som bare kunst"
       ],
       "correct": 0,
-      "explain": "Han la vekt på tolkning."
+      "explain": "Han la vekt på tolkning.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -286,14 +295,16 @@
         "type": "sant-usant",
         "text": "Kulturrelativisme som moralsk standpunkt er ukontroversielt.",
         "correct": false,
-        "explain": "Det er omstridt, særlig i møte med menneskerettigheter."
+        "explain": "Det er omstridt, særlig i møte med menneskerettigheter.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Julegaver kan analyseres med Mauss' teori om gaver.",
         "correct": true,
-        "explain": "De skaper forventninger om gjengjeld."
+        "explain": "De skaper forventninger om gjengjeld.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +324,8 @@
           "Forberedelse"
         ],
         "correct": 1,
-        "explain": "Russetiden kan tolkes slik."
+        "explain": "Russetiden kan tolkes slik.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +338,8 @@
           "Karl Marx"
         ],
         "correct": 0,
-        "explain": "En klassisk antropologisk definisjon."
+        "explain": "En klassisk antropologisk definisjon.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -377,7 +390,8 @@
         "kriterier": [
           "Skiller mellom å forstå handlinger i kulturell sammenheng og å vurdere alt som like riktig.",
           "Nevner at det moralske standpunktet kan være omstridt, for eksempel i spørsmål om menneskerettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -419,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

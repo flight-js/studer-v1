@@ -71,7 +71,8 @@
     },
     {
       "term": "SQL",
-      "def": "Spørrespråk for relasjonsdatabaser."
+      "def": "Spørrespråk for relasjonsdatabaser.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -133,7 +134,8 @@
         "CSV"
       ],
       "correct": 0,
-      "explain": "Også MP3."
+      "explain": "Også MP3.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -181,7 +183,8 @@
         "#FFFFFF"
       ],
       "correct": 0,
-      "explain": "Maks rødt, null grønt og blått."
+      "explain": "Maks rødt, null grønt og blått.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -330,7 +333,8 @@
           "Endrer klassen til alle"
         ],
         "correct": 0,
-        "explain": "SELECT henter data."
+        "explain": "SELECT henter data.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -343,7 +347,8 @@
           "1 million per sekund"
         ],
         "correct": 2,
-        "explain": "44,1 kHz."
+        "explain": "44,1 kHz.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -372,7 +377,8 @@
         "kriterier": [
           "Knytter problemet til feil eller ulik tegnkoding.",
           "Forklarer at tegnet derfor blir tolket eller vist feil."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -390,7 +396,8 @@
         "kriterier": [
           "Bruker 44 100 målinger per sekund.",
           "Regner ut 132 300 målinger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -399,7 +406,8 @@
         "kriterier": [
           "Velger tapsfri komprimering og knytter den til nøyaktig gjenskaping av originalen.",
           "Nevner et passende format, for eksempel ZIP eller PNG."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -417,12 +425,14 @@
         "kriterier": [
           "Oppgir verdien 92.",
           "Forklarer at spørringen først finner raden med klasse 2STB og deretter henter poengverdien."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

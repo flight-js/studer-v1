@@ -29,7 +29,8 @@
     },
     {
       "term": "PEEL",
-      "def": "Point, Evidence, Explanation, Link – a model for body paragraphs."
+      "def": "Point, Evidence, Explanation, Link – a model for body paragraphs.",
+      "niva": "eksempel"
     },
     {
       "term": "Topic sentence",
@@ -65,11 +66,13 @@
     },
     {
       "term": "Hedging",
-      "def": "Careful language like “may”, “suggest”, “it is likely that”."
+      "def": "Careful language like “may”, “suggest”, “it is likely that”.",
+      "niva": "over-niva"
     },
     {
       "term": "Call to action",
-      "def": "An ending that encourages the reader to do or think something."
+      "def": "An ending that encourages the reader to do or think something.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -95,7 +98,8 @@
         "Essay"
       ],
       "correct": 0,
-      "explain": "PEEL = Point, Evidence, Explanation, Link."
+      "explain": "PEEL = Point, Evidence, Explanation, Link.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -155,7 +159,8 @@
         "This is 100 % certain."
       ],
       "correct": 2,
-      "explain": "“Suggest” and “may” show careful, fair language."
+      "explain": "“Suggest” and “may” show careful, fair language.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -345,7 +350,8 @@
           "A topic sentence"
         ],
         "correct": 0,
-        "explain": "For example: “It is time for schools to act.”"
+        "explain": "For example: “It is time for schools to act.”",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -374,7 +380,8 @@
         "kriterier": [
           "Beskriver evidence som støtte for et poeng, for eksempel fakta eller eksempler.",
           "Forklarer at explanation viser hvordan beviset støtter synspunktet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -419,12 +426,14 @@
         "kriterier": [
           "Forklarer at en call to action oppfordrer leseren til å gjøre eller tenke noe.",
           "Knytter den til avslutningen av essayet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

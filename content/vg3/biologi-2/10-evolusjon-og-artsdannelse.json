@@ -169,7 +169,8 @@
         "Fordi det er sterilt"
       ],
       "correct": 3,
-      "explain": "En barriere etter befruktning."
+      "explain": "En barriere etter befruktning.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -340,7 +341,8 @@
           "Ingen endring"
         ],
         "correct": 2,
-        "explain": "Store fisk fjernes."
+        "explain": "Store fisk fjernes.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -420,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

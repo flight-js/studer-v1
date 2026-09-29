@@ -47,19 +47,23 @@
     },
     {
       "term": "Nobelprisen i kjemi 2020",
-      "def": "Gikk til Charpentier og Doudna for CRISPR."
+      "def": "Gikk til Charpentier og Doudna for CRISPR.",
+      "niva": "eksempel"
     },
     {
       "term": "Dolly",
-      "def": "Sau født 1996, første pattedyr klonet fra en voksen celle."
+      "def": "Sau født 1996, første pattedyr klonet fra en voksen celle.",
+      "niva": "eksempel"
     },
     {
       "term": "Genteknologiloven",
-      "def": "Norsk lov som regulerer genmodifiserte organismer."
+      "def": "Norsk lov som regulerer genmodifiserte organismer.",
+      "niva": "eksempel"
     },
     {
       "term": "Bioteknologiloven",
-      "def": "Norsk lov som regulerer medisinsk bruk av bioteknologi på mennesker."
+      "def": "Norsk lov som regulerer medisinsk bruk av bioteknologi på mennesker.",
+      "niva": "eksempel"
     },
     {
       "term": "Føre-var-prinsippet",
@@ -67,7 +71,8 @@
     },
     {
       "term": "Designerbaby",
-      "def": "Barn der egenskaper er valgt ved genteknologi."
+      "def": "Barn der egenskaper er valgt ved genteknologi.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +122,8 @@
         "Den var det første pattedyret klonet fra en voksen celle"
       ],
       "correct": 3,
-      "explain": "Dolly ble født i 1996."
+      "explain": "Dolly ble født i 1996.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +135,8 @@
         "Opplæringsloven"
       ],
       "correct": 0,
-      "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker."
+      "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -165,7 +172,8 @@
         "Konsekvensetikk"
       ],
       "correct": 3,
-      "explain": "Pliktetikk spør om handlingen er riktig i seg selv."
+      "explain": "Pliktetikk spør om handlingen er riktig i seg selv.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -279,7 +287,8 @@
         "type": "sant-usant",
         "text": "Kloning av mennesker er forbudt i Norge.",
         "correct": true,
-        "explain": "Bioteknologiloven setter grenser for bruk på mennesker."
+        "explain": "Bioteknologiloven setter grenser for bruk på mennesker.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -293,7 +302,8 @@
         "type": "sant-usant",
         "text": "Bioteknologirådet gir råd om etiske spørsmål knyttet til bioteknologi.",
         "correct": true,
-        "explain": "Rådet skaper også offentlig debatt."
+        "explain": "Rådet skaper også offentlig debatt.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +323,8 @@
           "Naturmangfoldloven"
         ],
         "correct": 2,
-        "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker."
+        "explain": "Bioteknologiloven gjelder medisinsk bruk på mennesker.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +337,8 @@
           "Det gjør ingen forskjell"
         ],
         "correct": 0,
-        "explain": "Mange mener det kan endre synet på menneskeverd."
+        "explain": "Mange mener det kan endre synet på menneskeverd.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -339,7 +351,8 @@
           "Hva som er mest effektivt"
         ],
         "correct": 1,
-        "explain": "Konsekvensetikken ser på fordeler og ulemper."
+        "explain": "Konsekvensetikken ser på fordeler og ulemper.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -368,7 +381,8 @@
         "kriterier": [
           "Knytter genteknologiloven til genmodifiserte organismer.",
           "Knytter bioteknologiloven til medisinsk bioteknologi på mennesker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -377,7 +391,8 @@
         "kriterier": [
           "Forklarer at konsekvensetikk vurderer fordeler og ulemper eller følger.",
           "Forklarer at pliktetikk vurderer om handlingen er gal i seg selv, uavhengig av følgene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -386,7 +401,8 @@
         "kriterier": [
           "Viser at konsekvensetikk innebærer å vurdere fordeler og ulemper.",
           "Trekker inn mulige konsekvenser for mennesker, dyr eller miljø."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -404,7 +420,8 @@
         "kriterier": [
           "Viser regnestykket 2020 − 1996.",
           "Oppgir 24 år."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -413,12 +430,14 @@
         "kriterier": [
           "Bruker et regnestykke som finner midtpunktet mellom årstallene.",
           "Oppgir 2008."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

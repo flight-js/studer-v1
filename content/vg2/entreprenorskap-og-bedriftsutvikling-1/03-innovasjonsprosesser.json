@@ -35,7 +35,8 @@
     },
     {
       "term": "Disruptiv innovasjon",
-      "def": "Enkel og billig løsning som etter hvert utkonkurrerer de etablerte."
+      "def": "Enkel og billig løsning som etter hvert utkonkurrerer de etablerte.",
+      "niva": "over-niva"
     },
     {
       "term": "Designtenkning",
@@ -67,11 +68,13 @@
     },
     {
       "term": "Patentstyret",
-      "def": "Behandler søknader om patent, varemerke og design."
+      "def": "Behandler søknader om patent, varemerke og design.",
+      "niva": "eksempel"
     },
     {
       "term": "Taushetserklæring",
-      "def": "Avtale om å ikke dele fortrolig informasjon."
+      "def": "Avtale om å ikke dele fortrolig informasjon.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -109,7 +112,8 @@
         "En ny logo"
       ],
       "correct": 2,
-      "explain": "Som strømming mot DVD-utleie."
+      "explain": "Som strømming mot DVD-utleie.",
+      "niva": "over-niva"
     },
     {
       "id": "q04",
@@ -157,7 +161,8 @@
         "1 år"
       ],
       "correct": 2,
-      "explain": "For tekniske oppfinnelser."
+      "explain": "For tekniske oppfinnelser.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -193,7 +198,8 @@
         "At den er populær"
       ],
       "correct": 1,
-      "explain": "Den må ikke være kjent fra før."
+      "explain": "Den må ikke være kjent fra før.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -286,14 +292,16 @@
         "type": "sant-usant",
         "text": "Opphavsrett gjelder automatisk for tekst, musikk og bilder.",
         "correct": true,
-        "explain": "Den krever ingen registrering."
+        "explain": "Den krever ingen registrering.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "En oppfinnelse som er vist offentlig, kan alltid patenteres senere.",
         "correct": false,
-        "explain": "Den må være ny ved søknaden."
+        "explain": "Den må være ny ved søknaden.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -366,7 +374,8 @@
         "kriterier": [
           "Klassifiserer små, gradvise forbedringer som inkrementell innovasjon.",
           "Klassifiserer endringen som skaper et helt nytt marked, som radikal innovasjon."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -412,7 +421,8 @@
         "kriterier": [
           "Foreslår en taushetserklæring.",
           "Forklarer at avtalen innebærer at fortrolig informasjon ikke skal deles."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -427,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

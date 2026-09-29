@@ -27,7 +27,8 @@
     },
     {
       "term": "Ksp for AgCl",
-      "def": "[Ag⁺] · [Cl⁻]."
+      "def": "[Ag⁺] · [Cl⁻].",
+      "niva": "eksempel"
     },
     {
       "term": "Molar løselighet s",
@@ -51,23 +52,28 @@
     },
     {
       "term": "Kalsiumoksalat",
-      "def": "Tungt løselig salt i mange nyresteiner."
+      "def": "Tungt løselig salt i mange nyresteiner.",
+      "niva": "eksempel"
     },
     {
       "term": "Hydroksyapatitt",
-      "def": "Hovedbestanddelen i tannemalje."
+      "def": "Hovedbestanddelen i tannemalje.",
+      "niva": "eksempel"
     },
     {
       "term": "Fluorapatitt",
-      "def": "Mindre løselig enn hydroksyapatitt – tåler syre bedre."
+      "def": "Mindre løselig enn hydroksyapatitt – tåler syre bedre.",
+      "niva": "eksempel"
     },
     {
       "term": "Hardt vann",
-      "def": "Vann med mye kalsium og magnesium."
+      "def": "Vann med mye kalsium og magnesium.",
+      "niva": "eksempel"
     },
     {
       "term": "Bariumsulfat",
-      "def": "Tungt løselig kontrastmiddel ved røntgen."
+      "def": "Tungt løselig kontrastmiddel ved røntgen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +159,8 @@
         "Fluor øker syren i munnen"
       ],
       "correct": 2,
-      "explain": "Hydroksidioner byttes ut med fluorid."
+      "explain": "Hydroksidioner byttes ut med fluorid.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +172,8 @@
         "Kalsiumoksalat eller kalsiumfosfat"
       ],
       "correct": 3,
-      "explain": "Tungt løselige kalsiumsalter."
+      "explain": "Tungt løselige kalsiumsalter.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +185,8 @@
         "Den blir uendelig"
       ],
       "correct": 0,
-      "explain": "Motsatt av de fleste faste stoffer."
+      "explain": "Motsatt av de fleste faste stoffer.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -189,7 +198,8 @@
         "Fordi det er en gass"
       ],
       "correct": 1,
-      "explain": "Bariumioner er giftige hvis de tas opp."
+      "explain": "Bariumioner er giftige hvis de tas opp.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -276,7 +286,8 @@
         "type": "sant-usant",
         "text": "Tannemalje løses lettere i sur munn.",
         "correct": true,
-        "explain": "Grunnen til hull i tennene."
+        "explain": "Grunnen til hull i tennene.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -310,7 +321,8 @@
           "Mye oksygen"
         ],
         "correct": 1,
-        "explain": "Kan gi kalk i rør."
+        "explain": "Kan gi kalk i rør.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -336,7 +348,8 @@
           "Hull i tennene"
         ],
         "correct": 2,
-        "explain": "Nitrogen som er løst i blodet, danner bobler."
+        "explain": "Nitrogen som er løst i blodet, danner bobler.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -401,7 +414,8 @@
         "kriterier": [
           "Nevner at tannemaljen består av hydroksyapatitt.",
           "Knytter surt miljø til at emaljen løses og dette til hull i tennene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -410,12 +424,14 @@
         "kriterier": [
           "Får fram at løseligheten varierer med temperaturen.",
           "Knytter temperaturavhengig løselighet til at omkrystallisering kan brukes til rensing."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

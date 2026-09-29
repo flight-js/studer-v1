@@ -177,7 +177,8 @@
         "Kvensk"
       ],
       "correct": 3,
-      "explain": "Kvensk, romani, romanes og skogfinsk er nasjonale minoritetsspråk. Samisk har status som urfolksspråk."
+      "explain": "Kvensk, romani, romanes og skogfinsk er nasjonale minoritetsspråk. Samisk har status som urfolksspråk.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -336,7 +337,8 @@
           "I Trøndelag"
         ],
         "correct": 2,
-        "explain": "Nynorsk står sterkest på Vestlandet."
+        "explain": "Nynorsk står sterkest på Vestlandet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -349,7 +351,8 @@
           "2022"
         ],
         "correct": 3,
-        "explain": "Språkloven trådte i kraft 1. januar 2022."
+        "explain": "Språkloven trådte i kraft 1. januar 2022.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -386,7 +389,8 @@
         "fasit": "Statlige organer må bruke både bokmål og nynorsk. De kan derfor ikke bruke bare bokmål.",
         "kriterier": [
           "Får fram at statlige organer må bruke begge målformene."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -395,7 +399,8 @@
         "kriterier": [
           "Skiller norsk tegnspråks særskilte status fra kategorien nasjonale minoritetsspråk.",
           "Nevner de nasjonale minoritetsspråkene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,12 +427,14 @@
         "kriterier": [
           "Får fram at 1907-reformen fornorsket riksmålet.",
           "Oppgir 2005 for bokmål og 2012 for nynorsk."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

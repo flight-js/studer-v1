@@ -24,11 +24,13 @@
     },
     {
       "term": "Styrkemarkør",
-      "def": "Ord som viser hvor sikker påstanden er, som «trolig»."
+      "def": "Ord som viser hvor sikker påstanden er, som «trolig».",
+      "niva": "over-niva"
     },
     {
       "term": "Gjendrivelse",
-      "def": "Forbehold eller motargumenter til en påstand."
+      "def": "Forbehold eller motargumenter til en påstand.",
+      "niva": "over-niva"
     },
     {
       "term": "Stråmann",
@@ -118,7 +120,8 @@
         "Berit Ås"
       ],
       "correct": 3,
-      "explain": "Berit Ås var sosiolog og politiker."
+      "explain": "Berit Ås var sosiolog og politiker.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -130,7 +133,8 @@
         "En hersketeknikk"
       ],
       "correct": 0,
-      "explain": "«Trolig», «alltid» og «kanskje» er styrkemarkører."
+      "explain": "«Trolig», «alltid» og «kanskje» er styrkemarkører.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -345,7 +349,8 @@
           "Forbehold eller motargumenter"
         ],
         "correct": 3,
-        "explain": "Gjendrivelse gjør argumentasjonen mer nyansert."
+        "explain": "Gjendrivelse gjør argumentasjonen mer nyansert.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -369,7 +374,8 @@
         "kriterier": [
           "Peker ut forbeholdet «med mindre … skoledagen blir for lang».",
           "Forklarer at forbeholdet begrenser påstanden eller viser en mulig innvending."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -433,12 +439,14 @@
         "kriterier": [
           "Kaller forskningsstøtten ryggdekning.",
           "Forklarer at den støtter hjemmelen eller sammenhengen mellom belegg og påstand."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

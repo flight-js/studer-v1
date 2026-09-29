@@ -68,7 +68,8 @@
     },
     {
       "term": "SSB",
-      "def": "Statistisk sentralbyrå – kilde til offisiell statistikk."
+      "def": "Statistisk sentralbyrå – kilde til offisiell statistikk.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -333,7 +334,8 @@
           "MDG og Rødt"
         ],
         "correct": 1,
-        "explain": "Rødt og SV regnes til venstre."
+        "explain": "Rødt og SV regnes til venstre.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -426,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

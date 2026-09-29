@@ -15,7 +15,8 @@
     },
     {
       "term": "UPR",
-      "def": "Universell periodisk gjennomgang der alle FN-land vurderes jevnlig."
+      "def": "Universell periodisk gjennomgang der alle FN-land vurderes jevnlig.",
+      "niva": "eksempel"
     },
     {
       "term": "Traktatorgan",
@@ -23,11 +24,13 @@
     },
     {
       "term": "FNs barnekomité",
-      "def": "Overvåker Barnekonvensjonen."
+      "def": "Overvåker Barnekonvensjonen.",
+      "niva": "eksempel"
     },
     {
       "term": "FNs høykommissær for menneskerettigheter",
-      "def": "Leder FNs menneskerettsarbeid."
+      "def": "Leder FNs menneskerettsarbeid.",
+      "niva": "eksempel"
     },
     {
       "term": "Europarådet",
@@ -43,19 +46,23 @@
     },
     {
       "term": "Barnevernssakene i EMD",
-      "def": "Norge tapte flere saker om retten til familieliv."
+      "def": "Norge tapte flere saker om retten til familieliv.",
+      "niva": "eksempel"
     },
     {
       "term": "NIM",
-      "def": "Norges institusjon for menneskerettigheter."
+      "def": "Norges institusjon for menneskerettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Sivilombudet",
-      "def": "Behandler klager på forvaltningen."
+      "def": "Behandler klager på forvaltningen.",
+      "niva": "eksempel"
     },
     {
       "term": "Amnesty International",
-      "def": "Frivillig organisasjon som dokumenterer menneskerettsbrudd."
+      "def": "Frivillig organisasjon som dokumenterer menneskerettsbrudd.",
+      "niva": "eksempel"
     },
     {
       "term": "Mellomstatlig samarbeid",
@@ -81,7 +88,8 @@
         "En traktat"
       ],
       "correct": 1,
-      "explain": "Universell periodisk gjennomgang."
+      "explain": "Universell periodisk gjennomgang.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +101,8 @@
         "Brussel"
       ],
       "correct": 0,
-      "explain": "Den hører til Europarådet."
+      "explain": "Den hører til Europarådet.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +126,8 @@
         "Barnevernssaker"
       ],
       "correct": 3,
-      "explain": "Om retten til familieliv."
+      "explain": "Om retten til familieliv.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +163,8 @@
         "Et politisk parti"
       ],
       "correct": 2,
-      "explain": "Overvåker og gir råd."
+      "explain": "Overvåker og gir råd.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -282,7 +293,8 @@
         "type": "sant-usant",
         "text": "Man må som hovedregel prøve saken i nasjonale domstoler før man klager til EMD.",
         "correct": true,
-        "explain": "Nasjonale rettsmidler må brukes først."
+        "explain": "Nasjonale rettsmidler må brukes først.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
@@ -296,7 +308,8 @@
         "type": "sant-usant",
         "text": "Norge er bundet av mye EU-rett gjennom EØS-avtalen.",
         "correct": true,
-        "explain": "Selv om Norge ikke er EU-medlem."
+        "explain": "Selv om Norge ikke er EU-medlem.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -316,7 +329,8 @@
           "UPR"
         ],
         "correct": 1,
-        "explain": "Nasjonal klageordning."
+        "explain": "Nasjonal klageordning.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +343,8 @@
           "5"
         ],
         "correct": 0,
-        "explain": "Valgt av FNs generalforsamling."
+        "explain": "Valgt av FNs generalforsamling.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -342,7 +357,8 @@
           "Europarådet"
         ],
         "correct": 2,
-        "explain": "Den internasjonale straffedomstolen."
+        "explain": "Den internasjonale straffedomstolen.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -371,7 +387,8 @@
         "kriterier": [
           "Skiller mellom EMD-saker om staters ansvar for menneskerettighetsbrudd og ICC-saker mot enkeltpersoner.",
           "Knytter ICC til alvorlige forbrytelser, for eksempel folkemord eller krigsforbrytelser."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -380,7 +397,8 @@
         "kriterier": [
           "Knytter klagen på den offentlige etaten til Sivilombudet og dets arbeid med klager på forvaltningen.",
           "Knytter rådet om menneskerettighetssituasjonen til NIMs overvåking og rådgivning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -389,7 +407,8 @@
         "kriterier": [
           "Nevner at dommene førte til endringer i norsk barnevernspraksis.",
           "Knytter sakene til at familiens rett til familieliv ikke var godt nok ivaretatt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

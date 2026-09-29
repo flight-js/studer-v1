@@ -47,7 +47,8 @@
     },
     {
       "term": "Foreldreaksjonen",
-      "def": "Protest mot samnorsk på 1950-tallet der foreldre rettet lærebøker."
+      "def": "Protest mot samnorsk på 1950-tallet der foreldre rettet lærebøker.",
+      "niva": "eksempel"
     },
     {
       "term": "Språkstriden",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Språkrådet",
-      "def": "Statens fagorgan for norsk språk."
+      "def": "Statens fagorgan for norsk språk.",
+      "niva": "eksempel"
     },
     {
       "term": "Hovedmål",
@@ -153,7 +155,8 @@
         "En aksjon for dialekter"
       ],
       "correct": 2,
-      "explain": "Riksmålsfolk protesterte mot «tvangsformer»."
+      "explain": "Riksmålsfolk protesterte mot «tvangsformer».",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +192,8 @@
         "Ingen"
       ],
       "correct": 1,
-      "explain": "De fleste bor på Vestlandet."
+      "explain": "De fleste bor på Vestlandet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -299,7 +303,8 @@
         "type": "sant-usant",
         "text": "Norsk tegnspråk har særskilt vern i språkloven.",
         "correct": true,
-        "explain": "Også samisk, kvensk, romani og romanes har vern."
+        "explain": "Også samisk, kvensk, romani og romanes har vern.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -332,7 +337,8 @@
           "Kongen"
         ],
         "correct": 1,
-        "explain": "Språkrådet er statens fagorgan for norsk språk."
+        "explain": "Språkrådet er statens fagorgan for norsk språk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -383,7 +389,8 @@
         "kriterier": [
           "Forklarer at reformene skulle føre målformene sammen mot samnorsk.",
           "Gir et riktig eksempel på en folkelig bokmålsform, som «boka» eller «sola»."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -410,7 +417,8 @@
         "kriterier": [
           "Får fram at samisk er likestilt med norsk.",
           "Får fram at de andre nevnte språkene har særskilt vern."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

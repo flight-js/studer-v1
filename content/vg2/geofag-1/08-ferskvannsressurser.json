@@ -27,7 +27,8 @@
     },
     {
       "term": "Aralsjøen",
-      "def": "Sjø som krympet dramatisk på grunn av vanning av bomull."
+      "def": "Sjø som krympet dramatisk på grunn av vanning av bomull.",
+      "niva": "eksempel"
     },
     {
       "term": "Overpumping av grunnvann",
@@ -35,7 +36,8 @@
     },
     {
       "term": "Setninger",
-      "def": "At bakken synker, for eksempel når grunnvann tas ut."
+      "def": "At bakken synker, for eksempel når grunnvann tas ut.",
+      "niva": "over-niva"
     },
     {
       "term": "Grenseoverskridende vassdrag",
@@ -47,27 +49,33 @@
     },
     {
       "term": "1 kg storfekjøtt",
-      "def": "Krever rundt 15 000 liter vann."
+      "def": "Krever rundt 15 000 liter vann.",
+      "niva": "eksempel"
     },
     {
       "term": "Dryppvanning",
-      "def": "Vanning direkte til røttene med lite tap."
+      "def": "Vanning direkte til røttene med lite tap.",
+      "niva": "eksempel"
     },
     {
       "term": "Avsalting",
-      "def": "Å fjerne salt fra sjøvann – krever mye energi."
+      "def": "Å fjerne salt fra sjøvann – krever mye energi.",
+      "niva": "eksempel"
     },
     {
       "term": "Vannforskriften",
-      "def": "Norsk regelverk for god tilstand i vann."
+      "def": "Norsk regelverk for god tilstand i vann.",
+      "niva": "eksempel"
     },
     {
       "term": "Bærekraftsmål 6",
-      "def": "Rent vann og gode sanitærforhold for alle."
+      "def": "Rent vann og gode sanitærforhold for alle.",
+      "niva": "eksempel"
     },
     {
       "term": "Lekkasje i ledningsnett",
-      "def": "Stort vanntap mange steder i Norge."
+      "def": "Stort vanntap mange steder i Norge.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -105,7 +113,8 @@
         "Isbreer smeltet"
       ],
       "correct": 2,
-      "explain": "Fra 1960-tallet."
+      "explain": "Fra 1960-tallet.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -153,7 +162,8 @@
         "Det virker bare i Norge"
       ],
       "correct": 2,
-      "explain": "Og saltlaken må tas hånd om."
+      "explain": "Og saltlaken må tas hånd om.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +175,8 @@
         "Dryppvanning"
       ],
       "correct": 3,
-      "explain": "Vannet går direkte til røttene."
+      "explain": "Vannet går direkte til røttene.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +200,8 @@
         "Klima"
       ],
       "correct": 1,
-      "explain": "Tilgang for alle."
+      "explain": "Tilgang for alle.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -306,7 +318,8 @@
         "type": "sant-usant",
         "text": "Grønnsaker krever mer vann per kilo enn storfekjøtt.",
         "correct": false,
-        "explain": "Storfekjøtt krever langt mer vann."
+        "explain": "Storfekjøtt krever langt mer vann.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -332,7 +345,8 @@
           "Flere demninger"
         ],
         "correct": 0,
-        "explain": "Helhetlig forvaltning av vannet."
+        "explain": "Helhetlig forvaltning av vannet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -345,7 +359,8 @@
           "Amazonas"
         ],
         "correct": 2,
-        "explain": "På grunn av en stor demning på Den blå Nilen."
+        "explain": "På grunn av en stor demning på Den blå Nilen.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -401,7 +416,8 @@
         "kriterier": [
           "Nevner både økologisk og kjemisk tilstand som mål.",
           "Knytter målet til vannforekomster som elver, innsjøer, grunnvann eller kystvann."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,12 +435,14 @@
         "kriterier": [
           "Multipliserer 15 000 liter med 3.",
           "Oppgir rundt 45 000 liter."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -55,11 +55,13 @@
     },
     {
       "term": "1 : 50 000",
-      "def": "1 cm på kartet er 500 m i virkeligheten."
+      "def": "1 cm på kartet er 500 m i virkeligheten.",
+      "niva": "eksempel"
     },
     {
       "term": "Blandingsforhold 1 : 4",
-      "def": "1 del av det ene og 4 deler av det andre."
+      "def": "1 del av det ene og 4 deler av det andre.",
+      "niva": "eksempel"
     },
     {
       "term": "Arbeidstimer",
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

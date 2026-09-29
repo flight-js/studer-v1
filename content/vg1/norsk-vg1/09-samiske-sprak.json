@@ -35,15 +35,18 @@
     },
     {
       "term": "Finnefondet",
-      "def": "Fond fra 1851 som skulle fremme norsk blant samer og kvener."
+      "def": "Fond fra 1851 som skulle fremme norsk blant samer og kvener.",
+      "niva": "eksempel"
     },
     {
       "term": "Wexelsen-plakaten",
-      "def": "Skoleinstruks fra 1898 om at undervisningen skulle være på norsk."
+      "def": "Skoleinstruks fra 1898 om at undervisningen skulle være på norsk.",
+      "niva": "eksempel"
     },
     {
       "term": "Jordsalgsloven 1902",
-      "def": "Lov som i praksis krevde norskkunnskaper for å kjøpe jord i Finnmark."
+      "def": "Lov som i praksis krevde norskkunnskaper for å kjøpe jord i Finnmark.",
+      "niva": "eksempel"
     },
     {
       "term": "Alta-saken",
@@ -59,7 +62,8 @@
     },
     {
       "term": "ILO-konvensjon 169",
-      "def": "Internasjonal konvensjon om urfolks rettigheter, ratifisert av Norge i 1990."
+      "def": "Internasjonal konvensjon om urfolks rettigheter, ratifisert av Norge i 1990.",
+      "niva": "eksempel"
     },
     {
       "term": "Forvaltningsområdet for samisk språk",
@@ -81,7 +85,8 @@
         "Slavisk"
       ],
       "correct": 1,
-      "explain": "Samisk er i slekt med finsk og estisk."
+      "explain": "Samisk er i slekt med finsk og estisk.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -117,7 +122,8 @@
         "At undervisningen skulle være på norsk"
       ],
       "correct": 3,
-      "explain": "Samisk og kvensk skulle bare brukes som hjelpespråk når det var helt nødvendig."
+      "explain": "Samisk og kvensk skulle bare brukes som hjelpespråk når det var helt nødvendig.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -177,7 +183,8 @@
         "24. oktober"
       ],
       "correct": 1,
-      "explain": "Dagen minner om det første samiske landsmøtet i Trondheim i 1917."
+      "explain": "Dagen minner om det første samiske landsmøtet i Trondheim i 1917.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -294,7 +301,8 @@
         "type": "sant-usant",
         "text": "Norge var det første landet som ratifiserte ILO-konvensjon nr. 169.",
         "correct": true,
-        "explain": "Norge ratifiserte konvensjonen i 1990."
+        "explain": "Norge ratifiserte konvensjonen i 1990.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -315,7 +323,8 @@
         "type": "sant-usant",
         "text": "Samisk er i nær slekt med norsk.",
         "correct": false,
-        "explain": "Samisk er finsk-ugrisk, norsk er germansk."
+        "explain": "Samisk er finsk-ugrisk, norsk er germansk.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -341,7 +350,8 @@
           "1917"
         ],
         "correct": 2,
-        "explain": "Rapporten handlet om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner."
+        "explain": "Rapporten handlet om fornorskingen og urett mot samer, kvener/norskfinner og skogfinner.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -374,7 +384,8 @@
         "kriterier": [
           "Forklarer at Finnefondet skulle fremme norsk blant samer og kvener.",
           "Forklarer at Jordsalgsloven knyttet norskkunnskaper til muligheten for å kjøpe jord i Finnmark."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -428,12 +439,14 @@
         "kriterier": [
           "Slår fast at samiske stedsnavn skal brukes.",
           "Nevner både skilt og kart."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

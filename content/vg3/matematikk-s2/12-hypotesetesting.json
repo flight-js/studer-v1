@@ -290,7 +290,8 @@
         "type": "sant-usant",
         "text": "Tester vi mange hypoteser, vil noen bli signifikante ved en tilfeldighet.",
         "correct": true,
-        "explain": "Med α = 5 % omtrent én av tjue."
+        "explain": "Med α = 5 % omtrent én av tjue.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -410,12 +411,14 @@
         "kriterier": [
           "Forklarer at noen signifikante funn kan oppstå tilfeldig.",
           "Knytter dette til at mange hypoteser testes."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

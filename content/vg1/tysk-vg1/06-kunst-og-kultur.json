@@ -12,43 +12,53 @@
   "flashcards": [
     {
       "term": "Johann Wolfgang von Goethe",
-      "def": "Tysklands største forfatter, skrev Faust"
+      "def": "Tysklands største forfatter, skrev Faust",
+      "niva": "eksempel"
     },
     {
       "term": "die Brüder Grimm",
-      "def": "samlet eventyr i Kinder- und Hausmärchen (1812)"
+      "def": "samlet eventyr i Kinder- und Hausmärchen (1812)",
+      "niva": "eksempel"
     },
     {
       "term": "Rotkäppchen",
-      "def": "Rødhette"
+      "def": "Rødhette",
+      "niva": "eksempel"
     },
     {
       "term": "Franz Kafka",
-      "def": "skrev Die Verwandlung på tysk i Praha"
+      "def": "skrev Die Verwandlung på tysk i Praha",
+      "niva": "eksempel"
     },
     {
       "term": "kafkaesk",
-      "def": "absurd og uoversiktlig"
+      "def": "absurd og uoversiktlig",
+      "niva": "eksempel"
     },
     {
       "term": "Wolfgang Amadeus Mozart",
-      "def": "komponist fra Salzburg, skrev Die Zauberflöte"
+      "def": "komponist fra Salzburg, skrev Die Zauberflöte",
+      "niva": "eksempel"
     },
     {
       "term": "Ludwig van Beethoven",
-      "def": "komponist fra Bonn; Ode an die Freude er EUs hymne"
+      "def": "komponist fra Bonn; Ode an die Freude er EUs hymne",
+      "niva": "eksempel"
     },
     {
       "term": "das Bauhaus",
-      "def": "kunst- og designskole grunnlagt i Weimar i 1919"
+      "def": "kunst- og designskole grunnlagt i Weimar i 1919",
+      "niva": "eksempel"
     },
     {
       "term": "Good Bye, Lenin!",
-      "def": "film fra 2003 om DDRs oppløsning"
+      "def": "film fra 2003 om DDRs oppløsning",
+      "niva": "eksempel"
     },
     {
       "term": "Das Leben der Anderen",
-      "def": "Oscar-vinnende film fra 2006 om Stasi-overvåking"
+      "def": "Oscar-vinnende film fra 2006 om Stasi-overvåking",
+      "niva": "eksempel"
     },
     {
       "term": "Ich würde gern …",
@@ -82,7 +92,8 @@
         "Grimm"
       ],
       "correct": 1,
-      "explain": "Goethe regnes som Tysklands største forfatter."
+      "explain": "Goethe regnes som Tysklands største forfatter.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -94,7 +105,8 @@
         "Askepott"
       ],
       "correct": 0,
-      "explain": "Eventyret er med i brødrene Grimms samling."
+      "explain": "Eventyret er med i brødrene Grimms samling.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +118,8 @@
         "Wagner"
       ],
       "correct": 2,
-      "explain": "Ode an die Freude fra den niende symfonien."
+      "explain": "Ode an die Freude fra den niende symfonien.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +131,8 @@
         "En mann som våkner forvandlet til et insekt"
       ],
       "correct": 3,
-      "explain": "Ordet kafkaesk kommer fra forfatterskapet hans."
+      "explain": "Ordet kafkaesk kommer fra forfatterskapet hans.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +156,8 @@
         "Wien"
       ],
       "correct": 1,
-      "explain": "Senere flyttet skolen til Dessau og Berlin."
+      "explain": "Senere flyttet skolen til Dessau og Berlin.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +169,8 @@
         "Livet i Wien"
       ],
       "correct": 2,
-      "explain": "Filmen kom i 2003."
+      "explain": "Filmen kom i 2003.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +194,8 @@
         "Zürich"
       ],
       "correct": 0,
-      "explain": "Salzburg ligger i Østerrike."
+      "explain": "Salzburg ligger i Østerrike.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -280,14 +297,16 @@
         "type": "sant-usant",
         "text": "Kafka skrev på tysk selv om han bodde i Praha.",
         "correct": true,
-        "explain": "Praha hadde et stort tyskspråklig miljø."
+        "explain": "Praha hadde et stort tyskspråklig miljø.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Brødrene Grimm skrev alle eventyrene selv.",
         "correct": false,
-        "explain": "De samlet folkeeventyr som allerede ble fortalt."
+        "explain": "De samlet folkeeventyr som allerede ble fortalt.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -301,7 +320,8 @@
         "type": "sant-usant",
         "text": "Beethoven kunne høre godt hele livet.",
         "correct": false,
-        "explain": "Han skrev noen av sine største verk mens han var døv."
+        "explain": "Han skrev noen av sine største verk mens han var døv.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -327,7 +347,8 @@
           "Die Zauberflöte"
         ],
         "correct": 0,
-        "explain": "Filmen handler om Stasi-overvåking."
+        "explain": "Filmen handler om Stasi-overvåking.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -351,7 +372,8 @@
         "kriterier": [
           "Forklarer at situasjonen er absurd.",
           "Forklarer at situasjonen er uoversiktlig eller vanskelig å få oversikt over."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -360,7 +382,8 @@
         "kriterier": [
           "Nevner at han ønsker kunnskap.",
           "Nevner at han ønsker livsglede."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -369,7 +392,8 @@
         "kriterier": [
           "Forklarer at Grimm-brødrene samlet folkeeventyr.",
           "Forklarer at Kafka skrev på tysk, gjerne med «Die Verwandlung» som eksempel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -378,7 +402,8 @@
         "kriterier": [
           "Knytter designet til at form skal følge funksjon.",
           "Viser til enkel utforming eller praktisk bruk som trekk ved Bauhaus."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -387,7 +412,8 @@
         "kriterier": [
           "Beskriver situasjonen med den unge mannen og moren i «Good Bye, Lenin!».",
           "Beskriver Stasi-agentens overvåking av en forfatter i «Das Leben der Anderen»."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -396,7 +422,8 @@
         "kriterier": [
           "Nevner et verk av Mozart, for eksempel «Die Zauberflöte».",
           "Nevner et verk eller en prestasjon knyttet til Beethoven, for eksempel den niende symfonien eller «Ode an die Freude» som EUs hymne."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -420,6 +447,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

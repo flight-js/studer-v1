@@ -191,7 +191,8 @@
         "Det er ikke noe problem"
       ],
       "correct": 1,
-      "explain": "Mange er avhengige av smeltevann."
+      "explain": "Mange er avhengige av smeltevann.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -287,7 +288,8 @@
         "type": "sant-usant",
         "text": "Spania har bygd ut mye sol- og vindkraft.",
         "correct": true,
-        "explain": "Landet har mye sol."
+        "explain": "Landet har mye sol.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -357,7 +359,8 @@
         "fasit": "Son fuentes de energía como la solar y la eólica. España ha desarrollado mucho la energía solar y la energía eólica.",
         "kriterier": [
           "Explica que son fuentes de energía y menciona la energía solar y la eólica."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -365,7 +368,8 @@
         "fasit": "Noruega tiene mucha energía hidroeléctrica, mientras que España apuesta por la energía solar.",
         "kriterier": [
           "Indica correctamente la energía hidroeléctrica de Noruega y la apuesta de España por la energía solar, y establece una comparación."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -405,7 +409,8 @@
         "fasit": "En España hay sequías y falta de agua. En los Andes, el deshielo de los glaciares amenaza el suministro de agua.",
         "kriterier": [
           "Menciona la sequía o la falta de agua en España y relaciona el deshielo de los glaciares en los Andes con el suministro de agua."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

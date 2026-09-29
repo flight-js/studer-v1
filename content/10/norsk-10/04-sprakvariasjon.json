@@ -67,7 +67,8 @@
     },
     {
       "term": "wolla",
-      "def": "Ord fra multietnolekt som betyr «jeg sverger»."
+      "def": "Ord fra multietnolekt som betyr «jeg sverger».",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -349,7 +350,8 @@
           "je"
         ],
         "correct": 0,
-        "explain": "«Eg» er vanlig på Vestlandet. «Æ» er vanlig i Trøndelag og Nord-Norge."
+        "explain": "«Eg» er vanlig på Vestlandet. «Æ» er vanlig i Trøndelag og Nord-Norge.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +371,8 @@
         "kriterier": [
           "Identifiserer at eksemplene viser variasjon i infinitivsendelse.",
           "Forklarer at dialekter kan ha ulike endelser, eller ingen endelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -423,12 +426,14 @@
         "kriterier": [
           "Peker på at setningen viser en annen ordstilling.",
           "Knytter trekket til multietnolekt og miljøer der unge med ulike språkbakgrunner vokser opp sammen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

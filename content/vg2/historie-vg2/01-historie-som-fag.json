@@ -37,7 +37,8 @@
     },
     {
       "term": "Taus kilde",
-      "def": "Grupper som har etterlatt få skriftlige kilder, som fattige og kvinner."
+      "def": "Grupper som har etterlatt få skriftlige kilder, som fattige og kvinner.",
+      "niva": "eksempel"
     },
     {
       "term": "Arkeologi",
@@ -167,7 +168,8 @@
         "Fordi navnet gir et ensidig negativt bilde av perioden"
       ],
       "correct": 3,
-      "explain": "Periodenavn kan være verdiladede."
+      "explain": "Periodenavn kan være verdiladede.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -344,7 +346,8 @@
           "Bronsealderen"
         ],
         "correct": 2,
-        "explain": "Etterkrigstiden defineres ut fra en politisk hendelse."
+        "explain": "Etterkrigstiden defineres ut fra en politisk hendelse.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -382,7 +385,8 @@
         "kriterier": [
           "Forklarer at historiske prosesser har påvirket eller formet forhold i samtiden.",
           "Gir et relevant eksempel, som språk, landegrenser, religion, rettigheter eller konflikter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -391,7 +395,8 @@
         "kriterier": [
           "Gir et relevant politisk eksempel og et økonomisk eksempel.",
           "Forklarer forskjellen mellom politiske og økonomiske kriterier."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -424,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

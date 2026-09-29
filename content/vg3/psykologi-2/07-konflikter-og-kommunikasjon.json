@@ -39,7 +39,8 @@
     },
     {
       "term": "Friedrich Glasl",
-      "def": "Konfliktforsker med en opptrappingsmodell i ni trinn."
+      "def": "Konfliktforsker med en opptrappingsmodell i ni trinn.",
+      "niva": "eksempel"
     },
     {
       "term": "Samarbeidende stil",
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

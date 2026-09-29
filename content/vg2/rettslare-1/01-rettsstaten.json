@@ -67,7 +67,8 @@
     },
     {
       "term": "Fri rettshjelp",
-      "def": "Offentlig støtte til advokat for noen grupper og sakstyper."
+      "def": "Offentlig støtte til advokat for noen grupper og sakstyper.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -293,7 +294,8 @@
         "type": "sant-usant",
         "text": "Retten til rettferdig rettergang står både i Grunnloven og i EMK.",
         "correct": true,
-        "explain": "Grunnloven § 95 og EMK artikkel 6."
+        "explain": "Grunnloven § 95 og EMK artikkel 6.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -339,7 +341,8 @@
           "Fordi den gir alltid seier i retten"
         ],
         "correct": 2,
-        "explain": "Lik tilgang til rettssystemet."
+        "explain": "Lik tilgang til rettssystemet.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -419,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

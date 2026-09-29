@@ -47,7 +47,8 @@
     },
     {
       "term": "Carl Woese",
-      "def": "Viste med genanalyser at arkene er et eget domene."
+      "def": "Viste med genanalyser at arkene er et eget domene.",
+      "niva": "eksempel"
     },
     {
       "term": "Fylogenetisk tre",
@@ -105,7 +106,8 @@
         "De spiser forskjellig mat"
       ],
       "correct": 2,
-      "explain": "Biologisk artsbegrep: fruktbart avkom."
+      "explain": "Biologisk artsbegrep: fruktbart avkom.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +119,8 @@
         "Elektronmikroskopet"
       ],
       "correct": 3,
-      "explain": "Det viste cellens indre strukturer."
+      "explain": "Det viste cellens indre strukturer.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +132,8 @@
         "Arker"
       ],
       "correct": 0,
-      "explain": "DNA-analyser viser dette."
+      "explain": "DNA-analyser viser dette.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -189,7 +193,8 @@
         "Sjøkuer"
       ],
       "correct": 1,
-      "explain": "Det viser DNA-analyser."
+      "explain": "Det viser DNA-analyser.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -279,7 +284,8 @@
         "type": "sant-usant",
         "text": "Fuglene regnes som etterkommere av dinosaurer.",
         "correct": true,
-        "explain": "Det viser både fossiler og slektskapsanalyser."
+        "explain": "Det viser både fossiler og slektskapsanalyser.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -386,7 +392,8 @@
         "kriterier": [
           "Forklarer at en gruppe bør inneholde en felles stamform og alle etterkommerne dens.",
           "Knytter utelatelsen av etterkommere til hvorfor gruppen ikke følger prinsippet."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -419,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -59,15 +59,18 @@
     },
     {
       "term": "Deltidsmarkedsførere",
-      "def": "Ansatte som møter kundene og påvirker opplevelsen."
+      "def": "Ansatte som møter kundene og påvirker opplevelsen.",
+      "niva": "eksempel"
     },
     {
       "term": "Tjenestetrekanten",
-      "def": "Ekstern, intern og interaktiv markedsføring."
+      "def": "Ekstern, intern og interaktiv markedsføring.",
+      "niva": "eksempel"
     },
     {
       "term": "Employer branding",
-      "def": "Å bygge et attraktivt arbeidsgivermerke."
+      "def": "Å bygge et attraktivt arbeidsgivermerke.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -117,7 +120,8 @@
         "At de ansatte holder løftene i møte med kundene"
       ],
       "correct": 3,
-      "explain": "Sannhetens øyeblikk."
+      "explain": "Sannhetens øyeblikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -189,7 +193,8 @@
         "En distribusjonskanal"
       ],
       "correct": 1,
-      "explain": "Tiltrekker gode søkere."
+      "explain": "Tiltrekker gode søkere.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -326,7 +331,8 @@
           "Rekruttering"
         ],
         "correct": 0,
-        "explain": "For eksempel reklame."
+        "explain": "For eksempel reklame.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -386,7 +392,8 @@
         "kriterier": [
           "Knytter ekstern markedsføring til løftet som gis til kundene.",
           "Forklarer hvordan intern markedsføring forbereder de ansatte, og interaktiv markedsføring skjer i kundemøtet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -413,12 +420,14 @@
         "kriterier": [
           "Gir et relevant eksempel på hvordan en ansatt påvirker kundens opplevelse.",
           "Forklarer sammenhengen mellom direkte kundekontakt og rollen som deltidsmarkedsfører."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

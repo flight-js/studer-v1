@@ -27,7 +27,8 @@
     },
     {
       "term": "Ikkevoldelig kommunikasjon",
-      "def": "Observasjon, følelse, behov og anmodning – Rosenberg."
+      "def": "Observasjon, følelse, behov og anmodning – Rosenberg.",
+      "niva": "eksempel"
     },
     {
       "term": "Emosjonell støtte",
@@ -55,11 +56,13 @@
     },
     {
       "term": "Aktiv bruk",
-      "def": "Å kommunisere med andre i sosiale medier."
+      "def": "Å kommunisere med andre i sosiale medier.",
+      "niva": "eksempel"
     },
     {
       "term": "Passiv bruk",
-      "def": "Å scrolle og se på andres innhold."
+      "def": "Å scrolle og se på andres innhold.",
+      "niva": "eksempel"
     },
     {
       "term": "Emojier",
@@ -93,7 +96,8 @@
         "Lytte, snakke, gå, komme"
       ],
       "correct": 0,
-      "explain": "Marshall Rosenberg."
+      "explain": "Marshall Rosenberg.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -129,7 +133,8 @@
         "Bruk uten pauser"
       ],
       "correct": 0,
-      "explain": "Hvordan betyr mer enn hvor mye."
+      "explain": "Hvordan betyr mer enn hvor mye.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -310,7 +315,8 @@
           "Du er upålitelig"
         ],
         "correct": 1,
-        "explain": "Beskriver bare hva som skjedde."
+        "explain": "Beskriver bare hva som skjedde.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -416,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

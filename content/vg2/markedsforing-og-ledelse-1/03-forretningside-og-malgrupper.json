@@ -63,7 +63,8 @@
     },
     {
       "term": "Persona",
-      "def": "Oppdiktet, typisk kunde som gjør målgruppen levende."
+      "def": "Oppdiktet, typisk kunde som gjør målgruppen levende.",
+      "niva": "eksempel"
     },
     {
       "term": "Posisjonering",
@@ -71,7 +72,8 @@
     },
     {
       "term": "Posisjoneringskart",
-      "def": "Diagram med to akser som viser konkurrentenes plassering."
+      "def": "Diagram med to akser som viser konkurrentenes plassering.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -157,7 +159,8 @@
         "En konkurrent"
       ],
       "correct": 2,
-      "explain": "Gjør målgruppen levende."
+      "explain": "Gjør målgruppen levende.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -193,7 +196,8 @@
         "Lønnsomheten"
       ],
       "correct": 1,
-      "explain": "Ofte med pris og kvalitet som akser."
+      "explain": "Ofte med pris og kvalitet som akser.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -427,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

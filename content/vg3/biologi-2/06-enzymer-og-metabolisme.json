@@ -67,7 +67,8 @@
     },
     {
       "term": "Laktase",
-      "def": "Enzym som bryter ned melkesukker."
+      "def": "Enzym som bryter ned melkesukker.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +154,8 @@
         "Ved 100 °C"
       ],
       "correct": 2,
-      "explain": "Tilpasset magesyren."
+      "explain": "Tilpasset magesyren.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +167,8 @@
         "Et koenzym som frakter elektroner"
       ],
       "correct": 3,
-      "explain": "Brukes i celleåndingen."
+      "explain": "Brukes i celleåndingen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +180,8 @@
         "For lite pepsin"
       ],
       "correct": 0,
-      "explain": "Melkesukker brytes ikke ned."
+      "explain": "Melkesukker brytes ikke ned.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -285,7 +289,8 @@
         "type": "sant-usant",
         "text": "Mange medisiner virker ved å hemme enzymer.",
         "correct": true,
-        "explain": "Også mange gifter."
+        "explain": "Også mange gifter.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -332,7 +337,8 @@
           "Et substrat"
         ],
         "correct": 0,
-        "explain": "For eksempel sink eller magnesium."
+        "explain": "For eksempel sink eller magnesium.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -345,7 +351,8 @@
           "Ingen steder"
         ],
         "correct": 2,
-        "explain": "Mange industrielle anvendelser."
+        "explain": "Mange industrielle anvendelser.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -374,7 +381,8 @@
         "kriterier": [
           "Knytter amylases beste aktivitet til nær nøytral pH og forklarer at sur løsning ikke er gunstig for det.",
           "Knytter pepsins beste aktivitet til sur pH og forklarer at nær nøytral løsning ikke er gunstig for det."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -392,7 +400,8 @@
         "kriterier": [
           "Klassifiserer magnesiumioner som kofaktor og NAD⁺ som koenzym.",
           "Forklarer forskjellen mellom metallioner og organiske hjelpemolekyler."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -425,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

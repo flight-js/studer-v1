@@ -31,7 +31,8 @@
     },
     {
       "term": "IPCC",
-      "def": "FNs klimapanel, som sammenstiller forskningen om klima."
+      "def": "FNs klimapanel, som sammenstiller forskningen om klima.",
+      "niva": "eksempel"
     },
     {
       "term": "Havnivåstigning",
@@ -39,7 +40,8 @@
     },
     {
       "term": "Klimarettferdighet",
-      "def": "At de som har sluppet ut minst, ofte rammes hardest."
+      "def": "At de som har sluppet ut minst, ofte rammes hardest.",
+      "niva": "eksempel"
     },
     {
       "term": "Arktis",
@@ -63,11 +65,13 @@
     },
     {
       "term": "Parisavtalen",
-      "def": "Avtale fra 2015 om å begrense oppvarmingen til godt under 2 grader."
+      "def": "Avtale fra 2015 om å begrense oppvarmingen til godt under 2 grader.",
+      "niva": "eksempel"
     },
     {
       "term": "1,5-gradersmålet",
-      "def": "Målet om å begrense oppvarmingen til 1,5 grader."
+      "def": "Målet om å begrense oppvarmingen til 1,5 grader.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +133,8 @@
         "Å øke utslippene"
       ],
       "correct": 0,
-      "explain": "Målet er helst å begrense oppvarmingen til 1,5 grader."
+      "explain": "Målet er helst å begrense oppvarmingen til 1,5 grader.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +158,8 @@
         "Fordi klimaendringer bare rammer Europa"
       ],
       "correct": 2,
-      "explain": "Ansvar og konsekvenser er ujevnt fordelt."
+      "explain": "Ansvar og konsekvenser er ujevnt fordelt.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +183,8 @@
         "At CO₂ ikke påvirker klimaet"
       ],
       "correct": 0,
-      "explain": "IPCC sammenstiller forskning fra hele verden."
+      "explain": "IPCC sammenstiller forskning fra hele verden.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -322,7 +329,8 @@
           "Land nær Nordpolen"
         ],
         "correct": 1,
-        "explain": "Store deler av landene ligger bare litt over havet."
+        "explain": "Store deler av landene ligger bare litt over havet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -404,7 +412,8 @@
         "kriterier": [
           "Nevner at krympende havis truer isbjørn eller sel.",
           "Nevner at mindre havis kan åpne for skipsfart eller ressursutvinning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,12 +431,14 @@
         "kriterier": [
           "Regner ut forskjellen ved å trekke 1,5 fra 2.",
           "Oppgir svaret som 0,5 grader."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

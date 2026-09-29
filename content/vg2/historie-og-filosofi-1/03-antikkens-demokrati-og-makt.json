@@ -67,7 +67,8 @@
     },
     {
       "term": "Romersk rett",
-      "def": "Rettssystem som fikk stor betydning i Europa."
+      "def": "Rettssystem som fikk stor betydning i Europa.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +190,8 @@
         "1215"
       ],
       "correct": 1,
-      "explain": "En viktig utvidelse av borgerretten."
+      "explain": "En viktig utvidelse av borgerretten.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +292,8 @@
         "type": "sant-usant",
         "text": "Ord som senat og republikk stammer fra Roma.",
         "correct": true,
-        "explain": "Antikkens begreper lever videre."
+        "explain": "Antikkens begreper lever videre.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -336,7 +339,8 @@
           "212 e.Kr."
         ],
         "correct": 2,
-        "explain": "Av en folkedomstol i Athen."
+        "explain": "Av en folkedomstol i Athen.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -390,7 +394,8 @@
         "kriterier": [
           "Knytter senatets makt til adelen.",
           "Forklarer at folketribunene skulle beskytte vanlige folk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -408,12 +413,14 @@
         "kriterier": [
           "Nevner at Aristoteles mente en blanding av styreformer var mest stabil.",
           "Viser forståelse for inndelingen i styre av én, få eller mange."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

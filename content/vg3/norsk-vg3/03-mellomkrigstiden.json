@@ -28,7 +28,8 @@
     },
     {
       "term": "Markens grøde",
-      "def": "Hamsuns roman fra 1917 om nybyggeren Isak."
+      "def": "Hamsuns roman fra 1917 om nybyggeren Isak.",
+      "niva": "eksempel"
     },
     {
       "term": "Cora Sandel",
@@ -48,11 +49,13 @@
     },
     {
       "term": "Rudolf Nilsen",
-      "def": "Arbeiderdikter fra Oslos østkant."
+      "def": "Arbeiderdikter fra Oslos østkant.",
+      "niva": "eksempel"
     },
     {
       "term": "Kristofer Uppdal",
-      "def": "Skrev om anleggs- og industriarbeidere."
+      "def": "Skrev om anleggs- og industriarbeidere.",
+      "niva": "eksempel"
     },
     {
       "term": "Rolf Jacobsen",
@@ -142,7 +145,8 @@
         "En forfatter i Kristiania"
       ],
       "correct": 1,
-      "explain": "En hyllest til bondelivet."
+      "explain": "En hyllest til bondelivet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -190,7 +194,8 @@
         "Om han skrev lyrikk"
       ],
       "correct": 1,
-      "explain": "Diskuteres fortsatt."
+      "explain": "Diskuteres fortsatt.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -298,7 +303,8 @@
         "type": "sant-usant",
         "text": "Nordahl Grieg overlevde krigen.",
         "correct": false,
-        "explain": "Han døde som krigskorrespondent i 1943."
+        "explain": "Han døde som krigskorrespondent i 1943.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -337,7 +343,8 @@
           "1945"
         ],
         "correct": 2,
-        "explain": "Unionen med Sverige ble oppløst."
+        "explain": "Unionen med Sverige ble oppløst.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -411,12 +418,14 @@
         "kriterier": [
           "Forklarer at Hamsun framhever naturen og jorda som et motbilde til det moderne.",
           "Forklarer at arbeiderdikterne og de politiske lyrikerne retter søkelyset mot samfunnet og urett."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

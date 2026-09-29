@@ -186,7 +186,8 @@
         "0 til 10"
       ],
       "correct": 3,
-      "explain": "5 regnes som bestått."
+      "explain": "5 regnes som bestått.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -413,7 +414,8 @@
         "kriterier": [
           "Plasserer la escuela primaria i alderen 6–12 år og la ESO i alderen 12–16 år.",
           "Får fram at la ESO er obligatorisk, og at den følger etter la escuela primaria."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,7 +424,8 @@
         "kriterier": [
           "Plasserer el Bachillerato etter la ESO.",
           "Forklarer at Bachillerato forbereder til universitetet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -431,12 +434,14 @@
         "kriterier": [
           "Oppgir de riktige spanske ordene for minst to av tingene.",
           "Oppgir de riktige spanske ordene for alle fire tingene."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

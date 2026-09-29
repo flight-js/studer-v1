@@ -31,7 +31,8 @@
     },
     {
       "term": "KPI-JAE",
-      "def": "KPI justert for avgiftsendringer og uten energivarer."
+      "def": "KPI justert for avgiftsendringer og uten energivarer.",
+      "niva": "over-niva"
     },
     {
       "term": "Realverdi",
@@ -105,7 +106,8 @@
         "KPI for utlandet"
       ],
       "correct": 2,
-      "explain": "Viser den underliggende prisveksten."
+      "explain": "Viser den underliggende prisveksten.",
+      "niva": "over-niva"
     },
     {
       "id": "q04",
@@ -425,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

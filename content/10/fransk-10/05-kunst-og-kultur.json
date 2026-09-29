@@ -11,31 +11,38 @@
   "flashcards": [
     {
       "term": "Édith Piaf",
-      "def": "Fransk sanger kjent for La vie en rose"
+      "def": "Fransk sanger kjent for La vie en rose",
+      "niva": "eksempel"
     },
     {
       "term": "Stromae",
-      "def": "Belgisk artist, kjent for Alors on danse og Papaoutai"
+      "def": "Belgisk artist, kjent for Alors on danse og Papaoutai",
+      "niva": "eksempel"
     },
     {
       "term": "Céline Dion",
-      "def": "Sanger fra Québec, en av verdens mest solgte artister"
+      "def": "Sanger fra Québec, en av verdens mest solgte artister",
+      "niva": "eksempel"
     },
     {
       "term": "Daft Punk",
-      "def": "Elektronisk duo fra Paris"
+      "def": "Elektronisk duo fra Paris",
+      "niva": "eksempel"
     },
     {
       "term": "Victor Hugo",
-      "def": "Forfatter av Les Misérables og Notre-Dame de Paris"
+      "def": "Forfatter av Les Misérables og Notre-Dame de Paris",
+      "niva": "eksempel"
     },
     {
       "term": "Le Petit Prince",
-      "def": "Den lille prinsen av Saint-Exupéry, en av verdens mest oversatte bøker"
+      "def": "Den lille prinsen av Saint-Exupéry, en av verdens mest oversatte bøker",
+      "niva": "eksempel"
     },
     {
       "term": "Jules Verne",
-      "def": "Skrev Jorden rundt på 80 dager"
+      "def": "Skrev Jorden rundt på 80 dager",
+      "niva": "eksempel"
     },
     {
       "term": "la bande dessinée",
@@ -43,23 +50,28 @@
     },
     {
       "term": "les frères Lumière",
-      "def": "Viste film for betalende publikum første gang, i 1895"
+      "def": "Viste film for betalende publikum første gang, i 1895",
+      "niva": "eksempel"
     },
     {
       "term": "le Festival de Cannes",
-      "def": "Kjent filmfestival med hovedprisen la Palme d'or"
+      "def": "Kjent filmfestival med hovedprisen la Palme d'or",
+      "niva": "eksempel"
     },
     {
       "term": "l'impressionnisme",
-      "def": "Kunstretning oppkalt etter et maleri av Claude Monet"
+      "def": "Kunstretning oppkalt etter et maleri av Claude Monet",
+      "niva": "eksempel"
     },
     {
       "term": "Rodin – Le Penseur",
-      "def": "Skulpturen Tenkeren"
+      "def": "Skulpturen Tenkeren",
+      "niva": "eksempel"
     },
     {
       "term": "Notre-Dame de Paris",
-      "def": "Katedral som brant i 2019 og gjenåpnet i 2024"
+      "def": "Katedral som brant i 2019 og gjenåpnet i 2024",
+      "niva": "eksempel"
     },
     {
       "term": "Ça me plaît.",
@@ -81,7 +93,8 @@
         "Christine and the Queens"
       ],
       "correct": 1,
-      "explain": "Piaf regnes som Frankrikes mest kjente sanger."
+      "explain": "Piaf regnes som Frankrikes mest kjente sanger.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +106,8 @@
         "Le Petit Prince (Den lille prinsen)"
       ],
       "correct": 3,
-      "explain": "Boka er oversatt til flere hundre språk."
+      "explain": "Boka er oversatt til flere hundre språk.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +119,8 @@
         "Sveits"
       ],
       "correct": 0,
-      "explain": "Stromae er fra Brussel."
+      "explain": "Stromae er fra Brussel.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +132,8 @@
         "Ekspresjonismen"
       ],
       "correct": 2,
-      "explain": "Maleriet heter «Impression, soleil levant»."
+      "explain": "Maleriet heter «Impression, soleil levant».",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +145,8 @@
         "Victor Hugo"
       ],
       "correct": 3,
-      "explain": "Romanen er også blitt en kjent musikal."
+      "explain": "Romanen er også blitt en kjent musikal.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +170,8 @@
         "Victor Hugo"
       ],
       "correct": 0,
-      "explain": "Visningen regnes som kinoens fødsel."
+      "explain": "Visningen regnes som kinoens fødsel.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +183,8 @@
         "Den lille havfrue"
       ],
       "correct": 2,
-      "explain": "Tenkeren er en av verdens mest kjente skulpturer."
+      "explain": "Tenkeren er en av verdens mest kjente skulpturer.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +208,8 @@
         "Lille"
       ],
       "correct": 0,
-      "explain": "Festivalen holdes hvert år i mai."
+      "explain": "Festivalen holdes hvert år i mai.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -294,28 +314,32 @@
         "type": "sant-usant",
         "text": "Céline Dion kommer fra Québec i Canada.",
         "correct": true,
-        "explain": "Fransk er hovedspråket i Québec."
+        "explain": "Fransk er hovedspråket i Québec.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Tintin er en fransk tegneserie laget i Paris.",
         "correct": false,
-        "explain": "Tintin ble laget av belgiske Hergé."
+        "explain": "Tintin ble laget av belgiske Hergé.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Notre-Dame i Paris ble skadet i en brann i 2019.",
         "correct": true,
-        "explain": "Katedralen gjenåpnet i 2024."
+        "explain": "Katedralen gjenåpnet i 2024.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Daft Punk var et norsk band.",
         "correct": false,
-        "explain": "Daft Punk var en duo fra Paris."
+        "explain": "Daft Punk var en duo fra Paris.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -328,7 +352,8 @@
           "Albert Camus"
         ],
         "correct": 1,
-        "explain": "Jules Verne skrev mange eventyr- og framtidsromaner."
+        "explain": "Jules Verne skrev mange eventyr- og framtidsromaner.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -354,7 +379,8 @@
           "Versailles"
         ],
         "correct": 2,
-        "explain": "Louvre er verdens mest besøkte kunstmuseum."
+        "explain": "Louvre er verdens mest besøkte kunstmuseum.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -365,7 +391,8 @@
         "kriterier": [
           "Forklarer at teksten står sentralt i tradisjonen.",
           "Knytter forklaringen til Édith Piaf eller en av sangene hennes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -374,7 +401,8 @@
         "kriterier": [
           "Plasserer Daft Punk i Paris og beskriver musikken deres som elektronisk.",
           "Plasserer Stromae i Belgia og får fram blandingen av elektronisk musikk og rap."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -383,7 +411,8 @@
         "kriterier": [
           "Forklarer at la bande dessinée betyr tegneserie.",
           "Får fram at tegneserier kalles «den niende kunst» i Frankrike og Belgia."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -392,7 +421,8 @@
         "kriterier": [
           "Velger Jules Verne.",
           "Nevner «Jorden rundt på 80 dager» og knytter den til eventyrromaner eller reiser."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -401,7 +431,8 @@
         "kriterier": [
           "Forklarer at Festival de Cannes er en filmfestival.",
           "Får fram at la Palme d'or er festivalens hovedpris."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -410,7 +441,8 @@
         "kriterier": [
           "Knytter navnet til Monets maleri «Impression, soleil levant».",
           "Beskriver at kunstnerne malte lys og stemninger, ofte utendørs."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,7 +451,8 @@
         "kriterier": [
           "Nevner 2019 som året for brannen.",
           "Får fram at katedralen ble restaurert og gjenåpnet i 2024."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,12 +461,14 @@
         "kriterier": [
           "Nevner at hun vant Eurovision i 1988.",
           "Får fram at hun vant for Sveits."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

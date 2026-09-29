@@ -31,7 +31,8 @@
     },
     {
       "term": "Grønn revolusjon",
-      "def": "Ny teknologi i jordbruket som økte matproduksjonen kraftig."
+      "def": "Ny teknologi i jordbruket som økte matproduksjonen kraftig.",
+      "niva": "eksempel"
     },
     {
       "term": "Livsutfoldelse",
@@ -47,19 +48,23 @@
     },
     {
       "term": "Tilbakeslagseffekt",
-      "def": "Effektivisering fører til at vi bruker mer."
+      "def": "Effektivisering fører til at vi bruker mer.",
+      "niva": "eksempel"
     },
     {
       "term": "Elektronisk avfall",
-      "def": "Kasserte elektroniske produkter – et voksende miljøproblem."
+      "def": "Kasserte elektroniske produkter – et voksende miljøproblem.",
+      "niva": "eksempel"
     },
     {
       "term": "Kritiske mineraler",
-      "def": "Råvarer som trengs til batterier og elektronikk."
+      "def": "Råvarer som trengs til batterier og elektronikk.",
+      "niva": "eksempel"
     },
     {
       "term": "Skjevheter i KI",
-      "def": "At KI gjentar diskriminering fra dataene den er trent på."
+      "def": "At KI gjentar diskriminering fra dataene den er trent på.",
+      "niva": "eksempel"
     },
     {
       "term": "Regulering av teknologi",
@@ -105,7 +110,8 @@
         "Forurensning"
       ],
       "correct": 2,
-      "explain": "Har reddet millioner av liv."
+      "explain": "Har reddet millioner av liv.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -129,7 +135,8 @@
         "Fordi den bruker kull"
       ],
       "correct": 0,
-      "explain": "Ofte under dårlige arbeidsforhold."
+      "explain": "Ofte under dårlige arbeidsforhold.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +148,8 @@
         "At utslippene forsvinner"
       ],
       "correct": 1,
-      "explain": "Miljøgevinsten blir mindre."
+      "explain": "Miljøgevinsten blir mindre.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +197,8 @@
         "Mindre elektronikk"
       ],
       "correct": 1,
-      "explain": "Også spørsmål om ansvar og jobber."
+      "explain": "Også spørsmål om ansvar og jobber.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -286,7 +295,8 @@
         "type": "sant-usant",
         "text": "Elektronisk avfall er et krympende problem.",
         "correct": false,
-        "explain": "Det er et voksende problem."
+        "explain": "Det er et voksende problem.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -313,7 +323,8 @@
           "Internett"
         ],
         "correct": 1,
-        "explain": "Et klassisk eksempel."
+        "explain": "Et klassisk eksempel.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +337,8 @@
           "Hjelpemidler"
         ],
         "correct": 0,
-        "explain": "Teknologiens baksider."
+        "explain": "Teknologiens baksider.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -395,7 +407,8 @@
         "kriterier": [
           "Forklarer sammenhengen mellom diskriminerende treningsdata og skjevheter i KI.",
           "Beskriver at skjevheten kan føre til diskriminering eller urettferdig behandling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +417,8 @@
         "kriterier": [
           "Nevner miljøkostnader eller dårlige arbeidsforhold knyttet til utvinning av mineraler til elektronikk.",
           "Forklarer at kasserte elektroniske produkter blir elektronisk avfall og utgjør et miljøproblem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

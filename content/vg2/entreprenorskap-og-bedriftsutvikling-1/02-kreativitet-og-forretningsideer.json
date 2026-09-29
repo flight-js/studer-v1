@@ -39,7 +39,8 @@
     },
     {
       "term": "Omvendt idémyldring",
-      "def": "Å spørre hvordan problemet kan bli verre, og snu svarene."
+      "def": "Å spørre hvordan problemet kan bli verre, og snu svarene.",
+      "niva": "eksempel"
     },
     {
       "term": "SCAMPER",
@@ -47,7 +48,8 @@
     },
     {
       "term": "Tilfeldig ord",
-      "def": "Teknikk som kobler et tilfeldig ord til problemet."
+      "def": "Teknikk som kobler et tilfeldig ord til problemet.",
+      "niva": "eksempel"
     },
     {
       "term": "Hull i markedet",
@@ -105,7 +107,8 @@
         "Å bare bruke gamle ideer"
       ],
       "correct": 2,
-      "explain": "Gir nye perspektiver."
+      "explain": "Gir nye perspektiver.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -377,7 +380,8 @@
         "kriterier": [
           "Beskriver hvordan tankekart tar utgangspunkt i et problem og forgreiner assosiasjoner.",
           "Forklarer at tilfeldig ord kobles til problemet for å skape nye assosiasjoner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -419,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

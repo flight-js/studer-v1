@@ -55,7 +55,8 @@
     },
     {
       "term": "Positiv koeffisient",
-      "def": "Flytt x-leddet slik at tallet foran x blir positivt, så slipper du å snu tegnet."
+      "def": "Flytt x-leddet slik at tallet foran x blir positivt, så slipper du å snu tegnet.",
+      "niva": "over-niva"
     },
     {
       "term": "Teste løsningen",
@@ -423,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

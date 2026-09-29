@@ -323,7 +323,8 @@
           "L = mg"
         ],
         "correct": 0,
-        "explain": "Proporsjonal med farten."
+        "explain": "Proporsjonal med farten.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -401,7 +402,8 @@
         "kriterier": [
           "Velger modellen L = k · v.",
           "Knytter valget til at denne modellen kan passe bedre ved lave farter."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -416,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

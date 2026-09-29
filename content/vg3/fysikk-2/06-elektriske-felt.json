@@ -51,7 +51,8 @@
     },
     {
       "term": "Elektronkanon",
-      "def": "Akselererer elektroner med en spenning."
+      "def": "Akselererer elektroner med en spenning.",
+      "niva": "eksempel"
     },
     {
       "term": "Fart etter akselerasjon",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Kondensator",
-      "def": "Lagrer energi i det elektriske feltet mellom plater."
+      "def": "Lagrer energi i det elektriske feltet mellom plater.",
+      "niva": "eksempel"
     },
     {
       "term": "Elektrisk og gravitasjonell kraft",
@@ -189,7 +191,8 @@
         "Kjerneenergi"
       ],
       "correct": 1,
-      "explain": "Brukes i elektronikk."
+      "explain": "Brukes i elektronikk.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +293,8 @@
         "type": "sant-usant",
         "text": "Elektronmikroskoper bruker elektroner som er akselerert i elektriske felt.",
         "correct": true,
-        "explain": "En anvendelse av elektronkanoner."
+        "explain": "En anvendelse av elektronkanoner.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -336,7 +340,8 @@
           "Ingenting"
         ],
         "correct": 2,
-        "explain": "Luften begynner å lede strøm."
+        "explain": "Luften begynner å lede strøm.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -401,7 +406,8 @@
         "kriterier": [
           "Knytter lyn til et svært sterkt elektrisk felt mellom sky og bakke.",
           "Forklarer at det sterke feltet gjør at lufta leder strøm."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -410,12 +416,14 @@
         "kriterier": [
           "Forklarer at elektronkanonen akselererer elektroner ved hjelp av en spenning.",
           "Nevner elektronmikroskop eller gamle TV-rør som bruksområde."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

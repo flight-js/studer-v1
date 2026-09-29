@@ -67,7 +67,8 @@
     },
     {
       "term": "Newton og Leibniz",
-      "def": "Utviklet teoremet uavhengig av hverandre."
+      "def": "Utviklet teoremet uavhengig av hverandre.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -290,7 +291,8 @@
         "type": "sant-usant",
         "text": "Notasjonen ∫ og dx kommer fra Leibniz.",
         "correct": true,
-        "explain": "Fra slutten av 1600-tallet."
+        "explain": "Fra slutten av 1600-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -401,7 +403,8 @@
         "kriterier": [
           "Nevner at enhver kontinuerlig funksjon har en antiderivert.",
           "Skiller mellom at antideriverten finnes og at den kan skrives med kjente funksjoner."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -416,6 +419,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

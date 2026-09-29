@@ -20,19 +20,23 @@
     },
     {
       "term": "EMK",
-      "def": "Den europeiske menneskerettskonvensjonen fra 1950."
+      "def": "Den europeiske menneskerettskonvensjonen fra 1950.",
+      "niva": "eksempel"
     },
     {
       "term": "Barnekonvensjonen",
-      "def": "FN-konvensjon om barns rettigheter fra 1989."
+      "def": "FN-konvensjon om barns rettigheter fra 1989.",
+      "niva": "eksempel"
     },
     {
       "term": "Menneskerettsloven",
-      "def": "Norsk lov som gjør sentrale konvensjoner til norsk lov."
+      "def": "Norsk lov som gjør sentrale konvensjoner til norsk lov.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven 2014",
-      "def": "Fikk eget kapittel om menneskerettigheter."
+      "def": "Fikk eget kapittel om menneskerettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Sivile og politiske rettigheter",
@@ -60,7 +64,8 @@
     },
     {
       "term": "Straffeloven § 185",
-      "def": "Paragrafen som forbyr grove hatefulle ytringer."
+      "def": "Paragrafen som forbyr grove hatefulle ytringer.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven § 100",
@@ -130,7 +135,8 @@
         "I Høyesterett i USA"
       ],
       "correct": 0,
-      "explain": "Norge har blitt dømt der, blant annet i barnevernssaker."
+      "explain": "Norge har blitt dømt der, blant annet i barnevernssaker.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -178,7 +184,8 @@
         "2014"
       ],
       "correct": 0,
-      "explain": "Den gir barn egne rettigheter."
+      "explain": "Den gir barn egne rettigheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +197,8 @@
         "Å bare ansette bekjente"
       ],
       "correct": 1,
-      "explain": "Da vurderes søkeren ut fra kompetanse."
+      "explain": "Da vurderes søkeren ut fra kompetanse.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -286,7 +294,8 @@
         "type": "sant-usant",
         "text": "Norge har blitt dømt i Den europeiske menneskerettsdomstolen.",
         "correct": true,
-        "explain": "Blant annet i flere barnevernssaker."
+        "explain": "Blant annet i flere barnevernssaker.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -320,7 +329,8 @@
           "Arbeidsmiljøloven"
         ],
         "correct": 0,
-        "explain": "Konvensjonene går foran annen lov ved motstrid."
+        "explain": "Konvensjonene går foran annen lov ved motstrid.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -375,7 +385,8 @@
         "kriterier": [
           "Får fram hvilken rolle menneskerettsloven har.",
           "Nevner at Grunnloven fikk et eget kapittel om menneskerettigheter i 2014."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -393,7 +404,8 @@
         "kriterier": [
           "Knytter ytringen til trusler eller hån på grunn av religion.",
           "Nevner straffeloven § 185 og at den gjelder grove hatefulle ytringer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -426,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -28,11 +28,13 @@
     },
     {
       "term": "Eksotisme",
-      "def": "Å framstille det fremmede som spennende og annerledes på en overfladisk måte."
+      "def": "Å framstille det fremmede som spennende og annerledes på en overfladisk måte.",
+      "niva": "eksempel"
     },
     {
       "term": "Orientalisme",
-      "def": "Edward Saids begrep for vestlige, forenklede framstillinger av «Østen»."
+      "def": "Edward Saids begrep for vestlige, forenklede framstillinger av «Østen».",
+      "niva": "over-niva"
     },
     {
       "term": "Identitet",
@@ -40,15 +42,18 @@
     },
     {
       "term": "Hybrid identitet",
-      "def": "Identitet som henter noe fra flere kulturer."
+      "def": "Identitet som henter noe fra flere kulturer.",
+      "niva": "eksempel"
     },
     {
       "term": "Multietnolekt",
-      "def": "Språkvariant preget av ungdom med ulik språkbakgrunn."
+      "def": "Språkvariant preget av ungdom med ulik språkbakgrunn.",
+      "niva": "eksempel"
     },
     {
       "term": "Kodeveksling",
-      "def": "Å skifte mellom språk eller språkvarianter i samme samtale."
+      "def": "Å skifte mellom språk eller språkvarianter i samme samtale.",
+      "niva": "eksempel"
     },
     {
       "term": "Perspektiv",
@@ -60,11 +65,13 @@
     },
     {
       "term": "Wergelands Jøden",
-      "def": "Diktsamling fra 1840-tallet mot forbudet mot jøder i Grunnloven."
+      "def": "Diktsamling fra 1840-tallet mot forbudet mot jøder i Grunnloven.",
+      "niva": "eksempel"
     },
     {
       "term": "Tante Ulrikkes vei",
-      "def": "Roman av Zeshan Shakar om to unge gutter i Groruddalen."
+      "def": "Roman av Zeshan Shakar om to unge gutter i Groruddalen.",
+      "niva": "eksempel"
     },
     {
       "term": "Empati",
@@ -94,7 +101,8 @@
         "For å kritisere kristendommen"
       ],
       "correct": 0,
-      "explain": "Forbudet ble opphevet i 1851, etter Wergelands død."
+      "explain": "Forbudet ble opphevet i 1851, etter Wergelands død.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +114,8 @@
         "En språkvariant preget av ungdom med ulik språkbakgrunn"
       ],
       "correct": 3,
-      "explain": "Skaranger bruker multietnolekt som virkemiddel i romanen sin."
+      "explain": "Skaranger bruker multietnolekt som virkemiddel i romanen sin.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +127,8 @@
         "At man bare tilhører én kultur"
       ],
       "correct": 1,
-      "explain": "Mange med røtter i flere land beskriver en slik identitet."
+      "explain": "Mange med røtter i flere land beskriver en slik identitet.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +152,8 @@
         "Moderne lyrikk"
       ],
       "correct": 2,
-      "explain": "Begrepet orientalisme brukes fortsatt i analyse av kulturmøter."
+      "explain": "Begrepet orientalisme brukes fortsatt i analyse av kulturmøter.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -154,7 +165,8 @@
         "Å skrive på nynorsk"
       ],
       "correct": 1,
-      "explain": "Kodeveksling kan vise tilhørighet til flere grupper."
+      "explain": "Kodeveksling kan vise tilhørighet til flere grupper.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +178,8 @@
         "To unge gutter i Groruddalen"
       ],
       "correct": 3,
-      "explain": "Romanen er skrevet som e-poster og intervjuer."
+      "explain": "Romanen er skrevet som e-poster og intervjuer.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +191,8 @@
         "Å skrive om sin egen kultur"
       ],
       "correct": 0,
-      "explain": "Eksotisme kan gjøre andre kulturer til kulisser."
+      "explain": "Eksotisme kan gjøre andre kulturer til kulisser.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -352,7 +366,8 @@
           "Et dukkehjem"
         ],
         "correct": 1,
-        "explain": "Romanen er av Maria Navarro Skaranger."
+        "explain": "Romanen er av Maria Navarro Skaranger.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -390,7 +405,8 @@
         "kriterier": [
           "Knytter e-postene og intervjuene til at ulike stemmer eller framstillinger kommer fram.",
           "Forklarer forskjellen mellom guttenes eget syn og storsamfunnets syn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -399,7 +415,8 @@
         "kriterier": [
           "Identifiserer skiftingen mellom språk eller språkvarianter som kodeveksling.",
           "Forklarer at språkbruken kan vise identitet eller tilhørighet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -408,7 +425,8 @@
         "kriterier": [
           "Forklarer at Wergeland ville få opphevet forbudet mot jøder i Grunnloven.",
           "Forklarer at Said kritiserte vestlige, forenklede framstillinger av «Østen»."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -417,7 +435,8 @@
         "kriterier": [
           "Knytter fornorskingen til møtet mellom samisk og norsk kultur.",
           "Forklarer at kampen handler om å bevare eller kjempe for samisk språk og kultur."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -432,6 +451,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

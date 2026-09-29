@@ -40,7 +40,8 @@
     },
     {
       "term": "Humanistisk konfirmasjon",
-      "def": "Ikke-religiøs konfirmasjon, arrangert første gang i Norge i 1951."
+      "def": "Ikke-religiøs konfirmasjon, arrangert første gang i Norge i 1951.",
+      "niva": "eksempel"
     },
     {
       "term": "Humanistiske seremonier",
@@ -48,7 +49,8 @@
     },
     {
       "term": "Protagoras",
-      "def": "Gresk filosof som sa at «mennesket er alle tings mål»."
+      "def": "Gresk filosof som sa at «mennesket er alle tings mål».",
+      "niva": "eksempel"
     },
     {
       "term": "Opplysningstiden",
@@ -118,7 +120,8 @@
         "2002"
       ],
       "correct": 1,
-      "explain": "Forbundet er i dag et av de største livssynssamfunnene i Norge."
+      "explain": "Forbundet er i dag et av de største livssynssamfunnene i Norge.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -154,7 +157,8 @@
         "Protagoras"
       ],
       "correct": 3,
-      "explain": "Protagoras levde i antikkens Hellas."
+      "explain": "Protagoras levde i antikkens Hellas.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +182,8 @@
         "Humanistisk konfirmasjon"
       ],
       "correct": 3,
-      "explain": "Forbundet tilbyr også navnefest, vigsel og gravferd."
+      "explain": "Forbundet tilbyr også navnefest, vigsel og gravferd.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -309,7 +314,8 @@
         "type": "sant-usant",
         "text": "Humanistisk konfirmasjon ble arrangert første gang i Norge i 1951.",
         "correct": true,
-        "explain": "Det var noen år før Human-Etisk Forbund ble stiftet."
+        "explain": "Det var noen år før Human-Etisk Forbund ble stiftet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -435,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

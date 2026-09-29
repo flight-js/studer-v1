@@ -72,7 +72,8 @@
     },
     {
       "term": "Note 1",
-      "def": "Den beste karakteren i tysk skole."
+      "def": "Den beste karakteren i tysk skole.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -134,7 +135,8 @@
         "10"
       ],
       "correct": 0,
-      "explain": "I Tyskland er 1 best og 6 dårligst."
+      "explain": "I Tyskland er 1 best og 6 dårligst.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -367,7 +369,8 @@
         "kriterier": [
           "Forklarer at «gern» uttrykker at man liker en aktivitet.",
           "Forklarer at «lieber» uttrykker at man foretrekker en aktivitet framfor en annen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -403,7 +406,8 @@
         "kriterier": [
           "Forklarer at elevene velger mellom ulike skoletyper etter Grundschule.",
           "Skiller mellom Gymnasium, som forbereder til universitetet, og andre skoletyper med mer praktisk retning."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -421,7 +425,8 @@
         "kriterier": [
           "Forklarer at 1 er best og 6 er dårligst i Tyskland.",
           "Får fram at rangeringen er motsatt av den norske."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -430,12 +435,14 @@
         "kriterier": [
           "Skriver «das Heft» for skrivebok og «der Bleistift» for blyant.",
           "Skriver «die Schultasche» for skolesekk."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

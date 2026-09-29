@@ -11,51 +11,63 @@
   "flashcards": [
     {
       "term": "Beethoven – Ode an die Freude",
-      "def": "Melodien fra 9. symfoni er EUs hymne"
+      "def": "Melodien fra 9. symfoni er EUs hymne",
+      "niva": "eksempel"
     },
     {
       "term": "Mozart",
-      "def": "Komponist født i Salzburg i Østerrike"
+      "def": "Komponist født i Salzburg i Østerrike",
+      "niva": "eksempel"
     },
     {
       "term": "Kraftwerk",
-      "def": "Tysk gruppe, pionerer innen elektronisk musikk"
+      "def": "Tysk gruppe, pionerer innen elektronisk musikk",
+      "niva": "eksempel"
     },
     {
       "term": "Rammstein",
-      "def": "Verdenskjent tysk rockeband"
+      "def": "Verdenskjent tysk rockeband",
+      "niva": "eksempel"
     },
     {
       "term": "die Brüder Grimm",
-      "def": "Samlet eventyr som Snøhvit og Rødhette"
+      "def": "Samlet eventyr som Snøhvit og Rødhette",
+      "niva": "eksempel"
     },
     {
       "term": "Goethe",
-      "def": "Tysklands mest kjente forfatter, skrev Faust"
+      "def": "Tysklands mest kjente forfatter, skrev Faust",
+      "niva": "eksempel"
     },
     {
       "term": "Franz Kafka",
-      "def": "Skrev på tysk i Praha, blant annet Forvandlingen"
+      "def": "Skrev på tysk i Praha, blant annet Forvandlingen",
+      "niva": "eksempel"
     },
     {
       "term": "Michael Ende",
-      "def": "Skrev Den uendelige historien og Momo"
+      "def": "Skrev Den uendelige historien og Momo",
+      "niva": "eksempel"
     },
     {
       "term": "Bauhaus",
-      "def": "Skole for arkitektur, kunst og design fra 1919"
+      "def": "Skole for arkitektur, kunst og design fra 1919",
+      "niva": "eksempel"
     },
     {
       "term": "Gustav Klimt",
-      "def": "Østerriksk maler som malte Kysset"
+      "def": "Østerriksk maler som malte Kysset",
+      "niva": "eksempel"
     },
     {
       "term": "Neuschwanstein",
-      "def": "Eventyrslott i Bayern"
+      "def": "Eventyrslott i Bayern",
+      "niva": "eksempel"
     },
     {
       "term": "Im Westen nichts Neues",
-      "def": "Tysk krigsfilm som vant fire Oscar-priser i 2023"
+      "def": "Tysk krigsfilm som vant fire Oscar-priser i 2023",
+      "niva": "eksempel"
     },
     {
       "term": "Das gefällt mir.",
@@ -81,7 +93,8 @@
         "Die Zauberflöte"
       ],
       "correct": 1,
-      "explain": "Melodien kommer fra hans niende symfoni."
+      "explain": "Melodien kommer fra hans niende symfoni.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +106,8 @@
         "Salzburg"
       ],
       "correct": 3,
-      "explain": "Beethoven ble født i Bonn."
+      "explain": "Beethoven ble født i Bonn.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +119,8 @@
         "The Beatles"
       ],
       "correct": 0,
-      "explain": "Kraftwerk har påvirket mye av dagens popmusikk."
+      "explain": "Kraftwerk har påvirket mye av dagens popmusikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +132,8 @@
         "Thomas Mann"
       ],
       "correct": 2,
-      "explain": "Boka er også blitt film."
+      "explain": "Boka er også blitt film.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +145,8 @@
         "En skole for arkitektur, kunst og design fra 1919"
       ],
       "correct": 3,
-      "explain": "Bauhaus-stilen er enkel og funksjonell."
+      "explain": "Bauhaus-stilen er enkel og funksjonell.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +158,8 @@
         "Buckingham Palace"
       ],
       "correct": 1,
-      "explain": "Slottet ble bygd på 1800-tallet for kong Ludwig II."
+      "explain": "Slottet ble bygd på 1800-tallet for kong Ludwig II.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +183,8 @@
         "Pablo Picasso"
       ],
       "correct": 2,
-      "explain": "Maleriet henger i Wien."
+      "explain": "Maleriet henger i Wien.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +208,8 @@
         "Das Boot"
       ],
       "correct": 0,
-      "explain": "Filmen handler om første verdenskrig."
+      "explain": "Filmen handler om første verdenskrig.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -288,28 +308,32 @@
         "type": "sant-usant",
         "text": "Brødrene Grimm samlet eventyr som «Snøhvit» og «Rødhette».",
         "correct": true,
-        "explain": "Samlingen kom ut på 1800-tallet."
+        "explain": "Samlingen kom ut på 1800-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Franz Kafka skrev bøkene sine på tsjekkisk.",
         "correct": false,
-        "explain": "Kafka bodde i Praha, men skrev på tysk."
+        "explain": "Kafka bodde i Praha, men skrev på tysk.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Tyskland har vunnet Eurovision Song Contest.",
         "correct": true,
-        "explain": "Tyskland har vunnet to ganger, sist i 2010."
+        "explain": "Tyskland har vunnet to ganger, sist i 2010.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Goethe var en kjent tysk fotballspiller.",
         "correct": false,
-        "explain": "Goethe var forfatter og levde fra 1749 til 1832."
+        "explain": "Goethe var forfatter og levde fra 1749 til 1832.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -322,7 +346,8 @@
           "Kiel"
         ],
         "correct": 0,
-        "explain": "Kölner Dom står på UNESCOs verdensarvliste."
+        "explain": "Kölner Dom står på UNESCOs verdensarvliste.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -335,7 +360,8 @@
           "Et slott"
         ],
         "correct": 1,
-        "explain": "Faust inngår en pakt med djevelen."
+        "explain": "Faust inngår en pakt med djevelen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -359,7 +385,8 @@
         "kriterier": [
           "Forklarer at Brødrene Grimm samlet eventyr.",
           "Nevner minst to eventyr de samlet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -369,7 +396,8 @@
           "Knytter Goethe til *Faust* eller rollen hans som Tysklands største forfatter.",
           "Knytter Kafka til at han skrev på tysk i Praha eller til handlingen i *Die Verwandlung*.",
           "Viser en riktig forskjell mellom forfatterne."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -378,7 +406,8 @@
         "kriterier": [
           "Beskriver Bauhaus-stilen som enkel og funksjonell.",
           "Forklarer at stilen har påvirket møbler og bygninger rundt om i verden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -387,7 +416,8 @@
         "kriterier": [
           "Knytter Kraftwerk til elektronisk musikk og pionerrollen.",
           "Knytter Rammstein til hard rock på tysk og at gruppen er kjent over hele verden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -396,7 +426,8 @@
         "kriterier": [
           "Knytter Dürer til rollen som maler og grafiker på 1500-tallet.",
           "Knytter Klimt til Wien eller Østerrike og til maleriet *Kysset*."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -405,7 +436,8 @@
         "kriterier": [
           "Bruker uttrykket «Das Buch handelt von» på en forståelig og grammatisk brukbar måte.",
           "Får med at en mann våkner opp som et insekt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -414,7 +446,8 @@
         "kriterier": [
           "Knytter *Das Leben der Anderen* til overvåking i Øst-Tyskland.",
           "Knytter *Im Westen nichts Neues* til krig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -423,12 +456,14 @@
         "kriterier": [
           "Knytter Nena til «99 Luftballons» og 1980-tallet.",
           "Knytter Lena til Tysklands seier i Eurovision Song Contest i 2010."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

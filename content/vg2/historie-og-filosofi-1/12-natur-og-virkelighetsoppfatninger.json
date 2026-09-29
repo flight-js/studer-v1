@@ -12,15 +12,18 @@
   "flashcards": [
     {
       "term": "Den lille istid",
-      "def": "Kalde perioder om lag 1300–1850 med dårlige avlinger."
+      "def": "Kalde perioder om lag 1300–1850 med dårlige avlinger.",
+      "niva": "eksempel"
     },
     {
       "term": "Den store akselerasjonen",
-      "def": "Rask vekst i befolkning, produksjon og utslipp etter 1950."
+      "def": "Rask vekst i befolkning, produksjon og utslipp etter 1950.",
+      "niva": "eksempel"
     },
     {
       "term": "Antropocen",
-      "def": "Foreslått epoke der mennesket er den viktigste kraften på jorda."
+      "def": "Foreslått epoke der mennesket er den viktigste kraften på jorda.",
+      "niva": "eksempel"
     },
     {
       "term": "Antroposentrisme",
@@ -28,19 +31,23 @@
     },
     {
       "term": "Descartes om dyr",
-      "def": "Så dyr som maskiner uten bevissthet."
+      "def": "Så dyr som maskiner uten bevissthet.",
+      "niva": "eksempel"
     },
     {
       "term": "Forvalteransvar",
-      "def": "Å ta vare på skaperverket."
+      "def": "Å ta vare på skaperverket.",
+      "niva": "eksempel"
     },
     {
       "term": "Bentham om dyr",
-      "def": "Det avgjørende er om dyr kan lide."
+      "def": "Det avgjørende er om dyr kan lide.",
+      "niva": "eksempel"
     },
     {
       "term": "Peter Singer",
-      "def": "Skrev Animal Liberation (1975)."
+      "def": "Skrev Animal Liberation (1975).",
+      "niva": "eksempel"
     },
     {
       "term": "Biosentrisme",
@@ -52,23 +59,28 @@
     },
     {
       "term": "Dypøkologi",
-      "def": "Arne Næss' filosofi om at alt liv har egenverdi."
+      "def": "Arne Næss' filosofi om at alt liv har egenverdi.",
+      "niva": "eksempel"
     },
     {
       "term": "Ahimsa",
-      "def": "Ikke-vold – viktig ideal i hinduisme og buddhisme."
+      "def": "Ikke-vold – viktig ideal i hinduisme og buddhisme.",
+      "niva": "eksempel"
     },
     {
       "term": "Dao",
-      "def": "Naturens vei i daoismen."
+      "def": "Naturens vei i daoismen.",
+      "niva": "eksempel"
     },
     {
       "term": "Samisk naturforståelse",
-      "def": "Mennesket som del av naturen med gjensidige forpliktelser."
+      "def": "Mennesket som del av naturen med gjensidige forpliktelser.",
+      "niva": "eksempel"
     },
     {
       "term": "FNs menneskerettighetserklæring",
-      "def": "Slo fast i 1948 at alle mennesker har lik verdi."
+      "def": "Slo fast i 1948 at alle mennesker har lik verdi.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -94,7 +106,8 @@
         "Som guder"
       ],
       "correct": 0,
-      "explain": "Et syn som er sterkt kritisert i dag."
+      "explain": "Et syn som er sterkt kritisert i dag.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +119,8 @@
         "Om de er nyttige"
       ],
       "correct": 2,
-      "explain": "Grunnlag for dyreetikk."
+      "explain": "Grunnlag for dyreetikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +132,8 @@
         "Arne Næss' filosofi om at alt liv har egenverdi"
       ],
       "correct": 3,
-      "explain": "Et økosentrisk syn."
+      "explain": "Et økosentrisk syn.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -130,7 +145,8 @@
         "Å bygge store byer"
       ],
       "correct": 0,
-      "explain": "Dao er naturens vei."
+      "explain": "Dao er naturens vei.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +158,8 @@
         "At dyr ikke har verdi"
       ],
       "correct": 1,
-      "explain": "For eksempel i samisk tradisjon."
+      "explain": "For eksempel i samisk tradisjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +171,8 @@
         "Den lille istid"
       ],
       "correct": 2,
-      "explain": "Grunnlag for begrepet antropocen."
+      "explain": "Grunnlag for begrepet antropocen.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +184,8 @@
         "Som et forvalteransvar for skaperverket"
       ],
       "correct": 3,
-      "explain": "Å ta vare på naturen."
+      "explain": "Å ta vare på naturen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +197,8 @@
         "En type meditasjon"
       ],
       "correct": 0,
-      "explain": "Viktig i hinduisme og buddhisme."
+      "explain": "Viktig i hinduisme og buddhisme.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -300,7 +320,8 @@
         "type": "sant-usant",
         "text": "Den lille istid ga dårlige avlinger og sult i Europa.",
         "correct": true,
-        "explain": "Kalde perioder om lag 1300–1850."
+        "explain": "Kalde perioder om lag 1300–1850.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -320,7 +341,8 @@
           "Stoisismen"
         ],
         "correct": 1,
-        "explain": "Knyttet til ahimsa."
+        "explain": "Knyttet til ahimsa.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -333,7 +355,8 @@
           "René Descartes"
         ],
         "correct": 0,
-        "explain": "Bygde videre på Bentham."
+        "explain": "Bygde videre på Bentham.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -357,7 +380,8 @@
         "kriterier": [
           "Knytter kalde perioder til dårlige avlinger.",
           "Forklarer at dårlige avlinger kunne føre til sult."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -384,7 +408,8 @@
         "kriterier": [
           "Beskriver et relevant trekk ved buddhismens syn, som sammenheng, forandring eller ønsket om ikke å skade.",
           "Beskriver dao som naturens vei og knytter den til harmoni med naturen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -402,7 +427,8 @@
         "kriterier": [
           "Forklarer at den store akselerasjonen er rask vekst etter 1950.",
           "Knytter veksten til ideen om at mennesket er en viktig kraft på jorda i antropocen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -411,7 +437,8 @@
         "kriterier": [
           "Forklarer at erklæringen fastslår lik verdi for alle mennesker.",
           "Knytter dette til at grupper tidligere ble verdsatt ulikt, for eksempel etter kjønn, kaste, klasse eller hudfarge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -420,12 +447,14 @@
         "kriterier": [
           "Forklarer at jegere og sankere var avhengige av naturen.",
           "Forklarer at mennesker likevel kunne påvirke naturen og bidra til at store dyr døde ut."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

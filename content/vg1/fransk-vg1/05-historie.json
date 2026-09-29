@@ -32,7 +32,8 @@
     },
     {
       "term": "le Code civil",
-      "def": "Napoleons lovbok"
+      "def": "Napoleons lovbok",
+      "niva": "eksempel"
     },
     {
       "term": "la colonisation",
@@ -40,7 +41,8 @@
     },
     {
       "term": "1962",
-      "def": "Algerie ble selvstendig"
+      "def": "Algerie ble selvstendig",
+      "niva": "eksempel"
     },
     {
       "term": "l'Occupation",
@@ -52,7 +54,8 @@
     },
     {
       "term": "Charles de Gaulle",
-      "def": "ledet De frie franske styrkene fra London"
+      "def": "ledet De frie franske styrkene fra London",
+      "niva": "eksempel"
     },
     {
       "term": "le Débarquement",
@@ -154,7 +157,8 @@
         "1989"
       ],
       "correct": 2,
-      "explain": "Det skjedde etter en blodig krig."
+      "explain": "Det skjedde etter en blodig krig.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +182,8 @@
         "Wien-traktaten"
       ],
       "correct": 0,
-      "explain": "Frankrike var et av grunnleggerlandene."
+      "explain": "Frankrike var et av grunnleggerlandene.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -293,7 +298,8 @@
         "type": "sant-usant",
         "text": "Vichy-regimet kjempet mot de tyske okkupantene.",
         "correct": false,
-        "explain": "Vichy-regimet samarbeidet med Tyskland."
+        "explain": "Vichy-regimet samarbeidet med Tyskland.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -333,7 +339,8 @@
           "Victor Hugo"
         ],
         "correct": 1,
-        "explain": "De Gaulle ble senere president."
+        "explain": "De Gaulle ble senere president.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -346,7 +353,8 @@
           "Austerlitz"
         ],
         "correct": 2,
-        "explain": "Slaget ved Verdun kostet hundretusener av liv."
+        "explain": "Slaget ved Verdun kostet hundretusener av liv.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -375,7 +383,8 @@
         "kriterier": [
           "Nevner Code civil som Napoleons lovbok.",
           "Forklarer at lovboken påvirket lovgivningen i mange land."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -402,7 +411,8 @@
         "kriterier": [
           "Skiller mellom Vichy-regimet, som styrte Sør-Frankrike og var tyskvennlig, og motstandsbevegelsen, som kjempet mot okkupantene.",
           "Nevner at de Gaulle ledet De frie franske styrkene fra London."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -426,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

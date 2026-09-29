@@ -72,7 +72,8 @@
     },
     {
       "term": "karakter 0–20",
-      "def": "Vanlig karakterskala i Frankrike. 10 regnes som bestått."
+      "def": "Vanlig karakterskala i Frankrike. 10 regnes som bestått.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -146,7 +147,8 @@
         "1 til 10"
       ],
       "correct": 0,
-      "explain": "10 av 20 regnes som bestått."
+      "explain": "10 av 20 regnes som bestått.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -304,7 +306,8 @@
         "type": "sant-usant",
         "text": "På franske ungdomsskoler telles klassetrinnene nedover, fra 6e til 3e.",
         "correct": true,
-        "explain": "Elevene begynner i «sixième» og slutter i «troisième»."
+        "explain": "Elevene begynner i «sixième» og slutter i «troisième».",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -361,7 +364,8 @@
         "kriterier": [
           "Forklarer at *aimer* følges av bestemt artikkel foran et skolefag.",
           "Gir et eksempel med *aimer* og riktig artikkel foran *la musique*."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s02",
@@ -397,7 +401,8 @@
         "kriterier": [
           "Skriver *le cahier* for skriveboka og *le stylo* for pennen.",
           "Skriver *la trousse* for pennalet med riktig artikkel."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -406,7 +411,8 @@
         "kriterier": [
           "Oppgir at elevene går på *le collège* fra omtrent 11 til 15 år.",
           "Forklarer at *le lycée* kommer etter *le collège* og avsluttes med *le bac*."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -414,7 +420,8 @@
         "fasit": "Une note de 10 sur 20 est une note de passage. 10 est suffisant pour réussir.",
         "kriterier": [
           "Forklarer at 10 regnes som bestått på skalaen fra 0 til 20."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -429,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

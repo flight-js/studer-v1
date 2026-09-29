@@ -47,7 +47,8 @@
     },
     {
       "term": "Automatisering",
-      "def": "Maskiner overtar oppgaver – færre jobber uten kompetanse."
+      "def": "Maskiner overtar oppgaver – færre jobber uten kompetanse.",
+      "niva": "eksempel"
     },
     {
       "term": "Levekårsutfordringer",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Wilkinson og Pickett",
-      "def": "Mener store forskjeller gir flere sosiale problemer."
+      "def": "Mener store forskjeller gir flere sosiale problemer.",
+      "niva": "eksempel"
     },
     {
       "term": "Omfordeling",
@@ -153,7 +155,8 @@
         "At rike land alltid er lykkeligst"
       ],
       "correct": 2,
-      "explain": "Også for de rike."
+      "explain": "Også for de rike.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +168,8 @@
         "Forskjeller i formue"
       ],
       "correct": 3,
-      "explain": "Forskjellene er likevel små internasjonalt."
+      "explain": "Forskjellene er likevel små internasjonalt.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +181,8 @@
         "Ved å øke lønningene"
       ],
       "correct": 0,
-      "explain": "Kravene i arbeidslivet øker."
+      "explain": "Kravene i arbeidslivet øker.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -326,7 +331,8 @@
           "Kutt i skolehelsetjenesten"
         ],
         "correct": 0,
-        "explain": "Gir alle barn mulighet til å delta."
+        "explain": "Gir alle barn mulighet til å delta.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -419,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

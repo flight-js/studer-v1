@@ -51,11 +51,13 @@
     },
     {
       "term": "Standardavvik",
-      "def": "Mål på spredningen i dataene."
+      "def": "Mål på spredningen i dataene.",
+      "niva": "over-niva"
     },
     {
       "term": "Feilstolper",
-      "def": "Viser usikkerheten i en graf."
+      "def": "Viser usikkerheten i en graf.",
+      "niva": "over-niva"
     },
     {
       "term": "Korrelasjon",
@@ -129,7 +131,8 @@
         "At det ikke finnes data"
       ],
       "correct": 0,
-      "explain": "Usikkerheten er stor i forhold til forskjellen."
+      "explain": "Usikkerheten er stor i forhold til forskjellen.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -419,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

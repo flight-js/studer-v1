@@ -59,15 +59,18 @@
     },
     {
       "term": "Halveringsmetoden",
-      "def": "Numerisk metode som halverer intervallet med fortegnsskifte."
+      "def": "Numerisk metode som halverer intervallet med fortegnsskifte.",
+      "niva": "eksempel"
     },
     {
       "term": "Parkeringsavgift per påbegynt time",
-      "def": "Eksempel på en diskontinuerlig funksjon."
+      "def": "Eksempel på en diskontinuerlig funksjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Trinnskatt",
-      "def": "Skattesatsen for ekstra inntekt hopper ved hvert trinn."
+      "def": "Skattesatsen for ekstra inntekt hopper ved hvert trinn.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +132,8 @@
         "Posisjonen til en bil"
       ],
       "correct": 0,
-      "explain": "Prisen hopper ved hver ny time."
+      "explain": "Prisen hopper ved hver ny time.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -296,7 +300,8 @@
         "type": "sant-usant",
         "text": "Halveringsmetoden bygger på skjæringssetningen.",
         "correct": true,
-        "explain": "Den beholder intervallet med fortegnsskifte."
+        "explain": "Den beholder intervallet med fortegnsskifte.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -371,7 +376,8 @@
         "kriterier": [
           "Forklarer at avgiften hopper når en ny time begynner.",
           "Viser at verdien ved selve tidsgrensen må avklares."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -389,7 +395,8 @@
         "kriterier": [
           "Finner riktig intervall etter første halvering, [1, 2].",
           "Finner [1, 1,5] og regner ut bredden 0,5."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,12 +423,14 @@
         "kriterier": [
           "Får med at summen og produktet av kontinuerlige funksjoner er kontinuerlige.",
           "Får med at sammensetningen også er kontinuerlig."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

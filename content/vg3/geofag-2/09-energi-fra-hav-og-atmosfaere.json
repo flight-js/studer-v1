@@ -35,7 +35,8 @@
     },
     {
       "term": "Hywind",
-      "def": "Norske prosjekter med flytende havvind."
+      "def": "Norske prosjekter med flytende havvind.",
+      "niva": "eksempel"
     },
     {
       "term": "Bølgekraft",
@@ -177,7 +178,8 @@
         "Høyere havnivå"
       ],
       "correct": 0,
-      "explain": "Arealbruk er et viktig tema."
+      "explain": "Arealbruk er et viktig tema.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +191,8 @@
         "Tidevannskraft"
       ],
       "correct": 1,
-      "explain": "Solceller er blitt mye billigere."
+      "explain": "Solceller er blitt mye billigere.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -300,7 +303,8 @@
         "type": "sant-usant",
         "text": "Osmotisk kraft er i dag en stor energikilde i Norge.",
         "correct": false,
-        "explain": "Teknologien ble ikke lønnsom."
+        "explain": "Teknologien ble ikke lønnsom.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -420,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

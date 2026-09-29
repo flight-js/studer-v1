@@ -67,7 +67,8 @@
     },
     {
       "term": "Bonusfamilie",
-      "def": "Familie med stebarn og steforeldre."
+      "def": "Familie med stebarn og steforeldre.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -303,7 +304,8 @@
         "type": "sant-usant",
         "text": "Etter Bourdieu belønner skolen alle former for kulturell kapital likt.",
         "correct": false,
-        "explain": "Den belønner ofte middelklassens kapital."
+        "explain": "Den belønner ofte middelklassens kapital.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -342,7 +344,8 @@
           "Ingen endring"
         ],
         "correct": 2,
-        "explain": "Mangfoldet har økt."
+        "explain": "Mangfoldet har økt.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -371,7 +374,8 @@
         "kriterier": [
           "Forklarer at ulik kulturell kapital hjemme kan gi elever ulike forutsetninger i skolen.",
           "Knytter skolens belønning av middelklassens kulturelle kapital til at ulikhet kan videreføres."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -417,12 +421,14 @@
           "Knytter barnehage og SFO til at barn tilbringer mer tid i institusjoner.",
           "Knytter steforeldre til flere familieformer, som bonusfamilier.",
           "Forklarer at både institusjoner og familie kan være arenaer eller påvirkningskilder i barnets hverdag."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

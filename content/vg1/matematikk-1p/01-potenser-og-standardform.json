@@ -59,15 +59,18 @@
     },
     {
       "term": "Kilo, mega, giga",
-      "def": "10³, 10⁶ og 10⁹."
+      "def": "10³, 10⁶ og 10⁹.",
+      "niva": "eksempel"
     },
     {
       "term": "Milli, mikro, nano",
-      "def": "10⁻³, 10⁻⁶ og 10⁻⁹."
+      "def": "10⁻³, 10⁻⁶ og 10⁻⁹.",
+      "niva": "eksempel"
     },
     {
       "term": "1,5E8 på kalkulatoren",
-      "def": "1,5 · 10⁸"
+      "def": "1,5 · 10⁸",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +192,8 @@
         "10⁶ m"
       ],
       "correct": 1,
-      "explain": "Mikro betyr 10⁻⁶."
+      "explain": "Mikro betyr 10⁻⁶.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -407,7 +411,8 @@
         "kriterier": [
           "Bruker at kilo tilsvarer 10³.",
           "Oppgir riktig avstand som 5000 m eller 5 · 10³ m."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +421,14 @@
         "kriterier": [
           "Kjenner igjen giga som 10⁹ og nano som 10⁻⁹.",
           "Finner at forholdet er 10¹⁸, altså 10¹⁸ ganger større."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -39,15 +39,18 @@
     },
     {
       "term": "22. juli 2011",
-      "def": "Terrorangrepene i regjeringskvartalet og på Utøya."
+      "def": "Terrorangrepene i regjeringskvartalet og på Utøya.",
+      "niva": "eksempel"
     },
     {
       "term": "Snublesteiner",
-      "def": "Messingplater i fortauet til minne om ofre for Holocaust."
+      "def": "Messingplater i fortauet til minne om ofre for Holocaust.",
+      "niva": "eksempel"
     },
     {
       "term": "Holocaust-senteret",
-      "def": "Senter i Oslo for studier av Holocaust og minoriteter."
+      "def": "Senter i Oslo for studier av Holocaust og minoriteter.",
+      "niva": "eksempel"
     },
     {
       "term": "Glemte grupper",
@@ -55,11 +58,13 @@
     },
     {
       "term": "Sannhets- og forsoningskommisjonen",
-      "def": "Kommisjon som i 2023 la fram rapport om fornorskingen."
+      "def": "Kommisjon som i 2023 la fram rapport om fornorskingen.",
+      "niva": "eksempel"
     },
     {
       "term": "Edward Colston",
-      "def": "Slavehandler hvis statue i Bristol ble revet ned i 2020."
+      "def": "Slavehandler hvis statue i Bristol ble revet ned i 2020.",
+      "niva": "eksempel"
     },
     {
       "term": "Vanskelig fortid",
@@ -105,7 +110,8 @@
         "Veisteiner fra middelalderen"
       ],
       "correct": 2,
-      "explain": "De ligger utenfor der ofrene bodde."
+      "explain": "De ligger utenfor der ofrene bodde.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -129,7 +135,8 @@
         "Den ble gullbelagt"
       ],
       "correct": 0,
-      "explain": "Colston var slavehandler."
+      "explain": "Colston var slavehandler.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +160,8 @@
         "Fordi det lå i utlandet"
       ],
       "correct": 2,
-      "explain": "Minnekultur handler om ulike behov."
+      "explain": "Minnekultur handler om ulike behov.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -299,7 +307,8 @@
         "type": "sant-usant",
         "text": "Norsk politi hjalp til med å arrestere norske jøder under krigen.",
         "correct": true,
-        "explain": "Dette har fått større plass i nyere minnekultur."
+        "explain": "Dette har fått større plass i nyere minnekultur.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +328,8 @@
           "22. juli"
         ],
         "correct": 1,
-        "explain": "Til minne om det første samiske landsmøtet i 1917."
+        "explain": "Til minne om det første samiske landsmøtet i 1917.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +342,8 @@
           "En ny bro"
         ],
         "correct": 0,
-        "explain": "Vanskelig fortid er smertefull eller skamfull."
+        "explain": "Vanskelig fortid er smertefull eller skamfull.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -345,7 +356,8 @@
           "Rev statuer"
         ],
         "correct": 2,
-        "explain": "Rapporten kom i 2023."
+        "explain": "Rapporten kom i 2023.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -392,7 +404,8 @@
         "kriterier": [
           "Knytter kommisjonens arbeid til historier om fornorskingen som har blitt fortiet.",
           "Forklarer at arbeidet gir plass til grupper eller historier som tidligere har vært lite synlige."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -401,7 +414,8 @@
         "kriterier": [
           "Forklarer at vanskelig fortid er smertefulle eller skamfulle deler av historien.",
           "Knytter slavehandel og statuer av slavehandlere til debatt om minnet av fortiden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,7 +424,8 @@
         "kriterier": [
           "Oppgir at Holocaust-senteret arbeider med studier av Holocaust.",
           "Oppgir at senteret også arbeider med minoriteter og knytter dette til undervisningens tema."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -425,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

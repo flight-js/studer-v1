@@ -51,7 +51,8 @@
     },
     {
       "term": "Indusert tilpasning",
-      "def": "Det aktive setet endrer form litt når substratet bindes."
+      "def": "Det aktive setet endrer form litt når substratet bindes.",
+      "niva": "over-niva"
     },
     {
       "term": "Denaturering",
@@ -59,7 +60,8 @@
     },
     {
       "term": "Pepsin",
-      "def": "Enzym i magesekken som virker best i sur løsning."
+      "def": "Enzym i magesekken som virker best i sur løsning.",
+      "niva": "eksempel"
     },
     {
       "term": "Hemmer",
@@ -67,7 +69,8 @@
     },
     {
       "term": "Bilkatalysator",
-      "def": "Platina, palladium og rhodium som renser eksosen."
+      "def": "Platina, palladium og rhodium som renser eksosen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -141,7 +144,8 @@
         "I lungene"
       ],
       "correct": 1,
-      "explain": "Tilpasset magesyren."
+      "explain": "Tilpasset magesyren.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +157,8 @@
         "Nikkel"
       ],
       "correct": 2,
-      "explain": "For ammoniakkproduksjon."
+      "explain": "For ammoniakkproduksjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "Gjør det til CO₂"
       ],
       "correct": 3,
-      "explain": "Mindre giftig."
+      "explain": "Mindre giftig.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +183,8 @@
         "Ved å endre DNA"
       ],
       "correct": 0,
-      "explain": "Enzymhemmere."
+      "explain": "Enzymhemmere.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -313,7 +320,8 @@
           "Esterdannelse"
         ],
         "correct": 1,
-        "explain": "Brukes til kunstgjødsel."
+        "explain": "Brukes til kunstgjødsel.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +334,8 @@
           "Enzymet er alltid stivt"
         ],
         "correct": 0,
-        "explain": "En videreutvikling av nøkkel–lås-modellen."
+        "explain": "En videreutvikling av nøkkel–lås-modellen.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -339,7 +348,8 @@
           "Ingen steder"
         ],
         "correct": 2,
-        "explain": "Kan erstatte energikrevende prosesser."
+        "explain": "Kan erstatte energikrevende prosesser.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -350,7 +360,8 @@
         "kriterier": [
           "Forklarer riktig hvordan fasene er like eller ulike i de to katalysetypene.",
           "Gir et relevant eksempel på begge typene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -368,7 +379,8 @@
         "kriterier": [
           "Beskriver nøkkel–lås som at substratet passer i det aktive setet.",
           "Forklarer at det aktive setet endrer form litt ved indusert tilpasning."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -395,7 +407,8 @@
         "kriterier": [
           "Knytter jern til Haber–Bosch og platina til Ostwald-prosessen.",
           "Nevner at salpetersyre brukes i kunstgjødsel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +417,8 @@
         "kriterier": [
           "Viser opptellingen 1 + 1 + 2.",
           "Oppgir totalt 4 produktoppføringer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -413,12 +427,14 @@
         "kriterier": [
           "Teller alle de fire oppgitte bruksområdene med.",
           "Oppgir 4 av 4."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

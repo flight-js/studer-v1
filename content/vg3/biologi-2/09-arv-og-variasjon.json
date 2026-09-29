@@ -117,7 +117,8 @@
         "Fordi menn har bare én X, og genet er recessivt og X-bundet"
       ],
       "correct": 3,
-      "explain": "Kjønnsbundet arv."
+      "explain": "Kjønnsbundet arv.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -316,7 +317,8 @@
           "Røde og hvite flekker"
         ],
         "correct": 1,
-        "explain": "En mellomform."
+        "explain": "En mellomform.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -371,7 +373,8 @@
         "kriterier": [
           "Forklarer at ufullstendig dominans gir en mellomform hos heterozygoten.",
           "Forklarer at begge allelene uttrykkes fullt ved kodominans."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -422,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

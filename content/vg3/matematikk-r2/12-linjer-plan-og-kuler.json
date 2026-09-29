@@ -290,7 +290,8 @@
         "type": "sant-usant",
         "text": "GPS bruker skjæringen mellom kuleflater.",
         "correct": true,
-        "explain": "Satellittene er sentrum."
+        "explain": "Satellittene er sentrum.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -401,7 +402,8 @@
         "kriterier": [
           "Knytter hver satellittavstand til en kuleflate med satellitten som sentrum.",
           "Forklarer at posisjonen bestemmes av skjæringen mellom flere kuleflater."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -15,7 +15,8 @@
     },
     {
       "term": "Nidaros",
-      "def": "Trondheim – pilegrimssted og erkebispesete fra 1150-årene."
+      "def": "Trondheim – pilegrimssted og erkebispesete fra 1150-årene.",
+      "niva": "eksempel"
     },
     {
       "term": "Kristningen",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Trettiårskrigen",
-      "def": "Religionskrig i Europa 1618–1648."
+      "def": "Religionskrig i Europa 1618–1648.",
+      "niva": "eksempel"
     },
     {
       "term": "Hekseprosessene",
@@ -51,15 +53,18 @@
     },
     {
       "term": "Steilneset minnested",
-      "def": "Minnested i Vardø for ofrene for hekseprosessene."
+      "def": "Minnested i Vardø for ofrene for hekseprosessene.",
+      "niva": "eksempel"
     },
     {
       "term": "Dissenterloven 1845",
-      "def": "Ga andre kristne trossamfunn rett til å drive virksomhet."
+      "def": "Ga andre kristne trossamfunn rett til å drive virksomhet.",
+      "niva": "eksempel"
     },
     {
       "term": "Religionsfrihet i Grunnloven",
-      "def": "Tatt inn i 1964."
+      "def": "Tatt inn i 1964.",
+      "niva": "eksempel"
     },
     {
       "term": "Sekularisering",
@@ -117,7 +122,8 @@
         "Finnmark"
       ],
       "correct": 3,
-      "explain": "Steilneset minnested i Vardø minner om ofrene."
+      "explain": "Steilneset minnested i Vardø minner om ofrene.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +135,8 @@
         "2012"
       ],
       "correct": 0,
-      "explain": "Wergeland kjempet for opphevelsen."
+      "explain": "Wergeland kjempet for opphevelsen.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +160,8 @@
         "At alle religioner var likestilte"
       ],
       "correct": 2,
-      "explain": "Jøder, jesuitter og munkeordener ble utestengt."
+      "explain": "Jøder, jesuitter og munkeordener ble utestengt.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +173,8 @@
         "Gjennom korstog, antisemittisme og rettferdiggjøring av undertrykkelse"
       ],
       "correct": 3,
-      "explain": "Religion har også inspirert fellesskap og fredsarbeid."
+      "explain": "Religion har også inspirert fellesskap og fredsarbeid.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +186,8 @@
         "2017"
       ],
       "correct": 0,
-      "explain": "Dissenterloven kom allerede i 1845."
+      "explain": "Dissenterloven kom allerede i 1845.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +199,8 @@
         "Olav den hellige"
       ],
       "correct": 1,
-      "explain": "Han var baptistprest."
+      "explain": "Han var baptistprest.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -299,7 +310,8 @@
         "type": "sant-usant",
         "text": "Mange av dem som ble henrettet for trolldom i Finnmark, var kvinner.",
         "correct": true,
-        "explain": "Også mange samer ble rammet."
+        "explain": "Også mange samer ble rammet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +331,8 @@
           "1618"
         ],
         "correct": 1,
-        "explain": "Korstogene var rettet mot muslimer i Midtøsten."
+        "explain": "Korstogene var rettet mot muslimer i Midtøsten.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +345,8 @@
           "Paven makt i Norge"
         ],
         "correct": 0,
-        "explain": "Det var et første steg mot religionsfrihet."
+        "explain": "Det var et første steg mot religionsfrihet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -345,7 +359,8 @@
           "1537"
         ],
         "correct": 2,
-        "explain": "Nidaros ble sentrum for kirken i Norge."
+        "explain": "Nidaros ble sentrum for kirken i Norge.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -374,7 +389,8 @@
         "kriterier": [
           "Knytter Nidaros til pilegrimsferd eller kirkens institusjoner.",
           "Knytter Steilneset til ofrene for hekseprosessene eller religiøs forfølgelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -383,7 +399,8 @@
         "kriterier": [
           "Beskriver en utvikling fra utestengelse til større religiøse rettigheter eller religionsfrihet.",
           "Får fram at Den norske kirke gradvis ble skilt fra staten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -392,7 +409,8 @@
         "kriterier": [
           "Peker på at begge hendelsene var knyttet til religion og vold eller forfølgelse.",
           "Skiller mellom krig i Europa og rettssaker om trolldom i Norge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -410,7 +428,8 @@
         "kriterier": [
           "Forklarer at religion kan inspirere kamp for rettferdighet eller samfunnsendring.",
           "Knytter forklaringen til Martin Luther King Jr. og borgerrettighetsbevegelsen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,12 +438,14 @@
         "kriterier": [
           "Knytter Holocaust til forfølgelse eller drap på jøder.",
           "Forklarer at dette viser alvorlige følger av hat eller fordommer mot jøder."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

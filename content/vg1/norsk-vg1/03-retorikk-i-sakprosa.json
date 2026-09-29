@@ -15,7 +15,8 @@
     },
     {
       "term": "Aristoteles",
-      "def": "Gresk filosof som beskrev appellformene etos, patos og logos."
+      "def": "Gresk filosof som beskrev appellformene etos, patos og logos.",
+      "niva": "eksempel"
     },
     {
       "term": "Kommunikasjonssituasjon",
@@ -301,7 +302,8 @@
         "type": "sant-usant",
         "text": "Appellformene ble beskrevet av en norsk forfatter på 1900-tallet.",
         "correct": false,
-        "explain": "De ble beskrevet av Aristoteles i antikkens Hellas."
+        "explain": "De ble beskrevet av Aristoteles i antikkens Hellas.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -434,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

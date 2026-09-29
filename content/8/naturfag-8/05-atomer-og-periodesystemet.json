@@ -64,7 +64,8 @@
     },
     {
       "term": "Mendelejev",
-      "def": "Russisk kjemiker som lagde et tidlig periodesystem i 1869."
+      "def": "Russisk kjemiker som lagde et tidlig periodesystem i 1869.",
+      "niva": "eksempel"
     },
     {
       "term": "Atommodell",
@@ -190,7 +191,8 @@
         "Han delte atomet"
       ],
       "correct": 1,
-      "explain": "Mendelejev forutså grunnstoffer som senere ble oppdaget, noe som styrket systemet hans."
+      "explain": "Mendelejev forutså grunnstoffer som senere ble oppdaget, noe som styrket systemet hans.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -433,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

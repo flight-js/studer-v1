@@ -433,12 +433,14 @@
         "kriterier": [
           "Gir de nynorske formene heime, spørje og kjærleik.",
           "Forklarer at noen ord har egne nynorske former, så ord-for-ord-oversettelse fra bokmål kan bli feil."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

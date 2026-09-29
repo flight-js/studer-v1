@@ -67,7 +67,8 @@
     },
     {
       "term": "Kauai-studien",
-      "def": "Fulgte barn i flere tiår – en tredel av risikobarna klarte seg godt."
+      "def": "Fulgte barn i flere tiår – en tredel av risikobarna klarte seg godt.",
+      "niva": "eksempel"
     },
     {
       "term": "Én trygg voksen",
@@ -75,7 +76,8 @@
     },
     {
       "term": "Oppmerksomt nærvær",
-      "def": "Å rette oppmerksomheten mot her og nå – kan dempe stress."
+      "def": "Å rette oppmerksomheten mot her og nå – kan dempe stress.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -430,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

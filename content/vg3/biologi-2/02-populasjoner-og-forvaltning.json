@@ -47,7 +47,8 @@
     },
     {
       "term": "Smågnagerår",
-      "def": "År med mye lemen og mus som gir flere rovdyrunger."
+      "def": "År med mye lemen og mus som gir flere rovdyrunger.",
+      "niva": "eksempel"
     },
     {
       "term": "Forvaltning",
@@ -59,15 +60,18 @@
     },
     {
       "term": "Bestandsmål",
-      "def": "Mål for størrelsen på rovdyrbestandene vedtatt av Stortinget."
+      "def": "Mål for størrelsen på rovdyrbestandene vedtatt av Stortinget.",
+      "niva": "eksempel"
     },
     {
       "term": "Lisensfelling",
-      "def": "Kontrollert felling av rovdyr etter vedtak."
+      "def": "Kontrollert felling av rovdyr etter vedtak.",
+      "niva": "eksempel"
     },
     {
       "term": "Lakselus",
-      "def": "Parasitt fra havbruk som truer villaksen."
+      "def": "Parasitt fra havbruk som truer villaksen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +133,8 @@
         "Tilfeldigheter"
       ],
       "correct": 0,
-      "explain": "Predator–byttedyr-syklus."
+      "explain": "Predator–byttedyr-syklus.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -165,7 +170,8 @@
         "Lakselus og rømt oppdrettslaks"
       ],
       "correct": 3,
-      "explain": "Fra havbruk."
+      "explain": "Fra havbruk.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +195,8 @@
         "Ingenting"
       ],
       "correct": 1,
-      "explain": "Mye mat gir flere avkom."
+      "explain": "Mye mat gir flere avkom.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +297,8 @@
         "type": "sant-usant",
         "text": "Elg kan føre til trafikkulykker og beiteskader på skog.",
         "correct": true,
-        "explain": "En interessekonflikt i forvaltningen."
+        "explain": "En interessekonflikt i forvaltningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -310,7 +318,8 @@
           "Elgjakt"
         ],
         "correct": 1,
-        "explain": "Begrenser hvor mye som kan fiskes."
+        "explain": "Begrenser hvor mye som kan fiskes.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -323,7 +332,8 @@
           "Laks og torsk"
         ],
         "correct": 0,
-        "explain": "De store rovdyrene."
+        "explain": "De store rovdyrene.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -409,12 +419,14 @@
         "kriterier": [
           "Forklarer at bestandsmål angir ønsket størrelse på en rovdyrbestand og er vedtatt av Stortinget.",
           "Forklarer at lisensfelling er kontrollert felling etter vedtak."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

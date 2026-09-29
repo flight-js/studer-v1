@@ -41,7 +41,8 @@
     },
     {
       "term": "le RGPD",
-      "def": "den franske betegnelsen på GDPR"
+      "def": "den franske betegnelsen på GDPR",
+      "niva": "eksempel"
     },
     {
       "term": "en écoutant",
@@ -119,7 +120,8 @@
         "Forbud mot mobil i barneskolen og collège"
       ],
       "correct": 3,
-      "explain": "Også i friminuttene."
+      "explain": "Også i friminuttene.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -298,7 +300,8 @@
         "type": "sant-usant",
         "text": "RFI har nyheter på lett fransk.",
         "correct": true,
-        "explain": "Journal en français facile."
+        "explain": "Journal en français facile.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -355,7 +358,8 @@
         "kriterier": [
           "Forklarer at databeskyttelse handler om personvern.",
           "Forklarer at RGPD er den franske betegnelsen for personvernforordningen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -373,7 +377,8 @@
         "kriterier": [
           "Forklarer at nyhetene er tilpasset språkelever.",
           "Forklarer at serier kan ses med fransk teksting."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -424,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

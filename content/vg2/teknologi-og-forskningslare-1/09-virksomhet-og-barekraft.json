@@ -23,7 +23,8 @@
     },
     {
       "term": "Forutsigende vedlikehold",
-      "def": "Sensorer og data forutsier når maskiner trenger service."
+      "def": "Sensorer og data forutsier når maskiner trenger service.",
+      "niva": "eksempel"
     },
     {
       "term": "Bærekraftig utvikling",
@@ -47,7 +48,8 @@
     },
     {
       "term": "Klimaregnskap",
-      "def": "Oversikt over utslipp fra drift og verdikjede."
+      "def": "Oversikt over utslipp fra drift og verdikjede.",
+      "niva": "eksempel"
     },
     {
       "term": "Sirkulær økonomi",
@@ -55,15 +57,18 @@
     },
     {
       "term": "Miljøfyrtårn",
-      "def": "Norsk miljøsertifisering for virksomheter."
+      "def": "Norsk miljøsertifisering for virksomheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Åpenhetsloven",
-      "def": "Pålegger større virksomheter å kartlegge menneskerettighetsrisiko hos leverandører."
+      "def": "Pålegger større virksomheter å kartlegge menneskerettighetsrisiko hos leverandører.",
+      "niva": "eksempel"
     },
     {
       "term": "Rebound-effekt",
-      "def": "Effektivisering fører til økt forbruk."
+      "def": "Effektivisering fører til økt forbruk.",
+      "niva": "over-niva"
     },
     {
       "term": "Leverandørkjede",
@@ -117,7 +122,8 @@
         "At effektivisering gjør noe billigere, slik at vi bruker mer av det"
       ],
       "correct": 3,
-      "explain": "Kan spise opp miljøgevinsten."
+      "explain": "Kan spise opp miljøgevinsten.",
+      "niva": "over-niva"
     },
     {
       "id": "q05",
@@ -129,7 +135,8 @@
         "Å slutte med automatisering"
       ],
       "correct": 0,
-      "explain": "Aktsomhetsvurderinger."
+      "explain": "Aktsomhetsvurderinger.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +184,8 @@
         "50"
       ],
       "correct": 0,
-      "explain": "Vedtatt i 2015."
+      "explain": "Vedtatt i 2015.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +197,8 @@
         "Et FN-organ"
       ],
       "correct": 1,
-      "explain": "Viser systematisk miljøarbeid."
+      "explain": "Viser systematisk miljøarbeid.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -368,7 +377,8 @@
         "kriterier": [
           "Skiller mellom klimaregnskapets fokus på utslipp og LCA-ens bredere miljøbelastning.",
           "Får fram at LCA følger livsløpet fra råvare til avfall."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -428,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -31,7 +31,8 @@
     },
     {
       "term": "Toksoidvaksine",
-      "def": "Ufarliggjort toksin, som mot stivkrampe."
+      "def": "Ufarliggjort toksin, som mot stivkrampe.",
+      "niva": "eksempel"
     },
     {
       "term": "mRNA-vaksine",
@@ -43,11 +44,13 @@
     },
     {
       "term": "R₀",
-      "def": "Hvor mange én smittet i snitt smitter i en befolkning uten immunitet."
+      "def": "Hvor mange én smittet i snitt smitter i en befolkning uten immunitet.",
+      "niva": "over-niva"
     },
     {
       "term": "Terskel for flokkimmunitet",
-      "def": "Omtrent 1 − 1/R₀."
+      "def": "Omtrent 1 − 1/R₀.",
+      "niva": "over-niva"
     },
     {
       "term": "Meslinger",
@@ -55,11 +58,13 @@
     },
     {
       "term": "Kopper",
-      "def": "Erklært utryddet av WHO i 1980."
+      "def": "Erklært utryddet av WHO i 1980.",
+      "niva": "eksempel"
     },
     {
       "term": "Barnevaksinasjonsprogrammet",
-      "def": "Gratis og frivillige vaksiner til barn i Norge."
+      "def": "Gratis og frivillige vaksiner til barn i Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Klinisk studie",
@@ -129,7 +134,8 @@
         "Stivkrampe"
       ],
       "correct": 0,
-      "explain": "WHO erklærte det i 1980."
+      "explain": "WHO erklærte det i 1980.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -153,7 +159,8 @@
         "96 %"
       ],
       "correct": 2,
-      "explain": "1 − 1/4 = 0,75."
+      "explain": "1 − 1/4 = 0,75.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -165,7 +172,8 @@
         "Den ble trukket tilbake, og sammenhengen er ikke funnet i store studier"
       ],
       "correct": 3,
-      "explain": "Likevel førte den til meslingutbrudd."
+      "explain": "Likevel førte den til meslingutbrudd.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -282,7 +290,8 @@
         "type": "sant-usant",
         "text": "Barnevaksinasjonsprogrammet i Norge er frivillig.",
         "correct": true,
-        "explain": "Oppslutningen er likevel høy."
+        "explain": "Oppslutningen er likevel høy.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -316,7 +325,8 @@
           "Ingen vaksine finnes"
         ],
         "correct": 1,
-        "explain": "Toksinet er gjort ufarlig."
+        "explain": "Toksinet er gjort ufarlig.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +339,8 @@
           "Hvor lenge man er syk"
         ],
         "correct": 0,
-        "explain": "Høy R₀ betyr svært smittsom."
+        "explain": "Høy R₀ betyr svært smittsom.",
+        "niva": "over-niva"
       },
       {
         "id": "m07",
@@ -389,7 +400,8 @@
         "kriterier": [
           "Setter R₀ = 5 inn i uttrykket og får 1 − 1/5 eller tilsvarende regnestykke.",
           "Oppgir 80 % som terskelen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -398,7 +410,8 @@
         "kriterier": [
           "Regner ut andelen som 190/200 = 0,95 eller viser tilsvarende framgangsmåte.",
           "Oppgir 95 % og vurderer at den når rundt 95 %-nivået for meslinger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

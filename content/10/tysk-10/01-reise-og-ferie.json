@@ -429,12 +429,14 @@
         "kriterier": [
           "Nennt für Norwegen mindestens ein passendes Erlebnis: Fjorde, Berge oder Mitternachtssonne.",
           "Nennt für Deutschland Großstädte als Reiseziel, zum Beispiel Berlin oder München."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

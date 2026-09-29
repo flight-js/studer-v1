@@ -67,7 +67,8 @@
     },
     {
       "term": "Ra-trinnet",
-      "def": "Stor endemorene i Sør-Norge."
+      "def": "Stor endemorene i Sør-Norge.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +190,8 @@
         "At elva er ny"
       ],
       "correct": 1,
-      "explain": "Terrassene er gamle elvesletter."
+      "explain": "Terrassene er gamle elvesletter.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -285,7 +287,8 @@
         "type": "sant-usant",
         "text": "Sognefjorden er Norges lengste fjord.",
         "correct": true,
-        "explain": "Over 200 km lang."
+        "explain": "Over 200 km lang.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -299,7 +302,8 @@
         "type": "sant-usant",
         "text": "Hardangervidda er et eksempel på et viddelandskap.",
         "correct": true,
-        "explain": "En gammel, flat overflate slipt av is."
+        "explain": "En gammel, flat overflate slipt av is.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +323,8 @@
           "I Lofoten"
         ],
         "correct": 1,
-        "explain": "Der vind har god tilgang på sand."
+        "explain": "Der vind har god tilgang på sand.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +337,8 @@
           "Et delta"
         ],
         "correct": 0,
-        "explain": "Den viser hvor brefronten sto."
+        "explain": "Den viser hvor brefronten sto.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -423,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

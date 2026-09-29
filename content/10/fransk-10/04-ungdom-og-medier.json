@@ -72,7 +72,8 @@
     },
     {
       "term": "TV5Monde",
-      "def": "Fransk TV-kanal med gratis ressurser for å lære fransk"
+      "def": "Fransk TV-kanal med gratis ressurser for å lære fransk",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -182,7 +183,8 @@
         "Instagram"
       ],
       "correct": 0,
-      "explain": "TV5Monde har øvelser på flere nivåer."
+      "explain": "TV5Monde har øvelser på flere nivåer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -194,7 +196,8 @@
         "Bibel"
       ],
       "correct": 2,
-      "explain": "Biblioteket heter «la bibliothèque»."
+      "explain": "Biblioteket heter «la bibliothèque».",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -296,7 +299,8 @@
         "type": "sant-usant",
         "text": "Det er forbudt for elever å bruke mobil i franske barne- og ungdomsskoler.",
         "correct": true,
-        "explain": "Forbudet ble innført i 2018."
+        "explain": "Forbudet ble innført i 2018.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -376,7 +380,8 @@
         "kriterier": [
           "Knytter TV5Monde til gratis øvelser eller videoer.",
           "Knytter RFI til nyheter på lett fransk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -412,7 +417,8 @@
         "kriterier": [
           "Oppgir at mobilbruk er forbudt for elever i franske barne- og ungdomsskoler.",
           "Oppgir at forbudet har gjeldt siden 2018."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -436,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

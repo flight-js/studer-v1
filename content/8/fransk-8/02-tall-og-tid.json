@@ -303,7 +303,8 @@
         "type": "sant-usant",
         "text": "I Belgia og Sveits sier mange «septante» for 70.",
         "correct": true,
-        "explain": "De sier også «nonante» for 90."
+        "explain": "De sier også «nonante» for 90.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -428,7 +429,8 @@
         "kriterier": [
           "Oppgir «soixante-dix» og «quatre-vingt-dix» som formene for 70 og 90.",
           "Oppgir «septante» og «nonante» som regionale former for henholdsvis 70 og 90."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -443,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

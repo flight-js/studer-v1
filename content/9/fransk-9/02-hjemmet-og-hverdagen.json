@@ -194,7 +194,8 @@
         "Å ta oppvasken"
       ],
       "correct": 3,
-      "explain": "«la vaisselle» betyr servisen eller oppvasken."
+      "explain": "«la vaisselle» betyr servisen eller oppvasken.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -367,7 +368,8 @@
         "kriterier": [
           "Får fram at mange franskmenn i byene bor i leilighet.",
           "Sammenligner med at andre bor i hus."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -412,7 +414,8 @@
         "kriterier": [
           "Bruker uttrykket «ranger ma chambre» riktig.",
           "Bruker uttrykket «passer l'aspirateur» riktig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -430,12 +433,14 @@
         "kriterier": [
           "Får fram at du ser på TV om kvelden.",
           "Bruker «je me couche» og får fram klokka ti."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

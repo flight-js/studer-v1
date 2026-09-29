@@ -38,11 +38,13 @@
     },
     {
       "term": "RegLin",
-      "def": "GeoGebra-kommando for lineær regresjon."
+      "def": "GeoGebra-kommando for lineær regresjon.",
+      "niva": "eksempel"
     },
     {
       "term": "RegEksp",
-      "def": "GeoGebra-kommando for eksponentiell regresjon."
+      "def": "GeoGebra-kommando for eksponentiell regresjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Lineær modell",
@@ -62,7 +64,8 @@
     },
     {
       "term": "SSB",
-      "def": "Statistisk sentralbyrå – kilde til offisiell norsk statistikk."
+      "def": "Statistisk sentralbyrå – kilde til offisiell norsk statistikk.",
+      "niva": "eksempel"
     },
     {
       "term": "Selvstendig arbeid",
@@ -168,7 +171,8 @@
         "RegLin"
       ],
       "correct": 3,
-      "explain": "RegEksp gir eksponentiell regresjon."
+      "explain": "RegEksp gir eksponentiell regresjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -302,7 +306,8 @@
         "type": "sant-usant",
         "text": "SSB er en god kilde til data for modellering av samfunnsfaglige tema.",
         "correct": true,
-        "explain": "SSB publiserer offisiell statistikk."
+        "explain": "SSB publiserer offisiell statistikk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -430,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

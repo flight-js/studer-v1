@@ -24,7 +24,8 @@
     },
     {
       "term": "die Bundesländer",
-      "def": "Tysklands 16 delstater"
+      "def": "Tysklands 16 delstater",
+      "niva": "eksempel"
     },
     {
       "term": "der Rhein",
@@ -36,39 +37,48 @@
     },
     {
       "term": "die Brezel",
-      "def": "kringle av brød"
+      "def": "kringle av brød",
+      "niva": "eksempel"
     },
     {
       "term": "Kaffee und Kuchen",
-      "def": "Tradisjon med kaffe og kake om ettermiddagen"
+      "def": "Tradisjon med kaffe og kake om ettermiddagen",
+      "niva": "eksempel"
     },
     {
       "term": "das Oktoberfest",
-      "def": "Stor folkefest i München"
+      "def": "Stor folkefest i München",
+      "niva": "eksempel"
     },
     {
       "term": "der Weihnachtsmarkt",
-      "def": "julemarkedet"
+      "def": "julemarkedet",
+      "niva": "eksempel"
     },
     {
       "term": "Fasching / Karneval",
-      "def": "Karnevalsfeiring før fasten"
+      "def": "Karnevalsfeiring før fasten",
+      "niva": "eksempel"
     },
     {
       "term": "Brødrene Grimm",
-      "def": "Samlet eventyr som Hans og Grete og Rødhette"
+      "def": "Samlet eventyr som Hans og Grete og Rødhette",
+      "niva": "eksempel"
     },
     {
       "term": "Beethoven",
-      "def": "Kjent tysk komponist"
+      "def": "Kjent tysk komponist",
+      "niva": "eksempel"
     },
     {
       "term": "Hanseatene",
-      "def": "Tyske handelsfolk med kontor på Bryggen i Bergen i middelalderen"
+      "def": "Tyske handelsfolk med kontor på Bryggen i Bergen i middelalderen",
+      "niva": "eksempel"
     },
     {
       "term": "die Wiedervereinigung",
-      "def": "Gjenforeningen av Tyskland i 1990"
+      "def": "Gjenforeningen av Tyskland i 1990",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -94,7 +104,8 @@
         "20"
       ],
       "correct": 2,
-      "explain": "Bayern er den største delstaten i areal."
+      "explain": "Bayern er den største delstaten i areal.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +117,8 @@
         "Köln"
       ],
       "correct": 0,
-      "explain": "Oktoberfest arrangeres i München hvert år."
+      "explain": "Oktoberfest arrangeres i München hvert år.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +130,8 @@
         "En tradisjon med kaffe og kake om ettermiddagen"
       ],
       "correct": 3,
-      "explain": "Mange tyske familier samles til kaffe og kake på søndager."
+      "explain": "Mange tyske familier samles til kaffe og kake på søndager.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -130,7 +143,8 @@
         "Mummitrollet"
       ],
       "correct": 2,
-      "explain": "Brødrene Grimm samlet folkeeventyr på 1800-tallet."
+      "explain": "Brødrene Grimm samlet folkeeventyr på 1800-tallet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +156,8 @@
         "2000"
       ],
       "correct": 1,
-      "explain": "Berlinmuren falt i 1989, og gjenforeningen kom året etter."
+      "explain": "Berlinmuren falt i 1989, og gjenforeningen kom året etter.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -166,7 +181,8 @@
         "Normannerne"
       ],
       "correct": 0,
-      "explain": "Hanseatene handlet blant annet med tørrfisk."
+      "explain": "Hanseatene handlet blant annet med tørrfisk.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +194,8 @@
         "Et loppemarked"
       ],
       "correct": 2,
-      "explain": "«Weihnachten» betyr jul."
+      "explain": "«Weihnachten» betyr jul.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -335,7 +352,8 @@
           "Giuseppe Verdi"
         ],
         "correct": 1,
-        "explain": "Beethoven ble født i Bonn."
+        "explain": "Beethoven ble født i Bonn.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -348,7 +366,8 @@
           "Nyttår"
         ],
         "correct": 0,
-        "explain": "Fasching feires særlig i Sør-Tyskland og Østerrike."
+        "explain": "Fasching feires særlig i Sør-Tyskland og Østerrike.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -372,7 +391,8 @@
         "kriterier": [
           "Knytter lånordene til kontakten mellom nordmenn og tyske hanseater.",
           "Nevner handel eller hanseatenes handelskontor på Bryggen i Bergen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -399,7 +419,8 @@
         "kriterier": [
           "Nevner Wien.",
           "Plasserer Wien i Østerrike og knytter retten til byen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -408,7 +429,8 @@
         "kriterier": [
           "Knytter Bach til Tyskland.",
           "Knytter Mozart til Østerrike."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -417,7 +439,8 @@
         "kriterier": [
           "Forklarer at Oktoberfest starter allerede i september.",
           "Beskriver den som en stor folkefest i München."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -426,7 +449,8 @@
         "kriterier": [
           "Nevner et land utenom Tyskland der tysk er offisielt, for eksempel Liechtenstein.",
           "Nevner ett område der tysk snakkes i deler, for eksempel Belgia, Luxembourg eller Nord-Italia."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -434,12 +458,14 @@
         "fasit": "En Adventskalender passer fordi den er en tysk oppfinnelse.",
         "kriterier": [
           "Forklarer at Adventskalenderen er en tysk oppfinnelse."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

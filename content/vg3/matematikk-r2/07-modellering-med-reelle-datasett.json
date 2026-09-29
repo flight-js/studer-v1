@@ -67,7 +67,8 @@
     },
     {
       "term": "Avkjøling",
-      "def": "Temperaturen nærmer seg romtemperaturen eksponentielt."
+      "def": "Temperaturen nærmer seg romtemperaturen eksponentielt.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -431,12 +431,14 @@
         "kriterier": [
           "Skriver «J’ai lu».",
           "Forklarer at «lu» er uregelrett og ikke følger det vanlige -re-mønsteret."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

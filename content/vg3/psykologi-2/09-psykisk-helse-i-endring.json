@@ -31,11 +31,13 @@
     },
     {
       "term": "Sinnssykeloven",
-      "def": "Norges første lov om psykisk helsevern – 1848."
+      "def": "Norges første lov om psykisk helsevern – 1848.",
+      "niva": "eksempel"
     },
     {
       "term": "Gaustad sykehus",
-      "def": "Asyl ved Oslo som åpnet i 1855."
+      "def": "Asyl ved Oslo som åpnet i 1855.",
+      "niva": "eksempel"
     },
     {
       "term": "Lobotomi",
@@ -51,11 +53,13 @@
     },
     {
       "term": "Opptrappingsplanen",
-      "def": "Satsing på psykisk helse 1999–2008."
+      "def": "Satsing på psykisk helse 1999–2008.",
+      "niva": "eksempel"
     },
     {
       "term": "DPS",
-      "def": "Distriktspsykiatrisk senter."
+      "def": "Distriktspsykiatrisk senter.",
+      "niva": "eksempel"
     },
     {
       "term": "Brukermedvirkning",
@@ -105,7 +109,8 @@
         "1950"
       ],
       "correct": 2,
-      "explain": "Etter sinnssykeloven av 1848."
+      "explain": "Etter sinnssykeloven av 1848.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -141,7 +146,8 @@
         "At psykiatrien er ubetydelig"
       ],
       "correct": 1,
-      "explain": "Diagnosesystemer revideres."
+      "explain": "Diagnosesystemer revideres.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +171,8 @@
         "En satsing med mer ressurser til DPS, BUP og kommunene"
       ],
       "correct": 3,
-      "explain": "1999–2008."
+      "explain": "1999–2008.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -283,14 +290,16 @@
         "type": "sant-usant",
         "text": "Elektrokonvulsiv behandling er helt forbudt i dag.",
         "correct": false,
-        "explain": "Den brukes i tryggere form ved alvorlig depresjon."
+        "explain": "Den brukes i tryggere form ved alvorlig depresjon.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Kommunene har siden 2020 hatt plikt til å ha psykologkompetanse.",
         "correct": true,
-        "explain": "Styrker tjenestene nær folk."
+        "explain": "Styrker tjenestene nær folk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -310,7 +319,8 @@
           "Lobotomi"
         ],
         "correct": 1,
-        "explain": "Lett tilgjengelig hjelp."
+        "explain": "Lett tilgjengelig hjelp.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -323,7 +333,8 @@
           "Om å stenge alle DPS"
         ],
         "correct": 0,
-        "explain": "Pasientens rettigheter og valg."
+        "explain": "Pasientens rettigheter og valg.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -365,7 +376,8 @@
         "kriterier": [
           "Beskriver lobotomi som et inngrep i hjernens pannelapp og knytter det til varige skader.",
           "Får fram at ECT fortsatt brukes ved alvorlig depresjon i en tryggere form."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -401,7 +413,8 @@
         "kriterier": [
           "Knytter ressurser til DPS, BUP eller kommunale tjenester til hjelp nærmere hjemmet.",
           "Forklarer hvordan psykologkompetanse i kommunen kan styrke det lokale tilbudet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

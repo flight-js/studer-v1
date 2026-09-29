@@ -24,15 +24,18 @@
     },
     {
       "term": "Wolfgang Borchert",
-      "def": "Forfatter av Kurzgeschichte-klassikeren «Das Brot» (1946)"
+      "def": "Forfatter av Kurzgeschichte-klassikeren «Das Brot» (1946)",
+      "niva": "eksempel"
     },
     {
       "term": "Das Brot",
-      "def": "Novelle om et ektepar, fattigdom og en skånsom løgn i etterkrigstiden"
+      "def": "Novelle om et ektepar, fattigdom og en skånsom løgn i etterkrigstiden",
+      "niva": "eksempel"
     },
     {
       "term": "Bertolt Brecht",
-      "def": "Dramatiker som skapte det episke teateret"
+      "def": "Dramatiker som skapte det episke teateret",
+      "niva": "eksempel"
     },
     {
       "term": "der Verfremdungseffekt",
@@ -40,7 +43,8 @@
     },
     {
       "term": "Mutter Courage und ihre Kinder",
-      "def": "Kjent skuespill av Brecht"
+      "def": "Kjent skuespill av Brecht",
+      "niva": "eksempel"
     },
     {
       "term": "die Hauptfigur",
@@ -94,7 +98,8 @@
         "Hun kjøper mer brød"
       ],
       "correct": 0,
-      "explain": "Handlingen viser kjærlighet og omsorg."
+      "explain": "Handlingen viser kjærlighet og omsorg.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -130,7 +135,8 @@
         "1812"
       ],
       "correct": 0,
-      "explain": "Etterkrigstiden var preget av matmangel."
+      "explain": "Etterkrigstiden var preget av matmangel.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -166,7 +172,8 @@
         "Brødet"
       ],
       "correct": 3,
-      "explain": "Brødet står for knapphet og omsorg."
+      "explain": "Brødet står for knapphet og omsorg.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -190,7 +197,8 @@
         "Die Verwandlung"
       ],
       "correct": 1,
-      "explain": "Faust er av Goethe, Die Verwandlung av Kafka."
+      "explain": "Faust er av Goethe, Die Verwandlung av Kafka.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -286,7 +294,8 @@
         "type": "sant-usant",
         "text": "Mannen i «Das Brot» lyver om hvorfor han er på kjøkkenet.",
         "correct": true,
-        "explain": "Han sier at han hørte noe."
+        "explain": "Han sier at han hørte noe.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -300,7 +309,8 @@
         "type": "sant-usant",
         "text": "Skuespillerne i Brechts teater kunne snakke direkte til publikum.",
         "correct": true,
-        "explain": "Det skapte fremmedgjøring."
+        "explain": "Det skapte fremmedgjøring.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -357,7 +367,8 @@
         "kriterier": [
           "Knytter Borchert til «Das Brot» og Brecht til det episke teateret.",
           "Oppgir et riktig verk knyttet til hver av dem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -366,7 +377,8 @@
         "kriterier": [
           "Forklarer at matmangelen gjør brødet viktig eller vanskelig å få nok av.",
           "Knytter matmangelen til at mannen spiser brød i hemmelighet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -375,7 +387,8 @@
         "kriterier": [
           "Forklarer at kona later som for å skåne mannen.",
           "Knytter handlingen til omtanke eller kjærlighet mellom dem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -384,7 +397,8 @@
         "kriterier": [
           "Nevner en konkret liten handling fra fortellingen.",
           "Forklarer hva handlingen uttrykker, for eksempel omtanke eller kjærlighet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -411,7 +425,8 @@
         "kriterier": [
           "Identifiserer direkte tale til publikum som et grep Brecht brukte.",
           "Navngir effekten som *Verfremdungseffekt*."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

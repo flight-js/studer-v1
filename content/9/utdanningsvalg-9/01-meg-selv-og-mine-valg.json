@@ -40,15 +40,18 @@
     },
     {
       "term": "Praktisk interessetype",
-      "def": "Liker å jobbe med hendene, verktøy og maskiner."
+      "def": "Liker å jobbe med hendene, verktøy og maskiner.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosial interessetype",
-      "def": "Liker å hjelpe, undervise og ta vare på andre."
+      "def": "Liker å hjelpe, undervise og ta vare på andre.",
+      "niva": "eksempel"
     },
     {
       "term": "Foretaksom interessetype",
-      "def": "Liker å lede, selge og overbevise."
+      "def": "Liker å lede, selge og overbevise.",
+      "niva": "eksempel"
     },
     {
       "term": "Kjønnsstereotypi",
@@ -130,7 +133,8 @@
         "Undersøkende"
       ],
       "correct": 1,
-      "explain": "Foretaksomme trives ofte med salg og ledelse."
+      "explain": "Foretaksomme trives ofte med salg og ledelse.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +146,8 @@
         "Å kartlegge seg selv"
       ],
       "correct": 3,
-      "explain": "Deretter finner man informasjon og vurderer alternativene."
+      "explain": "Deretter finner man informasjon og vurderer alternativene.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -190,7 +195,8 @@
         "Praktisk"
       ],
       "correct": 3,
-      "explain": "Praktiske typer trives ofte i yrkesfag som bygg, elektro og industri."
+      "explain": "Praktiske typer trives ofte i yrkesfag som bygg, elektro og industri.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -289,7 +295,8 @@
         "type": "sant-usant",
         "text": "De fleste mennesker er en blanding av flere interessetyper.",
         "correct": true,
-        "explain": "Få passer perfekt inn i én type."
+        "explain": "Få passer perfekt inn i én type.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -323,7 +330,8 @@
           "Sosial"
         ],
         "correct": 2,
-        "explain": "Konvensjonelle typer trives ofte med økonomi og administrasjon."
+        "explain": "Konvensjonelle typer trives ofte med økonomi og administrasjon.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -349,7 +357,8 @@
           "Å evaluere om valget ble som man trodde"
         ],
         "correct": 3,
-        "explain": "Evalueringen gir erfaring til neste valg."
+        "explain": "Evalueringen gir erfaring til neste valg.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +378,8 @@
         "kriterier": [
           "Knytter situasjonen til praktisk interessetype.",
           "Begrunner svaret med at Sam liker å fikse ting eller bruke verktøy."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -429,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -21,7 +21,8 @@
     },
     {
       "term": "Bildungsroman",
-      "def": "Another term for a coming-of-age novel."
+      "def": "Another term for a coming-of-age novel.",
+      "niva": "over-niva"
     },
     {
       "term": "Dystopian fiction",
@@ -33,23 +34,28 @@
     },
     {
       "term": "The Catcher in the Rye",
-      "def": "Novel by J.D. Salinger (1951) about a teenager's alienation."
+      "def": "Novel by J.D. Salinger (1951) about a teenager's alienation.",
+      "niva": "eksempel"
     },
     {
       "term": "The Outsiders",
-      "def": "Novel by S.E. Hinton (1967) about rival gangs and loyalty."
+      "def": "Novel by S.E. Hinton (1967) about rival gangs and loyalty.",
+      "niva": "eksempel"
     },
     {
       "term": "The Hunger Games",
-      "def": "Dystopian novel by Suzanne Collins (2008)."
+      "def": "Dystopian novel by Suzanne Collins (2008).",
+      "niva": "eksempel"
     },
     {
       "term": "Wonder",
-      "def": "Novel by R.J. Palacio (2012) about a boy with a facial difference starting school."
+      "def": "Novel by R.J. Palacio (2012) about a boy with a facial difference starting school.",
+      "niva": "eksempel"
     },
     {
       "term": "The Hate U Give",
-      "def": "Novel by Angie Thomas (2017) about racism and police violence."
+      "def": "Novel by Angie Thomas (2017) about racism and police violence.",
+      "niva": "eksempel"
     },
     {
       "term": "First-person voice",
@@ -119,7 +125,8 @@
         "Mark Haddon"
       ],
       "correct": 0,
-      "explain": "Angie Thomas published the novel in 2017."
+      "explain": "Angie Thomas published the novel in 2017.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -167,7 +174,8 @@
         "Directing films"
       ],
       "correct": 0,
-      "explain": "Hinton wrote The Outsiders while she was still in high school; it was published in 1967."
+      "explain": "Hinton wrote The Outsiders while she was still in high school; it was published in 1967.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -304,7 +312,8 @@
         "type": "sant-usant",
         "text": "The Hunger Games is an example of dystopian fiction.",
         "correct": true,
-        "explain": "It shows an oppressive future society where teenagers must fight to survive."
+        "explain": "It shows an oppressive future society where teenagers must fight to survive.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -318,7 +327,8 @@
         "type": "sant-usant",
         "text": "The Catcher in the Rye was published in 2008.",
         "correct": false,
-        "explain": "The Catcher in the Rye by J.D. Salinger was published in 1951."
+        "explain": "The Catcher in the Rye by J.D. Salinger was published in 1951.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -331,7 +341,8 @@
           "The Catcher in the Rye"
         ],
         "correct": 1,
-        "explain": "Wonder by R.J. Palacio follows Auggie as he starts school."
+        "explain": "Wonder by R.J. Palacio follows Auggie as he starts school.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -377,7 +388,8 @@
         "kriterier": [
           "Connects *The Catcher in the Rye* with a teenager’s alienation from the adult world.",
           "Connects *The Outsiders* with rival gangs and loyalty."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -422,7 +434,8 @@
         "kriterier": [
           "Connects *Wonder* with a boy with a facial difference starting school.",
           "Connects *The Hate U Give* with a girl witnessing police violence and finding her voice."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -437,6 +450,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

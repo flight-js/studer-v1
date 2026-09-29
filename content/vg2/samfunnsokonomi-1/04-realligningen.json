@@ -129,7 +129,8 @@
         "Fordi staten forbyr import"
       ],
       "correct": 0,
-      "explain": "Stor eksport."
+      "explain": "Stor eksport.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +178,8 @@
         "Konkurransetilsynet"
       ],
       "correct": 0,
-      "explain": "Statistisk sentralbyrå."
+      "explain": "Statistisk sentralbyrå.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

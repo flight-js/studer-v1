@@ -20,11 +20,13 @@
     },
     {
       "term": "el turrón",
-      "def": "søtt nougatlignende julegodteri"
+      "def": "søtt nougatlignende julegodteri",
+      "niva": "eksempel"
     },
     {
       "term": "el belén",
-      "def": "julekrybbe med figurer"
+      "def": "julekrybbe med figurer",
+      "niva": "eksempel"
     },
     {
       "term": "la Nochevieja",
@@ -40,7 +42,8 @@
     },
     {
       "term": "el roscón de Reyes",
-      "def": "kranseformet kake som spises 6. januar"
+      "def": "kranseformet kake som spises 6. januar",
+      "niva": "eksempel"
     },
     {
       "term": "la Semana Santa",
@@ -48,23 +51,28 @@
     },
     {
       "term": "las Fallas",
-      "def": "fest i Valencia der store figurer brennes"
+      "def": "fest i Valencia der store figurer brennes",
+      "niva": "eksempel"
     },
     {
       "term": "San Fermín",
-      "def": "fest i Pamplona med oksefløp"
+      "def": "fest i Pamplona med oksefløp",
+      "niva": "eksempel"
     },
     {
       "term": "el Día de Muertos",
-      "def": "de dødes dag i Mexico, 1.–2. november"
+      "def": "de dødes dag i Mexico, 1.–2. november",
+      "niva": "eksempel"
     },
     {
       "term": "la ofrenda",
-      "def": "fargerikt alter til minne om de døde"
+      "def": "fargerikt alter til minne om de døde",
+      "niva": "eksempel"
     },
     {
       "term": "la quinceañera",
-      "def": "stor fest når en jente fyller 15 år"
+      "def": "stor fest når en jente fyller 15 år",
+      "niva": "eksempel"
     },
     {
       "term": "¡Feliz Navidad!",
@@ -110,7 +118,8 @@
         "Et juletre"
       ],
       "correct": 0,
-      "explain": "I kaka er det gjemt en liten figur."
+      "explain": "I kaka er det gjemt en liten figur.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -122,7 +131,8 @@
         "Barcelona"
       ],
       "correct": 2,
-      "explain": "Festen holdes i mars."
+      "explain": "Festen holdes i mars.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -134,7 +144,8 @@
         "En dans"
       ],
       "correct": 0,
-      "explain": "Tradisjonen er vanlig i Latin-Amerika."
+      "explain": "Tradisjonen er vanlig i Latin-Amerika.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -158,7 +169,8 @@
         "Fargerike altere med bilder, blomster og mat"
       ],
       "correct": 3,
-      "explain": "Alterne kalles «ofrendas»."
+      "explain": "Alterne kalles «ofrendas».",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -170,7 +182,8 @@
         "La Feria de Abril"
       ],
       "correct": 1,
-      "explain": "Oksefløpene kalles «los encierros»."
+      "explain": "Oksefløpene kalles «los encierros».",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -182,7 +195,8 @@
         "En figur fylt med godteri som barn slår i stykker"
       ],
       "correct": 3,
-      "explain": "Piñata er vanlig i bursdager, særlig i Mexico."
+      "explain": "Piñata er vanlig i bursdager, særlig i Mexico.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -194,7 +208,8 @@
         "En type pølse"
       ],
       "correct": 0,
-      "explain": "Turrón lages ofte av mandler og honning."
+      "explain": "Turrón lages ofte av mandler og honning.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -306,14 +321,16 @@
         "type": "sant-usant",
         "text": "Día de Muertos er en trist dag uten farger og musikk.",
         "correct": false,
-        "explain": "Det er en fargerik fest for å minnes og ære de døde."
+        "explain": "Det er en fargerik fest for å minnes og ære de døde.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "I Argentina og Chile feires julen om sommeren.",
         "correct": true,
-        "explain": "Landene ligger på den sørlige halvkule."
+        "explain": "Landene ligger på den sørlige halvkule.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -359,7 +376,8 @@
           "En julesang"
         ],
         "correct": 2,
-        "explain": "Navnet kommer fra Betlehem."
+        "explain": "Navnet kommer fra Betlehem.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -388,7 +406,8 @@
         "kriterier": [
           "Beskriver prosesjonene og de religiøse figurene under la Semana Santa, særlig i Andalucía.",
           "Beskriver figurene av papp og tre som brennes under las Fallas i Valencia."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -397,7 +416,8 @@
         "kriterier": [
           "Knytter julen om sommeren til feiringen i Argentina eller Chile.",
           "Nevner utendørs feiring eller grillmat som eksempel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -406,7 +426,8 @@
         "kriterier": [
           "Navngir tradisjonen som las Posadas.",
           "Forklarer at den spiller ut Maria og Josefs leting etter husly."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -424,7 +445,8 @@
         "kriterier": [
           "Kaller scenen el belén.",
           "Forklarer at det er en julekrybbe med små figurer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -433,12 +455,14 @@
         "kriterier": [
           "Forklarer at la Lotería de Navidad er et stort julelotteri i Spania.",
           "Nevner at det trekkes 22. desember eller at nesten alle spanjoler følger med."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

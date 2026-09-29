@@ -411,7 +411,8 @@
         "kriterier": [
           "Nevner hypotese, utstyr og framgangsmåte.",
           "Nevner resultater, analyse og konklusjon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -284,7 +284,8 @@
         "type": "sant-usant",
         "text": "DSGVO er den tyske betegnelsen på GDPR.",
         "correct": true,
-        "explain": "Datenschutz-Grundverordnung."
+        "explain": "Datenschutz-Grundverordnung.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -408,7 +409,8 @@
         "kriterier": [
           "Erklärt, dass DSGVO für Datenschutz-Grundverordnung steht.",
           "Stellt klar, dass DSGVO und GDPR dasselbe sind."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -423,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

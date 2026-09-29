@@ -35,7 +35,8 @@
     },
     {
       "term": "Bromerte flammehemmere",
-      "def": "Stoffer som gjør elektronikk og tekstiler mindre brennbare."
+      "def": "Stoffer som gjør elektronikk og tekstiler mindre brennbare.",
+      "niva": "eksempel"
     },
     {
       "term": "Bioakkumulering",
@@ -51,15 +52,18 @@
     },
     {
       "term": "Arktis og miljøgifter",
-      "def": "Miljøgifter fraktes med havstrømmer og vind til Arktis."
+      "def": "Miljøgifter fraktes med havstrømmer og vind til Arktis.",
+      "niva": "eksempel"
     },
     {
       "term": "Hormonforstyrrelser",
-      "def": "En mulig konsekvens av miljøgifter."
+      "def": "En mulig konsekvens av miljøgifter.",
+      "niva": "eksempel"
     },
     {
       "term": "Stockholmkonvensjonen",
-      "def": "Internasjonal avtale fra 2001 om persistente organiske miljøgifter."
+      "def": "Internasjonal avtale fra 2001 om persistente organiske miljøgifter.",
+      "niva": "eksempel"
     },
     {
       "term": "Farlig avfall",
@@ -153,7 +157,8 @@
         "Fordi det er gruvedrift overalt"
       ],
       "correct": 2,
-      "explain": "Miljøgifter spres over store avstander."
+      "explain": "Miljøgifter spres over store avstander.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +194,8 @@
         "Genèvekonvensjonen"
       ],
       "correct": 1,
-      "explain": "Stockholmkonvensjonen er fra 2001."
+      "explain": "Stockholmkonvensjonen er fra 2001.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -328,7 +334,8 @@
           "I rent kildevann"
         ],
         "correct": 0,
-        "explain": "PFAS brukes også i brannskum."
+        "explain": "PFAS brukes også i brannskum.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -374,7 +381,8 @@
         "kriterier": [
           "Nevner kullkraft eller gruvedrift som en kilde til kvikksølv.",
           "Knytter kvikksølv til skade på nervesystemet og nevner fostre eller små barn som særlig utsatt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -383,7 +391,8 @@
         "kriterier": [
           "Nevner minst én bruk av PFAS.",
           "Forklarer at bromerte flammehemmere brukes i elektronikk eller tekstiler for å gjøre dem mindre brennbare."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -410,7 +419,8 @@
         "kriterier": [
           "Knytter rensing til utslipp fra industrien.",
           "Knytter opprydding til forurenset sjøbunn."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -419,7 +429,8 @@
         "kriterier": [
           "Viser riktig differanse på 10 år.",
           "Viser et regnestykke som bygger på årstallene i oppgaven."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -428,12 +439,14 @@
         "kriterier": [
           "Viser riktig differanse på 21 år.",
           "Viser et regnestykke som bygger på årstallene i oppgaven."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

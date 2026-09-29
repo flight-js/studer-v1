@@ -67,7 +67,8 @@
     },
     {
       "term": "Skruelinje",
-      "def": "[cos t, sin t, kt] – sirkel som stiger jevnt."
+      "def": "[cos t, sin t, kt] – sirkel som stiger jevnt.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -290,7 +291,8 @@
         "type": "sant-usant",
         "text": "Buelengden må ofte regnes ut numerisk.",
         "correct": true,
-        "explain": "Rotuttrykket er ofte vanskelig å integrere."
+        "explain": "Rotuttrykket er ofte vanskelig å integrere.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -323,7 +325,8 @@
           "En parabel"
         ],
         "correct": 0,
-        "explain": "Sirkel som stiger jevnt."
+        "explain": "Sirkel som stiger jevnt.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -392,7 +395,8 @@
         "kriterier": [
           "Knytter de to første koordinatene til en sirkelbevegelse.",
           "Får fram at tredje koordinat øker jevnt samtidig, slik at banen stiger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

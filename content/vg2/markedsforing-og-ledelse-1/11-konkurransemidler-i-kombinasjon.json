@@ -35,7 +35,8 @@
     },
     {
       "term": "Michael Porter",
-      "def": "Beskrev tre hovedstrategier for konkurranse."
+      "def": "Beskrev tre hovedstrategier for konkurranse.",
+      "niva": "eksempel"
     },
     {
       "term": "Personale som P",
@@ -189,7 +190,8 @@
         "Eksklusive butikker overalt"
       ],
       "correct": 1,
-      "explain": "Konkurransemidlene må tilpasses ressursene."
+      "explain": "Konkurransemidlene må tilpasses ressursene.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -416,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -157,7 +157,8 @@
         "Politiet"
       ],
       "correct": 2,
-      "explain": "Også kommunale næringsfond."
+      "explain": "Også kommunale næringsfond.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -193,7 +194,8 @@
         "Ingen risiko"
       ],
       "correct": 1,
-      "explain": "Ansvaret blir personlig."
+      "explain": "Ansvaret blir personlig.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -430,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

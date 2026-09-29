@@ -414,7 +414,8 @@
         "kriterier": [
           "Forklarer at programmet sjekker om tallene har andre faktorer.",
           "Knytter fravær av andre faktorer til at tallet kan være et primtall."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -429,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

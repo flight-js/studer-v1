@@ -24,7 +24,8 @@
     },
     {
       "term": "Constance Ring",
-      "def": "Skrams roman fra 1885 om en kvinne i et ulykkelig ekteskap."
+      "def": "Skrams roman fra 1885 om en kvinne i et ulykkelig ekteskap.",
+      "niva": "eksempel"
     },
     {
       "term": "Hellemyrsfolket",
@@ -36,7 +37,8 @@
     },
     {
       "term": "Fra Kristiania-Bohêmen",
-      "def": "Jægers roman fra 1885 som ble beslaglagt."
+      "def": "Jægers roman fra 1885 som ble beslaglagt.",
+      "niva": "eksempel"
     },
     {
       "term": "Nyromantikken",
@@ -44,7 +46,8 @@
     },
     {
       "term": "Fra det ubevidste Sjæleliv",
-      "def": "Hamsuns essay fra 1890 om å skildre sjelens bevegelser."
+      "def": "Hamsuns essay fra 1890 om å skildre sjelens bevegelser.",
+      "niva": "eksempel"
     },
     {
       "term": "Sult",
@@ -60,7 +63,8 @@
     },
     {
       "term": "Skrik",
-      "def": "Munchs maleri fra 1893 som uttrykker angst."
+      "def": "Munchs maleri fra 1893 som uttrykker angst.",
+      "niva": "eksempel"
     },
     {
       "term": "Haugtussa",
@@ -106,7 +110,8 @@
         "Den ble aldri utgitt"
       ],
       "correct": 2,
-      "explain": "Jæger ble dømt til fengsel."
+      "explain": "Jæger ble dømt til fengsel.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -142,7 +147,8 @@
         "Religiøs trygghet"
       ],
       "correct": 1,
-      "explain": "Begge fra 1893."
+      "explain": "Begge fra 1893.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -190,7 +196,8 @@
         "2023"
       ],
       "correct": 1,
-      "explain": "Undset fikk den i 1928."
+      "explain": "Undset fikk den i 1928.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -360,7 +367,8 @@
         "kriterier": [
           "Skiller mellom handlingen eller motivet i de to verkene.",
           "Får fram en relevant likhet, for eksempel at begge skildrer menneskers vanskelige livsvilkår."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -420,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

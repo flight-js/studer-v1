@@ -35,7 +35,8 @@
     },
     {
       "term": "Solceller",
-      "def": "Gjør lys direkte om til strøm uten induksjon."
+      "def": "Gjør lys direkte om til strøm uten induksjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Transformator",
@@ -59,15 +60,18 @@
     },
     {
       "term": "Trådløs lading",
-      "def": "Spole i laderen induserer strøm i spole i telefonen."
+      "def": "Spole i laderen induserer strøm i spole i telefonen.",
+      "niva": "eksempel"
     },
     {
       "term": "Regenerativ bremsing",
-      "def": "Elbilens motor fungerer som generator ved bremsing."
+      "def": "Elbilens motor fungerer som generator ved bremsing.",
+      "niva": "eksempel"
     },
     {
       "term": "Virvelstrømsbrems",
-      "def": "Brems uten slitasje basert på induserte strømmer."
+      "def": "Brems uten slitasje basert på induserte strømmer.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +97,8 @@
         "Kjernekraft"
       ],
       "correct": 0,
-      "explain": "Solceller gjør lys direkte om til strøm."
+      "explain": "Solceller gjør lys direkte om til strøm.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -153,7 +158,8 @@
         "At bilen bremser av seg selv"
       ],
       "correct": 2,
-      "explain": "Bevegelsesenergi blir til elektrisk energi."
+      "explain": "Bevegelsesenergi blir til elektrisk energi.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -297,7 +303,8 @@
         "type": "sant-usant",
         "text": "Virvelstrømsbremser slites fort fordi de bruker friksjon.",
         "correct": false,
-        "explain": "De bremser uten slitasje."
+        "explain": "De bremser uten slitasje.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -310,7 +317,8 @@
           "Med batteribytte"
         ],
         "correct": 1,
-        "explain": "Induksjon mellom to spoler."
+        "explain": "Induksjon mellom to spoler.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -323,7 +331,8 @@
           "Lys"
         ],
         "correct": 0,
-        "explain": "Vann kokes med kull, gass eller kjernekraft."
+        "explain": "Vann kokes med kull, gass eller kjernekraft.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -383,7 +392,8 @@
         "kriterier": [
           "Beskriver generatorens omforming fra mekanisk til elektrisk energi ved induksjon.",
           "Beskriver at solceller omformer lys direkte til strøm uten induksjon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -392,7 +402,8 @@
         "kriterier": [
           "Nevner en spole i laderen og en spole i telefonen.",
           "Forklarer at ladespolen induserer strøm i spolen i telefonen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -401,7 +412,8 @@
         "kriterier": [
           "Identifiserer strømmene som virvelstrømmer indusert i metallet.",
           "Knytter registreringen i metalldetektoren til virvelstrømmene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -410,12 +422,14 @@
         "kriterier": [
           "Forklarer at vinden driver rotorbladene i vindkraftverket.",
           "Forklarer at damp driver en turbin i varmekraftverket, og at turbinen driver generatoren."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

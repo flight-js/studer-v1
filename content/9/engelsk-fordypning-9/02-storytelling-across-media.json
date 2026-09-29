@@ -60,7 +60,8 @@
     },
     {
       "term": "Panel and speech bubble",
-      "def": "The frames in a comic and the bubbles that show what characters say."
+      "def": "The frames in a comic and the bubbles that show what characters say.",
+      "niva": "eksempel"
     },
     {
       "term": "Storyboard",
@@ -142,7 +143,8 @@
         "Voice, music and sound effects"
       ],
       "correct": 3,
-      "explain": "Podcasts create pictures in the listener's mind through sound."
+      "explain": "Podcasts create pictures in the listener's mind through sound.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +156,8 @@
         "Because they are for adults only"
       ],
       "correct": 1,
-      "explain": "Viewers scroll quickly past videos that do not grab them."
+      "explain": "Viewers scroll quickly past videos that do not grab them.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +181,8 @@
         "They are always shorter"
       ],
       "correct": 1,
-      "explain": "Interactivity is the special feature of games."
+      "explain": "Interactivity is the special feature of games.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -322,7 +326,8 @@
         "type": "sant-usant",
         "text": "You can freely use any music you find online in your video.",
         "correct": false,
-        "explain": "Most music is protected by copyright."
+        "explain": "Most music is protected by copyright.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -348,7 +353,8 @@
           "Subtitles"
         ],
         "correct": 2,
-        "explain": "Thought bubbles show what characters think."
+        "explain": "Thought bubbles show what characters think.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -390,7 +396,8 @@
         "kriterier": [
           "Names a relevant comic technique, such as panels, speech bubbles or captions.",
           "Names a relevant podcast technique, such as voice, music or sound effects."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -408,7 +415,8 @@
         "kriterier": [
           "Describes a plausible event between the two panels.",
           "Explains that the reader imagines or fills in what is not shown."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -426,7 +434,8 @@
         "kriterier": [
           "Gives a relevant blog feature, such as written text, pictures, links or a personal voice.",
           "Gives a relevant podcast feature, such as voice, music or sound effects."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -441,6 +450,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

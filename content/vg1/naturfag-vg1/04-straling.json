@@ -55,7 +55,8 @@
     },
     {
       "term": "Karbon-14",
-      "def": "Brukes til datering, halveringstid omtrent 5730 år."
+      "def": "Brukes til datering, halveringstid omtrent 5730 år.",
+      "niva": "eksempel"
     },
     {
       "term": "Becquerel (Bq)",
@@ -189,7 +190,8 @@
         "En kommentar på sosiale medier"
       ],
       "correct": 2,
-      "explain": "DSA er fagmyndigheten på området."
+      "explain": "DSA er fagmyndigheten på området.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -302,7 +304,8 @@
         "type": "sant-usant",
         "text": "Karbon-14 kan brukes til å datere gamle organiske materialer.",
         "correct": true,
-        "explain": "Halveringstiden er omtrent 5730 år."
+        "explain": "Halveringstiden er omtrent 5730 år.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -404,7 +407,8 @@
         "kriterier": [
           "Gir et eksempel fra medisinsk bruk, som røntgen, CT eller kreftbehandling.",
           "Forklarer at nytten må vurderes opp mot risikoen ved stråling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -428,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

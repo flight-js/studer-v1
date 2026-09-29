@@ -31,19 +31,23 @@
     },
     {
       "term": "Arne Næss",
-      "def": "Norsk filosof som grunnla dypøkologien."
+      "def": "Norsk filosof som grunnla dypøkologien.",
+      "niva": "eksempel"
     },
     {
       "term": "Dypøkologi",
-      "def": "Alt liv har verdi i seg selv, og mennesket må leve i harmoni med naturen."
+      "def": "Alt liv har verdi i seg selv, og mennesket må leve i harmoni med naturen.",
+      "niva": "eksempel"
     },
     {
       "term": "Peter Singer",
-      "def": "Mente at dyrs evne til å lide gir dem moralsk betydning."
+      "def": "Mente at dyrs evne til å lide gir dem moralsk betydning.",
+      "niva": "eksempel"
     },
     {
       "term": "Artsdiskriminering",
-      "def": "Å behandle dyr dårligere bare fordi de ikke er mennesker."
+      "def": "Å behandle dyr dårligere bare fordi de ikke er mennesker.",
+      "niva": "eksempel"
     },
     {
       "term": "Fosterdiagnostikk",
@@ -55,15 +59,18 @@
     },
     {
       "term": "CRISPR",
-      "def": "Teknologi for genredigering."
+      "def": "Teknologi for genredigering.",
+      "niva": "eksempel"
     },
     {
       "term": "Designerbabyer",
-      "def": "Barn med genetisk valgte egenskaper – etisk omstridt."
+      "def": "Barn med genetisk valgte egenskaper – etisk omstridt.",
+      "niva": "eksempel"
     },
     {
       "term": "Autonome våpen",
-      "def": "Våpen der maskiner tar beslutninger om liv og død."
+      "def": "Våpen der maskiner tar beslutninger om liv og død.",
+      "niva": "eksempel"
     },
     {
       "term": "Føre var-prinsippet",
@@ -105,7 +112,8 @@
         "K.E. Løgstrup"
       ],
       "correct": 2,
-      "explain": "Norsk filosof."
+      "explain": "Norsk filosof.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +125,8 @@
         "Å behandle dyr dårligere bare fordi de ikke er mennesker"
       ],
       "correct": 3,
-      "explain": "Peter Singers begrep."
+      "explain": "Peter Singers begrep.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +150,8 @@
         "En klimaavtale"
       ],
       "correct": 1,
-      "explain": "Kan kanskje kurere arvelige sykdommer."
+      "explain": "Kan kanskje kurere arvelige sykdommer.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +163,8 @@
         "Om de er lovlige å selge"
       ],
       "correct": 2,
-      "explain": "Ansvar og menneskeverd."
+      "explain": "Ansvar og menneskeverd.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +200,8 @@
         "Ingen konflikt"
       ],
       "correct": 1,
-      "explain": "Grønn teknologi har også etiske sider."
+      "explain": "Grønn teknologi har også etiske sider.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -313,7 +325,8 @@
           "Størrelse"
         ],
         "correct": 1,
-        "explain": "Utilitaristisk begrunnelse."
+        "explain": "Utilitaristisk begrunnelse.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +339,8 @@
           "Om de er små"
         ],
         "correct": 0,
-        "explain": "Menneskeverd i omsorg."
+        "explain": "Menneskeverd i omsorg.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -339,7 +353,8 @@
           "Med rikdom"
         ],
         "correct": 2,
-        "explain": "Mennesket er mål i seg selv."
+        "explain": "Mennesket er mål i seg selv.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -359,7 +374,8 @@
         "kriterier": [
           "Knytter kristen begrunnelse til at mennesket er skapt i Guds bilde.",
           "Knytter Kants begrunnelse til fornuft og autonomi."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -368,7 +384,8 @@
         "kriterier": [
           "Får fram at alt liv har egenverdi.",
           "Knytter dette til enklere liv eller harmoni med naturen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -395,7 +412,8 @@
         "kriterier": [
           "Får fram at robotbruk kan påvirke eller erstatte menneskelig kontakt.",
           "Forklarer hvorfor dette er en etisk bekymring i omsorgen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +422,8 @@
         "kriterier": [
           "Viser at konsekvensetikk vurderer resultatene eller følgene.",
           "Viser at pliktetikk vurderer grenser eller plikter, for eksempel respekt for urfolksrettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

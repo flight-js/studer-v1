@@ -51,7 +51,8 @@
     },
     {
       "term": "Panoptikon",
-      "def": "Fengsel der fangene aldri vet om de blir sett."
+      "def": "Fengsel der fangene aldri vet om de blir sett.",
+      "niva": "eksempel"
     },
     {
       "term": "Kulturell kapital",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Mediemakt",
-      "def": "Makten til å sette dagsorden og vinkle saker."
+      "def": "Makten til å sette dagsorden og vinkle saker.",
+      "niva": "eksempel"
     },
     {
       "term": "Sivil ulydighet",
-      "def": "Åpent og ikkevoldelig lovbrudd for å påvirke."
+      "def": "Åpent og ikkevoldelig lovbrudd for å påvirke.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -177,7 +180,8 @@
         "Makten til å kreve skatt"
       ],
       "correct": 0,
-      "explain": "Også plattformenes algoritmer."
+      "explain": "Også plattformenes algoritmer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -342,7 +346,8 @@
           "Labyrinten"
         ],
         "correct": 2,
-        "explain": "Fangene vet aldri om de blir sett."
+        "explain": "Fangene vet aldri om de blir sett.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -389,7 +394,8 @@
         "kriterier": [
           "Knytter selskapet til økonomisk makt.",
           "Knytter fagforeningen til organisasjonsmakt og forklarer at den handler om organisering av interesser."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +404,8 @@
         "kriterier": [
           "Får fram at lovbruddet skjer åpent og ikkevoldelig.",
           "Forklarer at lovbruddet brukes for å påvirke."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +414,8 @@
         "kriterier": [
           "Forklarer at usikkerheten om overvåking kan få fangene til å kontrollere eller tilpasse egen oppførsel.",
           "Knytter situasjonen til panoptikon."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +424,14 @@
         "kriterier": [
           "Forklarer at ulik synlighet kan påvirke hvilke saker folk legger merke til eller diskuterer.",
           "Knytter dette til mediemakt og dagsorden."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

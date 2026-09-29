@@ -39,7 +39,8 @@
     },
     {
       "term": "Særskriving",
-      "def": "Å skrive sammensatte ord i to ord."
+      "def": "Å skrive sammensatte ord i to ord.",
+      "niva": "over-niva"
     },
     {
       "term": "Lavtysk påvirkning",
@@ -59,11 +60,13 @@
     },
     {
       "term": "Multietnolekt",
-      "def": "Språkvariant med trekk fra norsk og andre språk."
+      "def": "Språkvariant med trekk fra norsk og andre språk.",
+      "niva": "eksempel"
     },
     {
       "term": "Språkrådet",
-      "def": "Statens fagorgan for norsk språk."
+      "def": "Statens fagorgan for norsk språk.",
+      "niva": "eksempel"
     },
     {
       "term": "Domenetap",
@@ -165,7 +168,8 @@
         "Å skrive på sidemål"
       ],
       "correct": 0,
-      "explain": "Særskriving kan endre betydningen: «røyk fritt» og «røykfritt»."
+      "explain": "Særskriving kan endre betydningen: «røyk fritt» og «røykfritt».",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -189,7 +193,8 @@
         "-lig i «vennlig»"
       ],
       "correct": 1,
-      "explain": "Også be- og -het kom fra lavtysk."
+      "explain": "Også be- og -het kom fra lavtysk.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -305,7 +310,8 @@
         "type": "sant-usant",
         "text": "Språkrådet foreslår ofte norske erstatningsord for engelske lånord.",
         "correct": true,
-        "explain": "Et eksempel er «strømme» for «streame»."
+        "explain": "Et eksempel er «strømme» for «streame».",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -338,7 +344,8 @@
           "skole"
         ],
         "correct": 0,
-        "explain": "Skrivemåten er fornorsket fra «chauffeur»."
+        "explain": "Skrivemåten er fornorsket fra «chauffeur».",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -351,7 +358,8 @@
           "Takk"
         ],
         "correct": 2,
-        "explain": "Ordet brukes for å forsterke at noe er sant."
+        "explain": "Ordet brukes for å forsterke at noe er sant.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -398,7 +406,8 @@
         "kriterier": [
           "Knytter blanding av trekk fra norsk og andre språk til multietnolekt.",
           "Knytter skifte mellom talemåter etter hvem man snakker med til kodeveksling."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -407,7 +416,8 @@
         "kriterier": [
           "Forklarer at Språkrådet er statens fagorgan for norsk språk og gir språkråd.",
           "Får fram at det ofte foreslår norske erstatningsord for engelske lånord."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -431,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

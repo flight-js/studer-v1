@@ -33,19 +33,23 @@
     },
     {
       "term": "Silent k",
-      "def": "know, knife, knee."
+      "def": "know, knife, knee.",
+      "niva": "eksempel"
     },
     {
       "term": "Silent w",
-      "def": "write, wrong, who."
+      "def": "write, wrong, who.",
+      "niva": "eksempel"
     },
     {
       "term": "Silent b",
-      "def": "climb, doubt, thumb."
+      "def": "climb, doubt, thumb.",
+      "niva": "eksempel"
     },
     {
       "term": "Silent h",
-      "def": "hour, honest, honour."
+      "def": "hour, honest, honour.",
+      "niva": "eksempel"
     },
     {
       "term": "Word stress",
@@ -53,7 +57,8 @@
     },
     {
       "term": "RE-cord / re-CORD",
-      "def": "Noun with stress on the first syllable, verb on the second."
+      "def": "Noun with stress on the first syllable, verb on the second.",
+      "niva": "eksempel"
     },
     {
       "term": "Intonation",
@@ -61,7 +66,8 @@
     },
     {
       "term": "Shadowing",
-      "def": "Repeating what a speaker says right after them, to practise pronunciation."
+      "def": "Repeating what a speaker says right after them, to practise pronunciation.",
+      "niva": "eksempel"
     },
     {
       "term": "Intelligibility",
@@ -69,7 +75,8 @@
     },
     {
       "term": "Minimal pair",
-      "def": "Two words that differ in only one sound: vine – wine, ship – chip."
+      "def": "Two words that differ in only one sound: vine – wine, ship – chip.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -107,7 +114,8 @@
         "van – man"
       ],
       "correct": 0,
-      "explain": "“Vine” and “wine” differ only in the first sound, v or w."
+      "explain": "“Vine” and “wine” differ only in the first sound, v or w.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -191,7 +199,8 @@
         "Translating to Norwegian"
       ],
       "correct": 2,
-      "explain": "Shadowing trains rhythm, stress and intonation by copying a speaker closely."
+      "explain": "Shadowing trains rhythm, stress and intonation by copying a speaker closely.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -434,6 +443,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

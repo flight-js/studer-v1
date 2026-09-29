@@ -51,7 +51,8 @@
     },
     {
       "term": "Frontstage og backstage",
-      "def": "Goffmans bilde på roller vi spiller og når vi slapper av."
+      "def": "Goffmans bilde på roller vi spiller og når vi slapper av.",
+      "niva": "eksempel"
     },
     {
       "term": "Aktørperspektiv",
@@ -129,7 +130,8 @@
         "Pierre Bourdieu"
       ],
       "correct": 0,
-      "explain": "Frontstage og backstage."
+      "explain": "Frontstage og backstage.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -410,12 +412,14 @@
         "kriterier": [
           "Knytter frontstage til rollen eleven viser i klasserommet.",
           "Knytter backstage til at eleven slapper mer av eller viser en annen side sammen med nære venner."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

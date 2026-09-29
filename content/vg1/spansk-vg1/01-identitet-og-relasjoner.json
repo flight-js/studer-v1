@@ -400,7 +400,8 @@
         "kriterier": [
           "Knytter tío/tía til unge i Spania og venner.",
           "Knytter güey til unge i Mexico."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -424,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

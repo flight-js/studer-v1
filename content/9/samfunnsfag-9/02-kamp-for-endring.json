@@ -15,11 +15,13 @@
     },
     {
       "term": "Marcus Thrane",
-      "def": "Samlet husmenn og arbeidere i Norges første arbeiderbevegelse rundt 1850."
+      "def": "Samlet husmenn og arbeidere i Norges første arbeiderbevegelse rundt 1850.",
+      "niva": "eksempel"
     },
     {
       "term": "LO",
-      "def": "Landsorganisasjonen i Norge, paraplyorganisasjon for fagforeninger, stiftet i 1899."
+      "def": "Landsorganisasjonen i Norge, paraplyorganisasjon for fagforeninger, stiftet i 1899.",
+      "niva": "eksempel"
     },
     {
       "term": "Streik",
@@ -27,15 +29,18 @@
     },
     {
       "term": "Åttetimersdagen",
-      "def": "Lovfestet i Norge i 1919 etter krav fra arbeiderbevegelsen."
+      "def": "Lovfestet i Norge i 1919 etter krav fra arbeiderbevegelsen.",
+      "niva": "eksempel"
     },
     {
       "term": "Hovedavtalen",
-      "def": "Avtale fra 1935 om samarbeidet mellom arbeidsgivere og arbeidstakere."
+      "def": "Avtale fra 1935 om samarbeidet mellom arbeidsgivere og arbeidstakere.",
+      "niva": "eksempel"
     },
     {
       "term": "Norsk Kvinnesaksforening",
-      "def": "Stiftet i 1884 for å kjempe for kvinners rettigheter."
+      "def": "Stiftet i 1884 for å kjempe for kvinners rettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvinners stemmerett",
@@ -43,23 +48,28 @@
     },
     {
       "term": "Borgerrettighetsbevegelsen",
-      "def": "Kamp mot raseskille og for like rettigheter i USA på 1950- og 60-tallet."
+      "def": "Kamp mot raseskille og for like rettigheter i USA på 1950- og 60-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Apartheid",
-      "def": "System med raseskille i Sør-Afrika, avviklet tidlig på 1990-tallet."
+      "def": "System med raseskille i Sør-Afrika, avviklet tidlig på 1990-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Nelson Mandela",
-      "def": "Satt 27 år i fengsel og ble Sør-Afrikas første svarte president i 1994."
+      "def": "Satt 27 år i fengsel og ble Sør-Afrikas første svarte president i 1994.",
+      "niva": "eksempel"
     },
     {
       "term": "Alta-saken",
-      "def": "Protester 1979–1981 mot utbyggingen av Altaelva."
+      "def": "Protester 1979–1981 mot utbyggingen av Altaelva.",
+      "niva": "eksempel"
     },
     {
       "term": "Sametinget",
-      "def": "Samenes folkevalgte organ, opprettet i 1989."
+      "def": "Samenes folkevalgte organ, opprettet i 1989.",
+      "niva": "eksempel"
     },
     {
       "term": "Sivil ulydighet",
@@ -93,7 +103,8 @@
         "Nelson Mandela"
       ],
       "correct": 0,
-      "explain": "Thranebevegelsen var Norges første store arbeiderbevegelse."
+      "explain": "Thranebevegelsen var Norges første store arbeiderbevegelse.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +128,8 @@
         "Et system med raseskille i Sør-Afrika"
       ],
       "correct": 3,
-      "explain": "Svarte sørafrikanere ble fratatt politiske rettigheter og holdt adskilt fra hvite."
+      "explain": "Svarte sørafrikanere ble fratatt politiske rettigheter og holdt adskilt fra hvite.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +141,8 @@
         "FN"
       ],
       "correct": 1,
-      "explain": "Alta-saken satte samiske rettigheter på dagsordenen."
+      "explain": "Alta-saken satte samiske rettigheter på dagsordenen.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +154,8 @@
         "Vant Nobels fredspris"
       ],
       "correct": 0,
-      "explain": "Protesten hennes utløste en stor bussboikott i Montgomery."
+      "explain": "Protesten hennes utløste en stor bussboikott i Montgomery.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +179,8 @@
         "Fordi det fantes olje der"
       ],
       "correct": 1,
-      "explain": "Geografiske forhold påvirket hvorfor utbyggingen ble så omstridt."
+      "explain": "Geografiske forhold påvirket hvorfor utbyggingen ble så omstridt.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +204,8 @@
         "En avis"
       ],
       "correct": 2,
-      "explain": "Skolestreiken spredte seg til millioner av unge over hele verden."
+      "explain": "Skolestreiken spredte seg til millioner av unge over hele verden.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -300,28 +316,32 @@
         "type": "sant-usant",
         "text": "Åttetimersdagen ble innført i Norge etter krav fra arbeiderbevegelsen.",
         "correct": true,
-        "explain": "Kravet om åtte timers arbeid, åtte timers fritid og åtte timers søvn var sentralt."
+        "explain": "Kravet om åtte timers arbeid, åtte timers fritid og åtte timers søvn var sentralt.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Nelson Mandela ble Sør-Afrikas første svarte president i 1994.",
         "correct": true,
-        "explain": "Det var etter landets første frie valg der alle kunne stemme."
+        "explain": "Det var etter landets første frie valg der alle kunne stemme.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Alta-utbyggingen ble stoppet etter protestene.",
         "correct": false,
-        "explain": "Kraftverket ble bygd, men saken styrket samiske rettigheter."
+        "explain": "Kraftverket ble bygd, men saken styrket samiske rettigheter.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Norge var det aller første landet i verden som ga kvinner stemmerett.",
         "correct": false,
-        "explain": "New Zealand ga kvinner stemmerett allerede i 1893."
+        "explain": "New Zealand ga kvinner stemmerett allerede i 1893.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -347,7 +367,8 @@
           "Sametinget"
         ],
         "correct": 2,
-        "explain": "Foreningen kjempet for utdanning, eiendomsrett og stemmerett."
+        "explain": "Foreningen kjempet for utdanning, eiendomsrett og stemmerett.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -371,7 +392,8 @@
         "kriterier": [
           "Forklarer at LO er en paraplyorganisasjon.",
           "Knytter LO til fagforeningene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -389,7 +411,8 @@
         "kriterier": [
           "Forklarer at åttetimersdagen handlet om lengden på arbeidsdagen.",
           "Forklarer at Hovedavtalen handlet om samarbeid mellom arbeidsgivere og arbeidstakere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -398,7 +421,8 @@
         "kriterier": [
           "Nevner minst én rettighet eller sak Norsk Kvinnesaksforening kjempet for.",
           "Nevner minst én sak kvinnebevegelsen har arbeidet med senere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -407,7 +431,8 @@
         "kriterier": [
           "Knytter kampen i USA til raseskille og kampen i Sør-Afrika til apartheid.",
           "Nevner en relevant person og knytter personen til riktig kamp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -434,12 +459,14 @@
         "kriterier": [
           "Får fram at utbyggingen ble gjennomført til tross for protestene.",
           "Knytter saken til opprettelsen av Sametinget eller sterkere samiske rettigheter."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

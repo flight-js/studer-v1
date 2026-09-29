@@ -31,11 +31,13 @@
     },
     {
       "term": "Beaivi",
-      "def": "Sola – en viktig guddom i samisk religion."
+      "def": "Sola – en viktig guddom i samisk religion.",
+      "niva": "eksempel"
     },
     {
       "term": "Máttaráhkká",
-      "def": "Kvinnelig guddom som beskyttet fødsler og barn."
+      "def": "Kvinnelig guddom som beskyttet fødsler og barn.",
+      "niva": "eksempel"
     },
     {
       "term": "Noaide",
@@ -51,7 +53,8 @@
     },
     {
       "term": "Thomas von Westen",
-      "def": "Ledet misjonen blant samene på 1700-tallet."
+      "def": "Ledet misjonen blant samene på 1700-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Læstadianismen",
@@ -141,7 +144,8 @@
         "Fordi den var ny teknologi"
       ],
       "correct": 1,
-      "explain": "Den møtte folk på deres språk."
+      "explain": "Den møtte folk på deres språk.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +181,8 @@
         "Tordenen"
       ],
       "correct": 0,
-      "explain": "En viktig guddom."
+      "explain": "En viktig guddom.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -283,14 +288,16 @@
         "type": "sant-usant",
         "text": "Den norske kirke har aldri beklaget sin rolle i fornorskingen.",
         "correct": false,
-        "explain": "Kirken har senere beklaget."
+        "explain": "Kirken har senere beklaget.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Kirken har i dag egne samiske gudstjenester og salmer.",
         "correct": true,
-        "explain": "En del av revitaliseringen."
+        "explain": "En del av revitaliseringen.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -323,7 +330,8 @@
           "Krigere"
         ],
         "correct": 0,
-        "explain": "Kvinnelige guddommer."
+        "explain": "Kvinnelige guddommer.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -374,7 +382,8 @@
         "kriterier": [
           "Knytter Beaivi til sola.",
           "Forklarer Máttaráhkkás rolle som beskytter av fødsler og barn."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -416,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

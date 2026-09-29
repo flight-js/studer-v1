@@ -178,7 +178,8 @@
         "2001"
       ],
       "correct": 0,
-      "explain": "Folketrygden samlet mange trygdeordninger."
+      "explain": "Folketrygden samlet mange trygdeordninger.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -375,7 +376,8 @@
         "kriterier": [
           "Forklarer at koordinerte lønnsoppgjør handler om samordning av lønnsoppgjør.",
           "Forklarer at universelle velferdsordninger gjelder alle."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -434,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

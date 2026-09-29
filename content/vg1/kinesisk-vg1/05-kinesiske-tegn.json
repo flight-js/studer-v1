@@ -17,51 +17,63 @@
     },
     {
       "term": "人 rén",
-      "def": "menneske"
+      "def": "menneske",
+      "niva": "eksempel"
     },
     {
       "term": "山 shān",
-      "def": "fjell"
+      "def": "fjell",
+      "niva": "eksempel"
     },
     {
       "term": "日 rì",
-      "def": "sol, dag"
+      "def": "sol, dag",
+      "niva": "eksempel"
     },
     {
       "term": "月 yuè",
-      "def": "måne, måned"
+      "def": "måne, måned",
+      "niva": "eksempel"
     },
     {
       "term": "木 mù",
-      "def": "tre"
+      "def": "tre",
+      "niva": "eksempel"
     },
     {
       "term": "水 shuǐ",
-      "def": "vann"
+      "def": "vann",
+      "niva": "eksempel"
     },
     {
       "term": "林 lín",
-      "def": "skog (to trær)"
+      "def": "skog (to trær)",
+      "niva": "eksempel"
     },
     {
       "term": "休 xiū",
-      "def": "hvile (person ved et tre)"
+      "def": "hvile (person ved et tre)",
+      "niva": "eksempel"
     },
     {
       "term": "好 hǎo",
-      "def": "god (kvinne + barn)"
+      "def": "god (kvinne + barn)",
+      "niva": "eksempel"
     },
     {
       "term": "明 míng",
-      "def": "lys, klar (sol + måne)"
+      "def": "lys, klar (sol + måne)",
+      "niva": "eksempel"
     },
     {
       "term": "氵",
-      "def": "vann-radikalen, som i 河 og 海"
+      "def": "vann-radikalen, som i 河 og 海",
+      "niva": "eksempel"
     },
     {
       "term": "亻",
-      "def": "menneske-radikalen, som i 你 og 他"
+      "def": "menneske-radikalen, som i 你 og 他",
+      "niva": "eksempel"
     },
     {
       "term": "简体字 jiǎntǐzì",
@@ -83,7 +95,8 @@
         "sol"
       ],
       "correct": 1,
-      "explain": "Tegnet ligner tre fjelltopper."
+      "explain": "Tegnet ligner tre fjelltopper.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -143,7 +156,8 @@
         "sove"
       ],
       "correct": 1,
-      "explain": "En person som lener seg mot et tre."
+      "explain": "En person som lener seg mot et tre.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -191,7 +205,8 @@
         "Fjellenes land"
       ],
       "correct": 1,
-      "explain": "中 = midt, 国 = land."
+      "explain": "中 = midt, 国 = land.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -312,7 +327,8 @@
           "jord"
         ],
         "correct": 1,
-        "explain": "火 huǒ betyr ild."
+        "explain": "火 huǒ betyr ild.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -403,7 +419,8 @@
         "kriterier": [
           "Skiller mellom at noen hundre tegn kan bringe eleven langt og at dette ikke vanligvis er nok til å lese en avis.",
           "Nevner at det trengs noen tusen tegn for å lese en avis."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -418,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

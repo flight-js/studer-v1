@@ -63,7 +63,8 @@
     },
     {
       "term": "Sirkel med parameter",
-      "def": "x = r cos t, y = r sin t"
+      "def": "x = r cos t, y = r sin t",
+      "niva": "eksempel"
     },
     {
       "term": "Kollisjon",
@@ -165,7 +166,8 @@
         "x = r cos t, y = r sin t"
       ],
       "correct": 3,
-      "explain": "cos² t + sin² t = 1."
+      "explain": "cos² t + sin² t = 1.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -416,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

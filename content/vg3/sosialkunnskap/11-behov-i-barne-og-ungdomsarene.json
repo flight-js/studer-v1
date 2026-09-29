@@ -55,15 +55,18 @@
     },
     {
       "term": "Barnetrygd",
-      "def": "Universell ytelse til familier med barn."
+      "def": "Universell ytelse til familier med barn.",
+      "niva": "eksempel"
     },
     {
       "term": "Skolehelsetjenesten",
-      "def": "Helsesykepleier og helsetilbud i skolen."
+      "def": "Helsesykepleier og helsetilbud i skolen.",
+      "niva": "eksempel"
     },
     {
       "term": "PPT",
-      "def": "Pedagogisk-psykologisk tjeneste."
+      "def": "Pedagogisk-psykologisk tjeneste.",
+      "niva": "eksempel"
     },
     {
       "term": "Én trygg voksen",
@@ -117,7 +120,8 @@
         "Barnevernet"
       ],
       "correct": 3,
-      "explain": "Barnets beste."
+      "explain": "Barnets beste.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -189,7 +193,8 @@
         "En eksamen"
       ],
       "correct": 1,
-      "explain": "Lavterskel hjelp."
+      "explain": "Lavterskel hjelp.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -323,7 +328,8 @@
           "Sykepenger"
         ],
         "correct": 0,
-        "explain": "Gir alle barn mulighet til å delta."
+        "explain": "Gir alle barn mulighet til å delta.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -392,7 +398,8 @@
         "kriterier": [
           "Nevner at hjernen, særlig områder for impulskontroll eller planlegging, fortsatt er i utvikling.",
           "Knytter dette til at ungdom fortsatt trenger støtte fra trygge voksne, selv om behovet for selvstendighet øker."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -401,7 +408,8 @@
         "kriterier": [
           "Nevner fritidskort eller tilskudd til fritidsaktiviteter.",
           "Forklarer hvordan deltakelse kan bidra til fellesskap eller tilhørighet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -410,12 +418,14 @@
         "kriterier": [
           "Gir et riktig eksempel på en velferdsordning og hva den kan bidra med.",
           "Skiller dette fra omsorg eller en nær relasjon som dekker behov for eksempelvis tilknytning og trygghet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

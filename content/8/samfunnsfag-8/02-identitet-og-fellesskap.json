@@ -60,7 +60,8 @@
     },
     {
       "term": "Influenser",
-      "def": "Person med mange følgere på sosiale medier som påvirker holdninger og kjøp."
+      "def": "Person med mange følgere på sosiale medier som påvirker holdninger og kjøp.",
+      "niva": "eksempel"
     },
     {
       "term": "Egne grenser",
@@ -403,7 +404,8 @@
         "kriterier": [
           "Forklarer at influensere kan påvirke holdninger eller kjøp.",
           "Knytter idealer for utseende eller livsstil til hvordan reklame forsøker å selge produkter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -427,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

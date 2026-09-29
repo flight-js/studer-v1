@@ -19,7 +19,8 @@
     },
     {
       "term": "e^(−x²)",
-      "def": "Har ingen antiderivert med kjente funksjoner."
+      "def": "Har ingen antiderivert med kjente funksjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Midtpunktmetoden",
@@ -43,15 +44,18 @@
     },
     {
       "term": "Feil i rektangelmetoder",
-      "def": "Omtrent proporsjonal med 1/n."
+      "def": "Omtrent proporsjonal med 1/n.",
+      "niva": "over-niva"
     },
     {
       "term": "Feil i trapes og midtpunkt",
-      "def": "Omtrent proporsjonal med 1/n²."
+      "def": "Omtrent proporsjonal med 1/n².",
+      "niva": "over-niva"
     },
     {
       "term": "Feil i Simpson",
-      "def": "Omtrent proporsjonal med 1/n⁴ for glatte funksjoner."
+      "def": "Omtrent proporsjonal med 1/n⁴ for glatte funksjoner.",
+      "niva": "over-niva"
     },
     {
       "term": "Trapes ved oppoverkrumning",
@@ -129,7 +133,8 @@
         "Den endres ikke"
       ],
       "correct": 0,
-      "explain": "Feilen er omtrent proporsjonal med 1/n²."
+      "explain": "Feilen er omtrent proporsjonal med 1/n².",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -279,14 +284,16 @@
         "type": "sant-usant",
         "text": "Simpsons metode er eksakt for polynomer av grad 3 eller lavere.",
         "correct": true,
-        "explain": "Derfor fikk vi 1/3 eksakt for x²."
+        "explain": "Derfor fikk vi 1/3 eksakt for x².",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Med rektangelmetoder blir feilen omtrent en firedel når n dobles.",
         "correct": false,
-        "explain": "Den blir omtrent halvert."
+        "explain": "Den blir omtrent halvert.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -377,7 +384,8 @@
         "kriterier": [
           "Bruker fjerdepotenssammenhengen når n dobles.",
           "Oppgir at feilen blir omtrent 1/16 så stor."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -419,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -165,7 +165,8 @@
         "Negativt pådriv og avkjøling"
       ],
       "correct": 3,
-      "explain": "De reflekterer sollys."
+      "explain": "De reflekterer sollys.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -293,7 +294,8 @@
         "type": "sant-usant",
         "text": "En slyngete jetstrøm kan låse værtyper fast i lang tid.",
         "correct": true,
-        "explain": "For eksempel langvarig tørke eller regn."
+        "explain": "For eksempel langvarig tørke eller regn.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -413,12 +415,14 @@
         "kriterier": [
           "Forklarer at en sterkt slyngende jetstrøm kan låse værtyper fast.",
           "Får fram at værforholdene da kan vare lenge."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

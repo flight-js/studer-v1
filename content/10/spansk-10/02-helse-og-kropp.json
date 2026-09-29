@@ -76,7 +76,8 @@
     },
     {
       "term": "112",
-      "def": "Nødnummer i Spania og resten av EU"
+      "def": "Nødnummer i Spania og resten av EU",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -174,7 +175,8 @@
         "110"
       ],
       "correct": 1,
-      "explain": "I Mexico ringer man 911."
+      "explain": "I Mexico ringer man 911.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -314,7 +316,8 @@
         "type": "sant-usant",
         "text": "Middelhavskosten står på UNESCOs liste over immateriell kulturarv.",
         "correct": true,
-        "explain": "Den ble tatt inn på listen i 2010."
+        "explain": "Den ble tatt inn på listen i 2010.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -434,12 +437,14 @@
         "kriterier": [
           "Usa correctamente la estructura «Me duele...» con una parte del cuerpo.",
           "Usa correctamente la estructura «Tengo dolor de...» con otra parte del cuerpo."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

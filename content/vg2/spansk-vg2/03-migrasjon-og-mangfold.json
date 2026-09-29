@@ -118,7 +118,8 @@
         "Til Tyskland, Frankrike og Sveits"
       ],
       "correct": 3,
-      "explain": "Spania var fattigere enn Nord-Europa da."
+      "explain": "Spania var fattigere enn Nord-Europa da.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -327,7 +328,8 @@
           "Falklandsøyene"
         ],
         "correct": 0,
-        "explain": "Kanariøyene tilhører Spania."
+        "explain": "Kanariøyene tilhører Spania.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -369,7 +371,8 @@
         "kriterier": [
           "Identifica las Islas Canarias como destino.",
           "Identifica el sur de España como destino."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -378,7 +381,8 @@
         "kriterier": [
           "Relaciona la emigración de los años sesenta con el trabajo y menciona destinos como Alemania, Francia o Suiza.",
           "Relaciona la emigración de jóvenes después de 2008 con el desempleo."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -396,7 +400,8 @@
         "kriterier": [
           "Explica que ser bilingüe implica hablar dos idiomas.",
           "Menciona la influencia de la música, la comida o la cultura latinoamericanas en Estados Unidos."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -420,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

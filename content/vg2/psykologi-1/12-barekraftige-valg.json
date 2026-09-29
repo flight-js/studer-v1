@@ -19,7 +19,8 @@
     },
     {
       "term": "Leon Festinger",
-      "def": "Utviklet teorien om kognitiv dissonans."
+      "def": "Utviklet teorien om kognitiv dissonans.",
+      "niva": "eksempel"
     },
     {
       "term": "Psykologisk distanse",
@@ -27,7 +28,8 @@
     },
     {
       "term": "Nåtidsskjevhet",
-      "def": "Å legge mer vekt på fordeler nå enn kostnader i framtiden."
+      "def": "Å legge mer vekt på fordeler nå enn kostnader i framtiden.",
+      "niva": "eksempel"
     },
     {
       "term": "Ansvarspulverisering",
@@ -35,7 +37,8 @@
     },
     {
       "term": "Klimabekymring",
-      "def": "Moderat bekymring kan gi handling, sterk angst kan gi passivitet."
+      "def": "Moderat bekymring kan gi handling, sterk angst kan gi passivitet.",
+      "niva": "eksempel"
     },
     {
       "term": "Sosiale normer",
@@ -43,7 +46,8 @@
     },
     {
       "term": "Hotellforsøket",
-      "def": "Flere gjenbrukte håndklær når de fikk vite at de fleste andre gjorde det."
+      "def": "Flere gjenbrukte håndklær når de fikk vite at de fleste andre gjorde det.",
+      "niva": "eksempel"
     },
     {
       "term": "Konformitet",
@@ -55,7 +59,8 @@
     },
     {
       "term": "Allmenningens tragedie",
-      "def": "Felles ressurser overbrukes når hver enkelt tjener på å ta mer."
+      "def": "Felles ressurser overbrukes når hver enkelt tjener på å ta mer.",
+      "niva": "eksempel"
     },
     {
       "term": "Dulting",
@@ -67,7 +72,8 @@
     },
     {
       "term": "Lett, attraktivt, sosialt, tidsnært",
-      "def": "Huskeregel for å fremme ønsket atferd."
+      "def": "Huskeregel for å fremme ønsket atferd.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +135,8 @@
         "At pris er det eneste som teller"
       ],
       "correct": 0,
-      "explain": "Beskjeden om at de fleste gjorde det, virket best."
+      "explain": "Beskjeden om at de fleste gjorde det, virket best.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -165,7 +172,8 @@
         "Håpløshet og passivitet"
       ],
       "correct": 3,
-      "explain": "Moderat bekymring gir oftere handling."
+      "explain": "Moderat bekymring gir oftere handling.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +185,8 @@
         "Å følge med i nyhetene"
       ],
       "correct": 0,
-      "explain": "En billig ferie nå veier tyngre enn klimaeffekten."
+      "explain": "En billig ferie nå veier tyngre enn klimaeffekten.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -316,7 +325,8 @@
           "At staten eier alt"
         ],
         "correct": 1,
-        "explain": "Et kollektivt handlingsproblem."
+        "explain": "Et kollektivt handlingsproblem.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -353,7 +363,8 @@
         "kriterier": [
           "Forklarer at små tiltak kan bli overvurdert, mens reiser eller matvaner kan bli undervurdert.",
           "Knytter kunnskap om effekt til muligheten for å ta mer bærekraftige valg."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -371,7 +382,8 @@
         "kriterier": [
           "Knytter psykologisk distanse til opplevelsen av at klimaendringene er langt unna.",
           "Knytter nåtidsskjevhet til at fordelen nå veier tyngre enn framtidige kostnader."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -398,7 +410,8 @@
         "kriterier": [
           "Forklarer at enkeltpersoner kan tjene på å ta mer av en felles ressurs.",
           "Forklarer at summen av valgene kan føre til at ressursen overbrukes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

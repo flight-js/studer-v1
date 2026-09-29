@@ -21,7 +21,8 @@
     },
     {
       "term": "Spaced repetition",
-      "def": "Repeating words with longer and longer gaps: after a day, a few days, a week."
+      "def": "Repeating words with longer and longer gaps: after a day, a few days, a week.",
+      "niva": "eksempel"
     },
     {
       "term": "Active vocabulary",
@@ -57,15 +58,18 @@
     },
     {
       "term": "It's raining cats and dogs",
-      "def": "It is raining heavily."
+      "def": "It is raining heavily.",
+      "niva": "eksempel"
     },
     {
       "term": "Piece of cake",
-      "def": "Something very easy."
+      "def": "Something very easy.",
+      "niva": "eksempel"
     },
     {
       "term": "Break a leg",
-      "def": "Good luck (often said before a performance)."
+      "def": "Good luck (often said before a performance).",
+      "niva": "eksempel"
     },
     {
       "term": "Overused words",
@@ -95,7 +99,8 @@
         "Learning only new words"
       ],
       "correct": 0,
-      "explain": "Repeating words just before you forget them helps them stay in your long-term memory."
+      "explain": "Repeating words just before you forget them helps them stay in your long-term memory.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -119,7 +124,8 @@
         "Something very easy"
       ],
       "correct": 3,
-      "explain": "“The test was a piece of cake” means the test was very easy."
+      "explain": "“The test was a piece of cake” means the test was very easy.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -167,7 +173,8 @@
         "It has stopped raining"
       ],
       "correct": 1,
-      "explain": "This idiom means that it is raining very hard."
+      "explain": "This idiom means that it is raining very hard.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -327,7 +334,8 @@
           "Hurry up"
         ],
         "correct": 1,
-        "explain": "“Break a leg” is said to wish someone good luck, especially before a performance."
+        "explain": "“Break a leg” is said to wish someone good luck, especially before a performance.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -391,7 +399,8 @@
         "kriterier": [
           "Includes reviews after a day, a few days and a week.",
           "Shows that the gaps between reviews become longer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -416,7 +425,8 @@
         "kriterier": [
           "Uses “Break a leg” in the situation.",
           "Explains that the expression means good luck."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -431,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

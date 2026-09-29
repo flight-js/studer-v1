@@ -68,7 +68,8 @@
     },
     {
       "term": "Faren ved én enkelt historie",
-      "def": "Adichies advarsel om at én fortelling om en gruppe gir et forenklet bilde."
+      "def": "Adichies advarsel om at én fortelling om en gruppe gir et forenklet bilde.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -154,7 +155,8 @@
         "Kulturrelativisme"
       ],
       "correct": 2,
-      "explain": "Minoritetene skulle gi opp språk og kultur og bli «norske»."
+      "explain": "Minoritetene skulle gi opp språk og kultur og bli «norske».",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +180,8 @@
         "At alle historier er løgn"
       ],
       "correct": 0,
-      "explain": "Flere fortellinger gir et mer sammensatt og riktig bilde."
+      "explain": "Flere fortellinger gir et mer sammensatt og riktig bilde.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +193,8 @@
         "At man ikke reiser"
       ],
       "correct": 1,
-      "explain": "Menneskerettighetene gjelder alle, uansett kultur."
+      "explain": "Menneskerettighetene gjelder alle, uansett kultur.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -302,14 +306,16 @@
         "type": "sant-usant",
         "text": "Omtrent én av fem innbyggere i Norge er innvandrer eller født i Norge med innvandrerforeldre.",
         "correct": true,
-        "explain": "Andelen har økt mye siden 1970-tallet."
+        "explain": "Andelen har økt mye siden 1970-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "Nazistisk propaganda framstilte jøder negativt for å skape støtte til forfølgelsen.",
         "correct": true,
-        "explain": "Propagandaen avhumaniserte jøder og gjorde forfølgelsen lettere å godta."
+        "explain": "Propagandaen avhumaniserte jøder og gjorde forfølgelsen lettere å godta.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -402,7 +408,8 @@
         "kriterier": [
           "Forklarer at framstillingen kunne påvirke holdninger ved å framstille jøder negativt eller som farlige.",
           "Knytter propagandaen til at den bidro til Holocaust."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -435,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

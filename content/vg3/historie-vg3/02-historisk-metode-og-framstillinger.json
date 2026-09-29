@@ -52,11 +52,13 @@
     },
     {
       "term": "Nasjonal historieskrivning",
-      "def": "Historie skrevet for å styrke nasjonal identitet."
+      "def": "Historie skrevet for å styrke nasjonal identitet.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnlovens paragraf 2",
-      "def": "Stengte jøder ute fra riket i 1814."
+      "def": "Stengte jøder ute fra riket i 1814.",
+      "niva": "eksempel"
     },
     {
       "term": "Materielle kilder",
@@ -130,7 +132,8 @@
         "Som en svensk seier"
       ],
       "correct": 0,
-      "explain": "Senere historikere har nyansert bildet."
+      "explain": "Senere historikere har nyansert bildet.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -142,7 +145,8 @@
         "En handelsreise"
       ],
       "correct": 1,
-      "explain": "Urfolkenes perspektiv er annerledes."
+      "explain": "Urfolkenes perspektiv er annerledes.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -190,7 +194,8 @@
         "De fikk egne skoler"
       ],
       "correct": 1,
-      "explain": "Paragraf 2."
+      "explain": "Paragraf 2.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -420,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

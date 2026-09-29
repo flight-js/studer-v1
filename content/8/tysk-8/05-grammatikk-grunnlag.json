@@ -71,7 +71,8 @@
     },
     {
       "term": "-chen",
-      "def": "Ord med denne endingen er intetkjønn: das Mädchen"
+      "def": "Ord med denne endingen er intetkjønn: das Mädchen",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -133,7 +134,8 @@
         "ein"
       ],
       "correct": 1,
-      "explain": "Alle ord på -chen er intetkjønn, også «das Mädchen» (jenta)."
+      "explain": "Alle ord på -chen er intetkjønn, også «das Mädchen» (jenta).",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -157,7 +159,8 @@
         "Ich habe kein Hund nicht."
       ],
       "correct": 0,
-      "explain": "«kein» nekter substantiver og får samme ending som «ein»."
+      "explain": "«kein» nekter substantiver og får samme ending som «ein».",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -306,7 +309,8 @@
         "type": "sant-usant",
         "text": "Ord som ender på «-ung», er som regel hunkjønn.",
         "correct": true,
-        "explain": "For eksempel «die Zeitung» (avisen)."
+        "explain": "For eksempel «die Zeitung» (avisen).",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -326,7 +330,8 @@
           "das Bücher"
         ],
         "correct": 1,
-        "explain": "Flertall får omlyd og endingen -er."
+        "explain": "Flertall får omlyd og endingen -er.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -408,7 +413,8 @@
         "kriterier": [
           "Skriver alle tre flertallsformene riktig.",
           "Forklarer at flertall lages på flere måter, ikke med én fast form."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -432,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

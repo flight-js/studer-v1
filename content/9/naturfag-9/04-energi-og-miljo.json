@@ -36,7 +36,8 @@
     },
     {
       "term": "Sur nedbør",
-      "def": "Nedbør gjort sur av svovel- og nitrogenforbindelser fra forbrenning."
+      "def": "Nedbør gjort sur av svovel- og nitrogenforbindelser fra forbrenning.",
+      "niva": "eksempel"
     },
     {
       "term": "Vindkraft – ulemper",
@@ -44,7 +45,8 @@
     },
     {
       "term": "Kjernekraft",
-      "def": "Gir lite CO₂, men radioaktivt avfall som må lagres i svært lang tid."
+      "def": "Gir lite CO₂, men radioaktivt avfall som må lagres i svært lang tid.",
+      "niva": "eksempel"
     },
     {
       "term": "Bioenergi",
@@ -60,11 +62,13 @@
     },
     {
       "term": "Elbil",
-      "def": "Har høyere virkningsgrad enn bensinbil og ingen utslipp fra eksosrør."
+      "def": "Har høyere virkningsgrad enn bensinbil og ingen utslipp fra eksosrør.",
+      "niva": "eksempel"
     },
     {
       "term": "Hydrogen",
-      "def": "Mulig energibærer for tungtransport og industri i framtida."
+      "def": "Mulig energibærer for tungtransport og industri i framtida.",
+      "niva": "eksempel"
     },
     {
       "term": "Ingen energikilde uten kostnad",
@@ -130,7 +134,8 @@
         "Den gir sur nedbør"
       ],
       "correct": 2,
-      "explain": "Kjernekraft gir lite CO₂, men avfallet er farlig i tusenvis av år."
+      "explain": "Kjernekraft gir lite CO₂, men avfallet er farlig i tusenvis av år.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -178,7 +183,8 @@
         "Solcellepaneler"
       ],
       "correct": 1,
-      "explain": "Utslipp fra forbrenning av kull og olje kan gjøre nedbøren sur."
+      "explain": "Utslipp fra forbrenning av kull og olje kan gjøre nedbøren sur.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -298,7 +304,8 @@
         "type": "sant-usant",
         "text": "Elbiler har høyere virkningsgrad enn bensinbiler.",
         "correct": true,
-        "explain": "Elmotorer utnytter en mye større del av energien enn forbrenningsmotorer."
+        "explain": "Elmotorer utnytter en mye større del av energien enn forbrenningsmotorer.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -344,7 +351,8 @@
           "Solenergi"
         ],
         "correct": 2,
-        "explain": "Jordvarme henter varme fra grunnen, ofte med varmepumpe."
+        "explain": "Jordvarme henter varme fra grunnen, ofte med varmepumpe.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -382,7 +390,8 @@
         "kriterier": [
           "Forklarer at elbiler har høyere virkningsgrad enn bensinbiler.",
           "Nevner at elbiler ikke har utslipp fra eksosrøret."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -391,7 +400,8 @@
         "kriterier": [
           "Knytter bioenergi fra ved til hogst av skog.",
           "Forklarer at hogst kan bli en miljøulempe dersom den ikke er bærekraftig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -400,7 +410,8 @@
         "kriterier": [
           "Nevner to relevante løsninger, som mer strøm fra sol og vind, bedre energilagring eller smartere strømnett.",
           "Nevner tungtransport eller industri som mulig bruksområde for hydrogen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -424,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

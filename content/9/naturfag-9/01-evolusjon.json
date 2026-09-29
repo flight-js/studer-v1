@@ -20,15 +20,18 @@
     },
     {
       "term": "Alfred Russel Wallace",
-      "def": "Kom uavhengig av Darwin fram til teorien om naturlig utvalg."
+      "def": "Kom uavhengig av Darwin fram til teorien om naturlig utvalg.",
+      "niva": "eksempel"
     },
     {
       "term": "Lamarck",
-      "def": "Mente at egenskaper man skaffer seg i livet, arves. Det stemmer ikke."
+      "def": "Mente at egenskaper man skaffer seg i livet, arves. Det stemmer ikke.",
+      "niva": "eksempel"
     },
     {
       "term": "Galápagosfinkene",
-      "def": "Finker med ulike nebb på ulike øyer, tilpasset ulik mat."
+      "def": "Finker med ulike nebb på ulike øyer, tilpasset ulik mat.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturlig utvalg",
@@ -64,11 +67,13 @@
     },
     {
       "term": "Homologe organer",
-      "def": "Organer med samme grunnstruktur hos ulike arter, som arm, vinge og luffe."
+      "def": "Organer med samme grunnstruktur hos ulike arter, som arm, vinge og luffe.",
+      "niva": "over-niva"
     },
     {
       "term": "Antibiotikaresistens",
-      "def": "Bakterier som tåler antibiotika. Et eksempel på evolusjon i dag."
+      "def": "Bakterier som tåler antibiotika. Et eksempel på evolusjon i dag.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -94,7 +99,8 @@
         "Et dukkehjem"
       ],
       "correct": 0,
-      "explain": "I Artenes opprinnelse presenterte Darwin teorien om naturlig utvalg."
+      "explain": "I Artenes opprinnelse presenterte Darwin teorien om naturlig utvalg.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +112,8 @@
         "At de levde i vann"
       ],
       "correct": 2,
-      "explain": "Nebbformene passet til maten på hver øy, noe som tydet på tilpasning."
+      "explain": "Nebbformene passet til maten på hver øy, noe som tydet på tilpasning.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -130,7 +137,8 @@
         "At jorda er gammel"
       ],
       "correct": 1,
-      "explain": "En som trener muskler, får ikke barn med større muskler. Tillærte egenskaper arves ikke."
+      "explain": "En som trener muskler, får ikke barn med større muskler. Tillærte egenskaper arves ikke.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -154,7 +162,8 @@
         "Organer som ikke lenger brukes"
       ],
       "correct": 2,
-      "explain": "Arm, vinge og luffe har samme benstruktur, noe som tyder på felles opphav."
+      "explain": "Arm, vinge og luffe har samme benstruktur, noe som tyder på felles opphav.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -178,7 +187,8 @@
         "At fjell eroderer"
       ],
       "correct": 1,
-      "explain": "Bakterier som tåler antibiotika, overlever og formerer seg, slik at resistensen sprer seg."
+      "explain": "Bakterier som tåler antibiotika, overlever og formerer seg, slik at resistensen sprer seg.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +200,8 @@
         "Alfred Wegener"
       ],
       "correct": 0,
-      "explain": "Wallace sendte Darwin et manuskript med de samme ideene, og de presenterte arbeidene sine sammen i 1858."
+      "explain": "Wallace sendte Darwin et manuskript med de samme ideene, og de presenterte arbeidene sine sammen i 1858.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -298,7 +309,8 @@
         "type": "sant-usant",
         "text": "Darwin visste ikke hvordan egenskaper ble arvet.",
         "correct": true,
-        "explain": "Genetikken var ukjent for Darwin. Kunnskap om gener og DNA kom senere."
+        "explain": "Genetikken var ukjent for Darwin. Kunnskap om gener og DNA kom senere.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -362,7 +374,8 @@
         "kriterier": [
           "Beskriver Darwins forklaring med naturlig utvalg.",
           "Får fram at Wallace kom uavhengig fram til de samme ideene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -389,7 +402,8 @@
         "kriterier": [
           "Forklarer at Lamarck mente at egenskaper man skaffer seg i livet, arves.",
           "Får fram at egenskaper styres av gener i DNA, og at Lamarcks idé var feil."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -407,7 +421,8 @@
         "kriterier": [
           "Kaller organene homologe.",
           "Får fram at de har samme grunnleggende struktur hos ulike arter."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -431,6 +446,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

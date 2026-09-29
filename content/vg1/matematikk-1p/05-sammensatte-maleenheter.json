@@ -43,7 +43,8 @@
     },
     {
       "term": "Tettheten til vann",
-      "def": "Omtrent 1 g/cm³ = 1 kg/L."
+      "def": "Omtrent 1 g/cm³ = 1 kg/L.",
+      "niva": "eksempel"
     },
     {
       "term": "Enhetspris",
@@ -282,7 +283,8 @@
         "type": "sant-usant",
         "text": "1 liter vann har en masse på omtrent 1 kg.",
         "correct": true,
-        "explain": "Tettheten til vann er omtrent 1 kg/L."
+        "explain": "Tettheten til vann er omtrent 1 kg/L.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

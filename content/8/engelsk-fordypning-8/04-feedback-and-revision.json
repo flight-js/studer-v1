@@ -27,7 +27,8 @@
     },
     {
       "term": "Two stars and a wish",
-      "def": "Feedback with two positive comments and one suggestion."
+      "def": "Feedback with two positive comments and one suggestion.",
+      "niva": "eksempel"
     },
     {
       "term": "Revising",
@@ -117,7 +118,8 @@
         "A way to start an essay"
       ],
       "correct": 2,
-      "explain": "The method keeps feedback both kind and useful."
+      "explain": "The method keeps feedback both kind and useful.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -189,7 +191,8 @@
         "That school rules don't apply"
       ],
       "correct": 1,
-      "explain": "You are responsible for your own text."
+      "explain": "You are responsible for your own text.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -437,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

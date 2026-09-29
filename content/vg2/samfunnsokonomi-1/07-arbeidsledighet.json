@@ -416,12 +416,14 @@
         "kriterier": [
           "Forklarer hvordan tilskuddet kan gjøre ansettelse lettere og hjelpe en langtidsledig inn i arbeid.",
           "Får fram at personen kan ha blitt ansatt selv uten tilskuddet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

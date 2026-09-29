@@ -15,7 +15,8 @@
     },
     {
       "term": "Raphael Lemkin",
-      "def": "Jurist som laget ordet folkemord."
+      "def": "Jurist som laget ordet folkemord.",
+      "niva": "eksempel"
     },
     {
       "term": "Folkemordkonvensjonen",
@@ -47,7 +48,8 @@
     },
     {
       "term": "Donau",
-      "def": "Skipet som fraktet over 500 jøder fra Oslo 26. november 1942."
+      "def": "Skipet som fraktet over 500 jøder fra Oslo 26. november 1942.",
+      "niva": "eksempel"
     },
     {
       "term": "Gulag",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Holodomor",
-      "def": "Hungersnøden i Ukraina 1932–33."
+      "def": "Hungersnøden i Ukraina 1932–33.",
+      "niva": "eksempel"
     },
     {
       "term": "Dehumanisering",
@@ -63,7 +66,8 @@
     },
     {
       "term": "Ondskapens banalitet",
-      "def": "Arendts begrep om vanlige mennesker som deltar i ondskap."
+      "def": "Arendts begrep om vanlige mennesker som deltar i ondskap.",
+      "niva": "eksempel"
     },
     {
       "term": "Terror",
@@ -71,7 +75,8 @@
     },
     {
       "term": "Den internasjonale straffedomstolen",
-      "def": "Domstol som kan straffe folkemord og krigsforbrytelser."
+      "def": "Domstol som kan straffe folkemord og krigsforbrytelser.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -133,7 +138,8 @@
         "En motstandsgruppe"
       ],
       "correct": 0,
-      "explain": "Norske politifolk deltok i arrestasjonene."
+      "explain": "Norske politifolk deltok i arrestasjonene.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -169,7 +175,8 @@
         "At vanlige mennesker kan delta i ondskap ved å følge ordre"
       ],
       "correct": 3,
-      "explain": "Etter Eichmann-rettssaken."
+      "explain": "Etter Eichmann-rettssaken.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -181,7 +188,8 @@
         "En krigserklæring"
       ],
       "correct": 0,
-      "explain": "I Regjeringskvartalet og på Utøya."
+      "explain": "I Regjeringskvartalet og på Utøya.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -296,7 +304,8 @@
         "type": "sant-usant",
         "text": "Norske myndigheter og politi hadde ingen rolle i deportasjonen av jøder.",
         "correct": false,
-        "explain": "Norske politifolk deltok i arrestasjonene."
+        "explain": "Norske politifolk deltok i arrestasjonene.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -349,7 +358,8 @@
           "En fredsavtale"
         ],
         "correct": 2,
-        "explain": "Under Stalins styre."
+        "explain": "Under Stalins styre.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -378,7 +388,8 @@
         "kriterier": [
           "Beskriver Gulag som et system av arbeidsleirer.",
           "Beskriver Holodomor som hungersnøden i Ukraina i 1932–33 og får fram forskjellen mellom leirer og hungersnød."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -414,7 +425,8 @@
         "kriterier": [
           "Forklarer at Lemkin laget ordet folkemord.",
           "Forklarer at FN vedtok konvensjonen i 1948, som definerer folkemord eller er rettet mot folkemord."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -429,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

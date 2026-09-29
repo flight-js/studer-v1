@@ -27,7 +27,8 @@
     },
     {
       "term": "Sannhets- og forsoningskommisjonen",
-      "def": "La fram rapport om fornorskingen i 2023."
+      "def": "La fram rapport om fornorskingen i 2023.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven § 108",
@@ -39,7 +40,8 @@
     },
     {
       "term": "Samemanntallet",
-      "def": "Registeret man må stå i for å stemme ved sametingsvalg."
+      "def": "Registeret man må stå i for å stemme ved sametingsvalg.",
+      "niva": "eksempel"
     },
     {
       "term": "ILO-konvensjon 169",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Finnmarkseiendommen",
-      "def": "Eier det meste av grunnen i Finnmark."
+      "def": "Eier det meste av grunnen i Finnmark.",
+      "niva": "eksempel"
     },
     {
       "term": "Konsultasjonsplikt",
@@ -117,7 +120,8 @@
         "Norge"
       ],
       "correct": 3,
-      "explain": "I 1990."
+      "explain": "I 1990.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -153,7 +157,8 @@
         "Inuitter på Grønland"
       ],
       "correct": 2,
-      "explain": "Også skogfinner, jøder, rom og romanifolk/tatere."
+      "explain": "Også skogfinner, jøder, rom og romanifolk/tatere.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +182,8 @@
         "Eie reinsdyr"
       ],
       "correct": 0,
-      "explain": "Manntallet har egne kriterier."
+      "explain": "Manntallet har egne kriterier.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -279,14 +285,16 @@
         "type": "sant-usant",
         "text": "Sametingsvalg holdes samtidig med stortingsvalget.",
         "correct": true,
-        "explain": "Hvert fjerde år."
+        "explain": "Hvert fjerde år.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "FNs urfolkserklæring er juridisk bindende for Norge.",
         "correct": false,
-        "explain": "Den er ikke bindende, men har politisk vekt."
+        "explain": "Den er ikke bindende, men har politisk vekt.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -300,7 +308,8 @@
         "type": "sant-usant",
         "text": "Fosen-turbinene ble revet dagen etter dommen.",
         "correct": false,
-        "explain": "De ble stående lenge, noe som førte til protester."
+        "explain": "De ble stående lenge, noe som førte til protester.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -313,7 +322,8 @@
           "Gir vindkraftkonsesjoner"
         ],
         "correct": 1,
-        "explain": "Etter Finnmarksloven."
+        "explain": "Etter Finnmarksloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -339,7 +349,8 @@
           "Opplæringsloven"
         ],
         "correct": 2,
-        "explain": "Med forrang ved motstrid."
+        "explain": "Med forrang ved motstrid.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -359,7 +370,8 @@
         "kriterier": [
           "Beskriver en konkret virkning eller et tiltak, for eksempel at samisk ble fortrengt i skolen eller at jordkjøp krevde norskkunnskaper.",
           "Knytter eksempelet til statens fornorskingspolitikk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -377,7 +389,8 @@
         "kriterier": [
           "Får fram at ILO-konvensjonen gir rettigheter, blant annet knyttet til konsultasjoner eller land og ressurser.",
           "Får fram at urfolkserklæringen ikke er bindende, men har stor politisk vekt."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s05",
@@ -395,7 +408,8 @@
         "kriterier": [
           "Forklarer at Finnmarkskommisjonen kartlegger bruks- og eierrettigheter.",
           "Forklarer at Utmarksdomstolen avgjør tvister."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

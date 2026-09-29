@@ -31,7 +31,8 @@
     },
     {
       "term": "Venstreekstremisme",
-      "def": "Voldelig ekstremisme rettet mot kapitalisme og det man ser som undertrykkende stater."
+      "def": "Voldelig ekstremisme rettet mot kapitalisme og det man ser som undertrykkende stater.",
+      "niva": "eksempel"
     },
     {
       "term": "11. september 2001",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Konspirasjonsteori",
-      "def": "Forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis."
+      "def": "Forestilling om at hemmelige grupper i skjul styrer hendelser, uten godt bevis.",
+      "niva": "eksempel"
     },
     {
       "term": "Utenforskap",
@@ -51,11 +53,13 @@
     },
     {
       "term": "Ekkokammer",
-      "def": "Miljø der man mest møter meninger som bekrefter ens egne."
+      "def": "Miljø der man mest møter meninger som bekrefter ens egne.",
+      "niva": "eksempel"
     },
     {
       "term": "PST",
-      "def": "Politiets sikkerhetstjeneste, som blant annet skal avdekke og forebygge terror."
+      "def": "Politiets sikkerhetstjeneste, som blant annet skal avdekke og forebygge terror.",
+      "niva": "eksempel"
     },
     {
       "term": "Propaganda",
@@ -129,7 +133,8 @@
         "Det kan det ikke"
       ],
       "correct": 0,
-      "explain": "Ekstreme miljøer på nett kan gi fellesskap og normalisere voldelige ideer."
+      "explain": "Ekstreme miljøer på nett kan gi fellesskap og normalisere voldelige ideer.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -189,7 +194,8 @@
         "PST"
       ],
       "correct": 3,
-      "explain": "Politiets sikkerhetstjeneste jobber med å forebygge og avdekke terror."
+      "explain": "Politiets sikkerhetstjeneste jobber med å forebygge og avdekke terror.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -308,7 +314,8 @@
         "type": "sant-usant",
         "text": "Etter 22. juli samlet mange seg i rosetog for å vise samhold.",
         "correct": true,
-        "explain": "Rosetogene ble et symbol på svaret mot terroren."
+        "explain": "Rosetogene ble et symbol på svaret mot terroren.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -328,7 +335,8 @@
           "En lov"
         ],
         "correct": 1,
-        "explain": "Konspirasjonsteorier brukes ofte til å skape fiendebilder."
+        "explain": "Konspirasjonsteorier brukes ofte til å skape fiendebilder.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -354,7 +362,8 @@
           "London"
         ],
         "correct": 2,
-        "explain": "Angrepet i Christchurch på New Zealand ble utført av en høyreekstremist."
+        "explain": "Angrepet i Christchurch på New Zealand ble utført av en høyreekstremist.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -365,7 +374,8 @@
         "kriterier": [
           "Identifiserer det som separatistisk terror.",
           "Forklarer at målet er å skille ut et område som egen stat."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -392,7 +402,8 @@
         "kriterier": [
           "Identifiserer miljøet som et ekkokammer.",
           "Forklarer at ensidige, bekreftende meninger kan forsterke budskap eller holdninger."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -401,7 +412,8 @@
         "kriterier": [
           "Forklarer at propaganda er ensidig informasjon ment å påvirke.",
           "Forklarer at en konspirasjonsteori handler om hemmelig styring uten godt bevis."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -427,12 +439,14 @@
         "kriterier": [
           "Forklarer at rosetogene viste samhold.",
           "Knytter reaksjonen til støtte for demokratiet eller motstand mot at terroren skulle splitte samfunnet."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

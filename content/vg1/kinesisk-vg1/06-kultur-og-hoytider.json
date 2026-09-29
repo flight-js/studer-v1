@@ -20,7 +20,8 @@
     },
     {
       "term": "上海 Shànghǎi",
-      "def": "Shanghai – den største byen"
+      "def": "Shanghai – den største byen",
+      "niva": "eksempel"
     },
     {
       "term": "长城 Chángchéng",
@@ -68,7 +69,8 @@
     },
     {
       "term": "京剧 jīngjù",
-      "def": "Beijing-opera"
+      "def": "Beijing-opera",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -154,7 +156,8 @@
         "Fordi det er for høflig"
       ],
       "correct": 2,
-      "explain": "Det forbindes med død."
+      "explain": "Det forbindes med død.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +181,8 @@
         "Ganges"
       ],
       "correct": 0,
-      "explain": "Chang Jiang renner gjennom Kina."
+      "explain": "Chang Jiang renner gjennom Kina.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -292,7 +296,8 @@
         "type": "sant-usant",
         "text": "Kina har rundt 1,4 milliarder innbyggere.",
         "correct": true,
-        "explain": "Kina er et av verdens mest folkerike land."
+        "explain": "Kina er et av verdens mest folkerike land.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -313,7 +318,8 @@
         "type": "sant-usant",
         "text": "Mandarin snakkes bare i Kina.",
         "correct": false,
-        "explain": "Mandarin snakkes også i Taiwan og Singapore."
+        "explain": "Mandarin snakkes også i Taiwan og Singapore.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -408,7 +414,8 @@
         "kriterier": [
           "Identifiserer kunstformen som Beijing-opera.",
           "Nevner relevante kjennetegn, som sang, akrobatikk eller fargerike masker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -432,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

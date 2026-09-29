@@ -23,7 +23,8 @@
     },
     {
       "term": "Simpsons indeks",
-      "def": "En mangfoldsindeks."
+      "def": "En mangfoldsindeks.",
+      "niva": "eksempel"
     },
     {
       "term": "Ruteanalyse",
@@ -39,7 +40,8 @@
     },
     {
       "term": "Fallfelle",
-      "def": "Felle som fanger smådyr på bakken."
+      "def": "Felle som fanger smådyr på bakken.",
+      "niva": "eksempel"
     },
     {
       "term": "Bestemmelsesnøkkel",
@@ -47,7 +49,8 @@
     },
     {
       "term": "Artsdatabanken",
-      "def": "Nasjonal kunnskapsbank om arter og naturtyper."
+      "def": "Nasjonal kunnskapsbank om arter og naturtyper.",
+      "niva": "eksempel"
     },
     {
       "term": "Morfologisk tilpasning",
@@ -153,7 +156,8 @@
         "Til Skatteetaten"
       ],
       "correct": 2,
-      "explain": "Nyttig for forskning og forvaltning."
+      "explain": "Nyttig for forskning og forvaltning.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -316,7 +320,8 @@
           "Insekter i trær"
         ],
         "correct": 1,
-        "explain": "Ferskvannsøkologi."
+        "explain": "Ferskvannsøkologi.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -389,7 +394,8 @@
         "kriterier": [
           "Velger fallfelle som metode.",
           "Knytter metoden til fangst av smådyr på bakken."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

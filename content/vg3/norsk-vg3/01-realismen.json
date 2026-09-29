@@ -52,11 +52,13 @@
     },
     {
       "term": "En folkefiende",
-      "def": "Ibsens drama fra 1882 om en mann som forteller en ubehagelig sannhet."
+      "def": "Ibsens drama fra 1882 om en mann som forteller en ubehagelig sannhet.",
+      "niva": "eksempel"
     },
     {
       "term": "En hanske",
-      "def": "Bjørnsons drama fra 1883 om lik seksualmoral for kvinner og menn."
+      "def": "Bjørnsons drama fra 1883 om lik seksualmoral for kvinner og menn.",
+      "niva": "eksempel"
     },
     {
       "term": "Alexander Kielland",
@@ -130,7 +132,8 @@
         "Industrialisering"
       ],
       "correct": 0,
-      "explain": "En del av sedelighetsdebatten."
+      "explain": "En del av sedelighetsdebatten.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -178,7 +181,8 @@
         "En prest som mister troen"
       ],
       "correct": 0,
-      "explain": "Om sannhet mot flertallets interesser."
+      "explain": "Om sannhet mot flertallets interesser.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +194,8 @@
         "Jonas Lie"
       ],
       "correct": 1,
-      "explain": "Bjørnson var også en aktiv samfunnsdebattant."
+      "explain": "Bjørnson var også en aktiv samfunnsdebattant.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -283,7 +288,8 @@
         "type": "sant-usant",
         "text": "I realismen formes personene av arv og miljø.",
         "correct": true,
-        "explain": "Påvirket av naturvitenskapen."
+        "explain": "Påvirket av naturvitenskapen.",
+        "niva": "over-niva"
       },
       {
         "id": "m02",
@@ -317,7 +323,8 @@
           "Collett"
         ],
         "correct": 1,
-        "explain": "Om familieliv og ekteskap."
+        "explain": "Om familieliv og ekteskap.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -424,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

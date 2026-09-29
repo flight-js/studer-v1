@@ -179,7 +179,8 @@
         "telefonsamtalen"
       ],
       "correct": 0,
-      "explain": "Man blir invitert til et Vorstellungsgespräch etter søknaden."
+      "explain": "Man blir invitert til et Vorstellungsgespräch etter søknaden.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -281,7 +282,8 @@
         "type": "sant-usant",
         "text": "Tyskland har 16 delstater.",
         "correct": true,
-        "explain": "Skolesystemet varierer mellom dem."
+        "explain": "Skolesystemet varierer mellom dem.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -361,7 +363,8 @@
         "kriterier": [
           "Får fram at Gymnasium fører til Abitur.",
           "Får fram at Gesamtschule samler ulike skoletyper."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -379,7 +382,8 @@
         "kriterier": [
           "Forklarer at Praktikum betyr praksisplass eller praksis.",
           "Forklarer at Nebenjob betyr deltidsjobb."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -421,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -48,11 +48,13 @@
     },
     {
       "term": "FNs klimapanel (IPCC)",
-      "def": "Sammenstiller klimaforskningen og har konkludert med at mennesker er hovedårsaken til oppvarmingen."
+      "def": "Sammenstiller klimaforskningen og har konkludert med at mennesker er hovedårsaken til oppvarmingen.",
+      "niva": "eksempel"
     },
     {
       "term": "Parisavtalen",
-      "def": "Avtale fra 2015 om å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C."
+      "def": "Avtale fra 2015 om å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C.",
+      "niva": "eksempel"
     },
     {
       "term": "Havnivåstigning",
@@ -142,7 +144,8 @@
         "Å flytte til Mars"
       ],
       "correct": 0,
-      "explain": "Parisavtalen fra 2015 setter målet for den globale temperaturøkningen."
+      "explain": "Parisavtalen fra 2015 setter målet for den globale temperaturøkningen.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -178,7 +181,8 @@
         "En værmelding"
       ],
       "correct": 0,
-      "explain": "IPCC vurderer forskningen og gir rapporter om klimaendringer."
+      "explain": "IPCC vurderer forskningen og gir rapporter om klimaendringer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -395,7 +399,8 @@
         "kriterier": [
           "Nevner et relevant tiltak, som fornybar energi, energieffektivisering eller vern av skog og myr.",
           "Forklarer at tiltaket bidrar til å kutte utslipp av drivhusgasser."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -428,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

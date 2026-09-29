@@ -67,7 +67,8 @@
     },
     {
       "term": "Ansvarsforsikring",
-      "def": "Dekker erstatningsansvar – ofte del av innboforsikringen."
+      "def": "Dekker erstatningsansvar – ofte del av innboforsikringen.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -293,7 +294,8 @@
         "type": "sant-usant",
         "text": "Innboforsikring har ofte en ansvarsdel.",
         "correct": true,
-        "explain": "Den dekker erstatningsansvar som privatperson."
+        "explain": "Den dekker erstatningsansvar som privatperson.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -339,7 +341,8 @@
           "Oppreisning"
         ],
         "correct": 2,
-        "explain": "Gjelder i noen tilfeller."
+        "explain": "Gjelder i noen tilfeller.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -359,7 +362,8 @@
         "kriterier": [
           "Knytter mangelen ved varen til et kontraktsforhold.",
           "Forklarer at skade på en annens sykkel kan være erstatning utenfor kontrakt."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -404,7 +408,8 @@
         "kriterier": [
           "Forklarer at ansvarsdelen kan dekke privatpersonens erstatningsansvar.",
           "Forklarer regress som et tilbakebetalingskrav fra forsikringsselskapet mot skadevolderen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -419,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

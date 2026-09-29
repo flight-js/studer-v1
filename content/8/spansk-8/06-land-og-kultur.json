@@ -16,7 +16,8 @@
     },
     {
       "term": "las comunidades autónomas",
-      "def": "Spanias 17 autonome regioner"
+      "def": "Spanias 17 autonome regioner",
+      "niva": "eksempel"
     },
     {
       "term": "Latinoamérica",
@@ -24,11 +25,13 @@
     },
     {
       "term": "México",
-      "def": "Landet med flest spansktalende i verden"
+      "def": "Landet med flest spansktalende i verden",
+      "niva": "eksempel"
     },
     {
       "term": "Machu Picchu",
-      "def": "Inkaby i fjellene i Peru"
+      "def": "Inkaby i fjellene i Peru",
+      "niva": "eksempel"
     },
     {
       "term": "las tapas",
@@ -36,43 +39,53 @@
     },
     {
       "term": "la paella",
-      "def": "risrett fra Valencia"
+      "def": "risrett fra Valencia",
+      "niva": "eksempel"
     },
     {
       "term": "la tortilla española",
-      "def": "potetomelett"
+      "def": "potetomelett",
+      "niva": "eksempel"
     },
     {
       "term": "los churros",
-      "def": "friterte deigstenger, ofte med sjokolade"
+      "def": "friterte deigstenger, ofte med sjokolade",
+      "niva": "eksempel"
     },
     {
       "term": "la Semana Santa",
-      "def": "påskeuken, med store prosesjoner"
+      "def": "påskeuken, med store prosesjoner",
+      "niva": "eksempel"
     },
     {
       "term": "el Día de Muertos",
-      "def": "De dødes dag i Mexico, 1.–2. november"
+      "def": "De dødes dag i Mexico, 1.–2. november",
+      "niva": "eksempel"
     },
     {
       "term": "los Reyes Magos",
-      "def": "De tre vise menn, som gir barna gaver 6. januar"
+      "def": "De tre vise menn, som gir barna gaver 6. januar",
+      "niva": "eksempel"
     },
     {
       "term": "las doce uvas",
-      "def": "Tolv druer som spises ved midnatt på nyttårsaften"
+      "def": "Tolv druer som spises ved midnatt på nyttårsaften",
+      "niva": "eksempel"
     },
     {
       "term": "el flamenco",
-      "def": "Dans og musikk fra Andalucía"
+      "def": "Dans og musikk fra Andalucía",
+      "niva": "eksempel"
     },
     {
       "term": "Gaudí",
-      "def": "Arkitekten bak Sagrada Família i Barcelona"
+      "def": "Arkitekten bak Sagrada Família i Barcelona",
+      "niva": "eksempel"
     },
     {
       "term": "Frida Kahlo",
-      "def": "Kjent meksikansk kunstner"
+      "def": "Kjent meksikansk kunstner",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -98,7 +111,8 @@
         "Katalansk, galisisk og baskisk"
       ],
       "correct": 3,
-      "explain": "Disse språkene har offisiell status i sine regioner."
+      "explain": "Disse språkene har offisiell status i sine regioner.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -110,7 +124,8 @@
         "En suppe"
       ],
       "correct": 0,
-      "explain": "I Mexico er en tortilla derimot et flatt brød av mais."
+      "explain": "I Mexico er en tortilla derimot et flatt brød av mais.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -122,7 +137,8 @@
         "Nyttår"
       ],
       "correct": 2,
-      "explain": "Familier minnes sine døde med altere, blomster og mat."
+      "explain": "Familier minnes sine døde med altere, blomster og mat.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -134,7 +150,8 @@
         "Los Reyes Magos, de tre vise menn"
       ],
       "correct": 3,
-      "explain": "Dagen kalles også helligtrekongersdag."
+      "explain": "Dagen kalles også helligtrekongersdag.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -146,7 +163,8 @@
         "Diego Velázquez"
       ],
       "correct": 1,
-      "explain": "Kirken har vært under bygging i over hundre år."
+      "explain": "Kirken har vært under bygging i over hundre år.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -158,7 +176,8 @@
         "Synger nasjonalsangen"
       ],
       "correct": 2,
-      "explain": "Én drue for hvert klokkeslag skal gi lykke i det nye året."
+      "explain": "Én drue for hvert klokkeslag skal gi lykke i det nye året.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -170,7 +189,8 @@
         "Cuba"
       ],
       "correct": 0,
-      "explain": "Machu Picchu ligger høyt oppe i Andesfjellene."
+      "explain": "Machu Picchu ligger høyt oppe i Andesfjellene.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -182,7 +202,8 @@
         "Samba"
       ],
       "correct": 1,
-      "explain": "Tango kommer fra Argentina og Uruguay."
+      "explain": "Tango kommer fra Argentina og Uruguay.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -194,7 +215,8 @@
         "Rundt klokka 21 eller 22"
       ],
       "correct": 3,
-      "explain": "Spanjoler spiser både lunsj og middag senere enn nordmenn."
+      "explain": "Spanjoler spiser både lunsj og middag senere enn nordmenn.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -319,14 +341,16 @@
         "type": "sant-usant",
         "text": "Kanariøyene er et populært feriemål for nordmenn.",
         "correct": true,
-        "explain": "Øyene har mildt klima hele året."
+        "explain": "Øyene har mildt klima hele året.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Tango kommer opprinnelig fra Spania.",
         "correct": false,
-        "explain": "Tango oppsto i Argentina og Uruguay."
+        "explain": "Tango oppsto i Argentina og Uruguay.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -352,7 +376,8 @@
           "Joan Miró"
         ],
         "correct": 2,
-        "explain": "Frida Kahlo er kjent for sine selvportretter."
+        "explain": "Frida Kahlo er kjent for sine selvportretter.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -365,7 +390,8 @@
           "En fotballklubb"
         ],
         "correct": 1,
-        "explain": "Festen holdes i byen Buñol i august."
+        "explain": "Festen holdes i byen Buñol i august.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -376,7 +402,8 @@
         "kriterier": [
           "Forklarer at uttrykket viser til regioner i Spania.",
           "Oppgir at det er 17 regioner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -413,7 +440,8 @@
         "kriterier": [
           "Forklarer at tapas er små retter som deles.",
           "Forklarer at paella er en risrett fra Valencia."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -422,7 +450,8 @@
         "kriterier": [
           "Velger tango.",
           "Knytter tango til Argentina."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -431,7 +460,8 @@
         "kriterier": [
           "Navngir Frida Kahlo.",
           "Oppgir at hun var fra Mexico eller var meksikansk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -440,12 +470,14 @@
         "kriterier": [
           "Navngir La Tomatina.",
           "Beskriver at folk kaster tomater på hverandre i Buñol."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

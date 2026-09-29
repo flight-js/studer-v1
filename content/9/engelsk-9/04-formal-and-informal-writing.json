@@ -61,11 +61,13 @@
     },
     {
       "term": "Application letter",
-      "def": "A formal letter presenting yourself for a job or course."
+      "def": "A formal letter presenting yourself for a job or course.",
+      "niva": "eksempel"
     },
     {
       "term": "Letter of complaint",
-      "def": "A formal letter that explains a problem and what you expect."
+      "def": "A formal letter that explains a problem and what you expect.",
+      "niva": "eksempel"
     },
     {
       "term": "Mixing registers",
@@ -382,7 +384,8 @@
         "kriterier": [
           "Explains that an application letter presents the writer and their suitability.",
           "Explains that a complaint letter describes a problem and states an expectation."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -391,7 +394,8 @@
         "kriterier": [
           "Says the letter should explain the problem and include relevant details.",
           "Says it should state what the writer expects to happen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -400,7 +404,8 @@
         "kriterier": [
           "Describes a blog post as often informal and personal while still clear or organised.",
           "Describes an article as neutral and informative, or mentions its catchy headline."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -418,7 +423,8 @@
         "kriterier": [
           "Says the letter presents the writer.",
           "Says it explains why the writer is suited for the job or course."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -433,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

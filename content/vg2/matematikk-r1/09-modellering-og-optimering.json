@@ -56,11 +56,13 @@
     },
     {
       "term": "Eske av 30 cm-plate",
-      "def": "Største volum 2000 cm³ ved x = 5 cm."
+      "def": "Største volum 2000 cm³ ved x = 5 cm.",
+      "niva": "eksempel"
     },
     {
       "term": "Innhegning med 100 m gjerde mot vegg",
-      "def": "Største areal 1250 m² ved x = 25 m."
+      "def": "Største areal 1250 m² ved x = 25 m.",
+      "niva": "eksempel"
     },
     {
       "term": "Sjekk endepunktene",
@@ -94,7 +96,8 @@
         "Andregrads polynom med positiv x²-koeffisient"
       ],
       "correct": 0,
-      "explain": "Den har en bæreevne."
+      "explain": "Den har en bæreevne.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +109,8 @@
         "900 cm³"
       ],
       "correct": 2,
-      "explain": "V(5) = 5 · 20²."
+      "explain": "V(5) = 5 · 20².",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -118,7 +122,8 @@
         "1250 m²"
       ],
       "correct": 3,
-      "explain": "x = 25 gir 25 · 50."
+      "explain": "x = 25 gir 25 · 50.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -178,7 +183,8 @@
         "En gammel lærebok uten kildehenvisning"
       ],
       "correct": 0,
-      "explain": "Offisiell statistikk."
+      "explain": "Offisiell statistikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -429,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

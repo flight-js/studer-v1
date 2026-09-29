@@ -68,7 +68,8 @@
     },
     {
       "term": "Nøytronstjernekollisjon",
-      "def": "Danner tunge grunnstoffer som gull – observert i 2017."
+      "def": "Danner tunge grunnstoffer som gull – observert i 2017.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -154,7 +155,8 @@
         "I jordas kjerne"
       ],
       "correct": 2,
-      "explain": "En nøytronstjernekollisjon ble observert i 2017."
+      "explain": "En nøytronstjernekollisjon ble observert i 2017.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -300,7 +302,8 @@
         "type": "sant-usant",
         "text": "Helium ble oppdaget i solspekteret før det ble funnet på jorda.",
         "correct": true,
-        "explain": "Navnet kommer av det greske ordet for sol."
+        "explain": "Navnet kommer av det greske ordet for sol.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -426,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

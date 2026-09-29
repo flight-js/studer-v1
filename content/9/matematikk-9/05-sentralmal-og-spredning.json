@@ -19,7 +19,8 @@
     },
     {
       "term": "Relativ frekvens",
-      "def": "Frekvensen delt på antall observasjoner, ofte oppgitt i prosent."
+      "def": "Frekvensen delt på antall observasjoner, ofte oppgitt i prosent.",
+      "niva": "eksempel"
     },
     {
       "term": "Sentralmål",
@@ -360,7 +361,8 @@
         "kriterier": [
           "Finner 25 %.",
           "Viser at frekvensen deles på det totale antallet observasjoner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -420,6 +422,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

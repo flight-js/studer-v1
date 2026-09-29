@@ -47,7 +47,8 @@
     },
     {
       "term": "Verdun og Somme",
-      "def": "Store slag på vestfronten i 1916 med enorme tap."
+      "def": "Store slag på vestfronten i 1916 med enorme tap.",
+      "niva": "eksempel"
     },
     {
       "term": "Nye våpen",
@@ -355,7 +356,8 @@
           "Storbritannia"
         ],
         "correct": 2,
-        "explain": "Polen ble igjen en selvstendig stat i 1918."
+        "explain": "Polen ble igjen en selvstendig stat i 1918.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -393,7 +395,8 @@
         "kriterier": [
           "Forklarer at soldatene lå lenge i skyttergraver overfor hverandre, eller at kampene ga små landområder.",
           "Knytter nye våpen til de store tapene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -411,7 +414,8 @@
         "kriterier": [
           "Forklarer at noen tjente store penger på spekulasjon.",
           "Forklarer at høye priser eller vareknapphet gjorde livet vanskeligere for mange."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -429,12 +433,14 @@
         "kriterier": [
           "Forklarer at keiserriker gikk i oppløsning etter krigen.",
           "Nevner én ny stat, for eksempel Polen, Tsjekkoslovakia eller Jugoslavia."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

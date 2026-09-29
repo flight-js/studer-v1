@@ -19,7 +19,8 @@
     },
     {
       "term": "Perikles",
-      "def": "Ledende politiker i Athens demokrati på 400-tallet f.Kr."
+      "def": "Ledende politiker i Athens demokrati på 400-tallet f.Kr.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekklesia",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Rettsstat",
-      "def": "Stat der myndighetene er bundet av lover."
+      "def": "Stat der myndighetene er bundet av lover.",
+      "niva": "eksempel"
     },
     {
       "term": "Borgerpanel",
-      "def": "Loddtrukne innbyggere som gir råd i politiske saker."
+      "def": "Loddtrukne innbyggere som gir råd i politiske saker.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +168,8 @@
         "Folkeavstemninger, som om EU i 1972 og 1994"
       ],
       "correct": 3,
-      "explain": "Folkeavstemninger er sjeldne i Norge."
+      "explain": "Folkeavstemninger er sjeldne i Norge.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -345,7 +349,8 @@
           "En del av Stortinget"
         ],
         "correct": 2,
-        "explain": "Idéen minner om loddtrekningen i Athen."
+        "explain": "Idéen minner om loddtrekningen i Athen.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -400,7 +405,8 @@
         "kriterier": [
           "Knytter Kleisthenes til de demokratiske reformene i 508/507 f.Kr.",
           "Forklarer Perikles’ rolle på 400-tallet f.Kr., da demokratiet var på sitt mest utviklede."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -409,7 +415,8 @@
         "kriterier": [
           "Forklarer at myndighetene er bundet av lover.",
           "Knytter dette til at regjeringen ikke kan handle uten å følge lovene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -418,12 +425,14 @@
         "kriterier": [
           "Nevner loddtrekning som en likhet mellom borgerpanelet og en athensk demokratisk praksis.",
           "Skiller mellom at folkeforsamlingen stemte over saker, mens borgerpanelet gir råd."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

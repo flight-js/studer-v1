@@ -167,7 +167,8 @@
         "8"
       ],
       "correct": 3,
-      "explain": "八 bā ligner ordet for å bli rik."
+      "explain": "八 bā ligner ordet for å bli rik.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -281,7 +282,8 @@
         "type": "sant-usant",
         "text": "Tallet 4 unngås ofte fordi det ligner ordet for død.",
         "correct": true,
-        "explain": "四 sì og 死 sǐ ligner hverandre."
+        "explain": "四 sì og 死 sǐ ligner hverandre.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -328,7 +330,8 @@
           "Det er pent!"
         ],
         "correct": 0,
-        "explain": "Tài guì le!"
+        "explain": "Tài guì le!",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -415,12 +418,14 @@
         "kriterier": [
           "Knytter 八 til likheten med ordet for å bli rik.",
           "Knytter 四 til likheten med ordet for død."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -67,7 +67,8 @@
     },
     {
       "term": "20 000 · 1,04¹⁰",
-      "def": "≈ 29 605 kr – sparing i 10 år med 4 % rente."
+      "def": "≈ 29 605 kr – sparing i 10 år med 4 % rente.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -426,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -43,11 +43,13 @@
     },
     {
       "term": "Områdesatsing",
-      "def": "Samlet innsats i utsatte bydeler."
+      "def": "Samlet innsats i utsatte bydeler.",
+      "niva": "eksempel"
     },
     {
       "term": "Fritidskort",
-      "def": "Ordning som gir barn mulighet til fritidsaktiviteter."
+      "def": "Ordning som gir barn mulighet til fritidsaktiviteter.",
+      "niva": "eksempel"
     },
     {
       "term": "Folkehelsetiltak",
@@ -55,7 +57,8 @@
     },
     {
       "term": "Proporsjonal universalisme",
-      "def": "Tiltak for alle, men mer innsats der behovet er størst."
+      "def": "Tiltak for alle, men mer innsats der behovet er størst.",
+      "niva": "over-niva"
     },
     {
       "term": "Tredjevariabel",
@@ -129,7 +132,8 @@
         "Like tiltak for alle uten forskjell"
       ],
       "correct": 0,
-      "explain": "Rettet mot hele gradienten."
+      "explain": "Rettet mot hele gradienten.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -153,7 +157,8 @@
         "En type lån"
       ],
       "correct": 2,
-      "explain": "Bedre skoler, møteplasser og tjenester."
+      "explain": "Bedre skoler, møteplasser og tjenester.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -326,7 +331,8 @@
           "Ingen gruppe"
         ],
         "correct": 0,
-        "explain": "Arbeidstilknytning er avgjørende."
+        "explain": "Arbeidstilknytning er avgjørende.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -395,7 +401,8 @@
         "kriterier": [
           "Foreslår fritidskort.",
           "Forklarer at ordningen gir barnet mulighet til å delta i fritidsaktiviteter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -404,7 +411,8 @@
         "kriterier": [
           "Forklarer at folkehelsetiltak kan nå hele befolkningen.",
           "Forklarer at områdesatsing retter samlet innsats mot utsatte bydeler, gjerne med eksempler på innsatsen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

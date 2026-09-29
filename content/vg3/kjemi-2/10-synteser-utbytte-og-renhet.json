@@ -19,7 +19,8 @@
     },
     {
       "term": "Acetylsalisylsyre",
-      "def": "Virkestoff i smertestillende tabletter, lages av salisylsyre og eddiksyreanhydrid."
+      "def": "Virkestoff i smertestillende tabletter, lages av salisylsyre og eddiksyreanhydrid.",
+      "niva": "eksempel"
     },
     {
       "term": "Teoretisk utbytte",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Spektroskopi",
-      "def": "Analyse som viser funksjonelle grupper og struktur."
+      "def": "Analyse som viser funksjonelle grupper og struktur.",
+      "niva": "over-niva"
     },
     {
       "term": "Atomøkonomi",
-      "def": "Hvor mye av utgangsstoffenes atomer som havner i produktet."
+      "def": "Hvor mye av utgangsstoffenes atomer som havner i produktet.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -177,7 +180,8 @@
         "En farget væske"
       ],
       "correct": 0,
-      "explain": "Flere flekker tyder på urenheter."
+      "explain": "Flere flekker tyder på urenheter.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +193,8 @@
         "At produktet er billig"
       ],
       "correct": 1,
-      "explain": "Et prinsipp i grønn kjemi."
+      "explain": "Et prinsipp i grønn kjemi.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -299,7 +304,8 @@
         "type": "sant-usant",
         "text": "Spektroskopi kan vise hvilke funksjonelle grupper et stoff har.",
         "correct": true,
-        "explain": "For eksempel IR-spektroskopi."
+        "explain": "For eksempel IR-spektroskopi.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -365,7 +371,8 @@
         "kriterier": [
           "Sier at produktet krystalliseres ved avkjøling.",
           "Sier at produktet deretter skilles fra med filtrering."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -419,12 +426,14 @@
         "kriterier": [
           "Sier at spektroskopi kan gi informasjon om funksjonelle grupper.",
           "Sier at spektroskopi kan gi informasjon om stoffets struktur."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

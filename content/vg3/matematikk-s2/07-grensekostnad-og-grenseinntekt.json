@@ -59,11 +59,13 @@
     },
     {
       "term": "Økning i kostnad",
-      "def": "∫ₐᵇ K′(x) dx"
+      "def": "∫ₐᵇ K′(x) dx",
+      "niva": "over-niva"
     },
     {
       "term": "Stigende grensekostnad",
-      "def": "Følge av presset kapasitet, overtid og slitasje."
+      "def": "Følge av presset kapasitet, overtid og slitasje.",
+      "niva": "eksempel"
     },
     {
       "term": "Kapasitet",
@@ -189,7 +191,8 @@
         "Enhetskostnaden"
       ],
       "correct": 1,
-      "explain": "Total endring."
+      "explain": "Total endring.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -317,7 +320,8 @@
           "Lavere husleie"
         ],
         "correct": 0,
-        "explain": "Flaskehalser."
+        "explain": "Flaskehalser.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -350,7 +354,8 @@
         "kriterier": [
           "Knytter først synkende grensekostnad til økt effektivitet.",
           "Knytter senere stigende grensekostnad til presset kapasitet, med en relevant følge."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -377,7 +382,8 @@
         "kriterier": [
           "Setter opp integralet av K′(x) fra 1000 til 2000.",
           "Finner kostnadsøkningen 110 000 kroner ved å regne ut integralet."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -410,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

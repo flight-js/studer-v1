@@ -67,7 +67,8 @@
     },
     {
       "term": "Arbeidsinkludering",
-      "def": "Tiltak for å få flere inn i arbeidslivet."
+      "def": "Tiltak for å få flere inn i arbeidslivet.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -345,7 +346,8 @@
           "Forskjeller i årstider"
         ],
         "correct": 1,
-        "explain": "Levekår varierer mellom bydeler og regioner."
+        "explain": "Levekår varierer mellom bydeler og regioner.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -425,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

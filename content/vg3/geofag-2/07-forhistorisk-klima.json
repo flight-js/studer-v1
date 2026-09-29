@@ -67,7 +67,8 @@
     },
     {
       "term": "Den lille istid",
-      "def": "Kaldere periode i nyere tid, mer regional enn dagens oppvarming."
+      "def": "Kaldere periode i nyere tid, mer regional enn dagens oppvarming.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -303,7 +304,8 @@
         "type": "sant-usant",
         "text": "Den lille istid var like stor og global som dagens oppvarming.",
         "correct": false,
-        "explain": "Den var mer regional og mindre."
+        "explain": "Den var mer regional og mindre.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -329,7 +331,8 @@
           "Middelalderen"
         ],
         "correct": 0,
-        "explain": "Kraftig oppvarming på kort geologisk tid."
+        "explain": "Kraftig oppvarming på kort geologisk tid.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -389,7 +392,8 @@
         "kriterier": [
           "Beskriver de to eldre periodene som mer regionale enn dagens oppvarming.",
           "Beskriver dem som mindre enn dagens globale oppvarming."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -416,12 +420,14 @@
         "kriterier": [
           "Knytter store karbonutslipp i perioden til den kraftige temperaturøkningen.",
           "Forklarer at perioden gir innsikt i konsekvenser av raske karbonutslipp."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

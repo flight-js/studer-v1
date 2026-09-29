@@ -19,7 +19,8 @@
     },
     {
       "term": "Psykologisk trygghet",
-      "def": "At det er trygt å si ifra, spørre og ta feil."
+      "def": "At det er trygt å si ifra, spørre og ta feil.",
+      "niva": "eksempel"
     },
     {
       "term": "Nettverk",
@@ -27,7 +28,8 @@
     },
     {
       "term": "Svake bånd",
-      "def": "Bekjente som ofte gir ny informasjon."
+      "def": "Bekjente som ofte gir ny informasjon.",
+      "niva": "over-niva"
     },
     {
       "term": "Åpen innovasjon",
@@ -47,7 +49,8 @@
     },
     {
       "term": "Akselerator",
-      "def": "Intensivt program for rask vekst."
+      "def": "Intensivt program for rask vekst.",
+      "niva": "eksempel"
     },
     {
       "term": "Mentor",
@@ -55,15 +58,18 @@
     },
     {
       "term": "Elevbedrift",
-      "def": "Bedrift som elever driver som en del av undervisningen."
+      "def": "Bedrift som elever driver som en del av undervisningen.",
+      "niva": "eksempel"
     },
     {
       "term": "Ungt Entreprenørskap",
-      "def": "Organisasjon som tilbyr entreprenørskapsprogrammer i skolen."
+      "def": "Organisasjon som tilbyr entreprenørskapsprogrammer i skolen.",
+      "niva": "eksempel"
     },
     {
       "term": "Forretningshemmelighet",
-      "def": "Fortrolig informasjon som gir et konkurransefortrinn."
+      "def": "Fortrolig informasjon som gir et konkurransefortrinn.",
+      "niva": "over-niva"
     },
     {
       "term": "Saklig konflikt",
@@ -93,7 +99,8 @@
         "At lederen bestemmer alt"
       ],
       "correct": 0,
-      "explain": "Viktig for at ideer kommer fram."
+      "explain": "Viktig for at ideer kommer fram.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -141,7 +148,8 @@
         "Fordi de er familie"
       ],
       "correct": 1,
-      "explain": "Nær familie vet ofte det samme som deg."
+      "explain": "Nær familie vet ofte det samme som deg.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -293,7 +301,8 @@
         "type": "sant-usant",
         "text": "Elevbedrift gir erfaring med samarbeid og kundekontakt.",
         "correct": true,
-        "explain": "Ofte med mentorer fra næringslivet."
+        "explain": "Ofte med mentorer fra næringslivet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +322,8 @@
           "Et patent"
         ],
         "correct": 1,
-        "explain": "For virksomheter som vil vokse raskt."
+        "explain": "For virksomheter som vil vokse raskt.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -368,7 +378,8 @@
         "kriterier": [
           "Knytter inkubator til den nye virksomhetens behov for kontorplass eller veiledning.",
           "Knytter akselerator til intensiv hjelp for rask vekst."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -386,7 +397,8 @@
         "kriterier": [
           "Nevner relevant erfaring fra samarbeid i team eller møte med kunder.",
           "Forklarer at en mentor er en erfaren person som gir råd."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -395,7 +407,8 @@
         "kriterier": [
           "Identifiserer uenighet om eierskap til ideer og risiko for lekkasje av forretningshemmeligheter.",
           "Forklarer hvordan tydelige avtaler kan forebygge utfordringene, eventuelt sammen med tillit."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -419,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

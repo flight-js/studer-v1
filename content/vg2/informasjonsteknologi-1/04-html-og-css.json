@@ -349,7 +349,8 @@
           "Ctrl + Z"
         ],
         "correct": 2,
-        "explain": "Der kan du inspisere HTML og CSS."
+        "explain": "Der kan du inspisere HTML og CSS.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -429,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

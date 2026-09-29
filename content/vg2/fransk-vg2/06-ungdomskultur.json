@@ -13,11 +13,13 @@
   "flashcards": [
     {
       "term": "la Fête de la Musique",
-      "def": "musikkfest i gatene 21. juni hvert år"
+      "def": "musikkfest i gatene 21. juni hvert år",
+      "niva": "eksempel"
     },
     {
       "term": "la Ligue 1",
-      "def": "den øverste fotballigaen i Frankrike"
+      "def": "den øverste fotballigaen i Frankrike",
+      "niva": "eksempel"
     },
     {
       "term": "le verlan",
@@ -25,23 +27,28 @@
     },
     {
       "term": "ouf",
-      "def": "gal, sprø (verlan for fou)"
+      "def": "gal, sprø (verlan for fou)",
+      "niva": "eksempel"
     },
     {
       "term": "chelou",
-      "def": "rar, mistenkelig (verlan for louche)"
+      "def": "rar, mistenkelig (verlan for louche)",
+      "niva": "eksempel"
     },
     {
       "term": "relou",
-      "def": "irriterende (verlan for lourd)"
+      "def": "irriterende (verlan for lourd)",
+      "niva": "eksempel"
     },
     {
       "term": "un pote",
-      "def": "en kompis"
+      "def": "en kompis",
+      "niva": "eksempel"
     },
     {
       "term": "kiffer",
-      "def": "å like (slang)"
+      "def": "å like (slang)",
+      "niva": "eksempel"
     },
     {
       "term": "J'y vais.",
@@ -69,7 +76,8 @@
     },
     {
       "term": "trop bien",
-      "def": "kjempebra"
+      "def": "kjempebra",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -83,7 +91,8 @@
         "24. desember"
       ],
       "correct": 1,
-      "explain": "Den har vært arrangert siden 1982."
+      "explain": "Den har vært arrangert siden 1982.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -107,7 +116,8 @@
         "glad"
       ],
       "correct": 2,
-      "explain": "fou → ouf."
+      "explain": "fou → ouf.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -143,7 +153,8 @@
         "en plakat"
       ],
       "correct": 1,
-      "explain": "Uformelt ord for venn."
+      "explain": "Uformelt ord for venn.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -155,7 +166,8 @@
         "rolig"
       ],
       "correct": 2,
-      "explain": "lourd → relou."
+      "explain": "lourd → relou.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -281,7 +293,8 @@
         "type": "sant-usant",
         "text": "Ordet «verlan» er selv et verlan-ord.",
         "correct": true,
-        "explain": "l'envers → verlan."
+        "explain": "l'envers → verlan.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -302,7 +315,8 @@
         "type": "sant-usant",
         "text": "Fête de la Musique arrangeres bare i Paris.",
         "correct": false,
-        "explain": "Den arrangeres over hele Frankrike og i mange andre land."
+        "explain": "Den arrangeres over hele Frankrike og i mange andre land.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -315,7 +329,8 @@
           "mor"
         ],
         "correct": 1,
-        "explain": "femme → meuf."
+        "explain": "femme → meuf.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -341,7 +356,8 @@
           "å kjøpe"
         ],
         "correct": 2,
-        "explain": "Je kiffe cette chanson !"
+        "explain": "Je kiffe cette chanson !",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -352,7 +368,8 @@
         "kriterier": [
           "Får fram at både amatører og profesjonelle spiller gratis i gatene.",
           "Nevner at musikkfestideen har spredd seg til andre land."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -361,7 +378,8 @@
         "kriterier": [
           "Får fram at fransk rap er svært stor, og/eller at mange artister kommer fra forstedene.",
           "Får fram at fotball er svært populært og at Ligue 1 er den øverste ligaen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -370,7 +388,8 @@
         "kriterier": [
           "Forklarer at stavelsene i et ord byttes om.",
           "Knytter dette til at *l'envers* blir til *verlan*."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -397,7 +416,8 @@
         "kriterier": [
           "Bruker *kiffer* i en forståelig fransk setning.",
           "Får fram at det er fransk rap eleven liker."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -415,12 +435,14 @@
         "kriterier": [
           "Nevner kafeer og parker som møtesteder.",
           "Nevner både tegneserier og manga som populære."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

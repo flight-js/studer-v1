@@ -32,7 +32,8 @@
     },
     {
       "term": "∎",
-      "def": "Symbol som markerer at et bevis er ferdig."
+      "def": "Symbol som markerer at et bevis er ferdig.",
+      "niva": "eksempel"
     },
     {
       "term": "Implikasjon ⇒",
@@ -64,7 +65,8 @@
     },
     {
       "term": "Halveringsmetoden",
-      "def": "Finner nullpunkt ved å halvere et intervall med fortegnsskifte."
+      "def": "Finner nullpunkt ved å halvere et intervall med fortegnsskifte.",
+      "niva": "eksempel"
     },
     {
       "term": "def i Python",
@@ -178,7 +180,8 @@
         "14 år"
       ],
       "correct": 0,
-      "explain": "1,05¹⁴ ≈ 1,98 og 1,05¹⁵ ≈ 2,08."
+      "explain": "1,05¹⁴ ≈ 1,98 og 1,05¹⁵ ≈ 2,08.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -190,7 +193,8 @@
         "At intervallet er lengre enn 10"
       ],
       "correct": 1,
-      "explain": "Da må grafen krysse x-aksen mellom a og b, når funksjonen er kontinuerlig."
+      "explain": "Da må grafen krysse x-aksen mellom a og b, når funksjonen er kontinuerlig.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -346,7 +350,8 @@
           "n = 5"
         ],
         "correct": 2,
-        "explain": "40² + 40 + 41 = 1681 = 41²."
+        "explain": "40² + 40 + 41 = 1681 = 41².",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -366,7 +371,8 @@
         "kriterier": [
           "Regner ut uttrykket til 1681 eller 41².",
           "Forklarer at resultatet ikke er et primtall, slik at n = 40 motbeviser påstanden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -384,7 +390,8 @@
         "kriterier": [
           "Beskriver at det direkte beviset bruker algebraisk utvidelse og samling av ledd.",
           "Beskriver at det geometriske beviset deler kvadratet i fire rektangler."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -420,12 +427,14 @@
         "kriterier": [
           "Oppgir at a erstattes med m, slik at det nye intervallet er [m, b].",
           "Forklarer at endepunktene i det nye intervallet fortsatt gir fortegnsskifte."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

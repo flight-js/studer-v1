@@ -19,19 +19,23 @@
     },
     {
       "term": "Thales",
-      "def": "Mente at alt består av vann."
+      "def": "Mente at alt består av vann.",
+      "niva": "eksempel"
     },
     {
       "term": "Herakleitos",
-      "def": "«Alt flyter» – verden er i stadig endring."
+      "def": "«Alt flyter» – verden er i stadig endring.",
+      "niva": "eksempel"
     },
     {
       "term": "Parmenides",
-      "def": "Mente at endring er en illusjon."
+      "def": "Mente at endring er en illusjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Demokrit",
-      "def": "Alt består av udelelige atomer."
+      "def": "Alt består av udelelige atomer.",
+      "niva": "eksempel"
     },
     {
       "term": "Sokrates",
@@ -93,7 +97,8 @@
         "Platon"
       ],
       "correct": 0,
-      "explain": "Verden er i stadig endring."
+      "explain": "Verden er i stadig endring.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -177,7 +182,8 @@
         "Tall"
       ],
       "correct": 0,
-      "explain": "Små, udelelige partikler i tomrom."
+      "explain": "Små, udelelige partikler i tomrom.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -282,7 +288,8 @@
         "type": "sant-usant",
         "text": "Aristoteles var lærer for Aleksander den store.",
         "correct": true,
-        "explain": "Han var også elev av Platon."
+        "explain": "Han var også elev av Platon.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -296,7 +303,8 @@
         "type": "sant-usant",
         "text": "Parmenides mente at endring er en illusjon.",
         "correct": true,
-        "explain": "Motsatt av Herakleitos."
+        "explain": "Motsatt av Herakleitos.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -316,7 +324,8 @@
           "Epikur"
         ],
         "correct": 1,
-        "explain": "Rundt 387 f.Kr."
+        "explain": "Rundt 387 f.Kr.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -362,7 +371,8 @@
         "kriterier": [
           "Forklarer at Herakleitos mente at alt er i stadig endring.",
           "Forklarer at Parmenides mente at endring er en illusjon eller at det som virkelig er, ikke forandrer seg."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -407,7 +417,8 @@
         "kriterier": [
           "Sier at skeptikeren holder tilbake dommen.",
           "Begrunner det med at sikker kunnskap ikke er mulig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

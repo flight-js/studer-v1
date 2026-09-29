@@ -189,7 +189,8 @@
         "Stetoskop"
       ],
       "correct": 1,
-      "explain": "Lager bilder av kroppen."
+      "explain": "Lager bilder av kroppen.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -290,7 +291,8 @@
         "type": "sant-usant",
         "text": "Jordas magnetfelt beskytter oss mot mye stråling fra rommet.",
         "correct": true,
-        "explain": "Ladde partikler avbøyes."
+        "explain": "Ladde partikler avbøyes.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -323,7 +325,8 @@
           "På grunn av sola"
         ],
         "correct": 0,
-        "explain": "Nålen retter seg etter feltet."
+        "explain": "Nålen retter seg etter feltet.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -336,7 +339,8 @@
           "Kjøler ned partiklene"
         ],
         "correct": 2,
-        "explain": "Magnetkraften er sentripetalkraft."
+        "explain": "Magnetkraften er sentripetalkraft.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -365,7 +369,8 @@
         "kriterier": [
           "Knytter kompassnålens retning til jordas magnetfelt.",
           "Sier at feltet får nålen til å peke nordover."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -383,7 +388,8 @@
         "kriterier": [
           "Sier at magnetene lager magnetfelt som virker på de ladde partiklene.",
           "Forklarer at kraften bidrar til å holde partiklene i ringbanen ved å endre retningen deres."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -392,7 +398,8 @@
         "kriterier": [
           "Nevner at solvinden består av ladde partikler.",
           "Forklarer at jordas magnetfelt avbøyer partiklene og dermed gir beskyttelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -416,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

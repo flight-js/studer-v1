@@ -47,7 +47,8 @@
     },
     {
       "term": "Gjeldsregisteret",
-      "def": "Register over usikret gjeld som bankene sjekker før nye lån."
+      "def": "Register over usikret gjeld som bankene sjekker før nye lån.",
+      "niva": "eksempel"
     },
     {
       "term": "Influenser",
@@ -55,11 +56,13 @@
     },
     {
       "term": "Markedsføringsloven",
-      "def": "Lov som blant annet krever at reklame er tydelig merket."
+      "def": "Lov som blant annet krever at reklame er tydelig merket.",
+      "niva": "eksempel"
     },
     {
       "term": "Retusjeringsmerke",
-      "def": "Merke på reklame der kroppens form, størrelse eller hud er endret."
+      "def": "Merke på reklame der kroppens form, størrelse eller hud er endret.",
+      "niva": "eksempel"
     },
     {
       "term": "Angrerett",
@@ -165,7 +168,8 @@
         "NAV"
       ],
       "correct": 3,
-      "explain": "NAV har økonomisk rådgivning for alle."
+      "explain": "NAV har økonomisk rådgivning for alle.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -288,7 +292,8 @@
         "type": "sant-usant",
         "text": "Retusjert reklame der kroppens form er endret, skal merkes.",
         "correct": true,
-        "explain": "Kravet skal redusere kroppspress."
+        "explain": "Kravet skal redusere kroppspress.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -335,7 +340,8 @@
           "Bankene"
         ],
         "correct": 0,
-        "explain": "Forbrukerrådet hjelper forbrukere med klager."
+        "explain": "Forbrukerrådet hjelper forbrukere med klager.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -395,7 +401,8 @@
         "kriterier": [
           "Forklarer at registeret viser hvor mye usikret gjeld personen har.",
           "Forklarer at banken kan bruke opplysningene når den vurderer nye lån."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -404,7 +411,8 @@
         "kriterier": [
           "Får fram at reklame med retusjert hud skal merkes.",
           "Nevner Forbrukertilsynet som instansen som passer på at reglene følges."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -428,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

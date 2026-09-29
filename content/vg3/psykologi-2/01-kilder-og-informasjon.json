@@ -39,11 +39,13 @@
     },
     {
       "term": "Publiseringsskjevhet",
-      "def": "At positive funn publiseres oftere enn negative."
+      "def": "At positive funn publiseres oftere enn negative.",
+      "niva": "over-niva"
     },
     {
       "term": "Forhåndsregistrering",
-      "def": "Plan og hypoteser registreres før studien gjennomføres."
+      "def": "Plan og hypoteser registreres før studien gjennomføres.",
+      "niva": "over-niva"
     },
     {
       "term": "Korrelasjon",
@@ -59,11 +61,13 @@
     },
     {
       "term": "Relativ risiko",
-      "def": "Endring i risiko i prosent av utgangspunktet – kan virke større enn den er."
+      "def": "Endring i risiko i prosent av utgangspunktet – kan virke større enn den er.",
+      "niva": "over-niva"
     },
     {
       "term": "Oria",
-      "def": "Søketjeneste for fagbøker og artikler i norske bibliotek."
+      "def": "Søketjeneste for fagbøker og artikler i norske bibliotek.",
+      "niva": "eksempel"
     },
     {
       "term": "Abstract",
@@ -129,7 +133,8 @@
         "At bare kvinner publiserer"
       ],
       "correct": 0,
-      "explain": "Gir et for positivt bilde."
+      "explain": "Gir et for positivt bilde.",
+      "niva": "over-niva"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "Fordi det er et sitat"
       ],
       "correct": 1,
-      "explain": "Skill mellom relativ og absolutt risiko."
+      "explain": "Skill mellom relativ og absolutt risiko.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -153,7 +159,8 @@
         "Å slutte å publisere"
       ],
       "correct": 2,
-      "explain": "Også åpne data og flere replikasjoner."
+      "explain": "Også åpne data og flere replikasjoner.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -313,7 +320,8 @@
           "Finn.no"
         ],
         "correct": 1,
-        "explain": "Finner fagbøker og artikler."
+        "explain": "Finner fagbøker og artikler.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -339,7 +347,8 @@
           "For mange replikasjoner"
         ],
         "correct": 2,
-        "explain": "Ga tilfeldige funn."
+        "explain": "Ga tilfeldige funn.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -419,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

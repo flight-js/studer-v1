@@ -67,7 +67,8 @@
     },
     {
       "term": "Forskningsjuks",
-      "def": "Fabrikkering eller forfalsking av data."
+      "def": "Fabrikkering eller forfalsking av data.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -189,7 +190,8 @@
         "Å gjenta forsøk"
       ],
       "correct": 1,
-      "explain": "Et alvorlig brudd på forskningsetikken."
+      "explain": "Et alvorlig brudd på forskningsetikken.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -286,7 +288,8 @@
         "type": "sant-usant",
         "text": "Negative funn bør skjules i forskningen.",
         "correct": false,
-        "explain": "God forskning er åpen også om negative funn."
+        "explain": "God forskning er åpen også om negative funn.",
+        "niva": "over-niva"
       },
       {
         "id": "m03",
@@ -420,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

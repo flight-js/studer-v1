@@ -15,7 +15,8 @@
     },
     {
       "term": "Korallbleking",
-      "def": "Koraller mister algene sine i for varmt vann."
+      "def": "Koraller mister algene sine i for varmt vann.",
+      "niva": "eksempel"
     },
     {
       "term": "Havnivåstigning",
@@ -23,7 +24,8 @@
     },
     {
       "term": "Klimamigrasjon",
-      "def": "Folk må flytte på grunn av klimaendringer."
+      "def": "Folk må flytte på grunn av klimaendringer.",
+      "niva": "eksempel"
     },
     {
       "term": "Klimarettferdighet",
@@ -47,15 +49,18 @@
     },
     {
       "term": "CCS",
-      "def": "Karbonfangst og lagring."
+      "def": "Karbonfangst og lagring.",
+      "niva": "eksempel"
     },
     {
       "term": "Karbonprising",
-      "def": "CO₂-avgift og kvotesystemer som gjør utslipp dyrere."
+      "def": "CO₂-avgift og kvotesystemer som gjør utslipp dyrere.",
+      "niva": "eksempel"
     },
     {
       "term": "Lavutslippssamfunn",
-      "def": "Norges mål for 2050."
+      "def": "Norges mål for 2050.",
+      "niva": "eksempel"
     },
     {
       "term": "Overvann",
@@ -63,7 +68,8 @@
     },
     {
       "term": "Regnbed",
-      "def": "Beplantet område som tar opp regnvann."
+      "def": "Beplantet område som tar opp regnvann.",
+      "niva": "eksempel"
     },
     {
       "term": "Flomvern",
@@ -141,7 +147,8 @@
         "Et kvotesystem"
       ],
       "correct": 1,
-      "explain": "Et tiltak for utslippskutt."
+      "explain": "Et tiltak for utslippskutt.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +172,8 @@
         "CO₂-avgift og kvotesystemer"
       ],
       "correct": 3,
-      "explain": "Gjør utslipp dyrere."
+      "explain": "Gjør utslipp dyrere.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -296,7 +304,8 @@
         "type": "sant-usant",
         "text": "Norge har mål om å bli et lavutslippssamfunn innen 2050.",
         "correct": true,
-        "explain": "Norsk klimapolitikk."
+        "explain": "Norsk klimapolitikk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -316,7 +325,8 @@
           "Varsler flom"
         ],
         "correct": 1,
-        "explain": "Tilpasning i byer."
+        "explain": "Tilpasning i byer.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -342,7 +352,8 @@
           "Tang"
         ],
         "correct": 2,
-        "explain": "Kalkskall blir vanskeligere å bygge."
+        "explain": "Kalkskall blir vanskeligere å bygge.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -371,7 +382,8 @@
         "kriterier": [
           "Forklarer at klimamigrasjon innebærer å flytte på grunn av klimaendringer.",
           "Knytter flyttingen i situasjonen til trusselen fra havnivåstigning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -380,7 +392,8 @@
         "kriterier": [
           "Forklarer at et regnbed tar opp regnvann.",
           "Knytter dette til håndtering av overvann."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -389,7 +402,8 @@
         "kriterier": [
           "Nevner at korallene mister algene sine.",
           "Knytter blekingen til for varmt vann."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -398,7 +412,8 @@
         "kriterier": [
           "Viser at 55 trekkes fra 100.",
           "Oppgir 45 som høyeste indeks ved et kutt på 55 %."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +422,8 @@
         "kriterier": [
           "Regner ut at 70 % kutt gir indeks 30 og 75 % kutt gir indeks 25.",
           "Oppgir intervallet 25–30."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +438,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

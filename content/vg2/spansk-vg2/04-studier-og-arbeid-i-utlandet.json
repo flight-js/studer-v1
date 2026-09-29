@@ -287,7 +287,8 @@
         "type": "sant-usant",
         "text": "Spania er blant de mest populære Erasmus-landene.",
         "correct": true,
-        "explain": "Mange europeiske studenter drar dit."
+        "explain": "Mange europeiske studenter drar dit.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -367,7 +368,8 @@
         "kriterier": [
           "Knytter frivillig arbeid til skoler eller miljøprosjekter i Latin-Amerika.",
           "Knytter sommerjobb til turisme og nevner aktuelle arbeidssteder."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -376,7 +378,8 @@
         "kriterier": [
           "Anbefaler sommerjobb innen turisme.",
           "Nevner to mulige arbeidssteder, som hotell, restaurant eller campingplass."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -393,7 +396,8 @@
         "fasit": "España es uno de los países más populares de Europa para los estudiantes de intercambio.",
         "kriterier": [
           "Sier at Spania er blant de mest populære landene i Europa for utvekslingsstudenter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -425,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

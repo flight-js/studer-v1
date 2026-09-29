@@ -60,7 +60,8 @@
     },
     {
       "term": "Midtatlanterhavsryggen",
-      "def": "Divergerende plategrense i Atlanterhavet. Island ligger på den."
+      "def": "Divergerende plategrense i Atlanterhavet. Island ligger på den.",
+      "niva": "eksempel"
     },
     {
       "term": "Bevis for platetektonikk",
@@ -118,7 +119,8 @@
         "Ved at to kontinentalplater kolliderte"
       ],
       "correct": 3,
-      "explain": "Kollisjonen mellom den indiske og den eurasiske platen presset opp fjellkjeden."
+      "explain": "Kollisjonen mellom den indiske og den eurasiske platen presset opp fjellkjeden.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -297,21 +299,24 @@
         "type": "sant-usant",
         "text": "Island ligger på en divergerende plategrense.",
         "correct": true,
-        "explain": "Island ligger på Midtatlanterhavsryggen, der platene beveger seg fra hverandre."
+        "explain": "Island ligger på Midtatlanterhavsryggen, der platene beveger seg fra hverandre.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
         "type": "sant-usant",
         "text": "Wegeners teori ble godtatt av alle med en gang.",
         "correct": false,
-        "explain": "Mange avviste teorien fordi han ikke kunne forklare hva som drev bevegelsen."
+        "explain": "Mange avviste teorien fordi han ikke kunne forklare hva som drev bevegelsen.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
         "type": "sant-usant",
         "text": "San Andreas-forkastningen er et eksempel på en transformgrense.",
         "correct": true,
-        "explain": "Der glir to plater sidelengs forbi hverandre."
+        "explain": "Der glir to plater sidelengs forbi hverandre.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -357,7 +362,8 @@
           "Barometre"
         ],
         "correct": 0,
-        "explain": "Presise GPS-målinger viser at punkter på ulike plater flytter seg i forhold til hverandre."
+        "explain": "Presise GPS-målinger viser at punkter på ulike plater flytter seg i forhold til hverandre.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -404,7 +410,8 @@
         "kriterier": [
           "Forklarer at Wegener ikke kunne forklare hva som drev kontinentene.",
           "Nevner at nye undersøkelser av havbunnen bidro til at teorien ble godtatt."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -413,7 +420,8 @@
         "kriterier": [
           "Skiller mellom Norges plassering på platen i dag og tidligere platebevegelser.",
           "Forklarer at fjellene ble dannet i en stor kollisjon mellom kontinenter."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -422,7 +430,8 @@
         "kriterier": [
           "Får fram at det gikk 48 år.",
           "Viser regnestykket 1960 − 1912, eller en tilsvarende utregning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -437,6 +446,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

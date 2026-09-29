@@ -39,7 +39,8 @@
     },
     {
       "term": "Allergener",
-      "def": "Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk."
+      "def": "Stoffer i mat som kan gi allergiske reaksjoner, som nøtter og melk.",
+      "niva": "eksempel"
     },
     {
       "term": "Kundeservice",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Merverdiavgift (moms)",
-      "def": "Avgift på de fleste varer og tjenester som går til staten."
+      "def": "Avgift på de fleste varer og tjenester som går til staten.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -105,7 +107,8 @@
         "Hvor mange som har smakt"
       ],
       "correct": 0,
-      "explain": "Merking av allergener kan forhindre alvorlige reaksjoner."
+      "explain": "Merking av allergener kan forhindre alvorlige reaksjoner.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -351,7 +354,8 @@
           "En gave til kunden"
         ],
         "correct": 2,
-        "explain": "Moms står for merverdiavgift."
+        "explain": "Moms står for merverdiavgift.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -389,7 +393,8 @@
         "kriterier": [
           "Forklarer at allergener kan gi allergiske reaksjoner.",
           "Forklarer at merking gir kunden informasjon om innholdet i maten."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -431,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

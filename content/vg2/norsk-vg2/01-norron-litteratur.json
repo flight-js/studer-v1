@@ -189,7 +189,8 @@
         "Reiseskildringer"
       ],
       "correct": 1,
-      "explain": "Saklig stil og korte replikker."
+      "explain": "Saklig stil og korte replikker.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -345,7 +346,8 @@
           "Fordi den handlet om Danmark"
         ],
         "correct": 2,
-        "explain": "Den viste at Norge hadde en stor fortid som eget kongerike."
+        "explain": "Den viste at Norge hadde en stor fortid som eget kongerike.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -401,7 +403,8 @@
         "kriterier": [
           "Forklarer at Heimskringla fikk betydning for norsk nasjonal identitet.",
           "Nevner at betydningen var særlig stor på 1800-tallet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -425,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

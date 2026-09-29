@@ -47,7 +47,8 @@
     },
     {
       "term": "Trinnskatt",
-      "def": "Ekstra skatt på inntekt over visse grenser."
+      "def": "Ekstra skatt på inntekt over visse grenser.",
+      "niva": "eksempel"
     },
     {
       "term": "Overføringer",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Allmenngjøring",
-      "def": "At en tariffavtale gjøres gjeldende for alle i en bransje."
+      "def": "At en tariffavtale gjøres gjeldende for alle i en bransje.",
+      "niva": "eksempel"
     },
     {
       "term": "Insentiv",
@@ -316,7 +318,8 @@
           "At staten betaler lønnen"
         ],
         "correct": 1,
-        "explain": "Gir en minstelønn i enkelte bransjer."
+        "explain": "Gir en minstelønn i enkelte bransjer.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -371,7 +374,8 @@
         "kriterier": [
           "Identifiserer dette som allmenngjøring.",
           "Forklarer at avtalen gjelder alle i bransjen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -422,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

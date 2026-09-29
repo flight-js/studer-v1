@@ -31,19 +31,23 @@
     },
     {
       "term": "Arbeidstrening",
-      "def": "NAV-tiltak der man prøver seg i arbeid."
+      "def": "NAV-tiltak der man prøver seg i arbeid.",
+      "niva": "eksempel"
     },
     {
       "term": "Lønnstilskudd",
-      "def": "NAV dekker deler av lønnen for en periode."
+      "def": "NAV dekker deler av lønnen for en periode.",
+      "niva": "eksempel"
     },
     {
       "term": "Individuell jobbstøtte (IPS)",
-      "def": "Tett oppfølging ut i ordinært arbeid ved psykiske plager eller rus."
+      "def": "Tett oppfølging ut i ordinært arbeid ved psykiske plager eller rus.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvalifiseringsprogrammet",
-      "def": "Tett oppfølging for personer med svært svak arbeidstilknytning."
+      "def": "Tett oppfølging for personer med svært svak arbeidstilknytning.",
+      "niva": "eksempel"
     },
     {
       "term": "Introduksjonsprogrammet",
@@ -51,7 +55,8 @@
     },
     {
       "term": "IA-avtalen",
-      "def": "Avtale om et inkluderende arbeidsliv."
+      "def": "Avtale om et inkluderende arbeidsliv.",
+      "niva": "eksempel"
     },
     {
       "term": "Universell utforming",
@@ -59,7 +64,8 @@
     },
     {
       "term": "Anonymiserte søknader",
-      "def": "Tiltak mot diskriminering i ansettelser."
+      "def": "Tiltak mot diskriminering i ansettelser.",
+      "niva": "eksempel"
     },
     {
       "term": "Frivillighet",
@@ -105,7 +111,8 @@
         "En skatt"
       ],
       "correct": 2,
-      "explain": "Gjør det lettere å bli ansatt."
+      "explain": "Gjør det lettere å bli ansatt.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -141,7 +148,8 @@
         "En diagnose"
       ],
       "correct": 1,
-      "explain": "For personer med psykiske helseplager eller rusproblemer."
+      "explain": "For personer med psykiske helseplager eller rusproblemer.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +173,8 @@
         "En avtale om et inkluderende arbeidsliv"
       ],
       "correct": 3,
-      "explain": "Mellom partene og myndighetene."
+      "explain": "Mellom partene og myndighetene.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +198,8 @@
         "At ingen søker jobb"
       ],
       "correct": 1,
-      "explain": "Tiltak bør gi varig deltakelse."
+      "explain": "Tiltak bør gi varig deltakelse.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -319,7 +329,8 @@
           "Kvalifiseringsprogrammet"
         ],
         "correct": 1,
-        "explain": "Gir mulighet til fritidsaktiviteter."
+        "explain": "Gir mulighet til fritidsaktiviteter.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +343,8 @@
           "At de har kantine"
         ],
         "correct": 0,
-        "explain": "Aktivitetsplikt."
+        "explain": "Aktivitetsplikt.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -401,7 +413,8 @@
         "kriterier": [
           "Forklarer at arbeidstrening innebærer å prøve seg i arbeid.",
           "Forklarer at Kvalifiseringsprogrammet gir tett oppfølging til personer med svært svak arbeidstilknytning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -410,7 +423,8 @@
         "kriterier": [
           "Forklarer at anonymiserte søknader kan motvirke diskriminering i ansettelser.",
           "Nevner mål om mangfold som et annet relevant tiltak."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -425,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

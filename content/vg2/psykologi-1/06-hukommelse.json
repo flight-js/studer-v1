@@ -55,7 +55,8 @@
     },
     {
       "term": "H.M.",
-      "def": "Pasient som ikke kunne danne nye bevisste minner etter at deler av hippocampus ble fjernet."
+      "def": "Pasient som ikke kunne danne nye bevisste minner etter at deler av hippocampus ble fjernet.",
+      "niva": "eksempel"
     },
     {
       "term": "Glemselskurven",
@@ -177,7 +178,8 @@
         "At ledende spørsmål kan endre minner"
       ],
       "correct": 3,
-      "explain": "Hukommelsen rekonstruerer."
+      "explain": "Hukommelsen rekonstruerer.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -308,7 +310,8 @@
         "type": "sant-usant",
         "text": "H.M. kunne lære nye ferdigheter selv om han ikke dannet nye bevisste minner.",
         "correct": true,
-        "explain": "Implisitt minne var intakt."
+        "explain": "Implisitt minne var intakt.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -434,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

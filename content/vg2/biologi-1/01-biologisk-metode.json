@@ -39,7 +39,8 @@
     },
     {
       "term": "Katalase",
-      "def": "Enzym som bryter ned hydrogenperoksid til vann og oksygen."
+      "def": "Enzym som bryter ned hydrogenperoksid til vann og oksygen.",
+      "niva": "eksempel"
     },
     {
       "term": "Ruteanalyse",
@@ -51,11 +52,13 @@
     },
     {
       "term": "Fangst–gjenfangst",
-      "def": "Metode for å anslå størrelsen på en dyrebestand."
+      "def": "Metode for å anslå størrelsen på en dyrebestand.",
+      "niva": "eksempel"
     },
     {
       "term": "Standardavvik",
-      "def": "Mål på spredningen i dataene."
+      "def": "Mål på spredningen i dataene.",
+      "niva": "over-niva"
     },
     {
       "term": "Korrelasjon",
@@ -63,7 +66,8 @@
     },
     {
       "term": "Fagfellevurdering",
-      "def": "Andre forskere vurderer arbeidet før det publiseres."
+      "def": "Andre forskere vurderer arbeidet før det publiseres.",
+      "niva": "over-niva"
     },
     {
       "term": "Feilkilde",
@@ -189,7 +193,8 @@
         "Antall målinger"
       ],
       "correct": 1,
-      "explain": "Stort standardavvik betyr stor variasjon."
+      "explain": "Stort standardavvik betyr stor variasjon.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -285,7 +290,8 @@
         "type": "sant-usant",
         "text": "Fangst–gjenfangst brukes for å anslå størrelsen på en dyrebestand.",
         "correct": true,
-        "explain": "Andelen merkede dyr i andre fangst gir et anslag."
+        "explain": "Andelen merkede dyr i andre fangst gir et anslag.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -299,7 +305,8 @@
         "type": "sant-usant",
         "text": "Katalase bryter ned hydrogenperoksid.",
         "correct": true,
-        "explain": "Produktene er vann og oksygen."
+        "explain": "Produktene er vann og oksygen.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -345,7 +352,8 @@
           "At en avis omtaler forskningen"
         ],
         "correct": 2,
-        "explain": "Det sikrer kvaliteten."
+        "explain": "Det sikrer kvaliteten.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

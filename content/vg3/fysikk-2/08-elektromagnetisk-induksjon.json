@@ -19,7 +19,8 @@
     },
     {
       "term": "Michael Faraday",
-      "def": "Oppdaget induksjon i 1831."
+      "def": "Oppdaget induksjon i 1831.",
+      "niva": "eksempel"
     },
     {
       "term": "Magnetisk fluks",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Magnet i kobberrør",
-      "def": "Faller langsomt på grunn av virvelstrømmer."
+      "def": "Faller langsomt på grunn av virvelstrømmer.",
+      "niva": "eksempel"
     },
     {
       "term": "Stillestående magnet",
@@ -153,7 +155,8 @@
         "Fordi røret er smalt"
       ],
       "correct": 2,
-      "explain": "Lenz' regel."
+      "explain": "Lenz' regel.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +180,8 @@
         "James Watt"
       ],
       "correct": 0,
-      "explain": "I 1831."
+      "explain": "I 1831.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -413,6 +417,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

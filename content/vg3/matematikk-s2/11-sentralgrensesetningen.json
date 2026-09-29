@@ -31,15 +31,18 @@
     },
     {
       "term": "Én terning",
-      "def": "Uniform – flat fordeling."
+      "def": "Uniform – flat fordeling.",
+      "niva": "eksempel"
     },
     {
       "term": "Sum av to terninger",
-      "def": "Trekantformet med topp ved 7."
+      "def": "Trekantformet med topp ved 7.",
+      "niva": "eksempel"
     },
     {
       "term": "Sum av ti terninger",
-      "def": "Tydelig klokkeformet."
+      "def": "Tydelig klokkeformet.",
+      "niva": "eksempel"
     },
     {
       "term": "Normaltilnærming binomisk",
@@ -63,7 +66,8 @@
     },
     {
       "term": "Sum av 100 terninger",
-      "def": "Forventning 350, standardavvik omtrent 17,1."
+      "def": "Forventning 350, standardavvik omtrent 17,1.",
+      "niva": "eksempel"
     },
     {
       "term": "Betydning",
@@ -410,6 +414,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

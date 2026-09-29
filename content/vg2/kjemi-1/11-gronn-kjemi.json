@@ -48,7 +48,8 @@
     },
     {
       "term": "Superkritisk CO₂",
-      "def": "CO₂ under høyt trykk og over en viss temperatur, der det oppfører seg både som gass og væske. Brukes som løsemiddel, for eksempel til å fjerne koffein fra kaffe."
+      "def": "CO₂ under høyt trykk og over en viss temperatur, der det oppfører seg både som gass og væske. Brukes som løsemiddel, for eksempel til å fjerne koffein fra kaffe.",
+      "niva": "over-niva"
     },
     {
       "term": "Energieffektivitet",
@@ -84,7 +85,8 @@
     },
     {
       "term": "Livsløpsanalyse",
-      "def": "Vurdering av miljøbelastningen til et produkt gjennom hele livet, fra råstoff og produksjon til bruk og avfall."
+      "def": "Vurdering av miljøbelastningen til et produkt gjennom hele livet, fra råstoff og produksjon til bruk og avfall.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -110,7 +112,8 @@
         "Henri Le Châtelier"
       ],
       "correct": 2,
-      "explain": "Anastas og Warner publiserte de tolv prinsippene i 1998. Brundtland er kjent for definisjonen av bærekraftig utvikling."
+      "explain": "Anastas og Warner publiserte de tolv prinsippene i 1998. Brundtland er kjent for definisjonen av bærekraftig utvikling.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -510,6 +513,7 @@
     "status": "utkast",
     "merknader": [
       "Prinsippene er gjengitt fritt og gruppert i hovedtanker, ikke som Anastas og Warners nummererte liste. Sjekk om læreboka forventer at elevene kan alle tolv med nummer."
-    ]
+    ],
+    "nivasjekk": "2026-09-29"
   }
 }

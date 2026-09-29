@@ -13,7 +13,8 @@
   "flashcards": [
     {
       "term": "Vigo.no",
-      "def": "Søknadsportalen for videregående opplæring i de fleste fylker."
+      "def": "Søknadsportalen for videregående opplæring i de fleste fylker.",
+      "niva": "eksempel"
     },
     {
       "term": "Ordinær søknadsfrist",
@@ -37,7 +38,8 @@
     },
     {
       "term": "Opptaksprøve",
-      "def": "Prøve som noen utdanningsprogram bruker ved inntak."
+      "def": "Prøve som noen utdanningsprogram bruker ved inntak.",
+      "niva": "eksempel"
     },
     {
       "term": "Inntak",
@@ -65,7 +67,8 @@
     },
     {
       "term": "SMART-mål",
-      "def": "Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt."
+      "def": "Mål som er spesifikt, målbart, akseptert, realistisk og tidsbestemt.",
+      "niva": "eksempel"
     },
     {
       "term": "Omvalg",
@@ -143,7 +146,8 @@
         "Naturbruk"
       ],
       "correct": 0,
-      "explain": "Opptaksprøver brukes for å vurdere ferdigheter i for eksempel musikk og dans."
+      "explain": "Opptaksprøver brukes for å vurdere ferdigheter i for eksempel musikk og dans.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -155,7 +159,8 @@
         "Jeg skal besøke to skoler før 1. februar"
       ],
       "correct": 3,
-      "explain": "Målet er spesifikt, målbart og tidsbestemt."
+      "explain": "Målet er spesifikt, målbart og tidsbestemt.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -388,7 +393,8 @@
         "kriterier": [
           "Forklarer at åpen dag gir mulighet til å besøke skoler og bli kjent med tilbudene.",
           "Forklarer at vilbli.no viser veier videre fra utdanningsprogrammene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -415,7 +421,8 @@
         "kriterier": [
           "Forklarer at grunnskolepoeng avgjør inntaket der det er flere søkere enn plasser.",
           "Nevner at noen utdanningsprogram også bruker opptaksprøver."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -430,6 +437,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

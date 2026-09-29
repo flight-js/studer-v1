@@ -17,7 +17,8 @@
     },
     {
       "term": "Mattilsynet",
-      "def": "Myndigheten som fører tilsyn med at maten er trygg."
+      "def": "Myndigheten som fører tilsyn med at maten er trygg.",
+      "niva": "eksempel"
     },
     {
       "term": "Personlig hygiene",
@@ -25,7 +26,8 @@
     },
     {
       "term": "Blått plaster",
-      "def": "Plaster som er lett å se hvis det faller i maten."
+      "def": "Plaster som er lett å se hvis det faller i maten.",
+      "niva": "eksempel"
     },
     {
       "term": "Krysskontaminering",
@@ -45,7 +47,8 @@
     },
     {
       "term": "Temperaturlogg",
-      "def": "Oversikt over målte temperaturer i kjøleskap og frysere."
+      "def": "Oversikt over målte temperaturer i kjøleskap og frysere.",
+      "niva": "eksempel"
     },
     {
       "term": "Best før",
@@ -69,7 +72,8 @@
     },
     {
       "term": "Restaurant- og matfag",
-      "def": "Yrkesfaglig utdanningsprogram for blant annet kokker og bakere."
+      "def": "Yrkesfaglig utdanningsprogram for blant annet kokker og bakere.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -107,7 +111,8 @@
         "Det er påbudt i alle yrker"
       ],
       "correct": 1,
-      "explain": "Få matvarer er blå, så plasteret skiller seg ut."
+      "explain": "Få matvarer er blå, så plasteret skiller seg ut.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -167,7 +172,8 @@
         "Kommunen"
       ],
       "correct": 1,
-      "explain": "Mattilsynet kontrollerer blant annet restauranter og butikker."
+      "explain": "Mattilsynet kontrollerer blant annet restauranter og butikker.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -340,7 +346,8 @@
           "For å telle kunder"
         ],
         "correct": 0,
-        "explain": "Loggen viser at mattryggheten blir fulgt opp."
+        "explain": "Loggen viser at mattryggheten blir fulgt opp.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -353,7 +360,8 @@
           "Tømrer"
         ],
         "correct": 2,
-        "explain": "Også kokker, servitører og slaktere utdannes her."
+        "explain": "Også kokker, servitører og slaktere utdannes her.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -433,6 +441,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

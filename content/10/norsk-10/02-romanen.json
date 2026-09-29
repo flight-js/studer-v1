@@ -25,7 +25,8 @@
     },
     {
       "term": "Samfunnsroman",
-      "def": "Viser og kritiserer forhold i samfunnet."
+      "def": "Viser og kritiserer forhold i samfunnet.",
+      "niva": "eksempel"
     },
     {
       "term": "Historisk roman",
@@ -33,7 +34,8 @@
     },
     {
       "term": "Selvbiografisk roman",
-      "def": "Bygger på forfatterens eget liv, men er skjønnlitteratur."
+      "def": "Bygger på forfatterens eget liv, men er skjønnlitteratur.",
+      "niva": "eksempel"
     },
     {
       "term": "Komposisjon",
@@ -179,7 +181,8 @@
         "Den er alltid morsom"
       ],
       "correct": 1,
-      "explain": "Samfunnsromanen bruker fiksjonen til å belyse samfunnsproblemer."
+      "explain": "Samfunnsromanen bruker fiksjonen til å belyse samfunnsproblemer.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -296,7 +299,8 @@
         "type": "sant-usant",
         "text": "En selvbiografisk roman er sakprosa.",
         "correct": false,
-        "explain": "Selv om den bygger på forfatterens liv, er den en roman og regnes som skjønnlitteratur."
+        "explain": "Selv om den bygger på forfatterens liv, er den en roman og regnes som skjønnlitteratur.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -376,7 +380,8 @@
         "kriterier": [
           "Knytter selvbiografisk roman til forfatterens eget liv og skjønnlitteratur.",
           "Knytter historisk roman til en tidligere tid og gjerne virkelige hendelser i bakgrunnen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -412,7 +417,8 @@
         "kriterier": [
           "Knytter samfunnsroman til å vise og kritisere samfunnsforhold.",
           "Knytter kriminalroman til spenning rundt en forbrytelse som skal oppklares."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -436,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

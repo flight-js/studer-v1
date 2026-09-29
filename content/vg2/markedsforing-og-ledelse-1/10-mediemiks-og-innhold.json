@@ -39,7 +39,8 @@
     },
     {
       "term": "Klikkrate",
-      "def": "Andelen som klikker på annonsen."
+      "def": "Andelen som klikker på annonsen.",
+      "niva": "eksempel"
     },
     {
       "term": "Konvertering",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Høydeformat",
-      "def": "Vertikal video tilpasset mobil og sosiale medier."
+      "def": "Vertikal video tilpasset mobil og sosiale medier.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -299,7 +301,8 @@
         "type": "sant-usant",
         "text": "Reklame skal alltid merkes tydelig som reklame.",
         "correct": true,
-        "explain": "Det krever markedsføringsloven."
+        "explain": "Det krever markedsføringsloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -426,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

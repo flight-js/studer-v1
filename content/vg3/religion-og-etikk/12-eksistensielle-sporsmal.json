@@ -15,7 +15,8 @@
     },
     {
       "term": "Irvin Yalom",
-      "def": "Psykiater som pekte på død, frihet, ensomhet og meningsløshet."
+      "def": "Psykiater som pekte på død, frihet, ensomhet og meningsløshet.",
+      "niva": "eksempel"
     },
     {
       "term": "Livets mening",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Sisyfos",
-      "def": "Mytisk figur som evig ruller en stein opp et fjell."
+      "def": "Mytisk figur som evig ruller en stein opp et fjell.",
+      "niva": "eksempel"
     },
     {
       "term": "Sorgritualer",
@@ -93,7 +95,8 @@
         "Arbeid, skole, familie og venner"
       ],
       "correct": 0,
-      "explain": "Alle mennesker må forholde seg til dem."
+      "explain": "Alle mennesker må forholde seg til dem.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +120,8 @@
         "At vi må forestille oss ham som lykkelig"
       ],
       "correct": 3,
-      "explain": "Mening i selve kampen."
+      "explain": "Mening i selve kampen.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -313,7 +317,8 @@
           "Tilfeldigheter"
         ],
         "correct": 1,
-        "explain": "Og slekten."
+        "explain": "Og slekten.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -339,7 +344,8 @@
           "Ingen"
         ],
         "correct": 2,
-        "explain": "Mangfold i ritualer."
+        "explain": "Mangfold i ritualer.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -359,7 +365,8 @@
         "kriterier": [
           "Får fram betydningen av livet her og nå og av å følge budene.",
           "Nevner fellesskapet eller slekten som viktig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -413,12 +420,14 @@
         "kriterier": [
           "Får fram at gravferder kan ha ulike former eller tilknytninger.",
           "Nevner minst to av mulighetene: kirkelig, humanistisk eller knyttet til et annet tros- eller livssynssamfunn."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

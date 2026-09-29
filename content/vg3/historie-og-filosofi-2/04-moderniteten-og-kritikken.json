@@ -15,11 +15,13 @@
     },
     {
       "term": "René Descartes",
-      "def": "Filosof som sa «jeg tenker, altså er jeg»."
+      "def": "Filosof som sa «jeg tenker, altså er jeg».",
+      "niva": "eksempel"
     },
     {
       "term": "Isaac Newton",
-      "def": "Viste at de samme naturlovene gjelder på jorda og i verdensrommet."
+      "def": "Viste at de samme naturlovene gjelder på jorda og i verdensrommet.",
+      "niva": "eksempel"
     },
     {
       "term": "Fremskrittstro",
@@ -31,7 +33,8 @@
     },
     {
       "term": "Verdens avfortryllelse",
-      "def": "Webers begrep om at verden forklares rasjonelt og det magiske trer tilbake."
+      "def": "Webers begrep om at verden forklares rasjonelt og det magiske trer tilbake.",
+      "niva": "eksempel"
     },
     {
       "term": "Romantikken",
@@ -43,7 +46,8 @@
     },
     {
       "term": "Opplysningens dialektikk",
-      "def": "Adorno og Horkheimers kritikk av moderniteten."
+      "def": "Adorno og Horkheimers kritikk av moderniteten.",
+      "niva": "eksempel"
     },
     {
       "term": "Postmodernisme",
@@ -51,7 +55,8 @@
     },
     {
       "term": "Jean-François Lyotard",
-      "def": "Skrev i 1979 om mistillit til de store fortellingene."
+      "def": "Skrev i 1979 om mistillit til de store fortellingene.",
+      "niva": "eksempel"
     },
     {
       "term": "De store fortellingene",
@@ -59,11 +64,13 @@
     },
     {
       "term": "Jürgen Habermas",
-      "def": "Kalte moderniteten et uferdig prosjekt."
+      "def": "Kalte moderniteten et uferdig prosjekt.",
+      "niva": "eksempel"
     },
     {
       "term": "Flytende modernitet",
-      "def": "Baumans begrep om en tid der identitet og relasjoner er mindre faste."
+      "def": "Baumans begrep om en tid der identitet og relasjoner er mindre faste.",
+      "niva": "eksempel"
     },
     {
       "term": "Postkolonial kritikk",
@@ -93,7 +100,8 @@
         "At fornuften forsvinner"
       ],
       "correct": 0,
-      "explain": "En følge av moderniseringen."
+      "explain": "En følge av moderniseringen.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +125,8 @@
         "At det har oppstått mistillit til dem"
       ],
       "correct": 3,
-      "explain": "Postmoderne kritikk."
+      "explain": "Postmoderne kritikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +138,8 @@
         "En myte"
       ],
       "correct": 0,
-      "explain": "Fornuften må brukes bedre."
+      "explain": "Fornuften må brukes bedre.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -165,7 +175,8 @@
         "«Jeg tenker, altså er jeg»"
       ],
       "correct": 3,
-      "explain": "Søken etter sikker kunnskap."
+      "explain": "Søken etter sikker kunnskap.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +200,8 @@
         "Middelalderen"
       ],
       "correct": 1,
-      "explain": "Zygmunt Baumans begrep."
+      "explain": "Zygmunt Baumans begrep.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -279,7 +291,8 @@
         "type": "sant-usant",
         "text": "Frankfurterskolen mente holocaust viste hvordan moderne byråkrati kunne brukes til massedrap.",
         "correct": true,
-        "explain": "Fornuften kan bli et redskap for undertrykkelse."
+        "explain": "Fornuften kan bli et redskap for undertrykkelse.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -300,7 +313,8 @@
         "type": "sant-usant",
         "text": "Habermas mente vi burde forlate fornuften.",
         "correct": false,
-        "explain": "Han mente vi må bruke den bedre."
+        "explain": "Han mente vi må bruke den bedre.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -313,7 +327,8 @@
           "Lyotard"
         ],
         "correct": 1,
-        "explain": "Viktig for den vitenskapelige revolusjonen."
+        "explain": "Viktig for den vitenskapelige revolusjonen.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -339,7 +354,8 @@
           "At den er for gammel"
         ],
         "correct": 2,
-        "explain": "Sekulariseringen har en pris."
+        "explain": "Sekulariseringen har en pris.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -359,7 +375,8 @@
         "kriterier": [
           "Forklarer at naturlovene gjelder på tvers av ulike deler av naturen.",
           "Knytter dette til en rasjonell, naturvitenskapelig forklaring av verden."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -396,7 +413,8 @@
         "kriterier": [
           "Knytter sekularisering til at religion får mindre sentral plass.",
           "Forklarer kritikken med et mulig tomrom av mening eller verdier."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -405,7 +423,8 @@
         "kriterier": [
           "Forklarer at det å tenke gir Descartes et sikkert utgangspunkt.",
           "Knytter dette til bruk av fornuft i søken etter kunnskap."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -414,12 +433,14 @@
         "kriterier": [
           "Viser at fornuften ikke bør forkastes, men brukes bedre.",
           "Nevner åpen dialog, demokrati eller kritikk som en måte å arbeide videre på."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

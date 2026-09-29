@@ -63,7 +63,8 @@
     },
     {
       "term": "Baneakselerasjon",
-      "def": "Akselerasjon langs banen når banefarten endres."
+      "def": "Akselerasjon langs banen når banefarten endres.",
+      "niva": "over-niva"
     },
     {
       "term": "Snordrag",
@@ -287,7 +288,8 @@
         "type": "sant-usant",
         "text": "Hvis banefarten endres, har akselerasjonen også en komponent langs banen.",
         "correct": true,
-        "explain": "Baneakselerasjon."
+        "explain": "Baneakselerasjon.",
+        "niva": "over-niva"
       },
       {
         "id": "m04",
@@ -353,7 +355,8 @@
         "kriterier": [
           "Får fram at banefarten er konstant ved jevn sirkelbevegelse, men endres ved ikke-jevn sirkelbevegelse.",
           "Skiller mellom akselerasjon inn mot sentrum og baneakselerasjon langs banen."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -413,6 +416,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

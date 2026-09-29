@@ -67,7 +67,8 @@
     },
     {
       "term": "Antropocen",
-      "def": "Foreslått epoke der mennesket er en geologisk kraft."
+      "def": "Foreslått epoke der mennesket er en geologisk kraft.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -117,7 +118,8 @@
         "Svovelpartikler i atmosfæren reflekterer sollys"
       ],
       "correct": 3,
-      "explain": "Effekten varer gjerne noen år."
+      "explain": "Effekten varer gjerne noen år.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -141,7 +143,8 @@
         "Gjennom landheving"
       ],
       "correct": 1,
-      "explain": "Kalkstein er et langsiktig karbonlager."
+      "explain": "Kalkstein er et langsiktig karbonlager.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +192,8 @@
         "En type bergart"
       ],
       "correct": 1,
-      "explain": "Mennesket er blitt en geologisk kraft."
+      "explain": "Mennesket er blitt en geologisk kraft.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -309,7 +313,8 @@
         "type": "sant-usant",
         "text": "Alle geologer er enige om at antropocen er en offisiell epoke.",
         "correct": false,
-        "explain": "Begrepet er omdiskutert."
+        "explain": "Begrepet er omdiskutert.",
+        "niva": "over-niva"
       },
       {
         "id": "m05",
@@ -428,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

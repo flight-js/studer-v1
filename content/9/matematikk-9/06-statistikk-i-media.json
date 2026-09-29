@@ -412,7 +412,8 @@
         "kriterier": [
           "Identifiserer at skalaen er ujevn.",
           "Forklarer at dette kan gi et feilaktig inntrykk av størrelsen på forskjellene."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -427,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

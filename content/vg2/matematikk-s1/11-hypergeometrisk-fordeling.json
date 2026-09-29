@@ -35,7 +35,8 @@
     },
     {
       "term": "2 jenter i komité på 4 (12 J, 8 G)",
-      "def": "66 · 28 / 4845 ≈ 0,381"
+      "def": "66 · 28 / 4845 ≈ 0,381",
+      "niva": "eksempel"
     },
     {
       "term": "C(20, 4)",
@@ -43,15 +44,18 @@
     },
     {
       "term": "Ingen defekte av 4 (5 defekte av 50)",
-      "def": "≈ 0,647"
+      "def": "≈ 0,647",
+      "niva": "eksempel"
     },
     {
       "term": "3 rette i Lotto",
-      "def": "≈ 0,114"
+      "def": "≈ 0,114",
+      "niva": "eksempel"
     },
     {
       "term": "7 rette i Lotto",
-      "def": "1 / 5 379 616"
+      "def": "1 / 5 379 616",
+      "niva": "eksempel"
     },
     {
       "term": "Forskjell fra binomisk",
@@ -63,11 +67,13 @@
     },
     {
       "term": "Tommelfingerregel",
-      "def": "Utvalget under omtrent 10 % av gruppen."
+      "def": "Utvalget under omtrent 10 % av gruppen.",
+      "niva": "over-niva"
     },
     {
       "term": "Fangst–gjenfangst",
-      "def": "Anvendelse i biologi for å anslå bestandsstørrelse."
+      "def": "Anvendelse i biologi for å anslå bestandsstørrelse.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +195,8 @@
         "Til å telle kromosomer"
       ],
       "correct": 1,
-      "explain": "Andelen merkede dyr i andre fangst."
+      "explain": "Andelen merkede dyr i andre fangst.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -389,7 +396,8 @@
         "kriterier": [
           "Regner ut at 4 av 50 er 8 %, og sammenligner med 10 %-regelen.",
           "Oppgir p = M/N = 5/50 = 0,1."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s07",
@@ -413,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

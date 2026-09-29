@@ -47,7 +47,8 @@
     },
     {
       "term": "Larvikitt",
-      "def": "Norges nasjonalbergart – en dypbergart."
+      "def": "Norges nasjonalbergart – en dypbergart.",
+      "niva": "eksempel"
     },
     {
       "term": "Sedimentær bergart",
@@ -320,7 +321,8 @@
           "Sandstein"
         ],
         "correct": 1,
-        "explain": "En dypbergart fra Vestfold."
+        "explain": "En dypbergart fra Vestfold.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -426,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

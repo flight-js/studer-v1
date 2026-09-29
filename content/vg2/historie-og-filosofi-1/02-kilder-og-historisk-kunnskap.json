@@ -56,11 +56,13 @@
     },
     {
       "term": "Sagaene",
-      "def": "Norrøne fortellinger skrevet ned 200–300 år etter hendelsene."
+      "def": "Norrøne fortellinger skrevet ned 200–300 år etter hendelsene.",
+      "niva": "eksempel"
     },
     {
       "term": "Snorre Sturlason",
-      "def": "Skrev kongesagaene rundt 1230."
+      "def": "Skrev kongesagaene rundt 1230.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturvitenskapelige spor",
@@ -130,7 +132,8 @@
         "1000 år"
       ],
       "correct": 0,
-      "explain": "Det gjør dem usikre som beretninger."
+      "explain": "Det gjør dem usikre som beretninger.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -178,7 +181,8 @@
         "Telefonintervjuer"
       ],
       "correct": 0,
-      "explain": "Naturvitenskapelige metoder."
+      "explain": "Naturvitenskapelige metoder.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -333,7 +337,8 @@
           "Rundt 1814"
         ],
         "correct": 0,
-        "explain": "Lenge etter vikingtiden."
+        "explain": "Lenge etter vikingtiden.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -426,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

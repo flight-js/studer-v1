@@ -286,7 +286,8 @@
         "type": "sant-usant",
         "text": "Omega-3 er en type umettet fett som finnes i fisk.",
         "correct": true,
-        "explain": "Omega-3 er viktig for blant annet hjertet og hjernen."
+        "explain": "Omega-3 er viktig for blant annet hjertet og hjernen.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -320,7 +321,8 @@
           "En reklame for et slankeprodukt"
         ],
         "correct": 1,
-        "explain": "Helsedirektoratet bygger rådene på samlet forskning."
+        "explain": "Helsedirektoratet bygger rådene på samlet forskning.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -425,6 +427,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

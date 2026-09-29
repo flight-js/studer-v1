@@ -27,7 +27,8 @@
     },
     {
       "term": "Troende påvirker",
-      "def": "Person som deler religiøst hverdagsliv i sosiale medier."
+      "def": "Person som deler religiøst hverdagsliv i sosiale medier.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekkokammer",
@@ -43,7 +44,8 @@
     },
     {
       "term": "Sana i Skam",
-      "def": "Muslimsk hovedperson i den norske serien Skam."
+      "def": "Muslimsk hovedperson i den norske serien Skam.",
+      "niva": "eksempel"
     },
     {
       "term": "Mytologi",
@@ -51,11 +53,13 @@
     },
     {
       "term": "Populærkultur som religion",
-      "def": "Når fans har nesten religiøse ritualer og hengivenhet."
+      "def": "Når fans har nesten religiøse ritualer og hengivenhet.",
+      "niva": "eksempel"
     },
     {
       "term": "Religiøse symboler i reklame",
-      "def": "Kan skape kontroverser."
+      "def": "Kan skape kontroverser.",
+      "niva": "eksempel"
     },
     {
       "term": "Mediekritikk",
@@ -117,7 +121,8 @@
         "En muslimsk hovedperson"
       ],
       "correct": 3,
-      "explain": "Mange unge kjente seg igjen i henne."
+      "explain": "Mange unge kjente seg igjen i henne.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +134,8 @@
         "At alle filmer handler om Gud"
       ],
       "correct": 0,
-      "explain": "For eksempel rundt idrett eller musikk."
+      "explain": "For eksempel rundt idrett eller musikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +147,8 @@
         "De bruker ikke sosiale medier"
       ],
       "correct": 1,
-      "explain": "En utfordring for samfunnet."
+      "explain": "En utfordring for samfunnet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +172,8 @@
         "Gjennom superheltfilmer og spill"
       ],
       "correct": 3,
-      "explain": "Mytologi i populærkulturen."
+      "explain": "Mytologi i populærkulturen.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +185,8 @@
         "At alle muslimer vises i hverdagen"
       ],
       "correct": 0,
-      "explain": "Kan skape stereotypier."
+      "explain": "Kan skape stereotypier.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -293,7 +302,8 @@
         "type": "sant-usant",
         "text": "Religiøse symboler i reklame kan skape kontroverser.",
         "correct": true,
-        "explain": "Noen opplever det som respektløst."
+        "explain": "Noen opplever det som respektløst.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -339,7 +349,8 @@
           "En julereklame for sko"
         ],
         "correct": 2,
-        "explain": "Religiøse aktører tar i bruk populærkulturens former."
+        "explain": "Religiøse aktører tar i bruk populærkulturens former.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -377,7 +388,8 @@
         "kriterier": [
           "Beskriver hva den troende påvirkeren deler.",
           "Beskriver hvordan trossamfunnet bruker video eller strømming, og får fram at begge kan nå mange direkte."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -386,7 +398,8 @@
         "kriterier": [
           "Plasserer de tre eksemplene i riktig kategori.",
           "Forklarer hovedforskjellen mellom kategoriene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -395,7 +408,8 @@
         "kriterier": [
           "Gir to ulike måter religion kan komme til uttrykk i musikk på.",
           "Knytter et relevant eksempel til hver måte."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -52,11 +52,13 @@
     },
     {
       "term": "Asynchronous communication",
-      "def": "Communication where people answer when it suits them, like email."
+      "def": "Communication where people answer when it suits them, like email.",
+      "niva": "over-niva"
     },
     {
       "term": "Synchronous communication",
-      "def": "Communication in real time, like a video call or a live chat."
+      "def": "Communication in real time, like a video call or a live chat.",
+      "niva": "over-niva"
     },
     {
       "term": "Non-verbal cues",
@@ -64,11 +66,13 @@
     },
     {
       "term": "Direct communication",
-      "def": "Saying exactly what you mean."
+      "def": "Saying exactly what you mean.",
+      "niva": "eksempel"
     },
     {
       "term": "Indirect communication",
-      "def": "Expressing yourself more carefully and politely, often with hints."
+      "def": "Expressing yourself more carefully and politely, often with hints.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -142,7 +146,8 @@
         "A phone call"
       ],
       "correct": 0,
-      "explain": "The other options happen in real time."
+      "explain": "The other options happen in real time.",
+      "niva": "over-niva"
     },
     {
       "id": "q07",
@@ -190,7 +195,8 @@
         "Direct means saying exactly what you mean, indirect means being more careful and polite"
       ],
       "correct": 3,
-      "explain": "Cultures often differ in how direct people are."
+      "explain": "Cultures often differ in how direct people are.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -417,7 +423,8 @@
         "kriterier": [
           "Identifies the first style as direct and the second as indirect, or explains the difference accurately.",
           "Explains how noticing the different styles can help avoid misunderstandings or improve understanding."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -432,6 +439,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

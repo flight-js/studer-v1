@@ -36,19 +36,23 @@
     },
     {
       "term": "Kvinnehistorie",
-      "def": "Historie som viser kvinner som aktive aktører."
+      "def": "Historie som viser kvinner som aktive aktører.",
+      "niva": "eksempel"
     },
     {
       "term": "Sannhetskommisjon",
-      "def": "Organ som lar ofre fortelle om urett som ble fortiet."
+      "def": "Organ som lar ofre fortelle om urett som ble fortiet.",
+      "niva": "eksempel"
     },
     {
       "term": "Retusjerte bilder",
-      "def": "Sovjetisk forfalskning der personer ble fjernet fra historien."
+      "def": "Sovjetisk forfalskning der personer ble fjernet fra historien.",
+      "niva": "eksempel"
     },
     {
       "term": "Folk uten historie",
-      "def": "Kolonimaktenes nedvurdering av de koloniserte."
+      "def": "Kolonimaktenes nedvurdering av de koloniserte.",
+      "niva": "eksempel"
     },
     {
       "term": "Historiebevissthet",
@@ -64,7 +68,8 @@
     },
     {
       "term": "Jødeparagrafen",
-      "def": "Grunnlovens forbud mot jøder fra 1814 til 1851."
+      "def": "Grunnlovens forbud mot jøder fra 1814 til 1851.",
+      "niva": "eksempel"
     },
     {
       "term": "Minnesmerke",
@@ -94,7 +99,8 @@
         "Kolonial nedvurdering"
       ],
       "correct": 0,
-      "explain": "Gir grupper stemme."
+      "explain": "Gir grupper stemme.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -106,7 +112,8 @@
         "Satte opp statuer"
       ],
       "correct": 2,
-      "explain": "Undertrykkende historiebruk."
+      "explain": "Undertrykkende historiebruk.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -142,7 +149,8 @@
         "Bygger museer"
       ],
       "correct": 1,
-      "explain": "Bidrar til forsoning."
+      "explain": "Bidrar til forsoning.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +162,8 @@
         "Som ledere"
       ],
       "correct": 2,
-      "explain": "Undertrykkende historiebruk."
+      "explain": "Undertrykkende historiebruk.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -178,7 +187,8 @@
         "1814 er glemt"
       ],
       "correct": 0,
-      "explain": "Endringen sier noe om vår tids verdier."
+      "explain": "Endringen sier noe om vår tids verdier.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -314,7 +324,8 @@
           "Vinnernes perspektiv"
         ],
         "correct": 1,
-        "explain": "Gir nye stemmer plass."
+        "explain": "Gir nye stemmer plass.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -327,7 +338,8 @@
           "Å kritisere seg selv"
         ],
         "correct": 0,
-        "explain": "Undertrykkende historiebruk."
+        "explain": "Undertrykkende historiebruk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -340,7 +352,8 @@
           "Forfalskende"
         ],
         "correct": 2,
-        "explain": "Bidrar også til forsoning."
+        "explain": "Bidrar også til forsoning.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +382,8 @@
         "kriterier": [
           "Knytter den oppdiktede fortellingen til rettferdiggjøring av erobring og folkemord.",
           "Forklarer at dette er undertrykkende historiebruk eller legitimering av overgrep."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -378,7 +392,8 @@
         "kriterier": [
           "Forklarer at kvinner vises som aktive aktører som har påvirket historien.",
           "Viser at dette endrer eller utvider hvem som får plass i historieframstillingen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -387,7 +402,8 @@
         "kriterier": [
           "Får fram at sannhetskommisjoner gir ofre mulighet til å fortelle om fortiet urett.",
           "Får fram at kolonimakter kunne nedvurdere koloniserte ved å framstille dem som folk «uten historie»."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -420,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -68,7 +68,8 @@
     },
     {
       "term": "Logaritmisk akse",
-      "def": "Gjør eksponentiell vekst til en rett linje."
+      "def": "Gjør eksponentiell vekst til en rett linje.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -154,7 +155,8 @@
         "Som en sirkel"
       ],
       "correct": 2,
-      "explain": "lg(a · bˣ) = lg a + x · lg b."
+      "explain": "lg(a · bˣ) = lg a + x · lg b.",
+      "niva": "over-niva"
     },
     {
       "id": "q08",
@@ -420,12 +422,14 @@
         "kriterier": [
           "Forklarer at halveringstid er tiden før mengden blir halvparten.",
           "Knytter bruk av logaritmer til å finne tiden ved eksponentiell avtagning."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

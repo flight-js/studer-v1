@@ -43,7 +43,8 @@
     },
     {
       "term": "Markus Aurelius",
-      "def": "Romersk keiser og stoisk filosof."
+      "def": "Romersk keiser og stoisk filosof.",
+      "niva": "eksempel"
     },
     {
       "term": "Eudaimonia",
@@ -67,7 +68,8 @@
     },
     {
       "term": "Valgets byrde",
-      "def": "Presset som følger av mange valgmuligheter."
+      "def": "Presset som følger av mange valgmuligheter.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -296,7 +298,8 @@
         "type": "sant-usant",
         "text": "Mange valgmuligheter kan også oppleves som et press.",
         "correct": true,
-        "explain": "Valgets byrde."
+        "explain": "Valgets byrde.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -329,7 +332,8 @@
           "Fascisme"
         ],
         "correct": 0,
-        "explain": "Gjennom skole og velferd."
+        "explain": "Gjennom skole og velferd.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -362,7 +366,8 @@
         "kriterier": [
           "Knytter liberal vektlegging til negativ frihet eller frihet fra tvang.",
           "Knytter sosialdemokratisk vektlegging til positiv frihet og reelle muligheter, gjerne gjennom skole eller velferd."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -416,12 +421,14 @@
         "kriterier": [
           "Forklarer at mange valgmuligheter kan skape press eller forventning om å velge riktig.",
           "Viser en spenning mellom frihet eller selvrealisering og fellesskap, ansvar eller ro."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

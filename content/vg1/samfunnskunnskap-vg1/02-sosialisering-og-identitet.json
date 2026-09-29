@@ -63,7 +63,8 @@
     },
     {
       "term": "Erving Goffman",
-      "def": "Sosiolog som beskrev hvordan vi presenterer oss for andre som på en scene."
+      "def": "Sosiolog som beskrev hvordan vi presenterer oss for andre som på en scene.",
+      "niva": "eksempel"
     },
     {
       "term": "Kroppspress",
@@ -141,7 +142,8 @@
         "Hvordan barn lærer språk"
       ],
       "correct": 1,
-      "explain": "Teorien brukes mye om sosiale medier."
+      "explain": "Teorien brukes mye om sosiale medier.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +167,8 @@
         "De viser mer av det man allerede liker og kan forsterke idealer"
       ],
       "correct": 3,
-      "explain": "Det kan for eksempel forsterke kroppspress."
+      "explain": "Det kan for eksempel forsterke kroppspress.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -189,7 +192,8 @@
         "Forbud mot sosiale medier"
       ],
       "correct": 1,
-      "explain": "Merkingen viser at bildet er endret."
+      "explain": "Merkingen viser at bildet er endret.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -392,7 +396,8 @@
         "kriterier": [
           "Forklarer at utvalget av bilder er en måte å presentere seg selv for andre på.",
           "Forklarer at innleggene kan føre til sammenligning med andres polerte liv."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -425,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

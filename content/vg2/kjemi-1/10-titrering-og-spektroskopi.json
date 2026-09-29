@@ -45,7 +45,8 @@
     },
     {
       "term": "Redokstitrering",
-      "def": "Titrering basert på en redoksreaksjon, for eksempel med kaliumpermanganat, som også er sin egen indikator."
+      "def": "Titrering basert på en redoksreaksjon, for eksempel med kaliumpermanganat, som også er sin egen indikator.",
+      "niva": "eksempel"
     },
     {
       "term": "Tilfeldig feil",
@@ -93,11 +94,13 @@
     },
     {
       "term": "IR-spektroskopi",
-      "def": "Metode som viser hvilke bindinger og funksjonelle grupper et molekyl har, ut fra hvilket infrarødt lys det absorberer."
+      "def": "Metode som viser hvilke bindinger og funksjonelle grupper et molekyl har, ut fra hvilket infrarødt lys det absorberer.",
+      "niva": "over-niva"
     },
     {
       "term": "Massespektrometri",
-      "def": "Metode der molekyler gjøres om til ioner og sorteres etter masse. Gir molekylmasse og informasjon om oppbygningen."
+      "def": "Metode der molekyler gjøres om til ioner og sorteres etter masse. Gir molekylmasse og informasjon om oppbygningen.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -195,7 +198,8 @@
         "Blå"
       ],
       "correct": 0,
-      "explain": "Natrium gir en sterk gul flamme. Kalium gir lilla og kobber grønn flamme."
+      "explain": "Natrium gir en sterk gul flamme. Kalium gir lilla og kobber grønn flamme.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -219,7 +223,8 @@
         "Å måle temperaturen i en reaksjon"
       ],
       "correct": 0,
-      "explain": "Ulike bindinger, som O–H og C=O, absorberer infrarødt lys ved ulike bølgelengder. Toppene i spekteret avslører derfor hvilke grupper som finnes."
+      "explain": "Ulike bindinger, som O–H og C=O, absorberer infrarødt lys ved ulike bølgelengder. Toppene i spekteret avslører derfor hvilke grupper som finnes.",
+      "niva": "over-niva"
     },
     {
       "id": "q11",
@@ -243,7 +248,8 @@
         "Å måle pH"
       ],
       "correct": 2,
-      "explain": "I et massespektrometer blir molekylene til ioner som sorteres etter masse. Det gir molekylmassen og et mønster av bruddstykker."
+      "explain": "I et massespektrometer blir molekylene til ioner som sorteres etter masse. Det gir molekylmassen og et mønster av bruddstykker.",
+      "niva": "over-niva"
     }
   ],
   "mindmap": {
@@ -454,7 +460,8 @@
         "type": "sant-usant",
         "text": "Kaliumpermanganat kan brukes i redokstitrering uten egen indikator, fordi det er sterkt fiolett.",
         "correct": true,
-        "explain": "Permanganat blir fargeløst når det reagerer. Når alt er reagert, gir første dråpe i overskudd en svak fiolett farge som viser endepunktet."
+        "explain": "Permanganat blir fargeløst når det reagerer. Når alt er reagert, gir første dråpe i overskudd en svak fiolett farge som viser endepunktet.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -510,7 +517,8 @@
         "kriterier": [
           "Skiller elektronoverføring i redokstitrering fra protonoverføring.",
           "Forklarer at kaliumpermanganat er fiolett og virker som sin egen indikator."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -519,7 +527,8 @@
         "kriterier": [
           "Knytter lilla flamme til kalium.",
           "Knytter grønn eller blågrønn flamme til kobber."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -534,6 +543,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

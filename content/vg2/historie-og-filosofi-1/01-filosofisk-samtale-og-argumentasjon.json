@@ -165,7 +165,8 @@
         "Sokrates"
       ],
       "correct": 3,
-      "explain": "Den sokratiske metoden."
+      "explain": "Den sokratiske metoden.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -419,6 +420,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

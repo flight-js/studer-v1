@@ -15,7 +15,8 @@
     },
     {
       "term": "Den fruktbare halvmåne",
-      "def": "Området i Midtøsten der jordbruket først oppsto."
+      "def": "Området i Midtøsten der jordbruket først oppsto.",
+      "niva": "eksempel"
     },
     {
       "term": "Overskudd av mat",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Teknologideterminisme",
-      "def": "Omstridt syn om at teknologien alene bestemmer samfunnsutviklingen."
+      "def": "Omstridt syn om at teknologien alene bestemmer samfunnsutviklingen.",
+      "niva": "over-niva"
     },
     {
       "term": "Vinnere og tapere",
@@ -165,7 +167,8 @@
         "Fordi også økonomiske interesser og ideer driver endringene"
       ],
       "correct": 3,
-      "explain": "Teknologien alene bestemmer ikke."
+      "explain": "Teknologien alene bestemmer ikke.",
+      "niva": "over-niva"
     },
     {
       "id": "q09",
@@ -289,7 +292,8 @@
         "type": "sant-usant",
         "text": "Jordbruket oppsto bare ett sted i verden.",
         "correct": false,
-        "explain": "Det oppsto uavhengig flere steder."
+        "explain": "Det oppsto uavhengig flere steder.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -422,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

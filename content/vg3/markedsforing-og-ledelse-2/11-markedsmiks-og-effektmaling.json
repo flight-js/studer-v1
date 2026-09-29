@@ -39,7 +39,8 @@
     },
     {
       "term": "CPA",
-      "def": "Kostnad per anskaffelse."
+      "def": "Kostnad per anskaffelse.",
+      "niva": "over-niva"
     },
     {
       "term": "Før- og ettermåling",
@@ -55,7 +56,8 @@
     },
     {
       "term": "NPS",
-      "def": "Net Promoter Score – sannsynligheten for at kunden anbefaler virksomheten."
+      "def": "Net Promoter Score – sannsynligheten for at kunden anbefaler virksomheten.",
+      "niva": "eksempel"
     },
     {
       "term": "ROI",
@@ -63,11 +65,13 @@
     },
     {
       "term": "ROAS",
-      "def": "Inntekter per krone brukt på annonser."
+      "def": "Inntekter per krone brukt på annonser.",
+      "niva": "over-niva"
     },
     {
       "term": "Attribusjon",
-      "def": "Hvilken kanal som får æren for et kjøp."
+      "def": "Hvilken kanal som får æren for et kjøp.",
+      "niva": "over-niva"
     }
   ],
   "quiz": [
@@ -129,7 +133,8 @@
         "En lov"
       ],
       "correct": 0,
-      "explain": "Net Promoter Score."
+      "explain": "Net Promoter Score.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +182,8 @@
         "Kjennskap"
       ],
       "correct": 0,
-      "explain": "Return on ad spend."
+      "explain": "Return on ad spend.",
+      "niva": "over-niva"
     },
     {
       "id": "q10",
@@ -342,7 +348,8 @@
           "Rekruttering"
         ],
         "correct": 2,
-        "explain": "Kunden møter ofte flere kanaler."
+        "explain": "Kunden møter ofte flere kanaler.",
+        "niva": "over-niva"
       }
     ],
     "skriv": [
@@ -389,7 +396,8 @@
         "kriterier": [
           "Forklarer at CTR handler om andelen som klikker.",
           "Forklarer at CPA handler om kostnaden per anskaffelse."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s06",
@@ -407,7 +415,8 @@
         "kriterier": [
           "Forklarer at flere kanaler kan ha bidratt før kjøpet.",
           "Knytter usikkerheten om hvilken kanal som får æren, til attribusjon."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -416,12 +425,14 @@
         "kriterier": [
           "Forklarer at ROI sammenligner avkastning med kostnad.",
           "Forklarer at ROAS viser inntekter per krone brukt på annonser."
-        ]
+        ],
+        "niva": "over-niva"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

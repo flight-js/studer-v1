@@ -59,15 +59,18 @@
     },
     {
       "term": "Superposisjon",
-      "def": "Et kvanteobjekt kan være i flere tilstander samtidig."
+      "def": "Et kvanteobjekt kan være i flere tilstander samtidig.",
+      "niva": "eksempel"
     },
     {
       "term": "Sammenfiltring",
-      "def": "Partikler med koblede egenskaper selv over lange avstander."
+      "def": "Partikler med koblede egenskaper selv over lange avstander.",
+      "niva": "eksempel"
     },
     {
       "term": "Kvantebit",
-      "def": "Grunnenhet i en kvantedatamaskin som kan være i superposisjon."
+      "def": "Grunnenhet i en kvantedatamaskin som kan være i superposisjon.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -189,7 +192,8 @@
         "Laseren"
       ],
       "correct": 1,
-      "explain": "Grunnlag for kvanteteknologi."
+      "explain": "Grunnlag for kvanteteknologi.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -339,7 +343,8 @@
           "Være større"
         ],
         "correct": 2,
-        "explain": "Grunnlaget for kvantedatamaskiner."
+        "explain": "Grunnlaget for kvantedatamaskiner.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -377,7 +382,8 @@
         "kriterier": [
           "Forklarer superposisjon som flere mulige tilstander for ett kvanteobjekt samtidig.",
           "Forklarer sammenfiltring som koblede egenskaper hos partikler, også over lange avstander."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -395,7 +401,8 @@
         "kriterier": [
           "Forklarer at fotoner brukes til å frigjøre elektroner.",
           "Knytter frigjøringen til energien fra fotonene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -419,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

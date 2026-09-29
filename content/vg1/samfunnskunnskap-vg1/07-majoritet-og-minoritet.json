@@ -23,11 +23,13 @@
     },
     {
       "term": "Duodji",
-      "def": "Samisk håndverk."
+      "def": "Samisk håndverk.",
+      "niva": "eksempel"
     },
     {
       "term": "Joik",
-      "def": "Tradisjonell samisk sangform."
+      "def": "Tradisjonell samisk sangform.",
+      "niva": "eksempel"
     },
     {
       "term": "Nasjonale minoriteter",
@@ -35,11 +37,13 @@
     },
     {
       "term": "Kvener/norskfinner",
-      "def": "Nasjonal minoritet med finsk opprinnelse, særlig i Nord-Norge."
+      "def": "Nasjonal minoritet med finsk opprinnelse, særlig i Nord-Norge.",
+      "niva": "eksempel"
     },
     {
       "term": "Romanifolk/tatere",
-      "def": "Nasjonal minoritet som ble utsatt for blant annet tvangssterilisering."
+      "def": "Nasjonal minoritet som ble utsatt for blant annet tvangssterilisering.",
+      "niva": "eksempel"
     },
     {
       "term": "Innvandrer",
@@ -67,7 +71,8 @@
     },
     {
       "term": "6. februar",
-      "def": "Samenes nasjonaldag."
+      "def": "Samenes nasjonaldag.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +98,8 @@
         "Polakker"
       ],
       "correct": 0,
-      "explain": "De fem nasjonale minoritetene er jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere."
+      "explain": "De fem nasjonale minoritetene er jøder, kvener/norskfinner, skogfinner, rom og romanifolk/tatere.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +123,8 @@
         "Samisk håndverk"
       ],
       "correct": 3,
-      "explain": "Duodji er en viktig del av samisk kultur."
+      "explain": "Duodji er en viktig del av samisk kultur.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +136,8 @@
         "Egen stat"
       ],
       "correct": 0,
-      "explain": "Staten har senere beklaget overgrepene."
+      "explain": "Staten har senere beklaget overgrepene.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -302,7 +310,8 @@
         "type": "sant-usant",
         "text": "Norske jøder ble deportert under andre verdenskrig.",
         "correct": true,
-        "explain": "Mange ble drept i Auschwitz."
+        "explain": "Mange ble drept i Auschwitz.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -322,7 +331,8 @@
           "1. mai"
         ],
         "correct": 1,
-        "explain": "Den minner om det første samiske landsmøtet i 1917."
+        "explain": "Den minner om det første samiske landsmøtet i 1917.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -402,7 +412,8 @@
         "fasit": "Eksempler er Sametinget, Grunnloven § 108 og retten til opplæring i samisk. To av disse viser hvordan samiske rettigheter er blitt styrket.",
         "kriterier": [
           "Nevner minst to av disse: Sametinget, Grunnloven § 108 eller rett til opplæring i samisk."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -420,12 +431,14 @@
         "kriterier": [
           "Oppgir datoen 6. februar.",
           "Knytter datoen til samenes nasjonaldag."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

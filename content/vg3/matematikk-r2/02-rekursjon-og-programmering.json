@@ -27,7 +27,8 @@
     },
     {
       "term": "Det gylne snitt",
-      "def": "(1 + √5)/2 ≈ 1,618."
+      "def": "(1 + √5)/2 ≈ 1,618.",
+      "niva": "eksempel"
     },
     {
       "term": "Restgjeld rekursivt",
@@ -59,11 +60,13 @@
     },
     {
       "term": "n!",
-      "def": "n · (n − 1) · … · 1, med 0! = 1."
+      "def": "n · (n − 1) · … · 1, med 0! = 1.",
+      "niva": "eksempel"
     },
     {
       "term": "Memoisering",
-      "def": "Å lagre tidligere svar så de ikke regnes ut igjen."
+      "def": "Å lagre tidligere svar så de ikke regnes ut igjen.",
+      "niva": "over-niva"
     },
     {
       "term": "Liste i Python",
@@ -141,7 +144,8 @@
         "1"
       ],
       "correct": 1,
-      "explain": "(1 + √5)/2."
+      "explain": "(1 + √5)/2.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +157,8 @@
         "16"
       ],
       "correct": 2,
-      "explain": "4 · 3 · 2 · 1."
+      "explain": "4 · 3 · 2 · 1.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +170,8 @@
         "Fordi de samme leddene regnes ut om og om igjen"
       ],
       "correct": 3,
-      "explain": "Løses med løkke eller memoisering."
+      "explain": "Løses med løkke eller memoisering.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -289,7 +295,8 @@
         "type": "sant-usant",
         "text": "0! er lik 0.",
         "correct": false,
-        "explain": "0! er definert som 1."
+        "explain": "0! er definert som 1.",
+        "niva": "eksempel"
       },
       {
         "id": "m03",
@@ -422,6 +429,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

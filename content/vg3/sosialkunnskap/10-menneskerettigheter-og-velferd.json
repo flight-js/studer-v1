@@ -27,15 +27,18 @@
     },
     {
       "term": "Grunnloven § 104",
-      "def": "Barnets beste og barns rett til å bli hørt."
+      "def": "Barnets beste og barns rett til å bli hørt.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven § 109",
-      "def": "Rett til utdanning."
+      "def": "Rett til utdanning.",
+      "niva": "eksempel"
     },
     {
       "term": "Grunnloven § 110",
-      "def": "Rett til arbeid eller støtte."
+      "def": "Rett til arbeid eller støtte.",
+      "niva": "eksempel"
     },
     {
       "term": "Barnets beste",
@@ -51,15 +54,18 @@
     },
     {
       "term": "Barneombudet",
-      "def": "Skal fremme barns interesser."
+      "def": "Skal fremme barns interesser.",
+      "niva": "eksempel"
     },
     {
       "term": "NIM",
-      "def": "Norges institusjon for menneskerettigheter."
+      "def": "Norges institusjon for menneskerettigheter.",
+      "niva": "eksempel"
     },
     {
       "term": "Diskrimineringsnemnda",
-      "def": "Behandler klager om diskriminering."
+      "def": "Behandler klager om diskriminering.",
+      "niva": "eksempel"
     },
     {
       "term": "FN-komiteer",
@@ -93,7 +99,8 @@
         "At skolen er gratis"
       ],
       "correct": 0,
-      "explain": "Og at barn har rett til å bli hørt."
+      "explain": "Og at barn har rett til å bli hørt.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -117,7 +124,8 @@
         "Norges institusjon for menneskerettigheter"
       ],
       "correct": 3,
-      "explain": "NIM."
+      "explain": "NIM.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +137,8 @@
         "Fiskeri"
       ],
       "correct": 0,
-      "explain": "Retten til familieliv."
+      "explain": "Retten til familieliv.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -189,7 +198,8 @@
         "Politiet alene"
       ],
       "correct": 1,
-      "explain": "Etter veiledning fra ombudet."
+      "explain": "Etter veiledning fra ombudet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -299,7 +309,8 @@
         "type": "sant-usant",
         "text": "Grunnloven § 110 handler om retten til arbeid eller støtte.",
         "correct": true,
-        "explain": "Staten skal legge til rette."
+        "explain": "Staten skal legge til rette.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -319,7 +330,8 @@
           "Utbetaler barnetrygd"
         ],
         "correct": 1,
-        "explain": "Et talerør for barn."
+        "explain": "Et talerør for barn.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -345,7 +357,8 @@
           "Tolloven"
         ],
         "correct": 2,
-        "explain": "Også barneloven og opplæringsloven."
+        "explain": "Også barneloven og opplæringsloven.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -383,7 +396,8 @@
         "kriterier": [
           "Får fram at staten skal legge til rette for at folk kan forsørge seg gjennom arbeid.",
           "Får fram at personer som ikke kan forsørge seg slik, har rett til støtte."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -401,7 +415,8 @@
         "kriterier": [
           "Beskriver NIMs rolle med å overvåke menneskerettigheter og gi råd.",
           "Beskriver Sivilombudets rolle med å kontrollere forvaltningen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -425,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

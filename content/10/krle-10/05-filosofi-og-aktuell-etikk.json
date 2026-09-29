@@ -11,51 +11,63 @@
   "flashcards": [
     {
       "term": "Sokrates",
-      "def": "Gresk filosof som stilte spørsmål for å få folk til å tenke selv."
+      "def": "Gresk filosof som stilte spørsmål for å få folk til å tenke selv.",
+      "niva": "eksempel"
     },
     {
       "term": "«Et uransaket liv er ikke verdt å leve»",
-      "def": "Sokrates' tanke om at vi må tenke over hvordan vi lever."
+      "def": "Sokrates' tanke om at vi må tenke over hvordan vi lever.",
+      "niva": "eksempel"
     },
     {
       "term": "Platon",
-      "def": "Sokrates' elev, som mente det finnes et evig og uforanderlig gode."
+      "def": "Sokrates' elev, som mente det finnes et evig og uforanderlig gode.",
+      "niva": "eksempel"
     },
     {
       "term": "Aristoteles og lykke",
-      "def": "Målet med livet er et godt og meningsfullt liv, nådd gjennom dyder."
+      "def": "Målet med livet er et godt og meningsfullt liv, nådd gjennom dyder.",
+      "niva": "eksempel"
     },
     {
       "term": "Epikur",
-      "def": "Mente at lykke er fravær av smerte og uro."
+      "def": "Mente at lykke er fravær av smerte og uro.",
+      "niva": "eksempel"
     },
     {
       "term": "Kant og menneskeverd",
-      "def": "Mennesker skal behandles som mål i seg selv, aldri bare som middel."
+      "def": "Mennesker skal behandles som mål i seg selv, aldri bare som middel.",
+      "niva": "eksempel"
     },
     {
       "term": "Skadeprinsippet",
-      "def": "Mills prinsipp: Friheten bør bare begrenses for å hindre skade på andre."
+      "def": "Mills prinsipp: Friheten bør bare begrenses for å hindre skade på andre.",
+      "niva": "eksempel"
     },
     {
       "term": "Hannah Arendt",
-      "def": "Filosof som skrev om ondskapens banalitet etter Eichmann-rettssaken."
+      "def": "Filosof som skrev om ondskapens banalitet etter Eichmann-rettssaken.",
+      "niva": "eksempel"
     },
     {
       "term": "Ondskapens banalitet",
-      "def": "At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv."
+      "def": "At vanlige mennesker kan gjøre store forbrytelser ved å slutte å tenke selv.",
+      "niva": "eksempel"
     },
     {
       "term": "K.E. Løgstrup",
-      "def": "Dansk filosof som skrev om den etiske fordring."
+      "def": "Dansk filosof som skrev om den etiske fordring.",
+      "niva": "eksempel"
     },
     {
       "term": "Den etiske fordring",
-      "def": "Vi har alltid noe av et annet menneskes liv i våre hender."
+      "def": "Vi har alltid noe av et annet menneskes liv i våre hender.",
+      "niva": "eksempel"
     },
     {
       "term": "Peter Singer",
-      "def": "Filosof som mener dyrs lidelse teller, og at rike har plikt til å hjelpe fattige."
+      "def": "Filosof som mener dyrs lidelse teller, og at rike har plikt til å hjelpe fattige.",
+      "niva": "eksempel"
     },
     {
       "term": "Dyreetikk",
@@ -81,7 +93,8 @@
         "Han bygde templer"
       ],
       "correct": 0,
-      "explain": "Det vi vet om Sokrates, kommer i stor grad fra eleven Platon."
+      "explain": "Det vi vet om Sokrates, kommer i stor grad fra eleven Platon.",
+      "niva": "eksempel"
     },
     {
       "id": "q02",
@@ -93,7 +106,8 @@
         "At staten bare bør begrense friheten for å hindre skade på andre"
       ],
       "correct": 3,
-      "explain": "Prinsippet brukes ofte i debatter om forbud og frihet."
+      "explain": "Prinsippet brukes ofte i debatter om forbud og frihet.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +119,8 @@
         "At ondskap er morsomt"
       ],
       "correct": 2,
-      "explain": "Arendt mente Eichmann ikke var et monster, men en byråkrat som fulgte ordre."
+      "explain": "Arendt mente Eichmann ikke var et monster, men en byråkrat som fulgte ordre.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +132,8 @@
         "At dyr er viktigere enn mennesker"
       ],
       "correct": 1,
-      "explain": "Møtet med et annet menneske gir oss ansvar."
+      "explain": "Møtet med et annet menneske gir oss ansvar.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +145,8 @@
         "Fravær av smerte og uro"
       ],
       "correct": 3,
-      "explain": "Epikur anbefalte vennskap og enkle gleder."
+      "explain": "Epikur anbefalte vennskap og enkle gleder.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +158,8 @@
         "Sokrates"
       ],
       "correct": 0,
-      "explain": "Singer er en av de mest kjente dyreetikerne."
+      "explain": "Singer er en av de mest kjente dyreetikerne.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -177,7 +195,8 @@
         "Til å kreve at mennesker aldri bare behandles som data"
       ],
       "correct": 3,
-      "explain": "Kants tanke om menneskeverd kan brukes som et krav til teknologien."
+      "explain": "Kants tanke om menneskeverd kan brukes som et krav til teknologien.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +208,8 @@
         "Å klare seg uten andre"
       ],
       "correct": 2,
-      "explain": "Aristoteles mente vi når lykke ved å utvikle gode dyder."
+      "explain": "Aristoteles mente vi når lykke ved å utvikle gode dyder.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -292,7 +312,8 @@
         "type": "sant-usant",
         "text": "Sokrates mente at det er bedre å lide urett enn å gjøre urett.",
         "correct": true,
-        "explain": "Tanken er kjent fra Platons dialoger."
+        "explain": "Tanken er kjent fra Platons dialoger.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -306,14 +327,16 @@
         "type": "sant-usant",
         "text": "Hannah Arendt fulgte rettssaken mot Adolf Eichmann.",
         "correct": true,
-        "explain": "Rettssaken ble holdt i Jerusalem i 1961."
+        "explain": "Rettssaken ble holdt i Jerusalem i 1961.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
         "type": "sant-usant",
         "text": "Løgstrup mente at vi ikke har ansvar for andre mennesker.",
         "correct": false,
-        "explain": "Løgstrup mente tvert imot at møtet med den andre gir oss ansvar."
+        "explain": "Løgstrup mente tvert imot at møtet med den andre gir oss ansvar.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -326,7 +349,8 @@
           "Singer"
         ],
         "correct": 1,
-        "explain": "Platon skrev ned mange samtaler med Sokrates."
+        "explain": "Platon skrev ned mange samtaler med Sokrates.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -363,7 +387,8 @@
         "kriterier": [
           "Knytter klokskap til forståelse av det gode.",
           "Forklarer at dette kan hjelpe lederne å styre rettferdig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -372,7 +397,8 @@
         "kriterier": [
           "Viser at eleven bør undersøke eller tenke gjennom egne handlinger.",
           "Knytter dette til å ta et gjennomtenkt valg om unnskyldning."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -381,7 +407,8 @@
         "kriterier": [
           "Beskriver Aristoteles’ lykke som et godt og meningsfullt liv knyttet til dyder.",
           "Beskriver Epikurs lykke som fravær av smerte og uro, eller trekker fram hans vekt på enkle gleder og måtehold."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -390,7 +417,8 @@
         "kriterier": [
           "Forklarer at medelevens arbeid eller person blir brukt bare for elevens egen fordel.",
           "Foreslår å respektere medelevens valg, for eksempel ved å spørre først."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -399,7 +427,8 @@
         "kriterier": [
           "Får fram at Singer mener rike har plikt til å hjelpe fattige.",
           "Knytter plikten til at andre mennesker trenger hjelp."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -417,7 +446,8 @@
         "kriterier": [
           "Knytter Løgstrups etiske fordring til ansvar for andre mennesker.",
           "Forklarer at framtidige generasjoner blir berørt av utslipp, slik at konsekvensene gir grunn til å kutte dem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -426,12 +456,14 @@
         "kriterier": [
           "Knytter situasjonen til at mennesker kan gjøre alvorlig skade ved å slutte å tenke selv og bare følge ordre.",
           "Foreslår at personen tenker selv eller vurderer handlingens konsekvenser før hen handler."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

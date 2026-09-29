@@ -43,7 +43,8 @@
     },
     {
       "term": "Europeisk projeksjonsmetode",
-      "def": "Plassering av riss brukt i Norge og Europa."
+      "def": "Plassering av riss brukt i Norge og Europa.",
+      "niva": "eksempel"
     },
     {
       "term": "Målestokk 1 : 2",
@@ -51,11 +52,13 @@
     },
     {
       "term": "Tegningshode",
-      "def": "Felt med navn, dato, materiale og målestokk."
+      "def": "Felt med navn, dato, materiale og målestokk.",
+      "niva": "eksempel"
     },
     {
       "term": "DAK",
-      "def": "Dataassistert konstruksjon."
+      "def": "Dataassistert konstruksjon.",
+      "niva": "eksempel"
     },
     {
       "term": "Prototype",
@@ -67,7 +70,8 @@
     },
     {
       "term": "Prosjektlogg",
-      "def": "Dokumentasjon av valg, problemer og resultater."
+      "def": "Dokumentasjon av valg, problemer og resultater.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +157,8 @@
         "En sensor"
       ],
       "correct": 2,
-      "explain": "Programmer som Fusion 360 og Tinkercad."
+      "explain": "Programmer som Fusion 360 og Tinkercad.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +194,8 @@
         "Å lage tegningshodet"
       ],
       "correct": 1,
-      "explain": "Gjerne med koblingsbrett og mikrokontroller."
+      "explain": "Gjerne med koblingsbrett og mikrokontroller.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -296,7 +302,8 @@
         "type": "sant-usant",
         "text": "Fra DAK-programmer kan deler sendes direkte til en 3D-printer.",
         "correct": true,
-        "explain": "Det gjør prototyping raskere."
+        "explain": "Det gjør prototyping raskere.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -329,7 +336,8 @@
           "Kravspesifikasjonen"
         ],
         "correct": 0,
-        "explain": "Formell informasjon om tegningen."
+        "explain": "Formell informasjon om tegningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -342,7 +350,8 @@
           "For å slippe tegninger"
         ],
         "correct": 2,
-        "explain": "Valg og resultater dokumenteres."
+        "explain": "Valg og resultater dokumenteres.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -407,7 +416,8 @@
         "kriterier": [
           "Velger en skissemodell.",
           "Knytter skissemodellen til testing av form og størrelse."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +426,14 @@
         "kriterier": [
           "Forklarer at loggen dokumenterer arbeidet slik at det kan etterprøves.",
           "Forklarer at informasjonen kan brukes i senere forbedring."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

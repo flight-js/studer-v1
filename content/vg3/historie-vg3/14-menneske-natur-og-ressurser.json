@@ -27,39 +27,48 @@
     },
     {
       "term": "Sildekollapsen",
-      "def": "Den norske vårgytende silda nesten forsvant på slutten av 1960-tallet."
+      "def": "Den norske vårgytende silda nesten forsvant på slutten av 1960-tallet.",
+      "niva": "eksempel"
     },
     {
       "term": "Sur nedbør",
-      "def": "Nedbør forurenset av industriutslipp som drepte fisk på Sørlandet."
+      "def": "Nedbør forurenset av industriutslipp som drepte fisk på Sørlandet.",
+      "niva": "eksempel"
     },
     {
       "term": "Ekofisk",
-      "def": "Oljefeltet som ble funnet i 1969."
+      "def": "Oljefeltet som ble funnet i 1969.",
+      "niva": "eksempel"
     },
     {
       "term": "Bravo-utblåsningen",
-      "def": "Oljeutslipp i Nordsjøen i 1977."
+      "def": "Oljeutslipp i Nordsjøen i 1977.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturvernloven",
-      "def": "Lov fra 1970 om vern av natur."
+      "def": "Lov fra 1970 om vern av natur.",
+      "niva": "eksempel"
     },
     {
       "term": "Mardøla-aksjonen",
-      "def": "Miljøaksjon i 1970 mot utbygging av en foss."
+      "def": "Miljøaksjon i 1970 mot utbygging av en foss.",
+      "niva": "eksempel"
     },
     {
       "term": "Miljøverndepartementet",
-      "def": "Opprettet i 1972."
+      "def": "Opprettet i 1972.",
+      "niva": "eksempel"
     },
     {
       "term": "Vår felles framtid",
-      "def": "Brundtland-kommisjonens rapport fra 1987."
+      "def": "Brundtland-kommisjonens rapport fra 1987.",
+      "niva": "eksempel"
     },
     {
       "term": "Montrealprotokollen",
-      "def": "Avtale fra 1987 som forbød stoffer som ødela ozonlaget."
+      "def": "Avtale fra 1987 som forbød stoffer som ødela ozonlaget.",
+      "niva": "eksempel"
     },
     {
       "term": "Fredning",
@@ -67,7 +76,8 @@
     },
     {
       "term": "Tradisjonell kunnskap",
-      "def": "Erfaringsbasert kunnskap om naturen, for eksempel samisk."
+      "def": "Erfaringsbasert kunnskap om naturen, for eksempel samisk.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +103,8 @@
         "Den ble fredet for alltid"
       ],
       "correct": 0,
-      "explain": "Kom tilbake etter strenge reguleringer."
+      "explain": "Kom tilbake etter strenge reguleringer.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +116,8 @@
         "Bedre avlinger"
       ],
       "correct": 2,
-      "explain": "Utslipp fra industri i andre land."
+      "explain": "Utslipp fra industri i andre land.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +129,8 @@
         "1969"
       ],
       "correct": 3,
-      "explain": "Norge ble en oljenasjon."
+      "explain": "Norge ble en oljenasjon.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +142,8 @@
         "Kullkraft"
       ],
       "correct": 0,
-      "explain": "Et eksempel på vellykket samarbeid."
+      "explain": "Et eksempel på vellykket samarbeid.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +155,8 @@
         "Gruvedrift"
       ],
       "correct": 1,
-      "explain": "En av de første store miljøaksjonene."
+      "explain": "En av de første store miljøaksjonene.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +168,8 @@
         "Oljefondet"
       ],
       "correct": 2,
-      "explain": "I rapporten Vår felles framtid."
+      "explain": "I rapporten Vår felles framtid.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +205,8 @@
         "Sur nedbør"
       ],
       "correct": 1,
-      "explain": "1979–1981."
+      "explain": "1979–1981.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -285,7 +302,8 @@
         "type": "sant-usant",
         "text": "Ozonlaget er i ferd med å reparere seg etter Montrealprotokollen.",
         "correct": true,
-        "explain": "Et eksempel på at samarbeid virker."
+        "explain": "Et eksempel på at samarbeid virker.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -306,7 +324,8 @@
         "type": "sant-usant",
         "text": "Norge fikk eget miljøverndepartement først i 2000.",
         "correct": false,
-        "explain": "Det kom i 1972."
+        "explain": "Det kom i 1972.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -319,7 +338,8 @@
           "Vågehval"
         ],
         "correct": 1,
-        "explain": "Hvalfangsten på 1900-tallet."
+        "explain": "Hvalfangsten på 1900-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +352,8 @@
           "At olje ikke forurenser"
         ],
         "correct": 0,
-        "explain": "En ulykke i Nordsjøen."
+        "explain": "En ulykke i Nordsjøen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -345,7 +366,8 @@
           "At reindrift er ny"
         ],
         "correct": 2,
-        "explain": "Viktig i samtaler om bærekraft."
+        "explain": "Viktig i samtaler om bærekraft.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -365,7 +387,8 @@
         "kriterier": [
           "Beskriver at jegere og sankere levde av naturens ressurser og flyttet etter dyr eller årstider.",
           "Beskriver samisk reindrift eller tradisjonell kunnskap som erfaringsbasert bruk av naturen over lang tid uten å tømme den."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -383,7 +406,8 @@
         "kriterier": [
           "Bruker Lofotfisket som eksempel på fiske langs kysten.",
           "Forklarer at tilgang til fiske kunne være grunnlag for bosetting."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -425,6 +449,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

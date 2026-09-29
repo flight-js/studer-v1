@@ -15,7 +15,8 @@
     },
     {
       "term": "Alexander Fleming",
-      "def": "Oppdaget penicillin i 1928."
+      "def": "Oppdaget penicillin i 1928.",
+      "niva": "eksempel"
     },
     {
       "term": "Selektiv toksisitet",
@@ -47,7 +48,8 @@
     },
     {
       "term": "Konjugasjon",
-      "def": "Overføring av plasmider mellom bakterier."
+      "def": "Overføring av plasmider mellom bakterier.",
+      "niva": "eksempel"
     },
     {
       "term": "Seleksjon",
@@ -55,7 +57,8 @@
     },
     {
       "term": "MRSA",
-      "def": "Meticillinresistente gule stafylokokker."
+      "def": "Meticillinresistente gule stafylokokker.",
+      "niva": "eksempel"
     },
     {
       "term": "Multiresistent bakterie",
@@ -63,7 +66,8 @@
     },
     {
       "term": "Bakteriofag",
-      "def": "Virus som angriper bakterier – mulig alternativ til antibiotika."
+      "def": "Virus som angriper bakterier – mulig alternativ til antibiotika.",
+      "niva": "eksempel"
     },
     {
       "term": "Antibiotika mot virus",
@@ -129,7 +133,8 @@
         "Robert Koch"
       ],
       "correct": 0,
-      "explain": "I 1928."
+      "explain": "I 1928.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +146,8 @@
         "En vaksine"
       ],
       "correct": 1,
-      "explain": "Motstandsdyktig mot flere antibiotika."
+      "explain": "Motstandsdyktig mot flere antibiotika.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -165,7 +171,8 @@
         "Operasjoner og kreftbehandling"
       ],
       "correct": 3,
-      "explain": "De krever ofte forebygging og behandling av infeksjoner."
+      "explain": "De krever ofte forebygging og behandling av infeksjoner.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -302,7 +309,8 @@
         "type": "sant-usant",
         "text": "Norge har lav forekomst av resistente bakterier sammenlignet med mange land.",
         "correct": true,
-        "explain": "Blant annet på grunn av forsiktig bruk."
+        "explain": "Blant annet på grunn av forsiktig bruk.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -335,7 +343,8 @@
           "Laks tåler ikke antibiotika"
         ],
         "correct": 0,
-        "explain": "Vaksinering av oppdrettsfisk."
+        "explain": "Vaksinering av oppdrettsfisk.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -348,7 +357,8 @@
           "Et antibiotikum fra sopp"
         ],
         "correct": 2,
-        "explain": "Mulig alternativ behandling."
+        "explain": "Mulig alternativ behandling.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -369,7 +379,8 @@
           "Beskriver riktig at A hemmer ribosomer og proteinsyntese.",
           "Beskriver riktig at B hindrer kopiering av DNA.",
           "Får fram at begge forstyrrer bakterienes prosesser og kan hemme vekst."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s03",
@@ -406,7 +417,8 @@
         "kriterier": [
           "Forklarer at bakteriofager er virus som angriper bakterier.",
           "Knytter dette til at de kan være et mulig alternativ til antibiotika."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -430,6 +442,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

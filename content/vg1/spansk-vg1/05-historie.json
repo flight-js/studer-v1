@@ -28,15 +28,18 @@
     },
     {
       "term": "Hernán Cortés",
-      "def": "erobret aztekerriket i 1521"
+      "def": "erobret aztekerriket i 1521",
+      "niva": "eksempel"
     },
     {
       "term": "Francisco Pizarro",
-      "def": "erobret inkariket på 1530-tallet"
+      "def": "erobret inkariket på 1530-tallet",
+      "niva": "eksempel"
     },
     {
       "term": "Simón Bolívar",
-      "def": "El Libertador – ledet frigjøringen i Sør-Amerika"
+      "def": "El Libertador – ledet frigjøringen i Sør-Amerika",
+      "niva": "eksempel"
     },
     {
       "term": "la Guerra Civil",
@@ -48,7 +51,8 @@
     },
     {
       "term": "Guernica",
-      "def": "baskisk by som ble bombet i 1937"
+      "def": "baskisk by som ble bombet i 1937",
+      "niva": "eksempel"
     },
     {
       "term": "la Transición",
@@ -94,7 +98,8 @@
         "Columbus"
       ],
       "correct": 0,
-      "explain": "Aztekerriket lå i dagens Mexico."
+      "explain": "Aztekerriket lå i dagens Mexico.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -118,7 +123,8 @@
         "Simón Bolívar"
       ],
       "correct": 3,
-      "explain": "Han ledet frigjøringen av flere land i Sør-Amerika."
+      "explain": "Han ledet frigjøringen av flere land i Sør-Amerika.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +148,8 @@
         "De ble eksportert"
       ],
       "correct": 1,
-      "explain": "Katalansk og baskisk ble undertrykt."
+      "explain": "Katalansk og baskisk ble undertrykt.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -190,7 +197,8 @@
         "Sevilla"
       ],
       "correct": 1,
-      "explain": "Bombingen ble et symbol på krigens brutalitet."
+      "explain": "Bombingen ble et symbol på krigens brutalitet.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -286,7 +294,8 @@
         "type": "sant-usant",
         "text": "Spania ble medlem av det som i dag er EU i 1986.",
         "correct": true,
-        "explain": "Det skjedde etter overgangen til demokrati."
+        "explain": "Det skjedde etter overgangen til demokrati.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -300,7 +309,8 @@
         "type": "sant-usant",
         "text": "Inkariket lå i Andesfjellene.",
         "correct": true,
-        "explain": "Det ble erobret av Pizarro på 1530-tallet."
+        "explain": "Det ble erobret av Pizarro på 1530-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -346,7 +356,8 @@
           "Cuba"
         ],
         "correct": 2,
-        "explain": "Mange latinamerikanske land hadde diktaturer på 1900-tallet."
+        "explain": "Mange latinamerikanske land hadde diktaturer på 1900-tallet.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -366,7 +377,8 @@
         "kriterier": [
           "Knytter Cortés til aztekerriket i dagens Mexico.",
           "Knytter Pizarro til inkariket i Andes."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -384,7 +396,8 @@
         "kriterier": [
           "Plasserer selvstendigheten til de fleste landene i perioden 1810–1825.",
           "Forklarer at Bolívar ledet frigjøringen av flere land i Sør-Amerika, ikke hele regionen alene."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -393,7 +406,8 @@
         "kriterier": [
           "Skiller mellom den republikanske siden og nasjonalistene under Franco.",
           "Nevner støtte fra Nazi-Tyskland og det fascistiske Italia."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -426,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -19,7 +19,8 @@
     },
     {
       "term": "Aakers fire kilder",
-      "def": "Kjennskap, kvalitetsoppfatning, assosiasjoner og lojalitet."
+      "def": "Kjennskap, kvalitetsoppfatning, assosiasjoner og lojalitet.",
+      "niva": "eksempel"
     },
     {
       "term": "Produsentmerke",
@@ -177,7 +178,8 @@
         "Assosiasjoner"
       ],
       "correct": 0,
-      "explain": "Gjentatte kjøp."
+      "explain": "Gjentatte kjøp.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -326,7 +328,8 @@
           "Regnskapsår"
         ],
         "correct": 0,
-        "explain": "Også pris, kvalitet og bærekraft."
+        "explain": "Også pris, kvalitet og bærekraft.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -339,7 +342,8 @@
           "Philip Kotler"
         ],
         "correct": 2,
-        "explain": "Brand equity-modellen."
+        "explain": "Brand equity-modellen.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -419,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

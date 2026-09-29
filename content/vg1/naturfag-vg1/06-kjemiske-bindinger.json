@@ -55,7 +55,8 @@
     },
     {
       "term": "Diamant og grafitt",
-      "def": "To former av karbon med svært ulike egenskaper."
+      "def": "To former av karbon med svært ulike egenskaper.",
+      "niva": "eksempel"
     },
     {
       "term": "Likt løser likt",
@@ -63,11 +64,13 @@
     },
     {
       "term": "Såpe",
-      "def": "Har en polar og en upolar ende og kan løse fett i vann."
+      "def": "Har en polar og en upolar ende og kan løse fett i vann.",
+      "niva": "eksempel"
     },
     {
       "term": "NaCl",
-      "def": "Natriumklorid, en ionforbindelse med smeltepunkt 801 °C."
+      "def": "Natriumklorid, en ionforbindelse med smeltepunkt 801 °C.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +168,8 @@
         "I grafitt kan noen elektroner bevege seg mellom lagene"
       ],
       "correct": 3,
-      "explain": "Begge består bare av karbon, men atomene er ordnet ulikt."
+      "explain": "Begge består bare av karbon, men atomene er ordnet ulikt.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -319,7 +323,8 @@
           "Den er upolar i begge ender"
         ],
         "correct": 0,
-        "explain": "Den upolare enden binder seg til fettet og den polare til vannet."
+        "explain": "Den upolare enden binder seg til fettet og den polare til vannet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -332,7 +337,8 @@
           "HCl"
         ],
         "correct": 2,
-        "explain": "To like atomer deler elektronene likt."
+        "explain": "To like atomer deler elektronene likt.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -383,7 +389,8 @@
         "kriterier": [
           "Forklarer at såpe har både en polar og en upolar ende.",
           "Knytter den upolare enden til fett og den polare enden til vann."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -401,7 +408,8 @@
         "kriterier": [
           "Nevner at begge består av karbon.",
           "Skiller mellom diamantens hardhet og grafittens mykhet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -425,6 +433,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

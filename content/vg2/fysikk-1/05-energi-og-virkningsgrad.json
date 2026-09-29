@@ -301,7 +301,8 @@
         "type": "sant-usant",
         "text": "En bensinmotor har høyere virkningsgrad enn en elektromotor.",
         "correct": false,
-        "explain": "Elektromotorer har ofte over 90 %, bensinmotorer rundt 25–35 %."
+        "explain": "Elektromotorer har ofte over 90 %, bensinmotorer rundt 25–35 %.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -420,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

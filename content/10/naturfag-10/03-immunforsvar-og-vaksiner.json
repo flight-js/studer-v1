@@ -67,7 +67,8 @@
     },
     {
       "term": "Kopper",
-      "def": "Sykdom som er erklært utryddet (1980) takket være vaksinasjon."
+      "def": "Sykdom som er erklært utryddet (1980) takket være vaksinasjon.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +166,8 @@
         "Kopper"
       ],
       "correct": 3,
-      "explain": "WHO erklærte kopper utryddet i 1980."
+      "explain": "WHO erklærte kopper utryddet i 1980.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -309,7 +311,8 @@
         "type": "sant-usant",
         "text": "Barnevaksinasjonsprogrammet i Norge koster penger for familiene.",
         "correct": false,
-        "explain": "Vaksinene i barnevaksinasjonsprogrammet er gratis."
+        "explain": "Vaksinene i barnevaksinasjonsprogrammet er gratis.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -322,7 +325,8 @@
           "Serum"
         ],
         "correct": 0,
-        "explain": "mRNA-vaksiner får cellene til å lage et protein som immunforsvaret lærer å kjenne igjen."
+        "explain": "mRNA-vaksiner får cellene til å lage et protein som immunforsvaret lærer å kjenne igjen.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -428,6 +432,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -11,7 +11,8 @@
   "flashcards": [
     {
       "term": "8 milliarder",
-      "def": "Verdens befolkning passerte dette i 2022."
+      "def": "Verdens befolkning passerte dette i 2022.",
+      "niva": "eksempel"
     },
     {
       "term": "Fødselsrate",
@@ -63,7 +64,8 @@
     },
     {
       "term": "Gini-koeffisient",
-      "def": "Mål på ulikhet i inntekt."
+      "def": "Mål på ulikhet i inntekt.",
+      "niva": "eksempel"
     },
     {
       "term": "Levekår",
@@ -153,7 +155,8 @@
         "Fruktbarhet"
       ],
       "correct": 2,
-      "explain": "Høy verdi betyr stor ulikhet."
+      "explain": "Høy verdi betyr stor ulikhet.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -291,7 +294,8 @@
         "type": "sant-usant",
         "text": "Fruktbarheten i Norge er lavere enn 2,1 barn per kvinne.",
         "correct": true,
-        "explain": "Den er godt under dette nivået."
+        "explain": "Den er godt under dette nivået.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -312,7 +316,8 @@
         "type": "sant-usant",
         "text": "Verdens befolkning har vært omtrent 8 milliarder i flere hundre år.",
         "correct": false,
-        "explain": "For 200 år siden var vi rundt én milliard."
+        "explain": "For 200 år siden var vi rundt én milliard.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -431,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

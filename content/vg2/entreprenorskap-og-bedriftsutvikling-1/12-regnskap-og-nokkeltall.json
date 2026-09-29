@@ -71,7 +71,8 @@
     },
     {
       "term": "Regnskapsregisteret",
-      "def": "Offentlig register med regnskapene til blant annet aksjeselskaper."
+      "def": "Offentlig register med regnskapene til blant annet aksjeselskaper.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -283,7 +284,8 @@
         "type": "sant-usant",
         "text": "Regnskapene til aksjeselskaper er offentlige.",
         "correct": true,
-        "explain": "De finnes i Regnskapsregisteret."
+        "explain": "De finnes i Regnskapsregisteret.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -417,12 +419,14 @@
         "kriterier": [
           "Nevner Regnskapsregisteret som stedet regnskapet kan finnes.",
           "Forklarer at regnskapene til aksjeselskaper er offentlige."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

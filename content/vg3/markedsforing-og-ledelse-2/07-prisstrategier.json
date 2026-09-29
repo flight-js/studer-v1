@@ -67,7 +67,8 @@
     },
     {
       "term": "Freemium",
-      "def": "Gratis grunnversjon, betaling for ekstra."
+      "def": "Gratis grunnversjon, betaling for ekstra.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -153,7 +154,8 @@
         "Tilbud"
       ],
       "correct": 2,
-      "explain": "Sikrer konkurranse."
+      "explain": "Sikrer konkurranse.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -177,7 +179,8 @@
         "De gir færre kunder"
       ],
       "correct": 0,
-      "explain": "Basert på kundedata."
+      "explain": "Basert på kundedata.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -293,7 +296,8 @@
         "type": "sant-usant",
         "text": "Falske førpriser er forbudt etter markedsføringsloven.",
         "correct": true,
-        "explain": "Villedende prisinformasjon."
+        "explain": "Villedende prisinformasjon.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -326,7 +330,8 @@
           "Abonnementspris"
         ],
         "correct": 0,
-        "explain": "Kundene kjøper ofte mer."
+        "explain": "Kundene kjøper ofte mer.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -386,7 +391,8 @@
         "kriterier": [
           "Identifiserer strategien som freemium.",
           "Forklarer skillet mellom gratis grunnversjon og betaling for ekstra funksjoner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -404,7 +410,8 @@
         "kriterier": [
           "Forklarer at skjulte gebyrer kan skade tilliten eller gjøre prisen utydelig.",
           "Sier at alle kostnader bør oppgis tydelig."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -419,6 +426,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

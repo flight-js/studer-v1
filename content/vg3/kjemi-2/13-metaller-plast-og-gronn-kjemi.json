@@ -19,7 +19,8 @@
     },
     {
       "term": "Hydrogenreduksjon",
-      "def": "Jernproduksjon med hydrogen som gir vann i stedet for CO₂."
+      "def": "Jernproduksjon med hydrogen som gir vann i stedet for CO₂.",
+      "niva": "eksempel"
     },
     {
       "term": "Aluminiumselektrolyse",
@@ -55,7 +56,8 @@
     },
     {
       "term": "Kjemisk gjenvinning",
-      "def": "Polymerer brytes ned til monomerer."
+      "def": "Polymerer brytes ned til monomerer.",
+      "niva": "eksempel"
     },
     {
       "term": "Bioplast",
@@ -282,7 +284,8 @@
         "type": "sant-usant",
         "text": "Norge er en stor aluminiumsprodusent fordi landet har mye vannkraft.",
         "correct": true,
-        "explain": "Elektrolysen krever mye strøm."
+        "explain": "Elektrolysen krever mye strøm.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -316,7 +319,8 @@
           "Nitrogen"
         ],
         "correct": 1,
-        "explain": "En grønnere prosess."
+        "explain": "En grønnere prosess.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +333,8 @@
           "Lavere kvalitet"
         ],
         "correct": 0,
-        "explain": "Flaskene kan gjenvinnes."
+        "explain": "Flaskene kan gjenvinnes.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -407,7 +412,8 @@
         "kriterier": [
           "Forklarer at mekanisk gjenvinning smelter plasten om.",
           "Forklarer at kjemisk gjenvinning bryter polymerene ned til monomerer."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -422,6 +428,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

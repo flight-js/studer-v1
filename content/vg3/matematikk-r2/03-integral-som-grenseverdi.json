@@ -67,7 +67,8 @@
     },
     {
       "term": "Integral av effekt",
-      "def": "Energi."
+      "def": "Energi.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -165,7 +166,8 @@
         "Joule"
       ],
       "correct": 3,
-      "explain": "W · s = J."
+      "explain": "W · s = J.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -419,6 +421,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

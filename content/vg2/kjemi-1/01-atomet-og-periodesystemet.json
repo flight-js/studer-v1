@@ -88,7 +88,8 @@
     },
     {
       "term": "Effektiv kjerneladning",
-      "def": "Den tiltrekningen valenselektronene faktisk merker fra kjernen, etter at de indre elektronene har skjermet for noe av den."
+      "def": "Den tiltrekningen valenselektronene faktisk merker fra kjernen, etter at de indre elektronene har skjermet for noe av den.",
+      "niva": "over-niva"
     },
     {
       "term": "Atomradius",
@@ -577,6 +578,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

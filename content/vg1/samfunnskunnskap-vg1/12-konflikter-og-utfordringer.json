@@ -59,7 +59,8 @@
     },
     {
       "term": "Sanksjoner",
-      "def": "Straffetiltak, for eksempel handelsrestriksjoner, mot en stat."
+      "def": "Straffetiltak, for eksempel handelsrestriksjoner, mot en stat.",
+      "niva": "eksempel"
     },
     {
       "term": "Propaganda",
@@ -67,7 +68,8 @@
     },
     {
       "term": "24. februar 2022",
-      "def": "Russland startet fullskala invasjon av Ukraina."
+      "def": "Russland startet fullskala invasjon av Ukraina.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -129,7 +131,8 @@
         "9. april 1940"
       ],
       "correct": 0,
-      "explain": "Krigen har hatt store globale konsekvenser."
+      "explain": "Krigen har hatt store globale konsekvenser.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +180,8 @@
         "Valg"
       ],
       "correct": 0,
-      "explain": "Sanksjoner skal presse en stat til å endre politikk."
+      "explain": "Sanksjoner skal presse en stat til å endre politikk.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -189,7 +193,8 @@
         "Fordi det ikke finnes løsninger"
       ],
       "correct": 1,
-      "explain": "Rike, fattige og oljeproduserende land har ulike interesser."
+      "explain": "Rike, fattige og oljeproduserende land har ulike interesser.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -425,6 +430,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

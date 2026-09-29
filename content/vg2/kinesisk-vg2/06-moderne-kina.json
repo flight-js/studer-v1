@@ -25,11 +25,13 @@
     },
     {
       "term": "Shenzhen",
-      "def": "By som ble en teknologimetropol på noen tiår"
+      "def": "By som ble en teknologimetropol på noen tiår",
+      "niva": "eksempel"
     },
     {
       "term": "微信 Wēixìn",
-      "def": "WeChat – en «superapp»"
+      "def": "WeChat – en «superapp»",
+      "niva": "eksempel"
     },
     {
       "term": "手机 shǒujī",
@@ -57,7 +59,8 @@
     },
     {
       "term": "Den store brannmuren",
-      "def": "Betegnelse på Kinas internettsensur"
+      "def": "Betegnelse på Kinas internettsensur",
+      "niva": "eksempel"
     },
     {
       "term": "Taiwan",
@@ -69,7 +72,8 @@
     },
     {
       "term": "Verdens nest største økonomi",
-      "def": "Kinas plass i verdensøkonomien"
+      "def": "Kinas plass i verdensøkonomien",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -95,7 +99,8 @@
         "Et tog"
       ],
       "correct": 0,
-      "explain": "Nesten alle i Kina bruker den."
+      "explain": "Nesten alle i Kina bruker den.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -131,7 +136,8 @@
         "Japanske tegn"
       ],
       "correct": 0,
-      "explain": "Kina bruker forenklede tegn."
+      "explain": "Kina bruker forenklede tegn.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -167,7 +173,8 @@
         "Sjømat"
       ],
       "correct": 3,
-      "explain": "Kina eksporterer mye elektronikk og klær til Norge."
+      "explain": "Kina eksporterer mye elektronikk og klær til Norge.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -290,7 +297,8 @@
         "type": "sant-usant",
         "text": "Kina er verdens største produsent av sol- og vindkraft og elbiler.",
         "correct": true,
-        "explain": "Samtidig har landet store utslipp."
+        "explain": "Samtidig har landet store utslipp.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -311,7 +319,8 @@
         "type": "sant-usant",
         "text": "I Hongkong snakkes det bare mandarin.",
         "correct": false,
-        "explain": "I Hongkong snakkes det mye kantonesisk."
+        "explain": "I Hongkong snakkes det mye kantonesisk.",
+        "niva": "eksempel"
       },
       {
         "id": "m05",
@@ -337,7 +346,8 @@
           "Harbin"
         ],
         "correct": 0,
-        "explain": "Shenzhen ligger nær Hongkong."
+        "explain": "Shenzhen ligger nær Hongkong.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -350,7 +360,8 @@
           "Silkeveien"
         ],
         "correct": 2,
-        "explain": "Mange vestlige nettsteder er blokkert."
+        "explain": "Mange vestlige nettsteder er blokkert.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -370,7 +381,8 @@
         "kriterier": [
           "Får fram at Shenzhen har gjennomgått en stor og rask byutvikling.",
           "Knytter utviklingen til teknologisk eller økonomisk vekst i Kina."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -388,7 +400,8 @@
         "kriterier": [
           "Forklarer at blokkeringen skyldes sensur eller begrensninger på internett.",
           "Forklarer at «den store brannmuren» viser til internettsensur, ikke en fysisk mur."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -406,7 +419,8 @@
         "kriterier": [
           "Knytter færre fødsler til at det blir færre unge i befolkningen.",
           "Forklarer at dette bidrar til at eldre utgjør en større andel."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -430,6 +444,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

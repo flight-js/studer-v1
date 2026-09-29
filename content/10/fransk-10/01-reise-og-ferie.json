@@ -24,7 +24,8 @@
     },
     {
       "term": "le TGV",
-      "def": "franske høyhastighetstog"
+      "def": "franske høyhastighetstog",
+      "niva": "eksempel"
     },
     {
       "term": "l'auberge de jeunesse",
@@ -76,7 +77,8 @@
     },
     {
       "term": "Grosses bises",
-      "def": "Store klemmer – avslutning på kort til venner og familie"
+      "def": "Store klemmer – avslutning på kort til venner og familie",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -186,7 +188,8 @@
         "S'il vous plaît"
       ],
       "correct": 0,
-      "explain": "«Madame, Monsieur» brukes i formelle brev."
+      "explain": "«Madame, Monsieur» brukes i formelle brev.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -198,7 +201,8 @@
         "Franske høyhastighetstog"
       ],
       "correct": 3,
-      "explain": "TGV står for «train à grande vitesse»."
+      "explain": "TGV står for «train à grande vitesse».",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -311,7 +315,8 @@
         "type": "sant-usant",
         "text": "Frankrike er et av verdens mest besøkte land.",
         "correct": true,
-        "explain": "Millioner av turister besøker Frankrike hvert år."
+        "explain": "Millioner av turister besøker Frankrike hvert år.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -387,7 +392,8 @@
           "Bruker passé composé om reisen og besøket.",
           "Bruker imparfait for å beskrive været.",
           "Får med Italia, severdigheter og kaldt vær."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -439,6 +445,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

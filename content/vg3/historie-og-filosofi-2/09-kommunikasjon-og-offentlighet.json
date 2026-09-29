@@ -51,7 +51,8 @@
     },
     {
       "term": "Deepfake",
-      "def": "Falsk video eller lyd laget med kunstig intelligens."
+      "def": "Falsk video eller lyd laget med kunstig intelligens.",
+      "niva": "eksempel"
     },
     {
       "term": "Post-truth",
@@ -129,7 +130,8 @@
         "En dyp debatt"
       ],
       "correct": 0,
-      "explain": "Kan påvirke valg."
+      "explain": "Kan påvirke valg.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -177,7 +179,8 @@
         "Den ble forbudt"
       ],
       "correct": 0,
-      "explain": "Massemedier kan misbrukes."
+      "explain": "Massemedier kan misbrukes.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -313,7 +316,8 @@
           "I fabrikkene"
         ],
         "correct": 1,
-        "explain": "På 1700-tallet."
+        "explain": "På 1700-tallet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +330,8 @@
           "2020"
         ],
         "correct": 0,
-        "explain": "Etter blant annet valget i USA."
+        "explain": "Etter blant annet valget i USA.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -419,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

@@ -177,7 +177,8 @@
         "Berlinmuren falt"
       ],
       "correct": 3,
-      "explain": "Murens fall ble et symbol på slutten av den kalde krigen."
+      "explain": "Murens fall ble et symbol på slutten av den kalde krigen.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -410,7 +411,8 @@
         "kriterier": [
           "Nevner et riktig eksempel: Sputnik i 1957 eller USAs månelanding i 1969.",
           "Forklarer at eksempelet viser konkurranse mellom USA og Sovjetunionen om romfart eller teknologi."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -434,6 +436,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

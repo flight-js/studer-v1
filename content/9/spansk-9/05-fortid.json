@@ -418,7 +418,8 @@
         "kriterier": [
           "Sier at pretérito perfecto ofte brukes om hendelser i dag i Spania.",
           "Sier at indefinido brukes oftere om hendelser i dag i Latin-Amerika."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s08",
@@ -433,6 +434,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

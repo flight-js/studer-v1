@@ -60,7 +60,8 @@
     },
     {
       "term": "Ingress",
-      "def": "Innledningen i en artikkel, ofte i fet skrift, som oppsummerer det viktigste."
+      "def": "Innledningen i en artikkel, ofte i fet skrift, som oppsummerer det viktigste.",
+      "niva": "eksempel"
     },
     {
       "term": "Sjekke forståelsen",
@@ -154,7 +155,8 @@
         "En fotnote"
       ],
       "correct": 2,
-      "explain": "Ingressen står etter overskriften, ofte i fet skrift, og gir et sammendrag av saken."
+      "explain": "Ingressen står etter overskriften, ofte i fet skrift, og gir et sammendrag av saken.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -416,6 +418,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

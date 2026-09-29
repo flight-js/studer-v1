@@ -39,7 +39,8 @@
     },
     {
       "term": "Barnekonvensjonen",
-      "def": "FN-konvensjon om barns rettigheter fra 1989."
+      "def": "FN-konvensjon om barns rettigheter fra 1989.",
+      "niva": "eksempel"
     },
     {
       "term": "Sivile og politiske rettigheter",
@@ -296,7 +297,8 @@
         "type": "sant-usant",
         "text": "Barnekonvensjonen er gjort til norsk lov med forrang.",
         "correct": true,
-        "explain": "Gjennom menneskerettsloven."
+        "explain": "Gjennom menneskerettsloven.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -422,6 +424,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

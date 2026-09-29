@@ -15,19 +15,23 @@
     },
     {
       "term": "Kristent svar",
-      "def": "Mennesket er skapt og elsket av Gud, med håp om evig liv."
+      "def": "Mennesket er skapt og elsket av Gud, med håp om evig liv.",
+      "niva": "eksempel"
     },
     {
       "term": "Islamsk svar",
-      "def": "Livet er en prøve fra Gud, og dommens dag avgjør det som skjer etter døden."
+      "def": "Livet er en prøve fra Gud, og dommens dag avgjør det som skjer etter døden.",
+      "niva": "eksempel"
     },
     {
       "term": "Moksha og nirvana",
-      "def": "Frigjøring fra gjenfødelsene i hinduisme og buddhisme."
+      "def": "Frigjøring fra gjenfødelsene i hinduisme og buddhisme.",
+      "niva": "eksempel"
     },
     {
       "term": "Humanistisk svar",
-      "def": "Vi har ett liv og skaper mening selv, blant annet gjennom relasjoner."
+      "def": "Vi har ett liv og skaper mening selv, blant annet gjennom relasjoner.",
+      "niva": "eksempel"
     },
     {
       "term": "Eksistensialisme",
@@ -35,19 +39,23 @@
     },
     {
       "term": "Søren Kierkegaard",
-      "def": "Dansk filosof (1813–1855) som skrev om valg, ansvar og angst."
+      "def": "Dansk filosof (1813–1855) som skrev om valg, ansvar og angst.",
+      "niva": "eksempel"
     },
     {
       "term": "Jean-Paul Sartre",
-      "def": "Fransk filosof som mente at mennesket er «dømt til å være fritt»."
+      "def": "Fransk filosof som mente at mennesket er «dømt til å være fritt».",
+      "niva": "eksempel"
     },
     {
       "term": "«Eksistensen går forut for essensen»",
-      "def": "Vi er ikke født med en ferdig mening, men skaper oss selv gjennom valg."
+      "def": "Vi er ikke født med en ferdig mening, men skaper oss selv gjennom valg.",
+      "niva": "eksempel"
     },
     {
       "term": "Det absurde",
-      "def": "Camus' begrep om at vi søker mening i en verden som ikke gir klare svar."
+      "def": "Camus' begrep om at vi søker mening i en verden som ikke gir klare svar.",
+      "niva": "eksempel"
     },
     {
       "term": "Identitet i et mangfoldig samfunn",
@@ -63,11 +71,13 @@
     },
     {
       "term": "Alarmtelefonen for barn og unge",
-      "def": "Gratis hjelpetelefon: 116 111."
+      "def": "Gratis hjelpetelefon: 116 111.",
+      "niva": "eksempel"
     },
     {
       "term": "Mental Helses hjelpetelefon",
-      "def": "Gratis hjelpetelefon for alle som trenger noen å snakke med: 116 123."
+      "def": "Gratis hjelpetelefon for alle som trenger noen å snakke med: 116 123.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -93,7 +103,8 @@
         "At frihet ikke finnes"
       ],
       "correct": 0,
-      "explain": "Ifølge Sartre kan vi ikke unngå å velge, og vi har ansvar for valgene våre."
+      "explain": "Ifølge Sartre kan vi ikke unngå å velge, og vi har ansvar for valgene våre.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -105,7 +116,8 @@
         "At meningen er å bli gjenfødt"
       ],
       "correct": 1,
-      "explain": "Humanister mener at mening skapes av mennesker."
+      "explain": "Humanister mener at mening skapes av mennesker.",
+      "niva": "eksempel"
     },
     {
       "id": "q04",
@@ -117,7 +129,8 @@
         "En dansk filosof som skrev om valg, ansvar og angst"
       ],
       "correct": 3,
-      "explain": "Kierkegaard regnes som en forløper for eksistensialismen."
+      "explain": "Kierkegaard regnes som en forløper for eksistensialismen.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -129,7 +142,8 @@
         "At bare essensen betyr noe"
       ],
       "correct": 1,
-      "explain": "Først finnes vi, så blir vi den vi er gjennom det vi gjør."
+      "explain": "Først finnes vi, så blir vi den vi er gjennom det vi gjør.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +155,8 @@
         "Som ett av mange liv i samsara"
       ],
       "correct": 2,
-      "explain": "Hvordan man lever, har betydning på dommens dag."
+      "explain": "Hvordan man lever, har betydning på dommens dag.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +168,8 @@
         "At vi søker mening i en verden som ikke gir klare svar"
       ],
       "correct": 3,
-      "explain": "Camus mente vi likevel kan leve fullt og engasjert."
+      "explain": "Camus mente vi likevel kan leve fullt og engasjert.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -189,7 +205,8 @@
         "Å få mange barn"
       ],
       "correct": 1,
-      "explain": "Begge religionene ser livet som en del av et kretsløp."
+      "explain": "Begge religionene ser livet som en del av et kretsløp.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -328,7 +345,8 @@
           "110"
         ],
         "correct": 1,
-        "explain": "Telefonen er gratis og åpen for barn og unge som trenger hjelp."
+        "explain": "Telefonen er gratis og åpen for barn og unge som trenger hjelp.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -341,7 +359,8 @@
           "At man blir en ånd i naturen"
         ],
         "correct": 0,
-        "explain": "Håpet bygger på troen på Jesu oppstandelse."
+        "explain": "Håpet bygger på troen på Jesu oppstandelse.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -354,7 +373,8 @@
           "Rikdom"
         ],
         "correct": 2,
-        "explain": "Når vi selv må velge, kjenner vi på ansvaret."
+        "explain": "Når vi selv må velge, kjenner vi på ansvaret.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -365,7 +385,8 @@
         "kriterier": [
           "Får fram kristendommens håp om evig liv.",
           "Får fram at dommens dag avgjør hva som skjer etter døden i islam."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -374,7 +395,8 @@
         "kriterier": [
           "Knytter angsten til at mennesket selv må velge.",
           "Får fram at mennesket må ta ansvar for livet eller valgene sine."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -383,7 +405,8 @@
         "kriterier": [
           "Forklarer motsetningen mellom å søke mening og ikke få klare svar.",
           "Får fram at Camus mente vi likevel kan leve fullt og engasjert."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -434,6 +457,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

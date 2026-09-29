@@ -20,7 +20,8 @@
     },
     {
       "term": "Klas-Göran Karlsson",
-      "def": "Svensk historiker som beskrev typer av historiebruk."
+      "def": "Svensk historiker som beskrev typer av historiebruk.",
+      "niva": "eksempel"
     },
     {
       "term": "Vitenskapelig historiebruk",
@@ -56,7 +57,8 @@
     },
     {
       "term": "Miljøhistorie",
-      "def": "Historien om forholdet mellom mennesker og natur."
+      "def": "Historien om forholdet mellom mennesker og natur.",
+      "niva": "eksempel"
     },
     {
       "term": "Minnesmerke",
@@ -142,7 +144,8 @@
         "Fordi staten påla det"
       ],
       "correct": 1,
-      "explain": "Nåtiden preger spørsmålene."
+      "explain": "Nåtiden preger spørsmålene.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -327,7 +330,8 @@
           "Fordi det ble forbudt å skrive om krig"
         ],
         "correct": 0,
-        "explain": "Nåtiden påvirker forskningen."
+        "explain": "Nåtiden påvirker forskningen.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -369,7 +373,8 @@
         "kriterier": [
           "Knytter samtidas bekymring for klimaendringer til valget av historiske temaer.",
           "Forklarer at miljøhistorie handler om forholdet mellom mennesker og natur."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -420,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

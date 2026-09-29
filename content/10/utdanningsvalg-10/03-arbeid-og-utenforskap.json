@@ -35,7 +35,8 @@
     },
     {
       "term": "NEET",
-      "def": "Unge som verken er i utdanning, arbeid eller opplæring."
+      "def": "Unge som verken er i utdanning, arbeid eller opplæring.",
+      "niva": "over-niva"
     },
     {
       "term": "Frafall",
@@ -43,15 +44,18 @@
     },
     {
       "term": "Oppfølgingstjenesten",
-      "def": "Fylkeskommunal tjeneste som hjelper unge utenfor skole og arbeid."
+      "def": "Fylkeskommunal tjeneste som hjelper unge utenfor skole og arbeid.",
+      "niva": "eksempel"
     },
     {
       "term": "NAV",
-      "def": "Offentlig etat for arbeid, trygd og sosiale tjenester."
+      "def": "Offentlig etat for arbeid, trygd og sosiale tjenester.",
+      "niva": "eksempel"
     },
     {
       "term": "Arbeidstrening",
-      "def": "Tiltak der man prøver seg i arbeid med støtte."
+      "def": "Tiltak der man prøver seg i arbeid med støtte.",
+      "niva": "eksempel"
     },
     {
       "term": "Tilrettelegging",
@@ -117,7 +121,8 @@
         "Unge som verken er i utdanning, arbeid eller opplæring"
       ],
       "correct": 3,
-      "explain": "Forkortelsen kommer fra engelsk."
+      "explain": "Forkortelsen kommer fra engelsk.",
+      "niva": "over-niva"
     },
     {
       "id": "q05",
@@ -141,7 +146,8 @@
         "Deler ut karakterer"
       ],
       "correct": 1,
-      "explain": "Oppfølgingstjenesten drives av fylkeskommunen."
+      "explain": "Oppfølgingstjenesten drives av fylkeskommunen.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -189,7 +195,8 @@
         "En videregående skole"
       ],
       "correct": 1,
-      "explain": "NAV gir blant annet veiledning og arbeidstrening."
+      "explain": "NAV gir blant annet veiledning og arbeidstrening.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -325,7 +332,8 @@
           "En fagforening"
         ],
         "correct": 1,
-        "explain": "Arbeidstrening kan være et steg inn i arbeidslivet."
+        "explain": "Arbeidstrening kan være et steg inn i arbeidslivet.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -380,7 +388,8 @@
         "kriterier": [
           "Forklarer at frafall handler om å slutte før videregående er fullført.",
           "Forklarer at NEET handler om å være utenfor både utdanning, arbeid og opplæring."
-        ]
+        ],
+        "niva": "over-niva"
       },
       {
         "id": "s04",
@@ -431,6 +440,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

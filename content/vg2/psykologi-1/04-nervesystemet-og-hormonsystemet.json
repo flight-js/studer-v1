@@ -349,7 +349,8 @@
           "Adrenalin"
         ],
         "correct": 0,
-        "explain": "Virker beroligende."
+        "explain": "Virker beroligende.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -362,7 +363,8 @@
           "Melatonin"
         ],
         "correct": 2,
-        "explain": "Viktig blant annet mellom foreldre og spedbarn."
+        "explain": "Viktig blant annet mellom foreldre og spedbarn.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -409,7 +411,8 @@
         "kriterier": [
           "Knytter binyrene til adrenalin og/eller kortisol ved stress.",
           "Knytter skjoldbruskkjertelen til regulering av stoffskiftet."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -418,7 +421,8 @@
         "kriterier": [
           "Forklarer at GABA demper aktivitet eller virker beroligende.",
           "Forklarer at endorfiner demper smerte."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -442,6 +446,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

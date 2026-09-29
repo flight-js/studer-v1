@@ -15,11 +15,13 @@
     },
     {
       "term": "Faraoen",
-      "def": "Egyptisk hersker sett på som gud eller gudenes sønn."
+      "def": "Egyptisk hersker sett på som gud eller gudenes sønn.",
+      "niva": "eksempel"
     },
     {
       "term": "Himmelens mandat",
-      "def": "Kinesisk idé om at keiseren styrte med himmelens godkjenning."
+      "def": "Kinesisk idé om at keiseren styrte med himmelens godkjenning.",
+      "niva": "eksempel"
     },
     {
       "term": "Av Guds nåde",
@@ -27,7 +29,8 @@
     },
     {
       "term": "Profetene",
-      "def": "Kritiserte konger som undertrykte de fattige."
+      "def": "Kritiserte konger som undertrykte de fattige.",
+      "niva": "eksempel"
     },
     {
       "term": "Martin Luther",
@@ -39,15 +42,18 @@
     },
     {
       "term": "Hans Nielsen Hauge",
-      "def": "Lekpredikant som utfordret embetsmennenes makt rundt 1800."
+      "def": "Lekpredikant som utfordret embetsmennenes makt rundt 1800.",
+      "niva": "eksempel"
     },
     {
       "term": "Martin Luther King",
-      "def": "Borgerrettsleder med grunnlag i kristen tro."
+      "def": "Borgerrettsleder med grunnlag i kristen tro.",
+      "niva": "eksempel"
     },
     {
       "term": "Frigjøringsteologi",
-      "def": "Kristendom som krav om rettferdighet for de fattige."
+      "def": "Kristendom som krav om rettferdighet for de fattige.",
+      "niva": "eksempel"
     },
     {
       "term": "«Folkets opium»",
@@ -55,11 +61,13 @@
     },
     {
       "term": "Slaver av natur",
-      "def": "Aristoteles' forsvar av slaveri."
+      "def": "Aristoteles' forsvar av slaveri.",
+      "niva": "eksempel"
     },
     {
       "term": "Thomas Aquinas",
-      "def": "Mente at tro og fornuft ikke kan motsi hverandre."
+      "def": "Mente at tro og fornuft ikke kan motsi hverandre.",
+      "niva": "eksempel"
     },
     {
       "term": "Galilei 1633",
@@ -129,7 +137,8 @@
         "Bare av konger"
       ],
       "correct": 0,
-      "explain": "Religion kan både legitimere og utfordre."
+      "explain": "Religion kan både legitimere og utfordre.",
+      "niva": "eksempel"
     },
     {
       "id": "q06",
@@ -141,7 +150,8 @@
         "En lov om handel"
       ],
       "correct": 1,
-      "explain": "Katastrofer kunne tolkes som tap av mandatet."
+      "explain": "Katastrofer kunne tolkes som tap av mandatet.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -153,7 +163,8 @@
         "Bare gjennom kunst"
       ],
       "correct": 2,
-      "explain": "Filosofi kan også forsvare urett."
+      "explain": "Filosofi kan også forsvare urett.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -165,7 +176,8 @@
         "Hans Nielsen Hauge"
       ],
       "correct": 3,
-      "explain": "En lekmannsbevegelse."
+      "explain": "En lekmannsbevegelse.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -177,7 +189,8 @@
         "At begge er meningsløse"
       ],
       "correct": 0,
-      "explain": "Middelalderens syntese."
+      "explain": "Middelalderens syntese.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -296,7 +309,8 @@
         "type": "sant-usant",
         "text": "Frigjøringsteologien oppsto i Latin-Amerika.",
         "correct": true,
-        "explain": "Med vekt på rettferdighet for de fattige."
+        "explain": "Med vekt på rettferdighet for de fattige.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -316,7 +330,8 @@
           "Himmelens mandat"
         ],
         "correct": 1,
-        "explain": "Religion som utfordring til urett."
+        "explain": "Religion som utfordring til urett.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -329,7 +344,8 @@
           "Perikles"
         ],
         "correct": 0,
-        "explain": "For sine kritiske spørsmål."
+        "explain": "For sine kritiske spørsmål.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -353,7 +369,8 @@
         "kriterier": [
           "Knytter faraoens guddommelige status til at makten hans virket rettmessig eller hellig.",
           "Forklarer at dette kunne gjøre motstand eller protest vanskeligere."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -362,7 +379,8 @@
         "kriterier": [
           "Forklarer at keiserens mandat var avhengig av at han styrte godt.",
           "Forklarer at europeiske konger begrunnet makten med Guds nåde, gjerne med at kirken kronet dem."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -380,7 +398,8 @@
         "kriterier": [
           "Knytter Martin Luther Kings kristne tro til likeverd eller borgerrettskamp.",
           "Knytter frigjøringsteologien til rettferdighet for fattige."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -398,7 +417,8 @@
         "kriterier": [
           "Forklarer at kritikken handler om at kvinner blir gjort underordnet.",
           "Får fram at kritikken rettes mot både religiøse og filosofiske tradisjoner."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -407,7 +427,8 @@
         "kriterier": [
           "Knytter Sokrates til kritiske spørsmål rettet mot makthavere.",
           "Knytter Aristoteles til et forsvar for slaveri eller samfunnsorden gjennom ideen om «slaver av natur»."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s08",
@@ -416,12 +437,14 @@
         "kriterier": [
           "Forklarer at bibelsitatene kunne få slaveriet til å framstå som rettmessig eller religiøst godkjent.",
           "Forklarer at dette kunne bidra til å opprettholde undertrykkelsen eller gjøre motstand vanskeligere."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

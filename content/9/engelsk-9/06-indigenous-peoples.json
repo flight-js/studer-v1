@@ -16,15 +16,18 @@
     },
     {
       "term": "First Nations",
-      "def": "Indigenous peoples in Canada, alongside the Inuit and the Métis."
+      "def": "Indigenous peoples in Canada, alongside the Inuit and the Métis.",
+      "niva": "eksempel"
     },
     {
       "term": "Aboriginal and Torres Strait Islander peoples",
-      "def": "The indigenous peoples of Australia."
+      "def": "The indigenous peoples of Australia.",
+      "niva": "eksempel"
     },
     {
       "term": "Māori",
-      "def": "The indigenous people of New Zealand."
+      "def": "The indigenous people of New Zealand.",
+      "niva": "eksempel"
     },
     {
       "term": "Sámi",
@@ -36,7 +39,8 @@
     },
     {
       "term": "Reservation",
-      "def": "An area set aside for Native Americans, often after they lost their land."
+      "def": "An area set aside for Native Americans, often after they lost their land.",
+      "niva": "eksempel"
     },
     {
       "term": "Assimilation",
@@ -44,11 +48,13 @@
     },
     {
       "term": "Residential schools",
-      "def": "Schools in Canada where indigenous children were forbidden to use their own languages."
+      "def": "Schools in Canada where indigenous children were forbidden to use their own languages.",
+      "niva": "eksempel"
     },
     {
       "term": "Stolen Generations",
-      "def": "Aboriginal children taken from their families in Australia. Formal apology in 2008."
+      "def": "Aboriginal children taken from their families in Australia. Formal apology in 2008.",
+      "niva": "eksempel"
     },
     {
       "term": "Norwegianisation",
@@ -56,15 +62,18 @@
     },
     {
       "term": "Sámediggi",
-      "def": "The Sámi Parliament in Norway, opened in 1989."
+      "def": "The Sámi Parliament in Norway, opened in 1989.",
+      "niva": "eksempel"
     },
     {
       "term": "Treaty of Waitangi",
-      "def": "Agreement from 1840 between the British Crown and Māori chiefs."
+      "def": "Agreement from 1840 between the British Crown and Māori chiefs.",
+      "niva": "eksempel"
     },
     {
       "term": "UN Declaration (2007)",
-      "def": "The UN Declaration on the Rights of Indigenous Peoples."
+      "def": "The UN Declaration on the Rights of Indigenous Peoples.",
+      "niva": "eksempel"
     },
     {
       "term": "Reconciliation",
@@ -94,7 +103,8 @@
         "A people in Scotland"
       ],
       "correct": 2,
-      "explain": "The Māori are the indigenous people of New Zealand."
+      "explain": "The Māori are the indigenous people of New Zealand.",
+      "niva": "eksempel"
     },
     {
       "id": "q03",
@@ -118,7 +128,8 @@
         "Aboriginal children taken from their families in Australia"
       ],
       "correct": 3,
-      "explain": "For decades, many Aboriginal children were removed from their families. The government apologised in 2008."
+      "explain": "For decades, many Aboriginal children were removed from their families. The government apologised in 2008.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -142,7 +153,8 @@
         "2023"
       ],
       "correct": 2,
-      "explain": "The Sámediggi opened in 1989."
+      "explain": "The Sámediggi opened in 1989.",
+      "niva": "eksempel"
     },
     {
       "id": "q07",
@@ -154,7 +166,8 @@
         "Schools only for adults"
       ],
       "correct": 2,
-      "explain": "The residential school system tried to separate children from their culture and language."
+      "explain": "The residential school system tried to separate children from their culture and language.",
+      "niva": "eksempel"
     },
     {
       "id": "q08",
@@ -166,7 +179,8 @@
         "The Treaty of Waitangi"
       ],
       "correct": 1,
-      "explain": "The declaration sets out rights to land, culture, language and self-determination."
+      "explain": "The declaration sets out rights to land, culture, language and self-determination.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -178,7 +192,8 @@
         "An 1840 agreement between the British Crown and Māori chiefs"
       ],
       "correct": 3,
-      "explain": "The treaty is still central to discussions about Māori rights in New Zealand."
+      "explain": "The treaty is still central to discussions about Māori rights in New Zealand.",
+      "niva": "eksempel"
     },
     {
       "id": "q10",
@@ -331,7 +346,8 @@
           "A new constitution"
         ],
         "correct": 1,
-        "explain": "The commission examined the consequences of Norwegianisation policy."
+        "explain": "The commission examined the consequences of Norwegianisation policy.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -344,7 +360,8 @@
           "A military base"
         ],
         "correct": 2,
-        "explain": "Many Native Americans were moved to reservations after losing their lands."
+        "explain": "Many Native Americans were moved to reservations after losing their lands.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -357,7 +374,8 @@
           "The USA"
         ],
         "correct": 0,
-        "explain": "The Australian government apologised in 2008."
+        "explain": "The Australian government apologised in 2008.",
+        "niva": "eksempel"
       }
     ],
     "skriv": [
@@ -376,7 +394,8 @@
         "kriterier": [
           "Explains what happened to children in Canada, including the ban on their languages.",
           "Explains that Aboriginal children in Australia were taken from their families."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -385,7 +404,8 @@
         "kriterier": [
           "Identifies that both policies restricted children’s use of their indigenous languages.",
           "Connects the restrictions to pressure to give up language or culture."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -394,7 +414,8 @@
         "kriterier": [
           "Connects the Sámediggi to Sámi political representation.",
           "Connects official language status to recognition or support for Sámi language rights."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s05",
@@ -403,7 +424,8 @@
         "kriterier": [
           "States that Inuit and Métis are Indigenous peoples in Canada.",
           "Clarifies that First Nations is not the only Indigenous group in Canada."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -430,12 +452,14 @@
         "kriterier": [
           "Identifies the UN Declaration as a declaration concerning the rights of indigenous peoples broadly.",
           "Identifies the Treaty of Waitangi as an agreement between the British Crown and Māori chiefs."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

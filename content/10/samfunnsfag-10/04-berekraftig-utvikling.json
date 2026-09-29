@@ -35,7 +35,8 @@
     },
     {
       "term": "Parisavtalen",
-      "def": "Klimaavtale fra 2015: oppvarmingen skal holdes godt under 2 °C, helst 1,5 °C."
+      "def": "Klimaavtale fra 2015: oppvarmingen skal holdes godt under 2 °C, helst 1,5 °C.",
+      "niva": "eksempel"
     },
     {
       "term": "Naturmangfold",
@@ -117,7 +118,8 @@
         "Å begrense oppvarmingen til godt under 2 °C, helst 1,5 °C"
       ],
       "correct": 3,
-      "explain": "Landene skal kutte klimagassutslipp for å nå målet."
+      "explain": "Landene skal kutte klimagassutslipp for å nå målet.",
+      "niva": "eksempel"
     },
     {
       "id": "q05",
@@ -165,7 +167,8 @@
         "Det er ikke noe dilemma"
       ],
       "correct": 1,
-      "explain": "Miljøhensyn og økonomiske hensyn trekker i hver sin retning."
+      "explain": "Miljøhensyn og økonomiske hensyn trekker i hver sin retning.",
+      "niva": "eksempel"
     },
     {
       "id": "q09",
@@ -299,7 +302,8 @@
         "type": "sant-usant",
         "text": "De aller fleste nye personbiler som selges i Norge, er elbiler.",
         "correct": true,
-        "explain": "Avgiftsfordeler har gjort elbiler svært populære i Norge."
+        "explain": "Avgiftsfordeler har gjort elbiler svært populære i Norge.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -374,7 +378,8 @@
         "kriterier": [
           "Forklarer at bærekraftsmålene dekker flere samfunns- og miljøtemaer.",
           "Forklarer at Parisavtalen er rettet mot å begrense global oppvarming."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s04",
@@ -426,6 +431,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

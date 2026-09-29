@@ -279,7 +279,8 @@
         "type": "sant-usant",
         "text": "Mange konspirasjonsteorier har vært antisemittiske.",
         "correct": true,
-        "explain": "De gjør jøder til syndebukker."
+        "explain": "De gjør jøder til syndebukker.",
+        "niva": "eksempel"
       },
       {
         "id": "m02",
@@ -293,7 +294,8 @@
         "type": "sant-usant",
         "text": "Stater kan bruke desinformasjon for å påvirke valg i andre land.",
         "correct": true,
-        "explain": "Og skape splid."
+        "explain": "Og skape splid.",
+        "niva": "eksempel"
       },
       {
         "id": "m04",
@@ -313,7 +315,8 @@
           "Celleteorien"
         ],
         "correct": 1,
-        "explain": "Påstandene kan ikke testes på en vitenskapelig måte."
+        "explain": "Påstandene kan ikke testes på en vitenskapelig måte.",
+        "niva": "eksempel"
       },
       {
         "id": "m06",
@@ -326,7 +329,8 @@
           "Ingen konsekvenser"
         ],
         "correct": 0,
-        "explain": "Et konkret eksempel."
+        "explain": "Et konkret eksempel.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -359,7 +363,8 @@
         "kriterier": [
           "Identifiserer historien som en anekdote eller enkelthistorie, ikke systematisk belegg.",
           "Nevner systematisk undersøkelse eller at andre må kunne gjenta undersøkelsen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s03",
@@ -386,7 +391,8 @@
         "kriterier": [
           "Forklarer at sosiale medier og kunstig intelligens gjør rask spredning av falskt innhold lettere.",
           "Knytter dette til at grupper får ulike virkelighetsbilder eller slutter å snakke sammen."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -419,6 +425,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

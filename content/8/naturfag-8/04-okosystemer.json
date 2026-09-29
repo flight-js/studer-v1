@@ -67,7 +67,8 @@
     },
     {
       "term": "Fremmed art",
-      "def": "En art som er innført til et område der den ikke hører naturlig hjemme."
+      "def": "En art som er innført til et område der den ikke hører naturlig hjemme.",
+      "niva": "eksempel"
     }
   ],
   "quiz": [
@@ -327,7 +328,8 @@
           "Bjørk"
         ],
         "correct": 2,
-        "explain": "Hagelupin er innført og sprer seg på bekostning av norske arter."
+        "explain": "Hagelupin er innført og sprer seg på bekostning av norske arter.",
+        "niva": "eksempel"
       },
       {
         "id": "m07",
@@ -387,7 +389,8 @@
         "kriterier": [
           "Forklarer at den innførte arten kan påvirke organismer eller samspill i området.",
           "Knytter denne påvirkningen til at økosystemets balanse kan endres."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s06",
@@ -420,6 +423,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

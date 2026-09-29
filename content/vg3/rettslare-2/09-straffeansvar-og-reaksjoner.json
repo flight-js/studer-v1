@@ -189,7 +189,8 @@
         "Gjentakelse"
       ],
       "correct": 1,
-      "explain": "Straffeloven § 78."
+      "explain": "Straffeloven § 78.",
+      "niva": "eksempel"
     }
   ],
   "mindmap": {
@@ -313,7 +314,8 @@
           "5 år"
         ],
         "correct": 1,
-        "explain": "Fengsel skal bare brukes når det er særlig påkrevd."
+        "explain": "Fengsel skal bare brukes når det er særlig påkrevd.",
+        "niva": "over-niva"
       },
       {
         "id": "m06",
@@ -413,12 +415,14 @@
         "kriterier": [
           "Identifiserer planlegging og særlig sårbart offer som skjerpende omstendigheter.",
           "Identifiserer tilståelse og ung alder som formildende, og forklarer at omstendighetene påvirker straffen innenfor strafferammen."
-        ]
+        ],
+        "niva": "eksempel"
       }
     ]
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }

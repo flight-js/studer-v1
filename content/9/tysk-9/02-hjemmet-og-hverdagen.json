@@ -363,7 +363,8 @@
         "kriterier": [
           "Får fram at mange bor i leilighet, særlig i byer.",
           "Får fram at andre bor i hus."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s02",
@@ -409,7 +410,8 @@
         "kriterier": [
           "Får fram at du vasker opp med «wasche ab».",
           "Får fram at du støvsuger med «sauge Staub»."
-        ]
+        ],
+        "niva": "eksempel"
       },
       {
         "id": "s07",
@@ -433,6 +435,7 @@
   },
   "kvalitet": {
     "status": "utkast",
-    "merknader": []
+    "merknader": [],
+    "nivasjekk": "2026-09-29"
   }
 }
