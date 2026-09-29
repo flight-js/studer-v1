@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useImperativeHandle, useRef, useState } from "react";
 import { ArrowUp, Chat, Close, Lock } from "@/components/icons";
 import { useAuth, useTilgang } from "@/lib/auth";
 import { abonnementHref } from "@/lib/betaling";
@@ -18,10 +18,34 @@ type Melding = { rolle: "bruker" | "assistent"; tekst: string };
 
 const FORSLAG = ["Forklar temaet kort", "Hva er de viktigste begrepene?", "Gi meg en øvingsoppgave"];
 
+const HENDELSE = "studer:spor-ai";
+
+// Åpner AI-hjelpen og sender et spørsmål, f.eks. fra «Forklar»-knappen i quizen.
+// Virker på sider som har <SporAi />.
+export function sporAi(tekst: string) {
+  window.dispatchEvent(new CustomEvent<string>(HENDELSE, { detail: tekst }));
+}
+
+type AiHandle = { send: (tekst: string) => void };
+
 // Den flytende «Spør AI»-knappen med chatpanelet. Brukes i temasiden,
-// flashcards og sammendrag.
-export function SporAi({ temaId, temaNavn, fagNavn }: { temaId: string; temaNavn: string; fagNavn: string }) {
+// flashcards, sammendrag og quiz. skjultTilBruk: knappen vises først når
+// AI-hjelpen er åpnet med sporAi() – i quizen skal den ikke være en snarvei
+// til svaret.
+export function SporAi({
+  temaId,
+  temaNavn,
+  fagNavn,
+  skjultTilBruk = false,
+}: {
+  temaId: string;
+  temaNavn: string;
+  fagNavn: string;
+  skjultTilBruk?: boolean;
+}) {
   const [apen, setApen] = useState(false);
+  const [brukt, setBrukt] = useState(false);
+  const ai = useRef<AiHandle>(null);
   const { laster, innlogget, abonnement } = useTilgang();
   const laast = !laster && innlogget && !abonnement;
 
@@ -32,29 +56,43 @@ export function SporAi({ temaId, temaNavn, fagNavn }: { temaId: string; temaNavn
     return () => window.removeEventListener("keydown", onKey);
   }, [apen]);
 
+  useEffect(() => {
+    const onSpor = (e: Event) => {
+      setApen(true);
+      setBrukt(true);
+      ai.current?.send((e as CustomEvent<string>).detail);
+    };
+    window.addEventListener(HENDELSE, onSpor);
+    return () => window.removeEventListener(HENDELSE, onSpor);
+  }, []);
+
   return (
     <div className="fixed bottom-6 right-5 sm:right-8 z-50 flex flex-col items-end gap-3">
-      <AiHjelp temaId={temaId} temaNavn={temaNavn} fagNavn={fagNavn} apen={apen} onLukk={() => setApen(false)} />
-      <button
-        onClick={() => setApen((v) => !v)}
-        aria-expanded={apen}
-        aria-controls="ai-panel"
-        className="flex items-center gap-2.5 h-13 pl-4 pr-5 rounded-2xl bg-foreground text-background font-semibold text-sm shadow-lift transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.97]"
-      >
-        {apen ? <Close size={20} /> : laast ? <Lock size={18} /> : <Chat size={20} />}
-        {apen ? "Lukk" : "Spør AI"}
-      </button>
+      <AiHjelp ref={ai} temaId={temaId} temaNavn={temaNavn} fagNavn={fagNavn} apen={apen} onLukk={() => setApen(false)} />
+      {(!skjultTilBruk || brukt) && (
+        <button
+          onClick={() => setApen((v) => !v)}
+          aria-expanded={apen}
+          aria-controls="ai-panel"
+          className="flex items-center gap-2.5 h-13 pl-4 pr-5 rounded-2xl bg-foreground text-background font-semibold text-sm shadow-lift transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.97]"
+        >
+          {apen ? <Close size={20} /> : laast ? <Lock size={18} /> : <Chat size={20} />}
+          {apen ? "Lukk" : "Spør AI"}
+        </button>
+      )}
     </div>
   );
 }
 
 function AiHjelp({
+  ref,
   temaId,
   temaNavn,
   fagNavn,
   apen,
   onLukk,
 }: {
+  ref?: React.Ref<AiHandle>;
   temaId: string;
   temaNavn: string;
   fagNavn: string;
@@ -72,6 +110,16 @@ function AiHjelp({
   const avbryt = useRef<AbortController | null>(null);
 
   useEffect(() => () => avbryt.current?.abort(), []);
+
+  // sporAi() sender via denne. Uten innlogging eller abonnement åpnes bare
+  // panelet, som da forklarer hva som trengs.
+  const sendUtenfra = useRef<(tekst: string) => void>(() => {});
+  useEffect(() => {
+    sendUtenfra.current = (tekst) => {
+      if (bruker && abonnement) send(tekst);
+    };
+  });
+  useImperativeHandle(ref, () => ({ send: (tekst) => sendUtenfra.current(tekst) }), []);
 
   useEffect(() => {
     if (apen) felt.current?.focus();

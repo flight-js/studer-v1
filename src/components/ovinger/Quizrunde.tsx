@@ -2,13 +2,20 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
-import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
+import { sporAi } from "@/components/AiHjelp";
+import { ArrowRight, Chat, Check, Close, Repeat } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
 import { lagreResultat, temaHref, type Sporsmal } from "@/lib/pensum";
+import { stokkRunde } from "@/lib/stokk";
 
 const LETTERS = ["A", "B", "C", "D", "E"];
 
-export function Quizrunde({ temaId, sporsmal, tilbake }: { temaId: string; sporsmal: Sporsmal[]; tilbake: string }) {
+const forklarTekst = (q: Sporsmal, valgt: number) =>
+  `Jeg svarte feil på et quizspørsmål og vil forstå det.\n\nSpørsmål: ${q.tekst}\nMitt svar: ${q.alternativer[valgt]}\nRiktig svar: ${q.alternativer[q.riktig]}\n\nKan du forklare hvorfor?`;
+
+// sporsmal kommer ferdig stokket fra siden; «Ta quizen igjen» stokker på nytt.
+export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: string; sporsmal: Sporsmal[]; tilbake: string }) {
+  const [sporsmal, setSporsmal] = useState(forste);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [score, setScore] = useState(0);
@@ -40,6 +47,7 @@ export function Quizrunde({ temaId, sporsmal, tilbake }: { temaId: string; spors
   }, [index, total, temaId, score]);
 
   function restart() {
+    setSporsmal(stokkRunde(sporsmal));
     setIndex(0);
     setSelected(null);
     setScore(0);
@@ -49,6 +57,8 @@ export function Quizrunde({ temaId, sporsmal, tilbake }: { temaId: string; spors
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (done) return;
+      // Ikke svar eller gå videre mens eleven skriver i AI-hjelpen.
+      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog]")) return;
       const n = Number(e.key);
       if (n >= 1 && n <= q.alternativer.length) choose(n - 1);
       const onButton = (e.target as HTMLElement).closest("button");
@@ -76,7 +86,8 @@ export function Quizrunde({ temaId, sporsmal, tilbake }: { temaId: string; spors
         </div>
       </Ovingstopp>
 
-      <main id="innhold" className="flex-1 flex flex-col px-5 sm:px-8 py-10 sm:py-16">
+      {/* pb-28: plass til AI-knappen nederst til høyre, så den ikke dekker «Neste spørsmål». */}
+      <main id="innhold" className="flex-1 flex flex-col px-5 sm:px-8 pt-10 sm:pt-16 pb-28">
         {done ? (
           <Result score={score} total={total} onRestart={restart} temaId={temaId} />
         ) : (
@@ -142,6 +153,15 @@ export function Quizrunde({ temaId, sporsmal, tilbake }: { temaId: string; spors
                     {isCorrect ? "Riktig" : "Ikke helt"}
                   </span>
                   <span className="text-sm leading-relaxed text-ink-soft">{q.forklaring}</span>
+                  {!isCorrect && (
+                    <button
+                      onClick={() => sporAi(forklarTekst(q, selected!))}
+                      className="mt-2 self-start inline-flex items-center gap-2 bg-surface border border-border px-3.5 py-2 rounded-lg text-sm font-semibold text-foreground hover:border-border-strong transition-colors active:scale-[0.98]"
+                    >
+                      <Chat size={16} />
+                      Forklar med AI
+                    </button>
+                  )}
                 </span>
               </div>
             )}
