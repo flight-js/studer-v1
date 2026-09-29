@@ -82,10 +82,12 @@ Krav:
 - Bygg bare på fakta i sammendraget og begrepene under. Ikke finn på tall, årstall, navn, sitater eller påstander som ikke står der.
 - Varier typen: forklar et begrep med egne ord, forklar en årsak eller sammenheng (hvorfor/hvordan), sammenlign to ting, gi et eksempel og begrunn det, bruk kunnskapen på en konkret situasjon. I matematikk og realfag: minst to korte regneoppgaver som kan løses uten kalkulator, der fasiten viser svaret og det viktigste steget.
 - Hver oppgave skal ha et tydelig svar som kan vurderes. Ikke ja/nei-spørsmål, ikke flervalg, ikke meningsspørsmål uten fasit, ikke «skriv en tekst om …».
+- Hver oppgave må kunne forstås alene. Eleven ser ikke sammendraget under prøven, så ikke vis til «sammendraget», «teksten», «eksemplene» eller annet eleven ikke har foran seg – ta med det eleven trenger i selve oppgaven.
+- Ikke skriv hvor langt svaret skal være («Svar med 1–4 setninger») – det står i appen.
 - Ikke spør om det samme to ganger, og ikke kopier quizspørsmålene under.
 - Nivået skal passe ${trinnNavn}. Skriv enkelt og presist.
 - fasit: et fullgodt svar på elevens nivå, 1–3 setninger.
-- kriterier: 1–3 korte punkter som må være med for fullt poeng. Beskriv det faglige innholdet, ikke bestemte ord. Et svar som får med noe av det, gir halvt poeng.
+- kriterier: 1–3 korte punkter som må være med for fullt poeng. Beskriv det vesentlige faglige innholdet, ikke bestemte ord og ikke noe så enkelt at nesten alle svar får det med (som «nevner at det handler om tid»). Et svar som får med noe av det, gir halvt poeng.
 - Skriv på samme språk og målform som sammendraget. I språkfag (engelsk, tysk, fransk, spansk …) kan oppgaven stå på målspråket når quizspørsmålene gjør det – da svarer eleven på målspråket.`;
 
   const begreper = t.flashcards.map((f) => `- ${f.term}: ${f.def}`).join("\n");
