@@ -67,14 +67,16 @@ export function seedStatements(opts = {}) {
             values([[str(inn.tema_id), str(inn.sammendrag), jsonb(inn.tankekart)]]) +
             "\non conflict (tema_id) do update set sammendrag = excluded.sammendrag, tankekart = excluded.tankekart;",
           `delete from public.flashcards where tema_id = ${str(t.id)};`,
-          "insert into public.flashcards (tema_id, begrep, forklaring, sortering) values\n" +
-            values(flashcards.map((c) => [str(c.tema_id), str(c.begrep), str(c.forklaring), int(c.sortering)])) + ";",
+          "insert into public.flashcards (tema_id, begrep, forklaring, kjerne, sortering) values\n" +
+            values(
+              flashcards.map((c) => [str(c.tema_id), str(c.begrep), str(c.forklaring), bool(c.kjerne), int(c.sortering)])
+            ) + ";",
           `delete from public.quiz_sporsmal where tema_id = ${str(t.id)};`,
-          "insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, sortering) values\n" +
+          "insert into public.quiz_sporsmal (tema_id, nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz, i_miniprove, kjerne, sortering) values\n" +
             values(
               sporsmal.map((q) => [
                 str(q.tema_id), str(q.nokkel), str(q.type), str(q.tekst), textArr(q.alternativer),
-                int(q.riktig), str(q.forklaring), bool(q.i_quiz), bool(q.i_miniprove), int(q.sortering),
+                int(q.riktig), str(q.forklaring), bool(q.i_quiz), bool(q.i_miniprove), bool(q.kjerne), int(q.sortering),
               ])
             ) + ";",
           "insert into public.miniprover (tema_id, minutter) values\n" +
@@ -83,10 +85,10 @@ export function seedStatements(opts = {}) {
           `delete from public.skriveoppgaver where tema_id = ${str(t.id)};`,
           ...(skriveoppgaver.length
             ? [
-                "insert into public.skriveoppgaver (tema_id, nokkel, tekst, fasit, kriterier, sortering) values\n" +
+                "insert into public.skriveoppgaver (tema_id, nokkel, tekst, fasit, kriterier, kjerne, sortering) values\n" +
                   values(
                     skriveoppgaver.map((s) => [
-                      str(s.tema_id), str(s.nokkel), str(s.tekst), str(s.fasit), textArr(s.kriterier), int(s.sortering),
+                      str(s.tema_id), str(s.nokkel), str(s.tekst), str(s.fasit), textArr(s.kriterier), bool(s.kjerne), int(s.sortering),
                     ])
                   ) + ";",
               ]

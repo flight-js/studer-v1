@@ -3,8 +3,10 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Dot } from "@/components/Dot";
+import { Ekstramerke } from "@/components/Ekstramerke";
 import { ArrowRight, Check, Close, Repeat } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
+import { Rapporter } from "@/components/Rapporter";
 import { lagreResultat, temaHref, type Flashcard } from "@/lib/pensum";
 
 export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort: Flashcard[]; tilbake: string }) {
@@ -56,7 +58,7 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
     const onKey = (e: KeyboardEvent) => {
       if (done) return;
       // Ikke snu eller svar mens eleven skriver, for eksempel i AI-chatten.
-      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog]")) return;
+      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog], [data-rapport]")) return;
       if (e.key === " " && !(e.target as HTMLElement).closest("button")) {
         e.preventDefault();
         setFlipped((v) => !v);
@@ -122,6 +124,11 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
                 className="flip-card relative block w-full h-80 sm:h-96"
               >
                 <span className="flip-face absolute inset-0 bg-surface border border-border rounded-[28px] shadow-lift flex flex-col items-center justify-center gap-4 p-8 text-center">
+                  {!card.kjerne && (
+                    <span className="absolute top-6 inset-x-6 flex justify-center">
+                      <Ekstramerke forklart />
+                    </span>
+                  )}
                   <span className="text-sm font-medium text-faint">Begrep</span>
                   <span
                     lang="nb"
@@ -166,6 +173,8 @@ export function Flashcardbunke({ temaId, kort, tilbake }: { temaId: string; kort
             <p className="hidden sm:block text-xs text-faint">
               Mellomrom snur kortet<Dot />← kan ikke ennå<Dot />→ kan dette
             </p>
+
+            <Rapporter key={card.begrep} temaId={temaId} type="flashcard" nokkel={card.begrep} />
           </>
         )}
       </main>

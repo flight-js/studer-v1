@@ -3,7 +3,7 @@
 // riktig på en skriveoppgave gir ½.
 
 import type { ProveSporsmal, Skriveoppgave } from "./pensum";
-import { stokk, stokkAlternativer } from "./stokk";
+import { stokk, stokkAlternativer, stokkKjerneForst } from "./stokk";
 import { supabase } from "./supabase";
 
 export const ANTALL_SKRIV = 5;
@@ -18,16 +18,17 @@ export type Vurdering = {
 };
 
 // Trekker oppgavene til én prøve, så den blir litt annerledes hver gang.
-// Raske spørsmål hentes helst fra dem som ikke også er i quizen, og
-// alternativene stokkes. Mangler temaet skriveoppgaver, fylles prøven opp
-// med raske spørsmål.
+// Kjernestoffet velges før det som er merket «Ekstra». Blant de raske
+// spørsmålene tas helst de som ikke også er i quizen, og alternativene
+// stokkes. Mangler temaet skriveoppgaver, fylles prøven opp med raske spørsmål.
 export function settSammen(raske: ProveSporsmal[], skriv: Skriveoppgave[]) {
-  const valgteSkriv = stokk(skriv).slice(0, ANTALL_SKRIV);
+  const valgteSkriv = stokkKjerneForst(skriv).slice(0, ANTALL_SKRIV);
   const antallRaske = ANTALL_RASKE + ANTALL_SKRIV - valgteSkriv.length;
-  const valgteRaske = [
-    ...stokk(raske.filter((q) => q.kunProve)),
-    ...stokk(raske.filter((q) => !q.kunProve)),
-  ]
+  const valgteRaske = [true, false]
+    .flatMap((kjerne) => {
+      const gruppe = raske.filter((q) => q.kjerne === kjerne);
+      return [...stokk(gruppe.filter((q) => q.kunProve)), ...stokk(gruppe.filter((q) => !q.kunProve))];
+    })
     .slice(0, antallRaske)
     .map(stokkAlternativer);
   return { raske: valgteRaske, skriv: valgteSkriv };

@@ -15,7 +15,8 @@ const filter = process.argv[2] ?? "";
 
 const LIMITS = {
   sammendragOrd: [300, 600],
-  flashcards: [15, 25],
+  flashcards: [8, 25],
+  kjernebegreper: 8, // advarsel under dette (se nivåsjekken)
   quiz: [10, 15],
   miniprove: [15, 20],
   skriv: [6, 10],
@@ -43,9 +44,15 @@ const dirs = (p) =>
   existsSync(p) ? readdirSync(p).filter((d) => statSync(join(p, d)).isDirectory()) : [];
 const inRange = (n, [min, max]) => n >= min && n <= max;
 const nonEmpty = (s) => typeof s === "string" && s.trim().length > 0;
+// niva mangler = kjerne (se content/types.ts)
+const NIVAER = ["eksempel", "over-niva"];
+const checkNiva = (where, x, navn) => {
+  if (x.niva !== undefined && !NIVAER.includes(x.niva)) err(where, `${navn}: ukjent niva «${x.niva}»`);
+};
 
 function checkQuestion(where, q, { needsId = true } = {}) {
   if (needsId && !nonEmpty(q.id)) err(where, "spørsmål mangler id");
+  checkNiva(where, q, q.id);
   if (!nonEmpty(q.text)) err(where, `${q.id}: mangler tekst`);
   if (!nonEmpty(q.explain)) err(where, `${q.id}: mangler forklaring`);
   if (/^riktig\b/i.test(q.explain ?? "")) err(where, `${q.id}: forklaringen skal ikke starte med «Riktig»`);
@@ -104,7 +111,11 @@ function checkTema(file, tema, fag) {
     const k = c.term?.trim().toLowerCase();
     if (terms.has(k)) err(where, `flashcard «${c.term}» finnes to ganger`);
     terms.add(k);
+    checkNiva(where, c, c.term);
   }
+  const kjerne = cards.filter((c) => !c.niva).length;
+  if (tema.kvalitet?.nivasjekk && kjerne < LIMITS.kjernebegreper)
+    warn(where, `bare ${kjerne} kjernebegreper (ønsket minst ${LIMITS.kjernebegreper})`);
 
   const quiz = tema.quiz ?? [];
   if (!inRange(quiz.length, LIMITS.quiz)) err(where, `${quiz.length} quizspørsmål (krav ${LIMITS.quiz.join("–")})`);
@@ -149,6 +160,7 @@ function checkTema(file, tema, fag) {
         if (!Array.isArray(s.kriterier) || !inRange(s.kriterier.length, [1, 3]) || !s.kriterier.every(nonEmpty))
           err(where, `${s.id}: skriveoppgaven må ha 1–3 kriterier`);
         if (ids.has(s.id)) err(where, `id «${s.id}» finnes to ganger`);
+        checkNiva(where, s, s.id);
         ids.add(s.id);
       }
     }
@@ -163,10 +175,12 @@ function checkTema(file, tema, fag) {
   if (!kv || !["utkast", "sjekkes", "godkjent"].includes(kv.status)) err(where, "ugyldig kvalitet.status");
   else if (kv.status === "sjekkes" && !(kv.merknader?.length > 0))
     err(where, "status «sjekkes» krever minst én merknad");
+  if (kv?.nivasjekk !== undefined && !/^\d{4}-\d{2}-\d{2}$/.test(kv.nivasjekk))
+    err(where, "kvalitet.nivasjekk må være en dato (ÅÅÅÅ-MM-DD)");
 
   return {
     tema,
-    stats: `${ord} ord · ${cards.length} kort · ${quiz.length} quiz · ${mpTotal} i miniprøve · ${mm.n} noder i tankekart`,
+    stats: `${ord} ord · ${cards.length} kort (${kjerne} kjerne) · ${quiz.length} quiz · ${mpTotal} i miniprøve · ${mm.n} noder i tankekart`,
   };
 }
 

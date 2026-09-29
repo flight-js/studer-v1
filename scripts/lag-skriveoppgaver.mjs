@@ -202,7 +202,8 @@ async function arbeider() {
   while (neste < valgte.length) {
     const jobb = valgte[neste++];
     try {
-      sum += await lag(jobb);
+      const kostnad = await lag(jobb);
+      sum += kostnad; // ikke «sum += await …»: da overskriver arbeiderne hverandres sum
       ferdig++;
     } catch (e) {
       feil.push(jobb.navn);

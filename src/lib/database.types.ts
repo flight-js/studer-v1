@@ -135,6 +135,7 @@ export type Database = {
           begrep: string
           forklaring: string
           id: number
+          kjerne: boolean
           sortering: number
           tema_id: string
         }
@@ -142,6 +143,7 @@ export type Database = {
           begrep: string
           forklaring: string
           id?: never
+          kjerne?: boolean
           sortering: number
           tema_id: string
         }
@@ -149,6 +151,7 @@ export type Database = {
           begrep?: string
           forklaring?: string
           id?: never
+          kjerne?: boolean
           sortering?: number
           tema_id?: string
         }
@@ -300,6 +303,7 @@ export type Database = {
           forklaring: string
           i_miniprove: boolean
           i_quiz: boolean
+          kjerne: boolean
           nokkel: string
           riktig: number
           sortering: number
@@ -312,6 +316,7 @@ export type Database = {
           forklaring: string
           i_miniprove: boolean
           i_quiz: boolean
+          kjerne?: boolean
           nokkel: string
           riktig: number
           sortering: number
@@ -324,6 +329,7 @@ export type Database = {
           forklaring?: string
           i_miniprove?: boolean
           i_quiz?: boolean
+          kjerne?: boolean
           nokkel?: string
           riktig?: number
           sortering?: number
@@ -341,9 +347,48 @@ export type Database = {
           },
         ]
       }
+      rapporter: {
+        Row: {
+          bruker_id: string
+          grunn: string
+          id: number
+          nokkel: string
+          opprettet: string
+          tema_id: string
+          type: string
+        }
+        Insert: {
+          bruker_id?: string
+          grunn: string
+          id?: never
+          nokkel: string
+          opprettet?: string
+          tema_id: string
+          type: string
+        }
+        Update: {
+          bruker_id?: string
+          grunn?: string
+          id?: never
+          nokkel?: string
+          opprettet?: string
+          tema_id?: string
+          type?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "rapporter_tema_id_fkey"
+            columns: ["tema_id"]
+            isOneToOne: false
+            referencedRelation: "temaer"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       skriveoppgaver: {
         Row: {
           fasit: string
+          kjerne: boolean
           kriterier: string[]
           nokkel: string
           sortering: number
@@ -352,6 +397,7 @@ export type Database = {
         }
         Insert: {
           fasit: string
+          kjerne?: boolean
           kriterier?: string[]
           nokkel: string
           sortering: number
@@ -360,6 +406,7 @@ export type Database = {
         }
         Update: {
           fasit?: string
+          kjerne?: boolean
           kriterier?: string[]
           nokkel?: string
           sortering?: number

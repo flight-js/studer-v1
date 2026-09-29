@@ -21,5 +21,11 @@ export function stokkAlternativer<T extends Sporsmal>(q: T): T {
   return { ...q, alternativer: rekkefolge.map((i) => q.alternativer[i]), riktig: rekkefolge.indexOf(q.riktig) };
 }
 
+// Stokker hver gruppe for seg: kjernestoffet først, så det som er merket «Ekstra».
+export const stokkKjerneForst = <T extends { kjerne: boolean }>(liste: T[]) => [
+  ...stokk(liste.filter((x) => x.kjerne)),
+  ...stokk(liste.filter((x) => !x.kjerne)),
+];
+
 // Ny rekkefølge på både spørsmålene og alternativene.
-export const stokkRunde = <T extends Sporsmal>(sporsmal: T[]) => stokk(sporsmal).map(stokkAlternativer);
+export const stokkRunde = <T extends Sporsmal>(sporsmal: T[]) => stokkKjerneForst(sporsmal).map(stokkAlternativer);

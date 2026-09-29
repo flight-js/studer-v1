@@ -22,9 +22,17 @@ export type Katalog = {
   }[];
 };
 
+// Satt av nivåsjekken (`npm run content:niva`). Mangler feltet, er det kjerne –
+// noe nesten alle klasser lærer i temaet. Øvingene tar kjernestoffet først og
+// merker resten «Ekstra».
+//   eksempel  – ett av flere mulige eksempler; mange klasser lærer temaet uten det
+//   over-niva – mer avansert enn det trinnet forventer
+export type Niva = "eksempel" | "over-niva";
+
 export type Flashcard = {
   term: string;
   def: string;
+  niva?: Niva;
 };
 
 export type QuizQuestion = {
@@ -33,6 +41,7 @@ export type QuizQuestion = {
   options: string[]; // alltid 4 alternativer
   correct: number; // indeks i options (0–3)
   explain: string; // forklarer hvorfor svaret er riktig – aldri «Riktig!» først
+  niva?: Niva;
 };
 
 export type TrueFalseQuestion = {
@@ -41,6 +50,7 @@ export type TrueFalseQuestion = {
   text: string; // en påstand
   correct: boolean;
   explain: string;
+  niva?: Niva;
 };
 
 export type MiniproveQuestion =
@@ -54,6 +64,7 @@ export type Skriveoppgave = {
   text: string; // spørsmålet, kan besvares med 1–4 setninger
   fasit: string; // et fullgodt svar på elevens nivå, 1–3 setninger
   kriterier: string[]; // 1–3 punkter som må være med for fullt poeng
+  niva?: Niva;
 };
 
 export type Miniprove = {
@@ -78,6 +89,7 @@ export type Kvalitet = {
   // godkjent – gjennomgått av lærer/produkteier
   status: "utkast" | "sjekkes" | "godkjent";
   merknader: string[];
+  nivasjekk?: string; // dato for siste nivåsjekk, «2026-09-29»
 };
 
 export type TemaContent = {
@@ -88,7 +100,7 @@ export type TemaContent = {
   intro: string; // én setning som beskriver temaet
   kompetansemaal: number[]; // nummer i fagets kompetansemål-liste (se _fag.json)
   sammendrag: string; // 300–600 ord. Avsnitt skilles med tom linje, «## » gir mellomtittel, **fet**
-  flashcards: Flashcard[]; // 15–25
+  flashcards: Flashcard[]; // 8–25, helst minst 8 kjernebegreper
   quiz: QuizQuestion[]; // 10–15
   mindmap: MindmapNode;
   miniprove: Miniprove;

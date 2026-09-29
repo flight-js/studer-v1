@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { sporAi } from "@/components/AiHjelp";
 import { ArrowRight, Chat, Check, Close, Repeat } from "@/components/icons";
+import { Ekstramerke } from "@/components/Ekstramerke";
 import { Ovingstopp } from "@/components/Ovingsramme";
+import { Rapporter } from "@/components/Rapporter";
 import { lagreResultat, temaHref, type Sporsmal } from "@/lib/pensum";
 import { stokkRunde } from "@/lib/stokk";
 
@@ -58,7 +60,7 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
     const onKey = (e: KeyboardEvent) => {
       if (done) return;
       // Ikke svar eller gå videre mens eleven skriver i AI-hjelpen.
-      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog]")) return;
+      if ((e.target as HTMLElement).closest("input, textarea, select, [contenteditable], [role=dialog], [data-rapport]")) return;
       const n = Number(e.key);
       if (n >= 1 && n <= q.alternativer.length) choose(n - 1);
       const onButton = (e.target as HTMLElement).closest("button");
@@ -92,7 +94,13 @@ export function Quizrunde({ temaId, sporsmal: forste, tilbake }: { temaId: strin
           <Result score={score} total={total} onRestart={restart} temaId={temaId} />
         ) : (
           <div key={index} className="w-full max-w-2xl mx-auto flex flex-col gap-7 rise">
-            <p className="text-sm font-medium text-muted">Spørsmål {index + 1}</p>
+            <div className="flex items-start justify-between gap-4">
+              <p className="shrink-0 flex items-center gap-2.5 whitespace-nowrap text-sm font-medium text-muted">
+                Spørsmål {index + 1}
+                {!q.kjerne && <Ekstramerke />}
+              </p>
+              <Rapporter key={q.nokkel} temaId={temaId} type="sporsmal" nokkel={q.nokkel} plassering="hoyre" />
+            </div>
             <h1 className="font-display text-[26px] sm:text-4xl font-semibold leading-[1.15] tracking-[-0.015em]">
               {q.tekst}
             </h1>

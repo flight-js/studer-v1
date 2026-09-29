@@ -89,6 +89,7 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
           tema_id: id,
           begrep: c.term,
           forklaring: c.def,
+          kjerne: !c.niva,
           sortering: i,
         })),
         sporsmal: sporsmal.map((q, i) => {
@@ -103,6 +104,7 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
             forklaring: q.explain,
             i_quiz: q.iQuiz,
             i_miniprove: q.iMini,
+            kjerne: !q.niva,
             sortering: i,
           };
         }),
@@ -113,6 +115,7 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
           tekst: s.text,
           fasit: s.fasit,
           kriterier: s.kriterier,
+          kjerne: !s.niva,
           sortering: i,
         })),
       };

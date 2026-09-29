@@ -3,8 +3,10 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Dot } from "@/components/Dot";
+import { Ekstramerke } from "@/components/Ekstramerke";
 import { ArrowRight, Check, Close, Pen, Repeat, Timer } from "@/components/icons";
 import { Ovingstopp } from "@/components/Ovingsramme";
+import { Rapporter } from "@/components/Rapporter";
 import { Laster } from "@/components/Tilstand";
 import {
   ANTALL_RASKE,
@@ -225,10 +227,13 @@ export function Miniprove({
                 {utvalg.raske.map((q, i) => (
                   <li key={q.nokkel} className="bg-surface border border-border rounded-3xl p-5 sm:p-7 flex flex-col gap-5">
                     <div className="flex flex-col gap-2">
-                      <span className="text-sm font-medium text-muted">
-                        {i + 1}
-                        <Dot />
-                        {q.type === "sant-usant" ? "Sant eller usant?" : "Velg ett svar"}
+                      <span className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm font-medium text-muted">
+                        <span>
+                          {i + 1}
+                          <Dot />
+                          {q.type === "sant-usant" ? "Sant eller usant?" : "Velg ett svar"}
+                        </span>
+                        {!q.kjerne && <Ekstramerke />}
                       </span>
                       <h2 className="font-display text-xl sm:text-2xl font-semibold leading-snug tracking-[-0.01em]">
                         {q.tekst}
@@ -282,10 +287,13 @@ export function Miniprove({
                   return (
                     <li key={s.nokkel} className="bg-surface border border-border rounded-3xl p-5 sm:p-7 flex flex-col gap-4">
                       <div className="flex flex-col gap-2">
-                        <span className="text-sm font-medium text-muted">
-                          {nr}
-                          <Dot />
-                          Skriv svaret
+                        <span className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm font-medium text-muted">
+                          <span>
+                            {nr}
+                            <Dot />
+                            Skriv svaret
+                          </span>
+                          {!s.kjerne && <Ekstramerke />}
                         </span>
                         <h2
                           id={`oppgave-${s.nokkel}`}
@@ -434,6 +442,7 @@ export function Miniprove({
                           <span className="text-success-ink font-semibold">Riktig: {q.alternativer[q.riktig]}</span>
                         </p>
                         <p className="text-sm text-ink-soft leading-relaxed">{q.forklaring}</p>
+                        <Rapporter temaId={temaId} type="sporsmal" nokkel={q.nokkel} plassering="venstre" />
                       </div>
                     </li>
                   );
@@ -474,6 +483,7 @@ export function Miniprove({
                         ) : (
                           r?.status === "feil" && <p className="text-sm text-danger-ink">{r.melding}</p>
                         )}
+                        <Rapporter temaId={temaId} type="skriv" nokkel={s.nokkel} plassering="venstre" />
                       </div>
                     </li>
                   );
