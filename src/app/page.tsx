@@ -149,7 +149,7 @@ function Markedsside() {
                 <MiniOption state="wrong">Senker den</MiniOption>
               </div>
             </Tile>
-            <Tile className="md:col-span-2" title="Miniprøver" text="20 minutter, blandet format – som en ekte prøve.">
+            <Tile className="md:col-span-2" title="Miniprøver" text="Skriv svarene selv, på tid. KI retter, og delvis riktig gir halvt poeng.">
               <div className="font-display text-4xl font-semibold tabular-nums tracking-tight text-foreground/90 mt-1">
                 14:32
               </div>

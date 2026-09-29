@@ -17,6 +17,7 @@ import { Abonnementskort } from "@/components/Las";
 import { Feil, KreverInnlogging, Laster } from "@/components/Tilstand";
 import { useAuth, useTilgang } from "@/lib/auth";
 import { abonnementHref } from "@/lib/betaling";
+import { ANTALL_RASKE, ANTALL_SKRIV, poengTekst } from "@/lib/miniprove";
 import {
   hentFremdrift,
   hentOmfang,
@@ -152,7 +153,21 @@ function Tema() {
                 href={temaHref("/miniprove", id)}
                 laast={laast}
                 title="Miniprøve"
-                text={o ? <>{o.miniprove} spørsmål<Dot />{o.minutter} minutter</> : "Blandet format, på tid"}
+                text={
+                  o?.skriv ? (
+                    <>
+                      Skriveoppgaver rettet av KI<Dot />
+                      {o.minutter} minutter
+                    </>
+                  ) : o ? (
+                    <>
+                      {Math.min(o.miniprove, ANTALL_RASKE + ANTALL_SKRIV)} spørsmål<Dot />
+                      {o.minutter} minutter
+                    </>
+                  ) : (
+                    "Skriv svarene selv, på tid"
+                  )
+                }
                 resultat={f?.miniprove}
                 icon={<Timer size={22} />}
               />
@@ -231,7 +246,7 @@ function ModeCard({
         <span className="text-sm text-muted">{text}</span>
         {resultat && (
           <span className="text-xs font-semibold text-success-ink tabular-nums mt-1">
-            Beste: {resultat.beste} av {resultat.av}
+            Beste: {poengTekst(resultat.beste)} av {resultat.av}
           </span>
         )}
       </span>

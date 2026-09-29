@@ -107,6 +107,14 @@ export function pensumRader({ publiserUtkast = false, fag: bareFag } = {}) {
           };
         }),
         miniprove: { tema_id: id, minutter: t.miniprove.minutter },
+        skriveoppgaver: (t.miniprove.skriv ?? []).map((s, i) => ({
+          tema_id: id,
+          nokkel: s.id,
+          tekst: s.text,
+          fasit: s.fasit,
+          kriterier: s.kriterier,
+          sortering: i,
+        })),
       };
     });
 

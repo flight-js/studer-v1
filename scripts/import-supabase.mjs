@@ -79,6 +79,9 @@ for (const f of innhold) {
   await kjør(`${f.fagId}: slett spørsmål`, db.from("quiz_sporsmal").delete().in("tema_id", ider));
   await kjør(`${f.fagId}: spørsmål`, db.from("quiz_sporsmal").insert(f.temaer.flatMap((t) => t.sporsmal)));
   await kjør(`${f.fagId}: miniprøver`, db.from("miniprover").upsert(f.temaer.map((t) => t.miniprove)));
+  await kjør(`${f.fagId}: slett skriveoppgaver`, db.from("skriveoppgaver").delete().in("tema_id", ider));
+  const skriv = f.temaer.flatMap((t) => t.skriveoppgaver);
+  if (skriv.length) await kjør(`${f.fagId}: skriveoppgaver`, db.from("skriveoppgaver").insert(skriv));
 
   const publisert = f.temaer.filter((t) => t.tema.publisert).length;
   console.log(`${f.navn} (${f.trinnId}): ${ider.length} temaer, ${publisert} publisert`);

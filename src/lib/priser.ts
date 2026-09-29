@@ -17,4 +17,4 @@ export const ENHET: Record<Plan, string> = { maned: "/ mnd", ar: "/ år" };
 // Må stemme med PROVEDAGER i supabase/functions/betaling.
 export const PROVEDAGER = 14;
 
-export const FORDELER =["Alle fag og trinn", "Ubegrenset quiz og flashcards", "AI-hjelp i alle temaer"];
+export const FORDELER = ["Alle fag og trinn", "Ubegrenset quiz og flashcards", "AI-hjelp og miniprøver rettet av KI"];

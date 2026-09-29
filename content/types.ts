@@ -47,11 +47,22 @@ export type MiniproveQuestion =
   | ({ type: "flervalg" } & QuizQuestion)
   | TrueFalseQuestion;
 
+// Skriveoppgave: eleven skriver svaret selv, og KI retter det mot fasiten og
+// kriteriene (0, ½ eller 1 poeng). Lages med `npm run content:skriv`.
+export type Skriveoppgave = {
+  id: string; // "s01", unikt innen temaet
+  text: string; // spørsmålet, kan besvares med 1–4 setninger
+  fasit: string; // et fullgodt svar på elevens nivå, 1–3 setninger
+  kriterier: string[]; // 1–3 punkter som må være med for fullt poeng
+};
+
 export type Miniprove = {
   minutter: number;
   quizRefs: string[]; // id-er fra temaets quiz som også inngår i prøven
   ekstra: MiniproveQuestion[]; // nye spørsmål som bare finnes i prøven
   // Totalt (quizRefs + ekstra) skal være 15–20 spørsmål.
+  // Prøven trekker 5 raske spørsmål (helst fra ekstra) og 5 skriveoppgaver.
+  skriv?: Skriveoppgave[]; // 6–10
 };
 
 // Tankekart: roten er temaet, greinene er deltemaer, bladene er begreper.

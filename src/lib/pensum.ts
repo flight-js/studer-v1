@@ -112,13 +112,15 @@ export async function hentOmfang(id: string) {
   };
   const sporsmal = () =>
     supabase.from("quiz_sporsmal").select("*", { count: "exact", head: true }).eq("tema_id", id);
-  const [flashcards, quiz, miniprove, prove] = await Promise.all([
+  const [flashcards, quiz, miniprove, skriv, prove] = await Promise.all([
     antall(supabase.from("flashcards").select("*", { count: "exact", head: true }).eq("tema_id", id)),
     antall(sporsmal().eq("i_quiz", true)),
     antall(sporsmal().eq("i_miniprove", true)),
+    // Bare kolonner eleven har lov til å lese – «*» ville tatt med fasiten.
+    antall(supabase.from("skriveoppgaver").select("nokkel", { count: "exact", head: true }).eq("tema_id", id)),
     supabase.from("miniprover").select("minutter").eq("tema_id", id).maybeSingle(),
   ]);
-  return { flashcards, quiz, miniprove, minutter: prove.data?.minutter ?? 0 };
+  return { flashcards, quiz, miniprove, skriv, minutter: prove.data?.minutter ?? 0 };
 }
 
 export async function hentFlashcards(id: string): Promise<Flashcard[]> {
@@ -141,12 +143,28 @@ async function hentSporsmal(id: string, filter: "i_quiz" | "i_miniprove"): Promi
 
 export const hentQuiz = (id: string) => hentSporsmal(id, "i_quiz");
 
+// Skriveoppgave i miniprøven. Fasiten kan ikke leses herfra – den kommer
+// sammen med vurderingen (se lib/miniprove.ts).
+export type Skriveoppgave = { nokkel: string; tekst: string };
+// kunProve: spørsmålet finnes bare i prøven, ikke i quizen.
+export type ProveSporsmal = Sporsmal & { kunProve: boolean };
+
 export async function hentMiniprove(id: string) {
-  const [sporsmal, prove] = await Promise.all([
-    hentSporsmal(id, "i_miniprove"),
+  const [sporsmal, skriv, prove] = await Promise.all([
+    supabase
+      .from("quiz_sporsmal")
+      .select("nokkel, type, tekst, alternativer, riktig, forklaring, i_quiz")
+      .eq("tema_id", id)
+      .eq("i_miniprove", true)
+      .order("sortering"),
+    supabase.from("skriveoppgaver").select("nokkel, tekst").eq("tema_id", id).order("sortering"),
     supabase.from("miniprover").select("minutter").eq("tema_id", id).maybeSingle(),
   ]);
-  return { sporsmal, minutter: sjekk(prove).minutter };
+  return {
+    raske: sjekk(sporsmal).map(({ i_quiz, ...q }) => ({ ...(q as Sporsmal), kunProve: !i_quiz })) as ProveSporsmal[],
+    skriv: sjekk(skriv) as Skriveoppgave[],
+    minutter: sjekk(prove).minutter,
+  };
 }
 
 export async function hentSammendrag(id: string) {

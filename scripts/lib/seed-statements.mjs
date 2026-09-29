@@ -51,7 +51,7 @@ export function seedStatements(opts = {}) {
       ],
     });
 
-    for (const { tema: t, innhold: inn, flashcards, sporsmal, miniprove } of f.temaer) {
+    for (const { tema: t, innhold: inn, flashcards, sporsmal, miniprove, skriveoppgaver } of f.temaer) {
       grupper.push({
         navn: `${f.navn}: ${t.navn}`,
         setninger: [
@@ -80,6 +80,17 @@ export function seedStatements(opts = {}) {
           "insert into public.miniprover (tema_id, minutter) values\n" +
             values([[str(miniprove.tema_id), int(miniprove.minutter)]]) +
             "\non conflict (tema_id) do update set minutter = excluded.minutter;",
+          `delete from public.skriveoppgaver where tema_id = ${str(t.id)};`,
+          ...(skriveoppgaver.length
+            ? [
+                "insert into public.skriveoppgaver (tema_id, nokkel, tekst, fasit, kriterier, sortering) values\n" +
+                  values(
+                    skriveoppgaver.map((s) => [
+                      str(s.tema_id), str(s.nokkel), str(s.tekst), str(s.fasit), textArr(s.kriterier), int(s.sortering),
+                    ])
+                  ) + ";",
+              ]
+            : []),
         ],
       });
     }

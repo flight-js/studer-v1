@@ -24,6 +24,7 @@ export type Database = {
           dato: string
           minutt_antall: number
           minutt_start: string
+          vurderinger: number
         }
         Insert: {
           antall?: number
@@ -31,6 +32,7 @@ export type Database = {
           dato?: string
           minutt_antall?: number
           minutt_start?: string
+          vurderinger?: number
         }
         Update: {
           antall?: number
@@ -38,6 +40,7 @@ export type Database = {
           dato?: string
           minutt_antall?: number
           minutt_start?: string
+          vurderinger?: number
         }
         Relationships: []
       }
@@ -45,14 +48,17 @@ export type Database = {
         Row: {
           antall: number
           dato: string
+          vurderinger: number
         }
         Insert: {
           antall?: number
           dato: string
+          vurderinger?: number
         }
         Update: {
           antall?: number
           dato?: string
+          vurderinger?: number
         }
         Relationships: []
       }
@@ -335,6 +341,41 @@ export type Database = {
           },
         ]
       }
+      skriveoppgaver: {
+        Row: {
+          fasit: string
+          kriterier: string[]
+          nokkel: string
+          sortering: number
+          tekst: string
+          tema_id: string
+        }
+        Insert: {
+          fasit: string
+          kriterier?: string[]
+          nokkel: string
+          sortering: number
+          tekst: string
+          tema_id: string
+        }
+        Update: {
+          fasit?: string
+          kriterier?: string[]
+          nokkel?: string
+          sortering?: number
+          tekst?: string
+          tema_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "skriveoppgaver_tema_id_fkey"
+            columns: ["tema_id"]
+            isOneToOne: false
+            referencedRelation: "temaer"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       tema_innhold: {
         Row: {
           sammendrag: string
@@ -438,12 +479,21 @@ export type Database = {
     }
     Functions: {
       ai_angre_melding: { Args: { p_bruker_id: string }; Returns: undefined }
+      ai_angre_vurdering: { Args: { p_bruker_id: string }; Returns: undefined }
       ai_registrer_melding: {
         Args: {
           p_bruker_id: string
           p_dagsgrense: number
           p_global_grense: number
           p_minuttgrense: number
+        }
+        Returns: string
+      }
+      ai_registrer_vurdering: {
+        Args: {
+          p_bruker_id: string
+          p_dagsgrense: number
+          p_global_grense: number
         }
         Returns: string
       }

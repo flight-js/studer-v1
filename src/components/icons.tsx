@@ -89,6 +89,12 @@ export const Timer = (p: IconProps) => (
   </Svg>
 );
 
+export const Pen = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M16.5 4.5l3 3L8 19l-4 1 1-4L16.5 4.5zM14 7l3 3" />
+  </Svg>
+);
+
 export const Chat = (p: IconProps) => (
   <Svg {...p}>
     <path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H9l-5 4z" />

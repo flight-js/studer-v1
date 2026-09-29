@@ -10,7 +10,9 @@
     "content:check": "node scripts/check-content.mjs",
     "content:seed": "node scripts/check-content.mjs && node scripts/build-seed.mjs",
     "content:import": "node scripts/check-content.mjs && node scripts/import-supabase.mjs",
-    "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs"
+    "content:skriv": "node scripts/lag-skriveoppgaver.mjs",
+    "ai:test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/ai-test.mjs",
+    "ai:vurder-test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/vurder-test.mjs"
   },
   "dependencies": {
     "@stripe/stripe-js": "^9.17.0",

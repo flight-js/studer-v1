@@ -18,6 +18,7 @@ const LIMITS = {
   flashcards: [15, 25],
   quiz: [10, 15],
   miniprove: [15, 20],
+  skriv: [6, 10],
   mindmapGreiner: 3,
 };
 
@@ -140,6 +141,17 @@ function checkTema(file, tema, fag) {
     }
     mpTotal = refs.length + (mp.ekstra?.length ?? 0);
     if (!inRange(mpTotal, LIMITS.miniprove)) err(where, `miniprøven har ${mpTotal} spørsmål (krav ${LIMITS.miniprove.join("–")})`);
+    // Skriveoppgavene er valgfrie til de er laget (npm run content:skriv).
+    if (mp.skriv) {
+      if (!inRange(mp.skriv.length, LIMITS.skriv)) err(where, `${mp.skriv.length} skriveoppgaver (krav ${LIMITS.skriv.join("–")})`);
+      for (const s of mp.skriv) {
+        if (!nonEmpty(s.id) || !nonEmpty(s.text) || !nonEmpty(s.fasit)) err(where, `skriveoppgave ${s.id ?? "?"} mangler id, tekst eller fasit`);
+        if (!Array.isArray(s.kriterier) || !inRange(s.kriterier.length, [1, 3]) || !s.kriterier.every(nonEmpty))
+          err(where, `${s.id}: skriveoppgaven må ha 1–3 kriterier`);
+        if (ids.has(s.id)) err(where, `id «${s.id}» finnes to ganger`);
+        ids.add(s.id);
+      }
+    }
   }
 
   const mm = countNodes(tema.mindmap);
